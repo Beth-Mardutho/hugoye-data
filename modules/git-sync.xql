@@ -84,7 +84,7 @@ declare function local:do-update($commits as xs:string*, $contents-url as xs:str
     let $file-data := 
         if(contains($file-name,'.xar')) then ()
         else local:get-file-data($file,$contents-url)
-    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
+    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name) 
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))        
     return 
         try {
@@ -118,7 +118,7 @@ declare function local:do-add($commits as xs:string*, $contents-url as xs:string
     let $file-data := 
         if(contains($file-name,'.xar')) then ()
         else local:get-file-data($file,$contents-url)
-    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
+    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name)
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))
     return
         try {
@@ -148,7 +148,7 @@ declare function local:do-add($commits as xs:string*, $contents-url as xs:string
 declare function local:do-delete($commits as xs:string*, $contents-url as xs:string?){
     for $file in $commits
     let $file-name := tokenize($file,'/')[last()]
-    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
+    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name) 
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))
     return
         if(contains($file-name,'.xar')) then ()
@@ -198,7 +198,7 @@ if(not(empty($post-data))) then
     let $payload := util:base64-decode($post-data)
     let $json-data := parse-json($payload)
     let $branch := if($git-config//github-branch/text() != '') then $git-config//github-branch/text() else 'refs/heads/master'
-    return
+    return 
         if($json-data?ref[. = $branch]) then 
              try {
                 if(matches(request:get-header('User-Agent'), '^GitHub-Hookshot/')) then
