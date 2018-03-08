@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Mary as a 'Letter'</title>
+                <title type="sub">And Some Other Letter Imagery in Syriac Liturgical Texts</title>
+                <author>
+                    <name>
+                        <forename>Sebastian P.</forename>
+                        <surname>Brock</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Oxford University</orgName>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2018</date>
+                <idno>Volume 21.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.org/h21v1n1brock</idno><!-- Not sure what to do about URI address -->
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Sebastian P. Brock</author>
+                        <title level="a">Mary as a 'Letter' And Some Other Letter Imagery in Syriac Liturgical Texts</title>
+                        <idno type="URI">http://syriaca.org/bibl/####</idno><!-- Need to think about how to do this -->
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2018</date>
+                        </imprint>
+                        <biblScope type="vol" n="21">21</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="3" to="20">3-20</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+                <language ident="it"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Mary</term>
+                    <term>liturgy</term>
+                    <term>letters</term>
+                    <term>Hudra</term>
+                    <term>Jacob of Serugh</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p xml:lang="en">Imagery surrounding the sending of letters is frequently
+                    encountered in Syriac poetry. The article provides a number of examples of the
+                    use of letter imagery linked to episodes in the Bible, focussing primarily on
+                    the Annunciation to Mary, though attention is also drawn to other episodes, both
+                    elsewhere in the Gospels, and in the Old Testament. At the end a striking modern
+                    example of the use of the imagery in visual form for the Annunciation is
+                    adduced.</p>
+            </div>
+            <div type="acknowledgements">
+                <p xml:lang="en">This article was originally published in Polish in the periodical
+                    Vox Patrum 26 (2006), pp. 89-99, in an issue in honour of the Revd. Professor
+                    Marek Starowieyski.</p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="h21v1n1.1" xml:lang="en">
+                <pb n="3"/>
+                <!-- Devise xml:id system for section namimg? -->
+                <head>Introduction<ref type="noteAnchor" n="1" xml:id="note1" target="#fn1"
+                    >1</ref></head>
+                <p xml:lang="en">The scribal arts have had a long association with Aramaic and
+                    Syriac. A famous wall-painting from Til Barsip (Tel Ahmar) depicts two scribes,
+                    one writing with a stylus in cuneiform, the other with a pen, writing (no doubt)
+                    in Aramaic.<ref type="noteAnchor" n="2" xml:id="note2" target="#fn2">2</ref>
+                    Already <pb n="4"/>in the earliest Syriac documents, from the early 240s AD, Syriac scribes
+                    identified themselves by name, whereas in the contemporary Greek texts from the
+                    same source, the Greek scribes remain anonymous, suggesting that Syriac scribes
+                    enjoyed a higher social status than their Greek counterparts.<ref
+                        type="noteAnchor" n="3" xml:id="note3" target="#fn3">3</ref> Likewise in
+                    Syriac literary manuscripts the scribe frequently gives his name (sometimes
+                    adding proudly that he is 'an Edessan scribe'), whereas it is much rarer for
+                    Greek scribes to mention their name. Accordingly, it is not all that surprising
+                    that various kinds of scribal imagery should be particularly common in Syriac
+                    writers. Of course this sort of imagery is to be found elsewhere as well, and in
+                    the New Testament <persName ref="http://syriaca.org/person/1983">Paul</persName>
+                    already speaks of the 'document of debt' (Col. 2:14), a theme that is
+                    considerably developed in Syriac liturgical poetry. Here, however, attention
+                    will be confined to the specific imagery of a letter. </p>
+                <p xml:lang="en">Two Syriac terms for 'letter' are encountered, egarta and saqra.
+                    The former is familiar from certain other Semitic languages, including Hebrew,
+                    while the latter is a loan word from Latin sacra (reaching Syriac by way of
+                    Greek), an official letter from a higher authority, for which 'missive' is
+                    employed in the translations below.<ref type="noteAnchor" n="4" xml:id="note4"
+                        target="#fn4">4</ref> Although the present article is confined to the use of
+                    letter imagery in connection with the Bible, in passing it should be recalled
+                    that one of the earliest pieces of Syriac literature, the 'Hymn of the Pearl',
+                    incorporated into the Acts of Thomas, tells how the Prince's father and mother
+                    arouse him from his 'deep sleep' in Egypt by means of a letter 'that flew in the
+                    likeness of an eagle ... and alighted beside [him] and became all speech' (Acts
+                    of <pb n="5"/>Thomas 111, couplets 51-2). Letter imagery is also used in another early
+                    text, the Odes of Solomon, where the Lord's 'thought was like letter, and his
+                    will descended from on high' (Ode 23:5). This puzzling Ode still defies a fully
+                    satisfactory explanation, although Harris and Mingana, who draw attention to
+                    some of the letter imagery in later Syriac writers, cited below, seem to be on
+                    the right path; we shall be returning briefly to this in due course.</p>
+            </div>
+            <div xml:id="h21v1n1.2" xml:lang="en">
+                <head>Gabriel Bears a Letter at the Annunciation</head>
+                <p xml:lang="en">The context in which one encounters letter imagery most frequently
+                    is the Annunciation. The term used may be either egarta, the standard term for a
+                    letter, or (more frequently) saqra, a missive from a higher authority. One of
+                    the anonymous madrashe on <persName ref="http://syriaca.org/person/624">Mary</persName> makes considerable use of the image: <cit>
+                        <quote>
+                            <lg>
+                                <l>1. The Father wrote a letter</l>
+                                <l>and sent it, at the hands of a Watcher, to Nazareth,</l>
+                                <l>to a virgin, Mary, in whom He was pleased</l>
+                                <l>and so chose her to become</l>
+                                <l>mother to His Only-Begotten</l>
+                                <l>when He descended to deliver all worlds.</l>
+                            </lg>
+                            <lg>
+                                <l>... 3. God gave Gabriel the command</l>
+                                <l>and he flew down amidst great commotion,</l>
+                                <l>bearing that letter full of fair tidings,</l>
+                                <l>to bring peace to those in a state of wrath,</l>
+                                <l>seeing that reconciliation had taken place between God and the
+                                    world.</l>
+                            </lg>
+                            <lg>
+                                <l>4. The messenger learnt the secret</l>
+                                <l>and fluttered down, arriving at Nazareth.</l>
+                                <l>As he beheld the Virgin, he bowed down in worship,</l><pb n="6"/>
+                                <l>then stretched out his hand and gave her the letter of peace</l>
+                                <l>that had been sent from above.<ref type="noteAnchor" n="5"
+                                        xml:id="note5" target="#fn5">5</ref></l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en"> This poem also features in the West Syriac Fenqitho, or Festal
+                    Hymnary on the Sunday of the Annunciation to Mary (the 5th Sunday before
+                    Christmas in the Syriac liturgical year), and many other examples can be found
+                    in the liturgical texts for this Sunday and the accompanying weekdays. Not
+                    surprisingly, it is the term saqra, 'missive' that is the most frequently used,
+                    though on occasion one encounters both, as: <cit>
+                        <quote>The fiery being took the letter, the missive filled with peace...
+                            (Fenqitho II, p. 126a)</quote>
+                    </cit> The fiery aspect of Gabriel is often emphasised in both the Eastern and
+                    Western Syriac liturgical traditions. Thus, for example in the East Syriac
+                    festal hymnary, the Hudra, we find:<ref type="noteAnchor" n="6" xml:id="note6"
+                        target="#fn6">6</ref>
+                    <cit>
+                        <quote>A man of fire flew down from the ranks of flame, wrapped in burning
+                            fire and flame; he rent the height and descended to the depth, carrying
+                            a missive with its greeting... (Hudra I, p. 116, cp 153)</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">In passages where the term 'missive' (saqra) is used, it was
+                    natural enough to introduce imagery of royalty, as in the following: <cit>
+                        <quote>The missive left the palace and a servant received it.... (There
+                            follows a description of his descent through the fiery realms of
+                            heaven). He passed by the city of <pb n="7"/>the heavenly beings and came forth to
+                            our region; flying down from the height, he reached Mary and prostrated
+                            before her: the servant saw the Mother of the King and he bowed his head
+                            as he proffered her the missive full of peace for the entire world.
+                            (Fenqitho II, pp, 136b-137a)</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">In another passage Gabriel is no longer a 'servant', but an
+                    official messenger, or even ambassador (izgadda): <cit>
+                        <quote>The ambassador (izgadda) approached and handed over the missive full
+                            of peace that had been written in secret, as in a mystery; and he opened
+                            it before her and began to read it with his eloquence: 'Blessed are you
+                            among women…' (FM II, p. 117b)</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">Mary is again described as 'Mother of the King' in a text which
+                    identifies the place where he finds Mary as 'the sanctuary', perhaps a
+                    reflection of the traditions of her upbringing in the Temple: <cit>
+                        <quote>To the midst of the sanctuary did the Watcher descend, carrying the
+                            good tidings. He knelt down in veneration to the Mother of the King, and
+                            gave her the missive, being a wise (servant) who had been sent from the
+                            Most High as in a mystery. (FM II, p. 88a)</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">In the introductory stanzas to the Dialogue between Mary and the
+                        Angel<ref type="noteAnchor" n="7" xml:id="note7" target="#fn7">7</ref> we
+                    are told that the letter was 'sealed': <cit>
+                        <quote>A letter did he bring, which had been sealed with the mystery that
+                            was hidden from all ages. (stanza 9; also in FM II, p. 94b).</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">A passage in the East Syriac Hudra describes the missive as
+                    likewise being 'sealed', but this time 'with (God's) Being without a beginning': <cit>
+                        <quote>(Wanting to renew his image that had become badly corrupted, the Lord
+                            of all) <pb n="8"/>sent a missive from on high which was sealed with His Being
+                            without a beginning, and in it was inscribed (rshim) peace to earthly
+                            and heavenly beings, for they have been liberated from error. 'I am
+                            Gabriel who stand ministering before that awesome Majesty: the Father
+                            has sent me to proclaim to you the good tidings that give joy to the
+                            entire world...' (H I, p. 114 = BC I, p. 54; 1st Sunday of the Period of
+                            the Annunciation)</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">The sealed character of the missive is also emphasised in a sedro
+                    for the Annunciation in an early liturgical manuscript, London Add. 14,493, f.
+                    29a): <cit>
+                        <quote>(Gabriel was sent from the Father) with a missive full of joys and
+                            exultation that had been written. He flew swiftly with spiritual wings,
+                            with a missive in his hand that was securely sealed. He put into
+                            commotion both heavenly and earthly beings at his descent: wonder and
+                            amazement gripped them. He came to the virgin Mary, blessed among women;
+                            gently and silently he opened in her presence the missive filled with
+                            good tidings, and said to her, 'Greeting, modest Mary; blessed are you,
+                            for my Lord is with you, O blessed among women. For from you the Lord of
+                            (all) races and generations will shine forth. Greeting to you, O mother
+                            of the Ancient of Days<ref type="noteAnchor" n="8" xml:id="note8"
+                                target="#fn8">8</ref>... (there follows a long series of phrases
+                            beginning 'Greeting to you...').</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">In one passage in the Fenqitho (FM II, p. 167b) the letter is
+                    specifically said to have been 'written in a mystery by the hidden Father'. The
+                    letter itself is described as being 'full of life<ref type="noteAnchor" n="9"
+                        xml:id="note9" target="#fn9">9</ref> and good hope for <pb n="9"/>mortals' (H I, p. 117
+                    = BC I, p. 56), or it is 'a missive of salvation for the whole race of mortals'
+                    (H I, p. 129 = BC I, p. 68), or one 'full of joys' (FM II, p. 167b) or 'full of
+                    peace for the entire world' (FM II, p. 137a, quoted above).</p>
+                <p xml:lang="en">The examples cited above amply bear out the comment, made in a
+                    different context by Mary Beard, that there is "a tendency to define
+                    communication between humans and gods in written terms."<ref type="noteAnchor"
+                        n="10" xml:id="note10" target="#fn10">10</ref></p>
+            </div>
+            <div xml:id="h21v1n1.3" xml:lang="en">
+                <head>Mary Herself as a Letter</head>
+                <p xml:lang="en">In a few passages in the West Syriac liturgical texts one
+                    encounters the surprising image of Mary herself being described as a letter.
+                    Thus: <cit>
+                        <quote><lg>
+                                <l>Mary was like a letter full of mysteries,</l>
+                                <l>and the Word opened her and resided in her womb inexplicably;</l>
+                                <l>and she conceived without marital intercourse,</l>
+                                <l>and there shone forth from her the great Light for the entire
+                                    world. (FM II, p. 149a)</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">The first line (only) of this corresponds to a line in the
+                    following passage of <persName ref="http://syriaca.org/person/42">Jacob of Serugh's</persName> Verse Homily on Faith,<ref
+                        type="noteAnchor" n="11" xml:id="note11" target="#fn11">11</ref> where
+                    almost in passing he refers to Mary as resembling a letter: <cit>
+                        <quote><lg>
+                                <l>It was the captivity that the Slayer of Mankind had taken captive
+                                    from Paradise</l>
+                                <l>that the Son of the King came down to return them from subjection
+                                    to their former place.</l>
+                                <l>He set forth valiantly, following the track of the Thief</l>
+                            <l>and the path took Him to the ear of the virgin Eve.</l><pb n="10"/>
+                                <l>Because He is the Word, it was the gate of (Mary's) ear which
+                                    received Him,</l>
+                                <l>and He was conceived, so as to come to birth in bodily
+                                    fashion,</l>
+                                <l>and Mary became like a letter full of mysteries,</l>
+                                <l> being sealed in virginity in holy fashion.</l>
+                                <l>The Word became embodied in her, from her, in a mysterious
+                                    way,</l>
+                                <l>so that He might visit the world in the revelation of His bodily
+                                    form.</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">Jacob proves also to be the source of two further occurrences of
+                    the imagery of Mary as a letter in West Syriac liturgical texts: In the Maronite
+                    Shehimto (Weekday Office) we find: <cit>
+                        <quote><lg>
+                                <l>Mary has appeared to us as a sealed letter,</l>
+                                <l>for in her were hidden the mysteries and profundities of the
+                                    Son.</l>
+                                <l>She was not a letter that was written and then sealed,</l>
+                                <l>rather, the divinity [bet aloho] had sealed her (first) and then
+                                    written. (Friday, Lilyo)</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">This is in fact an abbreviated form of a Bo'uto ('Supplication') in
+                    the Fenqitho for the Marian Commemoration on 15th Jan. (Our Lady of the Seeds;
+                    III, p. 354), which in turn can be identified as a passage from one of Jacob of
+                    Serugh's Verse Homilies on Mary:<ref type="noteAnchor" n="12" xml:id="note12"
+                        target="#fn12">12</ref>
+                    <cit>
+                        <quote><lg>
+                                <l>Mary has appeared to us as a sealed letter:</l>
+                                <l>hidden within her were the mysteries and profundities of the
+                                    Son.</l>
+                                <l>She gave her pure body like a clean piece of paper<ref
+                                        type="noteAnchor" n="13" xml:id="note13" target="#fn13"
+                                        >13</ref></l>
+                            <l>and on it the Word inscribed Himself in bodily form.</l><pb n="11"/>
+                                <l>The Son is the Word, and she, as we have said, is the Letter</l>
+                                <l>in which forgiveness has been sent to the entire world.</l>
+                                <l>She was not a letter that was written and then sealed,</l>
+                                <l>rather, the divinity had sealed her (first) and then written, as
+                                    we have said.</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">It is, however, in another Verse Homily that Jacob develops the
+                    idea at greatest length: <cit>
+                        <quote><lg>
+                                <l> A letter too receives a word<ref type="noteAnchor" n="14"
+                                        xml:id="note14" target="#fn14">14</ref> with its written
+                                    characters,</l>
+                                <l> and the word resides there as if contained, yet not
+                                    contained.</l>
+                                <l> A hidden word is also sent within a letter,</l>
+                                <l> and who can say that the entire word are not there?</l>
+                                <l> The whole of it is placed (there) in the letter in the written
+                                    characters.</l>
+                                <l> It is also revealed and seized upon, too, by many,</l>
+                                <l> (but) because it is without body, who is able to seize hold
+                                    of</l>
+                                <l> (p. 172) the word which came and became a body within the
+                                    letter,</l>
+                                <l> handing itself over to the limbs (i.e. shapes) of the
+                                    characters?</l>
+                                <l> Eyes beheld it and hands seized hold of the glorious Word:</l>
+                                <l> the Son was in the Virgin as a word within a letter,</l>
+                                <l> and He became embodied in her, like words in written
+                                    characters.</l>
+                                <l> He who was hidden with His Begetter came into the open</l>
+                                <l> and manifested Himself to the world, for it to see and
+                                    comprehend Him.</l><pb n="12"/>
+                                <l> People seized hold of Him in their hands, seeing that He had
+                                    become embodied from the Daughter of David,</l>
+                                <l> and like a word in written characters they saw His
+                                    hiddenness.</l>
+                                <l> Where are you, O word? In what place can one look for you?</l>
+                                <l> With your sender? With your recipient? Or in the letter
+                                    itself?</l>
+                                <l> You are hidden and revealed at the same time, unattainable and
+                                    not to be investigated.</l>
+                                <l> (p. 173) See how a word is hidden from many in a letter,</l>
+                                <l> preserved under seal in secret until it is disclosed.</l>
+                                <l> It depicts there an image of beauty for the Only-Begotten</l>
+                                <l> who is the Word, who resided in Mary as in a letter:</l>
+                                <l> she was sealed in her virginity, as with a letter,</l>
+                                <l> and with the seals preserved (the Word) came forth in holy
+                                    fashion.</l>
+                                <l> The Son of God is the Word which cannot be interpreted;</l>
+                                <l> He wafted down from the Father and resided in a womb full of
+                                    sanctity.</l>
+                                <l> The hidden Word entered inside the Letter, by (her) ear;</l>
+                                <l> she was firmly and closely sealed.</l>
+                                <l> He embodied Himself from the body of the blessed woman</l>
+                                <l> and with limbs - as it were with written characters<ref
+                                        type="noteAnchor" n="15" xml:id="note15" target="#fn15"
+                                        >15</ref> - </l>
+                                <l> the Word who had been hidden from view came to be seen.</l>
+                                <l> (p. 174) Everyone who saw Him and read Him recognised that He
+                                    was God,</l><pb n="13"/>
+                                <l> and in order that all who enter the world might understand the
+                                    report of his journey,</l>
+                                <l> the Son of Thunder stood up and revealed to all the earth that
+                                    He was the Word.<ref type="noteAnchor" n="16" xml:id="note16"
+                                        target="#fn16">16</ref></l>
+                                <l> He showed that a word cannot be taken hold of or be seen,</l>
+                                <l> it cannot be touched or confined in space,</l>
+                                <l> but all of a sudden in comes and takes on a body in written
+                                    characters:</l>
+                                <l> for a particular purpose it embodies itself and gives itself
+                                    over;</l>
+                                <l> it comes so that it can be touched, and read out in speech:</l>
+                                <l> everyone can see it, everyone can read it, everyone take hold of
+                                    it.</l>
+                                <l> It becomes confined, people take hold of it in (different)
+                                    places;</l>
+                                <l> they carry it about, escorting it in their hands,</l>
+                                <l> and because it has come and taken on a body in the letter,</l>
+                                <l> space has contained it, even though by its nature it is beyond
+                                    containment.</l>
+                                <l> And if it is investigated, it hides itself away from those who
+                                    would investigate it,</l>
+                                <l> whereas when it is read, it is totally to be found with
+                                    learners.</l>
+                                <l> It is entirely with the readers in the written characters, </l>
+                                <l> but (at the same time) it is preserved with its writer, high up
+                                    out of sight. (II, pp. 171-4).</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">Jacob then goes on to speak of another analogy involving mellta,
+                    but here with a shift of sense, also possible with Greek logos, from 'word' to
+                    'reason': <cit>
+                        <quote><lg>
+                            <l> Word/Reason is in the soul, and is naturally found there:</l><pb n="14"/>
+                                <l> when it is revealed, it goes forth from the soul's very
+                                    essence.</l>
+                                <l> From the moment of the soul's existence, reason is there with
+                                    it,</l>
+                                <l> neither younger nor older than the essence (of the soul);</l>
+                                <l> (p.175) just as the Son is in the Father without any beginning, </l>
+                                <l> so too reason is in the soul from the moment of its
+                                    existence.</l>
+                                <l> For this reason (John) called the Son of God 'the Word',</l>
+                                <l> (John), the disciple who loved and knew Him.</l>
+                                <l> The Word is too exalted for artists to depict, </l>
+                                <l> so too He is too exalted for even the wise to speak about.</l>
+                                <l> No one is able to establish an image of the Word in paints,</l>
+                                <l> nor will any explanation of Him emerge into the open on the part
+                                    of enquirers. (II, pp. 174-5).</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">If, in the light of Jacob's extended use of letter imagery in the
+                    context of the incarnation, one the goes back to the mysterious 23rd Ode of
+                    Solomon, one gets the impression that, although Harris and Mingana did not cite
+                    this particular verse homily of Jacob in their discussion of this Ode, their
+                    interpretation of the 'letter' in that Ode was along the right lines.<ref
+                        type="noteAnchor" n="17" xml:id="note17" target="#fn17">17</ref>
+                </p>
+            </div>
+            <div xml:id="h21v1n1.4" xml:lang="en">
+                <head>Letters During the Life and Ministry of Christ</head>
+                <p xml:lang="en">Here and there one finds letter imagery introduced into certain
+                    episodes in the life and ministry of Christ. At the opening of his Verse Homily
+                    on the Magi Jacob of Serugh addresses Christ and says 'You sent a letter to the
+                    Magian <pb n="15"/>religion in (the form of) the star of light, which drew it out of
+                    darkness and took it out into Your illumination' (Hom. 6, on the Magi; I, p.
+                    85). This is picked up a little later in the narrative: <cit>
+                        <quote><lg>
+                                <l>The King sent a missive of light to the realm of darkness,</l>
+                                <l>to bring them out of the night that had engulfed them.</l>
+                                <l>He wrote a letter and sent it to the region in the hands of a
+                                    messenger,</l>
+                                <l>(saying) that there would be peace in the land that had grown
+                                    waste with Magianism.</l>
+                                <l>(I, p. 88; he goes on to explain why a star, not a prophet had
+                                    been sent)</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">In a prose prayer composed by Shallita of Resh'aina (9th cent.) in
+                    the East Syriac Hudra, John the Baptist is rather surprisingly described as a
+                    'postman' (tabellara, from Latin tabellarius), but without any other specific
+                    letter imagery being introduced. (H I, p. 675 = BC I, p. 443).</p>
+                <p xml:lang="en">Likewise very much in passing, a madrasha in the Pampakuda
+                        Fenqitho<ref type="noteAnchor" n="18" xml:id="note18" target="#fn18"
+                        >18</ref> (II, p. 257) speaks of the sinful woman of Luke 7 as carrying,
+                    instead of 'wages' (from her previous paramours), 'a missive' as she goes to
+                    Jesus in the house of Simeon; the image is not developed, though one might have
+                    expected some expansion such as 'written in the ink of her tears (of
+                    repentance)'.</p>
+                <p xml:lang="en">More predictably, Mary and Martha are described in the same source
+                    as having 'written a letter of grief' which they sent to Jesus, informing him of
+                    their brother Lazarus' death (FP II, p. 394; Saturday of Lazarus).<ref
+                        type="noteAnchor" n="19" xml:id="note19" target="#fn19">19</ref>
+                </p>
+                <p xml:lang="en">Jacob of Serugh, who was evidently particularly partial to letter
+                    imagery, introduces it again into his Verse Homily on <pb n="16"/>Peter's Confession of
+                    Christ (Homily 19; I, p. 473). Jacob speaks of this as a 'revelation' sent in
+                    the form of a missive in the Father's own handwriting. When asked by Christ
+                    'Whom do you say that I am?' Peter prays to the Father for enlightenment, and in
+                    response: <cit>
+                        <quote><lg>
+                                <l>a revelation went forth from the Father's house to that
+                                    disciple;</l>
+                                <l>it came down and he received it like missive from the royal
+                                    palace.</l>
+                                <l>He manifested the signature of the hidden Father, with the
+                                    seal,</l>
+                                <l>and written in it was 'You are the Christ, the Son of God'.</l>
+                            </lg></quote>
+                    </cit> Whereupon Peter feels himself enabled to address Christ with these
+                        words.<ref type="noteAnchor" n="20" xml:id="note20" target="#fn20">20</ref>
+                </p>
+                <p xml:lang="en">Next to the Annunciation, the Crucifixion is the episode where
+                    letter imagery is particular frequent. This may be either in connection with the
+                    repentant thief, or with the Descent to Sheol, though sometimes the two motifs
+                    may be combined. In the delightful dramatic dialogue between the Good Thief and
+                    the Cherub who guards the gate of Paradise (Gen. 3:24), the introductory
+                    narrative compares Christ's words to the thief on the cross to a royal
+                        missive:<ref type="noteAnchor" n="21" xml:id="note21" target="#fn21"
+                        >21</ref><cit>
+                        <quote><lg>
+                                <l>The word of our Lord was sealed</l>
+                                <l>like a missive from the palace;</l>
+                            <l>it was handed over to the thief</l><pb n="17"/>
+                                <l>who took it and made off for the Garden of Eden.<ref
+                                        type="noteAnchor" n="22" xml:id="note22" target="#fn22"
+                                        >22</ref></l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">A verse text in the Fenqitho tells how, at the Descent, 'To Adam
+                    and to all his children a missive has been written, (stating) that God is
+                    reconciled to them and has forgiven their wrongdoing' (FM VII, p. 133a).<ref
+                        type="noteAnchor" n="23" xml:id="note23" target="#fn23">23</ref> The two
+                    scenarios are combined in the Cave of Treasures, which states that 'Christ wrote
+                    the missive (announcing) Adam's return with his own blood and sent it by the
+                    hands of the thief' (52:13).<ref type="noteAnchor" n="24" xml:id="note24"
+                        target="#fn24">24</ref> Also written in Christ's blood is the dowry which
+                    Christ gives (in the form of the Sacraments) to the Church, his Bride; this set
+                    of imagery, however, does not introduce any letter.<ref type="noteAnchor" n="25"
+                        xml:id="note25" target="#fn25">25</ref></p>
+                <p xml:lang="en">Finally, at Pentecost Jacob tells how God, having 'given speech and
+                    sent forth the Apostles, wrote a letter in the tongues of the (different)
+                    regions to inform them that he is the Master who had taught them (sc. the
+                    Apostles)' (II, p. 683).</p>
+            </div>
+            <div xml:id="h21v1n1.5" xml:lang="en">
+                <pb n="18"/>
+                <head>Some Examples Concerning Episodes in the Old Testament</head>
+                <p xml:lang="en">Jacob of Serugh, whose predilection for letter imagery has already
+                    become amply evident, also takes the opportunity to introduce it into various
+                    episodes of Old Testament history. Thus the cry of Abel's blood (Gen. 4:10) had
+                    'brought down a missive with a sentence of judgement upon the rebel (Cain)' (V,
+                    p. 20), while Noah's dove (Gen. 8:11) 'entered (the Ark) to bring out the
+                    missive of peace from the (heavenly) Palace' (IV, p. 49). Less expected is
+                    Jacob's introduction of letter imagery into his Verse Homily on Abraham and his
+                    types (no. 109).<ref type="noteAnchor" n="26" xml:id="note26" target="#fn26"
+                        >26</ref> As frequently in his homilies, Jacob commences with a prayer, in
+                    the course of which he requests: <cit>
+                        <quote><lg>
+                                <l>Allow me to make the slaying of Isaac a rational missive;</l>
+                                <l>I will reserve its seal for You to add Your signature. (IV, p.
+                                    62)</l>
+                            </lg></quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">It is likely that there are further examples of letter imagery of
+                    this sort to be found in Jacob's extensive corpus of verse homilies, many of
+                    which are still unpublished, but these will suffice to give some indication of
+                    Jacob's creative powers of imagination. </p>
+            </div>
+            <div xml:id="h21v1n1.6" xml:lang="en">
+                <head>A Striking Modern Parallel: The Annunciation in Pope John Paul II's Private
+                    Chapel</head>
+                <p xml:lang="en">Of all the texts introduced here, it is undoubtedly those which
+                    describe Mary herself as a 'letter' on which the Word 'inscribes himself', that
+                    is the most striking. Remarkably, a similar idea has recently been expressed in
+                    artistic form in the mosaic decoration of the Pope's private chapel in the
+                    Vatican, commissioned by Pope John Paul II.<ref type="noteAnchor" n="27"
+                        xml:id="note27" target="#fn27">27</ref> In the scene portraying <pb n="19"/>the
+                    Annunciation, Gabriel is standing with his tip of his left hand touching an
+                    opened scroll on which the Virgin is portrayed as kneeling. Gabriel's right hand
+                    is depicted at the level of Mary's ear, pointing to the widespread motif of the
+                    Word entering Mary through her ear, thus contrasting her obedient listening with
+                    Eve's disobedient listening to the Serpent's counsel. The work was designed and
+                    carried out by Fr. Marko Rupnik, Director of the Centro Aletti in Rome, and in
+                    his notes on the iconography he had adopted he comments:<ref type="noteAnchor"
+                        n="28" xml:id="note28" target="#fn28">28</ref><cit>
+                        <quote xml:lang="it">Maria è in attegiamento di raccoglimento, con gli occhi
+                            chiusi, non si sa se stia per sedere sulle gambi o se stia per alzarsi.
+                            Appare sul rotolo del libro che l'angelo srotola ed è in atteggiamento
+                            di ascolto. Efrem il Siro, riprendendo una antica tradizione, dice che
+                            Maria è stata fecondata dall'orecchio. Gabriele srotola il rotolo del
+                            Verbo e la sua mano destra è esattamente all'altezza dell'orecchio,
+                            annuncia la Parola a Maria. Lei, con le mani sul grembo, tesse il filo
+                            rosso che significa tessere la carne al Verbo. Si tratta del passaggio
+                            dalla Parola all'Immagine. Il Verbo infatti è il Figlio e come tale
+                            Maria lo presenta al mondo. La spiritualità mariana e proprio rendere
+                            visibile la Parola di Dio.</quote>
+                    </cit>
+                </p>
+                <p xml:lang="en">Although Fr. Rupnik speaks of the scroll as a 'book', rather than a
+                    'letter', the underlying concept is very similar. While he makes specific
+                    mention of St Ephrem, in connection with the tradition of the divine Word
+                    entering Mary through her ear,<ref type="noteAnchor" n="29" xml:id="note29"
+                        target="#fn29">29</ref> it is intriguing to note that he was not at the time
+                    aware of the imagery, present in the Syriac writings outline here, where either
+                    Gabriel gives the message <pb n="20"/>in the form of a letter, or Mary herself is described
+                    as the letter in which the Divine Word has inscribed himself.</p>
+            </div>
+            <!-- Templates to copy:
+            <div xml:id="" xml:lang="en">
+                <head/>
+                <p xml:lang="en"/>
+            </div>
+            <ref type="noteAnchor" n="" xml:id="note#" target="#fn#">
+             -->
+            <div xml:id="footnotes" type="footnotes">
+                <head>Notes</head>
+                <note n="1" xml:id="fn1" target="#note1">This article was originally published in
+                    Polish in the periodical Vox Patrum 26 (2006), pp. 89-99, in an issue in honour
+                    of the Revd. Professor Marek Starowieyski.</note>
+                <note n="2" xml:id="fn2" target="#note2">Illustrated, for example, in S.P. Brock
+                    with D.G.K. Taylor (eds), The Hidden Pearl. The Syrian Orthodox Church and its
+                    Ancient Aramaic Heritage, I (Transworld Films, Rome, 2001), p. 53. The wall
+                    paintings date from after the Assyrian domination of Bit Adini in the second
+                    half of the 9th century B.C.</note>
+                <note n="3" xml:id="fn3" target="#note3">The three (dated) Syriac legal documents
+                    can most conveniently be found in H.J.W. Drijvers and J.F. Healey, The Old
+                    Syriac Inscriptions of Edessa and Osrhoene (Leiden, 1999), Appendix 1, pp.
+                    231-248; the Greek texts (P.Euphr.) are edited by D. Feissel and J. Gascou in
+                    Journal des Savants 65 (1995), pp. 65-119, 67 (1997), pp. 3-57, and 70 (2000),
+                    pp. 157-208.</note>
+                <note n="4" xml:id="fn4" target="#note4">The loanword saqra is not attested in
+                    Syriac until the late fifth century, the earliest datable authors being Narsai
+                    (d. c.500) who uses it once (Patrologia Orientalis 40, p. 140) and Jacob of
+                    Serugh (d.521) who uses it a considerable number of times (several texts are
+                    cited below). </note>
+                <note n="5" xml:id="fn5" target="#note5">T.J. Lamy, Sancti Ephraemi Hymni et
+                    Sermones, III (Malines, 1889), col. 969; the poem is also to be found in the
+                    Mosul edition of the Fenqitho (Mosul, 1886-96) [henceforth cited as FM], II, p.
+                    89b-90a. An English translation is given in my Bride of Light. Hymns on Mary
+                    from the Syriac Churches (Moran Etho 6; Kottayam, 1994), pp. 86-87 (no.
+                    25).</note>
+                <note n="6" xml:id="fn6" target="#note6">Henceforth designated 'H'; references are
+                    given first to T. Darmo's edition (Trichur, 1960-62) and then to P. Bedjan's
+                    Breviarium Chaldaicum (Rome, 1938; one-volume reprint with same pagination, Rome
+                    2002), cited as 'BC'. A concordance between the two editions can be found in The
+                    Harp 19 (2006), pp. 117-136.</note>
+                <note n="7" xml:id="fn7" target="#note7">English translation in Bride of Light, pp.
+                    111-118.</note>
+                <note n="8" xml:id="fn8" target="#note8">For Christ (rather than the Father) as
+                    'Ancient of Days' (Dan. 7:13), see my 'The Ancient of Days: the Father or the
+                    Son?', in The Harp 22 (2007), pp. 121-30.</note>
+                <note n="9" xml:id="fn9" target="#note9">Or 'salvation': ḥayye in earlier Syriac
+                    translations regularly corresponds to Greek sotēria.</note>
+                <note n="10" xml:id="fn10" target="#note10"/>
+                <note n="11" xml:id="fn11" target="#note11">Ed. P. Bedjan, Homiliae Selectae
+                    Mar-Jacobi Sarugensis, III (Paris/Leipzig, 1907; repr. Piscataway NJ, 2006), p
+                    .591. To Bedjan's five volumes the reprint adds a sixth which includes the
+                    Homilies which Bedjan published at the end of his edition of Sahdona's Book of
+                    Perfection (whose pagination is also given).</note>
+                <note n="12" xml:id="fn12" target="#note12">VI, p. 24/636. There is an English
+                    translation in M. Hansbury, Jacob of Serugh. On the Mother of God (Crestwood
+                    NY,1998), pp. 38-39. </note>
+                <note n="13" xml:id="fn13" target="#note13">kartisa &lt; Greek chartēs, writing
+                    material ('paper', which I use here, is of course an anachronism). It is
+                    interesting to note that a text in the Hudra denotes the metaphorical use of
+                    saqra by calling it la kartisaya, 'not made of writing material', i.e.
+                    'immaterial' (H II, p. 506 = BC II, p. 372). </note>
+                <note n="14" xml:id="fn14" target="#note14">mellta, 'word', can imply more than a
+                    single word; however, I translate here as a singular because of Jacob's play
+                    between 'word' and (divine) 'Word'.</note>
+                <note n="15" xml:id="fn15" target="#note15">Compare a Sedro in FM III, p. 369b: 'On
+                    tablets of flesh did He inscribe Himself in bodily fashion'.</note>
+                <note n="16" xml:id="fn16" target="#note16">John 1:1.</note>
+                <note n="17" xml:id="fn17" target="#note17">R. Harris and A. Mingana, The Odes and
+                    Psalms of Solomon , II (Manchester, 1920), pp. 336-340. The matter certainly
+                    deserves further exploration, which would be out of place here. </note>
+                <note n="18" xml:id="fn18" target="#note18">Ed. A. Konat, II (Pampakuda, 1963), p.
+                    257 [henceforth cited as 'FP'] . The contents of this edition differ
+                    considerably from those of FM.</note>
+                <note n="19" xml:id="fn19" target="#note19">A different madrasha for the Saturday of
+                    Lazarus, to be found in the Mosul Fenqitho (IV, p. 775b) has them writing
+                    'letters full of sufferings' (likewise, p. 768a).</note>
+                <note n="20" xml:id="fn20" target="#note20">Matt. 16:16. </note>
+                <note n="21" xml:id="fn21" target="#note21">Stanza 6; ed. with English translation
+                    in Hugoye 5 (2002), pp. 169-193.</note>
+                <note n="22" xml:id="fn22" target="#note22">Similarly Jacob in his verse homily on
+                    the Repentant Thief , Jesus tells him that 'the ranks of fire will rejoice at
+                    your missive and will convey you on their wings' (V, p. 669); the very next line
+                    continues 'When the missive of Life had been written, the King who wrote it held
+                    back the Son's signature' until his side had been pierced, so that he could sign
+                    it with the blood that flowed from his side, the water serving as the thief's
+                    baptism (p. 670). In Romanos' Kontakion on the Cross (ed. Maas-Trypanis, no. 23,
+                    stanzas 10-11, the Thief tells the Cherub that he as with him a gramma, with
+                    Christ's seal; similarly in a Pseudo- Chrysostom homily the Thief says to the
+                    Cherub, 'Christ has written a letter (epistolēn) for me' (ed. M. van Esbroeck,
+                    in Analecta Bollandiana 101 (1983), pp. 327-362 (section 8). </note>
+                <note n="23" xml:id="fn23" target="#note23">Similarly F IV, p. 163b (1st Friday of
+                    Lent), where the missive is sent from Christ on the Cross.</note>
+                <note n="24" xml:id="fn24" target="#note24">Ed. Su-Min Ri, in the Corpus Scriptorum
+                    Christianorum Orientalium, Scriptores Syri 207-8 (1987). </note>
+                <note n="25" xml:id="fn25" target="#note25">For this theme, see my '"The Wedding
+                    Feast of Blood". an unusual aspect of John 19:34 in Syriac tradition', The Harp
+                    6:2 (1993), pp. 121-134. and the literature cited there. </note>
+                <note n="26" xml:id="fn26" target="#note26">For this homily, see R.E. McCarron, in
+                    Hugoye 1:1 (1998), pp. 57-108.</note>
+                <!-- Note template:  <note n="" xml:id="" target="#"/>  -->
+            </div>
+            <div xml:id="bibliography" type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl>
+                        <author>S. P. Brock</author>
+                        <author>D. G. K. Taylor</author>
+                        <date>2001</date>
+                        <title level="m">The Hidden Pearl. The Syrian Orthodox Church and its
+                            Ancient Aramaic Heritage, I </title>
+                        <pubPlace>Rome</pubPlace>
+                        <publisher>Transworld Films</publisher>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
