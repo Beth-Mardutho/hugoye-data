@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Dispute between the Cherub and the Thief</title>
+            <author>
+               <name>
+                  <forename>Sebastian P.</forename>
+                  <surname>Brock</surname>
+               </name>
+               <affiliation>
+                  <orgName>University of Oxford</orgName>
+               </affiliation>
+            </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+            <date>July 2002</date>
+            <idno>Vol. 5, No. 2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication, a Creative Commons Attribution 4.0 International
+                                license has been granted by the author(s), who retain full
+                                copyright.</p>
+               </licence>
+            </availability>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv5n2brock</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author>Sebastian P. BROCK</author>
+                  <title level="a">The Dispute between the Cherub and the Thief</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Hugoye: Journal of Syriac Studies</title>
+                  <imprint>
+                     <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2002</date>
+                  </imprint>
+                  <biblScope type="vol" n="5">5</biblScope>
+                  <biblScope type="issue" n="2">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                        of the Syriac tradition, published semi-annually (in January and July) by Beth
+                        Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                        best scholarship available in the field of Syriac studies.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>dispute/dialogue poems</term>
+               <term>soghyatha</term>
+               <term>Repentant Thief</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="uncorrectedTransformation">
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract">
+            <p>The lively verse dialogue between the
+    Repentant Thief (Luke 23:43) and the Cherub guarding the
+    entrance to Paradise (Genesis 3:24) is an excellent
+    representative of the ancient literary genre of dispute
+    literature that has remained popular in the Middle East in
+    various languages for nearly four millennia. The aim of the
+    present article is to make the poem available in translation to
+    an English-speaking audience. The introduction gives an outline
+    of the poem's wider context, and ends with some suggestions
+    about how it might be revived for use today.</p>
+         </div>
+      </front>
+      <body>
+         <lb/>
+         <lb/>
+    
+    
+    
+    
+         <!-- #BeginEditable "Content" -->
+    
+         <lb/>
+    
+         <lb/>
+         <head xml:id="HV5N2Brock3">An ancient Mesopotamian genre</head>
+         <p>
+            <anchor corresp="P1"/>[1] One of
+    the most long-lived literary genres of the Middle East is the
+    Precedence Disputation, the oldest examples of which go back to
+    Sumerian literature of the early second millennium
+    BC.   The thread of continuity, over nearly four
+    thousand years, can be traced through Akkadian, Middle Persian,
+    Jewish Aramaic, Syriac, Arabic and Persian,<ref target="#FN1">1</ref> right up to the
+    present day when examples in Modern Syriac and in Modern Arabic
+    have been collected.<ref target="#FN2">2</ref> Among Syriac authors, it was Ephrem who, in
+    the mid fourth century AD, first adapted this ancient literary
+    genre to a Christian context, with a series of Precedence
+    Disputes between Death and Satan, where each argues that he has
+    the greater control over human beings.<ref target="#FN3">3</ref>
+         </p>
+         <p>
+            <anchor corresp="P2"/>[2] Although
+    these formalized Precedence Disputes may be in either prose or
+    verse, the vast majority of the Syriac examples are in verse,
+    following a regular structure;  this consists of a short
+    introduction, followed by the dispute or argument between two
+    persons speaking in alternate stanzas, and ending with a brief
+    conclusion (or sometimes, doxology).    The
+    verse structure employed is that of the <hi rend="italic">soghitha</hi>, with
+    short stanzas consisting of four isosyllabic lines;  very
+    frequently the central dialogue has an alphabetic acrostic.</p>
+         <head xml:id="HV5N2Brock4">The Syriac dialogue poems</head>
+         <p>
+            <anchor corresp="P3"/>[3] The
+    great majority of the Syriac dispute and dialogue poems deal
+    with biblical subjects, though there are a few on secular
+    topics.<ref target="#FN4">4</ref> In those that take their starting point in an
+    episode in the Bible, the dispute element is usually more in
+    the form of an argument, and this, while presented in a lively
+    (and sometimes humorous) manner, may at the same time convey
+    some underlying teaching of a more profound
+    nature.    It is not known what the exact
+    context, liturgical or other, Ephrem had in mind for his
+    Disputes between Death and Satan, but subsequently these
+    dialogue <hi rend="italic">soghyatha</hi> came to be written and used for the
+    Night Office (<hi rend="italic">Lelya</hi>/<hi rend="italic">Lilyo</hi>).   In
+    the extant liturgical manuscripts the dialogue
+    <hi rend="italic">soghyatha</hi> are mainly grouped around the
+    Nativity-Epiphany and Holy Week.    The poems
+    tend to be preserved in their complete form only in the
+    earliest manuscripts, dating from the ninth to the twelfth
+    century;  in manuscripts of a later date the poems are
+    often either abbreviated or with alternate stanzas only (thus
+    giving only one speaker's verses);  in the latter case,
+    the manuscript was specifically intended for use by just one of
+    two choirs.</p>
+         <p>
+            <anchor corresp="P4"/>[4] The
+    dialogue <hi rend="italic">soghyatha</hi> have unfortunately not fared well
+    in the various printed editions of the West Syriac Fenqitho and
+    East Syriac Hudra:  those that do feature are usually
+    either in a very truncated form, or give just alternate
+    verses;  only very rarely do they preserve the text
+    complete.   As it happens, the Dialogue between the
+    Cherub and the Thief, translated below, happens not to feature
+    in any printed liturgical edition known to me, despite the fact
+    that it has an extensive manuscript tradition and translations
+    into Modern Syriac, indicating its continuing popularity over
+    the centuries.</p>
+         <head xml:id="HV5N2Brock5">The Cherub and the Thief</head>
+         <p>
+            <anchor corresp="P5"/>[5] Like
+    many of the Dialogue <hi rend="italic">soghyatha</hi>, that between the
+    Cherub and the Thief takes as its starting point a single
+    biblical verse, namely Luke 23:43, where Christ tells the Thief
+    who acknowledges him, "Today you shall be with me in
+    Paradise".</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
+    unknown author, who probably belongs to the fifth century, sets
+    the scene of the poem at the gates of Paradise, where the Thief
+    encounters the Cherub<ref target="#FN5">5</ref> who has been given the task of guarding the
+    entrance of Paradise against anyone from the banished human
+    race who might try to approach (Genesis
+    3:24).    The lively argument between the two
+    continues until the Thief finally produces the key to
+    Paradise—the cross—that he bears.</p>
+         <p>
+            <anchor corresp="P7"/>[7] The
+    Dispute between the Cherub and the Thief is to be found in
+    numerous liturgical manuscripts of both the Syrian Orthodox
+    Church and of the Church of the East, as well as in three
+    Modern Syriac versions.   The Syriac text (based on
+    an East Syriac manuscript) was first published by E. Sachau in
+    1896, and this has been recently republished, along with the
+    three Modern Syriac versions (one of which Sachau had also
+    published), in an excellent and attractive volume entitled
+    <hi rend="italic">Il ladrone e il cherubino</hi>.  <hi rend="italic">Dramma liturgico
+    cristiano orientale in siriaco e neoaramaico</hi>, by Fabrizio
+    Pennacchietti.<ref target="#FN6">6</ref>  Another edition of the poem, this time
+    based on much earlier Syrian Orthodox manuscripts, is included
+    in my <hi rend="italic">Sughyotho Mgabbyotho</hi>;<ref target="#FN7">7</ref> an English translation of
+    this was subsequently published in India,<ref target="#FN8">8</ref>and it is basically
+    the same translation which is republished
+    below.    The differences between the East and
+    West Syriac texts of the poem are not great, as will be seen
+    from the list of more important differences given below, after
+    the translation.   Although the West Syriac
+    manuscripts are very considerably older than the East Syriac
+    ones, it is likely that the latter sometimes preserve the
+    original text (thus, for example, at 33b "He put on a body", in
+    the East Syriac manuscripts, preserves the early Syriac
+    metaphor for the incarnation which later Syrian Orthodox
+    tradition tended to abandon).<ref target="#FN9">9</ref>
+         </p>
+         <head xml:id="HV5N2Brock6">Some other treatments of the theme</head>
+         <p>
+            <anchor corresp="P8"/>[8] The
+    <hi rend="italic">soghitha</hi> may well have been known to Jacob of Serugh
+    (d. 521), one of whose verse homilies is on the same
+    subject;  attention is drawn to the main parallels in the
+    brief commentary which follows the translation.  
+    After a long prologue (pp. 658-666), Jacob's <hi rend="italic">memra</hi>
+    provides the following speeches:  Thief to Christ (pp.
+    666-668), Christ to the Thief (pp. 668-669); these are followed
+    by a narrative, and then the Cherub and the Thief are given
+    alternating speeches:  Cherub to Thief:  pp. 671-672,
+    673-673, 675, 676-677, 680-681, 684-685;  and Thief to
+    Cherub:  pp. 672-673, 674-675, 675-676, 677-680, 681-683,
+    685-687.</p>
+         <p>
+            <anchor corresp="P9"/>[9] Jacob's
+    older contemporary, Narsai, by contrast, does not provide any
+    homily on this subject.   In Greek literature of the
+    period there are occasional vague parallels, where the Cherub
+    is introduced, but a sustained dialogue between the Cherub and
+    the Thief is very rare, and is best attested in the second half
+    of a Greek text attributed to John Chrysostom (<hi rend="italic">Clavis</hi>
+            <hi rend="italic">Patrum</hi> 
+            <hi rend="italic">Graecorum</hi> 4877), published by M. van
+    Esbroeck, together with  early Georgian and Arabic
+    translations.<ref target="#FN10">10</ref>   The few parallels between this
+    text and the <hi rend="italic">Soghitha</hi> are noted in the Commentary
+    below.</p>
+         <head xml:id="HV5N2Brock7">The dramatic potential and a suggestion for
+    today</head>
+         <p>
+            <anchor corresp="P10"/>[10] It
+    would seem that it is only with this particular dialogue poem
+    that the dramatic potential of the genre was exploited, with
+    the poem being acted out in a stylised form of liturgical
+    drama. A description of this, belonging to the early
+    twentieth century, can be found in W.A.Wigram's <hi rend="italic">The
+    Assyrians and their Neighbours</hi>:<ref target="#FN11">11</ref>
+         </p>
+         <quote>
+      ...the boy to whom it has been given to 'act the Penitent
+      Thief' for that year, storms the sanctuary <hi rend="italic">vi et
+      armis</hi>, and is driven back again and again by the blazing
+      torches held by the deacons, who for the nonce represent the
+      Cherubim that guarded Paradise with the flaming sword. 
+      At last the Penitent Thief secures the cross that lies always
+      on a table at the entrance of the sanctuary - and which each
+      worshipper kisses on entering the church - and comes forward
+      brandishing that passport to bliss.   Then the
+      deacon-angels receive him, and - seeing that souls are always
+      borne by angels into Paradise, and also that no unordained
+      man my set foot in the sanctuary, the boy is carried
+      pick-a-back into the 'Altar-enclosure'.
+    </quote>
+         <p>
+            <anchor corresp="P11"/>[11] In a
+    modern context both this, and the other dialogue poems on
+    biblical topics would seem to offer excellent material for
+    catechetical use, above all with children.   Here it
+    is worth mentioning that the Dialogue between John the Baptist
+    and Jesus (based on Matthew 3:14) was performed (in English
+    translation, of course!) in England a few years ago at a school
+    for children with learning disabilities. For use of this
+    sort in church schools, the English translation could, if
+    thought necessary, be abbreviated and/or adapted;  indeed,
+    there is no reason why the dialogue might not be imaginatively
+    rewritten, simply taking elements from here and there in the
+    original Syriac poems.</p>
+         <p>
+            <anchor corresp="P12"/>[12] It
+    is not only with children that these lively dialogue poems
+    deserve to be brought back into life again, for they could also
+    well be used to good effect set to music once again - either
+    employing their traditional <hi rend="italic">qole</hi> (the most commonly
+    found is ‘<hi rend="italic">Amo w-'amme</hi>), or to new musical
+    settings.  It would seem that here is a wonderful
+    opportunity for the various Suryoyo <hi rend="italic">gude</hi>, or musical
+    groups, to draw creatively on this their splendid heritage,
+    whose roots lie in ancient Mesopotamia.</p>
+         <head xml:id="HV5N2Brock8">Text</head>
+         <p>
+            <graphic url="HV5N2BrockFig01.gif"
+                     rend="img"
+                     mimeType="image/gif"
+                     width="500px"
+                     height="650px"/>
+         </p>
+         <p>
+            <graphic url="HV5N2BrockFig02.gif"
+                     rend="img"
+                     mimeType="image/gif"
+                     width="500px"
+                     height="650px"/>
+         </p>
+         <p>
+            <graphic url="HV5N2BrockFig03.gif"
+                     rend="img"
+                     mimeType="image/gif"
+                     width="500px"
+                     height="650px"/>
+         </p>
+         <p>
+            <graphic url="HV5N2BrockFig04.gif"
+                     rend="img"
+                     mimeType="image/gif"
+                     width="500px"
+                     height="650px"/>
+         </p>
+         <p>
+            <graphic url="HV5N2BrockFig05.gif"
+                     rend="img"
+                     mimeType="image/gif"
+                     width="500px"
+                     height="650px"/>
+         </p>
+         <head xml:id="HV5N2Brock9">Translation</head>
+         <p>
+            <hi rend="pNum">1.</hi> At the Crucifixion I beheld a
+    marvel<lb/>
+    when the Thief cried out to our Lord,<lb/>
+    "Remember me, Lord, on the day when You come<lb/>
+    to that Kingdom which does not pass away". [Luke 23:43]</p>
+         <p>REFRAIN<lb/>
+    Praise to You, Lord, for at Your coming<lb/>
+    sinners turned back from their wickedness;<lb/>
+    they entered and found shelter<lb/>
+    in the Garden of Eden - which is the holy Church.</p>
+         <p>
+            <hi rend="pNum">2.</hi> He made a petition, stretched
+    out and gave it<lb/>
+    to the crucified King, asking for mercy;<lb/>
+    and He who is full of mercy heard his cry<lb/>
+    and opened the door to his request.</p>
+         <p>
+            <hi rend="pNum">3.</hi> "Remember me, Lord", was what
+    he cried out on the cross,<lb/>
+    "in that Kingdom which does not pass away, [Luke 23:43]<lb/>
+    and in that glory in which You will be revealed<lb/>
+    may I behold Your rest, seeing that I have acknowledged You".
+    [cp Luke 12:8]</p>
+         <p>
+            <hi rend="pNum">4.</hi> Our Lord replied, "Since you
+    have acknowledged me<lb/>
+    this very day you shall be in the Garden of Eden;<lb/>
+    in very truth, man, you will not be kept back<lb/>
+    from that Kingdom to which you are looking.</p>
+         <p>
+            <hi rend="pNum">5.</hi> "Take with you the cross as a
+    sign, and be off:<lb/>
+    it is a great key whereby the mighty gate<lb/>
+    of that Garden shall be opened,<lb/>
+    and Adam, who has been expelled, shall enter again". [Gen.
+    3:24]</p>
+         <p>
+            <hi rend="pNum">6.</hi> The word of our Lord was
+    sealed<lb/>
+    like a royal missive from the palace;<lb/>
+    it was handed over to the thief<lb/>
+    who took it and made off for the Garden of Eden.</p>
+         <p>
+            <hi rend="pNum">7.</hi> The Cherub heard him and rushed
+    up,<lb/>
+    he grabbed the Thief at the gate,<lb/>
+    stopping him with the sharp blade that he held.<lb/>
+    All astonished, he addressed him as follows:</p>
+         <p>
+            <hi rend="pNum">8.</hi> CHERUB "Tell me, my man, who
+    has sent you?<lb/>
+    What is it you want, and how did you get here?<lb/>
+    What is the reason that brought you here?<lb/>
+    Reveal and explain to me who it is who has sent you".</p>
+         <p>
+            <hi rend="pNum">9.</hi> THIEF "I will tell you who has
+    sent me,<lb/>
+    just hold back your blade and listen to my words.<lb/>
+    I am a thief, but I supplicated for mercy,<lb/>
+    and it was your Lord who sent me on my way here".</p>
+         <p>
+            <hi rend="pNum">10.</hi> CHERUB "By what powerful means
+    did your arrival take place?<lb/>
+    Who brought you to this dread spot?<lb/>
+    Who transported you across the sea of fire<lb/>
+    so that you could enter Eden? Who is it who sent you?"</p>
+         <p>
+            <hi rend="pNum">11.</hi> THIEF "It was through the
+    power of the Son, who sent me,<lb/>
+    that I crossed over and came here without hindrance.<lb/>
+    Through Him I subdued all powers<lb/>
+    and I have come to enter here, seeing that He has given me
+    confidence".</p>
+         <p>
+            <hi rend="pNum">12.</hi> CHERUB "You are indeed a
+    thief, just as you have said,<lb/>
+    but you can't steal into this region of ours:<lb/>
+    it is fenced in with the sword that guards it. [Gen.
+    3:24]<lb/>
+    Turn back, my man, you have lost your way".</p>
+         <p>
+            <hi rend="pNum">13.</hi> THIEF "I was indeed a thief,
+    but I have changed:<lb/>
+    it was not to steal that I have come here.<lb/>
+    Look, I've got with me the key to Eden,<lb/>
+    to open it up and enter: I will not be prevented".</p>
+         <p>
+            <hi rend="pNum">14.</hi> CHERUB "Our region is awesome
+    and cannot be trodden,<lb/>
+    for fire is its indomitable wall;<lb/>
+    the blade flashes out all around it.<lb/>
+    How is it you have made so bold as to come here?"</p>
+         <p>
+            <hi rend="pNum">15.</hi> THIEF "Your region is indeed
+    awesome, just as you have said,<lb/>
+    - but only until our Lord mounted the cross,<lb/>
+    when He transfixed the sword of all suffering<lb/>
+    so that your blade no longer kills".</p>
+         <p>
+            <hi rend="pNum">16.</hi> CHERUB "Ever since the time
+    that Adam left<lb/>
+    I haven't ever seen anyone turn up here;<lb/>
+    your race has been banished from the Garden;<lb/>
+    you shall not enter it, so don't argue any more".</p>
+         <p>
+            <hi rend="pNum">17.</hi> THIEF "Ever since the time
+    that Adam left<lb/>
+    your Lord has been angered at our race,<lb/>
+    but now He is reconciled and has opened up the gate. [Rom.
+    5:10; Eph. 2:16]<lb/>
+    It is to no purpose that you are standing here".</p>
+         <p>
+            <hi rend="pNum">18.</hi> CHERUB "You should realize
+    that it isn't possible<lb/>
+    for an unclean man to enter in here<lb/>
+    - and you are a murderer, and a shedder of blood.<lb/>
+    Who is it who has brought you to this pure place?"</p>
+         <p>
+            <hi rend="pNum">19.</hi> THIEF "You should realize that
+    such is the wish<lb/>
+    of Him who makes the unclean clean, who was crucified together
+    with me;<lb/>
+    with the blood from His side He has washed me completely clean.
+    [John 19:34]<lb/>
+    It was He who has sent me to Paradise".</p>
+         <p>
+            <hi rend="pNum">20.</hi> CHERUB "Be off with you, man,
+    and don't argue any further,<lb/>
+    for this is what I have been ordered:<lb/>
+    to guard from your race, by means of the sword,<lb/>
+    the Tree of Life that is to be found in here". [Gen. 3:22]</p>
+         <p>
+            <hi rend="pNum">21.</hi> THIEF "Be off with you, angel;
+    you should learn and see<lb/>
+    that I've left behind, hanging on Golgotha,<lb/>
+    that very Fruit of Salvation that's in your garden<lb/>
+    - so that our race may now enter without any hindrance".</p>
+         <p>
+            <hi rend="pNum">22.</hi> CHERUB "Eve and Adam fell into
+    debt and wrote out<lb/>
+    a document that will not be erased: [Col. 2:14]<lb/>
+    they went out of here under sentence<lb/>
+    to live in low estate in the land of thorns". [Gen. 3:18]</p>
+         <p>
+            <hi rend="pNum">23.</hi> THIEF "The debt is repaid.
+    Just listen, O Cherub:<lb/>
+    the document has now been transfixed on the cross; [Col.
+    2:14]<lb/>
+    by means of both blood and water your Lord has wiped it
+    out,<lb/>
+    and pinned it there with nails so that it won't be
+    exacted".</p>
+         <p>
+            <hi rend="pNum">24.</hi> CHERUB "Adam was driven out
+    from this Garden<lb/>
+    and there is no way he can enter here again,<lb/>
+    for the sword's blade is revolving<lb/>
+    and he'll encounter it should he come near".</p>
+         <p>
+            <hi rend="pNum">25.</hi> THIEF "He who was driven out
+    has returned to his father's house,<lb/>
+    for the great Shepherd has gone out and found [John
+    10:11]<lb/>
+    that sheep that had left the Garden;<lb/>
+    carrying him on His shoulders, He has escorted him back". [Luke
+    15:5]</p>
+         <p>
+            <hi rend="pNum">26.</hi> CHERUB "It is something
+    totally novel that I've seen today:<lb/>
+    a path leading back into the Garden.<lb/>
+    But here are Adam's footprints, take a look:<lb/>
+    he has left here and not returned again".</p>
+         <p>
+            <hi rend="pNum">27.</hi> THIEF "Jesus your Lord has
+    performed a novel deed,<lb/>
+    for now He has released Adam who had been confined;<lb/>
+    He has raised up whole crowds from inside Sheol, [Matt.
+    27:52]<lb/>
+    and they have sent me in advance, to open up for them".</p>
+         <p>
+            <hi rend="pNum">28.</hi> CHERUB "I am the cherub: how
+    is it you have transgressed<lb/>
+    against my office of guarding, with which I've been
+    entrusted?<lb/>
+    A fiery being like me cannot be vanquished,<lb/>
+    but as for you, an offspring of Adam, how bold you are!"</p>
+         <p>
+            <hi rend="pNum">29.</hi> THIEF "I am your companion and
+    we have but a single Lord<lb/>
+    in common for both of us;<lb/>
+    His authority is much higher than either yours or mine,<lb/>
+    and so I've no fear, seeing that it was He who has sent
+    me".</p>
+         <p>
+            <hi rend="pNum">30.</hi> CHERUB "You simply cannot
+    enter in here,<lb/>
+    for it is a resplendent place that no one can tread:<lb/>
+    the Shekhina is escorted around inside it,<lb/>
+    and the sword of fire is guarding it".</p>
+         <p>
+            <hi rend="pNum">31.</hi> THIEF "You cannot hold anyone
+    back,<lb/>
+    for the sword is not blunted and made dull.<lb/>
+    The cross has opened up the Garden of Eden;<lb/>
+    there's no means by which it can still be kept closed".</p>
+         <p>
+            <hi rend="pNum">32.</hi> CHERUB "Haven't you heard from
+    the Bible<lb/>
+    how the cherub and the sword go round<lb/>
+    guarding the way to the Garden of Eden,<lb/>
+    so that none of Adam's offspring can enter here?"</p>
+         <p>
+            <hi rend="pNum">33.</hi> THIEF "Haven't you heard from
+    the Revelation<lb/>
+    that your Lord has come down and become man,<lb/>
+    thus reconciling Adam, who was in a state of anger,<lb/>
+    bringing back to Eden the one who had been driven out?"</p>
+         <p>
+            <hi rend="pNum">34.</hi> CHERUB "The sign of the
+    revolving sword<lb/>
+    that guards the Tree of Life<lb/>
+    frightened off Adam when he was driven out,<lb/>
+    so how is it that you're not afraid?"</p>
+         <p>
+            <hi rend="pNum">35.</hi> THIEF "The sign of your Lord
+    is with me,<lb/>
+    and by it the sharp sword is blunted;<lb/>
+    but it too is the sentence remitted,<lb/>
+    and by it, Adam, once expelled, shall return".</p>
+         <p>
+            <hi rend="pNum">36.</hi> CHERUB "The ranks of fire are
+    standing here,<lb/>
+    thousands of them in bands innumerable;<lb/>
+    the multitudes are awesome, and quite simply<lb/>
+    you can't travel on any further and enter among them".</p>
+         <p>
+            <hi rend="pNum">37.</hi> THIEF "The multitudinous ranks
+    of which you've told me<lb/>
+    are themselves in awe as they look upon the Cross:<lb/>
+    the sign of the Son inspires them with awe<lb/>
+    and they worship before it, while me they hold in honour".</p>
+         <p>
+            <hi rend="pNum">38.</hi> CHERUB "The sign of my Lord is
+    upon the Chariot, [Is. 66:15]<lb/>
+    resplendent upon the Throne, but from us it is hidden, [Ezek.
+    1:26-7]<lb/>
+    so how is that you—as you are claiming—<lb/>
+    carry this sign of His and escort it?"</p>
+         <p>
+            <hi rend="pNum">39.</hi> THIEF "His sign is upon the
+    Chariot above,<lb/>
+    but look, His Cross is on Golgotha below,<lb/>
+    and with His own blood He has written a new missive<lb/>
+    permitting Adam to come back into the Garden".</p>
+         <p>
+            <hi rend="pNum">40.</hi> CHERUB "O agent in blood, who
+    has brought you here?<lb/>
+    Who is it has sent you, a murderer?<lb/>
+    The sword is drawn, and if you make bold<lb/>
+    the blade will flash out against you".</p>
+         <p>
+            <hi rend="pNum">41.</hi> THIEF "O agent for the King,
+    don't be upset;<lb/>
+    your authority is repealed, for your Lord has willed it
+    so.<lb/>
+    It is His cross that I've brought to you as a sign:<lb/>
+    look and see if it's genuine, and don't be so angry".</p>
+         <p>
+            <hi rend="pNum">42.</hi> CHERUB "This Cross of the Son
+    which you've brought to me<lb/>
+    is something I dare not look upon at all.<lb/>
+    It is both genuine and awesome; no longer will you be
+    debarred<lb/>
+    from entering Eden, seeing that He has so willed it".</p>
+         <p>
+            <hi rend="pNum">43.</hi> THIEF "The Cross of your Lord
+    has breached the fence [Eph. 2:14]<lb/>
+    that had been built up between us and you,<lb/>
+    Anger has passed away and peace has come,<lb/>
+    and the path to Eden is no longer cut off".</p>
+         <p>
+            <hi rend="pNum">44.</hi> CHERUB "He who was slain has
+    sent to me and testified with His own blood<lb/>
+    that I should let go of the blame which I've been
+    wielding.<lb/>
+    Fearful is this sign which you have brought me;<lb/>
+    enter in, O heir; I will not turn you back".</p>
+         <p>
+            <hi rend="pNum">45.</hi> THIEF "Resurrection has
+    occurred for the race of humankind<lb/>
+    that had been thrust out of their home.<lb/>
+    You cherubim and angels, rejoice with us, [cp Luke 15:10]<lb/>
+    for we have returned now to your city".</p>
+         <p>
+            <hi rend="pNum">46.</hi> CHERUB "Great is the
+    compassion that has been shown to you,<lb/>
+    the descendants of Adam who sinned and thus died.<lb/>
+    Enter, thief, you will not be kept back,<lb/>
+    for the gate is now open for those who repent".</p>
+         <p>
+            <hi rend="pNum">47.</hi> THIEF "Great and most glorious
+    is the compassion of my Lord,<lb/>
+    for His mercy has effected and His love has constrained
+    Him.<lb/>
+    Rejoice with us, O spiritual beings,<lb/>
+    for we have been mingled into your race".</p>
+         <p>
+            <hi rend="pNum">48.</hi> CHERUB "The Gentle One has
+    held back from your race [Matt.11:29]<lb/>
+    the blade and the sword that I have been wielding.<lb/>
+    Outcasts who have returned, have no fear,<lb/>
+    enter inside the Garden with exultation".</p>
+         <p>
+            <hi rend="pNum">49.</hi> THIEF "Praise be in Eden that
+    is now at peace,<lb/>
+    peace on earth which has been liberated.<lb/>
+    Blessed is the Crucified One who has reconciled us<lb/>
+    so that we shall not longer be deprived of your race".</p>
+         <p>
+            <hi rend="pNum">50.</hi> Thanks be to You, O Lord of
+    all,<lb/>
+    who have brought back Adam who had been driven out,<lb/>
+    while to the thief who asked for mercy<lb/>
+    You opened up the gate that had been closed.</p>
+         <p>
+            <hi rend="pNum">51.</hi> Thanks be to You, at whose
+    word<lb/>
+    the thief entered into the Garden of Eden,<lb/>
+    and there was good hope for Adam again<lb/>
+    and he returned to the place from which he had gone out.</p>
+         <p>
+            <anchor corresp="P13"/>[13] The
+    following are the main variants in the East Syriac manuscript
+    tradition (edited by Sachau and Pennacchietti):</p>
+         <p>3:b       ..when you will be
+    revealed.<lb/>
+    c        ..you will
+    come.<lb/>
+    d        (May I see) Your
+    compassion.</p>
+         <p>8:d  (explain to me) who you are.</p>
+         <p>9:a        ..who are
+    questioning me.</p>
+         <p>17:a  ...Adam sinned.</p>
+         <p>18:d  to the place of the upright.</p>
+         <p>24:a  Your race (was driven out...)</p>
+         <p>25:b  the Good Shepherd<lb/>
+    c  that had strayed from the flock.</p>
+         <p>27:c  ..raised up the dead.<lb/>
+    d  and He has sent me.</p>
+         <p>28:c  (A fiery being) I am who..</p>
+         <p>30:b  for this place may not be trodden.</p>
+         <p>33:a  seen<lb/>
+    b  and put on a body.<lb/>
+    c  who had been driven out.<lb/>
+    d  who had been in a state of anger.</p>
+         <p>34:a  The fire and the...</p>
+         <p>36:d  and pass through among them.</p>
+         <p>38:b  seated upon..</p>
+         <p>39:a  His radiance..</p>
+         <p>40:cd  (transposed).</p>
+         <p>42:a  of Jesus.<lb/>
+    d  come and enter Eden.</p>
+         <p>43:1  of the Son.</p>
+         <p>44:d  I will not make bold;  enter in, O heir.</p>
+         <p>45:d  we have arrive at.</p>
+         <p>46:d  for those who enter in.</p>
+         <p>47:b  His love willed it.<lb/>
+    d  to your assembly.</p>
+         <p>48:a  The Cross..</p>
+         <p>49:d  ...your ranks.</p>
+         <p>50:c  in (the person of) the thief.</p>
+         <p>51:d  who returned.</p>
+         <head xml:id="HV5N2Brock10">Commentary</head>
+         <p>Abbreviation:  JS = P. Bedjan, <hi rend="italic">Homiliae Selectae
+    Mar</hi>-<hi rend="italic">Jacobi Sarugensis</hi>, V (Paris/Leipzig, 1910),
+    cited by page and line (other volumes of JS are cited by page
+    alone).</p>
+         <p>
+            <hi rend="bold">1c</hi> cp JS 666:11, 15;  668:18.</p>
+         <p>
+            <hi rend="bold">2ab</hi> cp JS 666:19-20, "He (the Thief) sought from Him
+    mercy, that He would have compassion on him in the
+    Kingdom;  /  he made supplication that was full of
+    suffering to present to Him".</p>
+         <p>
+            <hi rend="bold">2d</hi> cp JS 666:22, "Open up the door of mercy to me so
+    that I may enter the fair place".  And 668:21, "He opened
+    up the great door of mercy before his petition".</p>
+         <p>
+            <hi rend="bold">3d</hi> cp JS 668:5, "I have acknowledged You".</p>
+         <p>
+            <hi rend="bold">4c</hi> cp JS 668:22-669:1, "Verily, verily I say to you,
+    consider as true, O man, / that today you will rejoice with me
+    in the Kingdom".</p>
+         <p>
+            <hi rend="bold">5b</hi> For the Cross as a "key", see already Ephrem,
+    Hymns on the Resurrection II:1;  in Jacob, cp JS 669:10,
+    670:15, 674:3 (also in his Letters, ed. Olinder, 3:19-20).</p>
+         <p>
+            <hi rend="bold">6ab</hi> For "royal missive" (<hi rend="italic">saqra</hi> = Latin
+    <hi rend="italic">sacra</hi>), cp JS 669:20-21, and especially 670:4, "with
+    His living name He would seal the royal missive
+    (<hi rend="italic">saqra</hi>) for the thief on the right hand".  
+    Though not yet found in Ephrem, the term <hi rend="italic">saqra</hi> is
+    later frequently used to denote messages from the heavenly
+    world to earth, above all in the context of the
+    Annunciation.  That it was a letter from Christ which the
+    Thief took with him is a theme found in a few Greek sources,
+    notably Romanos' Kontakion on the Adoration of the Cross (ed.
+    Maas-Trypanis, no 23), stanzas 10-11 (where the Thief tells the
+    Cherub that he has with him a letter (<hi rend="italic">gramma</hi>) with
+    Christ's seal on it;  likewise in the Greek text
+    attributed to John Chrysostom, edited by van Esbroeck, Thief
+    tells the Cherub that "Christ has written for me a letter
+    (<hi rend="italic">epistolen</hi>)" (section 8).   In the Cave of
+    Treasures 51:23 (ed. S-M.Ri),  Christ wrote with his own
+    blood a <hi rend="italic">saqra</hi> of Adam's return and sent it by the
+    hands of the Thief. </p>
+         <p>
+            <hi rend="bold">7d</hi> cp JS 671:2, "The Cherub met him and stood there
+    in amazement to question him".</p>
+         <p>
+            <hi rend="bold">8a</hi> cp JS 671:3-4, "Tell me, man, who are you? 
+    Where are you from? / How did you come over the awesome path of
+    flame?"</p>
+         <p>
+            <hi rend="bold">9c</hi> cp JS 673:1, "I am a thief who used to go about
+    with hateful deeds".</p>
+         <p>
+            <hi rend="bold">10c</hi> For "sea of fire", cp JS 670:18, 671:12,
+    673:21.</p>
+         <p>
+            <hi rend="bold">12c</hi> Behind the term "fenced" (<hi rend="italic">sig</hi>), lies an
+    allusion to the "fence" (<hi rend="italic">syaga</hi>) of Eph. 2:14, "He has
+    broken down the fence of hostility".  Syriac writers
+    regularly understand this verse as referring to the "fence"
+    keeping humanity out of Paradise, subsequent to the
+    Fall);  thus already Ephrem, Madrashe on Paradise II.7,
+    IV.1 etc;  cp JS 686:20, "He has broken down the fence,
+    and so your standing here is redundant".</p>
+         <p>
+            <hi rend="bold">13a</hi> cp JS 674:11, "I was a thief, but mercy captured
+    me from (my) hateful deeds".</p>
+         <p>
+            <hi rend="bold">14bcd</hi> cp JS 674:4-5, "And there is a wall of fire and
+    you cannot break through the partition;  / the blade of
+    fire flares out and is fearful, and if you should be so
+    bold...".</p>
+         <p>
+            <hi rend="bold">17d</hi> cp JS 686:20, cited above, on <hi rend="bold">12c</hi>.</p>
+         <p>
+            <hi rend="bold">19c</hi> cp JS 674:12, "I bathed and was scoured clean of
+    the evils with which I was befouled".</p>
+         <p>
+            <hi rend="bold">23b</hi> The Georgian and Arabic text edited by van
+    Esbroeck also adduces Col. 2:4 (section 12;  not in his
+    Greek text).</p>
+         <p>
+            <hi rend="bold">25bcd</hi> The Georgian and Arabic text likewise
+    introduces the theme of the lost sheep (section 12;  again
+    absent from the Greek).</p>
+         <p>
+            <hi rend="bold">30c</hi> The term "Shekhina" (<hi rend="italic">shkinta</hi>), or Divine
+    Presence, is quite common in Syriac poets from Ephrem (e.g.
+    Madrashe on Paradise II.11) onwards.</p>
+         <p>
+            <hi rend="bold">33b</hi> The East Syriac text, with "put on a body" almost
+    certainly preserves the original reading here.   This
+    archaic phraseology (already found in the Acts of Thomas,
+    Aphrahat, Ephrem, and in the earliest Syriac translation of the
+    Nicene Creed) was subsequently disapproved of by Philoxenus in
+    the light of the Christological controversies;  it was
+    accordingly avoided by many (but by no means all) Syrian
+    Orthodox writers.</p>
+         <p>
+            <hi rend="bold">36a</hi> For "The ranks of fire" (<hi rend="italic">sedray nura</hi>),
+    cp JS 669:19.</p>
+         <p>
+            <hi rend="bold">40a</hi> For "man of blood", cp JS 675:19 and 677:2.</p>
+         <p>
+            <hi rend="bold">44d</hi> cp JS 669:18, "Tell those who are lost that Adam,
+    the heir, has returned".</p>
+         <p>
+            <hi rend="bold">47b</hi> The phrase "His love has constrained Him" also
+    occurs in the <hi rend="italic">Soghitha</hi> on Mary and the Angel (verse
+    1b), and in a <hi rend="italic">Soghitha</hi> attributed to Ephrem
+    (<hi rend="italic">Soghitha</hi> II.2 in E. Beck, <hi rend="italic">Hymni de
+    Nativitate</hi>):  "The daughter of poor parents has
+    become mother to the Rich One / whose love has thus constrained
+    Him".  The same verb (‘<hi rend="italic">sa</hi>) also features a
+    number of times in Jacob's <hi rend="italic">memre</hi> (e.g. I, 507; 
+    II, 137),<ref target="#FN12">12</ref> although not in that on the Cherub and the
+    Thief, where the nearest parallel is 686:18, “He became a
+    Mediator and pacified His Father for His love so wished
+    it”.</p>_______<lb/>
+         <head xml:id="HV5N2Brock11">Notes</head>
+         <p>
+            <ref target="#FNRef1">1</ref> Overviews can be found in G.J. Reinink and H.L.J.
+    Vanstiphout (eds), <hi rend="italic">Dispute Poems and Dialogues in the
+    Ancient and Mediaeval Near East</hi> (Orientalia Lovaniensia
+    Analecta 42;  Leuven, 1991);  R. Murray, "Aramaic and
+    Syriac dispute poems and their connections", in M.J. Geller,
+    J.C. Greenfield and M.P. Weitzman (eds),  <hi rend="italic">Studia
+    Aramaica</hi> (Journal of Semitic Studies, Supplement 4; 
+    1995), 157-87;   S.P. Brock, “The Dispute
+    Poem:  from Sumer to Syriac”, <hi rend="italic">Journal of the
+    Canadian Society for Syriac Studies</hi> 1 (2001), 1-10.
+    <ref target="#FNRef1">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef2">2</ref> Modern Syriac:  e.g. L. Yaure, “A poem
+    in the Neo-Aramaic dialect of Urmia”, <hi rend="italic">Journal of Near
+    Eastern Studies</hi> 16 (1957), 73-87 (Samovar and Boys); 
+    Modern Arabic:  e.g. C.D. Holes, “The rat and the
+    ship’s captain”, <hi rend="italic">Studia Orientalia</hi> 75
+    (1995), 101-20. <ref target="#FNRef2">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef3">3</ref> 
+            <hi rend="italic">Carmina Nisibena</hi> LII-LIV;  English
+    translation of  LII in S.P. Brock, <hi rend="italic">The Harp of the
+    Spirit:  Eighteen Poems of Saint Ephrem</hi> (Studies
+    Supplementary to Sobornost, 4;  1983), 70-72. <ref target="#FNRef3">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef4">4</ref> A list is given in S.P. Brock, “Syriac
+    dispute poems:  the various types”, in Reinink and
+    Vanstiphout, <hi rend="italic">Dispute Poems and Dialogues,</hi> 109-19
+    (reprinted in <hi rend="italic">From Ephrem to Romanos</hi> (Aldershot,
+    1999), chap. VII (and Addenda, 4-5). <ref target="#FNRef4">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef5">5</ref> Whereas the Hebrew and Septuagint have the plural,
+    Cherubim, the Peshitta has the singular. <ref target="#FNRef5">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef6">6</ref> Torino, 1993.   On the cover will be
+    found a reproduction of a medieval illustration of the topic
+    (for this, see J.Leroy, “La sogitha du cherubin et du
+    larron, source d’une miniature du manuscrit syriaque BM
+    Add.7169”, <hi rend="italic">Parole de l’Orient</hi> 6/7
+    (1975/6), 413-19. <ref target="#FNRef6">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef7">7</ref> Monastery of St Ephrem, Holland, 1982 (it features
+    as no. 13, pp.61-5);  for the contents and sources of this
+    collection of 26 pieces, see “Syriac  dialogue
+    poems: marginalia to a recent edition”, <hi rend="italic">Le
+    Muséon</hi> 97 (1984), 29-58. <ref target="#FNRef7">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef8">8</ref> 
+            <hi rend="italic">Sogiatha</hi>: <hi rend="italic">Syriac Dialogue
+    Hymns</hi> (Syrian Churches Series XI;  Kottayam, 1987),
+    28-35.   There is also a French translation by F.
+    Graffin, in <hi rend="italic">L’Orient Syrien</hi> 12 (1967), 481-90.
+    <ref target="#FNRef8">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef9">9</ref> The East Syriac recension may also be original at
+    3d, 18d, 25c, 28c, 33a  and 50c. <ref target="#FNRef9">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef10">10</ref> “Homélie
+    éphrémienne sur le bon Larron en grec,
+    géorgien et arabe”, <hi rend="italic">Analecta Bollandiana</hi>
+    101 (1983), 327-62. <ref target="#FNRef10">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef11">11</ref> London, 1929, p.198. <ref target="#FNRef11">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p>
+            <ref target="#FNRef12">12</ref> Jacob normally prefers the verb
+    <hi rend="italic">ngad</hi> (e.g. I, 609;  II, 349, 507 etc.). <ref target="#FNRef12">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <lb/>
+    _______<lb/>
+         <head xml:id="HV5N2Brock12">Bibliography</head>
+         <p>Brock, S.P. “The Dispute
+    Poem:  from Sumer to Syriac”, <hi rend="italic">Journal of the
+    Canadian Society for Syriac Studies</hi> 1 (2001), 1-10.</p>
+         <p>— <hi rend="italic">The Harp of the
+    Spirit:  Eighteen Poems of Saint Ephrem</hi> (Studies
+    Supplementary to Sobornost, 4;  1983), 70-72.</p>
+         <p>—
+    <hi rend="italic">Sogiatha</hi>: <hi rend="italic">Syriac Dialogue Hymns</hi> (Syrian
+    Churches Series XI;  Kottayam, 1987), 28-35.</p>
+         <p>— <hi rend="italic">Sughyotho
+    Mgabbyotho</hi>, (Monastery of St Ephrem, Holland, 1982), pp.
+    61-5.</p>
+         <p>— “Syriac dispute
+    poems:  the various types”, in Reinink and
+    Vanstiphout, <hi rend="italic">Dispute Poems and Dialogues,</hi> 109-19
+    (reprinted in <hi rend="italic">From Ephrem to Romanos</hi> (Aldershot,
+    1999), chap. VII (and Addenda, 4-5).</p>
+         <p>— “Syriac  dialogue
+    poems: marginalia to a recent edition”, <hi rend="italic">Le
+    Muséon</hi> 97 (1984), 29-58.</p>
+         <p>Graffin, F. "La soghitha du
+    chérubin et du larron," <hi rend="italic">L’Orient Syrien</hi>
+    12 (1967), 481-90.</p>
+         <p>Holes, C.D. “The rat and the
+    ship’s captain”, <hi rend="italic">Studia Orientalia</hi> 75
+    (1995), 101-20.</p>
+         <p>Leroy, J. “La sogitha du
+    cherubin et du larron, source d’une miniature du
+    manuscrit syriaque BM Add.7169”, <hi rend="italic">Parole de
+    l’Orient</hi> 6/7 (1975/6), 413-19.</p>
+         <p>Murray, R. "Aramaic and Syriac
+    dispute poems and their connections", in M.J. Geller, J.C.
+    Greenfield and M.P. Weitzman (eds),  <hi rend="italic">Studia
+    Aramaica</hi> (Journal of Semitic Studies, Supplement 4; 
+    1995), 157-87.</p>
+         <p>Pennacchietti, F. <hi rend="italic">Il ladrone e
+    il cherubino</hi>. <hi rend="italic">Dramma liturgico cristiano
+    orientale in siriaco e neoaramaico</hi>, (Torino: Zamorani,
+    1993).</p>
+         <p>Reinink, G.J. and H.L.J. Vanstiphout
+    (eds), <hi rend="italic">Dispute Poems and Dialogues in the Ancient and
+    Mediaeval Near East</hi> (Orientalia Lovaniensia Analecta
+    42;  Leuven, 1991).</p>
+         <p>Sachau, E. "Über die Poesie in
+    der Volkssprache der Nestorianer", Sitzungsberichte der
+    Königlich-Preussischen Akademie der Wissenschaften zu
+    Berlin XI.8 (1896), 179-215.</p>
+         <p>van Esbroeck, M.
+    “Homélie éphrémienne sur le bon
+    Larron en grec, géorgien et arabe”, <hi rend="italic">Analecta
+    Bollandiana</hi> 101 (1983), 327-62.</p>
+         <p>Yaure, L. “A poem in the
+    Neo-Aramaic dialect of Urmia”, <hi rend="italic">Journal of Near
+    Eastern Studies</hi> 16 (1957), 73-87.</p>
+         <p/>
+         <p/>
+         <p/>
+         <p/>
+         <p/>
+         <p/>
+         <p/>
+         <!-- #EndEditable -->
+      </body>
+   </text>
+</TEI>
