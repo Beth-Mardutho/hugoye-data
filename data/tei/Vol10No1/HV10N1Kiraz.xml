@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Forty Years of Syriac Computing</title>
+            <author>
+               <name>George A. Kiraz</name>
+               <affiliation>
+                  <orgName/>
+               </affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+            <date/>
+            <idno>Vol. 10, No. 1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication, a Creative Commons Attribution 4.0 International
+                                license has been granted by the author(s), who retain full
+                                copyright.</p>
+               </licence>
+            </availability>
+            <idno type="URI">https://hugoye.org/Vol10No1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author>George A. Kiraz</author>
+                  <title level="a">Forty Years of Syriac Computing</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Hugoye: Journal of Syriac Studies</title>
+                  <imprint>
+                     <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                     <date/>
+                  </imprint>
+                  <biblScope type="vol" n="10">10</biblScope>
+                  <biblScope type="issue" n="1">1</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                        of the Syriac tradition, published semi-annually (in January and July) by Beth
+                        Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                        best scholarship available in the field of Syriac studies.</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="uncorrectedTransformation">
+         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lb/>
+         <lb/>
+    
+    
+    
+    
+         <!-- InstanceBeginEditable name="Content" -->
+         <head>Abstract</head>
+         <p rend="Abstract">The term �Syriac Computing� was coined in
+    1992 and took shape in 1995 when the First International Forum
+    on Syriac Computing was held in conjunction with the Second
+    Syriac Symposium in Washington, DC. The term was applied to
+    computer-related activities and projects which support Syriac
+    studies. Syriac computing, however, began much earlier though
+    on a small scale. On the 10th anniversary of <hi rend="italic">Hugoye</hi>
+    and the 15th anniversary of its parent, Beth Mardutho, whose
+    contributions to Syriac computing are well known, this paper
+    aims to outline the history of Syriac computing and offer some
+    considerations for the future.</p>
+         <lb/>
+         <head>Contents</head>
+         <list type="ordered">
+            <item>
+               <ref target="#S1">Computational Lexicography</ref>
+            </item>
+            <item>
+               <ref target="#S2">Word Processing and Desktop
+      Publishing</ref>
+            </item>
+            <item>
+               <ref target="#S3">Standards</ref>
+            </item>
+            <item>
+               <ref target="#S4">The Internet</ref>
+            </item>
+            <item>
+               <ref target="#S5">Future Considerations</ref>
+            </item>
+         </list>
+         <lb/>
+         <head xml:id="S1">Computational Lexicography</head>
+         <p rend="n">
+            <anchor xml:id="P1"/>[1] The
+    first project that is known to me which employed computer
+    systems for the study of Syriac falls within the domain of
+    computational lexicography, and is only known through oral
+    tradition. Stanislav Segert, former Professor at University of
+    California, Los Angeles (UCLA) from whom I learned this in the
+    mid 1980s, heard that someone at UCLA had encoded Brockelmann�s
+    <hi rend="italic">Lexicon Syriacum</hi> on a mainframe computer system back in
+    the 1960s. He attempted to trace down the data during his
+    tenure, but was unable to find anything. One can speculate that
+    at minimum these data contained a transcription of the Syriac
+    lexemes in the <hi rend="italic">Lexicon</hi>, maybe with Latin correspondences
+    as well. It is unknown if more linguistic data tagging was
+    applied, such as morphological information. The data must have
+    been entered using punch cards. Nothing is known about the
+    intention of the project; it may have been simply a study
+    aid.</p>
+         <p style="text-align:center">
+            <graphic url="HV10N1Kiraz_01.jpg" rend="img" mimeType="image/jpeg"/>
+         </p>
+         <p style="text-align:center">Figure 1. Computer system similar
+    to the one used at UCLA in the 1960s.</p>
+         <p rend="n">
+            <anchor xml:id="P2"/>[2] Later
+    lexicographical projects aimed at the generation of
+    concordances, primarily to biblical texts. These are discussed
+    below in chronological order.</p>
+         <head xml:id="S1.1">The G�ttingen Project</head>
+         <p rend="n">
+            <anchor xml:id="P3"/>[3] In 1970,
+    an ambitious project began in G�ttingen to publish concordances
+    to Biblical texts. The project was called Der G�ttinger
+    Syrischen Konkordanz, and used Fortran IV as its programming
+    language.<ref target="#FN1">1</ref> The resulting concordances were subsequently
+    published.<ref target="#FN2">2</ref>
+         </p>
+         <p rend="n">
+            <anchor xml:id="P4"/>[4] The data
+    model of the G�ttingen project was a simple one. Tables were
+    saved in flat files, where each line in a file represented a
+    record. Fields in each record were fixed-length. Entering data
+    was a challenge in its own right. Someone who must have known
+    Syriac, or at least the Syriac alphabet, transcribed data on
+    data cards. The data was then entered, by someone who did not
+    have to know Syriac, using a traditional keyboard used to
+    generate a punch card. The punch card was then fed to an IBM
+    mainframe computer. Syriac text was entered using simple
+    transcription (one-to-one mapping from Syriac letters to
+    ASCII).</p>
+         <head xml:id="S1.2">The Way International Project</head>
+         <p rend="n">
+            <anchor xml:id="P5"/>[5] Also in
+    1970, and probably unknown to the Syriac studies community at
+    the time, The Way International, a �nondenominational,
+    nonsectarian Biblical research, teaching and fellowship
+    ministry� (as it describes itself on its web site), began an
+    ambitious project to create a Syriac concordance to the Syriac
+    New Testament. The Way was motivated by George Lamsa�s
+    unfounded claims that the Peshitta is superior to the Greek New
+    Testament and represents an original Aramaic version of the New
+    Testament.<ref target="#FN3">3</ref> During a period of 15 years, The Way managed to
+    encode the entire Syriac New Testament, with a comprehensive
+    lexical database. The concordance<ref target="#FN4">4</ref> that came out of the project
+    was a mere word list, despite the fact that the data model was
+    sufficient to create a concordance as detailed as the one
+    produced later by Kiraz.<ref target="#FN5">5</ref> The Way managed to publish other
+    useful tools from the project: an edition of the New Testament
+    in the Estrangelo script,<ref target="#FN6">6</ref> an inter-linear Syriac-English
+    edition of the Peshitta New Testament,<ref target="#FN7">7</ref> and an
+    English-Syriac index.<ref target="#FN8">8</ref> At the time, The Way initially made these
+    publications available to individuals who were not members of
+    their organization. I managed to obtain a set!</p>
+         <p rend="n">
+            <anchor xml:id="P6"/>[6] The data
+    model employed here was based on a relational database. The
+    data were later made available through the Ancient Biblical
+    Manuscript Center (Claremont, CA). The Center received this
+    data on a single magnetic reel-to-reel tape containing twelve
+    data files. The format was created on an IBM System 38
+    computer. The files were downloaded onto sixteen 364K, 5 �"
+    floppy disks in a PC environment with the help of the Academic
+    Computer Center at the Claremont Graduate School. Each record
+    type was represented in a flat file, one record per line.
+    Fields were fixed-length. The data was later utilized by Kiraz
+    in the SEDRA database project (see below).</p>
+         <head xml:id="S1.3">Borbone / The Peshitta Institute</head>
+         <p rend="n">
+            <anchor xml:id="P7"/>[7] During
+    the 1980s, Pier Giorgio Borbone developed a computational
+    system with which he produced a number of concordances to
+    Biblical texts. Description of this system can be found in
+    various papers.<ref target="#FN9">9</ref> The Borbone system has been developed further
+    and is currently being used for the generation of the Leiden
+    Peshitta concordance, of which one volume has already
+    appeared.<ref target="#FN10">10</ref>
+         </p>
+         <head xml:id="S1.4">Kiraz�s SEDRA Database</head>
+         <p rend="n">
+            <anchor xml:id="P8"/>[8] The
+    initial work of George Kiraz�s lexical work goes back to 1984
+    when he began encoding existing lexica in relational databases.
+    The first attempt was to encode an Arabic-Syriac version of
+    Costaz�s dictionary.<ref target="#FN11">11</ref> Only the letters Olaph-Dolath were
+    entered at the time. In a second attempt during 1990, Kiraz
+    tried getting an international group of volunteers to encode
+    Margoliouth�s Syriac-English dictionary through Alaph Beth
+    Computer Systems. The system was called in Syriac
+    <hi rend="italic">sedra</hi> �array� as databases are considered arrays of
+    data. The acronym SEDRA at the time stood for �Syriac
+    Electronic Data Research Archive.�<ref target="#FN12">12</ref> In this case too, very
+    little was achieved. On March 2, 1988, Kiraz signed an
+    agreement with the Ancient Biblical and Manuscript Center and
+    incorporated its data into SEDRA. The system was used to
+    publish a detailed concordance to the Syriac New Testament, and
+    a pedagogical word list to assist students in learning New
+    Testament Syriac.<ref target="#FN13">13</ref> Recently, Logos Research Systems
+    incorporated SEDRA in its Scholar�s Library.<ref target="#FN14">14</ref> In addition, a
+    team of international scholars are currently using SEDRA to
+    generate an interlinear to the Syriac New Testament. SEDRA is
+    available for download from the Beth Mardutho web site
+    (<ref target="http://www.bethmardutho.org/">http://www.bethmardutho.org</ref>). A number of online
+    tools have already been implemented using SEDRA.<ref target="#FN15">15</ref>
+         </p>
+         <p rend="n">
+            <anchor xml:id="P9"/>[9] SEDRA
+    went through three incarnations. SEDRA I (1989) derived from
+    the database provided by The Way International through the
+    Ancient Biblical and Manuscript Center. As flat files were not
+    necessarily efficient for modeling databases, the relational
+    database was converted for use in db_VISTA,<ref target="#FN16">16</ref> a database
+    management system that provided a programmable interface in the
+    C programming language for writing database applications. In
+    the next incarnation, SEDRA II (1990), additional tables and
+    fields necessary for the generation of Kiraz�s
+    <hi rend="italic">Concordance</hi> were added. Moreover, the entire text of
+    the New Testament was vocalized and pointed, punctuation marks
+    were added, and the text was normalized to represent the BFBS
+    edition of the Syriac New Testament,<ref target="#FN17">17</ref> as the text used
+    by The Way was based on other manuscripts, primarily from the
+    British Museum.<ref target="#FN18">18</ref> To accomplish the vocalization and pointing
+    process, a program was written that skipped over words which
+    had been already vocalized.</p>
+         <p rend="nn">
+            <anchor xml:id="P10"/>[10]
+    Initial <hi rend="italic">bgdkpt</hi> letters were always marked with a
+    <hi rend="italic">qushshaya</hi> point; an algorithm was written to convert
+    the <hi rend="italic">qushshaya</hi> into <hi rend="italic">rukkakha</hi> if the preceding
+    word, if any, ended in a vowel and was not followed by a
+    punctuation mark. The dot on the feminine object pronominal
+    suffix was not included in the pointing, and is to be added by
+    another algorithm based on the existing morphological data. The
+    same applies to <hi rend="italic">seyame</hi>. Many of the online tools that
+    generated NT texts from downloading SEDRA ignored these
+    features and hence produced texts without <hi rend="italic">seyame</hi> and
+    the feminine marker.</p>
+         <p rend="nn">
+            <anchor xml:id="P11"/>[11] The
+    next incarnation of the project was SEDRA III (1991). The first
+    change was the move from a relational model to a network model
+    where ordered, one-to-many parent-child relations provided ease
+    for concordance generation. The technical aspects of this model
+    have been described in detail elsewhere.<ref target="#FN19">19</ref> SEDRA III
+    contains 2,050 roots, 3,559 Lexemes, 31,079 word forms and
+    6,337 English meanings (particular to the context of the New
+    Testament).</p>
+         <head xml:id="S1.5">Brigham Young University�s Bar Bahlul
+    Project</head>
+         <p rend="nn">
+            <anchor xml:id="P12"/>[12] In
+    early 1998, ISPART (then CPART) commissioned G. Kiraz to
+    implement a linguistic database of the Syriac language that can
+    be used as a tool to implement search engines of Syriac texts.
+    Central to the creation of a searchable Syriac text was an
+    electronic lexicon compounded with a morphological generator.
+    As Syriac is a highly inflected language, it is not possible to
+    enumerate all of the Syriac words that may occur in texts.
+    Kiraz proposed that a linguistically motivated lexicon be
+    created, accompanied with a morphological generator that would
+    create all, or as many as possible, inflected Syriac words, and
+    named the project after the famous 10th century lexicographer
+    Bar Bahlul.</p>
+         <p rend="nn">
+            <anchor xml:id="P13"/>[13] The
+    electronic lexicon was built in Access Format, and populated
+    with roots and lexemes with many morphological attributes. The
+    database contains abstract information from which a fuller
+    lexicon can be generated using a morphological generator. The
+    morphological generator is expressed in ASCII files according
+    to a special format. In addition to deriving all verbal forms
+    for each root based on information provided in the electronic
+    lexicon, the morphological generator creates forms with object
+    pronominal suffixes, possessive suffixes, and prefixes.<ref target="#FN20">20</ref>
+         </p>
+         <head xml:id="S1.6">The Comprehensive Aramaic Lexicon</head>
+         <p rend="nn">
+            <anchor xml:id="P14"/>[14] In
+    the 1980s, The Comprehensive Aramaic Project was born under the
+    direction of Stephen Kaufman. The project is ambitious and aims
+    at covering all dialects of ancient Aramaic. This is probably
+    the first project involving Syriac wherein the lexical aspects
+    of the project are primary, and concordance generation is
+    secondary (i.e., concordance helps in compiling a lexicon).</p>
+         <p rend="nn">
+            <anchor xml:id="P15"/>[15]
+    Various publications dealing with Aramaic dialects other than
+    Syriac have already come out.<ref target="#FN21">21</ref> The publication of a
+    concordance to the Old Syriac Gospels has just been
+    published.<ref target="#FN22">22</ref> More information on CAL can be found on the
+    project�s web site at <ref target="http://cal1.cn.huc.edu/">http://cal1.cn.huc.edu</ref>.</p>
+         <head xml:id="S2">Word Processing and Desktop Publishing</head>
+         <p rend="nn">
+            <anchor xml:id="P16"/>[16]
+    Until the 1970s and even the early 1980s, publishing Syriac
+    texts used traditional methods such as movable type, and
+    machine-set types (e.g., the Syriac types produced in the 1920s
+    by American Linotype, and the Estrangelo type produced by the
+    British Monotype Corporation in 1954).<ref target="#FN23">23</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P17"/>[17] With
+    the advancement of computers, institutions began looking for
+    ways to use computer technology to print Syriac texts. The
+    first publications that employed computer technology for the
+    production of the text were the concordances of the G�ttinger
+    Syrischen Konkordanz project mentioned above. The text was
+    produced on a plotter, an output device that draws pictures and
+    drawings using one or more pens, usually used by the
+    engineering community for architectural drawings. This system
+    was not used, to the best of my knowledge, beyond the project�s
+    publications.</p>
+         <p rend="nn">
+            <anchor xml:id="P18"/>[18]
+    Another early project, one that made use of a more advanced
+    technology, was initiated by the Assyrian Church of the East in
+    the early 1980s. The Church�s Literary Committee commissioned
+    Purdy and Macintosh to produce a high-resolution digital
+    phototypesetting system. The term �digital� here needs to be
+    qualified. The device, and the software that was implemented on
+    the device, were indeed digital (i.e., a special-purpose
+    computer). The actual output of the device, however, was a
+    photographic one. This was advantageous at the time as
+    photographic type produced better quality than digital type.
+    The device�s photographic results were of the highest quality,
+    at a resolution of up to 2602 elements per inch. In addition to
+    Syriac, the device handled English and Arabic, catering for the
+    need of the Church. The Syriac fonts were designed by the
+    Church�s team and included one Estrangelo and one East Syriac
+    type. The device was announced in 1985. The Church produced a
+    beautiful lectionary using this system and a number of
+    publications. Such devices proved to be quite expensive, which
+    was a factor in their limited distribution. The general user
+    had to wait until the popularization of personal computers, and
+    the availability of Syriac digital types for these
+    platforms.</p>
+         <head xml:id="S2.1">The DOS Era</head>
+         <p rend="nn">
+            <anchor xml:id="P19"/>[19] With
+    the release of the IBM Personal Computer in the early 1980s,
+    the age of personal computing really began. Individuals were
+    able now to obtain such machines. By the mid 1980s, PCs were
+    competing with the Apple Macintosh system, and to a lesser
+    extent with the Atari system. This period witnessed a number of
+    attempts by various individuals to implement Syriac fonts for
+    various platforms. It is difficult here to give an account of
+    all such efforts for the lack of documentation. Instead, I
+    shall outline here my personal experience in developing Syriac
+    fonts, mentioning the work of others when possible.</p>
+         <p rend="nn">
+            <anchor xml:id="P20"/>[20] I
+    began looking into the problem of Syriac fonts and word
+    processing in 1984. My first attempts to represent a Syriac
+    letter digitally revolved around hard-coding a representation
+    of each glyph manually. I began by drawing an 8-column grid on
+    a piece of paper. The choice of eight was because a byte, the
+    unit of storing information in computers, consists of eight
+    binary bits. I then drew the letter in the grid. For each row,
+    a filled cell was assigned 1 and an empty was assigned 0, and
+    these were then put together to form an 8-bit byte as shown in
+    Figure 2. The collection of bytes (one per row) were then
+    represented in the C programming language as an array; e.g.,
+    the letter <hi rend="italic">Beth</hi> was represented as follows:</p>
+         <p>int Beth[14] = { 0x00, 0x00, 0x3E, 0x41, 0x01, 0x0E, 0x00,
+    0x00 };</p>
+         <p style="text-align:center">
+            <graphic url="HV10N1Kiraz_02.jpg" rend="img" mimeType="image/jpeg"/>
+         </p>
+         <p style="text-align:center">Figure 2. Crude binary
+    representation of <hi rend="italic">beth</hi>. Binary numbers shown in black
+    and red; hex numbers are shown in blue.</p>
+         <p>This crude attempt produced ugly output. The lack of a word
+    processor that would communicate with such a representation of
+    fonts made the result useless.</p>
+         <p rend="nn">
+            <anchor xml:id="P21"/>[21] In
+    1985, I came across two products from a Colorado-based company
+    called Data Transforms Inc.: Fontrix� and Printrix�. The former
+    product allowed the user to type text on a graphic screen using
+    bitmap fonts. The input method allowed left-to-right as well as
+    right-to-left writing. What made it interesting is that it came
+    with a font editor that allowed the user to create new fonts.
+    The Printrix product allowed the user to print larger documents
+    avoiding the graphical screen. Fontrix and Printrix had a
+    number of serious limitations. The font editor did not allow
+    scanned images, forcing one to rely on manually drawn glyphs.
+    Marks could not be placed above or below base glyphs. As the
+    input was drawn on a graphical screen, one could not edit the
+    text without having to delete it first. There was no text
+    wrapping either. Despite these deficiencies, I produced a few
+    crude fonts for private use as shown in Figure 3.
+    Independently, Touma Issa produced a Syriac font in Fontrix
+    with the help of his father Corepiscopos Butros Touma, and used
+    it to print church banners in 1986.</p>
+         <p style="text-align:center">
+            <graphic url="HV10N1Kiraz_03.jpg" rend="img" mimeType="image/jpeg"/>
+         </p>
+         <p style="text-align:center">Figure 3. Crude Fontrix and
+    Printrix fonts (1985).</p>
+         <p rend="nn">
+            <anchor xml:id="P22"/>[22] In
+    1986 Gamma Productions of California issued version 3.0 of its
+    multi-lingual word processor Multi-Lingual Scholar� (MLS). This
+    software was truly multi-lingual in the sense that if the user
+    was typing in a particular language, the typographical rules of
+    that language applied. Indeed, it remained for PC-based systems
+    the only unchallenged multi-lingual word processor until very
+    recently when Microsoft released its multi-lingual operating
+    system Windows 2000. MLS came with Latin, Cyrillic, Greek,
+    Hebrew, and Arabic, with the possibility of adding other
+    languages. Its importance to Syriac resided in the fact that
+    MLS came with a font editor that allowed the user to create new
+    fonts, indeed, new languages. The font editor was able to read
+    scanned images; hence, one was able to design high-quality
+    fonts based on books published from metal types. The word
+    processor worked bi-directionally. One was able to place up to
+    three marks above and below a letter (ample for Syriac), and
+    the font allowed for twenty such marks.</p>
+         <p rend="nn">
+            <anchor xml:id="P23"/>[23]
+    Alaph Beth Computer Systems, a company that I founded in 1986
+    and was operational until the early 1990s, produced a suite of
+    Syriac fonts for MLS. Two Estrangelo fonts, one similar to the
+    Monotype design, and the other based on a type originally
+    designed by W. Drugulin of Leipzig ca. 1880; one Serto font
+    modeled after a type whose original design dates back to a type
+    associated with the famous diplomat and printer of Arabic,
+    Savary de Br�ves, before 1614; and one East Syriac font, based
+    on a type by Drugulin ca. 1880, designed with helpful comments
+    from Mar Emanuel Emanuel of the Church of the East.<ref target="#FN24">24</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P24"/>[24] MLS
+    used the bitmap font technology; i.e., drawing glyphs by pixels
+    similar to my early crude attempt but using a more
+    sophisticated font editor. This meant that a font was designed
+    for a specific point size; another size would require designing
+    a new font (usually copying the old font and editing it).
+    Additionally, as each printing device had a different
+    resolution (i.e., printed a different number of pixels per
+    inch), each font at each size had to be designed for various
+    printer solutions. 300 dots-per-inch (dpi) laser printers, 240
+    dpi 24-pin dot matrix printers, and 180 dpi 9-pin dot matrix
+    printers in both draft and quad-density modes.</p>
+         <p rend="nn">
+            <anchor xml:id="P25"/>[25] MLS
+    had a number of shortcomings. Formatting commands had to be
+    typed within the text. No file could be larger than 64K bytes,
+    including formatting commands. This meant that a complicated
+    document, such as my <hi rend="italic">Concordance to the Syriac New
+    Testament</hi> (1990), could not be more than five or six pages
+    long. The 4,640-page <hi rend="italic">Concordance</hi> had to be split into
+    928 files, but MLS had the ability to link each document to a
+    �previous� and �next� document, creating a chain of documents.
+    (Luckily, I had my concordance-generation software create and
+    link the 928 files so that with one print command I was able to
+    print the entire text). While such limitations would be
+    unacceptable to the modern computer user, the user of the 1980s
+    was satisfied to have such a multi-lingual capability, with a
+    high-resolution output.</p>
+         <p rend="nn">
+            <anchor xml:id="P26"/>[26] The
+    MLS Syriac fonts were used in a number of other scholarly
+    publications, but more so amongst the Syriac-speaking
+    communities. Bar Hebraeus Verlag in Holland published over 50
+    books with these fonts. The fonts appear in journals, wedding
+    invitations, and even tombstones! A screen shot appears in
+    Figure 4.</p>
+         <p style="text-align:center">
+            <graphic url="HV10N1Kiraz_04.jpg" rend="img" mimeType="image/jpeg"/>
+         </p>
+         <p style="text-align:center">Figure 4. Screen shot of MLS 3.2
+    showing Kiraz's Syriac, Arabic and cuneiform fonts, along with
+    Gamma Production's Hebrew and Greek fonts (1986).</p>
+         <p rend="nn">
+            <anchor xml:id="P27"/>[27] In
+    the 1988 Symposium Syriacum held in Louvain, I declared that
+    MLS is �the most sophisticated word processor that has all the
+    requirements needed [for Syriac]�.<ref target="#FN25">25</ref> Bill Gates of Microsoft is
+    also quoted to have said in 1981, �640K ought to be enough for
+    anybody�. Syriac desktop systems would continue to advance.</p>
+         <head xml:id="S2.2">The Windows Age</head>
+         <p rend="nn">
+            <anchor xml:id="P28"/>[28]
+    During the 1990s, users started shifting from the DOS-based
+    operating system to the more user-friendly Windows operating
+    system. At the time Microsoft had different language-based
+    operating systems. A Middle East version supported
+    right-to-left writing. During this period, a number of fonts
+    were produced by various people. Fonts for the standard Windows
+    operating system were limited as users had to type texts
+    backward, or use a utility program that switched the text for
+    them. Those designed for the Middle East Windows version worked
+    perfectly. In essence, the font designers designed an Arabic
+    font, replacing Arabic glyphs with their corresponding Syriac
+    glyphs. There was one problem that was ingeniously overcome by
+    the font designers: The letters <hi rend="italic">Sodhe</hi> and <hi rend="italic">Taw</hi>
+    are right-joining in Syriac but their counterparts in Arabic
+    are dual-joining. As the rules of joining letters was
+    hard-coded in the operating system, the fonts used the Arabic
+    <hi rend="italic">ta-marbuta</hi> position for <hi rend="italic">Taw</hi>, and a similar
+    letter for <hi rend="italic">Sodhe</hi>. The font methodology of the time was
+    using TrueType fonts. These were outline fonts rather than
+    bitmaps. The font designer had to define the shape of a glyph
+    in terms of Bezier curves using a user-friendly font tool. One
+    design is good enough for all sizes and resolutions. The
+    computer takes care of figuring out the size of the font. One
+    popular font was <hi rend="italic">suryani2</hi> whose origins I do not
+    know.</p>
+         <p rend="nn">
+            <anchor xml:id="P29"/>[29]
+    During this period numerous other fonts were designed by
+    various people. Listing them gives an indication of the
+    widespread use of computers and web sites:<ref target="#FN26">26</ref>
+         </p>
+         <list type="unordered">
+            <item>Gamma Productions redid my Alaph Beth Computer Systems
+      fonts to be used for their Windows-based tools in 1995.</item>
+            <item>Steven J. Lundeen of Emerald City Fontworks, Seattle,
+      designed a decorative font in 1997.</item>
+            <item>Yakob Ishak Oraha, Europe, designed a collection of East,
+      West and Estrangelo fonts in 1998.</item>
+            <item>Tony Khoshaba, Chicago, IL, designed Ishtar Web in
+      1998.</item>
+            <item>James Adair designed an Estrangelo font called SPEdessa
+      based on the Leiden Peshitta edition in 1998.</item>
+            <item>Dawod Abed, Germany, designed a Serto font called �Dawod�
+      to be used in his Aramaic Write word processing program in
+      1998.</item>
+            <item>Ashur Cherry of Ontario, Canada, designed 15 East and 4
+      Estrangelo fonts for the Ashurbanipal software and made them
+      available on the Internet in 1999.</item>
+            <item>Nabu Publishing in Australia designed East Syriac fonts
+      in 1999.</item>
+            <item>Mesut Tan, Germany, designed four Serto fonts and one
+      Estrangelo font in 2000.</item>
+            <item>Michael Davodian, Germany, designed fonts which were then
+      used on Web sites.</item>
+            <item>David Chibo and the Assyrian Youth Group of Victoria,
+      Melbourne, Australia, produced fonts in the Assyria�s Letters
+      series. These included two East, one Serto and two Estrangelo
+      fonts.</item>
+            <item>International Systems Consultancy, Australia, produced an
+      East Syriac font named Assyrian Web. It was used by the
+      makers of the Farsi-based Parsnegar word processing
+      system.</item>
+         </list>
+         <p rend="nn">
+            <anchor xml:id="P30"/>[30]
+    During this period, Yannis Haralambous designed Sabra,<ref target="#FN27">27</ref> a
+    collection of outline fonts and macros for use in the
+    T<hi style="vertical-align: sub">E</hi>X typesetting
+    languages. The project was part of a wider activity under the
+    auspices of the ScholarT<hi style="vertical-align: sub">E</hi>X project. The encoded text was
+    processed by T<hi style="vertical-align: sub">E</hi>X�X<hi style="vertical-align: sub">E</hi>T, the bidirectional version of
+    T<hi style="vertical-align: sub">E</hi>X. A preprocessor,
+    written as a set of macros and directives, allowed the user to
+    encode texts in a more user-friendly fashion. The Haralambous
+    fonts included all scripts. His Serto script was the first to
+    use fine ligatures based on manuscript tradition (e.g.,
+    changing the angle of Gomal depending on if the following
+    letter is Lomad, `E or otherwise). I am not aware of how many
+    publications made use of this system. I used it to produce my
+    <hi rend="italic">Comparative Edition of the Syriac Gospels</hi>.<ref target="#FN28">28</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P31"/>[31] By
+    2000, Microsoft decided to collapse its different
+    language-based operating systems into one, and hence
+    multi-lingual computing took a new shape with the release of
+    Windows 2000. Coupled with this, a consortium of companies
+    proposed a new font format called OpenType. These would be
+    TrueType fonts with additional information built into them.
+    Whether a letter is right-joining or dual-joining would now be
+    stored in the font (not hard coded in the operating system).
+    The distance of a diacritical point can be defined per glyph
+    and that also can be saved in the font. Ligatures, kerning and
+    other typographical data can all be part of the font now. The
+    font designer will no longer be at the mercy of the operating
+    system (as long as the operating system renders OpenType
+    technology properly).</p>
+         <p rend="nn">
+            <anchor xml:id="P32"/>[32] Paul
+    Nelson, Sargon Hasso and I embarked on putting specifications
+    for Syriac OpenType fonts, and the results were the fonts in
+    the Meltho font package, available as a free download from
+    <ref target="http://www.bethmardutho.org/">http://www.bethmardutho.org</ref>. Alas, we have never
+    documented in detail the technical aspects of the Meltho fonts.
+    OpenType technology brought Syriac font design to a new level,
+    and it would be useful to document this not only for practical
+    reasons, but also for historical purposes. In brief, the fonts
+    contain rules that specify the position of each letter, the
+    distance of each mark from each glyph, and many additional
+    rules that fine-tune the appearance of fonts. For instance, a
+    kerning rule will distance a final Nun from a Dolath if the Nun
+    hits the Dolath as depicted in Figure 5. Other rules may
+    elongate the line joining letters. Such fine-tuning rules may
+    be specified using left and right context regular expressions.
+    The rules are usually specified by the user graphically and may
+    be compiled as finite-state machines.</p>
+         <p style="text-align:center">
+            <graphic url="HV10N1Kiraz_05.jpg" rend="img" mimeType="image/jpeg"/>
+         </p>
+         <p style="text-align:center">Figure 5. Kerning of Dolath and
+    Nun.</p>
+         <p rend="nn">
+            <anchor xml:id="P33"/>[33] The
+    only other sets of fonts I am aware of that were designed under
+    this methodology were the East Syriac fonts by Dr. Isho Marcus
+    and Rabi Daniel Benjamin. The former has been involved in font
+    design for decades and in fact was instrumental in the Assyrian
+    Church of the East system mentioned above. The latter comes
+    from a family of printing tradition in Iraq.</p>
+         <head xml:id="S3">Standards</head>
+         <p rend="nn">
+            <anchor xml:id="P34"/>[34]
+    Since the inception of computer science, standards have emerged
+    to ensure compatibility in platforms and applications. This
+    became more important with the ubiquitous usage of computers
+    world wide. One such standard is Unicode, replacing the old
+    ASCII standard for storing texts in computers.</p>
+         <p rend="nn">
+            <anchor xml:id="P35"/>[35]
+    Windows 2000 dictated that any supported script must be part of
+    the Unicode standard. This led Paul Nelson, Sargon Hasso and I
+    to embark on writing a detailed proposal for the Unicode
+    Consortium.<ref target="#FN29">29</ref> The proposal was sent to a number of scholars,
+    who also wrote recommendation letters to the Unicode
+    Consortium.<ref target="#FN30">30</ref> The proposal was submitted to the Unicode
+    Consortium on February 27, 1998 and a unanimous resolution was
+    passed on that day to accept it. Syriac became officially part
+    of Unicode 3.0 in 2000<ref target="#FN31">31</ref> and occupied the 0700-074F slots.
+    The standard defined 14 punctuation marks, 29 letters (the 22
+    letters, Garshuni letters, CPA Pe, a dotless Dalath/Rish, and a
+    Yudh-He Yahweh ligature), and numerous diacritical marks and
+    points. A new addition was the Syriac Abbreviation mark, a
+    control letter that marks the beginning of an overstrike
+    abbreviation mark.</p>
+         <p rend="nn">
+            <anchor xml:id="P36"/>[36] In
+    2002, Nicholas Sims-Williams and Michael Everson proposed the
+    addition of six additional Syriac letters for use in Sogdian
+    and Persian,<ref target="#FN32">32</ref> which were incorporated into Unicode 5.0 in
+    2007.<ref target="#FN33">33</ref> Syriac letters used for Malayalam Garshuni
+    have not yet been proposed.<ref target="#FN34">34</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P37"/>[37]
+    There are other standards in which Syriac appears. For
+    instance, the language name is now part of ISO 639 which
+    provides codes for all languages. Syriac is assigned to �Sy� in
+    the two-letter codes and �Syr� in the three-letter codes.</p>
+         <head xml:id="S4">The Internet</head>
+         <p rend="nn">
+            <anchor xml:id="P38"/>[38] In
+    1992, the World Wide Web was charted, and only a year later,
+    individuals from the Aramaic-speaking world began creating web
+    sites.</p>
+         <p rend="nn">
+            <anchor xml:id="P39"/>[39]
+    Giving a detailed history of web sites or listing known ones in
+    chronological order�despite the short history�is not an easy
+    task. Electronic archives of early versions of sites, even
+    those that are still active, no longer exist, and their
+    creators in most cases did not have a reason to keep a record.
+    While this is somewhat harmless, it should alert us to the fact
+    that today�s web site may not be there tomorrow. This becomes a
+    serious problem in the case of content-based sites such as the
+    soon-to-become-available eBethArk� library. How do we guarantee
+    that digitized forms of unique material (such as manuscripts
+    and archives, as opposed to printed books) will be kept safe
+    for generations to come?</p>
+         <p rend="nn">
+            <anchor xml:id="P40"/>[40] The
+    following is an attempt to list in chronological order the
+    creative web sites that appeared between 1993 and 1996 based
+    primarily on information received from the web site creators
+    themselves.</p>
+         <p rend="nn">
+            <anchor xml:id="P41"/>[41]
+    Firas Jatou, then an electromagnetics undergraduate student at
+    the University of Toronto, is credited with being the first to
+    publish a community web site. He named it Assyria Online and it
+    was hosted at the university server under the URL
+    http://waves.toronto.edu/~jatou (no longer valid) until 1995.
+    It was then moved to <ref target="http://aina.org/aol">http://aina.org/aol</ref> where it currently resides.
+    Very soon after, Nineveh Online by Albert Gabriel appeared
+    which was converted from an earlier dialup Bulletin Board
+    System called eBabylon.<ref target="#FN35">35</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P42"/>[42] In
+    late 1993 or early 1994 (I don't even know now!), The Syriac
+    Computing Institute (the former name of Beth Mardutho)
+    published the first academic site dedicated to Syriac studies
+    on the Web server of the Computer Laboratory of the University
+    of Cambridge. The SyrCOM site, as it was then known, gave
+    information about the Institute and its activities. In 1997,
+    the site was moved to the web server of The Catholic University
+    of America, where later the Institute hosted its
+    <hi rend="italic">Hugoye</hi> journal. In 2002, the Institute obtained its
+    own domain name, bethmardutho.org and the site was moved
+    there.</p>
+         <p rend="nn">
+            <anchor xml:id="P43"/>[43] The
+    year 1995 witnessed more intense activities. On Feb 6, 1995,
+    Wilfred Alkhas published the first issue of his <hi rend="italic">Zenda
+    Magazine</hi> in the form of an email message, which went out
+    to 12 people in Chicago, San Jose and Sidney. On November 3,
+    1997, it was hosted on a web site, but continued to be sent as
+    an email until the end of 1999. <hi rend="italic">Zenda Magazine</hi> was
+    renamed to <hi rend="italic">Zinda</hi> on November 9, 1999 due to a conflict
+    with a Silicon Valley computer game company named Zenda Games.
+    <hi rend="italic">Zinda�s</hi> readership grew from the initial 12 recipients
+    to 28,000 readers from 64 countries with nearly a million hits
+    per month.<ref target="#FN36">36</ref>
+         </p>
+         <p rend="nn">
+            <anchor xml:id="P44"/>[44] In
+    mid 1995, the first Church-based web site appeared as a family
+    effort by the Issas of Australia. Corepiscopos Boutros Touma,
+    his son Touma Issa and daughter Theodora Issa put together a
+    web site on the Syrian Orthodox Church. Due to a lack of a
+    proper web server, Touma Issa hosted the site on his personal
+    Windows 3.1 desktop using special software called Windows httpd
+    that allowed the computer to serve web pages. He had to keep
+    the desktop turned on 24/7. The URL was on the Murdock
+    University network (http://chempc25.murdoch.edu), then moved
+    after two years to a proper web server on the University
+    network (wwwstaff.murdoch.edu.au/~t-issa/syr/syr.htm). In 2005,
+    the site was moved out of the university to a free geocities
+    web server (<ref target="http://soca.cjb.net/">http://soca.cjb.net</ref> and <ref target="http://syriac.cjb.net/">http://syriac.cjb.net</ref>).</p>
+         <p rend="nn">
+            <anchor xml:id="P45"/>[45] On
+    September 5, 1995, Thomas Joseph became the first Indian Syriac
+    Christian to produce a church web site. The site initially
+    located at http://www.netadventure.com/~soc (now defunct)
+    started as a web site for his parish, St. Mary's at Los
+    Angeles. On May 16, 1996, it was expanded and named the Syrian
+    Orthodox Resources (SOR) and went live at a web server at UCLA
+    where Thomas was a graduate student. On May 1, 2000, the site
+    was renamed 'Syriac Orthodox Resources' and moved to The
+    Catholic University of America (<ref target="http://sor.cua.edu/">http://sor.cua.edu</ref>) where it is currently
+    hosted. SOR remains today one of the richest sites on the
+    spiritual heritage of the Syriac Orthodox Church.</p>
+         <p rend="nn">
+            <anchor xml:id="P46"/>[46] Also
+    in 1995, a newsgroup called soc.culture.assyrian was proposed
+    by Peter Jasim and became the first community discussion
+    forum.</p>
+         <p rend="nn">
+            <anchor xml:id="P47"/>[47]
+    After 1996 the number of scholarly and community based sites
+    exploded so that it became impossible to track them down.
+    Whereas a web search for Syriac studies yielded only a few
+    results back in 1994, today a Google search on the word
+    �Syriac� yields 1.7 million pages (compare with a search done
+    in 2005 which resulted in 300,000 pages). Google now gives
+    suggestions based on what users search. The top search strings
+    that users utilize which begin with Syriac are: Syriac Orthodox
+    Church, Syriac Orthodox, Syriac Church, Syriac alphabet, Syriac
+    Christianity, Syriac Bible, Syriac fonts, and Syriacus.</p>
+         <p rend="nn">
+            <anchor xml:id="P48"/>[48] I
+    shall conclude this section with two contributions by Beth
+    Mardutho. In 1998, Beth Mardutho began publishing <hi rend="italic">Hugoye:
+    Journal of Syriac Studies</hi>. In addition to being the first
+    and only peer-reviewed journal dedicated entirely to the Syriac
+    heritage, the journal was totally electronic with free access
+    online. Thomas Joseph assumed the position of Technical Editor
+    and devised the templates necessary to publish the journal.
+    <hi rend="italic">Hugoye</hi> followed a tradition established by <hi rend="italic">TC: A
+    Journal of Biblical Textual Criticism</hi>, available at
+    <ref target="http://rosetta.reltech.org/TC/TC.html">http://rosetta.reltech.org/TC/TC.html</ref> numbering
+    logical paragraphs to be used as references instead of page
+    numbers. Beth Mardutho planned from the outset to publish
+    <hi rend="italic">Hugoye</hi> in print as well, and while there have been
+    delays, plans are now underway to accomplish this. Beth
+    Mardutho also plans in the near future to add to its web site a
+    collection of over 1,000 books, manuscripts and archival
+    material in digital form. This will hopefully become an
+    indispensable tool in our field.</p>
+         <head xml:id="S5">Future Considerations</head>
+         <p rend="nn">
+            <anchor xml:id="P49"/>[49]
+    Syriac computing has gone a long way especially in the past two
+    decades; however, there is a need for much more to be done.</p>
+         <p rend="nn">
+            <anchor xml:id="P50"/>[50] An
+    optical character recognition (OCR) system that can cope with
+    the various Syriac scripts is a desideratum. It will help us
+    scan hundreds of texts not as images, but as searchable texts.
+    This will also open the way for text-tagging projects along the
+    lines of similar projects for Greek and Latin. The field is
+    lucky to have William Clocksin<ref target="#FN37">37</ref> who has been working in the
+    past few years on such a system. It is hoped that soon a
+    user-friendly application can be hosted online that will allow
+    users to upload images of texts and download them in Unicode
+    searchable and editable form.</p>
+         <p rend="nn">
+            <anchor xml:id="P51"/>[51]
+    Another desideratum is a general knowledge-base that embodies
+    an encyclopedia in the traditional sense, but also would link
+    to bibliographical and manuscript-catalog databases. To these
+    one can add a book review database, and a colophon database.
+    Imagine if in a simple search, one could find everything that
+    was published on a Syriac author, a list of the author�s works,
+    the manuscripts containing those works and their colophons! The
+    design of such a system is not too difficult and can be
+    achieved in a very short period of time. What is time-consuming
+    is populating the database. In the absence of funding, one may
+    have to resort to a Wikipedia type encyclopedia where the users
+    populate the data themselves.</p>
+         <p rend="nn">
+            <anchor xml:id="P52"/>[52] If
+    one is allowed to dream, one can add another desideratum: a
+    linguistic database of the language that would include a
+    computational lexicon and a natural language engine. The data
+    model behind the computational lexicon needs to cover not only
+    typical fields that are found in paper-lexica (variant
+    orthographies, dialectical variants, historical spellings,
+    collocations, idiomatic phrases, etc.), but also grammatical,
+    morphological and phonological data that give flexibility for
+    future applications. For instance, there has been hardly any
+    system in previous lexical projects that encodes phonological
+    information, and while most would cater to morphological
+    paradigms, probably none marks things like transitiveness. Of
+    equal importance are semantic and thesaurus-type information.
+    These would not only allow the user to search the lexicon based
+    on concepts (rather than mere roots, lexemes or word forms),
+    but also would allow the building of semantic relations and
+    hierarchies.<ref target="#FN38">38</ref> Such a system would allow for writing
+    applications to assist in the grammatical tagging of texts, and
+    we might as well drop a spelling checker there.</p>
+         <p rend="nn">
+            <anchor xml:id="P53"/>[53]
+    Multi-media can also play a role in projects. One project that
+    comes to mind is a comprehensive recording of the Beth Gazo
+    melodies according to various traditions. Syriac Orthodox
+    Resources and Beth Mardutho have already digitized the
+    recordings of Patriarch Jacob III and a few others, but a
+    larger enterprise is needed to create a comprehensive
+    searchable database that makes use of audio and texts.</p>
+         <p rend="nn">
+            <anchor xml:id="P54"/>[54] Each
+    person probably has his or her own wish list. Would you like
+    your iPod to display Syriac?</p>
+         <p rend="nn">
+            <anchor xml:id="P55"/>[55]
+    <hi lang="SYR"
+                dir="rtl"
+                style="font-size:16;font-family:'Estrangelo Edessa'"
+                xml:lang="SYR">ܫܠܡ ܘܠܐܠܗܐ ܏ܫܘܒ܆ ܘܠܕܘܝܐ ܕܣܡ ܗܠܝܢ ܫܘܒܩܢܐ܀</hi>
+         </p>
+         <head>Notes</head>
+         <p rend="fnTxt">
+            <ref target="#FNRef1">1</ref> The description given here is based on M. Zumpe,
+    <hi rend="italic">Technische Aspekte der G�ttingen Syrischen Konkordanz</hi>
+    (Deutsche Arbeitsgemeinschaft Vorderer Orient, September 2001).
+    <ref target="#FNRef1">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef2">2</ref> Werner Strothmann, <hi rend="italic">Konkordanz zum Syrischen
+    Psalter</hi> (1976); Werner Strothmann, <hi rend="italic">Konkordanz zur
+    Syrischen Bible: Der Pentateuch</hi> (1986), <hi rend="italic">Der
+    Propheten</hi> (1984). <ref target="#FNRef2">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef3">3</ref> George A. Lamsa, <hi rend="italic">The Holy Bible From Ancient
+    Eastern Manuscripts, Containing the Old and New Testaments
+    Translated from the Peshitta, The Authorized Bible of the
+    Church of the East</hi> (Nashville: Holman Bible Publishers,
+    1933, 22nd printing 1981); the NT was reprinted by Harper &amp;
+    Row, n.d. For Lamsa�s claims, see George M. Lamsa, <hi rend="italic">New
+    Testament Origin</hi> (Aramaic Bible Center, 1976). <ref target="#FNRef3">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef4">4</ref> The Way International, <hi rend="italic">The Concordance to the
+    Peshitta Version of the Aramaic New Testament</hi> (Ohio:
+    American Christian Press, 1985). <ref target="#FNRef4">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef5">5</ref> George Kiraz, <hi rend="italic">A Computer Generated Concordance
+    to the Syriac New Testament</hi>, volumes 1-6 (Brill, 1993).
+    <ref target="#FNRef5">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef6">6</ref> The Way International, <hi rend="italic">The Aramaic New
+    Testament</hi> (Ohio: American Christian Press, 1983). <ref target="#FNRef6">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef7">7</ref> The Way International Research Team,
+    <hi rend="italic">Aramaic-English Interlinear New Testament</hi>, vol. 1
+    Matthew-John 1988, vol. 2 Acts-Philemon 1988, vol. 3
+    Hebrews-Revelation (American Christian Press, 1989). <ref target="#FNRef7">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef8">8</ref> The Way International, <hi rend="italic">English Dictionary
+    Supplement to the Concordance to the Peshitta Version of the
+    Aramaic New Testament</hi> (American Christian Press, 1985).
+    <ref target="#FNRef8">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef9">9</ref> P. Borbone, �L�uso dell�elaboratore elettoronico
+    per lo studio della Pe�it?a�, <hi rend="italic">Henoch</hi> 9 (1987), pp.
+    55-96; P. Borbone, �Un programma per l�elaborazione di testi
+    siriaci e un progetto di redazione di concordanze della
+    peshitta�, in R. Lavenant (ed.), <hi rend="italic">V Symposium Syriacum
+    1988</hi>, Orientalia Christiana Analecta 236 (1990), pp.
+    439-50; P. Borbone and F. Mandracci, �Another way to analyze
+    Syriac texts, a simple powerful tool to draw up Syriac computer
+    aided concordances�, in <hi rend="italic">Proceedings of the Second
+    International Colloquium, Bible and Computers: Methods Tools,
+    Results</hi>, Travaux de Linguistique Quantitative 43 (1989),
+    pp. 135-45. <ref target="#FNRef9">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef10">10</ref> The Peshitta Institute, <hi rend="italic">The Old
+    Testament Concordance According to the Peshitta Version, Part V
+    Concordance</hi> (Leiden: E. J. Brill, 1997). <ref target="#FNRef10">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef11">11</ref> For another unfinished computational work on
+    Arabic-Syriac dictionaries, see George Kiraz and Daniel
+    Ponsford, �Automatic Compilation of Semitic Lexica�, in
+    Proceedings of the <hi rend="italic">4th International Conference and
+    Exhibition on Multi-Lingual Computing</hi> (1994); George Kiraz
+    and Daniel Ponsford, �The Arabic-Syriac/Syriac-Arabic
+    Dictionary Project: Report II�, in G. Kiraz (ed.),
+    <hi rend="italic">SyrCOM-95: Proceedings of the First International Forum on
+    Syriac Computing</hi> (1995). <ref target="#FNRef11">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef12">12</ref> George A. Kiraz, <hi lang="SYR"
+                dir="rtl"
+                style="font-size:16;font-family:'Estrangelo Edessa'"
+                xml:lang="SYR">ܣܕܪܐ</hi> 
+            <hi rend="italic">The Syriac Electronic Data Research
+    Archive (SEDRA)</hi> (leaflet), pp. 1-3. <ref target="#FNRef12">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef13">13</ref> George A. Kiraz, �Automatic concordance
+    generation of Syriac texts�, in R. Lavenant (ed.), <hi rend="italic">VI
+    Symposium Syriacum 1992</hi>, Orientalia Christiana Analecta
+    247 (1994), pp. 461-75; G. Kiraz, <hi rend="italic">A Computer-Generated
+    Concordance to the Syriac New Testament</hi>, 6 vols. 106.
+    (Leiden: E. J. Brill, 1993); G. Kiraz, <hi rend="italic">Lexical Tools to the
+    Syriac New Testament</hi> (Sheffield: Sheffield Academic Press,
+    1994; Piscataway: Gorgias Press, 2002). <ref target="#FNRef13">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef14">14</ref> Logos Research Systems, <hi rend="italic">Scholar�s
+    Library Silver Editon: A professional-level library of texts
+    and tools for serious Bible Study using Greek, Hebrew, and
+    English resources</hi>, Logos Bible Software Series X (2004).
+    <ref target="#FNRef14">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef15">15</ref> Examples are <hi rend="italic">Syriac Dictionary</hi>, a
+    useful tool by Abed Daoud (available from <ref target="http://www.bethmardutho.org/">http://www.bethmardutho.org</ref>), and a similar
+    on-line tool at <ref target="http://www.peshitta.org/">http://www.peshitta.org</ref>. <ref target="#FNRef15">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef16">16</ref> Raima Corporation, <hi rend="italic">db_VISTA III�</hi>,
+    Version 3.10 (Bellevue, WA: 1989). <ref target="#FNRef16">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef17">17</ref> British and Foreign Bible Society, <hi rend="italic">The
+    New Testament in Syriac</hi> (London: 1919 and subsequent
+    editions). <ref target="#FNRef17">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef18">18</ref> For a list of the manuscripts used, see
+    <hi rend="italic">The Aramaic New Testament, Estrangelo Script</hi> (1983) p.
+    x. <ref target="#FNRef18">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef19">19</ref> George Kiraz, �Automatic Concordance
+    Generation�, in Ren� Lavenant (ed.), <hi rend="italic">VI Symposium Syriacum
+    1992</hi>, Orientalia Christiana Analecta 247, pp. 461-475.
+    <ref target="#FNRef19">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef20">20</ref> This approach departs radically from the
+    more ubiquitous approach of using finite-state technology for
+    morphological analysis and generation. It was used because of
+    its ease and the lack of a finite-state engine. For a
+    finite-state approach to Semitic morphology, see George Anton
+    Kiraz, <hi rend="italic">Computational Nonlinear Morphology: With Emphasis on
+    Semitic Languages</hi> (Cambridge: Cambridge University Press,
+    2001). <ref target="#FNRef20">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef21">21</ref> See <ref target="http://cal1.cn.huc.edu/">http://cal1.cn.huc.edu</ref> for a list of
+    publications. <ref target="#FNRef21">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef22">22</ref> J. Lund, <hi rend="italic">The Old Syriac Gospel of the
+    Distinct Evangelists, A Key-Word-In-Context Concordance</hi>,
+    volumes 1-3 (Piscataway: Gorgias Press, 2004). <ref target="#FNRef22">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef23">23</ref> For a detailed history, see J. F. Coakley,
+    <hi rend="italic">Typography of Syriac: A Historical Catalogue of Printing
+    Type, 1537-1958</hi> (Oak Knoll Press, 2006). <ref target="#FNRef23">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef24">24</ref> These fonts were later redesigned for use in
+    Meltho OpenType suite. They correspond to the following fonts,
+    respectively: Estrangelo Edessa, Estrangelo Nisibin, Serto
+    Jerusalem, and East Syriac Adiabene. <ref target="#FNRef24">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef25">25</ref> G. Kiraz, �Computers: Innovation and New
+    Future to Syriac Studies.� Ren� Lavenant, S.J. (ed.), <hi rend="italic">V
+    Symposium Syriacum 1988</hi>. Orientalia Christiana Analecta
+    236, 1990, pp. 451-8. <ref target="#FNRef25">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef26">26</ref> I am grateful to Nicholas Al-Jeloo who
+    provided me with this list (Email personal communication,
+    November 15, 2001). <ref target="#FNRef26">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef27">27</ref> Yannis Haralambous, �Sabra, a Syriac TEX
+    System� in G. Kiraz (ed.), <hi rend="italic">SyrCOM-95: Proceedings of the
+    First International Forum on Syriac Computing</hi> (Cambridge:
+    The Syriac Computing Institute, 1995). <ref target="#FNRef27">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef28">28</ref> G. Kiraz, <hi rend="italic">Comparative Edition of the
+    Syriac Gospels, Aligning the Sinaiticus, Curetonianus, Peshitta
+    and Harklean Versions</hi>, 4 vols. (Brill, 1996; Gorgias
+    Press, 2004). <ref target="#FNRef28">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef29">29</ref> Paul Nelson, George Kiraz and Sargon Hasso,
+    <hi rend="italic">Proposal to encode Syriac in ISO/IEC 10646</hi> (February
+    20, 1998), 46 pages. Independently, an earlier proposal was
+    filed by Sargon Hasso and Peter Jasim in 1997. <ref target="#FNRef29">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef30">30</ref> These were Sebastian P. Brock, Mor Julius Y.
+    �i�ek, J. F. Coakley, E. J. Wilson, Luk Van Rompay, Konrad
+    Jenner, and Heleen Murre-van den Berg. <ref target="#FNRef30">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef31">31</ref> The Unicode Consortium, <hi rend="italic">The Unicode
+    Standard, Version 3.0</hi> (2000). <ref target="#FNRef31">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef32">32</ref> Nicholas Sims-Williams and Michael Everson,
+    <hi rend="italic">Proposal to add six Syriac letters for Sogdian and Persian
+    to the UCS</hi> (March 30, 2002). <ref target="#FNRef32">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef33">33</ref> Julie D. Allen et al. (eds), <hi rend="italic">The Unicode
+    Standard, Version 5.0</hi> (2007). <ref target="#FNRef33">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef34">34</ref> For a description, see Koonammakkal Thoma
+    Kathanar, �Malayalam Karshon� in <hi rend="italic">The Harp</hi> 10
+    (1997):59-64. <ref target="#FNRef34">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef35">35</ref> Firas Jatou, e-mail personal communication
+    dated Apri 2, 2005. <ref target="#FNRef35">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef36">36</ref> Wilfred Alkhas, e-mail personal
+    communication dated April 5, 2005. <ref target="#FNRef36">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef37">37</ref> For an earlier report, see William Clocksin
+    and Prem Fernando, �Towards automatic transcription of
+    Estrangelo script� in <hi rend="italic">Hugoye</hi> 6 (2003) [<ref target="http://www.bethmardutho.org/hugoye/">http://www.bethmardutho.org/hugoye</ref>]. <ref target="#FNRef37">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">
+            <ref target="#FNRef38">38</ref> D. A. Cruse, <hi rend="italic">Lexical Semantics</hi>
+    (Cambridge: Cambridge University Press, 1986). <ref target="#FNRef38">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
+            </ref>
+         </p>
+         <p rend="fnTxt">_______<lb/>
+         </p>
+         <head>Bibliography</head>
+         <p xml:id="B1" rend="biblio">Julie D. Allen et al. (eds), <hi rend="italic">The
+    Unicode Standard, Version 5.0</hi> (2007).</p>
+         <p xml:id="B2" rend="biblio">P. Borbone, �L�uso dell�elaboratore
+    elettoronico per lo studio della Pe�it<hi rend="u">t</hi>a�, <hi rend="italic">Henoch</hi> 9 (1987), pp. 55-96.</p>
+         <p xml:id="B3" rend="biblio">P. Borbone, �Un programma per
+    l�elaborazione di testi siriaci e un progetto di redazione di
+    concordanze della peshitta�, in R. Lavenant (ed.), <hi rend="italic">V
+    Symposium Syriacum 1988</hi>, Orientalia Christiana Analecta
+    236 (1990), pp. 439-50.</p>
+         <p xml:id="B4" rend="biblio">P. Borbone and F. Mandracci, �Another
+    way to analyze Syriac texts, a simple powerful tool to draw up
+    Syriac computer aided concordances�, in <hi rend="italic">Proceedings of the
+    Second International Colloquium, Bible and Computers: Methods
+    Tools, Results</hi>, Travaux de Linguistique Quantitative 43
+    (1989), pp. 135-45.</p>
+         <p xml:id="B5" rend="biblio">British and Foreign Bible Society,
+    <hi rend="italic">The New Testament in Syriac</hi> (London: 1919 and
+    subsequent editions).</p>
+         <p xml:id="B6" rend="biblio">William Clocksin and Prem Fernando,
+    �Towards automatic transcription of Estrangelo script� in
+    <hi rend="italic">Hugoye</hi> 6 (2003) [<ref target="http://www.bethmardutho.org/hugoye/">http://www.bethmardutho.org/hugoye</ref>].</p>
+         <p xml:id="B7" rend="biblio">J. F. Coakley, <hi rend="italic">Typography of
+    Syriac: A Historical Catalogue of Printing Type, 1537-1958</hi>
+    (Oak Knoll Press, 2006).</p>
+         <p xml:id="B8" rend="biblio">D. A. Cruse, <hi rend="italic">Lexical
+    Semantics</hi> (Cambridge: Cambridge University Press,
+    1986).</p>
+         <p xml:id="B9" rend="biblio">Yannis Haralambous, �Sabra, a Syriac
+    TEX System� in G. Kiraz (ed.), <hi rend="italic">SyrCOM-95: Proceedings of
+    the First International Forum on Syriac Computing</hi>
+    (Cambridge: The Syriac Computing Institute, 1995).</p>
+         <p xml:id="B10" rend="biblio">George A. Kiraz, <hi lang="SYR"
+                dir="rtl"
+                style="font-size:16;font-family:'Estrangelo Edessa'"
+                xml:lang="SYR">ܣܕܪܐ</hi> 
+            <hi rend="italic">The Syriac Electronic Data
+    Research Archive (SEDRA)</hi> (leaflet), pp. 1-3.</p>
+         <p xml:id="B11" rend="biblio">George A. Kiraz, �Computers:
+    Innovation and New Future to Syriac Studies.� Ren� Lavenant,
+    S.J. (ed.), <hi rend="italic">V Symposium Syriacum 1988</hi>. Orientalia
+    Christiana Analecta 236, 1990, pp. 451-8.</p>
+         <p xml:id="B12" rend="biblio">George A. Kiraz, �Automatic
+    Concordance Generation�, in Ren� Lavenant (ed.), <hi rend="italic">VI
+    Symposium Syriacum 1992</hi>, Orientalia Christiana Analecta
+    247, pp. 461-475.</p>
+         <p xml:id="B13" rend="biblio">George A. Kiraz, <hi rend="italic">A
+    Computer-Generated Concordance to the Syriac New
+    Testament</hi>, 6 vols. 106. (Leiden: E. J. Brill, 1993).</p>
+         <p xml:id="B14" rend="biblio">George A. Kiraz, �Automatic
+    concordance generation of Syriac texts�, in R. Lavenant (ed.),
+    <hi rend="italic">VI Symposium Syriacum 1992</hi>, Orientalia Christiana
+    Analecta 247 (1994), pp. 461-75.</p>
+         <p xml:id="B15" rend="biblio">George A. Kiraz, <hi rend="italic">Lexical Tools
+    to the Syriac New Testament</hi> (Sheffield: Sheffield Academic
+    Press, 1994; Piscataway: Gorgias Press, 2002).</p>
+         <p xml:id="B16" rend="biblio">George A. Kiraz, <hi rend="italic">Comparative
+    Edition of the Syriac Gospels, Aligning the Sinaiticus,
+    Curetonianus, Peshitta and Harklean Versions</hi>, 4 vols.
+    (Brill, 1996; Gorgias Press, 2004).</p>
+         <p xml:id="B17" rend="biblio">George A. Kiraz, <hi rend="italic">Computational
+    Nonlinear Morphology: With Emphasis on Semitic Languages</hi>
+    (Cambridge: Cambridge University Press, 2001).</p>
+         <p xml:id="B18" rend="biblio">George A. Kiraz and Daniel Ponsford,
+    �Automatic Compilation of Semitic Lexica�, in Proceedings of
+    the <hi rend="italic">4th International Conference and Exhibition on
+    Multi-Lingual Computing</hi> (1994).</p>
+         <p xml:id="B19" rend="biblio">George A. Kiraz and Daniel Ponsford,
+    �The Arabic-Syriac/Syriac-Arabic Dictionary Project: Report
+    II�, in G. Kiraz (ed.), <hi rend="italic">SyrCOM-95: Proceedings of the First
+    International Forum on Syriac Computing</hi> (1995).</p>
+         <p xml:id="B20" rend="biblio">Thomas Koonammakkal Kathanar,
+    �Malayalam Karshon� in <hi rend="italic">The Harp</hi> 10 (1997):59-64.</p>
+         <p xml:id="B21" rend="biblio">George A. Lamsa, <hi rend="italic">The Holy Bible
+    From Ancient Eastern Manuscripts, Containing the Old and New
+    Testaments Translated from the Peshitta, The Authorized Bible
+    of the Church of the East</hi> (Nashville: Holman Bible
+    Publishers, 1933, 22nd printing 1981).</p>
+         <p xml:id="B22" rend="biblio">George M. Lamsa, <hi rend="italic">New Testament
+    Origin</hi> (Aramaic Bible Center, 1976).</p>
+         <p xml:id="B23" rend="biblio">Logos Research Systems,
+    S<hi rend="italic">cholar�s Library Silver Editon: A professional-level
+    library of texts and tools for serious Bible Study using Greek,
+    Hebrew, and English resources</hi>, Logos Bible Software Series
+    X (2004).</p>
+         <p xml:id="B24" rend="biblio">J. Lund, <hi rend="italic">The Old Syriac Gospel
+    of the Distinct Evangelists, A Key-Word-In-Context
+    Concordance</hi>, volumes 1-3 (Piscataway: Gorgias Press,
+    2004).</p>
+         <p xml:id="B25" rend="biblio">Paul Nelson, George Kiraz and Sargon
+    Hasso, <hi rend="italic">Proposal to encode Syriac in ISO/IEC 10646</hi>
+    (February 20, 1998), 46 pages. Independently, an earlier
+    proposal was filed by Sargon Hasso and Peter Jasim in 1997.</p>
+         <p xml:id="B26" rend="biblio">The Peshitta Institute, <hi rend="italic">The Old
+    Testament Concordance According to the Peshitta Version, Part V
+    Concordance</hi> (Leiden: E. J. Brill, 1997).</p>
+         <p xml:id="B27" rend="biblio">Raima Corporation, <hi rend="italic">db_VISTA
+    III�</hi>, Version 3.10 (Bellevue, WA: 1989).</p>
+         <p xml:id="B28" rend="biblio">Nicholas Sims-Williams and Michael
+    Everson, <hi rend="italic">Proposal to add six Syriac letters for Sogdian and
+    Persian to the UCS</hi> (March 30, 2002).</p>
+         <p xml:id="B29" rend="biblio">Werner Strothmann, <hi rend="italic">Konkordanz zum
+    Syrischen Psalter</hi> (1976); Werner Strothmann, <hi rend="italic">Konkordanz
+    zur Syrischen Bible: Der Pentateuch</hi> (1986), <hi rend="italic">Der
+    Propheten</hi> (1984).</p>
+         <p xml:id="B30" rend="biblio">The Unicode Consortium, <hi rend="italic">The
+    Unicode Standard, Version 3.0</hi> (2000).</p>
+         <p xml:id="B31" rend="biblio">The Way International, <hi rend="italic">The
+    Concordance to the Peshitta Version of the Aramaic New
+    Testament</hi> (Ohio: American Christian Press, 1985).</p>
+         <p xml:id="B32" rend="biblio">The Way International, <hi rend="italic">The
+    Aramaic New Testament</hi> (Ohio: American Christian Press,
+    1983).</p>
+         <p xml:id="B33" rend="biblio">The Way International Research Team,
+    <hi rend="italic">Aramaic-English Interlinear New Testament</hi>, vol. 1
+    Matthew-John 1988, vol. 2 Acts-Philemon 1988, vol. 3
+    Hebrews-Revelation (American Christian Press, 1989).</p>
+         <p xml:id="B34" rend="biblio">The Way International, <hi rend="italic">English
+    Dictionary Supplement to the Concordance to the Peshitta
+    Version of the Aramaic New Testament</hi> (American Christian
+    Press, 1985).</p>
+         <p xml:id="B35" rend="biblio">M. Zumpe, <hi rend="italic">Technische Aspekte der
+    G�ttingen Syrischen Konkordanz</hi> (Deutsche
+    Arbeitsgemeinschaft Vorderer Orient, September 2001).</p>
+         <!-- InstanceEndEditable -->
+      </body>
+   </text>
+</TEI>

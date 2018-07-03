@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>IVth International Forum on Syriac Computing</title>
+            <author>
+               <name>Thomas JOSEPH</name>
+               <affiliation>
+                  <orgName>Beth Mardutho: The Syriac Institute</orgName>
+               </affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+            <date>July 2003</date>
+            <idno>Vol. 6, No. 2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication, a Creative Commons Attribution 4.0 International
+                                license has been granted by the author(s), who retain full
+                                copyright.</p>
+               </licence>
+            </availability>
+            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author>Thomas JOSEPH</author>
+                  <title level="a">IVth International Forum on Syriac Computing</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Hugoye: Journal of Syriac Studies</title>
+                  <imprint>
+                     <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2003</date>
+                  </imprint>
+                  <biblScope type="vol" n="6">6</biblScope>
+                  <biblScope type="issue" n="2">2</biblScope>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                        of the Syriac tradition, published semi-annually (in January and July) by Beth
+                        Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                        best scholarship available in the field of Syriac studies.</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="uncorrectedTransformation">
+         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lb/>
+         <lb/>
+    
+    
+    
+    
+         <!-- #BeginEditable "Content" -->
+         <p rend="n">
+            <anchor xml:id="P1"/>[1] The
+    Fourth International Forum on Syriac Computing was held in
+    conjunction with the Fourth North American Syriac Symposium at
+    Princeton Theological Seminary, Princeton, New Jersey on July
+    11, 2003. The Forum as well as the Symposium were co-sponsored
+    by Princeton Theological Seminary, Princeton University, The
+    Institute for Advanced Study, and Beth Mardutho: The Syriac
+    Institute.</p>
+         <p rend="n">
+            <anchor xml:id="P2"/>[2] Five
+    papers and a tutorial were presented at the forum in three
+    sessions. Several participants attended the sessions. The
+    sessions were streamed live over the internet enabling
+    participants from the USA, Canada, Europe, Australia and even
+    Saudi Arabia to listen live remotely to the presentations and
+    discussions that followed. The streamed media will be archived
+    on the <ref target="http://www.bethmardutho.org/">Beth Mardutho</ref>
+    website.</p>
+         <p rend="n">
+            <anchor xml:id="P3"/>[3] In the
+    first session chaired by Prof. William Clocksin two papers were
+    presented. The first was by Thomas Joseph, Web Master of the
+    <ref target="http://sor.cua.edu/">Syriac Orthodox
+    Resources</ref> web site, on the automated generation of the
+    liturgical calendar and lectionary of the Syriac Orthodox
+    Church. The paper, co-authored with Simon Skaria of Microsoft,
+    provided an overview of the evolution of the liturgical
+    calendar in the Syriac Orthodox Church, the algorithms for
+    generating the calendar, and the description of an
+    implementation of the algorithms in a Java
+    application.<lb/>
+         </p>
+         <p rend="n">
+            <anchor xml:id="P4"/>[4] This was
+    followed by a presentation by Emil Soleyman-Zomalan, Web Master
+    of <ref target="http://www.bethmardutho.org/">Beth Mardutho</ref>, on
+    the architecture and implementation of the re-designed Beth
+    Mardutho web site. Participants offered both speakers many
+    worthy ideas for enhancing the respective implementations.</p>
+         <p rend="n">
+            <anchor xml:id="P5"/>[5] In the
+    second session chaired by Thomas Joseph three papers were
+    presented. George Kiraz, Director of Beth Mardutho, and Steve
+    Caruso, the lead programmer of the eBeth Arke project,
+    presented an overview and demonstration of the eBeth Arke: The
+    Syriac Digital Library Project. This is an ambitious project
+    which will create a digital archive of mss., out-of-copyright
+    books, journal articles, and collections of other multimedia
+    material of relevance to Syriac Studies. Such a project will be
+    an immense resource for scholars in Syriac Studies and
+    facilitate research in the field. A beta site with 50 books was
+    used to demonstrate how scholars will be able to access such a
+    library on-line for their research.</p>
+         <p rend="n">
+            <anchor xml:id="P6"/>[6] Next,
+    William Clocksin presented a paper on the automatic recognition
+    of Syriac handwriting, co-authored with Prem P.J. Fernando. The
+    paper described several computer-based techniques developed for
+    the automatic transcription of Estrangelo handwriting from
+    historical manuscripts. Data on the recognition rates achieved
+    in experiments using a variety of segmentation methods were
+    presented. This is a very promising line of research that will
+    advance automatic handwriting recognition in general; but more
+    importantly for Syriac Studies scholars and Syriac communities,
+    this will hopefully bear fruit in the form of a handwriting
+    recognition product which will facilitate the digitization of
+    Syriac mss. into electronic text. The <ref target="HV6N2ClocksinFernando.html">paper</ref> is published in this
+    issue of Hugoye.</p>
+         <p rend="n">
+            <anchor xml:id="P7"/>[7] The
+    final paper in the session, on Meltho: Syriac Open Type fonts,
+    was presented by Sargon Hasso. Sargon described the design and
+    architecture of the Meltho fonts that support three major
+    Syriac scripts: Estrangelo, Serto, and East Syriac. Meltho
+    fonts are based on the OpenType fonts supported by Microsoft
+    Windows operating systems and the Syriac character encoding
+    specified in Unicode 3.0. Sargon discussed the challenges in
+    designing fonts for traditional Syriac scripts such as the
+    contextual variation of letter shapes, diacritics and their
+    placement on characters, ligatures and other unique behaviors.
+    He then highlighted the features of the OpenType font
+    technology which enable the glyph shaping logic to be embedded
+    within the font files offering the designer flexibility and
+    control over glyph shape rendering by the target operating
+    systems. Current support for Meltho fonts in popular desktop
+    applications as well future support with emerging technology
+    standards such as XSL FO were briefly addressed.</p>
+         <p rend="n">
+            <anchor xml:id="P8"/>[8] In the
+    third and final session, George Kiraz presented a tutorial on
+    using Syriac in Windows XP. The tutorial provided instructions
+    on the installation of Meltho fonts, and demonstrations on
+    using these fonts in Windows applications. Participants who had
+    difficulties with the installation of the fonts on their
+    computers were able to get these resolved during the
+    tutorial.</p>
+         <p rend="n">
+            <anchor xml:id="P9"/>[9] The
+    fourth International Forum on Syriac Computing was a resounding
+    success. As with the past forums, it provided an opportunity
+    for an esoteric group of scholars, technology architects and
+    developers to interact and exchange ideas on harnessing
+    technologies for supporting scholarly research in Syriac
+    Studies and enriching the religious and cultural heritage of
+    Syriac speaking communities.</p>
+         <p rend="nn">
+            <anchor xml:id="P10"/>[10] This
+    was the first forum to be streamed live on the internet, thanks
+    to the exceptional efforts of the media personnel at Princeton
+    Theological Seminary. The archives of the streamed media will
+    be made available on the <ref target="http://www.bethmardutho.org/">Beth Mardutho</ref> web site. The
+    wider dissemination of information on the innovative projects
+    presented at the forum will hopefully attract more talent into
+    this narrow but important field of activity, so essential to
+    bringing Syriac Studies into the third millenium. 
+    <!-- #EndEditable --></p>
+      </body>
+   </text>
+</TEI>
