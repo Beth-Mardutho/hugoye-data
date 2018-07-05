@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Bema in the East Syriac Church In Light of New Archaeological Evidence�</title>
+            <title type="main">The Bema in the East Syriac Church In Light of New Archaeological Evidence†</title>
             <author>
-               <name>Marica CASSIS</name>
+               <name>
+                  <forename>Marica</forename>
+                  <surname>Cassis</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv5n2cassis</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Marica CASSIS</author>
-                  <title level="a">The Bema in the East Syriac Church In Light of New Archaeological Evidence�</title>
+                  <title level="a">The Bema in the East Syriac Church In Light of New Archaeological Evidence†</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,20 +62,26 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac Architecture</term>
+               <term>Bema</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
-         <lb/>
-         <lb/>
-    
-    
-    
-         <!-- #BeginEditable "Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">The bema, a raised platform located in the
+      <front>
+         <div type="abstract">
+            <p>The bema, a raised platform located in the
     centre of the nave, was an important architectural and
     liturgical feature in the early East and West Syriac churches.
     However, there are many unanswered questions concerning the
@@ -75,9 +93,20 @@
     This paper will deal primarily with the East Syriac bema, and
     the discrepancies which exist between the written and
     architectural evidence.</p>
+         </div>
+      </front>
+      <body>
+         <lb/>
+         <lb/>
+
+
+
+         <!-- #BeginEditable "Content" -->
+
+
          <p> </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Until
+         <p>
+            <anchor corresp="P1"/>[1] Until
     relatively recently the field of Syriac Christianity was marked
     by a notable dearth of archaeological information. One of the
     more unfortunate results of this lack of material was a
@@ -96,8 +125,8 @@
     Syriac liturgy. Only through such a discussion can we separate
     the physical structures from the ideal liturgy and understand
     how the two interact with one another.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] This
+         <p>
+            <anchor corresp="P2"/>[2] This
     paper serves solely as a preliminary examination of the problem
     and therefore concentrates on only one aspect of the East
     Syriac church - the bema. This liturgical and architectural
@@ -117,8 +146,8 @@
     the bema, it has now become increasingly difficult to correlate
     the written evidence with the archaeological remains.<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] A
+         <p>
+            <anchor corresp="P3"/>[3] A
     framework for this discussion has already been established by
     Robert Taft, who initiated the consideration of the bema in the
     Syriac tradition.<ref target="#FN3">3</ref> His comparison of both the written liturgical
@@ -127,8 +156,8 @@
     also offers a strong analysis of the different architectural
     groupings within the geographically diverse West Syriac Church.
     In recent years much more work has been done on this latter
-    group of churches, particularly by Pauline Donceel-Voûte. Her
-    work is not only essential for understanding the liturgy of
+    group of churches, particularly by Pauline Donceel-Voûte.
+    Her work is not only essential for understanding the liturgy of
     these structures in terms of the archaeology (and vice-versa),
     but also for illuminating the diversity which exists among the
     extant West Syriac churches.<ref target="#FN4">4</ref> More recently Erich Renhart has
@@ -146,8 +175,8 @@
     discussion of the potential directions for future exploration
     in the field of East Syriac Christianity.<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] In order
+         <p>
+            <anchor corresp="P4"/>[4] In order
     to understand the framework Taft set out, we must look briefly
     at the appearance and significance of the bema in West Syriac
     church architecture.<ref target="#FN7">7</ref> Previous to Taft's work, many assumptions
@@ -173,44 +202,40 @@
     symbolism of the bema within the context of the West Syriac
     liturgy.<ref target="#FN10">10</ref>
          </p>
-         <p html:align="center">
-            <graphic url="HV5N2CassisFig01.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="400px"
-                     height="352px"/>
+         <p>
+            <graphic url="HV5N2CassisFig01.gif" rend="img" mimeType="image/gif" width="400px" height="352px"/>
          </p>
-         <p html:align="center">Fig 1. "Syro-Jacobite" plan. J.M. Fiey.
-    <hi rend="italic">Mossoul Chrétienne</hi>, (Beirut: Imprimerie Catholique,
-    1959), Plate III.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>Fig 1. "Syro-Jacobite" plan. J.M. Fiey.
+    <hi rend="italic">Mossoul Chrétienne</hi>, (Beirut: Imprimerie
+    Catholique, 1959), Plate III.</p>
+         <p>
+            <anchor corresp="P5"/>[5] The
     variation in the location of the bema is mirrored in the
     written sources, which, according to Taft, are difficult to
     interpret.<ref target="#FN11">11</ref> Certainly the predominant sense is that the
     bema, while important as a platform for readings in the
     churches where it does occur, is less important for the overall
     symbolism of the West Syriac liturgy than for that of the
-    East—something which is often reflected in a correspondingly
-    smaller platform. Taft says: "Unfortunately the liturgical
-    commentators of the Jacobite tradition have not provided us
-    with the same wealth of detailed liturgical information as
-    their Nestorian brethren. The ancient documents of the
-    Antiochene tradition, both Greek and Syriac, place the altar,
-    throne and synthronon in the east end of the church."<ref target="#FN12">12</ref> This
-    arrangement of liturgical furnishings takes away from the
-    importance of the bema. As well, the actual physical bema is
-    described as being in a variety of locations, including both
-    the centre of the nave as well as in front of the sanctuary.
-    The variation and the silence of some of the sources suggest
-    that less spiritual significance is given to the bema in the
-    Western tradition than in the Eastern one. However, in West
-    Syriac sources from the East, the description of the bema
-    suggests an importance which is generally applied only to the
-    East Syriac tradition.<ref target="#FN13">13</ref>
+    East—something which is often reflected in a
+    correspondingly smaller platform. Taft says: "Unfortunately the
+    liturgical commentators of the Jacobite tradition have not
+    provided us with the same wealth of detailed liturgical
+    information as their Nestorian brethren. The ancient documents
+    of the Antiochene tradition, both Greek and Syriac, place the
+    altar, throne and synthronon in the east end of the
+    church."<ref target="#FN12">12</ref> This arrangement of liturgical furnishings
+    takes away from the importance of the bema. As well, the actual
+    physical bema is described as being in a variety of locations,
+    including both the centre of the nave as well as in front of
+    the sanctuary. The variation and the silence of some of the
+    sources suggest that less spiritual significance is given to
+    the bema in the Western tradition than in the Eastern one.
+    However, in West Syriac sources from the East, the description
+    of the bema suggests an importance which is generally applied
+    only to the East Syriac tradition.<ref target="#FN13">13</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Taken
+         <p>
+            <anchor corresp="P6"/>[6] Taken
     together, the literary and archaeological evidence suggest the
     following points. There was regional variation in the West
     Syriac size, shape and positioning of the bema. Generally the
@@ -224,8 +249,8 @@
     Church.<ref target="#FN15">15</ref> Overall, this indicates regional variation
     involving the bema in the architecture and liturgy of the West
     Syriac Church.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] As the
+         <p>
+            <anchor corresp="P7"/>[7] As the
     analysis of the West Syriac Church has been developed in light
     of more recent archaeological material, this will not be my
     main purpose in this paper.<ref target="#FN16">16</ref> Rather, I would like to draw
@@ -250,18 +275,14 @@
     arrangement, based primarily on sources, can be seen in Fiey's
     "Chaldean-Nestorian" plan [Figure 2].<ref target="#FN21">21</ref>
          </p>
-         <p html:align="center">
-            <graphic url="HV5N2CassisFig02.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="400px"
-                     height="298px"/>
+         <p>
+            <graphic url="HV5N2CassisFig02.gif" rend="img" mimeType="image/gif" width="400px" height="298px"/>
          </p>
-         <p html:align="center">Fig 2. "Chaldean-Nestorian" plan. J.M. Fiey.
-    <hi rend="italic">Mossoul Chrétienne</hi>, (Beirut: Imprimerie Catholique,
-    1959), Plate II.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+         <p>Fig 2. "Chaldean-Nestorian" plan. J.M. Fiey.
+    <hi rend="italic">Mossoul Chrétienne</hi>, (Beirut: Imprimerie
+    Catholique, 1959), Plate II.</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     corresponding Syriac written evidence places the bema in the
     centre of the nave and assigns it a heavy symbolic
     presence.<ref target="#FN22">22</ref> While the original written reference to a bema
@@ -270,28 +291,29 @@
     the spiritual implications can be seen in later
     sources.<ref target="#FN23">23</ref> Further, both the architectural and written
     evidence explain the physical and thus spiritual connection
-    between the sanctuary and the bema. Taft says: �Before the
-    sanctuary doors, a platform, the <hi rend="italic">qestromã</hi>, extended
-    out into the nave. From the center of this platform, before the
-    central door, a narrow pathway, the <hi rend="italic">bet-�qaqona</hi>,
-    extended down the center of the nave to connect the
-    <hi rend="italic">qestromã</hi> to the bema.�<ref target="#FN24">24</ref>� The exact arrangement of
-    the liturgical furnishings is of extreme importance to the
-    implementation of the service. According to Pauly Maniyattu,
-    the use of the structure only for the �...Sacred Scripture
-    shows concern for the sacredness of this liturgical
-    space.�<ref target="#FN25">25</ref>� He parallels this with George of Arbela�s
-    description of the bema as Jerusalem, with the altar on it
-    being representative of Golgotha.<ref target="#FN26">26</ref> The entire liturgical
-    arrangement of the structure thus mirrors the instruction of
-    God, through the actions of Christ.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] While
+    between the sanctuary and the bema. Taft says: “Before
+    the sanctuary doors, a platform, the <hi rend="italic">qestromã</hi>,
+    extended out into the nave. From the center of this platform,
+    before the central door, a narrow pathway, the
+    <hi rend="italic">bet-šqaqona</hi>, extended down the center of the
+    nave to connect the <hi rend="italic">qestromã</hi> to the
+    bema.”<ref target="#FN24">24</ref>  The exact arrangement of the liturgical
+    furnishings is of extreme importance to the implementation of
+    the service. According to Pauly Maniyattu, the use of the
+    structure only for the “...Sacred Scripture shows concern
+    for the sacredness of this liturgical space.”<ref target="#FN25">25</ref> 
+    He parallels this with George of Arbela’s description of
+    the bema as Jerusalem, with the altar on it being
+    representative of Golgotha.<ref target="#FN26">26</ref> The entire liturgical arrangement
+    of the structure thus mirrors the instruction of God, through
+    the actions of Christ.</p>
+         <p>
+            <anchor corresp="P9"/>[9] While
     the combination of the early architectural material and
     liturgical information indicates the importance of the bema in
     the liturgical tradition of the East Syriac Church, the
     archaeological material discovered in the last twenty years has
-    become a somewhat problematic addition to this question.�
+    become a somewhat problematic addition to this question. 
     Several more East Syriac churches have come to light from both
     the Iraqi mainland and the islands in the Persian-Arabian Gulf,
     and none of these structures provides any evidence for a bema.
@@ -300,13 +322,13 @@
     inscriptional evidence and the known existence of this
     community within the Sassanian Empire.<ref target="#FN27">27</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] As
+         <p>
+            <anchor corresp="P10"/>[10] As
     mentioned above, these churches come from a variety of
     locations, most of which are extremely isolated. One of the
     most recently discovered churches derives from an eighth
     century monastic site in the southern Iraqi desert called Ain
-    Sha�ia. When it was excavated there was no evidence of a
+    Sha’ia. When it was excavated there was no evidence of a
     bema.<ref target="#FN28">28</ref> The same situation is to be found at two more
     Sassanian era sites in the southern part of Iraq, Qusayr and
     Rahaliya.<ref target="#FN29">29</ref> Another monastic site is located on the
@@ -318,52 +340,54 @@
     of Failaka in Kuwait,<ref target="#FN32">32</ref> and on the Abu Dhabi island of Sir Bani
     Yas.<ref target="#FN33">33</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     Archaeologically, the absence of the bema in one or two of
     these structures could, of course, be explained in practical
-    ways.� It has been plausibly suggested by several scholars that
-    these structures may have been made of wood. However this seems
-    unlikely within the geographical context of such locations as
-    the southern Iraqi desert. As well, extensive excavations of
-    some of these structures—most notably at Failaka—have turned up
-    fine plaster floors which do not exhibit any indication of
-    either portable or permanent liturgical furnishings in the
-    nave.<ref target="#FN34">34</ref> While excavation is still ongoing at some of
-    these sites, enough work has been done to suggest that the bema
-    was not a common architectural form in the southern part of
-    Mesopotamia and the Persian-Arabian Gulf. This conclusion is
-    particularly confirmed in structures like Kharg and Failaka
-    where we have further ecclesiastical remains.<ref target="#FN35">35</ref>
+    ways.  It has been plausibly suggested by several scholars
+    that these structures may have been made of wood. However this
+    seems unlikely within the geographical context of such
+    locations as the southern Iraqi desert. As well, extensive
+    excavations of some of these structures—most notably at
+    Failaka—have turned up fine plaster floors which do not
+    exhibit any indication of either portable or permanent
+    liturgical furnishings in the nave.<ref target="#FN34">34</ref> While excavation is still
+    ongoing at some of these sites, enough work has been done to
+    suggest that the bema was not a common architectural form in
+    the southern part of Mesopotamia and the Persian-Arabian Gulf.
+    This conclusion is particularly confirmed in structures like
+    Kharg and Failaka where we have further ecclesiastical
+    remains.<ref target="#FN35">35</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+         <p>
+            <anchor corresp="P12"/>[12]
     Because the written evidence indicates the significance of the
     bema in the liturgy of the East Syriac Church, it cannot be
     disregarded as an important part of the service. However, we
     must briefly explore the possible explanations for the absence
-    of this structure in the region around and south of Hira.�
+    of this structure in the region around and south of Hira. 
     There are a number of possibilities and it seems likely that
-    they all impact on the final analysis. To begin with, Taft�s
-    assertion that the bema in the early Christian tradition moved
-    from west to east must hold some validity here;<ref target="#FN36">36</ref> nevertheless,
-    its arrival in Mesopotamia is obscure. Further, two important
-    questions remain unanswered: from how far and when did the bema
-    enter the region? The presence of the bema in the West Syriac
-    churches of the region around Antioch, which theologically had
-    early connections to what became the Church of the East, may
-    very well provide the initial link for the passage of this
-    liturgical element to some of the eastern Christian churches.
-    As well, the usage of a <hi rend="italic">bimah</hi>, or reader�s platform,
-    in some of the synagogues in the region of Anatolia and Syria
-    may provide the context for the initial adoption of this
-    architectural aspect.<ref target="#FN37">37</ref>
+    they all impact on the final analysis. To begin with,
+    Taft’s assertion that the bema in the early Christian
+    tradition moved from west to east must hold some validity
+    here;<ref target="#FN36">36</ref> nevertheless, its arrival in Mesopotamia is
+    obscure. Further, two important questions remain unanswered:
+    from how far and when did the bema enter the region? The
+    presence of the bema in the West Syriac churches of the region
+    around Antioch, which theologically had early connections to
+    what became the Church of the East, may very well provide the
+    initial link for the passage of this liturgical element to some
+    of the eastern Christian churches. As well, the usage of a
+    <hi rend="italic">bimah</hi>, or reader’s platform, in some of the
+    synagogues in the region of Anatolia and Syria may provide the
+    context for the initial adoption of this architectural
+    aspect.<ref target="#FN37">37</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
+         <p>
+            <anchor corresp="P13"/>[13]
     While this may serve as a connection where the bema does occur,
-    it does not help with the problem of where it does not.� To
-    begin with, these early East Syriac sites in Southern
+    it does not help with the problem of where it does not. 
+    To begin with, these early East Syriac sites in Southern
     Mesopotamia and the Persian-Arabian Gulf are now widely
     considered to take their architectural elements not from the
     Byzantine tradition, but from the Mesopotamian corpus
@@ -374,13 +398,13 @@
     Partho-Sassanian traditions.<ref target="#FN39">39</ref> Beyond this, the separation of
     the Sassanian Christian community from the Byzantine Empire
     meant that it had to turn inwards to find unique architectural
-    techniques to express its own liturgy.� The fact that we have
-    no literary evidence for the enactment of the liturgy in this
-    specific region in the early period may be evidence for this,
-    but it is difficult to argue <hi rend="italic">ex nihilo.</hi>
+    techniques to express its own liturgy.  The fact that we
+    have no literary evidence for the enactment of the liturgy in
+    this specific region in the early period may be evidence for
+    this, but it is difficult to argue <hi rend="italic">ex nihilo.</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] A
+         <p>
+            <anchor corresp="P14"/>[14] A
     further aspect to be considered is the separation of the Jewish
     and Christian communities in this region. While several
     architectural and even liturgical elements of the Byzantine
@@ -402,8 +426,8 @@
     almost entirely to secular Sassanian architecture for their own
     structures.<ref target="#FN42">42</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15]
+         <p>
+            <anchor corresp="P15"/>[15]
     There remains the question of date and its relation to the
     usage of the bema. Taft indicates that the last East Syriac
     commentary we have is dated to the ninth century, but that in
@@ -411,16 +435,16 @@
     appears again in the East Syriac liturgy. He suggests that the
     bema fell into disuse under the Mongols in the fourteenth
     century.<ref target="#FN43">43</ref> However, as seen above, in the region around
-    and south of Hira the bema� does not seem to have been in use
-    at all. The fact that the slightly later East Syriac churches
-    discussed above were still using the same early Mesopotamian
-    architectural types - still without a bema � strongly suggests
-    that the initial local tradition in southern Mesopotamia did
-    not include this structure, and consequently that the liturgy
-    was performed in a different way spatially to accommodate this
-    absence.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] In
+    and south of Hira the bema  does not seem to have been in
+    use at all. The fact that the slightly later East Syriac
+    churches discussed above were still using the same early
+    Mesopotamian architectural types - still without a bema –
+    strongly suggests that the initial local tradition in southern
+    Mesopotamia did not include this structure, and consequently
+    that the liturgy was performed in a different way spatially to
+    accommodate this absence.</p>
+         <p>
+            <anchor corresp="P16"/>[16] In
     practical terms, we must also consider the usage of the East
     Syriac churches. The majority of the churches in Babylonia and
     the Persian-Arabian Gulf were associated with monastic
@@ -432,34 +456,36 @@
     dictated the format of the architecture. Much the same argument
     can be made for the small and isolated churches in Babylonia
     and the Persian-Arabian Gulf. Recently two monastic churches in
-    Iraq—one at Sulaimaniya and one at Takrit—have been excavated,
-    both of which possess the remains of a bema.<ref target="#FN45">45</ref> This suggests
-    that the bema was an architectural feature found more commonly
-    in the regions north and west of Hira, and towards Antioch.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+    Iraq—one at Sulaimaniya and one at Takrit—have been
+    excavated, both of which possess the remains of a bema.<ref target="#FN45">45</ref> This
+    suggests that the bema was an architectural feature found more
+    commonly in the regions north and west of Hira, and towards
+    Antioch.</p>
+         <p>
+            <anchor corresp="P17"/>[17]
     Several secondary sources indicate that in the later churches
     of Mesopotamia the bema essentially merged with the
-    <hi rend="italic">qestromã</hi>, or area in front of the sanctuary.<ref target="#FN46">46</ref> There,
-    the significance of the bema retained its importance within the
-    liturgy. While the eventual disappearance of this structure in
-    the region is a matter of some debate, perhaps we should be
-    looking more toward regional architectural differences for our
-    explanation. While some of the more accessible churches north
-    and west of Hira have this structure, none of the isolated ones
-    to the south and east of this region seem to indicate any
-    disposition towards it at all. Architecturally, the piers of
-    all of the churches in the region around and south of Hira make
-    it difficult to assume that a large square structure would have
-    been placed in the center of the nave, so completely dividing
-    it. Further, the absence of such a structure at Ctesiphon, the
-    home of the Catholicos, serves to indicate that there was
-    indeed an independent regional architectural style in Babylonia
-    and the Persian-Arabian Gulf which remained unique, even in the
-    face of increased influence from the Byzantine world.<ref target="#FN47">47</ref>
+    <hi rend="italic">qestromã</hi>, or area in front of the
+    sanctuary.<ref target="#FN46">46</ref> There, the significance of the bema retained
+    its importance within the liturgy. While the eventual
+    disappearance of this structure in the region is a matter of
+    some debate, perhaps we should be looking more toward regional
+    architectural differences for our explanation. While some of
+    the more accessible churches north and west of Hira have this
+    structure, none of the isolated ones to the south and east of
+    this region seem to indicate any disposition towards it at all.
+    Architecturally, the piers of all of the churches in the region
+    around and south of Hira make it difficult to assume that a
+    large square structure would have been placed in the center of
+    the nave, so completely dividing it. Further, the absence of
+    such a structure at Ctesiphon, the home of the Catholicos,
+    serves to indicate that there was indeed an independent
+    regional architectural style in Babylonia and the
+    Persian-Arabian Gulf which remained unique, even in the face of
+    increased influence from the Byzantine world.<ref target="#FN47">47</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] The
+         <p>
+            <anchor corresp="P18"/>[18] The
     absence of the East Syriac bema in terms of its relation to
     both the liturgy and its sister structure in the West Syriac
     tradition is notable. What we do see is the development of an
@@ -476,46 +502,50 @@
     regard to the architecture and in regard to the written
     liturgy.<lb/>
          </p>
-         <head>Acknowledgements</head>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] I
+
+         <p>
+            <anchor corresp="P19"/>[19] I
     would like to thank Professor Amir Harrak for his constant
     encouragement and advice. I would also like to express my
     gratitude to the publisher Dar el-Machreq for allowing me to
-    reproduce the images from J.M. Fiey�s <hi rend="italic">Mossoul
-    Chr�tienne</hi>.</p>
-         <p rend="nn">_______<lb/>
+    reproduce the images from J.M. Fiey’s <hi rend="italic">Mossoul
+    Chrétienne</hi>.</p>
+         <p>_______<lb/>
          </p>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef0">�</ref> This article is based on the paper "The Bema in the
-    West and East Syriac Churches" given as part of the Syriac
-    panel at the two hundred and eleventh meeting of the American
-    Oriental Society in Toronto, Canada, in March, 2001. <ref target="#FNRef0">
+         <head xml:id="HV5N2Cassis3">Notes</head>
+         <p>
+            <ref target="#FNRef0">†</ref> This article is based on the paper "The Bema
+    in the West and East Syriac Churches" given as part of the
+    Syriac panel at the two hundred and eleventh meeting of the
+    American Oriental Society in Toronto, Canada, in March, 2001.
+    <ref target="#FNRef0">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef1">1</ref> The best discussions of sources as they relate to
-    the bema are found in Robert F. Taft, �Some Notes on the Bema
-    in the East and West Syrian Traditions� (<hi rend="italic">OCP</hi> 34
-    [1968]), 326-359; idem., �On the Use of the Bema in the
-    East-Syrian Liturgy� (<hi rend="italic">ECR</hi> 3 [1970]), 30-39 (Both
-    republished with comments in <hi rend="italic">Liturgy in Byzantium and
-    Beyond,</hi> Collected Studies Series CS493 [Aldershot:
-    Variorum, 1995]); Pauline Donceel-Vo�te, <hi rend="italic">Les pavements des
-    �glises de Syrie et du Liban. D�cor, arch�ologie, et
-    liturgie,</hi> 2 Bde (Louvain-la-Neuve: D�partement
-    d�arch�ologie et d�historie de l�art, Coll�ge �rasme, 1988),
-    511-523; and Pauly Maniyattu, <hi rend="italic">Heaven on Earth</hi> (Rome:
-    Mar Thoma Yogam, 1995), 164-172. See also J. Dauvillier,�
-    �L�Ambon ou B�m� dans les textes de l��glise Chald�enne et de
-    l��glise Syrienne au Moyen Age� (<hi rend="italic">CAr</hi> 6 [1952]), 11-31.
-    <ref target="#FNRef1">
+    the bema are found in Robert F. Taft, “Some Notes on the
+    Bema in the East and West Syrian Traditions”
+    (<hi rend="italic">OCP</hi> 34 [1968]), 326-359; idem., “On the Use of
+    the Bema in the East-Syrian Liturgy” (<hi rend="italic">ECR</hi> 3
+    [1970]), 30-39 (Both republished with comments in <hi rend="italic">Liturgy
+    in Byzantium and Beyond,</hi> Collected Studies Series CS493
+    [Aldershot: Variorum, 1995]); Pauline Donceel-Voûte,
+    <hi rend="italic">Les pavements des églises de Syrie et du Liban.
+    Décor, archéologie, et liturgie,</hi> 2 Bde
+    (Louvain-la-Neuve: Département
+    d’archéologie et d’historie de l’art,
+    Collège Érasme, 1988), 511-523; and Pauly
+    Maniyattu, <hi rend="italic">Heaven on Earth</hi> (Rome: Mar Thoma Yogam,
+    1995), 164-172. See also J. Dauvillier, 
+    “L’Ambon ou Bêmâ dans les textes de
+    l’église Chaldéenne et de
+    l’église Syrienne au Moyen Age”
+    (<hi rend="italic">CAr</hi> 6 [1952]), 11-31. <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> The term East Syriac in this paper refers to the
     Christian community living in the Sassanian Empire which is
     often given the misnomer "Nestorian". This is too limited a
@@ -532,223 +562,235 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> Ibid., 326-359. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef4">4</ref> Donceel-Vo�te, <hi rend="italic">Les pavements,</hi> 521.
+         <p>
+            <ref target="#FNRef4">4</ref> Donceel-Voûte, <hi rend="italic">Les pavements,</hi> 521.
     <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> Erich Renhart, <hi rend="italic">Das Syrische Bema,</hi> Grazer
     Theologische Studien 20 (Graz: Grazer Theologische Studien,
-    1995). His article concerning the bema, �Encore une fois: le
-    bema des �glises de la Syrie du nord� (<hi rend="italic">PdO</hi> 20 [1995]),
-    85-94 was recently brought to my attention, although I have not
-    yet been able to consult it. Renhart and Donceel-Vo�te discuss
-    East Syriac sources extensively, but are geographically
-    concerned with Byzantine Syria and Northern Mesopotamia.
-    <ref target="#FNRef5">
+    1995). His article concerning the bema, “Encore une fois:
+    le bema des églises de la Syrie du nord”
+    (<hi rend="italic">PdO</hi> 20 [1995]), 85-94 was recently brought to my
+    attention, although I have not yet been able to consult it.
+    Renhart and Donceel-Voûte discuss East Syriac sources
+    extensively, but are geographically concerned with Byzantine
+    Syria and Northern Mesopotamia. <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef6">6</ref> See: Yasuyoshi Okada, �Ain Sha�ia and the Early
-    Gulf Churches: An Architectural Analogy� (<hi rend="italic">al-Rafidan</hi>
-    13 [1992]), 87-93 and �Early Christian Architecture in the
-    Iraqi South-Western Desert� (<hi rend="italic">al-Rafidan</hi> 12 [1991]),
-    71-83.� Okada has recognized the regional similarities of the
-    churches in southern Iraq and the Persian-Arabian Gulf.
-    <ref target="#FNRef6">
+         <p>
+            <ref target="#FNRef6">6</ref> See: Yasuyoshi Okada, “Ain Sha’ia and
+    the Early Gulf Churches: An Architectural Analogy”
+    (<hi rend="italic">al-Rafidan</hi> 13 [1992]), 87-93 and “Early
+    Christian Architecture in the Iraqi South-Western Desert”
+    (<hi rend="italic">al-Rafidan</hi> 12 [1991]), 71-83.  Okada has
+    recognized the regional similarities of the churches in
+    southern Iraq and the Persian-Arabian Gulf. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef7">7</ref> Taft, �Some Notes,�� 337ff. <ref target="#FNRef7">
+         <p>
+            <ref target="#FNRef7">7</ref> Taft, “Some Notes,”  337ff.
+    <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef8">8</ref> J.M. Fiey, <hi rend="italic">Mossoul Chr�tienne�</hi> (Beirut:
-    Imprimerie Catholique, 1959), Plate III. This plan is based on
-    both written and archaeological sources. Fiey did, however,
-    note the variations which occurred in the architectural reality
-    in both the East and West Syriac churches of Mossul. Ibid., 75,
-    98. Donceel-Vo�te, <hi rend="italic">Les pavements,</hi> 513-514 illustrates
-    some of the variations which occur within this corpus of
-    churches. <ref target="#FNRef8">
+         <p>
+            <ref target="#FNRef8">8</ref> J.M. Fiey, <hi rend="italic">Mossoul Chrétienne </hi>
+    (Beirut: Imprimerie Catholique, 1959), Plate III. This plan is
+    based on both written and archaeological sources. Fiey did,
+    however, note the variations which occurred in the
+    architectural reality in both the East and West Syriac churches
+    of Mossul. Ibid., 75, 98. Donceel-Voûte, <hi rend="italic">Les
+    pavements,</hi> 513-514 illustrates some of the variations
+    which occur within this corpus of churches. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef9">9</ref> Taft, �Some Notes,� 349-350. <ref target="#FNRef9">
+         <p>
+            <ref target="#FNRef9">9</ref> Taft, “Some Notes,” 349-350. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef10">10</ref> Ibid., 350.� Donceel-Vo�te, <hi rend="italic">Les
-    pavements,</hi> 520-521 also draws attention to the fact that
-    there were certainly variations between how the East and West
-    Syriac communities used the bema. <ref target="#FNRef10">
+         <p>
+            <ref target="#FNRef10">10</ref> Ibid., 350.  Donceel-Voûte,
+    <hi rend="italic">Les pavements,</hi> 520-521 also draws attention to the
+    fact that there were certainly variations between how the East
+    and West Syriac communities used the bema. <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef11">11</ref> Taft, �Some Notes,� 351ff. <ref target="#FNRef11">
+         <p>
+            <ref target="#FNRef11">11</ref> Taft, “Some Notes,” 351ff.
+    <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> Ibid., 351. This arrangement would give to
     the bema the same significance as the ambo in the Byzantine
     rite. <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> Taft cites Yahya ibn Garir, for example.
     Ibid., 354-355. Taft relates this to their geographical
-    relation to the so-called �Nestorians� of the Sassanian Empire.
-    <ref target="#FNRef13">
+    relation to the so-called “Nestorians” of the
+    Sassanian Empire. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> Maniyattu, <hi rend="italic">Heaven on Earth,</hi> 164ff.
     <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef15">15</ref> Amir Harrak, �Recent Archaeological
-    Excavations in Takrit and the Discovery of Syriac Inscriptions�
-    (<hi rend="italic">Journal of the CSSS</hi>, 1[2001]), 15-16.� See also Taft,
-    �Some Notes,� 354-355. <ref target="#FNRef15">
+         <p>
+            <ref target="#FNRef15">15</ref> Amir Harrak, “Recent Archaeological
+    Excavations in Takrit and the Discovery of Syriac
+    Inscriptions” (<hi rend="italic">Journal of the CSSS</hi>, 1[2001]),
+    15-16.  See also Taft, “Some Notes,” 354-355.
+    <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> For the West Syriac tradition, see
-    particularly Donceel-Vo�te, <hi rend="italic">Les pavements</hi> and Renhart,
-    <hi rend="italic">Das Syrische Bema.</hi> 
+    particularly Donceel-Voûte, <hi rend="italic">Les pavements</hi> and
+    Renhart, <hi rend="italic">Das Syrische Bema.</hi>
             <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef17">17</ref> Taft, �Some Notes,� 331. <ref target="#FNRef17">
+         <p>
+            <ref target="#FNRef17">17</ref> Taft, “Some Notes,” 331.
+    <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> The dates for these churches are somewhat
     approximate. Mound XI is dated to the sixth century and Mound V
     is dated to the seventh century in the original archaeological
-    reports. For discussion of this site see Okada, �Ain Sha�ia,�
-    87-93 and �Early Christian Architecture,� 71-83.� For the
-    original excavation reports see D. Talbot Rice, �The Oxford
-    Excavations at Hira� (<hi rend="italic">Ars Islamica</hi> 1 [1934]), 51-73
-    and �The Oxford Excavations at Hira, 1931� (<hi rend="italic">Antiquity</hi>
-    6 [1932]), 276-291. <ref target="#FNRef18">
+    reports. For discussion of this site see Okada, “Ain
+    Sha’ia,” 87-93 and “Early Christian
+    Architecture,” 71-83.  For the original excavation
+    reports see D. Talbot Rice, “The Oxford Excavations at
+    Hira” (<hi rend="italic">Ars Islamica</hi> 1 [1934]), 51-73 and
+    “The Oxford Excavations at Hira, 1931”
+    (<hi rend="italic">Antiquity</hi> 6 [1932]), 276-291. <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> The Upper Church at Ctesiphon dates to
     approximately the beginning of the seventh century. For
     discussion of these churches see the above articles by Y.
-    Okada, as well as Oscar Reuther, �The German Excavations at
-    Ctesiphon�� (<hi rend="italic">Antiquity</hi> 3 [1929]), 434-451, and
-    �Sasanian Architecture� in <hi rend="italic">A Survey of Persian Art,</hi>
-    ed. Arthur Upham Pope. Volume II, Reprint. (London: Oxford
-    University Press, 1967). It should also be stressed that the
-    church was not completely excavated. <ref target="#FNRef19">
+    Okada, as well as Oscar Reuther, “The German Excavations
+    at Ctesiphon”  (<hi rend="italic">Antiquity</hi> 3 [1929]),
+    434-451, and “Sasanian Architecture” in <hi rend="italic">A
+    Survey of Persian Art,</hi> ed. Arthur Upham Pope. Volume II,
+    Reprint. (London: Oxford University Press, 1967). It should
+    also be stressed that the church was not completely excavated.
+    <ref target="#FNRef19">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> This is a provisional date. Taft,
-    �Additional Notes and Comments� in <hi rend="italic">Liturgy in Byzantium and
-    Beyond</hi> (Aldershot: Variorum Reprints, 1995): 3-4. <ref target="#FNRef20">
+    “Additional Notes and Comments” in <hi rend="italic">Liturgy in
+    Byzantium and Beyond</hi> (Aldershot: Variorum Reprints, 1995):
+    3-4. <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef21">21</ref> Fiey, <hi rend="italic">Mossoul Chr�tienne</hi>, Plate II.
-    <ref target="#FNRef21">
+         <p>
+            <ref target="#FNRef21">21</ref> Fiey, <hi rend="italic">Mossoul Chrétienne</hi>,
+    Plate II. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef22">22</ref> Maniyattu, <hi rend="italic">Heaven on Earth,</hi> 164ff;
-    Donceel-Vo�te, <hi rend="italic">Les pavements,</hi> 511ff. <ref target="#FNRef22">
+    Donceel-Voûte, <hi rend="italic">Les pavements,</hi> 511ff. <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> This discussion of the sources is based on
-    Taft�s work in �Some Notes,� 331-332. <ref target="#FNRef23">
+    Taft’s work in “Some Notes,” 331-332.
+    <ref target="#FNRef23">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef24">24</ref> Taft, �Some Notes,� 333. <ref target="#FNRef24">
+         <p>
+            <ref target="#FNRef24">24</ref> Taft, “Some Notes,” 333.
+    <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef25">25</ref> Maniyattu, <hi rend="italic">Heaven on Earth,</hi> �168.
-    <ref target="#FNRef25">
+         <p>
+            <ref target="#FNRef25">25</ref> Maniyattu, <hi rend="italic">Heaven on Earth,</hi>
+     168. <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> Ibid., 169-170. <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> For a discussion of this community see S.P.
-    Brock, �Christians in the Sasanian Empire: A Case of Divided
-    Loyalties� in <hi rend="italic">Religion and National Identity,</hi> ed.
-    Stuart Mews (Oxford: Basil Blackwell, 1982), 1-19 and Michael
-    G. Morony, �Religious Communities in Late Sasanian and Early
-    Muslim Iraq� (<hi rend="italic">JESHO</hi> 17 [1974]), 113-135. <ref target="#FNRef27">
+    Brock, “Christians in the Sasanian Empire: A Case of
+    Divided Loyalties” in <hi rend="italic">Religion and National
+    Identity,</hi> ed. Stuart Mews (Oxford: Basil Blackwell, 1982),
+    1-19 and Michael G. Morony, “Religious Communities in
+    Late Sasanian and Early Muslim Iraq” (<hi rend="italic">JESHO</hi> 17
+    [1974]), 113-135. <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> These structures were published by Yasuyoshi
-    Okada, �Ain Sha�ia,� 87-93 and �Early Christian Architecture,�
-    71-83. <ref target="#FNRef28">
+    Okada, “Ain Sha’ia,” 87-93 and “Early
+    Christian Architecture,” 71-83. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> These are mid-late Sassanian in date. For
-    both sites see Barbara Finster and Jurgen Schmidt,�Sasanidische
-    und Fruhislamische Ruinen im Iraq� (<hi rend="italic">Baghdader
-    Mitteilungen</hi> 8 [1976]), 26-43. See also Okada, �Early
-    Christian Architecture,� 76, 77. There are two churches at
-    Qusayr, neither of which have the remains of a bema. <ref target="#FNRef29">
+    both sites see Barbara Finster and Jurgen
+    Schmidt,“Sasanidische und Fruhislamische Ruinen im
+    Iraq” (<hi rend="italic">Baghdader Mitteilungen</hi> 8 [1976]), 26-43.
+    See also Okada, “Early Christian Architecture,” 76,
+    77. There are two churches at Qusayr, neither of which have the
+    remains of a bema. <ref target="#FNRef29">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> Roman Ghirshman, <hi rend="italic">The Island of
     Kharg</hi> (Tehran: Iranian Oil Operating Companies, 1964),
     17-20. The original publication of this church dates the
     structure to the sixth century. However, based on a number of
     factors, this seems far too early a date and it was probably
-    built 100-200 years later. Okada, �Ain Sh�aia,� 93. <ref target="#FNRef30">
+    built 100-200 years later. Okada, “Ain
+    Sh’aia,” 93. <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef31">31</ref> Ghirshman, <hi rend="italic">The Island of Kharg,</hi> 19.
     The remains of the altar-site are clear, as is a large chest
     reliquary. The fact that these have survived suggests that the
@@ -756,241 +798,266 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> Circa mid-seventh century. See Derek Kennet,
-    �Excavations at the Site of Al-Qusur, Failaka, Kuwait�
-    (<hi rend="italic">PSAS</hi> 21 [1991]), 97-111; Vincent Bernard and
-    Jean-Francois Salles, �Discovery of a Christian Church at
-    al-Qusur, Failaka, (Kuwait)� (<hi rend="italic">PSAS</hi> 21 [1991]), 7-21;
-    and Vincent Bernard, Oliver Callot and Jean-Francois Salles,
-    �L��glise d�al-Qousour Failaka, �tat de Koweit� (<hi rend="italic">AAE</hi>
-    2� [1991]), 145-181. <ref target="#FNRef32">
+    “Excavations at the Site of Al-Qusur, Failaka,
+    Kuwait” (<hi rend="italic">PSAS</hi> 21 [1991]), 97-111; Vincent
+    Bernard and Jean-Francois Salles, “Discovery of a
+    Christian Church at al-Qusur, Failaka, (Kuwait)”
+    (<hi rend="italic">PSAS</hi> 21 [1991]), 7-21; and Vincent Bernard, Oliver
+    Callot and Jean-Francois Salles, “L’Église
+    d’al-Qousour Failaka, État de Koweit”
+    (<hi rend="italic">AAE</hi> 2  [1991]), 145-181. <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef33">33</ref> Sixth to sevent<hi rend="sup">h</hi> century. G.R.D.
-    King and Peter Hellyer, �A Pre-Islamic Christian Site on Sir
-    Bani Yas� (<hi rend="italic">Tribulus</hi> 4 [1994]), 5-7; G.R.D. King, D.
-    Dunlop, J. Elders, S. Garfi, A. Stephenson, C. Tonghini, �A
-    Report on the Abu Dhabi Islands Archaeological Survey (1993-4)�
-    (<hi rend="italic">PSAS</hi> 25 [1995]): 63-74; Peter Hellyer, <hi rend="italic">Filling in
-    the Blanks.</hi> (Dubai: Motivate Publishing, 1998), 42-49.
-    Based on these reports, there appears to be no evidence for a
-    bema. <ref target="#FNRef33">
+    King and Peter Hellyer, “A Pre-Islamic Christian Site on
+    Sir Bani Yas” (<hi rend="italic">Tribulus</hi> 4 [1994]), 5-7; G.R.D.
+    King, D. Dunlop, J. Elders, S. Garfi, A. Stephenson, C.
+    Tonghini, “A Report on the Abu Dhabi Islands
+    Archaeological Survey (1993-4)” (<hi rend="italic">PSAS</hi> 25
+    [1995]): 63-74; Peter Hellyer, <hi rend="italic">Filling in the Blanks.</hi>
+    (Dubai: Motivate Publishing, 1998), 42-49. Based on these
+    reports, there appears to be no evidence for a bema. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef34">34</ref> The archaeological reports from Failaka talk
     at length about the plaster floors of the church: Bernard and
-    Salles, �Discovery,� 11 and Bernard, Callot, and Salles,
-    �L��glise,� 150. <ref target="#FNRef34">
+    Salles, “Discovery,” 11 and Bernard, Callot, and
+    Salles, “L’Église,” 150. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> For example, large chests and floor markings
     were found in both of these churches. <ref target="#FNRef35">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef36">36</ref> Taft, �Some Notes,� 358-9. <ref target="#FNRef36">
+         <p>
+            <ref target="#FNRef36">36</ref> Taft, “Some Notes,” 358-9.
+    <ref target="#FNRef36">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef37">37</ref> One of many extant examples is found at
-    Sardis. See A. Seager, �The Synagogue at Sardis� in <hi rend="italic">Ancient
-    Synagogues Revealed.</hi> Lee I. Levine, ed. (Detroit: Wayne
-    State University Press: 1982), 178-184. A convincing argument
-    for the Jewish origins of the bema can be found in G.
-    Rouwhorst, �Jewish Liturgical Traditions in Early Syriac
-    Christianity� (<hi rend="italic">Vigiliae Christianae</hi> 51 [1997]), 72-93.
-    I am not convinced that the bema had to come to the Syrian and
-    Mesopotamian population from a Christian context. In Syria and
-    northern Mesopotamia, it could very plausibly have come from
-    the Jewish architectural tradition. <ref target="#FNRef37">
+    Sardis. See A. Seager, “The Synagogue at Sardis” in
+    <hi rend="italic">Ancient Synagogues Revealed.</hi> Lee I. Levine, ed.
+    (Detroit: Wayne State University Press: 1982), 178-184. A
+    convincing argument for the Jewish origins of the bema can be
+    found in G. Rouwhorst, “Jewish Liturgical Traditions in
+    Early Syriac Christianity” (<hi rend="italic">Vigiliae Christianae</hi>
+    51 [1997]), 72-93. I am not convinced that the bema had to come
+    to the Syrian and Mesopotamian population from a Christian
+    context. In Syria and northern Mesopotamia, it could very
+    plausibly have come from the Jewish architectural tradition.
+    <ref target="#FNRef37">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef38">38</ref> In this regard, I strongly agree with Y.
-    Okada�s assessment that the impetus for these church types must
-    be local and contemporary. See particularly, �Early Christian
-    Architecture,� 80-81. This idea was expressed earlier by
-    Reuther, �Sasanian Architecture,� 564-565. <ref target="#FNRef38">
+    Okada’s assessment that the impetus for these church
+    types must be local and contemporary. See particularly,
+    “Early Christian Architecture,” 80-81. This idea
+    was expressed earlier by Reuther, “Sasanian
+    Architecture,” 564-565. <ref target="#FNRef38">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef39">39</ref> Ibid. <ref target="#FNRef39">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef40">40</ref> W. Stewart McCullough, <hi rend="italic">A Short History
     of Syriac Christianity to the Rise of Islam,</hi> (Chico:
     Scholars Press, 1982), 96ff. <ref target="#FNRef40">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef41">41</ref> Morony, �Religious Communities,� 115-116.
-    <ref target="#FNRef41">
+         <p>
+            <ref target="#FNRef41">41</ref> Morony, “Religious Communities,”
+    115-116. <ref target="#FNRef41">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef42">42</ref> Ibid., 117-118.� Morony provides a
+         <p>
+            <ref target="#FNRef42">42</ref> Ibid., 117-118.  Morony provides a
     fascinating image of the Christian hierarchy imitating the
-    Sassanian political structure � which may also have provided
-    the impetus for architectural borrowing (or vice-versa).
-    <ref target="#FNRef42">
+    Sassanian political structure – which may also have
+    provided the impetus for architectural borrowing (or
+    vice-versa). <ref target="#FNRef42">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef43">43</ref> Taft, �Some Notes,� 337. <ref target="#FNRef43">
+         <p>
+            <ref target="#FNRef43">43</ref> Taft, “Some Notes,” 337.
+    <ref target="#FNRef43">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef44">44</ref> Ibid., 350. <ref target="#FNRef44">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef45">45</ref> The first one is East Syriac and is
-    discussed in Taft, �Additional Notes and Comments,� 3. The
-    second one is West Syriac and is discussed in Harrak, �Recent
-    Archaeological Excavations,� 15-16. <ref target="#FNRef45">
+    discussed in Taft, “Additional Notes and Comments,”
+    3. The second one is West Syriac and is discussed in Harrak,
+    “Recent Archaeological Excavations,” 15-16.
+    <ref target="#FNRef45">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef46">46</ref> Taft, �Some Notes,� 337. Taft also indicates
-    that this is true in modern Chaldean churches. Also see, Fiey,
-    <hi rend="italic">Mossoul Chr�tienne</hi>, 78. <ref target="#FNRef46">
+         <p>
+            <ref target="#FNRef46">46</ref> Taft, “Some Notes,” 337. Taft
+    also indicates that this is true in modern Chaldean churches.
+    Also see, Fiey, <hi rend="italic">Mossoul Chrétienne</hi>, 78.
+    <ref target="#FNRef46">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef47">47</ref> When the controversy of Nestorius hit
     Byzantium, many of his followers went into honoured exile in
-    the Eastern regions—where they encountered a vibrant and highly
-    independent church. See S. A. Harvey, �Nestorianism�,
-    �Nestorius� in <hi rend="italic">Encyclopedia of Early Christianity,</hi>
-    Everett Ferguson, ed. (New York: Garland Publishing, 1990). See
-    also Amir Harrak, �Early Eastern Christianity and Monasticism
-    in Mesopotamia� (<hi rend="italic">Bulletin of the Canadian Society of
+    the Eastern regions—where they encountered a vibrant and
+    highly independent church. See S. A. Harvey,
+    “Nestorianism”, “Nestorius” in
+    <hi rend="italic">Encyclopedia of Early Christianity,</hi> Everett Ferguson,
+    ed. (New York: Garland Publishing, 1990). See also Amir Harrak,
+    “Early Eastern Christianity and Monasticism in
+    Mesopotamia” (<hi rend="italic">Bulletin of the Canadian Society of
     Mesopotamian Studies,</hi> 18[1989]), 11-23. <ref target="#FNRef47">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Bernard, V.;� Salles, J. �Discovery
-    of a Christian Church at al-Qusur, Failaka,
-    (Kuwait).��<hi rend="italic">PSAS</hi>�21 (1991),�7-22.</p>
-         <p xml:id="B2" rend="biblio">Bernard, V.; Callot, O.; and Salles,
-    J.F. �L��glise d�al-Qousour Failaka, �tat de�Koweit.�
-    <hi rend="italic">AAE</hi> 2.(1991), 145-181.</p>
-         <p xml:id="B3" rend="biblio">Brock, S.P. �Christians in the
-    Sasanian Empire: A Case of Divided Loyalties� in
-    <hi rend="italic">Religion��and National Identity,</hi> ed. Stuart Mews.
-    Oxford: Basil Blackwell, 1982.</p>
-         <p xml:id="B4" rend="biblio">Budge, E.A.W. <hi rend="italic">The Book of
+         <head xml:id="HV5N2Cassis4">Bibliography</head>
+         <p>Bernard, V.;  Salles, J.
+    “Discovery of a Christian Church at al-Qusur, Failaka,
+    (Kuwait).” <hi rend="italic">PSAS</hi> 21
+    (1991), 7-22.</p>
+         <p>Bernard, V.; Callot, O.; and Salles,
+    J.F. “L’Église d’al-Qousour Failaka,
+    État de Koweit.” <hi rend="italic">AAE</hi> 2.(1991),
+    145-181.</p>
+         <p>Brock, S.P. “Christians in the
+    Sasanian Empire: A Case of Divided Loyalties” in
+    <hi rend="italic">Religion  and National Identity,</hi> ed. Stuart
+    Mews. Oxford: Basil Blackwell, 1982.</p>
+         <p>Budge, E.A.W. <hi rend="italic">The Book of
     Governors.</hi> 2 volumes. London: Kegan Paul, Trench, Trubner,
     &amp; Co., 1893.</p>
-         <p xml:id="B3" rend="biblio">Chabot, J.B. <hi rend="italic">Synodicon
+         <p>Chabot, J.B. <hi rend="italic">Synodicon
     Orientale.</hi> Paris: Imprimerie Nation5le, 1902.</p>
-         <p xml:id="B6" rend="biblio">Dauvillier, J. �L�Ambon ou B�m� dans
-    les textes de l��glise Chald�enne et de l��glise�Syrienne au
-    Moyen Age.� <hi rend="italic">CAr</hi> 6 (1952): 11-31.</p>
-         <p xml:id="B7" rend="biblio">Donceel-Vo�te, Pauline. <hi rend="italic">Les
-    pavements des �glises de Syrie et du Liban. D�cor,�arch�ologie,
-    et liturgie.</hi> 2 Bde. Louvain-la-Neuve:
-    D�partement�d�arch�ologie et d�historie de l�art, Coll�ge
-    �rasme, 1988.</p>
-         <p xml:id="B8" rend="biblio">Fiey, J.M. <hi rend="italic">Mossoul
-    Chr�tienne.</hi> Beirut: Imprimerie Catholique, 1959.</p>
-         <p xml:id="B9" rend="biblio">Finster, B. and Schmidt, J.
-    �Sasanidische und Fruhislamische Ruinem im Iraq.��<hi rend="italic">Baghdader
-    Mitteilungen</hi> 8 (1976).</p>
-         <p xml:id="B10" rend="biblio">Ghirshman, R. <hi rend="italic">The Island of
+         <p>Dauvillier, J. “L’Ambon
+    ou Bêmâ dans les textes de l’église
+    Chaldéenne et de l’église Syrienne au
+    Moyen Age.” <hi rend="italic">CAr</hi> 6 (1952): 11-31.</p>
+         <p>Donceel-Voûte, Pauline. <hi rend="italic">Les
+    pavements des églises de Syrie et du Liban.
+    Décor, archéologie, et liturgie.</hi> 2 Bde.
+    Louvain-la-Neuve:
+    Département d’archéologie et
+    d’historie de l’art, Collège Érasme,
+    1988.</p>
+         <p>Fiey, J.M. <hi rend="italic">Mossoul
+    Chrétienne.</hi> Beirut: Imprimerie Catholique,
+    1959.</p>
+         <p>Finster, B. and Schmidt, J.
+    “Sasanidische und Fruhislamische Ruinem im
+    Iraq.” <hi rend="italic">Baghdader Mitteilungen</hi> 8 (1976).</p>
+         <p>Ghirshman, R. <hi rend="italic">The Island of
     Kharg.</hi> Tehran: Iranian Oil Operating Companies, 1964.</p>
-         <p xml:id="B11" rend="biblio">Harrak, Amir. �Recent Archaeological
-    Excavations in Takrit and the Discovery of
-    Syriac�Inscriptions.� <hi rend="italic">Journal of the CSSS</hi> 1 (2001),
-    11-40.</p>
-         <p xml:id="B12" rend="biblio">— �Early Eastern Christianity and
-    Monasticism in Mesopotamia.� <hi rend="italic">Bulletin�of the Canadian
-    Society of Mesopotamian Studies</hi> 18 (1989), 11-23.</p>
-         <p xml:id="B13" rend="biblio">Harvey, S.A. �Nestorianism�,
-    �Nestorius� in <hi rend="italic">Encyclopedia of Early Christianity.</hi>
-    Everett Ferguson, ed. New York: Garland Publishing, 1990.</p>
-         <p xml:id="B14" rend="biblio">Hellyer, Peter. <hi rend="italic">Filling in the
+         <p>Harrak, Amir. “Recent
+    Archaeological Excavations in Takrit and the Discovery of
+    Syriac Inscriptions.” <hi rend="italic">Journal of the CSSS</hi> 1
+    (2001), 11-40.</p>
+         <p>— “Early Eastern
+    Christianity and Monasticism in Mesopotamia.”
+    <hi rend="italic">Bulletin of the Canadian Society of Mesopotamian
+    Studies</hi> 18 (1989), 11-23.</p>
+         <p>Harvey, S.A.
+    “Nestorianism”, “Nestorius” in
+    <hi rend="italic">Encyclopedia of Early Christianity.</hi> Everett Ferguson,
+    ed. New York: Garland Publishing, 1990.</p>
+         <p>Hellyer, Peter. <hi rend="italic">Filling in the
     Blanks.</hi> Dubai: Motivate Publishing, 1998.</p>
-         <p xml:id="B15" rend="biblio">Kennet, D. �Excavations at the Site
-    of Al-Qusur, Failaka, Kuwait.� <hi rend="italic">PSAS</hi> 21 (1991),
-    97-111.</p>
-         <p xml:id="B16" rend="biblio">King, G.R.D. �A Nestorian Monastic
-    Settlement on the Island of Sir Bani Yas, Abu�Dhabi: A
-    Preliminary Report.� <hi rend="italic">BSOAS</hi> 60 (1997), 221-235.</p>
-         <p xml:id="B17" rend="biblio">King, G.R.D.; Dunlop, D.; Elders,
-    J.; Garfi, S.; Stephenson, A; and Tonghini,C. �A�Report� on the
-    Abu Dhabi Islands Archaeological Survey (1993-4).�</p>
-         <p xml:id="B18" rend="biblio">
-            <hi rend="italic">PSAS</hi>�25 (1995), 63-74.</p>
-         <p xml:id="B19" rend="biblio">King, G.R.D. and Hellyer, P. �A
-    Pre-Islamic Christian Site on Sir Bani Yas.� <hi rend="italic">Tribulus</hi>
-    4 (1994), 5-7.</p>
-         <p xml:id="B20" rend="biblio">Maniyattu, P. <hi rend="italic">Heaven on
+         <p>Kennet, D. “Excavations at the
+    Site of Al-Qusur, Failaka, Kuwait.” <hi rend="italic">PSAS</hi> 21
+    (1991), 97-111.</p>
+         <p>King, G.R.D. “A Nestorian
+    Monastic Settlement on the Island of Sir Bani Yas,
+    Abu Dhabi: A Preliminary Report.” <hi rend="italic">BSOAS</hi> 60
+    (1997), 221-235.</p>
+         <p>King, G.R.D.; Dunlop, D.; Elders,
+    J.; Garfi, S.; Stephenson, A; and Tonghini,C.
+    “A Report  on the Abu Dhabi Islands
+    Archaeological Survey (1993-4).”</p>
+         <p>
+            <hi rend="italic">PSAS</hi> 25 (1995),
+    63-74.</p>
+         <p>King, G.R.D. and Hellyer, P.
+    “A Pre-Islamic Christian Site on Sir Bani Yas.”
+    <hi rend="italic">Tribulus</hi> 4 (1994), 5-7.</p>
+         <p>Maniyattu, P. <hi rend="italic">Heaven on
     Earth.</hi> Rome: Mar Thoma Yogam, 1995.</p>
-         <p xml:id="B21" rend="biblio">McCullough, W. S. <hi rend="italic">A Short
+         <p>McCullough, W. S. <hi rend="italic">A Short
     History of Syriac Christianity to the Rise of Islam.</hi>
     Chico: Scholars Press, 1982.</p>
-         <p xml:id="B22" rend="biblio">Morony, Michael G. �Religious
+         <p>Morony, Michael G. “Religious
     Communities in Late Sasanian and Early Muslim
-    Iraq.��<hi rend="italic">JESHO</hi> 17 (1974), 113-135.</p>
-         <p xml:id="B23" rend="biblio">Okada, Y.��Ain Sha�ia and the Early
-    Gulf Churches: An Architectural Analogy.��<hi rend="italic">al-Rafidan</hi>
-    13 (1992), 87-93.</p>
-         <p xml:id="B24" rend="biblio">— �Early Christian Architecture in
-    the Iraqi South-Western Desert.� <hi rend="italic">al-Rafidan</hi> 12 (1991),
-    71-83.</p>
-         <p xml:id="B25" rend="biblio">Renhart, Erich. <hi rend="italic">Das Syrische
+    Iraq.” <hi rend="italic">JESHO</hi> 17 (1974), 113-135.</p>
+         <p>Okada, Y. “Ain
+    Sha’ia and the Early Gulf Churches: An Architectural
+    Analogy.” <hi rend="italic">al-Rafidan</hi> 13 (1992), 87-93.</p>
+         <p>— “Early Christian
+    Architecture in the Iraqi South-Western Desert.”
+    <hi rend="italic">al-Rafidan</hi> 12 (1991), 71-83.</p>
+         <p>Renhart, Erich. <hi rend="italic">Das Syrische
     Bema.</hi> Grazer Theologische Studien 20. Graz:
-    Grazer�Theologische Studien, 1995.</p>
-         <p xml:id="B26" rend="biblio">— �Encore une fois: le bema des
-    �glises de la Syrie du nord� <hi rend="italic">PdO</hi> 20 (1995): 85-94.</p>
-         <p xml:id="B27" rend="biblio">Reuther, O. �Sasanian Architecture�
-    in <hi rend="italic">A Survey of Persian Art.</hi> A.U. Pope, ed.�Volume 2.
-    Reprint. London: Oxford University Press, 1964.</p>
-         <p xml:id="B28" rend="biblio">— �The German Excavations at
-    Ctesiphon.� <hi rend="italic">Antiquity</hi> 3 (1929), 434-451.</p>
-         <p xml:id="B29" rend="biblio">Rouwhorst, G. �Jewish Liturgical
-    Traditions in Early Syriac Christianity.�
-    <hi rend="italic">Vigiliae�Christianae</hi> 51 (1997), 72-93.</p>
-         <p xml:id="B30" rend="biblio">Seager, A. �The Synagogue at Sardis�
-    in <hi rend="italic">Ancient Synagogues Revealed.</hi> Lee I. Levine,�ed.
-    Detroit: Wayne State University Press, 1982.</p>
-         <p xml:id="B31" rend="biblio">Taft, R. F. <hi rend="italic">Liturgy in Byzantium
+    Grazer Theologische Studien, 1995.</p>
+         <p>— “Encore une fois: le
+    bema des églises de la Syrie du nord” <hi rend="italic">PdO</hi>
+    20 (1995): 85-94.</p>
+         <p>Reuther, O. “Sasanian
+    Architecture” in <hi rend="italic">A Survey of Persian Art.</hi> A.U.
+    Pope, ed. Volume 2. Reprint. London: Oxford University
+    Press, 1964.</p>
+         <p>— “The German
+    Excavations at Ctesiphon.” <hi rend="italic">Antiquity</hi> 3 (1929),
+    434-451.</p>
+         <p>Rouwhorst, G. “Jewish
+    Liturgical Traditions in Early Syriac Christianity.”
+    <hi rend="italic">Vigiliae Christianae</hi> 51 (1997), 72-93.</p>
+         <p>Seager, A. “The Synagogue at
+    Sardis” in <hi rend="italic">Ancient Synagogues Revealed.</hi> Lee I.
+    Levine, ed. Detroit: Wayne State University Press,
+    1982.</p>
+         <p>Taft, R. F. <hi rend="italic">Liturgy in Byzantium
     and Beyond.</hi> Collected Studies Series CS493.
-    Aldershot:�Variorum, 1995.</p>
-         <p xml:id="B32" rend="biblio">— �On the Use of the Bema in the
-    East-Syrian Liturgy.� <hi rend="italic">ECR</hi> 3 (1970): 30-39.</p>
-         <p xml:id="B33" rend="biblio">— �Some Notes on the Bema in the
-    East and West Syrian Traditions.� <hi rend="italic">OCP</hi> 34 (1968),
-    326-359.</p>
-         <p xml:id="B34" rend="biblio">Talbot Rice, D. �The Oxford
-    Excavations at Hira.� <hi rend="italic">Ars Islamica</hi> 1 (1934),
+    Aldershot: Variorum, 1995.</p>
+         <p>— “On the Use of the
+    Bema in the East-Syrian Liturgy.” <hi rend="italic">ECR</hi> 3 (1970):
+    30-39.</p>
+         <p>— “Some Notes on the
+    Bema in the East and West Syrian Traditions.”
+    <hi rend="italic">OCP</hi> 34 (1968), 326-359.</p>
+         <p>Talbot Rice, D. “The Oxford
+    Excavations at Hira.” <hi rend="italic">Ars Islamica</hi> 1 (1934),
     51-73.</p>
-         <p xml:id="B35" rend="biblio">— �The Oxford Excavations at Hira,
-    1931.� <hi rend="italic">Antiquity</hi> 6 (1932), 276-291.</p>
+         <p>— “The Oxford
+    Excavations at Hira, 1931.” <hi rend="italic">Antiquity</hi> 6 (1932),
+    276-291.</p>
          <!-- #EndEditable -->
       </body>
    </text>

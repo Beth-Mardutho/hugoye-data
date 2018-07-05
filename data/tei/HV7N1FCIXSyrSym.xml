@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>IXth Syriac Symposium VIIth Conference of Christian Arabic Studies Lebanon, 20-25 September 2004</title>
+            <title type="main">IXth Syriac Symposium VIIth Conference of Christian Arabic Studies Lebanon, 20-25 September 2004</title>
             <author>
-               <name> </name>
+               <name>
+                  <forename> </forename>
+                  <surname> </surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1fcixsyrsym</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Symposium</term>
+               <term>Christian Arabic Studies</term>
+               <term>Lebanon</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +84,7 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">CONFERENCE ANNOUNCEMENT</p>
+         <p>CONFERENCE ANNOUNCEMENT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
          <!-- #EndEditable -->
@@ -68,8 +93,8 @@
          <!-- #BeginEditable "Address" -->
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     IX<hi rend="sup">th</hi> Syriac Symposium and the VII<hi rend="sup">th</hi>
     conference on Christian Arab Studies will take place in Lebanon
     from Monday, September 20 to Saturday September 25, 2004, as
@@ -77,19 +102,19 @@
     organized jointly by the Holy Spirit University of Kaslik
     (Jounieh) and the CEDRAC of Saint Joseph University
     (Beirut).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
+         <p>
+            <anchor corresp="P2"/>[2]
     Participants should plan to arrive at Beirut airport on Sunday
     19<hi rend="sup">th</hi> September for the Syriac Symposium and
     Wednesday September 23<hi rend="sup">rd</hi> for who want to participate
     only in the Conference on Christian Arab Studies.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] We would
+         <p>
+            <anchor corresp="P3"/>[3] We would
     like to propose as a particular but non-exclusive theme for
     these two encounters: <hi rend="bold">The dialogue of
     cultures</hi>.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Please
+         <p>
+            <anchor corresp="P4"/>[4] Please
     inform us, as soon as possible, of the title of your
     contribution. Please send email to both the addresses listed
     below. We would also like you to inform your colleagues and

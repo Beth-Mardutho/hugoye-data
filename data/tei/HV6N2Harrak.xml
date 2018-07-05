@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Patriarchal Funerary Inscriptions in the Monastery of Rabban Hormizd: Types, Literary Origins, and Purpose</title>
+            <title type="main">Patriarchal Funerary Inscriptions in the Monastery of Rabban Hormizd: Types, Literary Origins, and Purpose</title>
             <author>
-               <name>Amir Harrak</name>
+               <name>
+                  <forename>Amir</forename>
+                  <surname>Harrak</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv6n2harrak</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Funerary Inscriptions</term>
+               <term>Rabban Hormizd</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,42 +89,25 @@
          <!-- <h1>Abstract</h1> 
   <p class="Abstract"> </p>
   <br /> -->
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">Introduction</ref>
-            </item>
-            <item>
-               <ref target="#S2">The Funerary Inscriptions</ref>
-            </item>
-            <item>
-               <ref target="#S3">Literary Analysis</ref>
-            </item>
-            <item>
-               <ref target="#S4">Historical Analysis</ref>
-            </item>
-            <item>
-               <ref target="#S5">Conclusion</ref>
-            </item>
-         </list>
+
          <lb/>
-         <head xml:id="S1">1. Introduction</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <head xml:id="HV6N2Harrak2">1. Introduction</head>
+         <p>
+            <anchor corresp="P1"/>[1] The
     Monastery of Rabban Hormizd is located, like an eagle's nest,
     on the mountain of Alqosh, about 26 miles north of Mosul in
     Iraq. This mountain is part of a chain of mountains called
-    Qardû, famous for no other reason than welcoming the ark of
-    Noah or his Mesopotamian counterpart after the Flood, according
-    to the Babylonian priest Berossus (4<hi rend="sup">th</hi> century
-    B.C.), and then Jewish, Christian and Islamic
+    Qardû, famous for no other reason than welcoming the ark
+    of Noah or his Mesopotamian counterpart after the Flood,
+    according to the Babylonian priest Berossus (4<hi rend="sup">th</hi>
+    century B.C.), and then Jewish, Christian and Islamic
     traditions.<ref target="#FN1">1</ref> The monastery was founded in the early
     7<hi rend="sup">th</hi> century, and was named after its founder
     Hormizd, native of Persia and an important monastic figure in
     Syriac Christianity.<ref target="#FN2">2</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     monastery became the official residence of the patriarchs of
     the Assyrian Church of the East (wrongly called Nestorian)
     between 1551 and 1804, although it also served as the
@@ -122,143 +129,153 @@
     that must have been employed in producing them.<ref target="#FN3">3</ref> After subjecting
     them to a literary analysis, we will attempt to explain why
     such unique inscriptions came to exist in the first place.</p>
-         <head xml:id="S2">2. The Funerary Inscriptions</head>
-         <head xml:id="S2.1">2.1. The Inscription of Mār <hi rend="u">H</hi>enān-Īšō<hi rend="sup">
+         <head xml:id="HV6N2Harrak3">2. The Funerary Inscriptions</head>
+         <head xml:id="HV6N2Harrak4">2.1. The Inscription of Mār <hi rend="u">H</hi>enān-Īšō<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi> (died in 1497)<ref target="#FN4">4</ref>
+            </hi>
+    (died in 1497)<ref target="#FN4">4</ref>
          </head>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] In the
+         <p>
+            <anchor corresp="P3"/>[3] In the
     name of the Living One who is not mortal, and the wealthy who
     cannot be impoverished. In the name of the Father, Son, and
     Holy Spirit.</p>
-         <p>As soon as I existed—I Mār �im<hi rend="sup">
+         <p>As soon as I existed—I Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn,
-    Catholicos-Patriarch of the East—I came to know God the first
-    Light. I confessed and believed in His Son Jesus Christ:
-    perfect God and perfect Man, two natures, two qnōmē, and one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā.</hi> I loved his Spirit. I
-    paid homage to his Cross. I shared his Body and Blood. And I
-    died on his hope that he would raise me up. The ship arrived
-    thus far, settling at the harbor of rest. They buried me here
-    in your trust, O Christ King, so that on your Divine Day, I may
-    see the light of your honorable and glorious countenance. I
-    departed from this life on the twentieth, in the month of
-    <hi rend="italic">�ebā<hi rend="u">t</hi>
-            </hi> (February), in the year
-    1808 according to the computation of the Greeks: Glory to God,
-    and his mercy and compassion upon us forever and ever amen.</p>
-         <p>Lord: Remember this servant of yours, young Mār <hi rend="u">H</hi>enān-Īšō<hi rend="sup">
+            </hi>ōn, Catholicos-Patriarch of
+    the East—I came to know God the first Light. I confessed
+    and believed in His Son Jesus Christ: perfect God and perfect
+    Man, two natures, two qnōmē, and one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā.</hi> I loved his
+    Spirit. I paid homage to his Cross. I shared his Body and
+    Blood. And I died on his hope that he would raise me up. The
+    ship arrived thus far, settling at the harbor of rest. They
+    buried me here in your trust, O Christ King, so that on your
+    Divine Day, I may see the light of your honorable and glorious
+    countenance. I departed from this life on the twentieth, in the
+    month of <hi rend="italic">Šebā<hi rend="u">t</hi>
+            </hi>
+    (February), in the year 1808 according to the computation of
+    the Greeks: Glory to God, and his mercy and compassion upon us
+    forever and ever amen.</p>
+         <p>Lord: Remember this servant of yours, young Mār
+    <hi rend="u">H</hi>enān-Īšō<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>, when you come with
-    your Kingdom. Make him worthy of the bliss, along with the just
-    and righteous ones who pleased your will, amen.</p>
-         <head xml:id="S2.2">2.2. The Inscription of Mār
-    �im<hi rend="sup">
+            </hi>,
+    when you come with your Kingdom. Make him worthy of the bliss,
+    along with the just and righteous ones who pleased your will,
+    amen.</p>
+         <head xml:id="HV6N2Harrak5">2.2. The Inscription of Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn VI Den<hi style="u">h</hi>ā (died
-    in 1538)</head>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+            </hi>ōn VI Den<hi style="u">h</hi>ā (died in 1538)</head>
+         <p>
+            <anchor corresp="P4"/>[4] The
     Living One who is not mortal. In the name of the Father, Son
     and Holy Spirit.</p>
-         <p>As soon as I existed—I Mār �im<hi rend="sup">
+         <p>As soon as I existed—I Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn
-    Catholicos-Patriarch of the East—God the first Light, I came to
-    know. I confessed and believed in his Son Jesus Christ: perfect
-    God and perfect Man, two natures, two <hi rend="italic">qnōmē</hi>, and one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi>. I loved his Spirit. I
-    paid homage to his cross. I shared his Body and Blood. And I
-    died on his hope that he would raise me up.</p>
+            </hi>ōn Catholicos-Patriarch of
+    the East—God the first Light, I came to know. I confessed
+    and believed in his Son Jesus Christ: perfect God and perfect
+    Man, two natures, two <hi rend="italic">qnōmē</hi>, and one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi>. I loved his
+    Spirit. I paid homage to his cross. I shared his Body and
+    Blood. And I died on his hope that he would raise me up.</p>
          <p>At this point, the ship arrived, settling at the harbor of
     rest. They buried me here in your trust, O Christ King, so that
     on your Divine Day I may see the light of your honorable and
     glorious countenance. I departed from this life on the fifth in
-    the month of <hi rend="italic">Āb</hi> (August), in the year 1849, according to
-    the computation of the Greeks: Glory to God, and his mercy and
-    compassion upon us forever and ever amen.</p>
+    the month of <hi rend="italic">Āb</hi> (August), in the year 1849,
+    according to the computation of the Greeks: Glory to God, and
+    his mercy and compassion upon us forever and ever amen.</p>
          <p>The Priest Israel, foolish and sinner wrote (it).</p>
-         <head xml:id="S2.3">2.3. The Inscription of �im<hi rend="sup">
+         <head xml:id="HV6N2Harrak6">2.3. The Inscription of
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn
-    VII bar Mama (died in 1558)</head>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In the
+            </hi>ōn VII bar Mama (died in
+    1558)</head>
+         <p>
+            <anchor corresp="P5"/>[5] In the
     name of the Living One, who is not mortal. In the name of the
     Father, Son, and Holy Spirit.</p>
-         <p>As soon as I existed—I Mār �im<hi rend="sup">
+         <p>As soon as I existed—I Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn the
-    Catholicos—I came to know God the first Light. I confessed and
-    believed in his Son Jesus Christ: perfect God and perfect Man,
-    two natures, two <hi rend="italic">qnōmē</hi>, and one <hi rend="italic">par<hi rend="u">s</hi>ōpā.</hi> I loved his Spirit. I paid homage to his
-    cross. I shared his Body and Blood. And I died on his hope that
-    he would raise me up.</p>
+            </hi>ōn the Catholicos—I
+    came to know God the first Light. I confessed and believed in
+    his Son Jesus Christ: perfect God and perfect Man, two natures,
+    two <hi rend="italic">qnōmē</hi>, and one <hi rend="italic">par<hi rend="u">s</hi>ōpā.</hi> I loved his Spirit. I paid
+    homage to his cross. I shared his Body and Blood. And I died on
+    his hope that he would raise me up.</p>
          <p>At this point, the ship arrived, settling at the harbor of
     rest. And here they buried me in your trust, O Christ King, so
     that on your Divine Day, I may see the light of your honorable
     and glorious countenance. I departed from this life on the
-    first of Second <hi rend="italic">Ti�rī</hi> (November), in the evening of
-    Wednesday, in the year 1870 of the Greeks: Glory to God and
-    upon us his mercy and compassion forever and ever amen.</p>
+    first of Second <hi rend="italic">Tišrī</hi> (November), in the
+    evening of Wednesday, in the year 1870 of the Greeks: Glory to
+    God and upon us his mercy and compassion forever and ever
+    amen.</p>
          <p>In the year 1870 of Alexander, on the first of Second
-    <hi rend="italic">Ti�rī</hi> (November), our venerated Father Mār
-    �im<hi rend="sup">
+    <hi rend="italic">Tišrī</hi> (November), our venerated Father
+    Mār Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn the Patriarch, of sweet name, departed
-    from this world of grief. May the Lord cause him to rejoice in
-    the Kingdom along with the sons of Zabedee.</p>
-         <head xml:id="S2.4">2.4. The Inscription of Elijah VII (died in
+            </hi>ōn the Patriarch, of
+    sweet name, departed from this world of grief. May the Lord
+    cause him to rejoice in the Kingdom along with the sons of
+    Zabedee.</p>
+         <head xml:id="HV6N2Harrak7">2.4. The Inscription of Elijah VII (died in
     1591)</head>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] <hi rend="italic">To
+         <p>
+            <anchor corresp="P6"/>[6] <hi rend="italic">To
     the left side of the cross placed in the center of the top
     section of the slab:</hi>
          </p>
          <p>This venerable one has served the bishopric rank for fifteen
     years brilliantly.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] <hi rend="italic">To
+         <p>
+            <anchor corresp="P7"/>[7] <hi rend="italic">To
     the right side of the cross:</hi>
          </p>
          <p>This Father of ours led the patriarchal see for thirty-two
     years.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] <hi rend="italic">Along
+         <p>
+            <anchor corresp="P8"/>[8] <hi rend="italic">Along
     the frame from the left side:</hi>
          </p>
          <p>In the year nineteen hundred and two of Alexander, King of
-    the Greeks, left the world the Patriarch Mār Elijah, on the
-    twenty-sixth of <hi rend="italic">Iyyār</hi> (May) Month of roses, during the
-    Week of the Apostles, on first Wednesday.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] <hi rend="italic">The
+    the Greeks, left the world the Patriarch Mār Elijah, on
+    the twenty-sixth of <hi rend="italic">Iyyār</hi> (May) Month of roses,
+    during the Week of the Apostles, on first Wednesday.</p>
+         <p>
+            <anchor corresp="P9"/>[9] <hi rend="italic">The
     funerary inscription inside the frame:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature. I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures and two <hi rend="italic">qnōmē</hi>
-            <ref target="#FN5">5</ref> in one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
-    Will—he suffered, was crucified and was buried, but he rose up
-    on the third day as is written, and he ascended to Heaven to
-    his Father. I paid homage to his living and life-giving cross,
-    and partook of his body and blood in the hope of the
-    forgiveness of my sins. When the ship reached the safety that
-    is in the grave, I left this world at the sign of the Most
-    High, looking forward to the great day of resurrection, so that
-    our Lord may come and have mercy on me through his mercy,
-    through the "amen" of the entire church. I beg you, reader:
-    Pray, requesting from the Lord, and beseech (him) with a pure
-    heart, so that he may pardon my failures.</p>
-         <head xml:id="S2.5">2.5. The Inscription of Elijah VIII (died in
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature. I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures and two
+    <hi rend="italic">qnōmē</hi>
+            <ref target="#FN5">5</ref> in one <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
+    Will—he suffered, was crucified and was buried, but he
+    rose up on the third day as is written, and he ascended to
+    Heaven to his Father. I paid homage to his living and
+    life-giving cross, and partook of his body and blood in the
+    hope of the forgiveness of my sins. When the ship reached the
+    safety that is in the grave, I left this world at the sign of
+    the Most High, looking forward to the great day of
+    resurrection, so that our Lord may come and have mercy on me
+    through his mercy, through the "amen" of the entire church. I
+    beg you, reader: Pray, requesting from the Lord, and beseech
+    (him) with a pure heart, so that he may pardon my failures.</p>
+         <head xml:id="HV6N2Harrak8">2.5. The Inscription of Elijah VIII (died in
     1617)</head>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     <hi rend="italic">Alongside the four arms of the cross, the following
     inscription appears:</hi>
          </p>
@@ -266,131 +283,134 @@
     trample on our foes. In the name of the Living One who is not
     mortal, the wealthy One who cannot be impoverished. Look toward
     him and have hope in him.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     <hi rend="italic">The main inscription:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature. I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
-    Will—he suffered, was crucified and was buried, but he rose up
-    on the third day as is written, and he ascended to Heaven to
-    his Father. I paid homage to his living and life-giving cross,
-    and partook of his body and blood in the hope of the
-    forgiveness of my sins.</p>
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature. I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship
+    and one Will—he suffered, was crucified and was buried,
+    but he rose up on the third day as is written, and he ascended
+    to Heaven to his Father. I paid homage to his living and
+    life-giving cross, and partook of his body and blood in the
+    hope of the forgiveness of my sins.</p>
          <p>When the ship of the body reached the safety that is in the
     grave, I left this world at the sign of the Most High, on
     Monday after the Sunday (called) "Unending Glory,"<ref target="#FN6">6</ref> in the
-    month of <hi rend="italic">Iyyār</hi> (May), the 26<hi rend="sup">th</hi> day of it, the
-    year 1928 of the blessed Greeks. I am looking forward to the
-    great day of resurrection, so that our Lord may come and have
-    mercy on me through his mercy. Pray, my lord the reader, beg
-    with a pure heart, implore and ask the Lord so that he may show
-    pardon of my failures.</p>
+    month of <hi rend="italic">Iyyār</hi> (May), the 26<hi rend="sup">th</hi> day of
+    it, the year 1928 of the blessed Greeks. I am looking forward
+    to the great day of resurrection, so that our Lord may come and
+    have mercy on me through his mercy. Pray, my lord the reader,
+    beg with a pure heart, implore and ask the Lord so that he may
+    show pardon of my failures.</p>
          <p>The end. Glory to God and upon us his mercy and compassion
     forever and ever. Pray for the sinner, who wrote (this).</p>
-         <head xml:id="S2.6">2.6. The Inscription of Elijah IX
-    �im<hi rend="sup">
+         <head xml:id="HV6N2Harrak9">2.6. The Inscription of Elijah IX
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
             </hi>ōn (died in 1660)</head>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+         <p>
+            <anchor corresp="P12"/>[12]
     <hi rend="italic">Alongside the four arms of the cross:</hi>
          </p>
          <p>In the name of the Living One who is not mortal, the wealthy
     One who cannot be impoverished.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
+         <p>
+            <anchor corresp="P13"/>[13]
     <hi rend="italic">To the right side of the cross:</hi>
          </p>
          <p>This Father of ours led the patriarchal see for forty-three
     years.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+         <p>
+            <anchor corresp="P14"/>[14]
     <hi rend="italic">The main inscription:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature. I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
-    Will—he suffered, was crucified and was buried, but he rose up
-    on the third day as is written, and he ascended to Heaven to
-    his Father. I paid homage to his living and life-giving cross,
-    and partook of his body and blood in the hope of the
-    forgiveness of my sins.</p>
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature. I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship
+    and one Will—he suffered, was crucified and was buried,
+    but he rose up on the third day as is written, and he ascended
+    to Heaven to his Father. I paid homage to his living and
+    life-giving cross, and partook of his body and blood in the
+    hope of the forgiveness of my sins.</p>
          <p>When the ship of the body reached the safety that is in the
     grave, I left this world at the sign of the Most High, on
     Sunday of the second Week of the Apostles, in the month of
-    <hi rend="italic">Hezīrān</hi> (June), the 18<hi rend="sup">th</hi> in it, the year 1971
-    of the blessed Greeks. I am looking forward to the great day of
-    resurrection, so that our Lord may come and have mercy on me
-    through his mercy, through the "amen" of the entire Orthodox
-    church, indeed, and forever, amen. Pray, my lord the reader,
-    beseech with a pure heart, beg and ask the Lord so that he may
-    pardon my failures.</p>
+    <hi rend="italic">Hezīrān</hi> (June), the 18<hi rend="sup">th</hi> in it, the
+    year 1971 of the blessed Greeks. I am looking forward to the
+    great day of resurrection, so that our Lord may come and have
+    mercy on me through his mercy, through the "amen" of the entire
+    Orthodox church, indeed, and forever, amen. Pray, my lord the
+    reader, beseech with a pure heart, beg and ask the Lord so that
+    he may pardon my failures.</p>
          <p>The end. Glory to God and upon us his mercy and compassion
     forever amen.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15]
+         <p>
+            <anchor corresp="P15"/>[15]
     <hi rend="italic">Around the slab from the right side:</hi>
          </p>
          <p>Let there be good and acceptable memory before the Lord for
     our honourable Father the Catholicos, and may the base and
     foolish writer of this computation be worthy of mercy and
     forgiveness on the Last Day.</p>
-         <head xml:id="S2.7">2.7. The Inscription of Elijah X (died in
+         <head xml:id="HV6N2Harrak10">2.7. The Inscription of Elijah X (died in
     1700)</head>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16]
+         <p>
+            <anchor corresp="P16"/>[16]
     <hi rend="italic">Top Line:</hi>
          </p>
          <p>In the name of the Father, who is immortal.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+         <p>
+            <anchor corresp="P17"/>[17]
     <hi rend="italic">On the left side of the cross:</hi>
          </p>
          <p>May our Lord make an acceptable and favorable remembrance
     before him for this blessed Father of ours, who departed in a
     heavenly hope.</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
+         <p>
+            <anchor corresp="P18"/>[18]
     <hi rend="italic">On the right side of the cross:</hi>
          </p>
          <p>This father of ours led the patriarchal see for forty
     years.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
+         <p>
+            <anchor corresp="P19"/>[19]
     <hi rend="italic">The main funerary inscription:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature. I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
-    Will—he suffered, was crucified and was buried, but he rose up
-    on the third day as is written, and he ascended to Heaven to
-    his Father. I paid homage to his living and life giving cross.
-    I partook of his body and blood in the hope of the forgiveness
-    of my sins.</p>
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature. I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship
+    and one Will—he suffered, was crucified and was buried,
+    but he rose up on the third day as is written, and he ascended
+    to Heaven to his Father. I paid homage to his living and life
+    giving cross. I partook of his body and blood in the hope of
+    the forgiveness of my sins.</p>
          <p>When the ship of the body reached the safety that is in the
     grave, I left this world at the sign of the Most High, on
-    Friday before Pentecost, in the month of <hi rend="italic">Iyyār</hi> (May), on
-    the 17<hi rend="sup">th</hi> of it, the year 2011 of the blessed Greeks.
-    I am looking forward to the great day of resurrection, so that
-    our Lord may come and have mercy on me through his mercy,
-    through the "amen" of the entire Orthodox church, indeed, and
-    forever, amen. Pray, O my lord the reader, beseech with a pure
-    heart, beg and ask the Lord so that he may pardon my failures.
-    The end. Glory to God and upon us his mercy and compassion
-    forever.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
+    Friday before Pentecost, in the month of <hi rend="italic">Iyyār</hi>
+    (May), on the 17<hi rend="sup">th</hi> of it, the year 2011 of the
+    blessed Greeks. I am looking forward to the great day of
+    resurrection, so that our Lord may come and have mercy on me
+    through his mercy, through the "amen" of the entire Orthodox
+    church, indeed, and forever, amen. Pray, O my lord the reader,
+    beseech with a pure heart, beg and ask the Lord so that he may
+    pardon my failures. The end. Glory to God and upon us his mercy
+    and compassion forever.</p>
+         <p>
+            <anchor corresp="P20"/>[20]
     <hi rend="italic">Along the frame of the inscription from the left, then right
     and bottom sides</hi>:</p>
          <p>Our Father Mār Elijah, the glorious shepherd, died and
@@ -400,42 +420,43 @@
     venerable one took place four years after he built the great
     sanctuary of the Martyrs and the baptistery of Rabban Hormizd,
     which was the year 2007.</p>
-         <head xml:id="S2.8">2.8. The Inscription of Elijah XI (died in
+         <head xml:id="HV6N2Harrak11">2.8. The Inscription of Elijah XI (died in
     1722)</head>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+         <p>
+            <anchor corresp="P21"/>[21]
     <hi rend="italic">Above the cross:</hi>
          </p>
          <p>In the name of the Living One who is immortal.</p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22]
+         <p>
+            <anchor corresp="P22"/>[22]
     <hi rend="italic">To the left side of the upper cross:</hi>
          </p>
          <p>May our Lord make an acceptable and favorable remembrance
     before him for this blessed Father of ours, who departed in a
     heavenly hope.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+         <p>
+            <anchor corresp="P23"/>[23]
     <hi rend="italic">To the right side of the cross:</hi>
          </p>
          <p>This Father of ours, worthy of blessing, led the venerable
     and elevated see of the patriarchate for twenty-three years.
     Blessed be God.</p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24]
+         <p>
+            <anchor corresp="P24"/>[24]
     <hi rend="italic">The main funerary inscription:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature; I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
-    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
-    Will—he suffered, was crucified and was buried, but he rose up
-    on the third day as is written, and he ascended to Heaven to
-    his Father. I paid homage to his living and life giving cross.
-    I partook of his body and blood in the hope of the forgiveness
-    of my sins.</p>
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature; I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures and two <hi rend="italic">qnōmē</hi> in one
+    <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship
+    and one Will—he suffered, was crucified and was buried,
+    but he rose up on the third day as is written, and he ascended
+    to Heaven to his Father. I paid homage to his living and life
+    giving cross. I partook of his body and blood in the hope of
+    the forgiveness of my sins.</p>
          <p>When the ship of the body reached the safety that is in the
     grave, I left this world at the sign of the Most High, while
     looking forward to the great day of resurrection, so that our
@@ -448,57 +469,59 @@
     worthy of the eternal blessing. This late and honourable Father
     of ours duly led and served the elevated and sublime
     Metropolitan see for seven years.</p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25]
+         <p>
+            <anchor corresp="P25"/>[25]
     <hi rend="italic">Along the frame of the inscription from the left
     side:</hi>
          </p>
          <p>Trusting on the heavenly King, our venerable and blessed
-    shepherd, Mār Elijah, died and departed, in the year 2034, on
-    the fourteenth day, in the First <hi rend="italic">Kānōn</hi> (December). May
-    Christ make him take delight in the bliss.</p>
-         <head xml:id="S2.9">2.9. The Inscription of Elijah XIII (died in
+    shepherd, Mār Elijah, died and departed, in the year 2034,
+    on the fourteenth day, in the First <hi rend="italic">Kānōn</hi>
+    (December). May Christ make him take delight in the bliss.</p>
+         <head xml:id="HV6N2Harrak12">2.9. The Inscription of Elijah XIII (died in
     1804)</head>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26]
+         <p>
+            <anchor corresp="P26"/>[26]
     <hi rend="italic">Top line:</hi>
          </p>
          <p>In the name of the Living One, who is immortal.</p>
-         <p rend="nn">
-            <anchor xml:id="P27"/>[27]
+         <p>
+            <anchor corresp="P27"/>[27]
     <hi rend="italic">Around the four arms of the cross:</hi>
          </p>
          <p>The cross was victorious, the cross is victorious.</p>
-         <p rend="nn">
-            <anchor xml:id="P28"/>[28]
+         <p>
+            <anchor corresp="P28"/>[28]
     <hi rend="italic">On the left side of the cross:</hi>
          </p>
-         <p>Our venerable father I�ō<hi rend="sup">
+         <p>Our venerable father Išō<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>yahb duly led and
-    served the respectable and sublime Metropolitan rank for
-    thirty-four years.</p>
-         <p rend="nn">
-            <anchor xml:id="P29"/>[29]
+            </hi>yahb
+    duly led and served the respectable and sublime Metropolitan
+    rank for thirty-four years.</p>
+         <p>
+            <anchor corresp="P29"/>[29]
     <hi rend="italic">To the right side of the cross:</hi>
          </p>
-         <p>He led and served the glorious see of Peter—the elevated
-    rank of the Catholicos-Patriarch (until) the year 2115,
-    according to the computation of the Greek nation. May his
+         <p>He led and served the glorious see of Peter—the
+    elevated rank of the Catholicos-Patriarch (until) the year
+    2115, according to the computation of the Greek nation. May his
     remembrance be made among the just ones in the Kingdom.</p>
-         <p rend="nn">
-            <anchor xml:id="P30"/>[30]
+         <p>
+            <anchor corresp="P30"/>[30]
     <hi rend="italic">The main funerary inscription:</hi>
          </p>
-         <p>Since I—Mār Elijah Patriarch of the East thanks to the
-    Grace-existed, I confessed the three <hi rend="italic">qnōmē</hi> of the
-    Father, Son, and Holy Spirit—One true God and eternal Nature; I
-    believed in His Son, our Lord Jesus Christ, conjointly complete
-    God and complete Man, two natures in one <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one Will—he suffered,
-    was crucified and was buried, and rose up on the third day as
-    is written, and he ascended to Heaven to his Father. I paid
-    homage to his living and life-giving cross, and partook of his
-    body and blood in the hope of the forgiveness of my sins.</p>
+         <p>Since I—Mār Elijah Patriarch of the East thanks
+    to the Grace-existed, I confessed the three
+    <hi rend="italic">qnōmē</hi> of the Father, Son, and Holy
+    Spirit—One true God and eternal Nature; I believed in His
+    Son, our Lord Jesus Christ, conjointly complete God and
+    complete Man, two natures in one <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi> of one sonship and one
+    Will—he suffered, was crucified and was buried, and rose
+    up on the third day as is written, and he ascended to Heaven to
+    his Father. I paid homage to his living and life-giving cross,
+    and partook of his body and blood in the hope of the
+    forgiveness of my sins.</p>
          <p>When the ship of the body reached the safety that is in the
     grave, I left this world at the sign of the Most High, and they
     placed me here on the hope of resurrection. I am looking
@@ -512,27 +535,27 @@
          <p>The end. To God, who gives power, unceasing glory and
     honour. May he cover the deceased one with mercy and make him
     worthy of the eternal blessing. Our venerable Father and chosen
-    shepherd, Mār Elijah, died and departed on the heavenly trust
-    in the year 2115 of Alexander, the Greek king. May Christ the
-    King expiate his faults that are both hidden and undisclosed,
-    thanks to the "amen" of the entire Orthodox Church and
-    Christian nation.</p>
-         <p rend="nn">
-            <anchor xml:id="P31"/>[31]
+    shepherd, Mār Elijah, died and departed on the heavenly
+    trust in the year 2115 of Alexander, the Greek king. May Christ
+    the King expiate his faults that are both hidden and
+    undisclosed, thanks to the "amen" of the entire Orthodox Church
+    and Christian nation.</p>
+         <p>
+            <anchor corresp="P31"/>[31]
     <hi rend="italic">To the left side of the Funerary inscription:</hi>
          </p>
          <p>May our Lord make an acceptable and favorable remembrance
     before him for this blessed Father of ours, who departed in a
     heavenly hope.</p>
-         <p rend="nn">
-            <anchor xml:id="P32"/>[32]
+         <p>
+            <anchor corresp="P32"/>[32]
     <hi rend="italic">On the right side of the funerary inscription:</hi>
          </p>
          <p>May the compassionate Lord associate him with Simon son of
     Yona and the Sage Virgins. Make him take delight in your bridal
     feast.</p>
-         <p rend="nn">
-            <anchor xml:id="P33"/>[33]
+         <p>
+            <anchor corresp="P33"/>[33]
     <hi rend="italic">Inside the bottom frame:</hi>
          </p>
          <p>Know, O reader, that Mār Elijah (XII), who was the
@@ -540,10 +563,10 @@
     rank for three years, led the Patriarchal see for fifty-five
     years, and died in the year 2089 of the Greeks (AD 1778). May
     forgiveness be for the writer, amen.</p>
-         <head xml:id="S3">3. Literary Analysis</head>
-         <head xml:id="S3.1">3.1. Content</head>
-         <p rend="nn">
-            <anchor xml:id="P34"/>[34] The
+         <head xml:id="HV6N2Harrak13">3. Literary Analysis</head>
+         <head xml:id="HV6N2Harrak14">3.1. Content</head>
+         <p>
+            <anchor corresp="P34"/>[34] The
     nine funerary inscriptions are copies of each other for the
     most part. Each can be divided into two main sections. The
     first section is a profession of faith, where the difference
@@ -558,8 +581,8 @@
     sanctioned that this highest ecclesiastical authority must be
     transmitted from brother to brother or from brother to
     nephew.</p>
-         <p rend="nn">
-            <anchor xml:id="P35"/>[35] The
+         <p>
+            <anchor corresp="P35"/>[35] The
     profession of faith deals first with the belief in the Trinity,
     beginning with God the Father, "the first light". The
     profession dealing with Jesus is very elaborate. He is said to
@@ -567,15 +590,15 @@
     In other words, Jesus was truly God and truly Man, and this is
     in line with the mainstream Christian Christology. Moreover,
     all the inscriptions consistently state that Jesus was "two
-    natures, two <hi rend="italic">qnōmē</hi> and one <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi>". This belief is not a novelty of the
-    patriarchs of Rabban Hormizd, since its wording is attested as
-    early as the time of Mār 'Abdā (died in 420/1),<ref target="#FN8">8</ref> and was used by
-    other East Syriac Theologians until it was canonized in the
-    synodical confession of 612, made at the court of the Sassanian
-    king Khusrau Parviz.<ref target="#FN9">9</ref>
+    natures, two <hi rend="italic">qnōmē</hi> and one <hi rend="italic">par<hi rend="u">s</hi>ōpā</hi>". This belief is not a novelty of
+    the patriarchs of Rabban Hormizd, since its wording is attested
+    as early as the time of Mār 'Abdā (died in
+    420/1),<ref target="#FN8">8</ref> and was used by other East Syriac Theologians
+    until it was canonized in the synodical confession of 612, made
+    at the court of the Sassanian king Khusrau Parviz.<ref target="#FN9">9</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P36"/>[36] It
+         <p>
+            <anchor corresp="P36"/>[36] It
     is not very clear whether or not this wording literally
     corresponds to the "two <hi rend="italic">physes</hi>, two <hi rend="italic">hypostases</hi>,
     and one <hi rend="italic">prosopon</hi>" of Nestorius. Nestorius himself was
@@ -584,20 +607,21 @@
     "two Sons" (=two persons). Thus, other Christian Churches
     throughout the centuries considered both Nestorius and the
     theology of the Church of the East heretical. It is important
-    to note in this context that the words "two <hi rend="italic">qnōmē</hi>" in
-    the 4<hi rend="sup">th</hi> patriarchal inscription were chopped from
-    the slab sometime later, and that inscriptions # 4 to 9 further
-    developed the general patriarchal profession. These
-    inscriptions state that the Trinity was of three <hi rend="italic">qnōmē</hi>,
-    but altogether one True God and one eternal nature. About
-    Christ, they added that he was "one sonship" (one Son of God
-    the Father) and "one will". Other details known in the Nicene
-    Creed were also added such as "he (Jesus) suffered, was
-    crucified and was buried, but he rose up". The mention of the
-    Holy Spirit is made in a statement shared by all the
-    inscriptions: "I loved his (Christ's) Spirit".</p>
-         <p rend="nn">
-            <anchor xml:id="P37"/>[37] The
+    to note in this context that the words "two
+    <hi rend="italic">qnōmē</hi>" in the 4<hi rend="sup">th</hi> patriarchal
+    inscription were chopped from the slab sometime later, and that
+    inscriptions # 4 to 9 further developed the general patriarchal
+    profession. These inscriptions state that the Trinity was of
+    three <hi rend="italic">qnōmē</hi>, but altogether one True God and
+    one eternal nature. About Christ, they added that he was "one
+    sonship" (one Son of God the Father) and "one will". Other
+    details known in the Nicene Creed were also added such as "he
+    (Jesus) suffered, was crucified and was buried, but he rose
+    up". The mention of the Holy Spirit is made in a statement
+    shared by all the inscriptions: "I loved his (Christ's)
+    Spirit".</p>
+         <p>
+            <anchor corresp="P37"/>[37] The
     second section in the funerary inscriptions provides details
     about the death of the patriarchs. All of them compare the
     death and the rest of the body inside the grave with the
@@ -611,8 +635,8 @@
     the deceased patriarchs provide the day, month, and the
     Seleucid year of their individual "departure from this present
     life".</p>
-         <p rend="nn">
-            <anchor xml:id="P38"/>[38]
+         <p>
+            <anchor corresp="P38"/>[38]
     Inscriptions # 1 to 3 end with a few words made by the scribes,
     either a wish for the deceased patriarch for final rest, or a
     "signature" of the writer ("Priest Israel, sinful and foolish;"
@@ -621,9 +645,9 @@
     soul of the deceased speaker, and that the prayer not only
     rhymes, but also that each stanza consists of six
     syllables.</p>
-         <head xml:id="S3.2">3.2. Genre</head>
-         <p rend="nn">
-            <anchor xml:id="P39"/>[39] The
+         <head xml:id="HV6N2Harrak15">3.2. Genre</head>
+         <p>
+            <anchor corresp="P39"/>[39] The
     inscriptions of Rabban Hormizd were, quite obviously, written
     and erected sometime after the burial of the patriarchs. The
     problem is that the deceased patriarchs speak of their own
@@ -637,8 +661,8 @@
     including chronological details of death and burial, is a
     literary device that came to the attention of the ecclesiastic
     and monastic community of Rabban Hormizd.</p>
-         <p rend="nn">
-            <anchor xml:id="P40"/>[40]
+         <p>
+            <anchor corresp="P40"/>[40]
     Funerary inscriptions with the speech in the first person are
     rather rare in Syriac Christianity, though they are widely
     known in the Classical and Near Eastern worlds. The earliest
@@ -650,19 +674,19 @@
       words, and with my own eyes I saw my children of the fourth
       generation weeping for me.<ref target="#FN10">10</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P41"/>[41]
+         <p>
+            <anchor corresp="P41"/>[41]
     Tabnit and Eshmun'azar, kings of Sidon during the early
     5<hi rend="sup">th</hi> century BC, both begged the readers not to open
     their sarcophagi and disturb them:</p>
          <quote>
-      I have been snatched away before my time… I am lying in this
-      casket and this grave, in a place which I myself built"
-      (Eshmun'azar).<ref target="#FN11">11</ref> Do not, do not open it (i.e.
+      I have been snatched away before my time… I am lying
+      in this casket and this grave, in a place which I myself
+      built" (Eshmun'azar).<ref target="#FN11">11</ref> Do not, do not open it (i.e.
       sarcophagus), and do not disturb me (Tabnit).<ref target="#FN12">12</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P42"/>[42] In
+         <p>
+            <anchor corresp="P42"/>[42] In
     Greek and Latin epitaphs, the speech of the dead in the first
     person is well documented. True, most of the cases consist of
     stereotyped formulae, all having death as the main theme, or
@@ -673,16 +697,16 @@
       Wayfarer, do not pass by my epitaph, but stand and listen,
       and then when you have learned the truth, proceed…
     </quote>
-         <p rend="nn">
-            <anchor xml:id="P43"/>[43]
+         <p>
+            <anchor corresp="P43"/>[43]
     After telling the reader that there was no life after death
     (note the anti-Christian polemic), the dead concluded:</p>
          <quote>
       Now withdraw, wayfarer, so that you will not think that, even
       though dead, I talk too much!<ref target="#FN13">13</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P44"/>[44] The
+         <p>
+            <anchor corresp="P44"/>[44] The
     following Greek statement, like most of the Greek and Latin
     epitaphs, as well as the early Aramaic and Phoenician formulae,
     curses the one who disturbs the grave, and wishes blessings
@@ -694,8 +718,8 @@
     literary style reminiscent of the patriarchal
     inscriptions.<ref target="#FN15">15</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P45"/>[45]
+         <p>
+            <anchor corresp="P45"/>[45]
     Though few Syriac funerary inscriptions exist in which the dead
     talk in the first person, the numerous cases attested in
     Aramaic, Phoenician, Greek and Latin epitaphs strongly suggest
@@ -710,109 +734,110 @@
     the end of the 15<hi rend="sup">th</hi> and beginning of the
     19<hi rend="sup">th</hi> centuries may be able to explain these
     details.</p>
-         <head xml:id="S4">4. Historical Analysis</head>
-         <p rend="nn">
-            <anchor xml:id="P46"/>[46] The
+         <head xml:id="HV6N2Harrak16">4. Historical Analysis</head>
+         <p>
+            <anchor corresp="P46"/>[46] The
     middle of the second millennium witnessed events that heavily
     and negatively affected Syriac Christianity. In 1445 the union
     of the so-called "Nestorians" of Cyprus with the Roman Catholic
     Church was undertaken. The long-lived Mār
-    �im<hi rend="sup">
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn Bēth <hi rend="u">S</hi>ayda
-    (1437-1476), patriarch of the so-called "Nestorian" Church,
-    took notice of this event. During the second half of the
-    16<hi rend="sup">th</hi> century, the forced Latinization of the
-    "Nestorian" Christians of Malabar by the Portuguese invaders
-    also took place and the shift of a large part of Malabar to
-    Rome was also felt in Mesopotamia. Concomitantly, a forceful
-    attempt to carve a Roman Catholic entity out of the Church of
-    the East also happened in the heartland of Assyria. The
-    patriarchs of the latter Church were forced to bitterly admit
-    to new historical realities.</p>
-         <p rend="nn">
-            <anchor xml:id="P47"/>[47] As
-    mentioned above, it was Patriarch Mār �im<hi rend="sup">
+            </hi>ōn Bēth <hi rend="u">S</hi>ayda (1437-1476), patriarch of the so-called
+    "Nestorian" Church, took notice of this event. During the
+    second half of the 16<hi rend="sup">th</hi> century, the forced
+    Latinization of the "Nestorian" Christians of Malabar by the
+    Portuguese invaders also took place and the shift of a large
+    part of Malabar to Rome was also felt in Mesopotamia.
+    Concomitantly, a forceful attempt to carve a Roman Catholic
+    entity out of the Church of the East also happened in the
+    heartland of Assyria. The patriarchs of the latter Church were
+    forced to bitterly admit to new historical realities.</p>
+         <p>
+            <anchor corresp="P47"/>[47] As
+    mentioned above, it was Patriarch Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn
-    Bēth <hi rend="u">S</hi>ayda who made the East Syriac
-    patriarchate hereditary, on the basis of an accidental
-    patriarchal succession of related individuals, beginning with
-    Patriarch Timothy II (1318-1332). One of the followers of Mār
-    �im<hi rend="sup">
+            </hi>ōn Bēth <hi rend="u">S</hi>ayda who made the East Syriac patriarchate
+    hereditary, on the basis of an accidental patriarchal
+    succession of related individuals, beginning with Patriarch
+    Timothy II (1318-1332). One of the followers of Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn Bēth <hi rend="u">S</hi>ayda, who
-    took the name Mār �im<hi rend="sup">
+            </hi>ōn Bēth <hi rend="u">S</hi>ayda, who took the name Mār
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn too, is the speaker
-    of the first funerary inscription under study. Not much is
-    known about the latter and his dates are subject to
-    controversy. He was followed by Elijah V (1502-1503),<ref target="#FN16">16</ref> whose
-    successor was �im<hi rend="sup">
+            </hi>ōn too, is the speaker of the
+    first funerary inscription under study. Not much is known about
+    the latter and his dates are subject to controversy. He was
+    followed by Elijah V (1502-1503),<ref target="#FN16">16</ref> whose successor was
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
             </hi>ōn VI<ref target="#FN17">17</ref> (1504-38), author
     of the second funerary inscription in Rabban Hormizd. He
-    himself was followed by �im<hi rend="sup">
+    himself was followed by Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn VII bar Mama
-    (1551-1558), author of the 3<hi rend="sup">rd</hi> funerary
+            </hi>ōn
+    VII bar Mama (1551-1558), author of the 3<hi rend="sup">rd</hi> funerary
     inscription.</p>
-         <p rend="nn">
-            <anchor xml:id="P48"/>[48]
-    �im<hi rend="sup">
+         <p>
+            <anchor corresp="P48"/>[48]
+    Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn VII bar Mama witnessed with much
-    disappointment the secession of a sizable East Syriac community
-    that signed its union with the Catholic church of Rome. The
-    bishops of Erbil, Salamas, and Adhurbaijan revolted against
-    �im<hi rend="sup">
+            </hi>ōn VII bar Mama witnessed
+    with much disappointment the secession of a sizable East Syriac
+    community that signed its union with the Catholic church of
+    Rome. The bishops of Erbil, Salamas, and Adhurbaijan revolted
+    against Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn VII, electing the Abbot of the
-    monastery of Rabban Hormizd, Sūlāqā by name, to lead the newly
-    born uniate church. Sūlāqā was established Patriarch in Rome in
-    1553 by Pope Julius III, after the former presented to the Pope
-    his confession of faith in line with the theology of the Roman
+            </hi>ōn VII, electing the
+    Abbot of the monastery of Rabban Hormizd, Sūlāqā
+    by name, to lead the newly born uniate church.
+    Sūlāqā was established Patriarch in Rome in 1553
+    by Pope Julius III, after the former presented to the Pope his
+    confession of faith in line with the theology of the Roman
     Catholic Church. Then he returned to the Near East, accompanied
     by a Roman Catholic delegation made up of three Maltese
     clergymen, Ambrosius Boutitic (the Pope's delegate), Father
     Antonio Zahra and a third one named Mattai, and set his seceded
-    patriarchal seat in Amida (Diyār Bakr, in south-east Turkey).
-    The bitterness that the division of a long-lived and once
-    glorious church created among its leaders and the faithful at
-    large, and the subsequent assassination of the uniate patriarch
-    Sūlāqā at the hands of the Ottoman lord of
-    <hi rend="sup">
+    patriarchal seat in Amida (Diyār Bakr, in south-east
+    Turkey). The bitterness that the division of a long-lived and
+    once glorious church created among its leaders and the faithful
+    at large, and the subsequent assassination of the uniate
+    patriarch Sūlāqā at the hands of the Ottoman
+    lord of <hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>Amādiyya Pasha Hussein Beg in 1555, are
-    subjects beyond the scope of the present paper. Suffice to say
-    that the history of the East Syriac Church in following
-    centuries would be dominated by controversies and difficulties
-    generated by the union with Rome of portions of this old
-    church.</p>
-         <p rend="nn">
-            <anchor xml:id="P49"/>[49]
-    While �im<hi rend="sup">
+            </hi>Amādiyya Pasha Hussein Beg in
+    1555, are subjects beyond the scope of the present paper.
+    Suffice to say that the history of the East Syriac Church in
+    following centuries would be dominated by controversies and
+    difficulties generated by the union with Rome of portions of
+    this old church.</p>
+         <p>
+            <anchor corresp="P49"/>[49]
+    While Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn VII bar Mama must have been a
-    staunch opponent of union with Rome, Elijah VII (1576-1591),
-    the author of the 4<hi rend="sup">th</hi> funerary inscription, sent his
-    confession of faith to Pope Sextus V in 1586, who judged it
-    Nestorian in tendency. The Pope's position explains why the
-    same Elijah left on his own grave an inscription declaring the
-    traditional nature of his Christian faith. It is interesting to
-    note here that the expanded profession of faith found in five
-    funerary inscriptions of Rabban Hormizd is first detected in
-    the grave of this Elijah.<ref target="#FN18">18</ref> Elijah VIII (1591-1617), the
-    author of the 5<hi rend="sup">th</hi> funerary inscription, succeeded
-    Elijah VII. While Rome believed that he too took steps toward
-    union, he in fact refused to compromise his "Nestorian" faith
-    before the Roman Catholic delegation that met with him in the
-    monastery of Mār Pethion (between Mardin and Amida) in 1615.
-    The delegation was so disappointed with him that it declared
-    that there was not one single true Roman Catholic in Diyār
+            </hi>ōn VII bar Mama must
+    have been a staunch opponent of union with Rome, Elijah VII
+    (1576-1591), the author of the 4<hi rend="sup">th</hi> funerary
+    inscription, sent his confession of faith to Pope Sextus V in
+    1586, who judged it Nestorian in tendency. The Pope's position
+    explains why the same Elijah left on his own grave an
+    inscription declaring the traditional nature of his Christian
+    faith. It is interesting to note here that the expanded
+    profession of faith found in five funerary inscriptions of
+    Rabban Hormizd is first detected in the grave of this
+    Elijah.<ref target="#FN18">18</ref> Elijah VIII (1591-1617), the author of the
+    5<hi rend="sup">th</hi> funerary inscription, succeeded Elijah VII.
+    While Rome believed that he too took steps toward union, he in
+    fact refused to compromise his "Nestorian" faith before the
+    Roman Catholic delegation that met with him in the monastery of
+    Mār Pethion (between Mardin and Amida) in 1615. The
+    delegation was so disappointed with him that it declared that
+    there was not one single true Roman Catholic in Diyār
     Bakr!</p>
-         <p rend="nn">
-            <anchor xml:id="P50"/>[50]
+         <p>
+            <anchor corresp="P50"/>[50]
     Elijah IX (1617-1660) does not seem to have had any interest in
     union either. When he met two Franciscan Friars in 1629, he
     reiterated that his profession of faith echoed the principles
@@ -827,30 +852,31 @@
     marble covering his very grave, as is seen in the
     6<hi rend="sup">th</hi> funerary inscription above. The 15-year-old
     nephew of Elijah IX followed him on the patriarchal throne,
-    taking the name Elijah X Yō<hi rend="u">h</hi>annā
-    Marrōgui (1660-1700). In 1669 he wrote a letter to Pope Clemens
-    IX, signed by him and three of his Metropolitans; in it he
-    asked the Pope to help deliver his two envoys, whom he had sent
-    to Rome but who fell in the hands of pirates. His
-    correspondence with Rome may be seen as a sign that Elijah X
-    was open to the idea of joining the Catholic Church but in his
-    funerary inscription, the 7<hi rend="sup">th</hi> in this article, he
-    confessed none other than the faith of his own church.</p>
-         <p rend="nn">
-            <anchor xml:id="P51"/>[51] His
-    follower Elijah XI Marrōgui (1700-1722) bitterly opposed his
-    Metropolitan of Amida when the latter submitted to the Roman
-    Catholic faith in 1672 at the hands of the Capuchin Friars. His
-    confession of faith found in the 8<hi rend="sup">th</hi> inscription
-    indicated that he was as attached to his "Nestorian" faith as
-    his predecessor. The last patriarch commemorated in Rabban
-    Hormizd is Elijah XIII I�ō<hi rend="sup">
+    taking the name Elijah X Yō<hi rend="u">h</hi>annā Marrōgui (1660-1700). In 1669 he
+    wrote a letter to Pope Clemens IX, signed by him and three of
+    his Metropolitans; in it he asked the Pope to help deliver his
+    two envoys, whom he had sent to Rome but who fell in the hands
+    of pirates. His correspondence with Rome may be seen as a sign
+    that Elijah X was open to the idea of joining the Catholic
+    Church but in his funerary inscription, the 7<hi rend="sup">th</hi> in
+    this article, he confessed none other than the faith of his own
+    church.</p>
+         <p>
+            <anchor corresp="P51"/>[51] His
+    follower Elijah XI Marrōgui (1700-1722) bitterly opposed
+    his Metropolitan of Amida when the latter submitted to the
+    Roman Catholic faith in 1672 at the hands of the Capuchin
+    Friars. His confession of faith found in the 8<hi rend="sup">th</hi>
+    inscription indicated that he was as attached to his
+    "Nestorian" faith as his predecessor. The last patriarch
+    commemorated in Rabban Hormizd is Elijah XIII
+    Išō<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>yahb (1778-1804),
-    owner of the 9<hi rend="sup">th</hi> and last funerary inscription. He
-    discussed with his predecessor the possibility of union with
-    Rome, and indeed as soon as he became Patriarch, he declared
-    his allegiance to the See of Peter. But when he obtained his
+            </hi>yahb (1778-1804), owner of
+    the 9<hi rend="sup">th</hi> and last funerary inscription. He discussed
+    with his predecessor the possibility of union with Rome, and
+    indeed as soon as he became Patriarch, he declared his
+    allegiance to the See of Peter. But when he obtained his
     confirmation as Patriarch from the Ottoman Sultan, he returned
     to his old faith, a fact that led the people of Mosul to depose
     him from the patriarchal throne with the help of European
@@ -859,9 +885,9 @@
                <hi rend="italic">c</hi>
             </hi>īl Pasha of Amadiyya, he kept his
     control over the East Syriac dioceses of the mountains.</p>
-         <head xml:id="S5">5. Conclusion</head>
-         <p rend="nn">
-            <anchor xml:id="P52"/>[52] In
+         <head xml:id="HV6N2Harrak17">5. Conclusion</head>
+         <p>
+            <anchor corresp="P52"/>[52] In
     the previous section we surveyed the bilateral relations that
     existed between the Roman Catholic Church and the Assyrian
     Church of the East. The relations were mostly marked by mutual
@@ -878,25 +904,25 @@
     the inscriptions of the Assyrian patriarchs originated in
     historical events that compromised their religious beliefs as
     well as their independence.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef1">1</ref> A. Harrak, �Tales about Sennacherib: The
-    Contribution of the Syriac Sources,� in P.M. Daviau et al.,
-    <hi rend="italic">The World of the Arameans: Studies in Honour of P.-E.
+         <head xml:id="HV6N2Harrak18">Notes</head>
+         <p>
+            <ref target="#FNRef1">1</ref> A. Harrak, “Tales about Sennacherib: The
+    Contribution of the Syriac Sources,” in P.M. Daviau et
+    al., <hi rend="italic">The World of the Arameans: Studies in Honour of P.-E.
     Dion</hi>, vol. III, Sheffield 2001, pp. 168-189.<ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> 
-            <hi rend="italic">The histories of Rabban H�rm�zd the Persian and
-    Rabban Bar-`Idt�</hi>:� Syriac texts edited and translated by
-    E.A. Wallis Budge (New York: AMS Press, 1976; reprint of the
-    1902 edition). <ref target="#FNRef2">
+            <hi rend="italic">The histories of Rabban Hôrmîzd the
+    Persian and Rabban Bar-`Idtâ</hi>:  Syriac texts
+    edited and translated by E.A. Wallis Budge (New York: AMS
+    Press, 1976; reprint of the 1902 edition). <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> A full edition of the inscriptions, with
     photographs and English translations, will be found in my
     <hi rend="italic">Corpus of Syriac and Garshuni Inscriptions in Iraq</hi>, to
@@ -905,142 +931,147 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> This date is problematic in light of other sources;
-    see Vost�, <hi rend="italic">Le Mus�on</hi> 43 (1930) pp. 284-5.<ref target="#FNRef4">
+    see Vosté, <hi rend="italic">Le Muséon</hi> 43 (1930) pp.
+    284-5.<ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> The expression was chiseled at a later
     date.<ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> The Sunday before Pentecost.<ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> But note that the East Syriac (Chaldean) patriarchs
     also adopted the same patriarchal name, in this case Joseph,
     from Joseph I to Joseph IV (1681-1781).<ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> 
             <hi rend="italic">Chronique de Seert XIII</hi>, p. 548.<ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> J. Chabot, <hi rend="italic">Synodicon Orientale</hi> pp.
     564-582.<ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> M. Lidzbarski, <hi rend="italic">Handbuch der
     nordsemitischen Epigraphik</hi>, II: Tafeln, (Weimer, 1898), pl.
     XXV:2 lines 4-6.<ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> Lidzbarski, <hi rend="italic">Handbuch</hi>, pl. IV:1 lines
     2-3.<ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> Lidzbarski, <hi rend="italic">Handbuch,</hi> pl. IV:2 lines
     5-6.<ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> R. Lattimore, <hi rend="italic">Themes in Greek and Latin
     Epitaphs</hi>, Urbana: University of Illinois Press, 1962, p.
     75.<ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> Lattimore, <hi rend="italic">Themes,</hi> p. 107.<ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> Lattimore, <hi rend="italic">Themes</hi>, pp. 266ff.<ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> Elijah V was buried in the church of Saint
     Meskenta in Mosul, though no remains of his burial are
     found.<ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> The order of the various patriarchs bearing
-    the name �im<hi rend="sup">
+    the name Šim<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>ōn is confusing and in this
-    article I follow the list of J.-M. Fiey, <hi rend="italic">Oriens Christianus
-    Novus: R�pertoire des dioc�ses syriaques orientaux et
-    occidentaux</hi> (Beirut 1993), pp. 36-39.<ref target="#FNRef17">
+            </hi>ōn is confusing and
+    in this article I follow the list of J.-M. Fiey, <hi rend="italic">Oriens
+    Christianus Novus: Répertoire des diocèses
+    syriaques orientaux et occidentaux</hi> (Beirut 1993), pp.
+    36-39.<ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef18">18</ref> Vost�, who offered an edition of the
-    inscriptions of Rabban Hormizd, wrote: �A noter dans cette
-    confession, outre l�erreur nestorienne des deux qenōmē
-    (hypostases=personnes) dans le Christ, l�erreur monoth�lite
-    clairement exprim�e.� <hi rend="italic">Le Mus�on</hi> 43 (1930), p. 290. One
-    would understand the historical misunderstanding as far as the
-    theological nomenclature used by the East Syriac Church is
-    concerned, but it is interesting to compare between Vost�s
-    attitude and that of the Roman delegation in 1615.<ref target="#FNRef18">
+         <p>
+            <ref target="#FNRef18">18</ref> Vosté, who offered an edition of the
+    inscriptions of Rabban Hormizd, wrote: “A noter dans
+    cette confession, outre l’erreur nestorienne des deux
+    qenōmē (hypostases=personnes) dans le Christ,
+    l’erreur monothélite clairement
+    exprimée.” <hi rend="italic">Le Muséon</hi> 43 (1930), p.
+    290. One would understand the historical misunderstanding as
+    far as the theological nomenclature used by the East Syriac
+    Church is concerned, but it is interesting to compare between
+    Vosté’s attitude and that of the Roman delegation
+    in 1615.<ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Budge, E.A. Wallis. (tr.) <hi rend="italic">The
-    histories of Rabban H�rm�zd the Persian and Rabban
+         <head xml:id="HV6N2Harrak19">Bibliography</head>
+         <p>Budge, E.A. Wallis. (tr.) <hi rend="italic">The
+    histories of Rabban Hôrmîzd the Persian and Rabban
     Bar-<hi rend="sup">
                   <hi rend="italic">c</hi>
-               </hi>Idt�</hi>:� Syriac texts edited and
-    translated by (New York: AMS Press, 1976; reprint of the 1902
-    edition).</p>
-         <p xml:id="B2" rend="biblio">Chabot, J. <hi rend="italic">Synodicon Orientale</hi>
+               </hi>Idtâ</hi>:  Syriac texts
+    edited and translated by (New York: AMS Press, 1976; reprint of
+    the 1902 edition).</p>
+         <p>Chabot, J. <hi rend="italic">Synodicon Orientale</hi>
     (Paris, 1902)</p>
-         <p xml:id="B3" rend="biblio">Fiey, J.-M. <hi rend="italic">Oriens Christianus
-    Novus: R�pertoire des dioc�ses syriaques orientaux et
-    occidentaux</hi> (Beirut 1993).</p>
-         <p xml:id="B4" rend="biblio">Harrak, A. �Tales about Sennacherib:
-    The Contribution of the Syriac Sources,� in P.M. Daviau et al.,
-    <hi rend="italic">The World of the Arameans: Studies in Honour of P.-E.
-    Dion</hi>, vol. III, (Sheffield, 2001).</p>
-         <p xml:id="B5" rend="biblio">— <hi rend="italic">Corpus of Syriac and Garshuni
-    Inscriptions in Iraq</hi>, Forthcoming.</p>
-         <p xml:id="B6" rend="biblio">Lattimore, R. <hi rend="italic">Themes in Greek and
+         <p>Fiey, J.-M. <hi rend="italic">Oriens Christianus
+    Novus: Répertoire des diocèses syriaques
+    orientaux et occidentaux</hi> (Beirut 1993).</p>
+         <p>Harrak, A. “Tales about
+    Sennacherib: The Contribution of the Syriac Sources,” in
+    P.M. Daviau et al., <hi rend="italic">The World of the Arameans: Studies in
+    Honour of P.-E. Dion</hi>, vol. III, (Sheffield, 2001).</p>
+         <p>— <hi rend="italic">Corpus of Syriac and
+    Garshuni Inscriptions in Iraq</hi>, Forthcoming.</p>
+         <p>Lattimore, R. <hi rend="italic">Themes in Greek and
     Latin Epitaphs</hi>, Urbana: University of Illinois Press,
     1962.</p>
-         <p xml:id="B7" rend="biblio">Lidzbarski, M. <hi rend="italic">Handbuch der
+         <p>Lidzbarski, M. <hi rend="italic">Handbuch der
     nordsemitischen Epigraphik</hi>, II: Tafeln, (Weimer, 1898).</p>
-         <p xml:id="B8" rend="biblio">Jacques Marie Vosté, "Les
-    inscriptions de Rabban Hormizd et de N.-D. des Semences près
-    d'Alqoš, Iraq." <hi rend="italic">Le Muséon</hi> 43 (1930): 263-316.</p>
-         <p xml:id="B8" rend="biblio">Addai Scher &amp; R. Griveau,
-    <hi rend="italic">Histoire nestorienne inédite (Chronique de Séert)(Fin)</hi>
-    (PO XIII,4; Paris, 1918) [Arabic text and French
-    translation]</p>
+         <p>Jacques Marie Vosté, "Les
+    inscriptions de Rabban Hormizd et de N.-D. des Semences
+    près d'Alqoš, Iraq." <hi rend="italic">Le Muséon</hi> 43
+    (1930): 263-316.</p>
+         <p>Addai Scher &amp; R. Griveau,
+    <hi rend="italic">Histoire nestorienne inédite (Chronique de
+    Séert)(Fin)</hi> (PO XIII,4; Paris, 1918) [Arabic text
+    and French translation]</p>
          <!-- #EndEditable -->
       </body>
    </text>

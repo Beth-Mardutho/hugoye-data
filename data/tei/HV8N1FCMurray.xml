@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Symbols of Church and Kingdom Syriac Studies Workshop Princeton University, May 4-6, 2005</title>
+            <title type="main">Symbols of Church and Kingdom Syriac Studies Workshop Princeton University, May 4-6, 2005</title>
             <author>
-               <name>Emmanuel Papoutsakis</name>
+               <name>
+                  <forename>Emmanuel</forename>
+                  <surname>Papoutsakis</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv8n1fcmurray</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Department of Near Eastern Studies and the Group for the Study
     of Late Antiquity, Princeton University, with the support of
     the Andrew Mellon Foundation, will host a Syriac Studies
@@ -77,7 +100,7 @@
     attend, please RSVP to Emmanuel Papoutsakis
     (epapouts@princeton.edu) by April 11, 2005.</p>
          <quote>
-            <p rend="n">
+            <p>
                <hi rend="bold">Participants</hi> :</p>
             <quote>
                <p>Sebastian P. Brock (University of Oxford)<lb/>
@@ -95,7 +118,7 @@
             </quote>
          </quote>
          <quote>
-            <p rend="n">
+            <p>
                <hi rend="bold">Discussants</hi> :</p>
             <quote>
                <p>Susan Ashbrook-Harvey (Brown University)<lb/>
@@ -106,13 +129,13 @@
         Iain Torrance (Princeton Theological Seminary)</p>
             </quote>
          </quote>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] [Gorgias
+         <p>
+            <anchor corresp="P2"/>[2] [Gorgias
     Press, the publisher of Robert Murray's <hi rend="italic">Symbols of Church
     and Kingdom</hi> (second revised edition 2004), will hold a
     lunch party and a signing event after the conference on
     Saturday May 7, 1995 in Piscataway, NJ.]</p>
-         <p rend="n"> </p>
+         <p> </p>
          <!-- InstanceEndEditable -->
          <!-- InstanceEnd -->
       </body>

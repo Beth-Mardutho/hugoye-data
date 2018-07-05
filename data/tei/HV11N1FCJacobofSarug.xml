@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Symposium on Jacob of Sarug and His Times Studies in Sixth Century Syriac Christianity</title>
+            <title type="main">Symposium on Jacob of Sarug and His Times Studies in Sixth Century Syriac Christianity</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv11n1fcjacobofsarug</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Jacob of Sarug</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,22 +73,22 @@
          <lb/>
     
     
-         <p rend="title2">260 Elm Ave, Teaneck, NJ<lb/>
-    October 24-26, 2008 <!-- InstanceEndEditable --></p>
+         <p>260 Elm Ave, Teaneck, NJ<lb/>
+    October 24-26, 2008 </p>
     
     
-         <head>
+         <head xml:id="HV11N1FCJacobofSarug1">
             <hi style="font-variant:small-caps">Call for
     Registration</hi>
          </head>
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] St.
-    Mark�s Cathedral, on the occasion of its 50th Anniversary, is
-    holding an international symposium on Jacob of Sarug and His
-    Times: Studies in Sixth Century Syriac Christianity. The
-    symposium will be held on October 24-26, 2008 at 260 Elm Ave,
-    Teaneck, NJ. The symposium speakers are:</p>
+         <p>
+            <anchor corresp="P1"/>[1] St.
+    Mark’s Cathedral, on the occasion of its 50th
+    Anniversary, is holding an international symposium on Jacob of
+    Sarug and His Times: Studies in Sixth Century Syriac
+    Christianity. The symposium will be held on October 24-26, 2008
+    at 260 Elm Ave, Teaneck, NJ. The symposium speakers are:</p>
          <list type="unordered">
             <item>Susan Ashbrook Harvey, Brown University</item>
             <item>Sharbil Alexandre Bcheiry, Syriac Orthodox
@@ -85,8 +105,8 @@
          </list>
          <p>Symposium Chair: George A. Kiraz<lb/>
     Symposium Secretary: Jack C. Darakjy, Esq.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] To
+         <p>
+            <anchor corresp="P2"/>[2] To
     attend the Symposium, download the Attendance Registration From
     (early registration ends September 1, 2008) from the following
     link:</p>

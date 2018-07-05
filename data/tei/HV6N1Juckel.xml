@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A Re-examination of Codex Phillipps 1388</title>
+            <title type="main">A Re-examination of Codex Phillipps 1388</title>
             <author>
-               <name>Andreas JUCKEL</name>
+               <name>
+                  <forename>Andreas</forename>
+                  <surname>Juckel</surname>
+               </name>
                <affiliation>
-                  <orgName>Institut f�r Neutestamentliche Textforschung</orgName>
+                  <orgName>Institut für Neutestamentliche Textforschung</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv6n1juckel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,20 +62,36 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Codex Phillipps</term>
+               <term>Peshitta</term>
+               <term>Pre-Peshitta</term>
+               <term>Old Syriac</term>
+               <term>Diatessaron</term>
+               <term>Harmonistic readings</term>
+               <term>G.H. Gwilliam</term>
+               <term>Ph.E. Pusey</term>
+               <term>F.C. Burkitt</term>
+               <term>A. Vööbus</term>
+               <term>M. Black</term>
+               <term>A. Allgeier.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
-         <lb/>
-         <lb/>
-    
-    
-    
-         <!-- #BeginEditable "Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">The article offers a collation of the
+      <front>
+         <div type="abstract">
+            <p>The article offers a collation of the
     5th/6th cent. Peshitta Gospel manuscript known as 'Codex
     Phillipps 1388' with the standard text of the Peshitta Gospels
     published by Ph.E. Pusey/G.H. Gwilliam in 1901. The purpose is
@@ -74,111 +102,112 @@
     (Allgeier) but a typical (Black) early Peshitta manuscript. All
     early Gospel manuscripts should be examined to trace their
     individually developped 'Old Syriac heritage'.</p>
+         </div>
+      </front>
+      <body>
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">The Background</ref>
-            </item>
-            <item>
-               <ref target="#S2">The Presentation of the Variants</ref>
-            </item>
-            <item>
-               <ref target="#S3">Limitations</ref>
-            </item>
-            <item>
-               <ref target="#S4">Statistical Summary</ref>
-            </item>
-            <item>
-               <ref target="#S5">Results</ref>
-            </item>
-         </list>
-         <head xml:id="S1">The Background</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
-    re-examination of �Codex Phillipps 1388�<ref target="#FN1">1</ref> resumes the work of
-    Arthur Allgeier, who seventy years ago was the first to
-    introduce this 5<hi rend="sup">th</hi>/6<hi rend="sup">th</hi>-century Gospel
-    manuscript<ref target="#FN2">2</ref> (held at the <hi rend="italic">Staatsbibliothek,</hi> Berlin) to
+         <lb/>
+
+
+
+         <!-- #BeginEditable "Content" -->
+
+         <lb/>
+
+
+         <head xml:id="HV6N1Juckel3">The Background</head>
+         <p>
+            <anchor corresp="P1"/>[1] This
+    re-examination of ‘Codex Phillipps 1388’<ref target="#FN1">1</ref> resumes
+    the work of Arthur Allgeier, who seventy years ago was the
+    first to introduce this 5<hi rend="sup">th</hi>/6<hi rend="sup">th</hi>-century
+    Gospel manuscript<ref target="#FN2">2</ref> (held at the <hi rend="italic">Staatsbibliothek,</hi> Berlin) to
     scholarly discussion<ref target="#FN3">3</ref>. Collating the codex with the text of the
     Peshitta Gospels published by E. Ph. Pusey and G. H. Gwilliam
-    in 1901, Allgeier�s intention was to point to its significance
-    for the history of the Peshitta text. According to him, �Codex
-    Phillipps� is the only known Peshitta manuscript which shares a
-    significant number of readings with the �Old Syriac� Gospel
-    text, thus attesting a transition stage between the �Old
-    Syriac� and the Peshitta. Discussing only two sample passages
-    (Jn xiii.17 and Jn xviii.16) to set out this view in some
-    detail, Allgeier�s primary concern was to resume the question
-    of a revisional history of the Peshitta Gospels, which was
+    in 1901, Allgeier’s intention was to point to its
+    significance for the history of the Peshitta text. According to
+    him, ‘Codex Phillipps’ is the only known Peshitta
+    manuscript which shares a significant number of readings with
+    the ‘Old Syriac’ Gospel text, thus attesting a
+    transition stage between the ‘Old Syriac’ and the
+    Peshitta. Discussing only two sample passages (Jn xiii.17 and
+    Jn xviii.16) to set out this view in some detail,
+    Allgeier’s primary concern was to resume the question of
+    a revisional history of the Peshitta Gospels, which was
     answered in the negative by G. H. Gwilliam in an article of
     1891<ref target="#FN4">4</ref>. But meanwhile the reopening of this question
     had been effected by the discovery (1892) and successive
-    publication (1894, 1896, 1910) of the �Old Syriac� Sinaitic
-    manuscript, by the improved republication of the �Old Syriac�
-    Curetonian manuscript by F.C. Burkitt (1904), and by Gwilliam�s
-    splendid edition of the Peshitta Gospels (1901). All these
-    publications had created new conditions for the discussion
-    about the �Old Syriac� Gospels<ref target="#FN5">5</ref> and about the <hi rend="italic">early</hi> Peshitta
-    text. Allgeier continued this line to add further manuscript
-    evidence by introducing �Codex Phillipps�.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In the
+    publication (1894, 1896, 1910) of the ‘Old Syriac’
+    Sinaitic manuscript, by the improved republication of the
+    ‘Old Syriac’ Curetonian manuscript by F.C. Burkitt
+    (1904), and by Gwilliam’s splendid edition of the
+    Peshitta Gospels (1901). All these publications had created new
+    conditions for the discussion about the ‘Old
+    Syriac’ Gospels<ref target="#FN5">5</ref> and about the <hi rend="italic">early</hi> Peshitta text.
+    Allgeier continued this line to add further manuscript evidence
+    by introducing ‘Codex Phillipps’.</p>
+         <p>
+            <anchor corresp="P2"/>[2] In the
     history of research attention was paid to the codex during the
-    re-examination of F.C. Burkitt�s influential hypothesis<ref target="#FN6">6</ref> on the
-    origin of the Peshitta text by A. V��bus, which finally
-    resulted in a modification of this hypothesis by M. Black.
-    Burkitt�s view, that it was Rabbula (bishop of Edessa 411-435)
-    who introduced the Peshitta to Eastern Christianity by revising
-    and thus replacing the Gospels of �Old Syriac� text type,
-    V��bus contested by continuous efforts to display evidence for
-    the maintenance (and even dominance) of the �Old Syriac� side
-    by side with the Peshitta until the end of the 5<hi rend="sup">th</hi>
-    century<ref target="#FN7">7</ref>. In this contest, �Codex Phillipps� became the
-    model of an �Old Syriac�-influenced manuscript, which directed
-    V��bus� research for additional representatives of this text
-    type<ref target="#FN8">8</ref>. V��bus found fault with Gwilliam�s Gospel
-    edition for not sufficiently considering the �Old Syriac�
-    elements within the Peshitta manuscripts, thus neglecting it
-    for the constitution of the text to print<ref target="#FN9">9</ref>. Black too
-    recognized the neglection of the �Old Syriac� element in
-    Gwilliam�s edition<ref target="#FN10">10</ref>, but acknowledged it as a result of
-    Gwilliams editorial policy<ref target="#FN11">11</ref>. Guided by �Codex Phillipps�,
-    Black drew attention to variants already quoted in Gwilliam�s
-    Gospel volume, which agree with the �Old Syriac� manuscripts
-    against the traditional Peshitta text in the same way �Codex
-    Phillipps� does. These variants he assessed to be remnants of a
-    Peshitta text earlier than the one printed in Gwilliam�s
-    volume, represented but not yet sufficiently identified in its
-    <hi rend="italic">apparatus criticus</hi>. According to Black it was this
-    earlier Peshitta text (the �pre-Peshitta, i.e., the Old Syriac
-    basis of the Syriac Vulgate�<ref target="#FN12">12</ref>) Rabbula introduced by revising
-    the �Old Syriac� Gospels.</p>
-         <head xml:id="S2">The Presentation of the Variants</head>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
-    primary fundamental concern of Allgeier�s article leaves it
-    unsatisfactory with regard to the details. Neither is the
-    collation of the codex complete, nor its relation to the �Old
-    Syriac� and Peshitta manuscripts sufficiently set out.
-    Therefore, to give a more detailed presentation of the textual
-    evidence preserved in �Codex Phillipps� is the concern of this
-    re-examination. This presentation is inspired by M. Black, who
-    offered a sound method to determine not only the individually
-    developed 'Old Syriac' heritage of 'Codex Phillips' but of
-    <hi rend="italic">every</hi> early Gospel manuscript.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+    re-examination of F.C. Burkitt’s influential
+    hypothesis<ref target="#FN6">6</ref> on the origin of the Peshitta text by A.
+    Vööbus, which finally resulted in a modification of
+    this hypothesis by M. Black. Burkitt’s view, that it was
+    Rabbula (bishop of Edessa 411-435) who introduced the Peshitta
+    to Eastern Christianity by revising and thus replacing the
+    Gospels of ‘Old Syriac’ text type, Vööbus
+    contested by continuous efforts to display evidence for the
+    maintenance (and even dominance) of the ‘Old
+    Syriac’ side by side with the Peshitta until the end of
+    the 5<hi rend="sup">th</hi> century<ref target="#FN7">7</ref>. In this contest, ‘Codex
+    Phillipps’ became the model of an ‘Old
+    Syriac’-influenced manuscript, which directed
+    Vööbus’ research for additional representatives
+    of this text type<ref target="#FN8">8</ref>. Vööbus found fault with
+    Gwilliam’s Gospel edition for not sufficiently
+    considering the ‘Old Syriac’ elements within the
+    Peshitta manuscripts, thus neglecting it for the constitution
+    of the text to print<ref target="#FN9">9</ref>. Black too recognized the neglection of the
+    ‘Old Syriac’ element in Gwilliam’s
+    edition<ref target="#FN10">10</ref>, but acknowledged it as a result of Gwilliams
+    editorial policy<ref target="#FN11">11</ref>. Guided by ‘Codex Phillipps’,
+    Black drew attention to variants already quoted in
+    Gwilliam’s Gospel volume, which agree with the ‘Old
+    Syriac’ manuscripts against the traditional Peshitta text
+    in the same way ‘Codex Phillipps’ does. These
+    variants he assessed to be remnants of a Peshitta text earlier
+    than the one printed in Gwilliam’s volume, represented
+    but not yet sufficiently identified in its <hi rend="italic">apparatus
+    criticus</hi>. According to Black it was this earlier Peshitta
+    text (the ‘pre-Peshitta, i.e., the Old Syriac basis of
+    the Syriac Vulgate’<ref target="#FN12">12</ref>) Rabbula introduced by revising
+    the ‘Old Syriac’ Gospels.</p>
+         <head xml:id="HV6N1Juckel4">The Presentation of the Variants</head>
+         <p>
+            <anchor corresp="P3"/>[3] The
+    primary fundamental concern of Allgeier’s article leaves
+    it unsatisfactory with regard to the details. Neither is the
+    collation of the codex complete, nor its relation to the
+    ‘Old Syriac’ and Peshitta manuscripts sufficiently
+    set out. Therefore, to give a more detailed presentation of the
+    textual evidence preserved in ‘Codex Phillipps’ is
+    the concern of this re-examination. This presentation is
+    inspired by M. Black, who offered a sound method to determine
+    not only the individually developed 'Old Syriac' heritage of
+    'Codex Phillips' but of <hi rend="italic">every</hi> early Gospel
+    manuscript.</p>
+         <p>
+            <anchor corresp="P4"/>[4] The
     construction of the following <hi rend="italic">list</hi> is simple. The
-    <hi rend="italic">lemma</hi> is taken from the Gwilliam�s Gospel volume (1901),
-    followed by the variant of �Codex Phillipps� (all orthographic
-    variants are excluded). The evidence of the �Old Syriac�
-    manuscripts (Sinaitic and Curetonian) are constantly quoted (in
-    red), their defective condition is indicated by
-    <hi rend="italic">lac(una)</hi>. Peshitta variants taken from Gwilliam�s Gospel
-    volume are added (in blue) to the quoted readings of �Codex
-    Phillipps�.</p>
-         <p html:align="center">
+    <hi rend="italic">lemma</hi> is taken from the Gwilliam’s Gospel volume
+    (1901), followed by the variant of ‘Codex
+    Phillipps’ (all orthographic variants are excluded). The
+    evidence of the ‘Old Syriac’ manuscripts (Sinaitic
+    and Curetonian) are constantly quoted (in red), their defective
+    condition is indicated by <hi rend="italic">lac(una)</hi>. Peshitta variants
+    taken from Gwilliam’s Gospel volume are added (in blue)
+    to the quoted readings of ‘Codex Phillipps’.</p>
+         <p>
             <graphic url="HV6N1JuckelFig01.jpg" rend="img" mimeType="image/jpeg"/>
             <lb/>
             <graphic url="HV6N1JuckelFig02.jpg" rend="img" mimeType="image/jpeg"/>
@@ -212,9 +241,9 @@
             <graphic url="HV6N1JuckelFig16.jpg" rend="img" mimeType="image/jpeg"/>
             <lb/>
          </p>
-         <head xml:id="S3">Limitations</head>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <head xml:id="HV6N1Juckel5">Limitations</head>
+         <p>
+            <anchor corresp="P5"/>[5] The
     collation offers a total of <hi rend="bold">387</hi> items P<hi rend="sup">Ph</hi>
             <hi rend="bold">:</hi> P<hi rend="sup">Gw</hi> (the 21 variants in the supplemented
     portions not counted). This comparatively small number of
@@ -223,29 +252,31 @@
     non-majority portion of P<hi rend="sup">Ph</hi> is quoted. To trace this
     individuality by a statistical approach, the agreement of
     P<hi rend="sup">Ph</hi> with other Peshitta manuscripts and with the
-    �Old Syriac� manuscripts respectively are to be counted. But
-    the result of this �simple� counting meets with considerable
-    limitations due to the restricted accessibility to both the
-    �Old Syriac� and the Peshitta readings. While the �Old Syriac�
+    ‘Old Syriac’ manuscripts respectively are to be
+    counted. But the result of this ‘simple’ counting
+    meets with considerable limitations due to the restricted
+    accessibility to both the ‘Old Syriac’ and the
+    Peshitta readings. While the ‘Old Syriac’
     manuscripts and most of the Peshitta manuscripts of the
     Pusey/Gwilliam volume are defective, a considerable part of the
     latter is only collated in part<ref target="#FN13">13</ref>. For example, in the
     Curetonian almost the whole Gospel of Mark is missing, in
-    Gwilliam�s volume the Gospel of John is incompletely collated
-    for many manuscripts. Both deficiencies affect the <hi rend="italic">list</hi>
-    above. Therefore, the following statistical information
-    (although not invalid) remains provisional and calls for
-    supplementation in its Peshitta part drawn from additional
-    collations<ref target="#FN14">14</ref>.</p>
-         <head xml:id="S4">Statistical Summary</head>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] To
+    Gwilliam’s volume the Gospel of John is incompletely
+    collated for many manuscripts. Both deficiencies affect the
+    <hi rend="italic">list</hi> above. Therefore, the following statistical
+    information (although not invalid) remains provisional and
+    calls for supplementation in its Peshitta part drawn from
+    additional collations<ref target="#FN14">14</ref>.</p>
+         <head xml:id="HV6N1Juckel6">Statistical Summary</head>
+         <p>
+            <anchor corresp="P6"/>[6] To
     establish the relation between the <hi rend="italic">listed</hi> individual
-    part of P<hi rend="sup">Ph</hi>�and the �Old Syriac� manuscripts, we
-    shall distinguish between the non-singular and singular
-    variants of P<hi rend="sup">Ph</hi> (between its <hi rend="italic">individual</hi> and
-    <hi rend="italic">singular</hi> part), and between the <hi rend="italic">non-defective</hi>
-    portions of SC and their <hi rend="italic">defective</hi> portions.</p>
+    part of P<hi rend="sup">Ph</hi> and the ‘Old Syriac’
+    manuscripts, we shall distinguish between the non-singular and
+    singular variants of P<hi rend="sup">Ph</hi> (between its
+    <hi rend="italic">individual</hi> and <hi rend="italic">singular</hi> part), and between the
+    <hi rend="italic">non-defective</hi> portions of SC and their <hi rend="italic">defective</hi>
+    portions.</p>
          <p>
             <hi rend="bold">1</hi>) <hi rend="italic">listed</hi> variants of P<hi rend="sup">Ph</hi>
             <hi rend="italic">attested</hi> by one or more Peshitta manuscript:
@@ -256,27 +287,27 @@
     portions of SC</p>
          <table html:cellpadding="10">
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= SC</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = SC</cell>
                <cell rowspan="1" colspan="1">21 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= S : C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = S : C</cell>
                <cell rowspan="1" colspan="1">12 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= C : S</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = C : S</cell>
                <cell rowspan="1" colspan="1">11 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ SC</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ SC</cell>
                <cell rowspan="1" colspan="1">39 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ S ≠ C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ S ≠ C</cell>
                <cell rowspan="1" colspan="1">7 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">Total�</cell>
+               <cell rowspan="1" colspan="1">Total </cell>
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">90</hi> var.</cell>
             </row>
@@ -286,11 +317,11 @@
     SC</p>
          <table html:cellpadding="10">
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= S or C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = S or C</cell>
                <cell rowspan="1" colspan="1">49 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ S or C�</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ S or C </cell>
                <cell rowspan="1" colspan="1">63 var.</cell>
             </row>
             <row>
@@ -299,7 +330,7 @@
                <cell rowspan="1" colspan="1">16 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">Total�</cell>
+               <cell rowspan="1" colspan="1">Total </cell>
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">128</hi> var.</cell>
             </row>
@@ -317,27 +348,27 @@
     portions of SC</p>
          <table html:cellpadding="10">
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= SC</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = SC</cell>
                <cell rowspan="1" colspan="1">4 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= S : C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = S : C</cell>
                <cell rowspan="1" colspan="1">5 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= C : S</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = C : S</cell>
                <cell rowspan="1" colspan="1">7 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ SC</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ SC</cell>
                <cell rowspan="1" colspan="1">36 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ S ≠ C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ S ≠ C</cell>
                <cell rowspan="1" colspan="1">10 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">Total�</cell>
+               <cell rowspan="1" colspan="1">Total </cell>
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">62</hi> var.</cell>
             </row>
@@ -359,11 +390,11 @@
     SC</p>
          <table html:cellpadding="10">
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�= S or C</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> = S or C</cell>
                <cell rowspan="1" colspan="1">16 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi>�≠ S or C�</cell>
+               <cell rowspan="1" colspan="1">P<hi rend="sup">Ph</hi> ≠ S or C </cell>
                <cell rowspan="1" colspan="1">40 var.</cell>
             </row>
             <row>
@@ -372,7 +403,7 @@
                <cell rowspan="1" colspan="1">20 var.</cell>
             </row>
             <row>
-               <cell rowspan="1" colspan="1">Total�</cell>
+               <cell rowspan="1" colspan="1">Total </cell>
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">76</hi> var.</cell>
             </row>
@@ -380,47 +411,49 @@
          <p>Also in section 2. a-b <hi rend="bold">26</hi> variants were not counted
     by various reasons (e.g., SC are without diacritical
     point).</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Among
+         <p>
+            <anchor corresp="P7"/>[7] Among
     the <hi rend="bold">387</hi> P<hi rend="sup">Ph</hi> - variants quoted in the
     <hi rend="italic">list,</hi> 
             <hi rend="bold">223</hi> are supported by at least one Peshitta
     manuscript (usually by more), <hi rend="bold">164</hi> are singular readings
     according to our present knowledge.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] With the
-    �Old Syriac� P<hi rend="sup">Ph</hi> shares a total of <hi rend="bold">125</hi>
-            <hi rend="italic">listed</hi> readings (disagreements: <hi rend="bold">195</hi>), 64 (103) of
-    which suffer from defective attestation of the �Old Syriac� (S
-    <hi rend="italic">lac</hi> and/or C <hi rend="italic">lac</hi>). In those portions where SC are
-    <hi rend="italic">not</hi> defective, P<hi rend="sup">Ph</hi> shares a total of
-    <hi rend="bold">61</hi> 
-            <hi rend="italic">listed</hi> readings with the �Old Syriac�
-    (<hi rend="bold">25</hi> with SC, <hi rend="bold">18</hi> with S : C, and <hi rend="bold">18</hi> with C
-    : S); and there are <hi rend="bold">92</hi> disagreements with S and/or C.
-    The reduction of statistics to the non-defective portions of SC
-    points to the absence of any special disposition of
-    P<hi rend="sup">Ph</hi> towards S or C.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] There is
+         <p>
+            <anchor corresp="P8"/>[8] With the
+    ‘Old Syriac’ P<hi rend="sup">Ph</hi> shares a total of
+    <hi rend="bold">125</hi>
+            <hi rend="italic">listed</hi> readings (disagreements: <hi rend="bold">195</hi>),
+    64 (103) of which suffer from defective attestation of the
+    ‘Old Syriac’ (S <hi rend="italic">lac</hi> and/or C <hi rend="italic">lac</hi>). In
+    those portions where SC are <hi rend="italic">not</hi> defective,
+    P<hi rend="sup">Ph</hi> shares a total of <hi rend="bold">61</hi>
+            <hi rend="italic">listed</hi>
+    readings with the ‘Old Syriac’ (<hi rend="bold">25</hi> with SC,
+    <hi rend="bold">18</hi> with S : C, and <hi rend="bold">18</hi> with C : S); and there are
+    <hi rend="bold">92</hi> disagreements with S and/or C. The reduction of
+    statistics to the non-defective portions of SC points to the
+    absence of any special disposition of P<hi rend="sup">Ph</hi> towards S
+    or C.</p>
+         <p>
+            <anchor corresp="P9"/>[9] There is
     a considerable <hi rend="italic">singular</hi> portion (<hi rend="bold">164</hi>) in the
     individual part of the codex. <hi rend="bold">32</hi> of these variants (in
-    the <hi rend="italic">list</hi> in bold type) are supported by the �Old
-    Syriac�, <hi rend="bold">117</hi> are not (in the <hi rend="italic">list</hi> in italics,
-    incl. the 20 cases where SC are both defective). The origin of
-    these totally unsupported variants cannot be traced
+    the <hi rend="italic">list</hi> in bold type) are supported by the ‘Old
+    Syriac’, <hi rend="bold">117</hi> are not (in the <hi rend="italic">list</hi> in
+    italics, incl. the 20 cases where SC are both defective). The
+    origin of these totally unsupported variants cannot be traced
     conclusively; additional collations of Peshitta manuscripts
     hopefully will provide support for several of them. But it
     seems quite sure that the origin of these variants cannot be
     traced back to the Greek. Besides the <hi rend="italic">general</hi> better
     adaptation to the Greek which is characteristic for the
-    Peshitta as against the �Old Syriac�, no <hi rend="italic">special</hi> Greek
-    influence is responsible for the formation of the singular
-    portion<ref target="#FN15">15</ref> (nevertheless, in the <hi rend="italic">list</hi> few
-    remarkable agreements with the Greek are pointed out to the
-    reader by �→ Greek�).</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] One
+    Peshitta as against the ‘Old Syriac’, no
+    <hi rend="italic">special</hi> Greek influence is responsible for the formation
+    of the singular portion<ref target="#FN15">15</ref> (nevertheless, in the <hi rend="italic">list</hi>
+    few remarkable agreements with the Greek are pointed out to the
+    reader by ‘→ Greek’).</p>
+         <p>
+            <anchor corresp="P10"/>[10] One
     feature of this singular portion, however, can be identified as
     <hi rend="italic">harmonistic readings</hi> taken from the parallel text of the
     fellow Gospel(s)<ref target="#FN16">16</ref>. Exceptionally few of these readings are
@@ -428,13 +461,13 @@
     to identify 25 of these harmonistic readings, a harder attempt
     and thorough attention to the Diatessaric tradition surely will
     identify more. (Almost) unsupported harmonistic readings are
-    not a special feature of �Codex Phillipps�, we also meet them,
-    e. g., in Ms. no. 39 of Gwilliam�s edition, fully collated by
-    W. Strothmann<ref target="#FN17">17</ref> (during a rough check I identified 15
-    harmonistic readings).</p>
-         <head xml:id="S5">Results</head>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
+    not a special feature of ‘Codex Phillipps’, we also
+    meet them, e. g., in Ms. no. 39 of Gwilliam’s edition,
+    fully collated by W. Strothmann<ref target="#FN17">17</ref> (during a rough check I
+    identified 15 harmonistic readings).</p>
+         <head xml:id="HV6N1Juckel7">Results</head>
+         <p>
+            <anchor corresp="P11"/>[11] The
     statistical summary sets out the individual and singular parts
     of 'Codex Phillips' by giving a quantitative determination of
     their relation to the 'Old Syriac' and to the earliest
@@ -442,146 +475,154 @@
     following general results can be drawn:</p>
          <list type="ordered">
             <item>The primary result of this re-examination is a better
-      knowledge of the variants preserved in �Codex Phillipps�,
-      which are incompletely given in Gwilliam�s Gospel volume and
-      in Allgeier�s article.</item>
-            <item>Allgeier�s hint to the significance of this codex for the
-      history of the Peshitta text the re-examination confirmed but
-      modified and reduced to its proper dimension. By agreement
-      and disagreement with the �Old Syriac� the codex (in its
-      <hi rend="italic">individual</hi> part) agrees with various Peshitta
-      manuscripts. This agreement disposes of the codex� supposed
-      textual singularity; by its �Old Syriac� part the codex
-      rather shares in a typical (though individually developed)
-      feature of the early Peshitta text.</item>
+      knowledge of the variants preserved in ‘Codex
+      Phillipps’, which are incompletely given in
+      Gwilliam’s Gospel volume and in Allgeier’s
+      article.</item>
+            <item>Allgeier’s hint to the significance of this codex
+      for the history of the Peshitta text the re-examination
+      confirmed but modified and reduced to its proper dimension.
+      By agreement and disagreement with the ‘Old
+      Syriac’ the codex (in its <hi rend="italic">individual</hi> part)
+      agrees with various Peshitta manuscripts. This agreement
+      disposes of the codex’ supposed textual singularity; by
+      its ‘Old Syriac’ part the codex rather shares in
+      a typical (though individually developed) feature of the
+      early Peshitta text.</item>
             <item>A considerable portion of singular variants <hi rend="italic">not</hi>
-      supported by the �Old Syriac� invites for further research.
-      As several of them can be identified as harmonistic readings,
-      the Diatessaric tradition of the Syriac New Testament is a
-      possible source. But their singular attestation does not
-      favor a �tradition� behind these harmonistic readings. If
-      singular harmonistic readings can be identified in many old
-      Peshitta codices, theses readings should rather be assessed
-      as a typical feature of the early text (of independent,
-      non-Diatessaric origin).</item>
+      supported by the ‘Old Syriac’ invites for further
+      research. As several of them can be identified as harmonistic
+      readings, the Diatessaric tradition of the Syriac New
+      Testament is a possible source. But their singular
+      attestation does not favor a ‘tradition’ behind
+      these harmonistic readings. If singular harmonistic readings
+      can be identified in many old Peshitta codices, theses
+      readings should rather be assessed as a typical feature of
+      the early text (of independent, non-Diatessaric origin).</item>
             <item>The re-examination of the codex advises scholars to
-      re-examine all early Gospel codices in the same way �Codex
-      Phillipps� is re-examined in the present article. The
-      analysis of the individuality of the single codices will
-      determine their �Old Syriac� heritage as well as their
-      singular and harmonistic readings.</item>
+      re-examine all early Gospel codices in the same way
+      ‘Codex Phillipps’ is re-examined in the present
+      article. The analysis of the individuality of the single
+      codices will determine their ‘Old Syriac’
+      heritage as well as their singular and harmonistic
+      readings.</item>
          </list>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
-    Depending on the full extent and consistency of the �Old
-    Syriac� heritage thus determined, should Gwilliam�s majority
-    text be altered by the adoption of this heritage in the printed
-    text? This question cannot simply be answered in the
-    affirmative for the following reason: Besides the
-    <hi rend="italic">fading-out</hi> of �Old Syriac� textual features during
-    history we also have to expect the <hi rend="italic">(re-)introduction</hi> of
-    �Old Syriac� features into the Peshitta text during the
-    co-existence of both versions. Accordingly, a �pre-Peshitta� as
-    a fixed text (to be reconstructed and printed)<ref target="#FN18">18</ref> cannot be
-    taken as granted by the existence of the �Old Syriac heritage�;
-    it is possible that a complex development of the formerly fixed
-    <hi rend="italic">Peshitta</hi> enlarged or even produced this �heritage� (as
-    far as it is not identical with the Peshitta majority text).
-    The complexity of the development is given by the influence of
-    the �Old Syriac�, the Diatessaron and the Greek, which is
-    tracable in the early Peshitta Gospel manuscripts. Therefore,
-    to alter Gwilliam�s majority text by introducing the �Old
-    Syriac heritage� would charge this new text with the <hi rend="italic">petitio
-    principii</hi> of a �pre-Peshitta� which is not yet properly
-    traced nor sufficiently discussed. Only the re-examination of
-    the early Gospel codices can offer evidence about the textual
-    reality or the textual myth of a fixed �pre-Peshitta� and its
-    possible future printed incarnation. For this more
-    comprehensive re-examination the one of 'Codex Phillipps'
-    offers a starting point. The true significance of this codex
-    for the history of the Peshitta Gospels was not dicovered by A.
-    Allgeier but by M. Black.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <p>
+            <anchor corresp="P12"/>[12]
+    Depending on the full extent and consistency of the ‘Old
+    Syriac’ heritage thus determined, should Gwilliam’s
+    majority text be altered by the adoption of this heritage in
+    the printed text? This question cannot simply be answered in
+    the affirmative for the following reason: Besides the
+    <hi rend="italic">fading-out</hi> of ‘Old Syriac’ textual features
+    during history we also have to expect the
+    <hi rend="italic">(re-)introduction</hi> of ‘Old Syriac’ features
+    into the Peshitta text during the co-existence of both
+    versions. Accordingly, a ‘pre-Peshitta’ as a fixed
+    text (to be reconstructed and printed)<ref target="#FN18">18</ref> cannot be taken
+    as granted by the existence of the ‘Old Syriac
+    heritage’; it is possible that a complex development of
+    the formerly fixed <hi rend="italic">Peshitta</hi> enlarged or even produced
+    this ‘heritage’ (as far as it is not identical with
+    the Peshitta majority text). The complexity of the development
+    is given by the influence of the ‘Old Syriac’, the
+    Diatessaron and the Greek, which is tracable in the early
+    Peshitta Gospel manuscripts. Therefore, to alter
+    Gwilliam’s majority text by introducing the ‘Old
+    Syriac heritage’ would charge this new text with the
+    <hi rend="italic">petitio principii</hi> of a ‘pre-Peshitta’ which
+    is not yet properly traced nor sufficiently discussed. Only the
+    re-examination of the early Gospel codices can offer evidence
+    about the textual reality or the textual myth of a fixed
+    ‘pre-Peshitta’ and its possible future printed
+    incarnation. For this more comprehensive re-examination the one
+    of 'Codex Phillipps' offers a starting point. The true
+    significance of this codex for the history of the Peshitta
+    Gospels was not dicovered by A. Allgeier but by M.
+    Black.</p>_______<lb/>
+         <head xml:id="HV6N1Juckel8">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> Sir Thomas Phillipps of Worcestershire (1792-1872)
     was a famous antiquary, bibliophile and collector of
     manuscripts, see the <hi rend="italic">Modern English Biography 1892-1921</hi>
-    (ed. by F. Boase), vol. II� (1897/<hi rend="sup">2</hi>1965) 1500-1501.
-    <ref target="#FNRef1">
+    (ed. by F. Boase), vol. II  (1897/<hi rend="sup">2</hi>1965)
+    1500-1501. <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> A description of this codex is given by E. Sachau,
-    <hi rend="italic">Verzeichnis der Syrischen Handschriften der K�niglichen
+    <hi rend="italic">Verzeichnis der Syrischen Handschriften der Königlichen
     Bibliothek zu Berlin,</hi> 1. Abteilung (Berlin 1899), p. 12-15
     (no. 7). <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> A. Allgeier, <hi rend="italic">Cod.</hi> 
             <hi rend="italic">Phillipps 1388 in
-    Berlin und seine Bedeutung f�r die Geschichte der Pe�itta</hi>,
-    Oriens Christianus 7 (3<hi rend="sup">rd</hi> series), 1932, 1-15. � In
-    1916 he published an article on <hi rend="italic">Cod. syr. Phillipps 1388 und
-    seine �ltesten Perikopenvermerke,</hi> Oriens Christianus 6
-    (2<hi rend="sup">nd</hi> series), 1916, 147-152. On page 149 he
-    declares: <hi rend="italic">�Ein vollst�ndiges Verzeichnis der wenigen, aber
-    nicht unwichtigen Sonderlesarten der wertvollen, in der
-    Textgeschichte der Peschitta so merkw�rdigen Hs. habe ich in
-    Vorbereitung�</hi>. <ref target="#FNRef3">
+    Berlin und seine Bedeutung für die Geschichte der
+    Pešitta</hi>, Oriens Christianus 7 (3<hi rend="sup">rd</hi>
+    series), 1932, 1-15. – In 1916 he published an article on
+    <hi rend="italic">Cod. syr. Phillipps 1388 und seine ältesten
+    Perikopenvermerke,</hi> Oriens Christianus 6 (2<hi rend="sup">nd</hi>
+    series), 1916, 147-152. On page 149 he declares: <hi rend="italic">‘Ein
+    vollständiges Verzeichnis der wenigen, aber nicht
+    unwichtigen Sonderlesarten der wertvollen, in der
+    Textgeschichte der Peschitta so merkwürdigen Hs. habe ich
+    in Vorbereitung’</hi>. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> G.H. Gwilliam, <hi rend="italic">The Materials for the criticism
     of the Peshitto New Testament, with specimens of the Syriac
     Massorah</hi>, Studia Biblica et Ecclesiastica vol. 3 (Oxford
     1891), 47-104, esp. 84-90. He maintained the homogeneity of the
-    Peshitta, which is without scores of rivisions; <hi rend="italic">�rather does
-    it present itself in our copies in a perfected and matured
-    condition. If the �revisions� ever really took place, time has
-    swept away nearly all the chips and shavings of the work�</hi>
-    (84). <ref target="#FNRef4">
+    Peshitta, which is without scores of rivisions;
+    <hi rend="italic">‘rather does it present itself in our copies in a
+    perfected and matured condition. If the ‘revisions’
+    ever really took place, time has swept away nearly all the
+    chips and shavings of the work’</hi> (84). <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef5">5</ref> Gwilliam�s judgement is ruled by different terms,
-    because for him �Old Syriac� was lacking real textual evidence.
-    His assessment of the Curetonian manuscript is illustrative:
-    <hi rend="italic">�It may be said that Cureton�s Syriac is related to the
-    Peshitto in the same way that the latter is to the
-    Philoxeno-Heraclean revision. This is certainly not true of the
-    Curetonian in its present form. If, for example, we collate the
-    Peshitto and Curetonian, (�),we find that in many verses the
-    language is so divergent that comparism is impracticable. If we
-    turn to other passages we discover that often the peculiarities
-    of the Curetonian bear a greater ressemblance to the later than
-    to the earlier Peshitto readings (�). It is freely admitted,
+         <p>
+            <ref target="#FNRef5">5</ref> Gwilliam’s judgement is ruled by different
+    terms, because for him ‘Old Syriac’ was lacking
+    real textual evidence. His assessment of the Curetonian
+    manuscript is illustrative: <hi rend="italic">‘It may be said that
+    Cureton’s Syriac is related to the Peshitto in the same
+    way that the latter is to the Philoxeno-Heraclean revision.
+    This is certainly not true of the Curetonian in its present
+    form. If, for example, we collate the Peshitto and Curetonian,
+    (…),we find that in many verses the language is so
+    divergent that comparism is impracticable. If we turn to other
+    passages we discover that often the peculiarities of the
+    Curetonian bear a greater ressemblance to the later than to the
+    earlier Peshitto readings (…). It is freely admitted,
     that in investigations of this nature conclusions are
     provisional. Our opinion of the antiquity of the Peshitto would
     of course be modified by the discovery of other documents, and
     clear evidence of the type of text which was current before St.
-    Ephraim�s days. Meanwhile, if we are to borrow terms from the
-    West, the Harclean, and not the Peshitto, is the
-    �SyriacVulgate�, the Peshitto is the �Old Syriac�, and not the
-    Curetonian in its present form. An Ur-Peshitto may once have
-    existed, and perhaps it provided the Evangelia out of which
-    Tatian constructed his Harmony; but its ancient text still
-    waits for the patient investigator or the lucky discoverer
-    (...). Meanwhile, it is certainly premature to treat Cureton�s
-    MS. as the basis of the Peshitto, and to quote it habitually as
-    the �Old Syriac�. That term might fitly be applied to so much
-    of the text of the Curetonian as could be shown to be older
-    than the Peshitto text; but to apply it without reserve to the
-    text of Add. 14,451 is to beg the question�</hi> (89-90).
-    <ref target="#FNRef5">
+    Ephraim’s days. Meanwhile, if we are to borrow terms from
+    the West, the Harclean, and not the Peshitto, is the
+    ‘SyriacVulgate’, the Peshitto is the ‘Old
+    Syriac’, and not the Curetonian in its present form. An
+    Ur-Peshitto may once have existed, and perhaps it provided the
+    Evangelia out of which Tatian constructed his Harmony; but its
+    ancient text still waits for the patient investigator or the
+    lucky discoverer (...). Meanwhile, it is certainly premature to
+    treat Cureton’s MS. as the basis of the Peshitto, and to
+    quote it habitually as the ‘Old Syriac’. That term
+    might fitly be applied to so much of the text of the Curetonian
+    as could be shown to be older than the Peshitto text; but to
+    apply it without reserve to the text of Add. 14,451 is to beg
+    the question’</hi> (89-90). <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> F.C. Burkitt, <hi rend="italic">Evangelion da-Mepharreshe</hi> vol.
     II (Cambridge 1904/Piscataway 2003), 160-165, and by the same
     author <hi rend="italic">Early Eastern Christianity</hi>. St. Margaret's
@@ -590,30 +631,30 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef7">7</ref> A. V��bus, <hi rend="italic">Early Versions of the New
+         <p>
+            <ref target="#FNRef7">7</ref> A. Vööbus, <hi rend="italic">Early Versions of the New
     Testament.</hi> Manuscript Studies (Papers of the Estonian
     Theological Society in Exile, vol. 6). Stockholm 1954 (Chapter
     III.2-3 on the Old Syriac and the Peshitta); <hi rend="italic">Studies in the
     History of the Gospel Text in Syriac</hi>, vol. I (CSCO 128),
-    Louvain 1951; vol. II� (CSCO 496), Louvain 1987. <ref target="#FNRef7">
+    Louvain 1951; vol. II  (CSCO 496), Louvain 1987. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> See his <hi rend="italic">Studies in the History of the Gospel
     Text in Syriac,</hi> vol. II , p. 24-26. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> 
             <hi rend="italic">Studies in the History of the Gospel Text in
     Syriac,</hi> vol. II , p. 17-24. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> M. Black, <hi rend="italic">The text of the Peshitta
     Tetraeuangelium,</hi> in: Studia Paulina in honorem Johannis de
     Zwaan septuagenarii, ed. J.N. Sevenester and W.C. van Unnik
@@ -621,46 +662,46 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> 
-            <hi rend="italic">�Gwilliam�s method appears to have been
-    to determine his text by a majority vote of his manuscripts; it
-    is not surprising to find again and again that it is his
-    predecessors who show the oldest form of the text, in readings
-    agreeing with the Old Syriac and relegated to the apparatus
-    criticus in the Gwilliam edition. Gwilliam has in fact given us
-    the latest not the earliest text of the Peshitta
-    Tetraeuangelium�</hi> (26). <ref target="#FNRef11">
+            <hi rend="italic">‘Gwilliam’s method appears to
+    have been to determine his text by a majority vote of his
+    manuscripts; it is not surprising to find again and again that
+    it is his predecessors who show the oldest form of the text, in
+    readings agreeing with the Old Syriac and relegated to the
+    apparatus criticus in the Gwilliam edition. Gwilliam has in
+    fact given us the latest not the earliest text of the Peshitta
+    Tetraeuangelium’</hi> (26). <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> M. Black, <hi rend="italic">The Syriac Versional
-    Tradition,</hi> in: K. Aland (Ed.), Die alten �bersetzungen des
-    Neuen Testaments, die Kirchenv�terzitate und Lektionare
-    (Arbeiten zur Neutestamentlichen Textforschung, vol. 5),
-    Berlin-New York 1972, pp. 120-159, the quotation on page 133.
-    <ref target="#FNRef12">
+    Tradition,</hi> in: K. Aland (Ed.), Die alten Übersetzungen
+    des Neuen Testaments, die Kirchenväterzitate und
+    Lektionare (Arbeiten zur Neutestamentlichen Textforschung, vol.
+    5), Berlin-New York 1972, pp. 120-159, the quotation on page
+    133. <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> See the analytical list of manuscripts in my
     <hi rend="italic">Introduction</hi> to the reprint (Piscataway 2003) of
     Gwilliam's Gospel volume.<ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef14">14</ref> Gwilliam�s manuscripts no. 16, 21, 22, 26,
-    27, 28, 31, 32, 33, 35, 38 should be (re-)collated in full, a
-    large number of further manuscripts V��bus recommends to be
-    included (<hi rend="italic">Studies in the History of the Gospel Text in
-    Syriac,</hi> vol. II). <ref target="#FNRef14">
+         <p>
+            <ref target="#FNRef14">14</ref> Gwilliam’s manuscripts no. 16, 21, 22,
+    26, 27, 28, 31, 32, 33, 35, 38 should be (re-)collated in full,
+    a large number of further manuscripts Vööbus
+    recommends to be included (<hi rend="italic">Studies in the History of the
+    Gospel Text in Syriac,</hi> vol. II). <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> Allgeier suggests a serious Greek background
     of the codex by pointing to the original Greek numbering of the
     quires. He reflects on the possibility that the scribe may have
@@ -668,14 +709,14 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> I am using the <hi rend="italic">Synopsis quattuor
     Evangeliorum,</hi> ed. by K. Aland (15<hi rend="sup">th</hi> revised ed.,
     Stuttgart 2001). <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> It is <hi rend="italic">Cod. 3. 1.300 Aug. fol. of the
     Herzog August Bibliothek, Wolfenbuettel (Germany)</hi>, written
     in the 6<hi rend="sup">th</hi> century, see. W. Strothmann, <hi rend="italic">Das
@@ -685,64 +726,67 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef18">18</ref> If the �pre-Peshitta� is not a fixed text
-    but a �type� of text like the �Old Syriac� with a range of
-    textual incarnations, its heritage cannot be distinguished from
-    the �Old Syriac� nor from the Peshitta. According to M. Black
-    the� �pre-Peshitta� is a fixed text introduced by Rabbula of
-    Edessa (see footnote 12). <ref target="#FNRef18">
+         <p>
+            <ref target="#FNRef18">18</ref> If the ‘pre-Peshitta’ is not a
+    fixed text but a ‘type’ of text like the ‘Old
+    Syriac’ with a range of textual incarnations, its
+    heritage cannot be distinguished from the ‘Old
+    Syriac’ nor from the Peshitta. According to M. Black
+    the  ‘pre-Peshitta’ is a fixed text introduced
+    by Rabbula of Edessa (see footnote 12). <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Aland, K. <hi rend="italic">Synopsis quattuor
+         <head xml:id="HV6N1Juckel9">Bibliography</head>
+         <p>Aland, K. <hi rend="italic">Synopsis quattuor
     Evangeliorum</hi>, ed. by K. Aland (15th revised ed., Stuttgart
     2001).</p>
-         <p xml:id="B2" rend="biblio">Allgeier, A. <hi rend="italic">Cod. syr. Phillipps
-    1388 und seine �ltesten Perikopenvermerke</hi>, Oriens
+         <p>Allgeier, A. <hi rend="italic">Cod. syr. Phillipps
+    1388 und seine ältesten Perikopenvermerke</hi>, Oriens
     Christianus 6 (2nd series), 1916, 147-152.</p>
-         <p xml:id="B3" rend="biblio">Allgeier, A. <hi rend="italic">Cod. Phillipps 1388
-    in Berlin und seine Bedeutung f�r die Geschichte der
-    Pe�itta</hi>, Oriens Christianus 7 (3rd series), 1932, 1-15.</p>
-         <p xml:id="B4" rend="biblio">Black, M. <hi rend="italic">The Syriac Versional
-    Tradition</hi>, in: K. Aland (Ed.), Die alten �bersetzungen des
-    Neuen Testaments, die Kirchenv�terzitate und Lektionare
-    (Arbeiten zur Neutestamentlichen Textforschung, vol. 5),
-    Berlin-New York 1972, pp. 120-159.</p>
-         <p xml:id="B5" rend="biblio">Black, M. <hi rend="italic">The text of the Peshitta
+         <p>Allgeier, A. <hi rend="italic">Cod. Phillipps 1388
+    in Berlin und seine Bedeutung für die Geschichte der
+    Pešitta</hi>, Oriens Christianus 7 (3rd series), 1932,
+    1-15.</p>
+         <p>Black, M. <hi rend="italic">The Syriac Versional
+    Tradition</hi>, in: K. Aland (Ed.), Die alten Übersetzungen
+    des Neuen Testaments, die Kirchenväterzitate und
+    Lektionare (Arbeiten zur Neutestamentlichen Textforschung, vol.
+    5), Berlin-New York 1972, pp. 120-159.</p>
+         <p>Black, M. <hi rend="italic">The text of the Peshitta
     Tetraeuangelium</hi>, in: Studia Paulina in honorem Johannis de
     Zwaan septuagenarii, ed. J.N. Sevenester and W.C. van Unnik
     (Haarlem 1953), 20-27.</p>
-         <p xml:id="B6" rend="biblio">Burkitt,F.C. <hi rend="italic">Evangelion
+         <p>Burkitt,F.C. <hi rend="italic">Evangelion
     da-Mepharreshe</hi> vol. II (Cambridge 1904/Piscataway
     2003).</p>
-         <p xml:id="B7" rend="biblio">Burkitt, F.C <hi rend="italic">Early Eastern
+         <p>Burkitt, F.C <hi rend="italic">Early Eastern
     Christianity</hi>. St. Margaret's Lectures 1904 on the
     Syriac-speaking Church (London 1904/Piscataway 2002), chapter
     II.</p>
-         <p xml:id="B8" rend="biblio">Gwilliam, G. H. <hi rend="italic">The Materials for
+         <p>Gwilliam, G. H. <hi rend="italic">The Materials for
     the criticism of the Peshitto New Testament</hi>, with specimens
     of the Syriac Massorah, Studia Biblica et Ecclesiastica vol. 3
     (Oxford 1891), 47-104.</p>
-         <p xml:id="B9" rend="biblio">Pusey, Ph.E. and Gwilliam, G.H.
+         <p>Pusey, Ph.E. and Gwilliam, G.H.
     <hi rend="italic">Tetraeuangelium Sanctum</hi> (Oxford 1901/Piscataway
     2003).</p>
-         <p xml:id="B10" rend="biblio">Sachau, E. <hi rend="italic">Verzeichnis der
-    Syrischen Handschriften der K�niglichen Bibliothek zu
+         <p>Sachau, E. <hi rend="italic">Verzeichnis der
+    Syrischen Handschriften der Königlichen Bibliothek zu
     Berlin</hi>, 1. Abteilung (Berlin 1899).</p>
-         <p xml:id="B11" rend="biblio">Strothmann, W. <hi rend="italic">Das
+         <p>Strothmann, W. <hi rend="italic">Das
     Wolfenbuetteler Tetraevangelium Syriacum. Lesarten und
     Lesungen</hi> (Goettinger Orientforschungen, vol. I,2),
     Wiesbaden 1971.</p>
-         <p xml:id="B12" rend="biblio">V��bus, A. <hi rend="italic">Early Versions of the
-    New Testament. Manuscript Studies</hi> (Papers of the Estonian
-    Theological Society in Exile, vol. 6). Stockholm 1954.</p>
-         <p xml:id="B13" rend="biblio">V��bus, A. <hi rend="italic">Studies in the History
-    of the Gospel Text in Syriac</hi>, vol. I (CSCO 128), Louvain
-    1951; vol. II (CSCO 496), Louvain 1987.</p>
+         <p>Vööbus, A. <hi rend="italic">Early
+    Versions of the New Testament. Manuscript Studies</hi> (Papers
+    of the Estonian Theological Society in Exile, vol. 6).
+    Stockholm 1954.</p>
+         <p>Vööbus, A. <hi rend="italic">Studies in
+    the History of the Gospel Text in Syriac</hi>, vol. I (CSCO
+    128), Louvain 1951; vol. II (CSCO 496), Louvain 1987.</p>
          <!-- #EndEditable -->
       </body>
    </text>

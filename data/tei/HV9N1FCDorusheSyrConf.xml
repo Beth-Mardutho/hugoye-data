@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dorushe Graduate Student Conference for Syriac Studies at CUA</title>
+            <title type="main">Dorushe Graduate Student Conference for Syriac Studies at CUA</title>
             <author>
-               <name>Washington, D.C. February 3-5, 2006</name>
+               <name>
+                  <forename>Washington, D.C.</forename>
+                  <surname>February 3-5, 2006</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol9No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv9n1fcdorushesyrconf</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conference</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,31 +86,31 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     <ref target="http://csec.cua.edu/">Center for the
     Study of Early Christianity</ref> and the <ref target="http://arts-sciences.cua.edu/semitics/">Semitics Department</ref> of the Catholic University of
     America (CUA) in cooperation with the Dorushe graduate student
     association, affiliated with <ref target="http://www.bethmardutho.org/">Beth Mardutho:
     The Syriac Institute</ref>, announce the 2006 Dorushe Syriac
     Studies Conference.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] This
+         <p>
+            <anchor corresp="P2"/>[2] This
     year's conference will be held at the CUA campus in Washington,
     D.C., February 3-5, 2006. The conference is especially designed
     to aid graduate students interested in integrating the field of
     Syriac studies with other academic disciplines for a teaching
     career. Papers will be pre-circulated to attendees and
     summarized at the conference.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Graduate
+         <p>
+            <anchor corresp="P3"/>[3] Graduate
     students who are interested in attending should contact
     56seville@cua.edu or consult the conference web page: <ref target="http://csec.cua.edu/conference/Dorushe2006.cfm">http://csec.cua.edu/conference/Dorushe2006.cfm</ref>.
     Graduate students who are interested in attending should
     contact 56seville@cua.edu in order to receive copies of the
     papers.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     conference program is as follows:</p>
          <table>
             <row valign="top">

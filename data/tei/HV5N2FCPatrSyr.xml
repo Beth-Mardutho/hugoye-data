@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Patrimoine syriaque</title>
+            <title type="main">Patrimoine syriaque</title>
             <author>
-               <name>Père Maroun Atallah</name>
+               <name>
+                  <forename>Père</forename>
+                  <surname>Atallah</surname>
+               </name>
                <affiliation>
                   <orgName>a Centre d’Études et de Recherches Orientales (CERO)</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv5n2fcpatrsyr</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conferences</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,36 +86,42 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Les
-    traducteurs syriaques héritiers du patrimoine de l’Orient
-    ancien et transmetteurs de la pensée grecque, persane et
-    indienne feront l’objet de deux colloques.</p>
+         <p>
+            <anchor corresp="P1"/>[1] Les
+    traducteurs syriaques héritiers du patrimoine de
+    l’Orient ancien et transmetteurs de la pensée
+    grecque, persane et indienne feront l’objet de deux
+    colloques.</p>
          <list type="unordered">
-            <item>Le premier (9ème dans la série des rencontres annuelles
-      sur le « Patrimoine syriaque ») présentera
-      l’expérience de la Mésopotamie. Il aura lieu à Bagdad du 23
-      au 26 avril 2003</item>
-            <item>Le second (10ème ) présentera l’expérience de la
-      Damascène. Il aura lieu à Damas en 2005. (Date à fixer
+            <item>Le premier (9ème dans la série des
+      rencontres annuelles sur le « Patrimoine
+      syriaque ») présentera
+      l’expérience de la Mésopotamie. Il aura
+      lieu à Bagdad du 23 au 26 avril 2003</item>
+            <item>Le second (10ème ) présentera
+      l’expérience de la Damascène. Il aura
+      lieu à Damas en 2005. (Date à fixer
       ultérieurement)</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] La
-    participation des spécialistes d’Orient et d’Occident au 9ème
-    colloque sera une occasion pour les jeunes du Moyen-Orient pour
-    découvrir leur patrimoine commun en vue d’une convivialité et
+         <p>
+            <anchor corresp="P2"/>[2] La
+    participation des spécialistes d’Orient et
+    d’Occident au 9ème colloque sera une occasion pour
+    les jeunes du Moyen-Orient pour découvrir leur
+    patrimoine commun en vue d’une convivialité et
     d’une paix durable .</p>
-         <p rend="n">
-            <anchor xml:id="32"/>[3] Le
-    Centre d’Etudes et de Recherches Orientales (CERO) a l’honneur
-    de vous inviter ainsi que votre honorable institution, à être
-    acteur dans la préparation et la réalisation de cette
+         <p>
+            <anchor corresp="32"/>[3] Le
+    Centre d’Etudes et de Recherches Orientales (CERO) a
+    l’honneur de vous inviter ainsi que votre honorable
+    institution, à être acteur dans la
+    préparation et la réalisation de cette
     manifestation.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Votre
-    réponse, d’un côté, et vos suggestions, de l’autre vont nous
-    permettre de former un comité scientifique qui veillera au bon
+         <p>
+            <anchor corresp="P4"/>[4] Votre
+    réponse, d’un côté, et vos
+    suggestions, de l’autre vont nous permettre de former un
+    comité scientifique qui veillera au bon
     déroulement de cette manifestation.</p>
          <!-- #EndEditable -->
       </body>

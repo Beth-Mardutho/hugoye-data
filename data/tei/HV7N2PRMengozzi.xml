@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Xavier Jacob et Angelo Guido Calonghi, Les Chr�tiens du Proche Orient apr�s deux mill�naires. Les vicissitudes des Communaut�s Chr�tiennes du Proche Orient des d�buts du Christianisme � la fin du IIme Mill�naire, Tirrenia Stampatori, Torino 2002, pp. 492, ISBN 88-7763-529-0, � 37,00</title>
+            <title type="main">Xavier Jacob et Angelo Guido Calonghi, Les Chrétiens du Proche Orient après deux millénaires. Les vicissitudes des Communautés Chrétiennes du Proche Orient des débuts du Christianisme à la fin du IIme Millénaire, Tirrenia Stampatori, Torino 2002, pp. 492, ISBN 88-7763-529-0, € 37,00</title>
             <author>
-               <name>Alessandro Mengozzi</name>
+               <name>
+                  <forename>Alessandro</forename>
+                  <surname>Mengozzi</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv7n2prmengozzi</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Alessandro Mengozzi</author>
-                  <title level="a">Xavier Jacob et Angelo Guido Calonghi, Les Chr�tiens du Proche Orient apr�s deux mill�naires. Les vicissitudes des Communaut�s Chr�tiennes du Proche Orient des d�buts du Christianisme � la fin du IIme Mill�naire, Tirrenia Stampatori, Torino 2002, pp. 492, ISBN 88-7763-529-0, � 37,00</title>
+                  <title level="a">Xavier Jacob et Angelo Guido Calonghi, Les Chrétiens du Proche Orient après deux millénaires. Les vicissitudes des Communautés Chrétiennes du Proche Orient des débuts du Christianisme à la fin du IIme Millénaire, Tirrenia Stampatori, Torino 2002, pp. 492, ISBN 88-7763-529-0, € 37,00</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Xavier Jacob</term>
+               <term>Angelo Guido Calonghi</term>
+               <term>History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,9 +86,10 @@
     
     
     
+
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Angelo
+         <p>
+            <anchor corresp="P1"/>[1] Angelo
     Guido Calonghi was an esteemed psycho-therapist in Turin, who
     cultivated, besides his profession, a learned and passionate
     interest for Eastern Christianity. He travelled in the Middle
@@ -72,42 +98,42 @@
     with the Assumptionist Father Xavier Jacob, who lived in Turkey
     for many years. Unfortunately, it is not specified which parts
     of the text are the work of one or the other author.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In the
+         <p>
+            <anchor corresp="P2"/>[2] In the
     preface, the authors state that they intend to provide their
-    readers with a quantitative—i.e., demographic—rather than
-    qualitative presentation of the Christian communities in the
-    Middle East. This purpose is achieved only in the central part
-    of the volume, which does indeed represent an outstanding
-    contribution to our factual knowledge of Eastern-Christian
-    history.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+    readers with a quantitative—i.e.,
+    demographic—rather than qualitative presentation of the
+    Christian communities in the Middle East. This purpose is
+    achieved only in the central part of the volume, which does
+    indeed represent an outstanding contribution to our factual
+    knowledge of Eastern-Christian history.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
     first part (19-126) provides a historical overview of the
     Christian presence in the East as mentioned in the title and
     subtitle of the book. It is mainly based on secondary
     literature from the Fifties and Sixties of the 20th century.
     The bibliography is incomplete: among the French works alone,
     it does not include, e.g., J. M. Fiey, <hi rend="italic">Assyrie
-    Chr�tienne</hi>, Beyrouth 1965, R. Khawam, <hi rend="italic">L'univers
-    culturel des chr�tiens d'Orient</hi>, Paris 1987, B. Landron,
-    <hi rend="italic">Chr�tiens et musulmans en Irak.</hi> 
-            <hi rend="italic">Attitudes
-    nestoriennes vis-�-vis de l'Islam</hi>, Paris 1994, J. M.
-    Billioud, <hi rend="italic">Histoire des chr�tiens d'Orient</hi>, Paris 1995,
-    or R. Le Coz, <hi rend="italic">�glise d�Orient. Chr�tiens d'Irak, d'Iran et
-    de Turquie</hi>, Paris 1995. An up-dated and richer
-    bibliography is badly needed on specific topics, such as, e.g.,
-    the beginning of the Chaldean movement (121, carefully studied
-    by the late Father Joseph Habbi in �Signification de l'union
-    chald�enne de Mar Sulaqa avec Rome en 1553�, <hi rend="italic">L'Orient
-    Syrien</hi> 11 (1966) 99-132 and 199-230) or the Protestant
-    missions in the Middle East (123-24; see, e.g., J. F. Coakley,
-    <hi rend="italic">The Church of the East and the Church of England</hi>,
-    Oxford 1992, and H.L. Murre-van den Berg, <hi rend="italic">From a Spoken to
-    a Written Language</hi>, Leiden 1999).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+    Chrétienne</hi>, Beyrouth 1965, R. Khawam, <hi rend="italic">L'univers
+    culturel des chrétiens d'Orient</hi>, Paris 1987, B.
+    Landron, <hi rend="italic">Chrétiens et musulmans en Irak.</hi>
+            <hi rend="italic">Attitudes nestoriennes vis-à-vis de l'Islam</hi>,
+    Paris 1994, J. M. Billioud, <hi rend="italic">Histoire des chrétiens
+    d'Orient</hi>, Paris 1995, or R. Le Coz, <hi rend="italic">Église
+    d’Orient. Chrétiens d'Irak, d'Iran et de
+    Turquie</hi>, Paris 1995. An up-dated and richer bibliography
+    is badly needed on specific topics, such as, e.g., the
+    beginning of the Chaldean movement (121, carefully studied by
+    the late Father Joseph Habbi in “Signification de l'union
+    chaldéenne de Mar Sulaqa avec Rome en 1553”,
+    <hi rend="italic">L'Orient Syrien</hi> 11 (1966) 99-132 and 199-230) or the
+    Protestant missions in the Middle East (123-24; see, e.g., J.
+    F. Coakley, <hi rend="italic">The Church of the East and the Church of
+    England</hi>, Oxford 1992, and H.L. Murre-van den Berg,
+    <hi rend="italic">From a Spoken to a Written Language</hi>, Leiden 1999).</p>
+         <p>
+            <anchor corresp="P4"/>[4] The
     survey on Eastern Christianity (chapter 1-4) is inserted in the
     broader framework of European history and shows traces of a
     theological approach. Taking a quite original point of view, at
@@ -122,67 +148,68 @@
     and 111). The relative mildness of Ottoman policy towards the
     Christians is interpreted as influenced by Sufi mysticism
     rather than Sunni jurisprudence (115).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     authors are aware of the problem of self-denomination vs.
     polemic and heresiologic terminology (69). Nevertheless, they
-    resort to terms such as �Jacobites� and �Nestorians� throughout
-    the book. Despite the important distinctions introduced in a
-    correct approach to this matter (e.g., S. Brock, "The
-    �Nestorian� Church: A Lamentable Misnomer," <hi rend="italic">Bulletin of the
-    John Rylands Library of Manchester</hi> 78 (1996) 23-36, not
-    mentioned by the authors), Nestorianism is said to have become
-    nothing but the �official doctrine� of the Persian Church
-    (45).</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+    resort to terms such as ‘Jacobites’ and
+    ‘Nestorians’ throughout the book. Despite the
+    important distinctions introduced in a correct approach to this
+    matter (e.g., S. Brock, "The ‘Nestorian’ Church: A
+    Lamentable Misnomer," <hi rend="italic">Bulletin of the John Rylands Library
+    of Manchester</hi> 78 (1996) 23-36, not mentioned by the
+    authors), Nestorianism is said to have become nothing but the
+    ‘official doctrine’ of the Persian Church (45).</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     fourth chapter is dedicated to the relationship between
     Christianity and the Turks and is followed by two appendices:
     on demographic data in the reign of Suleiman the Magnificent
     (1520-1535) and on the Jewish communities in the East from
     Biblical times to the 19th century (130-139). The demographic
-    appendix reproduces the study published by �. L. Barkan, �Essai
-    sur les donn�es statistiques des registres de recensements dans
-    l'Empir Ottoman aux XVe et XVIe si�cle�, <hi rend="italic">Journal of the
-    Economic and Social History of the Orient</hi> 1 (1958) 9-36,
-    with critical comments by our authors.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
-    fifth chapter is entitled �Christians in the Ottoman Empire of
-    Asia�. After a survey on the concept and history of the census
-    as a major institution in modern states (140-145), two
-    bibliographic sources on Ottoman censuses in the 19th century
-    are presented: V. Cuinet, <hi rend="italic">La Turquie d'Asie, G�ographie
-    Administrative</hi>, 4 vols., Paris 1891-1897 and K. H. Karpat,
-    <hi rend="italic">Ottoman Population 1830-1914. Demographic and Social
-    Characteristics</hi>, Madison, The University of Wisconsin
-    Press 1985. Cuinet integrated the results of Ottoman censuses
-    with data provided by local informants, oral tradition and
-    historical notices occasionally given by travellers or in
+    appendix reproduces the study published by Ö. L. Barkan,
+    ‘Essai sur les données statistiques des registres
+    de recensements dans l'Empir Ottoman aux XVe et XVIe
+    siècle’, <hi rend="italic">Journal of the Economic and Social
+    History of the Orient</hi> 1 (1958) 9-36, with critical
+    comments by our authors.</p>
+         <p>
+            <anchor corresp="P7"/>[7] The
+    fifth chapter is entitled ‘Christians in the Ottoman
+    Empire of Asia’. After a survey on the concept and
+    history of the census as a major institution in modern states
+    (140-145), two bibliographic sources on Ottoman censuses in the
+    19th century are presented: V. Cuinet, <hi rend="italic">La Turquie d'Asie,
+    Géographie Administrative</hi>, 4 vols., Paris 1891-1897
+    and K. H. Karpat, <hi rend="italic">Ottoman Population 1830-1914. Demographic
+    and Social Characteristics</hi>, Madison, The University of
+    Wisconsin Press 1985. Cuinet integrated the results of Ottoman
+    censuses with data provided by local informants, oral tradition
+    and historical notices occasionally given by travellers or in
     administrative reports (150-151). Karpat's work concentrates on
     the data that Turkish functionaries collected in the censuses
     of 1881/82-1893 and 1905-1906, in the context of various
     attempts to reform Ottoman bureaucracy and the levy system
     (146-150).</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Central
+         <p>
+            <anchor corresp="P8"/>[8] Central
     to the 5th chapter (153-348) are Cuinet's and Karpat's figures
-    for each of the 25 provinces (<hi rend="italic">vil�yet</hi> or
-    <hi rend="italic">mutasarriflık</hi>) which formed the Ottoman Empire during
-    the last decade of the 19th and the first decade of the 20th
-    centuries. Each province is presented as follows: 1) a map
+    for each of the 25 provinces (<hi rend="italic">vilâyet</hi> or
+    <hi rend="italic">mutasarriflık</hi>) which formed the Ottoman Empire
+    during the last decade of the 19th and the first decade of the
+    20th centuries. Each province is presented as follows: 1) a map
     derived from Cuinet's cartography (names of places are
     sometimes reproduced in small characters that make them almost
     unreadable); 2) a table giving the administrative districts of
-    the province (<hi rend="italic">sanc�k</hi>s and <hi rend="italic">kazā</hi>s); 3) a
-    historical sketch of the province and the districts with
+    the province (<hi rend="italic">sancàk</hi>s and <hi rend="italic">kazā</hi>s);
+    3) a historical sketch of the province and the districts with
     particular reference to the arrival of Christianity, the first
     Muslim invasions, the Ottoman conquest, and, when available,
     details on the contemporary situation of the Christians; 4)
     tables which report the demographic data of the province in
     general and of each district.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] The
+         <p>
+            <anchor corresp="P9"/>[9] The
     historical notices and the demographic tables are extremely
     useful. In a couple of paragraphs, the reader gains an insight
     into the history of each district. Unfortunately, no
@@ -197,40 +224,40 @@
     Bulgarians, other foreigners), who were present in a given
     province or district when the censuses were made. Data of the
     two sources are then compared and critically discussed.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] In
+         <p>
+            <anchor corresp="P10"/>[10] In
     the appendix to the fifth chapter (349-366), fifteen tables
     summarize the numerical consistence of the various religious
     communities (Muslim, non Catholic Christian, Catholic, Jewish,
     Armenian Orthodox, Greek Orthodox, Melkite Orthodox,
-    East-Syrian—�Nestorian�, Protestant, Syrian Orthodox, Armenian
-    Catholic, Chaldean, Maronite, Melkite Catholic, Syrian
-    Catholic) in the 25 provinces.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
+    East-Syrian—‘Nestorian’, Protestant, Syrian
+    Orthodox, Armenian Catholic, Chaldean, Maronite, Melkite
+    Catholic, Syrian Catholic) in the 25 provinces.</p>
+         <p>
+            <anchor corresp="P11"/>[11] The
     sixth chapter (367-390) presents the Christian presence in the
     Middle East as reflected by the 20th-century censuses. The main
-    sources are the <hi rend="italic">Annuaire D�mographique</hi>, published by
-    the United Nations (the issues considered go from 1956 to 1993)
-    and the <hi rend="italic">Census of Populations</hi> published by the Ankara
-    Institute of Statistics. Nine tables provide the figures of the
-    religious composition of the population (Muslims, Christians,
-    Jews, other religions) in various years in Aden, Bahrain,
-    United Arab Emirates, Iraq, Israel, Jordan, Kuwait, Palestine
-    (Gaza), and Turkey. A historical sketch for each state and a
-    brief discussion accompany the demographic tables. An appendix
-    (391-404) outlines the evolution of the Christian presence in
-    Turkey from the Ottoman to the Republican periods. The authors
-    attempt then to explain the dramatic decrease in the number of
-    Christians, mentioning factors such as the discriminatory
-    policy of the Turkish government in fiscal matters and in the
-    educational system. Both Muslim and non Muslim Turkish people
-    emigrated to Europe and Israel, but Muslim emigration turned
-    out to be an economically motivated choice limited to certain
-    periods, while for Jews and Christians there has been a
-    continuous flow of emigration.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+    sources are the <hi rend="italic">Annuaire Démographique</hi>,
+    published by the United Nations (the issues considered go from
+    1956 to 1993) and the <hi rend="italic">Census of Populations</hi> published
+    by the Ankara Institute of Statistics. Nine tables provide the
+    figures of the religious composition of the population
+    (Muslims, Christians, Jews, other religions) in various years
+    in Aden, Bahrain, United Arab Emirates, Iraq, Israel, Jordan,
+    Kuwait, Palestine (Gaza), and Turkey. A historical sketch for
+    each state and a brief discussion accompany the demographic
+    tables. An appendix (391-404) outlines the evolution of the
+    Christian presence in Turkey from the Ottoman to the Republican
+    periods. The authors attempt then to explain the dramatic
+    decrease in the number of Christians, mentioning factors such
+    as the discriminatory policy of the Turkish government in
+    fiscal matters and in the educational system. Both Muslim and
+    non Muslim Turkish people emigrated to Europe and Israel, but
+    Muslim emigration turned out to be an economically motivated
+    choice limited to certain periods, while for Jews and
+    Christians there has been a continuous flow of emigration.</p>
+         <p>
+            <anchor corresp="P12"/>[12] The
     seventh chapter (405-433) presents the Catholic minority in the
     Middle East as recorded in the <hi rend="italic">Annuaire Pontifical,</hi>
     now published by the Vatican Central Office of Statistics, and
@@ -239,8 +266,8 @@
     country, a table gives the numbers of Catholics and of new
     baptisms in various years, from 1950 to 1995, specifying the
     figures per diocese and rite.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+         <p>
+            <anchor corresp="P13"/>[13] The
     eighth chapter (434-485) sums up and continues the historical
     outline of the first four chapters. The authors address two
     main questions. Firstly, they search the past of the Eastern
@@ -251,21 +278,22 @@
     disappear. The past of the Middle East is scanned once again in
     a rather schematic way: Constantine and the Christian Empire of
     the Middle East, the Empire of the Arabs and the difficult
-    condition of the Christians as �discriminated prot�g�es�, the
-    egalitarian reforms introduced in the Ottoman Empire and the
-    �psychological wall� that nevertheless divided the religious
-    minorities from the Muslim majority, the complicated
-    relationships with the Western powers, the advent of
-    colonialism and the emergence of Eastern nationalisms. A survey
-    then describes the present condition of the Christian
-    minorities in the various countries of the Middle East. The
-    section which concludes the chapter is a sociological essay on
-    its own, dealing with the subtle problems of the psychological
-    attitudes, the sociological status and dynamicity of the
-    Christian minorities as well as with their possible future in
-    the era of �globalization� and �new economy�.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+    condition of the Christians as ‘discriminated
+    protégées’, the egalitarian reforms
+    introduced in the Ottoman Empire and the ‘psychological
+    wall’ that nevertheless divided the religious minorities
+    from the Muslim majority, the complicated relationships with
+    the Western powers, the advent of colonialism and the emergence
+    of Eastern nationalisms. A survey then describes the present
+    condition of the Christian minorities in the various countries
+    of the Middle East. The section which concludes the chapter is
+    a sociological essay on its own, dealing with the subtle
+    problems of the psychological attitudes, the sociological
+    status and dynamicity of the Christian minorities as well as
+    with their possible future in the era of
+    ‘globalization’ and ‘new economy’.</p>
+         <p>
+            <anchor corresp="P14"/>[14]
     Notwithstanding the title, the volume does not give a
     satisfactory general presentation of the history of Eastern
     Christianity. The authors' use of the demographic data to

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Peter J. Williams, Studies in the Syntax of the Peshitta of 1 Kings, Monographs of the Peshitta Institute Leiden (Leiden: Brill, 2001)</title>
+            <title type="main">Peter J. Williams, Studies in the Syntax of the Peshitta of 1 Kings, Monographs of the Peshitta Institute Leiden (Leiden: Brill, 2001)</title>
             <author>
-               <name>Richard A. TAYLOR</name>
+               <name>
+                  <forename>Richard A.</forename>
+                  <surname>Taylor</surname>
+               </name>
                <affiliation>
                   <orgName>Dallas Theological Seminary</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n2prtaylor</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Peshitta</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
+         <p>
+            <anchor corresp="P1"/>[1] This
     volume is a revised Ph.D. dissertation completed at the
     University of Cambridge in 1997 under the supervision of
     Geoffrey Khan. In it Williams analyzes selected features of the
@@ -79,8 +102,8 @@
     to be complemented by similar work in the rest of the Old
     Testament before being accepted as representative for the
     Peshitta in general.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Only one
+         <p>
+            <anchor corresp="P2"/>[2] Only one
     detailed study of the Peshitta of 1 Kings has previously
     appeared, that of J. Berlinger. Berlinger's work was
     text-critical in nature, dealing with the relationship of the
@@ -94,8 +117,8 @@
     Leiden edition of the Peshitta. This critical edition provides
     a more solid footing for textual analysis than was possible in
     Berlinger's day.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Williams' monograph is organized into twelve chapters. In the
     first chapter the author surveys earlier work in the areas of
     Peshitta studies and Syriac syntax, particularly as they affect
@@ -110,10 +133,10 @@
     previously. A final chapter summarizes the author's
     conclusions. Throughout this volume the author regularly takes
     into account the syntactical contributions of the following
-    five scholars: Th. Nöldeke, R. Duval, I. Avinery, T. Muraoka,
-    and J. Joosten.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] In what
+    five scholars: Th. Nöldeke, R. Duval, I. Avinery, T.
+    Muraoka, and J. Joosten.</p>
+         <p>
+            <anchor corresp="P4"/>[4] In what
     is perhaps a too brief introduction of only six pages Williams
     touches on some general matters related to study of the
     Peshitta and its syntax and translation technique. Here he
@@ -129,8 +152,8 @@
     countered by his interaction with the secondary literature
     later in the book, but it would have been helpful to have a
     more thorough overview at the outset of the volume.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In a
+         <p>
+            <anchor corresp="P5"/>[5] In a
     number of places Williams is able to correct certain
     syntactical conclusions drawn by earlier scholars. For example,
     he shows that Avinery's conclusion that the three constructions
@@ -138,19 +161,19 @@
     definiteness is not actually borne out by the evidence in 1
     Kings. Instead, a variety of other factors are involved in
     determining which of these constructions is used. He also shows
-    that Nöldeke's view that degrees of determination are reflected
-    in the several structures in Syriac for indicating direct
-    objects is inadequate, at least in the case of 1 Kings. He also
-    questions Avinery's view, based on a preference to express
-    direct objects by the structure <hi rend="italic">verb + object suffix / l +
-    nominal</hi>, that the Syriac translator of Exodus was different
-    from the translator(s) of the rest of the Pentateuch. According
-    to Williams, this choice is due instead to the high incidence
-    in Exodus of descriptions of the making of cult furniture. It
-    should not therefore be used as evidence for a different
-    translator.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Williams
+    that Nöldeke's view that degrees of determination are
+    reflected in the several structures in Syriac for indicating
+    direct objects is inadequate, at least in the case of 1 Kings.
+    He also questions Avinery's view, based on a preference to
+    express direct objects by the structure <hi rend="italic">verb + object suffix
+    / l + nominal</hi>, that the Syriac translator of Exodus was
+    different from the translator(s) of the rest of the Pentateuch.
+    According to Williams, this choice is due instead to the high
+    incidence in Exodus of descriptions of the making of cult
+    furniture. It should not therefore be used as evidence for a
+    different translator.</p>
+         <p>
+            <anchor corresp="P6"/>[6] Williams
     also shows that the citation of the Peshitta in the apparatus
     of <hi rend="italic">BHS</hi> is at times inconsistent and even misleading,
     particularly in citations related to the presence or absence of
@@ -159,8 +182,8 @@
     has nothing to do with textual variation in the Syriac
     <hi rend="italic">Vorlage</hi>, textual critics should evaluate such readings
     at a deeper level than that of surface only.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Williams
+         <p>
+            <anchor corresp="P7"/>[7] Williams
     is also able to show that variation in the use of verb tenses
     in the Syriac translation as compared to those in the Hebrew
     text is often due not to textual causes but to Syriac idiom. In
@@ -173,8 +196,8 @@
     that deserves to be followed up in future grammatical research,
     even though it is possible that the translators may not have
     fully grasped the significance of this form.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8]
+         <p>
+            <anchor corresp="P8"/>[8]
     Williams' conclusions on word order, particularly in speech
     formulae, demonstrate why caution is needed before suggesting
     that variation in word order is necessarily due to textual
@@ -191,8 +214,8 @@
     documented numerous instances of this translation technique in
     the Book of Daniel. Other scholars have noticed a similar
     tendency in certain other books of the Peshitta as well.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9]
+         <p>
+            <anchor corresp="P9"/>[9]
     Williams' general conclusion for the syntax of the Peshitta of
     1 Kings is that it is "a remarkably consistent translation"
     when consistency is defined not in terms of its Hebrew
@@ -204,8 +227,8 @@
     semantic rather than formal equivalence" (p. 184). This
     conclusion is consistent with what investigators have
     determined for other parts of the Peshitta as well.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] The
+         <p>
+            <anchor corresp="P10"/>[10] The
     attention that has been given to the Peshitta over the last
     half-century or so is a welcome change to the pattern of
     neglect that prevailed previously. Much of this attention in

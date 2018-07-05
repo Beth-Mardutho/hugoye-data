@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mar Aprem Mooken, The Assyrian Church of the East in the Twentieth Century (Mōrān �Eth�ō, 18; Kottayam: St. Ephrem Ecumenical Research Institute, 2003), 307 pp.</title>
+            <title type="main">Mar Aprem Mooken, The Assyrian Church of the East in the Twentieth Century (Mōrān ’Eth’ō, 18; Kottayam: St. Ephrem Ecumenical Research Institute, 2003), 307 pp.</title>
             <author>
-               <name>Alexander Toepel</name>
+               <name>
+                  <forename>Alexander</forename>
+                  <surname>Toepel</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv8n2prtoepel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Alexander Toepel</author>
-                  <title level="a">Mar Aprem Mooken, The Assyrian Church of the East in the Twentieth Century (Mōrān �Eth�ō, 18; Kottayam: St. Ephrem Ecumenical Research Institute, 2003), 307 pp.</title>
+                  <title level="a">Mar Aprem Mooken, The Assyrian Church of the East in the Twentieth Century (Mōrān ’Eth’ō, 18; Kottayam: St. Ephrem Ecumenical Research Institute, 2003), 307 pp.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac Inscriptions</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In spite
+         <p>
+            <anchor corresp="P1"/>[1] In spite
     of its comparative proximity the modern history of the Church
     of the East remains one of the underdeveloped fields in the
     study of Eastern Christianity. Any publication on this subject
@@ -88,8 +111,8 @@
     Pope John Paul II. and Catholicos Mar Dinkha IV. as well as a
     Joint Synodal Decree of the Assyrian and Chaldaean churches for
     promoting unity among each other from 1997.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] As the
+         <p>
+            <anchor corresp="P2"/>[2] As the
     distribution of page numbers shows, the major part of the book
     deals with the period from 1900-1933 and it is here that the
     author makes a real contribution by drawing upon the riches of
@@ -105,8 +128,8 @@
     is the section on the ecumenical era from 1976 to the present,
     in which the author himself played a significant role and thus
     is able to present an eye-witness account.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Apart
+         <p>
+            <anchor corresp="P3"/>[3] Apart
     from these issues which are treated in detail, at other points
     there is a potential of deepening the investigation. To begin
     with, the book is purely church-historical in character, which
@@ -121,20 +144,21 @@
     On p. 158 the patriarch's temporal power is briefly mentioned,
     but it is not made clear how far this claim to civil
     jurisdiction is related to the Ottoman law system. In addition
-    it has to be said that the account on pp. 157-159 is—as the
-    author on p. 157 n. 65 himself acknowledges—based upon an
-    account friendly towards Patriarch Eshai Shimun. In fact it
-    seems to have been the case not so much that British or Iraqi
-    officials tried to diminish the influence of the patriarchal
-    family but rather that the Patriarch himself insisted upon
-    retaining (and presumably exercising) his temporal power, and
-    that this was the main reason for his eventual expulsion from
-    Iraq (cf. J. Joseph, <hi rend="italic">The Nestorians and their Muslim
-    Neighbors</hi> [Princeton: Princeton University Press, 1961],
-    pp. 198-200; G. Yonan, <hi rend="italic">Assyrer heute</hi> [Hamburg:
-    Gesellschaft f�r bedrohte V�lker, 1978], pp. 60-61).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The same
+    it has to be said that the account on pp. 157-159 is—as
+    the author on p. 157 n. 65 himself acknowledges—based
+    upon an account friendly towards Patriarch Eshai Shimun. In
+    fact it seems to have been the case not so much that British or
+    Iraqi officials tried to diminish the influence of the
+    patriarchal family but rather that the Patriarch himself
+    insisted upon retaining (and presumably exercising) his
+    temporal power, and that this was the main reason for his
+    eventual expulsion from Iraq (cf. J. Joseph, <hi rend="italic">The Nestorians
+    and their Muslim Neighbors</hi> [Princeton: Princeton University
+    Press, 1961], pp. 198-200; G. Yonan, <hi rend="italic">Assyrer heute</hi>
+    [Hamburg: Gesellschaft für bedrohte Völker, 1978],
+    pp. 60-61).</p>
+         <p>
+            <anchor corresp="P4"/>[4] The same
     holds true in regard of the Patriarch's relationship to the
     Nestorian military leader Agha Petros, which could have been
     treated in more depth than is actually the case on pp. 116-117,
@@ -151,30 +175,31 @@
     Joseph and J. F. Coakley (cf. Joseph, <hi rend="italic">Nestorians</hi>, pp.
     13-21; J. F. Coakley, <hi rend="italic">The Church of the East and the Church
     of England</hi> [Oxford: Clarendon Press, 1992], p. 4-6 with n.
-    12)—upon which the account on pp. 51-67, 99-110 otherwise is
-    heavily dependent—contain lengthy sections on this.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Finally
-    it has to be asked whether—given the fact that Mesopotamia at
-    this time was regarded as being vital to British imperial
-    interests (cf. D. Fromkin, <hi rend="italic">A Peace to End All Peace</hi>
-    [London: Andr� Deutsch, 1989], pp. 146-149, 449-454,
-    558-567)—the motive behind the Anglican church's "mission of
-    help" (p. 69) was really as altruistic as it is presented on
-    pp. 69 and 85. Even in the missionary W. A. Wigram's letter to
-    the Archbishop of Canterbury from 1911, which is quoted on pp.
-    96-98, the link between the Church of England's missionary work
-    and the political interests of the British Empire is made
-    unmistakably clear. In this respect the Anglican determination
-    to preserve the Church in the East in its original state rather
-    appears as an attempt to keep it from falling under
-    Presbyterian, Catholic or Russian Orthodox sway and the
-    influence of the countries behind these churches, namely the
-    United States, France and Russia. Notwithstanding the good
-    intentions of individual churchmen this seems to have been a
-    serious motive behind the help which the Assyrians received
-    from the Anglican church and the British crown (cf. Joseph,
-    <hi rend="italic">Nestorians</hi>, pp. 87-92, 95-107). British military
+    12)—upon which the account on pp. 51-67, 99-110 otherwise
+    is heavily dependent—contain lengthy sections on
+    this.</p>
+         <p>
+            <anchor corresp="P5"/>[5] Finally
+    it has to be asked whether—given the fact that
+    Mesopotamia at this time was regarded as being vital to British
+    imperial interests (cf. D. Fromkin, <hi rend="italic">A Peace to End All
+    Peace</hi> [London: André Deutsch, 1989], pp. 146-149,
+    449-454, 558-567)—the motive behind the Anglican church's
+    "mission of help" (p. 69) was really as altruistic as it is
+    presented on pp. 69 and 85. Even in the missionary W. A.
+    Wigram's letter to the Archbishop of Canterbury from 1911,
+    which is quoted on pp. 96-98, the link between the Church of
+    England's missionary work and the political interests of the
+    British Empire is made unmistakably clear. In this respect the
+    Anglican determination to preserve the Church in the East in
+    its original state rather appears as an attempt to keep it from
+    falling under Presbyterian, Catholic or Russian Orthodox sway
+    and the influence of the countries behind these churches,
+    namely the United States, France and Russia. Notwithstanding
+    the good intentions of individual churchmen this seems to have
+    been a serious motive behind the help which the Assyrians
+    received from the Anglican church and the British crown (cf.
+    Joseph, <hi rend="italic">Nestorians</hi>, pp. 87-92, 95-107). British military
     interest in the Assyrians is made especially clear by the
     history of the Iraq Levies, which consisted of Nestorian
     tribesmen and played a vital role during the British mandate in
@@ -186,8 +211,8 @@
     Timotheus, who at this time opposed the Patriarch Eshai Shimun,
     access to their Assyrian levy troops it would have been helpful
     to refer to the political situation outlined just above.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] For
+         <p>
+            <anchor corresp="P6"/>[6] For
     clarity's sake it is furthermore necessary to indicate a few
     minor inaccuracies. (p. 30-31) Obviously Rabban Sauma is
     confused with Marqos, later Patriarch Yahballaha III. Marqos
@@ -195,12 +220,12 @@
     the pope (p. 31) Here it is stated that after Timur's genocide
     the Church of the East "never had peaceful days". There are,
     however, no massacres reported until 1843 (cf. Joseph,
-    <hi rend="italic">Nestorians</hi>, pp. 29-30). (p. 99) Kemal Atat�rk was not
-    involved in the Young Turk revolution of 1908. The person in
-    question here is probably Kemal Pasha. Last but not least an
+    <hi rend="italic">Nestorians</hi>, pp. 29-30). (p. 99) Kemal Atatürk was
+    not involved in the Young Turk revolution of 1908. The person
+    in question here is probably Kemal Pasha. Last but not least an
     index would substantially facilitate the use of the book.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] These
+         <p>
+            <anchor corresp="P7"/>[7] These
     points notwithstanding, the book's strength remains that for
     the first time it affords a glimpse into the rich archive
     material in India which for the larger part still awaits

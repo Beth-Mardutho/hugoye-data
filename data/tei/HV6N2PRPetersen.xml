@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Robert F. Shedinger, Tatian and the Jewish Scriptures: A Textual and Philological Analysis of the Old Testament Citations in Tatian's Diatessaron. Corpus Scriptorum Christianorum Orientalium, Vol. 591 (Subsidia 109) (Lovanii: Peeters, 2001). ISBN: 90-429-1042-9. Price: � 70.00.</title>
+            <title type="main">Robert F. Shedinger, Tatian and the Jewish Scriptures: A Textual and Philological Analysis of the Old Testament Citations in Tatian's Diatessaron. Corpus Scriptorum Christianorum Orientalium, Vol. 591 (Subsidia 109) (Lovanii: Peeters, 2001). ISBN: 90-429-1042-9. Price: € 70.00.</title>
             <author>
-               <name>William L. PETERSEN</name>
+               <name>
+                  <forename>William L.</forename>
+                  <surname>Petersen</surname>
+               </name>
                <affiliation>
                   <orgName>Religious Studies</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n2prpetersen</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>William L. PETERSEN</author>
-                  <title level="a">Robert F. Shedinger, Tatian and the Jewish Scriptures: A Textual and Philological Analysis of the Old Testament Citations in Tatian's Diatessaron. Corpus Scriptorum Christianorum Orientalium, Vol. 591 (Subsidia 109) (Lovanii: Peeters, 2001). ISBN: 90-429-1042-9. Price: � 70.00.</title>
+                  <title level="a">Robert F. Shedinger, Tatian and the Jewish Scriptures: A Textual and Philological Analysis of the Old Testament Citations in Tatian's Diatessaron. Corpus Scriptorum Christianorum Orientalium, Vol. 591 (Subsidia 109) (Lovanii: Peeters, 2001). ISBN: 90-429-1042-9. Price: € 70.00.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,22 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Tatian</term>
+               <term>Diatessaron</term>
+               <term>Philology</term>
+               <term>Shendinger</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +89,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Because
+         <p>
+            <anchor corresp="P1"/>[1] Because
     of its antiquity (it was composed about 172 C.E.), Tatian's
     gospel harmony, the Diatessaron, has been the subject of
     intensive study since the Enlightenment. However, since we
@@ -95,43 +121,44 @@
     Harmonies (which derive from the Middle Dutch); and two
     families of Early Italian Harmonies (one in the Tuscan and one
     in the Venetian dialects).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Although
+         <p>
+            <anchor corresp="P2"/>[2] Although
     the Diatessaron has usually been associated with New Testament
     studies, it has long been realized that it is also of potential
     relevance to studies of the Hebrew Bible (the Christian Old
-    Testament [OT])—for the gospels contain a considerable number
-    of quotations from the OT. Furthermore, since a strong case can
-    be made that the Diatessaron was the first gospel text in
-    Syriac, the form of the OT citations in the Diatessaron—if they
-    could be reconstructed with any degree of reliability—may be of
-    value for investigating the history of the OT in Syriac.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Using
+    Testament [OT])—for the gospels contain a considerable
+    number of quotations from the OT. Furthermore, since a strong
+    case can be made that the Diatessaron was the first gospel text
+    in Syriac, the form of the OT citations in the
+    Diatessaron—if they could be reconstructed with any
+    degree of reliability—may be of value for investigating
+    the history of the OT in Syriac.</p>
+         <p>
+            <anchor corresp="P3"/>[3] Using
     these well-known observations as his point of departure, the
     author of this monograph, Robert Shedinger, endeavors to
     demonstrate three things. First, he seeks to show that the
     Syriac gospel tradition, especially as manifest in its
-    (putative) oldest form—namely, Tatian's Diatessaron—contains
-    "readings that are earlier than, and probably more original
-    than, what can be recovered from the Greek text tradition
-    alone" (p. 2). Second, acknowledging that there are divergences
-    between the text of the Diatessaron and the "canonical Greek
-    Gospels," Shedinger's study "will demonstrate that many of
-    these divergences are not the result of Tatian's editorial
-    work, but that Tatian generally took over the Old Testament
-    citations in the form he found them in his sources" (p. 2).
-    Third, Shedinger will attempt to demonstrate that the OT
-    citations in the Diatessaron have not been influenced by the
-    text of the Peshitta OT (pp. 8-11; the reverse has been argued
-    by Prof. Jan Joosten, of Strasbourg ["The Old Testament
-    Quotations in the Old Syriac and the Peshitta Gospels: A
-    Contribution to the Study of the Diatessaron," <hi rend="italic">Textus</hi> 15
-    (1990), 55-76]; your reviewer endorses neither
-    position).<lb/>
+    (putative) oldest form—namely, Tatian's
+    Diatessaron—contains "readings that are earlier than, and
+    probably more original than, what can be recovered from the
+    Greek text tradition alone" (p. 2). Second, acknowledging that
+    there are divergences between the text of the Diatessaron and
+    the "canonical Greek Gospels," Shedinger's study "will
+    demonstrate that many of these divergences are not the result
+    of Tatian's editorial work, but that Tatian generally took over
+    the Old Testament citations in the form he found them in his
+    sources" (p. 2). Third, Shedinger will attempt to demonstrate
+    that the OT citations in the Diatessaron have not been
+    influenced by the text of the Peshitta OT (pp. 8-11; the
+    reverse has been argued by Prof. Jan Joosten, of Strasbourg
+    ["The Old Testament Quotations in the Old Syriac and the
+    Peshitta Gospels: A Contribution to the Study of the
+    Diatessaron," <hi rend="italic">Textus</hi> 15 (1990), 55-76]; your reviewer
+    endorses neither position).<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] This is
+         <p>
+            <anchor corresp="P4"/>[4] This is
     a very tall order. Anyone familiar with such research will
     immediately recognize that the waters are not only murky, but
     filled with hidden cross-currents: the differing readings among
@@ -142,10 +169,10 @@
     at least three languages (Hebrew, Greek, Syriac), the same
     vagaries across the multiple languages of the Diatessaronic
     witnesses themselves, and the versional history and development
-    not just of the Peshitta OT but also the Syriac NT—to name only
-    the most obvious. By its very nature, this is an extremely
-    complex, ambitious undertaking. To be ambitious in one's
-    dissertation (the volume under review is a dissertation
+    not just of the Peshitta OT but also the Syriac NT—to
+    name only the most obvious. By its very nature, this is an
+    extremely complex, ambitious undertaking. To be ambitious in
+    one's dissertation (the volume under review is a dissertation
     submitted at Temple University [Philadelphia, USA] in 2001), is
     not, <hi rend="italic">per se</hi>, a bad thing. But it requires competent
     guidance from a <hi rend="italic">Doktorvater</hi> (or -<hi rend="italic">mutter</hi>), a
@@ -155,8 +182,8 @@
     sensitivity to philological possibilities, and well developed
     logical and self-critical skills. This volume falls short on
     all these measures.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     doctoral committee contained no experts on Biblical textual
     criticism, the Syriac Bible, or the Diatessaron. Whether the
     committee considered itself competent where it was not, or
@@ -168,8 +195,8 @@
     philological errors, and methodological blunders that mar this
     book. He has not. The result is a study that does not achieve
     its stated purposes.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Let us
+         <p>
+            <anchor corresp="P6"/>[6] Let us
     begin by examining one of the book's stated goals: to show that
     "many of [the] divergences [between the OT citations in the
     Greek gospels and the OT citations in the Diatessaron] are not
@@ -180,8 +207,8 @@
     4:16, which is his second reading. (Shedinger's evidence
     consists of 69 unnumbered readings; for ease of reference, your
     reviewer has numbered them seriatim.)</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7]
+         <p>
+            <anchor corresp="P7"/>[7]
     Shedinger claims he has reconstructed the Diatessaron's text of
     Matt 4:16, and concludes that the Diatessaron omitted the word
     "land" (or "region": "those who sat in [<hi rend="italic">a land</hi> of] the
@@ -194,8 +221,8 @@
     form of the [OT] citation[s]," one that is, in this case
     (according to Shedinger), identical with "the original text of
     Matthew."</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] There
+         <p>
+            <anchor corresp="P8"/>[8] There
     are two claims here: first, that the Diatessaron omitted the
     word "land," and, second, that this variant is "the original
     text of Matthew," and is not due to Tatian tampering with the
@@ -220,8 +247,8 @@
     problems are numerous, grave, and obvious. Let us begin by
     looking at the reading itself, and then consider whether it is
     "the original text of Matthew."</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] The
+         <p>
+            <anchor corresp="P9"/>[9] The
     first observation that strikes one is that the reading is an
     omission. Textual critics know that omissions are, <hi rend="italic">a
     priori</hi>, very weak evidence, for an omission is, strictly
@@ -240,8 +267,8 @@
     interpolations are, therefore, excellent markers of textual
     filiation; generally speaking (and certainly in the readings in
     this book), omissions are not.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     Second, Shedinger himself describes Matt 4:16 as a "composite"
     citation: according to him, it is a conflation of Is. 9:1 with
     Ps. 107 [LXX: 106]:10 (see pp. 41-45). One of these (Ps.
@@ -252,70 +279,71 @@
     sometimes towards the Psalms, and sometimes towards a new (and,
     presumably, to the scribe), more agreeable conflation. (Such
     scribal "cross-referencing" of OT source[s] against their NT
-    quotation—and subsequent "improvement"—is a well known and
-    well-documented phenomenon.) Indeed, Shedinger himself notes
-    that scribes have been playing with this very passage <hi rend="italic">in the
-    Diatessaronic witnesses</hi>, for he writes: "If we look back to
-    the text of the Persian Harmony, we find that it has collapsed
-    the two halves of this poetic parallelism from Isaiah into a
-    single statement... The Palestinian Syriac Lectionary, at least
-    in its extant form, preserves both halves of the parallelism...
-    In fact, later Greek scribes probably did not recognize the
-    conflation; they only recognized that Matthew's text differed
-    from Isaiah and needed to be 'corrected'" (pp. 44-45). Given
-    all of this—where the genesis of the passage lies in a
-    conflation, and where scribes have been almost continually
-    adapting the citation—how, then, can one determine the
-    Diatessaron's reading with any degree of accuracy and
-    reliability? The answer, of course, is that one cannot. In a
-    situation such as this, the only responsible action is to
-    suspend judgment: we simply do not know—and have no means of
-    determining—what the Diatessaron read.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] A
+    quotation—and subsequent "improvement"—is a well
+    known and well-documented phenomenon.) Indeed, Shedinger
+    himself notes that scribes have been playing with this very
+    passage <hi rend="italic">in the Diatessaronic witnesses</hi>, for he writes:
+    "If we look back to the text of the Persian Harmony, we find
+    that it has collapsed the two halves of this poetic parallelism
+    from Isaiah into a single statement... The Palestinian Syriac
+    Lectionary, at least in its extant form, preserves both halves
+    of the parallelism... In fact, later Greek scribes probably did
+    not recognize the conflation; they only recognized that
+    Matthew's text differed from Isaiah and needed to be
+    'corrected'" (pp. 44-45). Given all of this—where the
+    genesis of the passage lies in a conflation, and where scribes
+    have been almost continually adapting the citation—how,
+    then, can one determine the Diatessaron's reading with any
+    degree of accuracy and reliability? The answer, of course, is
+    that one cannot. In a situation such as this, the only
+    responsible action is to suspend judgment: we simply do not
+    know—and have no means of determining—what the
+    Diatessaron read.</p>
+         <p>
+            <anchor corresp="P11"/>[11] A
     third problem with this reading is the method by which
     Shedinger has determined that the omission of "land" is
     Diatessaronic. Shedinger has adopted (see p. 34) three
     "criteria" published by your reviewer for determining the
     likelihood that a variant is (or is not) Diatessaronic. The
-    second of these three criteria—which Shedinger quotes—is: "[to
-    be Diatessaronic, the] reading should <hi rend="italic">not</hi> be found in
-    any non-Diatessaronic texts, from which the Diatessaronic
-    witnesses [with the variant] might have acquired it" (p. 34).
-    The reason for having such a criterion is rather obvious. If a
-    variant reading occurs in Diatessaronic witnesses <hi rend="italic">and
-    also</hi> in other texts or fathers that are <hi rend="italic">unrelated</hi> to
-    the Diatessaron, then we are faced with an insoluble conundrum:
-    the reading <hi rend="italic">may</hi> be Diatessaronic, but it is also
-    possible that our Diatessaronic witnesses have been
-    "contaminated," and acquired the variant <hi rend="italic">not</hi> from the
-    Diatessaron, but from one of the non-Diatessaronic texts with
-    the same variant. In such a circumstance, we will never be able
-    to determine whether the reading came from the Diatessaron, or
-    from some other source; therefore, the reading must be
-    rejected.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+    second of these three criteria—which Shedinger
+    quotes—is: "[to be Diatessaronic, the] reading should
+    <hi rend="italic">not</hi> be found in any non-Diatessaronic texts, from which
+    the Diatessaronic witnesses [with the variant] might have
+    acquired it" (p. 34). The reason for having such a criterion is
+    rather obvious. If a variant reading occurs in Diatessaronic
+    witnesses <hi rend="italic">and also</hi> in other texts or fathers that are
+    <hi rend="italic">unrelated</hi> to the Diatessaron, then we are faced with an
+    insoluble conundrum: the reading <hi rend="italic">may</hi> be Diatessaronic,
+    but it is also possible that our Diatessaronic witnesses have
+    been "contaminated," and acquired the variant <hi rend="italic">not</hi> from
+    the Diatessaron, but from one of the non-Diatessaronic texts
+    with the same variant. In such a circumstance, we will never be
+    able to determine whether the reading came from the
+    Diatessaron, or from some other source; therefore, the reading
+    must be rejected.</p>
+         <p>
+            <anchor corresp="P12"/>[12]
     Although Shedinger says he is following this criterion, he
     clearly violates it in this reading: the very presence of the
     reading in Clement [?], Augustine and the Ethiopic mean that
     the reading must be discarded.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] So
+         <p>
+            <anchor corresp="P13"/>[13] So
     much for Shedinger's claim that the reading is Diatessaronic;
     now let us turn to his claim that this omission represents "the
     original text of Matthew." Although the assertion is certainly
     attention-getting, it is quite preposterous. There are so many
     problems with this claim that one hardly knows where to start.
     To begin with, as shown above, we cannot be sure what the
-    Diatessaron read here—and the Diatessaron (c. 172 C.E.) would
-    be the oldest evidence for this omission. By default, then, the
-    oldest evidence for the reading becomes Clement (c. 200). But
-    recall that Clement's reading is not a quotation, but an
-    allusion. Therefore, our oldest unambiguous evidence for the
+    Diatessaron read here—and the Diatessaron (c. 172 C.E.)
+    would be the oldest evidence for this omission. By default,
+    then, the oldest evidence for the reading becomes Clement (c.
+    200). But recall that Clement's reading is not a quotation, but
+    an allusion. Therefore, our oldest unambiguous evidence for the
     omission is Augustine (c. 400).</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+         <p>
+            <anchor corresp="P14"/>[14]
     Shedinger's claim that the omission was known in the early
     church is granted: on that we can all agree. He apparently
     feels that the presence of this omission in Clement [?],
@@ -323,17 +351,17 @@
     is "the original text of Matthew"; it is his sole evidence. But
     is it possible that the first text to omit "land" may be
     Augustine? The answer must be "yes." Even if one were to
-    grant—solely for argument's sake—that Clement and the
-    Diatessaron omitted "land," is it possible that the Diatessaron
-    was the first text to omit "land"? The answer must be "yes."
-    Shedinger has not produced a shred of evidence to demonstrate
-    that this was "the original text of Matthew," and not a
-    redactional change made by Tatian, or, alternatively, a variant
-    that arose in the third, fourth or even fifth century. There is
-    no evidence to support Shedinger's claim, other than his
-    assertion.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] At
+    grant—solely for argument's sake—that Clement and
+    the Diatessaron omitted "land," is it possible that the
+    Diatessaron was the first text to omit "land"? The answer must
+    be "yes." Shedinger has not produced a shred of evidence to
+    demonstrate that this was "the original text of Matthew," and
+    not a redactional change made by Tatian, or, alternatively, a
+    variant that arose in the third, fourth or even fifth century.
+    There is no evidence to support Shedinger's claim, other than
+    his assertion.</p>
+         <p>
+            <anchor corresp="P15"/>[15] At
     another level, this reading exemplifies the sort of stumbling
     logic that bedevils this book. In this particular case,
     Shedinger is advancing as "true" two mutually-exclusive
@@ -354,21 +382,21 @@
     variant). Faced with these two arguments, one can only ask:
     Which is it? For if the non-Diatessaronic witnesses are
     <hi rend="italic">not</hi> related to the Diatessaron, then, indeed, they are
-    independent witnesses to the variant in the early church—<hi rend="italic">but
-    in that case, the variant cannot be claimed as
-    "Diatessaronic,"</hi> for all of the witnesses with the reading
-    may have obtained it from (to pick one name from thin air)
-    Augustine. On the other hand, if the non-Diatessaronic
+    independent witnesses to the variant in the early
+    church—<hi rend="italic">but in that case, the variant cannot be claimed
+    as "Diatessaronic,"</hi> for all of the witnesses with the
+    reading may have obtained it from (to pick one name from thin
+    air) Augustine. On the other hand, if the non-Diatessaronic
     witnesses <hi rend="italic">are</hi> related to the Diatessaron, then, indeed,
     one can claim the variant as "Diatessaronic," for there would
     be no non-Diatessaronic sources to contaminate our
-    witnesses—<hi rend="italic">but in that case, there is no evidence that the
-    variant was widespread in the early church:</hi> the variant
+    witnesses—<hi rend="italic">but in that case, there is no evidence that
+    the variant was widespread in the early church:</hi> the variant
     might well have originated with Tatian in his Diatessaron;
     there is nothing to suggest it goes back to "the original text
     of Matthew."</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] The
+         <p>
+            <anchor corresp="P16"/>[16] The
     remainder of this book is more of the same. Error simply
     compounds upon error. It is tempting to leave it at that, but a
     reader of this review deserves a sampling of the mistakes which
@@ -376,12 +404,12 @@
     remaining 68 readings will expose the methods, logic,
     philology, and evidence used, and show why these are all so
     unacceptable.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] In
-    chapter 5, Shedinger presents 21 readings—about one-third of
-    his total of 69 readings. All 21 must be dismissed on logical
-    grounds. The reason is as follows. As is well known, scribes
-    have always been "moving" texts in the direction of the
+         <p>
+            <anchor corresp="P17"/>[17] In
+    chapter 5, Shedinger presents 21 readings—about one-third
+    of his total of 69 readings. All 21 must be dismissed on
+    logical grounds. The reason is as follows. As is well known,
+    scribes have always been "moving" texts in the direction of the
     "standard" text of their time and place. Over time, the same
     has occurred with the Diatessaronic witnesses: deviating
     readings have been eliminated, and replaced with the "standard"
@@ -396,34 +424,34 @@
     readings in Diatessaronic witnesses <hi rend="italic">agree</hi> with the
     standard text, one can never be sure whether the agreement is
     because of Vulgatization, or because the Diatessaron itself
-    gave the "standard" reading. This problem—which is strictly
-    logical in character—has been well known to Diatessaronic
-    researchers since the time of Johann Christian Zahn, in 1814,
-    and has guided methods since: "Large portions of the
-    Diatessaron's original text agree verbatim with the text now
-    found in the principal gospel manuscripts. Because of this, the
-    text of the Diatessaron can be recovered with certainty
+    gave the "standard" reading. This problem—which is
+    strictly logical in character—has been well known to
+    Diatessaronic researchers since the time of Johann Christian
+    Zahn, in 1814, and has guided methods since: "Large portions of
+    the Diatessaron's original text agree verbatim with the text
+    now found in the principal gospel manuscripts. Because of this,
+    the text of the Diatessaron can be recovered with certainty
     <hi rend="italic">only</hi> when it <hi rend="italic">deviates</hi> from the vast majority of
     gospel manuscripts."</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
+         <p>
+            <anchor corresp="P18"/>[18]
     Despite the rather obvious logic of this reasoning, and despite
     the fact that Shedinger himself subscribes to this logic and
     method in chapters three and four (where all of the readings he
     presents are <hi rend="italic">deviations</hi> from the standard text), all of
     the readings in chapter five are places where the Diatessaron's
-    text—according to Shedinger—was <hi rend="italic">identical</hi> with the
-    standard gospel text. Did no one involved in the writing,
-    approval, or publication of this book recognize that two
-    entirely different, mutually-exclusive methodologies were being
-    employed, side-by-side?</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] The
+    text—according to Shedinger—was <hi rend="italic">identical</hi>
+    with the standard gospel text. Did no one involved in the
+    writing, approval, or publication of this book recognize that
+    two entirely different, mutually-exclusive methodologies were
+    being employed, side-by-side?</p>
+         <p>
+            <anchor corresp="P19"/>[19] The
     remaining 48 readings in chapters three and four are felled by
     one or (usually) more problems. We will limit ourselves to
     discussing only three.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20] The
+         <p>
+            <anchor corresp="P20"/>[20] The
     first is the matter of "trivial" readings. By "trivial" we mean
     readings which turn on the tense or voice of a verb changing, a
     conjunction appearing (or disappearing), pronouns materializing
@@ -438,8 +466,8 @@
     almost always be ignored (the qualifications are too complex to
     lay out in this review, and are, in any event, irrelevant to
     Shedinger's readings).</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21] When
+         <p>
+            <anchor corresp="P21"/>[21] When
     one reflects on the wide variety of languages in which
     Diatessaronic witnesses appear (Syriac to Early Italian,
     Persian to Middle High German, Arabic to Latin, Pahlavi to
@@ -451,20 +479,20 @@
     exemplar of the Persian Harmony was copied]), the reasons are
     self-evident. Idioms change from place to place and time to
     time. The grammatical norms and constraints of Syriac are
-    different from Old High German—and both of them are different
-    from the grammatical norms and constraints of Latin and
-    Persian. Even within a single language, vocabulary and grammar
-    change over time (Shakespeare's English is not ours); it even
-    varies within the same language, at the same time, but in
-    different places (or classes): in certain English-speaking
+    different from Old High German—and both of them are
+    different from the grammatical norms and constraints of Latin
+    and Persian. Even within a single language, vocabulary and
+    grammar change over time (Shakespeare's English is not ours);
+    it even varies within the same language, at the same time, but
+    in different places (or classes): in certain English-speaking
     circles today, "He is taller than <hi rend="italic">I</hi>" is considered
     correct usage ("than" is construed as a conjunction, and one
     mentally completes the unspoken comparison "...taller than I
     [am tall]"), while in other circles "He is taller than
     <hi rend="italic">me</hi>" is considered correct ("than" is construed as a
     preposition, requiring the objective case, "me").</p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] All
+         <p>
+            <anchor corresp="P22"/>[22] All
     of this is obvious, and is well known in Diatessaronic studies.
     Agnes Smith Lewis pointed it out to H. J. Vogels in 1913,
     noting especially the tendency of Syriac to add pleonastic
@@ -493,27 +521,27 @@
     or the nominative case (so some Diatessaronic witnesses);
     shades of "He is taller than I/me" in today's vernacular!
     Reading 18 (Matt 15:4, par.) finds the canonical "or" turning
-    into a "Diatessaronic" "and"—this despite the fact that the OT
-    lemma (Ex. 21:17) in Hebrew has "and," while the LXX reads
-    "or," with the gospels; that means that if only two scribes
-    independently checked the NT citation against the Hebrew, and
-    corrected it to the Hebrew, then we would have a
-    "Diatessaronic" reading here—without, of course, any contact
-    with the Diatessaron! All of these readings are precisely the
-    sort of textual trivia warned against in the literature for
-    nearly a century. They must be rejected.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+    into a "Diatessaronic" "and"—this despite the fact that
+    the OT lemma (Ex. 21:17) in Hebrew has "and," while the LXX
+    reads "or," with the gospels; that means that if only two
+    scribes independently checked the NT citation against the
+    Hebrew, and corrected it to the Hebrew, then we would have a
+    "Diatessaronic" reading here—without, of course, any
+    contact with the Diatessaron! All of these readings are
+    precisely the sort of textual trivia warned against in the
+    literature for nearly a century. They must be rejected.</p>
+         <p>
+            <anchor corresp="P23"/>[23]
     Turning to another problem, five of Shedinger's readings are
     omissions. As we saw above (in reading 2, the omission of
     "land"), omissions are very weak as evidence, and are highly
     unreliable in Diatessaronic studies as genetic markers. As with
     "trivial" readings, so too the problems with omissions are
-    well-documented in the literature—not just of Diatessaronic
-    studies, but also of textual criticism. But once again,
-    Shedinger shows no awareness of this.</p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24] The
+    well-documented in the literature—not just of
+    Diatessaronic studies, but also of textual criticism. But once
+    again, Shedinger shows no awareness of this.</p>
+         <p>
+            <anchor corresp="P24"/>[24] The
     third and final problem we will address is the defective
     philological and lexical work, which eliminates about ten of
     Shedinger's readings. If there is any place in Diatessaronic
@@ -539,8 +567,8 @@
     same word: the German "Fleisch" can be translated into English
     as either "meat" or "flesh," and both translations are
     correct.</p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25] But
+         <p>
+            <anchor corresp="P25"/>[25] But
     there is also a second act in the play of Diatessaronic
     studies: after identifying the points of variance from the
     standard text, one then looks to see if there are
@@ -551,11 +579,11 @@
     called "Diatessaronic." Finally, to insure against the
     influence of "local texts" (which might have influenced
     multiple Diatessaronic witnesses in a particular geographic
-    region—say, in Syria/Syriac, or in Italy/Latin), support for
-    the proposed Diatessaronic reading should be found in
+    region—say, in Syria/Syriac, or in Italy/Latin), support
+    for the proposed Diatessaronic reading should be found in
     <hi rend="italic">both</hi> the Eastern <hi rend="italic">and</hi> the Western witnesses.</p>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26]
+         <p>
+            <anchor corresp="P26"/>[26]
     Given the rigor Shedinger employed to distinguish between the
     text of the gospels and the Diatessaronic witnesses (recall,
     for example, that he distinguished "robbers" from "thieves"),
@@ -580,8 +608,8 @@
     can Shedinger claim it as Eastern support for whatever
     "Diatessaronic" reading he proposes? The answer, of course, is
     that he cannot.</p>
-         <p rend="nn">
-            <anchor xml:id="P27"/>[27] This
+         <p>
+            <anchor corresp="P27"/>[27] This
     same insensitivity to lexical differences is displayed again
     and again, and the result is always the same: a "Diatessaronic"
     reading. For example, in reading 13 (Matt 27:9-10) one
@@ -594,8 +622,8 @@
     utter"]), where Shedinger says that "I will bring to light" and
     "I will reveal" and "I will make clear" all represent a single
     "Diatessaronic" variant.</p>
-         <p rend="nn">
-            <anchor xml:id="P28"/>[28] What
+         <p>
+            <anchor corresp="P28"/>[28] What
     is going on here? It is really quite simple: Shedinger is using
     two different sets of standards when making lexical
     comparisons. When he wants to find differences, his standards
@@ -605,8 +633,8 @@
     "valued"; "impure" is the same as "fornication"). This is not
     only unacceptable lexicography, it is also methodologically
     dishonest: <hi rend="italic">one</hi> set of standards should be used.</p>
-         <p rend="nn">
-            <anchor xml:id="P29"/>[29] The
+         <p>
+            <anchor corresp="P29"/>[29] The
     lexical problems do not end there, however; "Diatessaronic"
     readings are sometimes manufactured out of elementary lexical
     blunders. Here are two examples. In reading 23 (Matt 4:6, par.
@@ -623,23 +651,23 @@
     Shedinger concludes that "arms" is the Diatessaronic reading
     because the Syriac word <hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>'</hi>
-            </hi>—which J. Payne
-    Smith defines as "arm" (<hi rend="italic">A Compendious Syriac Dictionary</hi>
-    [the "little Payne Smith"; Oxford 1903], p. 98)—is found in
-    some Diatessaronic witnesses (in Matthew in Syr<hi rend="sup">s.c</hi>
-    and in Luke in Syr<hi rend="sup">p</hi>; "arms" is also read in the
-    Arabic and Persian Harmonies). Against this, other
-    Diatessaronic witnesses in Syriac (Syr<hi rend="sup">s</hi> in Luke and
-    Syr<hi rend="sup">p</hi> in Matthew) read <hi rend="italic">yd</hi>
+            </hi>—which J.
+    Payne Smith defines as "arm" (<hi rend="italic">A Compendious Syriac
+    Dictionary</hi> [the "little Payne Smith"; Oxford 1903], p.
+    98)—is found in some Diatessaronic witnesses (in Matthew
+    in Syr<hi rend="sup">s.c</hi> and in Luke in Syr<hi rend="sup">p</hi>; "arms" is
+    also read in the Arabic and Persian Harmonies). Against this,
+    other Diatessaronic witnesses in Syriac (Syr<hi rend="sup">s</hi> in
+    Luke and Syr<hi rend="sup">p</hi> in Matthew) read <hi rend="italic">yd</hi>
     ("<hi rend="italic">hand</hi>,...<hi rend="italic">forepaw</hi>; <hi rend="italic">the axle</hi> of a wheel
     [<hi rend="italic">N.B.</hi>!]; <hi rend="italic">the arm</hi> of a seat or throne
     [<hi rend="italic">N.B.</hi>!]; <hi rend="italic">a handle</hi> [<hi rend="italic">N.B.</hi>!]..." [Payne
     Smith, p. 186; the italics are hers]). In support of his
     conclusion that "arm[s]"—<hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>'</hi>
-            </hi>—is the reading
-    of the Diatessaron, Shedinger writes that "it is not easy to
-    reconcile [the Syriac] <hi style="letter-spacing:1">
+            </hi>—is the
+    reading of the Diatessaron, Shedinger writes that "it is not
+    easy to reconcile [the Syriac] <hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>
                </hi>
             </hi> [<hi rend="italic">sic</hi>] as
@@ -648,31 +676,31 @@
                <hi rend="italic">ceiroV</hi>
             </hi> [<hi rend="italic">sic</hi>]" (p.
     96).</p>
-         <p rend="nn">
-            <anchor xml:id="P30"/>[30] This
+         <p>
+            <anchor corresp="P30"/>[30] This
     statement is simply not true of the Greek <hi rend="gr">
                <hi rend="italic">ceir</hi>
-            </hi>—and remember that Tatian was working
-    from the Greek gospels. Reference to any Greek lexicon will
-    show that <hi rend="gr">
+            </hi>—and remember that Tatian was
+    working from the Greek gospels. Reference to any Greek lexicon
+    will show that <hi rend="gr">
                <hi rend="italic">ceir</hi>
-            </hi> is polysemous,
-    and can mean <hi rend="italic">either</hi> "hand" <hi rend="italic">or</hi> "arm" (see,
-    <hi rend="italic">e.g.</hi>, Bauer-Arndt-Gingrich-Danker, <hi rend="italic">A Greek-English
-    Lexicon of the NT</hi> [third revised edition; Chicago 2000], p.
-    1082; cf. Liddell-Scott-Jones-McKenzie, <hi rend="italic">A Greek-English
-    Lexicon</hi> [ninth edition; Oxford 1940 (1977)], pp. 1983-1984:
-    "the hand...[the] hand and arm...the arms").</p>
-         <p rend="nn">
-            <anchor xml:id="P31"/>[31] The
+            </hi> is
+    polysemous, and can mean <hi rend="italic">either</hi> "hand" <hi rend="italic">or</hi> "arm"
+    (see, <hi rend="italic">e.g.</hi>, Bauer-Arndt-Gingrich-Danker, <hi rend="italic">A
+    Greek-English Lexicon of the NT</hi> [third revised edition;
+    Chicago 2000], p. 1082; cf. Liddell-Scott-Jones-McKenzie, <hi rend="italic">A
+    Greek-English Lexicon</hi> [ninth edition; Oxford 1940 (1977)],
+    pp. 1983-1984: "the hand...[the] hand and arm...the arms").</p>
+         <p>
+            <anchor corresp="P31"/>[31] The
     two readings we find in our Syriac sources are completely
-    explicable as two different—but correct—translations of the
-    "standard" Greek reading, <hi rend="gr">
+    explicable as two different—but
+    correct—translations of the "standard" Greek reading,
+    <hi rend="gr">
                <hi rend="italic">ceir</hi>
-            </hi>.
-    Some Syriac sources, correctly, translated it as "hand"
-    (<hi rend="italic">yd</hi>) some of the time, and some, correctly, translated
-    it as "arm" (<hi style="letter-spacing:1">
+            </hi>. Some Syriac sources,
+    correctly, translated it as "hand" (<hi rend="italic">yd</hi>) some of the
+    time, and some, correctly, translated it as "arm" (<hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>'</hi>
             </hi>) some of the
     time. This ambivalence is apparent if one arranges the datum in
@@ -720,8 +748,8 @@
                </cell>
             </row>
          </table>
-         <p rend="nn">
-            <anchor xml:id="P32"/>[32] Also
+         <p>
+            <anchor corresp="P32"/>[32] Also
     note that the Syriac word <hi rend="italic">yd</hi> itself may well have had,
     in colloquial usage, the same dual meaning of the Greek
     <hi rend="gr">
@@ -741,8 +769,8 @@
             <hi rend="italic">and</hi> the
     Hebrew <hi rend="italic">kap</hi> ([the word found in Ps. 91:12] "hollow of the
     hand, the whole hand").</p>
-         <p rend="nn">
-            <anchor xml:id="P33"/>[33]
+         <p>
+            <anchor corresp="P33"/>[33]
     Shedinger's claim that "it is not easy to reconcile [the
     Syriac] <hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>
@@ -754,8 +782,8 @@
     has incorrectly assumed that the Greek <hi rend="gr">
                <hi rend="italic">ceir</hi>
             </hi> can only mean "hand," when, in fact, it
-    can also mean "arm"—the purported "Diatessaronic" reading here.
-    That the Syriac <hi style="letter-spacing:1">
+    can also mean "arm"—the purported "Diatessaronic" reading
+    here. That the Syriac <hi style="letter-spacing:1">
                <hi rend="italic">dr<hi rend="sup">c</hi>'</hi>
             </hi> is a perfectly
     acceptable translation of <hi rend="gr">
@@ -765,8 +793,8 @@
     at Mark 10:16 in the Peshitta to translate <hi rend="gr">
                <hi rend="italic">ceir</hi>
             </hi>.</p>
-         <p rend="nn">
-            <anchor xml:id="P34"/>[34] A
+         <p>
+            <anchor corresp="P34"/>[34] A
     second example of a false "Diatessaronic" reading generated by
     the same lexical insensitivity to polysemous words occurs in
     reading 9 (Mark 10:19), where the standard Greek is: "do not
@@ -778,10 +806,10 @@
     k</hi>) which read "[do] not <hi rend="italic">deny</hi> (Latin:
     <hi rend="italic">abnegabis</hi> [<hi rend="italic">abnegaveris</hi> in <hi rend="italic">k</hi>])." Although
     he should have abandoned the reading at this point—for
-    "oppress" is not the same as "deny"—Shedinger forges ahead, and
-    pronounces a "Diatessaronic" reading.</p>
-         <p rend="nn">
-            <anchor xml:id="P35"/>[35] The
+    "oppress" is not the same as "deny"—Shedinger forges
+    ahead, and pronounces a "Diatessaronic" reading.</p>
+         <p>
+            <anchor corresp="P35"/>[35] The
     problem is that, just like <hi rend="gr">
                <hi rend="italic">ceir</hi>
             </hi>
@@ -809,53 +837,52 @@
     <hi rend="gr">
                <hi rend="italic">aposterew</hi>
             </hi> ("defraud"). But
-    <hi rend="italic">abnegabis</hi> is an equally good—and, in some respects,
-    better—translation of the Greek, rendering the <hi rend="italic">second</hi>
-    meaning of <hi rend="gr">
+    <hi rend="italic">abnegabis</hi> is an equally good—and, in some
+    respects, better—translation of the Greek, rendering the
+    <hi rend="italic">second</hi> meaning of <hi rend="gr">
                <hi rend="italic">aposterew</hi>
-            </hi>, "refuse,
-    deny." We say "better" because, from a strictly linguistic
-    standpoint, <hi rend="italic">abnegabis</hi> is (1) a <hi rend="italic">single</hi> Latin word
-    translating a <hi rend="italic">single</hi> Greek word (such things were
-    important to the ancients), and (2) the <hi rend="italic">ab-</hi> prefix of
-    <hi rend="italic">abnegabis</hi> displays parallel compositional morphology
-    with the <hi rend="gr">
-               <hi rend="italic">apo-</hi>
-            </hi> prefix of
+            </hi>, "refuse, deny." We say "better"
+    because, from a strictly linguistic standpoint,
+    <hi rend="italic">abnegabis</hi> is (1) a <hi rend="italic">single</hi> Latin word translating
+    a <hi rend="italic">single</hi> Greek word (such things were important to the
+    ancients), and (2) the <hi rend="italic">ab-</hi> prefix of <hi rend="italic">abnegabis</hi>
+    displays parallel compositional morphology with the
     <hi rend="gr">
+               <hi rend="italic">apo-</hi>
+            </hi> prefix of <hi rend="gr">
                <hi rend="italic">aposterew</hi>
-            </hi>. (As an aside, your
-    reviewer would note that it is interesting—and perhaps
-    significant—that our two oldest Vetus Latina MSS [<hi rend="italic">a k</hi>]
-    read <hi rend="italic">abnegabis</hi>, while the more recent ones—and the
-    Vulgate—read <hi rend="italic">fraudem fecit</hi>. This suggests
-    <hi rend="italic">abnegabis</hi> is the older translation.)</p>
-         <p rend="nn">
-            <anchor xml:id="P36"/>[36]
+            </hi>. (As an aside, your reviewer would
+    note that it is interesting—and perhaps
+    significant—that our two oldest Vetus Latina MSS [<hi rend="italic">a
+    k</hi>] read <hi rend="italic">abnegabis</hi>, while the more recent
+    ones—and the Vulgate—read <hi rend="italic">fraudem fecit</hi>.
+    This suggests <hi rend="italic">abnegabis</hi> is the older translation.)</p>
+         <p>
+            <anchor corresp="P36"/>[36]
     Shedinger's claim, then, that the Latin reading
-    <hi rend="italic">abnegabis</hi>—the sole Western support for his proposed
-    "Diatessaronic" reading—represents something other than the
-    standard Greek of Mark, is simply false. For evidence of a
-    "Diatessaronic" reading, then, one is left with "oppress," a
-    reading that is found only in three late Diatessaronic
-    witnesses (the Peshitta, and the Arabic and Persian Harmonies),
-    all from the East, and all derived from a Syriac
-    <hi rend="italic">Vorlage</hi>. The evidence suggests, then, that this reading
-    is most likely a relatively late variant, part of a "local
-    text" that circulated only in the East.</p>
-         <p rend="nn">
-            <anchor xml:id="P37"/>[37]
-    These sorts of errors—in a book whose subtitle announces a
-    "Philological Analysis"—are beyond comprehension. Did no one on
-    the doctoral committee know that <hi rend="gr">
+    <hi rend="italic">abnegabis</hi>—the sole Western support for his
+    proposed "Diatessaronic" reading—represents something
+    other than the standard Greek of Mark, is simply false. For
+    evidence of a "Diatessaronic" reading, then, one is left with
+    "oppress," a reading that is found only in three late
+    Diatessaronic witnesses (the Peshitta, and the Arabic and
+    Persian Harmonies), all from the East, and all derived from a
+    Syriac <hi rend="italic">Vorlage</hi>. The evidence suggests, then, that this
+    reading is most likely a relatively late variant, part of a
+    "local text" that circulated only in the East.</p>
+         <p>
+            <anchor corresp="P37"/>[37]
+    These sorts of errors—in a book whose subtitle announces
+    a "Philological Analysis"—are beyond comprehension. Did
+    no one on the doctoral committee know that <hi rend="gr">
                <hi rend="italic">ceir</hi>
             </hi> can mean both "hand" and "arm"? Did it
     occur to no reader at CSCO that if "robbers" were being
     distinguished from "thieves," then one also ought to
-    distinguish—if for nothing else than consistency's sake—between
-    "valued" and "bought"?</p>
-         <p rend="nn">
-            <anchor xml:id="P38"/>[38] The
+    distinguish—if for nothing else than consistency's
+    sake—between "valued" and "bought"?</p>
+         <p>
+            <anchor corresp="P38"/>[38] The
     book has other flaws, as well. The command of current
     literature is defective. Although this book was published in
     2001, Migne is used for Justin Martyr's text, not the critical
@@ -878,8 +905,8 @@
     to the same realizations, although it would have taken longer
     and required that one laboriously order the material one's
     self.</p>
-         <p rend="nn">
-            <anchor xml:id="P39"/>[39] A
+         <p>
+            <anchor corresp="P39"/>[39] A
     prerequisite for reliable and proper use of a Diatessaronic
     witness is a thorough understanding of its
     transmission-history. Although Shedinger used Giuseppe
@@ -887,23 +914,23 @@
     to notice Messina's analysis of the text, for in the
     "Introduction" to his edition Messina addresses the subject of
     Shedinger's book: the OT quotations in the (Persian)
-    Diatessaron (pp. lxviii-lxxvi). Messina (* 1893-† 1951) was the
-    world's expert on this text. In the process of preparing his
-    edition, Messina concluded that the Persian translator, as he
-    translated from Syriac into Persian in the thirteenth century,
-    frequently "improved" the OT quotations by referencing the
-    <hi rend="italic">Targumim</hi> and/or the Hebrew Bible in a Semitic language.
-    Messina's textual examples (two of which parallel pericopes
-    examined by Shedinger) are unambiguous and definitive.
-    Therefore, Shedinger cannot use the Persian Harmony as he does,
-    for Messina demonstrated half a century ago that its OT
-    citations have frequently been revised to agree with texts much
-    later than the Diatessaron. Even if these eight pages in
-    Italian escaped our author's notice, it is odd that he also
-    missed an English <hi rend="italic">précis</hi> of them in a book he frequently
-    cites.</p>
-         <p rend="nn">
-            <anchor xml:id="P40"/>[40] In
+    Diatessaron (pp. lxviii-lxxvi). Messina (* 1893-† 1951)
+    was the world's expert on this text. In the process of
+    preparing his edition, Messina concluded that the Persian
+    translator, as he translated from Syriac into Persian in the
+    thirteenth century, frequently "improved" the OT quotations by
+    referencing the <hi rend="italic">Targumim</hi> and/or the Hebrew Bible in a
+    Semitic language. Messina's textual examples (two of which
+    parallel pericopes examined by Shedinger) are unambiguous and
+    definitive. Therefore, Shedinger cannot use the Persian Harmony
+    as he does, for Messina demonstrated half a century ago that
+    its OT citations have frequently been revised to agree with
+    texts much later than the Diatessaron. Even if these eight
+    pages in Italian escaped our author's notice, it is odd that he
+    also missed an English <hi rend="italic">précis</hi> of them in a book
+    he frequently cites.</p>
+         <p>
+            <anchor corresp="P40"/>[40] In
     the end, one wonders how much of the bibliography was actually
     consulted, for Shedinger's bibliography gives the following
     entry: "Plooij, Daniel, <hi rend="italic">Traces of Syriac Origin of the
@@ -914,29 +941,30 @@
     <hi rend="italic">Mededeelingen der koninklijke akademie van
     wetenschappen</hi>, <hi rend="italic">Afdeeling letterkunde</hi>, deel 63, serie
     A, no. 4 (1927), pp. 101-126. Whether he actually consulted the
-    article or not (a glance at the title page—which bears the
-    pagination "101"—reveals instantly that the work is an article,
-    not a book), the full, correct reference was (once again)
-    available to Shedinger in the bibliography of a monograph he
-    frequently cites.</p>
-         <p rend="nn">
-            <anchor xml:id="P41"/>[41] One
+    article or not (a glance at the title page—which bears
+    the pagination "101"—reveals instantly that the work is
+    an article, not a book), the full, correct reference was (once
+    again) available to Shedinger in the bibliography of a
+    monograph he frequently cites.</p>
+         <p>
+            <anchor corresp="P41"/>[41] One
     could go on. Everyone has lapses of judgment; everyone makes
-    mistakes—even Homer nodded. But that is not the issue. Here the
-    errors are so frequent and so fundamental that this volume can
-    contribute nothing to scholarship. What it says that is true
-    has already been said elsewhere, with greater clarity and
-    perspective. What it says that is new is almost always wrong,
-    plagued—as we have shown above—with philological, logical, and
-    methodological errors, and a gross insensitivity to things
-    historical (both within the discipline, as well as the
-    transmission-history of texts). Reading this book fills one
-    with dismay and despair. It is shocking that a work which does
-    not rise to the level of a master's thesis should be approved
-    as a doctoral dissertation; how it found its way into print is
-    unfathomable. One shudders to think of the damage it will do
-    when, in the future, it is cited by the ignorant and the
-    unsuspecting as "demonstrating" what it has not.</p>
+    mistakes—even Homer nodded. But that is not the issue.
+    Here the errors are so frequent and so fundamental that this
+    volume can contribute nothing to scholarship. What it says that
+    is true has already been said elsewhere, with greater clarity
+    and perspective. What it says that is new is almost always
+    wrong, plagued—as we have shown above—with
+    philological, logical, and methodological errors, and a gross
+    insensitivity to things historical (both within the discipline,
+    as well as the transmission-history of texts). Reading this
+    book fills one with dismay and despair. It is shocking that a
+    work which does not rise to the level of a master's thesis
+    should be approved as a doctoral dissertation; how it found its
+    way into print is unfathomable. One shudders to think of the
+    damage it will do when, in the future, it is cited by the
+    ignorant and the unsuspecting as "demonstrating" what it has
+    not.</p>
          <!-- #EndEditable -->
       </body>
    </text>

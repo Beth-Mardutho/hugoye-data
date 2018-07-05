@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rev. Dr. David John Lane (1935-2005)�</title>
+            <title type="main">Rev. Dr. David John Lane (1935-2005)†</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/obituary/hv8n1oblane</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author/>
-                  <title level="a">Rev. Dr. David John Lane (1935-2005)�</title>
+                  <title level="a">Rev. Dr. David John Lane (1935-2005)†</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Obituary</term>
+               <term>David Lane</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,34 +88,30 @@
     
          <!-- InstanceBeginEditable name="Content" -->
          <hi style="float:right;margin:5px 0 5px 15px;background-color: #fff;padding:5px;border-top:1px solid #555;border-right:2px solid #999;border-bottom:2px solid #999;border-left:1px solid #555;">
-            <graphic url="HV8N1OBLane_Img01.jpg"
-                     rend="img"
-                     mimeType="image/jpeg"
-                     width="102px"
-                     height="141px"/>
+            <graphic url="HV8N1OBLane_Img01.jpg" rend="img" mimeType="image/jpeg" width="102px" height="141px"/>
          </hi>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] David
+         <p>
+            <anchor corresp="P1"/>[1] David
     Lane was born in 1935, in Huddersfield, Yorkshire, into a
     family in which grandparents, parents, aunts, and uncle were
     all school-teachers. Wartime and family circumstances led him
     to being educated at 9 different schools before going to
     Hurstpierpoint College, a Church of England boarding school for
-    �the middle class�, where a vocation to the priesthood was
-    identified and nurtured. After two years� army service with the
-    Royal Signals, which took him to Egypt for a year, he went to
-    Magdalen College, Oxford, to read Theology. Encouraged by one
-    of Britain�s leading Hebrew scholars, Sir Godfrey Driver, he
-    went on to read a second undergraduate degree, Oriental Studies
-    (Hebrew with Aramaic and Syriac). He learned Syriac under L.H.
-    Brockington, the reviser of the much-used Robinson�s <hi rend="italic">Syriac
-    Grammar</hi>. Of great value for his work in New Testament and
-    Syriac was being introduced to <hi rend="italic">Mishnah</hi> and Jewish
-    medieval commentaries by Dr. David Patterson, later the founder
-    and Director of Oxford�s Centre for Hebrew Post-Biblical
-    Studies.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] From
+    ‘the middle class’, where a vocation to the
+    priesthood was identified and nurtured. After two years’
+    army service with the Royal Signals, which took him to Egypt
+    for a year, he went to Magdalen College, Oxford, to read
+    Theology. Encouraged by one of Britain’s leading Hebrew
+    scholars, Sir Godfrey Driver, he went on to read a second
+    undergraduate degree, Oriental Studies (Hebrew with Aramaic and
+    Syriac). He learned Syriac under L.H. Brockington, the reviser
+    of the much-used Robinson’s <hi rend="italic">Syriac Grammar</hi>. Of
+    great value for his work in New Testament and Syriac was being
+    introduced to <hi rend="italic">Mishnah</hi> and Jewish medieval commentaries
+    by Dr. David Patterson, later the founder and Director of
+    Oxford’s Centre for Hebrew Post-Biblical Studies.</p>
+         <p>
+            <anchor corresp="P2"/>[2] From
     there he went as a student for priesthood to the College of the
     Resurrection, Mirfield (just a few miles from his birthplace).
     While there he won, by examination, the Oxford University
@@ -102,8 +122,8 @@
     Greek, and later being Director of Studies. He was made a
     deacon in Barbados, May 1962, and ordained priest in December
     that year.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] In 1965
+         <p>
+            <anchor corresp="P3"/>[3] In 1965
     he returned to the UK, and for a year was assistant priest in a
     parish in Oxford. Then he went to Pembroke College Oxford as
     Associate Chaplain, and was awarded the Kennicott Hebrew
@@ -114,39 +134,40 @@
     de Boer. Incidentally while at Pembroke he had the chance of
     teaching Syriac to a slim young Indian, Deacon George, who
     stayed with the Cowley Fathers. That Deacon George is now
-    Geevarghese Mar Ivanios.�1967 saw Lane as a tutor at St.
-    Stephen�s House, an Anglican seminary in Oxford, where he
+    Geevarghese Mar Ivanios. 1967 saw Lane as a tutor at St.
+    Stephen’s House, an Anglican seminary in Oxford, where he
     continued University teaching in elementary Hebrew, tutored
     theology students from many colleges, and continued work on
     Peshitta <hi rend="italic">Qoheleth</hi>. He retained a connection with
     Pembroke College as its Lecturer in Theology.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] In 1971
+         <p>
+            <anchor corresp="P4"/>[4] In 1971
     Lane was invited to go as an Assistant Professor in Near
     Eastern Studies in the University of Toronto. This began a
     major period of Syriac activity: for the Leiden Peshitta
     <hi rend="italic">Qoheleth</hi> had been finished, and a revision of John
-    Emerton�s <hi rend="italic">Wisdom of Solomon</hi> and <hi rend="italic">Song of Songs</hi>
-    followed, to be joined by work on <hi rend="italic">Leviticus.</hi> For two
-    summers he was a Visiting Professor at the Peshitta Institute,
-    assisting with the edition of Genesis and Exodus, and with
-    <hi rend="italic">I and II Kings</hi>. <hi rend="italic">The Leviticus</hi> work produced
-    the Leiden Peshitta edition of that book, and a monograph which
-    took Peshitta studies out of simple text criticism of the Old
-    Testament into the wider field Syriac church history and
-    liturgy, suggesting the theme of the second Leiden Peshitta
-    Symposium, �<hi rend="italic">The Peshitta as Translation</hi>�. His
-    published work to this point enabled Oxford University to award
-    him the degree of Bachelor of Divinity: in Oxford this degree
-    (based on publications) is of a higher standard than, and
-    senior to, a D.Phil. In 1976 came his first participation in
-    the <hi rend="italic">Symposium Syriacum</hi>at Chantilly, also Dr. Jacob�
-    Thekeparampil�s first, though it was at the 1980 Symposium at
-    Goslar that they first properly met. At Goslar, too, he was
-    among the group of Syriac scholars whom the Indian bishops
-    approached with the idea of SEERI.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Although
+    Emerton’s <hi rend="italic">Wisdom of Solomon</hi> and <hi rend="italic">Song of
+    Songs</hi> followed, to be joined by work on
+    <hi rend="italic">Leviticus.</hi> For two summers he was a Visiting Professor
+    at the Peshitta Institute, assisting with the edition of
+    Genesis and Exodus, and with <hi rend="italic">I and II Kings</hi>. <hi rend="italic">The
+    Leviticus</hi> work produced the Leiden Peshitta edition of
+    that book, and a monograph which took Peshitta studies out of
+    simple text criticism of the Old Testament into the wider field
+    Syriac church history and liturgy, suggesting the theme of the
+    second Leiden Peshitta Symposium, ‘<hi rend="italic">The Peshitta as
+    Translation</hi>’. His published work to this point
+    enabled Oxford University to award him the degree of Bachelor
+    of Divinity: in Oxford this degree (based on publications) is
+    of a higher standard than, and senior to, a D.Phil. In 1976
+    came his first participation in the <hi rend="italic">Symposium
+    Syriacum</hi>at Chantilly, also Dr. Jacob 
+    Thekeparampil’s first, though it was at the 1980
+    Symposium at Goslar that they first properly met. At Goslar,
+    too, he was among the group of Syriac scholars whom the Indian
+    bishops approached with the idea of SEERI.</p>
+         <p>
+            <anchor corresp="P5"/>[5] Although
     a tenured Associate Professor, in 1983 Lane accepted an
     invitation to join the staff of his old seminary, the College
     of the Resurrection. There he became Director of Studies, then
@@ -164,42 +185,42 @@
     him to come as a guest Professor for the Syriac MA classes
     recently begun at SEERI under the aegis of Mahatma Gandhi
     University.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In fact,
+         <p>
+            <anchor corresp="P6"/>[6] In fact,
     since retirement from the College of the Resurrection in 1997
-    Lane�s whole time has been given to Syriac affairs, so that
-    this, his 70<hi rend="sup">th</hi> year, sees the publication in
+    Lane’s whole time has been given to Syriac affairs, so
+    that this, his 70<hi rend="sup">th</hi> year, sees the publication in
     <hi rend="italic">Corpus Scriptorum Christianorum Orientalium (CSCO)</hi> of
     the two volumes (Syriac text and English version) of
-    Shubhalmaran�s <hi rend="italic">Book of Gifts</hi>, a notable addition to
-    the range of Syriac ascetic writings currently available. More
-    recently there has been work on Jacob of Sarug�s verse
-    homilies. However, through the years there has been time for
-    priestly activity in the way of taking services and preaching,
-    and for associations with parishes in Toronto and Cambridge.
-    There has also been some little time for interests in railways
-    and gardening: his photographs of British steam railways have
-    appeared in journals and in books on railway history; literary
-    interests led him to be President of the Sir Walter Scott Club
-    of Toronto. He is currently on both the local and national
-    committees of the Scottish Rock Garden Club, with a special
-    interest in the alpine crevice plants known as
+    Shubhalmaran’s <hi rend="italic">Book of Gifts</hi>, a notable addition
+    to the range of Syriac ascetic writings currently available.
+    More recently there has been work on Jacob of Sarug’s
+    verse homilies. However, through the years there has been time
+    for priestly activity in the way of taking services and
+    preaching, and for associations with parishes in Toronto and
+    Cambridge. There has also been some little time for interests
+    in railways and gardening: his photographs of British steam
+    railways have appeared in journals and in books on railway
+    history; literary interests led him to be President of the Sir
+    Walter Scott Club of Toronto. He is currently on both the local
+    and national committees of the Scottish Rock Garden Club, with
+    a special interest in the alpine crevice plants known as
     <hi rend="italic">auriculas</hi> their leaves are like the little ears of
     bears. They are small and beautiful in detail, and bred by
     humans: appropriate for someone whose early interest was in
     textual variants and the taxonomy of manuscripts.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] [David
+         <p>
+            <anchor corresp="P7"/>[7] [David
     Lane passed away on Sunday, the 9<hi rend="sup">th</hi> Jan. 2005 during
     his visit to SEERI (St. Ephrem Ecumenical Research Institute),
     Kottayam, Kerala, India. May his soul rest in peace!]</p>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef0">�</ref> This autobiography was prepared by David Lane for
-    the St. Ephrem Ecumenical Research Institute (SEERI), Kottayam,
-    where he had been engaged in academic work when he passed away.
-    This was submitted for publication in Hugoye by Rev. Fr. Jacob
-    Thekkeparambil of SEERI. <ref target="#FNRef0">
+         <head xml:id="HV8N1OBLane1">Notes</head>
+         <p>
+            <ref target="#FNRef0">†</ref> This autobiography was prepared by David
+    Lane for the St. Ephrem Ecumenical Research Institute (SEERI),
+    Kottayam, where he had been engaged in academic work when he
+    passed away. This was submitted for publication in Hugoye by
+    Rev. Fr. Jacob Thekkeparambil of SEERI. <ref target="#FNRef0">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>

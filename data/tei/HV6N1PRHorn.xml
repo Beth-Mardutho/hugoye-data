@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Jan-Eric Steppa, John Rufus and the World Vision of Anti-Chalcedonian Culture. Piscataway, NY: Gorgias Press, 2002. Pp. xxxvii + 199. Paperback, $ 45.00. ISBN 1-931956-09-X.</title>
+            <title type="main">Jan-Eric Steppa, John Rufus and the World Vision of Anti-Chalcedonian Culture. Piscataway, NY: Gorgias Press, 2002. Pp. xxxvii + 199. Paperback, $ 45.00. ISBN 1-931956-09-X.</title>
             <author>
-               <name>Cornelia B. HORN</name>
+               <name>
+                  <forename>Cornelia B.</forename>
+                  <surname>Horn</surname>
+               </name>
                <affiliation>
                   <orgName>University of St. Thomas</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n1prhorn</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Chalcedon</term>
+               <term>John Rufus</term>
+               <term>Jan-Eric Steppa</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,24 +88,25 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] As the
-    first volume in its new dissertation series �Gorgias
-    Dissertations: Early Christian Studies,� advertised on the book
-    cover as �Ancient Christian Studies,� Gorgias Press published
-    this past summer a recent dissertation, defended in Sweden in
-    April 2001. In the study, entitled <hi rend="italic">John Rufus and the World
-    Vision of Anti-Chalcedonian Culture</hi>, the author, Jan-Eric
-    Steppa, refines the work he began as a master�s thesis on
-    anti-Chalcedonian hagiography in a Syro-Palestinian setting.
-    While the second half of both works show the same structure,
-    the Ph.D. dissertation as a whole is a more comprehensive
-    study, involving the cultural aspects of this literature. Given
-    such a first in a new series, the present review will comment
-    on both Steppa�s immediate work and on the achievements and
-    shortcomings of Gorgias Press�s new series.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Steppa
+         <p>
+            <anchor corresp="P1"/>[1] As the
+    first volume in its new dissertation series “Gorgias
+    Dissertations: Early Christian Studies,” advertised on
+    the book cover as “Ancient Christian Studies,”
+    Gorgias Press published this past summer a recent dissertation,
+    defended in Sweden in April 2001. In the study, entitled
+    <hi rend="italic">John Rufus and the World Vision of Anti-Chalcedonian
+    Culture</hi>, the author, Jan-Eric Steppa, refines the work he
+    began as a master’s thesis on anti-Chalcedonian
+    hagiography in a Syro-Palestinian setting. While the second
+    half of both works show the same structure, the Ph.D.
+    dissertation as a whole is a more comprehensive study,
+    involving the cultural aspects of this literature. Given such a
+    first in a new series, the present review will comment on both
+    Steppa’s immediate work and on the achievements and
+    shortcomings of Gorgias Press’s new series.</p>
+         <p>
+            <anchor corresp="P2"/>[2] Steppa
     introduces his study with a brief review of models, constructed
     by Bacht, Frend, and more recently by Roldanus, that intend to
     explain the resistance of the ascetic community in Palestine to
@@ -94,187 +120,198 @@
     in more general terms and along the lines of Averil Cameron and
     Patricia Cox, he understands the nature of biography and
     hagiographical writing as an interplay between fiction and
-    history. Consequently, he isolates the three �hagiographic
-    themes� of �the idea of the holy man, the rhetorical power of
-    miracles and visions, and the representation of heresy� as �the
-    characteristic features� of the works of John Rufus, insofar as
-    those are extant. It is Steppa�s proposition that a discussion
+    history. Consequently, he isolates the three
+    “hagiographic themes” of “the idea of the
+    holy man, the rhetorical power of miracles and visions, and the
+    representation of heresy” as “the characteristic
+    features” of the works of John Rufus, insofar as those
+    are extant. It is Steppa’s proposition that a discussion
     of those themes allows one to find the motivating force for
     anti-Chalcedonian monks in Palestine. Steppa also claims that
     it was the unique characteristic of anti-Chalcedonians to have
-    �conce[ived] of the world as the arena of a cosmological war
-    between God and the evil powers of the material world� (p.
-    xxxv). However, the mere reference to the Book of Daniel or
-    Revelation suffices to caution such claims.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The main
-    body of the book consists of five chapters, entitled �The Stage
-    of Resistance,� �The Texts,� �The Images of Authority,� �Signs
-    and Revelations,� and �The Image of the Enemies.� The first two
-    chapters, filling roughly the first half of the book, provide
-    background information regarding the chronological development
-    of the stages of the controversy as well as a presentation of
-    aspects of John Rufus�s life and works. The second half of the
-    study is a discussion of specific motives in Rufus�s works,
-    which according to Steppa constitute key features of
-    anti-Chalcedonian cultural identity. The reader would welcome a
-    definition in the early part of the book of what exactly
-    constitutes that concept of �culture� which Steppa assumes and
-    references (p. 166). Without a definition of terms, claims can
-    be taken into any direction without control. His main interest
-    appears to be the �world vision� of anti-Chalcedonians. Yet the
-    attainment and proper understanding of such a �world vision� is
-    not feasible without a consideration of the concrete material
-    manifestations and social conditions and relations that shaped
-    people�s lives. Occasionally, the book touches on
-    socio-historical aspects, e.g., in the attempt to identify an
-    anti-Chalcedonian, ascetic attitude towards work (pp. 104-105).
-    Yet such adventures remain fragmentary and unrepresentative,
-    since they are neither comprehensive nor balanced. For example,
-    in his discussion of this ascetic attitude towards work Steppa
-    neither mentions nor considers Rufus�s choice of the ascetic
-    models of Melania and Pinianus and their embrace and
-    appreciation of work as essential to the life of a [future]
-    anti-Chalcedonian ascetic, namely Peter the Iberian himself
-    (<hi rend="italic">Life of Peter the Iberian</hi> 28-29).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The five
+    “conce[ived] of the world as the arena of a cosmological
+    war between God and the evil powers of the material
+    world” (p. xxxv). However, the mere reference to the Book
+    of Daniel or Revelation suffices to caution such claims.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The main
+    body of the book consists of five chapters, entitled “The
+    Stage of Resistance,” “The Texts,” “The
+    Images of Authority,” “Signs and
+    Revelations,” and “The Image of the Enemies.”
+    The first two chapters, filling roughly the first half of the
+    book, provide background information regarding the
+    chronological development of the stages of the controversy as
+    well as a presentation of aspects of John Rufus’s life
+    and works. The second half of the study is a discussion of
+    specific motives in Rufus’s works, which according to
+    Steppa constitute key features of anti-Chalcedonian cultural
+    identity. The reader would welcome a definition in the early
+    part of the book of what exactly constitutes that concept of
+    “culture” which Steppa assumes and references (p.
+    166). Without a definition of terms, claims can be taken into
+    any direction without control. His main interest appears to be
+    the “world vision” of anti-Chalcedonians. Yet the
+    attainment and proper understanding of such a “world
+    vision” is not feasible without a consideration of the
+    concrete material manifestations and social conditions and
+    relations that shaped people’s lives. Occasionally, the
+    book touches on socio-historical aspects, e.g., in the attempt
+    to identify an anti-Chalcedonian, ascetic attitude towards work
+    (pp. 104-105). Yet such adventures remain fragmentary and
+    unrepresentative, since they are neither comprehensive nor
+    balanced. For example, in his discussion of this ascetic
+    attitude towards work Steppa neither mentions nor considers
+    Rufus’s choice of the ascetic models of Melania and
+    Pinianus and their embrace and appreciation of work as
+    essential to the life of a [future] anti-Chalcedonian ascetic,
+    namely Peter the Iberian himself (<hi rend="italic">Life of Peter the
+    Iberian</hi> 28-29).</p>
+         <p>
+            <anchor corresp="P4"/>[4] The five
     chapters of the study can conveniently be divided into three
     parts. The first part, ch. 1, is a discussion of the setting of
     the events in time, space, and ideological framework, treating
-    �the events in Palestine immediately after the Council of
-    Chalcedon in 451,� anti-Chalcedonian asceticism in Gaza, Egypt
-    as haven of orthodoxy and the �birthplace of monasticism,� and
-    two fields of tension, one being that between ascetic retreat
-    versus active community involvement, the other being that
-    between the radical choice for orthodoxy and the willingness to
-    compromise if necessary. While creating a new synthesis and
-    presentation from earlier studies of the same source material,
-    Steppa points to significant elements in the overall picture
-    that have not yet received sufficient attention, e.g., the
-    concern for the preservation of Trinitarian orthodoxy as a
-    driving motive for anti-Chalcedonians in their opposition to
-    Chalcedon. The discussion is strong in presenting the influence
-    of Egyptian monasticism on anti-Chalcedonian ascetics in
-    Palestine. Throughout, the book successfully details parallels
-    between John Rufus�s works and the <hi rend="italic">Life of Antony</hi>. It is
+    “the events in Palestine immediately after the Council of
+    Chalcedon in 451,” anti-Chalcedonian asceticism in Gaza,
+    Egypt as haven of orthodoxy and the “birthplace of
+    monasticism,” and two fields of tension, one being that
+    between ascetic retreat versus active community involvement,
+    the other being that between the radical choice for orthodoxy
+    and the willingness to compromise if necessary. While creating
+    a new synthesis and presentation from earlier studies of the
+    same source material, Steppa points to significant elements in
+    the overall picture that have not yet received sufficient
+    attention, e.g., the concern for the preservation of
+    Trinitarian orthodoxy as a driving motive for
+    anti-Chalcedonians in their opposition to Chalcedon. The
+    discussion is strong in presenting the influence of Egyptian
+    monasticism on anti-Chalcedonian ascetics in Palestine.
+    Throughout, the book successfully details parallels between
+    John Rufus’s works and the <hi rend="italic">Life of Antony</hi>. It is
     regrettable that the study leaves out a consideration of the
     relevance and impact of Basilian ascetic ideas, which are
     clearly reflected in the primary texts, even in the ones quoted
     in the study itself (e.g., p. 94).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] With a
+         <p>
+            <anchor corresp="P5"/>[5] With a
     wealth of detail, in the second part of the study Steppa
     assembles in ch. 2 a picture of John Rufus as author. He also
-    provides basic information concerning Rufus�s extant works.
-    Since Rufus�s authorship of the three works discussed, i.e.,
-    the <hi rend="italic">Life of Peter the Iberian</hi>, the <hi rend="italic">Commemoration of
-    the Death of Theodosius</hi>, and the <hi rend="italic">Plerophories</hi>, is
-    not unanimously held in modern-day scholarship (e.g., Orlandi),
-    at least an acknowledgement of those dissenting views would
-    have been in place. The somewhat negligent treatment of facts,
-    e.g., Peter the Iberian dying in 489 AD on p. 58 and in 491 AD
-    on p. 61, raise doubt as to the ultimate reliability of the
-    overall picture of Rufus�s life and work presented in this
-    chapter.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In the
+    provides basic information concerning Rufus’s extant
+    works. Since Rufus’s authorship of the three works
+    discussed, i.e., the <hi rend="italic">Life of Peter the Iberian</hi>, the
+    <hi rend="italic">Commemoration of the Death of Theodosius</hi>, and the
+    <hi rend="italic">Plerophories</hi>, is not unanimously held in modern-day
+    scholarship (e.g., Orlandi), at least an acknowledgement of
+    those dissenting views would have been in place. The somewhat
+    negligent treatment of facts, e.g., Peter the Iberian dying in
+    489 AD on p. 58 and in 491 AD on p. 61, raise doubt as to the
+    ultimate reliability of the overall picture of Rufus’s
+    life and work presented in this chapter.</p>
+         <p>
+            <anchor corresp="P6"/>[6] In the
     third part of the study, chs. 3, 4, and 5, roughly the second
     half of the book, Steppa turns to a detailed discussion of the
-    above mentioned �hagiographical themes.� The first theme, with
-    which he deals in ch. 3, is that of the anti-Chalcedonian holy
-    man. Steppa sees him (or her) as a mere instrument in the hand
-    of God, who in turn works with �absolute initiative� (p. 100).
-    Consequently, the claim is formulated that this feature of
-    non-negotiable instrumentality is the distinctive moment,
-    characterizing the anti-Chalcedonian holy man as virtuous model
-    for respective ascetics in Palestine. In the course of his
-    discussion, Steppa suggests the matrix of the four images of
-    the holy man as model, intercessor, prophetic witness, and
-    extraordinary sign as typical of Eastern monastic hagiography
-    and usefully applies the first three to the evidence found in
-    Rufus�s texts. His own discussion of extreme forms of
-    asceticism in the case of Heliodorus should also be counted as
-    in incident of �extraordinary sign,� thus widening the
-    relevance of this category beyond the scope he assigns to it
-    (p. 85). The wider audience will benefit from Steppa�s valuable
+    above mentioned “hagiographical themes.” The first
+    theme, with which he deals in ch. 3, is that of the
+    anti-Chalcedonian holy man. Steppa sees him (or her) as a mere
+    instrument in the hand of God, who in turn works with
+    “absolute initiative” (p. 100). Consequently, the
+    claim is formulated that this feature of non-negotiable
+    instrumentality is the distinctive moment, characterizing the
+    anti-Chalcedonian holy man as virtuous model for respective
+    ascetics in Palestine. In the course of his discussion, Steppa
+    suggests the matrix of the four images of the holy man as
+    model, intercessor, prophetic witness, and extraordinary sign
+    as typical of Eastern monastic hagiography and usefully applies
+    the first three to the evidence found in Rufus’s texts.
+    His own discussion of extreme forms of asceticism in the case
+    of Heliodorus should also be counted as in incident of
+    “extraordinary sign,” thus widening the relevance
+    of this category beyond the scope he assigns to it (p. 85). The
+    wider audience will benefit from Steppa’s valuable
     attempt at contrasting the program of correlating orthodoxy
     with asceticism found in John Rufus with that of Cyril of
-    Scythopolis. While Rufus�s ascetics in renouncing the civilized
-    world are drawn to the disorder of the wilderness, Cyril�s holy
-    desert dwellers in fact are portrayed as preferring the order
-    of the civilized world. Moreover, while Rufus appears to locate
-    much of ascetic authority in personal charisma and �individual
-    progress� made �on the path of asceticism,� for Cyril
-    attainment of truth turns out to be a result of �obedience to
-    the ecclesiastical hierarchy� (p. 111).</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In the
+    Scythopolis. While Rufus’s ascetics in renouncing the
+    civilized world are drawn to the disorder of the wilderness,
+    Cyril’s holy desert dwellers in fact are portrayed as
+    preferring the order of the civilized world. Moreover, while
+    Rufus appears to locate much of ascetic authority in personal
+    charisma and “individual progress” made “on
+    the path of asceticism,” for Cyril attainment of truth
+    turns out to be a result of “obedience to the
+    ecclesiastical hierarchy” (p. 111).</p>
+         <p>
+            <anchor corresp="P7"/>[7] In the
     discussion of the second theme, i.e., of frequent visions and
     miracles employed in the presumably cosmological struggle,
     which constitutes ch. 4, Steppa plays off against one another
     the two functions which are fulfilled by visions and miracles
-    in Rufus�s works, significantly more prominent in the
+    in Rufus’s works, significantly more prominent in the
     <hi rend="italic">Plerophories</hi> than in the <hi rend="italic">Life of Peter the
-    Iberian</hi>, namely that they work as �express confirmations of
-    God�s verdict against the Chalcedonian bishops rather than as
-    rhetorical markers of the virtuous qualities of the saintly
-    protagonists.� Given the centrality of the <hi rend="italic">Plerophories</hi>
-    in this regard, a discussion of the concept �plerophoriae� and
-    its use either as noun or in derived forms in verbs, adverbs,
-    and the like, would have been helpful. A glance into Lampe�s
+    Iberian</hi>, namely that they work as “express
+    confirmations of God’s verdict against the Chalcedonian
+    bishops rather than as rhetorical markers of the virtuous
+    qualities of the saintly protagonists.” Given the
+    centrality of the <hi rend="italic">Plerophories</hi> in this regard, a
+    discussion of the concept “plerophoriae” and its
+    use either as noun or in derived forms in verbs, adverbs, and
+    the like, would have been helpful. A glance into Lampe’s
     <hi rend="italic">Patristic Lexicon</hi> provides sufficient references that
-    allow for a comparative study between Rufus�s and other early
-    Christian authors� use of the term, thus allowing the
-    researcher to sharpen or relativize any distinctly
+    allow for a comparative study between Rufus’s and other
+    early Christian authors’ use of the term, thus allowing
+    the researcher to sharpen or relativize any distinctly
     anti-Chalcedonian connotations of its usage. Particularly in
     this chapter, Steppa recounts chains of events, taken from the
-    stories in Rufus�s works, a feature of the study which is
+    stories in Rufus’s works, a feature of the study which is
     helpful for those researchers who are not be able to consult
     the Syriac text or the French translation of the
     <hi rend="italic">Plerophories</hi> directly. Not infrequently these stories
     are left to speak for themselves, without clear guidance for
     the reader as to what exactly the connecting moments or
     important aspects of a given piece are, other than being
-    incidents of a �vision� predicting the horrors of Chalcedon.
-    Again, a distortion of details in the summaries of individual
-    scenes (e.g., p. 128, the church referred to in
+    incidents of a “vision” predicting the horrors of
+    Chalcedon. Again, a distortion of details in the summaries of
+    individual scenes (e.g., p. 128, the church referred to in
     <hi rend="italic">Plerophories</hi> 11 is the Church of the Ascension; pp. 131
     and 138, Syriac <hi rend="italic">dukto</hi> [Plerophories 41 and 38] means
-    �place,� not �road�) calls into question the soundness of the
-    conclusions drawn on the basis of such abbreviated
-    presentations. Rufus�s construction of a connection between
-    Peter the Iberian and Peter of Alexandria also intends to join
-    the leader of ascetics in Palestine with the famous leader of
-    the Church in Egypt, as Steppa points out. For Rufus, there is
-    evidence of a connection between the Monk Romanus and Peter the
-    Iberian and more prominently between Theodosius of Jerusalem
-    and the Apostle James (p. 136, fn. 58). Yet beyond Steppa�s
-    reading, one should notice that ultimately this evidence points
-    to Rufus�s overall preference for connecting significant
-    leaders with one another and ideally with apostolic authorities
-    in order to be able to lay claim to that apostolic foundation
-    of the faith of anti-Chalcedonians. In that case,
-    retrospectively, the important connecting moment between Peter
-    the Iberian and Peter of Alexandria (beyond the latter�s
-    prominent role as martyr, which opens up yet another field of
-    reference and influence) is their common apostolic namesake. In
-    the end, one may disagree with Steppa�s evaluation of Rufus�s
-    application of the label �holy man.� Instead of seeing that
-    character of the anti-Chalcedonian �holy man� �fade into the
-    background and join a diverse group of protagonists that
-    includes venerable ascetics, simple priests and deacons,
-    intellectuals, and women� (p. 141), one may be inclined to
-    reason in the other direction and acknowledge that in Rufus�s
-    assessment, everyone who holds on to the true faith becomes a
-    �holy man or woman,� and therefore is appropriately labelled as
-    such throughout the text (e.g., <hi rend="italic">Plerophories</hi> 35: �the
-    holy woman Eliana�; <hi rend="italic">Plerophories</hi> 44: �the holy bishop
-    Epiphanius�; <hi rend="italic">Plerophories</hi> 45: �holy ones, old Cilician
-    monks�; or also in clear contrast, <hi rend="italic">Plerophories</hi> 56: �the
-    unholy Juvenal�).</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+    “place,” not “road”) calls into
+    question the soundness of the conclusions drawn on the basis of
+    such abbreviated presentations. Rufus’s construction of a
+    connection between Peter the Iberian and Peter of Alexandria
+    also intends to join the leader of ascetics in Palestine with
+    the famous leader of the Church in Egypt, as Steppa points out.
+    For Rufus, there is evidence of a connection between the Monk
+    Romanus and Peter the Iberian and more prominently between
+    Theodosius of Jerusalem and the Apostle James (p. 136, fn. 58).
+    Yet beyond Steppa’s reading, one should notice that
+    ultimately this evidence points to Rufus’s overall
+    preference for connecting significant leaders with one another
+    and ideally with apostolic authorities in order to be able to
+    lay claim to that apostolic foundation of the faith of
+    anti-Chalcedonians. In that case, retrospectively, the
+    important connecting moment between Peter the Iberian and Peter
+    of Alexandria (beyond the latter’s prominent role as
+    martyr, which opens up yet another field of reference and
+    influence) is their common apostolic namesake. In the end, one
+    may disagree with Steppa’s evaluation of Rufus’s
+    application of the label “holy man.” Instead of
+    seeing that character of the anti-Chalcedonian “holy
+    man” “fade into the background and join a diverse
+    group of protagonists that includes venerable ascetics, simple
+    priests and deacons, intellectuals, and women” (p. 141),
+    one may be inclined to reason in the other direction and
+    acknowledge that in Rufus’s assessment, everyone who
+    holds on to the true faith becomes a “holy man or
+    woman,” and therefore is appropriately labelled as such
+    throughout the text (e.g., <hi rend="italic">Plerophories</hi> 35: “the
+    holy woman Eliana”; <hi rend="italic">Plerophories</hi> 44: “the
+    holy bishop Epiphanius”; <hi rend="italic">Plerophories</hi> 45:
+    “holy ones, old Cilician monks”; or also in clear
+    contrast, <hi rend="italic">Plerophories</hi> 56: “the unholy
+    Juvenal”).</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     third theme, the image of the enemy as heretic, forms the
     subject matter of the final chapter. Having established and
     documented that the rules of hagiography require the heretic as
@@ -292,123 +329,127 @@
     in the process of establishing a separate anti-Chalcedonian
     Church. To describe the notion of heresy through recourse to
     the image of disease is certainly a possibilty; but the only
-    concrete example from Rufus�s works cited in the text
+    concrete example from Rufus’s works cited in the text
     (<hi rend="italic">Plerophoriae</hi> 80 discussed at p. 158) does not bear out
-    any such claim. The woman�s illness is not described or
+    any such claim. The woman’s illness is not described or
     suggested as in any way linked to her prior forced attendance
     at the Chalcedonian liturgy. Rather the accompanying
     circumstances of her illness, presumably delirium, seem to be
     used to link her backwards with previous events, but are not
     caused by them.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] In his
-    conclusion, Steppa locates the doctrinal dimension of Rufus�s
-    theological worldview within the parameters of
+         <p>
+            <anchor corresp="P9"/>[9] In his
+    conclusion, Steppa locates the doctrinal dimension of
+    Rufus’s theological worldview within the parameters of
     anti-Chalcedonianism as it was defined by the thought of
     Severus of Antioch and studied by Lebon. His final comments
     that future researchers could fruitfully pursue the
     intellectual, social, liturgical, and ecclesiological
     dimensions of the controversies can only be seconded.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] One
+         <p>
+            <anchor corresp="P10"/>[10] One
     finds contradictions in the study, e.g., seemingly at-random
-    choices between a translation derived from Raabe�s German
+    choices between a translation derived from Raabe’s German
     translation and attempts at a closer reading of the Syriac
-    text, the language in which Rufus�s works are exclusively
+    text, the language in which Rufus’s works are exclusively
     preserved, (e.g., p. 2, citation of <hi rend="italic">Life of Peter the
-    Iberian</hi> 52, where one should read �circumcised� instead of
-    �excommunicated,� versus an attempt later on [p. 100] to draw
-    out more fully and in sharper contours the portrait of the
-    �enemy,� and thus employing the actual meaning of the Syriac
-    word). Such inconsistencies between the translation and the
-    understanding of the original text reveal the lack of a
-    coherently developed picture of events and characterizations
-    attempted in this study.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] A
-    major point of critique with Steppa�s overall approach to the
-    subject matter rests with his lack of accounting for the
-    literary chronology of Rufus�s <hi rend="italic">opera</hi> and its
+    Iberian</hi> 52, where one should read “circumcised”
+    instead of “excommunicated,” versus an attempt
+    later on [p. 100] to draw out more fully and in sharper
+    contours the portrait of the “enemy,” and thus
+    employing the actual meaning of the Syriac word). Such
+    inconsistencies between the translation and the understanding
+    of the original text reveal the lack of a coherently developed
+    picture of events and characterizations attempted in this
+    study.</p>
+         <p>
+            <anchor corresp="P11"/>[11] A
+    major point of critique with Steppa’s overall approach to
+    the subject matter rests with his lack of accounting for the
+    literary chronology of Rufus’s <hi rend="italic">opera</hi> and its
     implications. He mixes quotes from those three works that can
     reasonably be attributed to Rufus into a largely
     undifferentiated amalgamate (except for an afterthought briefly
     on pp. 121-122). Thus he fails to take into account with
     sufficient clarity and rigor the discernible historical
-    development of the literary production of Rufus�s work.
+    development of the literary production of Rufus’s work.
     Clearly, the <hi rend="italic">Life of Peter the Iberian</hi> as arguably the
     first one of his works does <hi rend="italic">not</hi> feature holy men, i.e.,
-    most obviously Peter the Iberian, as �having no importance of
-    their own as human beings in the world� (p. xxxvi). Steppa
-    himself provides the counterexample from the <hi rend="italic">Life of Peter
-    the Iberian</hi> 19 (pp. 119-120, with misleading
-    cross-references in the footnotes), identifying Peter�s vision
-    of Christ as a monk as an illustration of �the theological idea
-    of the constant interplay between God�s will and the holy man�s
-    own initiative� (p. 120). Thus an awareness of, and a more
-    nuanced approach to, the different stages of Rufus�s writing
-    career would have helped to better elucidate the impact of the
-    role of the author in the construction of what is potentially
-    an anti-Chalcedonian <hi rend="italic">Weltanschauung</hi>.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
-    Steppa�s discussion presupposes a relationship between
+    most obviously Peter the Iberian, as “having no
+    importance of their own as human beings in the world” (p.
+    xxxvi). Steppa himself provides the counterexample from the
+    <hi rend="italic">Life of Peter the Iberian</hi> 19 (pp. 119-120, with
+    misleading cross-references in the footnotes), identifying
+    Peter’s vision of Christ as a monk as an illustration of
+    “the theological idea of the constant interplay between
+    God’s will and the holy man’s own initiative”
+    (p. 120). Thus an awareness of, and a more nuanced approach to,
+    the different stages of Rufus’s writing career would have
+    helped to better elucidate the impact of the role of the author
+    in the construction of what is potentially an anti-Chalcedonian
+    <hi rend="italic">Weltanschauung</hi>.</p>
+         <p>
+            <anchor corresp="P12"/>[12]
+    Steppa’s discussion presupposes a relationship between
     hagiography, history, and truth. Following Cameron and Cox, he
     suggests that the truth claim in this relationship was
     expressed by the construction of a historical narrative which
     was primarily and almost exclusively intended to construct
     communal identity. With an emphasis on deconstructionist
-    analysis, the question to what extent the �play� between
-    history and fiction ever emphasized the side of �history� is
-    not discussed. While a lot can be gained from studying Rufus as
-    a hagiographer, such an approach is far from sufficient.
-    Although any historian, no matter how hard she or he tries,
-    ultimately will admit that the historiographical product is and
-    cannot be free from ideological concerns, in order to be fully
-    understood, Rufus�s work does need to be appreciated as
+    analysis, the question to what extent the “play”
+    between history and fiction ever emphasized the side of
+    “history” is not discussed. While a lot can be
+    gained from studying Rufus as a hagiographer, such an approach
+    is far from sufficient. Although any historian, no matter how
+    hard she or he tries, ultimately will admit that the
+    historiographical product is and cannot be free from
+    ideological concerns, in order to be fully understood,
+    Rufus’s work does need to be appreciated as
     historiography, a perspective not pursued by Steppa.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
-    Steppa�s bibliography reflects a selectively adequate approach
-    to literature on asceticism and hagiography in the context of
-    Chalcedonian / anti-Chalcedonian struggles in the larger
-    Syro-Palestinian milieu. Yet his choices are unnecessarily
-    restrictive and fail to allow him to engage in discussion with
-    current scholarship on asceticism in the Gaza area (e.g.,
-    Jennifer Hevelone-Harper, �Letters to the Great Old Man: Monks,
-    laity, and spiritual authority in sixth-century Gaza
-    [Palestine],� Ph.D. thesis, Princeton University, 2000),
-    contemporary monastic violence in Palestine (e.g., the final
-    chapter in John Michael Gaddis, �There is no crime for those
-    who have Christ: Religious violence in the Christian Roman
-    Empire,� Ph.D. thesis, Princeton University, 1999), or even,
-    more pertinently, studies of key-figures of the Palestinian
-    anti-Chalcedonian milieu (e.g., Kathleen M. Hay, �Evolution of
-    resistance: Peter the Iberian, itinerant bishop,� in: <hi rend="italic">Prayer
-    and Spirituality in the Early Church</hi> , pp. 159-168; or
-    Cornelia B. Horn, �Beyond theology: The career of Peter the
+         <p>
+            <anchor corresp="P13"/>[13]
+    Steppa’s bibliography reflects a selectively adequate
+    approach to literature on asceticism and hagiography in the
+    context of Chalcedonian / anti-Chalcedonian struggles in the
+    larger Syro-Palestinian milieu. Yet his choices are
+    unnecessarily restrictive and fail to allow him to engage in
+    discussion with current scholarship on asceticism in the Gaza
+    area (e.g., Jennifer Hevelone-Harper, “Letters to the
+    Great Old Man: Monks, laity, and spiritual authority in
+    sixth-century Gaza [Palestine],” Ph.D. thesis, Princeton
+    University, 2000), contemporary monastic violence in Palestine
+    (e.g., the final chapter in John Michael Gaddis, “There
+    is no crime for those who have Christ: Religious violence in
+    the Christian Roman Empire,” Ph.D. thesis, Princeton
+    University, 1999), or even, more pertinently, studies of
+    key-figures of the Palestinian anti-Chalcedonian milieu (e.g.,
+    Kathleen M. Hay, “Evolution of resistance: Peter the
+    Iberian, itinerant bishop,” in: <hi rend="italic">Prayer and
+    Spirituality in the Early Church</hi> , pp. 159-168; or Cornelia
+    B. Horn, “Beyond theology: The career of Peter the
     Iberian in the Christological controversies of fifth-century
-    Palestine,� Ph.D. thesis, The Catholic University of America,
-    2001). Given that so much rests on the discussion of the
-    correlation between charismatic authority of the ascetic versus
-    ecclesiastical or institutional authority, one wonders why none
-    of these respective studies is consulted in order to set the
-    anti-Chalcedonian version � la Rufus into its proper context.
-    Insofar as an object of research is to be defined appropriately
-    both by reference to the quality of its inner core and by the
-    extension of its outer borders, one also would expect some
-    discussion of those ascetics who switched their allegiance in
-    the course of the historical development of the controversy.
-    Michael Kohlbacher�s on-going work on Markianos of Bethlehem
-    (e.g., in <hi rend="italic">Studia Patristica</hi> 29) would be an excellent
-    starting point for such investigations. Overall, the book
-    reflects the background and influence of selected voices of the
-    �holy man� discussion. It lacks a more detailed study of the
-    primary texts, e.g., tracking down Scriptural allusions, which
-    would have helped in coming to a fuller understanding of the
-    meaning of rhetorical and literary choices in the inner-textual
-    context.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] At
+    Palestine,” Ph.D. thesis, The Catholic University of
+    America, 2001). Given that so much rests on the discussion of
+    the correlation between charismatic authority of the ascetic
+    versus ecclesiastical or institutional authority, one wonders
+    why none of these respective studies is consulted in order to
+    set the anti-Chalcedonian version à la Rufus into its
+    proper context. Insofar as an object of research is to be
+    defined appropriately both by reference to the quality of its
+    inner core and by the extension of its outer borders, one also
+    would expect some discussion of those ascetics who switched
+    their allegiance in the course of the historical development of
+    the controversy. Michael Kohlbacher’s on-going work on
+    Markianos of Bethlehem (e.g., in <hi rend="italic">Studia Patristica</hi> 29)
+    would be an excellent starting point for such investigations.
+    Overall, the book reflects the background and influence of
+    selected voices of the “holy man” discussion. It
+    lacks a more detailed study of the primary texts, e.g.,
+    tracking down Scriptural allusions, which would have helped in
+    coming to a fuller understanding of the meaning of rhetorical
+    and literary choices in the inner-textual context.</p>
+         <p>
+            <anchor corresp="P14"/>[14] At
     first glance, the overall text layout on the page and the
     design on the front cover of the series are pleasing. The
     expensive price for a paperback is to be explained by the
@@ -417,49 +458,52 @@
     distort the picture. Omissions of complete citations of works
     at their first occurrence in the text (e.g., xxxv), reversal of
     date and place of publication in bibliographic entries (p.
-    176), misspellings of the names of ancient authors (�Isodore�
-    on p. 176), misspelled foreign names (p. 178), and other such
-    mistakes and oversights fall within the proper framework of
-    proofreading a Ph.D. thesis for publication. The admittedly
-    demanding task of proofreading and editing such works includes
-    avoiding, e.g., inconsistencies in choice of italics or styles
-    of punctuation, typographical errors (e.g., for the last three
-    items pp. xiii-xiv and 139), mixing of lower case and upper
-    case layout in headlines (p. xv), repetitions of complete
-    sentences within the text (p. 76), wrong word choices
-    (throughout, e.g., p. 140), sentence fragments (e.g., pp. 140
-    and 150), or completely misleading cross-references (e.g., p.
-    120, fn. 18; p. 126, fn. 33). To have available a dissertation
-    series in the field of Eastern Christian or Syriac studies,
-    which has a quick turn-over is certainly useful in the short
-    run. Yet the desirability of such a series will only be proven
-    in the long run if the overall quality of the manuscript
-    preparation and book production increases significantly.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15]
-    Overall Steppa�s study is useful, not least because it raises
-    issues that need to be pursued in future, in-depth research. It
-    accomplishes valuable work by sifting monastic literature for
-    examples that illuminate the concepts of �holy man,� �ascetic
-    attitudes towards visions and dreams,� and �conceptions of the
-    heretic.� Steppa has beneficially applied those concepts with
-    their attributes and specifications in ascetic literature to
-    Rufus�s works and it is to be hoped that his research in this
-    direction will continue and deepen. The book contributes to the
-    study of Palestinian asceticism by highlighting the
-    significance of ideological constructions of communal identity.
-    Yet while the author has �brought into some light� what he
-    perceives to be �specific characteristics of anti-Chalcedonian
-    culture,� how �characteristic� they ultimately are remains to
-    be seen. If his claim that �John Rufus� works uncover[.] a
-    world vision that is focused on the notion of the absolute
-    initiative of God, whereas the holy men are reduced to [being]
-    merely instruments for God�s announcement of his judgement upon
-    Chalcedon� (p. xxxv) needed no modification, then
-    anti-Chalcedonian identity, as created on paper by Rufus, would
-    have quite a bit in common with both Old Testament prophecy and
-    Radical Reformers, and thus would not be so �specific[ally]
-    characteristic[.]� afterall.</p>
+    176), misspellings of the names of ancient authors
+    (“Isodore” on p. 176), misspelled foreign names (p.
+    178), and other such mistakes and oversights fall within the
+    proper framework of proofreading a Ph.D. thesis for
+    publication. The admittedly demanding task of proofreading and
+    editing such works includes avoiding, e.g., inconsistencies in
+    choice of italics or styles of punctuation, typographical
+    errors (e.g., for the last three items pp. xiii-xiv and 139),
+    mixing of lower case and upper case layout in headlines (p.
+    xv), repetitions of complete sentences within the text (p. 76),
+    wrong word choices (throughout, e.g., p. 140), sentence
+    fragments (e.g., pp. 140 and 150), or completely misleading
+    cross-references (e.g., p. 120, fn. 18; p. 126, fn. 33). To
+    have available a dissertation series in the field of Eastern
+    Christian or Syriac studies, which has a quick turn-over is
+    certainly useful in the short run. Yet the desirability of such
+    a series will only be proven in the long run if the overall
+    quality of the manuscript preparation and book production
+    increases significantly.</p>
+         <p>
+            <anchor corresp="P15"/>[15]
+    Overall Steppa’s study is useful, not least because it
+    raises issues that need to be pursued in future, in-depth
+    research. It accomplishes valuable work by sifting monastic
+    literature for examples that illuminate the concepts of
+    “holy man,” “ascetic attitudes towards
+    visions and dreams,” and “conceptions of the
+    heretic.” Steppa has beneficially applied those concepts
+    with their attributes and specifications in ascetic literature
+    to Rufus’s works and it is to be hoped that his research
+    in this direction will continue and deepen. The book
+    contributes to the study of Palestinian asceticism by
+    highlighting the significance of ideological constructions of
+    communal identity. Yet while the author has “brought into
+    some light” what he perceives to be “specific
+    characteristics of anti-Chalcedonian culture,” how
+    “characteristic” they ultimately are remains to be
+    seen. If his claim that “John Rufus’ works
+    uncover[.] a world vision that is focused on the notion of the
+    absolute initiative of God, whereas the holy men are reduced to
+    [being] merely instruments for God’s announcement of his
+    judgement upon Chalcedon” (p. xxxv) needed no
+    modification, then anti-Chalcedonian identity, as created on
+    paper by Rufus, would have quite a bit in common with both Old
+    Testament prophecy and Radical Reformers, and thus would not be
+    so “specific[ally] characteristic[.]” afterall.</p>
          <!-- #EndEditable -->
       </body>
    </text>

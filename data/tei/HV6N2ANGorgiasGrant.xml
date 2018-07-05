@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gorgias Book Grant</title>
+            <title type="main">Gorgias Book Grant</title>
             <author>
-               <name> </name>
+               <name>
+                  <forename> </forename>
+                  <surname> </surname>
+               </name>
                <affiliation>
                   <orgName> </orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv6n2angorgiasgrant</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Book Grant</term>
+               <term>Gorgias Press</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,26 +86,26 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In its
+         <p>
+            <anchor corresp="P1"/>[1] In its
     efforts to promote education, Gorgias Press offers annually the
     Gorgias Book Grant. This program offers outstanding graduate
     students grants in the form of Gorgias Press publications.
     Grants consists of books in the value of $300.00 per grant.
     Each year, about three grants are distributed.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The 2003
+         <p>
+            <anchor corresp="P2"/>[2] The 2003
     Grant is in Eastern Christian Studies, and related fiels. The
     application deadline is October 1, 2003. The Grant date is
     December 2003.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Candidate must be enrolled in a graduate program (Master or
     Ph.D.) in an accredited university or an institution of
     learning in the field of the grant. Candidate must have the
     equivalence of a GPA of 3.0 or higher.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] For
+         <p>
+            <anchor corresp="P4"/>[4] For
     application details, please visit <ref target="http://www.gorgiaspress.com">http://www.gorgiaspress.com</ref>
     and click on "Book Grants".</p>
          <!-- #EndEditable -->

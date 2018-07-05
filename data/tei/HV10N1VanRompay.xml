@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Syriac Studies: The Challenges of the Coming Decade</title>
+            <title type="main">Syriac Studies: The Challenges of the Coming Decade</title>
             <author>
-               <name>Lucas Van Rompay</name>
+               <name>
+                  <forename>Lucas</forename>
+                  <surname>Rompay</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/commemorativeIssue/hv10n1vanrompay</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,34 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Survey</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>In response to an invitation by the General
+    Editor, the paper reflects on the present state of Syriac
+    studies as well as on the opportunities and challenges of the
+    future. In addition to a brief discussion of the geographical
+    changes in the worldwide presence of Syriac Christians and
+    Syriac scholars, some suggestions are offered for work to be
+    carried out in the coming years. The paper closes with some
+    thoughts on the academic study of Syriac.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,34 +98,12 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">In response to an invitation by the General
-    Editor, the paper reflects on the present state of Syriac
-    studies as well as on the opportunities and challenges of the
-    future. In addition to a brief discussion of the geographical
-    changes in the worldwide presence of Syriac Christians and
-    Syriac scholars, some suggestions are offered for work to be
-    carried out in the coming years. The paper closes with some
-    thoughts on the academic study of Syriac.</p>
+
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">Changing Geography: Changing Experiences
-      and Changing Interests</ref>
-            </item>
-            <item>
-               <ref target="#S2">Syriac Studies: The Core Fields, and the
-      Basic Tools for the Study of Language and Literature</ref>
-            </item>
-            <item>
-               <ref target="#S3">Syriac Studies: Texts, Authors,
-      Opportunities and Limitations</ref>
-            </item>
-         </list>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Syriac Institute, <ref target="http://www.bethmardutho.org/">Beth Mardutho</ref> (formerly: The Syriac
     Computing Institute), and the web-based journal Hugoye will
     forever be remembered as marking the entrance of Syriac studies
@@ -98,33 +111,33 @@
     Beth Mardutho and their Unicode application bring Syriac texts
     to our computer screens daily; now, it is hard to imagine what
     our lives would be like without them. For middle-aged Syriac
-    scholars — like the present writer — who had to overcome their
-    initial skepticism and fear of change, these quite radical
-    developments took place in the last two decades. What remains
-    to be expected, wished or dreamed for in the coming decade?
-    Which other advancements does the future have in store for us?
-    How will the technological progress impact our scholarship,
-    and, likewise, how will our scholarship impact the developing
-    technology?</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In this
+    scholars — like the present writer — who had to
+    overcome their initial skepticism and fear of change, these
+    quite radical developments took place in the last two decades.
+    What remains to be expected, wished or dreamed for in the
+    coming decade? Which other advancements does the future have in
+    store for us? How will the technological progress impact our
+    scholarship, and, likewise, how will our scholarship impact the
+    developing technology?</p>
+         <p>
+            <anchor corresp="P2"/>[2] In this
     time of rapid change, it is an impossible task to make
     predictions about the future. Instead, I would prefer to share
     with the Hugoye readers some thoughts about the developments in
     our field, and some suggestions about what could be achieved in
     the coming years. Once in a while it is useful to look back and
-    ahead; Hugoye�s tenth anniversary is an excellent opportunity
-    to do just that.<ref target="#FN1">1</ref> I will briefly discuss three topics. First, the
-    geographical and sociological changes taking place among Syriac
-    Christians as well as among students and scholars. Second, I
-    will highlight tools for teaching and research that need to be
-    created. And third, I will speak in a more general way about
-    the present state of the academic study of Syriac Christian
-    culture.</p>
-         <head xml:id="S1">Changing Geography: Changing Experiences and
+    ahead; Hugoye’s tenth anniversary is an excellent
+    opportunity to do just that.<ref target="#FN1">1</ref> I will briefly discuss three
+    topics. First, the geographical and sociological changes taking
+    place among Syriac Christians as well as among students and
+    scholars. Second, I will highlight tools for teaching and
+    research that need to be created. And third, I will speak in a
+    more general way about the present state of the academic study
+    of Syriac Christian culture.</p>
+         <head xml:id="HV10N1VanRompay3">Changing Geography: Changing Experiences and
     Changing Interests</head>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] There
+         <p>
+            <anchor corresp="P3"/>[3] There
     can be no doubt that geographical changes will further mark the
     development of Syriac studies in the coming years. In addition
     to a number of universities in Europe, North America, South
@@ -143,8 +156,8 @@
     communities, they also interacted and collaborated with Western
     scholars. Their work, as well as their living example, remains
     important today.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] While
+         <p>
+            <anchor corresp="P4"/>[4] While
     active centers producing fine scholars and important
     publications still exist in the Middle East, there has been a
     setback in recent years, mainly for two reasons. First, due to
@@ -155,26 +168,27 @@
     destinations in the West, thus depriving the local communities
     of much of their human and intellectual capital. Throughout the
     twentieth century, Syriac Christian communities paid a
-    disproportionate price in turbulent Middle Eastern areas, and —
-    it is sad to say — they continue to do so in the first years of
-    the twenty-first century. One hopes that the centers of Syriac
-    Christian culture in Lebanon, Syria, and Iraq will be able to
-    recover and to regain some of their historical role; one hopes,
-    too, that the monuments, libraries, and manuscript collections
-    will be preserved and receive the attention they badly need.
-    Syriac Christians and scholars alike will never give up their
-    focus on the historic homelands of Syriac Christianity, but it
-    has to be admitted that the presence of Syriac Christianity has
-    significantly weakened. Quite interestingly, in Turkey there
-    seem to be the first signs that the tide may be turning. Some
-    Christians who left their homeland several years ago are
-    beginning to return and to rebuild their lives there. In many
-    ways there now seem to be new and better opportunities for
-    Syriac Christianity as well as for the historical study of the
-    Syriac monuments and manuscript resources.<ref target="#FN2">2</ref>
+    disproportionate price in turbulent Middle Eastern areas, and
+    — it is sad to say — they continue to do so in the
+    first years of the twenty-first century. One hopes that the
+    centers of Syriac Christian culture in Lebanon, Syria, and Iraq
+    will be able to recover and to regain some of their historical
+    role; one hopes, too, that the monuments, libraries, and
+    manuscript collections will be preserved and receive the
+    attention they badly need. Syriac Christians and scholars alike
+    will never give up their focus on the historic homelands of
+    Syriac Christianity, but it has to be admitted that the
+    presence of Syriac Christianity has significantly weakened.
+    Quite interestingly, in Turkey there seem to be the first signs
+    that the tide may be turning. Some Christians who left their
+    homeland several years ago are beginning to return and to
+    rebuild their lives there. In many ways there now seem to be
+    new and better opportunities for Syriac Christianity as well as
+    for the historical study of the Syriac monuments and manuscript
+    resources.<ref target="#FN2">2</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] From the
+         <p>
+            <anchor corresp="P5"/>[5] From the
     viewpoint of students and scholars, the decline of Syriac
     Christianity in the Middle East has been compensated (to a
     degree) by developments elsewhere. First, there are the
@@ -201,10 +215,11 @@
     communities will continue to cherish their historic heritage
     and to study it. Links between Diaspora communities and
     academic centers in Western countries have been forged in the
-    past — Beth Mardutho and Hugoye are illustrations of this — and
-    such links are likely to grow in the coming years.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] New
+    past — Beth Mardutho and Hugoye are illustrations of this
+    — and such links are likely to grow in the coming
+    years.</p>
+         <p>
+            <anchor corresp="P6"/>[6] New
     centers of Syriac studies are emerging in some of the countries
     of the former Soviet Union: in Russia and in several East
     European countries. In some cases, earlier centers of Oriental
@@ -215,85 +230,86 @@
     Syriac Christianity, and to the modest beginnings of an
     appropriate academic infrastructure.<ref target="#FN4">4</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] None of
-    these new developments — in the Middle East, Turkey, India, the
-    Diaspora communities, or Russia and Eastern Europe — will leave
-    the traditional study in Western academic centers unaffected.
-    New research interests will develop, hitherto neglected fields
-    will be explored, and, hopefully, new forms of interaction and
-    international cooperation will be established. Hugoye, with its
-    easy access to readers and contributors everywhere on earth,
-    will not only reflect these changes but help to shape them.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+         <p>
+            <anchor corresp="P7"/>[7] None of
+    these new developments — in the Middle East, Turkey,
+    India, the Diaspora communities, or Russia and Eastern Europe
+    — will leave the traditional study in Western academic
+    centers unaffected. New research interests will develop,
+    hitherto neglected fields will be explored, and, hopefully, new
+    forms of interaction and international cooperation will be
+    established. Hugoye, with its easy access to readers and
+    contributors everywhere on earth, will not only reflect these
+    changes but help to shape them.</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     potential of Syriac studies, therefore, may be said to be
     richer than ever before. New students and new researchers,
     having geographic, cultural, and educational backgrounds and
     experiences quite different from those of the traditional
-    <hi rend="italic">mestaryon�</hi>, will find their own topics and their own
-    methodologies, and they will infuse new blood into our
+    <hi rend="italic">mestaryonê</hi>, will find their own topics and their
+    own methodologies, and they will infuse new blood into our
     discipline. History will have its course and does not need to
     be predicted or guessed at here. Let us only express the wish
     that we will find the best possible ways of dealing with the
     new challenges and the new opportunities.<ref target="#FN5">5</ref>
          </p>
-         <head xml:id="S2">Syriac Studies: The Core Fields, and the Basic
+         <head xml:id="HV10N1VanRompay4">Syriac Studies: The Core Fields, and the Basic
     Tools for the Study of Language and Literature</head>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] To
+         <p>
+            <anchor corresp="P9"/>[9] To
     whatever new research questions and new methodologies these
     recent developments will lead, the core of Syriac scholarship
     will remain the study of the language — our only means of
-    communication with Syriac Christians of earlier days — and the
-    interpretation of texts. Admittedly, an impressive number of
-    new texts have been published and translated in recent decades,
-    but when it comes to the basic tools of language and
-    literature, it is difficult to argue that the present-day
-    student is much better off than her or his fellow students of
-    eighty or hundred years ago. Eighty-five years after A.
-    Baumstark�s <hi rend="italic">Geschichte der syrischen Literatur</hi> (1922),
-    we still don�t have an updated history of Syriac literature.
-    And the best we can do in the fields of grammar and
-    lexicography is to put our hands on the works of the masters of
-    old, which often exist in beautifully executed reprints:
-    Theodor N�ldeke�s grammar,<ref target="#FN6">6</ref> and the dictionaries by Carl
-    Brockelmann (second edition, 1928), Robert Payne Smith
-    (1879-1901, with a Supplement posthumously published in 1927),
-    and Jessie Payne Smith (first published in 1903). I am not
-    suggesting that no significant progress has been made. As a
-    matter of fact, we now have a number of excellent concordances,
-    in particular for the Old Testament and New Testament Peshitta,
-    to which most recently <hi rend="italic">A Key-Word-in-Context
-    Concordance</hi> of the Old Syriac Gospels, by J.S. Lund (in
-    collaboration with G.A. Kiraz), was added (2004). Much more,
-    however, can and should be done, in particular when we consider
-    the fact that the new technologies allow the manipulation of
-    large amounts of data. Here I would like to single out three
-    concrete projects, for each of which important steps have
-    already been taken. My suggestions concern the Syriac
-    <hi rend="italic">lexicon</hi>, <hi rend="italic">textual corpora</hi>, and an
-    <hi rend="italic">encyclopedic</hi> project.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] For
+    communication with Syriac Christians of earlier days —
+    and the interpretation of texts. Admittedly, an impressive
+    number of new texts have been published and translated in
+    recent decades, but when it comes to the basic tools of
+    language and literature, it is difficult to argue that the
+    present-day student is much better off than her or his fellow
+    students of eighty or hundred years ago. Eighty-five years
+    after A. Baumstark’s <hi rend="italic">Geschichte der syrischen
+    Literatur</hi> (1922), we still don’t have an updated
+    history of Syriac literature. And the best we can do in the
+    fields of grammar and lexicography is to put our hands on the
+    works of the masters of old, which often exist in beautifully
+    executed reprints: Theodor Nöldeke’s
+    grammar,<ref target="#FN6">6</ref> and the dictionaries by Carl Brockelmann (second
+    edition, 1928), Robert Payne Smith (1879-1901, with a
+    Supplement posthumously published in 1927), and Jessie Payne
+    Smith (first published in 1903). I am not suggesting that no
+    significant progress has been made. As a matter of fact, we now
+    have a number of excellent concordances, in particular for the
+    Old Testament and New Testament Peshitta, to which most
+    recently <hi rend="italic">A Key-Word-in-Context Concordance</hi> of the Old
+    Syriac Gospels, by J.S. Lund (in collaboration with G.A.
+    Kiraz), was added (2004). Much more, however, can and should be
+    done, in particular when we consider the fact that the new
+    technologies allow the manipulation of large amounts of data.
+    Here I would like to single out three concrete projects, for
+    each of which important steps have already been taken. My
+    suggestions concern the Syriac <hi rend="italic">lexicon</hi>, <hi rend="italic">textual
+    corpora</hi>, and an <hi rend="italic">encyclopedic</hi> project.</p>
+         <p>
+            <anchor corresp="P10"/>[10] For
     some decades, considerable knowledge and experience in Aramaic
     and Syriac lexicography have been built up within the
     <hi rend="italic">Comprehensive Aramaic Lexicon</hi> project, presently based
     at Hebrew Union College in Cincinnati, Ohio. It is within the
     framework of this project that we soon will have at our
-    disposal a new edition of C. Brockelmann�s <hi rend="italic">Lexicon
+    disposal a new edition of C. Brockelmann’s <hi rend="italic">Lexicon
     Syriacum</hi>, translated into English, revised, and slightly
     updated by Michael Sokoloff. Along with two other outstanding
     dictionaries by Sokoloff, covering the neighboring fields of
-    Jewish Palestinian Aramaic and Jewish Babylonian Aramaic — both
-    of direct relevance to students of Syriac! — the new
-    Brockelmann &amp; Sokoloff will pave the way for the creation
-    of new and up-to-date tools in the field of Syriac
+    Jewish Palestinian Aramaic and Jewish Babylonian Aramaic
+    — both of direct relevance to students of Syriac! —
+    the new Brockelmann &amp; Sokoloff will pave the way for the
+    creation of new and up-to-date tools in the field of Syriac
     lexicography. Discussions for new projects are also in the
     works.<ref target="#FN7">7</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     Related to this is the need for searchable textual corpora for
     different purposes: lexical, linguistic, and thematic. Would it
     not be wonderful to be able to search the writings of Ephrem,
@@ -305,35 +321,35 @@
     University, and the <hi rend="italic">Thesaurus Linguae Graecae</hi>, based
     at the University of California at Irvine, come to mind as
     obvious models.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+         <p>
+            <anchor corresp="P12"/>[12] The
     third type of database I would like briefly to mention is of a
     quite different nature. For several years students of Syriac
     have been talking about the need for a Syriac
     Encyclopedia,<ref target="#_ftn8">8</ref> and concrete steps have been taken towards
-    creating an �Encyclopedic Dictionary of the Syriac Heritage,�
-    as a publication within the Beth Mardutho program. Although
-    much work has been done, and a considerable number of entries
-    have been submitted, final execution of the work has been
-    delayed. While it is true that the field of Syriac is partly
-    covered in a number of existing encyclopedias — dealing with
-    Late Antiquity, Early Christianity, Eastern Christianity, or
-    Near Eastern studies — none of these do justice to our field as
-    a whole, and in its own right. There can be no doubt that an
-    encyclopedia, created by a team of Syriac scholars, and aimed
-    at students and scholars of Syriac as well as at a larger
-    readership, will serve as an indispensable frame of reference,
-    will inspire and guide young students, and will greatly enhance
-    the visibility of our field. The existing, though somewhat
-    dormant project, therefore, should be awakened urgently and
-    forcefully. The encyclopedia should cover the earlier as well
-    as the later and contemporary periods, and should include ample
-    references to adjacent fields and disciplines, as the strength
-    of Syriac studies lies in its multidisciplinarity and in its
-    interconnectedness with other fields, rather than in its
-    isolation.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] In
+    creating an “Encyclopedic Dictionary of the Syriac
+    Heritage,” as a publication within the Beth Mardutho
+    program. Although much work has been done, and a considerable
+    number of entries have been submitted, final execution of the
+    work has been delayed. While it is true that the field of
+    Syriac is partly covered in a number of existing encyclopedias
+    — dealing with Late Antiquity, Early Christianity,
+    Eastern Christianity, or Near Eastern studies — none of
+    these do justice to our field as a whole, and in its own right.
+    There can be no doubt that an encyclopedia, created by a team
+    of Syriac scholars, and aimed at students and scholars of
+    Syriac as well as at a larger readership, will serve as an
+    indispensable frame of reference, will inspire and guide young
+    students, and will greatly enhance the visibility of our field.
+    The existing, though somewhat dormant project, therefore,
+    should be awakened urgently and forcefully. The encyclopedia
+    should cover the earlier as well as the later and contemporary
+    periods, and should include ample references to adjacent fields
+    and disciplines, as the strength of Syriac studies lies in its
+    multidisciplinarity and in its interconnectedness with other
+    fields, rather than in its isolation.</p>
+         <p>
+            <anchor corresp="P13"/>[13] In
     order to make the project manageable, short- and long-term
     goals should be set. On the one hand, we should work towards
     the publication of a modest encyclopedic dictionary containing
@@ -347,154 +363,165 @@
     can include discussion of existing scholarship, whereas the
     printed dictionary will be more succinct and only provide basic
     information.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
-    �Encyclopedic Dictionary of the Syriac Heritage,� in its two
-    phases as proposed here, is not one of the many desiderata in
-    the field of Syriac studies; rather, it is a concrete project
-    that already has been created and waits to be carried out.
-    There is no justification for further delay.</p>
-         <head xml:id="S3">Syriac Studies: Texts, Authors, Opportunities and
+         <p>
+            <anchor corresp="P14"/>[14] The
+    “Encyclopedic Dictionary of the Syriac Heritage,”
+    in its two phases as proposed here, is not one of the many
+    desiderata in the field of Syriac studies; rather, it is a
+    concrete project that already has been created and waits to be
+    carried out. There is no justification for further delay.</p>
+         <head xml:id="HV10N1VanRompay5">Syriac Studies: Texts, Authors, Opportunities and
     Limitations</head>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] In
-    1947, the Belgian Syriac scholar Jacques-Marie Vost�, who then
-    was professor at the Angelicum in Rome, published a paper,
-    entitled �De la besogne pour les jeunes syriacisants.�<ref target="#_ftn9">9</ref> In it he
-    listed what he regarded as — and mainly within his own field of
-    expertise — the most urgent tasks for young Syriac scholars.
-    This publication turned out to be Vost�s spiritual testament,
-    for he died one year later (at the age of 66). For us, reading
-    it sixty years later, the paper is an important historical
-    piece. Not only is it interesting to see which items in Vost�s
-    list have received scholarly attention and which have not, it
-    is also worthwhile to notice the different conditions that
-    prevailed in Syriac studies in Vost�s day. Throughout the
-    paper, Vost�s enthusiasm is moving: to the young scholars he
-    promises a life full of excitement and happiness; to the
-    universities supporting them, he promises fame, the whole
-    world�s gratitude, and even some financial gain. I wish we
-    could share in more of Vost�s optimism!</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16]
+         <p>
+            <anchor corresp="P15"/>[15] In
+    1947, the Belgian Syriac scholar Jacques-Marie Vosté,
+    who then was professor at the Angelicum in Rome, published a
+    paper, entitled “De la besogne pour les jeunes
+    syriacisants.”<ref target="#_ftn9">9</ref> In it he listed what he regarded as —
+    and mainly within his own field of expertise — the most
+    urgent tasks for young Syriac scholars. This publication turned
+    out to be Vosté’s spiritual testament, for he died
+    one year later (at the age of 66). For us, reading it sixty
+    years later, the paper is an important historical piece. Not
+    only is it interesting to see which items in
+    Vosté’s list have received scholarly attention and
+    which have not, it is also worthwhile to notice the different
+    conditions that prevailed in Syriac studies in
+    Vosté’s day. Throughout the paper,
+    Vosté’s enthusiasm is moving: to the young
+    scholars he promises a life full of excitement and happiness;
+    to the universities supporting them, he promises fame, the
+    whole world’s gratitude, and even some financial gain. I
+    wish we could share in more of Vosté’s
+    optimism!</p>
+         <p>
+            <anchor corresp="P16"/>[16]
     Given his background in biblical and exegetical studies, it is
-    no surprise that editions of biblical texts rank high on Vost�s
-    wish list. He singled out as most urgent the need for an
-    edition of the Old Testament Peshitta and of the New Testament
-    Harklean version. In both areas Vost�s suggestions were taken
-    up by later scholars. The Old Testament Peshitta edition, begun
-    by the Leiden Peshitta Institute not long after Vost� wrote, is
+    no surprise that editions of biblical texts rank high on
+    Vosté’s wish list. He singled out as most urgent
+    the need for an edition of the Old Testament Peshitta and of
+    the New Testament Harklean version. In both areas
+    Vosté’s suggestions were taken up by later
+    scholars. The Old Testament Peshitta edition, begun by the
+    Leiden Peshitta Institute not long after Vosté wrote, is
     expected to be completed in the next couple of years. The
-    project thus will have lasted fifty years, rather than �a few
-    years� (<hi rend="italic">quelques ann�es</hi>), as Vost� predicted (p. 175).
-    The study of the Harklean New Testament has been integrated
-    within the work of the Institute for New Testament Research of
-    the University of M�nster. Here again, the problems turned out
-    to be much more complex than first could be anticipated.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] As
-    Syriac scholars we may wholeheartedly agree with Vost�s
-    prediction that the universities that would undertake such
-    editions �would cover themselves with glory� (p. 174), but
-    present-day university administrators tend to look elsewhere
-    for their glory. Vost� calculated that the universities would
-    fully recover their financial investment in the form of the
-    royalties they would earn from the unique publications that
-    were going to be produced (p. 175). Experience has taught us
-    otherwise! Universities no longer want to assume a Maecenas
-    role for the arts and the humanities; instead, they have become
-    business enterprises in which Syriac studies are seen as
-    marginal at best. Projects in Syriac studies, as in the
-    humanities in general, have to go through cumbersome procedures
-    and heavy competition in order to get external funding.
-    Successful projects normally are not limited to Syriac, but are
-    embedded in much broader, multidisciplinary frameworks.</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
-    Perhaps now even more than in Vost�s day Syriac studies owe
-    their strength to the commitment and perseverance of
-    individuals. Apart from the two aforementioned team projects,
-    in which the universities of Leiden and M�nster were — and to a
-    certain extent still are — directly involved, other editions
-    that Vost� suggested were subsequently carried out by
-    individuals. This is the case for the edition of the Old
-    Testament Commentary by Isho<hi rend="sup">
+    project thus will have lasted fifty years, rather than “a
+    few years” (<hi rend="italic">quelques années</hi>), as
+    Vosté predicted (p. 175). The study of the Harklean New
+    Testament has been integrated within the work of the Institute
+    for New Testament Research of the University of Münster.
+    Here again, the problems turned out to be much more complex
+    than first could be anticipated.</p>
+         <p>
+            <anchor corresp="P17"/>[17] As
+    Syriac scholars we may wholeheartedly agree with
+    Vosté’s prediction that the universities that
+    would undertake such editions “would cover themselves
+    with glory” (p. 174), but present-day university
+    administrators tend to look elsewhere for their glory.
+    Vosté calculated that the universities would fully
+    recover their financial investment in the form of the royalties
+    they would earn from the unique publications that were going to
+    be produced (p. 175). Experience has taught us otherwise!
+    Universities no longer want to assume a Maecenas role for the
+    arts and the humanities; instead, they have become business
+    enterprises in which Syriac studies are seen as marginal at
+    best. Projects in Syriac studies, as in the humanities in
+    general, have to go through cumbersome procedures and heavy
+    competition in order to get external funding. Successful
+    projects normally are not limited to Syriac, but are embedded
+    in much broader, multidisciplinary frameworks.</p>
+         <p>
+            <anchor corresp="P18"/>[18]
+    Perhaps now even more than in Vosté’s day Syriac
+    studies owe their strength to the commitment and perseverance
+    of individuals. Apart from the two aforementioned team
+    projects, in which the universities of Leiden and Münster
+    were — and to a certain extent still are — directly
+    involved, other editions that Vosté suggested were
+    subsequently carried out by individuals. This is the case for
+    the edition of the Old Testament Commentary by
+    Isho<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>dad of Merv,
-    to which Vost� himself gave much of his last strength. The
-    first volume, containing the Syriac text of the Genesis
-    Commentary, was published in 1950, co-authored by Vost� and his
-    much younger Louvain confr�re Ceslas Van den Eynde. Van den
+            </hi>dad of Merv, to which Vosté
+    himself gave much of his last strength. The first volume,
+    containing the Syriac text of the Genesis Commentary, was
+    published in 1950, co-authored by Vosté and his much
+    younger Louvain confrère Ceslas Van den Eynde. Van den
     Eynde continued on his own and completed the work in a series
     of splendid editions and translations (1955-1981).<ref target="#FN10">10</ref>
     Another East-Syriac exegetical compilation, the <hi rend="italic">Gannat
-    Buss�m�</hi> (�The Garden of Delights�), arranged according to
-    the periods of the liturgical year, which Vost� saw as a
-    veritable gold mine — promising �la plus grande satisfaction�
-    to those who would study it (p. 180) — has been meticulously
-    explored by G.J. Reinink (University of Groningen), who now is
-    in the process of producing a full edition with translation,
-    the first volume of which appeared in 1988.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
-    Other texts recommended by Vost� for publication and
+    Bussâmê</hi> (“The Garden of
+    Delights”), arranged according to the periods of the
+    liturgical year, which Vosté saw as a veritable gold
+    mine — promising “la plus grande
+    satisfaction” to those who would study it (p. 180)
+    — has been meticulously explored by G.J. Reinink
+    (University of Groningen), who now is in the process of
+    producing a full edition with translation, the first volume of
+    which appeared in 1988.</p>
+         <p>
+            <anchor corresp="P19"/>[19]
+    Other texts recommended by Vosté for publication and
     translation have received little attention so far. This is true
     for the writings of the Syrian Orthodox author Jacob (Severus)
     bar Shakko (p. 183), who worked a few decades before
     Barhebraeus, as well as for a number of liturgical texts (pp.
-    184-185). Other areas referred to by Vost� in a more general
-    way are hagiographical, ascetical, and mystical literature. In
-    poetry Vost� singles out Narsai, Jacob of Serug, and Giwargis
-    Warda: several of Narsai�s <hi rend="italic">M�mr�</hi> remain unpublished,
-    and, while Jacob of Serug has fared better than Narsai
-    (especially after the 2006 expanded reprint of Bedjan�s
-    five-volume edition), Giwargis Warda remains very little
-    studied to this day.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
-    Vost�s selection of texts was clearly determined by his work on
-    the collections of East-Syriac manuscripts in Iraq, which
-    suffered losses and destruction during and after World War I.
-    In the course of his work in Iraq, he located and briefly
-    described a number of manuscripts (namely those of Alqosh,
-    Kirkuk, and <hi rend="sup">
+    184-185). Other areas referred to by Vosté in a more
+    general way are hagiographical, ascetical, and mystical
+    literature. In poetry Vosté singles out Narsai, Jacob of
+    Serug, and Giwargis Warda: several of Narsai’s
+    <hi rend="italic">Mêmrê</hi> remain unpublished, and, while Jacob
+    of Serug has fared better than Narsai (especially after the
+    2006 expanded reprint of Bedjan’s five-volume edition),
+    Giwargis Warda remains very little studied to this day.</p>
+         <p>
+            <anchor corresp="P20"/>[20]
+    Vosté’s selection of texts was clearly determined
+    by his work on the collections of East-Syriac manuscripts in
+    Iraq, which suffered losses and destruction during and after
+    World War I. In the course of his work in Iraq, he located and
+    briefly described a number of manuscripts (namely those of
+    Alqosh, Kirkuk, and <hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>Aqra), lamented the definitive
-    loss of others, and rescued some to the Vatican Library.
-    Unfortunately, the Syriac manuscripts of Iraq are still not
-    secure. Their proper documentation and preservation are badly
-    needed. Moreover, in the last decade of the twentieth century
-    as well as in the first years of the twenty-first century new
-    catastrophes do not cease to threaten them. <hi rend="italic">L�histoire se
-    r�p�te</hi> — sadly and almost unbearably!</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21] The
+            </hi>Aqra), lamented the
+    definitive loss of others, and rescued some to the Vatican
+    Library. Unfortunately, the Syriac manuscripts of Iraq are
+    still not secure. Their proper documentation and preservation
+    are badly needed. Moreover, in the last decade of the twentieth
+    century as well as in the first years of the twenty-first
+    century new catastrophes do not cease to threaten them.
+    <hi rend="italic">L’histoire se répète</hi> — sadly
+    and almost unbearably!</p>
+         <p>
+            <anchor corresp="P21"/>[21] The
     lack and desirability of editions, translations, and studies
-    are not limited to the texts listed by Vost�. Each of us could
-    easily make a list. I would like to single out a few names. A
-    full edition of the works of John the Solitary of Apamea, one
-    of the most fascinating authors of the early period of Syriac
-    Christianity, is still missing. No general studies of his world
-    of thought or sources exist. This is all the more surprising as
-    there is a growing interest in asceticism in the Syriac and
-    late ancient world, and John really brings an original voice to
-    the world of fifth-century asceticism. The same is true for
-    Jacob of Edessa, one of the most learned authors of Syriac
-    literature and probably its best Hellenist. Here again, there
-    is no lack of interest in his works, but a number of them
-    remain unpublished and no overall monograph is
+    are not limited to the texts listed by Vosté. Each of us
+    could easily make a list. I would like to single out a few
+    names. A full edition of the works of John the Solitary of
+    Apamea, one of the most fascinating authors of the early period
+    of Syriac Christianity, is still missing. No general studies of
+    his world of thought or sources exist. This is all the more
+    surprising as there is a growing interest in asceticism in the
+    Syriac and late ancient world, and John really brings an
+    original voice to the world of fifth-century asceticism. The
+    same is true for Jacob of Edessa, one of the most learned
+    authors of Syriac literature and probably its best Hellenist.
+    Here again, there is no lack of interest in his works, but a
+    number of them remain unpublished and no overall monograph is
     available.<ref target="#FN11">11</ref> The works of many of the later authors are
     still lingering in manuscripts. What about Moses bar Kepha,
-    Dionysius bar Salibi, Emmanuel bar Shahh�r�, Yohannan bar
-    Zo<hi rend="sup">
+    Dionysius bar Salibi, Emmanuel bar Shahhârê,
+    Yohannan bar Zo<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>bi, Khamis bar Qard�h�, and Gabriel
-    Qams�? Some parts of their works have been published or
-    studied, often long ago, but no recent progress has been made.
-    How to explain this lack of initiative, this lack of energy on
-    the part of Syriac scholars?</p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] It
+            </hi>bi, Khamis bar
+    Qardâhê, and Gabriel Qamsâ? Some parts of
+    their works have been published or studied, often long ago, but
+    no recent progress has been made. How to explain this lack of
+    initiative, this lack of energy on the part of Syriac
+    scholars?</p>
+         <p>
+            <anchor corresp="P22"/>[22] It
     is true that text editions and translations do not always have
     a positive reputation in the academic discourse, and that
     doctoral candidates often find it more attractive (or are even
@@ -508,12 +535,12 @@
     first interpretation of texts seem to me to be the noblest task
     of Syriac scholars, a task we should cherish above anything
     else. It is imperative, therefore, that we keep the standards
-    of Syriac education high — in particular its linguistic and
-    literary components — in order to allow future generations of
-    Syriac scholars to carry out their work with the same rigor as
-    the best editors and translators of the past.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+    of Syriac education high — in particular its linguistic
+    and literary components — in order to allow future
+    generations of Syriac scholars to carry out their work with the
+    same rigor as the best editors and translators of the past.</p>
+         <p>
+            <anchor corresp="P23"/>[23]
     There may be an additional problem here, as the present-day
     requirements of many academic programs are so complex and
     wide-ranging that the basic study of languages and literatures
@@ -531,33 +558,34 @@
     there is the possible problem of time pressure, the more so as
     university administrators are increasingly eager to abbreviate
     the number of years students spend in Ph.D. programs.</p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24] Many
+         <p>
+            <anchor corresp="P24"/>[24] Many
     of us will have noticed that in recent years symposia and
     conferences on Syriac topics are well-attended by a wonderful
-    crowd of enthusiastic people with very different backgrounds —
-    reflecting the healthy diversity hinted at above. This often
-    leads to fascinating discussions and enriching encounters. One
-    also realizes, however, that many of the attendees, while
-    enthusiastically dealing with matters Syriac from a variety of
-    angles, have only a limited knowledge of the Syriac language or
-    no knowledge at all. We should not complain too much about
-    this, as it is one of the consequences of the growing
-    popularity of Syriac studies in recent years. Moreover, we may
-    learn from the viewpoint of experts in different fields, even
-    if they are not as strong in the Syriac language as we would
-    like them to be. But there is a risk that Syriac texts are used
-    without much precision or are quoted in translations without
-    being checked against the Syriac original. Unfortunately there
-    even have been some lamentable examples of poor, or less than
-    poor, Syriac in recently published monographs. For several
-    reasons — some of which mentioned above — it may not always be
-    easy for students to learn Syriac, or to find experts with whom
-    to discuss the specific problems posed by the texts with which
-    they are dealing. In addition, as pointed out above, the tools
-    for learning Syriac are less than ideal.</p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25]
+    crowd of enthusiastic people with very different backgrounds
+    — reflecting the healthy diversity hinted at above. This
+    often leads to fascinating discussions and enriching
+    encounters. One also realizes, however, that many of the
+    attendees, while enthusiastically dealing with matters Syriac
+    from a variety of angles, have only a limited knowledge of the
+    Syriac language or no knowledge at all. We should not complain
+    too much about this, as it is one of the consequences of the
+    growing popularity of Syriac studies in recent years. Moreover,
+    we may learn from the viewpoint of experts in different fields,
+    even if they are not as strong in the Syriac language as we
+    would like them to be. But there is a risk that Syriac texts
+    are used without much precision or are quoted in translations
+    without being checked against the Syriac original.
+    Unfortunately there even have been some lamentable examples of
+    poor, or less than poor, Syriac in recently published
+    monographs. For several reasons — some of which mentioned
+    above — it may not always be easy for students to learn
+    Syriac, or to find experts with whom to discuss the specific
+    problems posed by the texts with which they are dealing. In
+    addition, as pointed out above, the tools for learning Syriac
+    are less than ideal.</p>
+         <p>
+            <anchor corresp="P25"/>[25]
     There seems to be a real challenge here, which poses itself
     equally to Syriac scholars and to all those who are interested
     in Syriac Christian culture. On the one hand, we should let the
@@ -566,43 +594,44 @@
     dealing with Syriac texts we should never desist from applying
     the highest possible standards. Even though our understanding
     and interpretation of ancient texts will always be incomplete
-    and provisional — every generation of scholars offering new
-    insights differing from those of the previous generations — the
-    language should be studied in its full depth and be taken as
-    the solid starting point for any discussion. Proper study of
-    language and style should always be an integral part of our
-    engagement with Syriac texts. May our field further grow and
-    flourish in the coming ten years and beyond! May Hugoye bring
-    and keep us together both in the real world and in
+    and provisional — every generation of scholars offering
+    new insights differing from those of the previous generations
+    — the language should be studied in its full depth and be
+    taken as the solid starting point for any discussion. Proper
+    study of language and style should always be an integral part
+    of our engagement with Syriac texts. May our field further grow
+    and flourish in the coming ten years and beyond! May Hugoye
+    bring and keep us together both in the real world and in
     cyberspace!<ref target="#FN12">12</ref>
          </p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef1">1</ref> For earlier overviews, see S. Brock, �Syriac
-    Studies in the Last Three Decades,� in R. Lavenant (ed.),
+         <head xml:id="HV10N1VanRompay6">Notes</head>
+         <p>
+            <ref target="#FNRef1">1</ref> For earlier overviews, see S. Brock, “Syriac
+    Studies in the Last Three Decades,” in R. Lavenant (ed.),
     <hi rend="italic">VI Symposium Syriacum</hi> 
             <hi rend="italic">1992</hi>. Orientalia
     Christiana Analecta 247 (Rome: Pont. Institutum Orientalium
-    Studiorum, 1994), 13-29; A. de Halleux, �Vingt ans d��tude
-    critique des �glises syriaques,� in R. F. Taft (ed.), <hi rend="italic">The
-    Christian East. Its Institutions and Its Thoughts. A Critical
-    Reflection</hi>. Orientalia Christiana Analecta 252 (Rome:
-    Pont. Institutum Orientalium Studiorum, 1996), 145-179; H.
-    Teule, �Current Trends in Syriac Studies,� in J.P.
-    Monferrer-Sala (ed.), <hi rend="italic">Eastern Crossroads. Essays on
-    Medieval Christian Legacy</hi> (Piscataway, NJ: Gorgias Press,
-    2006), 143-156. <ref target="#FNRef1">
+    Studiorum, 1994), 13-29; A. de Halleux, “Vingt ans
+    d’étude critique des Églises
+    syriaques,” in R. F. Taft (ed.), <hi rend="italic">The Christian East.
+    Its Institutions and Its Thoughts. A Critical Reflection</hi>.
+    Orientalia Christiana Analecta 252 (Rome: Pont. Institutum
+    Orientalium Studiorum, 1996), 145-179; H. Teule, “Current
+    Trends in Syriac Studies,” in J.P. Monferrer-Sala (ed.),
+    <hi rend="italic">Eastern Crossroads. Essays on Medieval Christian
+    Legacy</hi> (Piscataway, NJ: Gorgias Press, 2006), 143-156.
+    <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> For a discussion of some recent publications on
-    Syriac Christianity by Turkish scholars, see H. Teule, �Current
-    Trends,� 153-154. <ref target="#FNRef2">
+    Syriac Christianity by Turkish scholars, see H. Teule,
+    “Current Trends,” 153-154. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> For an overview of Syriac religious and cultural
     life in the Diaspora communities, see S. Brock a.o., <hi rend="italic">The
     Hidden Pearl. The Syrian Orthodox Church and Its Ancient
@@ -612,17 +641,18 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef4">4</ref> See H. Teule, �Current Trends,� 152-153. Teule
-    mentions the 1999 rebirth of the Russian periodical (1910-1926)
-    <hi rend="italic">Christianskiy Vostok</hi> (�The Christian East�) and
-    further focuses on new developments in Moscow and Romania. New
-    initiatives could be mentioned for other countries as well,
-    esp. Poland, Hungary, and the Czech Republic. <ref target="#FNRef4">
+         <p>
+            <ref target="#FNRef4">4</ref> See H. Teule, “Current Trends,”
+    152-153. Teule mentions the 1999 rebirth of the Russian
+    periodical (1910-1926) <hi rend="italic">Christianskiy Vostok</hi>
+    (“The Christian East”) and further focuses on new
+    developments in Moscow and Romania. New initiatives could be
+    mentioned for other countries as well, esp. Poland, Hungary,
+    and the Czech Republic. <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> To the geographical areas listed above we should
     add the growing interest in Syriac and in Syriac Christianity
     among students and scholars from Japan and South Korea.
@@ -630,7 +660,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> On the 2001 publication of the reprint of the
     English translation of the 1898 second edition of the
     <hi rend="italic">Kurzgefasste syrische Grammatik</hi>, see L. Van Rompay, in
@@ -638,20 +668,20 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef7">7</ref> An �International Syriac Language Project� has been
-    set up by Terry Falla (University of Melbourne), with the
-    collaboration of several scholars. On the second ISLIP meeting,
-    see I. Ramelli, �Session on Syriac Lexicography, International
-    Meeting of the Society of Biblical Literature, Groningen, The
-    Netherlands, July 25-28, 2004,� <hi rend="italic">Hugoye</hi> 7/2 (July
-    2004). Some papers of an earlier conference on Aramaic
-    lexicography were published in <hi rend="italic">Aramaic Studies</hi> 1.2
-    (2003). <ref target="#FNRef7">
+         <p>
+            <ref target="#FNRef7">7</ref> An “International Syriac Language
+    Project” has been set up by Terry Falla (University of
+    Melbourne), with the collaboration of several scholars. On the
+    second ISLIP meeting, see I. Ramelli, “Session on Syriac
+    Lexicography, International Meeting of the Society of Biblical
+    Literature, Groningen, The Netherlands, July 25-28,
+    2004,” <hi rend="italic">Hugoye</hi> 7/2 (July 2004). Some papers of an
+    earlier conference on Aramaic lexicography were published in
+    <hi rend="italic">Aramaic Studies</hi> 1.2 (2003). <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> If my memory is correct, it was W. Witakowski, of
     Uppsala University, who first suggested the idea of a Syriac
     encyclopedia to the Business Meeting of the 1988 Syriac
@@ -660,30 +690,32 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef9">9</ref> J.-M. Vost�, �De la besogne pour les jeunes
-    syriacisants,� <hi rend="italic">Le Mus�on</hi> 60 (1947), 171-186. <ref target="#FNRef9">
+         <p>
+            <ref target="#FNRef9">9</ref> J.-M. Vosté, “De la besogne pour les
+    jeunes syriacisants,” <hi rend="italic">Le Muséon</hi> 60
+    (1947), 171-186. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef10">10</ref> Vost� strongly argues that Syriac texts need
-    to be accompanied with translations. Publishing texts without
-    translation would be �multiplier l�in�dit� (p. 178). Van den
-    Eynde�s publications show to what extent his translations and
-    notes are an integral part of his creative work. <ref target="#FNRef10">
+         <p>
+            <ref target="#FNRef10">10</ref> Vosté strongly argues that Syriac
+    texts need to be accompanied with translations. Publishing
+    texts without translation would be “multiplier
+    l’inédit” (p. 178). Van den Eynde’s
+    publications show to what extent his translations and notes are
+    an integral part of his creative work. <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> A much delayed collective volume, to be
     edited by R.B. ter Haar Romeny and K.D. Jenner (Leiden
-    University) and dealing with several of Jacob�s writings, is
-    scheduled to appear in 2007. <ref target="#FNRef11">
+    University) and dealing with several of Jacob’s writings,
+    is scheduled to appear in 2007. <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> For their help and suggestions while I was
     writing this paper I would like to thank Sebastian Brock, Bas
     ter Haar Romeny, George Kiraz, Kyle Smith, and Herman Teule.
@@ -691,41 +723,44 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>_______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">S. Brock, �Syriac Studies in the Last
-    Three Decades.� In <hi rend="italic">VI Symposium Syriacum 1992</hi>, R.
-    Lavenant, ed., <hi rend="italic">Orientalia Christiana Analecta</hi> 247.
-    Rome: Pont. Institutum Orientalium Studiorum, 1994. 13-29.</p>
-         <p xml:id="B2" rend="biblio">S. Brock, E. Balicka-Witakowski,
+         <head xml:id="HV10N1VanRompay7">Bibliography</head>
+         <p>S. Brock, “Syriac Studies in
+    the Last Three Decades.” In <hi rend="italic">VI Symposium Syriacum
+    1992</hi>, R. Lavenant, ed., <hi rend="italic">Orientalia Christiana
+    Analecta</hi> 247. Rome: Pont. Institutum Orientalium
+    Studiorum, 1994. 13-29.</p>
+         <p>S. Brock, E. Balicka-Witakowski,
     D.K.G. Taylor, W. Witakowski, <hi rend="italic">The Hidden Pearl. The Syrian
     Orthodox Church and Its Ancient Aramaic Heritage</hi>, 4 vol.
     Rome: Trans World Film Italia, 2001.</p>
-         <p xml:id="B3" rend="biblio">R.B. ter Haar Romeny and K.D. Jenner
+         <p>R.B. ter Haar Romeny and K.D. Jenner
     (eds.), <hi rend="italic">Jacob of Edessa and the Syriac Culture of His
     Day.</hi> Leiden (forthcoming).</p>
-         <p xml:id="B4" rend="biblio">A. de Halleux, �Vingt ans d��tude
-    critique des �glises syriaques.� In <hi rend="italic">The Christian East. Its
-    Institutions and Its Thoughts. A Critical Reflection</hi>, R.
-    F. Taft, ed., <hi rend="italic">Orientalia Christiana Analecta</hi> 252.
-    Rome: Pont. Institutum Orientalium Studiorum, 1996. 145-179</p>
-         <p xml:id="B5" rend="biblio">J.A. Lund, in collaboration with G.A.
-    Kiraz, <hi rend="italic">The Old Syriac Gospel of the Distinct �Evangelists.
-    A Key-Word-in-Context Concordance</hi>, 3 vol. Piscataway, NJ:
-    Gorgias Press, 2004.</p>
-         <p xml:id="B6" rend="biblio">I. Ramelli, �Session on Syriac
+         <p>A. de Halleux, “Vingt ans
+    d’étude critique des Églises
+    syriaques.” In <hi rend="italic">The Christian East. Its Institutions
+    and Its Thoughts. A Critical Reflection</hi>, R. F. Taft, ed.,
+    <hi rend="italic">Orientalia Christiana Analecta</hi> 252. Rome: Pont.
+    Institutum Orientalium Studiorum, 1996. 145-179</p>
+         <p>J.A. Lund, in collaboration with G.A.
+    Kiraz, <hi rend="italic">The Old Syriac Gospel of the Distinct
+     Evangelists. A Key-Word-in-Context Concordance</hi>, 3
+    vol. Piscataway, NJ: Gorgias Press, 2004.</p>
+         <p>I. Ramelli, “Session on Syriac
     Lexicography, International Meeting of the Society of Biblical
-    Literature, Groningen, The Netherlands, July 25-28, 2004.�
-    <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> 7/2 (July 2004).</p>
-         <p xml:id="B7" rend="biblio">H. Teule, �Current Trends in Syriac
-    Studies.� In J.P. Monferrer-Sala (ed.), <hi rend="italic">Eastern Crossroads.
-    Essays on Medieval Christian Legacy.</hi> Piscataway, NJ:
-    Gorgias Press, 2006. 143-156.</p>
-         <p xml:id="B8" rend="biblio">L. Van Rompay, �Review of Th.
-    N�ldeke, <hi rend="italic">Compendious Syriac Grammar</hi>.� <hi rend="italic">Hugoye:
-    Journal of Syriac Studies</hi> 4/2 (July 2001).</p>
-         <p xml:id="B9" rend="biblio">J.-M. Vost�, �De la besogne pour les
-    jeunes syriacisants.� <hi rend="italic">Le Mus�on</hi> 60 (1947):
-    171-186.</p>
+    Literature, Groningen, The Netherlands, July 25-28,
+    2004.” <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> 7/2
+    (July 2004).</p>
+         <p>H. Teule, “Current Trends in
+    Syriac Studies.” In J.P. Monferrer-Sala (ed.),
+    <hi rend="italic">Eastern Crossroads. Essays on Medieval Christian
+    Legacy.</hi> Piscataway, NJ: Gorgias Press, 2006. 143-156.</p>
+         <p>L. Van Rompay, “Review of Th.
+    Nöldeke, <hi rend="italic">Compendious Syriac Grammar</hi>.”
+    <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> 4/2 (July 2001).</p>
+         <p>J.-M. Vosté, “De la
+    besogne pour les jeunes syriacisants.” <hi rend="italic">Le
+    Muséon</hi> 60 (1947): 171-186.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

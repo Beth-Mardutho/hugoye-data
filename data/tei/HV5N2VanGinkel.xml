@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>In Memoriam Prof. Dr. Han J. W. Drijvers</title>
+            <title type="main">In Memoriam Prof. Dr. Han J. W. Drijvers</title>
             <author>
-               <name>J.J. van GINKEL</name>
+               <name>
+                  <forename>J.J.</forename>
+                  <surname>Van ginkel</surname>
+               </name>
                <affiliation>
                   <orgName>University of Utrecht</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/obituary/hv5n2vanginkel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac</term>
+               <term>H.J.W. Drijvers</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,21 +87,17 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p html:align="center">
-            <graphic url="HV5N2Drijvers.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="177px"
-                     height="221px"/>
+         <p>
+            <graphic url="HV5N2Drijvers.gif" rend="img" mimeType="image/gif" width="177px" height="221px"/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Prof.
+         <p>
+            <anchor corresp="P1"/>[1] Prof.
     Dr. Han J.W. Drijvers passed away on 11 February 2002 at the
     age of 67. He was a retired professor of Semitic Languages and
     Literature and Archaeology of the Near East at the University
     of Groningen, the Netherlands.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Born 25
+         <p>
+            <anchor corresp="P2"/>[2] Born 25
     September 1934 in Winschoten, a little provincial town in the
     North of the Netherlands, Han Drijvers always remained rooted
     in Groningen, the province he loved so much. In his grammar
@@ -99,8 +119,8 @@
     Bardaisan of Edessa</hi> (1965) and his study <hi rend="italic">Cults and
     Beliefs at Edessa</hi> (1980) are but two of his numerous
     publications.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] In 1976
+         <p>
+            <anchor corresp="P3"/>[3] In 1976
     his lectureship was converted into a personal professorate.
     After the retirement of his mentor in Semitics, Prof. Dr. J.H.
     Hospers, Han Drijvers became the professor in ordinary at the
@@ -112,8 +132,8 @@
     his supervision several dissertations on Syriac and related
     topics were written and Groningen became a household name in
     the field of Syriac Studies.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Drijvers
+         <p>
+            <anchor corresp="P4"/>[4] Drijvers
     not only has made a name for himself as a scholar, but also as
     an administrator. He has been, among others, a member of the
     University Board (1972-1974) and Dean of the Faculty of Arts
@@ -124,8 +144,8 @@
     symposia, except for the last, when his physical condition made
     it impossible for him to travel to Sydney - much to his
     regret.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Han
+         <p>
+            <anchor corresp="P5"/>[5] Han
     Drijvers not only was an academic, but he also was an active
     member of society. He was, for example, a member of the
     national Blood Transfusion Board and he was involved in the
@@ -134,8 +154,8 @@
     retirement in 1999 he was appointed by the queen Companion of
     the Order of Orange Nassau for his achievements in academics
     and in society.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] During
+         <p>
+            <anchor corresp="P6"/>[6] During
     the last years of his life Han was hampered by a disease, not
     even he was able to conquer. He did put up a brave fight, but
     in February of this year it finally got the better of him. He

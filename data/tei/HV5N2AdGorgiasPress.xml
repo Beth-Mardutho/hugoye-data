@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gorgias Press Announces Over 100 New Reprints</title>
+            <title type="main">Gorgias Press Announces Over 100 New Reprints</title>
             <author>
-               <name>Gorgias Press LLC</name>
+               <name>
+                  <forename>Gorgias</forename>
+                  <surname>Llc</surname>
+               </name>
                <affiliation>
                   <orgName>46 Orris Ave.</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/advertisement/hv5n2adgorgiaspress</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Gorgias Press</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,24 +87,20 @@
     
          <!-- #BeginEditable "Content" -->
     
-         <p html:align="center">
+         <p>
             <ref target="http://www.gorgiaspress.com">
-               <graphic url="HV5N2ADGorgiasPress.jpg"
-                        rend="img"
-                        mimeType="image/jpeg"
-                        width="450px"
-                        height="75px"/>
+               <graphic url="HV5N2ADGorgiasPress.jpg" rend="img" mimeType="image/jpeg" width="450px" height="75px"/>
             </ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1]
+         <p>
+            <anchor corresp="P1"/>[1]
       Gorgias Press is offering a 15-30% pre-publication discount
       on new reprints of rare books on Syriac studies and other
       fields. A small limited number of copies of each title is
       available at the reduced price. Please reserve your copy
       now.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] For a
+         <p>
+            <anchor corresp="P2"/>[2] For a
       complete catalogue, visit <ref target="http://www.gorgiaspress.com">www.gorgiaspress.com</ref>, or
       write to Gorgias Press, 46 Orris Ave., Piscataway, NJ 08854,
       Tel. 732-699-0343, Fax. 732-699-0342, E-mail:

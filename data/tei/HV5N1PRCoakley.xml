@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>John Joseph, The Modern Assyrians of the Middle East: Encounters with Western Christian missions, archaeologists,and colonial powers (Studies in Christian Mission, 26; Leiden: Brill, 2000).</title>
+            <title type="main">John Joseph, The Modern Assyrians of the Middle East: Encounters with Western Christian missions, archaeologists,and colonial powers (Studies in Christian Mission, 26; Leiden: Brill, 2000).</title>
             <author>
-               <name>J.F. Coakley</name>
+               <name>
+                  <forename>J.F.</forename>
+                  <surname>Coakley</surname>
+               </name>
                <affiliation>
                   <orgName>Department of Near Eastern Languages and Civilizations</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv5n1prcoakley</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Modern Assyrians</term>
+               <term>Nestorians</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +87,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
+         <p>
+            <anchor corresp="P1"/>[1] This
     book is a revised edition of the author's <hi rend="italic">The Nestorians and
     their Muslim Neighbors</hi>, which was published in 1961. <hi rend="italic">The
     Nestorians</hi> was the first book devoted to the Modern
@@ -77,8 +101,8 @@
     the present reviewer had the experience of waiting in a queue
     for what was, apparently, the only one available on
     inter-library loan in Britain.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
+         <p>
+            <anchor corresp="P2"/>[2]
     Curiously, while the book was in demand from us ecclesiastical
     historians, it escaped the notice of other scholars. The
     explanation for this fact seems to lie in the library world.
@@ -111,8 +135,8 @@
     only the same subject-heading 'Nestorians - history'.
     Fortunately, one can now search library catalogues by keywords
     in the title!</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The new
+         <p>
+            <anchor corresp="P3"/>[3] The new
     title deserves a moment's further notice. Besides catching the
     attention of a wider scholarly audience, perhaps it will also
     look more attractive to readers from the Assyrian community, by
@@ -129,10 +153,10 @@
     modern Assyrians with the ancient people of that name. Joseph's
     discussion is now the most comprehensive one on this subject,
     subsuming the classic article of J.-M. Fiey ('"Assyriens" ou
-    "araméens"?', 1965; Fiey was among those who did not know
-    Joseph's work at the time).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] After
+    "araméens"?', 1965; Fiey was among those who did not
+    know Joseph's work at the time).</p>
+         <p>
+            <anchor corresp="P4"/>[4] After
     the discussion of terminology and ethnography, we come to a
     sequence of chapters taking the history of the Modern Assyrians
     from late antiquity (briefly and under the odd title 'Early
@@ -201,8 +225,8 @@
     missions to the Assyrians until we have, for example, a more
     comprehensive history of the American ABCFM/Presbyterian
     mission than anything presently available.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The last
+         <p>
+            <anchor corresp="P5"/>[5] The last
     two chapters (9 'Between mutually hostile neighbors' and 10
     'From missions to ecumenism') are substantially new in this
     edition. These chapters do not very easily come under the
@@ -230,13 +254,13 @@
     the East from its low point in the 1930s to the important
     doctrinal agreement of 1998 with the Roman Catholic Church,
     which serves as a sort of happy ending to the whole study.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     bibliography has been greatly expanded, although some of the
     new entries are not very helpful, e.g. books on the remote
     biblical background and on religious pluralism, and many
-    encyclopedia articles. Macuch's <hi rend="italic">Geschichte der spät- und
-    neusyrischen Literatur</hi> (1976) appears, but nothing in
+    encyclopedia articles. Macuch's <hi rend="italic">Geschichte der spät-
+    und neusyrischen Literatur</hi> (1976) appears, but nothing in
     modern Syriac has been added to the few titles in the first
     edition, not even Jacob bar Malek Ismael, <hi rend="italic">The Assyrians and
     the Two World Wars</hi> (Tehran 1964); nor anything significant
@@ -246,8 +270,8 @@
     <hi rend="italic">Assyrer heute</hi> (1978), or the articles of Martin Tamcke.
     The useful book of John Guest on the Yezidis, <hi rend="italic">Survival among
     the Kurds</hi> (2nd ed. 1993) is also an omission.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] John
+         <p>
+            <anchor corresp="P7"/>[7] John
     Joseph's last book <hi rend="italic">Muslim-Christian relations and
     inter-Christian rivalries in the Middle East: the case of the
     Jacobites in an age of transition</hi> (State University of New
@@ -257,8 +281,8 @@
     number of errors in spelling, grammar, punctuation, etc., is
     well above what should ever be associated with the names of
     John Joseph and E. J. Brill.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] To sum
+         <p>
+            <anchor corresp="P8"/>[8] To sum
     up: Joseph's <hi rend="italic">Modern Assyrians</hi> is not a book that
     displaces others, but it is welcome and valuable alike to those
     who have, and those who have not, used the earlier edition. It
@@ -268,8 +292,8 @@
     World War I is particularly thorough, and it is absolutely
     required reading for anyone wishing to understand the debate
     over the identity of the 'Assyrians'.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV5N1PRCoakley1">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> 
             <hi rend="italic">Subject Headings Used in the Dictionary Catalogs
     of the Library of Congress</hi> (6th edition, 1957). In earlier

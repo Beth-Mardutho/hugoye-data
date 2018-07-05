@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The 3rd Annual Archbishop Iakovos Graduate Students Conference in Patristic Studies</title>
+            <title type="main">The 3rd Annual Archbishop Iakovos Graduate Students Conference in Patristic Studies</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv10n1fciakovospatristicsconf</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Patristics Conference</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,14 +73,14 @@
          <lb/>
     
     
-         <p rend="title2">Holy Cross Greek Orthodox School of Theology,
+         <p>Holy Cross Greek Orthodox School of Theology,
     Brookline, Massachusetts<lb/>
-    March 15-17, 2007 <!-- InstanceEndEditable --></p>
+    March 15-17, 2007 </p>
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Stephen and Catherine Pappas Patristic Institute of the Holy
     Cross Greek Orthodox School of Theology is pleased to announce
     its third annual Archbishop Iakovos Graduate Student Conference
@@ -71,8 +91,8 @@
     and theological setting to hear and discuss peer research. The
     conference begins on Thursday, March 15, at 5:00 p.m., and ends
     after dinner on Saturday evening, March 17.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] We are
+         <p>
+            <anchor corresp="P2"/>[2] We are
     now calling for paper proposals. We strongly encourage all
     doctoral and masters students with research interests in
     Patristics, Historical Theology, or the History of Christianity
@@ -88,8 +108,8 @@
     before February 15th. Completed papers will be due by March 3rd
     in order to allow the respondents sufficient preparation
     time.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] For
+         <p>
+            <anchor corresp="P3"/>[3] For
     those living outside the Boston area, partial financial aid is
     available to assist with travel and lodging expenses. For this
     conference last year, the Patristic Institute reimbursed a
@@ -99,8 +119,8 @@
     below), with an estimated cost for airfare or other
     transportation to and from the conference. All requests for
     financial aid need to be received no later than March 3rd.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] All
+         <p>
+            <anchor corresp="P4"/>[4] All
     participants must pre-register at their earliest convenience
     for planning purposes. There is no registration fee or cost for
     meals during the conference. To register, please email Bruce
@@ -114,8 +134,8 @@
     to facilitate reserving a place for you to stay. For more
     information and updates, please refer to the Institute's
     website <ref target="http://www.pappaspatristic.hchc.edu/">www.pappaspatristic.hchc.edu</ref>.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Founded
+         <p>
+            <anchor corresp="P5"/>[5] Founded
     in 2003 by a generous grant from the late Stephen Pappas and
     his wife Catherine, the goal of the Pappas Patristic Institute
     is the advancement and promotion of primarily Greek and other

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Françoise Petit, La Chaîne sur l'Exode I. Fragments de Sévère d'Antioche. Texte grec établi et traduit. Avec un glossaire syriaque par Lucas Van Rompay. Traditio Exegetica Graeca, 9. Louvain, Peeters, 1999. ISBN: 90-429-0736-3. Pp. xxvii, 209.</title>
+            <title type="main">Françoise Petit, La Chaîne sur l'Exode I. Fragments de Sévère d'Antioche. Texte grec établi et traduit. Avec un glossaire syriaque par Lucas Van Rompay. Traditio Exegetica Graeca, 9. Louvain, Peeters, 1999. ISBN: 90-429-0736-3. Pp. xxvii, 209.</title>
             <author>
-               <name>Edward G. MATHEWS Jr.</name>
+               <name>
+                  <forename>Edward G.</forename>
+                  <surname>Mathews jr.</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n2prmathews</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Severus</term>
+               <term>Catena</term>
+               <term>Françoise Petit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,12 +88,12 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] It is
+         <p>
+            <anchor corresp="P1"/>[1] It is
     unlikely that readers of this journal will require any
-    introduction to the work of Françoise Petit. Many years ago she
-    began a study of the Biblical Commentaries of Procopius of
-    Gaza, but this has become a lifelong project of producing
+    introduction to the work of Françoise Petit. Many years
+    ago she began a study of the Biblical Commentaries of Procopius
+    of Gaza, but this has become a lifelong project of producing
     editions of the various <hi rend="italic">Catenae</hi> traditions which has
     already resulted in a number of extremely useful volumes,
     including editions of the Sinai <hi rend="italic">Catena</hi> material on
@@ -81,8 +106,8 @@
     fragments on the text of Exodus attributed to Severus,
     patriarch of Antioch and one of the leading theologians of the
     Monophysite party (c. 465-538).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     fragments of Severus on Exodus edited here fall into very
     distinct stages of the <hi rend="italic">Catena</hi> tradition. The composition
     of the <hi rend="italic">Catena on Exodus</hi> clearly underwent three clearly
@@ -90,48 +115,49 @@
     was made around the middle of the fifth century, while it is
     the secondary stage that is characterized by the insertion of
     those quotations attributed to Severus of Antioch. The third
-    and final stage is then marked by the further insertion—into
-    the secondary stage of transmission only!—of a collection of
-    texts built up around the <hi rend="italic">Quaestiones</hi> of Theodoret of
-    Cyrrhus along with a reworking of the earlier materials,
-    including those fragments attributed to Severus. It seems
-    likely that the <hi rend="italic">Catena</hi> fragments attributed to Severus,
-    found for nearly all the books of the bible both Old and New
-    Testament, were all added in at this second stage of
-    redaction—it was also the case for the fragments on Genesis—but
-    final conclusions must await publication of critical editions
-    of all the <hi rend="italic">Catena</hi> materials.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+    and final stage is then marked by the further
+    insertion—into the secondary stage of transmission
+    only!—of a collection of texts built up around the
+    <hi rend="italic">Quaestiones</hi> of Theodoret of Cyrrhus along with a
+    reworking of the earlier materials, including those fragments
+    attributed to Severus. It seems likely that the <hi rend="italic">Catena</hi>
+    fragments attributed to Severus, found for nearly all the books
+    of the bible both Old and New Testament, were all added in at
+    this second stage of redaction—it was also the case for
+    the fragments on Genesis—but final conclusions must await
+    publication of critical editions of all the <hi rend="italic">Catena</hi>
+    materials.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
     volume here under review is organized into three very clear and
     well-defined sections. The introduction (pp. xi-xxvii)
     discusses in a very concise manner the matters of the
     manuscripts containing the <hi rend="italic">Catena on Exodus</hi>, the stages
-    of transmission, the sources of the fragments in the vast œuvre
-    of Severus, as well as a brief discussion of Severus'
-    theological position. The succinct discussion of each of these
-    matters reflects Petit's great learning and intimate
+    of transmission, the sources of the fragments in the vast
+    œuvre of Severus, as well as a brief discussion of
+    Severus' theological position. The succinct discussion of each
+    of these matters reflects Petit's great learning and intimate
     familiarity with the <hi rend="italic">Catenae</hi> traditions.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The bulk
+         <p>
+            <anchor corresp="P4"/>[4] The bulk
     of the volume is, of course, devoted to an edition of the
     fragments (pp. 1-101). There are a total of eighty-eight
     fragments which are numbered not 1-88, but rather according to
     their place in Petit's own nearly completed <hi rend="italic">Édition
-    Intégrale</hi>. Of those that can be identified, the predominant
-    majority of the fragments, forty-six, are from the <hi rend="italic">Cathedral
-    Homilies</hi>, five from the largely unedited <hi rend="italic">Letters</hi>,
-    and three are from the polemical tracts <hi rend="italic">Against Julian of
-    Halicarnassus</hi>. Of the remaining fragments twenty-two are
-    repetitions, four can not be identified, and there are eight
-    that are falsely attributed to Severus. In addition to a
-    critical edition of the Greek fragments, Petit appends on
-    facing pages a new French translation of each fragment. Tables
-    of Biblical References and of the occurrences of the
-    <hi rend="italic">Homily</hi> fragments by homily complete this section (pp.
-    105-109).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+    Intégrale</hi>. Of those that can be identified, the
+    predominant majority of the fragments, forty-six, are from the
+    <hi rend="italic">Cathedral Homilies</hi>, five from the largely unedited
+    <hi rend="italic">Letters</hi>, and three are from the polemical tracts
+    <hi rend="italic">Against Julian of Halicarnassus</hi>. Of the remaining
+    fragments twenty-two are repetitions, four can not be
+    identified, and there are eight that are falsely attributed to
+    Severus. In addition to a critical edition of the Greek
+    fragments, Petit appends on facing pages a new French
+    translation of each fragment. Tables of Biblical References and
+    of the occurrences of the <hi rend="italic">Homily</hi> fragments by homily
+    complete this section (pp. 105-109).</p>
+         <p>
+            <anchor corresp="P5"/>[5] The
     third and final section, according to the title page, is a
     Syriac glossary by Lucas Van Rompay. What Van Rompay has done,
     however, is actually more than to supply a simple glossary; he
@@ -155,8 +181,8 @@
     Allen and Dorival, but his discussion still improves and
     expands the earlier attempt of C.J.A. Lash to describe Jacob's
     translation technique.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     obvious and greatest contribution of this volume is the edition
     of the fragments. Any new edition of early Christian texts is
     of great value, but the importance of these fragments is
@@ -165,14 +191,15 @@
     Syriac (or in a few instances, Coptic) translation. She also
     provides the reworked version found in stage three of the
     transmission where they are available. As Petit herself states:
-    "La confrontation des citations de la chaîne avec le texte
-    syriaque garantit leur fidélité littérale et souvent permet de
-    mieux interpréter la version orientale. (p. xix)" Applying this
-    assertion, Petit proffers new French translations of these
-    fragments as ameliorations of the existing <hi rend="italic">PO</hi>
-    translations of the Syriac. While these fragments can in no way
-    be considered a running commentary on Exodus—Severus was after
-    all a theologian, not a biblical commentator à la Jerome or
+    "La confrontation des citations de la chaîne avec le
+    texte syriaque garantit leur fidélité
+    littérale et souvent permet de mieux interpréter
+    la version orientale. (p. xix)" Applying this assertion, Petit
+    proffers new French translations of these fragments as
+    ameliorations of the existing <hi rend="italic">PO</hi> translations of the
+    Syriac. While these fragments can in no way be considered a
+    running commentary on Exodus—Severus was after all a
+    theologian, not a biblical commentator à la Jerome or
     Chrysostom—it is nevertheless very instructive to see how
     Severus exegetes such pericopes as the burning bush (frags
     69-86), the manna in the jar (fr. 511), or the description of
@@ -181,8 +208,8 @@
     together with the sections by Van Rompay, has added
     significantly to the study of Syriac translation of Greek
     works.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] At the
+         <p>
+            <anchor corresp="P7"/>[7] At the
     beginning of her introduction, Ms. Petit expresses the regret
     at not having thought at the time to publish the <hi rend="italic">Catena</hi>
     fragments on Genesis attributed to Severus in a separate

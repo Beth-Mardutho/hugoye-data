@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The International Syriac Language Project (ISLP)</title>
+            <title type="main">The International Syriac Language Project (ISLP)</title>
             <author>
-               <name>P.J. Williams</name>
+               <name>
+                  <forename>P.J.</forename>
+                  <surname>Williams</surname>
+               </name>
                <affiliation>
                   <orgName>Aberdeen University</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1prwilliams</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Lexicography</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +82,7 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">CONFERENCE REPORT</p>
+         <p>CONFERENCE REPORT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
     
@@ -67,8 +90,8 @@
          <!-- #BeginEditable "Address" -->
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] On 22-23
+         <p>
+            <anchor corresp="P1"/>[1] On 22-23
     July 2003, at the latest International Meeting of the Society
     of Biblical Literature (in Cambridge, England) a number of
     scholars from around the world met to discuss Syriac
@@ -77,8 +100,8 @@
     C. Falla of Whitley College of the University of Melbourne, and
     will continue to convene annually during the International
     Meetings of the SBL.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     group is purposely constituted of scholars with a range of
     interests and specialities: computing, theoretical linguistics,
     syntax, translation technique, ecclesiastical literature,
@@ -104,41 +127,42 @@
         approach.</item>
             </list>
          </quote>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Intimately connected with the conception of this project is
-    Terry Falla�s <hi rend="italic">A Key to the Peshitta Gospels, Volume One:
-    �Ālaph�Dālath</hi> (New Testament Tools and Studies, 14; E.J.
-    Brill: Leiden, New York, K�benhavn, K�ln, 1991), <hi rend="italic">Volume
-    Two: Hē�Yōdh</hi> (New Testament Tools and Studies, 29; Brill:
-    Leiden, Boston, K�ln, 2000). Two further volumes of the
-    <hi rend="italic">Key</hi> will appear soon and its method will then be
-    extended to include the rest of the Syriac New Testament. All
-    this information will be incorporated into a database, which
-    can be expanded to include other corpora such as the works of
-    Ephrem. At the same time as the possibilities of a versatile
-    database are explored the ISLP will seek to be at the cutting
-    edge of lexicography from a linguistic perspective. As can be
-    seen from the summaries of some of the papers, issues that are
-    raised often also have considerable relevance to languages
-    other than Syriac.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+    Terry Falla’s <hi rend="italic">A Key to the Peshitta Gospels, Volume
+    One: ’Ālaph–Dālath</hi> (New Testament
+    Tools and Studies, 14; E.J. Brill: Leiden, New York,
+    København, Köln, 1991), <hi rend="italic">Volume Two:
+    Hē–Yōdh</hi> (New Testament Tools and Studies,
+    29; Brill: Leiden, Boston, Köln, 2000). Two further
+    volumes of the <hi rend="italic">Key</hi> will appear soon and its method
+    will then be extended to include the rest of the Syriac New
+    Testament. All this information will be incorporated into a
+    database, which can be expanded to include other corpora such
+    as the works of Ephrem. At the same time as the possibilities
+    of a versatile database are explored the ISLP will seek to be
+    at the cutting edge of lexicography from a linguistic
+    perspective. As can be seen from the summaries of some of the
+    papers, issues that are raised often also have considerable
+    relevance to languages other than Syriac.</p>
+         <p>
+            <anchor corresp="P4"/>[4] The
     papers presented in July will shortly appear in a volume edited
     collaboratively by members of the ISLP and published by Gorgias
     Press. Below are brief abstracts of the papers.</p>
-         <p rend="n">
+         <p>
             <lb/>
          </p>
-         <head>Abstracts</head>
-         <p xml:id="S1" rend="bold">David Taylor, University of
+         <head xml:id="HV7N1PRWilliams1">Abstracts</head>
+         <p>David Taylor, University of
     Birmingham (now, University of Oxford)<lb/>
             <hi style="font-style: italic; font-weight:normal">A History
     of Syriac Lexicography: From Early Roots to Future
     Growth</hi>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In order
+         <p>
+            <anchor corresp="P5"/>[5] In order
     to provide a background to the papers presented at this
     conference David Taylor in his opening paper surveyed the
     development of Syriac lexicography from the fourth-century
@@ -154,8 +178,8 @@
     reference works published in the late nineteenth century in
     Europe (Payne Smith and Brockelmann) and the Middle East
     (Qardahi, Brun, Audo, and Manna).</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     strengths and weaknesses of these various works were outlined,
     and Taylor especially emphasized the important contribution
     made by the middle-eastern lexica, which are too often
@@ -170,14 +194,14 @@
     other loan words, and of terminology specific to certain
     subject areas, such as philosophy, Christology, and
     medicine.</p>
-         <p xml:id="S1" rend="bold">Terry C. Falla, Whitley
+         <p>Terry C. Falla, Whitley
     College, University of Melbourne<lb/>
             <hi style="font-style: italic; font-weight:normal">A
     Conceptual Framework for a New Comprehensive Syriac-English
     Lexicon</hi>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] For many
+         <p>
+            <anchor corresp="P7"/>[7] For many
     reasons the time has come to reassess the theory and practice
     of classical Syriac lexicography and discuss what kind of
     Syriac-English lexicon would best serve the needs of the
@@ -187,8 +211,8 @@
     conceptual framework for a comprehensive lexicon to the Syriac
     New Testament with the aim of that framework providing a basis
     for the lexicalizing of other Syriac literature.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Five
+         <p>
+            <anchor corresp="P8"/>[8] Five
     basic questions are addressed: for whom is the work intended
     (audience), what sort of information should be included
     (content), how much should be included (scope), how is that
@@ -203,22 +227,22 @@
     centenary of Jessie Payne Smith's <hi rend="italic">A Compendious Syriac
     Dictionary</hi> founded upon the <hi rend="italic">Thesaurus</hi> of R. Payne
     Smith.</p>
-         <p xml:id="S1" rend="bold">Alison Salvesen, Oxford
+         <p>Alison Salvesen, Oxford
     Centre for Hebrew and Jewish Studies<lb/>
             <hi style="font-style: italic; font-weight:normal">The User
     versus the Lexicographer: Practical and Scientific Issues in
     Creating Entries</hi>
          </p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] In any
+         <p>
+            <anchor corresp="P9"/>[9] In any
     discussion of the shape of a new Syriac lexicon, the temptation
     is to focus on methodological issues from the point of view of
     the lexicographer and researcher. However, the needs of the
     majority of users, namely new learners of Syriac, should not be
     forgotten. Commercial considerations will also have a bearing
     on the project.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] A
+         <p>
+            <anchor corresp="P10"/>[10] A
     new lexicon would have to be built up layer by layer, like a
     snowball, starting with the Gospels and then the New Testament,
     followed by other widely read texts such as the Peshitta Old
@@ -232,13 +256,13 @@
     typographical clarity for the work. The aim of the lexicon
     would be to be fully scientific while remaining as
     'user-friendly' as possible.</p>
-         <p xml:id="S1" rend="bold">George Kiraz, Beth
+         <p>George Kiraz, Beth
     Mardutho: The Syriac Institute<lb/>
             <hi style="font-style: italic; font-weight:normal">Computing
     the Syriac Lexicon</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
+         <p>
+            <anchor corresp="P11"/>[11] The
     purpose of this paper is to sketch out general guidelines that
     can be taken into consideration for implementing a
     computational Syriac lexicon. The paper begins with an overview
@@ -247,29 +271,29 @@
     of SEDRA III database model was presented to as an
     illustration.<lb/>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] A
+         <p>
+            <anchor corresp="P12"/>[12] A
     proposal for developing an open-source Internet-based lexical
     system to model Syriac lexicography was sketched out. The model
     calls for capturing lexical and grammatical data, including
     phonology, morphology, syntax and semantics.</p>
-         <p xml:id="S1" rend="bold">A. Dean Forbes,
+         <p>A. Dean Forbes,
     Pennsylvania State University (now, University of California at
     Berkeley)<lb/>
             <hi style="font-style: italic; font-weight:normal">Squishes,
     Clines, and Fuzzy Signs: Mixed and Gradient Categories in the
     Biblical Hebrew Lexicon</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+         <p>
+            <anchor corresp="P13"/>[13] The
     Problem: Traditional views of part-of-speech classes see them
     as hard, 'either/or' categories. Several analysts have shown
     that (morphologically-defined) parts of speech may overlap (are
     'mixed') and may be heterogeneous (are 'gradient'). How are we
     to detect and deal with such mixed and gradient classes so that
     a coherent taxonomy can be devised?</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] Our
+         <p>
+            <anchor corresp="P14"/>[14] Our
     Solution: Dealing with non-discrete syntactic classes is a
     four-stage process. 1. We first use contextual information
     about the classes to compute their distances apart. 2. We then
@@ -282,14 +306,14 @@
     a context space in which mixed and gradient classes are
     discernable. (The paper concludes by outlining directions for
     future work.)</p>
-         <p xml:id="S1" rend="bold">Janet W. Dyk,
+         <p>Janet W. Dyk,
     Computer-Assisted Linguistic Analysis of the Peshitta, Vrije
     Universiteit, Amsterdam<lb/>
             <hi style="font-style: italic; font-weight:normal">Desiderata
     for the Lexicon from a Syntactic Point of View</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+         <p>
+            <anchor corresp="P15"/>[15] The
     single question addressed by this paper is that of whether
     syntactic information should be included in the Syriac lexicon,
     and, if so, what type of syntactic information this should be,
@@ -300,8 +324,8 @@
     elements in which they appear? Is there a basic value from
     which the various syntactic functions of an item can be deduced
     on the basis of generally applicable linguistic rules?</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] From
+         <p>
+            <anchor corresp="P16"/>[16] From
     a formal point of view, words display distinct contrastive and
     combinatorial functions. It is the lexicon where these unique
     properties can be stored. The fact that an element may function
@@ -316,8 +340,8 @@
     limited number of shifts in part of speech and the possible
     shifts within the language can be represented in a single
     unidirectional chain of parts of speech.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+         <p>
+            <anchor corresp="P17"/>[17]
     Three separate elements of the Syriac language are considered:
     the particle <hi rend="italic">dalath</hi>, the participle, and verbal
     valency. Though these three are diverse in nature, the approach
@@ -332,13 +356,13 @@
     environment, but it should not lose the link to the basic
     property from which the others are systematically
     derivable.</p>
-         <p xml:id="S1" rend="bold">P.J. Williams, University
+         <p>P.J. Williams, University
     of Cambridge (now, University of Aberdeen)<lb/>
             <hi style="font-style: italic; font-weight:normal">On
     Matching Syriac Words with Their Greek Vorlage</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] The
+         <p>
+            <anchor corresp="P18"/>[18] The
     question that lexicographers of the Septuagint ask is whether
     the Hebrew supposed to underlie the Greek can legitimately be
     used as an indicator of the meaning of the Greek. Likewise

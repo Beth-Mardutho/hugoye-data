@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Third Peshitta Symposium, Leiden, 12-15 August 2001</title>
+            <title type="main">Third Peshitta Symposium, Leiden, 12-15 August 2001</title>
             <author>
-               <name>Terry C. FALLA</name>
+               <name>
+                  <forename>Terry C.</forename>
+                  <surname>Falla</surname>
+               </name>
                <affiliation>
                   <orgName>Whitley College, University of Melbourne</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv5n1crfalla</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Peshitta</term>
+               <term>Conferences</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,22 +86,11 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">Introduction</ref>
-            </item>
-            <item>
-               <ref target="#S2">Paper Abstracts</ref>
-            </item>
-            <item>
-               <ref target="#S3">Progress Report (by Konrad Jenner)</ref>
-            </item>
-         </list>
+
          <lb/>
-         <head xml:id="S1">Introduction</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <head xml:id="HV5N1CRFalla2">Introduction</head>
+         <p>
+            <anchor corresp="P1"/>[1] The
     third Peshitta Symposium combined all the features that make a
     conference worthwhile, enjoyable, and memorable, and was a
     great credit to its conveners, Bas ter Haar Romeny and Konrad
@@ -88,27 +101,27 @@
     ensure that the academic focus of the symposium would be of the
     highest standard. The meeting ended with a superb dinner hosted
     by E.J. Brill.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     published theme of the symposium was <hi rend="italic">The Peshitta: Its Use
     in Literature and Liturgy</hi>. The aim was to gain a more
     detailed and comprehensive picture of the textual history of
     the Peshitta of the Old Testament by discussing its
     preservation in the patristic literature of the Syriac
     churches. In the words of the conveners, "As much progress has
-    been made on the Syriac Fathers …, it is time to see where we
-    stand: what has been done so far in this respect, what should
-    be done, and how can we integrate the results of this research
-    into the picture that has been formed on the basis of Bible
-    manuscripts." This focus intentionally embraced related issues
-    such as the development of the Peshitta text as "an event
-    within the history of the Syrian Churches," and "the way the
-    Peshitta was received and assessed by its users, whether in
+    been made on the Syriac Fathers …, it is time to see
+    where we stand: what has been done so far in this respect, what
+    should be done, and how can we integrate the results of this
+    research into the picture that has been formed on the basis of
+    Bible manuscripts." This focus intentionally embraced related
+    issues such as the development of the Peshitta text as "an
+    event within the history of the Syrian Churches," and "the way
+    the Peshitta was received and assessed by its users, whether in
     exegetical or historical literature or in liturgy." Attention
     to the New Testament was also welcomed as an inseparable part
     of the symposium's focused exploration.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Three
+         <p>
+            <anchor corresp="P3"/>[3] Three
     excellent keynote lectures were presented by Lucas Van Rompay,
     <hi rend="italic">Between the School and the Monk's Cell: The Syriac
     Commentary Tradition</hi>; Sebastian Brock, <hi rend="italic">The Use of the
@@ -117,29 +130,29 @@
     Solved Them</hi>. The first evening ended with a slide
     presentation by Mat Immerzeel on <hi rend="italic">The Cross on the Banner:
     Christian wall Paintings in Lebanon and Syria</hi>.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     abstracts of all thirty papers are presented in full and
     arranged alphabetically according to author. In this way, the
     reader will gain the author's own pre-publication perspective
     of her or his paper. Authors were invited to submit
     post-symposium revisions, and in consequence, some abstracts
     differ from those published in the symposium handbook.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     symposium also included a Peshitta Institute report on the
     progress of the Peshitta Programme, and a general discussion of
     the New Annotated Translation of the Syriac Bible (NEATS). The
     former, prepared by Konrad Jenner, is presented at the very end
     of this report.</p>
-         <head xml:id="S2">Paper Abstracts</head>
-         <head>The Use of the Syriac Versions in the Liturgy</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla3">Paper Abstracts</head>
+         <head xml:id="HV5N1CRFalla4">The Use of the Syriac Versions in the Liturgy</head>
+         <p>
             <hi rend="author">Sebastian
     Brock, University of Oxford</hi>
          </p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     paper was divided into two parts, the first concerning direct
     use (in biblical readings), and the second on indirect use
     (technical terms of biblical origin, allusions etc.).</p>
@@ -171,25 +184,25 @@
     available is essential. The paper ended with a quotation from
     an otherwise unknown poem on Genesis 22, to be found in an East
     Syriac Burial Service for Children.</p>
-         <head>Aspects of the Commentary on Numbers by Išo'dad of
+         <head xml:id="HV5N1CRFalla5">Aspects of the Commentary on Numbers by Išo'dad of
     Merv</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Johann Cook,
     Universiteit Stellenbosch</hi>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Most of
+         <p>
+            <anchor corresp="P7"/>[7] Most of
     the biblical commentaries of IŠO`DAD of Merv have been
     researched to some extent. The work by C van den Eynde (<hi rend="italic">le
-    commentaire d´ IŠO`DAD de Merv sur l´Ancient testament</hi>) is
-    the most prominent in this regard. He has translated many of
-    this ancient author's commentaries and in the process offered
-    many useful remarks. Clarke, Van Rompay, Molenberg, Ter Haar
-    Romeny and others have also dealt with aspects of this
-    prominent Syriac author. However, these scholars mostly
-    addressed the relationship between different ancient authors.
-    Clarke, for example, compared IŠO`bar Nun with IŠO`DAD of Merv
-    and Theodore bar Koni.</p>
+    commentaire d´ IŠO`DAD de Merv sur l´Ancient
+    testament</hi>) is the most prominent in this regard. He has
+    translated many of this ancient author's commentaries and in
+    the process offered many useful remarks. Clarke, Van Rompay,
+    Molenberg, Ter Haar Romeny and others have also dealt with
+    aspects of this prominent Syriac author. However, these
+    scholars mostly addressed the relationship between different
+    ancient authors. Clarke, for example, compared IŠO`bar
+    Nun with IŠO`DAD of Merv and Theodore bar Koni.</p>
          <p>These comparisons were moreover primarily executed in
     regards to the book of Genesis. As a matter of fact not much
     has been done in connection with the 4th book of the
@@ -197,26 +210,27 @@
     This paper, which is limited in intent and extent, will deal
     with aspects of the exegetical method of the mentioned Syriac
     commentary. Others have defined the exegetical approach of
-    IŠO`DAD as belonging to the genre of questiones. This certainly
-    applies to the book of Genesis. However, in Numbers the author
-    applies a seemingly additional exegetical stylistic feature. He
-    quotes words from Scripture like <hi rend="italic">qry'</hi> in II,2 and then
-    offers an explanation. Or in III, 26: <hi rend="italic">glg' [plural]</hi>:
-    "According to John they are the branches of the wood......".
-    This seems to be related to the Pesher exegetical method found
-    at Qumran. IŠO`DAD also makes frequent references to scripture,
-    interpreting scripture by means of scripture. Cf. for example:
-    I, 50: "Concerning the tent of tabernacle, scripture says: Like
-    one who......". The particle <hi rend="italic">lm</hi> is used as well as the
-    verbal form <hi rend="italic">'mr</hi>. In trying to define its genre Molenberg
-    talks of <hi rend="italic">scholia</hi> and <hi rend="italic">aporiai</hi> in this regard.</p>
+    IŠO`DAD as belonging to the genre of questiones. This
+    certainly applies to the book of Genesis. However, in Numbers
+    the author applies a seemingly additional exegetical stylistic
+    feature. He quotes words from Scripture like <hi rend="italic">qry'</hi> in
+    II,2 and then offers an explanation. Or in III, 26: <hi rend="italic">glg'
+    [plural]</hi>: "According to John they are the branches of the
+    wood......". This seems to be related to the Pesher exegetical
+    method found at Qumran. IŠO`DAD also makes frequent
+    references to scripture, interpreting scripture by means of
+    scripture. Cf. for example: I, 50: "Concerning the tent of
+    tabernacle, scripture says: Like one who......". The particle
+    <hi rend="italic">lm</hi> is used as well as the verbal form <hi rend="italic">'mr</hi>. In
+    trying to define its genre Molenberg talks of <hi rend="italic">scholia</hi>
+    and <hi rend="italic">aporiai</hi> in this regard.</p>
          <p>This paper will at the same time act as a pilot study for a
     planned monograph on the Peshitta version of Numbers.</p>
-         <head>The Greek vs. the Peshitta in a West Syrian Exegetical
+         <head xml:id="HV5N1CRFalla6">The Greek vs. the Peshitta in a West Syrian Exegetical
     Collection (BL Add. 12168)</head>
     
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+         <p>
+            <anchor corresp="P8"/>[8] The
     exegetical collection preserved in the manuscript London BL
     Add. 12168, from the eighth or ninth century, discusses the
     greater part of the Old and New Testaments (Wright,
@@ -241,11 +255,11 @@
     the position of the <hi rend="italic">London Collection</hi> in the
     contemporary debate on the right version of the biblical
     text.</p>
-         <head>The Biblical Text in the Disputation of Sergius the Stylite
+         <head xml:id="HV5N1CRFalla7">The Biblical Text in the Disputation of Sergius the Stylite
     against a Jew</head>
     
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] The
+         <p>
+            <anchor corresp="P9"/>[9] The
     Disputation of Sergius the Stylite is an eighth century text
     which purports to record a written-up version of a dialogue
     between a Jewish rabbi and a Christian stylite. The discussion
@@ -306,14 +320,14 @@
       texts which contain lots of biblical citations.<lb/>
             </item>
          </list>
-         <head>Reworking The Biblical Text in the Dramatic Dialogue Poems
+         <head xml:id="HV5N1CRFalla8">Reworking The Biblical Text in the Dramatic Dialogue Poems
     on the Old Testament Patriarch Joseph</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Kristian Heal,
     Brigham Young University, Provo, Utah</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] In
+         <p>
+            <anchor corresp="P10"/>[10] In
     addition to the materials traditionally employed for the study
     of Old Testament interpretation in the Syriac tradition, there
     is another category of texts which deserves more attention than
@@ -324,14 +338,14 @@
     to the biblical text and Jewish sources in an attempt to answer
     why and how the retellings of the Joseph narrative were
     developed in a particular way.</p>
-         <head>The Service Books as a Source for Text Criticism, Textual
+         <head xml:id="HV5N1CRFalla9">The Service Books as a Source for Text Criticism, Textual
     History and Applied Science of Religion</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Konrad Jenner,
     Universiteit Leiden</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] Part
+         <p>
+            <anchor corresp="P11"/>[11] Part
     2 of Wright's Catalogue of Syriac Manuscripts in The British
     Museum contains for the greater part the description of Service
     Books. The large number and diversity in content gives the
@@ -354,12 +368,12 @@
     give an impression of the motives for the selection of texts
     and an indication for the authority and the degree of
     fluctuation (i.e. plasticity) of the biblical text.</p>
-         <head>The Old Testament in the New: The Syriac Versions of the
+         <head xml:id="HV5N1CRFalla10">The Old Testament in the New: The Syriac Versions of the
     New Testament as a Witness to the Text of the Old Testament
     Peshitta</head>
     
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+         <p>
+            <anchor corresp="P12"/>[12] The
     earliest attestation of the reading and use of the Old
     Testament Peshitta is not to be found in the fourth century
     writings of Aphrahat and Ephrem, nor in the references to <hi rend="italic">ho
@@ -382,28 +396,29 @@
     that the Syriac NT may at times have preserved primitive OT
     Peshitta readings no longer transmitted by the manuscripts of
     the OT Peshitta.</p>
-         <head>The Syriac Massora and the New Testament Peshitta</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla11">The Syriac Massora and the New Testament Peshitta</head>
+         <p>
             <hi rend="author">Andreas Juckel,
     Institut für neutestamentliche Textforschung,
     Münster</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+         <p>
+            <anchor corresp="P13"/>[13] The
     recently (2000) installed NT Peshitta project (St. Paul's
-    Letters) at Münster University is based on ca. 50 manuscripts
-    of the first millennium. The editorial policy of the project is
-    to print the 'majority text' of the 5th/6th century drawn from
-    the ca. 15 earliest manuscripts (5th-7th century). To present
-    the development of the text from its origin (ca. 400/450) to
-    James of Edessa (died 708) and its transmission in the period
-    from the 7th to the 12th century (from James to Dionysius bar
-    Salibi) is the scope of the project. But did the conformity of
-    the NT Peshitta really develop, is there a 'history' of the
-    text which can offer guidelines for an editorial policy? It is
-    the topic of the present paper to argue for two specific
-    periods within the transmission of the Peshitta text, for a
-    'pre-' and 'post-Massoretic' period.</p>
+    Letters) at Münster University is based on ca. 50
+    manuscripts of the first millennium. The editorial policy of
+    the project is to print the 'majority text' of the 5th/6th
+    century drawn from the ca. 15 earliest manuscripts (5th-7th
+    century). To present the development of the text from its
+    origin (ca. 400/450) to James of Edessa (died 708) and its
+    transmission in the period from the 7th to the 12th century
+    (from James to Dionysius bar Salibi) is the scope of the
+    project. But did the conformity of the NT Peshitta really
+    develop, is there a 'history' of the text which can offer
+    guidelines for an editorial policy? It is the topic of the
+    present paper to argue for two specific periods within the
+    transmission of the Peshitta text, for a 'pre-' and
+    'post-Massoretic' period.</p>
          <p>The first period of the Peshitta is a period of 'revision',
     dominated by the development towards the Greek text,
     culminating in the 'Philoxenian' (507/08) and the 'Harklean'
@@ -436,14 +451,14 @@
     James of Edessa quoting the NT will reflect the implications of
     an editorial policy based on a 'qualified minority of
     pre-massoretic manuscripts'.</p>
-         <head>eBeth Arké: The Syriac Digital Library and the Reception of
-    the Peshitta in Literature and Liturgy</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla12">eBeth Arké: The Syriac Digital Library and the
+    Reception of the Peshitta in Literature and Liturgy</head>
+         <p>
             <hi rend="author">George Kiraz,
     Beth Mardutho</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+         <p>
+            <anchor corresp="P14"/>[14]
     <hi rend="italic">eBeth Arké</hi> is a collection of out-of-copyright
     publications (books and articles) digitized in eBook form. The
     collection will be made available on the Internet as an
@@ -456,14 +471,14 @@
     and markup languages. The speaker will solicit feedback from
     scholars to make the project useful for the study of Peshitta
     texts in literature and liturgy.</p>
-         <head>The Four Kingdoms in Peshitta Daniel 7 in the Light of the
+         <head xml:id="HV5N1CRFalla13">The Four Kingdoms in Peshitta Daniel 7 in the Light of the
     Early History of Interpretation</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Arie van der
     Kooij, Universiteit Leiden</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+         <p>
+            <anchor corresp="P15"/>[15] The
     Peshitta text of Daniel 7:1-8, as published in the Leiden
     edition (vol. III/iv, Leiden 1980), contains inscriptions which
     represent a specific interpretation of 'the four kingdoms': the
@@ -483,13 +498,13 @@
     Pesh Daniel 7 as 'the kingdom of the Greeks' (instead of 'the
     kingdom of the Romans' according to the dominant tradition)
     seems to go back to Porphyry's Daniel interpretation.</p>
-         <head>Aphrahat's Use of His Old Testament</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla14">Aphrahat's Use of His Old Testament</head>
+         <p>
             <hi rend="author">Marinus Koster,
     Bathmen, The Netherlands</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16]
+         <p>
+            <anchor corresp="P16"/>[16]
     Since their first publication (Wright, 1869), Aphrahat's
     twenty-three homilies (I-X AD 336/7; XI-XXII AD 343/4; XXIII
     345) never ceased to impress their readers by the astonishing
@@ -526,15 +541,15 @@
     Eliza. Regularly, the characteristic <hi rend="italic">Steigerung</hi>
     (Goppelt) between the OT exemplar and its NT counterpart will
     come to the fore.</p>
-         <head>'There is No Need of Turtle Doves or Young Pigeons…', Jacob
-    of Saroug Quotations and Non-Quotations of Leviticus in
-    Selected Syriac Writers</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla15">'There is No Need of Turtle Doves or Young
+    Pigeons…', Jacob of Saroug Quotations and Non-Quotations
+    of Leviticus in Selected Syriac Writers</head>
+         <p>
             <hi rend="author">David Lane, New
     Galloway, United Kingdom</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+         <p>
+            <anchor corresp="P17"/>[17]
     Quotations in Syriac writers have been considered a fruitful
     source for detecting Peshitta phrases and passages to shed
     light on the history of the text's transmission. Words or
@@ -563,17 +578,17 @@
          </list>
          <p>Hence the literature quoted, and (even more) the
     argumentative context, are the determining factors in shaping
-    quotation. "Citation très libre" is a consequence of rhetoric
-    rather than failure of memory; exactness is required only when
-    a specific word or short phrase is needed in close
+    quotation. "Citation très libre" is a consequence of
+    rhetoric rather than failure of memory; exactness is required
+    only when a specific word or short phrase is needed in close
     exegesis.</p>
-         <head>Ephraem and the 'Greek Bible'</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla16">Ephraem and the 'Greek Bible'</head>
+         <p>
             <hi rend="author">Christian
     Lange, Otto-Friedrich-Universität, Bamberg</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] On
+         <p>
+            <anchor corresp="P18"/>[18] On
     various occasions the author of the Syriac Commentary on the
     Diatessaron-which tradition identifies with Ephraem the
     Syrian-refers to a Biblical text different from that of the
@@ -591,15 +606,15 @@
     the Peshitta, the wider theme of the Symposium-the use of the
     Fathers for the reconstruction of the text of the Syriac
     Bible-might justify the main question of this paper.</p>
-         <head>Ishodad of Merv's Exegesis of the Psalms 119 and 139-147: A
+         <head xml:id="HV5N1CRFalla17">Ishodad of Merv's Exegesis of the Psalms 119 and 139-147: A
     Study of His Interpretation in the Light of the Syriac
     Translation of Theodore of Mopsuestia's Commentary</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Clemens
     Leonhard, Universität Wien</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
+         <p>
+            <anchor corresp="P19"/>[19]
     Exegetes of the Apostolic Church of the East sometimes
     emphasize that their understanding of the biblical text
     corresponds to this Church's great theological authority,
@@ -630,15 +645,15 @@
     attestations of the 'Greek' text. The second objective of this
     paper is to provide a description of Ishodad's use of such
     variant readings and suggestions to their provenance.</p>
-         <head>Ishodad's Knowledge of Hebrew as Evidenced from His
+         <head xml:id="HV5N1CRFalla18">Ishodad's Knowledge of Hebrew as Evidenced from His
     Treatment of Peshitta Ezekiel</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Jerry Lund,
     Hebrew Union College - Jewish Institute of Religion,
     Cincinnati</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
+         <p>
+            <anchor corresp="P20"/>[20]
     Ishodad of Merv's knowledge of Hebrew is evidenced both in his
     use and his non-use of Hebrew in his commentary on the Peshitta
     of Ezekiel. In his commentary on Ezekiel, Ishodad refers to
@@ -657,13 +672,13 @@
     he knew and what he did not know-will be suggested.
     Furthermore, implications about the modern critical approach to
     the Peshitta will be drawn.</p>
-         <head>The Syriac New Testament in the Acts of Judas Thomas</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla19">The Syriac New Testament in the Acts of Judas Thomas</head>
+         <p>
             <hi rend="author">Craig Morrison,
     Pontifical Biblical Institute, Rome</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21] The
+         <p>
+            <anchor corresp="P21"/>[21] The
     Syriac text of <hi rend="italic">The Acts of Judas Thomas</hi> offers Peshitta
     scholars a window into the Syriac Bible and its interpretation
     in the third century. Where this symposium focuses on the text
@@ -683,20 +698,21 @@
     citations that depart significantly from the Greek and Latin
     canonical traditions and from the Peshitta are examined with a
     view to establishing whether they derive from the Diatessaron
-    or from the Vetus Syra. The first example is taken from §28:
-    'Therefore how much will he care for you, you of little faith'
-    (<hi rend="italic">kma haki <hi rend="sup">c</hi>laykun netb<hi rend="underline">t</hi>el leh <hi rend="underline">h</hi>siray haymanuta</hi>) and is a citation of
-    Matt 6,30 and Luke 12,28. The second example is taken from §144
-    and involves the plus 'and our sins' (<hi rend="italic">wa<hi rend="underline">ht</hi>ahayn</hi>) in the <hi rend="italic">Acts</hi> version of
-    the 'Our Father'.</p>
-         <head>Interpretation in the Greek Antiochenes and the Syriac
+    or from the Vetus Syra. The first example is taken from
+    §28: 'Therefore how much will he care for you, you of
+    little faith' (<hi rend="italic">kma haki <hi rend="sup">c</hi>laykun netb<hi rend="underline">t</hi>el leh <hi rend="underline">h</hi>siray haymanuta</hi>) and is a citation of
+    Matt 6,30 and Luke 12,28. The second example is taken from
+    §144 and involves the plus 'and our sins'
+    (<hi rend="italic">wa<hi rend="underline">ht</hi>ahayn</hi>) in the
+    <hi rend="italic">Acts</hi> version of the 'Our Father'.</p>
+         <head xml:id="HV5N1CRFalla20">Interpretation in the Greek Antiochenes and the Syriac
     Fathers</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Shinichi Muto,
     Shiga, Japan</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] When
+         <p>
+            <anchor corresp="P22"/>[22] When
     we attempt to situate Syriac exegeses in the broader history of
     exegesis in Christianity, one of the most important issues is
     the relationship between exegeses of the Greek Antiochenes and
@@ -738,14 +754,14 @@
     possibilities of interpretations. Between these lie fundamental
     dissimilarities so that one should not regard the Syriac
     hermeneutics as an Antiochene type.</p>
-         <head>The Book of Proverbs in Aphrahat's Demonstrations and in
+         <head xml:id="HV5N1CRFalla21">The Book of Proverbs in Aphrahat's Demonstrations and in
     the Liber Graduum</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Robert J.
     Owens, The General Theological Seminary, New York</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+         <p>
+            <anchor corresp="P23"/>[23]
     After brief review of current questions in the study of the
     early history of Peshitta Proverbs, this paper undertakes
     text-critical analysis of a corpus of citations from two
@@ -782,14 +798,14 @@
     to detailed discussion of the methodological problems involved
     in trying to use such patristic quotations as textual
     witnesses.</p>
-         <head>Leaven of Purity and Holiness: The Peshitta of 1Corinthians
+         <head xml:id="HV5N1CRFalla22">Leaven of Purity and Holiness: The Peshitta of 1Corinthians
     5:8 and Christian Self-Definition</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Emmanuel
     Papoutsakis, Princeton University</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24] At 1
+         <p>
+            <anchor corresp="P24"/>[24] At 1
     Corinthians 5:8, the Peshitta differs from the Greek original
     in that it does not contrast 'leaven (of malice and evil)' with
     'unleavened bread (of sincerity and truth)', but rather 'leaven
@@ -802,14 +818,14 @@
     Serugh, Isaac of Antioch; Ignatius of Antioch, Justin, John
     Chrysostom, Pseudo-Macarius, Gregory of Nyssa; the Targumim and
     Bereshit Rabbah.</p>
-         <head>Problems in the Syriac New Testament and How Syrian
+         <head xml:id="HV5N1CRFalla23">Problems in the Syriac New Testament and How Syrian
     Exegetes Solved Them</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">William L.
     Petersen, PennState University</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25] The
+         <p>
+            <anchor corresp="P25"/>[25] The
     methods and techniques Syrian Christian exegetes brought to
     bear on the Syriac testaments are exceptionally creative,
     suggestive, and often unique. However, when compared with the
@@ -847,14 +863,14 @@
     solved them. As byproducts of this examination, we will gain
     insight into their attitudes towards the text, their theology,
     and their exegetical techniques.</p>
-         <head>Sirach Quotations in the Discourses of Philoxenus of
+         <head xml:id="HV5N1CRFalla24">Sirach Quotations in the Discourses of Philoxenus of
     Mabbug: Text and Context</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Wido van
     Peursen, Universiteit Leiden</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26] The
+         <p>
+            <anchor corresp="P26"/>[26] The
     <hi rend="italic">Discourses on Christian Life and Character</hi> of the West
     Syrian bishop Philoxenus of Mabbug (450-523 AD) contain four
     quotations from the book of Sirach. These quotations show some
@@ -884,14 +900,14 @@
     Philoxenus' literary creativity, including his commentaries,
     his theological and dogmatic treatises, and his numerous
     letters.</p>
-         <head>The Reception of Peshitta Chronicles: Some Elements for
+         <head xml:id="HV5N1CRFalla25">The Reception of Peshitta Chronicles: Some Elements for
     Investigation</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">David Phillips,
     Université Catholique de Louvain</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P27"/>[27] The
+         <p>
+            <anchor corresp="P27"/>[27] The
     object of this study is to investigate the substantive elements
     which can elucidate the way in which the Peshitta to Chronicles
     was received and used in Syriac tradition. There is evidence to
@@ -912,16 +928,16 @@
     received as Scripture; seven examples will be mentioned. The
     intersection between these three areas could also be a fruitful
     field to be examined.</p>
-         <head>The Peshitta and Biblical Quotations in the Longer Syriac
+         <head xml:id="HV5N1CRFalla26">The Peshitta and Biblical Quotations in the Longer Syriac
     Version of the Commentary of Athanasius on the Psalms (BM
     Additional Manuscript 14568) with Special Attention to Psalm 23
     (24) and 102 (103)</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Herrie van
     Rooy, Potchefstroomse Universiteit</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P28"/>[28]
+         <p>
+            <anchor corresp="P28"/>[28]
     Thomson (1977) published two Syriac versions of the commentary
     of Athanasius on the Psalms, a shorter, abridged version and a
     longer version. This version is taken from the manuscript BM
@@ -955,14 +971,14 @@
     considered on its own. It is possible that the version of the
     Psalms reflects the translation of Philoxenus, or at least a
     related translation by the translator of the commentary.</p>
-         <head>The Reception of the Peshitta Psalter in Bar Salibi's
+         <head xml:id="HV5N1CRFalla27">The Reception of the Peshitta Psalter in Bar Salibi's
     Commentary on the Psalms</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Stephen Ryan,
     Harvard University</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P29"/>[29] One
+         <p>
+            <anchor corresp="P29"/>[29] One
     of the notable and innovative features of Bar Salibi's
     Commentary on the Old Testament is its bifurcation: the first
     column he labels 'factual' and the second either 'factual and
@@ -998,14 +1014,14 @@
     of the paper I compare the theoretical discussion found in Bar
     Kepha's preface with the actual practice of Bar Salibi in his
     commentary.</p>
-         <head>Obscure Words in the Peshitta of Samuel, According to
+         <head xml:id="HV5N1CRFalla28">Obscure Words in the Peshitta of Samuel, According to
     Theodore bar Koni</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Alison
     Salvesen, University of Oxford</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P30"/>[30] One
+         <p>
+            <anchor corresp="P30"/>[30] One
     of the problems that translators in the NEATSB project will
     come across sooner or later are obscure words for which the
     entries in the standard lexicons seem to be either
@@ -1019,15 +1035,15 @@
     explanations. This paper seeks to assess their value, and to
     compare them with the approach of Jacob of Edessa, the earlier
     West Syriac writer.</p>
-         <head>Gospel Quotations in the Breviary (amyj) of the Syrian
+         <head xml:id="HV5N1CRFalla29">Gospel Quotations in the Breviary (amyj) of the Syrian
     Orthodox Church</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Aho
     Shemunkasho, Mor Jakob von Sarug Theologisches Seminar,
     Warburg</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P31"/>[31] The
+         <p>
+            <anchor corresp="P31"/>[31] The
     Breviary (<hi rend="italic">sh<hi rend="underline">h</hi>imo</hi>) of the
     Syrian Orthodox Church found its form, as we know it today,
     certainly after the last Syriac translation of the Bible
@@ -1055,14 +1071,14 @@
     taken into consideration. Also the work is based on the printed
     versions of the Breviary and does not consider the various
     number of manuscripts.</p>
-         <head>The Psalm Headings in the West Syrian Tradition and the
+         <head xml:id="HV5N1CRFalla30">The Psalm Headings in the West Syrian Tradition and the
     Psalm Commentary of Daniel of Salah</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">David G.K.
     Taylor, University of Birmingham</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P32"/>[32] A
+         <p>
+            <anchor corresp="P32"/>[32] A
     renewed emphasis on the importance of the contextual study of
     the Peshitta text has inevitably led to a welcome
     re-examination of the text traditions preserved in the writings
@@ -1076,9 +1092,9 @@
     events in Christ's life. The headings were not included in the
     Leiden edition of the Peshitta Psalter (1980), and
     Bloemendaal's important monograph (1960), which built upon the
-    earlier studies of Vosté (1944) and Baethgen (1878), restricted
-    itself to the East Syrian tradition (which proved to be
-    dependent upon the exegesis of Theodore of Mopsuestia). The
+    earlier studies of Vosté (1944) and Baethgen (1878),
+    restricted itself to the East Syrian tradition (which proved to
+    be dependent upon the exegesis of Theodore of Mopsuestia). The
     independent West Syrian tradition has remained relatively
     neglected, and it is this which this paper seeks to rectify. On
     the basis of a collation of the headings in all of the West
@@ -1088,13 +1104,13 @@
     exegesis of Daniel of Salah (fl. 541), the author hopes to
     outline the origins, development, and characteristic features
     of the West Syrian Psalm headings.</p>
-         <head>Melchizedek, Who Contains the Image of Christ</head>
-         <p style="text-align:left">
+         <head xml:id="HV5N1CRFalla31">Melchizedek, Who Contains the Image of Christ</head>
+         <p>
             <hi rend="author">Jan Van Reeth,
     Mortsel, Belgium</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P33"/>[33]
+         <p>
+            <anchor corresp="P33"/>[33]
     Starting with Psalm 110 and the Epistle to the Hebrews (ch. 7),
     the puzzling figure of Melchizedek has always struck the
     imagination: from unknown parentage, God-fearing even before
@@ -1106,19 +1122,19 @@
     based on a plurality of consecutive emanations. Our paper is to
     show that this was based on a specific interpretation of
     Genesis 14. In the first place, it elucidated the name which
-    Melchizedek attributes to God: <hi rend="italic">El 'Elyôn</hi>, derived from
-    the epithet of God, <hi rend="italic">'ly</hi>, which was widely spread in the
-    south-western Semitic area (Syriac and Arab desert). This was
-    further combined with the definition of his creative function:
-    He who is 'the possessor of heaven and earth'.</p>
-         <head>Between the School and the Monk's Cell: The Syriac
+    Melchizedek attributes to God: <hi rend="italic">El 'Elyôn</hi>, derived
+    from the epithet of God, <hi rend="italic">'ly</hi>, which was widely spread in
+    the south-western Semitic area (Syriac and Arab desert). This
+    was further combined with the definition of his creative
+    function: He who is 'the possessor of heaven and earth'.</p>
+         <head xml:id="HV5N1CRFalla32">Between the School and the Monk's Cell: The Syriac
     Commentary Tradition</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Lucas Van
     Rompay, Duke University</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P34"/>[34]
+         <p>
+            <anchor corresp="P34"/>[34]
     Although Syriac literature in its entirety reflects the various
     ways in which the Syriac Bible was read, understood, and used
     as a source of inspiration in the Syrian Christian communities,
@@ -1162,14 +1178,14 @@
     relationship to non-Syriac biblical commentaries, and the
     <hi rend="italic">Sitz im Leben</hi> of the commentaries, with special
     attention to the schools and monasteries.</p>
-         <head>Peshitta New Testament Quotations in the West Syrian
+         <head xml:id="HV5N1CRFalla33">Peshitta New Testament Quotations in the West Syrian
     Anaphoras</head>
-         <p style="text-align:left">
+         <p>
             <hi rend="author">Baby Varghese,
     Orthodox Theological Seminary, Kottayam, Kerala</hi>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P35"/>[35]
+         <p>
+            <anchor corresp="P35"/>[35]
     Researches on the Syriac Bible have rarely made use of the
     liturgical texts, with the exception of the Lectionaries. West
     Syrian anaphoras (more than 70), baptismal ordo (about a
@@ -1215,10 +1231,10 @@
     the bread]. Later anaphoras borrowed phrases from anaphoras
     translated from Greek. This makes the text-critical assessment
     of the quotations a rather difficult task.</p>
-         <head xml:id="S3">Progress Report on the Peshitta Programme Presented
+         <head xml:id="HV5N1CRFalla34">Progress Report on the Peshitta Programme Presented
     at the Conclusion of the Conference</head>
-         <p rend="nn">
-            <anchor xml:id="P36"/>[36] By:
+         <p>
+            <anchor corresp="P36"/>[36] By:
     <hi rend="bold">Dr. K.D. JENNER</hi>
             <lb/>
     Director of the Peshitta Programme<lb/>
@@ -1310,12 +1326,12 @@
     BTR type of text as in the Editio Major. There are strong
     arguments now to establish a critical text and to make the
     Editio Minor an Editio Critica. Consultation of Dr. A. Juckel
-    from Münster made clear that it is to be preferred to combine
-    the critical minor editions of OT and NT. Activities regarding
-    the OT will be co-ordinated by Leiden and those related to the
-    NT by Münster. For the present the doctors Ter Haar Romeny,
-    Jenner, Juckel and Van Peursen are acting as General Editors
-    for the intended edition.</p>
+    from Münster made clear that it is to be preferred to
+    combine the critical minor editions of OT and NT. Activities
+    regarding the OT will be co-ordinated by Leiden and those
+    related to the NT by Münster. For the present the doctors
+    Ter Haar Romeny, Jenner, Juckel and Van Peursen are acting as
+    General Editors for the intended edition.</p>
          <p>In the meantime the Peshitta Institute made preparations for
     a project on linguistic and syntactical study of the Peshitta.
     This project, the <hi rend="italic">Computer Assisted Linguistic Analysis of

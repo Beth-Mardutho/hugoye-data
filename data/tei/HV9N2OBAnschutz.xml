@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Helga Ansch�tz (April 19, 1928 - May 13, 2006)</title>
+            <title type="main">Helga Anschütz (April 19, 1928 - May 13, 2006)</title>
             <author>
-               <name>Andreas Juckel</name>
+               <name>
+                  <forename>Andreas</forename>
+                  <surname>Juckel</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol9No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/obituary/hv9n2obanschutz</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Andreas Juckel</author>
-                  <title level="a">Helga Ansch�tz (April 19, 1928 - May 13, 2006)</title>
+                  <title level="a">Helga Anschütz (April 19, 1928 - May 13, 2006)</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Obituary</term>
+               <term>Helga Anschütz</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,17 +88,13 @@
     
          <!-- InstanceBeginEditable name="Content" -->
          <hi style="float:right;margin:5px 0 5px 15px;background-color: #fff;padding:5px;border-top:1px solid #555;border-right:2px solid #999;border-bottom:2px solid #999;border-left:1px solid #555;">
-            <graphic url="HV9N2OBAnschutz_Img01.jpg"
-                     rend="img"
-                     mimeType="image/jpeg"
-                     width="122px"
-                     height="150px"/>
+            <graphic url="HV9N2OBAnschutz_Img01.jpg" rend="img" mimeType="image/jpeg" width="122px" height="150px"/>
          </hi>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     renowned German scholar and esteemed friend of the Syriac
-    Churches Dr. Helga Ansch�tz died on the 13<hi rend="sup">th</hi> of May
-    at the age of 78, and was buried among the Suryoye in the
+    Churches Dr. Helga Anschütz died on the 13<hi rend="sup">th</hi> of
+    May at the age of 78, and was buried among the Suryoye in the
     cemetery of the Mor Ephrem Monastery in Glane/NL. Although her
     health suffered several setbacks during the last few years, her
     death was unexpected and met with deep mourning. By her
@@ -86,29 +106,29 @@
     activities of the two associations she founded. Her knowledge
     of the Tur Abdin, its history and its people was unique. She
     met the Metropolitan Philoxenus Dolabani of Mardin and Bishop
-    Afrem Bilgic of Tur �Abdin.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Dr.
-    Ansch�tz was born in Hamburg in 1928. Between 1948 and 1956,
-    she studied history, philosophy, pedagogy, and journalism at
-    the University of Hamburg. In 1956 she received her Ph.D. in
+    Afrem Bilgic of Tur ‘Abdin.</p>
+         <p>
+            <anchor corresp="P2"/>[2] Dr.
+    Anschütz was born in Hamburg in 1928. Between 1948 and
+    1956, she studied history, philosophy, pedagogy, and journalism
+    at the University of Hamburg. In 1956 she received her Ph.D. in
     (early) history and economic geography, then taught German
     language at the Goethe-Institutes in Teheran (Iran) and Rabat
     (Morocco) as well as in several institutions in Germany
-    between� 1960 and 1989. Since 1965, she travelled regularly in
-    the Middle East and the Maghreb, and centred her research on
-    the present-day life of Oriental Christians. In 1968, she
-    received a special grant for research in the Tur �Abdin which
-    resulted in her famous book <hi rend="italic">Die Syrischen Christen vom Tur
-    �Abdin</hi> (1985). In 1990, Ansch�tz founded (together with her
-    husband Dr. Boulos Harb) the German-Lebanese Association, and
-    in 1992 the Mar Gabriel Association to support the Syrian
-    Christians.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Scholars
+    between  1960 and 1989. Since 1965, she travelled
+    regularly in the Middle East and the Maghreb, and centred her
+    research on the present-day life of Oriental Christians. In
+    1968, she received a special grant for research in the Tur
+    ‘Abdin which resulted in her famous book <hi rend="italic">Die Syrischen
+    Christen vom Tur ‘Abdin</hi> (1985). In 1990,
+    Anschütz founded (together with her husband Dr. Boulos
+    Harb) the German-Lebanese Association, and in 1992 the Mar
+    Gabriel Association to support the Syrian Christians.</p>
+         <p>
+            <anchor corresp="P3"/>[3] Scholars
     <hi rend="italic">and</hi> Suryoye will miss her.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] [The
+         <p>
+            <anchor corresp="P4"/>[4] [The
     information is based on an obituary published by the Mar
     Gabriel Association in Germany (<ref target="http://www.margabrielverein.de">www.margabrielverein.de</ref>.)]</p>
          <!-- InstanceEndEditable -->

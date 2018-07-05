@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Robert A. Kitchen and Martien F. G. Parmentier.�The Book of Steps: The Syriac Liber Graduum, Translated with an Introduction and Notes by Robert A. Kitchen and Martien F. G. Parmentier, Cistercian Studies Series 196, Kalamazoo, Michigan: Cistercian Publications, 2004.</title>
+            <title type="main">Robert A. Kitchen and Martien F. G. Parmentier. The Book of Steps: The Syriac Liber Graduum, Translated with an Introduction and Notes by Robert A. Kitchen and Martien F. G. Parmentier, Cistercian Studies Series 196, Kalamazoo, Michigan: Cistercian Publications, 2004.</title>
             <author>
-               <name>Anne Seville</name>
+               <name>
+                  <forename>Anne</forename>
+                  <surname>Seville</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv8n2prseville</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Anne Seville</author>
-                  <title level="a">Robert A. Kitchen and Martien F. G. Parmentier.�The Book of Steps: The Syriac Liber Graduum, Translated with an Introduction and Notes by Robert A. Kitchen and Martien F. G. Parmentier, Cistercian Studies Series 196, Kalamazoo, Michigan: Cistercian Publications, 2004.</title>
+                  <title level="a">Robert A. Kitchen and Martien F. G. Parmentier. The Book of Steps: The Syriac Liber Graduum, Translated with an Introduction and Notes by Robert A. Kitchen and Martien F. G. Parmentier, Cistercian Studies Series 196, Kalamazoo, Michigan: Cistercian Publications, 2004.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Liber Graduum</term>
+               <term>Book of Steps</term>
+               <term>Messalian</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,94 +88,99 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
-    volume continues the long-standing Cistercian Studies Series�
-    tradition of translating monastic literature of all periods
-    into English and joins a growing section dedicated to Syriac
-    spirituality.�Indeed it is an important contribution, allowing
-    us a glimpse into one lesser known, pre-monastic strand of
-    asceticism on the eastern fringe of the Roman Empire.�The late
-    fourth, early fifth century community to which this work was
-    addressed is stratified into different levels of Christian
-    behavior and observance.� The anonymous author focuses most of
-    his attention on two of these levels, what the translators have
-    termed �the Perfect� and �the Upright.��The Perfect ones have
-    renounced all earthly desires and through following the great
-    commandments (for example, to treat everyone better than
-    oneself, to not judge others, to live free from care, etc.),
-    mortifying their bodies, and practicing absolute poverty in the
-    imitation of Christ, they have attained enlightenment and seek
-    to educate other Christians.�The second-tiered Upright have not
-    overcome their struggle with material goods and thus lead a
-    life engaged with worldly pursuits and work to minister to the
-    physical needs of the Perfect.� Their spiritual disciplines
-    include attempting to fulfill the moral and cultic rules found
-    in the �inferior commandments� (i.e. the Ten Commandments) and
-    the Golden Rule.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
-    Kitchen�s extensive introduction begins by acquainting the
-    reader with the general origins of Syriac
-    Christianity.�Emphasizing its ascetic flavor, he concisely
+         <p>
+            <anchor corresp="P1"/>[1] This
+    volume continues the long-standing Cistercian Studies
+    Series’ tradition of translating monastic literature of
+    all periods into English and joins a growing section dedicated
+    to Syriac spirituality. Indeed it is an important
+    contribution, allowing us a glimpse into one lesser known,
+    pre-monastic strand of asceticism on the eastern fringe of the
+    Roman Empire. The late fourth, early fifth century
+    community to which this work was addressed is stratified into
+    different levels of Christian behavior and observance. 
+    The anonymous author focuses most of his attention on two of
+    these levels, what the translators have termed “the
+    Perfect” and “the Upright.” The Perfect
+    ones have renounced all earthly desires and through following
+    the great commandments (for example, to treat everyone better
+    than oneself, to not judge others, to live free from care,
+    etc.), mortifying their bodies, and practicing absolute poverty
+    in the imitation of Christ, they have attained enlightenment
+    and seek to educate other Christians. The second-tiered
+    Upright have not overcome their struggle with material goods
+    and thus lead a life engaged with worldly pursuits and work to
+    minister to the physical needs of the Perfect.  Their
+    spiritual disciplines include attempting to fulfill the moral
+    and cultic rules found in the “inferior
+    commandments” (i.e. the Ten Commandments) and the Golden
+    Rule.</p>
+         <p>
+            <anchor corresp="P2"/>[2]
+    Kitchen’s extensive introduction begins by acquainting
+    the reader with the general origins of Syriac
+    Christianity. Emphasizing its ascetic flavor, he concisely
     describes the earliest Syriac literature, its use of vivid
     imagery and symbolism, and the unique practices that make
     Syriac Christianity distinct from its Mediterranean
     counterparts.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] After a
+         <p>
+            <anchor corresp="P3"/>[3] After a
     detailed examination of scholarship throughout the last century
     pertaining to the <hi rend="italic">Liber Graduum</hi> (with well-documented
     footnotes), the introduction proceeds to an overview of the
     structure of the work (or its lack thereof), brief descriptions
-    of each <hi rend="italic">mēmrā</hi>, and general themes that connect the
-    work together.� Highlights of this latter section are the
-    translator�s discussions of the frequently overlooked
-    �fledgling� or intermediate ascetic ranks, such as �the sick
-    and the children,� and consideration of some of the pastoral
-    problems of his community.�For instance, tensions exist among
-    the various levels concerning who merits material support, and
-    external charges of elitism must be answered.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Kitchen
+    of each <hi rend="italic">mēmrā</hi>, and general themes that
+    connect the work together.  Highlights of this latter
+    section are the translator’s discussions of the
+    frequently overlooked “fledgling” or intermediate
+    ascetic ranks, such as “the sick and the children,”
+    and consideration of some of the pastoral problems of his
+    community. For instance, tensions exist among the various
+    levels concerning who merits material support, and external
+    charges of elitism must be answered.</p>
+         <p>
+            <anchor corresp="P4"/>[4] Kitchen
     rightly downplays the role of the <hi rend="italic">Liber Graduum</hi> in the
-    Messalian controversy.�Although historically several scholars
-    had hoped that this was the missing <hi rend="italic">Asketikon</hi> of the
-    Messalians, this claim could not be proven through its
-    doctrinal content.�The <hi rend="italic">Liber Graduum</hi> does demonstrate
-    some Messalian tendencies, like the indwelling of demons, but
-    never fully exhibits unorthodox beliefs. From what we know of
-    the surviving descriptions of Messalian beliefs and practices,
-    such as the total efficacy of unceasing prayer in contrast to
-    the spiritual inefficacy of the visible Church and sacraments,
-    these ideas are not supported by our anonymous author.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
-    translation has been made from Michael Kmosko�s edition found
-    in <hi rend="italic">Patrologia Syriaca</hi> 3: Paris, 1926; the enumeration
-    of the <hi rend="italic">mēmrē</hi> and the column numbers inserted into the
-    translation follow this text.�Kitchen and Parmentier present a
-    fluid translation that is faithful to the spirit of the work
-    overall, skillfully preserving the frank discussion of how
-    these practices ought to be lived out and what the
-    relationships among various Christians ought to be.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In
+    Messalian controversy. Although historically several
+    scholars had hoped that this was the missing <hi rend="italic">Asketikon</hi>
+    of the Messalians, this claim could not be proven through its
+    doctrinal content. The <hi rend="italic">Liber Graduum</hi> does
+    demonstrate some Messalian tendencies, like the indwelling of
+    demons, but never fully exhibits unorthodox beliefs. From what
+    we know of the surviving descriptions of Messalian beliefs and
+    practices, such as the total efficacy of unceasing prayer in
+    contrast to the spiritual inefficacy of the visible Church and
+    sacraments, these ideas are not supported by our anonymous
+    author.</p>
+         <p>
+            <anchor corresp="P5"/>[5] The
+    translation has been made from Michael Kmosko’s edition
+    found in <hi rend="italic">Patrologia Syriaca</hi> 3: Paris, 1926; the
+    enumeration of the <hi rend="italic">mēmrē</hi> and the column
+    numbers inserted into the translation follow this
+    text. Kitchen and Parmentier present a fluid translation
+    that is faithful to the spirit of the work overall, skillfully
+    preserving the frank discussion of how these practices ought to
+    be lived out and what the relationships among various
+    Christians ought to be.</p>
+         <p>
+            <anchor corresp="P6"/>[6] In
     addition to the introduction and translation, Kitchen and
     Parmentier have provided a bibliography of other modern
     translations of sections of the <hi rend="italic">Liber Graduum</hi>, several
     pages of studies covering the history of scholarship on this
     work, and a few brief listings on Syriac Christianity in
-    general.�There is also an index to the extensive scriptural
-    references of the <hi rend="italic">Liber Graduum</hi> that has been extended
-    to include some post- and extra-canonical writings and an index
-    to proper names and places.� A subject index would be desirable
-    for such a lengthy and thematically inter-connected work.�But
-    these materials along with the comprehensive introduction
-    provide a solid entry point for anyone interested in Syriac
-    Christianity, and the work as a whole offers scholars a
-    valuable resource for the early development of the ascetic life
-    in Syria.</p>
+    general. There is also an index to the extensive
+    scriptural references of the <hi rend="italic">Liber Graduum</hi> that has
+    been extended to include some post- and extra-canonical
+    writings and an index to proper names and places.  A
+    subject index would be desirable for such a lengthy and
+    thematically inter-connected work. But these materials
+    along with the comprehensive introduction provide a solid entry
+    point for anyone interested in Syriac Christianity, and the
+    work as a whole offers scholars a valuable resource for the
+    early development of the ascetic life in Syria.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

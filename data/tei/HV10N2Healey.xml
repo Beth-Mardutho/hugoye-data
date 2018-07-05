@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Edessan Milieu and the Birth of Syriac†</title>
+            <title type="main">The Edessan Milieu and the Birth of Syriac†</title>
             <author>
-               <name>John F. Healey</name>
+               <name>
+                  <forename>John F.</forename>
+                  <surname>Healey</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv10n2healey</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,21 +62,25 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
-         <lb/>
-         <lb/>
-    
-    
-    
-    
-         <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">This paper reviews the cultural and
+      <front>
+         <div type="abstract">
+            <p>This paper reviews the cultural and
     linguistic environment in which the Syriac dialect of Aramaic
     emerged as a language of inscriptions, legal documents and, in
     due course, literature. It is argued that the evidence for the
@@ -75,50 +91,45 @@
     context of the varied contemporary Aramaic dialects of
     Mesopotamia, with the variations also reflected within early
     Syriac itself.</p>
+         </div>
+      </front>
+      <body>
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">The Cultural Hellenization of Pre-Christian
-      Edessa</ref>
-            </item>
-            <item>
-               <ref target="#S2">The impact of the Greek language on Edessa
-      and on pre-Christian Syriac</ref>
-            </item>
-            <item>
-               <ref target="#S3">Early Syriac in the context of contemporary
-      Aramaic</ref>
-            </item>
-            <item>
-               <ref target="#S4">Conclusions</ref>
-            </item>
-         </list>
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Syriac’s
-    emergence as a literary language was stimulated on the one hand
-    by a multicultural Semitic, Greek and Iranian environment, and
-    on the other by the demands made of the language in the context
-    of the spread of Christianity. In some sense Syriac
-    <hi rend="italic">responded</hi> to these demands. Of course, we often talk
-    about languages in a metaphorical way, as if a language were
-    able to decide whether to respond or not! In some sense
-    languages have a life of their own and this partly explains
-    why, in our attempts to describe their processes, we tend to
-    use terms derived from the life sciences, such as the terms
-    “family” and “birth”.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In
+
+
+
+
+         <!-- InstanceBeginEditable name="Content" -->
+
+         <lb/>
+
+         <lb/>
+         <p>
+            <anchor corresp="P1"/>[1]
+    Syriac’s emergence as a literary language was stimulated
+    on the one hand by a multicultural Semitic, Greek and Iranian
+    environment, and on the other by the demands made of the
+    language in the context of the spread of Christianity. In some
+    sense Syriac <hi rend="italic">responded</hi> to these demands. Of course, we
+    often talk about languages in a metaphorical way, as if a
+    language were able to decide whether to respond or not! In some
+    sense languages have a life of their own and this partly
+    explains why, in our attempts to describe their processes, we
+    tend to use terms derived from the life sciences, such as the
+    terms “family” and “birth”.</p>
+         <p>
+            <anchor corresp="P2"/>[2] In
     attempting to describe the cultural and linguistic environment
     of the birth of Syriac, we look primarily to the earliest
     evidence, the archaeological evidence and the earliest written
-    materials in the language, which are labelled “Syriac” or, more
-    specifically, “Old Syriac”. These inscriptions and legal texts
-    come from a particular and narrowly defined locality, the
-    kingdom of Edessa, centred on Urhay, the modern-day Urfa in
-    southern Turkey. The number of the Old Syriac inscriptions has
-    now reached about 110 and we have in addition the immensely
+    materials in the language, which are labelled
+    “Syriac” or, more specifically, “Old
+    Syriac”. These inscriptions and legal texts come from a
+    particular and narrowly defined locality, the kingdom of
+    Edessa, centred on Urhay, the modern-day Urfa in southern
+    Turkey. The number of the Old Syriac inscriptions has now
+    reached about 110 and we have in addition the immensely
     important treasure of three long Syriac legal texts on
     parchment. Many of these inscriptions and parchments are dated
     either directly or indirectly and the dates span the period
@@ -127,11 +138,11 @@
     non-Christian, and there is no expression of Christian
     sentiments or allegiance in them. The cultural environment of
     this early Syriac is, therefore, pagan. The Syriac of the texts
-    is usually classified as “Middle Aramaic”, a term which also
-    covers other contemporary Aramaic dialects such as Palmyrene
-    and Nabataean.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] So where
+    is usually classified as “Middle Aramaic”, a term
+    which also covers other contemporary Aramaic dialects such as
+    Palmyrene and Nabataean.</p>
+         <p>
+            <anchor corresp="P3"/>[3] So where
     did Syriac come from? And what was the environment of its
     transformation into a major literary and theological language?
     I address these questions under three headings: I. The cultural
@@ -141,33 +152,34 @@
     Early Syriac in the context of contemporary Aramaic. I will
     then comment on some specific factors which contributed to the
     rise of what is usually called classical Syriac.</p>
-         <head xml:id="S1">I. The Cultural Hellenization of Pre-Christian
+         <head xml:id="HV10N2Healey3">I. The Cultural Hellenization of Pre-Christian
     Edessa</head>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Although
+         <p>
+            <anchor corresp="P4"/>[4] Although
     this area of Upper Mesopotamia was from time immemorial one of
     Semitic language use, it is also in the Greek and Roman periods
     an environment of considerable international contact and
     specifically of contact on the one hand with Parthia (and
     subsequently Sasanian Persia) and on the other with the
     Greek-speaking Seleucid Kingdom and Roman East.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] How far
+         <p>
+            <anchor corresp="P5"/>[5] How far
     we can regard the Edessa region as hellenized in the
     pre-Christian period, has, however, been disputed and indeed
     subject to some fluctuations of scholarly fashion. Robert
     Murray in a publication of 1982 (1982: 9-10) noted the view,
-    widely accepted in the early twentieth century, that Edessa’s
-    culture was non-hellenic and “purely” Semitic. Murray committed
-    himself to a retraction from this position in favour of the
-    view that Edessa was extensively if not thoroughly hellenized
-    in pre-Christian times. This view was even more strongly
-    espoused by my late and much loved friend Han Drijvers (e.g.
-    1970, 1998). I believe, however, that some retraction from the
-    retraction is necessary, since there is a danger of
-    exaggeration of the hellenistic factor in early Edessa.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] There is
+    widely accepted in the early twentieth century, that
+    Edessa’s culture was non-hellenic and
+    “purely” Semitic. Murray committed himself to a
+    retraction from this position in favour of the view that Edessa
+    was extensively if not thoroughly hellenized in pre-Christian
+    times. This view was even more strongly espoused by my late and
+    much loved friend Han Drijvers (e.g. 1970, 1998). I believe,
+    however, that some retraction from the retraction is necessary,
+    since there is a danger of exaggeration of the hellenistic
+    factor in early Edessa.</p>
+         <p>
+            <anchor corresp="P6"/>[6] There is
     no doubt, it must be stated from the start, that
     multiculturalism is woven into the fabric of the early history
     of Edessa. It was, after all, essentially a Seleucid foundation
@@ -178,13 +190,13 @@
     that the new foundation was located at the site of an older
     city, Adme (Harrak 1992). We know very little about this
     earlier Adme, but the whole region of Upper Mesopotamia
-    <hi rend="italic">is</hi> well known in earlier times. Edessa’s neighbour,
-    Harran, had been a prominent cultural centre for millennia and
-    housed a famous temple of the moon-god, Sin, whose cult
-    continued into the early centuries A.D., as the Syriac
-    inscriptions from Sumatar Harabesi show.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] With the
+    <hi rend="italic">is</hi> well known in earlier times. Edessa’s
+    neighbour, Harran, had been a prominent cultural centre for
+    millennia and housed a famous temple of the moon-god, Sin,
+    whose cult continued into the early centuries A.D., as the
+    Syriac inscriptions from Sumatar Harabesi show.</p>
+         <p>
+            <anchor corresp="P7"/>[7] With the
     decline of Seleucid power and a little before the Romans
     arrived, Edessa grasped its chance to establish itself as an
     independent state with its own kings of a local dynasty, said
@@ -192,25 +204,26 @@
     Abgarid dynasty because of the prominence of the royal name
     Abgar. Segal (1970: 16) claimed that this was a Nabataean
     dynasty. This seems implausible: the only real evidence is the
-    names of kings, such as Abgar, Ma‘nu, etc. These conform to a
-    name-type, common in Nabataea, but common also throughout the
-    Middle East in this period and they may suggest that in Edessa,
-    as in Petra, there was already an Arab presence. It is possible
-    that an Arab dynasty came to power by filling the post-Seleucid
-    power-vacuum. There is nothing, however, to suggest a
-    specifically Nabataean presence.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] It is
+    names of kings, such as Abgar, Ma‘nu, etc. These conform
+    to a name-type, common in Nabataea, but common also throughout
+    the Middle East in this period and they may suggest that in
+    Edessa, as in Petra, there was already an Arab presence. It is
+    possible that an Arab dynasty came to power by filling the
+    post-Seleucid power-vacuum. There is nothing, however, to
+    suggest a specifically Nabataean presence.</p>
+         <p>
+            <anchor corresp="P8"/>[8] It is
     interesting to note that, in contrast to the policy of the
     Nabataean kings, so far as we know <hi rend="italic">local</hi> coins were not
     issued in Edessa until much later, the middle of the
-    2<hi rend="sup">nd</hi> century A.D. There was no early “native”
-    imitation of Seleucid coinage. And when coins <hi rend="italic">did</hi>
-    appear, they did so during a period of Parthian domination and
-    the earliest types bore Syriac legends (Babelon 1893: 209-96;
-    Hill 1922: xciv-cvii, 91-118, pls XII-XVII).</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] Of the
+    2<hi rend="sup">nd</hi> century A.D. There was no early
+    “native” imitation of Seleucid coinage. And when
+    coins <hi rend="italic">did</hi> appear, they did so during a period of
+    Parthian domination and the earliest types bore Syriac legends
+    (Babelon 1893: 209-96; Hill 1922: xciv-cvii, 91-118, pls
+    XII-XVII).</p>
+         <p>
+            <anchor corresp="P9"/>[9] Of the
     Seleucid, Abgarid and Roman cities very little survives by way
     of material remains. In a survey, Mango reviewed what is known
     of classical art in Mesopotamia and most of what survives comes
@@ -220,16 +233,16 @@
     of Edessa, but it is surprising how <hi rend="italic">little</hi> has survived
     and this suggests that Edessa was far from thoroughly
     hellenized, a suspicion voiced also by Ross (2001: 11-13).</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     Perhaps the most characteristic survival of pre-Christian
     Edessa is that of the mosaics, mostly funerary mosaics set on
     the floors of tomb-chambers. The mosaics all appear to date
     from the early 3<hi rend="sup">rd</hi> century A.D., though a recently
     published mosaic is dated a little earlier, to A.D. 194 (Healey
     2006). They are of great interest in themselves and point to
-    Edessa’s cultural contact at this period with Roman Antioch:
-    the concept of mosaic-making must have come from that
+    Edessa’s cultural contact at this period with Roman
+    Antioch: the concept of mosaic-making must have come from that
     direction. Interestingly, though, by far the majority of the
     mosaics follow artistic norms which are non-Antiochene: they
     bear Syriac rather than Greek inscriptions, presumably because
@@ -239,8 +252,8 @@
     Parthian). In a few cases a rather wooden rendering of a
     western model is involved (as in the case of the Orpheus and
     Phoenix mosaics).</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     There are also a few non-funerary mosaics which appear to have
     been used as decor in villas and these <hi rend="italic">are</hi> thoroughly
     Antiochene in inspiration, containing mythological and
@@ -254,16 +267,16 @@
     Roman citizens of the third century and in any case they do not
     prove earlier hellenization (for the dating of the mosaics:
     Colledge 1994; Healey 2006).</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+         <p>
+            <anchor corresp="P12"/>[12]
     Although there is a lack of <hi rend="italic">archaeological</hi> (artefactual)
     evidence for hellenism in pre-Roman and pre-Christian Edessa,
     we do have some <hi rend="italic">literary</hi> evidence from the earliest
     surviving Syriac literature which might suggest a mixed culture
     at Edessa even in the pre-Christian period, though one must
     again be wary of exaggeration.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
+         <p>
+            <anchor corresp="P13"/>[13]
     There are texts like the letter of Mara bar Serapion, the date
     of which is much disputed. Fergus Millar (1993: 460-62)
     evidently leans towards the 70s A.D., but it has been ascribed
@@ -276,8 +289,8 @@
     There are also literary figures from the surrounding area,
     though not Edessa itself, who might be taken into account:
     Lucian of Samosata and Tatian.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] But
+         <p>
+            <anchor corresp="P14"/>[14] But
     perhaps the most iconic figure in the cultural environment of
     Edessa itself is Bardaisan (A.D. 154-222). If the direct
     quotations from Bardaisan which have survived and the dialogue,
@@ -296,20 +309,20 @@
     he wrote in <hi rend="italic">Syriac</hi>, not in Greek, and it is easy to
     overlook the extent to which he is dependent on a <hi rend="italic">local</hi>
     cultural tradition despite his awareness of things Greek.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] Thus
+         <p>
+            <anchor corresp="P15"/>[15] Thus
     the evidence for regarding Edessa before the mid-2<hi rend="sup">nd</hi>
     century A.D. as extensively hellenized is really rather thin
     and it suggests the need for caution. What survives of
-    Bardaisan’s thought is the only <hi rend="italic">substantial</hi> indication
-    of hellenistic culture and there is a possibility that his
-    hellenism was restricted to a very narrow circle associated
-    with the court. Beyond this circle there is little evidence. It
-    may be that whatever earlier hellenization had taken place in
-    the Seleucid context practically disappeared under the
-    Abgarids.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] It
+    Bardaisan’s thought is the only <hi rend="italic">substantial</hi>
+    indication of hellenistic culture and there is a possibility
+    that his hellenism was restricted to a very narrow circle
+    associated with the court. Beyond this circle there is little
+    evidence. It may be that whatever earlier hellenization had
+    taken place in the Seleucid context practically disappeared
+    under the Abgarids.</p>
+         <p>
+            <anchor corresp="P16"/>[16] It
     seems to me, therefore, that the cultural background of the
     emergence of Syriac and its development as a literary language
     is best regarded as predominantly Semitic and traditional.
@@ -322,13 +335,13 @@
     baggage. In the Peshitta of Acts 14: 12 the Greek divine name
     Zeus is not transcribed as <hi rend="italic">zews</hi>, as it could have been,
     but given an <hi rend="italic">interpretatio syriaca</hi> as <hi rend="italic">Mārē
-    alāhē</hi>, “lord of the gods”, a title used in Edessan
-    inscriptions of Sin and Baalshamin (Brock 1982: 19; Drijvers
-    and Healey 1999: 80).</p>
-         <head xml:id="S2">II. The impact of the Greek language on Edessa and
+    alāhē</hi>, “lord of the gods”, a title
+    used in Edessan inscriptions of Sin and Baalshamin (Brock 1982:
+    19; Drijvers and Healey 1999: 80).</p>
+         <head xml:id="HV10N2Healey4">II. The impact of the Greek language on Edessa and
     on pre-Christian Syriac</head>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] The
+         <p>
+            <anchor corresp="P17"/>[17] The
     presence of Greek loans in the early Syriac inscriptions and
     parchments would in general be an indicator of Greek cultural
     influence on pre-Christian Edessa and its language. This has
@@ -340,8 +353,8 @@
     at first sight to have many more loans. However, the
     distribution of the Greek loans in the Syriac inscriptions and
     parchments deserves closer scrutiny.</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
+         <p>
+            <anchor corresp="P18"/>[18]
     Seventeen out of the twenty-one clear Greek loans (data
     summarized in Drijvers and Healey 1999: 30-32) appear
     <hi rend="italic">only</hi> in the legal parchments, almost all in the context
@@ -355,8 +368,8 @@
     (There is an interesting parallel here with the switch from
     Nabataean to Greek after A.D. 106 in the legal texts from the
     Babatha archive.)</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] Of
+         <p>
+            <anchor corresp="P19"/>[19] Of
     the remaining four Greek loans in the Syriac inscriptions, two
     (<hi rend="italic">'plwtr'</hi> from <hi rend="italic">
                <hi style="font-size: 12pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol">
@@ -397,9 +410,9 @@
                <hi style="font-family:GraecaII">qesar</hi>
             </hi>)
     appear in the same late 2<hi rend="sup">nd</hi> century A.D. inscription
-    (As49) in the distinctly Roman phrase “freedman of Antoninus
-    Caesar”. The broken word <hi rend="italic">'yg[mwn']</hi> from
-    <hi rend="italic">
+    (As49) in the distinctly Roman phrase “freedman of
+    Antoninus Caesar”. The broken word <hi rend="italic">'yg[mwn']</hi>
+    from <hi rend="italic">
                <hi style="font-size: 12pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol">
                   <hi style="mso-char-type: symbol; mso-symbol-font-family: Symbol">h</hi>
                </hi>
@@ -419,12 +432,12 @@
                   <hi style="mso-char-type: symbol; mso-symbol-font-family: Symbol">n</hi>
                </hi>
             </hi>,
-    “governor”, appears in another third-century inscription
-    (As10). Thus all the Greek loans up to this point can easily be
-    accounted for because of having been used within a Roman legal
-    and administrative context. This leaves us with the word
-    <hi rend="italic">'dry<hi style="text-decoration: underline">t</hi>'</hi>
-    related to <hi rend="italic">
+    “governor”, appears in another third-century
+    inscription (As10). Thus all the Greek loans up to this point
+    can easily be accounted for because of having been used within
+    a Roman legal and administrative context. This leaves us with
+    the word <hi rend="italic">'dry<hi style="text-decoration: underline">t</hi>'</hi> related to
+    <hi rend="italic">
                <hi style="font-size: 12pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol">
                   <hi style="mso-char-type: symbol; mso-symbol-font-family: Symbol">a</hi>
                </hi>
@@ -447,12 +460,12 @@
                   <hi style="mso-char-type: symbol; mso-symbol-font-family: Symbol">s</hi>
                </hi>
             </hi>,
-    “statue”, in the famous inscription on the pillar on the Urfa
-    citadel, and this pillar is a Roman-style artefact if ever
-    there was one (As1)<ref target="#FN1">1</ref>
+    “statue”, in the famous inscription on the pillar
+    on the Urfa citadel, and this pillar is a Roman-style artefact
+    if ever there was one (As1)<ref target="#FN1">1</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20] The
+         <p>
+            <anchor corresp="P20"/>[20] The
     point here is that this is a meagre inventory of Greek
     linguistic influence and it all suggests the appearance of
     Greek words in Edessa is mostly connected with Romanization in
@@ -464,8 +477,8 @@
     south of Edessa: it could date as early as the 1<hi rend="sup">st</hi>
     century (Millar 1993: 462), though a later date is more likely
     (Drijvers and Healey 1999: As62).</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21] It
+         <p>
+            <anchor corresp="P21"/>[21] It
     is useful to compare this situation with Palmyrene and
     Nabataean. At Palmyra, Greek was very widely used because of
     more direct Roman influence (most recently Taylor 2002). As for
@@ -476,15 +489,15 @@
     bilingual which seems to have been erected by a family
     especially conscious of its Greco-Roman connections (Sartre
     1993: no. 54).</p>
-         <head xml:id="S3">III. Early Syriac in the context of contemporary
+         <head xml:id="HV10N2Healey5">III. Early Syriac in the context of contemporary
     Aramaic</head>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] The
+         <p>
+            <anchor corresp="P22"/>[22] The
     pre-Christian Edessan inscriptions, as we have seen, are
-    treated by epigraphists as a corpus and called “Old Syriac”,
-    though the gathering of the material in this way under this
-    title is largely based on non-linguistic features: the
-    provenance of the inscriptions and the distinctive form of
+    treated by epigraphists as a corpus and called “Old
+    Syriac”, though the gathering of the material in this way
+    under this title is largely based on non-linguistic features:
+    the provenance of the inscriptions and the distinctive form of
     script used, with the corpus containing at least two varieties
     of early Syriac distinguished mainly by the <hi rend="italic">y-</hi>prefix
     3<hi rend="sup">rd</hi> masculine imperfect instead of the
@@ -501,8 +514,8 @@
     This may, however, disguise a more complex situation in which
     both forms existed side by side, representing different
     registers or sub-dialects.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+         <p>
+            <anchor corresp="P23"/>[23]
     Broadly, after the demise of the Achaemenid Empire, the
     Achaemenid Aramaic <hi rend="italic">lingua franca</hi> had, in the absence of
     the empire, no function and largely disappeared. What remained
@@ -515,8 +528,8 @@
     form of Arabic, though a distinctly conservative,
     Achaemenid-type Aramaic continued to be used for official
     purposes.</p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24] So
+         <p>
+            <anchor corresp="P24"/>[24] So
     how did Syriac emerge?</p>
          <p>Syriac is the local Aramaic of the Edessa region. Beyer
     (1984: 46; 1986: 31) noted, however, that its use as a state
@@ -527,8 +540,8 @@
     dialect of Aramaic might never have been turned into a written
     language, as happened to vernaculars in other Greek-dominated
     regions.</p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25] In
+         <p>
+            <anchor corresp="P25"/>[25] In
     fact, however, the spoken use of the Aramaic of the area
     continued throughout the period of Seleucid control. Whether
     this Edessan Aramaic was written down at all during this period
@@ -542,28 +555,28 @@
     Samaria papyri. It thus seems likely that the writing as well
     as the speaking of the local Aramaic of the Edessan region
     continued during this time.</p>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26]
-    Edessan Aramaic — Syriac — begins to re-emerge with the Abgarid
-    dynasty around 140-130 B.C., being adopted for public use
-    probably as part of the assertion of a non-Greek identity. As
-    the local Aramaic dialect emerged, there developed for it a
-    local variety of the earlier Aramaic script. Both script and
-    language are well established by the time of the earliest dated
-    Syriac inscription, the Birecik inscription of 6 A.D., in which
-    a local official, a <hi style="font-size: 12pt; font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
+         <p>
+            <anchor corresp="P26"/>[26]
+    Edessan Aramaic — Syriac — begins to re-emerge with
+    the Abgarid dynasty around 140-130 B.C., being adopted for
+    public use probably as part of the assertion of a non-Greek
+    identity. As the local Aramaic dialect emerged, there developed
+    for it a local variety of the earlier Aramaic script. Both
+    script and language are well established by the time of the
+    earliest dated Syriac inscription, the Birecik inscription of 6
+    A.D., in which a local official, a <hi style="font-size: 12pt; font-family: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">
                <hi rend="italic">šallī<hi style="text-decoration: underline">t</hi>ā</hi>
-            </hi>, writes his
-    own tomb-inscription in Syriac (As55).</p>
-         <p rend="nn">
-            <anchor xml:id="P27"/>[27] The
+            </hi>, writes
+    his own tomb-inscription in Syriac (As55).</p>
+         <p>
+            <anchor corresp="P27"/>[27] The
     transformation of this early epigraphic Syriac used for
     official purposes into a prestigious literary language is also
     remarkable (though one can ask the same question about many
     languages known in their earliest form through non-literary
     epigraphs). Three specific factors may be noted:</p>
-         <p rend="nn">
-            <anchor xml:id="P28"/>[28]
+         <p>
+            <anchor corresp="P28"/>[28]
     First, Syriac had already, in the earliest evidence available
     to us, become an <hi rend="italic">administrative</hi> language. The
     administrative language of the Abgarid dynasty was Aramaic
@@ -575,8 +588,8 @@
     them, on the other hand, must certainly be an innovation of the
     Romanizing period (not an inheritance from the Seleucid
     period).</p>
-         <p rend="nn">
-            <anchor xml:id="P29"/>[29]
+         <p>
+            <anchor corresp="P29"/>[29]
     Secondly, Syriac became a <hi rend="italic">royal</hi> language. It became a
     royal language in the sense that the dynasty of Edessa chose to
     write inscriptions in it rather than in Greek (which must have
@@ -591,8 +604,8 @@
     districts: As31 and 47, etc.). There is also the famous
     inscription on the pillar on the Urfa citadel dedicated to a
     queen of Edessa (As1).</p>
-         <p rend="nn">
-            <anchor xml:id="P30"/>[30]
+         <p>
+            <anchor corresp="P30"/>[30]
     Above all Syriac became a <hi rend="italic">religious</hi> language. While most
     of the well preserved early inscriptions are funerary and
     simple commemorative texts, which do, of course, reveal some
@@ -600,8 +613,8 @@
     inscriptions, especially from Sumatar Harabesi, which have a
     more directly religious purpose (As36 and 37; also the altar
     inscription Bs3).</p>
-         <p rend="nn">
-            <anchor xml:id="P31"/>[31] A
+         <p>
+            <anchor corresp="P31"/>[31] A
     further factor, beyond the scope of this paper, is that there
     was an early interest in translating religious texts into
     Syriac and these translations had a part in raising Syriac to a
@@ -609,45 +622,45 @@
     into Syriac. By that time Bardaisan was probably writing
     philosophical works in Syriac and poets were composing
     poetry.</p>
-         <head xml:id="S4">Conclusions</head>
-         <p rend="nn">
-            <anchor xml:id="P32"/>[32] I do
+         <head xml:id="HV10N2Healey6">Conclusions</head>
+         <p>
+            <anchor corresp="P32"/>[32] I do
     not want to advocate a romanticized view of the early Edessan
-    environment of Syriac Christianity as unsullied by the “bitter
-    poison of the wisdom of the Greeks” as Ephrem calls it (<hi rend="italic">de
-    Fide</hi> II, 24). On present evidence, however, though
-    Bardaisan may form a prominent peak of hellenism, it is not
-    clear that he is the tip of an iceberg of any great
-    significance. That there was Greek culture in Edessa is clear,
-    but much more clear is the underlying dominance of native
-    religious and linguistic tradition. If Greek had been at all
-    prominent in Edessa the Greek text of the gospels would have
-    sufficed, as it did in Antioch. Instead, for the whole society,
-    including the elite (apart possibly from the few who partook in
-    the kind of intellectual activity which preoccupied Bardaisan),
-    it was this need in the religious sphere which was answered by
-    Syriac, a local language which had come to written prominence
-    during the reign of the Abgarid dynasty, used for
+    environment of Syriac Christianity as unsullied by the
+    “bitter poison of the wisdom of the Greeks” as
+    Ephrem calls it (<hi rend="italic">de Fide</hi> II, 24). On present evidence,
+    however, though Bardaisan may form a prominent peak of
+    hellenism, it is not clear that he is the tip of an iceberg of
+    any great significance. That there was Greek culture in Edessa
+    is clear, but much more clear is the underlying dominance of
+    native religious and linguistic tradition. If Greek had been at
+    all prominent in Edessa the Greek text of the gospels would
+    have sufficed, as it did in Antioch. Instead, for the whole
+    society, including the elite (apart possibly from the few who
+    partook in the kind of intellectual activity which preoccupied
+    Bardaisan), it was this need in the religious sphere which was
+    answered by Syriac, a local language which had come to written
+    prominence during the reign of the Abgarid dynasty, used for
     administration and religion, by kings and people alike. At the
-    end of this process, to quote Sebastian Brock, “... it was
-    Christianity which lent to Syriac the requisite prestige to
-    enable it to compete with Greek as a literary language ...”
-    (Brock 1994: 155). It is hard to credit, however, Noeldeke’s
-    remark (1904: xxxii) to the effect that the Edessan dialect
-    “was employed as a literary language, certainly long before the
-    introduction of Christianity”: there seems to be no clear
-    evidence of this.</p>
-         <p rend="nn">
-            <anchor xml:id="P33"/>[33] So
+    end of this process, to quote Sebastian Brock, “... it
+    was Christianity which lent to Syriac the requisite prestige to
+    enable it to compete with Greek as a literary language
+    ...” (Brock 1994: 155). It is hard to credit, however,
+    Noeldeke’s remark (1904: xxxii) to the effect that the
+    Edessan dialect “was employed as a literary language,
+    certainly long before the introduction of Christianity”:
+    there seems to be no clear evidence of this.</p>
+         <p>
+            <anchor corresp="P33"/>[33] So
     far as the title of this paper is concerned, “The Edessan
-    Milieu and the Birth of Syriac”, my conclusion is that in the
-    formative period the Edessan milieu was not hellenized to any
-    significant extent, while Syriac’s ancestry is to be sought in
-    the local Aramaic dialects of northern Mesopotamia, gradually
-    transformed into a prestige language of religious
+    Milieu and the Birth of Syriac”, my conclusion is that in
+    the formative period the Edessan milieu was not hellenized to
+    any significant extent, while Syriac’s ancestry is to be
+    sought in the local Aramaic dialects of northern Mesopotamia,
+    gradually transformed into a prestige language of religious
     literature.</p>
-         <p rend="nn">
-            <anchor xml:id="P34"/>[34] This
+         <p>
+            <anchor corresp="P34"/>[34] This
     brings us back to the issue of variety within this early
     Syriac. The major variation, <hi rend="italic">y-</hi>prefix and
     <hi rend="italic">n-</hi>prefix imperfect forms, can be interpreted either
@@ -655,18 +668,19 @@
     or synchronically (and accounted for as reflecting different
     <hi rend="italic">varieties</hi> of Aramaic/Syriac). The latter explanation is,
     in my view, more plausible. Indeed, linguistic variation
-    continued beyond the birth of Syriac and into the “classical”
-    phase, as Lucas van Rompay has shown convincingly in a paper of
-    1994 (see also Joosten 1999; Brock 2003).</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef0">†</ref> This paper was delivered at a plenary session of
-    the fourth North American Syriac Symposium, held at Princeton
-    Theological Seminary, July 9-12, 2003. <ref target="#FNRef0">
+    continued beyond the birth of Syriac and into the
+    “classical” phase, as Lucas van Rompay has shown
+    convincingly in a paper of 1994 (see also Joosten 1999; Brock
+    2003).</p>_______<lb/>
+         <head xml:id="HV10N2Healey7">Notes</head>
+         <p>
+            <ref target="#FNRef0">†</ref> This paper was delivered at a plenary
+    session of the fourth North American Syriac Symposium, held at
+    Princeton Theological Seminary, July 9-12, 2003. <ref target="#FNRef0">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef1">1</ref> Note that a fuller survey of the evidence would
     have to take account also of Greek loans in the earliest
     literary works such as <hi rend="italic">The Book of the Laws of
@@ -674,173 +688,182 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> A fuller account of the linguistic aspect of this
-    topic is to be published in the Proceedings of the “Congress on
-    Aramaic in its Historical and Linguistic Setting”, held in
-    Leiden, August 24-27, 2006. <ref target="#FNRef2">
+    topic is to be published in the Proceedings of the
+    “Congress on Aramaic in its Historical and Linguistic
+    Setting”, held in Leiden, August 24-27, 2006. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Babelon, E. 1893. <hi rend="italic">Mélanges
+         <head xml:id="HV10N2Healey8">Bibliography</head>
+         <p>Babelon, E. 1893. <hi rend="italic">Mélanges
     Numismatiques II</hi>. Paris: C. Rollin &amp; Feuardent.</p>
-         <p xml:id="B2" rend="biblio">Beyer, K. 1966. <hi lang="DE" xml:lang="DE">“Der reichsaramäische Einschlag in der ältesten
-    syrischen Literatur.”</hi> 
-            <hi rend="italic">ZDMG</hi> 116: 242-54.</p>
-         <p xml:id="B3" rend="biblio">—. 1984. <hi rend="italic">Die aramäischen Texte vom
-    Toten Meer</hi>. Göttingen: Vandenhoeck &amp; Ruprecht.</p>
-         <p xml:id="B4" rend="biblio">—. 1986. <hi rend="italic">The Aramaic Language. Its
-    Distribution and Subdivisions</hi>. Göttingen: Vandenhoeck &amp;
-    Ruprecht.</p>
-         <p xml:id="B5" rend="biblio">Brock, S. P. 1982 “From Antagonism to
-    Assimilation: Syriac Attitudes to Greek Learning.” Pp. 17-34 in
-    N. G. Garsoïan, T. F. Mathews and R. W. Thomson (eds), <hi rend="italic">East
-    of Byzantium. Syria and Armenia in the Formative Period</hi>.
-    Washington, DC: Dumbarton Oaks, Center for Byzantine
-    Studies.</p>
-         <p xml:id="B6" rend="biblio">—. 1994. “Greek and Syriac in Late
-    Antique Syria.” Pp. 149-60, 234-35 in A. K. Bowman and G. Woolf
-    (eds), <hi rend="italic">Literacy and Power in the Ancient World</hi>.
-    Cambridge: C.U.P. (reprinted as no. I in <hi rend="italic">From Ephrem to
-    Romanos: interactions between Syriac and Greek in Late
-    Antiquity</hi>. Aldershot/Brookfield/Singapore/Sydney:
-    Ashgate/Variorum, 1999).</p>
-         <p xml:id="B7" rend="biblio">—. 1996. “Greek Words in Syriac: some
-    general features,” <hi rend="italic">Studia Classica Israelica</hi> 15: 251-62.
-    (reprinted as no. XV in <hi rend="italic">From Ephrem to Romanos: interactions
-    between Syriac and Greek in Late Antiquity</hi>.
+         <p>Beyer, K. 1966. <hi lang="DE" xml:lang="DE">“Der reichsaramäische Einschlag in der
+    ältesten syrischen Literatur.”</hi>
+            <hi rend="italic">ZDMG</hi>
+    116: 242-54.</p>
+         <p>—. 1984. <hi rend="italic">Die
+    aramäischen Texte vom Toten Meer</hi>. Göttingen:
+    Vandenhoeck &amp; Ruprecht.</p>
+         <p>—. 1986. <hi rend="italic">The Aramaic
+    Language. Its Distribution and Subdivisions</hi>.
+    Göttingen: Vandenhoeck &amp; Ruprecht.</p>
+         <p>Brock, S. P. 1982 “From
+    Antagonism to Assimilation: Syriac Attitudes to Greek
+    Learning.” Pp. 17-34 in N. G. Garsoïan, T. F.
+    Mathews and R. W. Thomson (eds), <hi rend="italic">East of Byzantium. Syria
+    and Armenia in the Formative Period</hi>. Washington, DC:
+    Dumbarton Oaks, Center for Byzantine Studies.</p>
+         <p>—. 1994. “Greek and
+    Syriac in Late Antique Syria.” Pp. 149-60, 234-35 in A.
+    K. Bowman and G. Woolf (eds), <hi rend="italic">Literacy and Power in the
+    Ancient World</hi>. Cambridge: C.U.P. (reprinted as no. I in
+    <hi rend="italic">From Ephrem to Romanos: interactions between Syriac and
+    Greek in Late Antiquity</hi>.
     Aldershot/Brookfield/Singapore/Sydney: Ashgate/Variorum,
-    1999.)</p>
-         <p xml:id="B8" rend="biblio">—. 2003. “Some Diachronic Features of
-    Classical Syriac.” Pp. 95-111 in M. F. J. Baasten and W. Th.
-    van Peursen (eds), <hi rend="italic">Hamlet on the Hill. Semitic and Greek
-    studies presented to Professor T. Muraoka on the occasion of
-    his sixty-fifth birthday</hi>. Leuven/Paris/ Dudley, MA:
-    Peeters/Department of Oriental Studies.</p>
-         <p xml:id="B9" rend="biblio">Colledge, M. A. R. 1994. “Some
-    remarks on the Edessa Funerary Mosaics.” Pp. 189-97 in J.-P.
-    Darmon and A. Rebourg (eds), <hi rend="italic">La mosaïque gréco-romaine IV.
-    Actes du IVe Colloque International pour l’Étude de la Mosaïque
-    Antique, Vienne, 8-14 Août 1994</hi>. Paris: Association
-    Internationale pour l’Étude de la Mosaïque Antique.</p>
-         <p xml:id="B10" rend="biblio">Drijvers, H. J. W. 1966.
+    1999).</p>
+         <p>—. 1996. “Greek Words in
+    Syriac: some general features,” <hi rend="italic">Studia Classica
+    Israelica</hi> 15: 251-62. (reprinted as no. XV in <hi rend="italic">From
+    Ephrem to Romanos: interactions between Syriac and Greek in
+    Late Antiquity</hi>. Aldershot/Brookfield/Singapore/Sydney:
+    Ashgate/Variorum, 1999.)</p>
+         <p>—. 2003. “Some Diachronic
+    Features of Classical Syriac.” Pp. 95-111 in M. F. J.
+    Baasten and W. Th. van Peursen (eds), <hi rend="italic">Hamlet on the Hill.
+    Semitic and Greek studies presented to Professor T. Muraoka on
+    the occasion of his sixty-fifth birthday</hi>. Leuven/Paris/
+    Dudley, MA: Peeters/Department of Oriental Studies.</p>
+         <p>Colledge, M. A. R. 1994. “Some
+    remarks on the Edessa Funerary Mosaics.” Pp. 189-97 in
+    J.-P. Darmon and A. Rebourg (eds), <hi rend="italic">La mosaïque
+    gréco-romaine IV. Actes du IVe Colloque International
+    pour l’Étude de la Mosaïque Antique, Vienne,
+    8-14 Août 1994</hi>. Paris: Association Internationale
+    pour l’Étude de la Mosaïque Antique.</p>
+         <p>Drijvers, H. J. W. 1966.
     <hi rend="italic">Bardai<hi style="text-decoration: underline">s</hi>an of
     Edessa</hi>. Assen: van Gorcum.</p>
-         <p xml:id="B11" rend="biblio">—. 1970. “Bardai<hi style="text-decoration: underline">s</hi>
+         <p>—. 1970.
+    “Bardai<hi style="text-decoration: underline">s</hi>
             <hi lang="EN-GB" xml:lang="EN-GB">an of Edessa and the Hermetica: the Aramaic
-    philosopher and the philosophy of his time.” <hi rend="italic">JEOL</hi> 21:
-    190-210.</hi>
+    philosopher and the philosophy of his time.” <hi rend="italic">JEOL</hi>
+    21: 190-210.</hi>
          </p>
-         <p xml:id="B12" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">—. 1998. “Syriac Culture in Late Antiquity: hellenism
-    and local traditions.” <hi rend="italic">Mediterraneo Antico</hi> 1:
-    95-113.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">—. 1998. “Syriac Culture in Late Antiquity:
+    hellenism and local traditions.” <hi rend="italic">Mediterraneo
+    Antico</hi> 1: 95-113.</hi>
          </p>
-         <p xml:id="B13" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Drijvers, H. J. W. and J. F. Healey. 1999. <hi rend="italic">The Old
     Syriac Inscriptions of Edessa and Osrhoene</hi>(<hi rend="italic">HdO</hi>
     I/XLII). Leiden: E. J. Brill.</hi>
          </p>
-         <p xml:id="B14" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Feissel, D. and J. Gascou. 1989. “Documents d’archives
-    romains inédits du Moyen Euphrate (IIIe siècle après J.-C.).”
-    <hi rend="italic">CRAIBL</hi>, 535-561.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Feissel, D. and J. Gascou. 1989. “Documents
+    d’archives romains inédits du Moyen Euphrate (IIIe
+    siècle après J.-C.).” <hi rend="italic">CRAIBL</hi>,
+    535-561.</hi>
          </p>
-         <p xml:id="B15" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Harrak, A. 1992. “The Ancient Name of Edessa.”
-    <hi rend="italic">JNES</hi> 51: 209-14.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Harrak, A. 1992. “The Ancient Name of
+    Edessa.” <hi rend="italic">JNES</hi> 51: 209-14.</hi>
          </p>
-         <p xml:id="B16" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Healey, J. F. 1995. “Lexical Loans in Early Syriac: a
-    Comparison with Nabataean Aramaic.” <hi rend="italic">Studi Epigrafici e
-    Linguistici</hi> 12: 75-84.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Healey, J. F. 1995. “Lexical Loans in Early
+    Syriac: a Comparison with Nabataean Aramaic.” <hi rend="italic">Studi
+    Epigrafici e Linguistici</hi> 12: 75-84.</hi>
          </p>
-         <p xml:id="B17" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">—. 2006. “A New Syriac Mosaic Inscription”, <hi rend="italic">Journal
-    of Semitic Studies</hi> 51: 313-27.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">—. 2006. “A New Syriac Mosaic
+    Inscription”, <hi rend="italic">Journal of Semitic Studies</hi> 51:
+    313-27.</hi>
          </p>
-         <p xml:id="B18" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">—. forthcoming. “Variety in Early Syriac: the Context
-    in Contemporary Aramaic” (Leiden Congress Proceedings, eds H.
-    Gzella and M. Folmer).</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">—. forthcoming. “Variety in Early Syriac:
+    the Context in Contemporary Aramaic” (Leiden Congress
+    Proceedings, eds H. Gzella and M. Folmer).</hi>
          </p>
-         <p xml:id="B19" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Hill, G. F. 1922. <hi rend="italic">Catalogue of the Greek Coins of
     Arabia, Mesopotamia and Persia</hi>. London: British
     Museum.</hi>
          </p>
-         <p xml:id="B20" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Joosten, J. 1999. “Materials for a Linguistic Approach
-    to the Old Testament Peshitta.” <hi rend="italic">Journal of the Aramaic
-    Bible</hi> 1: 203-18.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Joosten, J. 1999. “Materials for a Linguistic
+    Approach to the Old Testament Peshitta.” <hi rend="italic">Journal of
+    the Aramaic Bible</hi> 1: 203-18.</hi>
          </p>
-         <p xml:id="B21" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Mango, M. M. 1982. “The Continuity of the Classical
-    Tradition in the Art and Architecture of Northern Mesopotamia”.
-    Pp. 115-34 in N. G. Garsoïan, T. F. Mathews and R. W. Thomson
-    (eds), <hi rend="italic">East of Byzantium. Syria and Armenia in the Formative
-    Period</hi>. Washington, DC: Dumbarton Oaks, Center for
-    Byzantine Studies.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Mango, M. M. 1982. “The Continuity of the
+    Classical Tradition in the Art and Architecture of Northern
+    Mesopotamia”. Pp. 115-34 in N. G. Garsoïan, T. F.
+    Mathews and R. W. Thomson (eds), <hi rend="italic">East of Byzantium. Syria
+    and Armenia in the Formative Period</hi>. Washington, DC:
+    Dumbarton Oaks, Center for Byzantine Studies.</hi>
          </p>
-         <p xml:id="B22" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">McVey, K. 1990. “A Fresh Look at the Letter of Mara bar
-    Serapion”, <hi rend="italic">OCA</hi> 236: 257-72.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">McVey, K. 1990. “A Fresh Look at the Letter of
+    Mara bar Serapion”, <hi rend="italic">OCA</hi> 236: 257-72.</hi>
          </p>
-         <p xml:id="B23" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Millar, F. 1993. <hi rend="italic">The Roman Near East 31 BC - AD
     337</hi>. Cambridge-London: Harvard University Press.</hi>
          </p>
-         <p xml:id="B24" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Murray, R. 1982. “The Characteristics of the Earliest
-    Syriac Christianity.” Pp. 3-16 in N. G. Garsoïan, T. F. Mathews
-    and R. W. Thomson (eds), <hi rend="italic">East of Byzantium. Syria and
-    Armenia in the Formative Period</hi>. Washington, DC: Dumbarton
-    Oaks, Center for Byzantine Studies.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Murray, R. 1982. “The Characteristics of the
+    Earliest Syriac Christianity.” Pp. 3-16 in N. G.
+    Garsoïan, T. F. Mathews and R. W. Thomson (eds), <hi rend="italic">East
+    of Byzantium. Syria and Armenia in the Formative Period</hi>.
+    Washington, DC: Dumbarton Oaks, Center for Byzantine
+    Studies.</hi>
          </p>
-         <p xml:id="B25" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Nöldeke, Th. 1904. <hi rend="italic">Compendious Syriac Grammar</hi>
-    (trans. J. A. Crichton). London: Williams &amp;
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Nöldeke, Th. 1904. <hi rend="italic">Compendious Syriac
+    Grammar</hi> (trans. J. A. Crichton). London: Williams &amp;
     Norgate.</hi>
          </p>
-         <p xml:id="B26" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Rompay, L. van. 1994. “Some Preliminary Remarks on the
-    Origins of Classical Syriac as a Standard Language: the Syriac
-    Version of Eusebius of Caesarea’s Ecclesiastical History.” Pp.
-    70-89 in G. Goldenberg and S. Raz (eds), <hi rend="italic">Semitic and
-    Cushitic Studies</hi>. Wiesbaden: Harrassowitz.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Rompay, L. van. 1994. “Some Preliminary Remarks
+    on the Origins of Classical Syriac as a Standard Language: the
+    Syriac Version of Eusebius of Caesarea’s Ecclesiastical
+    History.” Pp. 70-89 in G. Goldenberg and S. Raz (eds),
+    <hi rend="italic">Semitic and Cushitic Studies</hi>. Wiesbaden:
+    Harrassowitz.</hi>
          </p>
-         <p xml:id="B27" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Ross, S. K. 2001. <hi rend="italic">Roman Edessa: politics and culture
     on the eastern fringes of the Roman Empire, 114-242 C.E.</hi>
     London/New York: Routledge.</hi>
          </p>
-         <p xml:id="B28" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Sartre, M.1993. <hi rend="italic">Inscriptions grecques et latines de
-    la Syrie XXI. Inscriptions de la Jordanie IV: Pétra et la
-    Nabatène</hi> (Bibliothèque Archéologique et Historique 115).
-    Paris: P. Geuthner.</hi>
+    la Syrie XXI. Inscriptions de la Jordanie IV: Pétra et
+    la Nabatène</hi> (Bibliothèque
+    Archéologique et Historique 115). Paris: P.
+    Geuthner.</hi>
          </p>
-         <p xml:id="B29" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Schall, A. 1960. <hi rend="italic">Studien über griechische
     Fremdwörter im Syrischen</hi>. Darmstadt: Wissenschaftliche
     Buchgesellschaft.</hi>
          </p>
-         <p xml:id="B30" rend="biblio">
+         <p>
             <hi lang="EN-GB" xml:lang="EN-GB">Segal, J. B. 1970. <hi rend="italic">Edessa, the Blessed City</hi>.
     Oxford: O.U.P.</hi>
          </p>
-         <p xml:id="B31" rend="biblio">
-            <hi lang="EN-GB" xml:lang="EN-GB">Taylor, D. G. K. 2002. “Bilingualism and Diglossia in
-    Late Antique Syria and Mesopotamia.” Pp. 298-331 in J. N.
-    Adams, M. Janse and S. Swain (eds), <hi rend="italic">Bilingualism in Ancient
-    Society: language contact and the written word</hi>, Oxford:
-    O.U.P.</hi>
+         <p>
+            <hi lang="EN-GB" xml:lang="EN-GB">Taylor, D. G. K. 2002. “Bilingualism and
+    Diglossia in Late Antique Syria and Mesopotamia.” Pp.
+    298-331 in J. N. Adams, M. Janse and S. Swain (eds),
+    <hi rend="italic">Bilingualism in Ancient Society: language contact and the
+    written word</hi>, Oxford: O.U.P.</hi>
          </p>
-         <hi lang="EN-GB" xml:lang="EN-GB">
-    </hi>
+         <hi lang="EN-GB" xml:lang="EN-GB"/>
       </body>
    </text>
 </TEI>

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Perrin, Nicholas, Thomas and Tatian: The Relationship between the Gospel of Thomas and the Diatessaron. Atlanta: Society of Biblical Literature ("Academia Biblica," 5), 2002. Pp. xii + 216.</title>
+            <title type="main">Perrin, Nicholas, Thomas and Tatian: The Relationship between the Gospel of Thomas and the Diatessaron. Atlanta: Society of Biblical Literature ("Academia Biblica," 5), 2002. Pp. xii + 216.</title>
             <author>
-               <name>Paul-Hubert POIRIER</name>
+               <name>
+                  <forename>Paul-Hubert</forename>
+                  <surname>Poirier</surname>
+               </name>
                <affiliation>
                   <orgName>Université Laval</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n2prpoirier</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Gospel of Thomas</term>
+               <term>Diatessaron</term>
+               <term>Perrin</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,15 +88,15 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Shortly
+         <p>
+            <anchor corresp="P1"/>[1] Shortly
     after the discovery of the Coptic <hi rend="italic">Gospel of Thomas</hi> (NHC
-    II, 2; hereafter GT), many scholars—for example, H.-Ch. Puech,
-    G. Garitte, A. Guillaumont, and G. Quispel—drew attention to
-    the fact that the text of the new gospel contained a certain
-    number of expressions or syntactical constructions which could
-    be labelled as semiticisms. This observation among others
-    contributed significantly to the ascription of GT to an
+    II, 2; hereafter GT), many scholars—for example, H.-Ch.
+    Puech, G. Garitte, A. Guillaumont, and G. Quispel—drew
+    attention to the fact that the text of the new gospel contained
+    a certain number of expressions or syntactical constructions
+    which could be labelled as semiticisms. This observation among
+    others contributed significantly to the ascription of GT to an
     Aramaic, i.e., Syriac or Edessene, milieu. Drawing on G.
     Quispel's and T. Baarda's work, Nicholas Perrin's monograph
     pursues a triple objective: it seeks to establish (1) that GT
@@ -86,8 +111,8 @@
     a significant part of GT scholarship, which dates the gospel to
     the beginning of the 2<hi rend="sup">nd</hi> century, if not
     earlier.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] This
+         <p>
+            <anchor corresp="P2"/>[2] This
     monograph originates from a Ph.D. dissertation submitted at
     Marquette University under the supervision of Prof. Julian
     Hill. It opens with an expanded introduction which presents
@@ -113,8 +138,8 @@
     by Matthew, Mark, Luke (and John), it is only as the latter are
     mediated through the first Syriac gospel record: Tatian's
     <hi rend="italic">Diatessaron</hi>" (<hi rend="italic">ibid</hi>.).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Perrin's
+         <p>
+            <anchor corresp="P3"/>[3] Perrin's
     proposal is unquestionably clear; it is also a daring one. The
     reader is then all the more eager to see how he will make his
     point. The author's demonstration is offered in three chapters.
@@ -141,23 +166,24 @@
     leaves a maximum of 25 years between the redaction of the
     <hi rend="italic">Diatessaron</hi> and the composition of GT, a most direct
     road from the former to the latter is needed, which practically
-    excludes Greek—not to speak of Coptic—and leaves only Syriac as
-    a viable option. After a review of evidence for a Syriac GT in
-    the form of a <hi rend="italic">Status quaestionis</hi>, and some observations
-    on possible syriacisms in GT 9, 33, and 41, Perrin concludes
-    that "it must now be recognized that at least a fair number of
-    logia do show signs of having been composed either in western
-    Aramaic or Syriac" (46). As for whether this specific context
-    was Syriac rather than western Aramaic, Perrin favours Syriac
-    for two reasons. Firstly, by a process of elimination, in view
-    of the fact that "clear and unequivocal evidence for a western
-    Aramaic (and only western Aramaic) background is simply
-    lacking" (<hi rend="italic">ibid</hi>.). Secondly, "whereas the Aramaic theory
-    certainly has the potential to explain some of the semiticisms
-    in GT, the strength of the Syriac theory lies in its ability to
-    explain them all" (<hi rend="italic">ibid</hi>.).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] In the
+    excludes Greek—not to speak of Coptic—and leaves
+    only Syriac as a viable option. After a review of evidence for
+    a Syriac GT in the form of a <hi rend="italic">Status quaestionis</hi>, and
+    some observations on possible syriacisms in GT 9, 33, and 41,
+    Perrin concludes that "it must now be recognized that at least
+    a fair number of logia do show signs of having been composed
+    either in western Aramaic or Syriac" (46). As for whether this
+    specific context was Syriac rather than western Aramaic, Perrin
+    favours Syriac for two reasons. Firstly, by a process of
+    elimination, in view of the fact that "clear and unequivocal
+    evidence for a western Aramaic (and only western Aramaic)
+    background is simply lacking" (<hi rend="italic">ibid</hi>.). Secondly,
+    "whereas the Aramaic theory certainly has the potential to
+    explain some of the semiticisms in GT, the strength of the
+    Syriac theory lies in its ability to explain them all"
+    (<hi rend="italic">ibid</hi>.).</p>
+         <p>
+            <anchor corresp="P4"/>[4] In the
     second chapter, Perrin seeks "to put the theory to the test by
     introducing a new kind of analysis: a linguistic analysis
     involving catchwords" (49). Catchwords are defined as "any word
@@ -187,8 +213,8 @@
     the entire collection" (156). In Perrin's eyes, this cumulative
     evidence confirms the "Syriac theory" beyond reasonable doubt:
     "GT was composed entirely in Syriac" (169).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] With the
+         <p>
+            <anchor corresp="P5"/>[5] With the
     third chapter, "<hi rend="italic">Thomas</hi> and His Sources", Perrin comes to
     his "final concern": to demonstrate Thomas's dependence upon
     the <hi rend="italic">Diatessaron</hi>. His demonstration proceeds in three
@@ -199,8 +225,8 @@
     Thirdly, these written sources were in Syriac and included
     materials from the synoptic tradition as well as from the
     <hi rend="italic">Diatessaron</hi>.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     final conclusion restates the main results of the study, first,
     that Thomas is dependent upon the <hi rend="italic">Diatessaron</hi>, second,
     that Tatian and the author of GT belonged to the same world,
@@ -215,8 +241,8 @@
     book ends with the wish that "the placement of Thomas's gospel
     within the milieu of early Syriac Christianity will prove to be
     (the) much needed new beginning" (196) for the study of GT.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Perrin's
+         <p>
+            <anchor corresp="P7"/>[7] Perrin's
     monograph is undeniably a detailed and sophisticated study of
     GT, and it is impossible within the context of this review to
     discuss the value of his reconstruction of the Syriac
@@ -233,8 +259,8 @@
     prior to the Bardesanian <hi rend="italic">Book of the Laws of Countries</hi>
     (end of 2<hi rend="sup">nd</hi> - beginning of 3<hi rend="sup">rd</hi> century).
     As to Tatian's <hi rend="italic">Diatessaron</hi>, if it was composed in
-    Syriac—which seems to be, if not the reality, at least the
-    <hi rend="italic">opinio communis</hi>—, it can be reconstructed only
+    Syriac—which seems to be, if not the reality, at least
+    the <hi rend="italic">opinio communis</hi>—, it can be reconstructed only
     indirectly. On the other hand, our knowledge of Aramaic-western
     or eastern- for the first two centuries of the Common Era is
     scarcely better than that of Syriac. Nevertheless, the fact
@@ -253,43 +279,44 @@
     Thomas"). In order to validate this <hi rend="italic">post hoc propter hoc</hi>
     argument, a side-by-side comparison of the Coptic GT and its
     Syriac retroversion with the actual text of the
-    <hi rend="italic">Diatessaron</hi>—provided that it can be reconstructed with
-    some certainty—would be necessary. Paradoxically, however,
-    Tatian (and his <hi rend="italic">Diatessaron</hi>) is the most noticeable
-    absentee from this book. Perrin's endeavour has made out
-    <hi rend="italic">his</hi> case for a Tatianic dependence but <hi rend="italic">the</hi> case
-    still has to be tried. There is no doubt that the discussion
-    resulting from his study will provoke will help clarifying the
-    matter. Whatever the issue, Dr. Perrin has made a noteworthy
-    contribution to the study of GT and its Aramaic/Syriac
-    background.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] It is
+    <hi rend="italic">Diatessaron</hi>—provided that it can be reconstructed
+    with some certainty—would be necessary. Paradoxically,
+    however, Tatian (and his <hi rend="italic">Diatessaron</hi>) is the most
+    noticeable absentee from this book. Perrin's endeavour has made
+    out <hi rend="italic">his</hi> case for a Tatianic dependence but <hi rend="italic">the</hi>
+    case still has to be tried. There is no doubt that the
+    discussion resulting from his study will provoke will help
+    clarifying the matter. Whatever the issue, Dr. Perrin has made
+    a noteworthy contribution to the study of GT and its
+    Aramaic/Syriac background.</p>
+         <p>
+            <anchor corresp="P8"/>[8] It is
     not easy to produce such a technical book without any flaws. I
     mention only those which affect Syriac words. P. 38,
     2<hi rend="sup">nd</hi> line of the Syriac quotation: read
-    <hi rend="italic">t�bhwn</hi>; p. 44, paenult. and ult. lin.: read
+    <hi rend="italic">tšbhwn</hi>; p. 44, paenult. and ult. lin.: read
     <hi rend="italic">trtyhyn</hi>; p. 45, lines 11-12, inverse the two part of the
     Syriac phrase; p. 67, n. 40, "from us" is never <hi rend="italic">man</hi> but
     <hi rend="italic">menan</hi>; p. 96, n. 121: read <hi rend="italic">npq</hi> (twice); p. 118,
     n. 189, 1<hi rend="sup">st</hi> line: transliterate <hi rend="italic">ab</hi>; p. 161,
-    line 14: read <hi rend="italic">wn�b<hi rend="u">h</hi>wn</hi>; p. 177,
-    ult. lin. (and 74, <hi rend="italic">ad</hi> logion 18, 3): "he will know" is
-    reconstructed in two different fashions, <hi rend="italic">myd'</hi> and
+    line 14: read <hi rend="italic">wnšb<hi rend="u">h</hi>wn</hi>; p.
+    177, ult. lin. (and 74, <hi rend="italic">ad</hi> logion 18, 3): "he will know"
+    is reconstructed in two different fashions, <hi rend="italic">myd'</hi> and
     <hi rend="italic">nehwā ida'</hi> (which has to be changed into <hi rend="italic">nehwe
-    yāda'</hi>); p. 180, middle (and 144, n. 266, <hi rend="italic">ad</hi> logion
-    100, 4): <hi style="letter-spacing:1">
+    yāda'</hi>); p. 180, middle (and 144, n. 266, <hi rend="italic">ad</hi>
+    logion 100, 4): <hi style="letter-spacing:1">
                <hi rend="italic">d<hi rend="sup">c</hi>amm(ī)</hi>
-            </hi> would be a
-    very awkward—if not impossible—<hi rend="italic">Vorlage</hi> for Coptic <hi rend="italic">ptn
-    pôei</hi>, instead of <hi rend="italic">ddīl(ī)</hi>. As for Coptic, p. 55: the
-    basic form of the Coptic negator is <hi rend="italic">
+            </hi> would
+    be a very awkward—if not impossible—<hi rend="italic">Vorlage</hi>
+    for Coptic <hi rend="italic">ptn pôei</hi>, instead of
+    <hi rend="italic">ddīl(ī)</hi>. As for Coptic, p. 55: the basic form
+    of the Coptic negator is <hi rend="italic">
                <hi rend="sup">e</hi>n</hi> (and
     <hi rend="italic">
                <hi rend="sup">e</hi>m</hi>, the assimilation of it before a labial);
     p. 152, n. 296: read <hi rend="italic">arkhei</hi>; p. 182-183: <hi rend="italic">peje</hi>
     signals direct discourse in the past, and not in the present
-    (cf. B. Layton's <hi rend="italic">Coptic Grammar</hi>, � 380), therefore:
+    (cf. B. Layton's <hi rend="italic">Coptic Grammar</hi>, § 380), therefore:
     "Jesus said", and not "says".</p>
          <!-- #EndEditable -->
       </body>

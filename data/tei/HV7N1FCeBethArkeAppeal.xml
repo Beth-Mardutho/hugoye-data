@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>THE SYRIAC DIGITAL LIBRARY</title>
+            <title type="main">THE SYRIAC DIGITAL LIBRARY</title>
             <author>
-               <name> </name>
+               <name>
+                  <forename> </forename>
+                  <surname> </surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1fcebetharkeappeal</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>projects</term>
+               <term>Aramaic</term>
+               <term>library</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +84,7 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">APPEAL ANNOUNCEMENT</p>
+         <p>APPEAL ANNOUNCEMENT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
     
@@ -68,50 +93,50 @@
          <!-- #BeginEditable "Address" -->
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In 2002,
+         <p>
+            <anchor corresp="P1"/>[1] In 2002,
     Beth Mardutho: The Syriac Institute launched The Syriac Digital
-    Library Project—codenamed eBethArké—with the objective of
-    creating the largest digital collection of Syriac manuscripts,
-    books, journal articles, pictures and maps, and making all this
-    material available on the Internet. During the past two
-    centuries, the Syriac manuscript heritage was moved from the
-    Middle East to Western libraries and museums; hundreds of books
-    were published from these treasures. Now, for the first time,
-    Beth Mardutho will bring together all this material from East
-    and West, preserving Syriac manuscripts and printed books, and
-    making them accessible worldwide. Students, clergy and
-    seminarians, scholars, and the general public will be able to
-    access the entire collection anytime from anywhere in the
+    Library Project—codenamed eBethArké—with the
+    objective of creating the largest digital collection of Syriac
+    manuscripts, books, journal articles, pictures and maps, and
+    making all this material available on the Internet. During the
+    past two centuries, the Syriac manuscript heritage was moved
+    from the Middle East to Western libraries and museums; hundreds
+    of books were published from these treasures. Now, for the
+    first time, Beth Mardutho will bring together all this material
+    from East and West, preserving Syriac manuscripts and printed
+    books, and making them accessible worldwide. Students, clergy
+    and seminarians, scholars, and the general public will be able
+    to access the entire collection anytime from anywhere in the
     world. Our goal is to have 2,000-3,000 holdings in our library
     within three years. Your support is crucial to meet this
     objective.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In
+         <p>
+            <anchor corresp="P2"/>[2] In
     January 2004, The Catholic University of America (CUA) gave
     Beth Mardutho full access to digitize its Syriac collection,
-    from March 1 until July 31. This small window of time—due to
-    construction work at the library—should not be missed. CUA’s
-    collection is indeed unique and one of its kind in North
-    America. Beth Mardutho plans to secure scanning equipment and
-    hire two students on full-time basis to have as many books as
-    possible digitized for inclusion in The Syriac Digital Library.
-    The budget for this task is around $35,000. We have already
-    raised $10,000. Working together, we can raise the remaining
-    $25,000 to funds this important project.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] During
+    from March 1 until July 31. This small window of time—due
+    to construction work at the library—should not be missed.
+    CUA’s collection is indeed unique and one of its kind in
+    North America. Beth Mardutho plans to secure scanning equipment
+    and hire two students on full-time basis to have as many books
+    as possible digitized for inclusion in The Syriac Digital
+    Library. The budget for this task is around $35,000. We have
+    already raised $10,000. Working together, we can raise the
+    remaining $25,000 to funds this important project.</p>
+         <p>
+            <anchor corresp="P3"/>[3] During
     2002 and 2003 we succeeded in building a coalition of library
     partners who agreed, like CUA, to give us access to their
     collections. This coalition includes the libraries of Brigham
-    Young University, Brown University, Duke University, Harvard’s
-    Dambarton Oaks, the Peshitta Institute of Leiden University,
-    and Princeton Theological Seminary. Our partners have already
-    contributed over 30,000 digitized images. During 2003, Beth
-    Mardutho built a prototype interface for the eLibrary on the
-    Internet.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Now, it
+    Young University, Brown University, Duke University,
+    Harvard’s Dambarton Oaks, the Peshitta Institute of
+    Leiden University, and Princeton Theological Seminary. Our
+    partners have already contributed over 30,000 digitized images.
+    During 2003, Beth Mardutho built a prototype interface for the
+    eLibrary on the Internet.</p>
+         <p>
+            <anchor corresp="P4"/>[4] Now, it
     is time to digitize CUA’s collection, by far the largest
     collection in our coalition group, and include it in The Syriac
     Digital Library for you and everyone else to use worldwide. We
@@ -152,16 +177,16 @@
     cannot contribute at the above levels. Simply, donate any
     amount of your choice towards the project. Your name will
     appear in the donors list in our newsletter <hi rend="italic">Mardu</hi>.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] <hi rend="bold">How
+         <p>
+            <anchor corresp="P5"/>[5] <hi rend="bold">How
     to Send Donations?</hi>
          </p>
          <list type="unordered">
             <item>
                <hi rend="italic">Online.</hi> You can simply donate online at <ref target="http://www.bethmardutho.org">www.bethmardutho.org</ref>. Click
-      on “Support the Syriac Digital Library Project.” You can use
-      your Visa, MasterCard, American Express, or Discover card.
-      Our web page runs on a secure server.</item>
+      on “Support the Syriac Digital Library Project.”
+      You can use your Visa, MasterCard, American Express, or
+      Discover card. Our web page runs on a secure server.</item>
             <item>
                <hi rend="italic">Via Fax.</hi> You may fax the credit card information
       (number and expiration date) to +1 732-699-0342. Please
@@ -174,8 +199,8 @@
       Mardutho: The Syriac Institute, Syriac Digital Library
       Project, 46 Orris Ave., Piscataway, NJ 08854. USA.</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] A PDF
+         <p>
+            <anchor corresp="P6"/>[6] A PDF
     version of this appeal, with colored illustrations of material
     we plan to digitize, is available at <ref target="http://www.bethmardutho.org/files/appeal2004.pdf">http://www.bethmardutho.org/files/appeal2004.pdf</ref>.</p>
          <!-- #EndEditable -->

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Christianity in Iraq Seminar School of Oriental and African Studies, London April 3, 2004</title>
+            <title type="main">Christianity in Iraq Seminar School of Oriental and African Studies, London April 3, 2004</title>
             <author>
-               <name>Erica C.D. Hunter</name>
+               <name>
+                  <forename>Erica C.D.</forename>
+                  <surname>Hunter</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv7n2crhunter</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Iraq</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,75 +86,76 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Brunei Lecture Theatre at the School of Oriental and African
     Studies (SOAS) in London was the venue for the <hi rend="italic">Christianity
     in Iraq</hi> Seminar Day that was held on Saturday
-    3<hi rend="sup">rd</hi> April, 2004.� The principal aim was to promote
-    the rich Christian heritage of Iraq, by investigating not only
-    the history and archaeology of the various Churches, but also
-    the modern situation of the communities.� The day was held
-    under the aegis of the Dept. for the Study of Religions, SOAS
-    where Dr. Erica C.D. Hunter is Visiting Lecturer and Research
-    Associate in Eastern Christianity.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Sir
+    3<hi rend="sup">rd</hi> April, 2004.  The principal aim was to
+    promote the rich Christian heritage of Iraq, by investigating
+    not only the history and archaeology of the various Churches,
+    but also the modern situation of the communities.  The day
+    was held under the aegis of the Dept. for the Study of
+    Religions, SOAS where Dr. Erica C.D. Hunter is Visiting
+    Lecturer and Research Associate in Eastern Christianity.</p>
+         <p>
+            <anchor corresp="P2"/>[2] Sir
     Terence Walker, British Ambassador to Baghdad between
     1981-1990, opened the morning session that explored historical
-    and archaeological aspects.� Prof. John Healey (University of
-    Manchester), <hi rend="italic">The early history of the Church of the East,
-    and its mission in the Gulf</hi> discussed�the activities of
-    the Church of the East and its various settlements along the
-    Gulf. Southern Iraq was the focus of the talk by Dr. Erica C.D.
-    Hunter (University of Cambridge and SOAS), <hi rend="italic">The Christian
-    communities of Hira and southern� Iraq</hi> which drew
-    attention to the monasteries of Hira and the overall presence
-    of the Church of the East� in the regions around Kerbala and
-    Najaf.� Moving north, Prof. Amir Harrak (University of
-    Toronto), <hi rend="italic">The Christian archaeology of Tekrit,</hi> showed
-    slides of Syriac inscriptions that came to light during the
-    excavations in the 1990's� which were conducted by the Dept. of
-    Antiquities at Tekrit. Dr. Heleen Murre Van Den Berg
-    (University of Leiden) <hi rend="italic">Formulating Christian identities in
-    the Ottoman period</hi>�highlighted the development of Syriac
+    and archaeological aspects.  Prof. John Healey (University
+    of Manchester), <hi rend="italic">The early history of the Church of the
+    East, and its mission in the Gulf</hi> discussed the
+    activities of the Church of the East and its various
+    settlements along the Gulf. Southern Iraq was the focus of the
+    talk by Dr. Erica C.D. Hunter (University of Cambridge and
+    SOAS), <hi rend="italic">The Christian communities of Hira and southern 
+    Iraq</hi> which drew attention to the monasteries of Hira and
+    the overall presence of the Church of the East  in the
+    regions around Kerbala and Najaf.  Moving north, Prof.
+    Amir Harrak (University of Toronto), <hi rend="italic">The Christian
+    archaeology of Tekrit,</hi> showed slides of Syriac
+    inscriptions that came to light during the excavations in the
+    1990's  which were conducted by the Dept. of Antiquities
+    at Tekrit. Dr. Heleen Murre Van Den Berg (University of Leiden)
+    <hi rend="italic">Formulating Christian identities in the Ottoman
+    period</hi> highlighted the development of Syriac
     consciousness and nationalism that emerged in the late
     eighteenth and nineteenth centuries.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     afternoon session, under the chair of Dr. Erica C.D. Hunter,
-    focused on modern Iraq, with clergy of� the Syriac Churches
-    profiling the current situations of their communities after a
-    brief introduction by Dr. Suha Rassam.�The Rev. Khoshaba
-    Georges represented the Assyrian Church, The Rev. Habib
-    Al-Nawfali represented the Chaldaean Church, The Rev. Toma
-    Daood represented the Syrian Orthodox Church and The Rev. Safa'
-    Habash representing the Syrian Catholic Church.� All clergy
-    imparted much valuable information about their communities
-    which showed that, despite the great difficulties of the last
-    year, a great reservoir of hope and also the longstanding
-    working relations with the Muslim communities.�This point also
-    emerged during questions from the audience to the clergy. In
-    fact, the major perceived threat was from Born Again Christian
-    evangelists whose activities� undermine the communities and
-    their relations with Muslims. The day closed with a talk on
-    <hi rend="italic">The Christian Neo-Aramaic Dialects of Iraq</hi> by Prof.
-    Geoffrey Khan, FBA (University of Cambridge) whose project to
-    map the Neo-Syriac dialects has now received major
-    funding.�</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+    focused on modern Iraq, with clergy of  the Syriac
+    Churches profiling the current situations of their communities
+    after a brief introduction by Dr. Suha Rassam. The Rev.
+    Khoshaba Georges represented the Assyrian Church, The Rev.
+    Habib Al-Nawfali represented the Chaldaean Church, The Rev.
+    Toma Daood represented the Syrian Orthodox Church and The Rev.
+    Safa' Habash representing the Syrian Catholic Church.  All
+    clergy imparted much valuable information about their
+    communities which showed that, despite the great difficulties
+    of the last year, a great reservoir of hope and also the
+    longstanding working relations with the Muslim
+    communities. This point also emerged during questions from
+    the audience to the clergy. In fact, the major perceived threat
+    was from Born Again Christian evangelists whose
+    activities  undermine the communities and their relations
+    with Muslims. The day closed with a talk on <hi rend="italic">The Christian
+    Neo-Aramaic Dialects of Iraq</hi> by Prof. Geoffrey Khan, FBA
+    (University of Cambridge) whose project to map the Neo-Syriac
+    dialects has now received major funding. </p>
+         <p>
+            <anchor corresp="P4"/>[4] The
     Seminar Day concluded with a speech by Sir Harald Walker, the
     last representative of the British government in Baghdad before
     the 1990 Gulf War. The interest generated by the Seminar Day,
     which was attended by more than one hundred people, including
     representatives of the Foreign Office and media persons, was
-    most gratifying.� Donations by <hi rend="italic">The British School of
+    most gratifying.  Donations by <hi rend="italic">The British School of
     Archaeology in Iraq</hi> and <hi rend="italic">The Anglican and Eastern
     Churches Association</hi> helped to defray costs and made this
-    day possible.� Such was the success that another Seminar Day,
-    focusing on the international dynamics of Christianity in
-    Iraq�is being planned for May 2005.</p>
+    day possible.  Such was the success that another Seminar
+    Day, focusing on the international dynamics of Christianity in
+    Iraq is being planned for May 2005.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

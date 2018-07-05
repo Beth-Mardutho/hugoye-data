@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Beth Mardutho Ten-Year Anniversary Fund Raising</title>
+            <title type="main">Beth Mardutho Ten-Year Anniversary Fund Raising</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/advertisement/hv6n1adraffle</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Gorgias Press</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,47 +85,48 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Beth
+         <p>
+            <anchor corresp="P1"/>[1] Beth
     Mardutho is holding a fund raising raffle to celebrate its
     10-year anniversary. The proceeds will go towards the Beth
     Mardutho Endowment, and various projects. While all those who
     work for the Institute do so on voluntary basis, the Institute
     incurs many expenses.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The fund
+         <p>
+            <anchor corresp="P2"/>[2] The fund
     raising takes the form of a cash-prize Raffle: 35% of what we
     raise will be distributed as prizes. The first prize is 20% of
     the proceeds, the second prize is 10%, and the third prize is
     5%. For example, if we raise $10,000, the first prize will be
     $2,000, the second $1,000 and the third $500. Tickets can be
     purchased on <ref target="http://www.bethmardutho.org">www.bethmardutho.org</ref>.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
-    “Although the uncertain economy makes it difficult
-    for all of us to make new financial commitments just now,”
-    said Prof. Kathleen McVey, treasurer of Beth Mardutho, “the
-    same circumstance makes it vital for each of us to support the
-    organizations we value. Every contribution to Beth Mardutho,
-    however small, will help to promote ecumenical study of
-    the Syriac heritage.”</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Our
+         <p>
+            <anchor corresp="P3"/>[3]
+    “Although the uncertain economy makes
+    it difficult for all of us to make new financial
+    commitments just now,” said Prof. Kathleen McVey,
+    treasurer of Beth Mardutho, “the same circumstance makes
+    it vital for each of us to support the organizations we value.
+    Every contribution to Beth Mardutho, however small, will
+    help to promote ecumenical study of the Syriac
+    heritage.”</p>
+         <p>
+            <anchor corresp="P4"/>[4] Our
     major accomplishments during the last 10 years include
     publishing <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> twice a
     year (since 1998), adding Syriac to the Unicode standard, the
     design of over 20 Meltho Fonts for Windows XP, digitizing over
     600 Beth Gazo melodies, and holding three international SyrCOM
     conferences on Syriac computing.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     Currently, we are working hard to bring you <hi rend="bold">The Syriac
     Digital Library</hi> which will be the largest library of Syriac
     material in the world, accessible on the Internet. We are also
     busy producing the first encyclopedia that is totally dedicated
     to the Syriac heritage. All these activities require your
     support.<lb/>
-    . <!-- #EndEditable --></p>
+    . </p>
       </body>
    </text>
 </TEI>

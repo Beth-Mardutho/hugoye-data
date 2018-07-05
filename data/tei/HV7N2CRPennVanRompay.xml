@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aramaic in Post-Biblical Judaism and Early Christianity Duke University, North Carolina, June 14 � July 23, 2004</title>
+            <title type="main">Aramaic in Post-Biblical Judaism and Early Christianity Duke University, North Carolina, June 14 – July 23, 2004</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/seminarReport/hv7n2crpennvanrompay</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author/>
-                  <title level="a">Aramaic in Post-Biblical Judaism and Early Christianity Duke University, North Carolina, June 14 � July 23, 2004</title>
+                  <title level="a">Aramaic in Post-Biblical Judaism and Early Christianity Duke University, North Carolina, June 14 – July 23, 2004</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Aramaic</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -84,24 +107,24 @@
          </table>
          <!-- InstanceEndEditable -->
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] From
+         <p>
+            <anchor corresp="P1"/>[1] From
     June 14th to July 23rd 2004, Duke University hosted a National
-    Endowment for the Humanities summer seminar entitled �Aramaic
-    in Post-Biblical Judaism and Early Christianity.� This seminar
-    gave fifteen scholars the opportunity to broaden and deepen
-    their knowledge of Aramaic and to discuss major developments in
-    recent Aramaic scholarship. Eric M. Meyers (Duke University)
-    and Paul V.M. Flesher (University of Wyoming) co-directed the
-    seminar. Lucas Van Rompay (Duke University) served as the third
-    principal instructor. Guest seminar leaders and lecturers
-    included Douglas M. Gropp (Catholic University of America,
-    Washington, DC), George A. Kiraz (Beth Mardutho), Hayim Lapin
-    (University of Maryland), Christine C. Shepardson (University
-    of Tennessee, Knoxville), and Michael Sokoloff (Bar Ilan
-    University).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+    Endowment for the Humanities summer seminar entitled
+    “Aramaic in Post-Biblical Judaism and Early
+    Christianity.” This seminar gave fifteen scholars the
+    opportunity to broaden and deepen their knowledge of Aramaic
+    and to discuss major developments in recent Aramaic
+    scholarship. Eric M. Meyers (Duke University) and Paul V.M.
+    Flesher (University of Wyoming) co-directed the seminar. Lucas
+    Van Rompay (Duke University) served as the third principal
+    instructor. Guest seminar leaders and lecturers included
+    Douglas M. Gropp (Catholic University of America, Washington,
+    DC), George A. Kiraz (Beth Mardutho), Hayim Lapin (University
+    of Maryland), Christine C. Shepardson (University of Tennessee,
+    Knoxville), and Michael Sokoloff (Bar Ilan University).</p>
+         <p>
+            <anchor corresp="P2"/>[2] The
     seminar focused on three different literary languages: literary
     Aramaic of the post-Achaemenid period (including Qumran Aramaic
     and the language of the earliest Jewish translations of the
@@ -114,19 +137,19 @@
     participants presented interim reports of their research
     projects. A volume appearing in 2005 will publish final
     versions of these projects.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] As the
+         <p>
+            <anchor corresp="P3"/>[3] As the
     following list of presentation titles suggests, the
-    participants� research reflected a diversity of backgrounds and
-    interests.</p>
+    participants’ research reflected a diversity of
+    backgrounds and interests.</p>
          <list type="unordered">
             <item>Michael Carasik, Syntactic double translation in the
       Targumim.</item>
             <item>Blane Conklin, Translation technique in the Peshitta and
-      the Targumim in the case of Hebrew <hi rend="italic">ky �m.</hi>
+      the Targumim in the case of Hebrew <hi rend="italic">ky ’m.</hi>
             </item>
-            <item>David Everson, Targumic insertions of <hi rend="italic">ml�k</hi> in
-      the Pentateuch and their ideological significance.</item>
+            <item>David Everson, Targumic insertions of <hi rend="italic">ml’k</hi>
+      in the Pentateuch and their ideological significance.</item>
             <item>Joseph Frankovic, Interdependence among Rabbinic texts
       and genres: the case of Targum Canticles and Song of Songs
       Zuta.</item>
@@ -147,16 +170,17 @@
       interpretation.</item>
             <item>Sigrid Peterson, Syriac texts on the Maccabean martyrs
       and the concept of Jewish Syriac literature.</item>
-            <item>William Reader, The adverb <hi rend="italic">�ulay</hi> in TaNaK and
-      early versions. Observations on translation policies and
-      relationships and on the term�s �theological� afterlife.</item>
+            <item>William Reader, The adverb <hi rend="italic">’ulay</hi> in TaNaK
+      and early versions. Observations on translation policies and
+      relationships and on the term’s
+      ‘theological’ afterlife.</item>
             <item>Stephen Reed, The usage of the first person in the
       Genesis Apocryphon.</item>
             <item>David Rensberger, The Syriac Letter of Mara bar Serapion
       to his son.</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] For many
+         <p>
+            <anchor corresp="P4"/>[4] For many
     participants the seminar offered a rare opportunity to interact
     with other students and scholars of Aramaic and to read and
     discuss texts collaboratively. Because the academic study of

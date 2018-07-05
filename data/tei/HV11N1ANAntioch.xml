@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>�Antioch�: A New Initiative for the Study of the Rum Orthodox Patriarchate of Antioch</title>
+            <title type="main">‘Antioch’: A New Initiative for the Study of the Rum Orthodox Patriarchate of Antioch</title>
             <author>
-               <name>Sebastian P. Brock</name>
+               <name>
+                  <forename>Sebastian P.</forename>
+                  <surname>Brock</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv11n1anantioch</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Sebastian P. Brock</author>
-                  <title level="a">�Antioch�: A New Initiative for the Study of the Rum Orthodox Patriarchate of Antioch</title>
+                  <title level="a">‘Antioch’: A New Initiative for the Study of the Rum Orthodox Patriarchate of Antioch</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Rum Orthodox</term>
+               <term>Chalcedonian Orthodox</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,61 +87,63 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In 2006
-    a new charity, named �Antioch�, was set up and registered with
-    the aim of promoting research on the cultural heritage of the
-    Rum Orthodox (Chalcedonian) Patriarchate of Antioch. Although
-    the early period, up to the time of the Arab conquests, is
-    comparatively well known, the subsequent centuries have been
-    very little studied, despite their importance, both for the
-    history of the Orthodox Church as a whole, and for that of the
-    Middle East in general. Discoveries of medieval wall paintings
-    in Syria and Lebanon, as well as of hitherto unknown
-    manuscripts, forgotten saints, and the identification of new
-    Christian archaeological sites in recent years are just one
-    indication of some of the new and unexpected aspects that are
-    coming to light. At present, however, �Antioch� is
-    concentrating its attention on the very large number of
-    manuscripts of Antiochian Orthodox provenance, written in four
-    different languages, Greek, Syriac, Christian Palestinian
-    Aramaic and Arabic. At the end of many of these the copyist has
-    provided a colophon with notes stating where, when and for whom
-    the manuscript was written; quite often, further information of
-    a historical or topographical nature is also given. Work on
-    these manuscripts has already brought to light a forgotten
-    saint, besides providing a lot of new and valuable historical
-    information. Once all this information has been collected
-    together, it will make it possible to write a much more
-    authoritative and reliable history of the Rum Orthodox
-    Patriarchate of Antioch than is at present available.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] At the
-    present time �Antioch� is supporting the research of Monk Elia
-    Khalifeh, an Orthodox monk from Lebanon who is currently
-    residing in Oxford, where he is able to benefit from the
-    resources of the University�s libraries, above all from its
-    manuscripts and its collection of microfilms from St
-    Catherine�s Monastery, Sinai. He has already made an inventory
-    of several thousand manuscripts in Syriac, Christian
+         <p>
+            <anchor corresp="P1"/>[1] In 2006
+    a new charity, named ‘Antioch’, was set up and
+    registered with the aim of promoting research on the cultural
+    heritage of the Rum Orthodox (Chalcedonian) Patriarchate of
+    Antioch. Although the early period, up to the time of the Arab
+    conquests, is comparatively well known, the subsequent
+    centuries have been very little studied, despite their
+    importance, both for the history of the Orthodox Church as a
+    whole, and for that of the Middle East in general. Discoveries
+    of medieval wall paintings in Syria and Lebanon, as well as of
+    hitherto unknown manuscripts, forgotten saints, and the
+    identification of new Christian archaeological sites in recent
+    years are just one indication of some of the new and unexpected
+    aspects that are coming to light. At present, however,
+    ‘Antioch’ is concentrating its attention on the
+    very large number of manuscripts of Antiochian Orthodox
+    provenance, written in four different languages, Greek, Syriac,
+    Christian Palestinian Aramaic and Arabic. At the end of many of
+    these the copyist has provided a colophon with notes stating
+    where, when and for whom the manuscript was written; quite
+    often, further information of a historical or topographical
+    nature is also given. Work on these manuscripts has already
+    brought to light a forgotten saint, besides providing a lot of
+    new and valuable historical information. Once all this
+    information has been collected together, it will make it
+    possible to write a much more authoritative and reliable
+    history of the Rum Orthodox Patriarchate of Antioch than is at
+    present available.</p>
+         <p>
+            <anchor corresp="P2"/>[2] At the
+    present time ‘Antioch’ is supporting the research
+    of Monk Elia Khalifeh, an Orthodox monk from Lebanon who is
+    currently residing in Oxford, where he is able to benefit from
+    the resources of the University’s libraries, above all
+    from its manuscripts and its collection of microfilms from St
+    Catherine’s Monastery, Sinai. He has already made an
+    inventory of several thousand manuscripts in Syriac, Christian
     Palestinian Aramaic and Arabic, and is in the process of
     entering all the varied information contained in their
     colophons into a carefully designed data base. The aim of
-    �Antioch� is eventually to be able to make all this information
-    available to scholars in the form of a fully searchable
-    database, as well as to support and publish research on the
-    Antiochian Orthodox heritage in general. In due course it is
-    hoped that it will also be possible to organize conferences on
-    the Antiochian Orthodox tradition, and, ideally, to establish a
-    physical Centre to further promote research and to facilitate
-    the dissemination of knowledge about this neglected and
-    little-known tradition to a wider public.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Needless
-    to say, the future success and development of �Antioch� depends
-    on financial support for its work. Further information about
-    �Antioch� in general, and about how to support it, can be found
-    on its website, <ref target="http://www.AntiochCentre.net/">www.AntiochCentre.net</ref>.</p>
+    ‘Antioch’ is eventually to be able to make all this
+    information available to scholars in the form of a fully
+    searchable database, as well as to support and publish research
+    on the Antiochian Orthodox heritage in general. In due course
+    it is hoped that it will also be possible to organize
+    conferences on the Antiochian Orthodox tradition, and, ideally,
+    to establish a physical Centre to further promote research and
+    to facilitate the dissemination of knowledge about this
+    neglected and little-known tradition to a wider public.</p>
+         <p>
+            <anchor corresp="P3"/>[3] Needless
+    to say, the future success and development of
+    ‘Antioch’ depends on financial support for its
+    work. Further information about ‘Antioch’ in
+    general, and about how to support it, can be found on its
+    website, <ref target="http://www.AntiochCentre.net/">www.AntiochCentre.net</ref>.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

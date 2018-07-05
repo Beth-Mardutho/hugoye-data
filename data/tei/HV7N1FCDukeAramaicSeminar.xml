@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Summer Seminar "Aramaic in Post-Biblical Judaism and Early Christianity"</title>
+            <title type="main">Summer Seminar "Aramaic in Post-Biblical Judaism and Early Christianity"</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1fcdukearamaicseminar</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,23 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Seminar</term>
+               <term>Aramaic</term>
+               <term>Post-Biblical Judaism</term>
+               <term>Early Christianity</term>
+               <term>Duke</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,11 +76,11 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">SEMINAR ANNOUNCEMENT</p>
+         <p>SEMINAR ANNOUNCEMENT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
     
-         <p rend="title2">Sponsored by the National Endowment for the
+         <p>Sponsored by the National Endowment for the
     Humanities<lb/>
     Duke University<lb/>
     June 14 - July 23, 2004</p>
@@ -66,8 +90,8 @@
          <!-- #BeginEditable "Address" -->
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In this
+         <p>
+            <anchor corresp="P1"/>[1] In this
     six-week seminar, participants will study the Aramaic language
     and literature of post-biblical Judaism and early Christianity.
     In the mornings, participants will receive intensive
@@ -78,8 +102,8 @@
     structured so that participants, upon successful completion,
     will have mastered at least one dialect for use in their
     personal research.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In the
+         <p>
+            <anchor corresp="P2"/>[2] In the
     evenings, there will be seminars discussing the literature
     written in these dialects and analyzing how that literature can
     be used in historical and religious studies of ancient Judaism
@@ -89,19 +113,19 @@
     as well as Ephrem and Aphrahat. One week will be devoted to
     seminars on the history and development of the Aramaic
     language.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     organizers and principal teachers are: Eric M. Meyers (Duke
     University), Paul V.M. Flesher (University of Wyoming), and
     Lucas Van Rompay (Duke University).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Guest
+         <p>
+            <anchor corresp="P4"/>[4] Guest
     teachers and seminar leaders include: Michael Sokoloff (Bar
     Ilan University, Israel); Douglas Gropp (Catholic University of
     America); Hayim Lapin (University of Maryland); Tina Shepardson
     (University of Tennesee, Knoxville).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     Participants (American citizens or those who have been
     affiliated with an American institution for at least three
     years) will be selected from applicants who have completed
@@ -109,8 +133,8 @@
     elementary knowledge of (any type of) Aramaic are a
     prerequisite. Successful applicants will receive a stipend of
     $3700. The deadline for applications is March 1, 2004.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] For
+         <p>
+            <anchor corresp="P6"/>[6] For
     further information as well as for application forms, see:
     <ref target="http://www.duke.edu/web/nehdas/">http://www.duke.edu/web/nehdas/</ref>
          </p>

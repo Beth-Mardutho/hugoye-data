@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Recent Books on Syriac Topics</title>
+            <title type="main">Recent Books on Syriac Topics</title>
             <author>
-               <name>Sebastian P. Brock</name>
+               <name>
+                  <forename>Sebastian P.</forename>
+                  <surname>Brock</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol9No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv9n1prbrock</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Bibliography</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,188 +86,203 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     present listing continues on from previous listings in the
     first number of Hugoye for the years 1998-2005. Reprints are
     not included (for some important ones, see <ref target="http://www.gorgiaspress.com/">http://www.gorgiaspress.com</ref>).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
+         <p>
+            <anchor corresp="P2"/>[2]
     <hi rend="bold">1998</hi>
          </p>
-         <p rend="biblio">Ishlemon Warduni and Habeb Hermiz, <hi rend="italic">Syriac
+         <p>Ishlemon Warduni and Habeb Hermiz, <hi rend="italic">Syriac
     and Arabic Manuscripts in the Library of the St Peter Seminary
-    Baghdad</hi> (Baghdad).�[81pp, 134 mss;�in Arabic].</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+    Baghdad</hi> (Baghdad). [81pp, 134 mss; in
+    Arabic].</p>
+         <p>
+            <anchor corresp="P3"/>[3]
     <hi rend="bold">2002</hi>
          </p>
-         <p rend="biblio">Tang Li, <hi rend="italic">A Study of the History of
+         <p>Tang Li, <hi rend="italic">A Study of the History of
     Nestorian Christianity in China and its Literature in
-    Chinese</hi> (Frankfurt/M:�Peter Lang).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+    Chinese</hi> (Frankfurt/M: Peter Lang).</p>
+         <p>
+            <anchor corresp="P4"/>[4]
     <hi rend="bold">2003</hi>
          </p>
-         <p rend="biblio">n.a.,�<hi rend="italic">Phanqithos:�the West Syriac
-    Liturgical Cycle.</hi> I, <hi rend="italic">Winter Phanqitho;</hi> II,
+         <p>n.a., <hi rend="italic">Phanqithos: the West
+    Syriac Liturgical Cycle.</hi> I, <hi rend="italic">Winter Phanqitho;</hi> II,
     <hi rend="italic">Lent and Passion</hi> (Piscataway, NJ).</p>
-         <p rend="biblio">A. Akopian, <hi rend="italic">Dasaken Asoreren</hi>
-    (Yerevan:�Yerevan State University Press). [Introductory Syriac
-    Grammar and Reader]</p>
-         <p rend="biblio">A. Berger and H. Younansardaroud, <hi rend="italic">Die
+         <p>A. Akopian, <hi rend="italic">Dasaken Asoreren</hi>
+    (Yerevan: Yerevan State University Press). [Introductory
+    Syriac Grammar and Reader]</p>
+         <p>A. Berger and H. Younansardaroud, <hi rend="italic">Die
     griechische Vita des Hl. Mamas von Kaisareia und ihre syrischen
     Versionen</hi> (Semitica et Semitohamitica Berolinensia
-    3;�Aachen:�Shaker Verlag).</p>
-         <p rend="biblio">G. Chediath (tr. A.J. Joy), <hi rend="italic">The
-    Catholicos of the East</hi> (Trivandrum:�MS Publications).</p>
-         <p rend="biblio">—, (tr. A.J. Joy) <hi rend="italic">The Malankara Catholic
-    Church</hi> (Kottayam:�Bethany Sisters� Publications).</p>
-         <p rend="biblio">M. Galletti, <hi rend="italic">Cristiani del
-    Kurdistan:�assiri, caldei, siro-cattolici et
-    siro-ortodossi</hi> (Rome:�Jouvence).</p>
-         <p rend="biblio">N. Matar, <hi rend="italic">In the Lands of the
-    Christians.�Arabic Travel Writing in the Seventeenth
+    3; Aachen: Shaker Verlag).</p>
+         <p>G. Chediath (tr. A.J. Joy), <hi rend="italic">The
+    Catholicos of the East</hi> (Trivandrum: MS
+    Publications).</p>
+         <p>—, (tr. A.J. Joy) <hi rend="italic">The Malankara
+    Catholic Church</hi> (Kottayam: Bethany Sisters’
+    Publications).</p>
+         <p>M. Galletti, <hi rend="italic">Cristiani del
+    Kurdistan: assiri, caldei, siro-cattolici et
+    siro-ortodossi</hi> (Rome: Jouvence).</p>
+         <p>N. Matar, <hi rend="italic">In the Lands of the
+    Christians. Arabic Travel Writing in the Seventeenth
     Century</hi> (London). [Including the Chaldean Ilyas
     Hanna].</p>
-         <p rend="biblio">B. Puthur (ed.), <hi rend="italic">St Thomas Christians and
-    Nambudiris, Jews and Sangam Literature:�a historical
-    Survey</hi> (Liturgical Research Center Publications 7;�Mount
-    St Thomas, Kochi).</p>
-         <p rend="biblio">Metropolitan Kiwarkis Saliwa, <hi rend="italic">Makhtutat
+         <p>B. Puthur (ed.), <hi rend="italic">St Thomas Christians and
+    Nambudiris, Jews and Sangam Literature: a historical
+    Survey</hi> (Liturgical Research Center Publications
+    7; Mount St Thomas, Kochi).</p>
+         <p>Metropolitan Kiwarkis Saliwa, <hi rend="italic">Makhtutat
     maktaba mutraniya knisat al-sharq fi Bagdad</hi>
-    (Baghdad).�[222 mss].</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+    (Baghdad). [222 mss].</p>
+         <p>
+            <anchor corresp="P5"/>[5]
     <hi rend="bold">2004</hi>
          </p>
-         <p rend="biblio">S. Chial�, <hi rend="italic">Simone di Taibuteh.�Abitare la
-    solitudine.�Discorso per la consacrazione della cella</hi>
-    (Testi dei Padri della Chiesa 72;� Monastero di Bose).</p>
-         <p rend="biblio">R. Ebied and H. Teule (eds), <hi rend="italic">Acts of the
+         <p>S. Chialà, <hi rend="italic">Simone di
+    Taibuteh. Abitare la solitudine. Discorso per la
+    consacrazione della cella</hi> (Testi dei Padri della Chiesa
+    72;  Monastero di Bose).</p>
+         <p>R. Ebied and H. Teule (eds), <hi rend="italic">Acts of the
     VIIIth Symposium Syriacum</hi> (<hi rend="italic">= Journal of Eastern
     Christian Studies</hi> 56).</p>
-         <p rend="biblio">J.M. Fiey (ed. L.I. Conrad), <hi rend="italic">Saints
-    syriaques</hi> (Princeton NJ:�Darwin Press).</p>
-         <p rend="biblio">H. Hugonnard-Roche, <hi rend="italic">La logique d�Aristote
-    du grec au syriaque.��tudes sur la transmission des textes de
-    l�Organon et leur interpr�tation philosophique</hi>
-    (Paris:�Vrin).</p>
-         <p rend="biblio">N.P. Joosse, <hi rend="italic">A Syriac Encyclopaedia of
-    Aristotelian Philosophy:�Barhebraeus (13<hi rend="sup">th</hi> cent.)
-    Butyrum Sapientiae.�Books of Ethics, Economy and Politics</hi>
-    (Aristoteles Semitico-Latinus 16;�Leiden:�Brill).</p>
-         <p rend="biblio">C.A. Karim, <hi rend="italic">Symbols of the Cross in the
+         <p>J.M. Fiey (ed. L.I. Conrad), <hi rend="italic">Saints
+    syriaques</hi> (Princeton NJ: Darwin Press).</p>
+         <p>H. Hugonnard-Roche, <hi rend="italic">La logique
+    d’Aristote du grec au syriaque. Études sur la
+    transmission des textes de l’Organon et leur
+    interprétation philosophique</hi>
+    (Paris: Vrin).</p>
+         <p>N.P. Joosse, <hi rend="italic">A Syriac Encyclopaedia of
+    Aristotelian Philosophy: Barhebraeus (13<hi rend="sup">th</hi>
+    cent.) Butyrum Sapientiae. Books of Ethics, Economy and
+    Politics</hi> (Aristoteles Semitico-Latinus
+    16; Leiden: Brill).</p>
+         <p>C.A. Karim, <hi rend="italic">Symbols of the Cross in the
     Writings of the Early Syriac Fathers</hi> (Piscataway NJ).</p>
-         <p rend="biblio">D.J. Lane, <hi rend="italic">Shubhalmaran, The Book of
-    Gifts</hi> (CSCO 612-3;� Scr. Syri 236-7;�
-    Leuven:�Peeters).</p>
-         <p rend="biblio">R. Le Coz, <hi rend="italic">Les m�decins nestoriens au
-    moyen �ge:�les ma�tres des arabes</hi> (Comprendre le Moyen
-    Orient;�Paris).</p>
-         <p rend="biblio">J. Lund (in collaboration with G. Kiraz),
-    <hi rend="italic">The Old Syriac Gospel of the Distinct Evangelists:�A
+         <p>D.J. Lane, <hi rend="italic">Shubhalmaran, The Book of
+    Gifts</hi> (CSCO 612-3;  Scr. Syri 236-7; 
+    Leuven: Peeters).</p>
+         <p>R. Le Coz, <hi rend="italic">Les médecins nestoriens
+    au moyen âge: les maîtres des arabes</hi>
+    (Comprendre le Moyen Orient; Paris).</p>
+         <p>J. Lund (in collaboration with G. Kiraz),
+    <hi rend="italic">The Old Syriac Gospel of the Distinct Evangelists: A
     Key-Word-in-Context Concordance,</hi> 3 vols (Piscataway NJ:
     Gorgias Press).</p>
-         <p rend="biblio">A. Mirkovic, <hi rend="italic">Prelude to Constantine: the
+         <p>A. Mirkovic, <hi rend="italic">Prelude to Constantine: the
     Abgar Tradition in Early Christianity</hi> (Studies in the
-    Religion and History of Early Christianity 15;� Frankfurt a/M:
-    Peter Lang).</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6]
+    Religion and History of Early Christianity 15;  Frankfurt
+    a/M: Peter Lang).</p>
+         <p>
+            <anchor corresp="P6"/>[6]
     <hi rend="bold">2005</hi>
          </p>
-         <p rend="biblio">D.D. Benjamin (tr. Y.A. Baaba), <hi rend="italic">The
-    Patriarchs of the Church of the East.�Dinkha III not IV.</hi>
-    United States of America.�[ISBN 0-9707489-2-2].</p>
-         <p rend="biblio">T. Buchan, <hi rend="italic">"Blessed is He who has brought
-    Adam from Sheol".�Christ�s Descent to the Dead in the Theology
-    of Saint Ephrem the Syrian</hi> (Gorgias Dissertations
-    13;�Early Christian Studies 2;�Piscataway NJ:�Gorgias
-    Press).</p>
-         <p rend="biblio">Centre d��tudes et de Recherches Orientales
-    (CERO), <hi rend="italic">Les syriaques transmetteurs de
-    civilisations:�l�exp�rience du Bil�d el-Sh�m � l��poque
-    omeyyade</hi> (Patrimoine syriaque:�Actes du Colloque
-    IX;�Ant�lias).</p>
-         <p rend="biblio">Centre d��tudes et de Recherches Orientales
-    (CERO), <hi rend="italic">Nos sources:�arts et litt�rature syriaques</hi>
-    (Sources syriaques 1;�Ant�lias).�[Collection of essays on
+         <p>D.D. Benjamin (tr. Y.A. Baaba), <hi rend="italic">The
+    Patriarchs of the Church of the East. Dinkha III not
+    IV.</hi> United States of America. [ISBN
+    0-9707489-2-2].</p>
+         <p>T. Buchan, <hi rend="italic">"Blessed is He who has brought
+    Adam from Sheol". Christ’s Descent to the Dead in
+    the Theology of Saint Ephrem the Syrian</hi> (Gorgias
+    Dissertations 13; Early Christian Studies
+    2; Piscataway NJ: Gorgias Press).</p>
+         <p>Centre d’Études et de Recherches
+    Orientales (CERO), <hi rend="italic">Les syriaques transmetteurs de
+    civilisations: l’expérience du Bilâd
+    el-Shâm à l’époque omeyyade</hi>
+    (Patrimoine syriaque: Actes du Colloque
+    IX; Antélias).</p>
+         <p>Centre d’Études et de Recherches
+    Orientales (CERO), <hi rend="italic">Nos sources: arts et
+    littérature syriaques</hi> (Sources syriaques
+    1; Antélias). [Collection of essays on
     different genres of Syriac literature].</p>
-         <p rend="biblio">S. Chial� (Introd.) and M. Nin (tr.),
-    <hi rend="italic">Isaac de N�nive.�Cent�ries sobre el Coneixement</hi>
-    (Cl�ssics del Cristianisme 99;�Barcelona).�[Catalan tr. of Part
-    II, chapters 3 (Centuries) and 5 (Prayers)].</p>
-         <p rend="biblio">R. Contini and C. Grottanelli (eds), <hi rend="italic">Il
-    saggio Ahiqar.�Fortuna e trasformazioni di uno scritto
-    sapienzale.�Il testo pi� antico e le sue versioni</hi> (Studi
-    Biblici 148;�Brescia:�Paideia).</p>
-         <p rend="biblio">M. Debi�, A. Desreumaux, C. Jullien, F.
-    Jullien (eds), <hi rend="italic">Les apocryphes syriaques</hi> (�tudes
-    syriaques 2;� Paris:� Geuthner).</p>
-         <p rend="biblio">A. Harrak, <hi rend="italic">The Acts of Mar Mari the
+         <p>S. Chialà (Introd.) and M. Nin (tr.),
+    <hi rend="italic">Isaac de Nínive. Centúries sobre el
+    Coneixement</hi> (Clàssics del Cristianisme
+    99; Barcelona). [Catalan tr. of Part II, chapters 3
+    (Centuries) and 5 (Prayers)].</p>
+         <p>R. Contini and C. Grottanelli (eds), <hi rend="italic">Il
+    saggio Ahiqar. Fortuna e trasformazioni di uno scritto
+    sapienzale. Il testo più antico e le sue
+    versioni</hi> (Studi Biblici
+    148; Brescia: Paideia).</p>
+         <p>M. Debié, A. Desreumaux, C. Jullien,
+    F. Jullien (eds), <hi rend="italic">Les apocryphes syriaques</hi>
+    (Études syriaques 2;  Paris:  Geuthner).</p>
+         <p>A. Harrak, <hi rend="italic">The Acts of Mar Mari the
     Apostle</hi> (Writings from the Greco-Roman World
-    11;�Atlanta:�Society of Biblical Literature).�[Text and
-    translation].</p>
-         <p rend="biblio">J.F. Healey, <hi rend="italic">Leshono Suryoyo:�First
-    Studies in Syriac</hi> (Gorgias Handbooks 2;�Piscataway,
-    NJ:�Gorgias Press).�[New edition, with CD]</p>
-         <p rend="biblio">J. Isaac, <hi rend="italic">Catalogue des manuscrits
-    syro-chald�ens conserv�s dans la biblioth�que de l�Archev�ch�
-    chald�en d�Erbil � Ainkawa (Iraq)</hi> (Baghdad:�Publications
-    Nagm al Mashriq).</p>
-         <p rend="biblio">I. Isebaert-Cauuet, <hi rend="italic">Jacques de Saroug,
-    Hom�lies sur la Fin du Monde</hi> (Les P�res dans la Foi
-    91;�Paris:�Diffusion Litt�ral).</p>
-         <p rend="biblio">M. Lattke, <hi rend="italic">Oden Salomos.�Text,
-    �bersetzung, Kommentar,</hi> Teil 3. <hi rend="italic">Oden 29-42</hi> (Novum
-    Testamentum et Orbis Antiquus 41/3;�Fribourg:�Academic
-    Press/G�ttingen:�Vandenhoeck &amp; Ruprecht).</p>
-         <p rend="biblio">C.V. Malzoni, <hi rend="italic">Jesus: Messias e
-    Vivificador do Mundo.�Jo 1,1-42 na Antiga Tradicao Sir�aca</hi>
-    (Cahiers de la Revue Biblique 59;�Paris:�Gabalda).</p>
-         <p rend="biblio">T. Muraoka, <hi rend="italic">Classical Syriac.�A Basic
-    Grammar with a Chrestomathy</hi> (2<hi rend="sup">nd</hi> revised
-    edition;�Wiesbaden:�Harrassowitz).</p>
-         <p rend="biblio">I. Perczel (ed.), <hi rend="italic">The Nomocanon of Mar
-    Abdisho of Nisibis.�Facsimile Edition of Manuscript 64 from the
-    Collection of the Church of the East in Trissur</hi> with an
-    introduction by H. Kaufhold. (Piscataway, NJ:�Gorgias
-    Press).�[With CD]</p>
-         <p rend="biblio">S. Rassam, <hi rend="italic">Christianity in Iraq</hi>
-    (Leominster:�Gracewing).</p>
-         <p rend="biblio">G.J. Reinink, <hi rend="italic">Syriac Christianity under
+    11; Atlanta: Society of Biblical
+    Literature). [Text and translation].</p>
+         <p>J.F. Healey, <hi rend="italic">Leshono Suryoyo: First
+    Studies in Syriac</hi> (Gorgias Handbooks 2; Piscataway,
+    NJ: Gorgias Press). [New edition, with CD]</p>
+         <p>J. Isaac, <hi rend="italic">Catalogue des manuscrits
+    syro-chaldéens conservés dans la
+    bibliothèque de l’Archevêché
+    chaldéen d’Erbil à Ainkawa (Iraq)</hi>
+    (Baghdad: Publications Nagm al Mashriq).</p>
+         <p>I. Isebaert-Cauuet, <hi rend="italic">Jacques de Saroug,
+    Homélies sur la Fin du Monde</hi> (Les Pères dans
+    la Foi 91; Paris: Diffusion Littéral).</p>
+         <p>M. Lattke, <hi rend="italic">Oden Salomos. Text,
+    Übersetzung, Kommentar,</hi> Teil 3. <hi rend="italic">Oden 29-42</hi>
+    (Novum Testamentum et Orbis Antiquus
+    41/3; Fribourg: Academic
+    Press/Göttingen: Vandenhoeck &amp; Ruprecht).</p>
+         <p>C.V. Malzoni, <hi rend="italic">Jesus: Messias e
+    Vivificador do Mundo. Jo 1,1-42 na Antiga Tradicao
+    Siríaca</hi> (Cahiers de la Revue Biblique
+    59; Paris: Gabalda).</p>
+         <p>T. Muraoka, <hi rend="italic">Classical Syriac. A
+    Basic Grammar with a Chrestomathy</hi> (2<hi rend="sup">nd</hi> revised
+    edition; Wiesbaden: Harrassowitz).</p>
+         <p>I. Perczel (ed.), <hi rend="italic">The Nomocanon of Mar
+    Abdisho of Nisibis. Facsimile Edition of Manuscript 64
+    from the Collection of the Church of the East in Trissur</hi>
+    with an introduction by H. Kaufhold. (Piscataway,
+    NJ: Gorgias Press). [With CD]</p>
+         <p>S. Rassam, <hi rend="italic">Christianity in Iraq</hi>
+    (Leominster: Gracewing).</p>
+         <p>G.J. Reinink, <hi rend="italic">Syriac Christianity under
     Late Sasanian and Early Islamic Rule</hi> (Variorum Collected
-    Studies CS 831;�Aldershot:�Ashgate).</p>
-         <p rend="biblio">A. Schmidt and S. Westphalen, <hi rend="italic">Christliche
-    Wandmalereien in Syrien.�Qara und das Kloster Mar Yakub</hi>
-    (Sprachen und Kulturen des christlichen Orients
-    14;�Wiesbaden:�Reichert).</p>
-         <p rend="biblio">N.N. Seleznyov and D.A. Morozov, <hi rend="italic">The
+    Studies CS 831; Aldershot: Ashgate).</p>
+         <p>A. Schmidt and S. Westphalen, <hi rend="italic">Christliche
+    Wandmalereien in Syrien. Qara und das Kloster Mar
+    Yakub</hi> (Sprachen und Kulturen des christlichen Orients
+    14; Wiesbaden: Reichert).</p>
+         <p>N.N. Seleznyov and D.A. Morozov, <hi rend="italic">The
     Dialogue between the Catholicos of the Church of the East Mar
     Timatheos I (727-823) and the Caliph al-Mahdi</hi>
-    (Moscow:�Assyrian Church of the East).</p>
-         <p rend="biblio">N.N. Seleznyov, <hi rend="italic">Nestorii i Cerkov
-    Vostoka</hi> (Moscow:�Put�) [ISBN 5-86748-032-1]</p>
-         <p rend="biblio">H. Takahashi, <hi rend="italic">Barhebraeus:�A
-    Bio-Bibliography</hi> (Piscataway NJ:�Gorgias Press.)</p>
-         <p rend="biblio">K. Valavalonickal, <hi rend="italic">Aphrahat,
-    Demonstrations,</hi> I-II (Moran Etho 23-24;�
-    Kottayam:�SEERI).</p>
-         <p rend="biblio">E. Vergani and S. Chial� (eds), <hi rend="italic">Le Chiese
-    sire tra IV e VI secolo:�dibattito dottrinale e ricerca
-    spirituale</hi> (Milan:�Centro Ambrosiano).</p>
-         <p rend="biblio">E. Vergani, <hi rend="italic">Efrem il Siro.�Il dono della
-    perla.�Inni sulla perla</hi> (Testi dei Padri della Chiesa
-    78;�Magnano:�Monastero di Bose).</p>
-         <p rend="biblio">J.W. Watt (with the assistance of D. Isaac,
+    (Moscow: Assyrian Church of the East).</p>
+         <p>N.N. Seleznyov, <hi rend="italic">Nestorii i Cerkov
+    Vostoka</hi> (Moscow: Put’) [ISBN 5-86748-032-1]</p>
+         <p>H. Takahashi, <hi rend="italic">Barhebraeus: A
+    Bio-Bibliography</hi> (Piscataway NJ: Gorgias Press.)</p>
+         <p>K. Valavalonickal, <hi rend="italic">Aphrahat,
+    Demonstrations,</hi> I-II (Moran Etho 23-24; 
+    Kottayam: SEERI).</p>
+         <p>E. Vergani and S. Chialà (eds), <hi rend="italic">Le
+    Chiese sire tra IV e VI secolo: dibattito dottrinale e
+    ricerca spirituale</hi> (Milan: Centro Ambrosiano).</p>
+         <p>E. Vergani, <hi rend="italic">Efrem il Siro. Il dono
+    della perla. Inni sulla perla</hi> (Testi dei Padri della
+    Chiesa 78; Magnano: Monastero di Bose).</p>
+         <p>J.W. Watt (with the assistance of D. Isaac,
     J. Faultless and A. Shihadeh), <hi rend="italic">Aristotelian Rhetoric in
-    Syriac:�Barhebraeus, Butyrum Sapientiae, Book of Rhetoric</hi>
-    (Aristoteles Semitico-Latinus 18; Leiden:�Brill).</p>
-         <p rend="biblio">J. Weinberg, <hi rend="italic">Azariah de� Rossi�s
-    Observations on the Syriac New Testament</hi> (Warburg
-    Institute Studies and Texts 3;�London-Turin: The Warburg
-    Institute).</p>
+    Syriac: Barhebraeus, Butyrum Sapientiae, Book of
+    Rhetoric</hi> (Aristoteles Semitico-Latinus 18;
+    Leiden: Brill).</p>
+         <p>J. Weinberg, <hi rend="italic">Azariah de’
+    Rossi’s Observations on the Syriac New Testament</hi>
+    (Warburg Institute Studies and Texts 3; London-Turin: The
+    Warburg Institute).</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hugoye's New Book Review Editor</title>
+            <title type="main">Hugoye's New Book Review Editor</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/letterFromTheGeneralEditor/hv5n2gekiraz</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,18 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,18 +84,18 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p html:align="center">
+         <p>
             <lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] It is my
+         <p>
+            <anchor corresp="P1"/>[1] It is my
     pleasure to welcome a new member to the staff of <hi rend="italic">Hugoye</hi>.
     Kristian S. Heal of Brigham Young University accepted an
     invitation to serve as <hi rend="italic">Hugoye</hi> Book Review Editor. The
     position has thus far been occupied by Dr. Monica Blanchard of
     The Catholic University of America.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Kristian
+         <p>
+            <anchor corresp="P2"/>[2] Kristian
     S. Heal joined the Institute for the Study and Preservation of
     Ancient Religious texts at BYU as a Research Associate in 2000.
     He is the coordinator of the Eastern Christian Digitizing
@@ -88,14 +110,14 @@
     Patriarch Joseph (Genesis 37-50) in early Syriac literature.
     Kristian and his wife Vicki-Bronwen are the parents of five
     children.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Dr.
+         <p>
+            <anchor corresp="P3"/>[3] Dr.
     Monica Blanchard continues to contribute to Beth Mardutho's
     various projects, especially The Syriac Digital Library project
     where she acts as the librarian liaison between Beth Mardutho
     and CUA.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Please
+         <p>
+            <anchor corresp="P4"/>[4] Please
     join me in welcoming Kristian Heal and thanking Dr. Monica
     Blanchard.</p>
          <p>George A. Kiraz, Ph.D.<lb/>

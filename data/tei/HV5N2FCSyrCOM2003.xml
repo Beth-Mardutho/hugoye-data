@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fourth International Forum on Syriac Computing (SyrCOM-2003) CALL FOR PAPERS</title>
+            <title type="main">Fourth International Forum on Syriac Computing (SyrCOM-2003) CALL FOR PAPERS</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv5n2fcsyrcom2003</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conferences</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,13 +85,13 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Fourth International Forum on Syriac Computing (SyrCOM-2003)
     will be held in association with the IVth North American Syriac
     Symposium in Princeton, NJ, July 9-12, 2003.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The aim
+         <p>
+            <anchor corresp="P2"/>[2] The aim
     of the SyrCOM forum series is two-fold: firstly, to give
     academics and professionals who work on computational projects
     related to Syriac studies an opportunity to meet and share
@@ -76,8 +99,8 @@
     computer users with presentations and talks which may be of
     help in practical applications such as word processing, fonts
     and other user-related software.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Selected
+         <p>
+            <anchor corresp="P3"/>[3] Selected
     papers will be published and distributed during the conference.
     Papers on all aspects of Syriac computing are welcomed,
     including, but not limited to:</p>
@@ -92,8 +115,8 @@
             <item>computer aided learning/teaching</item>
             <item>reviews of software and systems</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+         <p>
+            <anchor corresp="P4"/>[4]
     <hi rend="bold">Deadlines:</hi>
          </p>
          <list type="unordered">
@@ -114,8 +137,8 @@
     Contributors who find meeting a specific deadline difficult for
     special circumstances must contact Dr. Kiraz well in
     advance.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     <hi rend="bold">Registration:</hi> SyrCOM-2003 is part of the IVth North
     American Syriac Symposium. To register for the Symposium,
     please visit <ref target="http://www.bethmardutho.org">www.bethmardutho.org</ref>.</p>

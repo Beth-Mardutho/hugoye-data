@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sidney H. Griffith. Yahya ibn cAdi: The Reformation of Morals, A Parallel Arabic-English Text, Translated and Introduced by Sidney H. Griffith, Eastern Christian Texts, Volume 1. Provo, Utah: Brigham Young University Press, 2002.</title>
+            <title type="main">Sidney H. Griffith. Yahya ibn cAdi: The Reformation of Morals, A Parallel Arabic-English Text, Translated and Introduced by Sidney H. Griffith, Eastern Christian Texts, Volume 1. Provo, Utah: Brigham Young University Press, 2002.</title>
             <author>
-               <name>John C. Lamoreaux</name>
+               <name>
+                  <forename>John C.</forename>
+                  <surname>Lamoreaux</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv7n2prlamoreaux</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,23 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Sidney Griffith</term>
+               <term>Yahya</term>
+               <term>ibn `Adi</term>
+               <term>Morals</term>
+               <term>Ethics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +90,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     volume at hand inaugurates an exciting new series. Entitled
     <hi rend="italic">Eastern Christian Texts</hi>, this series is published by the
     Middle Eastern Texts Initiative (METI) of Brigham Young
@@ -84,28 +111,29 @@
     international advisory boards, and prospectives for future
     volumes, the reader may wish to consult METI's website
     (<ref target="http://meti.byu.edu/">http://meti.byu.edu/</ref>).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     present volume is the first translation into English of Yahya
     ibn <hi rend="sup">
                <hi rend="italic">c</hi>
             </hi>Adi's (d. 974) <hi rend="italic">Tahdhib
-    al-akhlaq.</hi>�This work is a multifarious ethical compendium.
-    In part, it is concerned with philosophical issues: the nature
-    of human moral qualities; the character of the tripartite soul;
-    the cataloguing and definition of virtues and vices; and how
-    the baser parts of the soul might be made subject to its
-    rational part. In part, it is a mirror for princes, offering a
-    description of the perfect ruler and gentle advice for those
-    less than perfect—not least among their neglected duties being
-    the support of scholars. In part, it is a hortative discourse,
-    aiming at the "instruction of prospective students and future
-    leaders ... be they Muslim or Christian, in order to inculcate
-    in them the requisite moral attitude for the practice of the
-    philosophical way of life" (xlii), that they might become as
-    "the perfect man" (<hi rend="italic">al-insan al-kamil</hi>).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] There
+    al-akhlaq.</hi> This work is a multifarious ethical
+    compendium. In part, it is concerned with philosophical issues:
+    the nature of human moral qualities; the character of the
+    tripartite soul; the cataloguing and definition of virtues and
+    vices; and how the baser parts of the soul might be made
+    subject to its rational part. In part, it is a mirror for
+    princes, offering a description of the perfect ruler and gentle
+    advice for those less than perfect—not least among their
+    neglected duties being the support of scholars. In part, it is
+    a hortative discourse, aiming at the "instruction of
+    prospective students and future leaders ... be they Muslim or
+    Christian, in order to inculcate in them the requisite moral
+    attitude for the practice of the philosophical way of life"
+    (xlii), that they might become as "the perfect man"
+    (<hi rend="italic">al-insan al-kamil</hi>).</p>
+         <p>
+            <anchor corresp="P3"/>[3] There
     can be no doubt that Yahya's work merits its place at the head
     of a series designed to present seminal works of the eastern
     Christian tradition. Its author was one of the most famous and
@@ -127,8 +155,8 @@
     apparatus, that has been taken as the basis of the present
     translation and printed on the facing page, with full
     vocalization.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Griffith
+         <p>
+            <anchor corresp="P4"/>[4] Griffith
     opens his volume with an introduction to the life of Yahya, the
     context within which he lived and wrote, a presentation of
     Yahya's <hi rend="italic">Reformation of Morals</hi>, and a placing of it in
@@ -150,8 +178,8 @@
     behavior in the social sphere ... a prerequisite for the
     well-being of both philosophy and religion in society" (p.
     xliii).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] As to
+         <p>
+            <anchor corresp="P5"/>[5] As to
     manner of translation, Griffith's goal was "accurately to
     express the thought of Yahya ibn <hi rend="sup">
                <hi rend="italic">c</hi>
@@ -166,17 +194,17 @@
     words there are often exist only in religious discourse.
     Yahya's translator carefully avoids English terms that bear
     overly religious significance, and has remained faithful to
-    Yahya's own vision of "perfect humanity."�Furthermore, Yahya's
-    text is composed in a form of ornamental, rhythmic prose, in
-    which style at times takes precedence over the ordered
-    presentation of ideas. Rather than Yahya's normal, syllogistic
-    manner of presentation, in this text each rhetorical period is
-    meant to be savored in for itself. The work is, as it were, a
-    collection of beautifully ornate proverbs and bons mots,
-    delicately interwoven. Yahya's translator captures a sense of
-    the gossamer beauty of his Arabic original, and has enabled
-    Yahya's graceful prose to shine through, even in English
-    guise.</p>
+    Yahya's own vision of "perfect humanity." Furthermore,
+    Yahya's text is composed in a form of ornamental, rhythmic
+    prose, in which style at times takes precedence over the
+    ordered presentation of ideas. Rather than Yahya's normal,
+    syllogistic manner of presentation, in this text each
+    rhetorical period is meant to be savored in for itself. The
+    work is, as it were, a collection of beautifully ornate
+    proverbs and bons mots, delicately interwoven. Yahya's
+    translator captures a sense of the gossamer beauty of his
+    Arabic original, and has enabled Yahya's graceful prose to
+    shine through, even in English guise.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

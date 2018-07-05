@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Research on the Church of the East in China and Central Asia</title>
+            <title type="main">Research on the Church of the East in China and Central Asia</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv11n2fcsalzburg</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Church of the East</term>
+               <term>China</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,19 +74,20 @@
          <lb/>
     
     
-         <p rend="title2">Salzburg, June 4-9, 2009 
-    <!-- InstanceEndEditable --></p>
+         <p>Salzburg, June 4-9, 2009
+    </p>
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head style="text-align:center">First Announcement</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The 3rd
-    International Conference “Research on the Church of the East in
-    China and Central Asia” will be held at the Conference Center
-    St. Virgil in Salzburg, Austria, June 4-9, 2009.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] General
+         <head xml:id="HV11N2FCSalzburg1">First Announcement</head>
+         <p>
+            <anchor corresp="P1"/>[1] The 3rd
+    International Conference “Research on the Church of the
+    East in China and Central Asia” will be held at the
+    Conference Center St. Virgil in Salzburg, Austria, June 4-9,
+    2009.</p>
+         <p>
+            <anchor corresp="P2"/>[2] General
     Program:<lb/>
             <lb/>
     June 4, 2009: Opening Session at 7.00pm<lb/>
@@ -74,21 +96,22 @@
             <lb/>
     There will be an organised excursion and an evening
     concert.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Papers<lb/>
             <lb/>
     We welcome papers from disciplines such as Philology,
     Archaeology, Sinology, Syrology, History, Theology/Religious
     Studies, Cultural and Asian Studies to explore and discuss
-    various aspects of the Church of the East (�Nestorian� or East
-    Syriac Christianity) in China and Central Asia. A small number
-    of papers on East Syriac Christianity in India or other areas
-    in Asia may also be accepted. Papers should be original,
-    concise and to the point. They should take 20 minutes to
-    deliver and be presented in English.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+    various aspects of the Church of the East
+    (“Nestorian” or East Syriac Christianity) in China
+    and Central Asia. A small number of papers on East Syriac
+    Christianity in India or other areas in Asia may also be
+    accepted. Papers should be original, concise and to the point.
+    They should take 20 minutes to deliver and be presented in
+    English.</p>
+         <p>
+            <anchor corresp="P4"/>[4]
     Proceedings<lb/>
             <lb/>
     Proceedings will be published. Participants will be informed
@@ -99,12 +122,12 @@
     Augustin: Institut Monumenta Serica, 2006) ISBN 3-8050-0534-2.
     The publication of the 2nd conference papers (2006) is
     forthcoming in fall 2008.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Dietmar
+         <p>
+            <anchor corresp="P5"/>[5] Dietmar
     W. Winkler<lb/>
     Fachbereich Bibelwissenschaft und Kirchengeschichte<lb/>
-    Universit�t Salzburg<lb/>
-    Universit�tsplatz 1<lb/>
+    Universität Salzburg<lb/>
+    Universitätsplatz 1<lb/>
     A-5020 Salzburg<lb/>
     Austria<lb/>
     Tel. +43 662 842521 142<lb/>

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Expectations of the End in Early Syriac Christianity</title>
+            <title type="main">Expectations of the End in Early Syriac Christianity</title>
             <author>
-               <name>Ute Possekel</name>
+               <name>
+                  <forename>Ute</forename>
+                  <surname>Possekel</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv11n1possekel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,53 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Bardaisan</term>
+               <term>Book of the Laws of the Countries</term>
+               <term>Odes of Solomon</term>
+               <term>Acts of Thomas</term>
+               <term>Mara bar Serapion</term>
+               <term>Aphrahat</term>
+               <term>Ps.-Ephrem</term>
+               <term>Apocalypticism</term>
+               <term>Eschatology</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>Apocalyptic imagery was widespread in the
+    Greek and Latin patristic literature but occurs relatively
+    seldom in the early Syriac sources. This paper surveys the
+    eschatologies of Bardaisan, the <hi rend="italic">Odes of Solomon</hi>, and
+    the <hi rend="italic">Acts of Thomas</hi> and suggests specific theological,
+    sociological, and historical reasons why apocalyptic motifs
+    were not employed on a large scale. Bardaisan’s
+    opposition to Marcion would have made him reluctant to draw on
+    any type of dualistic imagery, and his social setting at the
+    center, not at the margins of his community was not one that
+    typically gave rise to apocalyptic discourse. The
+    <hi rend="italic">Odes’</hi> joyful praise of salvation experienced
+    already now leaves no room for looming disasters or cosmic
+    battles. Only the <hi rend="italic">Acts of Thomas</hi> contain one element
+    found in apocalyptic literature: a tour of hell, which in the
+    <hi rend="italic">Acts</hi> serves a parenetic function. This paper also
+    suggests that the scarcity of apocalyptic motifs in early
+    Syriac Christianity can to some extent be attributed to the
+    location of these Christians at the frontier.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,45 +117,12 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">Apocalyptic imagery was widespread in the
-    Greek and Latin patristic literature but occurs relatively
-    seldom in the early Syriac sources. This paper surveys the
-    eschatologies of Bardaisan, the <hi rend="italic">Odes of Solomon</hi>, and
-    the <hi rend="italic">Acts of Thomas</hi> and suggests specific theological,
-    sociological, and historical reasons why apocalyptic motifs
-    were not employed on a large scale. Bardaisan�s opposition to
-    Marcion would have made him reluctant to draw on any type of
-    dualistic imagery, and his social setting at the center, not at
-    the margins of his community was not one that typically gave
-    rise to apocalyptic discourse. The <hi rend="italic">Odes�</hi> joyful praise
-    of salvation experienced already now leaves no room for looming
-    disasters or cosmic battles. Only the <hi rend="italic">Acts of Thomas</hi>
-    contain one element found in apocalyptic literature: a tour of
-    hell, which in the <hi rend="italic">Acts</hi> serves a parenetic function.
-    This paper also suggests that the scarcity of apocalyptic
-    motifs in early Syriac Christianity can to some extent be
-    attributed to the location of these Christians at the
-    frontier.</p>
+
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">Bardaisan</ref>
-            </item>
-            <item>
-               <ref target="#S2">The Odes of Solomon</ref>
-            </item>
-            <item>
-               <ref target="#S3">Acts of Thomas</ref>
-            </item>
-            <item>
-               <ref target="#S4">Conclusion</ref>
-            </item>
-         </list>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1]
+         <p>
+            <anchor corresp="P1"/>[1]
     Apocalypses and apocalyptic images are widespread in the Greek
     and Latin patristic literature.<ref target="#FN1">1</ref> In this paper, I shall ask
     whether these apocalyptic traditions played a similarly
@@ -114,153 +135,161 @@
     Marcionites, Bardaisanites, and the so-called Palutians,
     predecessors of the later normative church.<ref target="#FN2">2</ref> Of the earliest
     Edessan Christian communities, it was the group around
-    Bardaisan (d. 222) that has left the most extensive—although
-    still rather fragmentary—written record. We shall first ask how
-    Bardaisan and his community envisioned the end, and then
-    interpret their eschatological expectations within the social
-    context of the early Bardaisanite community. In addition, two
-    further bodies of early Syriac Christian literature shall be
-    examined here with regard to their imagination of the end,
-    namely the <hi rend="italic">Odes of Solomon</hi> and the <hi rend="italic">Acts of
-    Thomas</hi>, composed most likely in the second and early third
-    centuries, respectively. Both the <hi rend="italic">Odes</hi> and the
-    <hi rend="italic">Acts of Thomas</hi> originated in approximately the same
-    era in which Bardaisan flourished, but they can not easily be
-    associated with a particular locality, so that it becomes much
-    more difficult to interpret them within their social contexts.
-    How did these early Syriac Christians envision the end? What
-    expectations did they hold concerning the last judgment and the
-    world to come? Did they employ apocalyptic imagery to describe
-    the end? And if not, why not? We shall begin this survey with
-    Bardaisan, the theologian from Edessa.</p>
-         <head xml:id="S1">1. Bardaisan</head>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] While
+    Bardaisan (d. 222) that has left the most
+    extensive—although still rather fragmentary—written
+    record. We shall first ask how Bardaisan and his community
+    envisioned the end, and then interpret their eschatological
+    expectations within the social context of the early
+    Bardaisanite community. In addition, two further bodies of
+    early Syriac Christian literature shall be examined here with
+    regard to their imagination of the end, namely the <hi rend="italic">Odes of
+    Solomon</hi> and the <hi rend="italic">Acts of Thomas</hi>, composed most
+    likely in the second and early third centuries, respectively.
+    Both the <hi rend="italic">Odes</hi> and the <hi rend="italic">Acts of Thomas</hi>
+    originated in approximately the same era in which Bardaisan
+    flourished, but they can not easily be associated with a
+    particular locality, so that it becomes much more difficult to
+    interpret them within their social contexts. How did these
+    early Syriac Christians envision the end? What expectations did
+    they hold concerning the last judgment and the world to come?
+    Did they employ apocalyptic imagery to describe the end? And if
+    not, why not? We shall begin this survey with Bardaisan, the
+    theologian from Edessa.</p>
+         <head xml:id="HV11N1Possekel3">1. Bardaisan</head>
+         <p>
+            <anchor corresp="P2"/>[2] While
     the <hi rend="italic">Odes</hi> and the <hi rend="italic">Acts of Thomas</hi> are of
     unknown provenance, it is quite certain that Bardaisan
     flourished in the city of Edessa in northern Mesopotamia, for
     not only is he named after the river Daisan that flows through
     the city, but an eyewitness account of his activity at the
-    king�s court has come down to us from the pen of Julius
-    Africanus.<ref target="#FN3">3</ref> Bardaisan�s thought is preserved in fragments of
-    his own writings, in refutations by later opponents, and in the
-    <hi rend="italic">Book of the Laws of the Countries</hi>—the only contiguous
-    text from Bardaisan�s community that has come down to
-    us—compiled by a disciple in the early third century.<ref target="#FN4">4</ref> Although
-    Bardaisan�s later followers came to be regarded as heretical on
-    account of their inability to adapt to the emerging doctrinal
-    consensus, Bardaisan in his time was regarded as a champion of
-    orthodoxy<ref target="#FN5">5</ref> and made significant contributions to the
-    theological discourse among Syriac-speaking Christians.<ref target="#FN6">6</ref> Bardaisan,
-    a philosopher, a former astrologer, and an adult convert to
-    Christianity, formulated his theology in the culturally and
-    religiously diverse Edessan milieu.<ref target="#FN7">7</ref>
+    king’s court has come down to us from the pen of Julius
+    Africanus.<ref target="#FN3">3</ref> Bardaisan’s thought is preserved in
+    fragments of his own writings, in refutations by later
+    opponents, and in the <hi rend="italic">Book of the Laws of the
+    Countries</hi>—the only contiguous text from
+    Bardaisan’s community that has come down to
+    us—compiled by a disciple in the early third
+    century.<ref target="#FN4">4</ref> Although Bardaisan’s later followers came
+    to be regarded as heretical on account of their inability to
+    adapt to the emerging doctrinal consensus, Bardaisan in his
+    time was regarded as a champion of orthodoxy<ref target="#FN5">5</ref> and made significant
+    contributions to the theological discourse among
+    Syriac-speaking Christians.<ref target="#FN6">6</ref> Bardaisan, a philosopher, a former
+    astrologer, and an adult convert to Christianity, formulated
+    his theology in the culturally and religiously diverse Edessan
+    milieu.<ref target="#FN7">7</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Scholars
-    of apocalyptic literature, such as Hultg�rd in his work on
-    Persian apocalypticism, have stressed that there is a coherence
-    between an author�s theology of the end of the world and his
-    theology of its beginning, his cosmogony.<ref target="#FN8">8</ref> A similar coherence
-    should be observable between an author�s theology of the end of
-    an individual and his theology of human nature, his
-    anthropology. This connection is clearly evident in Bardaisan.
-    Just as Bardaisan�s cosmogony informed his cosmic eschatology,
-    so did his anthropology form the basis of his individual
-    eschatology. It is the latter, his individual eschatology, to
-    which I shall turn first.</p>
-         <head xml:id="S1.1">1.1. The Individual Resurrection</head>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+         <p>
+            <anchor corresp="P3"/>[3] Scholars
+    of apocalyptic literature, such as Hultgård in his work
+    on Persian apocalypticism, have stressed that there is a
+    coherence between an author’s theology of the end of the
+    world and his theology of its beginning, his cosmogony.<ref target="#FN8">8</ref> A similar
+    coherence should be observable between an author’s
+    theology of the end of an individual and his theology of human
+    nature, his anthropology. This connection is clearly evident in
+    Bardaisan. Just as Bardaisan’s cosmogony informed his
+    cosmic eschatology, so did his anthropology form the basis of
+    his individual eschatology. It is the latter, his individual
+    eschatology, to which I shall turn first.</p>
+         <head xml:id="HV11N1Possekel4">1.1. The Individual Resurrection</head>
+         <p>
+            <anchor corresp="P4"/>[4]
     Bardaisan upheld the Christian teaching of the resurrection of
     the individual, yet he believed that only the human soul, not
     the body, would rise from death. In my previous research I have
-    shown that Bardaisan�s belief about the resurrection of the
-    soul alone is rooted in his anthropology, which was principally
-    intended to refute fatalism.<ref target="#FN9">9</ref> To summarize the argument briefly,
-    Bardaisan held that human beings, created by God, are charged
-    to follow the divine commandments,<ref target="#FN10">10</ref> and as beings endowed with
-    free will they are capable of choosing the good and right
-    behavior. Indeed, acting rightly is natural to humankind,
-    Bardaisan argued, for when a person acts rightly, feelings of
-    joy and gladness arise, whereas evil deeds result in feelings
-    of anger and shame<ref target="#FN11">11</ref>—an interesting precursor to the Ignatian
-    �discernment of spirits�!<ref target="#FN12">12</ref> Yet many challenged Bardaisan�s
-    doctrine of free will, arguing instead that human behavior is
+    shown that Bardaisan’s belief about the resurrection of
+    the soul alone is rooted in his anthropology, which was
+    principally intended to refute fatalism.<ref target="#FN9">9</ref> To summarize the
+    argument briefly, Bardaisan held that human beings, created by
+    God, are charged to follow the divine commandments,<ref target="#FN10">10</ref> and as
+    beings endowed with free will they are capable of choosing the
+    good and right behavior. Indeed, acting rightly is natural to
+    humankind, Bardaisan argued, for when a person acts rightly,
+    feelings of joy and gladness arise, whereas evil deeds result
+    in feelings of anger and shame<ref target="#FN11">11</ref>—an interesting
+    precursor to the Ignatian “discernment of
+    spirits”!<ref target="#FN12">12</ref> Yet many challenged Bardaisan’s doctrine
+    of free will, arguing instead that human behavior is
     conditioned by fate. Bardaisan therefore needed to formulate an
     anthropology which on the one hand maintained human freedom,
     and on the other hand could explain the misfortunes of life
     that inevitably befall some people, but are generally
     undesired, such as illness, poverty, or breakdown in human
-    relationships.<ref target="#FN13">13</ref> Bardaisan�s anthropological solution was to
-    concede that the body—but only the body—may be subject to
-    disturbing planetary influences, which are understood to be the
-    cause of life�s uncontrollable misfortunes.<ref target="#FN14">14</ref> Human freedom,
-    however, is not subject to fate, and in order to uphold this
-    position, Bardaisan had to posit that free will, the ability to
-    fulfill the divine commandments, must be independent of one�s
-    bodily constitution.<ref target="#FN15">15</ref> Consequently, he located human identity
-    in the mind or soul—the seat of free will—drawing on Greek
+    relationships.<ref target="#FN13">13</ref> Bardaisan’s anthropological solution was
+    to concede that the body—but only the body—may be
+    subject to disturbing planetary influences, which are
+    understood to be the cause of life’s uncontrollable
+    misfortunes.<ref target="#FN14">14</ref> Human freedom, however, is not subject to
+    fate, and in order to uphold this position, Bardaisan had to
+    posit that free will, the ability to fulfill the divine
+    commandments, must be independent of one’s bodily
+    constitution.<ref target="#FN15">15</ref> Consequently, he located human identity in the
+    mind or soul—the seat of free will—drawing on Greek
     philosophy rather than on the biblical notion of a human being
     as a psychosomatic unity. Bardaisan regarded the human body as
-    only a secondary constituent of human nature, which �even
-    without the sin of Adam would turn to its dust.�<ref target="#FN16">16</ref> Out of this
-    anthropology, which locates personhood in the human soul, arose
-    his conviction that only the soul would rise at the
+    only a secondary constituent of human nature, which “even
+    without the sin of Adam would turn to its dust.”<ref target="#FN16">16</ref> Out of
+    this anthropology, which locates personhood in the human soul,
+    arose his conviction that only the soul would rise at the
     resurrection.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     Bardaisan substantiated his view of the resurrection of the
     soul by means of exegetical arguments. Unfortunately, these are
-    only very partially preserved in Ephrem�s later refutation of
-    Bardaisan, a text which itself only exists in the form of a
-    palimpsest. The exegetical fragments that were thus preserved
-    address the fall of humankind, words spoken by Jesus, and the
-    story of Christ�s descent into Sheol.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] With
+    only very partially preserved in Ephrem’s later
+    refutation of Bardaisan, a text which itself only exists in the
+    form of a palimpsest. The exegetical fragments that were thus
+    preserved address the fall of humankind, words spoken by Jesus,
+    and the story of Christ’s descent into Sheol.</p>
+         <p>
+            <anchor corresp="P6"/>[6] With
     regard to the fall, Bardaisan noted that according to the
-    Genesis account the consequence of Adam�s sin would be death
-    (Gen 2:17). Yet it was not Adam, but Abel killed by Cain who
-    was the first to die, and hence Bardaisan concluded that the
-    death which would be the recompense of sin (Rom 6:23) must be
-    the death not of the body, but of the soul.<ref target="#FN17">17</ref> Among Jesus�
-    words recorded in the Gospel, Bardaisan found confirmation of
-    his resurrection theology in the text of John 8:51, in which
-    Jesus promises: �Everyone who keeps my word will not taste
-    death forever.�<ref target="#FN18">18</ref> Bardaisan observed that, despite this promise
-    of immortality, Jesus� followers had physically died.
-    Therefore, Jesus must have used the word �death� to refer to
-    the death of soul. Thirdly, Bardaisan pointed to the story of
-    Christ�s descent to Sheol to support his belief that only the
-    soul will be resurrected. Had the consequence of Adam�s sin
-    been death of the body, he reasoned, Christ ought to have
-    brought back from Sheol the bodies, which evidently was not the
-    case. Bardaisan wondered: �Our Lord, who was raised, why did he
-    not raise all their bodies, so that as their destruction was by
-    Adam, so their resurrection should be by our Lord?�<ref target="#FN19">19</ref>
+    Genesis account the consequence of Adam’s sin would be
+    death (Gen 2:17). Yet it was not Adam, but Abel killed by Cain
+    who was the first to die, and hence Bardaisan concluded that
+    the death which would be the recompense of sin (Rom 6:23) must
+    be the death not of the body, but of the soul.<ref target="#FN17">17</ref> Among
+    Jesus’ words recorded in the Gospel, Bardaisan found
+    confirmation of his resurrection theology in the text of John
+    8:51, in which Jesus promises: “Everyone who keeps my
+    word will not taste death forever.”<ref target="#FN18">18</ref> Bardaisan
+    observed that, despite this promise of immortality,
+    Jesus’ followers had physically died. Therefore, Jesus
+    must have used the word “death” to refer to the
+    death of soul. Thirdly, Bardaisan pointed to the story of
+    Christ’s descent to Sheol to support his belief that only
+    the soul will be resurrected. Had the consequence of
+    Adam’s sin been death of the body, he reasoned, Christ
+    ought to have brought back from Sheol the bodies, which
+    evidently was not the case. Bardaisan wondered: “Our
+    Lord, who was raised, why did he not raise all their bodies, so
+    that as their destruction was by Adam, so their resurrection
+    should be by our Lord?”<ref target="#FN19">19</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7]
-    Bardaisan�s individual eschatology was thus shaped by two major
-    conceptions. The first was an understanding of human nature
-    which locates personhood exclusively in the soul, an
+         <p>
+            <anchor corresp="P7"/>[7]
+    Bardaisan’s individual eschatology was thus shaped by two
+    major conceptions. The first was an understanding of human
+    nature which locates personhood exclusively in the soul, an
     anthropology which he formulated with the apologetic purpose of
-    rejecting the astrologers� claim that planetary constellations
-    determine human actions, a position that he himself had
-    formerly embraced.<ref target="#FN20">20</ref> The second major component of Bardaisan�s
-    individual eschatology was a salvation-historical approach: the
-    consequence of Adam�s sin was death—understood as death of
-    soul, the essential part of human nature; death was overcome by
-    Christ, whose teachings enabled the soul, hitherto condemned to
-    Sheol, to rise up and pass over into the kingdom.<ref target="#FN21">21</ref>
+    rejecting the astrologers’ claim that planetary
+    constellations determine human actions, a position that he
+    himself had formerly embraced.<ref target="#FN20">20</ref> The second major component
+    of Bardaisan’s individual eschatology was a
+    salvation-historical approach: the consequence of Adam’s
+    sin was death—understood as death of soul, the essential
+    part of human nature; death was overcome by Christ, whose
+    teachings enabled the soul, hitherto condemned to Sheol, to
+    rise up and pass over into the kingdom.<ref target="#FN21">21</ref>
          </p>
-         <head xml:id="S1.2">1.2. Bardaisan�s Cosmogony</head>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8]
-    Bardaisan�s general eschatology, as has been mentioned above,
-    is rooted in his cosmogony. For Bardaisan, the cosmos is the
-    work of God the creator, but he does not consider this as a
+         <head xml:id="HV11N1Possekel5">1.2. Bardaisan’s Cosmogony</head>
+         <p>
+            <anchor corresp="P8"/>[8]
+    Bardaisan’s general eschatology, as has been mentioned
+    above, is rooted in his cosmogony. For Bardaisan, the cosmos is
+    the work of God the creator, but he does not consider this as a
     creation from nothing. The concept of a <hi rend="italic">creatio ex
     nihilo</hi> was just emerging as normative Christian doctrine
     in his time, and Bardaisan was not alone in assuming the
@@ -269,11 +298,12 @@
     power.<ref target="#FN23">23</ref> Out of these, God fashioned the world. The
     elements now occur in a mixture, not in their originally pure
     state, yet they retain some of their primeval power. In
-    particular, the heavenly bodies retain some of this power—which
-    for Bardaisan constitutes fate—but at the same time, they are
-    subject to the laws imposed by God, the creator.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] It
+    particular, the heavenly bodies retain some of this
+    power—which for Bardaisan constitutes fate—but at
+    the same time, they are subject to the laws imposed by God, the
+    creator.</p>
+         <p>
+            <anchor corresp="P9"/>[9] It
     should be emphasized that this cosmogony is not a dualistic
     creation myth, as can be found among some Gnostic groups or in
     the Iranian apocalyptic tradition.<ref target="#FN24">24</ref> To be sure, Bardaisan
@@ -281,122 +311,116 @@
     enemy.<ref target="#FN25">25</ref> Evil occurs when a person does not act
     rightly, does not follow his or her natural inclination to do
     good, or is perturbed or unwell in his or her nature.<ref target="#FN26">26</ref> In
-    Bardaisan�s thought, however, evil clearly is not a cosmic
-    force, battling with the good God on the level of equals.
-    Indeed, throughout the <hi rend="italic">Book of the Laws of the
+    Bardaisan’s thought, however, evil clearly is not a
+    cosmic force, battling with the good God on the level of
+    equals. Indeed, throughout the <hi rend="italic">Book of the Laws of the
     Countries</hi>, Bardaisan strongly emphasizes the goodness and
     one-ness of God the creator, thereby taking an explicitly
     anti-Marcionite position, as has been argued by Han
-    Drijvers.<ref target="#FN27">27</ref> The anti-Marcionite orientation of Bardaisan�s
-    theology is of significance for his eschatology, and I will
-    come back to it below.</p>
-         <head xml:id="S1.3">1.3. The Last Judgment</head>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+    Drijvers.<ref target="#FN27">27</ref> The anti-Marcionite orientation of
+    Bardaisan’s theology is of significance for his
+    eschatology, and I will come back to it below.</p>
+         <head xml:id="HV11N1Possekel6">1.3. The Last Judgment</head>
+         <p>
+            <anchor corresp="P10"/>[10]
     Repeatedly, Bardaisan in the <hi rend="italic">Book of the Laws of the
     Countries</hi> refers to the end of the world, and to the
     judgment to be held on the last day.<ref target="#FN28">28</ref> History, then, is
-    regarded neither as infinite—although Bardaisan postulates the
-    pre-existence of elements—nor as cyclic; rather, it is
-    conceived as having a beginning and an end in time. On the last
-    day, judgment will be made of all, based on whether or not they
-    used their free will, a gift from God, to act according to the
-    divine commandments.<ref target="#FN29">29</ref> Bardaisan stated: �And it is given to (a
-    human being) that he should live according to his own (free)
-    will, and do all that he is able to do, if he wishes to do it,
-    or if he does not wish, not to do it. And he may justify
-    himself or become guilty.�<ref target="#FN30">30</ref> This emphasis on the freedom of
-    the human will and its ability to perform good deeds worthy of
-    eternal life, although rejected by the Protestant reformers in
-    the sixteenth century, was shared by many other early
-    theologians, who, like Bardaisan, wished to refute the fatalism
-    so widespread in late antique society. It is not a harmful
-    native horoscope, nor the influence of maleficent stars that
-    leads people to sin, they maintained, but a person�s free
-    will.<ref target="#FN31">31</ref>
+    regarded neither as infinite—although Bardaisan
+    postulates the pre-existence of elements—nor as cyclic;
+    rather, it is conceived as having a beginning and an end in
+    time. On the last day, judgment will be made of all, based on
+    whether or not they used their free will, a gift from God, to
+    act according to the divine commandments.<ref target="#FN29">29</ref> Bardaisan stated:
+    “And it is given to (a human being) that he should live
+    according to his own (free) will, and do all that he is able to
+    do, if he wishes to do it, or if he does not wish, not to do
+    it. And he may justify himself or become guilty.”<ref target="#FN30">30</ref> This
+    emphasis on the freedom of the human will and its ability to
+    perform good deeds worthy of eternal life, although rejected by
+    the Protestant reformers in the sixteenth century, was shared
+    by many other early theologians, who, like Bardaisan, wished to
+    refute the fatalism so widespread in late antique society. It
+    is not a harmful native horoscope, nor the influence of
+    maleficent stars that leads people to sin, they maintained, but
+    a person’s free will.<ref target="#FN31">31</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
-    Whereas Bardaisan�s understanding of a last judgment of people,
-    based on their deeds, was within the mainstream of early
-    Christianity, another aspect of his eschatology was not.
+         <p>
+            <anchor corresp="P11"/>[11]
+    Whereas Bardaisan’s understanding of a last judgment of
+    people, based on their deeds, was within the mainstream of
+    early Christianity, another aspect of his eschatology was not.
     According to the theologian from Edessa, not only human beings,
     but also some elements of the cosmos will be subjected to
-    judgment. Although he continually emphasized God�s sovereignty
-    over all of creation, he conceded that the elements and
-    heavenly bodies did not lose all of their power due to the
+    judgment. Although he continually emphasized God’s
+    sovereignty over all of creation, he conceded that the elements
+    and heavenly bodies did not lose all of their power due to the
     mixture of creation. To be sure, whatever power they still have
     is granted to them by God, but on account of this remaining
     freedom they, too, will be judged, as Bardaisan explained to
     his somewhat puzzled disciples.</p>
          <quote>
-      But know that those things [<hi lang="SYR"
-                dir="rtl"
-                style="font-family:'Estrangelo Edess'"
-                xml:lang="SYR">ܨܒ̈ܘܬܐ</hi>, <hi rend="italic">
-               <hi rend="u">s</hi>ebwatha</hi>, i.e., heavenly bodies], which I
-      said were subject to the commandments, are not completely
-      deprived of all freedom. And therefore they will all be
-      subjected to judgment on the Last Day.<ref target="#FN32">32</ref>
+      But know that those things [<hi lang="SYR" dir="rtl" style="font-family:'Estrangelo Edess'" xml:lang="SYR">ܨܒ̈ܘܬܐ</hi>,
+      <hi rend="italic">
+               <hi rend="u">s</hi>ebwatha</hi>, i.e., heavenly
+      bodies], which I said were subject to the commandments, are
+      not completely deprived of all freedom. And therefore they
+      will all be subjected to judgment on the Last Day.<ref target="#FN32">32</ref>
          </quote>
          <p>One of his followers immediately wondered how those that lie
     under determination could be judged, to which the teacher
     responded:</p>
          <quote>
       Not for that in which they are fixed... will the elements
-      [<hi lang="SYR"
-                dir="rtl"
-                style="font-family:Estrangelo Edessa�"
-                xml:lang="SYR">ܐܣ̈ܛܘܟܣܐ</hi>, <hi rend="italic">�estokse</hi>]<ref target="#FN33">33</ref> be judged, but
-      for that over which they have power. For the heavenly bodies
-      [<hi lang="SYR"
-                dir="rtl"
-                style="font-family:Estrangelo Edessa�"
-                xml:lang="SYR">ܐܝ̈ܬܝܐ</hi>, <hi rend="italic">�itye</hi>] were not deprived of
-      their own nature when they were created, but the energy of
-      their essence was lessened through the conjunction<ref target="#FN34">34</ref> of
-      one with the other, and they were subjected to the power of
-      their creator. For that in which they are subjected they are
-      not judged, but for that which is their own.<ref target="#FN35">35</ref>
+      [<hi lang="SYR" dir="rtl" style="font-family:Estrangelo Edessa’" xml:lang="SYR">ܐܣ̈ܛܘܟܣܐ</hi>,
+      <hi rend="italic">’estokse</hi>]<ref target="#FN33">33</ref> be judged, but for that over
+      which they have power. For the heavenly bodies [<hi lang="SYR" dir="rtl" style="font-family:Estrangelo Edessa’" xml:lang="SYR">ܐܝ̈ܬܝܐ</hi>,
+      <hi rend="italic">’itye</hi>] were not deprived of their own nature
+      when they were created, but the energy of their essence was
+      lessened through the conjunction<ref target="#FN34">34</ref> of one with the other,
+      and they were subjected to the power of their creator. For
+      that in which they are subjected they are not judged, but for
+      that which is their own.<ref target="#FN35">35</ref>
          </quote>
          <p>The last judgment is thus envisioned as a cosmic event that
     involves all creatures with any kind of freedom.</p>
-         <head xml:id="S1.4">1.4. A New World</head>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] As
+         <head xml:id="HV11N1Possekel7">1.4. A New World</head>
+         <p>
+            <anchor corresp="P12"/>[12] As
     was noted earlier, Bardaisan understood world history as a
     process with a clear beginning and an end. This universe was
     ordered in a particular way by divine decree, and this order
-    was to remain �until the course is completed and measure and
-    number have been fulfilled, as it was ordained beforehand by
-    him who commanded what the course should be and the completion
-    of all creatures and the constitution of all elements
-    (<hi rend="italic">�itye</hi>) and natures (<hi rend="italic">kyane</hi>).�<ref target="#FN36">36</ref> World history
-    is thus aimed at perfection, at completion of its prescribed
-    course. It does not depend on human action, but will occur
-    according to the divine decree.<ref target="#FN37">37</ref> At the end of time,
-    according to Bardaisan, there will be a new world, which will
-    be perfect and free of strife. Again, as in his cosmogony, the
-    metaphor of mixture plays a prominent role in his description
-    of the world to come. The new world will be founded upon a
-    different intermixture, in which even the remaining freedom of
-    the elements, which potentially could cause harm, will
-    disappear. There will be, Bardaisan explained, different
-    planetary conjunctions that will no longer produce strife and
-    misery. In the world to come, there will be no place for
-    inequalities, misfortunes, and even foolishness! Bardaisan
-    described this peacefulness and perfection of the
-    eschatological aeon in the conclusion of the <hi rend="italic">Book of the
-    Laws of the Countries</hi>: �In the constitution of this new
-    world all evil impulses will have ceased and all rebellions
-    will have ended, and the foolish will be convinced and every
-    want filled, and there will be tranquility and peace through
-    the gift of the Lord of all natures.�<ref target="#FN38">38</ref>
+    was to remain “until the course is completed and measure
+    and number have been fulfilled, as it was ordained beforehand
+    by him who commanded what the course should be and the
+    completion of all creatures and the constitution of all
+    elements (<hi rend="italic">’itye</hi>) and natures
+    (<hi rend="italic">kyane</hi>).”<ref target="#FN36">36</ref> World history is thus aimed at
+    perfection, at completion of its prescribed course. It does not
+    depend on human action, but will occur according to the divine
+    decree.<ref target="#FN37">37</ref> At the end of time, according to Bardaisan,
+    there will be a new world, which will be perfect and free of
+    strife. Again, as in his cosmogony, the metaphor of mixture
+    plays a prominent role in his description of the world to come.
+    The new world will be founded upon a different intermixture, in
+    which even the remaining freedom of the elements, which
+    potentially could cause harm, will disappear. There will be,
+    Bardaisan explained, different planetary conjunctions that will
+    no longer produce strife and misery. In the world to come,
+    there will be no place for inequalities, misfortunes, and even
+    foolishness! Bardaisan described this peacefulness and
+    perfection of the eschatological aeon in the conclusion of the
+    <hi rend="italic">Book of the Laws of the Countries</hi>: “In the
+    constitution of this new world all evil impulses will have
+    ceased and all rebellions will have ended, and the foolish will
+    be convinced and every want filled, and there will be
+    tranquility and peace through the gift of the Lord of all
+    natures.”<ref target="#FN38">38</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
-    Bardaisan�s expectations of the end thus form a coherent system
-    of thought that is based upon his anthropology and his
+         <p>
+            <anchor corresp="P13"/>[13]
+    Bardaisan’s expectations of the end thus form a coherent
+    system of thought that is based upon his anthropology and his
     cosmogony. Yet perhaps somewhat surprisingly, we find little
     detail in the remaining literature of the Bardaisanites about
     the end of time. There are no references to a cosmic battle, to
@@ -417,26 +441,27 @@
     such as Zoroastrianism, have produced elaborate apocalyptic
     treatises.<ref target="#FN41">41</ref> Why then, we are led to wonder, did Bardaisan
     refrain from employing apocalyptic imagery?</p>
-         <head xml:id="S1.5">1.5. Theological and Social Context</head>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
-    Bardaisan�s omission of apocalyptic language was, I think, a
-    deliberate decision on his part. Two reasons—one theological,
-    the other sociological—suggest that this was the case. First,
-    apocalyptic images often present the rising up of evil powers
-    that challenge the existing order, and are finally overcome by
-    God, who establishes a new creation.<ref target="#FN42">42</ref> This type of
-    imagery is dualistic in spirit, even if it does not picture the
-    opposition of two nearly equal divine figures, such as Ahura
-    Mazda and Angra Mainyu in Persian apocalypticism. Bardaisan, it
-    seems, would have avoided at all costs the introduction of such
-    imagery into his theological discourse, for one of his major
-    goals was to refute the Marcionite claim of the existence of
-    two gods. His anti-Marcionite stance, which earned him praise
-    from Eusebius, would have been reason enough to avoid images of
-    a final cosmic battle.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+         <head xml:id="HV11N1Possekel8">1.5. Theological and Social Context</head>
+         <p>
+            <anchor corresp="P14"/>[14]
+    Bardaisan’s omission of apocalyptic language was, I
+    think, a deliberate decision on his part. Two reasons—one
+    theological, the other sociological—suggest that this was
+    the case. First, apocalyptic images often present the rising up
+    of evil powers that challenge the existing order, and are
+    finally overcome by God, who establishes a new
+    creation.<ref target="#FN42">42</ref> This type of imagery is dualistic in spirit,
+    even if it does not picture the opposition of two nearly equal
+    divine figures, such as Ahura Mazda and Angra Mainyu in Persian
+    apocalypticism. Bardaisan, it seems, would have avoided at all
+    costs the introduction of such imagery into his theological
+    discourse, for one of his major goals was to refute the
+    Marcionite claim of the existence of two gods. His
+    anti-Marcionite stance, which earned him praise from Eusebius,
+    would have been reason enough to avoid images of a final cosmic
+    battle.</p>
+         <p>
+            <anchor corresp="P15"/>[15] The
     second reason why Bardaisan might not have been inclined to
     employ apocalyptic elements in his theology pertains to the
     social setting, the <hi rend="italic">Sitz im Leben</hi>, of apocalypticism.
@@ -444,8 +469,8 @@
     have studied the cultural setting of Jewish and Christian
     apocalyptic movements and have suggested that apocalyptic
     literature often arises in communities who feel marginalized by
-    the social or religious majority. Nickelsburg sums up Hanson�s
-    approach:</p>
+    the social or religious majority. Nickelsburg sums up
+    Hanson’s approach:</p>
          <quote>
       Ancient apocalyptic movements have a common <hi rend="italic">social
       setting</hi> in which a group experiences alienation due to
@@ -455,110 +480,114 @@
       find itself excluded from the dominant society and its
       symbolic universe.<ref target="#FN43">43</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] What
+         <p>
+            <anchor corresp="P16"/>[16] What
     then, was the situation in Edessa in the time of Bardaisan? Our
     reconstruction of the Edessan milieu in the early third century
     must rely largely on material remains, reports by Roman
     historians, and later literary sources, for indigenous literary
     productions from this era are lacking (apart from the remains
-    of Bardaisan�s corpus). Nonetheless, careful interpretation of
-    the sources gives much insight into Edessan culture in late
-    antiquity. By the end of the second century, Edessa had been an
-    independent kingdom for more than three hundred years,<ref target="#FN44">44</ref>
-    striving to balance alliances with the adjacent �superpowers�
-    Rome and Parthia.<ref target="#FN45">45</ref> During Bardaisan�s adulthood in the 190s,
-    King Abgar VIII attempted to regain independence, but Septimius
-    Severus (193-211) occupied the region and established Osrhoene
-    as a Roman province in the year 195. Thereafter, the Edessan
-    king adopted an attitude of greater loyalty to Rome. He took a
-    Roman name, sent his sons as political hostages to Rome,
-    offered the emperor the services of his world-renowned archers,
-    and personally visited the imperial capital.<ref target="#FN46">46</ref> Edessa became a
+    of Bardaisan’s corpus). Nonetheless, careful
+    interpretation of the sources gives much insight into Edessan
+    culture in late antiquity. By the end of the second century,
+    Edessa had been an independent kingdom for more than three
+    hundred years,<ref target="#FN44">44</ref> striving to balance alliances with the
+    adjacent “superpowers” Rome and Parthia.<ref target="#FN45">45</ref> During
+    Bardaisan’s adulthood in the 190s, King Abgar VIII
+    attempted to regain independence, but Septimius Severus
+    (193-211) occupied the region and established Osrhoene as a
+    Roman province in the year 195. Thereafter, the Edessan king
+    adopted an attitude of greater loyalty to Rome. He took a Roman
+    name, sent his sons as political hostages to Rome, offered the
+    emperor the services of his world-renowned archers, and
+    personally visited the imperial capital.<ref target="#FN46">46</ref> Edessa became a
     Roman <hi rend="italic">colonia</hi> under Caracalla (in 213), but the
     kingship continued, at least nominally, until the 240s
     AD.<ref target="#FN47">47</ref> This political turmoil, and the disastrous
     flooding of the city in the year 201, however, does not appear
-    to have destabilized Edessan society, for many of Edessa�s
-    physical remains, in particular the astonishing mosaics, date
-    from the early third century and indicate a flourishing city,
-    self-confident in its artistic and cultural expressions.
-    Moreover, Bardaisan�s group was far from being a marginalized
-    community in search of a symbolic universe. Bardaisan was a
-    nobleman, prominent at the Edessan court, a superb archer (as
-    Julius Africanus relates), a musician, and a capable disputant.
-    He believed that he defended Christian orthodoxy in his
-    apologies against Marcionites, Gnostics, and astrologers. His
-    group stood at the center of early third-century Syriac
-    Christianity, not at its margins. Bardaisan�s expectations of
-    the end, the judgment, resurrection, and the world to come are
-    shaped by his cosmogony and his anthropology. The remaining
-    fragments of his writings do not suggest use of apocalyptic
-    imagery, which, I think, can at least be partially explained by
-    his opposition to Marcionite dualism and by his prominent
-    position in early Edessan society.</p>
-         <head xml:id="S2">2. The Odes of Solomon</head>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] Let
+    to have destabilized Edessan society, for many of
+    Edessa’s physical remains, in particular the astonishing
+    mosaics, date from the early third century and indicate a
+    flourishing city, self-confident in its artistic and cultural
+    expressions. Moreover, Bardaisan’s group was far from
+    being a marginalized community in search of a symbolic
+    universe. Bardaisan was a nobleman, prominent at the Edessan
+    court, a superb archer (as Julius Africanus relates), a
+    musician, and a capable disputant. He believed that he defended
+    Christian orthodoxy in his apologies against Marcionites,
+    Gnostics, and astrologers. His group stood at the center of
+    early third-century Syriac Christianity, not at its margins.
+    Bardaisan’s expectations of the end, the judgment,
+    resurrection, and the world to come are shaped by his cosmogony
+    and his anthropology. The remaining fragments of his writings
+    do not suggest use of apocalyptic imagery, which, I think, can
+    at least be partially explained by his opposition to Marcionite
+    dualism and by his prominent position in early Edessan
+    society.</p>
+         <head xml:id="HV11N1Possekel9">2. The Odes of Solomon</head>
+         <p>
+            <anchor corresp="P17"/>[17] Let
     us now turn to a very different literary production of the
     early Syriac church, the <hi rend="italic">Odes of Solomon</hi>, and the
     eschatological expectations expressed therein.<ref target="#FN48">48</ref> Unlike
-    Bardaisan�s writings, this poetic collection can not easily be
-    associated with a particular Christian community. Although
-    efforts have been made to locate the <hi rend="italic">Odes</hi> in the early
-    Edessan church, no specific internal or external evidence
-    supports this hypothesis.</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
+    Bardaisan’s writings, this poetic collection can not
+    easily be associated with a particular Christian community.
+    Although efforts have been made to locate the <hi rend="italic">Odes</hi> in
+    the early Edessan church, no specific internal or external
+    evidence supports this hypothesis.</p>
+         <p>
+            <anchor corresp="P18"/>[18]
     Space here does not permit an exhaustive treatment of the
     eschatology of the <hi rend="italic">Odes</hi>, and it must suffice to
     highlight some of the major themes.<ref target="#FN49">49</ref> The odist repeatedly
     expresses the joy that he feels for being united to the Lord,
-    whom he has �put on.�<ref target="#FN50">50</ref> He extols the eternal life that he has
-    acquired by joining himself to the Immortal One.<ref target="#FN51">51</ref> He knows
-    himself already crowned with the Lord,<ref target="#FN52">52</ref> a crown that
-    brings salvation.<ref target="#FN53">53</ref> The Lord has already given him eternal
-    rest.<ref target="#FN54">54</ref> The Lord has rescued the poet from the �depth
-    of Sheol� and has freed him from the �mouth of death.�<ref target="#FN55">55</ref> The
-    odist is certain that he will not die,<ref target="#FN56">56</ref> for he is now
-    already justified.<ref target="#FN57">57</ref> Already he has received salvation by
-    leaving the way of error.<ref target="#FN58">58</ref> It is thus a realized eschatology
-    that we find expressed in the <hi rend="italic">Odes of Solomon</hi>, one in
-    which apocalyptic imagery, such as details of the coming
-    judgment, or frightful descriptions of the disasters and crises
-    that will accompany the end times, are lacking. There is no
-    apocalyptic tour of hell, but there is a visionary glimpse of
-    paradise with its abundance of vegetation, a land irrigated by
-    the river of gladness.<ref target="#FN59">59</ref> Themes of joy, comfort, and trust
-    dominate in these poems.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] As
+    whom he has “put on.”<ref target="#FN50">50</ref> He extols the eternal life
+    that he has acquired by joining himself to the Immortal
+    One.<ref target="#FN51">51</ref> He knows himself already crowned with the
+    Lord,<ref target="#FN52">52</ref> a crown that brings salvation.<ref target="#FN53">53</ref> The Lord has
+    already given him eternal rest.<ref target="#FN54">54</ref> The Lord has rescued the
+    poet from the “depth of Sheol” and has freed him
+    from the “mouth of death.”<ref target="#FN55">55</ref> The odist is
+    certain that he will not die,<ref target="#FN56">56</ref> for he is now already
+    justified.<ref target="#FN57">57</ref> Already he has received salvation by leaving
+    the way of error.<ref target="#FN58">58</ref> It is thus a realized eschatology that we
+    find expressed in the <hi rend="italic">Odes of Solomon</hi>, one in which
+    apocalyptic imagery, such as details of the coming judgment, or
+    frightful descriptions of the disasters and crises that will
+    accompany the end times, are lacking. There is no apocalyptic
+    tour of hell, but there is a visionary glimpse of paradise with
+    its abundance of vegetation, a land irrigated by the river of
+    gladness.<ref target="#FN59">59</ref> Themes of joy, comfort, and trust dominate in
+    these poems.</p>
+         <p>
+            <anchor corresp="P19"/>[19] As
     dissimilar as the eschatology of the <hi rend="italic">Odes</hi> is from that
     of Bardaisan, neither one takes recourse to apocalyptic
     imagery. Moreover, they both employ the same striking image of
     crossing over into eternal life. Bardaisan teaches that the
     souls, previously unable to enter paradise—for they were
-    hindered �at the crossing-place� (<hi lang="SYR"
-                dir="rtl"
-                style="font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">ܡܥܒܪܬܐ</hi>, <hi rend="italic">ma<hi rend="sup">c</hi>barta</hi>) by the sin
-    of Adam—are now able, on account of Christ�s work, to cross at
-    the crossing-place and to enter the bridal chamber of
-    light.<ref target="#FN60">60</ref> Ephrem summarizes Bardaisan�s doctrine:</p>
+    hindered “at the crossing-place” (<hi lang="SYR" dir="rtl" style="font-family:'Estrangelo Edessa'" xml:lang="SYR">ܡܥܒܪܬܐ</hi>,
+    <hi rend="italic">ma<hi rend="sup">c</hi>barta</hi>) by the sin of Adam—are now
+    able, on account of Christ’s work, to cross at the
+    crossing-place and to enter the bridal chamber of
+    light.<ref target="#FN60">60</ref> Ephrem summarizes Bardaisan’s
+    doctrine:</p>
          <quote>
-      �And the life,� [Bardaisan said,] �that our Lord brought
-      in<lb/>
+      “And the life,” [Bardaisan said,] “that our
+      Lord brought in<lb/>
       is that he taught truth and ascended,<lb/>
-      and allowed them to pass over into the kingdom.�<ref target="#FN61">61</ref>
+      and allowed them to pass over into the
+      kingdom.”<ref target="#FN61">61</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
+         <p>
+            <anchor corresp="P20"/>[20]
     While for Bardaisan it is only the soul that crosses over into
     eternity, for the author of the <hi rend="italic">Odes</hi> the entire human
-    person is able, through faith in the Lord, to cross the �raging
-    rivers.� The odist�s poetic language does not spell out that
-    this crossing takes the person from this world into the next,
-    but the eschatological subtext of the hymn seems evident.</p>
+    person is able, through faith in the Lord, to cross the
+    “raging rivers.” The odist’s poetic language
+    does not spell out that this crossing takes the person from
+    this world into the next, but the eschatological subtext of the
+    hymn seems evident.</p>
          <quote>
       But those who cross them [i.e., the raging rivers] in
       faith<lb/>
@@ -585,17 +614,18 @@
       And who adore his name.<ref target="#FN62">62</ref>
             <lb/>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+         <p>
+            <anchor corresp="P21"/>[21]
     Imagery drawn from the Hebrew Bible and the New Testament is
     woven into this hymn to emphasize that faith in the Lord will
-    enable the Christian to cross at the �crossing-places�
+    enable the Christian to cross at the
+    “crossing-places”
     (<hi rend="italic">ma<hi rend="sup">c</hi>barta</hi>).<ref target="#FN63">63</ref> This may refer to
     overcoming obstacles and being persistent in the faith in this
     world, but the hymn also has an eschatological dimension.</p>
-         <head xml:id="S3">3. The Acts of Thomas</head>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] The
+         <head xml:id="HV11N1Possekel10">3. The Acts of Thomas</head>
+         <p>
+            <anchor corresp="P22"/>[22] The
     <hi rend="italic">Acts of Thomas</hi>, written in the form of an ancient
     novel, relate the missionary journeys of the apostle Thomas to
     India.<ref target="#FN64">64</ref> The <hi rend="italic">Acts</hi> as a whole do not constitute
@@ -604,23 +634,23 @@
     Thomas</hi>, namely a visionary description of the punishments
     of hell.<ref target="#FN66">66</ref> While the details of the account in the sixth
     act differ in the Greek and Syriac versions, the main story
-    line is the same. Upon hearing Thomas� preaching of a life of
-    <hi rend="italic">enkrateia</hi>, a young man strove to persuade the woman he
-    loved to become his �consort in chastity and pure
-    conduct.�<ref target="#FN67">67</ref> Much to his chagrin, the woman refused, and
-    lest she have intercourse with others, the young man killed
+    line is the same. Upon hearing Thomas’ preaching of a
+    life of <hi rend="italic">enkrateia</hi>, a young man strove to persuade the
+    woman he loved to become his “consort in chastity and
+    pure conduct.”<ref target="#FN67">67</ref> Much to his chagrin, the woman refused,
+    and lest she have intercourse with others, the young man killed
     her. His crime was revealed when his hands withered up as he
     received the Eucharist. He related the events to Thomas the
-    apostle, who first healed the man�s disease and then
+    apostle, who first healed the man’s disease and then
     accompanied him, followed by a great throng of people, to the
-    woman�s house. She was raised to life and told of her
+    woman’s house. She was raised to life and told of her
     extraordinary tour of hell and the punishments there to be
     suffered for various kinds of sins. Upon her revival, the woman
     converted, and so did the multitude of onlookers.<ref target="#FN68">68</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23] The
-    dead woman�s vision of hell functions in the <hi rend="italic">Acts of
+         <p>
+            <anchor corresp="P23"/>[23] The
+    dead woman’s vision of hell functions in the <hi rend="italic">Acts of
     Thomas</hi> to instill in the audience fear of future
     punishments in order to enforce a certain moral code. Similar
     stories are preserved from other eras of Christian history, and
@@ -634,9 +664,9 @@
     themselves of such themes,<ref target="#FN70">70</ref> but it remains a somewhat
     isolated example among the literature of the early Syriac
     church.</p>
-         <head xml:id="S4">4. Conclusion</head>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24]
+         <head xml:id="HV11N1Possekel11">4. Conclusion</head>
+         <p>
+            <anchor corresp="P24"/>[24]
     Among the earliest Syriac-speaking Christians, the traditions
     surrounding both Bardaisan and the <hi rend="italic">Odes of Solomon</hi>
     show a marked absence of apocalyptic imagery, a somewhat
@@ -657,8 +687,8 @@
     early Syriac Christians were familiar with apocalyptic themes,
     but generally chose not to convey their theologies through the
     medium of apocalyptic.</p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25] Even
+         <p>
+            <anchor corresp="P25"/>[25] Even
     in a social context of severe distress, some early Syriac
     Christians counseled wisdom and patience, rather than casting
     their situation into an apocalyptic framework. Mara bar
@@ -670,8 +700,8 @@
     life, for worldly riches, fame, and beauty all may vanish.
     Wisdom, on the other hand, can not so easily be taken away, and
     can become for him a father and mother.</p>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26] Why
+         <p>
+            <anchor corresp="P26"/>[26] Why
     is it that apocalyptic images are so sparse in the early Syriac
     Christian literature? It is difficult to make generalizations,
     and any number of cultural factors might explain why the early
@@ -695,515 +725,518 @@
     two ancient and venerated figures, Ephrem and
     Methodius.<ref target="#FN75">75</ref>
          </p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV11N1Possekel12">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> On the subject of apocalyptic literature in early
-    Christianity, see for example B. Daley, �Apocalypticism in
-    Early Christian Theology,� in: <hi rend="italic">The</hi> 
-            <hi rend="italic">Encyclopedia of
-    Apocalypticism</hi>, ed. B. McGinn, vol. 2 (New York:
-    Continuum, 1998), 3-47 (with further literature); P. Vielhauer
-    and G. Strecker, �Apocalyptic in Early Christianity.
-    Introduction,� in: <hi rend="italic">New Testament Apocrypha</hi>, ed. E.
-    Hennecke and W. Schneemelcher, vol. 2 (Louisville:
-    Westminster/John Knox, 1992), 569-602 (with further
-    literature). On the subject of patristic eschatology more
-    generally, see B. Daley, <hi rend="italic">The Hope of the Early Church: A
-    Handbook of Patristic Eschatology</hi> (Cambridge: Cambridge
+    Christianity, see for example B. Daley, “Apocalypticism
+    in Early Christian Theology,” in: <hi rend="italic">The</hi>
+            <hi rend="italic">Encyclopedia of Apocalypticism</hi>, ed. B. McGinn, vol. 2
+    (New York: Continuum, 1998), 3-47 (with further literature); P.
+    Vielhauer and G. Strecker, “Apocalyptic in Early
+    Christianity. Introduction,” in: <hi rend="italic">New Testament
+    Apocrypha</hi>, ed. E. Hennecke and W. Schneemelcher, vol. 2
+    (Louisville: Westminster/John Knox, 1992), 569-602 (with
+    further literature). On the subject of patristic eschatology
+    more generally, see B. Daley, <hi rend="italic">The Hope of the Early Church:
+    A Handbook of Patristic Eschatology</hi> (Cambridge: Cambridge
     University Press, 1991). Ancient Near Eastern, Christian, and
     Jewish apocalyptic traditions are addressed by the essays in D.
     Hellholm, ed., <hi rend="italic">Apocalypticism in the Mediterranean World
     and the Near East: Proceedings of the International Colloquium
     on Apocalypticism, Uppsala, August 12-17, 1979</hi>, 2nd ed.
-    (T�bingen: Mohr Siebeck, 1989). On the question of what
+    (Tübingen: Mohr Siebeck, 1989). On the question of what
     constitutes apocalyptic literature, see J. J. Collins, <hi rend="italic">The
     Apocalyptic Imagination: An Introduction to Jewish Apocalyptic
     Literature</hi>, 2nd ed. (Grand Rapids, Mich.: Eerdmans, 1998),
-    ch. 1: �The Apocalyptic Genre,� p. 1-42 and his earlier study
-    �Towards the Morphology of a Genre,� <hi rend="italic">Semeia</hi> 14 (1979),
-    1-20. <ref target="#FNRef1">
+    ch. 1: “The Apocalyptic Genre,” p. 1-42 and his
+    earlier study “Towards the Morphology of a Genre,”
+    <hi rend="italic">Semeia</hi> 14 (1979), 1-20. <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> An excellent overview of the beginnings of Syriac
     Christianity is given by R. Murray, <hi rend="italic">Symbols of Church and
     Kingdom: A Study in Early Syriac Tradition</hi>, revised ed.
-    (Piscataway, NJ: Gorgias Press, 2004), 1-38. For a �heretical�
-    origin of Edessan Christianity argued long ago W. Bauer,
-    <hi rend="italic">Orthodoxy and Heresy in Earliest Christianity</hi>, German
-    first ed. 1934, Engl. tr. ed. R. A. Kraft (Mifflintown, PA:
-    Sigler Press, 1996), 1-43. The Marcionite presence in
-    Syriac-speaking regions is addressed by H. J. W. Drijvers,
-    �Marcionism in Syria: Principles, Problems, Polemics,�
-    <hi rend="italic">Second Century</hi> 6 (1987/88), 153-172 and D. Bundy,
-    �Marcion and the Marcionites in Early Syriac Apologetics,�
-    <hi rend="italic">Mus�on</hi> 101 (1988), 21-32. In the fourth century,
-    Ephrem still much polemicized against Marcionite Christians in
-    his <hi rend="italic">Prose Refutations</hi>, ed. with English tr. C. W.
-    Mitchell, A. A. Bevan, and F. C. Burkitt, <hi rend="italic">S. Ephraim�s
-    Prose Refutations of Mani, Marcion, and Bardaisan</hi>, 2 vols.
+    (Piscataway, NJ: Gorgias Press, 2004), 1-38. For a
+    “heretical” origin of Edessan Christianity argued
+    long ago W. Bauer, <hi rend="italic">Orthodoxy and Heresy in Earliest
+    Christianity</hi>, German first ed. 1934, Engl. tr. ed. R. A.
+    Kraft (Mifflintown, PA: Sigler Press, 1996), 1-43. The
+    Marcionite presence in Syriac-speaking regions is addressed by
+    H. J. W. Drijvers, “Marcionism in Syria: Principles,
+    Problems, Polemics,” <hi rend="italic">Second Century</hi> 6 (1987/88),
+    153-172 and D. Bundy, “Marcion and the Marcionites
+    in Early Syriac Apologetics,” <hi rend="italic">Muséon</hi> 101
+    (1988), 21-32. In the fourth century, Ephrem still much
+    polemicized against Marcionite Christians in his <hi rend="italic">Prose
+    Refutations</hi>, ed. with English tr. C. W. Mitchell, A. A.
+    Bevan, and F. C. Burkitt, <hi rend="italic">S. Ephraim’s Prose
+    Refutations of Mani, Marcion, and Bardaisan</hi>, 2 vols.
     (London: Williams and Norgate, 1912-1921) (hereafter
     <hi rend="italic">PR</hi>). <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> Sextus Julius Africanus, <hi rend="italic">Cesti</hi> I,
     20,39-53, ed. with French tr. J.-R. Vieillefond, <hi rend="italic">Les
-    �Cestes� de Julius Africanus</hi> (Paris: Didier, 1970), p.
-    185. <ref target="#FNRef3">
+    “Cestes” de Julius Africanus</hi> (Paris: Didier,
+    1970), p. 185. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> The <hi rend="italic">editio princeps</hi> of the <hi rend="italic">Book of the
     Laws of the Countries</hi> was published with English tr. by
     W. Cureton, <hi rend="italic">Spicilegium syriacum, containing remains
     of Bardesan, Meliton, Ambrose, and Mara bar Serapion</hi>
     (London: Rivingtons, 1855), 1-21 (text) and 1-34 (translation).
     Also ed. F. Nau, <hi rend="italic">Patrologia Syriaca</hi> 1.2 (1907;
-    reprint, 1993). Nau�s edition was reprinted with English tr. by
-    H. J. W. Drijvers, <hi rend="italic">The Book of the Laws of Countries:
-    Dialogue on Fate of Bardai<hi rend="u">s</hi>an of
-    Edessa</hi>, Semitic Texts with Translations 3 (Assen: van
+    reprint, 1993). Nau’s edition was reprinted with English
+    tr. by H. J. W. Drijvers, <hi rend="italic">The Book of the Laws of
+    Countries: Dialogue on Fate of Bardai<hi rend="u">s</hi>an
+    of Edessa</hi>, Semitic Texts with Translations 3 (Assen: van
     Gorcum, 1965; reprint Piscataway, NJ: Gorgias Press, 2007).
-    German tr. T. Krannich and P. Stein, �Das �Buch der Gesetze der
-    L�nder� des Bardesanes von Edessa,� <hi rend="italic">ZAC</hi> 8 (2004),
-    203-229. The <hi rend="italic">Book of the Laws</hi> (hereafter <hi rend="italic">BLC</hi>)
-    is here cited from Drijvers� edition; translations are mine.
-    The chapter numbers are from Nau�s edition and were not
-    reproduced by Drijvers.</p>
-         <p>The most important witness for Bardaisan�s theology, besides
-    the <hi rend="italic">BLC</hi>, is Ephrem, who repeatedly refers to
-    Bardaisan�s ideas and occasionally quotes short fragments of
-    Bardaisan�s writings in his <hi rend="italic">Prose Refutations</hi> (see
-    note 2) and his <hi rend="italic">Hymns against Heresies</hi> (hereafter
+    German tr. T. Krannich and P. Stein, “Das ‘Buch der
+    Gesetze der Länder’ des Bardesanes von
+    Edessa,” <hi rend="italic">ZAC</hi> 8 (2004), 203-229. The <hi rend="italic">Book of
+    the Laws</hi> (hereafter <hi rend="italic">BLC</hi>) is here cited from
+    Drijvers’ edition; translations are mine. The chapter
+    numbers are from Nau’s edition and were not reproduced by
+    Drijvers.</p>
+         <p>The most important witness for Bardaisan’s theology,
+    besides the <hi rend="italic">BLC</hi>, is Ephrem, who repeatedly refers to
+    Bardaisan’s ideas and occasionally quotes short fragments
+    of Bardaisan’s writings in his <hi rend="italic">Prose Refutations</hi>
+    (see note 2) and his <hi rend="italic">Hymns against Heresies</hi> (hereafter
     <hi rend="italic">CH</hi>), ed. with German tr. E. Beck, <hi rend="italic">Ephraem des
     Syrers Hymnen contra haereses</hi>, CSCO 169-170, Syr. 76-77
-    (Louvain, 1957). Ephrem�s polemics, though biased, constitute a
-    valuable source for Bardaisan�s thought and for the teachings
-    of his community in the later fourth century.</p>
-         <p>The numerous other witnesses to Bardaisan�s teachings in the
-    Syriac, Greek, Latin, Armenian and Arabic literature, some of
-    which are highly unreliable, can not be surveyed here. Most of
-    these are discussed by H. J. W. Drijvers,
+    (Louvain, 1957). Ephrem’s polemics, though biased,
+    constitute a valuable source for Bardaisan’s thought and
+    for the teachings of his community in the later fourth
+    century.</p>
+         <p>The numerous other witnesses to Bardaisan’s teachings
+    in the Syriac, Greek, Latin, Armenian and Arabic literature,
+    some of which are highly unreliable, can not be surveyed here.
+    Most of these are discussed by H. J. W. Drijvers,
     <hi rend="italic">Bardai<hi rend="u">s</hi>an of Edessa</hi>, Studia
-    Semitica Neerlandica 6 (Assen: Van Gorcum, 1966). Porphyry�s
-    citations from a Bardaisanite treatise on India are edited with
-    a German translation and interpreted by F. Winter,
-    <hi rend="italic">Bardesanes von Edessa �ber Indien: Ein fr�her syrischer
-    Theologe schreibt �ber ein fremdes Land</hi>, Fr�hes
-    Christentum. Forschungen und Perspektiven 5 (Thaur: Druck- und
-    Verlagshaus Thaur, 1999). Some of the Arabic sources on the
-    Daysaniya are discussed by W. Madelung, �Abū �Īsā al-Warrāq
-    �ber die Bardesaniten, Marcioniten und Kant�er,� in:
-    <hi rend="italic">Studien zur Geschichte und Kultur des Vorderen Orients:
-    Festschrift f�r Berthold Spuler zum siebzigsten
-    Geburtstag</hi>, ed. H. R. Roemer and A. Noth (Leiden: Brill,
-    1981), 210-224; G. Vajda, �Le t�moigne de al-Māturidī sur la
-    doctrine des Manich�ens, des Dai<hi rend="u">s</hi>ānites
-    et des Marcionites,� <hi rend="italic">Arabica</hi> 13 (1966), 1-38; J. van
-    Ess, <hi rend="italic">Theologie und Gesellschaft im 2. und 3. Jahrhundert
-    Hidschra: Eine Geschichte des religi�sen Denkens im fr�hen
-    Islam,</hi> 6 vols. (Berlin: de Gruyter, 1990-1995);
-    G. Monnot, <hi rend="italic">Penseurs musulmans et religions
-    iraniennes : �Abd al-Jabbār et ses devanciers</hi>, �tudes
-    musulmanes XVI (Paris: J. Vrin, 1974). <ref target="#FNRef4">
+    Semitica Neerlandica 6 (Assen: Van Gorcum, 1966).
+    Porphyry’s citations from a Bardaisanite treatise on
+    India are edited with a German translation and interpreted by
+    F. Winter, <hi rend="italic">Bardesanes von Edessa über Indien: Ein
+    früher syrischer Theologe schreibt über ein fremdes
+    Land</hi>, Frühes Christentum. Forschungen und
+    Perspektiven 5 (Thaur: Druck- und Verlagshaus Thaur, 1999).
+    Some of the Arabic sources on the Daysaniya are discussed by W.
+    Madelung, “Abū ‘Īsā al-Warrāq
+    über die Bardesaniten, Marcioniten und
+    Kantäer,” in: <hi rend="italic">Studien zur Geschichte und Kultur
+    des Vorderen Orients: Festschrift für Berthold Spuler zum
+    siebzigsten Geburtstag</hi>, ed. H. R. Roemer and A. Noth
+    (Leiden: Brill, 1981), 210-224; G. Vajda, “Le
+    témoigne de al-Māturidī sur la doctrine des
+    Manichéens, des Dai<hi rend="u">s</hi>ānites
+    et des Marcionites,” <hi rend="italic">Arabica</hi> 13 (1966), 1-38; J.
+    van Ess, <hi rend="italic">Theologie und Gesellschaft im 2. und 3.
+    Jahrhundert Hidschra: Eine Geschichte des religiösen
+    Denkens im frühen Islam,</hi> 6 vols. (Berlin: de Gruyter,
+    1990-1995); G. Monnot, <hi rend="italic">Penseurs musulmans et religions
+    iraniennes : ‘Abd al-Jabbār et ses
+    devanciers</hi>, Études musulmanes XVI (Paris: J. Vrin,
+    1974). <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef5">5</ref> Eusebius praises Bardaisan�s defense of Christian
-    doctrine in <hi rend="italic">Hist. eccl</hi>. 4.30.1, ed. E. Schwartz and
-    Th. Mommsen, <hi rend="italic">Eusebius, Werke II</hi>, GCS N. F. 6 (Berlin,
-    1999), 392,19-20. A positive view of Bardaisan�s defense of
-    orthodoxy against the Marcionites is presented also in the
-    <hi rend="italic">Vita Abercii</hi>, ed. Th. Nissen, <hi rend="italic">S. Abercii Vita</hi>
-    (Leipzig: Teubner, 1912). <ref target="#FNRef5">
+         <p>
+            <ref target="#FNRef5">5</ref> Eusebius praises Bardaisan’s defense of
+    Christian doctrine in <hi rend="italic">Hist. eccl</hi>. 4.30.1, ed. E.
+    Schwartz and Th. Mommsen, <hi rend="italic">Eusebius, Werke II</hi>, GCS N.
+    F. 6 (Berlin, 1999), 392,19-20. A positive view of
+    Bardaisan’s defense of orthodoxy against the Marcionites
+    is presented also in the <hi rend="italic">Vita Abercii</hi>, ed. Th. Nissen,
+    <hi rend="italic">S. Abercii Vita</hi> (Leipzig: Teubner, 1912). <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef6">6</ref> In particular, Bardaisan�s arguments against
+         <p>
+            <ref target="#FNRef6">6</ref> In particular, Bardaisan’s arguments against
     fatalism had a <hi rend="italic">Nachleben</hi> in the Syriac Christian
     communities. Ephrem draws on them in <hi rend="italic">CH</hi> 4,15. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> On Edessa in late antiquity, see the classic study
-    by J. B. Segal, <hi rend="italic">Edessa �The Blessed City�</hi> (Oxford:
-    Oxford University Press, 1970; reprint, Piscataway, NJ: Gorgias
-    Press, 2001). The city�s culture and its political history are
-    discussed by S. K. Ross, <hi rend="italic">Roman Edessa: Politics and culture
-    on the eastern fringes of the Roman Empire, 114-242 CE</hi>
-    (London: Routledge, 2001); F. Millar, <hi rend="italic">The Roman Near East.
-    31 BC - AD 337</hi> (Cambridge, Mass.: Harvard University
-    Press, 1993); M. Sommer, <hi rend="italic">Roms orientalische Steppengrenze.
-    Palmyra — Edessa — Dura-Europos — Hatra. Eine Kulturgeschichte
-    von Pompeius bis Diocletian</hi>, Oriens et Occidens 9
-    (Wiesbaden: Franz Steiner Verlag, 2005). Several encyclopedia
-    entries provide overviews: K. E. McVey, �Edessa,� <hi rend="italic">Anchor
-    Bible Dictionary</hi> 2 (1992), 284-287; H. J. W. Drijvers,
-    �Edessa,� <hi rend="italic">TRE</hi> 9 (1982), 277-288; E. Kirsten, �Edessa,�
-    <hi rend="italic">RAC</hi> 4 (1959), 552-597; E. Meyer, �Edessa in Osrhoene,�
+    by J. B. Segal, <hi rend="italic">Edessa ‘The Blessed City’</hi>
+    (Oxford: Oxford University Press, 1970; reprint, Piscataway,
+    NJ: Gorgias Press, 2001). The city’s culture and its
+    political history are discussed by S. K. Ross, <hi rend="italic">Roman
+    Edessa: Politics and culture on the eastern fringes of the
+    Roman Empire, 114-242 CE</hi> (London: Routledge, 2001); F.
+    Millar, <hi rend="italic">The Roman Near East. 31 BC - AD 337</hi>
+    (Cambridge, Mass.: Harvard University Press, 1993); M. Sommer,
+    <hi rend="italic">Roms orientalische Steppengrenze. Palmyra — Edessa
+    — Dura-Europos — Hatra. Eine Kulturgeschichte von
+    Pompeius bis Diocletian</hi>, Oriens et Occidens 9 (Wiesbaden:
+    Franz Steiner Verlag, 2005). Several encyclopedia entries
+    provide overviews: K. E. McVey, “Edessa,”
+    <hi rend="italic">Anchor Bible Dictionary</hi> 2 (1992), 284-287; H. J. W.
+    Drijvers, “Edessa,” <hi rend="italic">TRE</hi> 9 (1982), 277-288;
+    E. Kirsten, “Edessa,” <hi rend="italic">RAC</hi> 4 (1959),
+    552-597; E. Meyer, “Edessa in Osrhoene,”
     <hi rend="italic">RE</hi> 5:2 (1905), 1933-1938. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef8">8</ref> A. Hultg�rd, �Persian Apocalypticism,� in:
-    <hi rend="italic">The</hi> 
-            <hi rend="italic">Encyclopedia of Apocalypticism</hi>, ed. J. J.
-    Collins, vol. 1 (New York: Continuum, 1998), 39-83, esp. 44.
-    <ref target="#FNRef8">
+         <p>
+            <ref target="#FNRef8">8</ref> A. Hultgård, “Persian
+    Apocalypticism,” in: <hi rend="italic">The</hi>
+            <hi rend="italic">Encyclopedia of
+    Apocalypticism</hi>, ed. J. J. Collins, vol. 1 (New York:
+    Continuum, 1998), 39-83, esp. 44. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef9">9</ref> U. Possekel, �Bardaisan of Edessa on the
+         <p>
+            <ref target="#FNRef9">9</ref> U. Possekel, “Bardaisan of Edessa on the
     Resurrection: Early Syriac Eschatology in its
-    Religious-Historical Context,� <hi rend="italic">Oriens Christianus</hi> 88
-    (2004), 1-28. <ref target="#FNRef9">
+    Religious-Historical Context,” <hi rend="italic">Oriens
+    Christianus</hi> 88 (2004), 1-28. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> 
             <hi rend="italic">BLC</hi> 11, ed. Drijvers 14,24-16,4.
     <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> 
             <hi rend="italic">BLC</hi> 12 and 14, ed. Drijvers 18,5-7;
     18,21-24; 20,2-9. <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> Philosophers in antiquity often engaged in
     spiritual exercises. On this, see P. Hadot and A. I. Davidson,
     <hi rend="italic">Philosophy as a Way of Life: Spiritual Exercises from
     Socrates to Foucault</hi> (Oxford: Blackwell, 1995); P. Rabbow,
-    <hi rend="italic">Seelenf�hrung. Methodik der Exerzitien in der Antike</hi>
-    (M�nchen: K�sel, 1954). <ref target="#FNRef12">
+    <hi rend="italic">Seelenführung. Methodik der Exerzitien in der
+    Antike</hi> (München: Kösel, 1954). <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> He gives divorce or estranged children as
     examples for the latter. <hi rend="italic">BLC</hi> 19, ed. Drijvers 30,4-24;
     <hi rend="italic">BLC</hi> 21, ed. Drijvers 34,17-21. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> 
             <hi rend="italic">BLC</hi> 19-24, ed. Drijvers 30,3-38,7.
     <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> He emphasizes that neither physical
     strength, nor social status, nor professional skill are
     required to obey the Golden Rule, to follow the commandments,
     and to avoid stealing, lying, adultery, or hate (<hi rend="italic">BLC</hi>
     12, ed. Drijvers 16,4-18,5). Doing good is possible and it is
-    easy, and thus each person is able to �live according to his
-    own (free) will, and to do everything that he is able to do, if
-    he wishes it, or if he does not wish, not to do it. And he may
-    justify himself or become guilty.� (<hi rend="italic">BLC</hi> 8, ed.
-    Drijvers 12,13-15). <ref target="#FNRef15">
+    easy, and thus each person is able to “live according to
+    his own (free) will, and to do everything that he is able to
+    do, if he wishes it, or if he does not wish, not to do it. And
+    he may justify himself or become guilty.” (<hi rend="italic">BLC</hi>
+    8, ed. Drijvers 12,13-15). <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> Ephrem, <hi rend="italic">PR</hi> II, 143,1-4 (no. 1).
     Body, by nature heavy, can not cleave to the soul, which is
     light. At the time of death, Bardaisan argues, the soul, the
-    light part, departs �and like a breath it is for a time and it
-    flies away lightly.� (<hi rend="italic">PR</hi> II, 160,14-16 [no. 65]).
-    <ref target="#FNRef16">
+    light part, departs “and like a breath it is for a time
+    and it flies away lightly.” (<hi rend="italic">PR</hi> II, 160,14-16
+    [no. 65]). <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> Ephrem, <hi rend="italic">PR</hi> II, 151,11-152,2 (no.
     32-34); <hi rend="italic">PR</hi> II, 153,20-154,2 (no. 40-41). <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> Ephrem, <hi rend="italic">PR</hi> II, 164,20-22 (no. 80)
     and 165,10-12 (no. 83). <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> Ephrem, <hi rend="italic">PR</hi> II, 162,32-39 (no. 74).
     The Diatessaron, which presumably was available to Bardaisan,
     in its earliest versions did not include the canonical text of
-    Mt. 25:52, as was shown by W. L. Petersen, <hi rend="italic">Tatian�s
+    Mt. 25:52, as was shown by W. L. Petersen, <hi rend="italic">Tatian’s
     Diatessaron: Its Creation, Dissemination, Significance, and
     History in Scholarship</hi>, SVigChr 25 (Leiden: Brill, 1994),
-    404-414. Cf. also Possekel, �Bardaisan of Edessa on the
-    Resurrection,� 10-11. <ref target="#FNRef19">
+    404-414. Cf. also Possekel, “Bardaisan of Edessa on the
+    Resurrection,” 10-11. <ref target="#FNRef19">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> 
             <hi rend="italic">BLC</hi> 18, ed. Drijvers 26,19-22.
     <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef21">21</ref> Ephrem, <hi rend="italic">PR</hi> II, 164,41-165,8 (no.
     82), cf. no. 81, 83. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef22">22</ref> The best discussion of the subject is G.
-    May, <hi rend="italic">Creatio ex nihilo: The Doctrine of �Creation out of
-    Nothing� in Early Christian Thought</hi>, German ed. published
-    in 1978, English tr. A. S. Worrall (Edinburgh: T&amp;T Clark,
-    1994). Justin, in <hi rend="italic">1 Apol</hi>. 10,2 refers to a creation
-    out of unformed matter (<graphic url="HV11N1Possekel_Gr01.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="125px"
-                     height="15px"/>
-            <!--<span style="font-family:'Aisa Unicode'">&#7952;&#958;
-&#7936;&#956;&#972;&#961;&#966;&#959;&#965; &#8021;&#955;&#951;&#986;</span>-->),
+    May, <hi rend="italic">Creatio ex nihilo: The Doctrine of ‘Creation out
+    of Nothing’ in Early Christian Thought</hi>, German ed.
+    published in 1978, English tr. A. S. Worrall (Edinburgh:
+    T&amp;T Clark, 1994). Justin, in <hi rend="italic">1 Apol</hi>. 10,2 refers
+    to a creation out of unformed matter (<graphic url="HV11N1Possekel_Gr01.gif" rend="img" mimeType="image/gif" width="125px" height="15px"/>
+    ),
 ed. M. Marcovich, <hi rend="italic">Iustini Martyris Apologiae pro
 Christianis</hi>, PTS 38 (Berlin: de Gruyter, 1994); cf. <hi rend="italic">1
 Apol</hi>. 59. On creation theologies in the Syriac Christian
-literature, see A. Guillaumont, �Gen�se 1, 1-2 selon les
-commentateurs syriaques,� in: <hi rend="italic">In Principio: Interpr�tations des
-premiers versets de la Gen�se</hi>, Collections des �tudes
-Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="italic">
+literature, see A. Guillaumont, “Genèse 1, 1-2 selon
+les commentateurs syriaques,” in: <hi rend="italic">In Principio:
+Interprétations des premiers versets de la
+Genèse</hi>, Collections des Études Augustiniennes.
+Série Antiquité 38 (Paris: 1973), 115-132. On <hi rend="italic">
     creatio ex nihilo</hi> in Jewish literature, see H.-F. Weiss,
     <hi rend="italic">Untersuchungen zur Kosmologie des hellenistischen und
-    pal�stinischen Judentums</hi>, TU 97 (Berlin: Akademie-Verlag,
-    1966), 59-74; M. R. Niehoff, �<hi rend="italic">Creatio ex Nihilo</hi>
-    Theology in <hi rend="italic">Genesis Rabbah</hi> in Light of Christian
-    Exegesis,� <hi rend="italic">HTR</hi> 99 (2005), 37-64; see also M. Kister,
-    �Tohu wa-Bohu, Primordial Elements and Creatio ex Nihilo,�
-    <hi rend="italic">Jewish Studies Quarterly</hi> (forthcoming). <ref target="#FNRef22">
+    palästinischen Judentums</hi>, TU 97 (Berlin:
+    Akademie-Verlag, 1966), 59-74; M. R. Niehoff,
+    “<hi rend="italic">Creatio ex Nihilo</hi> Theology in <hi rend="italic">Genesis
+    Rabbah</hi> in Light of Christian Exegesis,” <hi rend="italic">HTR</hi>
+    99 (2005), 37-64; see also M. Kister, “Tohu wa-Bohu,
+    Primordial Elements and Creatio ex Nihilo,” <hi rend="italic">Jewish
+    Studies Quarterly</hi> (forthcoming). <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> That the primordial elements have a power of
     their own is stated in <hi rend="italic">BLC</hi> 10 and 46, ed. Drijvers,
     14,13-18 and 62,9-13. According to Bardaisan, the primordial
     elements are water, fire, wind, and air. The element of wind
-    (<hi lang="SYR"
-                dir="rtl"
-                style="font-family:&#34;Estrangelo Edessa&#34;"
-                xml:lang="SYR">ܪܘܚܐ</hi>,
-    <hi rend="italic">ru<hi rend="u">h</hi>a</hi>) was probably included for
-    exegetical reasons. On the interpretation of the
-    <hi rend="italic">rua<hi rend="u">h</hi> elohim</hi> (Gen 1:2) among
-    Syriac Christians, cf. S. Brock, �The <hi rend="italic">Rua<hi rend="u">h</hi> Elōhīm</hi> of Gen 1,2 and its Reception History
-    in the Syriac Tradition,� in: <hi rend="italic">Lectures et relectures de la
-    Bible. Festschrift P.-M. Bogaert</hi>, ed. J.-M. Auwers and A.
-    W�nin, Bibliotheca Ephemeridum Theologicarum Lovaniensium 144
-    (Louvain: Peeters, 1999), 327-349. Bardaisan�s elements
-    therefore differ from the Empedoclean ones (air, fire, water,
-    earth). Most early Christian authors accepted the existence of
-    the Empedoclean elements, which they believed to have been
-    created by God. According to some of the later Syriac sources,
-    Bardaisan posited the existence of a primordial darkness below
-    the primal elements, and of God above them, but it remains
-    questionable whether such a system goes back to Bardaisan.
-    <ref target="#FNRef23">
+    (<hi lang="SYR" dir="rtl" style="font-family:&#34;Estrangelo Edessa&#34;" xml:lang="SYR">ܪܘܚܐ</hi>, <hi rend="italic">ru<hi rend="u">h</hi>a</hi>) was probably included for exegetical
+    reasons. On the interpretation of the <hi rend="italic">rua<hi rend="u">h</hi> elohim</hi> (Gen 1:2) among Syriac Christians, cf.
+    S. Brock, “The <hi rend="italic">Rua<hi rend="u">h</hi>
+    Elōhīm</hi> of Gen 1,2 and its Reception History in
+    the Syriac Tradition,” in: <hi rend="italic">Lectures et relectures de
+    la Bible. Festschrift P.-M. Bogaert</hi>, ed. J.-M. Auwers and
+    A. Wénin, Bibliotheca Ephemeridum Theologicarum
+    Lovaniensium 144 (Louvain: Peeters, 1999), 327-349.
+    Bardaisan’s elements therefore differ from the
+    Empedoclean ones (air, fire, water, earth). Most early
+    Christian authors accepted the existence of the Empedoclean
+    elements, which they believed to have been created by God.
+    According to some of the later Syriac sources, Bardaisan
+    posited the existence of a primordial darkness below the primal
+    elements, and of God above them, but it remains questionable
+    whether such a system goes back to Bardaisan. <ref target="#FNRef23">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef24">24</ref> Gnostic texts often regard the created world
     as negative, as work of the demiurge. An overview of Gnostic
-    apocalyptic texts is given by F. Fallon, �The Gnostic
-    Apocalypses,� <hi rend="italic">Semeia</hi> 14 (1979), 123-158; see also M.
-    Krause, �Die literarischen Gattungen der Apokalypsen von Nag
-    Hammadi,� in: <hi rend="italic">Apocalypticism in the Mediterranean
-    World</hi>, 621-637. In Zoroastrianism, dualism does not
-    consist of contrasting matter and spirit, but two opposing
-    divine principles. On Zoroastrian apocalypticism, see for
-    example Hultg�rd, �Persian Apocalypticism,� 39-83. On
-    Zoroastrian religious ideas more generally, see M. Boyce, <hi rend="italic">A
-    History of Zoroastrianism</hi>, 3 vols., Handbuch der
-    Orientalistik (Leiden: Brill, 1989); M. Boyce,
-    <hi rend="italic">Zoroastrians, Their Religious Beliefs and Practices</hi>
-    (London: Routledge, 1979). Zervanism, however, seeks to
-    overcome the dualist system and proposes a highest god, cf. R.
-    C. Zaehner, <hi rend="italic">Zurvan. A Zoroastrian Dilemma</hi> (Oxford:
-    Clarendon Press, 1955). The antiquity of Persian apocalypticism
-    is a matter of debate since the most important texts date in
-    their current form from the ninth century. The problems are
-    summarized by Collins, <hi rend="italic">The Apocalyptic Imagination</hi>,
-    29-33 (with further bibliography). For an argument that the
-    most ancient layer of Iranian apocalyptic originated not before
-    the Sassanian period, see P. Gignoux, �L�apocalyptique
-    iranienne est-elle vraiment ancienne?� <hi rend="italic">Revue de l�histoire
-    des religions</hi> 216 (1999), 213-277. <ref target="#FNRef24">
+    apocalyptic texts is given by F. Fallon, “The Gnostic
+    Apocalypses,” <hi rend="italic">Semeia</hi> 14 (1979), 123-158; see
+    also M. Krause, “Die literarischen Gattungen der
+    Apokalypsen von Nag Hammadi,” in: <hi rend="italic">Apocalypticism in
+    the Mediterranean World</hi>, 621-637. In Zoroastrianism,
+    dualism does not consist of contrasting matter and spirit, but
+    two opposing divine principles. On Zoroastrian apocalypticism,
+    see for example Hultgård, “Persian
+    Apocalypticism,” 39-83. On Zoroastrian religious ideas
+    more generally, see M. Boyce, <hi rend="italic">A History of
+    Zoroastrianism</hi>, 3 vols., Handbuch der Orientalistik
+    (Leiden: Brill, 1989); M. Boyce, <hi rend="italic">Zoroastrians, Their
+    Religious Beliefs and Practices</hi> (London: Routledge, 1979).
+    Zervanism, however, seeks to overcome the dualist system and
+    proposes a highest god, cf. R. C. Zaehner, <hi rend="italic">Zurvan. A
+    Zoroastrian Dilemma</hi> (Oxford: Clarendon Press, 1955). The
+    antiquity of Persian apocalypticism is a matter of debate since
+    the most important texts date in their current form from the
+    ninth century. The problems are summarized by Collins, <hi rend="italic">The
+    Apocalyptic Imagination</hi>, 29-33 (with further
+    bibliography). For an argument that the most ancient layer of
+    Iranian apocalyptic originated not before the Sassanian period,
+    see P. Gignoux, “L’apocalyptique iranienne est-elle
+    vraiment ancienne?” <hi rend="italic">Revue de l’histoire des
+    religions</hi> 216 (1999), 213-277. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef25">25</ref> 
             <hi rend="italic">BLC</hi> 11, ed. Drijvers 14,22-24;
     <hi rend="italic">BLC</hi> 14, ed. Drijvers 18,22-23. <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> 
             <hi rend="italic">BLC</hi> 14, ed. Drijvers 18,20-24.
     <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> Drijvers, <hi rend="italic">Bardai<hi rend="u">s</hi>an of Edessa</hi> 75f., 82f., and passim; H. J. W.
-    Drijvers, �Bardaisan�s Doctrine of Free Will, the
-    Pseudo-Clementines, and Marcionism in Syria,� in: <hi rend="italic">Libert�
-    chr�tienne et libre arbitre: Textes de l�enseignement de
-    troisi�me cycle des facult�s romandes de th�ologie</hi>, ed. G.
-    Bedouelle and O. Fatio (Fribourg: �ditions Universitaires,
-    1994), 13-30. <ref target="#FNRef27">
+    Drijvers, “Bardaisan’s Doctrine of Free Will, the
+    Pseudo-Clementines, and Marcionism in Syria,” in:
+    <hi rend="italic">Liberté chrétienne et libre arbitre: Textes
+    de l’enseignement de troisième cycle des
+    facultés romandes de théologie</hi>, ed. G.
+    Bedouelle and O. Fatio (Fribourg: Éditions
+    Universitaires, 1994), 13-30. <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> 
             <hi rend="italic">BLC</hi> 9, ed. Drijvers 14,10-11;
     <hi rend="italic">BLC</hi> 10, ed. Drijvers 14,16-18. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> Bardaisan does not develop a doctrine of
-    atonement. By following Christ�s commandments, one can obtain
-    justification and salvation. <ref target="#FNRef29">
+    atonement. By following Christ’s commandments, one can
+    obtain justification and salvation. <ref target="#FNRef29">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> 
             <hi rend="italic">BLC</hi> 9, ed. Drijvers 12,12-15.
     <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef31">31</ref> Justin Martyr argued that �punishments and
-    good rewards are given according to the quality of each man�s
-    actions. If this were not so, but all things happened in
-    accordance with destiny, nothing at all would be left up to us.
-    � And if the human race does not have the power by free choice
-    to avoid what is shameful and to choose what is right, then
-    there is no responsibility for actions of any kind.� <hi rend="italic">1
-    Apol.</hi> 43, ed. Marcovich 92,5-11, tr. C. Richardson,
-    <hi rend="italic">Early Christian Fathers</hi> (New York: Macmillan, 1970),
-    269. On the question of fatalism and its refutation in
-    antiquity, cf. D. Amand de Mendieta, <hi rend="italic">Fatalisme et libert�
-    dans l�antiquit� grecque</hi> (Louvain, 1945; reprint
-    Amsterdam: Hakkert, 1973). <ref target="#FNRef31">
+         <p>
+            <ref target="#FNRef31">31</ref> Justin Martyr argued that “punishments
+    and good rewards are given according to the quality of each
+    man’s actions. If this were not so, but all things
+    happened in accordance with destiny, nothing at all would be
+    left up to us. … And if the human race does not have the
+    power by free choice to avoid what is shameful and to choose
+    what is right, then there is no responsibility for actions of
+    any kind.” <hi rend="italic">1 Apol.</hi> 43, ed. Marcovich 92,5-11,
+    tr. C. Richardson, <hi rend="italic">Early Christian Fathers</hi> (New York:
+    Macmillan, 1970), 269. On the question of fatalism and its
+    refutation in antiquity, cf. D. Amand de Mendieta,
+    <hi rend="italic">Fatalisme et liberté dans l’antiquité
+    grecque</hi> (Louvain, 1945; reprint Amsterdam: Hakkert, 1973).
+    <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> 
             <hi rend="italic">BLC</hi> 9, ed. Drijvers 14,8-11.
     <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef33">33</ref> The word <hi rend="italic">�estokse</hi> here refers to
-    the heavenly bodies. <ref target="#FNRef33">
+         <p>
+            <ref target="#FNRef33">33</ref> The word <hi rend="italic">’estokse</hi> here refers
+    to the heavenly bodies. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef34">34</ref> The Syriac word here, <hi lang="SYR"
-                dir="rtl"
-                style="font-family: 'Estrangelo Edessa'"
-                xml:lang="SYR">ܡܘܙܓܐ</hi>, <hi rend="italic">muzaga</hi>, can mean �mixture,� but it
-    can also denote a planetary conjunction. Bardaisan plays on
-    both of these meanings, as I will show in detail in my
-    forthcoming monograph. <ref target="#FNRef34">
+         <p>
+            <ref target="#FNRef34">34</ref> The Syriac word here, <hi lang="SYR" dir="rtl" style="font-family: 'Estrangelo Edessa'" xml:lang="SYR">ܡܘܙܓܐ</hi>,
+    <hi rend="italic">muzaga</hi>, can mean “mixture,” but it can
+    also denote a planetary conjunction. Bardaisan plays on both of
+    these meanings, as I will show in detail in my forthcoming
+    monograph. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> 
             <hi rend="italic">BLC</hi> 10, ed. Drijvers 14,13-18.
     <ref target="#FNRef35">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef36">36</ref> 
             <hi rend="italic">BLC</hi> 24, ed Drijvers, 38,3-7.
     <ref target="#FNRef36">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef37">37</ref> Thereby, Bardaisan�s thought is more in
-    conformity with the biblical tradition that we do not know the
-    day and hour of the <hi rend="italic">parousia</hi> (cf. Mk 13:32) than with
-    the Gnostic concept that human beings by their actions can
+         <p>
+            <ref target="#FNRef37">37</ref> Thereby, Bardaisan’s thought is more
+    in conformity with the biblical tradition that we do not know
+    the day and hour of the <hi rend="italic">parousia</hi> (cf. Mk 13:32) than
+    with the Gnostic concept that human beings by their actions can
     contribute to the destruction of the cosmos. Cf. H. G.
-    Kippenberg, �Ein Vergleich j�discher, christlicher und
-    gnostischer Apokalyptik,� in: <hi rend="italic">Apocalypticism in the
-    Mediterranean World</hi>, 751-768, esp. 762. On apocalyptic
+    Kippenberg, “Ein Vergleich jüdischer, christlicher
+    und gnostischer Apokalyptik,” in: <hi rend="italic">Apocalypticism in
+    the Mediterranean World</hi>, 751-768, esp. 762. On apocalyptic
     motives in the Gnostic literature, see also G. MacRae,
-    �Apocalyptic Eschatology in Gnosticism,� in: <hi rend="italic">Apocalypticism
-    in the Mediterranean World</hi>, 317-325. <ref target="#FNRef37">
+    “Apocalyptic Eschatology in Gnosticism,” in:
+    <hi rend="italic">Apocalypticism in the Mediterranean World</hi>, 317-325.
+    <ref target="#FNRef37">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef38">38</ref> 
             <hi rend="italic">BLC</hi> 46, ed. Drijvers 62,15-18.
     <ref target="#FNRef38">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef39">39</ref> That the Sibyllines were known among
     Syriac-speaking Christians is illustrated by the <hi rend="italic">Letter of
     Mara bar Serapion to his Son</hi>, in which the author alludes
     to the Sibyllines, ed. with English tr. Cureton,
     <hi rend="italic">Spicilegium syriacum</hi> 43-48 (text), 70-76
     (translation). A short overview of the Sibyllines with further
-    literature is given by L. R. Ubigli, �Sibyllinen,� <hi rend="italic">TRE</hi>
-    31 (2000), 240-245. Jewish apocalypses from the first two
-    centuries of the common era include IV Esra and syr. Baruch.
-    See the overview by K. M�ller, �Apokalyptik/Apokalypsen III.
-    Die j�dische Apokalyptik. Anf�nge und Merkmale,� <hi rend="italic">TRE</hi> 3
+    literature is given by L. R. Ubigli, “Sibyllinen,”
+    <hi rend="italic">TRE</hi> 31 (2000), 240-245. Jewish apocalypses from the
+    first two centuries of the common era include IV Esra and syr.
+    Baruch. See the overview by K. Müller,
+    “Apokalyptik/Apokalypsen III. Die jüdische
+    Apokalyptik. Anfänge und Merkmale,” <hi rend="italic">TRE</hi> 3
     (1978), 202-251. A survey of Jewish apocalyptic literature is
     given by Collins, <hi rend="italic">Apocalyptic Imagination</hi>. <ref target="#FNRef39">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef40">40</ref> The <hi rend="italic">Apocalypse of Peter</hi> and the
     <hi rend="italic">Ascension of Isaiah</hi> are both productions of Christian
     communities in the second century. Both texts are tr. with
-    introductions by C. D. G. M�ller, in: <hi rend="italic">NTApo</hi> 2,
+    introductions by C. D. G. Müller, in: <hi rend="italic">NTApo</hi> 2,
     603-638. On the <hi rend="italic">Apocalypse of Peter</hi>, see for example
-    A. Dieterich, <hi rend="italic">Nekyia: Beitr�ge zur Erkl�rung der
+    A. Dieterich, <hi rend="italic">Nekyia: Beiträge zur Erklärung der
     neuentdeckten Petrusapokalypse</hi> (Leipzig: Teubner, 1893),
     who interprets the text with regard to Greek stories of descent
     into Hades; M. Himmelfarb, <hi rend="italic">Tours of Hell: An Apocalyptic
@@ -1215,137 +1248,145 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
     2003). See also the <hi rend="italic">Shepherd of Hermas</hi> (ed. M.
     Whittaker, <hi rend="italic">Der Hirt des Hermas</hi>, 2<hi rend="sup">nd</hi> ed.,
     GCS 48 [1967]) and <hi rend="italic">Didache</hi> 16 (ed. with French tr. W.
-    Rordorf and A. Tulier, <hi rend="italic">La doctrine des douze ap�tres
-    [Didach�]</hi>, SC 248 [Paris: Cerf, 1978], 194-198).
+    Rordorf and A. Tulier, <hi rend="italic">La doctrine des douze apôtres
+    [Didachè]</hi>, SC 248 [Paris: Cerf, 1978], 194-198).
     Apocalyptic themes also occur in the visions of Perpetua and in
     the writings of Tertullian and Hippolytus. Cf. Daley,
-    �Apocalypticism in Early Christian Theology,� 10-13. <ref target="#FNRef40">
+    “Apocalypticism in Early Christian Theology,”
+    10-13. <ref target="#FNRef40">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef41">41</ref> See for example Hultg�rd, �Persian
-    Apocalypticism,� with further literature. See also note 24
-    above. <ref target="#FNRef41">
+         <p>
+            <ref target="#FNRef41">41</ref> See for example Hultgård,
+    “Persian Apocalypticism,” with further literature.
+    See also note 24 above. <ref target="#FNRef41">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef42">42</ref> Perpetua, for instance, has a vision of
     fighting with and winning over an Egyptian man, who is later
     identified as Satan. Text ed. with French tr. J. Amat,
-    <hi rend="italic">Passion de Perp�tue et de F�licit� suivi des Actes</hi>, SC
-    417 (Paris: Cerf, 1996). On Perpetua�s visions, see P.
-    Habermehl, <hi rend="italic">Perpetua und der �gypter oder Bilder des B�sen
-    im fr�hen afrikanischen Christentum. Ein Versuch zur Passio
-    sanctarum Perpetua [sic] et Felicitatis</hi>, 2nd ed., TU 140
-    (Berlin: de Gruyter, 2004); F. J. LeMoine, �Apocalyptic
-    Experience and the Conversion of Women in Early Christianity,�
-    in: <hi rend="italic">Fearful Hope: Approaching the New Millennium</hi>, ed.
-    C. Kleinhenz and F. J. LeMoine (Madison: University of
-    Wisconsin Press, 1999), 201-206. <ref target="#FNRef42">
+    <hi rend="italic">Passion de Perpétue et de Félicité
+    suivi des Actes</hi>, SC 417 (Paris: Cerf, 1996). On
+    Perpetua’s visions, see P. Habermehl, <hi rend="italic">Perpetua und
+    der Ägypter oder Bilder des Bösen im frühen
+    afrikanischen Christentum. Ein Versuch zur Passio sanctarum
+    Perpetua [sic] et Felicitatis</hi>, 2nd ed., TU 140 (Berlin: de
+    Gruyter, 2004); F. J. LeMoine, “Apocalyptic Experience
+    and the Conversion of Women in Early Christianity,” in:
+    <hi rend="italic">Fearful Hope: Approaching the New Millennium</hi>, ed. C.
+    Kleinhenz and F. J. LeMoine (Madison: University of Wisconsin
+    Press, 1999), 201-206. <ref target="#FNRef42">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef43">43</ref> G. W. E. Nickelsburg, �Social Aspects of
-    Palestinian Jewish Apocalypticism,� in: <hi rend="italic">Apocalypticism in
-    the Mediterranean World</hi>, 641-654, quote on p. 645. See
-    also S. R. Isenberg, �Millenarism in Greco-Roman Palestine,�
-    <hi rend="italic">Religion</hi> 4 (1974), 26-46; P. D. Hanson, <hi rend="italic">The Dawn
-    of Apocalyptic: The Historical and Sociological Roots of Jewish
-    Apocalyptic Eschatology</hi>, revised ed. (Philadelphia:
-    Fortress Press, 1979). Nickelsburg stresses that apocalyptic
-    and wisdom traditions are closely associated in Jewish
-    literature. Both originate in similar social settings of
-    scribes, cf. G. W. E. Nickelsburg, �Wisdom and Apocalypticism
-    in Early Judaism: Some Points for Discussion,� in:
-    <hi rend="italic">Conflicted Boundaries in Wisdom and Apocalypticism</hi>,
-    ed. B. G. Wright and L. M. Wills (Atlanta: Society of Biblical
-    Literature, 2005), 17-37; reprint in J. Neusner and A. J.
-    Avery-Peck, eds., <hi rend="italic">George W. E. Nickelsburg in Perspective.
-    An Ongoing Dialogue</hi>, vol. 1, Supplements to the Study of
-    Judaism 80 (Leiden: Brill, 2003), 267-287. See also the W.
-    Meeks, �Social Function of Apocalyptic Language in Pauline
-    Christianity,� in: <hi rend="italic">Apocalypticism in the Mediterranean
-    World</hi>, 687-705. A similar interpretive model guides the
-    work of B. Daley: �I will also assume that ancient apocalypses
-    were normally �sectarian� productions: written for a community
-    of faith that saw itself beleaguered or marginalized by the
-    dominant religious and political systems of the society to
-    which it belonged...�. (Daley, �Apocalypticism in Early
-    Christian Theology,� 4). See also D. Frankfurter, �Early
-    Christian Apocalypticism: Literature and Social World,� in:
-    <hi rend="italic">Encyclopedia of Apocalypticism</hi> 1, 415-453, esp.
-    432-434. <ref target="#FNRef43">
+         <p>
+            <ref target="#FNRef43">43</ref> G. W. E. Nickelsburg, “Social Aspects
+    of Palestinian Jewish Apocalypticism,” in:
+    <hi rend="italic">Apocalypticism in the Mediterranean World</hi>, 641-654,
+    quote on p. 645. See also S. R. Isenberg, “Millenarism in
+    Greco-Roman Palestine,” <hi rend="italic">Religion</hi> 4 (1974),
+    26-46; P. D. Hanson, <hi rend="italic">The Dawn of Apocalyptic: The
+    Historical and Sociological Roots of Jewish Apocalyptic
+    Eschatology</hi>, revised ed. (Philadelphia: Fortress Press,
+    1979). Nickelsburg stresses that apocalyptic and wisdom
+    traditions are closely associated in Jewish literature. Both
+    originate in similar social settings of scribes, cf. G. W. E.
+    Nickelsburg, “Wisdom and Apocalypticism in Early Judaism:
+    Some Points for Discussion,” in: <hi rend="italic">Conflicted
+    Boundaries in Wisdom and Apocalypticism</hi>, ed. B. G. Wright
+    and L. M. Wills (Atlanta: Society of Biblical Literature,
+    2005), 17-37; reprint in J. Neusner and A. J. Avery-Peck, eds.,
+    <hi rend="italic">George W. E. Nickelsburg in Perspective. An Ongoing
+    Dialogue</hi>, vol. 1, Supplements to the Study of Judaism 80
+    (Leiden: Brill, 2003), 267-287. See also the W. Meeks,
+    “Social Function of Apocalyptic Language in Pauline
+    Christianity,” in: <hi rend="italic">Apocalypticism in the
+    Mediterranean World</hi>, 687-705. A similar interpretive model
+    guides the work of B. Daley: “I will also assume that
+    ancient apocalypses were normally ‘sectarian’
+    productions: written for a community of faith that saw itself
+    beleaguered or marginalized by the dominant religious and
+    political systems of the society to which it
+    belonged...”. (Daley, “Apocalypticism in Early
+    Christian Theology,” 4). See also D. Frankfurter,
+    “Early Christian Apocalypticism: Literature and Social
+    World,” in: <hi rend="italic">Encyclopedia of Apocalypticism</hi> 1,
+    415-453, esp. 432-434. <ref target="#FNRef43">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef44">44</ref> Since 132 B.C.; on Edessa�s early history,
-    cf. Segal, <hi rend="italic">Edessa</hi>, 1-15. <ref target="#FNRef44">
+         <p>
+            <ref target="#FNRef44">44</ref> Since 132 B.C.; on Edessa’s early
+    history, cf. Segal, <hi rend="italic">Edessa</hi>, 1-15. <ref target="#FNRef44">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef45">45</ref> These efforts were sometimes viewed as
     betrayal by the Roman historians. Cassius Dio, for instance,
     blames Abgar for the disastrous defeat of Crassus
     (<hi rend="italic">Hist</hi>. 40.20-27), ed. with English tr. E. Cary,
-    <hi rend="italic">Dio�s Roman History</hi>, vol. 3, LCL (London: Heinemann,
-    1914; reprint 1954). H. J. W. Drijvers emphasizes that there is
-    no evidence for Abgar�s responsibility of the defeat, cf.
-    �Hatra, Palmyra und Edessa. Die St�dte der
-    syrisch-mesopotamischen W�ste in politischer,
-    kulturgeschichtlicher und religionsgeschichtlicher
-    Beleuchtung,� <hi rend="italic">ANRW</hi> II 8 (1977), 799-906, esp. 871.</p>
+    <hi rend="italic">Dio’s Roman History</hi>, vol. 3, LCL (London:
+    Heinemann, 1914; reprint 1954). H. J. W. Drijvers emphasizes
+    that there is no evidence for Abgar’s responsibility of
+    the defeat, cf. “Hatra, Palmyra und Edessa. Die
+    Städte der syrisch-mesopotamischen Wüste in
+    politischer, kulturgeschichtlicher und religionsgeschichtlicher
+    Beleuchtung,” <hi rend="italic">ANRW</hi> II 8 (1977), 799-906, esp.
+    871.</p>
          <p>In 116 AD Trajan subjected Edessa to Roman control, but
     territories east of the Euphrates were subsequently given up by
     Hadrian. In the 160s, Edessa came under Parthian dominance, but
     soon Rome regained control and established Edessa as a client
-    state. The king, Ma�nu, now took on the title
+    state. The king, Ma‘nu, now took on the title
     <hi rend="italic">philorhomaios</hi>, for which there is numismatic evidence.
     The subject is discussed by Sommer, <hi rend="italic">Roms orientalische
     Steppengrenze</hi>, 238f.; Ross, <hi rend="italic">Roman Edessa</hi>, passim.
     On the topic of client kingship more generally, see D. Braund,
     <hi rend="italic">Rome and the Friendly King. The Character of Client
-    Kingship</hi> (New York: St. Martin�s Press, 1984). <ref target="#FNRef45">
+    Kingship</hi> (New York: St. Martin’s Press, 1984).
+    <ref target="#FNRef45">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef46">46</ref> Herodian reports that Abgar�s sons became
-    political hostages and that the king offered his archers to
-    support the emperor in his <hi rend="italic">History</hi> 3.9.2, ed. and tr.
-    C. R. Whittaker, <hi rend="italic">Herodian</hi>, 2 vols., LCL (London:
+         <p>
+            <ref target="#FNRef46">46</ref> Herodian reports that Abgar’s sons
+    became political hostages and that the king offered his archers
+    to support the emperor in his <hi rend="italic">History</hi> 3.9.2, ed. and
+    tr. C. R. Whittaker, <hi rend="italic">Herodian</hi>, 2 vols., LCL (London:
     Heinemann, 1969-1970). On the fame of the Osrhoenean archers,
-    see also Herodian, <hi rend="italic">Hist</hi>. 6.7.8. Abgar�s visit to Rome,
-    where he was lavishly received, is noted by Cassius Dio
+    see also Herodian, <hi rend="italic">Hist</hi>. 6.7.8. Abgar’s visit to
+    Rome, where he was lavishly received, is noted by Cassius Dio
     80.16.2. <ref target="#FNRef46">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef47">47</ref> The later history of the Edessan kingdom is
     complicated and its chronology is difficult to reconstruct on
     account of contradictory statements in the sources. It is
     usually assumed that the kingship lasted until either 242 or
-    248 AD. On this, see J. Teixidor, �Les derniers rois d��desse
-    d�apr�s deux nouveaux documents syriaques,� <hi rend="italic">Zeitschrift f�r
+    248 AD. On this, see J. Teixidor, “Les derniers rois
+    d’Édesse d’après deux nouveaux
+    documents syriaques,” <hi rend="italic">Zeitschrift für
     Papyrologie und Epigraphik</hi> 76 (1989), 219-222;
-    M. Gawlikowski, �The Last Kings of Edessa,� in:
-    <hi rend="italic">Symposium Syriacum VII</hi>, ed. R. Lavenant, <hi rend="italic">OCA
+    M. Gawlikowski, “The Last Kings of Edessa,”
+    in: <hi rend="italic">Symposium Syriacum VII</hi>, ed. R. Lavenant, <hi rend="italic">OCA
     256</hi> (Rome: Pontifico Istituto Orientale, 1998), 421-428;
-    A. Luther, �Elias von Nisibis und die Chronologie der
-    edessenischen K�nige,� <hi rend="italic">Klio</hi> 81 (1999), 180-198; L. van
-    Rompay, �Jacob of Edessa and the Early History of Edessa,� in:
-    <hi rend="italic">After Bardaisan: Studies on Continuity and Change in Syriac
-    Christianity</hi>, ed. G. J. Reinink and A. J. Klugkist
-    (Louvain: Peeters, 1999), 269-286. <ref target="#FNRef47">
+    A. Luther, “Elias von Nisibis und die Chronologie der
+    edessenischen Könige,” <hi rend="italic">Klio</hi> 81 (1999),
+    180-198; L. van Rompay, “Jacob of Edessa and the Early
+    History of Edessa,” in: <hi rend="italic">After Bardaisan: Studies on
+    Continuity and Change in Syriac Christianity</hi>, ed. G. J.
+    Reinink and A. J. Klugkist (Louvain: Peeters, 1999), 269-286.
+    <ref target="#FNRef47">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef48">48</ref> Text ed. with English tr. J. H.
     Charlesworth, <hi rend="italic">The Odes of Solomon. The Syriac texts, edited
     with translation and notes</hi>, SLB Texts and Translations 13.
@@ -1353,118 +1394,118 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef49">49</ref> A brief discussion of the <hi rend="italic">Odes�</hi>
-    eschatology can be found in Daley, <hi rend="italic">Hope of the Early
-    Church</hi>, 15-16; a more detailed examination is D. E. Aune,
-    <hi rend="italic">The Cultic Setting of Realized Eschatology in Early
-    Christianity</hi>, NovTestSuppl 28 (Leiden: Brill, 1972),
-    166-194. <ref target="#FNRef49">
+         <p>
+            <ref target="#FNRef49">49</ref> A brief discussion of the
+    <hi rend="italic">Odes’</hi> eschatology can be found in Daley,
+    <hi rend="italic">Hope of the Early Church</hi>, 15-16; a more detailed
+    examination is D. E. Aune, <hi rend="italic">The Cultic Setting of Realized
+    Eschatology in Early Christianity</hi>, NovTestSuppl 28
+    (Leiden: Brill, 1972), 166-194. <ref target="#FNRef49">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef50">50</ref> 
             <hi rend="italic">Odes</hi> 3,1; 7,4; 15,1; 23,1; 28,2.
     <ref target="#FNRef50">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef51">51</ref> 
             <hi rend="italic">Odes</hi> 3,8; 28,7. <ref target="#FNRef51">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef52">52</ref> 
             <hi rend="italic">Odes</hi> 1,1; 17,1. <ref target="#FNRef52">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef53">53</ref> 
             <hi rend="italic">Odes</hi> 1,5. <ref target="#FNRef53">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef54">54</ref> 
             <hi rend="italic">Odes</hi> 11,12; 38,3. <ref target="#FNRef54">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef55">55</ref> 
             <hi rend="italic">Odes</hi> 29,4. <ref target="#FNRef55">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef56">56</ref> 
             <hi rend="italic">Odes</hi> 5,14. <ref target="#FNRef56">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef57">57</ref> 
             <hi rend="italic">Odes</hi> 17,2. <ref target="#FNRef57">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef58">58</ref> 
             <hi rend="italic">Odes</hi> 15,6; cf. 15,8. <ref target="#FNRef58">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef59">59</ref> 
             <hi rend="italic">Odes</hi> 11,16-24. In his <hi rend="italic">Hymns on
     Paradise</hi>, Ephrem gives a visionary description of
     paradise, ed. with German tr. E. Beck, <hi rend="italic">Des heiligen Ephraem
     des Syrers Hymnen de Paradiso</hi>, CSCO 174-175, Syr. 78-79
     (Louvain, 1957); English tr. S. Brock, <hi rend="italic">St. Ephrem the
-    Syrian. Hymns on Paradise</hi> (Crestwood, NY: St Vladimir�s
-    Seminary Press, 1990). <ref target="#FNRef59">
+    Syrian. Hymns on Paradise</hi> (Crestwood, NY: St
+    Vladimir’s Seminary Press, 1990). <ref target="#FNRef59">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef60">60</ref> Ephrem, <hi rend="italic">PR</hi> II, 164,33-165,19 (no.
     81-83). <ref target="#FNRef60">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef61">61</ref> Ephrem, <hi rend="italic">PR</hi> II, 164,41-165,8 (no.
     82); cf. <hi rend="italic">PR</hi> II, 165,9-19 (no. 83). <ref target="#FNRef61">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef62">62</ref> 
             <hi rend="italic">Odes</hi> 39,5-10.13, tr. Charlesworth
     (adapted). <ref target="#FNRef62">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef63">63</ref> 
             <hi rend="italic">Odes</hi> 39,2. Allusions to the
     biblical tradition of crossing the Red Sea (e.g., LXX Ex. 14;
     Ps. 76,16-20; 77,11-16; Isa. 19,1-10) are highlighted by M.
-    Lattke, <hi rend="italic">Oden Salomos. Text, �bersetzung, Kommentar</hi>,
-    vol. 3, Novum Testamentum et Orbis Antiquus 41/3 (G�ttingen:
-    Vandenhoeck &amp; Ruprecht, 2005), 189-211. Charlesworth,
-    <hi rend="italic">Odes</hi>, 137, sees in <hi rend="italic">Ode</hi> 39,10 a reference to
-    the tradition that Jesus walked on water. Lattke,
-    <hi rend="italic">Oden</hi>, 202, on the other hand, rejects this thesis.
-    <ref target="#FNRef63">
+    Lattke, <hi rend="italic">Oden Salomos. Text, Übersetzung,
+    Kommentar</hi>, vol. 3, Novum Testamentum et Orbis Antiquus
+    41/3 (Göttingen: Vandenhoeck &amp; Ruprecht, 2005),
+    189-211. Charlesworth, <hi rend="italic">Odes</hi>, 137, sees in <hi rend="italic">Ode</hi>
+    39,10 a reference to the tradition that Jesus walked on water.
+    Lattke, <hi rend="italic">Oden</hi>, 202, on the other hand, rejects this
+    thesis. <ref target="#FNRef63">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef64">64</ref> The <hi rend="italic">Acts of Thomas</hi> are preserved in
     both a Syriac and a Greek version. Whereas it is generally
     acknowledged that the text was originally composed in Syriac,
@@ -1476,79 +1517,81 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
     reprint Hildesheim: Olms, 1990); Greek text ed. R. A. Lipisus
     and M. Bonnet, <hi rend="italic">Acta Apostolorum Apocrypha</hi>, vol. 2.2
     (Leipzig: 1898; reprint, Hildesheim, 1959), 99-291. English tr.
-    of the Greek text H. J. W. Drĳvers, <hi rend="italic">NTApo</hi> 2, 339-411.
-    <ref target="#FNRef64">
+    of the Greek text H. J. W. Drĳvers, <hi rend="italic">NTApo</hi> 2,
+    339-411. <ref target="#FNRef64">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef65">65</ref> On the question of genre, see Collins,
-    <hi rend="italic">Apocalyptic Imagination</hi>, 2-21; <hi rend="italic">idem</hi>, �Towards
-    the Morphology of a Genre.� In order to be classified as
-    apocalyptic there needs to be a conjunction of several literary
-    elements, a �significant cluster of traits,� (Collins) such as
-    a narrative framework, visions, a revelation by an otherworldly
-    being mediated to a human recipient, disclosure of a
-    transcendent reality, and a final judgment. John Collins
-    observes that �[t]he genre is not constituted by one or more
-    distinctive themes but by a distinctive combination of
-    elements, all of which are also found elsewhere.� (Collins,
-    <hi rend="italic">Apocalyptic Imagination</hi>, 12). <ref target="#FNRef65">
+    <hi rend="italic">Apocalyptic Imagination</hi>, 2-21; <hi rend="italic">idem</hi>,
+    “Towards the Morphology of a Genre.” In order to be
+    classified as apocalyptic there needs to be a conjunction of
+    several literary elements, a “significant cluster of
+    traits,” (Collins) such as a narrative framework,
+    visions, a revelation by an otherworldly being mediated to a
+    human recipient, disclosure of a transcendent reality, and a
+    final judgment. John Collins observes that “[t]he genre
+    is not constituted by one or more distinctive themes but by a
+    distinctive combination of elements, all of which are also
+    found elsewhere.” (Collins, <hi rend="italic">Apocalyptic
+    Imagination</hi>, 12). <ref target="#FNRef65">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef66">66</ref> On the subject of visions of hell in Jewish
     and early Christian literature, see Himmelfarb, <hi rend="italic">Tours of
     Hell</hi>. <ref target="#FNRef66">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef67">67</ref> 
             <hi rend="italic">ATh</hi> 51, tr. Drijvers, 361. <ref target="#FNRef67">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef68">68</ref> 
             <hi rend="italic">ATh</hi> 51-59, tr. Drijvers, 360-364..
     <ref target="#FNRef68">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef69">69</ref> Bede, <hi rend="italic">Hist. eccl</hi>. V 12, ed. B.
-    Colgrave and R. A. B. Mynors, <hi rend="italic">Bede�s Ecclesiastical History
-    of the English People</hi>, Oxford Medieval Texts (Oxford:
-    Clarendon, 1992); English tr. L. Sherley-Price, <hi rend="italic">Bede,
-    Ecclesiastical History of the English People</hi>, revised ed.
-    (New York: Penguin, 1990). <ref target="#FNRef69">
+    Colgrave and R. A. B. Mynors, <hi rend="italic">Bede’s Ecclesiastical
+    History of the English People</hi>, Oxford Medieval Texts
+    (Oxford: Clarendon, 1992); English tr. L. Sherley-Price,
+    <hi rend="italic">Bede, Ecclesiastical History of the English People</hi>,
+    revised ed. (New York: Penguin, 1990). <ref target="#FNRef69">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef70">70</ref> The vision of hell in the <hi rend="italic">ATh</hi> bears
     certain resemblances to <hi rend="italic">Apocalypse of Peter</hi> 7-12. See
-    for example A. Jacob, �The Reception of the <hi rend="italic">Apocalypse of
-    Peter</hi> in Ancient Christianity,� in: <hi rend="italic">The Apocalypse of
-    Peter</hi>, ed. J. N. Bremmer and I. Czachesz, Studies on Early
-    Christian Apocrypha 7 (Louvain: Peeters, 2003), 174-186.
-    Himmelfarb, <hi rend="italic">Tours of Hell</hi>, 132-134 suggests that both
-    treatises draw on the same Jewish traditions. <ref target="#FNRef70">
+    for example A. Jacob, “The Reception of the
+    <hi rend="italic">Apocalypse of Peter</hi> in Ancient Christianity,”
+    in: <hi rend="italic">The Apocalypse of Peter</hi>, ed. J. N. Bremmer and I.
+    Czachesz, Studies on Early Christian Apocrypha 7 (Louvain:
+    Peeters, 2003), 174-186. Himmelfarb, <hi rend="italic">Tours of Hell</hi>,
+    132-134 suggests that both treatises draw on the same Jewish
+    traditions. <ref target="#FNRef70">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef71">71</ref> Of course, as Nickelsburg has argued
     extensively, elements of wisdom literature appear in
     apocalyptic writing and vice versa, but nonetheless they remain
-    two distinct approaches. Cf. Nickelsburg, �Wisdom and
-    Apocalypticism.� <ref target="#FNRef71">
+    two distinct approaches. Cf. Nickelsburg, “Wisdom and
+    Apocalypticism.” <ref target="#FNRef71">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef72">72</ref> Mara bar Serapion, <hi rend="italic">Letter to his
     Son</hi> (see above n. 39). It should be noted that it is
     debated among scholars whether the letter is of Christian or
@@ -1556,25 +1599,26 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef73">73</ref> As is the case wish many of the early Syriac
-    Christian documents, date and provenance of Mara bar Serapion�s
-    <hi rend="italic">Letter</hi> are difficult to determine. The letter has been
-    dated to the first century by I. Ramelli, �Stoicismo e
-    cristianesimo in area siriaca nella seconda met� del I secolo
-    d. C.� <hi rend="italic">Sileno</hi> 25 (1999), 197-212. A second-century
-    date was suggested by Cureton, <hi rend="italic">Spicilegium syriacum</hi> ,
-    xiii-xv, and a third-century date by F. Schulthess, �Der
-    Brief des Mara bar Sarapion. Ein Beitrag zur Geschichte der
-    syrischen Litteratur,� <hi rend="italic">ZDMG</hi> 51 (1897), 366-375, esp.
+    Christian documents, date and provenance of Mara bar
+    Serapion’s <hi rend="italic">Letter</hi> are difficult to determine.
+    The letter has been dated to the first century by I. Ramelli,
+    “Stoicismo e cristianesimo in area siriaca nella seconda
+    metà del I secolo d. C.” <hi rend="italic">Sileno</hi> 25
+    (1999), 197-212. A second-century date was suggested by
+    Cureton, <hi rend="italic">Spicilegium syriacum</hi> , xiii-xv, and a
+    third-century date by F. Schulthess, “Der Brief des
+    Mara bar Sarapion. Ein Beitrag zur Geschichte der syrischen
+    Litteratur,” <hi rend="italic">ZDMG</hi> 51 (1897), 366-375, esp.
     376-381. A fourth-century date was suggested by S. P. Brock,
     <hi rend="italic">A Brief Outline of Syriac Literature</hi>, Moran Etho 9
-    (Baker Hill, Kottayam: SEERI, 1997), 18. K. E. McVey, �A Fresh
-    Look at the Letter of Mara bar Sarapion to his Son,� in: <hi rend="italic">V
-    Symposium Syriacum 1988</hi>, ed. R. Lavenant, OCA 236 (1990),
-    269f., 272 suggests a third or fourth-century date. C. Chin,
-    �Rhetorical Practice in the Chreia Elaboration of Mara bar
-    Serapion,� <ref target="../Vol9No2/HV9N2Chin.html">
+    (Baker Hill, Kottayam: SEERI, 1997), 18. K. E. McVey, “A
+    Fresh Look at the Letter of Mara bar Sarapion to his
+    Son,” in: <hi rend="italic">V Symposium Syriacum 1988</hi>, ed. R.
+    Lavenant, OCA 236 (1990), 269f., 272 suggests a third or
+    fourth-century date. C. Chin, “Rhetorical Practice in the
+    Chreia Elaboration of Mara bar Serapion,” <ref target="../Vol9No2/HV9N2Chin.html">
                <hi rend="italic">Hugoye</hi>
             </ref> 9.2 (2006)
     argues that the letter constitutes a rhetorical exercise. I
@@ -1583,7 +1627,7 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef74">74</ref> Aphrahat, <hi rend="italic">Demonstration</hi> 5, ed. J.
     Parisot, <hi rend="italic">Aphraatis Sapientis Persae Demonstrationes</hi>
     I-XXII, Patrologia Syriaca 1.1 (Paris, 1894), German tr. P.
@@ -1592,18 +1636,18 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef75">75</ref> In the seventh century, apocalyptic
     treatises by Ps.-Ephrem and Ps.-Methodius refer to the Arab
     invasion in prophecies that are <hi rend="italic">vaticinia ex eventu</hi>.
-    Ps.-Ephrem�s <hi rend="italic">Sermon on the End of the World</hi> is ed.
-    with German tr. E. Beck, <hi rend="italic">Des heiligen Ephraem des Syrers
-    Sermones III</hi>, CSCO 320-321, Syr. 138-139 (Louvain:
-    Secr�tariat du CorpusSCO, 1970), <hi rend="italic">sermo</hi> 5, p. 60-71
-    (text) and p. 79-94 (tr.). Beck dates it to the second half of
-    the seventh century (Introduction to the tr., p. IX-X). An
-    apocalyptic Latin sermon, variously ascribed to Ephrem and to
-    Isidore of Seville is ed. by C. P. Caspari, <hi rend="italic">Briefe,
+    Ps.-Ephrem’s <hi rend="italic">Sermon on the End of the World</hi> is
+    ed. with German tr. E. Beck, <hi rend="italic">Des heiligen Ephraem des
+    Syrers Sermones III</hi>, CSCO 320-321, Syr. 138-139 (Louvain:
+    Secrétariat du CorpusSCO, 1970), <hi rend="italic">sermo</hi> 5, p.
+    60-71 (text) and p. 79-94 (tr.). Beck dates it to the second
+    half of the seventh century (Introduction to the tr., p. IX-X).
+    An apocalyptic Latin sermon, variously ascribed to Ephrem and
+    to Isidore of Seville is ed. by C. P. Caspari, <hi rend="italic">Briefe,
     Abhandlungen und Predigten aus den zwei letzten Jahrhunderten
     des kirchlichen Alterthums und dem Anfang des Mittelalters</hi>
     (1890; reprint, Brussels: Culture et Civilization, 1964). On
@@ -1621,408 +1665,435 @@ Augustiniennes. S�rie Antiquit� 38 (Paris: 1973), 115-132. On <hi rend="ital
     <hi rend="italic">Die dritte und vierte Redaktion des Ps.-Methodius</hi>
     (Meisenheim am Glan: Hain, 1978). See now W. J. Aerts and G. A.
     A. Kortekaas, <hi rend="italic">Die Apokalypse des Pseudo-Methodius. Die
-    �ltesten griechischen und lateinischen �bersetzungen</hi>, 2
-    vols., CSCO 569-570, Sub. 97-98 (Louvain: Peeters, 1998). On
-    the apocalyptic themes in Ps.-Methodius, see for example G. J.
-    Reinink, �Pseudo-Methodius und die Legende vom r�mischen
-    Endkaiser,� in: <hi rend="italic">The Use and Abuse of Eschatology in the
-    Middle Ages</hi>, ed. W. Verbeke, D. Verhelst, and A.
+    ältesten griechischen und lateinischen
+    Übersetzungen</hi>, 2 vols., CSCO 569-570, Sub. 97-98
+    (Louvain: Peeters, 1998). On the apocalyptic themes in
+    Ps.-Methodius, see for example G. J. Reinink,
+    “Pseudo-Methodius und die Legende vom römischen
+    Endkaiser,” in: <hi rend="italic">The Use and Abuse of Eschatology in
+    the Middle Ages</hi>, ed. W. Verbeke, D. Verhelst, and A.
     Welkenhuysen (Leuven: Leuven University Press, 1988), 82-111.
-    Note should be made here of several sermons �On the End� by
-    Jacob of Sarug (d. 521), the study of which exceeds the scope
-    of this paper. These are sermons numbered 31-32, 67-68,
-    192-195, ed. P. Bedjan, <hi rend="italic">Homiliae selectae Mar Jacobi
-    Sarugensis</hi>, 5 vols. (Leipzig: Harrassowitz, 1905, reprint
-    in 6 vols. with additional material Piscataway, NJ: Gorgias
-    Press, 2006). The French tr. of Jacob�s sermons on the end by
-    I. Isebaert-Cauuet, <hi rend="italic">Jacques de Saroug, Hom�lies
-    eschatologiques sur la fin du monde</hi> (Paris: Migne, 2005)
-    was not available. An excerpt of an apocalyptic sermon
-    attributed to Jacob is tr. in McGinn, <hi rend="italic">Visions of the
-    End</hi>. <ref target="#FNRef75">
+    Note should be made here of several sermons “On the
+    End” by Jacob of Sarug (d. 521), the study of which
+    exceeds the scope of this paper. These are sermons numbered
+    31-32, 67-68, 192-195, ed. P. Bedjan, <hi rend="italic">Homiliae selectae Mar
+    Jacobi Sarugensis</hi>, 5 vols. (Leipzig: Harrassowitz, 1905,
+    reprint in 6 vols. with additional material Piscataway, NJ:
+    Gorgias Press, 2006). The French tr. of Jacob’s sermons
+    on the end by I. Isebaert-Cauuet, <hi rend="italic">Jacques de Saroug,
+    Homélies eschatologiques sur la fin du monde</hi>
+    (Paris: Migne, 2005) was not available. An excerpt of an
+    apocalyptic sermon attributed to Jacob is tr. in McGinn,
+    <hi rend="italic">Visions of the End</hi>. <ref target="#FNRef75">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <head>Primary Sources</head>
-         <p xml:id="B1" rend="biblio">
+         <head xml:id="HV11N1Possekel13">Bibliography</head>
+         <head xml:id="HV11N1Possekel14">Primary Sources</head>
+         <p>
             <hi rend="italic">Acts of Thomas</hi>. Greek text
     ed. R. A. Lipisus and M. Bonnet, <hi rend="italic">Acta Apostolorum
     Apocrypha</hi>. Vol. 2.2. Leipzig: 1898. Reprint, Hildesheim,
     1959, 99-291.</p>
-         <p xml:id="B2" rend="biblio">
+         <p>
             <hi rend="italic">Acts of Thomas</hi>. Syriac text
     ed. W. Wright, <hi rend="italic">Apocryphal Acts of the Apostles. Edited from
     Syriac Manuscripts in the British Museum and Other
     Libraries</hi>, 2 vols. London: Williams and Norgate, 1871.
     Reprint in Hildesheim: Olms, 1990.</p>
-         <p xml:id="B3" rend="biblio">Africanus, Sextus Julius.
+         <p>Africanus, Sextus Julius.
     <hi rend="italic">Kestoi</hi>. Ed. with French tr. J.-R. Vieillefond, <hi rend="italic">Les
-    �Cestes� de Julius Africanus</hi>. Paris: Didier, 1970.</p>
-         <p xml:id="B4" rend="biblio">Aphrahat, <hi rend="italic">Demonstration</hi> 5.
+    “Cestes” de Julius Africanus</hi>. Paris: Didier,
+    1970.</p>
+         <p>Aphrahat, <hi rend="italic">Demonstration</hi> 5.
     Ed. J. Parisot, <hi rend="italic">Aphraatis Sapientis Persae
     Demonstrationes</hi> I-XXII. Patrologia Syriaca 1.1. Paris,
     1894.</p>
-         <p xml:id="B5" rend="biblio">Bardaisan. <hi rend="italic">Book of the Laws of
+         <p>Bardaisan. <hi rend="italic">Book of the Laws of
     Countries</hi>. Ed. F. Nau, <hi rend="italic">Patrologia Syriaca</hi> 1.2
     (1907; reprint 1993). Also ed. H. J. W. Drijvers, <hi rend="italic">The Book
     of the Laws of Countries. Dialogue on Fate of
     Bardai<hi rend="u">s</hi>an of Edessa</hi>. Semitic Texts
     with Translations 3. Assen: van Gorcum, 1965.</p>
-         <p xml:id="B6" rend="biblio">Bede. <hi rend="italic">Historia
+         <p>Bede. <hi rend="italic">Historia
     ecclesiastica</hi>. Ed. B. Colgrave and R. A. B. Mynors,
-    <hi rend="italic">Bede�s Ecclesiastical History of the English People</hi>.
-    Oxford Medieval Texts. Oxford: Clarendon, 1992.</p>
-         <p xml:id="B7" rend="biblio">Cassius Dio. <hi rend="italic">History</hi>. Ed.
-    with English tr. E. Cary, <hi rend="italic">Dio�s Roman History</hi>, 9 vols.
-    LCL. London: Heinemann, 1914; reprint 1954.</p>
-         <p xml:id="B8" rend="biblio">
+    <hi rend="italic">Bede’s Ecclesiastical History of the English
+    People</hi>. Oxford Medieval Texts. Oxford: Clarendon,
+    1992.</p>
+         <p>Cassius Dio. <hi rend="italic">History</hi>. Ed.
+    with English tr. E. Cary, <hi rend="italic">Dio’s Roman History</hi>, 9
+    vols. LCL. London: Heinemann, 1914; reprint 1954.</p>
+         <p>
             <hi rend="italic">Didache</hi>. Ed. with French tr.
-    W. Rordorf and A. Tulier, <hi rend="italic">La doctrine des douze ap�tres
-    [Didach�]</hi>. SC 248. Paris: Cerf, 1978.</p>
-         <p xml:id="B9" rend="biblio">Ephrem. <hi rend="italic">Hymns against
+    W. Rordorf and A. Tulier, <hi rend="italic">La doctrine des douze
+    apôtres [Didachè]</hi>. SC 248. Paris: Cerf,
+    1978.</p>
+         <p>Ephrem. <hi rend="italic">Hymns against
     Heresies</hi>. Ed. E. Beck, <hi rend="italic">Ephraem des Syrers Hymnen
     contra haereses</hi>. CSCO 169-170, Syr. 76-77. Louvain,
     1957.</p>
-         <p xml:id="B10" rend="biblio">—. <hi rend="italic">Hymns on Paradise</hi>. Ed.
-    with German tr. E. Beck, <hi rend="italic">Des heiligen Ephraem des Syrers
-    Hymnen de Paradiso.</hi> CSCO 174-175, Syr. 78-79. Louvain,
-    1957.</p>
-         <p xml:id="B11" rend="biblio">—. <hi rend="italic">Prose Refutations</hi>. Ed.
-    C. W. Mitchell, A. A. Bevan and F. C. Burkitt, <hi rend="italic">S. Ephraim�s
-    Prose Refutations of Mani, Marcion, and Bardaisan</hi>, 2 vols.
-    London: Williams and Norgate, 1912-1921.</p>
-         <p xml:id="B12" rend="biblio">Ps.-Ephrem. <hi rend="italic">Sermon on the End of
+         <p>—. <hi rend="italic">Hymns on Paradise</hi>.
+    Ed. with German tr. E. Beck, <hi rend="italic">Des heiligen Ephraem des
+    Syrers Hymnen de Paradiso.</hi> CSCO 174-175, Syr. 78-79.
+    Louvain, 1957.</p>
+         <p>—. <hi rend="italic">Prose Refutations</hi>.
+    Ed. C. W. Mitchell, A. A. Bevan and F. C. Burkitt, <hi rend="italic">S.
+    Ephraim’s Prose Refutations of Mani, Marcion, and
+    Bardaisan</hi>, 2 vols. London: Williams and Norgate,
+    1912-1921.</p>
+         <p>Ps.-Ephrem. <hi rend="italic">Sermon on the End of
     the World</hi>. Ed. with German tr. E. Beck, <hi rend="italic">Des heiligen
     Ephraem des Syrers Sermones III</hi>. CSCO 320-321, Syr.
-    138-139. Louvain: Secr�tariat du CorpusSCO, 1970.
+    138-139. Louvain: Secrétariat du CorpusSCO, 1970.
     <hi rend="italic">Sermo</hi> 5, p. 60-71 (text) and p. 79-94 (tr.).</p>
-         <p xml:id="B13" rend="biblio">Eusebius. <hi rend="italic">Historia
+         <p>Eusebius. <hi rend="italic">Historia
     ecclesiastica</hi>. Ed. E. Schwartz and T. Mommsen. GCS N. F.
     6. Berlin: Akademie Verlag, 1999.</p>
-         <p xml:id="B14" rend="biblio">Herodian. <hi rend="italic">History</hi>. Ed. and
+         <p>Herodian. <hi rend="italic">History</hi>. Ed. and
     tr. C. R. Whittaker, <hi rend="italic">Herodian</hi>, 2 vols. LCL. London:
     Heinemann, 1969-1970.</p>
-         <p xml:id="B15" rend="biblio">Jacob of Sarug. <hi rend="italic">Homilies</hi>.
+         <p>Jacob of Sarug. <hi rend="italic">Homilies</hi>.
     Ed. P. Bedjan, <hi rend="italic">Homiliae selectae Mar Jacobi
     Sarugensis</hi>, 5 vols. Leipzig: Harrassowitz, 1905. Reprint
     in 6 vols. Piscataway, N.J.: Gorgias Press, 2006.</p>
-         <p xml:id="B16" rend="biblio">Justin. <hi rend="italic">Apologia</hi>. Ed. M.
+         <p>Justin. <hi rend="italic">Apologia</hi>. Ed. M.
     Marcovich, <hi rend="italic">Iustini Martyris Apologiae pro Christianis</hi>.
     Patristische Texte und Studien 38. Berlin: de Gruyter,
     1994.</p>
-         <p xml:id="B17" rend="biblio">Mara bar Serapion. <hi rend="italic">Letter to his
+         <p>Mara bar Serapion. <hi rend="italic">Letter to his
     Son</hi>. Ed. W. Cureton, <hi rend="italic">Spicilegium syriacum, containing
     remains of Bardesan, Meliton, Ambrose, and Mara bar
     Serapion</hi>. London: Rivingtons, 1855.</p>
-         <p xml:id="B18" rend="biblio">Ps.-Methodius. <hi rend="italic">Greek
+         <p>Ps.-Methodius. <hi rend="italic">Greek
     Apocalypse</hi>. Ed. A. Lolos, <hi rend="italic">Die Apokalypse des
     Ps-Methodius</hi>. Meisenheim am Glan: Hain, 1976.</p>
-         <p xml:id="B19" rend="biblio">—. <hi rend="italic">Greek</hi>
+         <p>—. <hi rend="italic">Greek</hi>
             <hi rend="italic">Apocalypse</hi>. Ed. A. Lolos, <hi rend="italic">Die dritte und vierte
     Redaktion des Ps.-Methodius</hi>. Meisenheim am Glan: Hain,
     1978.</p>
-         <p xml:id="B20" rend="biblio">—. <hi rend="italic">Syriac Apocalypse</hi>. Ed.
-    G. J. Reinink, <hi rend="italic">Die syrische Apokalypse des
+         <p>—. <hi rend="italic">Syriac Apocalypse</hi>.
+    Ed. G. J. Reinink, <hi rend="italic">Die syrische Apokalypse des
     Pseudo-Methodius</hi>. CSCO 540-541, Syr. 220-221. Louvain:
     Peeters, 1993.</p>
-         <p xml:id="B21" rend="biblio">
+         <p>
             <hi rend="italic">Odes of Solomon</hi>. Ed. with
     English tr. J. H. Charlesworth, <hi rend="italic">The Odes of Solomon. The
     Syriac texts, edited with translation and notes</hi>. SLB Texts
     and Translations 13. Pseudepigrapha 7. Chico, CA: Scholars
     Press, 1977.</p>
-         <p xml:id="B22" rend="biblio">
+         <p>
             <hi rend="italic">Passio Perpetuae</hi>. Ed. with
-    French tr. J. Amat, <hi rend="italic">Passion de Perp�tue et de F�licit�
-    suivi des Actes</hi>. SC 417. Paris: Cerf, 1996.</p>
-         <p xml:id="B23" rend="biblio">
+    French tr. J. Amat, <hi rend="italic">Passion de Perpétue et de
+    Félicité suivi des Actes</hi>. SC 417. Paris:
+    Cerf, 1996.</p>
+         <p>
             <hi rend="italic">Shepherd of Hermas</hi>. Ed. M.
     Whittaker, <hi rend="italic">Der Hirt des Hermas</hi>. 2<hi rend="sup">nd</hi> ed. GCS
     48 (1967).</p>
-         <p xml:id="B24" rend="biblio">
+         <p>
             <hi rend="italic">Vita Abercii</hi>. Ed. Th.
     Nissen. <hi rend="italic">S. Abercii Vita</hi>. Leipzig: Teubner, 1912.</p>
-         <head>Secondary Literature</head>
-         <p xml:id="B25" rend="biblio">Aerts, W. J. and G. A. A. Kortekaas.
-    <hi rend="italic">Die Apokalypse des Pseudo-Methodius. Die �ltesten
-    griechischen und lateinischen �bersetzungen</hi>, 2 vols. CSCO
-    569-570, Sub. 97-98. Louvain: Peeters, 1998.</p>
-         <p xml:id="B26" rend="biblio">Amand, D. <hi rend="italic">Fatalisme et libert�
-    dans l�antiquit� grecque. Recherches sur la survivance de
-    l�argumentation morale antifataliste de Carn�ade chez les
-    philosophes grecs et les th�ologiens chr�tiens des quatre
-    premiers si�cles</hi>. Louvain: Biblioth�que de Louvain,
+         <head xml:id="HV11N1Possekel15">Secondary Literature</head>
+         <p>Aerts, W. J. and G. A. A. Kortekaas.
+    <hi rend="italic">Die Apokalypse des Pseudo-Methodius. Die ältesten
+    griechischen und lateinischen Übersetzungen</hi>, 2 vols.
+    CSCO 569-570, Sub. 97-98. Louvain: Peeters, 1998.</p>
+         <p>Amand, D. <hi rend="italic">Fatalisme et
+    liberté dans l’antiquité grecque.
+    Recherches sur la survivance de l’argumentation morale
+    antifataliste de Carnéade chez les philosophes grecs et
+    les théologiens chrétiens des quatre premiers
+    siècles</hi>. Louvain: Bibliothèque de Louvain,
     1945.</p>
-         <p xml:id="B27" rend="biblio">Aune, D. E. <hi rend="italic">The Cultic Setting
+         <p>Aune, D. E. <hi rend="italic">The Cultic Setting
     of Realized Eschatology in Early Christianity</hi>.
     NovTestSuppl 28. Leiden: Brill, 1972.</p>
-         <p xml:id="B28" rend="biblio">Bauer, W. <hi rend="italic">Orthodoxy and Heresy
+         <p>Bauer, W. <hi rend="italic">Orthodoxy and Heresy
     in Earliest Christianity</hi>. Mifflintown, PA: Sigler Press,
     1996.</p>
-         <p xml:id="B29" rend="biblio">Boyce, M. <hi rend="italic">A History of
+         <p>Boyce, M. <hi rend="italic">A History of
     Zoroastrianism</hi>, 3 vols. Handbuch der Orientalistik.
     Leiden: Brill, 1989.</p>
-         <p xml:id="B29" rend="biblio">—. <hi rend="italic">Zoroastrians, Their Religious
-    Beliefs and Practices</hi>. London: Routledge, 1979.</p>
-         <p xml:id="B30" rend="biblio">Braund, D. <hi rend="italic">Rome</hi> 
+         <p>—. <hi rend="italic">Zoroastrians, Their
+    Religious Beliefs and Practices</hi>. London: Routledge,
+    1979.</p>
+         <p>Braund, D. <hi rend="italic">Rome</hi>
             <hi rend="italic">and the
     Friendly King: The Character of Client Kingship</hi>. New York:
-    St. Martin�s Press, 1984.</p>
-         <p xml:id="B31" rend="biblio">Bremmer, J. N. und I. Czachesz, eds.
+    St. Martin’s Press, 1984.</p>
+         <p>Bremmer, J. N. und I. Czachesz, eds.
     <hi rend="italic">The Apocalypse of Peter</hi>, Studies on Early Christian
     Apocrypha 7. Louvain: Peeters, 2003.</p>
-         <p xml:id="B32" rend="biblio">Brock, S. �The <hi rend="italic">Rua<hi rend="u">h</hi> Elōhīm</hi> of Gen 1,2 and its Reception History
-    in the Syriac Tradition.� In: <hi rend="italic">Lectures et relectures de la
-    Bible. Festschrift P.-M. Bogaert</hi>, ed. J.-M. Auwers and A.
-    W�nin. Louvain: Peeters, 1999, 327-349.</p>
-         <p xml:id="B33" rend="biblio">—. <hi rend="italic">A Brief Outline of Syriac
-    Literature</hi>. Moran Etho 9. Baker Hill, Kottayam: SEERI,
-    1997.</p>
-         <p xml:id="B34" rend="biblio">—. <hi rend="italic">St. Ephrem the Syrian. Hymns
-    on Paradise</hi>. Crestwood, NY: St Vladimir�s Seminary Press,
-    1990.</p>
-         <p xml:id="B35" rend="biblio">Bruns, P. <hi rend="italic">Aphrahat,
+         <p>Brock, S. “The
+    <hi rend="italic">Rua<hi rend="u">h</hi> Elōhīm</hi> of Gen
+    1,2 and its Reception History in the Syriac Tradition.”
+    In: <hi rend="italic">Lectures et relectures de la Bible. Festschrift P.-M.
+    Bogaert</hi>, ed. J.-M. Auwers and A. Wénin. Louvain:
+    Peeters, 1999, 327-349.</p>
+         <p>—. <hi rend="italic">A Brief Outline of
+    Syriac Literature</hi>. Moran Etho 9. Baker Hill, Kottayam:
+    SEERI, 1997.</p>
+         <p>—. <hi rend="italic">St. Ephrem the Syrian.
+    Hymns on Paradise</hi>. Crestwood, NY: St Vladimir’s
+    Seminary Press, 1990.</p>
+         <p>Bruns, P. <hi rend="italic">Aphrahat,
     Unterweisungen</hi>, Vol. 1. Fontes Christiani 5/1. Freiburg:
     Herder, 1991.</p>
-         <p xml:id="B36" rend="biblio">Bundy, D. �Marcion and the
-    Marcionites in Early Syriac Apologetics.� <hi rend="italic">Mus�on</hi> 101
-    (1988), 21-32.</p>
-         <p xml:id="B37" rend="biblio">Caspari, C. P. <hi rend="italic">Briefe,
+         <p>Bundy, D. “Marcion and the
+    Marcionites in Early Syriac Apologetics.”
+    <hi rend="italic">Muséon</hi> 101 (1988), 21-32.</p>
+         <p>Caspari, C. P. <hi rend="italic">Briefe,
     Abhandlungen und Predigten aus den zwei letzten Jahrhunderten
     des kirchlichen Alterthums und dem Anfang des
     Mittelalters</hi>. Oslo, 1890. Reprint in Brussels: Culture et
     Civilization, 1964.</p>
-         <p xml:id="B38" rend="biblio">Chin, C. �Rhetorical Practice in the
-    Chreia Elaboration of Mara bar Serapion.� <hi rend="italic">Hugoye</hi> 9.2
-    (2006).</p>
-         <p xml:id="B39" rend="biblio">Collins, J. J. <hi rend="italic">The Apocalyptic
+         <p>Chin, C. “Rhetorical Practice
+    in the Chreia Elaboration of Mara bar Serapion.”
+    <hi rend="italic">Hugoye</hi> 9.2 (2006).</p>
+         <p>Collins, J. J. <hi rend="italic">The Apocalyptic
     Imagination: An Introduction to Jewish Apocalyptic
     Literature</hi>. 2nd ed. Grand Rapids, Mich.: Eerdmans,
     1998.</p>
-         <p xml:id="B40" rend="biblio">—. �Towards the Morphology of a
-    Genre.� <hi rend="italic">Semeia</hi> 14 (1979), 1-20.</p>
-         <p xml:id="B41" rend="biblio">Daley, B. �Apocalypticism in Early
-    Christian Theology.� In: <hi rend="italic">Encyclopedia of
+         <p>—. “Towards the
+    Morphology of a Genre.” <hi rend="italic">Semeia</hi> 14 (1979),
+    1-20.</p>
+         <p>Daley, B. “Apocalypticism in
+    Early Christian Theology.” In: <hi rend="italic">Encyclopedia of
     Apocalypticism</hi>, vol. 2, ed. B. McGinn. New York:
     Continuum, 1998, 3-47.</p>
-         <p xml:id="B42" rend="biblio">—. <hi rend="italic">The Hope of the Early Church:
-    A Handbook of Patristic Eschatology</hi>. Cambridge: Cambridge
-    University Press, 1991.</p>
-         <p xml:id="B43" rend="biblio">Dieterich, A. <hi rend="italic">Nekyia: Beitr�ge
-    zur Erkl�rung der neuentdeckten Petrusapokalypse</hi>. Leipzig:
-    Teubner, 1893.</p>
-         <p xml:id="B44" rend="biblio">Drijvers, H. J. W. �Bardaisan�s
-    Doctrine of Free Will, the Pseudo-Clementines, and Marcionism
-    in Syria.� In: <hi rend="italic">Libert� chr�tienne et libre arbitre. Textes
-    de l�enseignement de troisi�me cycle des facult�s romandes de
-    th�ologie</hi>, ed. G. Bedouelle and O. Fatio. Fribourg:
-    �ditions Universitaires, 1994, 13-30.</p>
-         <p xml:id="B45" rend="biblio">—. <hi rend="italic">Bardai<hi rend="u">s</hi>an of Edessa</hi>. Studia Semitica Neerlandica 6.
+         <p>—. <hi rend="italic">The Hope of the Early
+    Church: A Handbook of Patristic Eschatology</hi>. Cambridge:
+    Cambridge University Press, 1991.</p>
+         <p>Dieterich, A. <hi rend="italic">Nekyia:
+    Beiträge zur Erklärung der neuentdeckten
+    Petrusapokalypse</hi>. Leipzig: Teubner, 1893.</p>
+         <p>Drijvers, H. J. W.
+    “Bardaisan’s Doctrine of Free Will, the
+    Pseudo-Clementines, and Marcionism in Syria.” In:
+    <hi rend="italic">Liberté chrétienne et libre arbitre. Textes
+    de l’enseignement de troisième cycle des
+    facultés romandes de théologie</hi>, ed. G.
+    Bedouelle and O. Fatio. Fribourg: Éditions
+    Universitaires, 1994, 13-30.</p>
+         <p>—. <hi rend="italic">Bardai<hi rend="u">s</hi>an of Edessa</hi>. Studia Semitica Neerlandica 6.
     Assen: Van Gorcum, 1966.</p>
-         <p xml:id="B46" rend="biblio">—. �Edessa.� <hi rend="italic">TRE</hi> 9 (1982),
-    277-288.</p>
-         <p xml:id="B47" rend="biblio">—. �Hatra, Palmyra und Edessa: Die
-    St�dte der syrisch-mesopotamischen W�ste in politischer,
-    kulturgeschichtlicher und religionsgeschichtlicher
-    Beleuchtung.� <hi rend="italic">ANRW</hi> II 8 (1977), 799-906.</p>
-         <p xml:id="B48" rend="biblio">—. �Marcionism in Syria: Principles,
-    Problems, Polemics.� <hi rend="italic">Second Century</hi> 6 (1987/88),
-    153-172.</p>
-         <p xml:id="B49" rend="biblio">Fallon, F. �The Gnostic
-    Apocalypses.� <hi rend="italic">Semeia</hi> 14 (1979), 123-158.</p>
-         <p xml:id="B50" rend="biblio">Frankfurter, D. �Early Christian
-    Apocalypticism: Literature and Social World.� In:
-    <hi rend="italic">Encyclopedia of Apocalypticism</hi>, vol. 1, ed. J. J.
+         <p>—. “Edessa.”
+    <hi rend="italic">TRE</hi> 9 (1982), 277-288.</p>
+         <p>—. “Hatra, Palmyra und
+    Edessa: Die Städte der syrisch-mesopotamischen Wüste
+    in politischer, kulturgeschichtlicher und
+    religionsgeschichtlicher Beleuchtung.” <hi rend="italic">ANRW</hi> II 8
+    (1977), 799-906.</p>
+         <p>—. “Marcionism in Syria:
+    Principles, Problems, Polemics.” <hi rend="italic">Second Century</hi>
+    6 (1987/88), 153-172.</p>
+         <p>Fallon, F. “The Gnostic
+    Apocalypses.” <hi rend="italic">Semeia</hi> 14 (1979), 123-158.</p>
+         <p>Frankfurter, D. “Early
+    Christian Apocalypticism: Literature and Social World.”
+    In: <hi rend="italic">Encyclopedia of Apocalypticism</hi>, vol. 1, ed. J. J.
     Collins. New York: Continuum, 1998, 415-453.</p>
-         <p xml:id="B51" rend="biblio">Gawlikowski, M. �The Last Kings of
-    Edessa.� In: <hi rend="italic">Symposium Syriacum VII</hi>, ed. R. Lavenant.
-    OCA 256. Rome: Pontifico Istituto Orientale, 1998, 421-428.</p>
-         <p xml:id="B52" rend="biblio">Gignoux, P. �L�apocalyptique
-    iranienne est-elle vraiment ancienne?� <hi rend="italic">Revue de l�histoire
-    des religions</hi> 216 (1999), 213-277.</p>
-         <p xml:id="B53" rend="biblio">Guillaumont, A. �Gen�se 1,1-2 selon�
-    les commentateurs syriaques.� In: <hi rend="italic">In Principio:
-    Interpr�tations des premiers versets de la Gen�se</hi>. Paris,
-    1973, 115-132.</p>
-         <p xml:id="B54" rend="biblio">Habermehl, P. <hi rend="italic">Perpetua und der
-    �gypter oder Bilder des B�sen im fr�hen afrikanischen
-    Christentum. Ein Versuch zur Passio sanctarum Perpetua [sic] et
-    Felicitatis</hi>. Texte und Untersuchungen zur Geschichte der
-    altchristlichen Literatur 140. 2nd ed. Berlin: de Gruyter,
-    2004.</p>
-         <p xml:id="B55" rend="biblio">Hadot, P. und A. I. Davidson.
+         <p>Gawlikowski, M. “The Last
+    Kings of Edessa.” In: <hi rend="italic">Symposium Syriacum VII</hi>,
+    ed. R. Lavenant. OCA 256. Rome: Pontifico Istituto Orientale,
+    1998, 421-428.</p>
+         <p>Gignoux, P.
+    “L’apocalyptique iranienne est-elle vraiment
+    ancienne?” <hi rend="italic">Revue de l’histoire des
+    religions</hi> 216 (1999), 213-277.</p>
+         <p>Guillaumont, A. “Genèse
+    1,1-2 selon  les commentateurs syriaques.” In:
+    <hi rend="italic">In Principio: Interprétations des premiers versets
+    de la Genèse</hi>. Paris, 1973, 115-132.</p>
+         <p>Habermehl, P. <hi rend="italic">Perpetua und der
+    Ägypter oder Bilder des Bösen im frühen
+    afrikanischen Christentum. Ein Versuch zur Passio sanctarum
+    Perpetua [sic] et Felicitatis</hi>. Texte und Untersuchungen
+    zur Geschichte der altchristlichen Literatur 140. 2nd ed.
+    Berlin: de Gruyter, 2004.</p>
+         <p>Hadot, P. und A. I. Davidson.
     <hi rend="italic">Philosophy as a Way of Life: Spiritual Exercises from
     Socrates to Foucault</hi>. Oxford: Blackwell, 1995.</p>
-         <p xml:id="B56" rend="biblio">Hanson, P. D. <hi rend="italic">The Dawn of
+         <p>Hanson, P. D. <hi rend="italic">The Dawn of
     Apocalyptic: The Historical and Sociological Roots of Jewish
     Apocalyptic Eschatology</hi>. revised ed. Philadelphia:
     Fortress Press, 1979.</p>
-         <p xml:id="B57" rend="biblio">Hellholm, D., ed. <hi rend="italic">Apocalypticism
+         <p>Hellholm, D., ed. <hi rend="italic">Apocalypticism
     in the Mediterranean World and the Near East: Proceedings of
     the International Colloquium on Apocalypticism, Uppsala, August
-    12-17, 1979</hi>. 2nd ed. T�bingen: Mohr Siebeck, 1989.</p>
-         <p xml:id="B58" rend="biblio">Hennecke, E. and W. Schneemelcher,
+    12-17, 1979</hi>. 2nd ed. Tübingen: Mohr Siebeck,
+    1989.</p>
+         <p>Hennecke, E. and W. Schneemelcher,
     eds. <hi rend="italic">New Testament Apocrypha</hi>, Vol. 2. Louisville:
     Westminster/John Knox, 1992.</p>
-         <p xml:id="B59" rend="biblio">Himmelfarb, M. <hi rend="italic">Tours of Hell: An
+         <p>Himmelfarb, M. <hi rend="italic">Tours of Hell: An
     Apocalyptic Form in Jewish and Christian Literature</hi>.
     Philadelphia: University of Pennsylvania Press, 1983.</p>
-         <p xml:id="B60" rend="biblio">Hultg�rd, A. �Persian
-    Apocalypticism.� In: <hi rend="italic">Encyclopedia of Apocalypticism</hi>,
-    Vol. 1, ed. J. J. Collins. New York: Continuum, 1998,
-    39-83.</p>
-         <p xml:id="B61" rend="biblio">Isenberg, S. R. �Millenarism in
-    Greco-Roman Palestine.� <hi rend="italic">Religion</hi> 4 (1974), 26-46.</p>
-         <p xml:id="B62" rend="biblio">Kippenberg, H. G. �Ein Vergleich
-    j�discher, christlicher und gnostischer Apokalyptik.� In:
+         <p>Hultgård, A. “Persian
+    Apocalypticism.” In: <hi rend="italic">Encyclopedia of
+    Apocalypticism</hi>, Vol. 1, ed. J. J. Collins. New York:
+    Continuum, 1998, 39-83.</p>
+         <p>Isenberg, S. R. “Millenarism
+    in Greco-Roman Palestine.” <hi rend="italic">Religion</hi> 4 (1974),
+    26-46.</p>
+         <p>Kippenberg, H. G. “Ein
+    Vergleich jüdischer, christlicher und gnostischer
+    Apokalyptik.” In: <hi rend="italic">Apocalypticism in the Mediterranean
+    World and the Near East</hi>, ed. D. Hellholm. Tübingen:
+    Mohr Siebeck, 1983, 751-768.</p>
+         <p>Kirsten, E. “Edessa.”
+    <hi rend="italic">RAC</hi> 4 (1959), 552-597.</p>
+         <p>Kister, M. “Tohu wa-Bohu,
+    Primordial Elements and Creatio ex Nihilo.” <hi rend="italic">Jewish
+    Studies Quarterly</hi> (forthcoming).</p>
+         <p>Krannich, T. und P. Stein.
+    “Das ‘Buch der Gesetze der Länder’ des
+    Bardesanes von Edessa.” <hi rend="italic">ZAC</hi> 8 (2004),
+    203-229.</p>
+         <p>Krause, M. “Die literarischen
+    Gattungen der Apokalypsen von Nag Hammadi.” In:
     <hi rend="italic">Apocalypticism in the Mediterranean World and the Near
-    East</hi>, ed. D. Hellholm. T�bingen: Mohr Siebeck, 1983,
-    751-768.</p>
-         <p xml:id="B63" rend="biblio">Kirsten, E. �Edessa.� <hi rend="italic">RAC</hi> 4
-    (1959), 552-597.</p>
-         <p xml:id="B64" rend="biblio">Kister, M. �Tohu wa-Bohu, Primordial
-    Elements and Creatio ex Nihilo.� <hi rend="italic">Jewish Studies
-    Quarterly</hi> (forthcoming).</p>
-         <p xml:id="B65" rend="biblio">Krannich, T. und P. Stein. �Das
-    �Buch der Gesetze der L�nder� des Bardesanes von Edessa.�
-    <hi rend="italic">ZAC</hi> 8 (2004), 203-229.</p>
-         <p xml:id="B66" rend="biblio">Krause, M. �Die literarischen
-    Gattungen der Apokalypsen von Nag Hammadi.� In:
-    <hi rend="italic">Apocalypticism in the Mediterranean World and the Near
-    East</hi>, ed. D. Hellholm. T�bingen: Mohr Siebeck, 1983,
+    East</hi>, ed. D. Hellholm. Tübingen: Mohr Siebeck, 1983,
     621-637.</p>
-         <p xml:id="B67" rend="biblio">Lattke, M. <hi rend="italic">Oden Salomos: Text,
-    �bersetzung, Kommentar</hi>, Vol. 3. Novum Testamentum et Orbis
-    Antiquus 41/3. G�ttingen: Vandenhoeck &amp; Ruprecht, 2005.</p>
-         <p xml:id="B68" rend="biblio">LeMoine, F. J. �Apocalyptic
-    Experience and the Conversion of Women in Early Christianity.�
-    In: <hi rend="italic">Fearful Hope. Approaching the New Millennium</hi>, ed.
-    C. Kleinhenz and F. J. LeMoine. Madison: University of
-    Wisconsin Press, 1999, 201-206.</p>
-         <p xml:id="B69" rend="biblio">Luther, A. �Elias von Nisibis und
-    die Chronologie der edessenischen K�nige.� <hi rend="italic">Klio</hi> 81
-    (1999), 180-198.</p>
-         <p xml:id="B70" rend="biblio">MacRae, G. �Apocalyptic Eschatology
-    in Gnosticism.� In: <hi rend="italic">Apocalypticism in the Mediterranean
-    World and the Near East</hi>, ed. D. Hellholm. T�bingen: Mohr
-    Siebeck, 1983, 317-325.</p>
-         <p xml:id="B71" rend="biblio">Madelung, W. �Abū �Īsā al-Warrāq
-    �ber die Bardesaniten, Marcioniten und Kant�er.� In:
-    <hi rend="italic">Studien zur Geschichte und Kultur des Vorderen Orients:
-    Festschrift f�r Berthold Spuler zum siebzigsten
-    Geburtstag</hi>, ed. H. R. Roemer and A. Noth. Leiden: Brill,
-    1981, 210-224.</p>
-         <p xml:id="B72" rend="biblio">May, G. <hi rend="italic">Creatio ex nihilo: The
-    Doctrine of �Creation out of Nothing� in Early Christian
-    Thought</hi>. Tr. by A. S. Worrall. Edinburgh: T&amp;T Clark,
-    1994.</p>
-         <p xml:id="B73" rend="biblio">McGinn, B. <hi rend="italic">Visions of the End:
+         <p>Lattke, M. <hi rend="italic">Oden Salomos: Text,
+    Übersetzung, Kommentar</hi>, Vol. 3. Novum Testamentum et
+    Orbis Antiquus 41/3. Göttingen: Vandenhoeck &amp;
+    Ruprecht, 2005.</p>
+         <p>LeMoine, F. J. “Apocalyptic
+    Experience and the Conversion of Women in Early
+    Christianity.” In: <hi rend="italic">Fearful Hope. Approaching the New
+    Millennium</hi>, ed. C. Kleinhenz and F. J. LeMoine. Madison:
+    University of Wisconsin Press, 1999, 201-206.</p>
+         <p>Luther, A. “Elias von Nisibis
+    und die Chronologie der edessenischen Könige.”
+    <hi rend="italic">Klio</hi> 81 (1999), 180-198.</p>
+         <p>MacRae, G. “Apocalyptic
+    Eschatology in Gnosticism.” In: <hi rend="italic">Apocalypticism in the
+    Mediterranean World and the Near East</hi>, ed. D. Hellholm.
+    Tübingen: Mohr Siebeck, 1983, 317-325.</p>
+         <p>Madelung, W. “Abū
+    ‘Īsā al-Warrāq über die Bardesaniten,
+    Marcioniten und Kantäer.” In: <hi rend="italic">Studien zur
+    Geschichte und Kultur des Vorderen Orients: Festschrift
+    für Berthold Spuler zum siebzigsten Geburtstag</hi>, ed.
+    H. R. Roemer and A. Noth. Leiden: Brill, 1981, 210-224.</p>
+         <p>May, G. <hi rend="italic">Creatio ex nihilo: The
+    Doctrine of ‘Creation out of Nothing’ in Early
+    Christian Thought</hi>. Tr. by A. S. Worrall. Edinburgh:
+    T&amp;T Clark, 1994.</p>
+         <p>McGinn, B. <hi rend="italic">Visions of the End:
     Apocalyptic Traditions in the Middle Ages</hi>. 2nd ed. New
     York: Columbia University Press, 1998.</p>
-         <p xml:id="B74" rend="biblio">McVey, K. E. �Edessa.� <hi rend="italic">Anchor
-    Bible Dictionary</hi> 2 (1992), 284-287.</p>
-         <p xml:id="B75" rend="biblio">—. �A Fresh Look at the Letter of
-    Mara bar Sarapion to his Son.� In: <hi rend="italic">V Symposium Syriacum
-    1988</hi>, ed. R. Lavenant. OCA 236. Rome, 1990, 257-272.</p>
-         <p xml:id="B76" rend="biblio">Meeks, W. �Social Function of
-    Apocalyptic Language in Pauline Christianity.� In:
+         <p>McVey, K. E. “Edessa.”
+    <hi rend="italic">Anchor Bible Dictionary</hi> 2 (1992), 284-287.</p>
+         <p>—. “A Fresh Look at the
+    Letter of Mara bar Sarapion to his Son.” In: <hi rend="italic">V
+    Symposium Syriacum 1988</hi>, ed. R. Lavenant. OCA 236. Rome,
+    1990, 257-272.</p>
+         <p>Meeks, W. “Social Function of
+    Apocalyptic Language in Pauline Christianity.” In:
     <hi rend="italic">Apocalypticism in the Mediterranean World and the Near
-    East</hi>, ed. D. Hellholm. T�bingen: Mohr Siebeck, 1983,
+    East</hi>, ed. D. Hellholm. Tübingen: Mohr Siebeck, 1983,
     687-705.</p>
-         <p xml:id="B77" rend="biblio">Meyer, E. �Edessa in Osrhoene.�
-    <hi rend="italic">RE</hi> 5:2 (1905), 1933-1938.</p>
-         <p xml:id="B78" rend="biblio">Millar, F. <hi rend="italic">The Roman Near East.
+         <p>Meyer, E. “Edessa in
+    Osrhoene.” <hi rend="italic">RE</hi> 5:2 (1905), 1933-1938.</p>
+         <p>Millar, F. <hi rend="italic">The Roman Near East.
     31 BC - AD 337</hi>. Cambridge, Mass.: Harvard University
     Press, 1993.</p>
-         <p xml:id="B79" rend="biblio">Monnot, G. <hi rend="italic">Penseurs musulmans et
-    religions iraniennes: �Abd al-Jabbār et ses devanciers</hi>.
-    �tudes musulmanes XVI. Paris: J. Vrin, 1974.</p>
-         <p xml:id="B80" rend="biblio">M�ller, K. �Apokalyptik/Apokalypsen
-    III. Die j�dische Apokalyptik. Anf�nge und Merkmale.�
-    <hi rend="italic">TRE</hi> 3 (1978), 202-251.</p>
-         <p xml:id="B81" rend="biblio">Murray, R. <hi rend="italic">Symbols of Church and
+         <p>Monnot, G. <hi rend="italic">Penseurs musulmans et
+    religions iraniennes: ‘Abd al-Jabbār et ses
+    devanciers</hi>. Études musulmanes XVI. Paris: J. Vrin,
+    1974.</p>
+         <p>Müller, K.
+    “Apokalyptik/Apokalypsen III. Die jüdische
+    Apokalyptik. Anfänge und Merkmale.” <hi rend="italic">TRE</hi> 3
+    (1978), 202-251.</p>
+         <p>Murray, R. <hi rend="italic">Symbols of Church and
     Kingdom: A Study in Early Syriac Tradition</hi>. revised ed.
     Piscataway, NJ: Gorgias Press, 2004.</p>
-         <p xml:id="B82" rend="biblio">Nickelsburg, G. W. E. �Social
-    Aspects of Palestinian Jewish Apocalypticism.� In:
+         <p>Nickelsburg, G. W. E. “Social
+    Aspects of Palestinian Jewish Apocalypticism.” In:
     <hi rend="italic">Apocalypticism in the Mediterranean World and the Near
-    East</hi>, ed. D. Hellholm. T�bingen: Mohr Siebeck, 1989,
+    East</hi>, ed. D. Hellholm. Tübingen: Mohr Siebeck, 1989,
     641-654.</p>
-         <p xml:id="B83" rend="biblio">—. �Wisdom and Apocalypticism in
-    Early Judaism: Some Points for Discussion.� In: <hi rend="italic">Conflicted
-    Boundaries in Wisdom and Apocalypticism</hi>, ed. B. G. Wright
-    and L. M. Wills. Atlanta: Society of Biblical Literature, 2005,
-    17-37.</p>
-         <p xml:id="B84" rend="biblio">Niehoff, M. R. �<hi rend="italic">Creatio ex
+         <p>—. “Wisdom and
+    Apocalypticism in Early Judaism: Some Points for
+    Discussion.” In: <hi rend="italic">Conflicted Boundaries in Wisdom and
+    Apocalypticism</hi>, ed. B. G. Wright and L. M. Wills. Atlanta:
+    Society of Biblical Literature, 2005, 17-37.</p>
+         <p>Niehoff, M. R. “<hi rend="italic">Creatio ex
     Nihilo</hi> Theology in <hi rend="italic">Genesis Rabbah</hi> in Light of
-    Christian Exegesis.� <hi rend="italic">HTR</hi> 99 (2005), 37-64.</p>
-         <p xml:id="B85" rend="biblio">Petersen, W. L. <hi rend="italic">Tatian�s
+    Christian Exegesis.” <hi rend="italic">HTR</hi> 99 (2005), 37-64.</p>
+         <p>Petersen, W. L. <hi rend="italic">Tatian’s
     Diatessaron: Its Creation, Dissemination, Significance, and
     History in Scholarship</hi>. SVigChr 25. Leiden: Brill,
     1994.</p>
-         <p xml:id="B86" rend="biblio">Possekel, U. �Bardaisan of Edessa on
-    the Resurrection: Early Syriac Eschatology in its
-    Religious-Historical Context.� <hi rend="italic">Oriens Christianus</hi> 88
-    (2004), 1-28.</p>
-         <p xml:id="B87" rend="biblio">Rabbow, P. <hi rend="italic">Seelenf�hrung:
-    Methodik der Exerzitien in der Antike</hi>. M�nchen: K�sel,
-    1954.</p>
-         <p xml:id="B88" rend="biblio">Ramelli, I. �Stoicismo e
-    cristianesimo in area siriaca nella seconda met� del I secolo
-    d. C.� <hi rend="italic">Sileno</hi> 25 (1999), 197-212.</p>
-         <p xml:id="B89" rend="biblio">Reinink, G. J. �Pseudo-Methodius und
-    die Legende vom r�mischen Endkaiser.� In: <hi rend="italic">The Use and Abuse
-    of Eschatology in the Middle Ages</hi>, ed. W. Verbeke, D.
-    Verhelst and A. Welkenhuysen. Leuven: Leuven University Press,
-    1988, 82-111.</p>
-         <p xml:id="B90" rend="biblio">Richardson, C. C. <hi rend="italic">Early
+         <p>Possekel, U. “Bardaisan of
+    Edessa on the Resurrection: Early Syriac Eschatology in its
+    Religious-Historical Context.” <hi rend="italic">Oriens
+    Christianus</hi> 88 (2004), 1-28.</p>
+         <p>Rabbow, P. <hi rend="italic">Seelenführung:
+    Methodik der Exerzitien in der Antike</hi>. München:
+    Kösel, 1954.</p>
+         <p>Ramelli, I. “Stoicismo e
+    cristianesimo in area siriaca nella seconda metà del I
+    secolo d. C.” <hi rend="italic">Sileno</hi> 25 (1999), 197-212.</p>
+         <p>Reinink, G. J.
+    “Pseudo-Methodius und die Legende vom römischen
+    Endkaiser.” In: <hi rend="italic">The Use and Abuse of Eschatology in
+    the Middle Ages</hi>, ed. W. Verbeke, D. Verhelst and A.
+    Welkenhuysen. Leuven: Leuven University Press, 1988,
+    82-111.</p>
+         <p>Richardson, C. C. <hi rend="italic">Early
     Christian Fathers</hi>. LCC. New York: Macmillan, 1970.</p>
-         <p xml:id="B91" rend="biblio">Ross, S. K. <hi rend="italic">Roman Edessa:
+         <p>Ross, S. K. <hi rend="italic">Roman Edessa:
     Politics and culture on the eastern fringes of the Roman
     Empire, 114-242 CE</hi>. London: Routledge, 2001.</p>
-         <p xml:id="B92" rend="biblio">Schulthess, F. �Der Brief des Mara
-    bar Sarapion: Ein Beitrag zur Geschichte der syrischen
-    Litteratur.� <hi rend="italic">ZDMG</hi> 51 (1897), 366-375.</p>
-         <p xml:id="B93" rend="biblio">Segal, J. B. <hi rend="italic">Edessa �The Blessed
-    City�</hi>. Oxford: Oxford University Press, 1970. Reprint
-    Piscataway, NJ: Gorgias Press, 2001.</p>
-         <p xml:id="B94" rend="biblio">Sherley-Price, L. <hi rend="italic">Bede,
+         <p>Schulthess, F. “Der Brief des
+    Mara bar Sarapion: Ein Beitrag zur Geschichte der syrischen
+    Litteratur.” <hi rend="italic">ZDMG</hi> 51 (1897), 366-375.</p>
+         <p>Segal, J. B. <hi rend="italic">Edessa ‘The
+    Blessed City’</hi>. Oxford: Oxford University Press,
+    1970. Reprint Piscataway, NJ: Gorgias Press, 2001.</p>
+         <p>Sherley-Price, L. <hi rend="italic">Bede,
     Ecclesiastical History of the English People</hi>. Revised ed.
     New York: Penguin, 1990.</p>
-         <p xml:id="B95" rend="biblio">Sommer, M. <hi rend="italic">Roms orientalische
-    Steppengrenze. Palmyra — Edessa — Dura-Europos — Hatra. Eine
-    Kulturgeschichte von Pompeius bis Diocletian</hi>. Oriens et
-    Occidens 9. Wiesbaden: Franz Steiner Verlag, 2005.</p>
-         <p xml:id="B96" rend="biblio">Teixidor, J. �Les derniers rois
-    d��desse d�apr�s deux nouveaux documents syriaques.�
-    <hi rend="italic">Zeitschrift f�r Papyrologie und Epigraphik</hi> 76 (1989),
-    219-222.</p>
-         <p xml:id="B97" rend="biblio">Ubigli, L. R. �Sybyllinen.�
-    <hi rend="italic">TRE</hi> 31 (2000), 240-245.</p>
-         <p xml:id="B98" rend="biblio">Vajda, G. �Le t�moigne de
-    al-Māturidī sur la doctrine des Manich�ens, des Dai<hi rend="u">s</hi>ānites et des Marcionites.� <hi rend="italic">Arabica</hi> 13
-    (1966), 1-38.</p>
-         <p xml:id="B99" rend="biblio">van Ess, J. <hi rend="italic">Theologie und
+         <p>Sommer, M. <hi rend="italic">Roms orientalische
+    Steppengrenze. Palmyra — Edessa — Dura-Europos
+    — Hatra. Eine Kulturgeschichte von Pompeius bis
+    Diocletian</hi>. Oriens et Occidens 9. Wiesbaden: Franz Steiner
+    Verlag, 2005.</p>
+         <p>Teixidor, J. “Les derniers
+    rois d’Édesse d’après deux nouveaux
+    documents syriaques.” <hi rend="italic">Zeitschrift für
+    Papyrologie und Epigraphik</hi> 76 (1989), 219-222.</p>
+         <p>Ubigli, L. R.
+    “Sybyllinen.” <hi rend="italic">TRE</hi> 31 (2000), 240-245.</p>
+         <p>Vajda, G. “Le témoigne
+    de al-Māturidī sur la doctrine des Manichéens,
+    des Dai<hi rend="u">s</hi>ānites et des
+    Marcionites.” <hi rend="italic">Arabica</hi> 13 (1966), 1-38.</p>
+         <p>van Ess, J. <hi rend="italic">Theologie und
     Gesellschaft im 2. und 3. Jahrhundert Hidschra. Eine Geschichte
-    des religi�sen Denkens im fr�hen Islam</hi>, 6 vols. Berlin: de
-    Gruyter, 1990-1995.</p>
-         <p xml:id="B100" rend="biblio">van Rompay, L. �Jacob of Edessa and
-    the Early History of Edessa.� In: <hi rend="italic">After Bardaisan: Studies
-    on Continuity and Change in Syriac Christianity in Honour of
-    Professor Han J. W. Drijvers</hi>, ed. G. J. Reinink and A. J.
-    Klugkist. Louvain: Peeters, 1999, 269-286.</p>
-         <p xml:id="B101" rend="biblio">Vielhauer, P. and G. Strecker.
-    �Apocalyptic in Early Christianity. Introduction.� In: <hi rend="italic">New
-    Testament Apocrypha</hi>, vol. 2, ed. E. Hennecke and W.
-    Schneemelcher. Louisville: Westminster/John Knox, 1992,
+    des religiösen Denkens im frühen Islam</hi>, 6 vols.
+    Berlin: de Gruyter, 1990-1995.</p>
+         <p>van Rompay, L. “Jacob of
+    Edessa and the Early History of Edessa.” In: <hi rend="italic">After
+    Bardaisan: Studies on Continuity and Change in Syriac
+    Christianity in Honour of Professor Han J. W. Drijvers</hi>,
+    ed. G. J. Reinink and A. J. Klugkist. Louvain: Peeters, 1999,
+    269-286.</p>
+         <p>Vielhauer, P. and G. Strecker.
+    “Apocalyptic in Early Christianity. Introduction.”
+    In: <hi rend="italic">New Testament Apocrypha</hi>, vol. 2, ed. E. Hennecke
+    and W. Schneemelcher. Louisville: Westminster/John Knox, 1992,
     569-602.</p>
-         <p xml:id="B102" rend="biblio">Weiss, H.-F. <hi rend="italic">Untersuchungen zur
-    Kosmologie des hellenistischen und pal�stinischen
+         <p>Weiss, H.-F. <hi rend="italic">Untersuchungen zur
+    Kosmologie des hellenistischen und palästinischen
     Judentums</hi>. TU 97. Berlin: Akademie-Verlag, 1966.</p>
-         <p xml:id="B103" rend="biblio">Zaehner, R. C. <hi rend="italic">Zurvan: A
+         <p>Zaehner, R. C. <hi rend="italic">Zurvan: A
     Zoroastrian Dilemma</hi>. Oxford: Clarendon Press, 1955.</p>
          <!-- InstanceEndEditable -->
       </body>

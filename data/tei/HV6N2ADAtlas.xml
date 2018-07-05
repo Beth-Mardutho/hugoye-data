@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ATLAS Digital Journal Project</title>
+            <title type="main">ATLAS Digital Journal Project</title>
             <author>
-               <name>American Theological Library Association</name>
+               <name>
+                  <forename>American</forename>
+                  <surname>Association</surname>
+               </name>
                <affiliation>
                   <orgName> </orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/advertisement/hv6n2adatlas</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>ATLA</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,20 +87,16 @@
          <!-- #BeginEditable "Content" -->
     
          <p>
-            <graphic url="Ad_ATLA.jpg"
-                     rend="img"
-                     mimeType="image/jpeg"
-                     width="600px"
-                     height="900px"/>
+            <graphic url="Ad_ATLA.jpg" rend="img" mimeType="image/jpeg" width="600px" height="900px"/>
          </p>
     
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     American Theological Library Association and <hi rend="italic">Hugoye: Journal
     of Syriac Studies</hi> are pleased to announce ATLAS, the first
     major digital journal project created for religion scholars by
-    religion scholars.� The ATLAS collection includes many of the
-    leading journals from all areas of theology and religion,
+    religion scholars.  The ATLAS collection includes many of
+    the leading journals from all areas of theology and religion,
     including <hi rend="italic">Hugoye</hi>.</p>
          <!-- #EndEditable -->
       </body>

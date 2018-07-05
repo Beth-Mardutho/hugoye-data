@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Credentials of Mar Julius Alvares, bishop of Ceylon, Goa and India Excluding Malabar</title>
+            <title type="main">The Credentials of Mar Julius Alvares, bishop of Ceylon, Goa and India Excluding Malabar</title>
             <author>
-               <name>George A. Kiraz</name>
+               <name>
+                  <forename>George A.</forename>
+                  <surname>Kiraz</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n2kiraz</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,39 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syrian Orthodox Church</term>
+               <term>Malabar</term>
+               <term>Malankara</term>
+               <term>Patriarch Peter</term>
+               <term>Julius Alvares</term>
+               <term>Joseph René Vilatte</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>This brief article gives the Syriac text,
+    with English translation, of the certificate of episcopal
+    consecration given to Mar Julius Alvares, a Roman Catholic
+    priest who joined the Syrian Orthodox Church in 1894. The text
+    is compared with the alleged certificate of episcopal
+    consecration given to Joseph René Vilatte, another
+    convert, who was later excommunicated from the said
+    Church.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,17 +103,10 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">This brief article gives the Syriac text,
-    with English translation, of the certificate of episcopal
-    consecration given to Mar Julius Alvares, a Roman Catholic
-    priest who joined the Syrian Orthodox Church in 1894. The text
-    is compared with the alleged certificate of episcopal
-    consecration given to Joseph Ren� Vilatte, another convert, who
-    was later excommunicated from the said Church.</p>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In the
+         <p>
+            <anchor corresp="P1"/>[1] In the
     summer of 2001, two late nineteenth-century documents were
     brought to my attention. The first one is a letter dated Feb
     10, 1894<ref target="#FN1">1</ref> from Matthew Konat (1860-1927), known in Syrian
@@ -82,15 +115,15 @@
     subject of this brief paper, contains the text of an original
     copy of the certificate of consecration given to Antonio
     Francisco Xavier Alvares,<ref target="#FN3">3</ref> a Roman Catholic priest who joined
-    the Syrian Orthodox Church and was consecrated metropolitan—Mor
-    Julius, bishop of Ceylon, Goa and India excluding Malabar. This
-    original copy was sent to Patriarch Peter in Mardin for the
-    Patriarchal records. Both documents once belonged to the
-    Patriarchal archive located in the Church of the Forty Martyrs
-    in Mardin.<ref target="#FN4">4</ref>
+    the Syrian Orthodox Church and was consecrated
+    metropolitan—Mor Julius, bishop of Ceylon, Goa and India
+    excluding Malabar. This original copy was sent to Patriarch
+    Peter in Mardin for the Patriarchal records. Both documents
+    once belonged to the Patriarchal archive located in the Church
+    of the Forty Martyrs in Mardin.<ref target="#FN4">4</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] A
+         <p>
+            <anchor corresp="P2"/>[2] A
     cursory Internet search on "Julius Alvares" gives numerous
     pages. Hardly anything is mentioned about Alvares in these
     pages; he is simply listed in a line of succession of the
@@ -103,14 +136,14 @@
     "Maran Mar Timotheus Josephus Narsi, Catholicos
     Patriarch.")<ref target="#FN5">5</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] While
+         <p>
+            <anchor corresp="P3"/>[3] While
     the consecration of Alvares to the episcopate cannot be
     challenged, his connection with the line of succession of such
     'wandering bishops' is due to his involvement in bringing one
-    Joseph Ren� Vilatte to the fold of the Syrian church and in
-    having him consecrated, also within the bounds of canon law, to
-    the episcopate in 1892 in Colombo. It was Alvares, together
+    Joseph René Vilatte to the fold of the Syrian church and
+    in having him consecrated, also within the bounds of canon law,
+    to the episcopate in 1892 in Colombo. It was Alvares, together
     with Mar Athanasius Paulos (d. 1907), Bishop of Kottayam, and
     Mar Gregorius Gewargis (d. 1902), Bishop of Niranam (and later
     of Thumpamon), who consecrated Vilatte in 1892 and named him
@@ -123,8 +156,8 @@
     in 1964, over 25 churches in America, Europe and Africa claimed
     the Vilatte succession.<ref target="#FN6">6</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Vilatte
+         <p>
+            <anchor corresp="P4"/>[4] Vilatte
     and his successors have always been challenged by Rome and
     Canterbury (as well as by the Episcopal Church in America) to
     produce the bull of Patriarch Peter sanctioning the
@@ -139,7 +172,7 @@
     Patriarch Barsoum, probably at the request of the Church of
     England, issued a statement in which he denied any relation
     with all schismatic bodies of the Vilatte line.<ref target="#FN7">7</ref>)</p>
-         <p style="text-align:center">
+         <p>
             <graphic url="HV7N2Kiraz_Fig1.jpg" rend="img" mimeType="image/jpeg"/>
             <lb/>
             <lb/>
@@ -151,7 +184,7 @@
          </p>
          <lb/>
          <lb/>
-         <p style="text-align:center">
+         <p>
             <graphic url="HV7N2Kiraz_Fig2.jpg" rend="img" mimeType="image/jpeg"/>
             <lb/>
             <lb/>
@@ -159,8 +192,8 @@
     Patriarch Peter sanctioning the consecration of Vilatte
     (Courtesy: Brandreth, <hi rend="italic">Episcopi Vagantes</hi>)<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     discovery of the certificate of consecration given to Alvares
     sheds some light on what the original Syriac of Vilatte's
     certificate may have looked like. In what follows, I give the
@@ -171,13 +204,10 @@
     sections (in curly brackets, { }) for ease of comparison.
     The reader will note much parallelism in the sequence of the
     text, as well as similarities in phraseology.</p>
-         <p html:align="center">
+         <p>
             <graphic url="HV7N2Kiraz_SyrText.jpg" rend="img" mimeType="image/jpeg"/>
          </p>
-         <table style="text-align:center"
-                html:border="1"
-                html:cellspacing="0"
-                html:cellpadding="5">
+         <table style="text-align:center" html:border="1" html:cellspacing="0" html:cellpadding="5">
             <row style="vertical-align:top">
                <cell valign="top" style="text-align:center" rowspan="1" colspan="1">
                   <hi rend="bold">Alvares's Certificate</hi>
@@ -272,83 +302,83 @@
           of the School of Kottayam which is in Malabar.</p>
                </cell>
                <cell rowspan="1" colspan="1">
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{2}</hi> In the Name of
           the Essential, eternal, Self-existing, Almighty.</p>
-                  <p html:align="left" style="text-align:left;">
+                  <p>
                      <hi rend="sup">{3}</hi>
           A.F.X. Alvarez, Metropolitan under Antioch.</p>
-                  <p style="text-align:left;">(Seal - Mar Athanasius)</p>
-                  <p style="text-align:left;">(Seal - Mar Gregorius)</p>
-                  <p style="text-align:left;">(Seal - Alvarez/Julius I)</p>
-                  <p style="text-align:left;">This is to certify that,</p>
-                  <p style="text-align:left;">
+                  <p>(Seal - Mar Athanasius)</p>
+                  <p>(Seal - Mar Gregorius)</p>
+                  <p>(Seal - Alvarez/Julius I)</p>
+                  <p>This is to certify that,</p>
+                  <p>
                      <hi rend="sup">{5}</hi> Rev. Joseph
-          Ren� Vilatte was duly raised to the Order of Monkhood:
-          and</p>
-                  <p style="text-align:left;">
+          René Vilatte was duly raised to the Order of
+          Monkhood: and</p>
+                  <p>
                      <hi rend="sup">{4}</hi> in virtue of
           the special authority conferred upon us on the fifteenth
           of Konum Kolim [<hi rend="italic">sic</hi>] by the Apostolical Edict of
           the Most Exalted Father and Head, His Holiness Moran Mar
           Ignatius Peter III., Patriarch of the Apostolic See of
           Antioch and of all the East,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{6}</hi> the said
           Monk,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{8}</hi> amidst solemn
           Mass, Prayers, and Services,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{7}</hi> was this day
           consecrated by the Holy Spirit,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{10}</hi> Metropolitan
           of the Archdiocese of America,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{9}</hi> in the
           meantime the Patriarchal Bull and the hands of our
           weaknesses being laid on his head.</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{11}</hi> As commanded
           in His Holiness' Edict, he was entitled Mar
           Timotheus;</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{12}</hi> and we,
           together with the assembled faithful, exclaimed, as is
           usual, "Worthy, Worthy, Worthy, our Father Timotheus of
           the said Diocese."</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{13}</hi> This sublime
           gift bestowed upon him by God, through the precious
           intercession of His Holiness, legally authorises him</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{14}</hi> to ordain
           monks, priests, deacons, etc., to consecrate churches,
           chancels, as well as baptismal and unctial oil,</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{15}</hi> and to
           exercise with perfect efficiency all other spiritual
           functions appertaining to metropolitan dignity, subject
           to the Patriarch of Antioch.</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{16}</hi> We entrust to
           his care the general epistle from the Holy See addressed
           to the believers of the above said Archdiocese;</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{17}</hi> also we have
           to add that His Holiness the Patriarch is prayed and
           expected to speedily dispatch the station [<hi rend="italic">sic</hi>],
           definitely describing its authority and jurisdiction.</p>
-                  <p style="text-align:left;">
+                  <p>
                      <hi rend="sup">{19}</hi> Church of Our
           Lady of Good Death, Columbo, Ceylon, twenty-ninth day of
           May eighteen hundred and ninety-two (29 5 1892).</p>
-                  <p style="text-align:left;">/Signed/ Mar Athanasius,
+                  <p>/Signed/ Mar Athanasius,
           Bishop of Kottayam</p>
-                  <p style="text-align:left;">/Signed/ Mar Gregorius,
+                  <p>/Signed/ Mar Gregorius,
           Bishop of Niranam</p>
-                  <p style="text-align:left;">/Signed/ A.F.X.
+                  <p>/Signed/ A.F.X.
           Alvarez/Julius I., Archbishop-Metropolitan for the
           Archdiocese of Ceylon, Goa and the whole of India.</p>
                </cell>
@@ -382,30 +412,22 @@ Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas Juckel)<br />
 </tr>
 </table>
 -->
-         <p style="text-align:center">
-            <graphic url="HV7N2Kiraz_Fig3.jpg"
-                     rend="img"
-                     mimeType="image/jpeg"
-                     width="500px"
-                     height="752px"/>
+         <p>
+            <graphic url="HV7N2Kiraz_Fig3.jpg" rend="img" mimeType="image/jpeg" width="500px" height="752px"/>
             <lb/>
             <lb/>
     Fig. 3. The Certificate of Alvares, recto (Courtesy: Andreas
     Juckel)<lb/>
          </p>
-         <p style="text-align:center">
-            <graphic url="HV7N2Kiraz_Fig4.jpg"
-                     rend="img"
-                     mimeType="image/jpeg"
-                     width="500px"
-                     height="752px"/>
+         <p>
+            <graphic url="HV7N2Kiraz_Fig4.jpg" rend="img" mimeType="image/jpeg" width="500px" height="752px"/>
             <lb/>
             <lb/>
     Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas
     Juckel)<lb/>
          </p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV7N2Kiraz2">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> It is not clear if this is a Julian or Gregorian
     date. Patriarch Peter III dated his communications, even during
     his visit to London, using the Julian calendar. It is not known
@@ -414,21 +436,21 @@ Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas Juckel)<br />
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> Peter IV designated himself during his patriarchate
     as Peter III. Later patriarchal lists designate him as Peter
     IV. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> For a biography of Alvares, see Carmo Azevedo,
     <hi rend="italic">Patriot &amp; Saint: The Life Story of Father
     Alvares/Bishop Mar Julius I</hi> (Panjim: 1988). <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> The Patriarchal archive in Mardin contains many
     letters in Syriac, Malayalam and English from and to India. It
     was organized by Mor Philoxenus Yuhanna Dolabani (1885-1969).
@@ -436,13 +458,13 @@ Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas Juckel)<br />
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> http://www.orderofthedove.org, checked on July 7,
     2004. <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> Peter F. Anson, <hi rend="italic">Bishops At Large</hi> (London:
     Faber and Faber, 1964), Chapter VIII. See also Henry R. T.
     Brandreth, <hi rend="italic">Episcopi Vagantes and the Anglican Church</hi>
@@ -450,19 +472,19 @@ Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas Juckel)<br />
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> Brandreth, <hi rend="italic">Episcopi Vagantes</hi>, pp. 118-119.
     <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> http://www.tboyle.net/Catholicism/Vilatte.html,
     checked on July 7, 2004. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> Patriarchs and bishops suffix their titles with a
     Syriac abbreviation consisting of the letter <hi rend="italic">Mim</hi> that
     has a double reading. The abbreviation is intended by the
@@ -472,20 +494,20 @@ Fig. 4. The Certificate of Alvares, verso (Courtesy: Andreas Juckel)<br />
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> = Gregorian 28 Jan. <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Anson, Peter F. <hi rend="italic">Bishops At
+         <head xml:id="HV7N2Kiraz3">Bibliography</head>
+         <p>Anson, Peter F. <hi rend="italic">Bishops At
     Large</hi> (London: Faber and Faber, 1964).</p>
-         <p xml:id="B2" rend="biblio">Azevedo, Carmo, <hi rend="italic">Patriot &amp;
+         <p>Azevedo, Carmo, <hi rend="italic">Patriot &amp;
     Saint: The Life Story of Father Alvares/Bishop Mar Julius
     I</hi> (Panjim: 1988).</p>
-         <p xml:id="B3" rend="biblio">Brandreth, Henry R. T. <hi rend="italic">Episcopi
+         <p>Brandreth, Henry R. T. <hi rend="italic">Episcopi
     Vagantes and the Anglican Church</hi> (London: S.P.C.K., 1961,
     2<hi rend="sup">nd</hi> edition).</p>
          <!-- InstanceEndEditable -->

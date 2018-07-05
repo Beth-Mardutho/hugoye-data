@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Shop at Amazon.com from Links at BethMardutho.org</title>
+            <title type="main">Shop at Amazon.com from Links at BethMardutho.org</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/advertisement/hv6n1adamazon</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Beth Mardutho</term>
+               <term>Amazon Associates</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,14 +101,10 @@
   coords="-2,-1,9998,9999"
   href="http://www.amazon.com/exec/obidos/redirect-home/bethmarduthth-20"
   shape="rect">--><!--</area>-->
-         <!--</map>-->   <graphic url="http://rcm-images.amazon.com/images/G/01/rcm/468x60.gif"
-                  rend="img"
-                  mimeType="image/gif"
-                  width="468px"
-                  height="60px"/>
+         <!--</map>-->   <graphic url="http://rcm-images.amazon.com/images/G/01/rcm/468x60.gif" rend="img" mimeType="image/gif" width="468px" height="60px"/>
          <!--</noscript>-->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Beth
+         <p>
+            <anchor corresp="P1"/>[1] Beth
       Mardutho has joined the Amazon Associates. For every purchase
       that you make from the links on this page, or from links
       found on <ref target="http://www.bethmardutho.org">www.bethmardutho.org</ref>, Beth
@@ -106,11 +126,7 @@
   coords="0,0,10000,10000"
   href="http://www.amazon.com/exec/obidos/redirect-home/bethmarduthth-20"
   shape="rect">--><!--</area>-->
-         <!--</map>-->   <graphic url="http://rcm-images.amazon.com/images/G/01/rcm/468x60.gif"
-                  rend="img"
-                  mimeType="image/gif"
-                  width="468px"
-                  height="60px"/>
+         <!--</map>-->   <graphic url="http://rcm-images.amazon.com/images/G/01/rcm/468x60.gif" rend="img" mimeType="image/gif" width="468px" height="60px"/>
          <!--</noscript>-->
          <!-- #EndEditable -->
       </body>

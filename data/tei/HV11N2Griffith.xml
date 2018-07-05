@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>John of Damascus and the Church in Syria in the Umayyad Era: The Intellectual and Cultural Milieu of Orthodox Christians in the World of Islam</title>
+            <title type="main">John of Damascus and the Church in Syria in the Umayyad Era: The Intellectual and Cultural Milieu of Orthodox Christians in the World of Islam</title>
             <author>
-               <name>Sidney H. Griffith</name>
+               <name>
+                  <forename>Sidney H.</forename>
+                  <surname>Griffith</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv11n2griffith</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,46 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>John of Damascus</term>
+               <term>Syria</term>
+               <term>Umayyad Era</term>
+               <term>Chalcedonian Orthodoxy</term>
+               <term>Melkites</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>St. John of Damascus (c. 675 — c.
+    749) was a contemporary of the Umayyad caliphs (661-750). The
+    twin social processes comprising the
+    ‘Arabicization’ and the concomitant
+    ‘Islamicization’ of the public domain of the
+    caliphate at the turn of the eighth century set the stage for
+    the first Christian responses to the social and religious
+    challenges of Islam. St. John of Damascus and his
+    Arabic-speaking heirs were the spokesmen who upheld the
+    ‘Melkite’ tradition and provided the basic
+    principles for the self-definition of ‘Melkite’
+    Orthodoxy in the world of Islam. The interests of the emerging
+    community of ‘Melkite’ Orthodox Christians in the
+    Umayyad era in Syria/Palestine furnish the most immediate frame
+    of reference for appreciating the significance of the works of
+    St. John of Damascus.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,34 +110,21 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">St. John of Damascus (c. 675 — c. 749) was
-    a contemporary of the Umayyad caliphs (661-750). The twin
-    social processes comprising the ‘Arabicization’ and the
-    concomitant ‘Islamicization’ of the public domain of the
-    caliphate at the turn of the eighth century set the stage for
-    the first Christian responses to the social and religious
-    challenges of Islam. St. John of Damascus and his
-    Arabic-speaking heirs were the spokesmen who upheld the
-    ‘Melkite’ tradition and provided the basic principles for the
-    self-definition of ‘Melkite’ Orthodoxy in the world of Islam.
-    The interests of the emerging community of ‘Melkite’ Orthodox
-    Christians in the Umayyad era in Syria/Palestine furnish the
-    most immediate frame of reference for appreciating the
-    significance of the works of St. John of Damascus.</p>
-         <head xml:id="S1" style="text-align:center">I</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
-    lifetime of St. John of Damascus (c. 675 — c. 749) coincided
-    almost exactly with the length of years during which the
-    Umayyad line of caliphs ruled in the world of Islam
+
+
+         <head xml:id="HV11N2Griffith2">I</head>
+         <p>
+            <anchor corresp="P1"/>[1] The
+    lifetime of St. John of Damascus (c. 675 — c. 749)
+    coincided almost exactly with the length of years during which
+    the Umayyad line of caliphs ruled in the world of Islam
     (661-750).<ref target="#FN1">1</ref> They had established their capital from the
-    beginning of their dynasty in John’s native city of Damascus,
-    thereby moving the center of Islamic government away from
-    Medina in Arabia, Islam’s birthplace, across the former
-    <hi rend="italic">limes arabicus</hi> of the Roman Empire, into the
-    cosmopolitan world of Rome’s former provinces of Syria and
-    Palestine, where Greek and Syriac-speaking Christians far
+    beginning of their dynasty in John’s native city of
+    Damascus, thereby moving the center of Islamic government away
+    from Medina in Arabia, Islam’s birthplace, across the
+    former <hi rend="italic">limes arabicus</hi> of the Roman Empire, into the
+    cosmopolitan world of Rome’s former provinces of Syria
+    and Palestine, where Greek and Syriac-speaking Christians far
     outnumbered the Arabic-speaking Muslims. In this milieu, as a
     recent study describes its own purview of the geopolitical
     situation in Umayyad times,</p>
@@ -102,8 +136,8 @@
       an important province in an emerging Arab Islamic empire of
       which it became the political centre.<ref target="#FN2">2</ref>
          </quote>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] It was
+         <p>
+            <anchor corresp="P2"/>[2] It was
     during the Umayyad period, and particularly during the reigns
     of the caliph ‛Abd al-Malik (685-705) and his sons and
     successors that the twin social processes of Arabicization and
@@ -120,8 +154,8 @@
     first registered their awareness that the invading and
     occupying Arabs had established a new religious hegemony in the
     land.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     construction of the Dome of the Rock on the Temple Mount in
     Jerusalem in the days of the caliph <hi rend="sup">
                <hi rend="italic">c</hi>
@@ -144,29 +178,30 @@
     the cityscape of Jerusalem and Damascus alike, to name only the
     most prominent urban localities of Syria/Palestine.<ref target="#FN10">10</ref> As a
     recent historian of the Umayyad era points out, the period of
-    the combined reigns of the caliphs ‘Abd al-Malik and his son
-    al-Walīd “was in some ways the high point of Umayyad power,
-    witnessing significant territorial advances... and the
-    emergence of a more marked Arabic and Islamic character in the
-    state’s public face.”<ref target="#FN11">11</ref>
+    the combined reigns of the caliphs ‘Abd al-Malik and his
+    son al-Walīd “was in some ways the high point of
+    Umayyad power, witnessing significant territorial advances...
+    and the emergence of a more marked Arabic and Islamic character
+    in the state’s public face.”<ref target="#FN11">11</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The twin
-    social processes comprising the ‘Arabicization’ and the
-    concomitant ‘Islamicization’ of the public domain of the
-    caliphate at the turn of the eighth century set the stage for
-    the first Christian responses to the social and religious
-    challenges of Islam. The earliest ones included polemical
-    attacks, such as the one contained in the <hi rend="italic">De
-    Haeresibus</hi> section of St. John of Damascus’ <hi rend="italic">Pēgē
-    Gnoseos</hi>, written in Greek,<ref target="#FN12">12</ref> as well as a number of
-    apocalyptic texts written in Syriac, such as the <hi rend="italic">Apocalypse
-    of Pseudo-Methodius</hi>,<ref target="#FN13">13</ref> and apologetic texts such as the
-    <hi rend="italic">Dialogue of a Monk of B�t <hi rend="u">H</hi>āl�</hi>
-    with a Muslim Notable, written in Syriac.<ref target="#FN14">14</ref> As the eighth
-    century stretched into the early years of the ninth century,
-    the Christian communities in the world of Islam, and especially
-    those who would soon be called ‘Melkites’ in Syria/Palestine,
+         <p>
+            <anchor corresp="P4"/>[4] The twin
+    social processes comprising the ‘Arabicization’ and
+    the concomitant ‘Islamicization’ of the public
+    domain of the caliphate at the turn of the eighth century set
+    the stage for the first Christian responses to the social and
+    religious challenges of Islam. The earliest ones included
+    polemical attacks, such as the one contained in the <hi rend="italic">De
+    Haeresibus</hi> section of St. John of Damascus’
+    <hi rend="italic">Pēgē Gnoseos</hi>, written in Greek,<ref target="#FN12">12</ref> as
+    well as a number of apocalyptic texts written in Syriac, such
+    as the <hi rend="italic">Apocalypse of Pseudo-Methodius</hi>,<ref target="#FN13">13</ref> and apologetic
+    texts such as the <hi rend="italic">Dialogue of a Monk of Bêt
+    <hi rend="u">H</hi>ālê</hi> with a Muslim
+    Notable, written in Syriac.<ref target="#FN14">14</ref> As the eighth century stretched
+    into the early years of the ninth century, the Christian
+    communities in the world of Islam, and especially those who
+    would soon be called ‘Melkites’ in Syria/Palestine,
     whose ecclesiastical center for all practical purposes was the
     see of Jerusalem with her attendant monastic communities in
     Judea and the Sinai, adopted Arabic not only as their public
@@ -174,12 +209,12 @@
     well, and their writers were the first among the subject
     Christians to address issues of public religious behavior in
     the Islamic realm and to make claims for a public presence of
-    Arabophone Christians in the ‘World of Islam’ (<hi rend="italic">dār
-    al-islām</hi>).<ref target="#FN15">15</ref>
+    Arabophone Christians in the ‘World of Islam’
+    (<hi rend="italic">dār al-islām</hi>).<ref target="#FN15">15</ref>
          </p>
-         <head xml:id="S1" style="text-align:center">II</head>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] For a
+         <head xml:id="HV11N2Griffith3">II</head>
+         <p>
+            <anchor corresp="P5"/>[5] For a
     century and more in the Roman Empire, from the time of the
     emperor Justinian I (527-565) and the council of Constantinople
     II (553) until the council of Constantinople III (681) in the
@@ -194,25 +229,26 @@
     in the several different geographical areas, were translated
     from their originally Greek sources.<ref target="#FN16">16</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In the
-    case of Syria/Palestine, where the so-called ‘dyophysite’ or
-    Chalcedonian orthodoxy came to hold sway from the later fifth
-    century onward,<ref target="#FN17">17</ref> and where Greek was the dominant
-    ecclesiastical language in the numerous international monastic
-    communities,<ref target="#FN18">18</ref> the Aramaic dialect of the local churches was
-    Christian Palestinian Aramaic.<ref target="#FN19">19</ref> In the hinterlands of Syria
-    and Mesopotamia, the far-flung territories of the patriarchate
-    of Antioch, where the local Christian communities straddled the
-    frontiers of the Roman and Persian empires, and where
-    ‘Byzantine’ imperial orthodoxy was widely rejected by both the
-    so-called ‘Monophysite’ ‘Jacobites’ and the ‘Dyophysite’
-    ‘Nestorians’; Syriac was the Aramaic dialect which served as
-    the dominant ecclesiastical language. In Egypt, Coptic and
-    Greek were the languages of the burgeoning Coptic Orthodox
-    Church,<ref target="#FN20">20</ref> while Ethiopic and Armenian quickly became the
-    ecclesiastical languages of their own respective
-    homelands.<ref target="#FN21">21</ref> Most Syriac, Coptic, Ethiopic and
+         <p>
+            <anchor corresp="P6"/>[6] In the
+    case of Syria/Palestine, where the so-called
+    ‘dyophysite’ or Chalcedonian orthodoxy came to hold
+    sway from the later fifth century onward,<ref target="#FN17">17</ref> and where Greek
+    was the dominant ecclesiastical language in the numerous
+    international monastic communities,<ref target="#FN18">18</ref> the Aramaic dialect of the
+    local churches was Christian Palestinian Aramaic.<ref target="#FN19">19</ref> In the
+    hinterlands of Syria and Mesopotamia, the far-flung territories
+    of the patriarchate of Antioch, where the local Christian
+    communities straddled the frontiers of the Roman and Persian
+    empires, and where ‘Byzantine’ imperial orthodoxy
+    was widely rejected by both the so-called
+    ‘Monophysite’ ‘Jacobites’ and the
+    ‘Dyophysite’ ‘Nestorians’; Syriac was
+    the Aramaic dialect which served as the dominant ecclesiastical
+    language. In Egypt, Coptic and Greek were the languages of the
+    burgeoning Coptic Orthodox Church,<ref target="#FN20">20</ref> while Ethiopic and Armenian
+    quickly became the ecclesiastical languages of their own
+    respective homelands.<ref target="#FN21">21</ref> Most Syriac, Coptic, Ethiopic and
     Armenian-speaking Christians in the early Islamic period
     accepted Christological formulae articulated the most
     effectively either originally in Greek by Severus of Antioch
@@ -224,90 +260,93 @@
     Greek a hundred years earlier.<ref target="#FN23">23</ref> After the middle third of
     the sixth century, double hierarchies for the competing
     communions arose in the patriarchates of Alexandria (535) and
-    Antioch (557). In Persia, the ancient ‘Church of the East’ had
-    its own Metropolitan bishop, sometimes styled ‘Catholicos’, and
-    later ‘patriarch’, seated in the capital city of
-    Seleucia-Ctesiphon. This church accepted the Nicene faith at
-    the synod of 410, and thereafter, in a series of councils and
-    synods stretching into the eighth century, articulated its own
-    distinctive creed, based on the teaching of Theodore of
-    Mopsuestia, which most other churches eventually characterized
-    as ‘Nestorian’.<ref target="#FN24">24</ref>
+    Antioch (557). In Persia, the ancient ‘Church of the
+    East’ had its own Metropolitan bishop, sometimes styled
+    ‘Catholicos’, and later ‘patriarch’,
+    seated in the capital city of Seleucia-Ctesiphon. This church
+    accepted the Nicene faith at the synod of 410, and thereafter,
+    in a series of councils and synods stretching into the eighth
+    century, articulated its own distinctive creed, based on the
+    teaching of Theodore of Mopsuestia, which most other churches
+    eventually characterized as ‘Nestorian’.<ref target="#FN24">24</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In the
+         <p>
+            <anchor corresp="P7"/>[7] In the
     early years of Umayyad times, all of these ecclesial
     communities had interests in the Holy Land. The see of
-    Jerusalem, with its single officially ‘Chalcedonian’
-    hierarchical establishment, nevertheless remained the
-    pilgrimage center for all Christians and under Muslim rule
-    Syrian and Armenian ‘Jacobites’ and ‘Nestorians’ were a notable
-    presence in the environs of the church of the Anastasis, the
-    Holy Sepulchre.<ref target="#FN25">25</ref> Here the adherents of all the principal
-    confessional allegiances met and often argued their respective
-    cases.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8]
+    Jerusalem, with its single officially
+    ‘Chalcedonian’ hierarchical establishment,
+    nevertheless remained the pilgrimage center for all Christians
+    and under Muslim rule Syrian and Armenian
+    ‘Jacobites’ and ‘Nestorians’ were a
+    notable presence in the environs of the church of the
+    Anastasis, the Holy Sepulchre.<ref target="#FN25">25</ref> Here the adherents of all
+    the principal confessional allegiances met and often argued
+    their respective cases.</p>
+         <p>
+            <anchor corresp="P8"/>[8]
     Meanwhile, for much of the seventh century, Chalcedonian
     Christians living under Muslim rule in Syria/Palestine, writing
     in Greek, Christian Palestinian Aramaic and Syriac, became very
     much involved in controversy with their own co-religionists
     both at home and abroad over the issues of the Byzantine
-    emperors’ promotion of the doctrines of ‘Monenergism’ and
-    ‘Monotheletism’ among the Chalcedonians in an effort to heal
-    the doctrinal rift between them and the so-called ‘Jacobites’
-    or ‘Monophysites’ in the patriarchates of Alexandria and
-    Antioch.<ref target="#FN26">26</ref> The chronology of the promotion of the
-    doctrine of ‘Monotheletism’ among the Byzantine Orthodox
-    spanned the years of the consecutive Persian (614-628) and
-    Islamic (634-640) occupations of the territories of Antioch,
-    Jerusalem and Alexandria;<ref target="#FN27">27</ref> it was promoted for political and
-    strategic reasons during the reign of the emperor Heraclius
-    (610-641),<ref target="#FN28">28</ref> and was finally anathematized only at the
+    emperors’ promotion of the doctrines of
+    ‘Monenergism’ and ‘Monotheletism’ among
+    the Chalcedonians in an effort to heal the doctrinal rift
+    between them and the so-called ‘Jacobites’ or
+    ‘Monophysites’ in the patriarchates of Alexandria
+    and Antioch.<ref target="#FN26">26</ref> The chronology of the promotion of the
+    doctrine of ‘Monotheletism’ among the Byzantine
+    Orthodox spanned the years of the consecutive Persian (614-628)
+    and Islamic (634-640) occupations of the territories of
+    Antioch, Jerusalem and Alexandria;<ref target="#FN27">27</ref> it was promoted for
+    political and strategic reasons during the reign of the emperor
+    Heraclius (610-641),<ref target="#FN28">28</ref> and was finally anathematized only at the
     council of Constantinople III (681),<ref target="#FN29">29</ref> well into the
     Umayyad era. In Syria/Palestine, the controversy over this
     issue involved all parties, including most notably both
-    ‘Jacobites’ and Chalcedonians, and in due course it provided
-    the immediate theological and ecclesial context for the
-    emergence of the ‘Melkites’ as a distinct denomination of
-    Christians in the world of Islam, among whom St. John of
-    Damascus was destined to become the principal theological
-    spokesman, as we shall discuss below.</p>
-         <head xml:id="S1" style="text-align:center">III</head>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] Among
+    ‘Jacobites’ and Chalcedonians, and in due course it
+    provided the immediate theological and ecclesial context for
+    the emergence of the ‘Melkites’ as a distinct
+    denomination of Christians in the world of Islam, among whom
+    St. John of Damascus was destined to become the principal
+    theological spokesman, as we shall discuss below.</p>
+         <head xml:id="HV11N2Griffith4">III</head>
+         <p>
+            <anchor corresp="P9"/>[9] Among
     the Greek-speaking theologians of the seventh century who
-    attacked ‘Monotheletism’, none was more successful in the long
-    run than St. Maximus the Confessor (c. 580-662). It seems
-    entirely plausible, in spite of an astonishing unwillingness on
-    the part of some scholars seriously to consider the pertinent
-    evidence,<ref target="#FN30">30</ref> that like his sometime companion and older
-    contemporary, Patriarch Sophronius of Jerusalem (c. 560-638),
-    who was born in Damascus,<ref target="#FN31">31</ref> Maximus was also a
-    Syro-Palestinian by birth and that his early religious
-    formation was not in Constantinople as his hagiographical
-    <hi rend="italic">Vita</hi> alleges, but in the Chalcedonian monastery of St.
-    Chariton in the Judean desert.<ref target="#FN32">32</ref> This much is claimed by
-    virtually contemporary documents in Syriac composed by Maximus’
-    theological adversaries.<ref target="#FN33">33</ref> These adversaries, who were in
-    all likelihood themselves staunchly ‘Chalcedonian’
-    Maronites,<ref target="#FN34">34</ref> wrote from within the theological context of
-    the Syriac-speaking churches in Syria/Palestine which were at
-    the time all under the strong influence of the ecclesiastical
-    center of Edessa in Syria, where the ‘Jacobites’ formed the
-    dominant theological school of thought among the Syriac
-    speakers, with the redoubtable Jacob of Edessa (c. 640-708)
-    eventually emerging as their principal spokesman.<ref target="#FN35">35</ref>
+    attacked ‘Monotheletism’, none was more successful
+    in the long run than St. Maximus the Confessor (c. 580-662). It
+    seems entirely plausible, in spite of an astonishing
+    unwillingness on the part of some scholars seriously to
+    consider the pertinent evidence,<ref target="#FN30">30</ref> that like his sometime
+    companion and older contemporary, Patriarch Sophronius of
+    Jerusalem (c. 560-638), who was born in Damascus,<ref target="#FN31">31</ref>
+    Maximus was also a Syro-Palestinian by birth and that his early
+    religious formation was not in Constantinople as his
+    hagiographical <hi rend="italic">Vita</hi> alleges, but in the Chalcedonian
+    monastery of St. Chariton in the Judean desert.<ref target="#FN32">32</ref> This much is
+    claimed by virtually contemporary documents in Syriac composed
+    by Maximus’ theological adversaries.<ref target="#FN33">33</ref> These
+    adversaries, who were in all likelihood themselves staunchly
+    ‘Chalcedonian’ Maronites,<ref target="#FN34">34</ref> wrote from within
+    the theological context of the Syriac-speaking churches in
+    Syria/Palestine which were at the time all under the strong
+    influence of the ecclesiastical center of Edessa in Syria,
+    where the ‘Jacobites’ formed the dominant
+    theological school of thought among the Syriac speakers, with
+    the redoubtable Jacob of Edessa (c. 640-708) eventually
+    emerging as their principal spokesman.<ref target="#FN35">35</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] The
-    attraction of ‘Monotheletism’ for Syriac-speaking Chalcedonians
-    in the Syro-Palestinian milieu was precisely what they
-    undoubtedly perceived to be its ecumenical potential for better
-    relations with the dominant ‘Jacobites’ in an era of crisis,
-    when religious harmony would be an aid in defense of the
-    Christian commonweal, not least in Jerusalem and the Holy
-    Land.<ref target="#FN36">36</ref> The crisis was first precipitated by the
+         <p>
+            <anchor corresp="P10"/>[10] The
+    attraction of ‘Monotheletism’ for Syriac-speaking
+    Chalcedonians in the Syro-Palestinian milieu was precisely what
+    they undoubtedly perceived to be its ecumenical potential for
+    better relations with the dominant ‘Jacobites’ in
+    an era of crisis, when religious harmony would be an aid in
+    defense of the Christian commonweal, not least in Jerusalem and
+    the Holy Land.<ref target="#FN36">36</ref> The crisis was first precipitated by the
     invading Persians from 614 to 628,<ref target="#FN37">37</ref> and it was immediately
     followed a half dozen years later by the final demise of Roman
     rule in the area and the consequent occupation of the Aramean
@@ -316,44 +355,48 @@
     religious communities who dissented from Chalcedonian
     orthodoxy, so from the mid-seventh century onward the
     Chalcedonians in the world of Islam faced renewed challenges
-    from both the ‘Jacobites’ and the ‘Nestorians’, both of which
-    groups far outnumbered the remaining Chalcedonians among the
-    local Arameans and Arabs, especially after the flight of so
-    many ‘Romans’ (<hi rend="italic">ar-Rūm</hi>)<ref target="#FN38">38</ref> in the aftermath of the
-    conquest, an exodus which would reach its apogee in Abbasid
-    times, in the first decades of the ninth century.<ref target="#FN39">39</ref>
+    from both the ‘Jacobites’ and the
+    ‘Nestorians’, both of which groups far outnumbered
+    the remaining Chalcedonians among the local Arameans and Arabs,
+    especially after the flight of so many ‘Romans’
+    (<hi rend="italic">ar-Rūm</hi>)<ref target="#FN38">38</ref> in the aftermath of the conquest,
+    an exodus which would reach its apogee in Abbasid times, in the
+    first decades of the ninth century.<ref target="#FN39">39</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] From
+         <p>
+            <anchor corresp="P11"/>[11] From
     the late seventh century onward, Syriac and then
-    Arabic-speaking ‘Jacobites’ regularly referred to their
-    Chalcedonian adversaries within the Islamic world with the
-    polemical terms ‘Maximists’ or ‘Melkites’; ‘Maximists’ because
-    they accepted the Christology of Maximus the Confessor as
-    definitive, and ‘Melkites’, or ‘Royalists’/‘Imperialists’,
-    because they accepted creedal formulae approved by the church
-    council called by the Roman emperor Constantine IV, the
-    ecumenical council, Constantinople III (681).<ref target="#FN40">40</ref> From the time
-    of that council onward, among the Christians in the world of
-    Islam, first in Greek and then in Aramaic/Syriac, and
-    eventually in Arabic,<ref target="#FN41">41</ref> the see of Jerusalem and its associated
+    Arabic-speaking ‘Jacobites’ regularly referred to
+    their Chalcedonian adversaries within the Islamic world with
+    the polemical terms ‘Maximists’ or
+    ‘Melkites’; ‘Maximists’ because they
+    accepted the Christology of Maximus the Confessor as
+    definitive, and ‘Melkites’, or
+    ‘Royalists’/‘Imperialists’, because
+    they accepted creedal formulae approved by the church council
+    called by the Roman emperor Constantine IV, the ecumenical
+    council, Constantinople III (681).<ref target="#FN40">40</ref> From the time of that
+    council onward, among the Christians in the world of Islam,
+    first in Greek and then in Aramaic/Syriac, and eventually in
+    Arabic,<ref target="#FN41">41</ref> the see of Jerusalem and its associated
     monastic communities became the champions of imperial,
     Byzantine Orthodoxy throughout Syria, Palestine and Egypt.
     Indeed in due course they became a distinct Christian
     denomination whom both their Christian adversaries and the
-    Muslims alike regularly called ‘Melkites’;<ref target="#FN42">42</ref> the see of
-    Jerusalem remained their ecclesiastical center, and for
+    Muslims alike regularly called ‘Melkites’;<ref target="#FN42">42</ref> the
+    see of Jerusalem remained their ecclesiastical center, and for
     centuries Jerusalem, and especially the monastery of Mar Saba,
     exerted a strong spiritual and intellectual influence even in
-    the ‘Melkite’ communities of the patriarchates of Alexandria
-    and Antioch.<ref target="#FN43">43</ref>
+    the ‘Melkite’ communities of the patriarchates of
+    Alexandria and Antioch.<ref target="#FN43">43</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] St.
+         <p>
+            <anchor corresp="P12"/>[12] St.
     John of Damascus and his Arabic-speaking heirs, like Theodore
-    Abū Qurrah (c. 755 — c. 830), were the spokesmen who upheld the
-    ‘Melkite’ tradition. They wrote in reaction not only to the
-    largely Syriac-speaking ‘Jacobites’ and ‘Nestorians’, but also
+    Abū Qurrah (c. 755 — c. 830), were the spokesmen who
+    upheld the ‘Melkite’ tradition. They wrote in
+    reaction not only to the largely Syriac-speaking
+    ‘Jacobites’ and ‘Nestorians’, but also
     against the multiple religious challenges of the era in
     Syria/Palestine, including those coming from Muslims and
     Manichees, as well as from new movements among the Christians
@@ -363,9 +406,9 @@
     in Byzantium in the early eighth century, it exacerbated the
     embarrassment of orthodox Christians living under the Muslims,
     especially in the Holy Land, as we shall see.</p>
-         <head xml:id="S1" style="text-align:center">IV</head>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] St.
+         <head xml:id="HV11N2Griffith5">IV</head>
+         <p>
+            <anchor corresp="P13"/>[13] St.
     John of Damascus was one of a number of Greek writers in
     Syria/Palestine in the seventh and early eighth centuries who
     defended the cause of imperial, Byzantine orthodoxy as it was
@@ -374,52 +417,55 @@
     as their primary frame of reference, these writers were in fact
     the most prominent Greek writers of their day. As Cyril Mango
     as notably observed, “practically nothing was written at
-    Constantinople down to the 780’s, not even hagiography... The
-    most active centre of Greek culture in the 8<hi rend="sup">th</hi>
+    Constantinople down to the 780’s, not even hagiography...
+    The most active centre of Greek culture in the 8<hi rend="sup">th</hi>
     century lay in Palestine, notably in Jerusalem and the
-    neighbouring monasteries.”<ref target="#FN44">44</ref> But these monasteries were not
-    simply outposts of Constantinopolitan faith and culture left
-    over for a season in a conquered territory, as modern
+    neighbouring monasteries.”<ref target="#FN44">44</ref> But these monasteries were
+    not simply outposts of Constantinopolitan faith and culture
+    left over for a season in a conquered territory, as modern
     Byzantinists sometimes have a tendency to portray them.<ref target="#FN45">45</ref> On the
     contrary, from the eighth century to the mid-eleventh century
     they composed the inspirational center for a wide-ranging
-    network of ‘Melkite’ communities in the Levant.<ref target="#FN46">46</ref> This much one
-    can glean from a number of sources, but one of the most
-    instructive is the <hi rend="italic">Life of St. Stephen the Saba�te</hi> (d.
-    794) by Leontius of Damascus, written in Greek around the year
-    807 but surviving only in Arabic; from it alone, to name no
-    other source, one can trace the geographical network of
-    ‘Melkite’ relationships between Alexandria, Sinai, Jerusalem,
-    Edessa and Baghdad.<ref target="#FN47">47</ref> These locations, all in the Islamic
-    world, name the points on the horizon within which the
-    ‘Melkites’ thought and wrote, first in Greek and then in
-    Arabic, and these same locations provided the immediate frame
-    of reference and the cultural context within which the
-    ‘Melkites’ defended their faith against their Christian, Muslim
-    and Manichaean adversaries. Constantinople lay beyond this
-    horizon, but it was arguably never completely out of mind,
-    albeit that the doctrinal and political concerns of the Roman
-    world would not have been the most pressing issues for the
-    ‘Melkites’. Until the early decades of the ninth century
-    ‘Melkites’ seem to have had some regular contact with
-    Constantinople and even to have exercised some considerable
-    influence there, largely through the activities of �migr�
-    monks.<ref target="#FN48">48</ref> But from around the year 825 until well after
-    the mid-tenth century the ties seem to have been completely
-    broken; they were restored for a season (969-1085) in the
-    territories of Antioch; they were not restored in Jerusalem
-    until the reign of the emperor Constantine IX Monomachos
-    (1042-1055).<ref target="#FN49">49</ref> But these observations take us beyond our
-    immediate concern with the era of St. John of Damascus.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] At
+    network of ‘Melkite’ communities in the
+    Levant.<ref target="#FN46">46</ref> This much one can glean from a number of
+    sources, but one of the most instructive is the <hi rend="italic">Life of St.
+    Stephen the Sabaïte</hi> (d. 794) by Leontius of Damascus,
+    written in Greek around the year 807 but surviving only in
+    Arabic; from it alone, to name no other source, one can trace
+    the geographical network of ‘Melkite’ relationships
+    between Alexandria, Sinai, Jerusalem, Edessa and
+    Baghdad.<ref target="#FN47">47</ref> These locations, all in the Islamic world,
+    name the points on the horizon within which the
+    ‘Melkites’ thought and wrote, first in Greek and
+    then in Arabic, and these same locations provided the immediate
+    frame of reference and the cultural context within which the
+    ‘Melkites’ defended their faith against their
+    Christian, Muslim and Manichaean adversaries. Constantinople
+    lay beyond this horizon, but it was arguably never completely
+    out of mind, albeit that the doctrinal and political concerns
+    of the Roman world would not have been the most pressing issues
+    for the ‘Melkites’. Until the early decades of the
+    ninth century ‘Melkites’ seem to have had some
+    regular contact with Constantinople and even to have exercised
+    some considerable influence there, largely through the
+    activities of émigré monks.<ref target="#FN48">48</ref> But from around
+    the year 825 until well after the mid-tenth century the ties
+    seem to have been completely broken; they were restored for a
+    season (969-1085) in the territories of Antioch; they were not
+    restored in Jerusalem until the reign of the emperor
+    Constantine IX Monomachos (1042-1055).<ref target="#FN49">49</ref> But these
+    observations take us beyond our immediate concern with the era
+    of St. John of Damascus.</p>
+         <p>
+            <anchor corresp="P14"/>[14] At
     the turn of the seventh and eighth centuries, during the years
     immediately following the council of Constantinople III (681),
     in Syria/Palestine Anastasius of Sinai (d. after 700) was
-    arguably the most significant, proto-‘Melkite’ writer.<ref target="#FN50">50</ref> In his
-    landmark book, the <hi rend="italic">Hodegos</hi>, written in Greek,<ref target="#FN51">51</ref>
-    Anastasius set out Byzantine orthodox Christology, largely in
-    reaction to doctrines current in the ‘Jacobite’ community, the
+    arguably the most significant, proto-‘Melkite’
+    writer.<ref target="#FN50">50</ref> In his landmark book, the <hi rend="italic">Hodegos</hi>,
+    written in Greek,<ref target="#FN51">51</ref> Anastasius set out Byzantine orthodox
+    Christology, largely in reaction to doctrines current in the
+    ‘Jacobite’ community, the
     ‘Monophysites’ as he called them, and against the
     ‘Monothelites’, in a way that uncannily anticipated
     difficulties to come.<ref target="#FN52">52</ref> For example, his emphasis on the full
@@ -431,181 +477,187 @@
     iconophobes, as we shall see below. What is more, in this same
     work Anastasius became one of the first Christian writers on
     record to take cognizance of the religious ideas of the Muslim
-    Arabs and even to quote the Qur’ān; he argued that the
-    heretical notions of the ‘Jacobites’ had misled the
-    Arabs.<ref target="#FN54">54</ref> Another work attributed to Anastasius of Sinai
+    Arabs and even to quote the Qur’ān; he argued that
+    the heretical notions of the ‘Jacobites’ had misled
+    the Arabs.<ref target="#FN54">54</ref> Another work attributed to Anastasius of Sinai
     is usually called <hi rend="italic">Quaestiones et Responsiones</hi>,
     seemingly also largely excerpted in the pseudo-Athanasian
     <hi rend="italic">Quaestiones ad Antiochum Ducem</hi>. While modern scholars
     have not paid much attention to this widely copied and often
-    expanded text, early ‘Melkite’ writers were very fond of it and
-    they frequently quoted from it and referred to it, not least in
-    Arabic.<ref target="#FN55">55</ref> Clearly Anastasius’ was an important voice in
-    the rising generation of ‘Melkite’ thinkers who in the seventh
-    century and the first half of the eighth century in
-    Syria/Palestine articulated the first doctrinal synthesis of
-    what we moderns are inclined to call ‘Byzantine Orthodoxy’, but
-    which the locals more aptly defended as simply the ‘Orthodoxy
-    of the Six Councils’. It was the religious backbone of the
-    cultural transformation which Byzantinist John Haldon has so
-    evocatively sketched.<ref target="#FN56">56</ref>
+    expanded text, early ‘Melkite’ writers were very
+    fond of it and they frequently quoted from it and referred to
+    it, not least in Arabic.<ref target="#FN55">55</ref> Clearly Anastasius’ was an
+    important voice in the rising generation of
+    ‘Melkite’ thinkers who in the seventh century and
+    the first half of the eighth century in Syria/Palestine
+    articulated the first doctrinal synthesis of what we moderns
+    are inclined to call ‘Byzantine Orthodoxy’, but
+    which the locals more aptly defended as simply the
+    ‘Orthodoxy of the Six Councils’. It was the
+    religious backbone of the cultural transformation which
+    Byzantinist John Haldon has so evocatively sketched.<ref target="#FN56">56</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15]
+         <p>
+            <anchor corresp="P15"/>[15]
     Modern Byzantinists have not been slow to recognize the
     accomplishments of the remarkable, Greek-speaking,
     Syro/Palestinian scholars of the eighth century, with St. John
     of Damascus occupying the first place among them. They included
     poets, hagiographers, hymnographers and theologians of the
     caliber of Andrew of Crete (c. 669 — c. 740), sometime
-    ‘Monothelite’ but notable poet and preacher, Leontius of
-    Damascus the hagiographer, whom we have already mentioned,
-    Cosmas of Maiuma, ‘the Melode’ (c. 675 — c. 752), and of course
-    John of Damascus himself, to name only those with the most
-    immediate name recognition in modern times.<ref target="#FN57">57</ref> Indeed there has
-    even been the sense among some Byzantinists, while strangely
-    discounting the immediate local relevance of their work,
-    nevertheless to recognize the defining character of the
-    Syro/Palestinian writers’ contributions to Orthodox theology in
-    the larger world, especially the work of St. John of
-    Damascus,<ref target="#FN58">58</ref> albeit that his achievement was only belatedly
-    recognized in Constantinople, where in the mid-eighth century
-    he was still being characterized as stubbornly
+    ‘Monothelite’ but notable poet and preacher,
+    Leontius of Damascus the hagiographer, whom we have already
+    mentioned, Cosmas of Maiuma, ‘the Melode’ (c. 675
+    — c. 752), and of course John of Damascus himself, to
+    name only those with the most immediate name recognition in
+    modern times.<ref target="#FN57">57</ref> Indeed there has even been the sense among
+    some Byzantinists, while strangely discounting the immediate
+    local relevance of their work, nevertheless to recognize the
+    defining character of the Syro/Palestinian writers’
+    contributions to Orthodox theology in the larger world,
+    especially the work of St. John of Damascus,<ref target="#FN58">58</ref> albeit that his
+    achievement was only belatedly recognized in Constantinople,
+    where in the mid-eighth century he was still being
+    characterized as stubbornly
     ‘Saracen-minded’.<ref target="#FN59">59</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] Two
+         <p>
+            <anchor corresp="P16"/>[16] Two
     important, but now anonymous, theological reference works in
     Greek of great influence in the promotion of ‘Byzantine
-    Orthodoxy’ in our period were produced in this Syro/Palestinian
-    milieu, the <hi rend="italic">Doctrina Patrum</hi> and the ever popular
-    <hi rend="italic">Sacra Parallela</hi>, both of which served Arabic-speaking
-    ‘Melkite’ writers well into the Middle Ages. The <hi rend="italic">Doctrina
-    Patrum</hi> has sometimes, probably wrongly, been attributed to
-    Anastasius of Sinai; it seems to be the older compilation of
-    the two, reflecting the teachings of Maximus the Confessor, and
-    those of both the sixth century Leontius of Byzantium and
-    Leontius of Jerusalem.<ref target="#FN60">60</ref> The compilation of the <hi rend="italic">Sacra
+    Orthodoxy’ in our period were produced in this
+    Syro/Palestinian milieu, the <hi rend="italic">Doctrina Patrum</hi> and the
+    ever popular <hi rend="italic">Sacra Parallela</hi>, both of which served
+    Arabic-speaking ‘Melkite’ writers well into the
+    Middle Ages. The <hi rend="italic">Doctrina Patrum</hi> has sometimes,
+    probably wrongly, been attributed to Anastasius of Sinai; it
+    seems to be the older compilation of the two, reflecting the
+    teachings of Maximus the Confessor, and those of both the sixth
+    century Leontius of Byzantium and Leontius of
+    Jerusalem.<ref target="#FN60">60</ref> The compilation of the <hi rend="italic">Sacra
     Parallela</hi> has often been ascribed to St. John of Damascus,
     again probably wrongly, but its doctrinal tenor is certainly
     consistent with his allegiances.<ref target="#FN61">61</ref> Both of these
     <hi rend="italic">florilegia</hi> were of immense significance in shaping the
     doctrinal profile of the ‘Melkite’ community.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] It
+         <p>
+            <anchor corresp="P17"/>[17] It
     is not unlikely that one impetus for the remarkable
-    efflorescence of ‘Melkite’ thought in Syria/Palestine in the
-    first half of the eighth century was the new stability brought
-    to ecclesiastical affairs in Jerusalem by the inception of the
-    thirty year reign of Patriarch John V (705-735) at the
-    beginning of the century, coming in the wake of the
-    ecclesiastical and civil crises of episcopal succession in
-    Jerusalem during the almost seventy years which followed the
+    efflorescence of ‘Melkite’ thought in
+    Syria/Palestine in the first half of the eighth century was the
+    new stability brought to ecclesiastical affairs in Jerusalem by
+    the inception of the thirty year reign of Patriarch John V
+    (705-735) at the beginning of the century, coming in the wake
+    of the ecclesiastical and civil crises of episcopal succession
+    in Jerusalem during the almost seventy years which followed the
     death of Patriarch Sophronius (d. 638)<ref target="#FN62">62</ref> and the formal
     separation of the Orient from Roman government brought about by
     inauguration of the new Islamic hegemony in the area. Another
     factor which must also have influenced especially the defensive
-    and reactive intellectual posture of the first ‘Melkite’
-    theologians and prompted their summarizing and systematizing
-    efforts, most notably those of St. John of Damascus, was the
-    contemporary growth and development not only of the doctrines
-    of their newly socially empowered Christian adversaries but
-    also of the emergence and active careers of new Islamic
-    religious thinkers as well.</p>
-         <head xml:id="S1" style="text-align:center">V</head>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] As
+    and reactive intellectual posture of the first
+    ‘Melkite’ theologians and prompted their
+    summarizing and systematizing efforts, most notably those of
+    St. John of Damascus, was the contemporary growth and
+    development not only of the doctrines of their newly socially
+    empowered Christian adversaries but also of the emergence and
+    active careers of new Islamic religious thinkers as well.</p>
+         <head xml:id="HV11N2Griffith6">V</head>
+         <p>
+            <anchor corresp="P18"/>[18] As
     was noted at the beginning of this essay, the last years of the
     seventh century and the first quarter of the eighth century
-    witnessed the campaign of the Umayyad caliphs, especially ‘Abd
-    al-Malik and his sons and successors, publicly and symbolically
-    to claim the Arab occupied territories for Islam, and
-    especially the cities of Jerusalem and Damascus. This effort
-    went hand in hand with important steps in the growth and
+    witnessed the campaign of the Umayyad caliphs, especially
+    ‘Abd al-Malik and his sons and successors, publicly and
+    symbolically to claim the Arab occupied territories for Islam,
+    and especially the cities of Jerusalem and Damascus. This
+    effort went hand in hand with important steps in the growth and
     development of early Islamic religious thought. In the
     beginning, more theoretical considerations had been
     overshadowed by what moderns would call political concerns. But
     concomitant with the elaboration of different ideas about how
     the Islamic community should be governed after the death of the
     prophet Mu<hi rend="u">h</hi>ammad, the nascent class of
-    Muslim ‘scholars’ (<hi rend="italic">ulamā’</hi>) in the caliphate were
-    already devising the methods of transmitting the authoritative
-    prophetic traditions (<hi rend="italic">
-               <hi rend="u">h</hi>adīth</hi>,
-    pl., <hi rend="italic">a</hi>
+    Muslim ‘scholars’ (<hi rend="italic">ulamā’</hi>) in
+    the caliphate were already devising the methods of transmitting
+    the authoritative prophetic traditions (<hi rend="italic">
+               <hi rend="u">h</hi>adīth</hi>, pl., <hi rend="italic">a</hi>
             <hi rend="italic">
-               <hi rend="u">h</hi>ādīth</hi>) which
-    for the burgeoning majority of the so-called ‘Sunnī’ Muslims
-    would go together with the Qur’ān as the principal sources for
-    determining both the faith and the civil order of the dominant
-    Islamic community (<hi rend="italic">ummah</hi>).<ref target="#FN63">63</ref> At the same time, the
-    authors of the early biographies of the prophet Mu<hi rend="u">h</hi>ammad, such as Mu<hi rend="u">h</hi>ammad ibn
-    Is<hi rend="u">h</hi>āq (d. 767), a near contemporary of
-    St. John of Damascus, and the authors of the first Qur’ān
-    commentaries and the standard accounts of the earliest exploits
-    of the Muslims,<ref target="#FN64">64</ref> were structuring their narratives in an
+               <hi rend="u">h</hi>ādīth</hi>) which for the burgeoning
+    majority of the so-called ‘Sunnī’ Muslims
+    would go together with the Qur’ān as the principal
+    sources for determining both the faith and the civil order of
+    the dominant Islamic community (<hi rend="italic">ummah</hi>).<ref target="#FN63">63</ref> At the same
+    time, the authors of the early biographies of the prophet
+    Mu<hi rend="u">h</hi>ammad, such as Mu<hi rend="u">h</hi>ammad ibn Is<hi rend="u">h</hi>āq (d.
+    767), a near contemporary of St. John of Damascus, and the
+    authors of the first Qur’ān commentaries and the
+    standard accounts of the earliest exploits of the
+    Muslims,<ref target="#FN64">64</ref> were structuring their narratives in an
     obviously apologetic and even polemic cast, clearly making
-    claims for the religious verisimilitude of Islam vis-�-vis the
-    claims of the Jews and Christians, following the patterns of
-    the earlier Jewish and Christian narratives according to a
-    suitably altered, Islamic perspective. A number of these early
-    scholars and writers lived in Damascus in St. John of Damascus’
-    lifetime.<ref target="#FN65">65</ref> So pronounced was the apologetic penchant in
-    their works that the modern scholar who has done the most to
-    make the point clear to latter day readers, John Wansbrough,
-    has characterized the whole enterprise and the era itself as
-    the <hi rend="italic">Sectarian Milieu</hi> of early Islam.<ref target="#FN66">66</ref>
+    claims for the religious verisimilitude of Islam
+    vis-à-vis the claims of the Jews and Christians,
+    following the patterns of the earlier Jewish and Christian
+    narratives according to a suitably altered, Islamic
+    perspective. A number of these early scholars and writers lived
+    in Damascus in St. John of Damascus’ lifetime.<ref target="#FN65">65</ref> So
+    pronounced was the apologetic penchant in their works that the
+    modern scholar who has done the most to make the point clear to
+    latter day readers, John Wansbrough, has characterized the
+    whole enterprise and the era itself as the <hi rend="italic">Sectarian
+    Milieu</hi> of early Islam.<ref target="#FN66">66</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] By
-    St. John of Damascus’ day certain more theoretical religious
-    concerns were already emerging among Muslim intellectuals which
-    would have interesting analogues in John’s own work. Some of
-    the thinkers whose names are prominent in the early
-    intellectual history of Islam and who were St. John’s
-    contemporaries include Ma‛bad al-Juhanī (d. 704),
-    al-<hi rend="u">H</hi>asan al-Ba<hi rend="u">s</hi>rī
-    (642-728), Ghaylān ad-Dimashqī (d.c. 743), Jahm ibn
-    <hi rend="u">S</hi>afwān (d. 745), Wā<hi rend="u">s</hi>il ibn ‛A <hi rend="u">t</hi>a’ (d. 748) and
+         <p>
+            <anchor corresp="P19"/>[19] By
+    St. John of Damascus’ day certain more theoretical
+    religious concerns were already emerging among Muslim
+    intellectuals which would have interesting analogues in
+    John’s own work. Some of the thinkers whose names are
+    prominent in the early intellectual history of Islam and who
+    were St. John’s contemporaries include Ma‛bad
+    al-Juhanī (d. 704), al-<hi rend="u">H</hi>asan
+    al-Ba<hi rend="u">s</hi>rī (642-728), Ghaylān
+    ad-Dimashqī (d.c. 743), Jahm ibn <hi rend="u">S</hi>afwān (d. 745), Wā<hi rend="u">s</hi>il ibn ‛A <hi rend="u">t</hi>a’
+    (d. 748) and <hi rend="sup">
+               <hi rend="italic">c</hi>
+            </hi>Amr ibn
     <hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>Amr ibn <hi rend="sup">
-               <hi rend="italic">c</hi>
-            </hi>Ubayd (d.
-    762). These were the thinkers of record who were raising
-    questions and taking positions on the controversial issues of
-    the day among Muslims such as the freedom of the will, the
-    proper understanding of God’s attributes, the status of the
-    Qur’ān as the Word of God and the rightful stance to be taken
-    toward governmental authority.<ref target="#FN67">67</ref> Most of these men were
-    associated in one way or another with the rising ‘Mu‛tazilite’
-    movement among the early practitioners of the Islamic <hi rend="italic">‛ilm
-    al-kalām</hi>, the dialogic science of discussing and
-    understanding points of religious doctrine according to the
-    principles of theoretical Arabic grammar, itself in the early
-    stages of development at the time.<ref target="#FN68">68</ref> The names of all of these
-    thinkers and their ideas were well known in Umayyad Damascus
-    and much discussed at the caliphal court; there is every reason
-    to think that St. John of Damascus would therefore have been
-    thoroughly familiar with them, especially since many of their
-    issues <hi rend="italic">mutatis mutandis</hi> were of much concern to him in
-    his own Christian thought.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
-    Muslims and ‘Melkites’ had some doctrinal adversaries in common
-    in the eighth century and the scholars of both communities
-    devoted considerable attention to refuting them. The most
-    prominent and persistent of these adversaries were the
-    Manichees, whom the Arabic-speaking Muslims classed among the
-    dualist freethinkers, a category they designated by an
-    originally Persian term taken over into Arabic as
-    <hi rend="italic">zindīq</hi> (pl. <hi rend="italic">zanādiqah</hi>).<ref target="#FN69">69</ref> Greek, Syriac,
-    and even Latin-speaking Christians had long been composing
-    tracts against the Manichees; in Syriac Christian texts they
-    were classed among the ‘gentiles’,<ref target="#FN70">70</ref> called <hi rend="italic">
-               <hi rend="u">h</hi>anp�</hi> (sing. <hi rend="italic">
-               <hi rend="u">h</hi>anp�</hi>) in Syriac, those who were neither Jews
-    nor Christians and who worshipped gods considered to be
+            </hi>Ubayd (d. 762). These were the thinkers of
+    record who were raising questions and taking positions on the
+    controversial issues of the day among Muslims such as the
+    freedom of the will, the proper understanding of God’s
+    attributes, the status of the Qur’ān as the Word of
+    God and the rightful stance to be taken toward governmental
+    authority.<ref target="#FN67">67</ref> Most of these men were associated in one way
+    or another with the rising ‘Mu‛tazilite’
+    movement among the early practitioners of the Islamic
+    <hi rend="italic">‛ilm al-kalām</hi>, the dialogic science of
+    discussing and understanding points of religious doctrine
+    according to the principles of theoretical Arabic grammar,
+    itself in the early stages of development at the time.<ref target="#FN68">68</ref> The
+    names of all of these thinkers and their ideas were well known
+    in Umayyad Damascus and much discussed at the caliphal court;
+    there is every reason to think that St. John of Damascus would
+    therefore have been thoroughly familiar with them, especially
+    since many of their issues <hi rend="italic">mutatis mutandis</hi> were of
+    much concern to him in his own Christian thought.</p>
+         <p>
+            <anchor corresp="P20"/>[20]
+    Muslims and ‘Melkites’ had some doctrinal
+    adversaries in common in the eighth century and the scholars of
+    both communities devoted considerable attention to refuting
+    them. The most prominent and persistent of these adversaries
+    were the Manichees, whom the Arabic-speaking Muslims classed
+    among the dualist freethinkers, a category they designated by
+    an originally Persian term taken over into Arabic as
+    <hi rend="italic">zindīq</hi> (pl. <hi rend="italic">zanādiqah</hi>).<ref target="#FN69">69</ref> Greek,
+    Syriac, and even Latin-speaking Christians had long been
+    composing tracts against the Manichees; in Syriac Christian
+    texts they were classed among the
+    ‘gentiles’,<ref target="#FN70">70</ref> called <hi rend="italic">
+               <hi rend="u">h</hi>anpê</hi> (sing. <hi rend="italic">
+               <hi rend="u">h</hi>anpâ</hi>) in Syriac, those who were neither
+    Jews nor Christians and who worshipped gods considered to be
     strange.<ref target="#FN71">71</ref> In Syria/Palestine in the eighth and ninth
     centuries, Manichaean doctrines proved to be very attractive to
     many intellectuals in both the Christian and the Islamic
@@ -615,8 +667,8 @@
     number of texts against them, including St. John of Damascus,
     who addressed the problem in a number of his works.<ref target="#FN72">72</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+         <p>
+            <anchor corresp="P21"/>[21]
     Modern scholars, and even some Medieval Muslim ones, have made
     efforts to find connections and influences between contemporary
     Christian thinkers of the east, and particularly St. John of
@@ -624,16 +676,17 @@
     named above.<ref target="#FN73">73</ref> This has been especially the case in regard to
     the debate which arose among the Muslims in the early eighth
     century between the upholders of the doctrine of the freedom of
-    human will, the so-called ‘Qadarites’ (<hi rend="italic">al-qadariyyah</hi>),
-    and the advocates of predestination, the so-called ‘Mujbirites’
+    human will, the so-called ‘Qadarites’
+    (<hi rend="italic">al-qadariyyah</hi>), and the advocates of predestination,
+    the so-called ‘Mujbirites’
     (<hi rend="italic">al-mujbirah/al-jabriyyah</hi>), as their adversaries
     called them, or, as they would have referred to themselves,
-    ‘the people of determination’ (<hi rend="italic">ahl al-ithbāt</hi>), meaning
-    those who maintain that the determination of human actions
-    belongs to God alone.<ref target="#FN74">74</ref>
+    ‘the people of determination’ (<hi rend="italic">ahl
+    al-ithbāt</hi>), meaning those who maintain that the
+    determination of human actions belongs to God alone.<ref target="#FN74">74</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22]
+         <p>
+            <anchor corresp="P22"/>[22]
     Modern scholars such as Morris Seale and Harry Austryn Wolfson
     have argued that the ‘Qadarites’ were influenced by
     contemporary Christian ideas and terms about the freedom of the
@@ -645,80 +698,84 @@
     have had an influence on the Muslim determinists.<ref target="#FN76">76</ref> In the
     same vein, Shlomo Pines suggested that there are parallels to
     be observed in the methodological composition of the works of
-    the early Muslim <hi rend="italic">mutakallimūn</hi>, the practitioners of
-    the apologetic <hi rend="italic">‛ilm al-kalām</hi>, especially among the
-    ‘Mu‛tazilites’, and the compositional procedures at work in St.
-    John of Damascus’ largely apologetic <hi rend="italic">De Fide
-    Orthodoxa</hi>; he argued that the parallels may disclose
-    influence or dependence.<ref target="#FN77">77</ref> Contrariwise, Carl Becker thought
-    that it was St. John of Damascus who reacted to the Muslim
-    thinkers, all of whom he took to be determinists, rather than
-    the other way around, especially in the discussion about the
-    freedom of the will.<ref target="#FN78">78</ref> While none of these allegations can be
-    pressed with any confidence, they do nevertheless all call
-    attention to the fact that some of the intellectual concerns
-    both of St. John of Damascus and of his Muslim contemporaries
-    were in a kind of sympathetic vibration, even if he and the
-    Muslims were not in direct dialogue with one another.</p>
-         <head xml:id="S1" style="text-align:center">VI</head>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
+    the early Muslim <hi rend="italic">mutakallimūn</hi>, the practitioners
+    of the apologetic <hi rend="italic">‛ilm al-kalām</hi>, especially
+    among the ‘Mu‛tazilites’, and the
+    compositional procedures at work in St. John of Damascus’
+    largely apologetic <hi rend="italic">De Fide Orthodoxa</hi>; he argued that
+    the parallels may disclose influence or dependence.<ref target="#FN77">77</ref>
+    Contrariwise, Carl Becker thought that it was St. John of
+    Damascus who reacted to the Muslim thinkers, all of whom he
+    took to be determinists, rather than the other way around,
+    especially in the discussion about the freedom of the
+    will.<ref target="#FN78">78</ref> While none of these allegations can be pressed
+    with any confidence, they do nevertheless all call attention to
+    the fact that some of the intellectual concerns both of St.
+    John of Damascus and of his Muslim contemporaries were in a
+    kind of sympathetic vibration, even if he and the Muslims were
+    not in direct dialogue with one another.</p>
+         <head xml:id="HV11N2Griffith7">VI</head>
+         <p>
+            <anchor corresp="P23"/>[23]
     Everything we know about the life and works of St. John of
     Damascus shows how well he and his concerns fit within the
     intellectual and cultural world of Syria/Palestine in Umayyad
     times, from the perspective of both its Christian and its
     Islamic frames of reference.<ref target="#FN79">79</ref> In this context, one can readily
     see that John wrote with a pastoral concern for the whole
-    ‘Melkite’ church and not just for monks,<ref target="#FN80">80</ref> albeit that the
-    monks of Jerusalem and of the monasteries of the Judean desert,
-    especially the monastery of Mar Saba, were the principal
-    teachers of the ‘Melkites’.<ref target="#FN81">81</ref> Concomitantly, John shows little
-    or no concern in his works for Constantinople or
-    Byzantium,<ref target="#FN82">82</ref> where what he wrote came to be appreciated
-    only long after his death and where in his lifetime he was
-    despised. It is especially important to make this point because
-    the prevailing view among modern scholars to the contrary is
-    still strongly upheld. In fact it is a thoroughly anachronistic
-    view, based on a reading of John’s works through lenses crafted
-    long after his time in Byzantium and long after the final
-    triumph of ‘Orthodoxy’ in Constantinople in the ninth century.
-    This approach co-opts John of Damascus out of his own milieu
-    and into a Byzantine frame of reference which was never his
-    own, often discounting the issues which were in fact most
-    important to him and highlighting others which reflect more the
-    concerns of latter day scholars of Byzantine theology.</p>
-         <p rend="nn">
-            <anchor xml:id="P24"/>[24] In
+    ‘Melkite’ church and not just for monks,<ref target="#FN80">80</ref> albeit
+    that the monks of Jerusalem and of the monasteries of the
+    Judean desert, especially the monastery of Mar Saba, were the
+    principal teachers of the ‘Melkites’.<ref target="#FN81">81</ref>
+    Concomitantly, John shows little or no concern in his works for
+    Constantinople or Byzantium,<ref target="#FN82">82</ref> where what he wrote came to be
+    appreciated only long after his death and where in his lifetime
+    he was despised. It is especially important to make this point
+    because the prevailing view among modern scholars to the
+    contrary is still strongly upheld. In fact it is a thoroughly
+    anachronistic view, based on a reading of John’s works
+    through lenses crafted long after his time in Byzantium and
+    long after the final triumph of ‘Orthodoxy’ in
+    Constantinople in the ninth century. This approach co-opts John
+    of Damascus out of his own milieu and into a Byzantine frame of
+    reference which was never his own, often discounting the issues
+    which were in fact most important to him and highlighting
+    others which reflect more the concerns of latter day scholars
+    of Byzantine theology.</p>
+         <p>
+            <anchor corresp="P24"/>[24] In
     all likelihood, given the evidence of his name and what we know
     of the history of his family, John was of Aramaean, maybe even
-    Arab stock. It is notable that in ‘Melkite’ Arabic sources
-    neither he nor his ancestors are ever listed among the Romans
-    (<hi rend="italic">ar-Rūm</hi>), or the ‘Byzantines’,<ref target="#FN83">83</ref> as modern
-    historians prefer to call them. Rather, he came from an
-    indigenous family whose members enjoyed a high civil status,
-    both under Roman rule and under the early caliphs.<ref target="#FN84">84</ref> The
-    fact that John wrote only in Greek and not, so far as we know,
-    in Aramaic or Arabic is no indication of Greek ancestry; Greek
-    was the liturgical and scholarly language of choice for all the
-    members of his church during his lifetime. Greek inscriptions
-    are to be found in Arabian churches built or restored in the
-    eighth century, well beyond the date of St. John of Damascus’
-    demise.<ref target="#FN85">85</ref> Only in the next generation, did the
-    ‘Melkites’ adopt Arabic as an ecclesiastical language, but even
-    then they did not simply drop Greek or Christian Palestinian
-    Aramaic, albeit that the cultivation of Greek letters underwent
-    an eclipse in their communities thereafter.<ref target="#FN86">86</ref> By the tenth
-    century the ‘Melkites’ were already translating the most
-    important of St. John of Damascus’ works into Arabic.<ref target="#FN87">87</ref>
+    Arab stock. It is notable that in ‘Melkite’ Arabic
+    sources neither he nor his ancestors are ever listed among the
+    Romans (<hi rend="italic">ar-Rūm</hi>), or the
+    ‘Byzantines’,<ref target="#FN83">83</ref> as modern historians prefer to
+    call them. Rather, he came from an indigenous family whose
+    members enjoyed a high civil status, both under Roman rule and
+    under the early caliphs.<ref target="#FN84">84</ref> The fact that John wrote only in
+    Greek and not, so far as we know, in Aramaic or Arabic is no
+    indication of Greek ancestry; Greek was the liturgical and
+    scholarly language of choice for all the members of his church
+    during his lifetime. Greek inscriptions are to be found in
+    Arabian churches built or restored in the eighth century, well
+    beyond the date of St. John of Damascus’ demise.<ref target="#FN85">85</ref> Only
+    in the next generation, did the ‘Melkites’ adopt
+    Arabic as an ecclesiastical language, but even then they did
+    not simply drop Greek or Christian Palestinian Aramaic, albeit
+    that the cultivation of Greek letters underwent an eclipse in
+    their communities thereafter.<ref target="#FN86">86</ref> By the tenth century the
+    ‘Melkites’ were already translating the most
+    important of St. John of Damascus’ works into
+    Arabic.<ref target="#FN87">87</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P25"/>[25] Here
+         <p>
+            <anchor corresp="P25"/>[25] Here
     is not the place to delve into the biography of St. John of
     Damascus in any detail, or to study his works closely; these
     considerations are among the topics assigned to other scholars
     participating in the conference. Suffice it now to call
-    attention to certain aspects of St. John’s second career, his
-    entrance into the monastic life in the Holy Land and his
+    attention to certain aspects of St. John’s second career,
+    his entrance into the monastic life in the Holy Land and his
     pastorally motivated apostolate of the pen in the service of
     the Patriarch of Jerusalem, John V (705-735). This was the
     patriarch who finally consolidated ecclesiastical affairs in
@@ -726,53 +783,54 @@
     Islamic conquest just over sixty years earlier.<ref target="#FN88">88</ref> Once again,
     albeit in reduced circumstances, and due in large part to the
     efforts of Patriarch John V, Jerusalem would become in fact as
-    well as in name, ‘the mother of churches’, as Cyril of
-    Scythopolis had called her in the sixth century,<ref target="#FN89">89</ref> a title which
-    in later Islamic times ‘Melkite’ writers loved to apply to her
-    in their efforts to counter Muslim claims to the Holy
-    City,<ref target="#FN90">90</ref> when Jerusalem had become the <hi rend="italic">de
-    facto</hi> if not the <hi rend="italic">de jure</hi> center of Orthodox life
-    in the caliphate.</p>
-         <p rend="nn">
-            <anchor xml:id="P26"/>[26] We
+    well as in name, ‘the mother of churches’, as Cyril
+    of Scythopolis had called her in the sixth century,<ref target="#FN89">89</ref> a
+    title which in later Islamic times ‘Melkite’
+    writers loved to apply to her in their efforts to counter
+    Muslim claims to the Holy City,<ref target="#FN90">90</ref> when Jerusalem had become
+    the <hi rend="italic">de facto</hi> if not the <hi rend="italic">de jure</hi> center of
+    Orthodox life in the caliphate.</p>
+         <p>
+            <anchor corresp="P26"/>[26] We
     do not know just when St. John left his civil servant career in
     Damascus to come to Jerusalem to enter the monastic life. The
     common opinion seems to be that the move coincided with the
     beginning of the reign of the caliph al-Walīd
     (705-715),<ref target="#FN91">91</ref> when this Umayyad prince mandated the change
-    from Greek to Arabic in the chancery (<hi rend="italic">ad-dīwān</hi>) of the
-    caliphate and began the construction of the Umayyad Mosque on
-    the site of Damascus’ earlier Church of St. John the Baptist.
-    (In this connection one notices in passing that the reigns of
-    Caliph al-Walīd and Patriarch John V began in the same year,
-    705.) Neither do we know for sure to which of the Holy Land
-    monasteries John of Damascus repaired. Hagiographical tradition
-    claims him for a monk of Mar Saba monastery in the Judean
-    desert, but recent scholarly inquiry has cast some doubt on the
-    historicity of this claim.<ref target="#FN92">92</ref> What seems to be settled is that
-    Patriarch John V ordained John of Damascus a priest in
-    Jerusalem not too long after the beginning of the patriarch’s
-    reign and that St. John spent his remaining years composing
-    both theological tracts and religious poetry and hymnody in
-    Greek to meet the needs of the local church of Jerusalem as
-    well as the wider network of ‘Melkites’ in the caliphate who
-    looked to Jerusalem and her monastic communities for
-    guidance.</p>
-         <p rend="nn">
-            <anchor xml:id="P27"/>[27] The
-    years of St. John of Damascus’ monastic career correspond both
-    with the years of the culminating development of the definitive
-    ‘Melkite’ Christological and canonical self-definition over
-    against the ‘Nestorian’ and ‘Jacobite’ challenges, largely
-    accomplished in John’s own works, and the period of the
-    burgeoning of the new Islamic sciences and the campaign of the
-    Umayyad caliphs to claim the public domain for Islam. It is
-    also the era in which the first Christian responses in Greek
-    and Syriac to the religious challenge of Islam appeared, and to
-    this enterprise St. John also made a major contribution as is
-    well known.</p>
-         <p rend="nn">
-            <anchor xml:id="P28"/>[28] It
+    from Greek to Arabic in the chancery
+    (<hi rend="italic">ad-dīwān</hi>) of the caliphate and began the
+    construction of the Umayyad Mosque on the site of
+    Damascus’ earlier Church of St. John the Baptist. (In
+    this connection one notices in passing that the reigns of
+    Caliph al-Walīd and Patriarch John V began in the same
+    year, 705.) Neither do we know for sure to which of the Holy
+    Land monasteries John of Damascus repaired. Hagiographical
+    tradition claims him for a monk of Mar Saba monastery in the
+    Judean desert, but recent scholarly inquiry has cast some doubt
+    on the historicity of this claim.<ref target="#FN92">92</ref> What seems to be settled is
+    that Patriarch John V ordained John of Damascus a priest in
+    Jerusalem not too long after the beginning of the
+    patriarch’s reign and that St. John spent his remaining
+    years composing both theological tracts and religious poetry
+    and hymnody in Greek to meet the needs of the local church of
+    Jerusalem as well as the wider network of
+    ‘Melkites’ in the caliphate who looked to Jerusalem
+    and her monastic communities for guidance.</p>
+         <p>
+            <anchor corresp="P27"/>[27] The
+    years of St. John of Damascus’ monastic career correspond
+    both with the years of the culminating development of the
+    definitive ‘Melkite’ Christological and canonical
+    self-definition over against the ‘Nestorian’ and
+    ‘Jacobite’ challenges, largely accomplished in
+    John’s own works, and the period of the burgeoning of the
+    new Islamic sciences and the campaign of the Umayyad caliphs to
+    claim the public domain for Islam. It is also the era in which
+    the first Christian responses in Greek and Syriac to the
+    religious challenge of Islam appeared, and to this enterprise
+    St. John also made a major contribution as is well known.</p>
+         <p>
+            <anchor corresp="P28"/>[28] It
     is striking how readily the topical profile of St. John of
     Damascus’ works corresponds both sociologically and
     theologically with the church-defining concerns of the
@@ -783,34 +841,36 @@
     Nowhere else in the world of Chalcedonian Orthodoxy at the time
     was the press of these challenges, in the ensemble and in just
     this particular topical array, so acutely a problem. There
-    seems to have been a special urgency on St. John’s part, both
-    definitively and summarily to present systematically coherent
-    resolutions to these issues in a hostile environment, largely
-    in terms borrowed from what he consistently represented as the
-    teaching of the fathers.<ref target="#FN93">93</ref> Even his signature topic as far
-    as many modern scholars are concerned, the theology of the holy
-    icons, had a local as well as a broader, even
+    seems to have been a special urgency on St. John’s part,
+    both definitively and summarily to present systematically
+    coherent resolutions to these issues in a hostile environment,
+    largely in terms borrowed from what he consistently represented
+    as the teaching of the fathers.<ref target="#FN93">93</ref> Even his signature topic as
+    far as many modern scholars are concerned, the theology of the
+    holy icons, had a local as well as a broader, even
     Constantinopolitan, point of reference, as we shall see.</p>
-         <p rend="nn">
-            <anchor xml:id="P29"/>[29] St.
-    John of Damascus’ response to the religious challenge of the
-    Muslims was not limited to the few works in which he explicitly
-    addressed Islam, such as Chapter 100 of the <hi rend="italic">De
+         <p>
+            <anchor corresp="P29"/>[29] St.
+    John of Damascus’ response to the religious challenge of
+    the Muslims was not limited to the few works in which he
+    explicitly addressed Islam, such as Chapter 100 of the <hi rend="italic">De
     Haeresibus</hi> and the <hi rend="italic">Disputation between a Saracen and a
     Christian</hi>.<ref target="#FN94">94</ref> Rather, one must consider that the full range
     of the developing Islamic sciences in the first half of the
     eighth century presented an almost unprecedented, comprehensive
-    challenge both to Christianity’s principal articles of faith
-    and to the Christian way of life. In response, the challenge
-    called for a comprehensive, summary exposition of the truths of
-    Christian faith, along with a compendium of definitions of the
-    philosophical terms in which the Christian doctrines were
-    expressed, and a catalog of the errors in refutation of which
-    many of the doctrines were first articulated. John of Damascus’
-    <hi rend="italic">Pēgē Gnoseos</hi> answered this need for the ‘Melkites’ and
-    Theodore Bar K�n�’s <hi rend="italic">Scholion</hi> served the same purpose
-    for the ‘Nestorians’. Among the ‘Jacobites’, the works of Jacob
-    of Edessa (d. 708)<ref target="#FN95">95</ref> and George, Bishop of the Arabs, (d.
+    challenge both to Christianity’s principal articles of
+    faith and to the Christian way of life. In response, the
+    challenge called for a comprehensive, summary exposition of the
+    truths of Christian faith, along with a compendium of
+    definitions of the philosophical terms in which the Christian
+    doctrines were expressed, and a catalog of the errors in
+    refutation of which many of the doctrines were first
+    articulated. John of Damascus’ <hi rend="italic">Pēgē
+    Gnoseos</hi> answered this need for the ‘Melkites’
+    and Theodore Bar Kônî’s <hi rend="italic">Scholion</hi>
+    served the same purpose for the ‘Nestorians’. Among
+    the ‘Jacobites’, the works of Jacob of Edessa (d.
+    708)<ref target="#FN95">95</ref> and George, Bishop of the Arabs, (d.
     724)<ref target="#FN96">96</ref> met this challenge, together with the
     remarkable promotion of Aristotelian logic in this community,
     in translations, commentaries and lexicons,<ref target="#FN97">97</ref> geared
@@ -826,9 +886,9 @@
     on precisely these church-dividing differences in Christian
     thought and allegiance.<ref target="#FN98">98</ref>
          </p>
-         <head xml:id="S1" style="text-align:center">VII</head>
-         <p rend="nn">
-            <anchor xml:id="P30"/>[30]
+         <head xml:id="HV11N2Griffith8">VII</head>
+         <p>
+            <anchor corresp="P30"/>[30]
     Throughout most of the seventh century and for the better part
     of the eighth century, the Orthodox monks of Syria/Palestine
     found themselves perennially in opposition to the religious and
@@ -837,9 +897,9 @@
     condemned as heretical in Ecumenical Councils in 681
     (Monotheletism) and 787 (Iconoclasm) respectively, but which
     were left behind completely only with the ‘Triumph of
-    Orthodoxy’ in the ninth century (843),<ref target="#FN100">100</ref> well into the
-    classical period of Islamic culture, in which the churches of
-    the Orient were by then thoroughly immersed. St. John of
+    Orthodoxy’ in the ninth century (843),<ref target="#FN100">100</ref> well into
+    the classical period of Islamic culture, in which the churches
+    of the Orient were by then thoroughly immersed. St. John of
     Damascus vigorously combated both of these heresies which had
     arisen in the Chalcedonian community, but in the instance of
     his defense of the veneration of the holy icons he wrote in the
@@ -849,8 +909,8 @@
     of publicly venerating the cross and the icons,<ref target="#FN101">101</ref> as well as
     from reports of the imperial policy of iconoclasm promoted by
     the Byzantine emperor in Constantinople.</p>
-         <p rend="nn">
-            <anchor xml:id="P31"/>[31] In
+         <p>
+            <anchor corresp="P31"/>[31] In
     light of this double frame of reference, it seems not
     unreasonable to suppose that the impetus for St. John of
     Damascus’ composition of his <hi rend="italic">Orations against the
@@ -860,36 +920,38 @@
     726.<ref target="#FN102">102</ref> In Jerusalem and its environs, the pastoral
     problem of how to deal with iconophobic Christians in the
     Islamic milieu seems already to have arisen somewhat earlier in
-    the century.<ref target="#FN103">103</ref> The arrival of the news of Constantinople’s
-    iconoclastic policies could only have exacerbated the already
-    existing local problem. From this perspective, one might
-    reasonably conclude that even St. John’s <hi rend="italic">Orations against
-    the Calumniators of the Icons</hi>, like his other works, were
-    written with an audience of ‘Melkites’ in Syria/Palestine
-    primarily in mind. They seem to have found an audience in
-    Byzantium only in the next century.<ref target="#FN104">104</ref> And even in
-    Syria/Palestine among the ‘Melkites’, John’s was perhaps only a
+    the century.<ref target="#FN103">103</ref> The arrival of the news of
+    Constantinople’s iconoclastic policies could only have
+    exacerbated the already existing local problem. From this
+    perspective, one might reasonably conclude that even St.
+    John’s <hi rend="italic">Orations against the Calumniators of the
+    Icons</hi>, like his other works, were written with an audience
+    of ‘Melkites’ in Syria/Palestine primarily in mind.
+    They seem to have found an audience in Byzantium only in the
+    next century.<ref target="#FN104">104</ref> And even in Syria/Palestine among the
+    ‘Melkites’, John’s was perhaps only a
     minority voice on this issue in his lifetime;<ref target="#FN105">105</ref> it was
     taken up again with vigor in the next generation by Theodore
-    Abū Qurrah (c. 755 — c. 830) in his Arabic tract on the duty of
-    Christians in the caliphate to make prostration to the cross
-    and to the holy icons of Christ and his saints, in spite of
-    opposition and obloquy from “anti-Christians, especially ones
-    claiming to have in hand a scripture sent down from
-    God.”<ref target="#FN106">106</ref> In this manner the teaching of St. John of
-    Damascus on the holy icons came to inform ‘Melkite’ Orthodoxy
-    for generations to come, without any reference at all until the
-    tenth century, especially in Arabic sources, to the teaching of
+    Abū Qurrah (c. 755 — c. 830) in his Arabic tract on
+    the duty of Christians in the caliphate to make prostration to
+    the cross and to the holy icons of Christ and his saints, in
+    spite of opposition and obloquy from “anti-Christians,
+    especially ones claiming to have in hand a scripture sent down
+    from God.”<ref target="#FN106">106</ref> In this manner the teaching of St. John
+    of Damascus on the holy icons came to inform
+    ‘Melkite’ Orthodoxy for generations to come,
+    without any reference at all until the tenth century,
+    especially in Arabic sources, to the teaching of
     Byzantium’s seventh Ecumenical Council, Nicea II, in
     787.<ref target="#FN107">107</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P32"/>[32] It
+         <p>
+            <anchor corresp="P32"/>[32] It
     has been the thesis of the present communication that the
-    interests of the emerging community of ‘Melkite’, Orthodox
-    Christians in the Umayyad era in Syria/Palestine furnish the
-    most immediate frame of reference for appreciating the
-    significance of the works of St. John of Damascus in his
+    interests of the emerging community of ‘Melkite’,
+    Orthodox Christians in the Umayyad era in Syria/Palestine
+    furnish the most immediate frame of reference for appreciating
+    the significance of the works of St. John of Damascus in his
     lifetime. The fact that in later times his works achieved a
     defining status in the Greek Orthodox Church of Byzantium
     should not prevent modern scholars from looking beyond that
@@ -900,19 +962,20 @@
     perspective of the later synthesis of Orthodox theology, of
     which his works eventually came to form an important part, is
     to obscure their crucial role in providing the basic principles
-    for the self-definition of ‘Melkite’ Orthodoxy in his own
-    immediate environment, in the world of Islam. When we read his
-    works with a heightened understanding of their own immediate
-    context, they present us in the ensemble with a theological and
-    ecclesial profile in which we can recognize the emerging
-    contours of the Orthodox Church in Syria in the Umayyad era. In
-    later years, in Abbasid times (750-1258), Arabic-speaking,
-    ‘Melkite’ theologians in the caliphate continued St. John of
-    Damascus’ theological work, developing it to respond more
-    pointedly to the challenges of Muslims.<ref target="#FN108">108</ref> But that is a
-    story for another venue.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+    for the self-definition of ‘Melkite’ Orthodoxy in
+    his own immediate environment, in the world of Islam. When we
+    read his works with a heightened understanding of their own
+    immediate context, they present us in the ensemble with a
+    theological and ecclesial profile in which we can recognize the
+    emerging contours of the Orthodox Church in Syria in the
+    Umayyad era. In later years, in Abbasid times (750-1258),
+    Arabic-speaking, ‘Melkite’ theologians in the
+    caliphate continued St. John of Damascus’ theological
+    work, developing it to respond more pointedly to the challenges
+    of Muslims.<ref target="#FN108">108</ref> But that is a story for another
+    venue.</p>_______<lb/>
+         <head xml:id="HV11N2Griffith9">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> On the Umayyad and their policies see G. R.
     Hawting, <hi rend="italic">The First Dynasty of Islam: The Umayyad Caliphate
     A.D. 661-750</hi> (London: Croom Helm, 1986); M. A. Shaban,
@@ -921,106 +984,112 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef2">2</ref> Ahmad Shboul &amp; Alan Walmsley, “Identity and
-    Self-Image in Syria-Palestine in the Transition from Byzantine
-    to Early Islamic Rule: Arab Christians and Muslims,”
-    <hi rend="italic">Mediterranean Archaeology</hi> 11 (1998), p. 255. In
-    connection with these issues, see also Robert Schick, <hi rend="italic">The
-    Christian Communities of Palestine from Byzantine to Islamic
-    Rule: A Historical and Archaeological Study</hi> (Princeton:
-    The Darwin Press, 1996). <ref target="#FNRef2">
+         <p>
+            <ref target="#FNRef2">2</ref> Ahmad Shboul &amp; Alan Walmsley, “Identity
+    and Self-Image in Syria-Palestine in the Transition from
+    Byzantine to Early Islamic Rule: Arab Christians and
+    Muslims,” <hi rend="italic">Mediterranean Archaeology</hi> 11 (1998),
+    p. 255. In connection with these issues, see also Robert
+    Schick, <hi rend="italic">The Christian Communities of Palestine from
+    Byzantine to Islamic Rule: A Historical and Archaeological
+    Study</hi> (Princeton: The Darwin Press, 1996). <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> See Chase F. Robinson, <hi rend="italic">‛Abd al-Malik</hi>
     (Makers of the Muslim World; Oxford: One World, 2005). <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef4">4</ref> Shboul &amp; Walmsley, “Identity and Self-Image in
-    Syria-Palestine,” p. 256. <ref target="#FNRef4">
+         <p>
+            <ref target="#FNRef4">4</ref> Shboul &amp; Walmsley, “Identity and
+    Self-Image in Syria-Palestine,” p. 256. <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> See Julian Raby &amp; Jeremy Johns (eds.), <hi rend="italic">Bayt
-    al-Maqdis: ‘Abd al-Malik’s Jerusalem</hi> (Part I; Oxford:
-    Oxford University Press, 1992); Oleg Grabar, <hi rend="italic">The Shape of
-    the Holy: Early Islamic Jerusalem</hi> (Princeton: Princeton
-    University Press, 1996). <ref target="#FNRef5">
+    al-Maqdis: ‘Abd al-Malik’s Jerusalem</hi> (Part I;
+    Oxford: Oxford University Press, 1992); Oleg Grabar, <hi rend="italic">The
+    Shape of the Holy: Early Islamic Jerusalem</hi> (Princeton:
+    Princeton University Press, 1996). <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> See K.A.C. Cresswell, <hi rend="italic">Early Muslim
     Architecture: Umayyads A.D. 622-750</hi> (2<hi rend="sup">nd</hi> ed. In
     2 parts, vol. I, pt. II; Oxford: Oxford University Press,
     1969), esp. pp. 246-290. The caliph reportedly said to the
-    Christians of Damascus, “We want to add this church of yours,
-    the church of St. John, onto our mosque; it is an exceedingly
-    beautiful church, and there is nothing else like it in the land
-    of Syria.” L. Cheikho <hi rend="italic">et al</hi>. (eds.), <hi rend="italic">Eutychii
-    Patriarchae Alexandrini Annales</hi> (CSCO, vol. 51; Paris:
-    Carolus Poussielegue, 1909), p. 42. <ref target="#FNRef6">
+    Christians of Damascus, “We want to add this church of
+    yours, the church of St. John, onto our mosque; it is an
+    exceedingly beautiful church, and there is nothing else like it
+    in the land of Syria.” L. Cheikho <hi rend="italic">et al</hi>. (eds.),
+    <hi rend="italic">Eutychii Patriarchae Alexandrini Annales</hi> (CSCO, vol.
+    51; Paris: Carolus Poussielegue, 1909), p. 42. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> See J. B. Chabot, <hi rend="italic">Chronique de Michel le
-    Syrien: patriarche Jacobite d’Antioche 1166-1199</hi> (4 vols.;
-    Paris: E. Leroux, 1899-1910), vol. II, p. 473: “In the year
-    1008 (i.e., A.D. 697) the <hi rend="italic">
-               <hi rend="u">T</hi>ayyāy�</hi> began to strike <hi rend="italic">dinārs, zūz�</hi>,
-    and <hi rend="italic">oboloi</hi> on which there was no image at all, but
-    only inscriptions.” See Philip Grierson, “The Monetary Reforms
-    of ‘Abd al-Malik, their Metrological Basis and their Financial
-    Repercussions,” <hi rend="italic">Journal of the Economic and Social History
-    of the Orient</hi> 3 (1960), pp. 241-264; G.C. Miles, “The
-    Iconography of Umayyad Coinage,” <hi rend="italic">Ars Orientalis</hi> 3
-    (1959), pp. 207-213; Michael Bates, “History, Geography and
-    Numismatices in the First Century of Islamic Coinage,”
-    <hi rend="italic">Schweizerische Numismatische Rundschau</hi> 65 (1986), pp.
-    231-163; <hi rend="italic">idem</hi>, “Byzantine Coinage and its Imitations:
-    Arab Coinage and its Imitations: Arab-Byzantine Coinage,”
-    <hi rend="italic">ARAM</hi> 6 (1994), pp. 381-403. <ref target="#FNRef7">
+    Syrien: patriarche Jacobite d’Antioche 1166-1199</hi> (4
+    vols.; Paris: E. Leroux, 1899-1910), vol. II, p. 473: “In
+    the year 1008 (i.e., A.D. 697) the <hi rend="italic">
+               <hi rend="u">T</hi>ayyāyê</hi> began to strike
+    <hi rend="italic">dinārs, zūzê</hi>, and <hi rend="italic">oboloi</hi> on
+    which there was no image at all, but only inscriptions.”
+    See Philip Grierson, “The Monetary Reforms of ‘Abd
+    al-Malik, their Metrological Basis and their Financial
+    Repercussions,” <hi rend="italic">Journal of the Economic and Social
+    History of the Orient</hi> 3 (1960), pp. 241-264; G.C. Miles,
+    “The Iconography of Umayyad Coinage,” <hi rend="italic">Ars
+    Orientalis</hi> 3 (1959), pp. 207-213; Michael Bates,
+    “History, Geography and Numismatices in the First Century
+    of Islamic Coinage,” <hi rend="italic">Schweizerische Numismatische
+    Rundschau</hi> 65 (1986), pp. 231-163; <hi rend="italic">idem</hi>,
+    “Byzantine Coinage and its Imitations: Arab Coinage and
+    its Imitations: Arab-Byzantine Coinage,” <hi rend="italic">ARAM</hi> 6
+    (1994), pp. 381-403. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> See J. B. Chabot, <hi rend="italic">Anonymi Auctoris Chronicon ad
     Annum Christi 1234 Pertinens</hi> (CSCO, vol. 81; Paris: J.
     Gabalda, 1920), pp. 298-299: “Walīd, the king of the
     <hi rend="italic">
-               <hi rend="u">T</hi>ayyāy�</hi>, ordered that in his
-    chancery, i.e., the treasury, which these <hi rend="italic">
-               <hi rend="u">T</hi>ayyāy�</hi> call the <hi rend="italic">diwān</hi>, one should not
-    write in Greek but in the Arabic language, because up to that
-    time the ledgers of the kings of the <hi rend="italic">
-               <hi rend="u">T</hi>ayyāy�</hi> were in Greek. <ref target="#FNRef8">
+               <hi rend="u">T</hi>ayyāyê</hi>, ordered
+    that in his chancery, i.e., the treasury, which these
+    <hi rend="italic">
+               <hi rend="u">T</hi>ayyāyê</hi> call the
+    <hi rend="italic">diwān</hi>, one should not write in Greek but in the
+    Arabic language, because up to that time the ledgers of the
+    kings of the <hi rend="italic">
+               <hi rend="u">T</hi>ayyāyê</hi>
+    were in Greek. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef9">9</ref> See, e.g., Moshe Sharon, “An Arabic Inscription
-    from the Time of ‘Abd al-Malik,” <hi rend="italic">Bulletin of the School of
-    Oriental and African Studies</hi> 29 (1966), pp. 367-372.
-    <ref target="#FNRef9">
+         <p>
+            <ref target="#FNRef9">9</ref> See, e.g., Moshe Sharon, “An Arabic
+    Inscription from the Time of ‘Abd al-Malik,”
+    <hi rend="italic">Bulletin of the School of Oriental and African Studies</hi>
+    29 (1966), pp. 367-372. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef10">10</ref> See A.A. Vasiliev, “The Iconoclastic Edict
-    of Yazid II AD 721,” <hi rend="italic">Dumbarton Oaks Papers</hi> 9/10
-    (1956), pp. 25-47; Sidney H. Griffith, “Images, Islam and
-    Christian Icons: A Moment in the Christian/Muslim Encounter in
-    Early Islamic Times,” in Pierre Canivet &amp; Jean-Paul
-    Rey-Coquais (eds.), <hi rend="italic">La Syrie de Byzance � l’islam
-    VIIe-VIIIe si�cles: Actes du colloque international,
-    Lyon-Maison de l’Orient M�diterran�en, Paris-Institut du Monde
-    Arabe, 11-15 Septembre 1990</hi> (Damas: Institut Fran�ais de
+         <p>
+            <ref target="#FNRef10">10</ref> See A.A. Vasiliev, “The Iconoclastic
+    Edict of Yazid II AD 721,” <hi rend="italic">Dumbarton Oaks Papers</hi>
+    9/10 (1956), pp. 25-47; Sidney H. Griffith, “Images,
+    Islam and Christian Icons: A Moment in the Christian/Muslim
+    Encounter in Early Islamic Times,” in Pierre Canivet
+    &amp; Jean-Paul Rey-Coquais (eds.), <hi rend="italic">La Syrie de Byzance
+    à l’islam VIIe-VIIIe siècles: Actes du
+    colloque international, Lyon-Maison de l’Orient
+    Méditerranéen, Paris-Institut du Monde Arabe,
+    11-15 Septembre 1990</hi> (Damas: Institut Français de
     Damas, 1992), pp. 121-138. See also the discussion in Garth
     Fowden, <hi rend="italic">Empire to Commonwealth: Consequences of Monotheism
     in Late Antiquity</hi> (Princeton: Princeton University Press,
@@ -1028,49 +1097,52 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> Hawting, <hi rend="italic">The First Dynasty of
     Islam</hi>, p. 58. <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> See Raymond Le Coz (ed. &amp; trans.),
-    <hi rend="italic">Jean Damasc�ne: �crits sur l’islam: pr�sentation,
-    commentaires et traduction</hi> (Sources Chr�tiens, no. 383;
-    Paris: Les �ditions du Cerf, 1992). <ref target="#FNRef12">
+    <hi rend="italic">Jean Damascène: Écrits sur l’islam:
+    présentation, commentaires et traduction</hi> (Sources
+    Chrétiens, no. 383; Paris: Les Éditions du Cerf,
+    1992). <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> See G.J. Reinink, <hi rend="italic">Die syrische
     Apokalypse des Pseudo-Methodios</hi> (CSCO vols, 54 &amp; 541;
-    Louvain: Peeters, 1993). See also G.J. Reinink, “Ps.-Methodius:
-    A Concept of History in Response to the Rise of Islam,” in
-    Averil Cameron &amp; Lawrence I. Conrad (eds.), <hi rend="italic">The
-    Byzantine and Early Islamic Near East: Problems in the Literary
-    Source Material</hi> (Studies in Late Antiquity and Early
-    Islam, 1; Princeton: The Darwin Press, 1992), pp. 149-187.
-    <ref target="#FNRef13">
+    Louvain: Peeters, 1993). See also G.J. Reinink,
+    “Ps.-Methodius: A Concept of History in Response to the
+    Rise of Islam,” in Averil Cameron &amp; Lawrence I.
+    Conrad (eds.), <hi rend="italic">The Byzantine and Early Islamic Near East:
+    Problems in the Literary Source Material</hi> (Studies in Late
+    Antiquity and Early Islam, 1; Princeton: The Darwin Press,
+    1992), pp. 149-187. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef14">14</ref> See Sidney H. Griffith, “Disputing with
-    Islam in Syriac: The Case of the Monk of B�t <hi rend="u">H</hi>āl� and a Muslim Emir,” <hi rend="italic">Hugoye</hi> vol. 3, no.
-    1 (January, 2000): http://syrcom.cua.edu/Hugoye. <ref target="#FNRef14">
+         <p>
+            <ref target="#FNRef14">14</ref> See Sidney H. Griffith, “Disputing
+    with Islam in Syriac: The Case of the Monk of Bêt
+    <hi rend="u">H</hi>ālê and a Muslim
+    Emir,” <hi rend="italic">Hugoye</hi> vol. 3, no. 1 (January, 2000):
+    http://syrcom.cua.edu/Hugoye. <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef15">15</ref> See Sidney H. Griffith, “From Aramaic to
-    Arabic: The Languages of the Monasteries of Palestine in the
+         <p>
+            <ref target="#FNRef15">15</ref> See Sidney H. Griffith, “From Aramaic
+    to Arabic: The Languages of the Monasteries of Palestine in the
     Byzantine and Early Islamic Periods.” <hi rend="italic">Dumbarton Oaks
     Papers</hi> 51 (1997), pp. 11-31. <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> On the multiple vicissitudes involved in
     such an enterprise, see the pertinent parts of the discussion
     in John F. A. Sawyer, <hi rend="italic">Sacred Languages and Sacred
@@ -1078,17 +1150,17 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> See Lorenzo Perrone, <hi rend="italic">La Chiesa di
     Palestine e le Controversie Cristologiche</hi> (Brescia:
     Paideia Editrice, 1980); Alois Grillmeier, <hi rend="italic">Jesus der
-    Christus im Glauben der Kirche</hi> (Band 2/3, “Die Kirchen von
-    Jerusalem und Antiochien nach 451 bis 600,” hrsg. T.
-    Hainthaler; Freiburg: Herder, 2002). <ref target="#FNRef17">
+    Christus im Glauben der Kirche</hi> (Band 2/3, “Die
+    Kirchen von Jerusalem und Antiochien nach 451 bis 600,”
+    hrsg. T. Hainthaler; Freiburg: Herder, 2002). <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> See John Binns, <hi rend="italic">Ascetics and Ambassadors
     of Christ: The Monasteries of Palestine, 314-631</hi> (Oxford
     Early Christian Studies; Oxford: Clarendon Press, 1994); Joseph
@@ -1096,112 +1168,114 @@
     Comparative Study in Eastern Monasticims, Fourth to Seventh
     Centuries</hi> (Washington, DC: Dumbarton Oaks, 1995). See also
     Sidney H. Griffith, “The Signs and Wonders of Orthodoxy:
-    Miracles and Monks’ Lives in Sixth-Century Palestine,” in John
-    C. Cavadini (ed.), <hi rend="italic">Miracles in Jewish and Christian
-    Antiquity: Imagining Truth</hi> (Notre Dame Studies in
-    Theology, vol. 3; Notre Dame, IN: University of Notre Dame
-    Press, 1999), pp. 139-168. <ref target="#FNRef18">
+    Miracles and Monks’ Lives in Sixth-Century
+    Palestine,” in John C. Cavadini (ed.), <hi rend="italic">Miracles in
+    Jewish and Christian Antiquity: Imagining Truth</hi> (Notre
+    Dame Studies in Theology, vol. 3; Notre Dame, IN: University of
+    Notre Dame Press, 1999), pp. 139-168. <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef19">19</ref> See Griffith, “From Aramaic to Arabic.”
-    <ref target="#FNRef19">
+         <p>
+            <ref target="#FNRef19">19</ref> See Griffith, “From Aramaic to
+    Arabic.” <ref target="#FNRef19">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> See A. Gerhards &amp; H. Brakman (eds.),
-    <hi rend="italic">Die koptische Kirche: Einf�rung in das �gyptische
+    <hi rend="italic">Die koptische Kirche: Einfürung in das ägyptische
     Christentum</hi> (Stuttgart: Kohlhammer, 1994). <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef21">21</ref> See S. Munro-Hay, <hi rend="italic">Axum: An African
     Civilization of Late Antiquity</hi> (Edinburgh: Edinburgh
     University Press, 1991) and the magisterial study by Nina
-    Garso�an, <hi rend="italic">L’�glise arm�nienne et le grand schisme
-    d’Orient</hi> (CSCO, vol. 574; Lovanii: Peeters, 1999).
-    <ref target="#FNRef21">
+    Garsoïan, <hi rend="italic">L’Église arménienne et
+    le grand schisme d’Orient</hi> (CSCO, vol. 574; Lovanii:
+    Peeters, 1999). <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef22">22</ref> See the essays on ‘Jacobite’ theology in
-    Syriac by Tanios Bou Mansour and Luise Abramowski in
-    Grillmeier, <hi rend="italic">Jesus der Christus</hi>, Band 2/3, pp. 438-647.
-    <ref target="#FNRef22">
+         <p>
+            <ref target="#FNRef22">22</ref> See the essays on ‘Jacobite’
+    theology in Syriac by Tanios Bou Mansour and Luise Abramowski
+    in Grillmeier, <hi rend="italic">Jesus der Christus</hi>, Band 2/3, pp.
+    438-647. <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> See the collected studies on the history and
-    theology of the ‘Church of the East’ in Alfred Stirnemann &amp;
-    Gerhard Wilflinger (eds.), <hi rend="italic">Syriac Dialogue</hi> (3 vols.,
-    ‘Non-Official Consultation on Dialogue within the Syriac
-    Tradition’; Vienna: Foundation Pro Oriente, 1994, 1996, 1998).
-    <ref target="#FNRef23">
+    theology of the ‘Church of the East’ in Alfred
+    Stirnemann &amp; Gerhard Wilflinger (eds.), <hi rend="italic">Syriac
+    Dialogue</hi> (3 vols., ‘Non-Official Consultation on
+    Dialogue within the Syriac Tradition’; Vienna: Foundation
+    Pro Oriente, 1994, 1996, 1998). <ref target="#FNRef23">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef24">24</ref> See Sebastian P. Brock, “The Christology of
-    the Church of the East in the Synods of the Fifth to Early
-    Seventh Centuries: Preliminary Considerations and Materials,”
-    in G. Dragas (ed.), <hi rend="italic">Aksum-Thyateira: A Festschrift for
-    Archbishop Methodios</hi> (London/Athens: Thyateira House,
-    1985), pp. 125-142; Sebastian P. Brock, “The ‘Nestorian’
-    Church: A Lamentable Misnomer,” <hi rend="italic">Bulletin of the John
-    Rylands University Library of Manchester</hi> 78 (1996), pp.
-    23-35. <ref target="#FNRef24">
+         <p>
+            <ref target="#FNRef24">24</ref> See Sebastian P. Brock, “The
+    Christology of the Church of the East in the Synods of the
+    Fifth to Early Seventh Centuries: Preliminary Considerations
+    and Materials,” in G. Dragas (ed.), <hi rend="italic">Aksum-Thyateira:
+    A Festschrift for Archbishop Methodios</hi> (London/Athens:
+    Thyateira House, 1985), pp. 125-142; Sebastian P. Brock,
+    “The ‘Nestorian’ Church: A Lamentable
+    Misnomer,” <hi rend="italic">Bulletin of the John Rylands University
+    Library of Manchester</hi> 78 (1996), pp. 23-35. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef25">25</ref> See J. M. Fiey, “Le p�lerinage des
-    Nestoriens et Jacobites � J�rusalem,” <hi rend="italic">Cahiers de
-    Civilisation M�di�vale; Xe-XIIe Si�cles</hi> 12 (1969), pp.
-    113-126; S. P. Cowe, “An Armenian Job Fragment from Sinai and
-    Its Implications,” <hi rend="italic">Oriens Christianus</hi> 76 (1992), pp.
-    123-157; Andrew Palmer, “The History of the Syrian Orthodox in
-    Jerusalem,” <hi rend="italic">Oriens Christianus</hi> 75 (1991), pp. 16-43;
-    Andrew Palmer, “The History of the Syrian Orthodox in
-    Jerusalem, Part Two: Queen Melisende and the Jacobite Estates,”
-    <hi rend="italic">Oriens Christianus</hi> 76 (1992), pp. 74-94; Johannes
-    Pahlitzsch, “St. Maria Magdalena, St. Thomas und St. Markus:
-    Tradition und Geschichte dreier syrisch-orthodoxer Kirchen in
-    Jerusalem,” <hi rend="italic">Oriens Christianus</hi> 18 (1997), pp. 82-106.
-    <ref target="#FNRef25">
+         <p>
+            <ref target="#FNRef25">25</ref> See J. M. Fiey, “Le pèlerinage
+    des Nestoriens et Jacobites à Jérusalem,”
+    <hi rend="italic">Cahiers de Civilisation Médiévale; Xe-XIIe
+    Siècles</hi> 12 (1969), pp. 113-126; S. P. Cowe,
+    “An Armenian Job Fragment from Sinai and Its
+    Implications,” <hi rend="italic">Oriens Christianus</hi> 76 (1992), pp.
+    123-157; Andrew Palmer, “The History of the Syrian
+    Orthodox in Jerusalem,” <hi rend="italic">Oriens Christianus</hi> 75
+    (1991), pp. 16-43; Andrew Palmer, “The History of the
+    Syrian Orthodox in Jerusalem, Part Two: Queen Melisende and the
+    Jacobite Estates,” <hi rend="italic">Oriens Christianus</hi> 76 (1992),
+    pp. 74-94; Johannes Pahlitzsch, “St. Maria Magdalena, St.
+    Thomas und St. Markus: Tradition und Geschichte dreier
+    syrisch-orthodoxer Kirchen in Jerusalem,” <hi rend="italic">Oriens
+    Christianus</hi> 18 (1997), pp. 82-106. <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef26">26</ref> See V. Grumel, “Recherches sur l’histoire du
-    monoth�lisme,” <hi rend="italic">�chos d’Orient</hi> 27 (1928), pp. 6-16,
+         <p>
+            <ref target="#FNRef26">26</ref> See V. Grumel, “Recherches sur
+    l’histoire du monothélisme,”
+    <hi rend="italic">Échos d’Orient</hi> 27 (1928), pp. 6-16,
     257-277; 28 (1929), pp. 19-34, 272-282; 29 (1930), pp. 16-28;
-    P. Verghese, “The Monothelite Controversy � a Historical
-    Survey,” <hi rend="italic">Greek Orthodox Theological Review</hi> 13 (1968),
-    pp. 196-211. <ref target="#FNRef26">
+    P. Verghese, “The Monothelite Controversy – a
+    Historical Survey,” <hi rend="italic">Greek Orthodox Theological
+    Review</hi> 13 (1968), pp. 196-211. <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> See Bernard Flusin, <hi rend="italic">Saint Anastase le
     Perse et l’histoire de la Palestine au debut du VIIe
-    si�cle</hi> (2 vols.; Paris: �ditions du Centre National de la
-    Recherche Scientifique, 1992). <ref target="#FNRef27">
+    siècle</hi> (2 vols.; Paris: Éditions du Centre
+    National de la Recherche Scientifique, 1992). <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> See Walter Kaegi, <hi rend="italic">Heraclius, Emperor of
     Byzantium</hi> (Cambridge: Cambridge University Press, 2003).
     <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> See Leo Donald Davis, <hi rend="italic">The First Seven
     Ecumenical Councils (325-787): Their History and Theology</hi>
     (Collegeville, MN: The Liturgical Press, 1983), pp. 258-289;
@@ -1211,184 +1285,193 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> See, e.g., the doctrinaire decision of Aidan
     Nichols, while all but admitting the plausibility of the
     evidence, blithely to discount it without further discussion in
-    favor of what he calls “its main rival,” i.e., a much later
-    hagiographical <hi rend="italic">Vita</hi>, composed in Greek. See Aidan
-    Nichols, <hi rend="italic">Byzantine Gospel: Maximus the Confessor in Modern
-    Scholarship</hi> (Edinburgh: T&amp;T Clark, 1993), p. 15. For
-    more nuanced views see I. �H. Dalmais, “La vie de saint Maxime
-    le Confesseur reconsid�r�e,” <hi rend="italic">Studia Patristica</hi> 17
-    (1982), pp. 26-30; Andrew Louth, <hi rend="italic">Maximus the Confessor</hi>
-    (The Early Church Fathers; London: Routledge, 1996), pp. 4-7,
-    199, nn. 10 &amp; 11. <ref target="#FNRef30">
+    favor of what he calls “its main rival,” i.e., a
+    much later hagiographical <hi rend="italic">Vita</hi>, composed in Greek. See
+    Aidan Nichols, <hi rend="italic">Byzantine Gospel: Maximus the Confessor in
+    Modern Scholarship</hi> (Edinburgh: T&amp;T Clark, 1993), p.
+    15. For more nuanced views see I. –H. Dalmais, “La
+    vie de saint Maxime le Confesseur
+    reconsidérée,” <hi rend="italic">Studia Patristica</hi>
+    17 (1982), pp. 26-30; Andrew Louth, <hi rend="italic">Maximus the
+    Confessor</hi> (The Early Church Fathers; London: Routledge,
+    1996), pp. 4-7, 199, nn. 10 &amp; 11. <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef31">31</ref> See Christoph von Sch�born, <hi rend="italic">Sophrone de
-    J�rusalem: vie monastique et confession dogmatique</hi>
-    (Th�ologie Historique, 20; Paris: Beauchesne, 1972). <ref target="#FNRef31">
+         <p>
+            <ref target="#FNRef31">31</ref> See Christoph von Schöborn,
+    <hi rend="italic">Sophrone de Jérusalem: vie monastique et confession
+    dogmatique</hi> (Théologie Historique, 20; Paris:
+    Beauchesne, 1972). <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> This monastery, often called the ‘Old
-    Lavra’, was an important center of Byzantine Orthodox thought
-    well into Islamic times; its monks were active in the
-    production of Arabic texts for the ‘Melkite’ community long
-    after St. John of Damascus’ lifetime. See Sidney H. Griffith,
-    <hi rend="italic">Arabic Christianity in the Monasteries of Ninth-Century
-    Palestine</hi> (Variorum Reprints; Aldershot, Hamps.: Ashgate,
-    1992). See also Yizhar Hirschfeld, <hi rend="italic">The Judean Desert
-    Monasteries in the Byzantine Period</hi> (New Haven: Yale
-    University Press, 1992). <ref target="#FNRef32">
+    Lavra’, was an important center of Byzantine Orthodox
+    thought well into Islamic times; its monks were active in the
+    production of Arabic texts for the ‘Melkite’
+    community long after St. John of Damascus’ lifetime. See
+    Sidney H. Griffith, <hi rend="italic">Arabic Christianity in the Monasteries
+    of Ninth-Century Palestine</hi> (Variorum Reprints; Aldershot,
+    Hamps.: Ashgate, 1992). See also Yizhar Hirschfeld, <hi rend="italic">The
+    Judean Desert Monasteries in the Byzantine Period</hi> (New
+    Haven: Yale University Press, 1992). <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef33">33</ref> See Sebastian P. Brock, “An Early Syriac
-    Life of Maximus the Confessor,” <hi rend="italic">Analecta Bollandiana</hi>
-    91 (1973), pp. 299-346; S.P. Brock, “A Syriac Fragment on the
-    Sixth Council,” <hi rend="italic">Oriens Christianus</hi> 57 (1973), pp.
-    63-71. <ref target="#FNRef33">
+         <p>
+            <ref target="#FNRef33">33</ref> See Sebastian P. Brock, “An Early
+    Syriac Life of Maximus the Confessor,” <hi rend="italic">Analecta
+    Bollandiana</hi> 91 (1973), pp. 299-346; S.P. Brock, “A
+    Syriac Fragment on the Sixth Council,” <hi rend="italic">Oriens
+    Christianus</hi> 57 (1973), pp. 63-71. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef34">34</ref> See Brock, “An Early Syriac Life,” esp. pp.
-    332-336, 344-346. <ref target="#FNRef34">
+         <p>
+            <ref target="#FNRef34">34</ref> See Brock, “An Early Syriac
+    Life,” esp. pp. 332-336, 344-346. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> See H.J.W. Drijvers, “Jakob von Edessa
-    (633-708,” in <hi rend="italic">Theologische Realenzyklop�die</hi> (vol. 16;
-    Berlin: DeGruyter, 1993), pp. 468-470; Dirk Kruisheer &amp;
-    Lucas Van Rompay, “A Bibliographical <hi rend="italic">Clavis</hi> to the
-    Works of Jacob of Edessa,” <hi rend="italic">Hugoye</hi> 1 (1998), <ref target="http://syrcom.cua.edu/Hugoye/Vol1No1/Clavis.html">http://syrcom.cua.edu/Hugoye/Vol1No1/Clavis.html</ref>.
+    (633-708,” in <hi rend="italic">Theologische Realenzyklopädie</hi>
+    (vol. 16; Berlin: DeGruyter, 1993), pp. 468-470; Dirk Kruisheer
+    &amp; Lucas Van Rompay, “A Bibliographical
+    <hi rend="italic">Clavis</hi> to the Works of Jacob of Edessa,”
+    <hi rend="italic">Hugoye</hi> 1 (1998), <ref target="http://syrcom.cua.edu/Hugoye/Vol1No1/Clavis.html">http://syrcom.cua.edu/Hugoye/Vol1No1/Clavis.html</ref>.
     <ref target="#FNRef35">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef36">36</ref> See Milka Levy-Rubin, “The Role of the
     Judaean Desert Monasteries in the Monothelite Controversy in
-    Seventh-Century Palestine,” in Joseph Patrich (ed.), <hi rend="italic">The
-    Sabaite Heritage in the Orthodox Church from the Fifth Century
-    to the Present</hi> (Orientalia Lovaniensia Analecta, 98;
-    Leuven: Uitgeverij Peeters en Departement Oosterse Studies,
+    Seventh-Century Palestine,” in Joseph Patrich (ed.),
+    <hi rend="italic">The Sabaite Heritage in the Orthodox Church from the Fifth
+    Century to the Present</hi> (Orientalia Lovaniensia Analecta,
+    98; Leuven: Uitgeverij Peeters en Departement Oosterse Studies,
     2001), pp. 282-300. <ref target="#FNRef36">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef37">37</ref> See the studies of Flusin, <hi rend="italic">Saint
     Anastase le Perse</hi>. <ref target="#FNRef37">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef38">38</ref> On the significance of the term
-    <hi rend="italic">ar-Rūm</hi>, ‘Romans’, as it was used by Arabophone
-    Christians and Muslims in the Islamic world see S.K. Samir,
-    “Quelques notes sur les termes <hi rend="italic">rūm</hi> et <hi rend="italic">rūmī</hi>
-    dans la tradition arabe; �tude de s�mantique historique,” in
-    <hi rend="italic">La Nozione de “Romano” tra Cittadinanza et
-    Universalit�</hi> (Atti del il Seminario Internazionale di
-    Studi Storici, “Da Roma alla Terza Roma,” 21-23 Aprile 1982;
-    Roma, 1984), pp. 461-478. <ref target="#FNRef38">
+    <hi rend="italic">ar-Rūm</hi>, ‘Romans’, as it was used by
+    Arabophone Christians and Muslims in the Islamic world see S.K.
+    Samir, “Quelques notes sur les termes <hi rend="italic">rūm</hi>
+    et <hi rend="italic">rūmī</hi> dans la tradition arabe;
+    étude de sémantique historique,” in <hi rend="italic">La
+    Nozione de “Romano” tra Cittadinanza et
+    Universalità</hi> (Atti del il Seminario Internazionale
+    di Studi Storici, “Da Roma alla Terza Roma,” 21-23
+    Aprile 1982; Roma, 1984), pp. 461-478. <ref target="#FNRef38">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef39">39</ref> See Sidney H. Griffith, “Byzantium and the
-    Christians in the World of Islam: Constantinople and the Church
-    in the Holy Land in the Ninth Century,” <hi rend="italic">Medieval
-    Encounters</hi> 3 (1997), pp. 231-265; S.H. Griffith, “What has
-    Constantinople to do with Jerusalem? Palestine in the ninth
-    century: Byzantine Orthodoxy in the world of Islam,” in Leslie
-    Brubaker (ed.), <hi rend="italic">Byzantium</hi> 
-            <hi rend="italic">in the Ninth Century:
-    Dead or Alive?</hi> (Society for the Promotion of Byzantine
-    Studies Publications, 5; Aldershot, Hamps.: Ashgate/Variorum,
-    1998), pp. 181-194. <ref target="#FNRef39">
+         <p>
+            <ref target="#FNRef39">39</ref> See Sidney H. Griffith, “Byzantium and
+    the Christians in the World of Islam: Constantinople and the
+    Church in the Holy Land in the Ninth Century,”
+    <hi rend="italic">Medieval Encounters</hi> 3 (1997), pp. 231-265; S.H.
+    Griffith, “What has Constantinople to do with Jerusalem?
+    Palestine in the ninth century: Byzantine Orthodoxy in the
+    world of Islam,” in Leslie Brubaker (ed.),
+    <hi rend="italic">Byzantium</hi>
+            <hi rend="italic">in the Ninth Century: Dead or
+    Alive?</hi> (Society for the Promotion of Byzantine Studies
+    Publications, 5; Aldershot, Hamps.: Ashgate/Variorum, 1998),
+    pp. 181-194. <ref target="#FNRef39">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef40">40</ref> See Sidney H. Griffith, “ ‘Melkites’,
-    ‘Jacobites’ and the Christological Controversies in Arabic in
-    Third/Ninth-Century Syria,” in David Thomas (ed.), <hi rend="italic">Syrian
-    Christians under Islam: The First Thousand Years</hi> (Leiden:
-    Brill, 2001), pp. 9-55; S.H. Griffith, “Muslims and Church
-    Councils: The Apology of Theodore Abū Qurrah,” in E. A.
-    Livingstone (ed.), <hi rend="italic">Studia Patristica</hi> (vol. 25;
+         <p>
+            <ref target="#FNRef40">40</ref> See Sidney H. Griffith, “
+    ‘Melkites’, ‘Jacobites’ and the
+    Christological Controversies in Arabic in Third/Ninth-Century
+    Syria,” in David Thomas (ed.), <hi rend="italic">Syrian Christians
+    under Islam: The First Thousand Years</hi> (Leiden: Brill,
+    2001), pp. 9-55; S.H. Griffith, “Muslims and Church
+    Councils: The Apology of Theodore Abū Qurrah,” in E.
+    A. Livingstone (ed.), <hi rend="italic">Studia Patristica</hi> (vol. 25;
     Louvain: Peeters, 1993), pp. 270-299. <ref target="#FNRef40">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef41">41</ref> See Sidney H. Griffith, “From Aramiac to
-    Arabic: The Languages of the Monasteries of Palestine in the
+         <p>
+            <ref target="#FNRef41">41</ref> See Sidney H. Griffith, “From Aramiac
+    to Arabic: The Languages of the Monasteries of Palestine in the
     Byzantine and Early Islamic Periods,” <hi rend="italic">Dumbarton Oaks
     Papers</hi> 51 (1997), pp. 11-31. <ref target="#FNRef41">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef42">42</ref> Two difficulties beset the use of the term
-    ‘Melkites’. On the one hand, scholars have regularly used the
-    term anachronistically to refer to the ‘Chalcedonians’ from the
-    fifth century onward, whereas it did not in fact come into
-    currency until well after the time of Constantinople III in 681
-    and its primary reference was to those Christians in the
-    Islamic world who accepted the teachings of that council. On
-    the other hand, in modern times the term has been used almost
-    exclusively to refer to members of this community who came into
-    union with the see of Rome in the eighteenth century. See
-    Sidney H. Griffith, “The Church of Jerusalem and the
-    ‘Melkites’: The Making of an ‘Arab Orthodox’ Christian Identity
-    in the World of Islam; 750-1050 CE,” in press. <ref target="#FNRef42">
+    ‘Melkites’. On the one hand, scholars have
+    regularly used the term anachronistically to refer to the
+    ‘Chalcedonians’ from the fifth century onward,
+    whereas it did not in fact come into currency until well after
+    the time of Constantinople III in 681 and its primary reference
+    was to those Christians in the Islamic world who accepted the
+    teachings of that council. On the other hand, in modern times
+    the term has been used almost exclusively to refer to members
+    of this community who came into union with the see of Rome in
+    the eighteenth century. See Sidney H. Griffith, “The
+    Church of Jerusalem and the ‘Melkites’: The Making
+    of an ‘Arab Orthodox’ Christian Identity in the
+    World of Islam; 750-1050 CE,” in press. <ref target="#FNRef42">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef43">43</ref> For the extent of Jerusalem’s sway see
-    Sidney H. Griffith, “The <hi rend="italic">Life of Theodore of Edessa</hi>:
-    History, Hagiography and Religious Apologetics in Mar Saba
-    Monastery in Early Abbasid Times,” in Patrich, <hi rend="italic">The Sabaite
-    Heritage</hi>, pp. 147-169. <ref target="#FNRef43">
+    Sidney H. Griffith, “The <hi rend="italic">Life of Theodore of
+    Edessa</hi>: History, Hagiography and Religious Apologetics in
+    Mar Saba Monastery in Early Abbasid Times,” in Patrich,
+    <hi rend="italic">The Sabaite Heritage</hi>, pp. 147-169. <ref target="#FNRef43">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef44">44</ref> Cyril Mango, “Greek Culture in Palestine
-    after the Arab Conquest,” in G. Cavallo, G. De Gregorio, M.
-    Maniaci (eds.), <hi rend="italic">Scritture, Libri e Testi nelle Aree
-    Provinciali di Bisanzio</hi> (Spoleto: Centro Italiano di Studi
-    sull’Alto Medioevo, 1988), pp. 149-150. See also R. P. Blake,
-    “La litt�rature grecque en Palestine au VIIIe si�cle,” <hi rend="italic">Le
-    Mus�on</hi> 78 (1965), pp. 367-380. <ref target="#FNRef44">
+         <p>
+            <ref target="#FNRef44">44</ref> Cyril Mango, “Greek Culture in
+    Palestine after the Arab Conquest,” in G. Cavallo, G. De
+    Gregorio, M. Maniaci (eds.), <hi rend="italic">Scritture, Libri e Testi nelle
+    Aree Provinciali di Bisanzio</hi> (Spoleto: Centro Italiano di
+    Studi sull’Alto Medioevo, 1988), pp. 149-150. See also R.
+    P. Blake, “La littérature grecque en Palestine au
+    VIIIe siècle,” <hi rend="italic">Le Muséon</hi> 78
+    (1965), pp. 367-380. <ref target="#FNRef44">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef45">45</ref> See, e.g., J. Binns, <hi rend="italic">Ascetics and
     Ambassadors of Christ: The Monasteries of Palestine,
     314-631</hi> (Oxford: Oxford University Press, 1994). <ref target="#FNRef45">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef46">46</ref> For more on this topic see Griffith, “The
-    Church of Jerusalem and the ‘Melkites’. <ref target="#FNRef46">
+         <p>
+            <ref target="#FNRef46">46</ref> For more on this topic see Griffith,
+    “The Church of Jerusalem and the ‘Melkites’.
+    <ref target="#FNRef46">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef47">47</ref> See John C. Lamoreaux (ed. &amp; trans.),
     <hi rend="italic">The Life of St. Stephen of Mar Sabas</hi> (CSCO, vols. 578
     &amp; 579; Lovanii: Peeters, 1999); Bartolomeo Pirone (ed.
@@ -1399,35 +1482,38 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef48">48</ref> See M.-F. Auzepy, “De la Palestine �
-    Constantinople (VIIIe-IXe si�cles): �tienne le Saba�te et Jean
-    Damasc�ne,” <hi rend="italic">Travaux et M�moires</hi> 12 (1994), pp.
-    183-218. See also J. Gouillard, “Un ‘quartier’ d’emigr�s
-    palestiniens � Constantinople au IXe si�cle?” <hi rend="italic">Revue des
-    �tudes Sud-Est Europ�enes</hi> 7 (1969), pp. 73-76. <ref target="#FNRef48">
+         <p>
+            <ref target="#FNRef48">48</ref> See M.-F. Auzepy, “De la Palestine
+    à Constantinople (VIIIe-IXe siècles):
+    Étienne le Sabaïte et Jean Damascène,”
+    <hi rend="italic">Travaux et Mémoires</hi> 12 (1994), pp. 183-218. See
+    also J. Gouillard, “Un ‘quartier’
+    d’emigrés palestiniens à Constantinople au
+    IXe siècle?” <hi rend="italic">Revue des Études Sud-Est
+    Européenes</hi> 7 (1969), pp. 73-76. <ref target="#FNRef48">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef49">49</ref> See Griffith, “What has Constantinople to do
-    with Jerusalem?” and “Byzantium and the Christians in the World
-    of Islam.” <ref target="#FNRef49">
+         <p>
+            <ref target="#FNRef49">49</ref> See Griffith, “What has Constantinople
+    to do with Jerusalem?” and “Byzantium and the
+    Christians in the World of Islam.” <ref target="#FNRef49">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef50">50</ref> See John Haldon, “The Works of Anastasius of
-    Sinai: A Key Source for the History of Seventh-Century East
-    Mediterranean Society and Belief,” in Averil Cameron &amp;
-    Lawrence I. Conrad (eds.), <hi rend="italic">The Byzantine and Early Islamic
-    Near East: I � Problems in the Literary Source Material</hi>
-    (Studies in Late Antiquity and Early Islam, 1; Princeton: The
-    Darwin Press, 1992), pp. 107-147. <ref target="#FNRef50">
+         <p>
+            <ref target="#FNRef50">50</ref> See John Haldon, “The Works of
+    Anastasius of Sinai: A Key Source for the History of
+    Seventh-Century East Mediterranean Society and Belief,”
+    in Averil Cameron &amp; Lawrence I. Conrad (eds.), <hi rend="italic">The
+    Byzantine and Early Islamic Near East: I – Problems in
+    the Literary Source Material</hi> (Studies in Late Antiquity
+    and Early Islam, 1; Princeton: The Darwin Press, 1992), pp.
+    107-147. <ref target="#FNRef50">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef51">51</ref> See K. H. Uthemann (ed.), <hi rend="italic">Anastasii
     Sinaitae Viae Dux</hi> (Corpus Christianorum Series Graeca, 8;
     Turnhout &amp; Louvain: Brepols &amp; University Press, 1981).
@@ -1435,35 +1521,35 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef52">52</ref> See T. Sp�čil, “La teologia di s. Anastasio
-    Sinaita,” <hi rend="italic">Bessarione</hi> 26 (1922), pp. 157-178; 27
-    (1923), pp. 15-44. <ref target="#FNRef52">
+         <p>
+            <ref target="#FNRef52">52</ref> See T. Spáčil, “La
+    teologia di s. Anastasio Sinaita,” <hi rend="italic">Bessarione</hi> 26
+    (1922), pp. 157-178; 27 (1923), pp. 15-44. <ref target="#FNRef52">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef53">53</ref> See Anna Kartsonis, <hi rend="italic">Anastasis: The
     Making of an Image</hi> (Princeton: Princeton University Press,
     1986). <ref target="#FNRef53">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef54">54</ref> See Sidney H. Griffith, “Anastasios of
-    Sinai, the <hi rend="italic">Hodegos</hi> and the Muslims,” <hi rend="italic">The Greek
-    Orthodox Theological Review</hi> 32 (1987), pp. 341-358.
+    Sinai, the <hi rend="italic">Hodegos</hi> and the Muslims,” <hi rend="italic">The
+    Greek Orthodox Theological Review</hi> 32 (1987), pp. 341-358.
     <ref target="#FNRef54">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef55">55</ref> See Haldon, “The Works of Anastasius of
-    Sinai.” <ref target="#FNRef55">
+         <p>
+            <ref target="#FNRef55">55</ref> See Haldon, “The Works of Anastasius
+    of Sinai.” <ref target="#FNRef55">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef56">56</ref> See J. F. Haldon, <hi rend="italic">Byzantium</hi> 
             <hi rend="italic">in
     the Seventh Century: The Transformation of a Culture</hi>
@@ -1471,29 +1557,31 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef57">57</ref> See Mango, “Greek Culture in Palestine;” and
-    Blake, “La litt�rature en Palestine.” See also the long
-    discussion of the merits and accomplishments of these writers
-    in Daniel J. Sahas, “Cultural Interaction during the Ummayad
-    Period: The ‘Circle’ of John of Damascus,” <hi rend="italic">ARAM</hi> 6
-    (1994), pp. 35-66. <ref target="#FNRef57">
+         <p>
+            <ref target="#FNRef57">57</ref> See Mango, “Greek Culture in
+    Palestine;” and Blake, “La littérature en
+    Palestine.” See also the long discussion of the merits
+    and accomplishments of these writers in Daniel J. Sahas,
+    “Cultural Interaction during the Ummayad Period: The
+    ‘Circle’ of John of Damascus,” <hi rend="italic">ARAM</hi>
+    6 (1994), pp. 35-66. <ref target="#FNRef57">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef58">58</ref> See, e.g., Andrew Louth, “Palestine under
-    the Arabs 650-750: The Crucible of Byzantine Orthodoxy,” in
-    R.N. Swanson (ed.), <hi rend="italic">The Holy Land, Holy Lands, and
-    Christian History</hi> (Studies in Church History, vol. 36;
-    London: The Boydell Press for The Ecclesiastical History
-    Society, 2000), pp. 67-77; A. Louth, “John of Damascus and the
-    Making of the Byzantine Theological Synthesis,” in Patrich,
-    <hi rend="italic">The Sabaite Heritage</hi>, pp. 301-304. <ref target="#FNRef58">
+         <p>
+            <ref target="#FNRef58">58</ref> See, e.g., Andrew Louth, “Palestine
+    under the Arabs 650-750: The Crucible of Byzantine
+    Orthodoxy,” in R.N. Swanson (ed.), <hi rend="italic">The Holy Land,
+    Holy Lands, and Christian History</hi> (Studies in Church
+    History, vol. 36; London: The Boydell Press for The
+    Ecclesiastical History Society, 2000), pp. 67-77; A. Louth,
+    “John of Damascus and the Making of the Byzantine
+    Theological Synthesis,” in Patrich, <hi rend="italic">The Sabaite
+    Heritage</hi>, pp. 301-304. <ref target="#FNRef58">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef59">59</ref> See the text cited from the proceedings of
     the Iconoclast council of 754 in the <hi rend="italic">Acta</hi> of the
     seventh Ecumenical Council, Nicea II, 784, in Daniel J. Sahas,
@@ -1502,18 +1590,19 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef60">60</ref> See F. Diekamp, <hi rend="italic">Doctrina Patrum de
     Incarnatione Verbi: ein griechisches Florilegium aus der Wende
-    des 7. und 8. Jahrhunderts</hi> (2nd ed.; M�nster: Aschendorff,
-    1981). For the two Leontii see Aloys Grillmeier, <hi rend="italic">Christ in
-    Christian Tradition</hi> (vol. II, part 2; trans. John Cawte
-    &amp; Pauline Allen; London &amp; Louisville, KY: Mowbray &amp;
-    Westminster John Knox Press, 1995), pp. 181-312. <ref target="#FNRef60">
+    des 7. und 8. Jahrhunderts</hi> (2nd ed.; Münster:
+    Aschendorff, 1981). For the two Leontii see Aloys Grillmeier,
+    <hi rend="italic">Christ in Christian Tradition</hi> (vol. II, part 2; trans.
+    John Cawte &amp; Pauline Allen; London &amp; Louisville, KY:
+    Mowbray &amp; Westminster John Knox Press, 1995), pp. 181-312.
+    <ref target="#FNRef60">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef61">61</ref> See Karl Holl, <hi rend="italic">Die Sacra Parallela des
     Johannes Damascenus</hi> (Leipzig: J.C. Hinrichs,1896). It is
     interesting that an illustrated MS of this text, possibly of
@@ -1525,7 +1614,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef62">62</ref> For the basic facts of the succession as we
     know them, see Giorgio Fedalto, <hi rend="italic">Hierarchia Ecclesiastica
     Orientalis: Series Episcoporum Eddlesiarum Christianarum
@@ -1534,7 +1623,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef63">63</ref> For a good summary of these developments see
     Patricia Crone, <hi rend="italic">God’s Rule: Government and Islam; Six
     Centuries of Medieval Islamic Political Thought</hi> (New York:
@@ -1542,22 +1631,22 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef64">64</ref> On the early origins of these materials see
-    now Gregor Schoeler, <hi rend="italic">�crire et transmettre dans les d�buts
-    de l’islam</hi> (Paris: Presses Universitaires de France,
-    2002). <ref target="#FNRef64">
+    now Gregor Schoeler, <hi rend="italic">Écrire et transmettre dans les
+    débuts de l’islam</hi> (Paris: Presses
+    Universitaires de France, 2002). <ref target="#FNRef64">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef65">65</ref> See Ahmad Shboul, “Change and Continuity in
-    Early Islamic Damascus,” <hi rend="italic">ARAM</hi> 6 (1994), pp. 67-102.
-    <ref target="#FNRef65">
+         <p>
+            <ref target="#FNRef65">65</ref> See Ahmad Shboul, “Change and
+    Continuity in Early Islamic Damascus,” <hi rend="italic">ARAM</hi> 6
+    (1994), pp. 67-102. <ref target="#FNRef65">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef66">66</ref> See John Wansbrough, <hi rend="italic">The Sectarian
     Milieu: Content and Composition of Islamic Salvation
     History</hi> (London Oriental Series, vol. 34; Oxford: Oxford
@@ -1565,59 +1654,65 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef67">67</ref> See W. Montgomery Watt, <hi rend="italic">The Formative
     Period of Islamic Thought</hi> (Edinburgh: Edinburgh University
     Press, 1973); Josef van Ess, <hi rend="italic">Theologie und Gesellschaft im
-    2. und 3. Jahrhundert Hidschra: Eine Geschichte des religi�sen
-    Denkens im fr�hen Islam</hi> (6 vols.; Berlin &amp; New York:
-    Walter de Gruyter, 1991-1995), esp. vol. II, pp. 1-343.
-    <ref target="#FNRef67">
+    2. und 3. Jahrhundert Hidschra: Eine Geschichte des
+    religiösen Denkens im frühen Islam</hi> (6 vols.;
+    Berlin &amp; New York: Walter de Gruyter, 1991-1995), esp. vol.
+    II, pp. 1-343. <ref target="#FNRef67">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef68">68</ref> See Shlomo Pines, “A Note on an Early
-    Meaning of the Term <hi rend="italic">Mutakallimūn</hi>,” <hi rend="italic">Israel</hi>
-            <hi rend="italic">Oriental Studies</hi> 1 (1971), pp. 224-240; J. Van Ess,
-    “Disputationspraxis in der islamischen Theologie, eine
-    vorl�ufige Skizze,” <hi rend="italic">Revue des �tudes Islamiques</hi> 44
-    (1976), pp. 23-60; M. A. Cook, “The Origins of Kalām,”
+    Meaning of the Term <hi rend="italic">Mutakallimūn</hi>,”
+    <hi rend="italic">Israel</hi>
+            <hi rend="italic">Oriental Studies</hi> 1 (1971), pp.
+    224-240; J. Van Ess, “Disputationspraxis in der
+    islamischen Theologie, eine vorläufige Skizze,”
+    <hi rend="italic">Revue des Études Islamiques</hi> 44 (1976), pp.
+    23-60; M. A. Cook, “The Origins of Kalām,”
     <hi rend="italic">Bulletin of the School of Oriental and African Studies</hi>
-    43 (1980), pp. 32-43; R. M. Frank, “The Science of Kalām,”
-    <hi rend="italic">Arabic Science and Philosophy</hi> 2 (1992), pp. 9-37.
-    <ref target="#FNRef68">
+    43 (1980), pp. 32-43; R. M. Frank, “The Science of
+    Kalām,” <hi rend="italic">Arabic Science and Philosophy</hi> 2
+    (1992), pp. 9-37. <ref target="#FNRef68">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef69">69</ref> See Melhem Chokr, <hi rend="italic">Zandaqa et zindīqs en
-    islam au second si�cle de l’H�gire</hi> (Damas: Institut
-    Fran�ais de Damas, 1993); Van Ess, <hi rend="italic">Theologie und
-    Gesellschaft</hi>, vol. I, pp. 416-426. <ref target="#FNRef69">
+         <p>
+            <ref target="#FNRef69">69</ref> See Melhem Chokr, <hi rend="italic">Zandaqa et
+    zindīqs en islam au second siècle de
+    l’Hégire</hi> (Damas: Institut Français de
+    Damas, 1993); Van Ess, <hi rend="italic">Theologie und Gesellschaft</hi>,
+    vol. I, pp. 416-426. <ref target="#FNRef69">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef70">70</ref> For this understanding of the sense of the
     term <hi rend="italic">
-               <hi style="font-family: &#34;Baskerville MT Alt&#34;">„</hi>anp�</hi> see
-    Fran�ois DeBlois, “<hi rend="italic">Na<hi rend="u">s</hi>rānī</hi>
-    (Ναζωραιος) and <hi rend="italic">
+               <hi style="font-family: &#34;Baskerville MT Alt&#34;">„</hi>anpê</hi>
+    see François DeBlois, “<hi rend="italic">Na<hi rend="u">s</hi>rānī</hi>
+    (Ναζωραιος)
+    and <hi rend="italic">
                <hi rend="u">h</hi>anīf</hi>
-    (εθνικος): Studies on the Religious Vocabulary of Christianity
-    and Islam,” <hi rend="italic">Bulletin of the School of Oriental and African
-    Studies</hi> 65 (2002), pp. 1-30. <ref target="#FNRef70">
+    (εθνικος): Studies
+    on the Religious Vocabulary of Christianity and Islam,”
+    <hi rend="italic">Bulletin of the School of Oriental and African Studies</hi>
+    65 (2002), pp. 1-30. <ref target="#FNRef70">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef71">71</ref> See Moshe Gil, “The Creed of Abū ‛Amīr,”
-    <hi rend="italic">Israel Oriental Studies</hi> 12 (1992), pp. 9-57. <ref target="#FNRef71">
+         <p>
+            <ref target="#FNRef71">71</ref> See Moshe Gil, “The Creed of Abū
+    ‛Amīr,” <hi rend="italic">Israel Oriental Studies</hi> 12
+    (1992), pp. 9-57. <ref target="#FNRef71">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef72">72</ref> On St. John and the Manichees see the
     discussion in Andrew Louth, <hi rend="italic">St John Damascene: Tradition
     and Originality in Byzantine Theology</hi> (Oxford Early
@@ -1626,21 +1721,21 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef73">73</ref> See, e.g., the discussion of Roger Arnaldez,
-    <hi rend="italic">A la crois�e des trois monotheisms: Une communaut� de
-    pens�e au Moyen-Age</hi> (Paris: Albin Michel, 1993), pp.
-    63-83. <ref target="#FNRef73">
+    <hi rend="italic">A la croisée des trois monotheisms: Une
+    communauté de pensée au Moyen-Age</hi> (Paris:
+    Albin Michel, 1993), pp. 63-83. <ref target="#FNRef73">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef74">74</ref> See the discussion of the terms in Watt,
     <hi rend="italic">The Formative Period</hi>, pp. 116-118. <ref target="#FNRef74">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef75">75</ref> See Morris S. Seale, <hi rend="italic">Muslim Theology: A
     Study of Origins with Reference to the Church Fathers</hi>
     (London: Luzac, 1964), esp. pp. 74 ff.; Harry Austryn Wolfson,
@@ -1649,41 +1744,42 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef76">76</ref> See Michael Cook, <hi rend="italic">Early Muslim Dogma: A
     Source Critical Study</hi> (Cambridge: Cambridge University
     Press, 1981), pp. 151 ff. <ref target="#FNRef76">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef77">77</ref> See Shlomo Pines, “Some Traits of Christian
-    Theological Writing in Relation to Moslem <hi rend="italic">Kalām</hi> and to
-    Jewish Thought,” <hi rend="italic">Proceedings of the Israel Academy of the
-    Sciences and the Humanities</hi> 5 (1976), esp. pp. 112-115.
-    <ref target="#FNRef77">
+         <p>
+            <ref target="#FNRef77">77</ref> See Shlomo Pines, “Some Traits of
+    Christian Theological Writing in Relation to Moslem
+    <hi rend="italic">Kalām</hi> and to Jewish Thought,”
+    <hi rend="italic">Proceedings of the Israel Academy of the Sciences and the
+    Humanities</hi> 5 (1976), esp. pp. 112-115. <ref target="#FNRef77">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef78">78</ref> See Carl H. Becker, “Christliche Polemik und
-    islamische Dogmenbildung,” <hi rend="italic">Zeitschrift f�r
-    Assyriologie</hi> 25 (1911), pp. 175-195, reprinted in the
-    author’s <hi rend="italic">Vom Werden und Wesen der islamischen Welt:
-    Islamstudien von C.H. Becker</hi> (2 vols.; Leipzig: Quelle und
-    Meyer, 1924-1932), vol. I, pp. 439 ff. <ref target="#FNRef78">
+         <p>
+            <ref target="#FNRef78">78</ref> See Carl H. Becker, “Christliche
+    Polemik und islamische Dogmenbildung,” <hi rend="italic">Zeitschrift
+    für Assyriologie</hi> 25 (1911), pp. 175-195, reprinted in
+    the author’s <hi rend="italic">Vom Werden und Wesen der islamischen
+    Welt: Islamstudien von C.H. Becker</hi> (2 vols.; Leipzig:
+    Quelle und Meyer, 1924-1932), vol. I, pp. 439 ff. <ref target="#FNRef78">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef79">79</ref> See the present author’s earlier effort to
-    make this case in Griffith, “‘Melkites’, ‘Jacobites’ and the
-    Christological Controversies,” in Thomas, <hi rend="italic">Syrian Christians
-    under Islam</hi>, esp. pp. 19-38. <ref target="#FNRef79">
+         <p>
+            <ref target="#FNRef79">79</ref> See the present author’s earlier
+    effort to make this case in Griffith,
+    “‘Melkites’, ‘Jacobites’ and the
+    Christological Controversies,” in Thomas, <hi rend="italic">Syrian
+    Christians under Islam</hi>, esp. pp. 19-38. <ref target="#FNRef79">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef80">80</ref> 
             <hi rend="italic">Pace</hi> Andrew Louth, <hi rend="italic">St John</hi>
             <hi rend="italic">Damascene: Tradition and Originality in Byzantine
@@ -1692,52 +1788,54 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef81">81</ref> See Griffith, “The Church of Jerusalem and
-    the ‘Melkites’. <ref target="#FNRef81">
+         <p>
+            <ref target="#FNRef81">81</ref> See Griffith, “The Church of Jerusalem
+    and the ‘Melkites’. <ref target="#FNRef81">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef82">82</ref> Again, <hi rend="italic">pace</hi> Andrew Louth who speaks
     of Byzantium as “that empire in which he [i.e. John of
     Damascus] never set foot, though he seems to have felt he
-    belonged there.” Louth, <hi rend="italic">St John Damascene</hi>, p. 27.
-    <ref target="#FNRef82">
+    belonged there.” Louth, <hi rend="italic">St John Damascene</hi>, p.
+    27. <ref target="#FNRef82">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef83">83</ref> In this connection one thinks in particular
-    of the ‘Melkite’ historian, Eutychius of Alexandria (877-940),
-    and of his account of how St. John’s ancestor handed Damascus
-    over to the invading Muslims at the time of the conquest;
-    Eutychius clearly distinguishes the local Christians and the
-    Man<hi rend="u">s</hi>ūr family from ‘the Romans’
-    (<hi rend="italic">ar-Rūm</hi>). See L. Cheikho <hi rend="italic">et al.</hi> (eds.),
-    <hi rend="italic">Eutychii Patriarchae Alexandrini Annales</hi> (CSCO vols.
-    50 &amp; 51; Paris: Carolus Poussielgue, 1906 &amp; 1909), vol.
-    51, pp. 15-16. <ref target="#FNRef83">
+    of the ‘Melkite’ historian, Eutychius of Alexandria
+    (877-940), and of his account of how St. John’s ancestor
+    handed Damascus over to the invading Muslims at the time of the
+    conquest; Eutychius clearly distinguishes the local Christians
+    and the Man<hi rend="u">s</hi>ūr family from
+    ‘the Romans’ (<hi rend="italic">ar-Rūm</hi>). See L. Cheikho
+    <hi rend="italic">et al.</hi> (eds.), <hi rend="italic">Eutychii Patriarchae Alexandrini
+    Annales</hi> (CSCO vols. 50 &amp; 51; Paris: Carolus
+    Poussielgue, 1906 &amp; 1909), vol. 51, pp. 15-16. <ref target="#FNRef83">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef84">84</ref> What we know of St. John’s biography comes
-    from hagiographical tradition; for the traditional account see
-    J. Nasrallah, <hi rend="italic">Saint Jean</hi> 
-            <hi rend="italic">de Damas: son �poque, sa
-    vie, son oeuvre</hi> (Harissa: Imprimerie Grecque Melchite de
-    Saint Paul, 1950). The earliest extant Arabic account seems to
-    come from the eleventh century. See Rocio Daga Portillo, “The
-    Arabic Life of St. John of Damascus,” <hi rend="italic">Parole de
-    l’Orient</hi> 21 (1996), pp. 157-188. For recent scholarly
-    reviews and reassessments of what we know about the biography
-    see Le Coz, <hi rend="italic">Jean Damasc�ne: �crits sur l’islam</hi>;
-    Auz�py, “De la Palestine � Constantinople.” <ref target="#FNRef84">
+         <p>
+            <ref target="#FNRef84">84</ref> What we know of St. John’s biography
+    comes from hagiographical tradition; for the traditional
+    account see J. Nasrallah, <hi rend="italic">Saint Jean</hi>
+            <hi rend="italic">de Damas: son
+    époque, sa vie, son oeuvre</hi> (Harissa: Imprimerie
+    Grecque Melchite de Saint Paul, 1950). The earliest extant
+    Arabic account seems to come from the eleventh century. See
+    Rocio Daga Portillo, “The Arabic Life of St. John of
+    Damascus,” <hi rend="italic">Parole de l’Orient</hi> 21 (1996),
+    pp. 157-188. For recent scholarly reviews and reassessments of
+    what we know about the biography see Le Coz, <hi rend="italic">Jean
+    Damascène: Écrits sur l’islam</hi>;
+    Auzépy, “De la Palestine à
+    Constantinople.” <ref target="#FNRef84">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef85">85</ref> See in particular Michele Piccirillo,
     <hi rend="italic">Arabia</hi> 
             <hi rend="italic">Christiana dalla Provincia Imperiale al
@@ -1745,96 +1843,104 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef86">86</ref> See Griffith, “From Aramaic to Arabic.”
-    <ref target="#FNRef86">
+         <p>
+            <ref target="#FNRef86">86</ref> See Griffith, “From Aramaic to
+    Arabic.” <ref target="#FNRef86">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef87">87</ref> See A.S. Atiya, “St. John Damascene: Survey
-    of the Unpublished Arabic Versions of His Works in Sinai,” in
-    George Makdisi (ed.), <hi rend="italic">Arabic and Islamic Studies in Honor
-    of Hamilton A.R. Gibb</hi> (Leiden: E.J. Brill, 1965,
-    distributed by Harvard University Press, Cambridge, MA), pp.
-    73-83: Georg Graf, <hi rend="italic">Geschichte der christlichen arabischen
-    Literatur</hi> (5 vols.; Citt� del Vaticano: Biblioteca
-    Apostolica Vaticana, 1944-1953), vol. I, pp. 377-379. <ref target="#FNRef87">
+         <p>
+            <ref target="#FNRef87">87</ref> See A.S. Atiya, “St. John Damascene:
+    Survey of the Unpublished Arabic Versions of His Works in
+    Sinai,” in George Makdisi (ed.), <hi rend="italic">Arabic and Islamic
+    Studies in Honor of Hamilton A.R. Gibb</hi> (Leiden: E.J.
+    Brill, 1965, distributed by Harvard University Press,
+    Cambridge, MA), pp. 73-83: Georg Graf, <hi rend="italic">Geschichte der
+    christlichen arabischen Literatur</hi> (5 vols.; Città
+    del Vaticano: Biblioteca Apostolica Vaticana, 1944-1953), vol.
+    I, pp. 377-379. <ref target="#FNRef87">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef88">88</ref> On the desperate situation of the ‘Melkite’
-    hierarchy in the period after the conquest see Hugh Kennedy,
-    “The Melkite Church from the Islamic Conquest to the Crusades:
-    Continuity and Adaptation in the Byzantine Legacy,” in <hi rend="italic">The
-    17<hi rend="sup">th</hi> International Byzantine Congress: Major
-    Papers</hi> (New Rochelle, NY: Aristide D. Caratzas, 1986), pp.
-    325-343. <ref target="#FNRef88">
+         <p>
+            <ref target="#FNRef88">88</ref> On the desperate situation of the
+    ‘Melkite’ hierarchy in the period after the
+    conquest see Hugh Kennedy, “The Melkite Church from the
+    Islamic Conquest to the Crusades: Continuity and Adaptation in
+    the Byzantine Legacy,” in <hi rend="italic">The 17<hi rend="sup">th</hi>
+    International Byzantine Congress: Major Papers</hi> (New
+    Rochelle, NY: Aristide D. Caratzas, 1986), pp. 325-343.
+    <ref target="#FNRef88">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef89">89</ref> Cyril of Scythopolis (c. 525 — c. 558) used
-    this epithet a number of times in his <hi rend="italic">Lives of the Monks of
-    Palestine</hi>. Presumably he borrowed it from Jerusalem’s
-    liturgy of St. James. See Robert L. Wilken, <hi rend="italic">The Land Called
-    Holy: Palestine in Christian History and Thought</hi> (New
-    Haven: Yale University Press, 1992), p. 171. <ref target="#FNRef89">
+         <p>
+            <ref target="#FNRef89">89</ref> Cyril of Scythopolis (c. 525 — c. 558)
+    used this epithet a number of times in his <hi rend="italic">Lives of the
+    Monks of Palestine</hi>. Presumably he borrowed it from
+    Jerusalem’s liturgy of St. James. See Robert L. Wilken,
+    <hi rend="italic">The Land Called Holy: Palestine in Christian History and
+    Thought</hi> (New Haven: Yale University Press, 1992), p. 171.
+    <ref target="#FNRef89">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef90">90</ref> See Andreas Feldtkeller, <hi rend="italic">Die ‘Mutter der
-    Kirchen’ im ‘Haus des Islam’</hi>: <hi rend="italic">Gegenseitige
-    Wahrnehmungen von arabischen Christen und Muslimen im West-und
-    Ostjordanland</hi> (Erlangen: Erlanger Verlag f�r Mission und
-    �kumene, 1998). <ref target="#FNRef90">
+         <p>
+            <ref target="#FNRef90">90</ref> See Andreas Feldtkeller, <hi rend="italic">Die
+    ‘Mutter der Kirchen’ im ‘Haus des
+    Islam’</hi>: <hi rend="italic">Gegenseitige Wahrnehmungen von
+    arabischen Christen und Muslimen im West-und Ostjordanland</hi>
+    (Erlangen: Erlanger Verlag für Mission und Ökumene,
+    1998). <ref target="#FNRef90">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef91">91</ref> See Portillo, “The Arabic Life,” p. 164.
-    <ref target="#FNRef91">
+         <p>
+            <ref target="#FNRef91">91</ref> See Portillo, “The Arabic Life,”
+    p. 164. <ref target="#FNRef91">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef92">92</ref> See Auz�py, “De la Palestine �
-    Constantinople,” pp. 183-218; Auz�py, “Les Saba�tes et
-    l’iconoclasme,” in Patrich, <hi rend="italic">The Sabaite Heritage</hi>, pp.
-    305-314, esp. p. 305, n. 4, where the author propses that given
-    his close association with Patriarch John V, it is more likely
-    that John of Damascus “�tait un Spoudaios, c’est-�-dire un
-    moine de l’Anastasis.” See also Andrew Louth, “St. John
-    Damascene: Preacher and Poet,” in Mary B. Cunningham &amp;
-    Pauline Allen (eds.), <hi rend="italic">Preacher and Audience: Studies in
-    Early Christian and Byzantine Homiletics</hi> (Leiden: Brill,
-    1998), p. 249, where the author acknowledges the uncertainty
-    about which monastery John inhabited. <ref target="#FNRef92">
+         <p>
+            <ref target="#FNRef92">92</ref> See Auzépy, “De la Palestine
+    à Constantinople,” pp. 183-218; Auzépy,
+    “Les Sabaïtes et l’iconoclasme,” in
+    Patrich, <hi rend="italic">The Sabaite Heritage</hi>, pp. 305-314, esp. p.
+    305, n. 4, where the author propses that given his close
+    association with Patriarch John V, it is more likely that John
+    of Damascus “était un Spoudaios,
+    c’est-à-dire un moine de l’Anastasis.”
+    See also Andrew Louth, “St. John Damascene: Preacher and
+    Poet,” in Mary B. Cunningham &amp; Pauline Allen (eds.),
+    <hi rend="italic">Preacher and Audience: Studies in Early Christian and
+    Byzantine Homiletics</hi> (Leiden: Brill, 1998), p. 249, where
+    the author acknowledges the uncertainty about which monastery
+    John inhabited. <ref target="#FNRef92">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef93">93</ref> See Griffith, “‘Melkites’, ‘Jacobites’ and
-    the Christological Controversies.” <ref target="#FNRef93">
+         <p>
+            <ref target="#FNRef93">93</ref> See Griffith, “‘Melkites’,
+    ‘Jacobites’ and the Christological
+    Controversies.” <ref target="#FNRef93">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef94">94</ref> See Le Coz, <hi rend="italic">Jean Damasc�ne</hi>:
-    <hi rend="italic">�crits sur l’islam</hi>. See also Igor Pochoshajew,
-    “Johannes von Damaskos: De Heresibus 100,”
-    <hi rend="italic">Islamochristiana</hi> 30 (2004), pp. 65-75. <ref target="#FNRef94">
+         <p>
+            <ref target="#FNRef94">94</ref> See Le Coz, <hi rend="italic">Jean Damascène</hi>:
+    <hi rend="italic">Écrits sur l’islam</hi>. See also Igor
+    Pochoshajew, “Johannes von Damaskos: De Heresibus
+    100,” <hi rend="italic">Islamochristiana</hi> 30 (2004), pp. 65-75.
+    <ref target="#FNRef94">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef95">95</ref> See the references in n. 35 above. <ref target="#FNRef95">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef96">96</ref> See the introductory study and bibliography
     in Kathleen E. McVey (ed. &amp; trans.), <hi rend="italic">George, Bishop of
     the Arabs: A Homily on Blessed Mar Severus, Patriarch of
@@ -1843,122 +1949,128 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef97">97</ref> For an orientation to studies of this
     important phenomenon see Henri Hugonnard-Roche, <hi rend="italic">La logique
-    d’Aristote du grec au syriaque: �tudes sur la transmission des
-    texts de l’Organon et leur interpretation philosophique</hi>
-    (Textes et Traditions, 9; Paris: Vrin, 2004). <ref target="#FNRef97">
+    d’Aristote du grec au syriaque: Études sur la
+    transmission des texts de l’Organon et leur
+    interpretation philosophique</hi> (Textes et Traditions, 9;
+    Paris: Vrin, 2004). <ref target="#FNRef97">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef98">98</ref> For two prominent early Muslims’ approaches
-    to Christian denominationalism see David Thomas,
-    <hi rend="italic">Anti-Christian Polemic in Early Islam: Abū ‛Īsā al-Warrāq’s
-    “Against the Trinity”</hi> (University of Cambridge Oriental
+         <p>
+            <ref target="#FNRef98">98</ref> For two prominent early Muslims’
+    approaches to Christian denominationalism see David Thomas,
+    <hi rend="italic">Anti-Christian Polemic in Early Islam: Abū
+    ‛Īsā al-Warrāq’s “Against the
+    Trinity”</hi> (University of Cambridge Oriental
     Publications, 45; Cambridge: Cambridge University Press, 1992);
     David Thomas, <hi rend="italic">Early Muslim Polemic against Christianity:
-    Abū ‛Īsā al-Warrāq’s ‘Against the Incarnation’</hi> (University
-    of Cambridge Oriental Publications, 59; Cambridge: Cambridge
+    Abū ‛Īsā al-Warrāq’s
+    ‘Against the Incarnation’</hi> (University of
+    Cambridge Oriental Publications, 59; Cambridge: Cambridge
     University Press, 2002); Gabriel Said Reynolds, <hi rend="italic">A Muslim
-    Theologian in the Sectarian Milieu: ‛Abd al-Jabbār and the
-    Critique of Christian Origins</hi> (Leiden: Brill, 2004).
-    <ref target="#FNRef98">
+    Theologian in the Sectarian Milieu: ‛Abd al-Jabbār
+    and the Critique of Christian Origins</hi> (Leiden: Brill,
+    2004). <ref target="#FNRef98">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef99">99</ref> On the earlier phase of this estrangement
     see F. Thomas Noonan, <hi rend="italic">Political Thought in Greek
     Palestinian Hagiography (ca. 526-ca.630)</hi> (Unpublished,
     Ph.D. dissertation; Chicago: University of Chicago, 1975). See
-    also the remarks of John Moorhead, “The Monophysite Response to
-    the Arab Invasions,” <hi rend="italic">Byzantion</hi> 51 (1981), pp. 579-581.
-    <ref target="#FNRef99">
+    also the remarks of John Moorhead, “The Monophysite
+    Response to the Arab Invasions,” <hi rend="italic">Byzantion</hi> 51
+    (1981), pp. 579-581. <ref target="#FNRef99">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef100">100</ref> See J.M. Hussey, <hi rend="italic">The Orthodox Church
     in the Byzantine Empire</hi> (Oxford: The Clarendon Press,
     1986), pp. 62-68. <ref target="#FNRef100">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef101">101</ref> See the discussions in Robert Schick,
     <hi rend="italic">The Christian Communities of Palestine from Byzantine to
     Islamic Rule: A Historical and Archaeological Study</hi>
     (Studies in Late Antiquity and Early Islam, 2; Princeton: The
     Darwin Press, 1995), esp. pp. 180-224; Susanna Ognibene,
-    <hi rend="italic">Umm al-Rasas: La Chiesa di Santo Stefano ed il �Problema
-    Iconofobico�</hi> (Roma: �L’Erma� di Bretschneider, 2002), esp.
-    pp. 95-147. <ref target="#FNRef101">
+    <hi rend="italic">Umm al-Rasas: La Chiesa di Santo Stefano ed il
+    «Problema Iconofobico»</hi> (Roma:
+    «L’Erma» di Bretschneider, 2002), esp. pp.
+    95-147. <ref target="#FNRef101">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef102">102</ref> The present writer attempted to make this
     case in an earlier publication; see Sidney H. Griffith,
-    “‘Melkites’, ‘Jacobites’ and the Christological Controversies,”
-    esp. pp. 26-34. <ref target="#FNRef102">
+    “‘Melkites’, ‘Jacobites’ and the
+    Christological Controversies,” esp. pp. 26-34. <ref target="#FNRef102">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef103">103</ref> See Ognibene, <hi rend="italic">La Chiesa di Santo
     Stefano</hi>, pp. 143-147. <ref target="#FNRef103">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef104">104</ref> See Auz�py, “Les Saba�tes et
-    l’iconoclasme.” <ref target="#FNRef104">
+         <p>
+            <ref target="#FNRef104">104</ref> See Auzépy, “Les
+    Sabaïtes et l’iconoclasme.” <ref target="#FNRef104">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef105">105</ref> See Auz�py, “De la Palestine �
-    Constantinople.” <ref target="#FNRef105">
+         <p>
+            <ref target="#FNRef105">105</ref> See Auzépy, “De la Palestine
+    à Constantinople.” <ref target="#FNRef105">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef106">106</ref> Sidney H. Griffith (trans.), <hi rend="italic">A
     Treatise on the Veneration of the Holy Icons Written in Arabic
-    by Theodore Abū Qurrah, Bishop of <hi rend="u">H</hi>arrān
-    (c. 755 — c. 830 A.D.)</hi> (Early Christian Texts in
-    Translation, 1; Louvain: Peeters, 1997), p. 29. <ref target="#FNRef106">
+    by Theodore Abū Qurrah, Bishop of <hi rend="u">H</hi>arrān (c. 755 — c. 830 A.D.)</hi> (Early
+    Christian Texts in Translation, 1; Louvain: Peeters, 1997), p.
+    29. <ref target="#FNRef106">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef107">107</ref> It was the practice among the ‘Melkites’
-    for a long time to speak of the orthodoxy of the ‘six
-    councils’. See J. B. Darblade, <hi rend="italic">La collection canonique
-    arabe des Melkites (XIIIe-XVIIe si�cles</hi> (S. Congregazione
-    per la Chiesa Orientale, Codificazione Canonica Orientale,
-    Fonti, serie II, Fascicolo XIII; Harissa: Imprimerie Grecque
-    Melchite de Saint Paul, 1946), pp. 154-155. The earliest
-    reference to Nicea II in an Arabic source which the present
-    writer has found is in a ‘Melkite’ creed of the tenth century.
-    See Sidney H. Griffith, “Theology and the Arab Christian: The
-    Case of the ‘Melkite’ Creed,” in David Thomas (ed.), <hi rend="italic">A
-    Faithful Presence: Essays for Kenneth Cragg</hi> (London:
-    Melisende, 2003), pp. 184-200. <ref target="#FNRef107">
+         <p>
+            <ref target="#FNRef107">107</ref> It was the practice among the
+    ‘Melkites’ for a long time to speak of the
+    orthodoxy of the ‘six councils’. See J. B.
+    Darblade, <hi rend="italic">La collection canonique arabe des Melkites
+    (XIIIe-XVIIe siècles</hi> (S. Congregazione per la
+    Chiesa Orientale, Codificazione Canonica Orientale, Fonti,
+    serie II, Fascicolo XIII; Harissa: Imprimerie Grecque Melchite
+    de Saint Paul, 1946), pp. 154-155. The earliest reference to
+    Nicea II in an Arabic source which the present writer has found
+    is in a ‘Melkite’ creed of the tenth century. See
+    Sidney H. Griffith, “Theology and the Arab Christian: The
+    Case of the ‘Melkite’ Creed,” in David Thomas
+    (ed.), <hi rend="italic">A Faithful Presence: Essays for Kenneth Cragg</hi>
+    (London: Melisende, 2003), pp. 184-200. <ref target="#FNRef107">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef108">108</ref> See the early history of this development
-    presented in Sidney H. Griffith, “The View of Islam from the
-    Monasteries of Palestine in the Early ‛Abbasid Period: Theodore
-    Abū Qurrah and the <hi rend="italic">Summa Theologiae Arabica</hi>,”
-    <hi rend="italic">Islam and Christian-Muslim Relations</hi> 7 (1996), pp.
-    9-28; S.H. Griffith, “Arab Christian Culture in the Early
-    Abbasid Period,” <hi rend="italic">Bulletin of the Royal Institute for
-    Inter-Faith Studies</hi> 1 (1999), pp. 23-44. <ref target="#FNRef108">
+    presented in Sidney H. Griffith, “The View of Islam from
+    the Monasteries of Palestine in the Early ‛Abbasid
+    Period: Theodore Abū Qurrah and the <hi rend="italic">Summa Theologiae
+    Arabica</hi>,” <hi rend="italic">Islam and Christian-Muslim
+    Relations</hi> 7 (1996), pp. 9-28; S.H. Griffith, “Arab
+    Christian Culture in the Early Abbasid Period,”
+    <hi rend="italic">Bulletin of the Royal Institute for Inter-Faith
+    Studies</hi> 1 (1999), pp. 23-44. <ref target="#FNRef108">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>

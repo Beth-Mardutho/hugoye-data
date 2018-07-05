@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ATLAS Digital Journal Project</title>
+            <title type="main">ATLAS Digital Journal Project</title>
             <author>
-               <name>American Theological Library Association</name>
+               <name>
+                  <forename>American</forename>
+                  <surname>Association</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/advertisement/hv6n1adatlas</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>ATLA</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,32 +86,28 @@
     
          <!-- #BeginEditable "Content" -->
          <p>
-            <graphic url="HV6N1ADAtlas.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="199px"
-                     height="72px"/>
+            <graphic url="HV6N1ADAtlas.gif" rend="img" mimeType="image/gif" width="199px" height="72px"/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     American Theological Library Association and <hi rend="italic">Hugoye: Journal
     of Syriac Studies</hi> are pleased to announce that ATLAS, the
     first major digital journal project created for religion
     scholars by religion scholars, will be available in January
-    2001.� The ATLAS collection will include more than fifty of the
-    leading journals from all areas of theology and religion,
-    including <hi rend="italic">Hugoye</hi>.�To see the most current list of
-    journals, visit:<lb/>
+    2001.  The ATLAS collection will include more than fifty
+    of the leading journals from all areas of theology and
+    religion, including <hi rend="italic">Hugoye</hi>. To see the most current
+    list of journals, visit:<lb/>
             <ref target="http://rosetta.atla-certr.org/CERTR/ATLAS/FAQ.html#journals">http://rosetta.atla-certr.org/CERTR/ATLAS/FAQ.html#journals</ref>.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] As a
+         <p>
+            <anchor corresp="P2"/>[2] As a
     subscriber to ATLAS, you can search journals through the ATLA
     Religion Database, view journals page by page, or specify a
-    page and jump directly to it.� You will also be able to search
-    for specific topics or even scripture references.� Take a
-    virtual browse for yourself at <ref target="http://purl.org/CERTR/ATLAS/Phase1.html">http://purl.org/CERTR/ATLAS/Phase1.html</ref>.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] If you
+    page and jump directly to it.  You will also be able to
+    search for specific topics or even scripture references. 
+    Take a virtual browse for yourself at <ref target="http://purl.org/CERTR/ATLAS/Phase1.html">http://purl.org/CERTR/ATLAS/Phase1.html</ref>.</p>
+         <p>
+            <anchor corresp="P3"/>[3] If you
     would like more information on the progress of ATLAS, contact
     Chuck Slagle, ATLA Sales and Marketing at (888) 665-ATLA (2852)
     or email: cslagle@atla.com.</p>

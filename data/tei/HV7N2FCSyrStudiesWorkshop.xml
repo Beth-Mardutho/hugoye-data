@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Syriac Studies Workshop Princeton University, May 4-6, 2005</title>
+            <title type="main">Syriac Studies Workshop Princeton University, May 4-6, 2005</title>
             <author>
-               <name>Emmanuel Papoutsakis</name>
+               <name>
+                  <forename>Emmanuel</forename>
+                  <surname>Papoutsakis</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv7n2fcsyrstudiesworkshop</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Workshop</term>
+               <term>Symbols</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +87,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Department of Near Eastern Studies and the Group for the Study
     of Late Antiquity, Princeton University, with the support of
     the Andrew Mellon Foundation, will host a Syriac Studies
@@ -74,7 +98,7 @@
     Early Syriac Tradition</hi> (1975, [2nd revised edition,
     Gorgias Press, 2004]). The participants will present forty-five
     minute papers and a round-table discussion will follow.</p>
-         <head>Participants</head>
+         <head xml:id="HV7N2FCSyrStudiesWorkshop1">Participants</head>
          <list type="unordered">
             <item>Sebastian P. Brock (University of Oxford)</item>
             <item>J.F. Coakley (Harvard University)</item>
@@ -83,8 +107,8 @@
             <item>Robert Murray (Heythrop College, University of
       London)</item>
             <item>Emmanuel Papoutsakis (Princeton University)</item>
-            <item>Marie-Joseph Pierre (�cole pratique des hautes
-      �tudes)</item>
+            <item>Marie-Joseph Pierre (École pratique des hautes
+      études)</item>
             <item>Lucas Van Rompay (Duke University)</item>
             <item>Alison G. Salvesen (University of Oxford)</item>
             <item>David G.K. Taylor (University of Oxford)</item>

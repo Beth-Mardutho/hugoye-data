@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Methods of Instructing Syriac-Speaking Christians to Care for the Poor: A Brief Comparison of the Eighth Mēmrā of the Book of Steps and the Story of the Man of God of Edessa.</title>
+            <title type="main">Methods of Instructing Syriac-Speaking Christians to Care for the Poor: A Brief Comparison of the Eighth Mēmrā of the Book of Steps and the Story of the Man of God of Edessa.</title>
             <author>
-               <name>Nancy A. Khalek</name>
+               <name>
+                  <forename>Nancy A.</forename>
+                  <surname>Khalek</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv8n1khalek</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,39 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Book of Steps</term>
+               <term>Man of God of Edessa</term>
+               <term>homily</term>
+               <term>hagiography</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>This essay is a brief comparison of the
+    renunciation of material possessions in the eighth
+    <hi rend="italic">mēmrā</hi> of the fourth-century Book of Steps
+    <hi rend="italic">(Liber Graduum</hi>) and the sixth-century <hi rend="italic">Story of the
+    Man of God of Edessa</hi>. The figures of the Upright and the
+    Perfect in the anonymous Book of Steps exhibit striking
+    correlations with the characters presented in the <hi rend="italic">Story of
+    the Man of God</hi>. Analysis of this homily and hagiography
+    provide insight as to the pedagogical mechanisms within, and
+    instructional usefulness of each text.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,57 +103,39 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">This essay is a brief comparison of the
-    renunciation of material possessions in the eighth
-    <hi rend="italic">mēmrā</hi> of the fourth-century Book of Steps <hi rend="italic">(Liber
-    Graduum</hi>) and the sixth-century <hi rend="italic">Story of the Man of God
-    of Edessa</hi>. The figures of the Upright and the Perfect in
-    the anonymous Book of Steps exhibit striking correlations with
-    the characters presented in the <hi rend="italic">Story of the Man of
-    God</hi>. Analysis of this homily and hagiography provide
-    insight as to the pedagogical mechanisms within, and
-    instructional usefulness of each text.</p>
+
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">The Book of Steps, Mēmrā Eight</ref>
-            </item>
-            <item>
-               <ref target="#S2">The Man of God of Edessa</ref>
-            </item>
-            <item>
-               <ref target="#S3">Conclusion</ref>
-            </item>
-         </list>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1]
+         <p>
+            <anchor corresp="P1"/>[1]
     Instructing Christians to care for the poor is a common theme
     in the Syriac tradition.<ref target="#FN1">1</ref> Texts in the form of homilies,
     poems, or hagiographies employ various pedagogical strategies
     for the purpose of preaching, expounding upon, or demonstrating
     the value of charity. Two sources which represent the didactic
     qualities of such instruction are the sixth-century <hi rend="italic">Story
-    of the Man of God of Edessa</hi> and the eighth <hi rend="italic">mēmrā</hi>
-    of fourth-century Book of Steps (<hi rend="italic">Liber Graduum</hi>), which
-    is titled �On One Who Feeds all of His Possessions to the
-    Poor.� The former is a hagiographical text while the latter is
-    one short portion of the well-known anonymous collection of
-    thirty <hi rend="italic">mēmrē</hi>.<ref target="#FN2">2</ref> By comparing these ostensibly disparate
-    sources, it is possible to find striking correlations in their
-    instructions to care for the poor.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] I have
+    of the Man of God of Edessa</hi> and the eighth
+    <hi rend="italic">mēmrā</hi> of fourth-century Book of Steps
+    (<hi rend="italic">Liber Graduum</hi>), which is titled “On One Who
+    Feeds all of His Possessions to the Poor.” The former is
+    a hagiographical text while the latter is one short portion of
+    the well-known anonymous collection of thirty
+    <hi rend="italic">mēmrē</hi>.<ref target="#FN2">2</ref> By comparing these ostensibly
+    disparate sources, it is possible to find striking correlations
+    in their instructions to care for the poor.</p>
+         <p>
+            <anchor corresp="P2"/>[2] I have
     chosen to compare these two texts for simple and
     straightforward reasons. First, it is well known that the
     anonymous author of the Book of Steps divides the Christian
-    community into two main groups, the Upright (<hi rend="italic">kēnē</hi>) and
-    the Perfect (<hi rend="italic">gmīrē</hi>).<ref target="#FN3">3</ref> Collectively, the <hi rend="italic">mēmrē</hi> in
-    the Book of Steps enumerate the duties and character of these
-    groups with respect to many issues, among them poverty and
-    charity. <hi rend="italic">Mēmrā</hi> eight is one homily which exclusively
+    community into two main groups, the Upright
+    (<hi rend="italic">kēnē</hi>) and the Perfect
+    (<hi rend="italic">gmīrē</hi>).<ref target="#FN3">3</ref> Collectively, the
+    <hi rend="italic">mēmrē</hi> in the Book of Steps enumerate the
+    duties and character of these groups with respect to many
+    issues, among them poverty and charity.
+    <hi rend="italic">Mēmrā</hi> eight is one homily which exclusively
     addresses Christians who renounce material wealth to varying
     degrees. It also lays emphasis on the <hi rend="italic">voluntary</hi> aspect
     of giving away material possessions for the sake of the Lord.
@@ -127,171 +149,182 @@
     moral lesson. Searching these sources for common motifs,
     especially in relation to poverty and charity, yields useful
     information for increasing our understanding of each text.</p>
-         <head xml:id="S1">The Book of Steps, Mēmrā Eight</head>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <head xml:id="HV8N1Khalek3">The Book of Steps, Mēmrā Eight</head>
+         <p>
+            <anchor corresp="P3"/>[3]
     According to the Book of Steps, how a community member
     functions depends upon whether or not one is Upright or
-    Perfect.�Put simply, the Perfect are characterized by a total
-    renunciation of material wealth and a complete reliance upon
-    the charity of others for material sustenance. Charity in the
-    Book of Steps thus has two dimensions: it is favorable to give
-    charity as an act of benevolence (which simultaneously
-    constitutes a renunciation of a portion of one�s wealth), and
-    it is favorable to <hi rend="italic">receive</hi> charity if the condition
-    under which one receives it is the pursuit of Perfection.
-    Provision of such charity is, in turn, the obligation of the
-    Upright.<ref target="#FN4">4</ref> In return for giving the Perfect their
-    sustenance, the Upright benefit from the teaching and prayers
-    of the Perfect, who comprise a valuable spiritual asset for the
-    community as a whole. References to this symbiotic relationship
-    are numerous in the Book of Steps.<ref target="#FN5">5</ref> The eighth
-    <hi rend="italic">mēmrā</hi>, which is short and seemingly non-descript,
-    provides a simple formula for activities incumbent upon the
-    Upright on the basis of Matthew 25:35-36; feeding the hungry,
-    clothing the naked, giving drink to the thirsty, healing the
-    sick and visiting the imprisoned. Wealth is permitted for the
-    Upright only if they use it for the welfare of others.� Put
-    simply, the Upright maintain the social needs of
-    others.<ref target="#FN6">6</ref> That the Perfect are in need of support is a
-    theme throughout the Book of Steps.� <hi rend="italic">Mēmrā</hi> eight
-    concisely summarizes the circumstances under which the Perfect
-    retains no possessions, and �has no place on earth to lay his
-    head.�<ref target="#FN7">7</ref> Instead he �contemplates what is in the heavenly
-    Jerusalem, and is focused there on the Lord.�<ref target="#FN8">8</ref>
+    Perfect. Put simply, the Perfect are characterized by a
+    total renunciation of material wealth and a complete reliance
+    upon the charity of others for material sustenance. Charity in
+    the Book of Steps thus has two dimensions: it is favorable to
+    give charity as an act of benevolence (which simultaneously
+    constitutes a renunciation of a portion of one’s wealth),
+    and it is favorable to <hi rend="italic">receive</hi> charity if the
+    condition under which one receives it is the pursuit of
+    Perfection. Provision of such charity is, in turn, the
+    obligation of the Upright.<ref target="#FN4">4</ref> In return for giving the Perfect
+    their sustenance, the Upright benefit from the teaching and
+    prayers of the Perfect, who comprise a valuable spiritual asset
+    for the community as a whole. References to this symbiotic
+    relationship are numerous in the Book of Steps.<ref target="#FN5">5</ref> The eighth
+    <hi rend="italic">mēmrā</hi>, which is short and seemingly
+    non-descript, provides a simple formula for activities
+    incumbent upon the Upright on the basis of Matthew 25:35-36;
+    feeding the hungry, clothing the naked, giving drink to the
+    thirsty, healing the sick and visiting the imprisoned. Wealth
+    is permitted for the Upright only if they use it for the
+    welfare of others.  Put simply, the Upright maintain the
+    social needs of others.<ref target="#FN6">6</ref> That the Perfect are in need of support is
+    a theme throughout the Book of Steps. 
+    <hi rend="italic">Mēmrā</hi> eight concisely summarizes the
+    circumstances under which the Perfect retains no possessions,
+    and “has no place on earth to lay his
+    head.”<ref target="#FN7">7</ref> Instead he “contemplates what is in the
+    heavenly Jerusalem, and is focused there on the
+    Lord.”<ref target="#FN8">8</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Daniel
-    Caner�s recent work illustrates that the instruction to care
-    for the masses of the poor which is directed towards the
+         <p>
+            <anchor corresp="P4"/>[4] Daniel
+    Caner’s recent work illustrates that the instruction to
+    care for the masses of the poor which is directed towards the
     Upright in the Book of Steps also refers to assisting the
     impoverished Perfect. A system of reciprocity between Upright
     and Perfect, whereby material support is exchanged for the
     spiritual assets conferred upon the community by the Perfect is
     clear elsewhere in the Book of Steps.<ref target="#FN9">9</ref> That the Perfect could
-    resemble the everyday poor is a theme in <hi rend="italic">mēmrā</hi> twenty,
-    where one such Christian is described as �begging food and
-    clothing like a poor person.�<ref target="#FN10">[10</ref> The relation between Upright
-    and Perfect as one of giving and receiving <hi rend="italic">charity</hi> is
-    explicit in <hi rend="italic">mēmrā</hi> three, which reports that the
-    Upright must also support �those who have no possessions or
+    resemble the everyday poor is a theme in
+    <hi rend="italic">mēmrā</hi> twenty, where one such Christian is
+    described as “begging food and clothing like a poor
+    person.”<ref target="#FN10">[10</ref> The relation between Upright and Perfect as
+    one of giving and receiving <hi rend="italic">charity</hi> is explicit in
+    <hi rend="italic">mēmrā</hi> three, which reports that the Upright
+    must also support “those who have no possessions or
     profession, who apply themselves wholly to the teaching of our
-    Lord.�<ref target="#_ftn11">11</ref> Thus, when we read the term �the poor� in the
-    Book of Steps, we should bear in mind both types of recipients
-    of charity. Corresponding to each category of recipient,
-    charity in the Book of Steps thereby has both an inherent and a
-    potentially reciprocal value.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In
+    Lord.”<ref target="#_ftn11">11</ref> Thus, when we read the term “the
+    poor” in the Book of Steps, we should bear in mind both
+    types of recipients of charity. Corresponding to each category
+    of recipient, charity in the Book of Steps thereby has both an
+    inherent and a potentially reciprocal value.</p>
+         <p>
+            <anchor corresp="P5"/>[5] In
     keeping with this hypothesis and therefore in <hi rend="italic">spite</hi> of
     its title, the actual masses of the poor make no substantive
-    appearance in this <hi rend="italic">mēmrā</hi>, which primarily communicates
-    the difference between the Upright and the Perfect while
-    assuring the Upright of their salvation and encouraging the
-    pursuit of perfection through daily spiritual advancement. In
-    this sense the eighth <hi rend="italic">mēmrā</hi> is both a presentation of
-    a scheme and an exhortation. While the station of the perfect
-    is stressed as vastly superior to that of the Upright, the
-    <hi rend="italic">mēmrā</hi> contains numerous reminders of the dignity of
-    the Upright, who are always assured of their status, their
-    eventual salvation and impending reward. In the first section
-    of <hi rend="italic">mēmrā</hi> eight we read: �If you know the Truth, that
-    Truth will set you free�; even though the free are not perfect,
-    as soon as they know the truth they are liberated from lying
-    and enslavement to sin and they shall become Upright, and they
-    shall not come into judgment.�<ref target="#FN12">12</ref> The first section also
-    outlines what was noted above as characteristic of the active
-    ministry of the Upright: feeding the hungry, giving drink to
-    the thirsty, welcoming the stranger, clothing the naked, and
-    visiting the sick and the imprisoned. This is the only mention
-    of society�s have-nots in the entire <hi rend="italic">mēmrā</hi>. They serve
-    only to illustrate the basic duties of the majority of the
-    members of the community. The relative status of the Upright is
-    noted at the end of this section, where the author notes that
-    the Upright are on a path to salvation and that through daily
-    persistence they may attain the Perfection that is beyond acts
-    of charity.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In this
-    opening section of the <hi rend="italic">mēmrā</hi>, we are also confronted
-    by an apparent contradiction.� The Apostle Paul claims that
-    giving up all worldly possession is of no benefit if one does
-    not possess love, yet Jesus tells his apostles that the reward
-    of one who gives even a cup of water to another shall not be
-    lost. The entire homily serves to reconcile these two views by
-    imposing the scheme of �Upright versus Perfect� onto the text.
-    Paul was referring to the formula for Perfection, while Jesus
-    was expounding on the active aspects of Christian ministry
-    performed by the Upright. The author reconciles this
-    contradiction in the following excerpt from section two:</p>
+    appearance in this <hi rend="italic">mēmrā</hi>, which primarily
+    communicates the difference between the Upright and the Perfect
+    while assuring the Upright of their salvation and encouraging
+    the pursuit of perfection through daily spiritual advancement.
+    In this sense the eighth <hi rend="italic">mēmrā</hi> is both a
+    presentation of a scheme and an exhortation. While the station
+    of the perfect is stressed as vastly superior to that of the
+    Upright, the <hi rend="italic">mēmrā</hi> contains numerous
+    reminders of the dignity of the Upright, who are always assured
+    of their status, their eventual salvation and impending reward.
+    In the first section of <hi rend="italic">mēmrā</hi> eight we read:
+    “If you know the Truth, that Truth will set you
+    free”; even though the free are not perfect, as soon as
+    they know the truth they are liberated from lying and
+    enslavement to sin and they shall become Upright, and they
+    shall not come into judgment.”<ref target="#FN12">12</ref> The first section
+    also outlines what was noted above as characteristic of the
+    active ministry of the Upright: feeding the hungry, giving
+    drink to the thirsty, welcoming the stranger, clothing the
+    naked, and visiting the sick and the imprisoned. This is the
+    only mention of society’s have-nots in the entire
+    <hi rend="italic">mēmrā</hi>. They serve only to illustrate the
+    basic duties of the majority of the members of the community.
+    The relative status of the Upright is noted at the end of this
+    section, where the author notes that the Upright are on a path
+    to salvation and that through daily persistence they may attain
+    the Perfection that is beyond acts of charity.</p>
+         <p>
+            <anchor corresp="P6"/>[6] In this
+    opening section of the <hi rend="italic">mēmrā</hi>, we are also
+    confronted by an apparent contradiction.  The Apostle Paul
+    claims that giving up all worldly possession is of no benefit
+    if one does not possess love, yet Jesus tells his apostles that
+    the reward of one who gives even a cup of water to another
+    shall not be lost. The entire homily serves to reconcile these
+    two views by imposing the scheme of “Upright versus
+    Perfect” onto the text. Paul was referring to the formula
+    for Perfection, while Jesus was expounding on the active
+    aspects of Christian ministry performed by the Upright. The
+    author reconciles this contradiction in the following excerpt
+    from section two:</p>
          <quote>
       But how did the Apostle say that these things are
-      nothing?<ref target="#FN13">13</ref>�He also said, �If I should give my body to
-      be burned and love is not in me, I am nothing.�<ref target="#FN14">14</ref> For
-      what indeed is that thing which is better than all things for
-      which the Apostle longs? The Lord said �Whoever gives his
-      cheek to the one who strikes him and is patient, he shall
-      come to Perfection, if he loves and prays for whoever strikes
-      him.� Is it that the Apostle negates the words of our Lord?
-      God forbid! No, he does not negate them. Rather, he builds
-      upon them.� The Apostle does not say that the words are not
-      fitting, rather, something great he puts there.<ref target="#FN15">15</ref>�
-      Namely [the Apostle is talking about]<ref target="#FN16">16</ref> one who feeds
-      all he has to the poor for the sake of God, and is emptied
-      out as He commanded him, and he renounces all things
-      <hi rend="italic">but</hi> that humble love is not in him, who is
-      compassionate to his murderers and who washes the feet of his
-      enemies and who considers all people as if they are greater
-      than he,<ref target="#FN17">17</ref> and who gazes upon the heavens and not the
-      earth, and in his mind contemplates what is in the heavenly
-      Jerusalem, and is focused there on the Lord.<ref target="#FN18">18</ref>
+      nothing?<ref target="#FN13">13</ref> He also said, “If I should give
+      my body to be burned and love is not in me, I am
+      nothing.”<ref target="#FN14">14</ref> For what indeed is that thing which is
+      better than all things for which the Apostle longs? The Lord
+      said “Whoever gives his cheek to the one who strikes
+      him and is patient, he shall come to Perfection, if he loves
+      and prays for whoever strikes him.” Is it that the
+      Apostle negates the words of our Lord? God forbid! No, he
+      does not negate them. Rather, he builds upon them.  The
+      Apostle does not say that the words are not fitting, rather,
+      something great he puts there.<ref target="#FN15">15</ref>  Namely [the Apostle
+      is talking about]<ref target="#FN16">16</ref> one who feeds all he has to the poor
+      for the sake of God, and is emptied out as He commanded him,
+      and he renounces all things <hi rend="italic">but</hi> that humble love is
+      not in him, who is compassionate to his murderers and who
+      washes the feet of his enemies and who considers all people
+      as if they are greater than he,<ref target="#FN17">17</ref> and who gazes upon the
+      heavens and not the earth, and in his mind contemplates what
+      is in the heavenly Jerusalem, and is focused there on the
+      Lord.<ref target="#FN18">18</ref>
          </quote>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Thus the
-    explanation of this apparent paradox is that �the thing for
-    which the Apostle longs� is to attain a state of spiritual
-    advancement whereby one loves and prays for one�s enemies. It
-    is in this section that we first encounter the term
-    �<hi rend="italic">msārrqūţā</hi>�, �emptying out.��This is designated as a
-    great commandment, and indicates the complete renunciation of
-    wealth, stability, and family life. In order to perfectly
-    fulfill the great commandment, <hi rend="italic">msārrqūţā</hi> must be
-    accompanied by <hi rend="italic">makkīkūţā</hi>, �humility.�� Without �humble
-    love�, renunciation is not meaningless, but it is insignificant
-    when compared to the fulfillment of the great commandment as
-    performed by the Perfect Christian. Interestingly, Perfect love
-    is personified in the remainder of this section, in an
-    elaborate description of what a Perfect should embody.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+         <p>
+            <anchor corresp="P7"/>[7] Thus the
+    explanation of this apparent paradox is that “the thing
+    for which the Apostle longs” is to attain a state of
+    spiritual advancement whereby one loves and prays for
+    one’s enemies. It is in this section that we first
+    encounter the term
+    “<hi rend="italic">msārrqūţā</hi>”,
+    ‘emptying out.’ This is designated as a great
+    commandment, and indicates the complete renunciation of wealth,
+    stability, and family life. In order to perfectly fulfill the
+    great commandment, <hi rend="italic">msārrqūţā</hi> must
+    be accompanied by <hi rend="italic">makkīkūţā</hi>,
+    ‘humility.’  Without “humble
+    love”, renunciation is not meaningless, but it is
+    insignificant when compared to the fulfillment of the great
+    commandment as performed by the Perfect Christian.
+    Interestingly, Perfect love is personified in the remainder of
+    this section, in an elaborate description of what a Perfect
+    should embody.</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     disparity between Upright and Perfect is reiterated in the
     beginning of section three, which is also the section that best
     highlights the difference between material renunciation and
-    interior spiritual advancement.� The author notes that it is
-    possible to renounce all possessions on behalf of the Lord and
-    still not achieve perfect humility:</p>
+    interior spiritual advancement.  The author notes that it
+    is possible to renounce all possessions on behalf of the Lord
+    and still not achieve perfect humility:</p>
          <quote>
       For it <hi rend="italic">is</hi> possible that men give all they possess
       and become needy on earth for the sake of the Lord, yet not
-      arrive at that humility.�For they love as much as they are
-      loved, and they are humble to some men and they are not
+      arrive at that humility. For they love as much as they
+      are loved, and they are humble to some men and they are not
       humble to everyone. And on account of that they are much less
       than one who comes to complete love. For he who does not
       become humble, is not being perfected, and he who is not
       humbled is much less than the Perfect ones.<ref target="#FN19">19</ref>
          </quote>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] Thus
+         <p>
+            <anchor corresp="P9"/>[9] Thus
     this sermon summarizes, in a simplified form, the Book of
-    Step�s schematic for levels of spiritual advancement as
+    Step’s schematic for levels of spiritual advancement as
     effected by gradations of the renunciation of wealth. The
     Upright do charitable works, and the Upright who are advancing
     towards Perfection renounce possessions, but with varying
     degrees of humility and love for others. Once those degrees are
     surpassed, the Upright achieves Perfection, and is humbled to
     all. Overcoming obstacles to perfect humility is the process by
-    which one is perfected.� In section five, we read a summation
-    of the relative worthiness of the Upright and the Perfect:</p>
+    which one is perfected.  In section five, we read a
+    summation of the relative worthiness of the Upright and the
+    Perfect:</p>
          <quote>
       And also there are those men who left behind all they
       possessed for the sake of the Lord and who love Him, and are
@@ -304,38 +337,39 @@
       understand the mysteries and all the knowledge that is in
       faith.<ref target="#FN20">20</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] In
+         <p>
+            <anchor corresp="P10"/>[10] In
     the passages presented thus far, the key issue is the voluntary
     nature of the renunciation of wealth. In the proto-monastic
     world of the Book of Steps, neediness alone could not comprise
     Uprightness. The volition with which one became needy and the
     degree of his accompanying humility determined the status of
-    the believer. Caner aptly observes that �the Book of Steps
-    describes not so much a monastic community or even a single,
-    unified ascetic elite as a reciprocal relationship that loosely
-    binds spiritually advanced ascetics to other
-    Christians.�<ref target="#FN21">21</ref> The excerpt above elucidates an aspect of such
-    spiritual advancement in a manner typical of the Book of Steps:
-    while it points towards those who �left everything,� that is
-    who renounced wealth for the sake of the poor, it is
-    nonetheless a reference to the Upright and <hi rend="italic">not</hi> to the
-    Perfect, as the <hi rend="italic">mēmrā</hi> goes on to clarify that
-    Perfection is characterized by complete humility and abasement
-    in addition to the renunciation of wealth.<ref target="#FN22">22</ref> The lines cited
-    above, which open the concluding section of the <hi rend="italic">mēmrā</hi>,
+    the believer. Caner aptly observes that “the Book of
+    Steps describes not so much a monastic community or even a
+    single, unified ascetic elite as a reciprocal relationship that
+    loosely binds spiritually advanced ascetics to other
+    Christians.”<ref target="#FN21">21</ref> The excerpt above elucidates an aspect of
+    such spiritual advancement in a manner typical of the Book of
+    Steps: while it points towards those who “left
+    everything,” that is who renounced wealth for the sake of
+    the poor, it is nonetheless a reference to the Upright and
+    <hi rend="italic">not</hi> to the Perfect, as the <hi rend="italic">mēmrā</hi>
+    goes on to clarify that Perfection is characterized by complete
+    humility and abasement in addition to the renunciation of
+    wealth.<ref target="#FN22">22</ref> The lines cited above, which open the
+    concluding section of the <hi rend="italic">mēmrā</hi>,
     simultaneously reassure and encourage the Upright.<ref target="#FN23">23</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
-    fifth and final section of this <hi rend="italic">mēmrā</hi> reiterates the
-    theme of having knowledge of faith without comprehending
-    perfect love. It exhorts the Upright to seek perfection by
-    emphasizing the vast superiority of that station to all others,
-    but likewise continues to stress that the life of the Upright
-    is not without its reward.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] In
+         <p>
+            <anchor corresp="P11"/>[11] The
+    fifth and final section of this <hi rend="italic">mēmrā</hi>
+    reiterates the theme of having knowledge of faith without
+    comprehending perfect love. It exhorts the Upright to seek
+    perfection by emphasizing the vast superiority of that station
+    to all others, but likewise continues to stress that the life
+    of the Upright is not without its reward.</p>
+         <p>
+            <anchor corresp="P12"/>[12] In
     this short, at first non-descript homily, some essential themes
     of this unique strand of earliest Syriac asceticism are
     encapsulated. It is above all an instructional text, reminding
@@ -349,34 +383,35 @@
     character in an inspiring and motivational story. <hi rend="italic">The Story
     of the Man of God of Edessa</hi> provides precisely that sort
     of motivational parable.</p>
-         <head xml:id="S2">The Man of God of Edessa</head>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+         <head xml:id="HV8N1Khalek4">The Man of God of Edessa</head>
+         <p>
+            <anchor corresp="P13"/>[13] The
     history of this hagiographical text is complicated and somewhat
     convoluted. <hi rend="italic">The Story of the Man of God</hi>, a
-    sixth-century anonymous saint�s life became conflated with the
-    <hi rend="italic">Life</hi> of Saint Alexis in the early Middle Ages.<ref target="#FN24">24</ref> In
-    1889, Arthur Amiaud published his research on Syriac
-    manuscripts relating to Saint Alexis, whereupon the <hi rend="italic">Man of
-    God</hi> narrative was shown to be an earlier story to which
-    the material relating to Saint Alexis was added.�My hypothesis
-    is that the story of <hi rend="italic">The Man of God</hi> is a parable aimed
-    at encouraging devotional behavior in a manner which is
-    thematically consonant with the Upright Christian�s as outlined
-    in the Book of Steps. It is not a typical hagiography, however,
-    in that it is sparing in its use of miracles to embellish the
-    narrative, and is essentially unadorned by extensive biblical
-    quotation, even in cases where obvious references virtually
-    spring to mind. As such, the story is a clear and simple
-    pedagogical tool, which must have resonated in its function as
-    a parable for those to whom it was read. <ref target="#FN25">25</ref>
+    sixth-century anonymous saint’s life became conflated
+    with the <hi rend="italic">Life</hi> of Saint Alexis in the early Middle
+    Ages.<ref target="#FN24">24</ref> In 1889, Arthur Amiaud published his research
+    on Syriac manuscripts relating to Saint Alexis, whereupon the
+    <hi rend="italic">Man of God</hi> narrative was shown to be an earlier story
+    to which the material relating to Saint Alexis was
+    added. My hypothesis is that the story of <hi rend="italic">The Man of
+    God</hi> is a parable aimed at encouraging devotional behavior
+    in a manner which is thematically consonant with the Upright
+    Christian’s as outlined in the Book of Steps. It is not a
+    typical hagiography, however, in that it is sparing in its use
+    of miracles to embellish the narrative, and is essentially
+    unadorned by extensive biblical quotation, even in cases where
+    obvious references virtually spring to mind. As such, the story
+    is a clear and simple pedagogical tool, which must have
+    resonated in its function as a parable for those to whom it was
+    read. <ref target="#FN25">25</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
+         <p>
+            <anchor corresp="P14"/>[14] The
     Syriac version of the narrative of the Man of God is set during
     the lifetime of the Bishop Rabbula, who presided over the
-    Church in Edessa from 412-436 CE.� The manuscript dates to the
-    sixth century, whereas the story itself bespeaks an earlier
+    Church in Edessa from 412-436 CE.  The manuscript dates to
+    the sixth century, whereas the story itself bespeaks an earlier
     milieu. The basic plot of the <hi rend="italic">Story of the Man of God</hi>
     is that the son of wealthy parents rejects the ostentatious
     life, and <hi rend="italic">wife</hi>, that his noble birth afford him. He
@@ -386,62 +421,64 @@
     reveal his identity until compelled to do so by an oath made by
     a church custodian.<ref target="#FN26">26</ref> This kind of uprooting and dislocation is
     an essential aspect of the story, in that it is the main cause
-    of the deep fissure between the Man of God�s past and his
+    of the deep fissure between the Man of God’s past and his
     ascetic life. Upon discovering the worldly nobility of the Man
     of God, the custodian wishes to reveal the secret, and promises
     not to only at the urgent request of the Man of God. The
     protagonist then falls ill and passes away in a hospital for
     the poor. After his death, the custodian notifies Bishop
-    Rabbula and divulges the Man of God�s true identity. Seeking
-    his remains in a cemetery for the poor, the Bishop and the
-    custodian are only able to find the rags worn by the old
+    Rabbula and divulges the Man of God’s true identity.
+    Seeking his remains in a cemetery for the poor, the Bishop and
+    the custodian are only able to find the rags worn by the old
     man.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] In
+         <p>
+            <anchor corresp="P15"/>[15] In
     remorse mixed with inspiration, the Syriac version of the story
-    relates Rabbula�s resolution to care for the poor, with the
-    added warning that one could never be sure that precisely such
-    a holy person was <hi rend="italic">not</hi> in their midst. Rabbula asks,
-    �Who knows whether there are many like this saint, who delight
-    in abasement, nobles to God in their souls, but not recognized
-    by humans because of their physical abasement?�<ref target="#FN27">27</ref> Rabbula thus
-    demonstrates a particular response to the presence of the poor
-    and indigent. It is noted that he subsequently suspended all
-    other activities and building projects to devote himself
-    completely to the care of the needy.� The potential presence of
-    such hidden treasure troves of spiritual excellence is
-    explicitly acknowledged by Bishop Rabbula. As such, poor people
-    like the Man of God provided the community, which in turn is
-    represented in the story by the figures of the Bishop and the
-    custodian, with a clear mechanism for Christian action in the
-    form of charity.<ref target="#FN28">28</ref>
+    relates Rabbula’s resolution to care for the poor, with
+    the added warning that one could never be sure that precisely
+    such a holy person was <hi rend="italic">not</hi> in their midst. Rabbula
+    asks, “Who knows whether there are many like this saint,
+    who delight in abasement, nobles to God in their souls, but not
+    recognized by humans because of their physical
+    abasement?”<ref target="#FN27">27</ref> Rabbula thus demonstrates a particular
+    response to the presence of the poor and indigent. It is noted
+    that he subsequently suspended all other activities and
+    building projects to devote himself completely to the care of
+    the needy.  The potential presence of such hidden treasure
+    troves of spiritual excellence is explicitly acknowledged by
+    Bishop Rabbula. As such, poor people like the Man of God
+    provided the community, which in turn is represented in the
+    story by the figures of the Bishop and the custodian, with a
+    clear mechanism for Christian action in the form of
+    charity.<ref target="#FN28">28</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] Thus
+         <p>
+            <anchor corresp="P16"/>[16] Thus
     the <hi rend="italic">Story of the Man of God</hi> is both a parable and a
     story about tests, and as a pedagogical tool it thereby serves
-    two instructional purposes.�First, those who hear the story
-    should be inspired by the hero�s bravery, devotion and pious
-    behavior. Second, like Rabbula, they should be inspired to
-    modify their own behavior towards the poor.�The performance of
-    such charitable acts is, according to <hi rend="italic">The Story of the Man
-    of God</hi>, informed by the two sentiments expressed by Bishop
-    Rabbula: a desire to help the poor and indigent, and a
-    suspicion that a holy man in the guise of a beggar was always
-    in one�s midst. This theme obviously alludes to the words of
-    Christ in Matthew 25:35-36, the same verses that open our
+    two instructional purposes. First, those who hear the
+    story should be inspired by the hero’s bravery, devotion
+    and pious behavior. Second, like Rabbula, they should be
+    inspired to modify their own behavior towards the
+    poor. The performance of such charitable acts is,
+    according to <hi rend="italic">The Story of the Man of God</hi>, informed by
+    the two sentiments expressed by Bishop Rabbula: a desire to
+    help the poor and indigent, and a suspicion that a holy man in
+    the guise of a beggar was always in one’s midst. This
+    theme obviously alludes to the words of Christ in Matthew
+    25:35-36, the same verses that open our
     <hi rend="italic">mēmrā</hi> in the <hi rend="italic">Book of Steps</hi>.<ref target="#FN29">29</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+         <p>
+            <anchor corresp="P17"/>[17]
     Parallels between the Perfect and the Man of God are also
     evident. For example, the Man on God was an heir to great
-    wealth, but rejected it. He was �joyfully separated from his
-    country, for he yearned and was pressing in his position to be
-    enrolled and recognized in the Jerusalem which is
-    above.�<ref target="#FN30">30</ref> The Perfect likewise �contemplates what is in
-    the heavenly Jerusalem, and is focused there on the
-    Lord.�<ref target="#FN31">31</ref> Both opt for a life of severe poverty, and
+    wealth, but rejected it. He was “joyfully separated from
+    his country, for he yearned and was pressing in his position to
+    be enrolled and recognized in the Jerusalem which is
+    above.”<ref target="#FN30">30</ref> The Perfect likewise “contemplates what
+    is in the heavenly Jerusalem, and is focused there on the
+    Lord.”<ref target="#FN31">31</ref> Both opt for a life of severe poverty, and
     rely upon others for material support. Both represent a
     spiritual asset for the Christian community, as the Book of
     Steps makes clear and as Rabbula explicitly states at the end
@@ -459,12 +496,12 @@
       From then on, that custodian, although he had been doing his
       work, improved himself through severe practices. He trained
       his body more than previously until even his appearance bore
-      witness to his practices, as he told himself, �If that one
-      who lived in great luxury does these things, what should we
-      wretches do to receive our redemption?�<ref target="#FN33">33</ref>
+      witness to his practices, as he told himself, “If that
+      one who lived in great luxury does these things, what should
+      we wretches do to receive our redemption?”<ref target="#FN33">33</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] The
+         <p>
+            <anchor corresp="P18"/>[18] The
     custodian and Bishop Rabbula are as impressed by the austerity
     of the life of the Man of God as they are by the voluntary
     renunciation of wealth and physical abasement undertaken by the
@@ -474,44 +511,45 @@
     on account of their reflection and reactions, are useful
     models.<ref target="#FN34">34</ref>
          </p>
-         <head xml:id="S3">Conclusion</head>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
+         <head xml:id="HV8N1Khalek5">Conclusion</head>
+         <p>
+            <anchor corresp="P19"/>[19]
     Throughout the Book of Steps, and in capsule form, in the
-    eighth <hi rend="italic">mēmrā</hi> of that collection, the position of the
-    Upright with respect to the Perfect is clear. They are to
-    support the efforts of the elect who in turn provide a
-    spiritual asset for the community. A key aspect of perfection
-    in the Book of Steps is the combination of voluntary poverty
-    with extreme physical and social abasement. This renders the
-    Perfect identical to the masses of the poor, to beggars, to
-    precisely the persona we see adopted by the Man of God. The
-    <hi rend="italic">Story of the Man of God</hi> is a hagiographical
-    manifestation of the intended message of this <hi rend="italic">mēmrā</hi>,
-    with the Man of God in the role of the Perfect Christian who
-    voluntarily renounces all worldly goods and who also resembles
-    an anonymous poor person in spite of his high spiritual and
-    social status. In this hagiographical text, through the figures
-    of the custodian and Bishop Rabbula, listeners were reminded
-    that providing for the poor was incumbent upon them in part
-    because of the inherent value of giving, and in part because of
-    the potential greatness of the recipient.<ref target="#FN35">35</ref>
+    eighth <hi rend="italic">mēmrā</hi> of that collection, the
+    position of the Upright with respect to the Perfect is clear.
+    They are to support the efforts of the elect who in turn
+    provide a spiritual asset for the community. A key aspect of
+    perfection in the Book of Steps is the combination of voluntary
+    poverty with extreme physical and social abasement. This
+    renders the Perfect identical to the masses of the poor, to
+    beggars, to precisely the persona we see adopted by the Man of
+    God. The <hi rend="italic">Story of the Man of God</hi> is a hagiographical
+    manifestation of the intended message of this
+    <hi rend="italic">mēmrā</hi>, with the Man of God in the role of
+    the Perfect Christian who voluntarily renounces all worldly
+    goods and who also resembles an anonymous poor person in spite
+    of his high spiritual and social status. In this hagiographical
+    text, through the figures of the custodian and Bishop Rabbula,
+    listeners were reminded that providing for the poor was
+    incumbent upon them in part because of the inherent value of
+    giving, and in part because of the potential greatness of the
+    recipient.<ref target="#FN35">35</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20] The
-    Man of God himself was every man�s Christian hero. He presented
-    a challenge in that he represented the potentially hidden
-    member of the spiritual elect in the guise of a poor person to
-    whom someone like the Upright Christian should minister. As a
-    pedagogical tool, the figure of Man of God was, in short, a
-    benevolent boogeyman; ever-present in the back of one�s mind,
-    and lurking, as a test for those around him, in every crowd of
-    beggars huddled on the street. In these two short, disparate
-    and somewhat elusive texts, a comparison of common motifs
-    serves to flesh out and broaden our potential understanding of
-    each.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <p>
+            <anchor corresp="P20"/>[20] The
+    Man of God himself was every man’s Christian hero. He
+    presented a challenge in that he represented the potentially
+    hidden member of the spiritual elect in the guise of a poor
+    person to whom someone like the Upright Christian should
+    minister. As a pedagogical tool, the figure of Man of God was,
+    in short, a benevolent boogeyman; ever-present in the back of
+    one’s mind, and lurking, as a test for those around him,
+    in every crowd of beggars huddled on the street. In these two
+    short, disparate and somewhat elusive texts, a comparison of
+    common motifs serves to flesh out and broaden our potential
+    understanding of each.</p>_______<lb/>
+         <head xml:id="HV8N1Khalek6">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> An extended version of this essay was written for a
     seminar on Poverty and Charity in Late Antiquity instructed by
     Peter Brown at Princeton University. Credit and special thanks
@@ -521,170 +559,173 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> It is worth mentioning at the outset that while I
     shall not address the issue here, discussions of the Book of
     Steps usually include analysis of the debate over whether there
     is a Messalian affiliation with the text. For a concise summary
     of this debate, see Columba A. Stewart, <hi rend="italic">Working the Earth
     of the Heart: The Messalian Controversy in History, texts and
-    Language to AD 431</hi>, (Oxford: Clarendon Press, 1991).�
-    References to the eighth <hi rend="italic">mēmrā</hi> of the Book of Steps in
-    this essay are to the M. Kmosko 1926 critical edition in PS
-    III. For the sake of convenience, I shall also use Kmosko�s
-    system for division of the text of <hi rend="italic">mēmrā</hi> 8 into five
-    sections. All references will cite the <hi rend="italic">mēmrā</hi> number,
-    followed by the column number and line numbers.� A complete
-    English translation of and introduction to the Book of Steps by
-    R.A. Kitchen ad M.F.G. Parmentier is forthcoming from
-    Cistercian Publications.� For the purposes of excerpts cited
-    here, I use my own working translation. <ref target="#FNRef2">
+    Language to AD 431</hi>, (Oxford: Clarendon Press, 1991). 
+    References to the eighth <hi rend="italic">mēmrā</hi> of the Book
+    of Steps in this essay are to the M. Kmosko 1926 critical
+    edition in PS III. For the sake of convenience, I shall also
+    use Kmosko’s system for division of the text of
+    <hi rend="italic">mēmrā</hi> 8 into five sections. All references
+    will cite the <hi rend="italic">mēmrā</hi> number, followed by the
+    column number and line numbers.  A complete English
+    translation of and introduction to the Book of Steps by R.A.
+    Kitchen ad M.F.G. Parmentier is forthcoming from Cistercian
+    Publications.  For the purposes of excerpts cited here, I
+    use my own working translation. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> On the division of the Christian community into
-    these categories, see R.A. Kitchen, �Conflict on the Stairway
-    to Heaven: The Anonymity of Perfection in the Syriac <hi rend="italic">Liber
-    Graduum</hi>,� (Symposium Syriacum VII, Uppsala 1996;
-    <hi rend="italic">Orientalia Christiana Analecta</hi> 256, 1998) 211-220. See
-    also Daniel Caner, <hi rend="italic">Wandering, Begging Monks: The Promotion
-    of Monasticism in Late Antiquity,</hi> (The Transformation of
-    Classical Heritage 33; Berkeley: University of California
-    Press, 2002) esp. 106-112 and finally, Antoine Guillaumont,
-    �Situation et signification du � Liber Graduum � dans
-    la spiritualit� syriaque� in <hi rend="italic">Symposium Syriacum</hi> 1972,
-    311-322. <ref target="#FNRef3">
+    these categories, see R.A. Kitchen, “Conflict on the
+    Stairway to Heaven: The Anonymity of Perfection in the Syriac
+    <hi rend="italic">Liber Graduum</hi>,” (Symposium Syriacum VII, Uppsala
+    1996; <hi rend="italic">Orientalia Christiana Analecta</hi> 256, 1998)
+    211-220. See also Daniel Caner, <hi rend="italic">Wandering, Begging Monks:
+    The Promotion of Monasticism in Late Antiquity,</hi> (The
+    Transformation of Classical Heritage 33; Berkeley: University
+    of California Press, 2002) esp. 106-112 and finally, Antoine
+    Guillaumont, ‘Situation et signification du
+    « Liber Graduum » dans la
+    spiritualité syriaque’ in <hi rend="italic">Symposium
+    Syriacum</hi> 1972, 311-322. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> D. Caner, <hi rend="italic">Wandering, Begging Monks,</hi>
     108-109, n 111. <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> For another discussion of the exchange of actual
-    for spiritual merchandise, see Adam Becker, �Anti-Judaism and
-    Care for the Poor in Aphrahat�s Demonstration 20,� <hi rend="italic">Journal
-    of Early Christian Studies,</hi> 10 (2002) esp. 311-12.
-    <ref target="#FNRef5">
+    for spiritual merchandise, see Adam Becker, “Anti-Judaism
+    and Care for the Poor in Aphrahat’s Demonstration
+    20,” <hi rend="italic">Journal of Early Christian Studies,</hi> 10
+    (2002) esp. 311-12. <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef6">6</ref> A. Guillaumont, �Situation et signification�
-    311-322. <ref target="#FNRef6">
+         <p>
+            <ref target="#FNRef6">6</ref> A. Guillaumont, ‘Situation et
+    signification’ 311-322. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> 8: 193, 20-21. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> 8: 193, 6-7. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> Caner, <hi rend="italic">Wandering, Begging Monks</hi>, 109. On
     the parallels between the relationship of the Upright and the
-    Perfect and that of the Manichaean �Elect� and �Auditor� see
-    Jason Beduhn�s <hi rend="italic">The Manichaean Body</hi>, (The Johns Hopkins
-    University Press, 2000) especially pp. 27ff. Beduhn cites the
-    Latin <hi rend="italic">Tebessa Codex</hi> which expounds upon these
-    categories in Manichaean doctrine and states: �These two
-    grades�support each other and whoever has abundance of anything
-    shares it with the other; the Elect with the Auditors from
-    their heavenly store... and the Auditors with the Elect [from
-    their terrestrial wealth].� <ref target="#FNRef9">
+    Perfect and that of the Manichaean “Elect” and
+    “Auditor” see Jason Beduhn’s <hi rend="italic">The
+    Manichaean Body</hi>, (The Johns Hopkins University Press,
+    2000) especially pp. 27ff. Beduhn cites the Latin <hi rend="italic">Tebessa
+    Codex</hi> which expounds upon these categories in Manichaean
+    doctrine and states: “These two grades…support
+    each other and whoever has abundance of anything shares it with
+    the other; the Elect with the Auditors from their heavenly
+    store... and the Auditors with the Elect [from their
+    terrestrial wealth].” <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> ibid. 110, n 120. <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> ibid. 111, n 129. <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef12">12</ref> 8:192,�7-12, cf. John 8:32. <ref target="#FNRef12">
+         <p>
+            <ref target="#FNRef12">12</ref> 8:192, 7-12, cf. John 8:32. <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef13">13</ref> Here �these things� refers to charitable
-    deeds. <ref target="#FNRef13">
+         <p>
+            <ref target="#FNRef13">13</ref> Here “these things” refers to
+    charitable deeds. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> 1Cor13:3. <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> Meaning, he gives the words a greater
     meaning. <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> I have inserted this phrase in square
     brackets, as it is my best rendering of the meaning of this
     section where we see a continuation of the theme of differences
     between the Upright and the Perfect. What follows is a long
-    list of attributes of the one who possesses �humble love�, (the
-    Perfect) which in turn is personified, adding a degree of
-    vagueness to the description. <ref target="#FNRef16">
+    list of attributes of the one who possesses “humble
+    love”, (the Perfect) which in turn is personified, adding
+    a degree of vagueness to the description. <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> Cf. Phil 2:3. In general, this excerpt
     recalls themes in Phil. 2:5-8, where Christ humbled Himself as
-    he took on the �form of a servant, and was made in the likeness
-    of men.� <ref target="#FNRef17">
+    he took on the “form of a servant, and was made in the
+    likeness of men.” <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> 8: 192, 15-8:193, 9. <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> 8:196, 1-10. <ref target="#FNRef19">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> 8:197, 18-8:200, 1. <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef21">21</ref> Caner, <hi rend="italic">Wandering, Begging Monks</hi>,
     111. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef22">22</ref> In this <hi rend="italic">mēmrā</hi> we read that the
-    Perfect �reckons sinners greater than he, while he is not
-    anxious all day, and does not have a place to prop his head on
-    the earth.� See 8: 193, 19-21. <ref target="#FNRef22">
+         <p>
+            <ref target="#FNRef22">22</ref> In this <hi rend="italic">mēmrā</hi> we read
+    that the Perfect “reckons sinners greater than he, while
+    he is not anxious all day, and does not have a place to prop
+    his head on the earth.” See 8: 193, 19-21. <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> For a discussion of the possibility of an
     Upright attaining Perfection with respect to those stations in
     terms of Adam and the Fall, see Aleksander Kowalksi,
@@ -693,17 +734,17 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef24">24</ref> See Arthur Amiaud. <hi rend="italic">La l�gende syriaque
-    de saint Alexis, l�homme de Dieu</hi>, (Paris: Biblioth�que de
-    l'Ecole des hautes etudes, 1889) and forthcoming� from
-    Cistercian Publications, a comparison of� the Syriac and Greek
-    versions of the story of the Man of God in an essay by R.
-    Doran. <ref target="#FNRef24">
+         <p>
+            <ref target="#FNRef24">24</ref> See Arthur Amiaud. <hi rend="italic">La légende
+    syriaque de saint Alexis, l’homme de Dieu</hi>, (Paris:
+    Bibliothèque de l'Ecole des hautes etudes, 1889) and
+    forthcoming  from Cistercian Publications, a comparison
+    of  the Syriac and Greek versions of the story of the Man
+    of God in an essay by R. Doran. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef25">25</ref> Dr. Doran has kindly provided me with a
     manuscript of his upcoming publication on the issue of the life
     of The Man of God as a parable, where he explores some of these
@@ -711,75 +752,76 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> In his forthcoming publication, cited above,
     Robert Doran also notes similarities between the <hi rend="italic">Man of
     God</hi> narrative and the life of John Calybite. <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef27">27</ref> Amiaud, <hi rend="italic">La l�gende syriaque</hi>,
+         <p>
+            <ref target="#FNRef27">27</ref> Amiaud, <hi rend="italic">La légende syriaque</hi>,
     appendix, 9. <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> It is well worth remembering that the
     <hi rend="italic">Life of Alexander Akoimetos</hi> tells us that before he
     was a Bishop, Rabbula gave up all material possessions and
-    devoted himself to a life of severe asceticism. See Caner�s
-    appendix in <hi rend="italic">Wandering, Begging Monks,</hi> 261-263.
-    <ref target="#FNRef28">
+    devoted himself to a life of severe asceticism. See
+    Caner’s appendix in <hi rend="italic">Wandering, Begging Monks,</hi>
+    261-263. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> On the relationship between the Man of God
     legend and the <hi rend="italic">Life</hi> of Rabbula, see Hans Drijvers,
-    �The Man of God of Edessa, Bishop Rabbula, and the Urban Poor,
-    Church and Society in the Fifth Century,� <hi rend="italic">JECS</hi> 4
-    (1996) 235-248. The argument put forth by Drijvers asserts that
-    both texts are propaganda tracts aimed against Rabbula�s rival
-    and successor, Hiba. <ref target="#FNRef29">
+    “The Man of God of Edessa, Bishop Rabbula, and the Urban
+    Poor, Church and Society in the Fifth Century,”
+    <hi rend="italic">JECS</hi> 4 (1996) 235-248. The argument put forth by
+    Drijvers asserts that both texts are propaganda tracts aimed
+    against Rabbula’s rival and successor, Hiba. <ref target="#FNRef29">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef30">30</ref> Amiaud, <hi rend="italic">La l�gende syriaque</hi>,
+         <p>
+            <ref target="#FNRef30">30</ref> Amiaud, <hi rend="italic">La légende syriaque</hi>,
     appendix, 2. <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef31">31</ref> 8: 193, 8-9. <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> Whether this asset is exploited for
     political purposes is another matter, see Drijvers, <hi rend="italic">op.
     cit.</hi> 248. <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef33">33</ref> Amiaud, <hi rend="italic">La l�gende syriaque</hi>,
+         <p>
+            <ref target="#FNRef33">33</ref> Amiaud, <hi rend="italic">La légende syriaque</hi>,
     appendix, 7. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef34">34</ref> On the figure of Rabbula as a �paradigm of
-    action� see Susan A. Harvey, �The Holy and the Poor: Models
-    from Early Syriac Christianity,� in <hi rend="italic">The Eye of a Needle:
+         <p>
+            <ref target="#FNRef34">34</ref> On the figure of Rabbula as a
+    “paradigm of action” see Susan A. Harvey,
+    “The Holy and the Poor: Models from Early Syriac
+    Christianity,” in <hi rend="italic">The Eye of a Needle:
     Judeo-Christian Roots of Social Welfare</hi>, ed. Emily Albu
-    �Hanawalt and Carter Lindberg (Clarksville: Thomas Jefferson
-    University Press, 1994) 43-66. <ref target="#FNRef34">
+     Hanawalt and Carter Lindberg (Clarksville: Thomas
+    Jefferson University Press, 1994) 43-66. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> The author of the Liber Graduum makes
     another reference to just such a possibility in 25.6, col. 745.
     <ref target="#FNRef35">
@@ -788,41 +830,42 @@
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Amiaud, A., <hi rend="italic">La l�gende syriaque
-    de saint Alexis, l'homme de Dieu,</hi> (Paris: Biblioth�que de
-    l'Ecole des hautes etudes, 1889).</p>
-         <p xml:id="B2" rend="biblio">Beduhn, Jason, <hi rend="italic">The Manichaean
+         <head xml:id="HV8N1Khalek7">Bibliography</head>
+         <p>Amiaud, A., <hi rend="italic">La légende
+    syriaque de saint Alexis, l'homme de Dieu,</hi> (Paris:
+    Bibliothèque de l'Ecole des hautes etudes, 1889).</p>
+         <p>Beduhn, Jason, <hi rend="italic">The Manichaean
     Body,</hi> (The Johns Hopkins University Press, 2000)</p>
-         <p xml:id="B3" rend="biblio">Becker, Adam, "Anti-Judaism and Care
+         <p>Becker, Adam, "Anti-Judaism and Care
     for the Poor in Aphrahat's Demonstration 20," <hi rend="italic">Journal of
     Early Christian Studies</hi>, 10 (2002) 305-327.</p>
-         <p xml:id="B4" rend="biblio">Caner, D., <hi rend="italic">Wandering, Begging
+         <p>Caner, D., <hi rend="italic">Wandering, Begging
     Monks: The Promotion of Monasticism in Late Antiquity,</hi>
     (The Transformation of Classical Heritage 33; Berkeley:
     University of California Press, 2002).</p>
-         <p xml:id="B5" rend="biblio">Drijvers, Hans, "The Man of God of
+         <p>Drijvers, Hans, "The Man of God of
     Edessa, Bishop Rabbula, and the Urban Poor, Church and Society
     in the Fifth Century," <hi rend="italic">JECS</hi> 4 (1996) 235-248.</p>
-         <p xml:id="B6" rend="biblio">Guillaumont, A., 'Situation et
-    signification du « Liber Graduum » dans la spiritualit�
-    syriaque' (<hi rend="italic">Symposium Syriacum</hi> 1972) 311-322.</p>
-         <p xml:id="B7" rend="biblio">Harvey, Susan A, "The Holy and the
+         <p>Guillaumont, A., 'Situation et
+    signification du « Liber Graduum » dans la
+    spiritualité syriaque' (<hi rend="italic">Symposium Syriacum</hi>
+    1972) 311-322.</p>
+         <p>Harvey, Susan A, "The Holy and the
     Poor: Models from Early Syriac Christianity," in <hi rend="italic">The Eye of
     a Needle: Judeo-Christian Roots of Social Welfare,</hi> ed.
     Emily Albu Hanawalt and Carter Lindberg, (Clarksville: Thomas
     Jefferson University Press, 1994) 43-66.</p>
-         <p xml:id="B8" rend="biblio">Kmosko, M., ed., <hi rend="italic">Liber
+         <p>Kmosko, M., ed., <hi rend="italic">Liber
     Graduum</hi> (Patrologia Syriaca 3; Paris, 1926).</p>
-         <p xml:id="B9" rend="biblio">Kowalksi, Aleksander, <hi rend="italic">Perfezione
+         <p>Kowalksi, Aleksander, <hi rend="italic">Perfezione
     e Giustizia di Adamo nel Liber Graduum,</hi> (Rome: Orientala
     Chrsitiana Analecta 232, 1989).</p>
-         <p xml:id="B10" rend="biblio">Kitchen, R.A. "Conflict on the
+         <p>Kitchen, R.A. "Conflict on the
     Stairway to Heaven: The Anonymity of Perfection in the Syriac
     <hi rend="italic">Liber Graduum</hi>," (Symposium Syriacum VII, Uppsala 1996;
     <hi rend="italic">Orientalia Christiana Analecta</hi> 256, (1998)
     211-220.</p>
-         <p xml:id="B11" rend="biblio">Stewart, C.A., <hi rend="italic">Working the Earth
+         <p>Stewart, C.A., <hi rend="italic">Working the Earth
     of the Heart: The Messalian Controversy in History, texts and
     Language to AD 431,</hi> (Oxford: Clarendon Press, 1991).</p>
          <!-- InstanceEndEditable -->

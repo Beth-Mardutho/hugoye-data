@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wilhelm Baum and Dietmar W. Winkler, The Church of the East: A Concise History (London/New York: Routledge Curzon 2003). Pp. xii + 204. ISBN 0 415 29770 2. $90.</title>
+            <title type="main">Wilhelm Baum and Dietmar W. Winkler, The Church of the East: A Concise History (London/New York: Routledge Curzon 2003). Pp. xii + 204. ISBN 0 415 29770 2. $90.</title>
             <author>
-               <name>J.F. Coakley</name>
+               <name>
+                  <forename>J.F.</forename>
+                  <surname>Coakley</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv7n2prcoakley</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,22 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Wilhem Baum</term>
+               <term>Dietmar Winkler</term>
+               <term>Church of the East</term>
+               <term>History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +89,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Anyone
+         <p>
+            <anchor corresp="P1"/>[1] Anyone
     looking for a general history of the Assyrian Church of the
     East in English has had to be content to piece together such
     books as W. A. Wigram, <hi rend="italic">The Assyrian Church</hi> (1910),
@@ -76,8 +102,8 @@
     through-composed history in one volume, covering the Church of
     the East from the beginnings right down to the end of the
     twentieth century.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The book
+         <p>
+            <anchor corresp="P2"/>[2] The book
     is a translation, slightly revised, of <hi rend="italic">Die Apostolische
     Kirche des Ostens,</hi> published in 2000. Just occasionally
     the translation is faulty, as when we are told that 'In 1856
@@ -89,27 +115,28 @@
     'magicians', and on p. 86 the translator has taken 'Kolophon'
     to be the name of an author. But such lapses are seemingly
     rare, and the English generally reads well.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     strength of Winkler and Baur's book lies chiefly in the
     remarkable amount of information it manages to squeeze into its
-    short length—and indeed it is much more dense reading than any
-    of the books mentioned at the beginning of this review. Readers
-    will be most astonished, perhaps, at the accumulation of
-    inscriptional and other evidence from Central Asia, India and
-    China that has come to light in recent years to suggest the
-    extent of the church in the Middle Ages. (Some of this evidence
-    is illustrated, notably a strange round gravestone with Syriac
-    inscription from the fourteenth century in Central Asia, p.
-    77). The book shows its critical quality too, especially at
-    some of the more sensitive points in chapter 1. Discussing the
-    origins of the church in Persia, Winkler carefully separates
-    the tradition of apostolic origin from the other early evidence
-    that is somewhat less tidy (pp.� 7-14); and he argues that
-    there never was a canonical dependence of the church on the
-    patriarchate of Antioch (pp. 19-20).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] At the
+    short length—and indeed it is much more dense reading
+    than any of the books mentioned at the beginning of this
+    review. Readers will be most astonished, perhaps, at the
+    accumulation of inscriptional and other evidence from Central
+    Asia, India and China that has come to light in recent years to
+    suggest the extent of the church in the Middle Ages. (Some of
+    this evidence is illustrated, notably a strange round
+    gravestone with Syriac inscription from the fourteenth century
+    in Central Asia, p. 77). The book shows its critical quality
+    too, especially at some of the more sensitive points in chapter
+    1. Discussing the origins of the church in Persia, Winkler
+    carefully separates the tradition of apostolic origin from the
+    other early evidence that is somewhat less tidy (pp. 
+    7-14); and he argues that there never was a canonical
+    dependence of the church on the patriarchate of Antioch (pp.
+    19-20).</p>
+         <p>
+            <anchor corresp="P4"/>[4] At the
     other end of the book, Chapter 5, 'The twentieth century', is
     especially valuable, taking in the recovery of the Church of
     the East from near collapse to a 'stable and structured'
@@ -120,33 +147,33 @@
     parishes ends the chapter. For more than half of the century
     the church was presided over by Mar Eshai Shimun, a complex and
     autocratic leader—he did not consecrate a bishop for over
-    thirty years—and, as far as his theology went, a hard-shelled
-    traditionalist. But the Mar Shimun era being now over, Winkler
-    is inclined to pass over his less attractive side and give him
-    much of the credit for the church's recovery.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] There is
+    thirty years—and, as far as his theology went, a
+    hard-shelled traditionalist. But the Mar Shimun era being now
+    over, Winkler is inclined to pass over his less attractive side
+    and give him much of the credit for the church's recovery.</p>
+         <p>
+            <anchor corresp="P5"/>[5] There is
     one overall weakness that will unfortunately prevent this book
-    from becoming a work of reference: the authors' decision—or
-    perhaps it was the publisher's, to keep the book short—to
-    dispense with footnotes or (with occasional exceptions) any
-    citations of sources in the text. How can the reader verify the
-    intriguing statements, for example, that 'calendrical evidence'
-    shows disagreement about the keeping of festivals before 410
-    (p. 15); or that bishop Rabbula of Edessa in his early years
-    'spoke up against Cyril' and only later changed sides (p. 22,
-    25); or that 'as early as 581 Turks with crosses on their
-    foreheads had been placed in Byzantine prisons' (p. 47); or
-    that Syriac ceased to be a vernacular 'because of Islamic
-    language laws' (p. 69); or that Kubilai Khan established an
-    office of Christian affairs in 1289 (p. 87); or that 'Around
-    1551 the East Syriac community in Tabriz disappeared' (p. 116)?
-    The bibliography (pp. 178-94), although weighty, is not
-    annotated, and the scholar who is (rightly!) not disposed to
-    quote such statements without checking them will have a hard
-    time doing so.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] A
+    from becoming a work of reference: the authors'
+    decision—or perhaps it was the publisher's, to keep the
+    book short—to dispense with footnotes or (with occasional
+    exceptions) any citations of sources in the text. How can the
+    reader verify the intriguing statements, for example, that
+    'calendrical evidence' shows disagreement about the keeping of
+    festivals before 410 (p. 15); or that bishop Rabbula of Edessa
+    in his early years 'spoke up against Cyril' and only later
+    changed sides (p. 22, 25); or that 'as early as 581 Turks with
+    crosses on their foreheads had been placed in Byzantine
+    prisons' (p. 47); or that Syriac ceased to be a vernacular
+    'because of Islamic language laws' (p. 69); or that Kubilai
+    Khan established an office of Christian affairs in 1289 (p.
+    87); or that 'Around 1551 the East Syriac community in Tabriz
+    disappeared' (p. 116)? The bibliography (pp. 178-94), although
+    weighty, is not annotated, and the scholar who is (rightly!)
+    not disposed to quote such statements without checking them
+    will have a hard time doing so.</p>
+         <p>
+            <anchor corresp="P6"/>[6] A
     reviewer of any book on the Church of the East is obliged to
     comment on how the word 'Nestorian' is used. Winkler, who has
     been a participant on the Catholic side in the ecumenical
@@ -155,32 +182,32 @@
     (Generally he avoids 'Assyrian' too.) My impression is that
     Baum, whose assigned chapters 2-4 covering the 7th-19th
     centuries are not so dangerous in this regard, did not start
-    with the same prohibition—or else that he found the word�
-    impossible to avoid in certain contexts. He, or an editor, then
-    sanitized it by using quotation marks. So for example we have a
-    mention of '"Nestorian" texts in Central Asia and China' (p.
-    171). But this easy expedient (used by other authors too in
-    recent years) will not do. The texts in question here are not
-    related to Nestorius or christology; nor I think does the
-    author mean to emphasize that others have <hi rend="italic">called</hi> them
-    Nestorian. He is just looking for a plain and acceptable
-    adjective meaning 'of or pertaining to the Church of the East'.
-    Sadly there is no one such. 'East Syriac', itself not very
-    elegant, will hardly work in the phrase above referring to
-    texts that are mostly not in Syriac. 'Assyrian' would be even
-    worse. In this case, since there is no question of any other
-    church, I would suggest 'Christian' as the word to use. With
-    the name '"Nestorian" cross' (pp. 50, 58, 74 etc.) there is a
-    special need for clarity: is the meaning simply 'cross', or—one
-    hopes not—is this now an art-historical term for a cross of a
-    particular shape?</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] It is
+    with the same prohibition—or else that he found the
+    word  impossible to avoid in certain contexts. He, or an
+    editor, then sanitized it by using quotation marks. So for
+    example we have a mention of '"Nestorian" texts in Central Asia
+    and China' (p. 171). But this easy expedient (used by other
+    authors too in recent years) will not do. The texts in question
+    here are not related to Nestorius or christology; nor I think
+    does the author mean to emphasize that others have
+    <hi rend="italic">called</hi> them Nestorian. He is just looking for a plain
+    and acceptable adjective meaning 'of or pertaining to the
+    Church of the East'. Sadly there is no one such. 'East Syriac',
+    itself not very elegant, will hardly work in the phrase above
+    referring to texts that are mostly not in Syriac. 'Assyrian'
+    would be even worse. In this case, since there is no question
+    of any other church, I would suggest 'Christian' as the word to
+    use. With the name '"Nestorian" cross' (pp. 50, 58, 74 etc.)
+    there is a special need for clarity: is the meaning simply
+    'cross', or—one hopes not—is this now an
+    art-historical term for a cross of a particular shape?</p>
+         <p>
+            <anchor corresp="P7"/>[7] It is
     easy to point out shortcomings in a book intended to be, as its
     subtitle says, concise. It is, however, a valuable
-    contribution, full of information, and—if too expensive for the
-    ordinary reader to buy—it ought at least to have a place on all
-    reading lists.</p>
+    contribution, full of information, and—if too expensive
+    for the ordinary reader to buy—it ought at least to have
+    a place on all reading lists.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

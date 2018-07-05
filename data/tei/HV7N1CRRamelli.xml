@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Papers on ancient Syriac topics presented to the Society of Biblical Literature Annual Meeting, Atlanta, Georgia, November 25, 2003.</title>
+            <title type="main">Papers on ancient Syriac topics presented to the Society of Biblical Literature Annual Meeting, Atlanta, Georgia, November 25, 2003.</title>
             <author>
-               <name>Ilaria Ramelli</name>
+               <name>
+                  <forename>Ilaria</forename>
+                  <surname>Ramelli</surname>
+               </name>
                <affiliation>
                   <orgName>Catholic University of Milan</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1crramelli</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>SBL</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +82,7 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">CONFERENCE REPORT</p>
+         <p>CONFERENCE REPORT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
          <!-- #EndEditable -->
@@ -67,8 +90,8 @@
     
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     section entitled <hi rend="italic">Social History of Formative Christianity
     and Judaism</hi> at the Annual Meeting of the Society of
     Biblical Literature (held in Atlanta, November 22-25, 2003,
@@ -81,8 +104,8 @@
     of these papers seems altogether remarkable, so it will be
     useful to present in some extent the contents of each of
     them.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     first lecture was delivered by Stephen Lloyd-Moffett, of the
     University of California, Santa Barbara, who presented a
     reconsideration of "The 'Heresy' of Encratism and the History
@@ -99,8 +122,8 @@
     Lloyd-Moffett argued that Syriac-church scholars ought to use
     categories indigenous to their context rather than others
     imported from the West.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Ute
+         <p>
+            <anchor corresp="P3"/>[3] Ute
     Possekel, of the St. John's Seminary of Boston, presented the
     second paper of the session: "Formative Christianity in Edessa:
     The Communal Structure of the Early Bardaisanites". It was a
@@ -124,8 +147,8 @@
     astrology (that interested the upper classes in Edessa) and the
     doctrine of free will, considerably contributed to the
     Bardaisanite movement.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Tina
+         <p>
+            <anchor corresp="P4"/>[4] Tina
     Shepardson, of the University of Tennessee, who has devoted
     several works to St. Ephrem, in the third paper dealt with this
     author's polemics: "Interpret with Care: Jews, Arians, 'Jews'
@@ -140,8 +163,8 @@
     rhetoric alongside the location of the Syrian father in
     fourth-century Nisibis and Edessa. This helps to throw some
     light on the nature of Christianity in these towns.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     Alexander Mirkovic, of the University of South Florida, who is
     preparing a book on the <hi rend="italic">Doctrina Addai</hi>, dealt with
     this subject also in the fourth paper of the session:
@@ -160,8 +183,8 @@
     governor than a ruler of an independent kingdom. In fact,
     Labubna seems to call his community to participate in the new
     Roman order of the emperor Constantine.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Lucas
+         <p>
+            <anchor corresp="P6"/>[6] Lucas
     Van Rompay, of Duke University, presented a paper on "Syrian
     Christianity in the Age of Justinian: Continuity and
     Redefinition", dedicated to the anti-Chalcedonian Miaphysite

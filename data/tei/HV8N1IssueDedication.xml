@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>FROM THE GENERAL EDITOR</title>
+            <title type="main">FROM THE GENERAL EDITOR</title>
             <author>
-               <name>George A. Kiraz</name>
+               <name>
+                  <forename>George A.</forename>
+                  <surname>Kiraz</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv8n1issuededication</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Just a
+         <p>
+            <anchor corresp="P1"/>[1] Just a
     few weeks back, the community of Syriac scholarship heard about
     the untimely death of one of its foremost scholars, David John
     Lane. David had arrived in India on January 5 on a routine
@@ -75,8 +98,8 @@
     this issue. He will be remembered by all of us for his
     scholarship, but also for his interest in Syriac not only as an
     academic subject, but as a living heritage.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     funeral service took place at 2:30 pm on Friday, January 14, at
     the church situated in the SEERI campus and the burial followed
     at the cemetery of the Malankara Catholic Church at Kalathipady
@@ -88,17 +111,17 @@
     Syriac and in Malayalam. Other priests, mostly David's
     students, from the various other traditions took part. The
     service was attended by ca. 200 people.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] It is
+         <p>
+            <anchor corresp="P3"/>[3] It is
     only fitting that Fr. David received burial rites according to
     the West Syriac rite of the Order of Burial of Priests. His
     body was vested with the priestly garments. The service
     concluded with the traditional <hi rend="italic">zuyo<hi rend="u">h</hi>o</hi>, a farewell ceremony exclusive to deacons
     and priests. The body was carried by priests to the altar and
     placed facing East. A priest represented Fr. David in chanting
-    "<hi rend="italic">Phush bashlom</hi>—Farewell, O holy altar." The rest of
-    the priests responded, "<hi rend="italic">zel bashlom</hi>, Depart in peace,
-    O honorable priest." The farewell continued,<lb/>
+    "<hi rend="italic">Phush bashlom</hi>—Farewell, O holy altar." The rest
+    of the priests responded, "<hi rend="italic">zel bashlom</hi>, Depart in
+    peace, O honorable priest." The farewell continued,<lb/>
     - Farewell, O holy Church.<lb/>
     - Depart in peace, O modest priest.<lb/>
     - Farewell, O holy bishops.<lb/>
@@ -143,8 +166,8 @@
     Archdeacon Murad Saliba Barsom, 2003, pp. 121-124).<lb/>
             <graphic url="HV8N1IssueDedication01.gif" rend="img" mimeType="image/gif"/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] David
+         <p>
+            <anchor corresp="P4"/>[4] David
     left many unfinished works behind. His <hi rend="italic">opus magnum</hi>,
     the edition and translation of Shubkhalmaran's <hi rend="italic">Book of
     Gifts</hi>, which will be published in CSCO, is not yet at the
@@ -155,8 +178,8 @@
                <hi rend="u">H</hi>udra</hi> based on the Thrissur
     manuscript of 1598. It is hoped that his writings can be
     recovered.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] It is
+         <p>
+            <anchor corresp="P5"/>[5] It is
     our obligation to dedicate this issue of <hi rend="italic">Hugoye</hi> in
     memory of David John Lane, scholar, <hi rend="italic">malphono</hi>, mentor,
     and friend to many of us. It only remains for us to say,

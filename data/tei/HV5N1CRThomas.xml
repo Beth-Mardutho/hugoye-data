@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fourth Woodbrooke-Mingana Symposium On Arab Christianity And Islam</title>
+            <title type="main">Fourth Woodbrooke-Mingana Symposium On Arab Christianity And Islam</title>
             <author>
-               <name>David THOMAS</name>
+               <name>
+                  <forename>David</forename>
+                  <surname>Thomas</surname>
+               </name>
                <affiliation>
                   <orgName>University of Birmingham</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv5n1crthomas</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Woodbrooke-Mingana</term>
+               <term>Arab</term>
+               <term>Christianity and Islam</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +88,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Fourth Woodbrooke-Mingana Symposium on Arab Christianity and
     Islam was held from 12 to 16 September 2001. Like its three
     predecessors, it was organised at Woodbrooke Quaker Study
@@ -72,8 +97,8 @@
     Iraqi scholar whose memory it seeks to preserve, once lived.
     Its theme was "Arab Christianity in Iraq in the `Abbasid Period
     (750-1258)".</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In all,
+         <p>
+            <anchor corresp="P2"/>[2] In all,
     23 scholars, researchers and interested individuals attended
     the Symposium. These came from Europe, the USA and the Middle
     East, and included some of the leading scholars on the subject
@@ -88,8 +113,8 @@
     colleagues and one Jewish colleague who were prevented from
     travelling by the aftermath of the September 11 attacks on
     Washington and New York.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] A total
+         <p>
+            <anchor corresp="P3"/>[3] A total
     of 19 papers were read out to the gathering, those from the
     American colleagues unable to attend read by other
     participants. These papers ranged very widely, as the titles in
@@ -97,8 +122,8 @@
     alongside written papers. It is planned to publish a selection
     of them through Brill of Leiden, who also published papers from
     the preceding Symposiums.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     Symposium took place in the year that the Centre for the Study
     of Islam and Christian-Muslim Relations marks its twenty-fifth
     anniversary. In recognition of this, the proceedings were
@@ -108,8 +133,8 @@
     was also attended by friends and associates of the Centre. The
     speaker at this dinner was Professor David Kerr, the first
     Director of the Centre.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     costs of the Symposium, including accommodation for speakers
     and travel bursaries for some students, were assisted by grants
     from the British Academy, the Spalding Trust and the Edward
@@ -118,15 +143,15 @@
     Islam Trust and the Bishop of Birmingham's Charitable Trust.
     The Centre for the Study of Islam and Christian-Muslim
     Relations acknowledges these with deep gratitude.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] It was
+         <p>
+            <anchor corresp="P6"/>[6] It was
     agreed by the Symposium participants that a fifth meeting
     should be held in four years' time, on the theme of the Bible
     in Arab Christianity. So scholars in the field of Arab
     Christianity and all who are interested are invited to gather
     once more at Selly Oak in September 2005.</p>
-         <head rend="n">Papers and Presentations</head>
-         <p rend="n"/>
+         <head xml:id="HV5N1CRThomas1">Papers and Presentations</head>
+         <p/>
          <p>Professor Jacques Waardenburg, Switzerland:<lb/>
             <hi rend="italic">Between Baghdad and Birmingham, minorities Christian and
     Muslim.</hi>
@@ -158,16 +183,16 @@
     al-Dhurwa.</hi>
          </p>
          <p>Virginie Pirens, Belgium:<lb/>
-            <hi rend="italic">�The Arabic Version of the Orations of Gregory of Nazianzus:
-    the case of Oration 42.</hi>
+            <hi rend="italic"> The Arabic Version of the Orations of Gregory of
+    Nazianzus: the case of Oration 42.</hi>
          </p>
          <p>Dr Suha Rassam, UK:<lb/>
             <hi rend="italic">The Christians of Iraq and Translation Activity during the
     `Abbasid Period.</hi>
          </p>
          <p>Dr Julian Faultless, UK:<lb/>
-            <hi rend="italic">The Recensions of Ibn al-Tayyib�s Commentary on John�s
-    Gospel.</hi>
+            <hi rend="italic">The Recensions of Ibn al-Tayyib’s Commentary on
+    John’s Gospel.</hi>
          </p>
          <p>Dr David Thomas, UK:<lb/>
             <hi rend="italic">Early Muslim Responses to Christianity.</hi>
@@ -176,16 +201,16 @@
             <hi rend="italic">`Ammar al-Basri on the Incarnation.</hi>
          </p>
          <p>Dr Sandra Toenies Keating, USA:<lb/>
-            <hi rend="italic">The Third Risala of Abu Ra�ita al-Takriti: �A Refutation of
-    the Melkites concerning the Union of the Divinity and Humanity
-    in Christ.�</hi>
+            <hi rend="italic">The Third Risala of Abu Ra’ita al-Takriti: “A
+    Refutation of the Melkites concerning the Union of the Divinity
+    and Humanity in Christ.”</hi>
          </p>
          <p>`Aziz `Abd al-Nour, UK:<lb/>
             <hi rend="italic">Images and Inscriptions from Ancient Churches of
     Iraq.</hi>
          </p>
          <p>Dr Mark Swanson, USA:<lb/>
-            <hi rend="italic">The Christian al-Ma�mun Tradition.</hi>
+            <hi rend="italic">The Christian al-Ma’mun Tradition.</hi>
          </p>
          <p>Dr Jamal Attar, Lebanon:<lb/>
             <hi rend="italic">Study of a Medieval Portrait of Arab Christians: Islamic
@@ -193,13 +218,13 @@
     al-Jahiz (776-869 CE).</hi>
          </p>
          <p>Gabriel Said Reynolds, USA:<lb/>
-            <hi rend="italic">Christian Sects through Muslim Eyes: `Abd al-Jabbar�s
-    �Tathbit dala�il al-nubuwwa�.</hi>
+            <hi rend="italic">Christian Sects through Muslim Eyes: `Abd al-Jabbar’s
+    ‘Tathbit dala’il al-nubuwwa’.</hi>
          </p>
          <p>Dr Martin Accad, Lebanon:<lb/>
             <hi rend="italic">The Interpretation of John 20.17 in Christian-Muslim
-    Dialogue (8<hi rend="sup">th</hi>�14<hi rend="sup">th</hi> century): the Ultimate
-    Proof-Text.</hi>
+    Dialogue (8<hi rend="sup">th</hi>–14<hi rend="sup">th</hi> century): the
+    Ultimate Proof-Text.</hi>
          </p>
          <p>Barbara Roggema, The Netherlands:<lb/>
             <hi rend="italic">Primitive Monotheism and Crypto-idolatry, the origin and

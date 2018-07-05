@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Christianity in Iraq School of Oriental and African Studies, London, 3 April 2004</title>
+            <title type="main">Christianity in Iraq School of Oriental and African Studies, London, 3 April 2004</title>
             <author>
-               <name> </name>
+               <name>
+                  <forename> </forename>
+                  <surname> </surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1fcchristianityiniraq</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Seminar</term>
+               <term>Christianity</term>
+               <term>Iraq</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +84,7 @@
          <lb/>
          <lb/>
          <!-- #BeginEditable "PubTypeLabel" -->
-         <p rend="pubtype">CONFERENCE ANNOUNCEMENT</p>
+         <p>CONFERENCE ANNOUNCEMENT</p>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Title" -->
          <!-- #EndEditable -->
@@ -68,8 +93,8 @@
          <!-- #BeginEditable "Address" -->
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     department for the Study of Religions, School of Oriental and
     African Studies, University of London in conjunction with The
     British School of Archaeology in Iraq and The Anglican and
@@ -77,9 +102,9 @@
     "Christianity in Iraq" investigating the Christian heritage of
     Iraq on Saturday, April 3, 2004 at The Brunei Gallery Lecture
     Theatre, Thornhaugh St., Russell Square, London, WC1H 0XG.</p>
-         <head>Christianity in Iraq: Synopsis</head>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <head xml:id="HV7N1FCChristianityinIraq1">Christianity in Iraq: Synopsis</head>
+         <p>
+            <anchor corresp="P2"/>[2] The
     origins of Christianity in Iraq are shrouded in the mists of
     time, but groups of Christians were settled by the second
     century C.E. During the Sassanid period (241 - 632 C.E.) the
@@ -90,8 +115,8 @@
     East extended to the Gulf and Arabia and as far as China. In
     Central Asia, conversions were made amongst the Kerait and
     other Altaic tribes.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] When
+         <p>
+            <anchor corresp="P3"/>[3] When
     Hulugu Khan led his forces into Iraq in the thirteenth century,
     Christian princesses were counted amongst the members of the
     Mongol royal family. The vigour of Christianity under the
@@ -100,8 +125,8 @@
     a period of terror and instability for Christianity. Many
     communities fled northward to the Mosul plain and the Hakkari
     region of Turkey where they remained until the 1920's.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     seventeenth and eighteenth centuries saw the arrival of
     Europeans and increased contact with the Christian communities
     of Iraq. Roman Catholic missionaries brought elements of the
@@ -111,11 +136,11 @@
     rich fabric of Christianity still includes adherants of the
     traditional Syriac churches, as well as relative newcomers
     including the Protestant churches.</p>
-         <head>Programme (Provisional)</head>
-         <head>Morning Session: History and Archaeology</head>
+         <head xml:id="HV7N1FCChristianityinIraq2">Programme (Provisional)</head>
+         <head xml:id="HV7N1FCChristianityinIraq3">Morning Session: History and Archaeology</head>
          <p>[10.00 A.M. - 12.30 P.M.]</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     morning session will consist of a series of papers exploring
     aspects of the history and archaeology of Christianity in Iraq
     down the centuries. Speakers include:</p>
@@ -137,23 +162,23 @@
             <hi rend="bold">Prof. Amir Harrak (Toronto)</hi>
             <lb/>
     The Christian archaeology of Tekrit and Mosul.</p>
-         <head>Afternoon Session: Sociological and Linguistic</head>
+         <head xml:id="HV7N1FCChristianityinIraq4">Afternoon Session: Sociological and Linguistic</head>
          <p>[2.00 - 4.30 P.M.]</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     afternoon session will investigate the modern presence of
     Christianity in Iraq. Representatives of the various Syriac
     Churches [including the Assyrians, Chaldaeans, Syrian Orthodox]
     will profile the current situations of their communities.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7]
+         <p>
+            <anchor corresp="P7"/>[7]
     <hi rend="bold">Prof. Geoffrey Khan FBA</hi> (Cambridge) will
     conclude the day with a talk about his AHRB-funded project that
     is mapping the Neo-Syriac dialects that are still spoken today
     by the Christian communities in northern Iraq as well as in the
     diaspora.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] For
+         <p>
+            <anchor corresp="P7"/>[7] For
     further details, please contact:<lb/>
     e-mail: ecdh1@cus.cam.ac.uk<lb/>
     Fax: 01223-566493</p>

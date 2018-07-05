@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Erbes, Johann E., The Peshitta and the Versions: A Study of the Peshitta Variants in Joshua 1-5 in Relation to Their Equivalents in the Ancient Versions (Acta Universitatis Upsaliensis. Studia Semitica Upsaliensia 16; Uppsala: Uppsala University Library, 1999).</title>
+            <title type="main">Erbes, Johann E., The Peshitta and the Versions: A Study of the Peshitta Variants in Joshua 1-5 in Relation to Their Equivalents in the Ancient Versions (Acta Universitatis Upsaliensis. Studia Semitica Upsaliensia 16; Uppsala: Uppsala University Library, 1999).</title>
             <author>
-               <name>Craig E. Morrison</name>
+               <name>
+                  <forename>Craig E.</forename>
+                  <surname>Morrison</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv10n1prmorrison</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     question of the relationship of the OT Peshitta to the other
     ancient versions continues to capture the interest of Peshitta
     scholars. While past research indicates that the Peshitta is,
@@ -79,57 +102,60 @@
     translation emerged. By that point, the Peshitta, which may
     have been the work of Jewish translators, was firmly in the
     hands of Syriac speaking Christians who knew the Greek Bible.
-    One line of inquiry into the Peshitta�s character involves the
-    study of the relationship between the Peshitta with other
-    versions of the Bible. It is within this arena that Erbes'
-    dissertation, presented to the faculty of Semitic Languages at
-    Uppsala University, situates itself.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] At the
-    outset, Erbes asks the question: �How does the Peshitta sphere
-    relate to the Jewish sphere, the Septuagint sphere, and the
-    Vulgate?� (p. 24). He wants to uncover evidence of versional
-    influence (especially the Septuagint) on the Peshitta. The bulk
-    of his volume presents a verse by verse analysis of the variant
-    readings in the Peshitta of Joshua 1-5. Even the most minor
-    Peshitta divergences are discussed. The first reading he treats
-    is the question of the <hi rend="italic">waw</hi> on <hi rend="italic">wy�mr</hi>�in the MT
-    of Josh 1:1 which the Peshitta renders <hi rend="italic">�mr</hi> (�he
-    said�).�He notes that the Syriac tradition uniformly reads
-    <hi rend="italic">�mr</hi> (without <hi rend="italic">waw</hi>). He then provides a
-    retroversion of the MT(<hi rend="italic">wy�mr</hi>) into Syriac
-    (<hi rend="italic">w�mr</hi>). One could quibble as to whether this
-    retroversion is even possible in Syriac as it produces a rather
-    �unsyriac� construction (the verb <hi rend="italic">�mr</hi> in Josh 1:1
-    introduces the main clause after the subordinate clause
-    introduced with <hi rend="italic">wmn b<!--<u>-->t<!--</u>-->r d</hi>). He then discusses
-    the versional evidence for the <hi rend="italic">waw</hi> (the Targum and
-    some Greek versions reflect the <hi rend="italic">waw</hi>). Erbes concludes
-    that the �absence of the <hi rend="italic">waw</hi> is idiomatically the
-    equivalent of the Masoretic Text� (p. 60) and that the Peshitta
-    is free from versional influence. The study proceeds in this
-    fashion, considering every variation between the MT and the
-    Peshitta in Joshua 1-5.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+    One line of inquiry into the Peshitta’s character
+    involves the study of the relationship between the Peshitta
+    with other versions of the Bible. It is within this arena that
+    Erbes' dissertation, presented to the faculty of Semitic
+    Languages at Uppsala University, situates itself.</p>
+         <p>
+            <anchor corresp="P2"/>[2] At the
+    outset, Erbes asks the question: “How does the Peshitta
+    sphere relate to the Jewish sphere, the Septuagint sphere, and
+    the Vulgate?” (p. 24). He wants to uncover evidence of
+    versional influence (especially the Septuagint) on the
+    Peshitta. The bulk of his volume presents a verse by verse
+    analysis of the variant readings in the Peshitta of Joshua 1-5.
+    Even the most minor Peshitta divergences are discussed. The
+    first reading he treats is the question of the <hi rend="italic">waw</hi> on
+    <hi rend="italic">wy’mr</hi> in the MT of Josh 1:1 which the
+    Peshitta renders <hi rend="italic">‘mr</hi> (“he
+    said”). He notes that the Syriac tradition uniformly
+    reads <hi rend="italic">‘mr</hi> (without <hi rend="italic">waw</hi>). He then
+    provides a retroversion of the MT(<hi rend="italic">wy’mr</hi>) into
+    Syriac (<hi rend="italic">w’mr</hi>). One could quibble as to whether
+    this retroversion is even possible in Syriac as it produces a
+    rather “unsyriac” construction (the verb
+    <hi rend="italic">‘mr</hi> in Josh 1:1 introduces the main clause after
+    the subordinate clause introduced with <hi rend="italic">wmn b<!--<u>-->t<!--</u>-->r
+    d</hi>). He then discusses the versional evidence for the
+    <hi rend="italic">waw</hi> (the Targum and some Greek versions reflect the
+    <hi rend="italic">waw</hi>). Erbes concludes that the “absence of the
+    <hi rend="italic">waw</hi> is idiomatically the equivalent of the Masoretic
+    Text” (p. 60) and that the Peshitta is free from
+    versional influence. The study proceeds in this fashion,
+    considering every variation between the MT and the Peshitta in
+    Joshua 1-5.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
     discussions at the end of each variant studied reveal that most
     often the Peshitta offers an independent reading. Some variants
-    are so minor that they defy explanation.�But Erbes tries
-    anyhow.�He suggests that the variant word order in some
+    are so minor that they defy explanation. But Erbes tries
+    anyhow. He suggests that the variant word order in some
     Peshitta MSS in Josh 1:4, stresses the proper name of the river
-    �Euphrates,� �triggered by the relative proximity of the
-    translator to it.� His competent study would not have been
-    compromised had such imaginative explanations been left aside.
-    Sometimes Peshitta readings are treated in isolation, such as
-    the translation <hi rend="italic">�yk dbzq�</hi> for Hebrew <hi rend="italic">nd</hi> (Josh
-    3:16). Erbes suggests that the Peshitta reading �is possibly an
-    adapted translation of the Hebrew �dam� or a misreading with a
-    Mishnaic background� (p. 219). Both explanations are possible,
-    but it should be acknowledged that the Peshitta translation for
-    this Hebrew term also appears in Exod 15:8 and Pss 33:7 and
-    78:13.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] As
+    “Euphrates,” “triggered by the relative
+    proximity of the translator to it.” His competent study
+    would not have been compromised had such imaginative
+    explanations been left aside. Sometimes Peshitta readings are
+    treated in isolation, such as the translation <hi rend="italic">‘yk
+    dbzq’</hi> for Hebrew <hi rend="italic">nd</hi> (Josh 3:16). Erbes
+    suggests that the Peshitta reading “is possibly an
+    adapted translation of the Hebrew ‘dam’ or a
+    misreading with a Mishnaic background” (p. 219). Both
+    explanations are possible, but it should be acknowledged that
+    the Peshitta translation for this Hebrew term also appears in
+    Exod 15:8 and Pss 33:7 and 78:13.</p>
+         <p>
+            <anchor corresp="P4"/>[4] As
     Peshitta scholars will be interested in the results of this
     technical research, I offer a summary below:</p>
          <list type="ordered">
@@ -141,8 +167,8 @@
             <item>Most unique Peshitta readings can be explained by
       translation technique.</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] More
+         <p>
+            <anchor corresp="P5"/>[5] More
     than once the author acknowledges the quantitative limitations
     of his research. But the copious data Erbes presents witnesses
     to his ardent search for even the most minor trace of influence

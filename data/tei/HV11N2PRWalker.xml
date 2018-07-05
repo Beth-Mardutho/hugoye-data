@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wilhelm Baum and Dietmar W. Winkler. The Church of the East: A Concise History.�London and New York: RoutledgeCurzon, 2003, xii + 204 pp; hardcover. $130.</title>
+            <title type="main">Wilhelm Baum and Dietmar W. Winkler. The Church of the East: A Concise History. London and New York: RoutledgeCurzon, 2003, xii + 204 pp; hardcover. $130.</title>
             <author>
-               <name>Joel Walker</name>
+               <name>
+                  <forename>Joel</forename>
+                  <surname>Walker</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv11n2prwalker</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Joel Walker</author>
-                  <title level="a">Wilhelm Baum and Dietmar W. Winkler. The Church of the East: A Concise History.�London and New York: RoutledgeCurzon, 2003, xii + 204 pp; hardcover. $130.</title>
+                  <title level="a">Wilhelm Baum and Dietmar W. Winkler. The Church of the East: A Concise History. London and New York: RoutledgeCurzon, 2003, xii + 204 pp; hardcover. $130.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Church of the East</term>
+               <term>Historiography</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +87,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] How does
+         <p>
+            <anchor corresp="P1"/>[1] How does
     one write a "concise" account of a Church, whose history spans
     three continents and seventeen centuries? In this learned
     little survey, Austrian scholars Wilhelm Baum and Dietmar
@@ -79,20 +103,21 @@
     diacritical marks in transliteration. The results are mixed,
     though the book offers much of interest for advanced students
     and serious general readers.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] After a
+         <p>
+            <anchor corresp="P2"/>[2] After a
     sensible introduction to the thorny issue of how to refer to
-    the Church of the East—also known as the Nestorian, the East
-    Syriac, or the Assyrian Church—chapter one explores the origins
-    of Christianity in Iraq and the institutional development of
-    Christianity in the Sasanian Empire (224-642). Winkler (sole
-    author of this section) is perceptive on the development of the
-    East-Syrian patriarchate and theology. The chapter concludes
-    with his spirited defense of the orthodoxy of the East-Syrian
-    creed, which was presented to the Sasanian court in 612 and
-    remains valid for the "entire" Church of the East today.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Chapters
+    the Church of the East—also known as the Nestorian, the
+    East Syriac, or the Assyrian Church—chapter one explores
+    the origins of Christianity in Iraq and the institutional
+    development of Christianity in the Sasanian Empire (224-642).
+    Winkler (sole author of this section) is perceptive on the
+    development of the East-Syrian patriarchate and theology. The
+    chapter concludes with his spirited defense of the orthodoxy of
+    the East-Syrian creed, which was presented to the Sasanian
+    court in 612 and remains valid for the "entire" Church of the
+    East today.</p>
+         <p>
+            <anchor corresp="P3"/>[3] Chapters
     two and three survey the Church of the East's history under
     Arab and then Mongol rule, emphasizing its international and
     multi-ethnic character extending across large stretches of
@@ -104,20 +129,21 @@
     role of East-Syrian doctors and philosophers in the
     intellectual accomplishments of the Abbasid translation
     movement. But his chief interest—and arguably the most
-    important contribution of this book—lies in the story of the
-    Church of East's vigorous expansion into Central Asia, China,
-    and southern India. Baum devotes particular attention to the
-    conditions that facilitated the translation of Syriac Christian
-    texts into Sogdian, Uighur, and Chinese. In doing so, he offers
-    valuable context for understanding the famous bilingual Chinese
-    and Syriac stele erected at Xi'an in northern China in 781 and
-    dedicated to a priest from Balkh (Afghanistan). A Buddhist
-    document of the same decade describes, for instance, how an
-    Indian scholar translated texts from Uighur with the help of a
-    "Persian" Christian monk named King-tsing (Adam), who was
-    already renowned for his translations into Chinese.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Baum's
+    important contribution of this book—lies in the story of
+    the Church of East's vigorous expansion into Central Asia,
+    China, and southern India. Baum devotes particular attention to
+    the conditions that facilitated the translation of Syriac
+    Christian texts into Sogdian, Uighur, and Chinese. In doing so,
+    he offers valuable context for understanding the famous
+    bilingual Chinese and Syriac stele erected at Xi'an in northern
+    China in 781 and dedicated to a priest from Balkh
+    (Afghanistan). A Buddhist document of the same decade
+    describes, for instance, how an Indian scholar translated texts
+    from Uighur with the help of a "Persian" Christian monk named
+    King-tsing (Adam), who was already renowned for his
+    translations into Chinese.</p>
+         <p>
+            <anchor corresp="P4"/>[4] Baum's
     account juxtaposes archaeological evidence from across Asia,
     introducing documents preserved in a wide array of languages
     and formats. A page from the ninth or tenth-century Sogdian
@@ -140,8 +166,8 @@
     these chapters can be disorienting, but it also serves to
     underscore the need for new in-depth studies of particular
     segments in the pre-modern religious history of Asia.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     book's fourth chapter investigates the growing turmoil of
     East-Syrian communities under Ottoman rule, as papal emissaries
     negotiated with the two (and often three) patriarchates of the
@@ -159,9 +185,9 @@
     can be used to write the social history of this period.<ref target="#FN4">4</ref> One hopes
     that future surveys will also be able to integrate the evidence
     of later Aramaic literature by writers such as the poet Israel
-    of Alqos (�1632).</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+    of Alqos (†1632).</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     latter half of chapter four and chapter five survey the
     multi-faceted relations between the Christians of northern
     Mesopotamia and various scholars, diplomats, and missionaries
@@ -190,8 +216,8 @@
     ecumenical dialogue. Chapter six gives a very brief overview of
     the Church of the East's literature preserved in Syriac and
     other languages.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In sum,
+         <p>
+            <anchor corresp="P7"/>[7] In sum,
     Baum and Winkler's survey constitutes a welcome addition to the
     growing literature on Christianity in pre-modern Asia. The text
     is probably too dense with names and details to be effective
@@ -208,8 +234,8 @@
          </p>
          <lb/>
     _______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV11N2PRWalker1">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> Wilhelm Baum and Dietmar Winkler, <hi rend="italic">Die
     Apostolische Kirche des Ostens: Geschichte der sogenannten
     Nestorianer</hi> (Klagenfurt, Austria: Verlag Kitab, 2000).
@@ -220,7 +246,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> W. A. Wigram, <hi rend="italic">The Assyrians and their
     Neighbours</hi> (London: G. Bell and Sons, 1929; reprint:
     Piscataway, NJ: Gorgias Press, 2002). The Church of the East
@@ -231,14 +257,14 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> David Wilmshurst, <hi rend="italic">The Ecclesiastical
     Organization of the Church of the East, 1318-1913</hi>. CSCO
     582; Subsidia 104 (Louvain: Peeters, 2004). <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> Heleen Murre-van den Berg, "Generous Women in the
     Church of the East between 1550 and 1850." <ref target="../Vol7No1/index.html">
                <hi rend="italic">Hugoye: Journal of Syriac
@@ -246,7 +272,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> On these same themes, see now John Joseph's <hi rend="italic">The
     Modern Assyrians of the Middle East: Encounters with Western
     Christian missions, archaeologists, and colonial powers</hi>
@@ -254,7 +280,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> I list a few examples. The bibliographic citation
     for Samuel Moffett, <hi rend="italic">A History of Christianity in Asia:
     Volume I: Beginnings to 1500</hi> (Mary Knoll, NY: Orbis Books,
@@ -263,11 +289,11 @@
     edited <hi rend="italic">The Monks of Kublai Khan</hi> (London: Religious
     Tract Society, 1928), although the publication includes a
     facsimile of the Syriac manuscript. Jean-Maurice Fiey attacked
-    the credibility of the <hi rend="italic">Chronique d'Arb�les</hi>, and the
-    volume and pagination for <hi rend="italic">The Chronicle of S�ert</hi> and
-    several other primary texts are incomplete. These and other
-    mistakes could be easily corrected if there is a second
-    edition. <ref target="#FNRef6">
+    the credibility of the <hi rend="italic">Chronique d'Arbèles</hi>, and
+    the volume and pagination for <hi rend="italic">The Chronicle of
+    Séert</hi> and several other primary texts are
+    incomplete. These and other mistakes could be easily corrected
+    if there is a second edition. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>

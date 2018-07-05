@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Alfeyev, Hilarion. The Spiritual World of Isaac the Syrian. Cistercian Studies Series 175. Kalamazoo, MI: Cistercian Publications. 2000. 321 pp. Hb, 40.95; pb. 20.95.</title>
+            <title type="main">Alfeyev, Hilarion. The Spiritual World of Isaac the Syrian. Cistercian Studies Series 175. Kalamazoo, MI: Cistercian Publications. 2000. 321 pp. Hb, 40.95; pb. 20.95.</title>
             <author>
-               <name>Dana R. MILLER</name>
+               <name>
+                  <forename>Dana R.</forename>
+                  <surname>Miller</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv5n1prmiller</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,22 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Isaac the Syrian</term>
+               <term>Isaac of Nineveh</term>
+               <term>Ishaq of Nineveh</term>
+               <term>Alfeyev</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,7 +89,7 @@
     
          <!-- #BeginEditable "Content" -->
          <p>
-            <anchor xml:id="P1"/>[1] Isaac the Syrian,
+            <anchor corresp="P1"/>[1] Isaac the Syrian,
     or Isaac (Ishaq) of Nineveh, was a remarkable writer in a
     remarkable but largely neglected tradition of East Syriac
     writers. Many civilizations have experienced lamentably brief
@@ -86,33 +112,34 @@
     gain widespread recognition, even when they are imbued with
     cultural expression and concerns that may seem foreign to
     many.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     complete works of Isaac are only now becoming available in
-    translation, and so we should welcome Alfeyev�s introduction to
-    Isaac�s thought. Alfeyev�s method is quite straightforward. He
-    divides what Isaac writes into various subjects, e.g. prayer,
-    humility, faith and knowledge, contemplation, and then adduces
-    many passages where Isaac is allowed to express his views on
-    these subjects. The result is that the reader obtains a rather
-    good idea of these views and some taste of Isaac�s forceful
-    style of writing. Perhaps this is the best method to use for an
-    introduction to such a writer, but I feel it risks giving the
-    impression that Isaac is a systematic writer. I think it can be
-    argued that Isaac is a systematic thinker in the sense that his
-    many views on many aspects of what is called the �spiritual�
-    life (I use quotation marks because �spiritual� seems to have
-    as many meanings as there are users of the term) are consistent
-    with one another, but he does not treat his subjects in a
-    systematic fashion. For the most part it is not the internal
-    logic of the view that determines the course of his discussion,
-    but the wealth of his personal experience and psychological
-    insight. So reading Isaac is like venturing into the mind and
-    life of a rather astonishing person. What one finds is not a
-    carefully ordered treatment of subjects but a collection of
-    views invested with the power of experience.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Alfeyev
+    translation, and so we should welcome Alfeyev’s
+    introduction to Isaac’s thought. Alfeyev’s method
+    is quite straightforward. He divides what Isaac writes into
+    various subjects, e.g. prayer, humility, faith and knowledge,
+    contemplation, and then adduces many passages where Isaac is
+    allowed to express his views on these subjects. The result is
+    that the reader obtains a rather good idea of these views and
+    some taste of Isaac’s forceful style of writing. Perhaps
+    this is the best method to use for an introduction to such a
+    writer, but I feel it risks giving the impression that Isaac is
+    a systematic writer. I think it can be argued that Isaac is a
+    systematic thinker in the sense that his many views on many
+    aspects of what is called the “spiritual” life (I
+    use quotation marks because “spiritual” seems to
+    have as many meanings as there are users of the term) are
+    consistent with one another, but he does not treat his subjects
+    in a systematic fashion. For the most part it is not the
+    internal logic of the view that determines the course of his
+    discussion, but the wealth of his personal experience and
+    psychological insight. So reading Isaac is like venturing into
+    the mind and life of a rather astonishing person. What one
+    finds is not a carefully ordered treatment of subjects but a
+    collection of views invested with the power of experience.</p>
+         <p>
+            <anchor corresp="P3"/>[3] Alfeyev
     seems to assume that we, readers living in the twenty-first
     century, will be able to make sense of and find interesting
     what Isaac writes about what he, as an ascetic of seventh
@@ -124,35 +151,36 @@
     to bridge the enormous gap between how ordinary people now
     think and lead their lives and how ancient Christian ascetics
     did so. There are, no doubt, deeply religious people nowadays
-    who will not find Isaac�s thought-world foreign, but such
+    who will not find Isaac’s thought-world foreign, but such
     people are few. What about the rest of us? This complaint is
-    part of a larger one. Alfeyev�s introduction does not attempt
-    to stand outside the ascetic tradition in order, for the
-    reader�s benefit, to provide critical assessment of Isaac�s
-    writings. Alfeyev tells us <hi rend="italic">what</hi> Isaac says, but not why
-    and not how we should approach this foreign world. Isaac
-    himself makes no efforts in this direction, but there is an
-    evident reason for this. His books were meant for fellow
-    ascetics, for people who devote their every effort to being
-    physically and mentally disassociated from the world we know
-    and to being physically and mentally joined to another, very
-    different world. It is a kind of accident that we can pick up a
-    copy of Isaac as we idle away hours in a local bookstore. I
-    doubt very much that Isaac ever foresaw this and I am uncertain
-    whether or not he would be pleased. But since this is our
-    present reality, it would seem appropriate for an introduction
-    to explain things which Isaac had no need to explain.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] So that
+    part of a larger one. Alfeyev’s introduction does not
+    attempt to stand outside the ascetic tradition in order, for
+    the reader’s benefit, to provide critical assessment of
+    Isaac’s writings. Alfeyev tells us <hi rend="italic">what</hi> Isaac
+    says, but not why and not how we should approach this foreign
+    world. Isaac himself makes no efforts in this direction, but
+    there is an evident reason for this. His books were meant for
+    fellow ascetics, for people who devote their every effort to
+    being physically and mentally disassociated from the world we
+    know and to being physically and mentally joined to another,
+    very different world. It is a kind of accident that we can pick
+    up a copy of Isaac as we idle away hours in a local bookstore.
+    I doubt very much that Isaac ever foresaw this and I am
+    uncertain whether or not he would be pleased. But since this is
+    our present reality, it would seem appropriate for an
+    introduction to explain things which Isaac had no need to
+    explain.</p>
+         <p>
+            <anchor corresp="P4"/>[4] So that
     my complaint not seem vacuous I shall briefly sketch a possible
     interpretative position that could help to form a bridge from
-    our world to Isaac�s. Take the analogy of a tightrope walker.
-    Thanks to years of training the tightrope walker is able,
-    slowly and carefully, to walk on a rope stretched high above
-    the earth. He regulates every movement, every breath, guards
-    every thought from distraction and fear. The slightest wrong
-    motion, which on the ground would have no negative effect at
-    all, may cause sudden death, while speedy correction of tiny
+    our world to Isaac’s. Take the analogy of a tightrope
+    walker. Thanks to years of training the tightrope walker is
+    able, slowly and carefully, to walk on a rope stretched high
+    above the earth. He regulates every movement, every breath,
+    guards every thought from distraction and fear. The slightest
+    wrong motion, which on the ground would have no negative effect
+    at all, may cause sudden death, while speedy correction of tiny
     mistakes brings strong feelings of relief, joy, and hope. So
     the tightrope walker, when on his or her rope, lives, one may
     say, in a different physical and psychological world than we
@@ -166,133 +194,141 @@
     think it may be appropriately termed, has its own dangers, its
     own laws, its own joys and fears. These are dictated largely by
     the kind of life it is (that is, complete concentration on the
-    exercise of one of the mind�s faculties, its �spiritual part�)
-    and how human psychology works. Isaac just assumes he is
-    talking to ascetics (tightrope walkers), and is telling them,
-    among other things, that if you see <hi rend="italic">x</hi> and <hi rend="italic">y</hi>, then
-    prepare yourself for <hi rend="italic">z</hi>. For example, �If you gain the
-    grace of God and are deemed worthy to revel in the divine
-    vision of God�s judgments � prepare yourself, yea, arm yourself
-    against the spirit of blasphemy� (Isaac I.4.33)<ref target="#FN1">1</ref>. This instruction
-    probably means little or nothing to most of us. We might even
-    think that if Isaac is right, it shows that his version of the
-    �spiritual life� is a kind of mental derangement. But we are
-    not living at this particular extreme, or likely at any
-    extreme; we do not know what is needed to remain alive and sane
-    at this extreme. If we would like to know, at least
+    exercise of one of the mind’s faculties, its
+    “spiritual part”) and how human psychology works.
+    Isaac just assumes he is talking to ascetics (tightrope
+    walkers), and is telling them, among other things, that if you
+    see <hi rend="italic">x</hi> and <hi rend="italic">y</hi>, then prepare yourself for <hi rend="italic">z</hi>.
+    For example, “If you gain the grace of God and are deemed
+    worthy to revel in the divine vision of God’s judgments
+    … prepare yourself, yea, arm yourself against the spirit
+    of blasphemy” (Isaac I.4.33)<ref target="#FN1">1</ref>. This instruction probably
+    means little or nothing to most of us. We might even think that
+    if Isaac is right, it shows that his version of the
+    “spiritual life” is a kind of mental derangement.
+    But we are not living at this particular extreme, or likely at
+    any extreme; we do not know what is needed to remain alive and
+    sane at this extreme. If we would like to know, at least
     vicariously, we should read Isaac, ever bearing in mind what he
     is and what we are.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In
-    general, Alfeyev does not try to explain Isaac�s views, but
-    there are at least three exceptions that I noticed. Isaac is
-    not a theological writer; he just assumes a particular
+         <p>
+            <anchor corresp="P5"/>[5] In
+    general, Alfeyev does not try to explain Isaac’s views,
+    but there are at least three exceptions that I noticed. Isaac
+    is not a theological writer; he just assumes a particular
     christological position, that of the Church of the East, and
     works within this framework, making few, if any, christological
     statements. But christology, even today, is the source of the
     divisions among the Eastern Churches and so Alfeyev tries to
-    situate and explain Isaac�s christological framework. This is
-    helpful. But one would have wished for further discussion. For
-    example, one might inquire whether or not the theological
-    viewpoint of the Church of the East had any influence on
-    Isaac�s ascetic views. I myself doubt that it did—apart from
-    recommending the reading of certain patristic authors rather
-    than others—, but if that is right, it seems to me to be a fact
-    that says something significant about the nature of Isaac�s
-    approach to the �spiritual� life.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Second,
-    Alfeyev gives a good treatment of what he calls �life in God,�
-    that is, Isaac�s various discussions of the highest �spiritual�
-    states (e.g. contemplation, wonder), which, for Isaac,
-    constitute the goal and achievement of ascetic life. Here
-    Alfeyev helpfully mentions the Evagrian tradition which Isaac
-    continues. In fact, it is clear the Alfeyev has thought a good
-    deal about this subject and I suspect the reader would wish to
-    have been made privy to more of his thoughts on this, because
-    what he says is insightful. Even so, I would like to question
-    one claim that Alfeyev makes in the course of his discussion of
-    �stillness of mind.� Here he asks, reasonably enough, �Is that
+    situate and explain Isaac’s christological framework.
+    This is helpful. But one would have wished for further
+    discussion. For example, one might inquire whether or not the
+    theological viewpoint of the Church of the East had any
+    influence on Isaac’s ascetic views. I myself doubt that
+    it did—apart from recommending the reading of certain
+    patristic authors rather than others—, but if that is
+    right, it seems to me to be a fact that says something
+    significant about the nature of Isaac’s approach to the
+    “spiritual” life.</p>
+         <p>
+            <anchor corresp="P6"/>[6] Second,
+    Alfeyev gives a good treatment of what he calls “life in
+    God,” that is, Isaac’s various discussions of the
+    highest “spiritual” states (e.g. contemplation,
+    wonder), which, for Isaac, constitute the goal and achievement
+    of ascetic life. Here Alfeyev helpfully mentions the Evagrian
+    tradition which Isaac continues. In fact, it is clear the
+    Alfeyev has thought a good deal about this subject and I
+    suspect the reader would wish to have been made privy to more
+    of his thoughts on this, because what he says is insightful.
+    Even so, I would like to question one claim that Alfeyev makes
+    in the course of his discussion of “stillness of
+    mind.” Here he asks, reasonably enough, “Is that
     complete cessation of intellectual activity which Isaac calls
-    �stillness of mind� a migration beyond the borders of personal
-    existence, a complete loss of personal self-awareness? No�
-    (220). On what basis does Alfeyev answer �no�? He goes on to
-    quote Isaac: �As soon as the governance and stewardship of the
-    Spirit rule the intellect... then a man�s nature is deprived of
-    its free will and is led by another guidance... and is not able
-    to direct the movements of the mind� (I.23.118; cited ibid.).
-    That someone is deprived of free will and cannot direct the
-    movements of his or her mind strongly suggests that there is a
-    significant loss of personal self-awareness. Perhaps this loss
-    is not �complete,� but it seems to be a loss of the most
-    important aspect of personhood, a cognitively directed will.
-    Alfeyev then claims rather dogmatically that �on the contrary,
-    in the stillness of mind there is an intense personal communion
-    between a human person and a personal God� (221). Isaac never
-    says such a thing, so we need an argument why this is entailed
-    by what Isaac does say. No such argument is provided. One might
-    argue, for example, that the christology of the Church of the
-    East, more than all other christologies, emphasizes the
-    survival of the human person when it is united with the Divine,
-    and so if Isaac were to some degree guided by this christology
-    when writing, it would be likely that he would deny that the
-    person is lost while under the influence of the Spirit. But
-    this argument would only demonstrate a likelihood and I suspect
-    that Isaac is guided here by personal experience rather than by
-    theological commitment. So what did Isaac think about this
-    oft-discussed question? I do not think there is an easy answer.
-    It is not even clear what Isaac would understand by the term
-    �person,� thanks, to be begin with, to the subtle East Syrian
-    distinctions between <hi rend="italic">parsopa</hi> and <hi rend="italic">qnoma</hi>.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Finally,
-    Alfeyev devotes the last chapter of his book to Isaac�s
-    startling claims about God�s justice (�do not call God just�
-    [I.51.250]), love, and the abolition of hell. This is the only
-    properly theological subject Isaac discusses and here, rather
-    uncharacteristically, he does so in the form of a protracted
-    argument. Alfeyev, following his method, lets Isaac speak for
-    himself, but he also goes at some length to explain Isaac�s
-    position, perhaps partly in an attempt to make it seem less
-    controversial. His treatment is good, but because Isaac
-    presents an argument, it seems to me that the reader should
-    have been presented more explicitly with the form of the
-    argument, that is, what the premises are, how they are
+    ‘stillness of mind’ a migration beyond the borders
+    of personal existence, a complete loss of personal
+    self-awareness? No” (220). On what basis does Alfeyev
+    answer “no”? He goes on to quote Isaac: “As
+    soon as the governance and stewardship of the Spirit rule the
+    intellect... then a man’s nature is deprived of its free
+    will and is led by another guidance... and is not able to
+    direct the movements of the mind” (I.23.118; cited
+    ibid.). That someone is deprived of free will and cannot direct
+    the movements of his or her mind strongly suggests that there
+    is a significant loss of personal self-awareness. Perhaps this
+    loss is not “complete,” but it seems to be a loss
+    of the most important aspect of personhood, a cognitively
+    directed will. Alfeyev then claims rather dogmatically that
+    “on the contrary, in the stillness of mind there is an
+    intense personal communion between a human person and a
+    personal God” (221). Isaac never says such a thing, so we
+    need an argument why this is entailed by what Isaac does say.
+    No such argument is provided. One might argue, for example,
+    that the christology of the Church of the East, more than all
+    other christologies, emphasizes the survival of the human
+    person when it is united with the Divine, and so if Isaac were
+    to some degree guided by this christology when writing, it
+    would be likely that he would deny that the person is lost
+    while under the influence of the Spirit. But this argument
+    would only demonstrate a likelihood and I suspect that Isaac is
+    guided here by personal experience rather than by theological
+    commitment. So what did Isaac think about this oft-discussed
+    question? I do not think there is an easy answer. It is not
+    even clear what Isaac would understand by the term
+    “person,” thanks, to be begin with, to the subtle
+    East Syrian distinctions between <hi rend="italic">parsopa</hi> and
+    <hi rend="italic">qnoma</hi>.</p>
+         <p>
+            <anchor corresp="P7"/>[7] Finally,
+    Alfeyev devotes the last chapter of his book to Isaac’s
+    startling claims about God’s justice (“do not call
+    God just” [I.51.250]), love, and the abolition of hell.
+    This is the only properly theological subject Isaac discusses
+    and here, rather uncharacteristically, he does so in the form
+    of a protracted argument. Alfeyev, following his method, lets
+    Isaac speak for himself, but he also goes at some length to
+    explain Isaac’s position, perhaps partly in an attempt to
+    make it seem less controversial. His treatment is good, but
+    because Isaac presents an argument, it seems to me that the
+    reader should have been presented more explicitly with the form
+    of the argument, that is, what the premises are, how they are
     plausible, and how they entail the conclusion. This is, after
     all, a very significant claim. Furthermore, the fact that Isaac
     resorts to rational argument is quite interesting. It is rather
     clear, I think, that Isaac is not being philosophical, he is
-    not, as Socrates says, �following the argument� (<hi rend="italic">Phaedo</hi>
-    107b7). Isaac has become convinced of the truth of his claim
-    not by argument but by some other means, but because the claim
-    is controversial, he sets out an argument for our sake, so that
-    <hi rend="italic">we</hi> might be persuaded. And persuaded we should be.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] In
+    not, as Socrates says, “following the argument”
+    (<hi rend="italic">Phaedo</hi> 107b7). Isaac has become convinced of the truth
+    of his claim not by argument but by some other means, but
+    because the claim is controversial, he sets out an argument for
+    our sake, so that <hi rend="italic">we</hi> might be persuaded. And persuaded
+    we should be.</p>
+         <p>
+            <anchor corresp="P8"/>[8] In
     connection to the discussion of hell (gehenna) I have one
     further complaint. Alfeyev says, I think incautiously, that
-    �gehenna is a sort of purgatory rather than hell� (290). I see
-    no reason for such a suggestion. To say that gehenna is a kind
-    of purgatory suggests precisely what Isaac wishes to deny
-    because it assumes that the suffering of the few that are
-    committed, however briefly, to gehenna makes them better,
-    cleanses them. As far as I can see Isaac never claims that
-    punishment is necessary for certain beings, or that suffering
-    is somehow a good, be it an intermediate good. What Isaac does
-    claim is that gehenna is a �matter of mercy� like the Kingdom
-    (II.39.172.22; quoted p.291.) and that it is part of God�s
-    eternal plan. Why this is the case Isaac does not claim to
-    know, but intimates only that perhaps it is a kind of pretext
-    for a further manifestation of God�s �immense grace that, like
-    an ocean, knows no measure� (II.40.177.13).</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] But
+    “gehenna is a sort of purgatory rather than hell”
+    (290). I see no reason for such a suggestion. To say that
+    gehenna is a kind of purgatory suggests precisely what Isaac
+    wishes to deny because it assumes that the suffering of the few
+    that are committed, however briefly, to gehenna makes them
+    better, cleanses them. As far as I can see Isaac never claims
+    that punishment is necessary for certain beings, or that
+    suffering is somehow a good, be it an intermediate good. What
+    Isaac does claim is that gehenna is a “matter of
+    mercy” like the Kingdom (II.39.172.22; quoted p.291.) and
+    that it is part of God’s eternal plan. Why this is the
+    case Isaac does not claim to know, but intimates only that
+    perhaps it is a kind of pretext for a further manifestation of
+    God’s “immense grace that, like an ocean, knows no
+    measure” (II.40.177.13).</p>
+         <p>
+            <anchor corresp="P9"/>[9] But
     putting aside the small complaints just elaborated, I think
-    that Alfeyev�s book is a good and useful introduction to
-    Isaac�s thought. We should wish that he will say more in
+    that Alfeyev’s book is a good and useful introduction to
+    Isaac’s thought. We should wish that he will say more in
     future.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV5N1PRMiller1">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> The references to Isaac's text in English
     translation are based on Alfeyev's scheme of reference, which
     has the volume number (the first translated by Dana R. Miller

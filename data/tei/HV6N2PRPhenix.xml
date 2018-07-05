@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>J.F. Coakley, Robinson's Paradigms and Exercises in Syriac Grammar 5th ed. Oxford University Press, 2002. vii + 181. Four Appendices. Syriac-English and English-Syriac glossaries. Cloth: ISBN 0-19-925409-5 $80.00 Paper: ISBN 0-19-926129-6 $35.00.</title>
+            <title type="main">J.F. Coakley, Robinson's Paradigms and Exercises in Syriac Grammar 5th ed. Oxford University Press, 2002. vii + 181. Four Appendices. Syriac-English and English-Syriac glossaries. Cloth: ISBN 0-19-925409-5 $80.00 Paper: ISBN 0-19-926129-6 $35.00.</title>
             <author>
-               <name>Robert R. PHENIX Jr.</name>
+               <name>
+                  <forename>Robert R.</forename>
+                  <surname>Phenix jr.</surname>
+               </name>
                <affiliation>
                   <orgName>The Institute for the Christians of the Orient</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n2prphenix</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Grammar</term>
+               <term>Robinson</term>
+               <term>Coakley</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,8 +87,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Among
+         <p>
+            <anchor corresp="P1"/>[1] Among
     Semitic languages, the pedagogy of Syriac, a dialect of
     Aramaic, suffers because its attested written artifacts fall
     well beyond the mainstream interests of students of the Ancient
@@ -85,8 +110,8 @@
     English workhorse of Syriac studies that has influenced
     subsequent publications. Yet the basic need of a sound
     introduction is still not addressed thereby.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Coakley
+         <p>
+            <anchor corresp="P2"/>[2] Coakley
     has made some positive and useful improvements to one of the
     better-known English manuals of Syriac language and has
     presented a solid piece of work commendable for its accuracy,
@@ -95,20 +120,20 @@
     errors in the English and the Syriac, demonstrating the care
     that Coakley took to present a readable and accurate
     textbook.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     preface touts this revision as a "simple and friendly
     introduction" to Syriac. Yet the author sees the limitations of
     Robinson's design. To supplement the gaps in Robinson, Coakley
-    advises the student to refer to Nöldeke's <hi rend="italic">Compendious Syriac
-    Grammar</hi>. While this is a theoretical possibility for
+    advises the student to refer to Nöldeke's <hi rend="italic">Compendious
+    Syriac Grammar</hi>. While this is a theoretical possibility for
     advanced students, it is not a pedagogically sound one for
     beginners. By analogy, an introduction to Biblical Hebrew
     structured in such a way that the student "fills in the gaps"
     with Gesenius or Joüon places this pedagogy in some
     perspective.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+         <p>
+            <anchor corresp="P4"/>[4]
     Coakley's edition follows Robinson's layout fairly closely with
     a few significant changes, some of which are improvements. The
     grammar is divided into twenty-nine sections. The first section
@@ -128,34 +153,36 @@
     SLA as spoken languages remains unknown. In all periods other
     dialects of Aramaic are attested in more restricted
     geographical distributions.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>
+            <anchor corresp="P5"/>[5]
     Following this introduction is a good presentation of
-    <hi rend="italic">sertā</hi>, the West Syriac script used in this book. Coakley
-    presents the letters in their various forms in a table and
-    usefully explains how to write each letter, illustrating his
-    remarks with easy to read handwritten examples. This is a
+    <hi rend="italic">sertā</hi>, the West Syriac script used in this book.
+    Coakley presents the letters in their various forms in a table
+    and usefully explains how to write each letter, illustrating
+    his remarks with easy to read handwritten examples. This is a
     helpful presentation of the writing system, although it should
     be supplemented by handwriting exercises. The section ends with
-    a discussion of the <hi rend="italic">syāmê</hi>, inaccurately translated as
-    "things placed," which would be in Syriac <hi rend="italic">sīmātā</hi>.
-    <hi rend="italic">Syāmê</hi> in this instance means 'symbols' and is an
-    elliptical expression for <hi rend="italic">syāmê dnūqzê</hi> 'symbols of
+    a discussion of the <hi rend="italic">syāmê</hi>, inaccurately
+    translated as "things placed," which would be in Syriac
+    <hi rend="italic">sīmātā</hi>. <hi rend="italic">Syāmê</hi> in this
+    instance means 'symbols' and is an elliptical expression for
+    <hi rend="italic">syāmê dnūqzê</hi> 'symbols of
     (grammatical) points.' Coakley includes two good transcription
     exercises at the end of this section and of section three, from
-    <hi rend="italic">sertā</hi> script into Latin transcription and vice-versa. He
-    provides the Latin consonant and vowel equivalents in two
-    tables. These are useful exercises as they reinforce the values
-    of the letters and provide some interaction with the "sounds"
-    of Syriac. Learning the relevant Latin transcription system is
-    also standard for most other grammars in Semitic languages.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+    <hi rend="italic">sertā</hi> script into Latin transcription and
+    vice-versa. He provides the Latin consonant and vowel
+    equivalents in two tables. These are useful exercises as they
+    reinforce the values of the letters and provide some
+    interaction with the "sounds" of Syriac. Learning the relevant
+    Latin transcription system is also standard for most other
+    grammars in Semitic languages.</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     vowels and vowel orthography are deferred to the end of section
     three, which treats pronunciation. Coakley uses the Western
-    vocalization throughout, but transcribes <hi rend="italic">zqāpā</hi> (West
-    Syriac /ō/) as /ā/, and also maintains the East Syriac
-    orthographic distinction between /o/ and /u/. This is an
+    vocalization throughout, but transcribes <hi rend="italic">zqāpā</hi>
+    (West Syriac /ō/) as /ā/, and also maintains the East
+    Syriac orthographic distinction between /o/ and /u/. This is an
     example of adopting a "mixed" phonology, for which there is
     precedent. (However, other features distinguishing between West
     and East Syriac are adopted without informing the student. For
@@ -168,8 +195,8 @@
     that the complete rules for spirantization of oral stops
     (so-called <hi rend="italic">begadkephat</hi> letters) have been moved to
     Appendix A.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
+         <p>
+            <anchor corresp="P7"/>[7] The
     presentation of the noun system in Coakley's revision is
     condensed and many details that Robinson included are omitted.
     For example, there is never any explicit explanation of the
@@ -179,8 +206,8 @@
     nouns with long vowels <hi rend="italic">-ī</hi> and <hi rend="italic">-ū</hi> in his
     presentation of the noun, as well as many footnotes with
     lexical and semantic details. Coakley omits most of these.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8]
+         <p>
+            <anchor corresp="P8"/>[8]
     Terminologically, this revision maintains the same grammatical
     terminology Robinson shares with nearly all introductions to
     Syriac. Such terminology is a hindrance. Comparative Semitics
@@ -200,15 +227,15 @@
     this form, which is really the Semitic bound form of nominals.
     An update of these terms would have forced a better and more
     logical presentation of the grammar to students.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] Coakley
+         <p>
+            <anchor corresp="P9"/>[9] Coakley
     does make improvements to the section on irregular nouns
     (section 12). Instead of Robinson's original table, which was
     hard to read, Coakley spreads out the presentation over a few
     pages, and in many cases gives a brief historical explanation
     of irregular forms. It is well laid-out and informative.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     Robinson's original sequence treated nouns, adjectives,
     prepositions and participles in sections three through thirteen
     before introducing any component of the verb. Coakley
@@ -230,8 +257,8 @@
     'write' because all three consonants are susceptible to
     spirantizat ion. And writing is more excellent than killing, as
     the Syriac Fathers and Mothers might say.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     Robinson's explanation of the semantics of Syriac verb
     morphology in terms of "Indo-European" (read: Greek and Latin)
     is erroneous. The terms "conjugation" and "tense" do not
@@ -242,8 +269,8 @@
     fundamental distinction of aspect. Even then, the fundamental
     tense category is "past" vs. "non-past," not "past" vs.
     "future" (p. 35).</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+         <p>
+            <anchor corresp="P12"/>[12] The
     lack of adequate discussion of the semantics of the verb system
     in the narrative structuring of Syriac prose is a deficiency.
     The verb forms in prose narrative comprise a system for
@@ -253,8 +280,8 @@
     properly. Leading a student through the basics of this
     subsystem of Syriac grammar would have been a great
     service.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] In
+         <p>
+            <anchor corresp="P13"/>[13] In
     the vocabularies pertaining to each section, Coakley presents
     the vowels of the <hi rend="italic">pe<hi rend="sup">c</hi>al</hi> perfect. Once the
     <hi rend="italic">pe<hi rend="sup">c</hi>al</hi> imperfect is introduced, he includes
@@ -265,8 +292,8 @@
     the imperfect vowels for all verbs occurring in the
     vocabularies before the imperfect is introduced in section 13
     (p. 60).</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
+         <p>
+            <anchor corresp="P14"/>[14] The
     vocabulary and exercises deserve some comments. First, Coakley
     kept the English-to-Syriac exercises alongside the
     Syriac-to-English. This is a strong point of Robinson's work.
@@ -277,8 +304,8 @@
     found in the Peshitta and in patristic sources. These are not
     full texts, but are separate sentences and are more
     entertaining and relevant than those in Robinson.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] Many
+         <p>
+            <anchor corresp="P15"/>[15] Many
     of the exercises in the fifth edition are new but the coverage
     of the grammar is not better than in earlier versions. It is
     still a shortcoming of Robinson and most other introductions to
@@ -290,14 +317,14 @@
     Coakley has commendably eliminated this glaring problem,
     consistent with the "friendly introduction" promised in the
     preface.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16]
+         <p>
+            <anchor corresp="P16"/>[16]
     Coakley includes four helpful appendices. Appendix A covers
     exceptions to the phonological rule that spirantizes oral stops
     in post-vocalic position and includes relevant orthographic
     rules. This is a holdover of material from earlier editions.
-    Appendix B covers the Estrangçlâ writing system. This includes
-    material on diacritic points used to distinguish
+    Appendix B covers the Estrangçlâ writing system.
+    This includes material on diacritic points used to distinguish
     orthographically identical forms in consonantal texts. Appendix
     C is an introduction to the East Syriac script and a helpful
     tabulation of the features of East Syriac pronunciation and
@@ -309,8 +336,8 @@
     system. These appendices are clearly written and most helpful.
     Finally, a great improvement is Coakley's inclusion of an
     English-Syriac glossary.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17]
+         <p>
+            <anchor corresp="P17"/>[17]
     There are still no Syriac textbooks providing students with a
     thorough and sound introduction to Syriac as a written idiom.
     Robinson's work lays out the basics of the morphology and a few
@@ -321,8 +348,8 @@
     description, there has been no substantial and systematic
     attempt to bring Syriac into the light of modern historical and
     comparative linguistics.</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] This
+         <p>
+            <anchor corresp="P18"/>[18] This
     is particularly true with respect to the semantics of syntax.
     Semitic languages encode narrative categories, such as topic,
     focus, main-line clause, background clause, and dialog using a
@@ -335,8 +362,8 @@
     Biblical Hebrew, where the importance of syntax and narrative
     marking has been recognized in recent English textbooks, Syriac
     lags far behind.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
+         <p>
+            <anchor corresp="P19"/>[19]
     Another problem is that introductions to Syriac neglect the
     Semitics student who would benefit from a better presentation
     of the comparative and historical grammar of Syriac. Coakley
@@ -346,8 +373,8 @@
     Akkadian</hi> is an example of a successful presentation of the
     historical and synchronic grammar of a Semitic language. Such
     an introduction would be desirable for Aramaic as well.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20] All
+         <p>
+            <anchor corresp="P20"/>[20] All
     in all, Coakley's contribution to Robinson has made many good
     improvements on a text that should appeal to a wide range of
     students of Early Christian studies and Semitics students who

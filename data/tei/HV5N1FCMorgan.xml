@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayer and Spirituality in the Early Church: A Conference Exploring the Development of Christianity in the Ancient World Centre for Early Christian Studies, Australian Catholic University July 10-13, 2002</title>
+            <title type="main">Prayer and Spirituality in the Early Church: A Conference Exploring the Development of Christianity in the Ancient World Centre for Early Christian Studies, Australian Catholic University July 10-13, 2002</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv5n1fcmorgan</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conference</term>
+               <term>Early Church</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,16 +86,16 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p style="text-align:center">[ <ref target="HV5N1FCMorgan.pdf">PDF
+         <p>[ <ref target="HV5N1FCMorgan.pdf">PDF
     Version</ref> ]</p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Centre for Early Christian Studies at Australian Catholic
     University is pleased to announce the third of its triennial
     "Prayer and Spirituality in the Early Church" conferences,
     scheduled for 10th-13th July, 2002.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] These
+         <p>
+            <anchor corresp="P2"/>[2] These
     conferences provide an exciting opportunity for engagement by
     both scholars and lay people with an important and fascinating
     period of history, exploring the rise and development of
@@ -85,23 +109,23 @@
     to scholars and students of spirituality, asceticism and
     monasticism; as well as to all who have even a general interest
     in this period of history and thought.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] This
+         <p>
+            <anchor corresp="P3"/>[3] This
     upcoming conference, entitled "Liturgy and Life", will also be
     the first of its series to host an "Inter-faith Seminar". This
     will examine the interaction and interrelationship between the
     faiths of Judaism, Christianity and Islam in the context of
     their earliest encounters.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] To find
+         <p>
+            <anchor corresp="P4"/>[4] To find
     out more about this exciting and important upcoming event,
     please go to the Centre for Early Christian Studies website,
     <ref target="http://www.acu.edu.au/Earlychr">http://www.acu.edu.au/Earlychr</ref>. Follow the links
     through "Conferences" and then click on the icon for "Liturgy
     and Life". Access to registration forms and all other
     information concerning the conference can be found there.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] For
+         <p>
+            <anchor corresp="P5"/>[5] For
     other information, please contact the conference convenors via
     e-mail or postage to the addresses below:<lb/>
     Prayer and Spirituality Conference Convenor<lb/>
@@ -115,7 +139,7 @@
     Telephone: + 61 3 9953 3141<lb/>
     Fax: + 61 3 9953 3765<lb/>
          </p>
-         <head> </head>
+         <head xml:id="HV5N1FCMorgan1"> </head>
          <!-- #EndEditable -->
       </body>
    </text>

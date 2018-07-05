@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aho Shemunkasho, Healing in the Theology of Saint Ephrem. Gorgias Dissertations, Near Eastern Studies 1. Piscataway, NJ: Gorgias Press, 2002. Pp. 480 + xxii. Paper, �$65.00.</title>
+            <title type="main">Aho Shemunkasho, Healing in the Theology of Saint Ephrem. Gorgias Dissertations, Near Eastern Studies 1. Piscataway, NJ: Gorgias Press, 2002. Pp. 480 + xxii. Paper,  $65.00.</title>
             <author>
-               <name>Ute POSSEKEL</name>
+               <name>
+                  <forename>Ute</forename>
+                  <surname>Possekel</surname>
+               </name>
                <affiliation>
                   <orgName>St. John's Seminary</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n1prpossekel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Ute POSSEKEL</author>
-                  <title level="a">Aho Shemunkasho, Healing in the Theology of Saint Ephrem. Gorgias Dissertations, Near Eastern Studies 1. Piscataway, NJ: Gorgias Press, 2002. Pp. 480 + xxii. Paper, �$65.00.</title>
+                  <title level="a">Aho Shemunkasho, Healing in the Theology of Saint Ephrem. Gorgias Dissertations, Near Eastern Studies 1. Piscataway, NJ: Gorgias Press, 2002. Pp. 480 + xxii. Paper,  $65.00.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Ephrem</term>
+               <term>Healing</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,22 +86,22 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Aho
+         <p>
+            <anchor corresp="P1"/>[1] Aho
     Shemunkasho's study on <hi rend="italic">Healing in the Theology of Saint
     Ephrem</hi> originated as a dissertation at Oxford University
     under the direction of S.P. Brock. Shemunkasho presents a
     comprehensive picture of Ephrem's theology of spiritual
     sickness and healing, a topic central to the Syrian's thought
     which has not yet been studied comprehensively.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] In the
+         <p>
+            <anchor corresp="P2"/>[2] In the
     Introduction (chapter 1), the author briefly surveys both
     ancient notions of healing and modern studies pertinent to that
     subject, addressing Hippocrates, Asclepius, and Galen, as well
     as biblical and early Christian texts.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The next
+         <p>
+            <anchor corresp="P3"/>[3] The next
     chapter studies healing imagery in three early Syriac texts
     that originated prior to Ephrem's writings, namely the <hi rend="italic">Odes
     of Solomon</hi>, the <hi rend="italic">Acts of Thomas</hi>, and Aphrahat's
@@ -96,8 +120,8 @@
     Aphrahat's healing terminology is unique among the texts
     considered in this study, as is his notion of repentance as a
     medicine for those wounded in the spiritual battle of life.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     third chapter, which examines in depth Ephrem's terminology, is
     subdivided into two sections which study the Syrian's
     vocabulary of sickness and of healing, respectively.
@@ -108,8 +132,8 @@
     important terms which occur only seldom in Ephrem's writings.
     This chapter also introduces the central aspects of Ephrem's
     healing theology.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     following chapter focuses on Ephrem's biblical exegesis,
     discussing passages from both the Old and New Testaments.
     Shemunkasho shows that according to Ephrem Adam and Eve were
@@ -135,8 +159,8 @@
     on the role of faith in the healing miracles, the role of
     Christ's divinity and humanity, the connection between physical
     and spiritual healing, and other themes.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Chapter
+         <p>
+            <anchor corresp="P6"/>[6] Chapter
     five, with over 160 pages the longest of the book, takes up
     elements of the prior chapters on Ephrem and presents
     systematically Ephrem's notion of salvation history as a
@@ -148,70 +172,70 @@
     Satan's agent, offered the "poison of death" which brought
     humankind into the "state of sickness." This comprises
     physical, spiritual, and mental disease, and for Ephrem also
-    error�especially in the form of heresy or idolatry�constitutes
-    a kind of sickness.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
+    error—especially in the form of heresy or
+    idolatry—constitutes a kind of sickness.</p>
+         <p>
+            <anchor corresp="P7"/>[7] The
     following section addresses how according to Ephrem healing was
     effected prior to the incarnation and shows the surprising
     variety of remedies available to humankind before the arrival
     of Christ, the "Medicine of Life." For instance, the fragrance
     of paradise spreads beyond its confines to the "earth of
-    thorns" and offers healing. Symbols of Christ, such as Moses�
-    brazen serpent, likewise can effect a cure. Patriarchs and
-    prophets could act as physicians for certain groups of people.
-    Finally, Shemunkasho shows that Ephrem argues that God's law
-    and commandments functioned as medicines for particular
-    spiritual ills.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+    thorns" and offers healing. Symbols of Christ, such as
+    Moses’ brazen serpent, likewise can effect a cure.
+    Patriarchs and prophets could act as physicians for certain
+    groups of people. Finally, Shemunkasho shows that Ephrem argues
+    that God's law and commandments functioned as medicines for
+    particular spiritual ills.</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     third section of chapter five focuses on Jesus as the "Medicine
     of Life," the only way to achieve a perfect cure. Shemunkasho
     discusses both physical and spiritual healing, and observes
     that according to Ephrem healing continues to be brought by
     Jesus' disciples, by bishops, and through the church's
     sacraments.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] In the
+         <p>
+            <anchor corresp="P9"/>[9] In the
     conclusion, Shemunkasho sums up his results and briefly
     compares Ephrem's healing terminology with that of the <hi rend="italic">Acts
     of Thomas</hi> and Aphrahat. A bibliography completes the
     work.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     Shemunkasho accomplishes extremely well what he set out to do:
     the reader here finds a comprehensive and insightful
     presentation of Ephrem's terminology and theology of spiritual
     sickness and healing. The author deliberately excludes any
-    comparative aspects from this dissertation—with the exception
-    of the three Syriac texts of chapter two—and hence he discusses
-    neither the relation between Ephrem's symbolism of healing and
-    that of the Greek and Latin fathers, where healing imagery
-    likewise abounds, nor the extent of Ephrem's influence upon
-    later Syriac healing symbolism. Throughout the book,
-    Shemunkasho frequently inserts the relevant Syriac expression
-    in parentheses into the running text; the footnotes often
-    contain the original Syriac text of cited passages. This
-    constant attention to terminology enhances his study, even if
-    it might cause difficulty for readers not familiar with Syriac.
-    The abundant Syriac passages are carefully typeset, but the
-    same can not be said about the Greek healing terminology
-    discussed in chapter one. Breathing marks and accents are
-    commonly omitted, and a number of typographical errors occur—a
-    regrettable but minor oversight in an otherwise carefully done
-    study.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+    comparative aspects from this dissertation—with the
+    exception of the three Syriac texts of chapter two—and
+    hence he discusses neither the relation between Ephrem's
+    symbolism of healing and that of the Greek and Latin fathers,
+    where healing imagery likewise abounds, nor the extent of
+    Ephrem's influence upon later Syriac healing symbolism.
+    Throughout the book, Shemunkasho frequently inserts the
+    relevant Syriac expression in parentheses into the running
+    text; the footnotes often contain the original Syriac text of
+    cited passages. This constant attention to terminology enhances
+    his study, even if it might cause difficulty for readers not
+    familiar with Syriac. The abundant Syriac passages are
+    carefully typeset, but the same can not be said about the Greek
+    healing terminology discussed in chapter one. Breathing marks
+    and accents are commonly omitted, and a number of typographical
+    errors occur—a regrettable but minor oversight in an
+    otherwise carefully done study.</p>
+         <p>
+            <anchor corresp="P11"/>[11]
     Shemunkasho makes a welcome contribution to scholarship on
     Ephrem by taking up a central yet little examined theme of the
     Syrian's theology. He succeeds in showing that Ephrem's healing
     theology is rooted in the Syrian's biblical exegesis. A second
     important result of Shemunkasho's book is that Ephrem's healing
-    theology—although the references occur scattered throughout the
-    Syrian's works—constitutes indeed a systematic whole. Healing
-    imagery permeates Ephrem's writings, and this reflects the
-    importance of this theme within Ephrem's theology of
-    salvation.</p>
+    theology—although the references occur scattered
+    throughout the Syrian's works—constitutes indeed a
+    systematic whole. Healing imagery permeates Ephrem's writings,
+    and this reflects the importance of this theme within Ephrem's
+    theology of salvation.</p>
          <!-- #EndEditable -->
       </body>
    </text>

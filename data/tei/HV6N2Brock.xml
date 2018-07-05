@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gabriel of Qatar's Commentary on the Liturgy</title>
+            <title type="main">Gabriel of Qatar's Commentary on the Liturgy</title>
             <author>
-               <name>Sebastian P. BROCK</name>
+               <name>
+                  <forename>Sebastian P.</forename>
+                  <surname>Brock</surname>
+               </name>
                <affiliation>
                   <orgName>University of Oxford</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv6n2brock</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Gabriel of Beth Qatraye</term>
+               <term>Commentary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +87,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <head>Abstract</head>
-         <p rend="abstract">The Commentary on the Liturgy by Gabriel of
+
+         <p>The Commentary on the Liturgy by Gabriel of
     Beth Qatraye (early seventh century) is preserved in a single
     thirteenth-century manuscript. A short introduction draws
     attention to the interest of the manuscript itself (as well as
@@ -75,25 +99,11 @@
     Liturgy (Memra V, chapter 2). At the end, the Syriac text of
     chapter 2 of Memra V is also given.</p>
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">The Unique Manuscript</ref>
-            </item>
-            <item>
-               <ref target="#S2">The Contents</ref>
-            </item>
-            <item>
-               <ref target="#S3">Translations</ref>
-            </item>
-            <item>
-               <ref target="#S4">Text</ref>
-            </item>
-         </list>
+
          <lb/>
-         <head xml:id="S1">The Unique Manuscript</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <head xml:id="HV6N2Brock3">The Unique Manuscript</head>
+         <p>
+            <anchor corresp="P1"/>[1] The
     unique witness to the important Commentary on the Liturgy by
     the early seventh-century author, Gabriel bar Lipeh of Qatar,
     is a thirteenth-century manuscript in the British Library, Or.
@@ -103,39 +113,40 @@
     Karshuni MSS. in the British Museum acquired since
     1873</hi>,<ref target="#FN1">1</ref> it was not until 1966 that it received any
     serious attention. In that year S.H. Jammo published a
-    useful�though still brief�description of its contents.<ref target="#FN2">2</ref> In the
-    course of his article Jammo made two important observations:
-    the date accorded to Gabriel of Qatar by A. Scher and A.
-    Baumstark (late seventh century) cannot be correct, since
-    Gabriel makes mention (f.109a) of Shubhalmaran, metropolitan of
-    Karka d-Beth Slokh as still alive; this means that Gabriel must
-    belong to the early decades of the seventh century. Jammo went
-    on to identify the author with the scribe of British Library
-    Add.14471, written at Nisibis by a Gabriel of Qatar and dated
-    615; this, however, seems unlikely, for reasons I have given
-    elsewhere.<ref target="#FN3">3</ref> This earlier date is particularly important,
-    since it means that Gabriel was writing before the liturgical
-    reforms of the Patriarch Isho<hi rend="sup">
+    useful—though still brief—description of its
+    contents.<ref target="#FN2">2</ref> In the course of his article Jammo made two
+    important observations: the date accorded to Gabriel of Qatar
+    by A. Scher and A. Baumstark (late seventh century) cannot be
+    correct, since Gabriel makes mention (f.109a) of Shubhalmaran,
+    metropolitan of Karka d-Beth Slokh as still alive; this means
+    that Gabriel must belong to the early decades of the seventh
+    century. Jammo went on to identify the author with the scribe
+    of British Library Add.14471, written at Nisibis by a Gabriel
+    of Qatar and dated 615; this, however, seems unlikely, for
+    reasons I have given elsewhere.<ref target="#FN3">3</ref> This earlier date is
+    particularly important, since it means that Gabriel was writing
+    before the liturgical reforms of the Patriarch
+    Isho<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>yahb III
-    (649-659). Jammo's second observation concerned the date of the
-    manuscript: this had been given as AG 1579 = AD 1268 by
-    Margoliouth, but as Jammo observes, the manuscript is damaged
-    at this point and most of the third digit is missing. Jammo
-    rightly points out that the date could equally be AG 1549 = AD
-    1238. Although this is correct, there is in fact a further
-    possibility: all that remains of the third digit is
-    [-]<hi rend="sup">
+            </hi>yahb III (649-659). Jammo's second
+    observation concerned the date of the manuscript: this had been
+    given as AG 1579 = AD 1268 by Margoliouth, but as Jammo
+    observes, the manuscript is damaged at this point and most of
+    the third digit is missing. Jammo rightly points out that the
+    date could equally be AG 1549 = AD 1238. Although this is
+    correct, there is in fact a further possibility: all that
+    remains of the third digit is [-]<hi rend="sup">
                <hi rend="italic">c</hi>
             </hi>
-            <hi rend="italic">yn</hi>, which means that the number
-    might have been <hi rend="italic">tesh<hi rend="sup">c</hi>in</hi> (90), as well as
+            <hi rend="italic">yn</hi>,
+    which means that the number might have been
+    <hi rend="italic">tesh<hi rend="sup">c</hi>in</hi> (90), as well as
     <hi rend="italic">shab<hi rend="sup">c</hi>in</hi> (70) or <hi rend="italic">arb<hi rend="sup">c</hi>in</hi>
     (40); in other words, the later date of AG 1599 = AD 1288. (The
     month is given as July, and the day as the last Friday of that
     month).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
+         <p>
+            <anchor corresp="P2"/>[2]
     Margoliouth gives no indication of where the manuscript was
     written, and Jammo simply states that the manuscript was
     written at the Monastery of Deba at the foot of Mount Kola.
@@ -176,31 +187,32 @@
     only that two further names (both otherwise unknown) were
     associated with the monastery, but also that it was still
     flourishing in the thirteenth century.</p>
-         <head xml:id="S2">The Contents</head>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The work
+         <head xml:id="HV6N2Brock4">The Contents</head>
+         <p>
+            <anchor corresp="P3"/>[3] The work
     consists of five Memre of uneven length, and each is divided up
     into chapters. In his article Jammo listed the topics covered
     by the five Memre, and for the fifth he mentioned the topics
     dealt with in each chapter. Subsequently, in the course of his
     useful monograph <hi rend="italic">La structure de la messe
-    chald�enne</hi>
-            <ref target="#FN8">8</ref> he provided a Latin translation of the chapter
-    in Memra 5 which constitutes a commentary on the Eucharistic
-    liturgy. An English translation of the same section, made by
-    Father Placid Podipara, was first published in India in 1974,
-    and then reprinted by Father G. Vavanikunnel, <hi rend="italic">Homilies</hi>
-    &amp; <hi rend="italic">Interpretation on the Holy Qurbana</hi>, in 1977. Since
-    a full listing of the chapter headings of each of the five
-    Memre has not yet been made available, an English translation
-    of these is given below. Similarly, since Podipara's English
-    translation is not easily accessible, I have also provided a
-    new English translation (deliberately rather literal and
-    without annotation) of this important section, as well as the
-    text of its Syriac original. For convenience of future
-    reference, I have broken the text up into short sections.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] In his
+    chaldéenne</hi>
+            <ref target="#FN8">8</ref> he provided a Latin translation of the
+    chapter in Memra 5 which constitutes a commentary on the
+    Eucharistic liturgy. An English translation of the same
+    section, made by Father Placid Podipara, was first published in
+    India in 1974, and then reprinted by Father G. Vavanikunnel,
+    <hi rend="italic">Homilies</hi> &amp; <hi rend="italic">Interpretation on the Holy
+    Qurbana</hi>, in 1977. Since a full listing of the chapter
+    headings of each of the five Memre has not yet been made
+    available, an English translation of these is given below.
+    Similarly, since Podipara's English translation is not easily
+    accessible, I have also provided a new English translation
+    (deliberately rather literal and without annotation) of this
+    important section, as well as the text of its Syriac original.
+    For convenience of future reference, I have broken the text up
+    into short sections.</p>
+         <p>
+            <anchor corresp="P4"/>[4] In his
     article of 1966 Jammo already pointed to certain aspects of
     particular interest in this part of the Commentary, and he
     makes some comparisons with some of the other East Syriac
@@ -223,8 +235,8 @@
     Dine,</hi>
             <ref target="#FN11">11</ref> does draw on him.<ref target="#FN12">12</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] There
+         <p>
+            <anchor corresp="P5"/>[5] There
     is, however, one other significant matter which should be
     mentioned. In the discussion of the attitude of the Church of
     the East towards figurative images and icons, attention has
@@ -241,19 +253,20 @@
             </hi>barnun, in Vatican
     Borg. Syr. 81. Question 10 (f.371b), concerns the case of a
     priest who, in an emergency, has to baptize his own child when
-    there is no one else apart from the mother—his wife—available
-    to "receive" the child (that is, act as godparent).
-    Isho<hi rend="sup">
+    there is no one else apart from the mother—his
+    wife—available to "receive" the child (that is, act as
+    godparent). Isho<hi rend="sup">
                <hi rend="italic">c</hi>
-            </hi>barnun's solution to this dilemma is to
-    say that the child should be placed on an icon instead, the
-    person portrayed thus acting as godparent. Specific reference
-    is made here to an "icon of our Lord" (<hi rend="italic">yuqneh d-Maran</hi>)
-    if the infant is a boy, and an "icon of the Blessed" (Mary), if
-    it is a girl. Later on in the questions there is a passing
-    reference to "icons of the saints" (Question 21, f.373b).</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+            </hi>barnun's solution to this
+    dilemma is to say that the child should be placed on an icon
+    instead, the person portrayed thus acting as godparent.
+    Specific reference is made here to an "icon of our Lord"
+    (<hi rend="italic">yuqneh d-Maran</hi>) if the infant is a boy, and an "icon of
+    the Blessed" (Mary), if it is a girl. Later on in the questions
+    there is a passing reference to "icons of the saints" (Question
+    21, f.373b).</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     remainder of Gabriel's Commentary remains largely unexploited,
     though Jammo has provided a description of his comments on
     Ramsha,<ref target="#FN14">14</ref> and I have given a translation of his section
@@ -277,11 +290,11 @@
     Syriac translation (probably by Sergius) of the Dionysian
     Corpus.<ref target="#FN17">17</ref> There are also references to Aristotle's
     Categories and to Pythagoras (ff.88b, 144a-b).</p>
-         <head xml:id="S3">Translations<ref target="#FN18">18</ref>
+         <head xml:id="HV6N2Brock5">Translations<ref target="#FN18">18</ref>
          </head>
-         <head xml:id="S3.1">Chapter Headings</head>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7]
+         <head xml:id="HV6N2Brock6">Chapter Headings</head>
+         <p>
+            <anchor corresp="P7"/>[7]
     <hi rend="bold">Memra 1</hi>: On the ordering of the Office of
     Ramsha on weekdays.<lb/>
          </p>
@@ -323,8 +336,8 @@
             <item>What is the reason for the sevenfold cycle (?) of the
       <hi rend="italic">shurraye</hi> on Sundays? [f.32a]</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8]
+         <p>
+            <anchor corresp="P8"/>[8]
     <hi rend="bold">Memra 2</hi>: On the ordering of the Office of
     Sapra on weekdays. List of chapters. [f.35a]</p>
          <list type="ordered">
@@ -369,8 +382,8 @@
       daytime, but at Compline four, and at Lilya nine? [f.89b]
       Admonition concerning this topic [f.100a]</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9]
+         <p>
+            <anchor corresp="P9"/>[9]
     <hi rend="bold">Memra 3</hi>: On the ordering of the Office of
     Ramsha and of the three Sessions that are served at Lilya of
     Sunday. List of chapters. [102a]</p>
@@ -389,8 +402,8 @@
       Session, and open the door of the sanctuary; and why do we
       say the <hi rend="italic">Qale d-Shahra</hi>? [f.115b]</item>
          </list>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     <hi rend="bold">Memra 4</hi>: On the ordering of the Office of
     Sapra on Sunday. List of chapters. [f.120b]</p>
          <list type="ordered">
@@ -426,8 +439,8 @@
       Martyrs, and not of the Apostles, in particular on Sunday;
       and why do the Solitaries say them every day? [f.176b]</item>
          </list>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+         <p>
+            <anchor corresp="P11"/>[11]
     <hi rend="bold">Memra 5</hi>: On the ordering of the Office of the
     Mysteries. List of chapters. [f.182b]</p>
          <list type="ordered">
@@ -453,12 +466,12 @@
             <item>An admonition concerning virtuous conduct, in accordance
       with the common aim of the whole book. [f.227b]</item>
          </list>
-         <head xml:id="S3.1">Memra 5, Chapter 2 (On the Eucharistic
+         <head xml:id="HV6N2Brock7">Memra 5, Chapter 2 (On the Eucharistic
     Liturgy)</head>
          <p>(Italics indicate passages taken up by Abraham bar
     Lipeh)</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+         <p>
+            <anchor corresp="P12"/>[12]
     [186b] What each of the components in the service of the
     Mysteries signifies to us.</p>
          <list type="ordered">
@@ -815,12 +828,12 @@
       of the person of our Lord who</hi>, [196a] when he handed down
       these Holy Mysteries to his disciples did not cut some of his
       own body to give them to eat, nor did he put some of his own
-      blood in a cup to give them to drink—this could not possibly
-      happen!; rather, he blessed bread and wine, broke and gave to
-      them saying, "This is my body and this is my blood; take, eat
-      and drink of it, all of you. And thus should you be doing
-      whenever you are gathered in remembrance of me". (cp Matt.
-      26:26-7 and par.; 1 Cor. 11:23-6)</item>
+      blood in a cup to give them to drink—this could not
+      possibly happen!; rather, he blessed bread and wine, broke
+      and gave to them saying, "This is my body and this is my
+      blood; take, eat and drink of it, all of you. And thus should
+      you be doing whenever you are gathered in remembrance of me".
+      (cp Matt. 26:26-7 and par.; 1 Cor. 11:23-6)</item>
             <item>The fact that he said "This is my body", and "This is my
       blood", and did not say "a type of my body and my blood", was
       so that the matter of the Holy Mysteries should not be
@@ -867,11 +880,11 @@
       resentment and enmity; just as our Lord himself [197b] said,
       "When you get up to pray, leave behind anything you have
       against anyone". (Mark 11:25) And in another place he said,
-      "Do you wash the interior—that is, the heart—from which issue
-      forth evil thoughts which make a person unclean". (cp Matt.
-      15:19-20) Just as the blessed David said, "I have washed my
-      hands in purity and have gone around your altar". (Ps.
-      26:5(6))</item>
+      "Do you wash the interior—that is, the heart—from
+      which issue forth evil thoughts which make a person unclean".
+      (cp Matt. 15:19-20) Just as the blessed David said, "I have
+      washed my hands in purity and have gone around your altar".
+      (Ps. 26:5(6))</item>
             <item>
                <hi rend="italic">The fact that when the priests go down from the Bema
       the deacons come out of the sanctuary and do obeisance to
@@ -944,10 +957,10 @@
       11:24) <hi rend="italic">After the priest's recital, blessing the bread and
       the wine, through the grace of the Holy Spirit which
       overshadows, they become henceforth the Body and Blood of
-      Christ�not by nature, but by faith and effectiveness. It is
-      not that Christ has two bodies, one in heaven and one on
-      earth; rather, [200a] just as a king and his statue/image do
-      not constitute two kings. Nor does the humanity which has
+      Christ—not by nature, but by faith and effectiveness.
+      It is not that Christ has two bodies, one in heaven and one
+      on earth; rather, [200a] just as a king and his statue/image
+      do not constitute two kings. Nor does the humanity which has
       been taken from us constitute two sons, but a single Son of
       God who has been united to the humanity that (comes) from us.
       Thus this Body along with that one in heaven constitute the
@@ -1146,16 +1159,16 @@
           the sense of the words of this proclamation also puts to
           shame the dogmas of the heretics who proclaim that this
           (sc. the <hi rend="italic">karozutha</hi>) is concerning (?) the
-          reception (of Communion)—about which they say that we are
-          saved by the death of God—with the result that they have
-          removed this proclamation from their churches, since they
-          cannot (bear to) hear what is said in it, (namely) that
-          for our sakes the Only Begotten God the Word took from
-          human beings a mortal body and a rational soul endowed
-          with intelligence, and immortal; and after the entire
-          dispensation on our behalf the Firstfruits of our nature
-          was tested on the cross, arose from the dead, and was
-          raised to heaven.</item>
+          reception (of Communion)—about which they say that
+          we are saved by the death of God—with the result
+          that they have removed this proclamation from their
+          churches, since they cannot (bear to) hear what is said
+          in it, (namely) that for our sakes the Only Begotten God
+          the Word took from human beings a mortal body and a
+          rational soul endowed with intelligence, and immortal;
+          and after the entire dispensation on our behalf the
+          Firstfruits of our nature was tested on the cross, arose
+          from the dead, and was raised to heaven.</item>
                </list>
             </item>
             <item>
@@ -1332,10 +1345,10 @@
       participation in which points to the participation we shall
       have with Christ in the world to come, then, at the very
       moment when we depict the type of that holy union, we are
-      returning to say a psalm from the Old Testament—which depicts
-      the type of this world: by doing so we indicate that we
-      concur with the infantile mentality of the Jews, and that of
-      the heretic Apollinarius who transmitted that, after the
+      returning to say a psalm from the Old Testament—which
+      depicts the type of this world: by doing so we indicate that
+      we concur with the infantile mentality of the Jews, and that
+      of the heretic Apollinarius who transmitted that, after the
       resurrection we would again be eating and drinking, and once
       again living in the way of life of the Old Testament. This is
       something that is absurd [211a] for us to accept, seeing that
@@ -1358,454 +1371,279 @@
       expansive and drawn-out nature of the universal Teacher's
       words.</item>
          </list>
-         <head xml:id="S4">Text</head>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
+         <head xml:id="HV6N2Brock8">Text</head>
+         <p>
+            <anchor corresp="P13"/>[13]
     Since the Syriac text of this important section of Gabriel's
     Commentary has not yet been published, I give it here.<ref target="#FN19">19</ref> In
     copying Gabriel's work the scribe of Or. 3336 has made a number
     of small errors, and these have been corrected in the text
     printed below, though in every case the manuscript's reading is
     given in the apparatus.</p>
-         <p rend="nn" html:align="right"> </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText01.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p> </p>
+         <p>
+            <graphic url="HV6N2BrockText01.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText02.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText02.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText03.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText03.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText04.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText04.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText05.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText05.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText06.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText06.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText07.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText07.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText08.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText08.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText09.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText09.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText10.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText10.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText11.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText11.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText12.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText12.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText13.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText13.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText14.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText14.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText15.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText15.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText16.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText16.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText17.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText17.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText18.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText18.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText19.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText19.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText20.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText20.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText21.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText21.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText22.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText22.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText23.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText23.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText24.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="698px"/>
+         <p>
+            <graphic url="HV6N2BrockText24.gif" rend="img" mimeType="image/gif" width="420px" height="698px"/>
          </p>
-         <p html:align="right">
-            <graphic url="HV6N2BrockText25.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="420px"
-                     height="678px"/>
+         <p>
+            <graphic url="HV6N2BrockText25.gif" rend="img" mimeType="image/gif" width="420px" height="678px"/>
             <lb/>
-            <graphic url="HV6N2BrockText26.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="422px"
-                     height="436px"/>
+            <graphic url="HV6N2BrockText26.gif" rend="img" mimeType="image/gif" width="422px" height="436px"/>
          </p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV6N2Brock9">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> (London, 1899), 15.<ref target="#FNRef1">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> "Gabriel Qatraya et son commentaire sur la liturgie
-    chald�enne"<hi rend="italic">Orientalia Christiana Periodica</hi> 32 (1966),
-    39-52. <ref target="#FNRef2">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+    chaldéenne"<hi rend="italic">Orientalia Christiana Periodica</hi> 32
+    (1966), 39-52. <ref target="#FNRef2">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> "Syriac writers from Beth Qatraye," <hi rend="italic">Aram</hi>
     11-12 (1999-2000), 85-96, esp. 89-92. <ref target="#FNRef3">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef4">4</ref> Ed. J.B. Chabot, <hi rend="italic">Le Livre de la Chastet� compos�
-    par Jesusdenah</hi> (Rome 1896). <ref target="#FNRef4">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+         <p>
+            <ref target="#FNRef4">4</ref> Ed. J.B. Chabot, <hi rend="italic">Le Livre de la Chasteté
+    composé par Jesusdenah</hi> (Rome 1896). <ref target="#FNRef4">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef5">5</ref> By �king� either Sasanid shah or Muslim Caliph
-    could be intended. <ref target="#FNRef5">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+         <p>
+            <ref target="#FNRef5">5</ref> By ‘king’ either Sasanid shah or Muslim
+    Caliph could be intended. <ref target="#FNRef5">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> Liber Castitatis, section 125. <ref target="#FNRef6">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> J-M.Fiey, <hi rend="italic">Nisibe</hi>, <hi rend="italic">metropole syriaque
     orientale</hi> (CSCO Subsidia 54; 1977), 219.<ref target="#FNRef7">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> 
             <hi rend="italic">Orientalia Christiana Analecta</hi> 207, 1979,
     29-48. <ref target="#FNRef8">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> R.H. Connolly, <hi rend="italic">Anonymi auctoris Expositio
     Officiorum Ecclesiae Georgio Arbelensi vulgo ascripta. Accedit
     Abrahae Bar Lipeh Interpretation Officiorum, II</hi> (CSCO
     Scr.Syri 29, 1913), 171-80. <ref target="#FNRef9">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> Reedited, with English translation, in my
     "An early Syriac Commentary on the Liturgy", <hi rend="italic">Journal of
     Theological Studies</hi> NS 37 (1986), 387-403. <ref target="#FNRef10">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef11">11</ref> Latin translation in J-M.Vost�, <hi rend="italic">Ordo
-    iudiciorum ecclesiasticorum ... a Mar Abdiso<hi rend="sup">
+         <p>
+            <ref target="#FNRef11">11</ref> Latin translation in J-M.Vosté,
+    <hi rend="italic">Ordo iudiciorum ecclesiasticorum ... a Mar
+    Abdiso<hi rend="sup">
                   <hi rend="italic">c</hi>
-               </hi>
-    metropolita Nisibis et Armeniae latine interpretatus</hi>
-    (Fonti, II.xv; Rome, 1940), 93-103. I hope to publish an
-    English translation of this section in the near future.
-    <ref target="#FNRef11">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               </hi> metropolita Nisibis et Armeniae
+    latine interpretatus</hi> (Fonti, II.xv; Rome, 1940), 93-103. I
+    hope to publish an English translation of this section in the
+    near future. <ref target="#FNRef11">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> As does Iohannan bar
     Zo<hi rend="sup">
                <hi rend="italic">c</hi>
             </hi>bi, according to Jammo, "Gabriel Qatraya
     et son commentaire," 45. <ref target="#FNRef12">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef13">13</ref> J. Dauvillier, "Quelques t�moignages
-    litt�raires et arch�ologiques sur la pr�sence et sur le culte
-    des Images dans l�Ancienne Eglise Chald�enne," <hi rend="italic">L�Orient
-    Syrien</hi> 1 (1956), 297-304, esp. 297; K. Parry, �Images in
-    the Church of the East�, in J.F. Coakley and K. Parry (eds.),
-    <hi rend="italic">The Church of the East:</hi> (= <hi rend="italic">Bulletin of the John
-    Rylands Library</hi> 78:3 (1996)), 143-62. <ref target="#FNRef13">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+         <p>
+            <ref target="#FNRef13">13</ref> J. Dauvillier, "Quelques témoignages
+    littéraires et archéologiques sur la
+    présence et sur le culte des Images dans
+    l’Ancienne Eglise Chaldéenne," <hi rend="italic">L’Orient
+    Syrien</hi> 1 (1956), 297-304, esp. 297; K. Parry, ‘Images
+    in the Church of the East’, in J.F. Coakley and K. Parry
+    (eds.), <hi rend="italic">The Church of the East:</hi> (= <hi rend="italic">Bulletin of the
+    John Rylands Library</hi> 78:3 (1996)), 143-62. <ref target="#FNRef13">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef14">14</ref> "L�Office du soir chald�en au temps de
-    Gabriel Qatraya," <hi rend="italic">L�Orient Syrien</hi> 12 (1967),
-    187-210.<ref target="#FNRef14">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+         <p>
+            <ref target="#FNRef14">14</ref> "L’Office du soir chaldéen au
+    temps de Gabriel Qatraya," <hi rend="italic">L’Orient Syrien</hi> 12
+    (1967), 187-210.<ref target="#FNRef14">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> An edition of the Syriac translation of this
     letter is in preparation. <ref target="#FNRef15">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> This is from <hi rend="italic">Kephalaia Gnostica</hi>
     IV.25. <ref target="#FNRef16">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef17">17</ref> Ed. P. Sherwood, �<hi rend="italic">Mimro</hi> de Serge de
-    Reshaina sur la vie spirituelle�, <hi rend="italic">L�Orient Syrien</hi> 5
-    (1960), 433-59; 6 (1961), 95-115, 121-56; sections 35-39 are
-    quoted (= <hi rend="italic">L�Orient Syrien</hi> 5, (1060), 456, and 6 (1961),
-    96). There is also a quotation attributed to Dionysius on
-    f.49ab. <ref target="#FNRef17">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+         <p>
+            <ref target="#FNRef17">17</ref> Ed. P. Sherwood, ‘<hi rend="italic">Mimro</hi> de
+    Serge de Reshaina sur la vie spirituelle’,
+    <hi rend="italic">L’Orient Syrien</hi> 5 (1960), 433-59; 6 (1961),
+    95-115, 121-56; sections 35-39 are quoted (= <hi rend="italic">L’Orient
+    Syrien</hi> 5, (1060), 456, and 6 (1961), 96). There is also a
+    quotation attributed to Dionysius on f.49ab. <ref target="#FNRef17">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> For the liturgical technical terms, see the
-    glossary in J. Mateos, <hi rend="italic">Lelya-Sapra: Essai d�interpr�tation
-    des matines chald�ennes</hi> (Orientalia Christiana Analecta
-    156, 1979), 485-502. <ref target="#FNRef18">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+    glossary in J. Mateos, <hi rend="italic">Lelya-Sapra: Essai
+    d’interprétation des matines
+    chaldéennes</hi> (Orientalia Christiana Analecta 156,
+    1979), 485-502. <ref target="#FNRef18">
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> I take the opportunity to thank Fr. Robert
     Matheus for kindly lending me a photographic copy of the
     manuscript. <ref target="#FNRef19">
-               <graphic url="../site/RetArrow.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="15px"
-                        height="15px"/>
+               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif" width="15px" height="15px"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p rend="biblio" xml:id="b1">Brock, S.P. "An early Syriac
+         <head xml:id="HV6N2Brock10">Bibliography</head>
+         <p>Brock, S.P. "An early Syriac
     Commentary on the Liturgy," <hi rend="italic">Journal of Theological
     Studies</hi> NS 37 (1986), 387-403.</p>
-         <p rend="biblio" xml:id="b2">— "Syriac writers from Beth Qatraye,"
-    <hi rend="italic">Aram</hi> 11-12 (1999-2000), 85-96.</p>
-         <p rend="biblio" xml:id="b3">Chabot, J.B. <hi rend="italic">Le Livre de la
-    Chastet� compos� par Jesusdenah</hi> (Rome, 1896).</p>
-         <p rend="biblio" xml:id="b4">Dauvillier, J. "Quelques t�moignages
-    litt�raires et arch�ologiques sur la pr�sence et sur le culte
-    des Images dans l'Ancienne Eglise Chald�enne," <hi rend="italic">L'Orient
-    Syrien</hi> 1 (1956), 297-304.</p>
-         <p rend="biblio" xml:id="b5">Fiey, J-M. <hi rend="italic">Nisibe, metropole
+         <p>— "Syriac writers from Beth
+    Qatraye," <hi rend="italic">Aram</hi> 11-12 (1999-2000), 85-96.</p>
+         <p>Chabot, J.B. <hi rend="italic">Le Livre de la
+    Chasteté composé par Jesusdenah</hi> (Rome,
+    1896).</p>
+         <p>Dauvillier, J. "Quelques
+    témoignages littéraires et archéologiques
+    sur la présence et sur le culte des Images dans
+    l'Ancienne Eglise Chaldéenne," <hi rend="italic">L'Orient Syrien</hi> 1
+    (1956), 297-304.</p>
+         <p>Fiey, J-M. <hi rend="italic">Nisibe, metropole
     syriaque orientale</hi> (CSCO Subsidia 54, 1977).</p>
-         <p rend="biblio" xml:id="b6">Jammo, S.H. "Gabriel Qatraya et son
-    commentaire sur la liturgie chald�enne," <hi rend="italic">Orientalia
+         <p>Jammo, S.H. "Gabriel Qatraya et son
+    commentaire sur la liturgie chaldéenne," <hi rend="italic">Orientalia
     Christiana Periodica</hi> 32 (1966), 39-52.</p>
-         <p rend="biblio" xml:id="b7">— <hi rend="italic">La structure de la messe
-    chald�enne</hi>, Orientalia Christiana Analecta 207, 1979.</p>
-         <p rend="biblio" xml:id="b8">— "L'Office du soir chald�en au temps
-    de Gabriel Qatraya," <hi rend="italic">L'Orient Syrien</hi> 12 (1967),
-    187-210.</p>
-         <p rend="biblio" xml:id="b9">Parry, K. "Images in the Church of
+         <p>— <hi rend="italic">La structure de la messe
+    chaldéenne</hi>, Orientalia Christiana Analecta 207,
+    1979.</p>
+         <p>— "L'Office du soir
+    chaldéen au temps de Gabriel Qatraya," <hi rend="italic">L'Orient
+    Syrien</hi> 12 (1967), 187-210.</p>
+         <p>Parry, K. "Images in the Church of
     the East," in J.F. Coakley and K. Parry (eds.), <hi rend="italic">The Church
     of the East:</hi> (= <hi rend="italic">Bulletin of the John Rylands Library</hi>
     78:3 (1996)), 143-62.</p>
-         <p rend="biblio" xml:id="b10">Margoliouth, G. <hi rend="italic">Descriptive List
+         <p>Margoliouth, G. <hi rend="italic">Descriptive List
     of Syriac and Karshuni MSS. in the British Museum Acquired
     Since 1873</hi>, (London: Longmans &amp; Co., 1899).</p>
-         <p rend="biblio" xml:id="b11">Mateos, J. <hi rend="italic">Lelya-Sapra: Essai
-    d'interpr�tation des matines chald�ennes</hi> (Orientalia
-    Christiana Analecta 156, 1979).</p>
-         <p rend="biblio" xml:id="b12">Sherwood, P. (ed.) "Mimro de Serge
+         <p>Mateos, J. <hi rend="italic">Lelya-Sapra: Essai
+    d'interprétation des matines chaldéennes</hi>
+    (Orientalia Christiana Analecta 156, 1979).</p>
+         <p>Sherwood, P. (ed.) "Mimro de Serge
     de Reshaina sur la vie spirituelle," <hi rend="italic">L'Orient Syrien</hi> 5
     (1960), 433-59; 6 (1961), 95-115, 121-56.</p>
-         <p rend="biblio" xml:id="b13">Vost�, J-M. <hi rend="italic">Ordo iudiciorum
-    ecclesiasticorum ... a Mar Abdiso<hi rend="sup">c</hi> metropolita
-    Nisibis et Armeniae latine interpretatus</hi> (Fonti, II.xv;
-    Rome, 1940).</p>
+         <p>Vosté, J-M. <hi rend="italic">Ordo
+    iudiciorum ecclesiasticorum ... a Mar Abdiso<hi rend="sup">c</hi>
+    metropolita Nisibis et Armeniae latine interpretatus</hi>
+    (Fonti, II.xv; Rome, 1940).</p>
          <!-- #EndEditable -->
       </body>
    </text>

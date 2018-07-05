@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Recent Books on Syriac Topics</title>
+            <title type="main">Recent Books on Syriac Topics</title>
             <author>
-               <name>Sebastian P. BROCK</name>
+               <name>
+                  <forename>Sebastian P.</forename>
+                  <surname>Brock</surname>
+               </name>
                <affiliation>
                   <orgName>University of Oxford</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv6n1prbrock</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Bibliography</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,327 +86,364 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
+         <p>
+            <anchor corresp="P1"/>[1] This
     listing continues on from previous listings in Hugoye <ref target="../Vol1No1/SyrBiblio9697.html">1998/1</ref>, <ref target="../Vol2No1/HV2N1PRBrock.html">1999/1</ref>, <ref target="../Vol3No1/HV3N1PRBrock.html">2000/1</ref>, <ref target="../Vol4No1/HV4N1PRBrock.html">2001/1</ref> and <ref target="../Vol5No1/HV5N1PRBrock.html">2002/1</ref>; as usual I have
     taken the opportunity to include here some items I had missed
     in the previous listings. It should be noted that reprints are
     not included (for a large selection of important reprints of
     Syriac interest, see <ref target="http://www.gorgiaspress.com/">Gorgias Press</ref>).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2]
+         <p>
+            <anchor corresp="P2"/>[2]
     <hi rend="bold">1997</hi>
          </p>
-         <p rend="biblio">Abdah, S.:�<hi rend="italic">The Syriac Christian
-    Community;� Historical and Contemporary Conditions</hi> (Delmar,
-    NY).</p>
-         <p rend="biblio">Kollamparambil, A.G.:� <hi rend="italic">The Life-Giving
-    Paschal Lamb (Great Week Celebrations in the East Syrian
-    Liturgy)</hi> (Catholic Theological Studies of India
-    2;�Changanassery:�HIRS Publications).</p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[2]
+         <p>Abdah, S.: <hi rend="italic">The Syriac Christian
+    Community;  Historical and Contemporary Conditions</hi>
+    (Delmar, NY).</p>
+         <p>Kollamparambil, A.G.:  <hi rend="italic">The
+    Life-Giving Paschal Lamb (Great Week Celebrations in the East
+    Syrian Liturgy)</hi> (Catholic Theological Studies of India
+    2; Changanassery: HIRS Publications).</p>
+         <p>
+            <anchor corresp="P1"/>[2]
     <hi rend="bold">1998</hi>
          </p>
-         <p rend="biblio">Koodapuzha, X.:� <hi rend="italic">Christianity in India</hi>
-    (OIRSI 200;� Kottayam).</p>
-         <p rend="biblio">Menachery, G.:� <hi rend="italic">The Nazranies</hi> (Indian
-    Church History Classics 1;�Trissur). [ISBN 81-87133-05-8].</p>
-         <p rend="biblio">Pathikulangara, V.:� <hi rend="italic">Mary Matha.� The
-    Divine Praises for the Feast Days of the Blessed Virgin Mary
-    according to the East Syriac or Chaldeo-Indian Liturgical
-    Heritage</hi> (Denha Services 49;� Kottayam).</p>
-         <p rend="biblio">Rose, S.:� <hi rend="italic">Church as Mystery (Raza) and
-    Communion (Shawtaputha) in the East Syriac Liturgical Year</hi>
-    (OIRSI 207;� Kottayam).</p>
-         <p rend="biblio">Tovey, P.: <hi rend="italic">The Liturgy of St James as
-    presently used</hi> (Alcuin Club;� Cambridge:� Grove Books).</p>
-         <p rend="biblio">Tovey, P.:� <hi rend="italic">Essays in West Syrian
+         <p>Koodapuzha, X.:  <hi rend="italic">Christianity in
+    India</hi> (OIRSI 200;  Kottayam).</p>
+         <p>Menachery, G.:  <hi rend="italic">The Nazranies</hi>
+    (Indian Church History Classics 1; Trissur). [ISBN
+    81-87133-05-8].</p>
+         <p>Pathikulangara, V.:  <hi rend="italic">Mary
+    Matha.  The Divine Praises for the Feast Days of the
+    Blessed Virgin Mary according to the East Syriac or
+    Chaldeo-Indian Liturgical Heritage</hi> (Denha Services
+    49;  Kottayam).</p>
+         <p>Rose, S.:  <hi rend="italic">Church as Mystery (Raza)
+    and Communion (Shawtaputha) in the East Syriac Liturgical
+    Year</hi> (OIRSI 207;  Kottayam).</p>
+         <p>Tovey, P.: <hi rend="italic">The Liturgy of St James as
+    presently used</hi> (Alcuin Club;  Cambridge:  Grove
+    Books).</p>
+         <p>Tovey, P.:  <hi rend="italic">Essays in West Syrian
     Liturgy</hi> (OIRSI 199; Kottayam).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     <hi rend="bold">1999</hi>
          </p>
-         <p rend="biblio">Kaniamparampil, C.:� <hi rend="italic">The Gospel of St
-    Matthew</hi> (Moran Etho Series 11;� Kottayam:�SEERI).�[Verse
-    rendering, vocalized serto].</p>
-         <p rend="biblio">Kaniamparampil, C.:� <hi rend="italic">Syriac in Six
-    Months</hi> (Moran Etho Series 14;� Kottayam:� SEERI).</p>
-         <p rend="biblio">Pathikulangara, V.:� <hi rend="italic">Passion Week and
-    Easter Sunday.�� The Divine Praises and other Liturgical
-    Services from Osana Sunday to the Sunday of the Resurrection in
-    the East Syriac or Chaldeo-Indian Liturgical Year</hi>
-    (Kottayam:� Denha).</p>
-         <p rend="biblio">Spinks, B.D.: <hi rend="italic">Mar Nestorius and Mar
+         <p>Kaniamparampil, C.:  <hi rend="italic">The Gospel of St
+    Matthew</hi> (Moran Etho Series 11; 
+    Kottayam: SEERI). [Verse rendering, vocalized
+    serto].</p>
+         <p>Kaniamparampil, C.:  <hi rend="italic">Syriac in Six
+    Months</hi> (Moran Etho Series 14;  Kottayam: 
+    SEERI).</p>
+         <p>Pathikulangara, V.:  <hi rend="italic">Passion Week and
+    Easter Sunday.   The Divine Praises and other
+    Liturgical Services from Osana Sunday to the Sunday of the
+    Resurrection in the East Syriac or Chaldeo-Indian Liturgical
+    Year</hi> (Kottayam:  Denha).</p>
+         <p>Spinks, B.D.: <hi rend="italic">Mar Nestorius and Mar
     Theodore the Interpreter: the Forgotten Eucharistic Prayers of
     East Syria</hi> (Grove Liturgical Studies 45; Cambridge).
     [Introduction and English tr.]</p>
-         <p rend="biblio">Varghese, B. (tr.):� <hi rend="italic">John of Dara.�
-    Commentary on the Eucharist</hi> (Moran Ethos Series
-    12;�Kottayam:� SEERI).</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+         <p>Varghese, B. (tr.):  <hi rend="italic">John of
+    Dara.  Commentary on the Eucharist</hi> (Moran Ethos Series
+    12; Kottayam:  SEERI).</p>
+         <p>
+            <anchor corresp="P4"/>[4]
     <hi rend="bold">2000</hi>
          </p>
-         <p rend="biblio">Appassery, G.:� <hi rend="italic">Raza.� Qurbana of
-    Nazrani</hi> (Delhi:� Syro-Malabar Catholic Association).</p>
-         <p rend="biblio">Egami, N. (tr. Fukuhara, Y.):� <hi rend="italic">The Mongol
-    Empire and Christendom</hi> (Tokyo: San Paolo) [ISBN
+         <p>Appassery, G.:  <hi rend="italic">Raza.  Qurbana
+    of Nazrani</hi> (Delhi:  Syro-Malabar Catholic
+    Association).</p>
+         <p>Egami, N. (tr. Fukuhara, Y.):  <hi rend="italic">The
+    Mongol Empire and Christendom</hi> (Tokyo: San Paolo) [ISBN
     4-8056-8604-9].</p>
-         <p rend="biblio">Klein, W.:� <hi rend="italic">Das nestorianische Christentum
-    an den Handelswegen durch Kyrgyzstan bis zum 14. Jh.</hi> (Silk
-    Road Studies 3;�� Turnhout).</p>
-         <p rend="biblio">Kochappilly, P.P.:� <hi rend="italic">The Folly of the
-    Cross.� Festschrift in honour of Prof. Dr. Varghese
-    Pathikulangara, CMI</hi> (Bangalore:� Dharmaram).� [Most
-    contributions have a Syriac interest].</p>
-         <p rend="biblio">Matheus, R.:� <hi rend="italic">The Order of the Third
-    Sanctification</hi> (OIRSI 240;� Kottayam).</p>
-         <p rend="biblio">Matheus, R. (ed.):� <hi rend="italic">A Commentary on the
-    Mass by the Nestorian George</hi> (OIRSI 243;� Kottayam).� [Ps.
-    George of Arbela, tr. R.H. Connolly].</p>
-         <p rend="biblio">Menachery, G. (ed.):� <hi rend="italic">Thomapedia.�The
-    Thomas Christian Encyclopedia of India, 2.</hi> Trissur). �[ISBN
-    81-87132-13-2].</p>
-         <p rend="biblio">Menachery, G. and Chakkalakkal, W.:�
+         <p>Klein, W.:  <hi rend="italic">Das nestorianische
+    Christentum an den Handelswegen durch Kyrgyzstan bis zum 14.
+    Jh.</hi> (Silk Road Studies 3;   Turnhout).</p>
+         <p>Kochappilly, P.P.:  <hi rend="italic">The Folly of the
+    Cross.  Festschrift in honour of Prof. Dr. Varghese
+    Pathikulangara, CMI</hi> (Bangalore:  Dharmaram). 
+    [Most contributions have a Syriac interest].</p>
+         <p>Matheus, R.:  <hi rend="italic">The Order of the Third
+    Sanctification</hi> (OIRSI 240;  Kottayam).</p>
+         <p>Matheus, R. (ed.):  <hi rend="italic">A Commentary on
+    the Mass by the Nestorian George</hi> (OIRSI 243; 
+    Kottayam).  [Ps. George of Arbela, tr. R.H. Connolly].</p>
+         <p>Menachery, G. (ed.): 
+    <hi rend="italic">Thomapedia. The Thomas Christian Encyclopedia of India,
+    2.</hi> Trissur).  [ISBN 81-87132-13-2].</p>
+         <p>Menachery, G. and Chakkalakkal, W.: 
     <hi rend="italic">Kodungallur</hi>, <hi rend="italic">the Cradle of Christianity in
-    India</hi>�(Kodungallur:� Mar Thoma Pontifical Shrine).</p>
-         <p rend="biblio">Mérigoux, J-M.: Va à Ninive! Un Dialogue avec
-    l'Irak. Mossoul et les villages chrétiens. Pages d'histoire
-    dominicaine (Paris: Cerf).</p>
-         <p rend="biblio">Naduvilezham, J.:� <hi rend="italic">The Theology of the
-    Paschal Lamb in Ephrem of Nisibis</hi> (OIRSI
-    239;�Kottayam).</p>
-         <p rend="biblio">Olickal, T.: <hi rend="italic">The Three Stages of Spiritual
+    India</hi> (Kodungallur:  Mar Thoma Pontifical
+    Shrine).</p>
+         <p>Mérigoux, J-M.: Va à Ninive! Un
+    Dialogue avec l'Irak. Mossoul et les villages chrétiens.
+    Pages d'histoire dominicaine (Paris: Cerf).</p>
+         <p>Naduvilezham, J.:  <hi rend="italic">The Theology of
+    the Paschal Lamb in Ephrem of Nisibis</hi> (OIRSI
+    239; Kottayam).</p>
+         <p>Olickal, T.: <hi rend="italic">The Three Stages of Spiritual
     Realization according to Joseph Hazzaya</hi> (Catholic
-    Theological Studies of India 4;� Changanassery:� HIRS
+    Theological Studies of India 4;  Changanassery:  HIRS
     Publications).</p>
-         <p rend="biblio">Pathikulangara, V.:�� <hi rend="italic">Commencement of the
-    Great Fast.� The Divine Praises and the Eucharistic Celebration
-    for Commencing the Great Fast in the East Syriac, or
-    Chaldeo-Indian Liturgical Heritage</hi> (Kottayam:� Denha).</p>
-         <p rend="biblio">Pathikulangara, V.:� <hi rend="italic">Divine Praises and
-    Liturgical Year.��Chaldeo-Indian Liturgy 4</hi> (Denha Services
-    61;� Kottayam).</p>
-         <p rend="biblio">Sinha, J.:� <hi rend="italic">Der neuostaram�ische Dialekt
-    von Bespan (Provinz Mardin, S�dostt�rkei). Ein Grammatische
-    Darstellung</hi> (Semitica Viva 24;� Wiesbaden:�
-    Harrassowitz).</p>
-         <p rend="biblio">Su-Min Ri, A.:� <hi rend="italic">Commentaire de la Caverne
-    des Tr�sors.� �tude sur l�histoire du texte et des sources</hi>
-    (CSCO 581, Subsidia 103;� Leuven:� Peeters).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5]
+         <p>Pathikulangara, V.:  
+    <hi rend="italic">Commencement of the Great Fast.  The Divine Praises and
+    the Eucharistic Celebration for Commencing the Great Fast in
+    the East Syriac, or Chaldeo-Indian Liturgical Heritage</hi>
+    (Kottayam:  Denha).</p>
+         <p>Pathikulangara, V.:  <hi rend="italic">Divine Praises
+    and Liturgical Year.  Chaldeo-Indian Liturgy 4</hi>
+    (Denha Services 61;  Kottayam).</p>
+         <p>Sinha, J.:  <hi rend="italic">Der neuostaramäische
+    Dialekt von Bespan (Provinz Mardin, Südosttürkei).
+    Ein Grammatische Darstellung</hi> (Semitica Viva 24; 
+    Wiesbaden:  Harrassowitz).</p>
+         <p>Su-Min Ri, A.:  <hi rend="italic">Commentaire de la
+    Caverne des Trésors.  Étude sur
+    l’histoire du texte et des sources</hi> (CSCO 581,
+    Subsidia 103;  Leuven:  Peeters).</p>
+         <p>
+            <anchor corresp="P5"/>[5]
     <hi rend="bold">2000-2002</hi>
          </p>
-         <p rend="biblio">Tabet, J.:� <hi rend="italic">Beth-Gazo Maronite.�
-    Add.14.703 (XIIe-XIIIe s.)</hi> (Publications de l�Institut de
-    Liturgie � l�Universit� Saint-Esprit Kaslik.� Collection
-    Sources Liturgiques�Maronites 1-3).�� [Introduction, Syriac
-    text, Arabic translation]</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6]
+         <p>Tabet, J.:  <hi rend="italic">Beth-Gazo Maronite. 
+    Add.14.703 (XIIe-XIIIe s.)</hi> (Publications de
+    l’Institut de Liturgie à l’Université
+    Saint-Esprit Kaslik.  Collection Sources
+    Liturgiques Maronites 1-3).   [Introduction,
+    Syriac text, Arabic translation]</p>
+         <p>
+            <anchor corresp="P6"/>[6]
     <hi rend="bold">2001</hi>
          </p>
-         <p rend="biblio">Blum, G.G. (ed. K. Pingg�ra):� �<hi rend="italic">In der
-    Wolke des Lichtes�.� Gesammelte Aufs�tze zu Spiritualit�t und
-    Mystik des Christlichen Ostens</hi> (Oikonomia 40;�
-    Erlangen).</p>
-         <p rend="biblio">Bremer, J.N. (ed.):� <hi rend="italic">The Apocryphal Acts
-    of Thomas</hi> (Louvain: Peeters).</p>
-         <p rend="biblio">Cassingena-Tr�vedy, F. (transl.) and Graffin,
-    F. (introd.), <hi rend="italic">Ephrem de Nisibe, Hymnes sur la Nativit�</hi>
-    (Sources chr�tiennes 459;� Paris:� du Cerf).</p>
-         <p rend="biblio">Chediath, G.:� <hi rend="italic">Mar Babai the Great.� Some
-    Useful Counsels on the Ascetical Life</hi> (Moran Etho 15;�
-    Kottayam:� SEERI).</p>
-         <p rend="biblio">Del Rio Sanchez, F.: �<hi rend="italic">Los cincos tratados
-    sobre la quietud (shelya) de Dadisho` Qatraya</hi> (Aula
-    Orientalis Suppl. 18;� Barcelona). <hi rend="italic">��</hi>
+         <p>Blum, G.G. (ed. K. Pinggéra): 
+    “<hi rend="italic">In der Wolke des Lichtes”.  Gesammelte
+    Aufsätze zu Spiritualität und Mystik des Christlichen
+    Ostens</hi> (Oikonomia 40;  Erlangen).</p>
+         <p>Bremer, J.N. (ed.):  <hi rend="italic">The Apocryphal
+    Acts of Thomas</hi> (Louvain: Peeters).</p>
+         <p>Cassingena-Trévedy, F. (transl.) and
+    Graffin, F. (introd.), <hi rend="italic">Ephrem de Nisibe, Hymnes sur la
+    Nativité</hi> (Sources chrétiennes 459; 
+    Paris:  du Cerf).</p>
+         <p>Chediath, G.:  <hi rend="italic">Mar Babai the
+    Great.  Some Useful Counsels on the Ascetical Life</hi>
+    (Moran Etho 15;  Kottayam:  SEERI).</p>
+         <p>Del Rio Sanchez, F.:  <hi rend="italic">Los cincos
+    tratados sobre la quietud (shelya) de Dadisho` Qatraya</hi>
+    (Aula Orientalis Suppl. 18;  Barcelona).
+    <hi rend="italic">  </hi>
          </p>
-         <p rend="biblio">Haelewyck, J-C.:� <hi rend="italic">Sancti Gregorii
-    Nazianzeni Opera.� Versio Syriaca, I.� Oration XL</hi> (CCSG 49
-    � Corpus Nazianzenum 14;� �Louvain:� Brepols).</p>
-         <p rend="biblio">Kizhakearanjaniyil, M.:� <hi rend="italic">East Syrian
-    Baptismal Theology.� A Judeo-Christian Synthesis</hi> (OIRSI
-    225;� Kottayam).</p>
-         <p rend="biblio">Koodapuzha, X., and Panicker, J. (eds.):�
-    <hi rend="italic">Joint International Commission for Dialogue between the
-    Catholic Church and the Malankara Orthodox Syrian Church.
-    Papers and Joint Statements 1989-2000</hi> (Kottayam).</p>
-         <p rend="biblio">Lang, U.M.:� <hi rend="italic">John Philoponus and the
-    Controversies over Chalcedon in the Sixth Century.� A study and
-    translation of the Arbiter</hi> (Spicilegium Sacrum Lovaniense,
-    Etudes et Documents 47;� Louvain:� Peeters).</p>
-         <p rend="biblio">Leonhard, C.:� <hi rend="italic">Ishodad of Merw�s Exegesis
-    of the Psalms 119 and 139-147</hi> (CSCO 585, Subsidia 107;�
-    Leuven:� Peeters).</p>
-         <p rend="biblio">Mathews, E.G.:� <hi rend="italic">The Armenian Commentary on
-    Exodus-Deuteronomy attributed to Ephrem the Syrian</hi> (CSCO
-    587-8, Scr. Armeni 25-6;� Louvain:� Peeters).</p>
-         <p rend="biblio">Mattam, Mar Abraham:� <hi rend="italic">Forgotten East.�
-    Mission, Liturgy and Spirituality of the Eastern Churches.� A
-    Study with Special Reference to the Church of St. Thomas
-    Christians</hi> (Satna:� Ephrem�s Publications).</p>
-         <p rend="biblio">Nedungatt, G. (ed.):� <hi rend="italic">The Synod of Diamper
-    Revisited</hi> (Kanonika 9;� Rome).</p>
-         <p rend="biblio">�nder, J.:� <hi rend="italic">Ktobo da-slawoto metba`yonyoto
-    wa-zmiroto `idtonyoto w-�umtonyoto ayk tekso d-`idto suryoyto
-    trisat shubho d-�Antyok/Gebete der kirchlichen Feiertage,
-    kirchliche und kulturelle Lieder</hi> (G�ppingen: �the author).�
-    [Syriac texts].</p>
-         <p rend="biblio">Paikatt, M.:� <hi rend="italic">Life, Glory and Salvation in
-    the Writings of Mar Aprem of Nisibis</hi> (OIRSI 245;�
-    Kottayam).</p>
-         <p rend="biblio">Palmer, M.:��<hi rend="italic">The Jesus Sutras:�
-    Rediscovering the Lost Scrolls of Taoist Christianity</hi> (New
-    York:� Ballantine Wellspring).��</p>
-         <p rend="biblio">Shedinger, R.F.: <hi rend="italic">Tatian and the Jewish
-    Scriptures.� A Textual and Philological Analysis of the Old
-    Testament Citations in Tatian�s Diatessaron</hi> (CSCO 591,
-    Subs. 108;�Louvain:� Peeters).</p>
-         <p rend="biblio">Tamcke, M. (ed.):� <hi rend="italic">Orientalische Christen
-    zwischen Repression und Migration</hi> (Studien zur
-    Orientalischen Kirchengeschichte 13;� M�nster:� LIT).</p>
-         <p rend="biblio">Thodathil, J.:� <hi rend="italic">Antiquity and Identity of
-    the Knanaya Community</hi> (Chingavam: Knanaya Clergy
-    Association).</p>
-         <p rend="biblio">Vallquist, G.:� <hi rend="italic">Isak Syriern. Landet d�r
-    tankarna funnit ro, urval, efterskrift och ��vers�ttning</hi>
-    (Silentium, 2;� Lund).</p>
-         <p rend="biblio">Vellian, J.:� <hi rend="italic">Knanite Community.� History
-    and Culture</hi> (Syrian Churches Series 17; Kottayam).</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7]
+         <p>Haelewyck, J-C.:  <hi rend="italic">Sancti Gregorii
+    Nazianzeni Opera.  Versio Syriaca, I.  Oration XL</hi>
+    (CCSG 49 – Corpus Nazianzenum 14; 
+     Louvain:  Brepols).</p>
+         <p>Kizhakearanjaniyil, M.:  <hi rend="italic">East Syrian
+    Baptismal Theology.  A Judeo-Christian Synthesis</hi>
+    (OIRSI 225;  Kottayam).</p>
+         <p>Koodapuzha, X., and Panicker, J.
+    (eds.):  <hi rend="italic">Joint International Commission for Dialogue
+    between the Catholic Church and the Malankara Orthodox Syrian
+    Church. Papers and Joint Statements 1989-2000</hi>
+    (Kottayam).</p>
+         <p>Lang, U.M.:  <hi rend="italic">John Philoponus and the
+    Controversies over Chalcedon in the Sixth Century.  A
+    study and translation of the Arbiter</hi> (Spicilegium Sacrum
+    Lovaniense, Etudes et Documents 47;  Louvain: 
+    Peeters).</p>
+         <p>Leonhard, C.:  <hi rend="italic">Ishodad of
+    Merw’s Exegesis of the Psalms 119 and 139-147</hi> (CSCO
+    585, Subsidia 107;  Leuven:  Peeters).</p>
+         <p>Mathews, E.G.:  <hi rend="italic">The Armenian
+    Commentary on Exodus-Deuteronomy attributed to Ephrem the
+    Syrian</hi> (CSCO 587-8, Scr. Armeni 25-6;  Louvain: 
+    Peeters).</p>
+         <p>Mattam, Mar Abraham:  <hi rend="italic">Forgotten
+    East.  Mission, Liturgy and Spirituality of the Eastern
+    Churches.  A Study with Special Reference to the Church of
+    St. Thomas Christians</hi> (Satna:  Ephrem’s
+    Publications).</p>
+         <p>Nedungatt, G. (ed.):  <hi rend="italic">The Synod of
+    Diamper Revisited</hi> (Kanonika 9;  Rome).</p>
+         <p>Önder, J.:  <hi rend="italic">Ktobo da-slawoto
+    metba`yonyoto wa-zmiroto `idtonyoto w-‘umtonyoto ayk
+    tekso d-`idto suryoyto trisat shubho d-‘Antyok/Gebete der
+    kirchlichen Feiertage, kirchliche und kulturelle Lieder</hi>
+    (Göppingen:  the author).  [Syriac texts].</p>
+         <p>Paikatt, M.:  <hi rend="italic">Life, Glory and
+    Salvation in the Writings of Mar Aprem of Nisibis</hi> (OIRSI
+    245;  Kottayam).</p>
+         <p>Palmer, M.:  <hi rend="italic">The Jesus
+    Sutras:  Rediscovering the Lost Scrolls of Taoist
+    Christianity</hi> (New York:  Ballantine
+    Wellspring).  </p>
+         <p>Shedinger, R.F.: <hi rend="italic">Tatian and the Jewish
+    Scriptures.  A Textual and Philological Analysis of the
+    Old Testament Citations in Tatian’s Diatessaron</hi> (CSCO
+    591, Subs. 108; Louvain:  Peeters).</p>
+         <p>Tamcke, M. (ed.):  <hi rend="italic">Orientalische
+    Christen zwischen Repression und Migration</hi> (Studien zur
+    Orientalischen Kirchengeschichte 13;  Münster: 
+    LIT).</p>
+         <p>Thodathil, J.:  <hi rend="italic">Antiquity and
+    Identity of the Knanaya Community</hi> (Chingavam: Knanaya
+    Clergy Association).</p>
+         <p>Vallquist, G.:  <hi rend="italic">Isak Syriern. Landet
+    där tankarna funnit ro, urval, efterskrift och
+     översättning</hi> (Silentium, 2; 
+    Lund).</p>
+         <p>Vellian, J.:  <hi rend="italic">Knanite
+    Community.  History and Culture</hi> (Syrian Churches
+    Series 17; Kottayam).</p>
+         <p>
+            <anchor corresp="P7"/>[7]
     <hi rend="bold">2002</hi>
          </p>
-         <p rend="biblio">—:� <hi rend="italic">Textes syriaques:� Dieu Mis�ricorde,
-    Dieu Amour:� Patrimoine Syriaque, Colloque VIII</hi> (Antelias:�
-    Centre d��tudes et de recherches orientales).�� [Selection of
-    short Syriac� texts, with English, French and Arabic
+         <p>—:  <hi rend="italic">Textes syriaques: 
+    Dieu Miséricorde, Dieu Amour:  Patrimoine Syriaque,
+    Colloque VIII</hi> (Antelias:  Centre d’études
+    et de recherches orientales).   [Selection of short
+    Syriac  texts, with English, French and Arabic
     translations].</p>
-         <p rend="biblio">Abdmshiho Na`man d-Qarabash (tr. G. Toro and
-    Amill Gorgis):� <hi rend="italic">Vergossenes Blut</hi> (Glane/Losser:�
-    Barhebraeus Verlag).</p>
-         <p rend="biblio">Aland, B. and Juckel, A.:� <hi rend="italic">Das Neue
-    Testament in syrische �berlieferung, II.� Die Paulinischen
-    Briefe.� Teil 3:� 1./2. Thessalonicherbrief, 1./2/
-    Timotheusbrief, Titusbrief, Philemonbrief und Hebr�erbrief</hi>
-    (Arbeiten zur neutestamentlichen Textforschung 32;�
-    Berlin).</p>
-         <p rend="biblio">Arnold, W. and Bobzin, H. (eds):� �<hi rend="italic">Sprich
-    doch mit deinen Knechten aram�isch, wir verstehen es!�� 60
-    Beitr�ge zur Semitistik.� Festschrift f�r Otto Jastrow zum 60.
-    �Geburtstag</hi> (Wiesbaden:� Harrassowitz).�� [With several
-    contributions on Modern Syriac].</p>
-         <p rend="biblio">Brakke, D.:� <hi rend="italic">Pseudo-Athanasius, On
-    Virginity</hi> (CSCO 592-3,� Scr. Syri 232-3;� Louvain:�
-    Peeters).</p>
-         <p rend="biblio">Brock, S.P. (tr. Awgen Aydin):� <hi rend="italic">Ktobo
-    qadisho lfuth mashlmonutho suryoyto</hi> (Piscataway NJ:�
-    Gorgias Press).� [Syriac tr. of �<hi rend="italic">The Bible in the Syriac
-    Tradition</hi> (Kottayam: SEERI, 1989), incorporating some
-    revisions and updatings].</p>
-         <p rend="biblio">Chehwan, A. and Kassis, A.(eds):� <hi rend="italic">Etudes
-    Bibliques et Proche-Orient ancien.� M�langes offerts au P�re
-    Paul F�ghali</hi> (F�deration Biblique, Subsidia 1;�
-    Dekouaneh/Jounieh).� [Includes a section �Etudes syriaques�,
-    with 8 contributions].</p>
-         <p rend="biblio">Chial�, S.:� <hi rend="italic">Dall�ascesi eremitica alla
-    misericordia infinita.�� Ricerche su Isacco di Ninive e la sua
-    fortuna</hi> (Biblioteca della Rivista di Storia e Letteratura
-    Religiosa, Studi, 14;� Firenze:� Olschki).</p>
-         <p rend="biblio">De Francesco, I.:� <hi rend="italic">Efrem il Siro.� La gioa
-    della mensa, Memre sulla benedizione della mensa</hi> (Monastero
-    di Bose:� Qiqajon).</p>
-         <p rend="biblio">den Biesen, K.:� <hi rend="italic">Bibliography of Ephrem
-    the Syrian</hi> (Giove in Umbria:� the author
+         <p>Abdmshiho Na`man d-Qarabash (tr. G. Toro and
+    Amill Gorgis):  <hi rend="italic">Vergossenes Blut</hi>
+    (Glane/Losser:  Barhebraeus Verlag).</p>
+         <p>Aland, B. and Juckel, A.:  <hi rend="italic">Das Neue
+    Testament in syrische Überlieferung, II.  Die
+    Paulinischen Briefe.  Teil 3:  1./2.
+    Thessalonicherbrief, 1./2/ Timotheusbrief, Titusbrief,
+    Philemonbrief und Hebräerbrief</hi> (Arbeiten zur
+    neutestamentlichen Textforschung 32;  Berlin).</p>
+         <p>Arnold, W. and Bobzin, H. (eds): 
+    “<hi rend="italic">Sprich doch mit deinen Knechten aramäisch, wir
+    verstehen es!”  60 Beiträge zur
+    Semitistik.  Festschrift für Otto Jastrow zum 60.
+     Geburtstag</hi> (Wiesbaden: 
+    Harrassowitz).   [With several contributions on
+    Modern Syriac].</p>
+         <p>Brakke, D.:  <hi rend="italic">Pseudo-Athanasius, On
+    Virginity</hi> (CSCO 592-3,  Scr. Syri 232-3; 
+    Louvain:  Peeters).</p>
+         <p>Brock, S.P. (tr. Awgen Aydin):  <hi rend="italic">Ktobo
+    qadisho lfuth mashlmonutho suryoyto</hi> (Piscataway NJ: 
+    Gorgias Press).  [Syriac tr. of  <hi rend="italic">The Bible in the
+    Syriac Tradition</hi> (Kottayam: SEERI, 1989), incorporating
+    some revisions and updatings].</p>
+         <p>Chehwan, A. and Kassis, A.(eds): 
+    <hi rend="italic">Etudes Bibliques et Proche-Orient ancien. 
+    Mélanges offerts au Père Paul Féghali</hi>
+    (Féderation Biblique, Subsidia 1; 
+    Dekouaneh/Jounieh).  [Includes a section “Etudes
+    syriaques”, with 8 contributions].</p>
+         <p>Chialà, S.:  <hi rend="italic">Dall’ascesi
+    eremitica alla misericordia infinita.   Ricerche su
+    Isacco di Ninive e la sua fortuna</hi> (Biblioteca della Rivista
+    di Storia e Letteratura Religiosa, Studi, 14; 
+    Firenze:  Olschki).</p>
+         <p>De Francesco, I.:  <hi rend="italic">Efrem il
+    Siro.  La gioa della mensa, Memre sulla benedizione della
+    mensa</hi> (Monastero di Bose:  Qiqajon).</p>
+         <p>den Biesen, K.:  <hi rend="italic">Bibliography of
+    Ephrem the Syrian</hi> (Giove in Umbria:  the author
     [ephrem_bibliography@hotmail.com]).</p>
-         <p rend="biblio">Esen, Ishaq bar Mushe (scribe):� <hi rend="italic">Tloto
-    ktobe `idtonoye:� qadmoyo, ktobo da-slawoto d-shabto shhimto
-    d-metkane Shhimo;� trayono, ktobo d-`upoyo d-`anide b-leshono
-    suryoyo w-`araboyo;� tlitoyo, ktobo da-slawoto w-bo`awoto
-    da-tyobuto d-metamron b-`edon tahro d-kul yawmay shabu`o</hi>
-    �([G�tersloh]:� the author).</p>
-         <p rend="biblio">Fereira, J.:� <hi rend="italic">The Hymn of the Pearl.� The
-    Syriac and Greek Texts with an Introduction</hi> (Early
-    Christian Texts 3;� Sydney:� St Pauls Publications).</p>
-         <p rend="biblio">Greenberg, G.:� <hi rend="italic">Translation Technique in
-    the Peshitta to Jeremiah</hi> (Monographs of the�Peshitta
-    Institute Leiden, 13;� Leiden:� Brill).</p>
-         <p rend="biblio">Jullien, C. and F.:� <hi rend="italic">Ap�tres des Confins.�
-    Processus missionnaires chr�tiens dans l�empire iranien</hi>
-    (Res Orientales XV;� Bures-sur-Yvette/Leuven: Peeters).</p>
-         <p rend="biblio">Kanjiramukalil, S.:� <hi rend="italic">Ecclesial Identity of
-    the Malankara Catholic Church</hi> (OIRSI 261;
+         <p>Esen, Ishaq bar Mushe (scribe): 
+    <hi rend="italic">Tloto ktobe `idtonoye:  qadmoyo, ktobo da-slawoto
+    d-shabto shhimto d-metkane Shhimo;  trayono, ktobo
+    d-`upoyo d-`anide b-leshono suryoyo w-`araboyo;  tlitoyo,
+    ktobo da-slawoto w-bo`awoto da-tyobuto d-metamron b-`edon tahro
+    d-kul yawmay shabu`o</hi>  ([Gütersloh]:  the
+    author).</p>
+         <p>Fereira, J.:  <hi rend="italic">The Hymn of the
+    Pearl.  The Syriac and Greek Texts with an
+    Introduction</hi> (Early Christian Texts 3;  Sydney: 
+    St Pauls Publications).</p>
+         <p>Greenberg, G.:  <hi rend="italic">Translation Technique
+    in the Peshitta to Jeremiah</hi> (Monographs of
+    the Peshitta Institute Leiden, 13;  Leiden: 
+    Brill).</p>
+         <p>Jullien, C. and F.:  <hi rend="italic">Apôtres
+    des Confins.  Processus missionnaires chrétiens
+    dans l’empire iranien</hi> (Res Orientales XV; 
+    Bures-sur-Yvette/Leuven: Peeters).</p>
+         <p>Kanjiramukalil, S.:  <hi rend="italic">Ecclesial
+    Identity of the Malankara Catholic Church</hi> (OIRSI 261;
     Kottayam).<lb/>
          </p>
-         <p rend="biblio">Khan, G.:�� <hi rend="italic">The Neo-Aramaic Dialect of
-    Qaraqosh</hi> (Studies in Semitic Languages and Linguistics 36;�
-    Leiden:� Brill).</p>
-         <p rend="biblio">Madey, J.:� <hi rend="italic">The Hierarchy of the Churches
-    of East and West Syriac Traditions</hi> (Moran Etho Series 17;�
-    Kottayam:� SEERI).</p>
-         <p rend="biblio">Mengozzi, A.:� <hi rend="italic">Israel of Alqosh and Joseph
-    of Telkepe.� A Story in a Truthful Language.�Religious Poems in
-    Vernacular Syriac (North Iraq, 17<hi rend="sup">th</hi> Century)</hi>
-    (CSCO 589-90, Scr. Syri 230-1;� Louvain:� Peeters).</p>
-         <p rend="biblio">Puthur, B. (ed.):� <hi rend="italic">The Life and Nature of
-    the St Thomas Christian Church in the Pre-Diamper Period</hi>
-    (Cochi, Kerala).</p>
-         <p rend="biblio">Salim, A.J.:� <hi rend="italic">Captivated by Your
-    Teachings:� a Resource Book for Adult Maronite Catholics</hi>
-    (Tucson AZ:� E.T. Nedder).</p>
-         <p rend="biblio">Schmidt, A.B.:� <hi rend="italic">Sancti Gregorii Nazianzeni
-    Opera.� Versio Syriaca II, Orationes XIII, XLI</hi> (Corpus
-    Christianorum, Series Graeca 47 = Corpus Nazianzenum 15;
-    Turnhout).</p>
-         <p rend="biblio">Seleznyov, N.:� <hi rend="italic">Khristologiya Assirijskoj
-    Cerkvi Vostoka</hi> (Moscow: Euroasiatica). ["The Christology of
-    the Assyrian Church of the East", with English summary].</p>
-         <p rend="biblio">Selb, W. (+) and Kaufhold, H.:� <hi rend="italic">Das
-    syrisch-r�mische Rechtsbuch, I. Einleitung;� II. Texte � und
-    �bersetzungen;� III.� Kommentar</hi> (�sterreichische Akademie
-    der Wissenschaften, phil.-hist. Kl. Denkschriften, 295. Band =
-    Ver�ffentlichen der Kommision f�r Antike Rechtsgeschichte 9;�
-    Wien).</p>
-         <p rend="biblio">Sepp�l�, Serafim:� <hi rend="italic">Kerubin Silmin</hi>
-    (Helsinki:� Suomen It�mainen Seura).� [�Through the eyes of the
-    Cherub�:� a history of �Syriac asceticism, with anthology, in
-    Finnish; ISBN 951 9380 531].</p>
-         <p rend="biblio">Sepp�l�, Serafim: <hi rend="italic">"In Speechless Ecstasy".
-    Expression and Interpretation of Mystical Experience in
-    Classical Syriac and Sufi Literature</hi> (Publications of the
-    Institute for Asian and African Studies, 2;
+         <p>Khan, G.:   <hi rend="italic">The Neo-Aramaic
+    Dialect of Qaraqosh</hi> (Studies in Semitic Languages and
+    Linguistics 36;  Leiden:  Brill).</p>
+         <p>Madey, J.:  <hi rend="italic">The Hierarchy of the
+    Churches of East and West Syriac Traditions</hi> (Moran Etho
+    Series 17;  Kottayam:  SEERI).</p>
+         <p>Mengozzi, A.:  <hi rend="italic">Israel of Alqosh and
+    Joseph of Telkepe.  A Story in a Truthful
+    Language. Religious Poems in Vernacular Syriac (North
+    Iraq, 17<hi rend="sup">th</hi> Century)</hi> (CSCO 589-90, Scr. Syri
+    230-1;  Louvain:  Peeters).</p>
+         <p>Puthur, B. (ed.):  <hi rend="italic">The Life and
+    Nature of the St Thomas Christian Church in the Pre-Diamper
+    Period</hi> (Cochi, Kerala).</p>
+         <p>Salim, A.J.:  <hi rend="italic">Captivated by Your
+    Teachings:  a Resource Book for Adult Maronite
+    Catholics</hi> (Tucson AZ:  E.T. Nedder).</p>
+         <p>Schmidt, A.B.:  <hi rend="italic">Sancti Gregorii
+    Nazianzeni Opera.  Versio Syriaca II, Orationes XIII,
+    XLI</hi> (Corpus Christianorum, Series Graeca 47 = Corpus
+    Nazianzenum 15; Turnhout).</p>
+         <p>Seleznyov, N.:  <hi rend="italic">Khristologiya
+    Assirijskoj Cerkvi Vostoka</hi> (Moscow: Euroasiatica). ["The
+    Christology of the Assyrian Church of the East", with English
+    summary].</p>
+         <p>Selb, W. (+) and Kaufhold, H.:  <hi rend="italic">Das
+    syrisch-römische Rechtsbuch, I. Einleitung;  II.
+    Texte   und Übersetzungen;  III. 
+    Kommentar</hi> (Österreichische Akademie der
+    Wissenschaften, phil.-hist. Kl. Denkschriften, 295. Band =
+    Veröffentlichen der Kommision für Antike
+    Rechtsgeschichte 9;  Wien).</p>
+         <p>Seppälä, Serafim:  <hi rend="italic">Kerubin
+    Silmin</hi> (Helsinki:  Suomen Itämainen Seura). 
+    [“Through the eyes of the Cherub”:  a history
+    of  Syriac asceticism, with anthology, in Finnish; ISBN
+    951 9380 531].</p>
+         <p>Seppälä, Serafim: <hi rend="italic">"In Speechless
+    Ecstasy". Expression and Interpretation of Mystical Experience
+    in Classical Syriac and Sufi Literature</hi> (Publications of
+    the Institute for Asian and African Studies, 2;
     Helsinki).<lb/>
          </p>
-         <p rend="biblio">Shemunkasho, A.:� <hi rend="italic">Healing in the Theology
-    of St Ephrem</hi> (Piscataway NJ:� Gorgias Press).</p>
-         <p rend="biblio">Steppa, J.: <hi rend="italic">John Rufus and the World
-    Vision of Anti-Chalcedonian Culture</hi> (Piscataway NJ:�
+         <p>Shemunkasho, A.:  <hi rend="italic">Healing in the
+    Theology of St Ephrem</hi> (Piscataway NJ:  Gorgias
+    Press).</p>
+         <p>Steppa, J.: <hi rend="italic">John Rufus and the World
+    Vision of Anti-Chalcedonian Culture</hi> (Piscataway NJ: 
     Gorgias Press).</p>
-         <p rend="biblio">Tamcke, M (ed.):� <hi rend="italic">Syriaca.� Zur
+         <p>Tamcke, M (ed.):  <hi rend="italic">Syriaca.  Zur
     Geschichte, Theologie, Liturgie und Gegenwartslage der
     Syrischen Kirchen</hi> (Studien zur Orientalischen
-    Kirchengeschichte 17;� M�nster:�LIT).</p>
-         <p rend="biblio">Thelly, E.:� <hi rend="italic">An Introduction to Syriac
-    Studies (Mini Syriac Grammar)</hi> (Kottayam).�� [24 pp.,
-    including 6pp. of everyday idioms]</p>
-         <p rend="biblio">Thomas, R.:� <hi rend="italic">The Syriac Language and
-    Literature</hi> (Mannanam:� RISHI).� [= reprint of 1984 preface
-    to Fr. Gabriel (Rev. E. Thelly), <hi rend="italic">Syro-Chaldaic
+    Kirchengeschichte 17;  Münster: LIT).</p>
+         <p>Thelly, E.:  <hi rend="italic">An Introduction to
+    Syriac Studies (Mini Syriac Grammar)</hi>
+    (Kottayam).   [24 pp., including 6pp. of everyday
+    idioms]</p>
+         <p>Thomas, R.:  <hi rend="italic">The Syriac Language and
+    Literature</hi> (Mannanam:  RISHI).  [= reprint of
+    1984 preface to Fr. Gabriel (Rev. E. Thelly), <hi rend="italic">Syro-Chaldaic
     Grammar</hi>].</p>
-         <p rend="biblio">Ucel, S.:� <hi rend="italic">Die Sprache Jesu heute:
-    syrische-aram�ische Grammatik und Wortschatz Syrisch-Deutsch,
-    Deutsch-Syrisch</hi> (Wien:� the author).�� [ISBN
-    3-902328-00-2;�456pp.].</p>
-         <p rend="biblio">Winkler, G.:� <hi rend="italic">Das Sanctus:� �ber den
-    Ursprung und die Anf�nge des Sanctus und sein Fortwirken</hi>
-    (Orientalia Christiana Analecta 267;� Rome).�� [Includes much
-    of relevance to�Syriac].</p>
-         <p rend="biblio">Wilson, J.:� <hi rend="italic">The Old Syriac Gospels:�
-    Studies and Comparative Translations</hi> (2 vols;�Piscataway
-    NJ: Gorgias Press).</p>
+         <p>Ucel, S.:  <hi rend="italic">Die Sprache Jesu heute:
+    syrische-aramäische Grammatik und Wortschatz
+    Syrisch-Deutsch, Deutsch-Syrisch</hi> (Wien:  the
+    author).   [ISBN 3-902328-00-2; 456pp.].</p>
+         <p>Winkler, G.:  <hi rend="italic">Das Sanctus: 
+    über den Ursprung und die Anfänge des Sanctus und
+    sein Fortwirken</hi> (Orientalia Christiana Analecta 267; 
+    Rome).   [Includes much of relevance
+    to Syriac].</p>
+         <p>Wilson, J.:  <hi rend="italic">The Old Syriac
+    Gospels:  Studies and Comparative Translations</hi> (2
+    vols; Piscataway NJ: Gorgias Press).</p>
          <!-- #EndEditable -->
       </body>
    </text>

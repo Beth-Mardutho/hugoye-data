@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Barbara Aland, Andreas Juckel, eds., Das Neue Testament in syrischer �berlieferung. II Die paulinischen Briefe, Teil 3: 1./2. Thessalonicherbrief, 1./2. Timotheusbrief, Titusbrief, Philemonbrief und Hebr�erbrief. (Arbeiten zur neutestamentlichen Textforschung 32) Berlin-New York: Walter de Gruyter, 2002. Pp. viii + 551. Cloth, Euro 198. ISBN 3-11-017387-5.</title>
+            <title type="main">Barbara Aland, Andreas Juckel, eds., Das Neue Testament in syrischer Überlieferung. II Die paulinischen Briefe, Teil 3: 1./2. Thessalonicherbrief, 1./2. Timotheusbrief, Titusbrief, Philemonbrief und Hebräerbrief. (Arbeiten zur neutestamentlichen Textforschung 32) Berlin-New York: Walter de Gruyter, 2002. Pp. viii + 551. Cloth, Euro 198. ISBN 3-11-017387-5.</title>
             <author>
-               <name>Jan Joosten</name>
+               <name>
+                  <forename>Jan</forename>
+                  <surname>Joosten</surname>
+               </name>
                <affiliation>
                   <orgName>Marc Bloch University</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n1prjoosten</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Jan Joosten</author>
-                  <title level="a">Barbara Aland, Andreas Juckel, eds., Das Neue Testament in syrischer �berlieferung. II Die paulinischen Briefe, Teil 3: 1./2. Thessalonicherbrief, 1./2. Timotheusbrief, Titusbrief, Philemonbrief und Hebr�erbrief. (Arbeiten zur neutestamentlichen Textforschung 32) Berlin-New York: Walter de Gruyter, 2002. Pp. viii + 551. Cloth, Euro 198. ISBN 3-11-017387-5.</title>
+                  <title level="a">Barbara Aland, Andreas Juckel, eds., Das Neue Testament in syrischer Überlieferung. II Die paulinischen Briefe, Teil 3: 1./2. Thessalonicherbrief, 1./2. Timotheusbrief, Titusbrief, Philemonbrief und Hebräerbrief. (Arbeiten zur neutestamentlichen Textforschung 32) Berlin-New York: Walter de Gruyter, 2002. Pp. viii + 551. Cloth, Euro 198. ISBN 3-11-017387-5.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,21 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac New Testament</term>
+               <term>Barbara Aland</term>
+               <term>Andreas Juckel</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,20 +88,20 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1]
+         <p>
+            <anchor corresp="P1"/>[1]
     Following volumes covering the Major Catholic Epistles (1986),
     Romans and I Corinthians (1991), and II Corinthians, Galatians,
     Ephesians, Philippians and Colossians (1995), the present
     publication is the fourth tome of Syriac New Testament texts
     edited by Barbara Aland and Andreas Juckel, both of the
-    Institut f�r neutestamentlichen Textforschung in M�nster. All
-    volumes appeared in the same series, in a format that has
-    remained essentially unchanged. Taken together, they make up an
-    impressive contribution to the study of the Syriac text of the
-    New Testament.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The most
+    Institut für neutestamentlichen Textforschung in
+    Münster. All volumes appeared in the same series, in a
+    format that has remained essentially unchanged. Taken together,
+    they make up an impressive contribution to the study of the
+    Syriac text of the New Testament.</p>
+         <p>
+            <anchor corresp="P2"/>[2] The most
     substantial part of the book is an edition of the Syriac text
     of the Corpus Paulinum from I Thessalonians through Hebrews as
     attested in the Peshitta, in the Harklean, and in quotations in
@@ -92,10 +117,10 @@
     edition was ever made of the Peshitta Epistles (the British and
     Foreign Bible Society edition of 1920 offered an eclectic text
     based on early manuscripts, but no apparatus), this segment
-    alone—which forms a small part of the volume as a whole �
-    merits NT scholars' eternal gratitude.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+    alone—which forms a small part of the volume as a whole
+    — merits NT scholars' eternal gratitude.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
     Harklean is presented in a critical edition based on three
     manuscripts, the most important of which is Ms 37 of St. Mark's
     monastery in Jerusalem (8/9th century, referred to as
@@ -104,12 +129,12 @@
     single manuscript (breaking off at Hebr. 11:27). The
     translation technique of the Harklean, which aims at formal
     equivalence with the Vorlage, makes it easy to retrovert into
-    Greek. A retroversion of the Harklean epistles—prepared in
-    comparison with the minuscules of "Family 2138" which are
-    closely allied to the Vorlage of the Harklean—is proposed on
-    452-494.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The real
+    Greek. A retroversion of the Harklean epistles—prepared
+    in comparison with the minuscules of "Family 2138" which are
+    closely allied to the Vorlage of the Harklean—is proposed
+    on 452-494.</p>
+         <p>
+            <anchor corresp="P4"/>[4] The real
     bonus of the present edition, however, and a breathtaking tour
     de force, is the collection of quotations in Syriac literature.
     Thousands of quotations, excerpted from more than 160 writings,
@@ -124,8 +149,8 @@
     editors are justified in expressing the hope that "the wealth
     of material in our three volumes shall elicit corresponding
     researches" (p. V).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In
+         <p>
+            <anchor corresp="P5"/>[5] In
     comparison with the edition of the Old Testament Peshitta by
     the Peshitta Institute in Leiden, the present edition clearly
     expresses different options. The strength of the Peshitta
@@ -133,19 +158,19 @@
     tradition, treating the manuscripts (or at least the earlier
     ones) exhaustively. This has made it possible to write a
     history of the OT Peshitta text—something that is neither
-    attempted nor achieved in the M�nster edition for the text of
-    the NT Peshitta. In contrast, Aland and Juckel and their team
-    have selected a more global approach, where the Peshitta text
-    is set in the context of earlier and later Syriac versions of
-    the New Testament. Partly the different policies are dictated
-    by differences in the material: in the Syriac OT there is no
-    analogue to the Old Syriac version, and while the Peshitta is
-    based on the Hebrew OT the later versions are based on the
-    Septuagint. Yet, one might also say that the two projects form
-    a challenge to one another, pointing to possible paths for
-    future research.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Apart
+    attempted nor achieved in the Münster edition for the text
+    of the NT Peshitta. In contrast, Aland and Juckel and their
+    team have selected a more global approach, where the Peshitta
+    text is set in the context of earlier and later Syriac versions
+    of the New Testament. Partly the different policies are
+    dictated by differences in the material: in the Syriac OT there
+    is no analogue to the Old Syriac version, and while the
+    Peshitta is based on the Hebrew OT the later versions are based
+    on the Septuagint. Yet, one might also say that the two
+    projects form a challenge to one another, pointing to possible
+    paths for future research.</p>
+         <p>
+            <anchor corresp="P6"/>[6] Apart
     from the text edition and its paraphernalia (information on the
     manuscripts, information on the Syriac writings from which the
     quotations were excerpted, indexes), the volume contains brief
@@ -167,14 +192,16 @@
     an entirely new translation of a Greek manuscript. A
     confrontation of these views with the famous subscription to
     the Harklean version leads to a new interpretation of the
-    Syriac text. The key terms are <hi rend="italic">�tktb</hi> "to be produced"
-    (said of a biblical manuscript) and <hi rend="italic">�tp<hi rend="u">h</hi>m</hi> "to be annotated with variant readings".</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] With
-    regard to the Peshitta the great homogeneity (Konformit�t) of
-    the manuscript tradition is correctly observed. The majority of
-    variants are of relatively little consequence. Three classes of
-    variants are identified by Aland and Juckel: a) variants
+    Syriac text. The key terms are <hi rend="italic">’tktb</hi> "to be
+    produced" (said of a biblical manuscript) and
+    <hi rend="italic">’tp<hi rend="u">h</hi>m</hi> "to be annotated with
+    variant readings".</p>
+         <p>
+            <anchor corresp="P7"/>[7] With
+    regard to the Peshitta the great homogeneity (Konformität)
+    of the manuscript tradition is correctly observed. The majority
+    of variants are of relatively little consequence. Three classes
+    of variants are identified by Aland and Juckel: a) variants
     bringing the Peshitta text closer to the Greek or to a specific
     Greek reading (in many cases variation within the Greek
     tradition is reflected in Peshitta manuscripts as well); b)
@@ -185,8 +212,8 @@
     Testament Peshitta. The dynamics of the manuscript tradition
     are discussed in some detail and illustrated with 59 annotated
     examples.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] It is in
+         <p>
+            <anchor corresp="P8"/>[8] It is in
     the discussion on the Peshitta, where questions of Syriac idiom
     and translation technique are relatively more important than
     textual traditions, that one may occasionally disagree with the
@@ -212,8 +239,8 @@
     absolutus (for examples, see J. Joosten, The Syriac Language of
     the Peshitta and Old Syriac Versions of Matthew [Leiden: Brill,
     1996], 73, n. 46).</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] A more
+         <p>
+            <anchor corresp="P9"/>[9] A more
     important issue is the question of OT Peshitta influence on the
     text of OT quotations (notably in Hebrews, where such
     quotations are numerous). According to Aland and Juckel, this
@@ -231,42 +258,46 @@
     manuscripts without variation. Thus in Hebr. 5:6 and 7:21, the
     words <hi rend="italic">bdmwth dmlkyzdq</hi>, "in the likeness of Melchizedek,"
     attested by all Peshitta manuscripts, do not reflect the Greek
-    text of Hebrews (κατα την ταξιν Μελχισεδεκ), "according to the
-    order of M.") but the text of the OT Peshitta of Psalm 110:4.
-    Similar instances of OT Peshitta influence attested by the
-    entire manuscript tradition, can be found in Hebr. 1:7, 8, 10;
-    2:7, 12; 3:7, 9, 10; 8:9, 11; 10:5-6; 13:6 (of course, each
-    case merits a discussion, which cannot be given in the present
-    review). Such cases tend to show that OT Peshitta readings
-    belong to the original Peshitta translation of Hebrews. Second,
-    it seems that the Old Syriac text of Hebrews contained even
-    more traces of OT Peshitta influence than does the Peshitta.
-    Thus, Aphrahat's version of Hebr. 2:13 (Isa. 8:17-18) and
-    8:8-12 (Jer. 31:31-34) stands closer to the OT Peshitta text
-    than does the Peshitta in several details. The Peshitta version
-    of Hebrews apparently followed an established trend in adopting
-    such readings. Third, the situation in the gospels furnishes a
-    relevant analogy. In the gospels there can be no doubt that the
-    Old Syriac's OT quotations show more OT Peshitta influence than
-    do the Peshitta gospels (see J. Joosten, Textus 15 [1990],
-    55-76). Here the movement is clearly from a text more closely
-    aligned with the OT Peshitta toward greater conformity with the
-    Greek text of the NT. The same general evolution of the text of
-    OT quotations would seem to hold for Hebrews (and for the other
-    Pauline epistles).</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] As
+    text of Hebrews (κατα την
+    ταξιν
+    Μελχισεδεκ),
+    "according to the order of M.") but the text of the OT Peshitta
+    of Psalm 110:4. Similar instances of OT Peshitta influence
+    attested by the entire manuscript tradition, can be found in
+    Hebr. 1:7, 8, 10; 2:7, 12; 3:7, 9, 10; 8:9, 11; 10:5-6; 13:6
+    (of course, each case merits a discussion, which cannot be
+    given in the present review). Such cases tend to show that OT
+    Peshitta readings belong to the original Peshitta translation
+    of Hebrews. Second, it seems that the Old Syriac text of
+    Hebrews contained even more traces of OT Peshitta influence
+    than does the Peshitta. Thus, Aphrahat's version of Hebr. 2:13
+    (Isa. 8:17-18) and 8:8-12 (Jer. 31:31-34) stands closer to the
+    OT Peshitta text than does the Peshitta in several details. The
+    Peshitta version of Hebrews apparently followed an established
+    trend in adopting such readings. Third, the situation in the
+    gospels furnishes a relevant analogy. In the gospels there can
+    be no doubt that the Old Syriac's OT quotations show more OT
+    Peshitta influence than do the Peshitta gospels (see J.
+    Joosten, Textus 15 [1990], 55-76). Here the movement is clearly
+    from a text more closely aligned with the OT Peshitta toward
+    greater conformity with the Greek text of the NT. The same
+    general evolution of the text of OT quotations would seem to
+    hold for Hebrews (and for the other Pauline epistles).</p>
+         <p>
+            <anchor corresp="P10"/>[10] As
     far as the present reviewer has been able to check, the Syriac
     texts are transcribed with great trustworthiness. The only
     mistakes I have been able to identify occur in non-German
-    titles in the bibliography: 543 "AMPHOUX (...) le group"—read
-    "groupe"; 545 "CURETON (...) ancient recension"—read "antient"
-    (sic); "DCB (...) Biography, Literatur"—read "Literature"; 546
-    "DUVAL (...) jusque'�"—read "jusqu'�"; 548 "PETIT (...) text
-    grec"—read "texte"; 550 "WRIGHT (...) Syriac litterature" —read
-    "literature". But these are mere trifles.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] It
+    titles in the bibliography: 543 "AMPHOUX (...) le
+    group"—read "groupe"; 545 "CURETON (...) ancient
+    recension"—read "antient" (sic); "DCB (...) Biography,
+    Literatur"—read "Literature"; 546 "DUVAL (...)
+    jusque'à"—read "jusqu'à"; 548 "PETIT (...)
+    text grec"—read "texte"; 550 "WRIGHT (...) Syriac
+    litterature" —read "literature". But these are mere
+    trifles.</p>
+         <p>
+            <anchor corresp="P11"/>[11] It
     is very much to be hoped that the team will go on with this
     project and publish at least the Book of Acts in the same way.
     The Minor Catholic Epistles and the Apocalypse would also

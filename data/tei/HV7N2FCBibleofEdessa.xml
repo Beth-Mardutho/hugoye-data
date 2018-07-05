@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Bible of Edessa Leiden, August 2, 2004</title>
+            <title type="main">The Bible of Edessa Leiden, August 2, 2004</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv7n2fcbibleofedessa</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Peshitta</term>
+               <term>Seminar</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,21 +87,21 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] From
+         <p>
+            <anchor corresp="P1"/>[1] From
     August 1 to 6, the Eighteenth Congress of the International
     Organization for the Study of the Old Testament will be held in
     Leiden, The Netherlands. In conjunction with this congress,
     there will be additional meetings for scholars specializing in
     Targum, Septuagint and Hexapla, and Masoretic studies.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Those
+         <p>
+            <anchor corresp="P2"/>[2] Those
     interested in the Peshitta will be pleased to hear that one of
     the seminars within the IOSOT conference itself will be
     dedicated to the New English Annotated Translation of the
     Syriac Bible. The programme is as follows:</p>
-         <head>Seminar — The Bible of Edessa, IOSOT Conference, Monday, 2
-    August 2004</head>
+         <head xml:id="HV7N2FCBibleofEdessa1">Seminar — The Bible of Edessa, IOSOT Conference,
+    Monday, 2 August 2004</head>
          <table>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">2.30</cell>
@@ -119,14 +143,14 @@
         85-106.</cell>
             </row>
          </table>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Full
+         <p>
+            <anchor corresp="P3"/>[3] Full
     information on the IOSOT Congress, as well as the IOTS, IOSCS,
     and IOMS Congresses, can be found on the Conference website:
     <ref target="http://www.leidenuniv.nl/gg/iosot2004/">http://www.leidenuniv.nl/gg/iosot2004/</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     IOSOT registration fee will be 115 euros. The student rate is
     85 euros.</p>
          <p>Wido van Peursen (w.t.van.peursen@let.leidenuniv.nl)<lb/>

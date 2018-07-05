@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Coptic-Syriac Relations beyond Dogmatic Rhetoric</title>
+            <title type="main">Coptic-Syriac Relations beyond Dogmatic Rhetoric</title>
             <author>
-               <name>Lois Farag</name>
+               <name>
+                  <forename>Lois</forename>
+                  <surname>Farag</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv11n1farag_lang</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,43 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac Church</term>
+               <term>Syriac Saints</term>
+               <term>Coptic Synaxarium</term>
+               <term>History of Coptic-Syriac Relations</term>
+               <term>Coptic Church</term>
+               <term>Coptic liturgy</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>This article highlights Coptic-Syriac
+    relations in ways beyond the theological position of both
+    churches. It focuses on the relationship between Copts and
+    Syrians depicted in the Coptic Synaxarium. It includes a
+    discussion of Syrian saints, Syrians who became patriarchs of
+    the Coptic Church, and their role in the liturgical and
+    devotional changes that occurred. After the Arab conquest, both
+    churches came to share a common language – Arabic. This
+    led to an exchange of theological terms. This shared
+    theological language and the Syrian presence in the Coptic
+    Synaxarium strengthened the relations between the two churches
+    in ways beyond ecclesial politics.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,38 +107,26 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">This article highlights Coptic-Syriac
-    relations in ways beyond the theological position of both
-    churches. It focuses on the relationship between Copts and
-    Syrians depicted in the Coptic Synaxarium. It includes a
-    discussion of Syrian saints, Syrians who became patriarchs of
-    the Coptic Church, and their role in the liturgical and
-    devotional changes that occurred. After the Arab conquest, both
-    churches came to share a common language � Arabic. This led to
-    an exchange of theological terms. This shared theological
-    language and the Syrian presence in the Coptic Synaxarium
-    strengthened the relations between the two churches in ways
-    beyond ecclesial politics.</p>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Coptic and Syriac Orthodox churches have a long common history.
     They are two of the oldest churches of Christianity, with large
     literatures in Greek, Syriac, Coptic, and later in Arabic. They
-    shared the Roman hegemony � not only the entanglements of Roman
-    law, but also imperial persecutions. They benefited from the
-    Greek <hi rend="italic">paideia</hi>. They were intellectually enriched by
-    having their patriarchal residences and presence in cities that
-    were hubs of the cultural and commercial centers of the Roman
-    Empire, i.e. the cities of Alexandria and Antioch. Although
-    modern scholars have portrayed the theological history of both
-    churches as a struggle of Antiochene theology against
+    shared the Roman hegemony – not only the entanglements of
+    Roman law, but also imperial persecutions. They benefited from
+    the Greek <hi rend="italic">paideia</hi>. They were intellectually enriched
+    by having their patriarchal residences and presence in cities
+    that were hubs of the cultural and commercial centers of the
+    Roman Empire, i.e. the cities of Alexandria and Antioch.
+    Although modern scholars have portrayed the theological history
+    of both churches as a struggle of Antiochene theology against
     Alexandrian and vice versa, the reality is that each
-    theological group read and thoroughly understood each other�s
-    literature. Both churches agreed to disagree with the
-    Chalcedonian expression of faith. Both churches shared the same
-    suffering to preserve this faith. They shared successive
+    theological group read and thoroughly understood each
+    other’s literature. Both churches agreed to disagree with
+    the Chalcedonian expression of faith. Both churches shared the
+    same suffering to preserve this faith. They shared successive
     invasions by the Persians and then the Arabs. The Arab invasion
     led to the isolation of both churches from the rest of western
     Christendom. It forced both churches to change their
@@ -103,17 +135,18 @@
     The Coptic Church eventually became the most productive church
     of Christian Arabic literature. Both churches confronted the
     religious challenges of Islam. Religious debates took place in
-    rulers� palaces as well as among the common lay people. This
-    led to the production of a rich Christian-Islamic dialogue that
-    preceded the attempts of the West by centuries. Since then,
-    their common political situation converged more than ever. The
-    Turks, then later the French and the British conquered both
-    peoples. These layers of foreign hegemony greatly affected the
-    religious expression and religious struggle of both churches.
-    The Turkish, French and British occupations are a part of their
-    history, and the Arab presence remains a reality.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] However,
+    rulers’ palaces as well as among the common lay people.
+    This led to the production of a rich Christian-Islamic dialogue
+    that preceded the attempts of the West by centuries. Since
+    then, their common political situation converged more than
+    ever. The Turks, then later the French and the British
+    conquered both peoples. These layers of foreign hegemony
+    greatly affected the religious expression and religious
+    struggle of both churches. The Turkish, French and British
+    occupations are a part of their history, and the Arab presence
+    remains a reality.</p>
+         <p>
+            <anchor corresp="P2"/>[2] However,
     scholarly research in the West has tended to focus only on a
     few specific aspects of this shared patrimony. Topics of
     interest include the non-Chalcedonian faith that both churches
@@ -130,8 +163,8 @@
     exchange of theological terms after both Churches came to share
     Arabic as a common language. The approach of this paper is from
     the Coptic perspective.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     Synaxarium is a liturgical book that recounts the lives of the
     saints venerated by the Coptic Church. A chapter of the
     Synaxarium is read daily in the liturgy after the readings of
@@ -139,28 +172,28 @@
     The simple narrative of the Coptic Synaxarium delivers a
     powerful message to the people. The first edition of the
     Synaxarium was compiled by three bishops, Bishop Peter, bishop
-    of Melig (�dgl), Bishop Michael, bishop of Atrib (FdvjH), and
-    Bishop John, bishop of Borolus (Sgvfgh). According to the
+    of Melig (ˆdgl), Bishop Michael, bishop of Atrib (FdvjH),
+    and Bishop John, bishop of Borolus (Sgvfgh). According to the
     Synaxarium Bishop John became a monk and disciple of St.
     Daniel, the hegemon (o` h`gou,menoj) of the Nitrian
     Desert.<ref target="#FN6">6</ref> St. Daniel was born in AD 485 and ordained the
-    hegemon over the Nitrean Desert in AD 535. During Daniel�s
-    priestly tenure as the hegemon, Emperor Justinian promulgated
-    laws that strongly enforced Chalcedonian dogmas. Daniel�s
-    opposition to these laws caused him great suffering.<ref target="#FN7">7</ref> The first
-    collection of saints� lives, or the nucleus of the book of the
-    Synaxarium, seems to have been composed during the sixth
-    century AD, with additions and revisions into the twelfth and
-    thirteenth centuries.<ref target="#FN8">8</ref> The escalation of the Chalcedonian
-    controversy might have been a significant factor in the
-    compilation of the Synaxarium in an attempt to preserve the
-    saints� heritage in the Coptic memory. The Copts have been
-    accustomed to listen to the stories of the saints during the
-    liturgy as part of the readings revered by the church from very
-    early times.<ref target="#FN9">9</ref>
+    hegemon over the Nitrean Desert in AD 535. During
+    Daniel’s priestly tenure as the hegemon, Emperor
+    Justinian promulgated laws that strongly enforced Chalcedonian
+    dogmas. Daniel’s opposition to these laws caused him
+    great suffering.<ref target="#FN7">7</ref> The first collection of saints’ lives, or
+    the nucleus of the book of the Synaxarium, seems to have been
+    composed during the sixth century AD, with additions and
+    revisions into the twelfth and thirteenth centuries.<ref target="#FN8">8</ref> The
+    escalation of the Chalcedonian controversy might have been a
+    significant factor in the compilation of the Synaxarium in an
+    attempt to preserve the saints’ heritage in the Coptic
+    memory. The Copts have been accustomed to listen to the stories
+    of the saints during the liturgy as part of the readings
+    revered by the church from very early times.<ref target="#FN9">9</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     Synaxarium contains fifty-five accounts related to Syrian
     saints or to the Syrian Church. The Copts are reminded of the
     close relationship between the Syrian and Coptic Churches,
@@ -181,8 +214,8 @@
     theological confession, the Syrian Church maintains a special
     relationship with the Alexandrian Church.<ref target="#FN20">20</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The most
+         <p>
+            <anchor corresp="P5"/>[5] The most
     commemorated Syrian saint in the Synaxarium is Severus of
     Antioch. On the second of <hi style="color:red; font-family:CopticSSK">O`noh</hi> (Paopi) the
     entry of the Synaxarium commemorates the coming of St. Severus
@@ -199,24 +232,25 @@
     congregation saying that the <hi rend="italic">qorban</hi> had disappeared
     because of sin, either his own or that of the congregation. At
     this moment, everyone in the church began crying and praying,
-    asking for God�s forgiveness. An angel of the Lord appeared to
-    the priest to inform him that it was not anyone�s fault but
-    rather it was because the sacrifice was offered in the presence
-    of a patriarch. As the highest ranking member of the priestly
-    hierarchy present in church, the patriarch was supposed to say
-    the prayers of consecration. The angel pointed to Severus who
-    was sitting at the far end of the church. He was brought with
-    great honor to the altar, and only then the <hi rend="italic">qorban</hi>
-    became present on the paten on the altar, thus making it
-    possible for the liturgy to proceed. The message delivered by
-    the narrative clearly indicates that Severus� patriarchal rank
-    was recognized by God despite imperial opposition, and
-    theological disputes did not affect his priesthood. According
-    to the narrative, Severus went to Sakha (<hi style="color:red; font-family:Iqraa">�os</hi>) after this incident
-    and stayed at the house of an archon by the name of Dorotheos,
-    and remained there until the time of his death.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+    asking for God’s forgiveness. An angel of the Lord
+    appeared to the priest to inform him that it was not
+    anyone’s fault but rather it was because the sacrifice
+    was offered in the presence of a patriarch. As the highest
+    ranking member of the priestly hierarchy present in church, the
+    patriarch was supposed to say the prayers of consecration. The
+    angel pointed to Severus who was sitting at the far end of the
+    church. He was brought with great honor to the altar, and only
+    then the <hi rend="italic">qorban</hi> became present on the paten on the
+    altar, thus making it possible for the liturgy to proceed. The
+    message delivered by the narrative clearly indicates that
+    Severus’ patriarchal rank was recognized by God despite
+    imperial opposition, and theological disputes did not affect
+    his priesthood. According to the narrative, Severus went to
+    Sakha (<hi style="color:red; font-family:Iqraa">ƒos</hi>) after this
+    incident and stayed at the house of an archon by the name of
+    Dorotheos, and remained there until the time of his death.</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     entry of <hi style="color:red; font-family:CopticSSK">Unh`i</hi> 10 (Koiahk),
     continues the story from where it had stopped at the second of
     <hi style="color:red; font- family:CopticSSK">O`noh</hi>
@@ -228,13 +262,14 @@
     branched into a smaller canal in the western branch of the
     Nile, the water became very shallow. The sailors began asking
     for the intercession of St. Severus, and the boat sailed six
-    miles until it reached the sea. Severus� body was interred in
-    the monastery in a tomb built by archon Dorotheos. The
-    narrative describes the occurrence of miracles after the death
-    of Severus. These miracles were another sign of his sainthood —
-    a message not to be missed by the audience.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
+    miles until it reached the sea. Severus’ body was
+    interred in the monastery in a tomb built by archon Dorotheos.
+    The narrative describes the occurrence of miracles after the
+    death of Severus. These miracles were another sign of his
+    sainthood — a message not to be missed by the
+    audience.</p>
+         <p>
+            <anchor corresp="P7"/>[7] The
     third commemoration is for the death of Severus of Antioch on
     <hi style="color:red; font-family:CopticSSK">Kduhp</hi> 14
     (Meshir 14).<ref target="#FN25">25</ref> It is a one-page summary of his life story. It
@@ -247,22 +282,22 @@
     to other figures. <hi style="color:red; font- family:CopticSSK">Kduhp</hi> 13 (Meshir 13)
     commemorates Pope Timothy the Third, Pope 32 of
     Alexandria.<ref target="#FN26">26</ref> The entry mentions that Severus arrived in
-    Egypt during Timothy�s primacy and that both of them traveled
-    around the country strengthening the believers in the faith.
-    This entry emphasizes the pastoral qualities of these two
-    leaders and the suffering they endured for their faith. A
-    distinctive feature of Pope Timothy�s Synaxarium entry is his
-    connection with Severus. The <hi style="color:red; font-family:CopticSSK">T`pknsgh</hi> 7
+    Egypt during Timothy’s primacy and that both of them
+    traveled around the country strengthening the believers in the
+    faith. This entry emphasizes the pastoral qualities of these
+    two leaders and the suffering they endured for their faith. A
+    distinctive feature of Pope Timothy’s Synaxarium entry is
+    his connection with Severus. The <hi style="color:red; font-family:CopticSSK">T`pknsgh</hi> 7
     (Pharmouthe) entry celebrates the life of St. Maqrophios. The
     narrator informs us that Maqrophios accompanied Severus during
     his travels in Upper Egypt.<ref target="#FN27">27</ref> During this time, Maqrophios fell
     in love with the monastic life and joined a monastery. This
-    entry draws attention to the impact of Severus� life on those
-    who met him. In short, the entries, not only portray a defender
-    of the faith, they present a saint, a wonder worker, an
-    exemplary man, and a good shepherd.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] St.
+    entry draws attention to the impact of Severus’ life on
+    those who met him. In short, the entries, not only portray a
+    defender of the faith, they present a saint, a wonder worker,
+    an exemplary man, and a good shepherd.</p>
+         <p>
+            <anchor corresp="P8"/>[8] St.
     Severus of Antioch is especially honored in the Coptic Church
     liturgy. In the <hi rend="italic">Absolution of the Servants</hi> that is
     said after the offerings and in the diptych, Severus of Antioch
@@ -276,8 +311,8 @@
     relationship between the two churches. The Coptic Church not
     only welcomed Severus during his lifetime, but also honors him
     in her prayers after his death.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] Two
+         <p>
+            <anchor corresp="P9"/>[9] Two
     major Syrian monastic figures are honored in the Coptic Church,
     Simeon the Stylite on <hi style="color:red; font-family:CopticSSK">O`xwlq</hi> 9 (Pashons 9)
     and St. Barsauma, the father of the Syrian monks on
@@ -286,16 +321,16 @@
     focuses on his sainthood and how he lived on a pillar for
     forty-five years. In comparison, the Synaxarium entry for Mar
     Barsauma, who died in AD 458, one year before Simeon,
-    highlights Barsauma�s theological stance. The entry indicates
-    that Mar Barsauma was severely persecuted by the Chalcedonians
-    because he was a staunch anti- Nestorian and anti-Chalcedonian.
-    After Barsauma�s death a pillar of light remained in his cell.
-    These are two important Syrian monastic saints venerated by the
-    Coptic Church. Both were praised for their sainthood, both
-    witnessed the events of Chalcedon. Barsauma was praised for his
-    theological stance.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] The
+    highlights Barsauma’s theological stance. The entry
+    indicates that Mar Barsauma was severely persecuted by the
+    Chalcedonians because he was a staunch anti- Nestorian and
+    anti-Chalcedonian. After Barsauma’s death a pillar of
+    light remained in his cell. These are two important Syrian
+    monastic saints venerated by the Coptic Church. Both were
+    praised for their sainthood, both witnessed the events of
+    Chalcedon. Barsauma was praised for his theological stance.</p>
+         <p>
+            <anchor corresp="P10"/>[10] The
     influence of Simeon the Stylite is evident in the life of St.
     Agathon the Stylite.<ref target="#FN30">30</ref> He was an Egyptian who at the age of
     thirty-five was ordained a priest. At the age of forty he went
@@ -307,8 +342,8 @@
     practice the ascetical life of a stylite, but it is interesting
     to observe that it is the place where St. Severus of Antioch
     was first buried.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
+         <p>
+            <anchor corresp="P11"/>[11] The
     Synaxarium mentions St. Peter of Edessa, bishop of Gaza, who
     was an assistant to Emperor Theodosius II.<ref target="#FN31">31</ref> During his
     residency at the imperial court he lived an ascetic life. He
@@ -320,8 +355,8 @@
     Marcian he returned to Gaza. Peter of Edessa was a saint of
     Syrian origin who became bishop of Gaza, suffered persecution
     by the Chalcedonians, and found refuge in Egypt.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+         <p>
+            <anchor corresp="P12"/>[12]
     <hi style="color:red; font-family:CopticSSK">Kdqwpf</hi> 21
     (Mesore) commemorated the martyrdom of thirty thousand
     Christians in Alexandria. Proterius, the prefect of Alexandria,
@@ -342,8 +377,8 @@
     St. Peter of Edessa, and the thirty thousand martyrs of
     Alexandria, clearly exhibited polemical repercussions on the
     life of the people and church after Chalcedon.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+         <p>
+            <anchor corresp="P13"/>[13] The
     Synaxarium mentions four exchanges of letters of faith between
     the Alexandrian and the Antiochene Churches.<ref target="#FN33">33</ref> The first of
     these took place when Severus of Antioch became patriarch in AD
@@ -361,8 +396,8 @@
     needed to clarify whether Severus of Antioch initiated this
     tradition of exchange of letters of faith between the Syrian
     and Coptic Churches.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
+         <p>
+            <anchor corresp="P14"/>[14] The
     third exchange of letters between the two churches took place
     during the time of Pope Peter IV, 34<hi rend="sup">th</hi> Pope of
     Alexandria (d. 569).<ref target="#FN36">36</ref> The exchange was between Peter and
@@ -384,17 +419,17 @@
     Antioch.<ref target="#FN39">39</ref> The letter of faith was mentioned because it
     was the cause for the meeting that occurred between the two
     churches and because it was mentioned as part of Pope
-    Anastasius� work during his tenure. After AD 611 there is no
-    official mention in the Synaxarium of any exchange of letters
-    of faith between the two churches.<ref target="#FN40">40</ref>
+    Anastasius’ work during his tenure. After AD 611 there is
+    no official mention in the Synaxarium of any exchange of
+    letters of faith between the two churches.<ref target="#FN40">40</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15]
+         <p>
+            <anchor corresp="P15"/>[15]
     Three post-Chalcedonian Patriarchs of Alexandria were
     ethnically Syrian.<ref target="#FN41">41</ref> The first pope elected from among the
     Syrians to the See of St. Mark was Pope Simeon, 42<hi rend="sup">nd</hi>
     Pope of Alexandria (d. AD 700).<ref target="#FN42">42</ref> He was a monk in the
-    Pateron Monastery (<hi style="color:red; font-family:Iqraa">{�[.gh vd]</hi>, Deir
+    Pateron Monastery (<hi style="color:red; font-family:Iqraa">{ƒ[.gh vd]</hi>, Deir
     Al-Zugag). The Synaxarium links Simeon to his Syrian heritage
     by mentioning to his readers that Severus of Antioch was buried
     in the monastery. The Synaxarium attests to his saintly life.
@@ -405,74 +440,75 @@
     Pope of Syrian origin was Pope Johannes X, 85<hi rend="sup">th</hi> Pope
     (d. AD 1369).<ref target="#FN43">43</ref> Nothing is known about his life except that he
     was from Damascus and his sobriquet was Al-Mu-tamen Al-Shamy
-    (<hi style="color:red; font-family:Iqraa">�l�agh
+    (<hi style="color:red; font-family:Iqraa">™lƒagh
     Kljclgh</hi> the Damascene entrusted [with the Church]). The
     sobriquet indicates that he was found worthy to be entrusted
     with the Church. These two examples show the closeness between
     Copts and Syrians. It is worthwhile noting that Popes in the
     Coptic Church are chosen by the lay people, not the church
     hierarchy. These were not political decisions.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] The
+         <p>
+            <anchor corresp="P16"/>[16] The
     most famous of the three Syriac popes is Pope Abraam,
     62<hi rend="sup">nd</hi> Pope of Alexandria (d. 970).<ref target="#FN44">44</ref> He was commonly
-    known as Ibn-Zar�a Al-Suriany <hi style="color:red; font-family:Iqraa">�k�dvsgh Muv. Kf�</hi>, or
-    Abraam bar Zar�a among the Syrians. Abraam was a merchant. He
-    used to travel frequently to Egypt and eventually he settled
-    there. When the Patriarchal seat was vacant he was chosen to be
-    the Patriarch. During his tenure, Abraam was also faced with
-    the Coptic men emulating the Arab majority by acquiring
-    concubines, and he made it part of his lifework to stop such a
-    practice. His fame arose from the following story. Severus
-    Ibn-El-Muqafaa, bishop of El-Ashmunien, was a contemporary of
-    Pope Abraam. While Ibn-El-Muqafaa was in the court of the Emir
-    El Muez (<hi style="color:red; font-family:Iqraa">.�lgh</hi>), he reluctantly
-    participated in a debate with a Jewish scholar. Historical
-    narratives indicate that such debates among the representatives
-    of Christianity, Judaism and Islam were common in the courts of
-    the Islamic Caliphs and Emirs. Bishop Severus won the debate
-    and the Jewish scholar decided to take his revenge. He returned
-    to court with the biblical text and read to the Emir that it is
-    written in the gospel that <hi rend="italic">For truly I tell you, if you
-    have faith the size of a mustard seed, you will say to this
-    mountain, �Move from here to there,� and it will move; and
-    nothing will be impossible for you</hi> (Matt 17:20). The
-    scholar added, if Christians believe that the gospel is true,
-    let them prove this verse. The Emir welcomed the suggestion,
-    since the Muqatam Mountain was encroaching on the city of
-    Cairo. Pope Abraam was summoned to court and was informed that
-    if he did not move the Moqatam Mountain, Christianity and the
-    Gospel message would be considered invalid. The consequences of
-    not meeting such a challenge would have led to the immediate
-    persecution and extermination of the Copts. Pope Abraam
-    requested three days to deliver the Emir�s demands. He then
-    gathered some monks and bishops to the Mu�alaqa Church
-    (<hi style="color:red; font-family:Iqraa">Mrg�lgh
-    Msdk;</hi>) in Old Cairo, and fasted and prayed for three
-    days. On the third day the Virgin Mary appeared to the Pope and
-    asked him to gather the people before the mountain and a
-    miracle would take place. El Muez, accompanied by government
-    dignitaries, stood on one side of the mountain and the Pope,
-    together with the Coptic people, on the other side. They began
-    praying and kneeling and with each kneeling they would say
-    <hi rend="italic">kyrie eleison</hi> (Lord have mercy). Each time they knelt,
-    the mountain would be raised above ground high enough to permit
-    the sun�s rays to be visible from underneath the mountain. This
-    event terrified the spectators, and ended the confrontation.
-    This event led the Copts to receive licenses to build a few
-    churches. The miracle of the Muqatam Mountain has a prominent
-    place in Coptic history. It proved the validity of the Gospel
-    message and preserved the Coptic Church from extermination at
-    the hands of El Muez. Lest Copts forget this miracle, God�s
-    work with them, a three-day fast is annually observed � an
-    addition that affected the liturgical practices. This pivotal
-    event in Coptic history, that had its implication on liturgical
+    known as Ibn-Zar’a Al-Suriany <hi style="color:red; font-family:Iqraa">™kƒdvsgh Muv.
+    Kf†</hi>, or Abraam bar Zar’a among the Syrians.
+    Abraam was a merchant. He used to travel frequently to Egypt
+    and eventually he settled there. When the Patriarchal seat was
+    vacant he was chosen to be the Patriarch. During his tenure,
+    Abraam was also faced with the Coptic men emulating the Arab
+    majority by acquiring concubines, and he made it part of his
+    lifework to stop such a practice. His fame arose from the
+    following story. Severus Ibn-El-Muqafaa, bishop of
+    El-Ashmunien, was a contemporary of Pope Abraam. While
+    Ibn-El-Muqafaa was in the court of the Emir El Muez
+    (<hi style="color:red; font-family:Iqraa">.‹lgh</hi>), he
+    reluctantly participated in a debate with a Jewish scholar.
+    Historical narratives indicate that such debates among the
+    representatives of Christianity, Judaism and Islam were common
+    in the courts of the Islamic Caliphs and Emirs. Bishop Severus
+    won the debate and the Jewish scholar decided to take his
+    revenge. He returned to court with the biblical text and read
+    to the Emir that it is written in the gospel that <hi rend="italic">For truly
+    I tell you, if you have faith the size of a mustard seed, you
+    will say to this mountain, ‘Move from here to
+    there,’ and it will move; and nothing will be impossible
+    for you</hi> (Matt 17:20). The scholar added, if Christians
+    believe that the gospel is true, let them prove this verse. The
+    Emir welcomed the suggestion, since the Muqatam Mountain was
+    encroaching on the city of Cairo. Pope Abraam was summoned to
+    court and was informed that if he did not move the Moqatam
+    Mountain, Christianity and the Gospel message would be
+    considered invalid. The consequences of not meeting such a
+    challenge would have led to the immediate persecution and
+    extermination of the Copts. Pope Abraam requested three days to
+    deliver the Emir’s demands. He then gathered some monks
+    and bishops to the Mu’alaqa Church (<hi style="color:red; font-family:Iqraa">Mrg‹lgh Msdk;</hi>) in
+    Old Cairo, and fasted and prayed for three days. On the third
+    day the Virgin Mary appeared to the Pope and asked him to
+    gather the people before the mountain and a miracle would take
+    place. El Muez, accompanied by government dignitaries, stood on
+    one side of the mountain and the Pope, together with the Coptic
+    people, on the other side. They began praying and kneeling and
+    with each kneeling they would say <hi rend="italic">kyrie eleison</hi> (Lord
+    have mercy). Each time they knelt, the mountain would be raised
+    above ground high enough to permit the sun’s rays to be
+    visible from underneath the mountain. This event terrified the
+    spectators, and ended the confrontation. This event led the
+    Copts to receive licenses to build a few churches. The miracle
+    of the Muqatam Mountain has a prominent place in Coptic
+    history. It proved the validity of the Gospel message and
+    preserved the Coptic Church from extermination at the hands of
+    El Muez. Lest Copts forget this miracle, God’s work with
+    them, a three-day fast is annually observed – an addition
+    that affected the liturgical practices. This pivotal event in
+    Coptic history, that had its implication on liturgical
     practices, was championed by a Syrian Pope of the Coptic
     Church. Copts remember Abraam the Syrian for his piety and for
     his wisdom in handling the situation. This memory is beyond
     dogmatic rhetoric.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] Pope
+         <p>
+            <anchor corresp="P17"/>[17] Pope
     Abraam added more than the three days of fast in commemoration
     of the Miracle of moving the Muqataam Mountain; he also added
     the fast of Jonah. The Copts observed the fast of the Week of
@@ -483,11 +519,11 @@
     Copts would observe this three-day fast fifteen days prior to
     the Great Lent following the strict dietary rules of the Great
     Lent.<ref target="#FN47">47</ref> These additional ascetic observances that the
-    Copts follow are credited to Pope Abraam�s piety. It is a piety
-    beyond dogmatic rhetoric.<ref target="#FN48">48</ref>
+    Copts follow are credited to Pope Abraam’s piety. It is a
+    piety beyond dogmatic rhetoric.<ref target="#FN48">48</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18]
+         <p>
+            <anchor corresp="P18"/>[18]
     Another aspect of Coptic-Syriac relations evolved after the
     Arab invasion. Both Copts and Syrians were forced to translate
     their Christian literatures into a new language. Both churches
@@ -498,136 +534,106 @@
     found it very convenient to include some Syriac words as well
     in their translation, adding a Christian dimension to the
     meaning of the words. The Copts eventually borrowed from the
-    Syrians, enriching the Coptic-Arabic vocabulary with �loan�
-    Syriac words. These words became so much a part of the
-    language, that the average Copt is usually unaware that these
-    are Syriac loan words. As to the average Arab reader, they
-    sometimes think that these are Coptic loan words, since they do
-    not understand them, and since they are not found in any Arabic
-    dictionary. The Copts could have made use of only Greek
-    theological terms. They chose to include Syriac loan words as
-    well. This is an indication of the close relationship between
-    the Copts and Syrians.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] Here
+    Syrians, enriching the Coptic-Arabic vocabulary with
+    “loan” Syriac words. These words became so much a
+    part of the language, that the average Copt is usually unaware
+    that these are Syriac loan words. As to the average Arab
+    reader, they sometimes think that these are Coptic loan words,
+    since they do not understand them, and since they are not found
+    in any Arabic dictionary. The Copts could have made use of only
+    Greek theological terms. They chose to include Syriac loan
+    words as well. This is an indication of the close relationship
+    between the Copts and Syrians.</p>
+         <p>
+            <anchor corresp="P19"/>[19] Here
     are a few examples.<ref target="#FN49">49</ref> Copts employ some monastic terms that are
     loan words from Syriac. Copts use the Arabic <hi style="font-family:Iqraa;layout-grid-mode:line">vd]</hi>
-    (<hi rend="italic">deir</hi>) for �monastery� which comes from the Syriac
-    <hi rend="italic">dayr�</hi> 
-            <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@�[K</hi>. The Copts use this Syriac word, while
+    (<hi rend="italic">deir</hi>) for “monastery” which comes from
+    the Syriac <hi rend="italic">dayrâ</hi>
+            <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@‚[K</hi>. The Copts use this Syriac word, while
     neither the Greek nor the Coptic words for monastery have
     survived in current use. Another monastic term commonly used is
     <hi style="color:red; font-family:Iqraa">Mjdfv</hi>
-    (<hi rend="italic">rub�tah</hi>) which comes from the Syriac <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@�\DB</hi> (<hi rend="italic">rabbayta�</hi>) that is the
+    (<hi rend="italic">rubîtah</hi>) which comes from the Syriac
+    <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@ˆ\DB</hi> (<hi rend="italic">rabbayta’</hi>) that is the
     title given to the monastery manager.<ref target="#FN50">50</ref> The Arabic
     transliteration of the Greek words <hi style="color:red; font-family:Bwgrkl">oivkono,moj</hi>
     (<hi rend="italic">oikonomos</hi>) and sometimes <hi style="color:red; font-family:Bwgrkl">h`gou,menoj</hi>
     (<hi rend="italic">egoumenos</hi>) have survived in some of the Arabic
     literature, but <hi style="color:red; font-family:Iqraa">Mjdfv</hi> 
-            <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@�\DB�</hi> (<hi rend="italic">rub�tah</hi>), the Syriac
-    loan word, is the word mostly used.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
+            <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@ˆ\DB‚</hi>
+    (<hi rend="italic">rubîtah</hi>), the Syriac loan word, is the word
+    mostly used.</p>
+         <p>
+            <anchor corresp="P20"/>[20]
     Copts employ some Syriac liturgical terms as well. The verb to
     baptize <hi style="font -family:Iqraa">]lu</hi>
-    (<hi rend="italic">�mad</hi>) and <hi style="color:red; font-family:Iqraa">]luH</hi> (<hi rend="italic">u�mid</hi>) are
-    from the Syriac word <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">Jht@</hi> (<hi rend="italic">
-               <hi rend="sup">c</hi>mad</hi>). Both <hi style="color:red; font-family:Iqraa">]�lu</hi> (<hi rend="italic">�mad</hi>)
-    <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@Khs</hi>, the act of baptism, and <hi style="color:red; font-family:Iqraa">Md],l�l</hi>
-    (<hi rend="italic">ma�mudia</hi>) <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@�[KOhsg</hi> are from the Syriac root. The latter can
-    also be used to describe the baptismal font. The Godfather
-    present during baptism is <hi style="color:red; font-family:Iqraa">Kdfa</hi> (<hi rend="italic">�bin</hi>) and
-    <hi style="color:red; font-family:Iqraa">KdfaH</hi> (<hi rend="italic">a
-    �bin</hi>) from the Syriac <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">AQ\D�O�</hi> (<hi rend="italic">shawshbina</hi>).<ref target="#FN51">51</ref> These liturgical
-    terms were borrowed from the Syriac rather than Greek or
-    Coptic.</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+    (<hi rend="italic">‘mad</hi>) and <hi style="color:red; font-family:Iqraa">]luH</hi>
+    (<hi rend="italic">u‘mid</hi>) are from the Syriac word <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">Jht@</hi> (<hi rend="italic">
+               <hi rend="sup">c</hi>mad</hi>). Both <hi style="color:red; font-family:Iqraa">]ƒlu</hi>
+    (<hi rend="italic">‘mad</hi>) <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@Khs</hi>, the act of baptism, and <hi style="color:red; font-family:Iqraa">Md],l‹l</hi>
+    (<hi rend="italic">ma’mudia</hi>) <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@ˆ[KOhsg</hi> are from the Syriac root. The latter
+    can also be used to describe the baptismal font. The Godfather
+    present during baptism is <hi style="color:red; font-family:Iqraa">Kdfa</hi>
+    (<hi rend="italic">šbin</hi>) and <hi style="color:red; font-family:Iqraa">KdfaH</hi> (<hi rend="italic">a
+    šbin</hi>) from the Syriac <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">AQ\D…O…</hi>
+    (<hi rend="italic">shawshbina</hi>).<ref target="#FN51">51</ref> These liturgical terms were
+    borrowed from the Syriac rather than Greek or Coptic.</p>
+         <p>
+            <anchor corresp="P21"/>[21]
     Common and formal ecclesiastical terms borrowed from Syriac
-    include <hi style="color:red; font- family:Iqraa">Ki�;</hi>
+    include <hi style="color:red; font- family:Iqraa">Kiƒ;</hi>
     (<hi rend="italic">kahin</hi>) derived from the Hebrew and also used by the
-    Syrians <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">AlM</hi> priest <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">@�OkM_</hi> priesthood. The Copts also use the Arabic
-    term <hi style="color:red; font-family:Iqraa">Sr Sdsr</hi>
-    (<hi rend="italic">qis, qasis</hi>) from the Syriac word <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">A�\�}</hi> (<hi rend="italic">qashysha</hi>). It is the term
-    of choice when using informal language. The Arabic term
-    <hi style="color:red; font-family:Iqraa">S�la</hi>
-    (<hi rend="italic">�am�s</hi>, deacon), is derived from the Syriac word
-    <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">A�h�</hi> (<hi rend="italic">shamesh</hi>). In Christian Arabic it is
-    used to refer to all non-priests who serve at the altar
-    regardless of their exact rank, whether cantor, reader, or
-    sometimes even deacon, though for the rank of deacon, the word
-    <hi style="font-family:Iqraa">K,;�d]</hi> (<hi rend="italic">d�ak�n</hi>
-    derived from <hi style="color:red;font-family:Bwgrkl">dia,konoj</hi>) is usually
-    augmented to the word <hi style="color:red; font-family:Iqraa">S�la</hi> (<hi rend="italic">�am�s</hi>) to
-    designate the specific rank of deacon.<ref target="#FN52">52</ref>
+    Syrians <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">AlM</hi> priest <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">@‡OkM_</hi> priesthood. The Copts also use the
+    Arabic term <hi style="color:red; font-family:Iqraa">Sr
+    Sdsr</hi> (<hi rend="italic">qis, qasis</hi>) from the Syriac word
+    <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">Aƒ\ƒ}</hi> (<hi rend="italic">qashysha</hi>). It is the
+    term of choice when using informal language. The Arabic term
+    <hi style="color:red; font-family:Iqraa">Sƒla</hi>
+    (<hi rend="italic">šamâs</hi>, deacon), is derived from the
+    Syriac word <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">A…h„</hi> (<hi rend="italic">shamesh</hi>). In Christian
+    Arabic it is used to refer to all non-priests who serve at the
+    altar regardless of their exact rank, whether cantor, reader,
+    or sometimes even deacon, though for the rank of deacon, the
+    word <hi style="font-family:Iqraa">K,;ƒd]</hi>
+    (<hi rend="italic">dîakûn</hi> derived from <hi style="color:red;font-family:Bwgrkl">dia,konoj</hi>) is usually
+    augmented to the word <hi style="color:red; font-family:Iqraa">Sƒla</hi>
+    (<hi rend="italic">šamâs</hi>) to designate the specific rank of
+    deacon.<ref target="#FN52">52</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22]
+         <p>
+            <anchor corresp="P22"/>[22]
     Three other words frequently used by Copts are the Arabic
-    <hi style="color:red; font- family:Iqraa">v�l</hi>
-    (<hi rend="italic">m�r</hi> �saint�, the Arabic <hi style="color:red; font-family:Iqraa">vldl</hi>(<hi rend="italic">m�mar</hi>)
-    �homily� and the Arabic <hi style="color:red; font-family:Iqraa">�f,'</hi> (<hi rend="italic">t�ba</hi>)
-    �blessed.� The term for �Saint� <hi style="color:red; font-family:Iqraa">v�l</hi> (<hi rend="italic">m�r</hi>) is
-    derived from the Syriac <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">Z�g</hi> (<hi rend="italic">mar[i]</hi>) and is attached to most
-    saints� names as well as the Arabic word <hi style="color:red; font-family:Iqraa">Sd]r</hi> (<hi rend="italic">q�d�s</hi>)
-    derived from the Arabic root <hi style="color:red; font-family:Iqraa">S]r</hi>
+    <hi style="color:red; font- family:Iqraa">vƒl</hi>
+    (<hi rend="italic">mâr</hi> “saint”, the Arabic
+    <hi style="color:red; font-family:Iqraa">vldl</hi>(<hi rend="italic">mîmar</hi>)
+    “homily” and the Arabic <hi style="color:red; font-family:Iqraa">™f,'</hi>
+    (<hi rend="italic">tûba</hi>) “blessed.” The term for
+    “Saint” <hi style="color:red; font-family:Iqraa">vƒl</hi>
+    (<hi rend="italic">mâr</hi>) is derived from the Syriac <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">Z‚g</hi> (<hi rend="italic">mar[i]</hi>) and is attached to
+    most saints’ names as well as the Arabic word
+    <hi style="color:red; font-family:Iqraa">Sd]r</hi>
+    (<hi rend="italic">qîdîs</hi>) derived from the Arabic root
+    <hi style="color:red; font-family:Iqraa">S]r</hi>
     (<hi rend="italic">qds</hi>).<ref target="#FN53">53</ref> Both terms are used in official language
     indiscriminately. For example it is customary to say either
-    <hi style="color:red; font- family:Iqraa">Srvl v�l</hi> or
-    <hi style="color:red; font-family:Iqraa">Srvl Sd]rgh</hi>
-    (<hi rend="italic">m�r murqus</hi> or <hi rend="italic">alq�d�s murqus</hi>). The Arabic
-    term for �homily� <hi style="color:red; font-family:Iqraa&#34;&gt;vldl&lt;/span&gt; (&lt;em&gt;m�mar&lt;/em&gt;) is derived from the Syriac &lt;span lang=&#34;SYR&#34; dir=&#34;RTL&#34; style=&#34;color:blue; font-family:"
-                estrangelo="">@�gAg</hi> is commonly used, though it is
+    <hi style="color:red; font- family:Iqraa">Srvl
+    vƒl</hi> or <hi style="color:red; font-family:Iqraa">Srvl Sd]rgh</hi>
+    (<hi rend="italic">mâr murqus</hi> or <hi rend="italic">alqîdîs
+    murqus</hi>). The Arabic term for “homily”
+    <hi style="color:red; font-family:Iqraa&#34;&gt;vldl&lt;/span&gt; (&lt;em&gt;mîmar&lt;/em&gt;) is derived from the Syriac &lt;span lang=&#34;SYR&#34; dir=&#34;RTL&#34; style=&#34;color:blue; font-family:" estrangelo="">@‚gAg</hi> is commonly used, though it is
     primarily applied to early Christian homilies written by the
     early Fathers of the Church. The third common word is the
-    blessedness used in the beatitudes—the Arabic <hi style="color:red; font- family:Iqraa">�f,'</hi> (<hi rend="italic">t�ba</hi>)
-    derived from the Syriac <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">AlBOV</hi> (<hi rend="italic">te�b</hi>). The word has a similar root
-    in Hebrew, and it is the only word used to express blessedness
-    in the biblical sense in the Arabic language. In every case a
-    Syriac word was chosen instead of a Coptic or Greek term. This
-    is a simple demonstration of the impact of Coptic-Syriac
-    relations beyond dogmatic rhetoric.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23] Both
+    blessedness used in the beatitudes—the Arabic
+    <hi style="color:red; font- family:Iqraa">™f,'</hi>
+    (<hi rend="italic">tûba</hi>) derived from the Syriac <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">AlBOV</hi> (<hi rend="italic">te’b</hi>). The word has
+    a similar root in Hebrew, and it is the only word used to
+    express blessedness in the biblical sense in the Arabic
+    language. In every case a Syriac word was chosen instead of a
+    Coptic or Greek term. This is a simple demonstration of the
+    impact of Coptic-Syriac relations beyond dogmatic rhetoric.</p>
+         <p>
+            <anchor corresp="P23"/>[23] Both
     Orthodox Churches stem from two of the oldest civilizations of
     the world. The two Churches share a common history in many
     respects. Both Churches constantly experienced the presence of
@@ -653,8 +659,8 @@
     and the Ethiopian, the relationship between the Coptic and
     Syriac Churches has a special dynamic. I hope that this will be
     a starting point for further research.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV11N1Farag_Lang2">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> See, e.g. R.V. Sellers, <hi rend="italic">Two Ancient
     Christologies</hi> (London, 1940); idem, <hi rend="italic">The Council of
     Chalcedon</hi> (London, 1961). A. Grillmeier, <hi rend="italic">Christ in the
@@ -666,65 +672,69 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> The historical background of Deir el-Surian is
-    discussed in J. M. Fiey, �Copts et Syriaques. Contacts et
-    �changes,� <hi rend="italic">Studia Orientalia Christiana Collectanea</hi> 15
-    (1972-1973), 323-6; also an article about the painting
-    renovations in the monastery Karel C. Innem�e, �Deir al-Surian
-    (Egypt): conservation work of Autumn 2000,� <hi rend="italic">Hugoye: Journal
-    of Syrian Studies</hi>, vol. 4, no. 2 July 2001; Lucas Van
-    Rompay and Fr. Bijoul El-Souriany, �Syriac Papyrus Fragments
-    Recently Discovered in Deir Al-Surian (Egypt), <hi rend="italic">Hugoye:
-    Journal of Syrian Studies</hi>, vol. 4, no. 1 January 2001;
-    also an article about Peshitta texts found in the monastery by
-    Peter B. Dirksen, �Peshitta Institute Communication 19: East
-    and West, Old and Young, in the Text Tradition of the Old
-    Testament Peshitta,� <hi rend="italic">Vetus Testamentum</hi> 35 no.4 (1985),
+    discussed in J. M. Fiey, “Copts et Syriaques. Contacts et
+    échanges,” <hi rend="italic">Studia Orientalia Christiana
+    Collectanea</hi> 15 (1972-1973), 323-6; also an article about
+    the painting renovations in the monastery Karel C.
+    Innemée, “Deir al-Surian (Egypt): conservation
+    work of Autumn 2000,” <hi rend="italic">Hugoye: Journal of Syrian
+    Studies</hi>, vol. 4, no. 2 July 2001; Lucas Van Rompay and Fr.
+    Bijoul El-Souriany, “Syriac Papyrus Fragments Recently
+    Discovered in Deir Al-Surian (Egypt), <hi rend="italic">Hugoye: Journal of
+    Syrian Studies</hi>, vol. 4, no. 1 January 2001; also an
+    article about Peshitta texts found in the monastery by Peter B.
+    Dirksen, “Peshitta Institute Communication 19: East and
+    West, Old and Young, in the Text Tradition of the Old Testament
+    Peshitta,” <hi rend="italic">Vetus Testamentum</hi> 35 no.4 (1985),
     468-484. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> The life of Severus of Antioch can be found in,
-    John of Beth Aphthonia, <hi rend="italic">Vie de S�v�re</hi>, ed. and trans.
-    by M. �A. Kugener, <hi rend="italic">Patrologia Orientalis</hi>, 2 (Paris,
-    1907), 207-264. The main corpus of works such as letters and
-    homilies written and delivered by Severus of Antioch are found
-    in the CSCO series and the <hi rend="italic">Patrologia Orientalis</hi>.
-    Examples of other secondary works on Severus of Antioch,
-    include J. Lebon, <hi rend="italic">Le Monophysisme s�v�rien</hi> (Louvain,
-    1909); V.C. Samuel, �The Christology of Severus of Antioch,�
-    <hi rend="italic">Abba Salama</hi>, 4 (1973), 126-190; A. V��bus, �Discovery
-    of New Important <hi rend="italic">memre</hi> of Gewargi, the Bishop of the
-    Arabs,� <hi rend="italic">Journal of Semitic Studies,</hi> 18 (1973),
-    235-237; Iain R. Torrance, <hi rend="italic">Christology after Chalcedon,
-    Severus of Antioch and Sergius the Monophysite</hi> (Norwich:
-    Cnaterbury Press, 1988); R. C. Chestnut, <hi rend="italic">Three Monophysite
-    Christologies: Severus of Antioch, Philoxenus of Mabbug, and
-    Jacob of Sarug</hi> (Oxford Theological Monographs, 1976).</p>
+    John of Beth Aphthonia, <hi rend="italic">Vie de Sévère</hi>,
+    ed. and trans. by M. –A. Kugener, <hi rend="italic">Patrologia
+    Orientalis</hi>, 2 (Paris, 1907), 207-264. The main corpus of
+    works such as letters and homilies written and delivered by
+    Severus of Antioch are found in the CSCO series and the
+    <hi rend="italic">Patrologia Orientalis</hi>. Examples of other secondary
+    works on Severus of Antioch, include J. Lebon, <hi rend="italic">Le
+    Monophysisme sévèrien</hi> (Louvain, 1909); V.C.
+    Samuel, “The Christology of Severus of Antioch,”
+    <hi rend="italic">Abba Salama</hi>, 4 (1973), 126-190; A. Vööbus,
+    “Discovery of New Important <hi rend="italic">memre</hi> of Gewargi,
+    the Bishop of the Arabs,” <hi rend="italic">Journal of Semitic
+    Studies,</hi> 18 (1973), 235-237; Iain R. Torrance,
+    <hi rend="italic">Christology after Chalcedon, Severus of Antioch and Sergius
+    the Monophysite</hi> (Norwich: Cnaterbury Press, 1988); R. C.
+    Chestnut, <hi rend="italic">Three Monophysite Christologies: Severus of
+    Antioch, Philoxenus of Mabbug, and Jacob of Sarug</hi> (Oxford
+    Theological Monographs, 1976).</p>
          <p>Some works of John the Grammarian are edited by M. Richard
     and M. Aubineau in <hi rend="italic">Corpus Christianorum Series Graeca</hi>
     I, Turnhout, 1977. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> Julian Bishop of Halicarnassus died after 518 AD.
     He was deposed from his seat because he refused to adhere to
-    the Council of Chalcedon�s definition and sought refuge in
-    Alexandria. He disagreed with Severus of Antioch because he
+    the Council of Chalcedon’s definition and sought refuge
+    in Alexandria. He disagreed with Severus of Antioch because he
     upheld the idea of the incorruptibility of the body of Christ
     (Aphthartodocetic controversy). See F.L. Cross and E.A.
     Livingstone, <hi rend="italic">The Oxford Dictionary of the Christian
     Church</hi> (New York: Oxford University Press, 1998), 909;
-    also, R. Draguet, <hi rend="italic">Julien d�Halicarnasse et sa controverse
-    avec S�v�re d�Antioche sur l�incorruptibilit� du corps du
-    Christ</hi>, (Louvain, 1924). <ref target="#FNRef4">
+    also, R. Draguet, <hi rend="italic">Julien d’Halicarnasse et sa
+    controverse avec Sévère d’Antioche sur
+    l’incorruptibilité du corps du Christ</hi>,
+    (Louvain, 1924). <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> The Synaxarium text is simply written and is read
     to the whole congregation every liturgy. Thus this text is a
     good choice for a study that focuses on the relationship
@@ -733,7 +743,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> Bishop Peter, bishop of Melig, Bishop Michael,
     bishop of Atrib, and Bishop John, bishop of Borolus, <hi rend="italic">The
     Synaxarium</hi> 
@@ -750,26 +760,27 @@
     be <hi style="color:red; font-family:CopticSSK">Unh`i,</hi>
     19. Other Synaxarium editions have different compilers,
     occasionally leading to some date discrepancies and different
-    lists of saints or events for a day�s entry. For example, the
-    Alexandrian Synaxarium edited by Forget mentions that the
-    editors are �Bishop Michael, bishop of Atrib and Melig and
-    others.� I. Forget, ed. <hi rend="italic">Synaxarium Alexandrinum</hi>. CSCO,
-    vol 47, Ar. III, 18, t. 18, (Beryti, E Typographeo Catholico,
-    1905-26), 1. There are two different sets of editors for each
-    of the above mentioned editions. This has resulted into two
-    different compilations of the Synaxarium. Also R. Basset,
-    <hi rend="italic">Le synaxaire arabe jacobite (recension copte)</hi>, in
-    <hi rend="italic">Patrologia Orientalis</hi> 1, 3, 11, 16, 17, and 20
-    (1904-1929). Also R. Coquin, �Le synaxaire des coptes; un
-    nouveau t�moin de la recension de Haute-�gypte,� <hi rend="italic">Analecta
-    Bollandiana</hi> 96 (1978), 351-365. The edition of choice for
-    this study is the 1978 El- Mahaba edition. The reason for this
-    choice is that this study is concerned with church relations
-    past and present; therefore, the study and reference will be
-    limited to the modern edition (references to the Forget edition
-    is made for comparative purposes only), since the El-Mahaba
-    edition contains the collective memory of present day Coptic
-    Church goers.</p>
+    lists of saints or events for a day’s entry. For example,
+    the Alexandrian Synaxarium edited by Forget mentions that the
+    editors are “Bishop Michael, bishop of Atrib and Melig
+    and others.” I. Forget, ed. <hi rend="italic">Synaxarium
+    Alexandrinum</hi>. CSCO, vol 47, Ar. III, 18, t. 18, (Beryti, E
+    Typographeo Catholico, 1905-26), 1. There are two different
+    sets of editors for each of the above mentioned editions. This
+    has resulted into two different compilations of the Synaxarium.
+    Also R. Basset, <hi rend="italic">Le synaxaire arabe jacobite (recension
+    copte)</hi>, in <hi rend="italic">Patrologia Orientalis</hi> 1, 3, 11, 16,
+    17, and 20 (1904-1929). Also R. Coquin, “Le synaxaire des
+    coptes; un nouveau témoin de la recension de
+    Haute-Égypte,” <hi rend="italic">Analecta Bollandiana</hi> 96
+    (1978), 351-365. The edition of choice for this study is the
+    1978 El- Mahaba edition. The reason for this choice is that
+    this study is concerned with church relations past and present;
+    therefore, the study and reference will be limited to the
+    modern edition (references to the Forget edition is made for
+    comparative purposes only), since the El-Mahaba edition
+    contains the collective memory of present day Coptic Church
+    goers.</p>
          <p>The Coptic months are as follows:</p>
          <table>
             <row style="vertical-align:top">
@@ -780,7 +791,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">J,j</hi>
                </cell>
-               <cell rowspan="1" colspan="1">September 11/12 � October 9/10.</cell>
+               <cell rowspan="1" colspan="1">September 11/12 – October 9/10.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -788,9 +799,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Paopi</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">If�f</hi>
+                  <hi style="color:red; font-family:Iqraa">Ifƒf</hi>
                </cell>
-               <cell rowspan="1" colspan="1">October 11/12 � November 9/10.</cell>
+               <cell rowspan="1" colspan="1">October 11/12 – November 9/10.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -798,9 +809,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Hathor</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">v,j�i</hi>
+                  <hi style="color:red; font-family:Iqraa">v,jƒi</hi>
                </cell>
-               <cell rowspan="1" colspan="1">November 10/11 � December 9/10.</cell>
+               <cell rowspan="1" colspan="1">November 10/11 – December 9/10.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -808,9 +819,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Koiahk</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">:�d;</hi>
+                  <hi style="color:red; font-family:Iqraa">:—d;</hi>
                </cell>
-               <cell rowspan="1" colspan="1">December 10/11 � January 8/9.</cell>
+               <cell rowspan="1" colspan="1">December 10/11 – January 8/9.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -820,7 +831,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">If,'</hi>
                </cell>
-               <cell rowspan="1" colspan="1">January 9/10 � February 7/8.</cell>
+               <cell rowspan="1" colspan="1">January 9/10 – February 7/8.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -830,7 +841,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">vdalH</hi>
                </cell>
-               <cell rowspan="1" colspan="1">February 8/9 � March 9.</cell>
+               <cell rowspan="1" colspan="1">February 8/9 – March 9.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -838,9 +849,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Pharemhotep</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">J��lvf</hi>
+                  <hi style="color:red; font-family:Iqraa">Jƒ—lvf</hi>
                </cell>
-               <cell rowspan="1" colspan="1">March 10/11 � April 8.</cell>
+               <cell rowspan="1" colspan="1">March 10/11 – April 8.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -848,9 +859,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Pharmouthe</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">�],lvf</hi>
+                  <hi style="color:red; font-family:Iqraa">˜],lvf</hi>
                </cell>
-               <cell rowspan="1" colspan="1">April 9 � May 8.</cell>
+               <cell rowspan="1" colspan="1">April 9 – May 8.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -860,7 +871,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">Skaf</hi>
                </cell>
-               <cell rowspan="1" colspan="1">May 9 � June 7.</cell>
+               <cell rowspan="1" colspan="1">May 9 – June 7.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -870,7 +881,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">Ik,cf</hi>
                </cell>
-               <cell rowspan="1" colspan="1">June 8 � July 7.</cell>
+               <cell rowspan="1" colspan="1">June 8 – July 7.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -878,9 +889,9 @@
                </cell>
                <cell rowspan="1" colspan="1">Epep</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">Fdf�</hi>
+                  <hi style="color:red; font-family:Iqraa">Fdf†</hi>
                </cell>
-               <cell rowspan="1" colspan="1">July 8 � August 6.</cell>
+               <cell rowspan="1" colspan="1">July 8 – August 6.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -890,7 +901,7 @@
                <cell rowspan="1" colspan="1">
                   <hi style="color:red; font-family:Iqraa">nvsl</hi>
                </cell>
-               <cell rowspan="1" colspan="1">August 7 � September 5.</cell>
+               <cell rowspan="1" colspan="1">August 7 – September 5.</cell>
             </row>
             <row style="vertical-align:top">
                <cell rowspan="1" colspan="1">
@@ -899,10 +910,10 @@
                </cell>
                <cell rowspan="1" colspan="1">Pikogi Enabot</cell>
                <cell rowspan="1" colspan="1">
-                  <hi style="color:red; font-family:Iqraa">�skgh vd�wgh
-        v�agh</hi>
+                  <hi style="color:red; font-family:Iqraa">›skgh
+        vd‘wgh v—agh</hi>
                </cell>
-               <cell rowspan="1" colspan="1">September 6 � September 10.</cell>
+               <cell rowspan="1" colspan="1">September 6 – September 10.</cell>
             </row>
          </table>
          <p>(In leap years the dates from September to March differ but
@@ -911,38 +922,39 @@
     Orthodox reckoning. Other scholarly texts have another calendar
     reckoning which does not coincide with the Coptic Orthodox
     practice. I have included the Coptic months in order to refer
-    more easily to the saints� lives in the Synaxarium. <ref target="#FNRef6">
+    more easily to the saints’ lives in the Synaxarium.
+    <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> Matta-El-Meskeen, <hi rend="italic">Coptic Monasticism in the Age
     of St. Macarius</hi> (Nitrean Desert: Monastery of St. Macarius
     Press, 1984), 410-9. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> Ibid., 409-410. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> Burmester suggests that compilations of the
     Synaxarium were made by the end of the twelfth or beginning of
-    the thirteenth century. O.H.E. Burmester, �On the Date and
-    Authorship of the Arabic Synaxarium of the Coptic Church,�
-    <hi rend="italic">Journal of Theological Studies</hi> 39 (1938): 249-253.
-    Inner evidence supports the suggestion that the first
-    compilation began by the sixth century; further additions and
-    maybe major revisions took place in the twelfth and thirteenth
-    century. The latest addition was in the 1970s when the life of
-    the late Pope, Pope Cyril VI, was included after his departure
-    from this world. <ref target="#FNRef8">
+    the thirteenth century. O.H.E. Burmester, “On the Date
+    and Authorship of the Arabic Synaxarium of the Coptic
+    Church,” <hi rend="italic">Journal of Theological Studies</hi> 39
+    (1938): 249-253. Inner evidence supports the suggestion that
+    the first compilation began by the sixth century; further
+    additions and maybe major revisions took place in the twelfth
+    and thirteenth century. The latest addition was in the 1970s
+    when the life of the late Pope, Pope Cyril VI, was included
+    after his departure from this world. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> The topic of the relationship between the Coptic
     and Syriac Churches could be approached through history, the
     lives of the Patriarchs, or other sources. But for the sake of
@@ -950,22 +962,23 @@
     ecclesial relationship between both churches, the Synaxarium is
     an appropriate starting point. For example, in the Synaxarium
     we find that the relationship with the Armenian Church is
-    rather minimal. However, if we look at Severus Ibn-El-Muqafaa�s
-    history we find a different relationship with the Armenian
-    Church. In the life of Pope Cyril II, we read about the visit
-    of Gregory, the Armenian Patriarch. We also know of a saintly
-    Armenian monk in the Monastery of St. Macarius who could
-    perform exorcism. We also know that the majority of the Am�r-
-    al-Guy�s army were Armenians. Sawirus Ibn Al-Mukaffa,
-    <hi rend="italic">History of the Patriarchs of the Egyptian Church, Known as
-    the History of the Holy Church,</hi> Aziz Suryal Atiya, Yassa
-    Abd Al-Masih, and O.H.E. Khs.-Burmester, ed. Vol. 2 Part 3 (Le
-    Caire, Publications de la Soci�t� d�arch�ologie copte), 344-6.
-    <ref target="#FNRef9">
+    rather minimal. However, if we look at Severus
+    Ibn-El-Muqafaa’s history we find a different relationship
+    with the Armenian Church. In the life of Pope Cyril II, we read
+    about the visit of Gregory, the Armenian Patriarch. We also
+    know of a saintly Armenian monk in the Monastery of St.
+    Macarius who could perform exorcism. We also know that the
+    majority of the Amîr- al-Guyûš’s army
+    were Armenians. Sawirus Ibn Al-Mukaffa, <hi rend="italic">History of the
+    Patriarchs of the Egyptian Church, Known as the History of the
+    Holy Church,</hi> Aziz Suryal Atiya, Yassa Abd Al-Masih, and
+    O.H.E. Khs.-Burmester, ed. Vol. 2 Part 3 (Le Caire,
+    Publications de la Société
+    d’archéologie copte), 344-6. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> 
             <hi style="color:red; font-family:CopticSSK">Unh`i</hi> (Koiakh) 1, St.
     Peter of Edessa, bishop of Gaza. <hi style="color:red; font-family:CopticSSK">Kduhp</hi> (Meshir) 9, Mar
@@ -975,7 +988,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> 
             <hi style="color:red; font-family:CopticSSK">T`p`knsgh</hi>
     (Pharmouthe) 15, Consecration of the first altar for the
@@ -989,7 +1002,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> 
             <hi style="color:red; font-family:CopticSSK">O`noh</hi> (Paopi) 2, the
     coming of St. Severus, Patriarch of Antioch, to Egypt.
@@ -1004,7 +1017,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> 
             <hi style="color:red; font-family:CopticSSK">O`xwlq</hi> (Pashons) 27,
     Pope Johannes, 30<hi rend="sup">th</hi> Pope of Alexandria. <hi style="color:red; font-family:CopticSSK">O`noh</hi> (Paopi) 17,
@@ -1017,7 +1030,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> 
             <hi style="color:red; font-family:CopticSSK">Gwnsr</hi> (Thoout) 14,
     St. Agathon the Stylite. Though Agathon was an Egyptian monk,
@@ -1028,7 +1041,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> 
             <hi style="color:red; font-family:CopticSSK">Unh`I</hi> (Koiahk) 28,
     St. Paul the Syrian. <hi style="font-family:CopticSSK">Kdqwpf</hi> (Mesore) 23, Martyrdom of
@@ -1036,7 +1049,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> Fifteen of the saints were martyrs who
     suffered during the four periods of persecution that most of
     the Christian churches endured before the time of Constantine.
@@ -1051,7 +1064,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> 
             <hi style="color:red; font-family:CopticSSK">T`p`knsgh</hi>
     (Pharmouthe) 19, The martyrdom of Symeon, the Armenian Bishop
@@ -1062,14 +1075,14 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> 
             <hi style="color:red; font-family:CopticSSK">Gwnsr</hi> (Thoout) 17,
     St. Theognosta. <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> 
             <hi style="color:red; font-family:CopticSSK">Kdqwpf</hi> (Mesore) 24,
     Commemorating the departure of St. Thekla Haimanot the
@@ -1077,58 +1090,62 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> This article will not attempt to investigate
-    the authenticity of names, dates, places etc� mentioned in the
-    Synaxarium. It is a study of its own to investigate each
+    the authenticity of names, dates, places etc… mentioned
+    in the Synaxarium. It is a study of its own to investigate each
     account and to cross-reference it with other manuscript
     traditions and with traditions of other churches to arrive at a
-    conclusive saint�s life or historical event. This is beyond the
-    scope of this study. This study intends to focus on the
-    tradition that is already in use in everyday liturgical books
-    and how this affects the conception of the Coptic laity about
-    the Syrian Church. The congregation sitting in the pews does
-    not ask if this story or event is authentic, or if the dates
-    agree with other historical scholarship. These narratives are
-    for the spiritual nurture of the believers and it is quite
+    conclusive saint’s life or historical event. This is
+    beyond the scope of this study. This study intends to focus on
+    the tradition that is already in use in everyday liturgical
+    books and how this affects the conception of the Coptic laity
+    about the Syrian Church. The congregation sitting in the pews
+    does not ask if this story or event is authentic, or if the
+    dates agree with other historical scholarship. These narratives
+    are for the spiritual nurture of the believers and it is quite
     sufficient for the listeners that it has been handed down from
     one generation to another in this form. <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef21">21</ref> Crum�s article is based on many of the
-    Synaxarium�s narratives. W.E. Crum, �S�v�re d� Antioche en
-    Egypte,�<hi rend="italic">Revue de l�Orient Chr�tien</hi> Tome III (XXIII)
-    Ser, 3 (1922-3), 92-104. See also Forget, vol. 47, 48-9.
-    Severus� arrival to Egypt is also mentioned under the entry of
-    Pope Timothy (32<hi rend="sup">nd</hi> Pope of Alexandria) in B. Evetts,
-    <hi rend="italic">History of the Patriarchs of the Coptic Church of
-    Alexandria (S. Mark to Benjamin I)</hi>, ed. R. Griffin and F.
-    Nau, <hi rend="italic">Patrologia Orientalis, Tomus Primus</hi> (Paris,
-    1907), 451-455. See also Youhanna Nessim Youssef, �Severus of
-    Antioch in the Coptic Liturgical Books,� <hi rend="italic">Journal of Coptic
-    Studies</hi> Vol 6 (NJ, 2004), 139-148. <ref target="#FNRef21">
+         <p>
+            <ref target="#FNRef21">21</ref> Crum’s article is based on many of the
+    Synaxarium’s narratives. W.E. Crum,
+    “Sévère d’ Antioche en
+    Egypte,”<hi rend="italic">Revue de l’Orient Chrétien</hi>
+    Tome III (XXIII) Ser, 3 (1922-3), 92-104. See also Forget, vol.
+    47, 48-9. Severus’ arrival to Egypt is also mentioned
+    under the entry of Pope Timothy (32<hi rend="sup">nd</hi> Pope of
+    Alexandria) in B. Evetts, <hi rend="italic">History of the Patriarchs of the
+    Coptic Church of Alexandria (S. Mark to Benjamin I)</hi>, ed.
+    R. Griffin and F. Nau, <hi rend="italic">Patrologia Orientalis, Tomus
+    Primus</hi> (Paris, 1907), 451-455. See also Youhanna Nessim
+    Youssef, “Severus of Antioch in the Coptic Liturgical
+    Books,” <hi rend="italic">Journal of Coptic Studies</hi> Vol 6 (NJ,
+    2004), 139-148. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef22">22</ref> Van der Meer addressed the problem of the
     presence of Empress Theodora in her article. Anneke van der
-    Meer , �Het verblijf van Severus van Antiochi� in Egypte,�
-    <hi rend="italic">Het Christelijk Oosten</hi> 48 (1996), 53-4. <ref target="#FNRef22">
+    Meer , “Het verblijf van Severus van Antiochië in
+    Egypte,” <hi rend="italic">Het Christelijk Oosten</hi> 48 (1996), 53-4.
+    <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> From <hi style="color:red; font-family:Bwgrkl">prosfe,rw</hi>
-    (<hi rend="italic">prosphero</hi>) which literally means offering �of
-    Eucharist as sacrifice� G.W.H. Lampe, <hi rend="italic">A Patristic Greek
-    Lexicon</hi> (Oxford: At the Clarendon Press, 1994), 1183-4. In
-    the Coptic liturgy it refers to the set of prayers that are
-    recited from the offering of the Eucharistic Lamb till the
-    prayers of the �kiss of peace� after the Gospel reading. At the
-    end of these prayers the altar cover is raised (<hi style="color:red; font-family:Bwgrkl">prosfe,rein</hi>,
+    (<hi rend="italic">prosphero</hi>) which literally means offering “of
+    Eucharist as sacrifice” G.W.H. Lampe, <hi rend="italic">A Patristic
+    Greek Lexicon</hi> (Oxford: At the Clarendon Press, 1994),
+    1183-4. In the Coptic liturgy it refers to the set of prayers
+    that are recited from the offering of the Eucharistic Lamb till
+    the prayers of the “kiss of peace” after the Gospel
+    reading. At the end of these prayers the altar cover is raised
+    (<hi style="color:red; font-family:Bwgrkl">prosfe,rein</hi>,
     prospherein) marking the beginning of the liturgical prayers of
     the anaphora and the consecration of the Eucharistic Lamb.
     Therefore, the disappearance of the Qorban at this moment led
@@ -1138,79 +1155,82 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef24">24</ref> The entry of <hi style="color:red; font-family:CopticSSK">Kduhp</hi> (Meshir) 7,
-    explains that the �Pateron Monastery�, i.e. the Monastery of
-    the Fathers (<hi style="color:red; font- family:Bwgrkl">pate,rwn</hi>) is what is
-    presently known as <hi style="color:red; font- family:Iqraa">{�[.gh vd]</hi> (Deir
+    explains that the “Pateron Monastery”, i.e. the
+    Monastery of the Fathers (<hi style="color:red; font- family:Bwgrkl">pate,rwn</hi>) is what is
+    presently known as <hi style="color:red; font- family:Iqraa">{ƒ[.gh vd]</hi> (Deir
     Al-Zugag). This monastery is located on the coast of the
     Mediterranean Sea about 46 km to the west of Alexandria and is
     presently used as a military base. Historically this area was
     accessible by boat through a branch of the River Nile and then
     to Lake Mareotis that is presently dried up. Butler disagrees
     with the Synaxarium account, for, based on his research, he
-    reached the opinion that <hi style="font-family:Iqraa;layout-grid-mode: line">{�[.gh vd]</hi>
-    (Deir Al-Zugag) is the Ennaton Monastery. Alfred J. Butler,
-    <hi rend="italic">The Arab Conquest of Egypt and the Last Thirty Years of the
-    Roman Dominion</hi> (Oxford: At the Clarendon Press, 1902), 74.
-    The translation of St. Severus� relic is mentioned in Forget,
-    vol. 48, 146-7 under the entry of <hi style="color:red; font-family:CopticSSK">Unh`i</hi> (Koiahk) 10.
-    <ref target="#FNRef24">
+    reached the opinion that <hi style="font-family:Iqraa;layout-grid-mode: line">{ƒ[.gh
+    vd]</hi> (Deir Al-Zugag) is the Ennaton Monastery. Alfred J.
+    Butler, <hi rend="italic">The Arab Conquest of Egypt and the Last Thirty
+    Years of the Roman Dominion</hi> (Oxford: At the Clarendon
+    Press, 1902), 74. The translation of St. Severus’ relic
+    is mentioned in Forget, vol. 48, 146-7 under the entry of
+    <hi style="color:red; font-family:CopticSSK">Unh`i</hi>
+    (Koiahk) 10. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef25">25</ref> Forget, vol. 48, 266-8. <hi style="color:red; font-family:CopticSSK">Kduhp</hi> (Meshir) 14.
     <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> Forget, vol. 48, 266. <hi style="color:red; font-family:CopticSSK">Kduhp</hi> (Meshir) 13.
     That is one day before the Coptic Church celebrates the
-    Severus� death on <hi style="color:red; font- family:CopticSSK">Kduhp</hi> (Meshir) 14.
+    Severus’ death on <hi style="color:red; font- family:CopticSSK">Kduhp</hi> (Meshir) 14.
     <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> This is in reference to the events mentioned
     on <hi style="color:red; font- family:CopticSSK">Kduhp</hi>
     (Meshir) 13. This narrative is different from the entry of
-    Pharmouthe 7 in Forget�s edition where the Synaxarium has a
-    one-line entry which mentions that Maqrophios was the son of
+    Pharmouthe 7 in Forget’s edition where the Synaxarium has
+    a one-line entry which mentions that Maqrophios was the son of
     Abu Moussa the owner of Deir El-Baliana. Forget, vol. 67, 65.
     <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> It is also worthwhile mentioning that St.
     John Chrysostom is mentioned before Saint Cyril in the diptych.
     Fiey in his article mentions other liturgical insights. Fiey,
-    346-9. See also H. Brackmann, �Severos unter den Alexandrinen,�
-    <hi rend="italic">Jahrbuch f�r Antike und Christentum</hi> 26 (1983): 54-58;
-    S.P. Brock, �Tenth-century diptychs of the Coptic Orthodox
-    Church in Syriac Manuscripts,� <hi rend="italic">Bulletin de la Societ�
-    d�Arch�ologie Copte</hi> 26 (1984): 23-29; Y.N. Youssef, �The
-    Cult of Severus of Antioch in Egypt,� <hi rend="italic">Ephemerides
-    Liturgicae</hi> 115 (2001): 101-107; �Severus of Antioch in the
-    Coptic Theotokia,� in B. Neil and others (eds), <hi rend="italic">Prayer and
-    Spirituality in the Early Church</hi> III (Brisbane, 2003),
-    93-108; �Severus of Antioch in the Coptic Liturgical Books,�
-    <hi rend="italic">Journal of Coptic Studies</hi> 6(2004): 141-150. <ref target="#FNRef28">
+    346-9. See also H. Brackmann, “Severos unter den
+    Alexandrinen,” <hi rend="italic">Jahrbuch für Antike und
+    Christentum</hi> 26 (1983): 54-58; S.P. Brock,
+    “Tenth-century diptychs of the Coptic Orthodox Church in
+    Syriac Manuscripts,” <hi rend="italic">Bulletin de la Societé
+    d’Archéologie Copte</hi> 26 (1984): 23-29; Y.N.
+    Youssef, “The Cult of Severus of Antioch in Egypt,”
+    <hi rend="italic">Ephemerides Liturgicae</hi> 115 (2001): 101-107;
+    “Severus of Antioch in the Coptic Theotokia,” in B.
+    Neil and others (eds), <hi rend="italic">Prayer and Spirituality in the Early
+    Church</hi> III (Brisbane, 2003), 93-108; “Severus of
+    Antioch in the Coptic Liturgical Books,” <hi rend="italic">Journal of
+    Coptic Studies</hi> 6(2004): 141-150. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> Simeon is mentioned as Simeon the Recluse in
-    Forget�s edition on Mesore 3. See Forget, vol. 67, 253-4.
+    Forget’s edition on Mesore 3. See Forget, vol. 67, 253-4.
     However, St. Barsauma is mentioned on Pahons 9; Forget, vol.
     48, 256-8. <ref target="#FNRef29">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> 
             <hi style="color:red; font-family:CopticSSK">Gwnsr</hi> (Thoout) 14;
     Forget, vol. 47, 22-3. The stylite ascetic way of life did not
@@ -1219,35 +1239,36 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef31">31</ref> Peter of Edessa is commemorated on
     <hi style="color:red; font-family:CopticSSK">Unh`i</hi>
     (Koiahk) 1. See, Forget, vol. 47, 131-2. <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> For brief references to documents
-    attributing the title �pope� to the bishop of Alexandria see
-    Norman Russell, <hi rend="italic">Cyril of Alexandria,</hi> The Early Church
-    Fathers, ed. Carol Harrison (New York: Routledge, 2000), 208.
-    <ref target="#FNRef32">
+    attributing the title “pope” to the bishop of
+    Alexandria see Norman Russell, <hi rend="italic">Cyril of Alexandria,</hi>
+    The Early Church Fathers, ed. Carol Harrison (New York:
+    Routledge, 2000), 208. <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef33">33</ref> A letter of faith is a letter that states
     clearly the faith of the Patriarch who writes it. It might also
     include the Nicean Creed with further elaboration on the
-    Trinity and Christological issues that ensure that the writer�s
-    theology conforms to the non- Chalcedonian faith. Historical
-    sources other than the Synaxarium inform us that this exchange
-    took place on a regular basis whenever a change in the
-    hierarchy of any of Coptic or Syrian churches occurs. <ref target="#FNRef33">
+    Trinity and Christological issues that ensure that the
+    writer’s theology conforms to the non- Chalcedonian
+    faith. Historical sources other than the Synaxarium inform us
+    that this exchange took place on a regular basis whenever a
+    change in the hierarchy of any of Coptic or Syrian churches
+    occurs. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef34">34</ref> 
             <hi style="color:red; font-family:CopticSSK">O`xwlq</hi> (Pashons) 27.
     The date of his ordination (AD 505) and the date of his death
@@ -1258,81 +1279,82 @@
     Fortress Press, 1985), 972. Pope Johannes II is not to be
     confused with John, Bishop of Nikiou the chronicle writer who
     was born around AD 640-2 and was alive until year AD 696, when
-    he was appointed as �general administrator of the Monasteries.�
-    See Robert Henry Charles, <hi rend="italic">The Chronicle of John (c. A.D
-    690.) Coptic Bishop of Nikiu</hi> (Amsterdam, APA-Philo Press),
-    iii. <ref target="#FNRef34">
+    he was appointed as “general administrator of the
+    Monasteries.” See Robert Henry Charles, <hi rend="italic">The Chronicle
+    of John (c. A.D 690.) Coptic Bishop of Nikiu</hi> (Amsterdam,
+    APA-Philo Press), iii. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> 
             <hi style="color:red; font-family:CopticSSK">O`noh</hi> (Paopi) 17.
     <ref target="#FNRef35">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef36">36</ref> 
             <hi style="color:red; font-family:CopticSSK">O`noh</hi> (Paopi) 25.
     <ref target="#FNRef36">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef37">37</ref> 
             <hi style="color:red; font-family:CopticSSK">Unh`i</hi> (Koiahk) 22.
     <ref target="#FNRef37">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef38">38</ref> Peter of Callinicum, patriarch of Antioch,
     581 - 591 AD. Frend, 982. Athanasius, patriarch of Antioch, AD
     595-631. Ibid., 984. <ref target="#FNRef38">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef39">39</ref> Butler writes his own version of the events
-    taking a more historical perspective. ��[I]n the early autumn
-    of 615 AD, the Coptic Patriarch Anastasius received a visit
-    from Athanasius, the Patriarch of Antioch, who had been
-    dispossessed by the Persian invasion. They met, as has been
-    stated, in the celebrated Ennaton monastery on the sea-coast
-    westward of Alexandria. One or two bishops from Syria probably
-    accompanied their Patriarch; others, like Thomas of Harkel and
-    Paul of Tella, were already settled at the monastery, working
-    hard at their great task of revising the Syriac version of the
-    Bible collation of the Greek: and yet others were in Egypt as
-    refugees. For �while the Persians were ravaging Syria, all who
-    could escape from their hands � laymen of all ranks, and clergy
-    of all ranks with their bishops � fled for refuge to
-    Alexandria.� (Gelzer�s <hi rend="italic">Leontius von Neapolis,</hi> Anhang
-    ii. P112). It is therefore extremely probable that, as
-    tradition avers, five Syrian bishops were present at the
-    meeting of the two Patriarchs, which resulted in the
-    establishment of union between the Syrian and the Coptic
-    Church. Athanasius only remained a month in Egypt, after which
-    he returned to Syria...� Alfred J. Butler, <hi rend="italic">The Arab
-    Conquest of Egypt and the Last Thirty Years of the Roman
-    Dominion</hi> (Oxford: At the Clarendon Press, 1998), 69-70.
-    <ref target="#FNRef39">
+    taking a more historical perspective. “…[I]n the
+    early autumn of 615 AD, the Coptic Patriarch Anastasius
+    received a visit from Athanasius, the Patriarch of Antioch, who
+    had been dispossessed by the Persian invasion. They met, as has
+    been stated, in the celebrated Ennaton monastery on the
+    sea-coast westward of Alexandria. One or two bishops from Syria
+    probably accompanied their Patriarch; others, like Thomas of
+    Harkel and Paul of Tella, were already settled at the
+    monastery, working hard at their great task of revising the
+    Syriac version of the Bible collation of the Greek: and yet
+    others were in Egypt as refugees. For “while the Persians
+    were ravaging Syria, all who could escape from their hands
+    – laymen of all ranks, and clergy of all ranks with their
+    bishops – fled for refuge to Alexandria.’
+    (Gelzer’s <hi rend="italic">Leontius von Neapolis,</hi> Anhang ii.
+    P112). It is therefore extremely probable that, as tradition
+    avers, five Syrian bishops were present at the meeting of the
+    two Patriarchs, which resulted in the establishment of union
+    between the Syrian and the Coptic Church. Athanasius only
+    remained a month in Egypt, after which he returned to
+    Syria...” Alfred J. Butler, <hi rend="italic">The Arab Conquest of
+    Egypt and the Last Thirty Years of the Roman Dominion</hi>
+    (Oxford: At the Clarendon Press, 1998), 69-70. <ref target="#FNRef39">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef40">40</ref> Fiey mentions the exchange of five �synodal
-    letters� between the Patriarchs of Alexandria and Antioch from
-    the ninth to the twelfth century. J.M. Fiey, �Coptes et
-    Syriaques. Contacts et �changes,� <hi rend="italic">Studia Orientalia
-    Christiana</hi>. <hi rend="italic">Collectanea</hi> 15 (1972- 1973), 349-53.
-    He also records visits from the Syrian Church until the twelfth
-    century. <ref target="#FNRef40">
+         <p>
+            <ref target="#FNRef40">40</ref> Fiey mentions the exchange of five
+    “synodal letters” between the Patriarchs of
+    Alexandria and Antioch from the ninth to the twelfth century.
+    J.M. Fiey, “Coptes et Syriaques. Contacts et
+    échanges,” <hi rend="italic">Studia Orientalia Christiana</hi>.
+    <hi rend="italic">Collectanea</hi> 15 (1972- 1973), 349-53. He also records
+    visits from the Syrian Church until the twelfth century.
+    <ref target="#FNRef40">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef41">41</ref> Fiey mentions that the first Syrian
     patriarch on Alexandria was Damian (AD 576-605). Fiey, 316.
     However, the Synaxarium mentions only three patriarchs and
@@ -1340,21 +1362,21 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef42">42</ref> 
             <hi style="color:red; font-family:CopticSSK">Dofo</hi> (Epep) 24.
     <ref target="#FNRef42">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef43">43</ref> 
             <hi style="color:red; font-family:CopticSSK">Dofo</hi> (Epep) 19.
     <ref target="#FNRef43">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef44">44</ref> 
             <hi style="color:red; font-family:CopticSSK">Unh`i</hi> (Koiahk) 6. He
     was elected in year AD 968. His tenure lasted for three years
@@ -1362,12 +1384,12 @@
     Burmester, <hi rend="italic">History of the Patriarchs of the Egyptian Church
     Known as the History of the Holy Church, by Sawirus Ibn
     Al-Mukaffa Bishop of Al-Ashmunin</hi>, (AD 849-880), vol. II
-    Part I (Le Caire: Publications de la Soci�t� d�Arch�ologie
-    Copte, 1943), 91-100. <ref target="#FNRef44">
+    Part I (Le Caire: Publications de la Société
+    d’Archéologie Copte, 1943), 91-100. <ref target="#FNRef44">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef45">45</ref> According to a <hi rend="italic">Katameros</hi> footnote
     the Week of Heraclius is based on what is mentioned in the
     history book written by Patriarch Eutychius the Melkite. The
@@ -1398,32 +1420,33 @@
     Weekdays of the Great Lent according to the Order of the Coptic
     Orthodox Church</hi> (The Commission of Publication in the
     Diocese of Beni-Suef, 1986), footnote 2, p26. [The word
-    �Katameros� is equivalent to the word �Lectionary� and is
-    derived from the Greek <hi style="color:red; font-family:Bwgrkl">kata. me,roj</hi> (<hi rend="italic">Kata
-    meros</hi>).] What the <hi rend="italic">Katameros</hi> failed to mention, as
-    written in the chronicles of Eutychius, is that all the other
-    churches stopped this fast after the death of Heraclius except
-    the Coptic Church. See L. Cheikho, B. Carra De Vaux, and H.
-    Zayyat, <hi rend="italic">Eutychii Patriarchae Alexandrini Annales</hi>,
-    CSCO, vol 51, Ser. 3, T. 7, (Beryti E Typographeo Catholico,
-    1909), 7. Strangely enough though this incident has affected
-    the church fasting calendar, Severus Ibn-El-Muqafaa, bishop of
-    El-Ashmounien does not mention this important event in his
-    <hi rend="italic">History of the Patriarchs</hi>. Though Severus mentions the
-    savagery of the Persian invasions he could have easily
-    commented on such an event. [Both references are for the life
-    of Pope Andronikos who these events occurred during his
-    tenure]. R. Graffin � F. Nau, <hi rend="italic">History of the Patriarchs of
-    the Coptic Church of Alexandria (S. Mark to Benjamon 1)</hi>,
-    Patrologia Orientalis Tomus Primus, II and IV, B. Evetts, eds.
-    (Librairie de Paris, 1907), 484-6. And C.F. Seybold,
-    <hi rend="italic">Severus ben el-Muqafa�,</hi> 
-            <hi rend="italic">Historia patriarcharum
-    Alexandrinorum</hi>, CSCO, vol 52, Ar.8 = Ar. III, 9, T,
-    (Beryti E Typograhes Catholics, 1904), 103-4. The Synaxarium
-    also does not mention any establishment of a new fast in the
-    Church in the life of Pope Andronikos, 37<hi rend="sup">th</hi> pope of
-    Alexandria, <hi style="color:red; font-family:CopticSSK">Rwah</hi> (Tobe) 8. This
+    “Katameros” is equivalent to the word
+    “Lectionary” and is derived from the Greek
+    <hi style="color:red; font-family:Bwgrkl">kata. me,roj</hi>
+    (<hi rend="italic">Kata meros</hi>).] What the <hi rend="italic">Katameros</hi> failed to
+    mention, as written in the chronicles of Eutychius, is that all
+    the other churches stopped this fast after the death of
+    Heraclius except the Coptic Church. See L. Cheikho, B. Carra De
+    Vaux, and H. Zayyat, <hi rend="italic">Eutychii Patriarchae Alexandrini
+    Annales</hi>, CSCO, vol 51, Ser. 3, T. 7, (Beryti E Typographeo
+    Catholico, 1909), 7. Strangely enough though this incident has
+    affected the church fasting calendar, Severus Ibn-El-Muqafaa,
+    bishop of El-Ashmounien does not mention this important event
+    in his <hi rend="italic">History of the Patriarchs</hi>. Though Severus
+    mentions the savagery of the Persian invasions he could have
+    easily commented on such an event. [Both references are for the
+    life of Pope Andronikos who these events occurred during his
+    tenure]. R. Graffin – F. Nau, <hi rend="italic">History of the
+    Patriarchs of the Coptic Church of Alexandria (S. Mark to
+    Benjamon 1)</hi>, Patrologia Orientalis Tomus Primus, II and
+    IV, B. Evetts, eds. (Librairie de Paris, 1907), 484-6. And C.F.
+    Seybold, <hi rend="italic">Severus ben el-Muqafa’,</hi>
+            <hi rend="italic">Historia
+    patriarcharum Alexandrinorum</hi>, CSCO, vol 52, Ar.8 = Ar.
+    III, 9, T, (Beryti E Typograhes Catholics, 1904), 103-4. The
+    Synaxarium also does not mention any establishment of a new
+    fast in the Church in the life of Pope Andronikos,
+    37<hi rend="sup">th</hi> pope of Alexandria, <hi style="color:red; font-family:CopticSSK">Rwah</hi> (Tobe) 8. This
     is considered an important change in the liturgical calendar
     and should have been mentioned in the life of a Patriarch. John
     of Nikiou also does not make any reference to such an incident,
@@ -1449,25 +1472,25 @@
     compensating the Sabbaths where abstinence from food is
     prohibited. In conclusion, the explanation of the Week of
     Heraclius raises more questions than answers. It was only
-    mentioned in the Melkite historian and Patriarch Eutychius�
-    history and not mentioned in any of the Coptic sources. In
-    addition, the rest of the churches do not follow this custom
-    any more. The authenticity of such an event needs further
-    study. In connection with our topic, it is most probable that
-    the Copts simply fasted the three days of Jonah in accordance
-    with Pope Abraam�s wishes since he was accustomed to keep this
-    fast in Syria, and the Copts willingly complied, simply because
-    he proved such piety, especially in the movement of the
-    mountain. <ref target="#FNRef45">
+    mentioned in the Melkite historian and Patriarch
+    Eutychius’ history and not mentioned in any of the Coptic
+    sources. In addition, the rest of the churches do not follow
+    this custom any more. The authenticity of such an event needs
+    further study. In connection with our topic, it is most
+    probable that the Copts simply fasted the three days of Jonah
+    in accordance with Pope Abraam’s wishes since he was
+    accustomed to keep this fast in Syria, and the Copts willingly
+    complied, simply because he proved such piety, especially in
+    the movement of the mountain. <ref target="#FNRef45">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef46">46</ref> Ibid., 4. <ref target="#FNRef46">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef47">47</ref> The Copts observe the strictest fast during
     the Great Lent and Fridays and Wednesdays and the Fast of
     Jonah. No animal products are eaten during that time, not even
@@ -1475,7 +1498,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef48">48</ref> Six centuries later, in AD 1587, Pope
     Gabriel VIII, Pope 97 of Alexandria, was ordained to the See of
     St. Mark. He ordered that the Copts were not to fast the Fast
@@ -1483,10 +1506,10 @@
     the fast is still practiced to this day. It is important to
     note that Pope Gabriel wanted to introduce other changes in the
     fasts of the Coptic Church. He wanted to limit the Fast of the
-    Apostles to fourteen days (from <hi style="color:red; font-family:CopticSSK">O`wlh</hi> [Paone] 21 �
-    <hi style="color:red; font- family:CopticSSK">Dofo</hi>
-    [Epep] 5). The way this fast is calculated is that it begins
-    the second day of Pentecost and ends on <hi style="color:red; font-family:CopticSSK">Dofo</hi> (Epep) 5, the
+    Apostles to fourteen days (from <hi style="color:red; font-family:CopticSSK">O`wlh</hi> [Paone] 21
+    – <hi style="color:red; font- family:CopticSSK">Dofo</hi> [Epep] 5). The
+    way this fast is calculated is that it begins the second day of
+    Pentecost and ends on <hi style="color:red; font-family:CopticSSK">Dofo</hi> (Epep) 5, the
     Feast of the Apostles Peter and Paul. Therefore, the beginning
     of the fast is variable, since Pentecost does not have a fixed
     day in the Liturgical calendar. His attempts to change the date
@@ -1504,68 +1527,64 @@
     Burmester, <hi rend="italic">History of the Patriarchs of the Egyptian Church
     Known as the History of the Holy Church, by Sawirus Ibn
     Al-Mukaffa Bishop of Al- Ashmunin</hi>, (AD 849-880), Vol. III
-    Part III, (Le Caire: Publications de la Soci�t� d� Arch�ologie
-    Copte, 1970), 159. <ref target="#FNRef48">
+    Part III, (Le Caire: Publications de la Société
+    d’ Archéologie Copte, 1970), 159. <ref target="#FNRef48">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef49">49</ref> Graf�s study of Arabic Christian terms needs
-    to be updated and does not discuss the notion of transmission
-    of terms from one language to the other. Georg Graf,
-    <hi rend="italic">Verzeichnis Arabischer Kirchlicher Termini</hi>, CSCO
-    vol.147, Tome 8, (Louvain: 1954). Blau�s work is also useful:
-    Joshua Blau, <hi rend="italic">A Grammar of Christian Arabic, Based Mainly on
-    South Palestinian Texts from the first Millennium,</hi> CSCO
-    vol. 267, Sub, t. 27. Louvain, 1966. <ref target="#FNRef49">
+         <p>
+            <ref target="#FNRef49">49</ref> Graf’s study of Arabic Christian terms
+    needs to be updated and does not discuss the notion of
+    transmission of terms from one language to the other. Georg
+    Graf, <hi rend="italic">Verzeichnis Arabischer Kirchlicher Termini</hi>, CSCO
+    vol.147, Tome 8, (Louvain: 1954). Blau’s work is also
+    useful: Joshua Blau, <hi rend="italic">A Grammar of Christian Arabic, Based
+    Mainly on South Palestinian Texts from the first
+    Millennium,</hi> CSCO vol. 267, Sub, t. 27. Louvain, 1966.
+    <ref target="#FNRef49">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef50">50</ref> Usually a different person than the abbot or
     spiritual leader of the monastery. <ref target="#FNRef50">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef51">51</ref> The feminine Godmother is <hi style="color:red; font-family:Iqraa">Mkdfa</hi> (<hi rend="italic">shebint</hi>)
     and <hi style="font-family:Iqraa">MkdfaH</hi>
-    (<hi rend="italic">�shebint</hi>) derived from the same root. <ref target="#FNRef51">
+    (<hi rend="italic">‘shebint</hi>) derived from the same root. <ref target="#FNRef51">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef52">52</ref> Those who are familiar with the old Egyptian
-    hieroglyphic language suggest that the word <hi style="color:red; font-family:Iqraa">S�la</hi> (�am�s) is derived
-    from the hieroglyphic <hi rend="italic">�ms</hi> which means, �to follow,
-    accompany.� See <ref target="http://www.jimloy.com/hiero/e-dict16.htm">http://www.jimloy.com/hiero/e- dict16.htm</ref> for the
-    hieroglyphic inscription of <hi rend="italic">�ms</hi>. At first sight this
-    could be a plausible suggestion. However, the Coptic Church
-    thinks of those serving at the altar not as acolytes
+    hieroglyphic language suggest that the word <hi style="color:red; font-family:Iqraa">Sƒla</hi>
+    (šamâs) is derived from the hieroglyphic
+    <hi rend="italic">šms</hi> which means, “to follow,
+    accompany.” See <ref target="http://www.jimloy.com/hiero/e-dict16.htm">http://www.jimloy.com/hiero/e- dict16.htm</ref> for the
+    hieroglyphic inscription of <hi rend="italic">šms</hi>. At first sight
+    this could be a plausible suggestion. However, the Coptic
+    Church thinks of those serving at the altar not as acolytes
     (<hi style="color:red; font-family:Bwgrkl">avkolouqi,a</hi>), or altar
     boys <hi rend="italic">following</hi> the priest and fulfilling his demands,
     but rather as people who serve God. Thus the word <hi style="color:red; font-family:Bwgrkl">dia,konoj</hi>
     (<hi rend="italic">diakonos</hi>) <hi style="font-family:CopticSSK">|h`iwl</hi> and its Syriac literal
-    translation <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">A�h�</hi> would be more in accordance with the
-    theological understanding of the Coptic Church regarding the
-    role of the deacon in church. <ref target="#FNRef52">
+    translation <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">A…h„</hi> would be more in accordance with
+    the theological understanding of the Coptic Church regarding
+    the role of the deacon in church. <ref target="#FNRef52">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef53">53</ref> 
-            <hi lang="SYR"
-                dir="rtl"
-                style="color:blue; font-family:'Estrangelo Edessa'"
-                xml:lang="SYR">i[�g Z��g</hi> St. Mary is also used very often.
-    <ref target="#FNRef53">
+            <hi lang="SYR" dir="rtl" style="color:blue; font-family:'Estrangelo Edessa'" xml:lang="SYR">i[‚g Z‡‚g</hi> St. Mary is also used
+    very often. <ref target="#FNRef53">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef54">54</ref> Fiey discusses the role of Deir El-Suryan
     and other monastic exchanges between Copts and Syrians. Fiey,
     323-331. Maybe Syriac sources will shed more light on this.
@@ -1575,138 +1594,152 @@
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Blau, Joshua. <hi rend="italic">A Grammar of
+         <head xml:id="HV11N1Farag_Lang3">Bibliography</head>
+         <p>Blau, Joshua. <hi rend="italic">A Grammar of
     Christian Arabic, Based Mainly on South Palestinian Texts from
     the first Millennium.</hi> CSCO vol. 267, Sub, t. 27. Louvain,
     1966.</p>
-         <p xml:id="B2" rend="biblio">Burmester, O.H.E. �On the Date and
-    Authorship of the Arabic Synaxarium of the Coptic Church.�
-    <hi rend="italic">Journal of Theological Studies</hi> 39 (1938): 249-253.</p>
-         <p xml:id="B3" rend="biblio">—. <hi rend="italic">History of the Patriarchs of
-    the Egyptian Church Known as the History of the Holy Church, by
-    Sawirus Ibn Al-Mukaffa Bishop of Al-Ashmunin</hi>, (AD
-    849-880). Vol. II Part I Le Caire: Publications de la Soci�t�
-    d�Arch�ologie Copte, 1943.</p>
-         <p xml:id="B4" rend="biblio">—. <hi rend="italic">History of the Patriarchs of
-    the Egyptian Church Known as the History of the Holy Church, by
-    Sawirus Ibn Al-Mukaffa Bishop of Al-Ashmunin, (AD
-    849-880).</hi> Vol. III Part III Le Caire: Publication de la
-    Soci�t� D�Arch�ologie Copte, 1970.</p>
-         <p xml:id="B5" rend="biblio">Butler, Alfred, J. <hi rend="italic">The Arab
+         <p>Burmester, O.H.E. “On the Date
+    and Authorship of the Arabic Synaxarium of the Coptic
+    Church.” <hi rend="italic">Journal of Theological Studies</hi> 39
+    (1938): 249-253.</p>
+         <p>—. <hi rend="italic">History of the
+    Patriarchs of the Egyptian Church Known as the History of the
+    Holy Church, by Sawirus Ibn Al-Mukaffa Bishop of
+    Al-Ashmunin</hi>, (AD 849-880). Vol. II Part I Le Caire:
+    Publications de la Société
+    d’Archéologie Copte, 1943.</p>
+         <p>—. <hi rend="italic">History of the
+    Patriarchs of the Egyptian Church Known as the History of the
+    Holy Church, by Sawirus Ibn Al-Mukaffa Bishop of Al-Ashmunin,
+    (AD 849-880).</hi> Vol. III Part III Le Caire: Publication de
+    la Société D’Archéologie Copte,
+    1970.</p>
+         <p>Butler, Alfred, J. <hi rend="italic">The Arab
     Conquest of Egypt and the Last Thirty Years of the Roman
     Dominion</hi>. Oxford: At the Clarendon Press, 1902.</p>
-         <p xml:id="B6" rend="biblio">Chestnut,R.C. <hi rend="italic">Three Monophysite
+         <p>Chestnut,R.C. <hi rend="italic">Three Monophysite
     Christologies: Severus of Antioch, Philoxenus of Mabbug, and
     Jacob of Sarug.</hi> Oxford Theological Monographs, 1976.</p>
-         <p xml:id="B7" rend="biblio">Charles, Robert Henry. <hi rend="italic">The
+         <p>Charles, Robert Henry. <hi rend="italic">The
     Chronicle of John (c. 690 A.D.) Coptic Bishop of Nikiu</hi>.
     Amsterdam, APA-Philo Press.</p>
-         <p xml:id="B8" rend="biblio">Cheikho, L., B. Carra De Vaux, and H.
+         <p>Cheikho, L., B. Carra De Vaux, and H.
     Zayyat, <hi rend="italic">Eutychii Patriarchae Alexandrini Annales</hi>,
     CSCO, vol 51, Ser. 3, T. 7. Beryti E Typographeo Catholico,
     1909.</p>
-         <p xml:id="B9" rend="biblio">Cross F.L. and E.A. Livingstone.
+         <p>Cross F.L. and E.A. Livingstone.
     <hi rend="italic">The Oxford Dictionary of the Christian Church</hi>. New
     York: Oxford University Press, 1998.</p>
-         <p xml:id="B10" rend="biblio">Crum W.E. �S�v�re d�Antioche en
-    Egypte.�<hi rend="italic">Revue de l�Orient Chr�tien</hi> Tome III (XXIII)
-    Ser, 3 (1922-3), 92-104.</p>
-         <p xml:id="B11" rend="biblio">Dirksen, Peter B. �Peshitta
+         <p>Crum W.E.
+    “Sévère d’Antioche en
+    Egypte.”<hi rend="italic">Revue de l’Orient Chrétien</hi>
+    Tome III (XXIII) Ser, 3 (1922-3), 92-104.</p>
+         <p>Dirksen, Peter B. “Peshitta
     Institute Communication 19: East and West, Old and Young, in
-    the Text Tradition of the Old Testament Peshitta.� <hi rend="italic">Vetus
-    Testamentum</hi> 35 no.4 (1985), 468-484.</p>
-         <p xml:id="B12" rend="biblio">Draguet,R. <hi rend="italic">Julien d�Halicarnasse
-    et sa controverse avec S�v�re d�Antioche sur l�
-    incorruptibilit� du corps du Christ</hi>. Louvain, 1924.</p>
-         <p xml:id="B13" rend="biblio">Eusebius, bishop of Fuah. <hi rend="italic">The
+    the Text Tradition of the Old Testament Peshitta.”
+    <hi rend="italic">Vetus Testamentum</hi> 35 no.4 (1985), 468-484.</p>
+         <p>Draguet,R. <hi rend="italic">Julien
+    d’Halicarnasse et sa controverse avec
+    Sévère d”Antioche sur l’
+    incorruptibilité du corps du Christ</hi>. Louvain,
+    1924.</p>
+         <p>Eusebius, bishop of Fuah. <hi rend="italic">The
     History of the Patriarchs</hi>. Fr. Samuel the Syrian and Nabih
     Kamel, ed. n. d.</p>
-         <p xml:id="B14" rend="biblio">Fiey, J.M. �Copts et Syriaques.
-    Contacts et �changes.� <hi rend="italic">Studia Orientalia Christiana
-    Collectanea</hi> 15, 1972-1973.</p>
-         <p xml:id="B15" rend="biblio">I. Forget. <hi rend="italic">Synaxarium
+         <p>Fiey, J.M. “Copts et
+    Syriaques. Contacts et échanges.” <hi rend="italic">Studia
+    Orientalia Christiana Collectanea</hi> 15, 1972-1973.</p>
+         <p>I. Forget. <hi rend="italic">Synaxarium
     Alexandrinum.</hi> CSCO Vols. 47-49, 67, 78, 90. Scriptores
     Arabici, Ser. 3, t. 18-19. Beryti: E Typographeo Catholico,
     1905-26.</p>
-         <p xml:id="B16" rend="biblio">Frend, W.H.C. <hi rend="italic">The Rise of
+         <p>Frend, W.H.C. <hi rend="italic">The Rise of
     Christianity</hi>. Philadelphia: Fortress Press, 1985.</p>
-         <p xml:id="B17" rend="biblio">Graf, Georg. <hi rend="italic">Verzeichnis
+         <p>Graf, Georg. <hi rend="italic">Verzeichnis
     Arabischer Kirchlicher Termini</hi>, CSCO vol.147, Tome 8.
     Louvain: 1954.</p>
-         <p xml:id="B18" rend="biblio">Graffin, R. � F. Nau. <hi rend="italic">History of
-    the Patriarchs of the Coptic Church of Alexandria (S. Mark to
-    Benjamin 1)</hi>. Patrologia Orientalis Tomus Primus, II and
-    IV, B. Evetts, eds. Librairie de Paris, 1907.</p>
-         <p xml:id="B19" rend="biblio">Grillmeier, A. <hi rend="italic">Christ in the
+         <p>Graffin, R. – F. Nau.
+    <hi rend="italic">History of the Patriarchs of the Coptic Church of
+    Alexandria (S. Mark to Benjamin 1)</hi>. Patrologia Orientalis
+    Tomus Primus, II and IV, B. Evetts, eds. Librairie de Paris,
+    1907.</p>
+         <p>Grillmeier, A. <hi rend="italic">Christ in the
     Christian Tradition</hi>. vol. 1. Atlanta, John Knox Press,
     1975.</p>
-         <p xml:id="B20" rend="biblio">—. <hi rend="italic">Christ in the Christian
+         <p>—. <hi rend="italic">Christ in the Christian
     Tradition</hi>. vol 2, Part One. London, Mowbray, 1987.</p>
-         <p xml:id="B21" rend="biblio">Heijer, J. Den. <hi rend="italic">Mawhub Ibn
-    Mansur Ibn Mufarrig et l�Historiographie Copto-Arabe. �tude sur
-    Composition de l�Histoire des Patriarches d�Alexandrie</hi>.
-    CSCO (513/Subs.83) Louvain: Peeters, 1989.</p>
-         <p xml:id="B22" rend="biblio">Innem�e, Karel C. �Deir al-Surian
-    (Egypt): conservation work of Autumn 2000.� <hi rend="italic">Hugoye: Journal
-    of Syrian Studies</hi> vol. 4, no. 2, July 2001.</p>
-         <p xml:id="B23" rend="biblio">John of Beth Aphthonia. <hi rend="italic">Vie de
-    S�v�re</hi>. Edited and Translated by M. A. Kugener.
-    <hi rend="italic">Patrologia Orientalis</hi>, 2 (Paris, 1907), 207-264.</p>
-         <p xml:id="B24" rend="biblio">Lampe, G.W.H. <hi rend="italic">A Patristic Greek
+         <p>Heijer, J. Den. <hi rend="italic">Mawhub Ibn
+    Mansur Ibn Mufarrig et l’Historiographie Copto-Arabe.
+    Étude sur Composition de l’Histoire des
+    Patriarches d’Alexandrie</hi>. CSCO (513/Subs.83)
+    Louvain: Peeters, 1989.</p>
+         <p>Innemée, Karel C. “Deir
+    al-Surian (Egypt): conservation work of Autumn 2000.”
+    <hi rend="italic">Hugoye: Journal of Syrian Studies</hi> vol. 4, no. 2, July
+    2001.</p>
+         <p>John of Beth Aphthonia. <hi rend="italic">Vie de
+    Sévère</hi>. Edited and Translated by M. A.
+    Kugener. <hi rend="italic">Patrologia Orientalis</hi>, 2 (Paris, 1907),
+    207-264.</p>
+         <p>Lampe, G.W.H. <hi rend="italic">A Patristic Greek
     Lexicon</hi>. Oxford: At the Clarendon Press, 1994.</p>
-         <p xml:id="B25" rend="biblio">Lebon J. <hi rend="italic">Le Monophysisme
-    s�v�rien</hi>. Louvain, 1909.</p>
-         <p xml:id="B26" rend="biblio">Matta-El-Meskeen. <hi rend="italic">Coptic
+         <p>Lebon J. <hi rend="italic">Le Monophysisme
+    sévérien</hi>. Louvain, 1909.</p>
+         <p>Matta-El-Meskeen. <hi rend="italic">Coptic
     Monasticism in the Age of St. Macarius.</hi> Nitrean Desert:
     Monastery of St. Macarius Press, 1984.</p>
-         <p xml:id="B27" rend="biblio">Peter, Bishop, bishop of Melig,
+         <p>Peter, Bishop, bishop of Melig,
     Bishop Michael, bishop of Atreeb, and Bishop John, bishop of
     Borolus, <hi rend="italic">The Synaxarium, <hi style="color:red; font-family:CopticSSK">lhqslh`m`phnl lrd ~diijfqh`
     lpdklufkh lnpgn|nmnq</hi>
             </hi>. Cairo Egypt, El-Mahaba Coptic
     Orthodox Bookstore, 1978.</p>
-         <p xml:id="B28" rend="biblio">Russell, Norman. <hi rend="italic">Cyril of
+         <p>Russell, Norman. <hi rend="italic">Cyril of
     Alexandria,</hi> The Early Church Fathers. Edited by Carol
     Harrison. New York: Routledge, 2000.</p>
-         <p xml:id="B29" rend="biblio">Sawirus Ibn Al-Mukaffa. <hi rend="italic">History
+         <p>Sawirus Ibn Al-Mukaffa. <hi rend="italic">History
     of the Patriarchs of the Egyptian Church, Known as the History
     of the Holy Church</hi>. Edited by Aziz Suryal Atiya, Yassa Abd
     Al-Masih, and O.H.E. Khs.-Burmester. Vol. 2 Part 3. Le Caire,
-    Publications de la Societ� d�arch�ologie copte.</p>
-         <p xml:id="B30" rend="biblio">Samuel,V.C. �The Christology of
-    Severus of Antioch.� <hi rend="italic">Abba Salama</hi>, 4 (1973): 126-
-    190.</p>
-         <p xml:id="B31" rend="biblio">Sellers, R.V. <hi rend="italic">Two Ancient
+    Publications de la Societé d’archéologie
+    copte.</p>
+         <p>Samuel,V.C. “The Christology
+    of Severus of Antioch.” <hi rend="italic">Abba Salama</hi>, 4 (1973):
+    126- 190.</p>
+         <p>Sellers, R.V. <hi rend="italic">Two Ancient
     Christologies</hi>. London, 1940.</p>
-         <p xml:id="B32" rend="biblio">—.<hi rend="italic">The Council of Chalcedon</hi>.
-    London, 1961.</p>
-         <p xml:id="B33" rend="biblio">Seybold, C.F. <hi rend="italic">Severus ben
-    el-Muqafa�, Historia patriarcharum Alexandrinorum</hi>. CSCO,
-    vol 52, Ar.8 = Ar. III, 9, T. Beryti E Typograhe Catholic,
-    1904.</p>
-         <p xml:id="B34" rend="biblio">
+         <p>—.<hi rend="italic">The Council of
+    Chalcedon</hi>. London, 1961.</p>
+         <p>Seybold, C.F. <hi rend="italic">Severus ben
+    el-Muqafa’, Historia patriarcharum Alexandrinorum</hi>.
+    CSCO, vol 52, Ar.8 = Ar. III, 9, T. Beryti E Typograhe
+    Catholic, 1904.</p>
+         <p>
             <hi rend="italic">The Katameros of the Great Lent,
     Serves the Sundays and Weekdays of the Great Lent according to
     the Order of the Coptic Orthodox Church</hi>. The Commission of
     Publication in the Diocese of Beni-Suef, 1986.</p>
-         <p xml:id="B35" rend="biblio">Torrance, Iain R. <hi rend="italic">Christology
+         <p>Torrance, Iain R. <hi rend="italic">Christology
     after Chalcedon, Severus of Antioch and Sergius the
     Monophysite</hi>. Norwich: Canterbury Press, 1988.</p>
-         <p xml:id="B36" rend="biblio">Van der Meer, Anneke. �Het verblijf
-    van Severus van Antiochi� in Egypte.� <hi rend="italic">Het Christelijk
-    Oosten</hi>. 48 (1996), 49-72.</p>
-         <p xml:id="B37" rend="biblio">Van Rompay, Lucas, and Fr. Bijoul
-    El-Souriany. �Syriac Papyrus Fragments Recently Discovered in
-    Deir Al-Surian (Egypt).� <hi rend="italic">Hugoye: Journal of Syrian
-    Studies</hi>, vol. 4, no. 1, January 2001.</p>
-         <p xml:id="B38" rend="biblio">V��bus, A. �Discovery of New
-    Important <hi rend="italic">memre</hi> of Gewargi, the Bishop of the Arabs.�
-    <hi rend="italic">Journal of Semitic Studies,</hi> 18 (1973), 235-237.</p>
-         <p xml:id="B39" rend="biblio">Youssef, Youhanna Nessim. �Severus
-    of Antioch in the Coptic Liturgical Books.� <hi rend="italic">Journal of
-    Coptic Studies,</hi> Vol 6 (Louvain, 2004), 139-148.</p>
-         <p xml:id="B40" rend="biblio">
+         <p>Van der Meer, Anneke. “Het
+    verblijf van Severus van Antiochië in Egypte.”
+    <hi rend="italic">Het Christelijk Oosten</hi>. 48 (1996), 49-72.</p>
+         <p>Van Rompay, Lucas, and Fr. Bijoul
+    El-Souriany. “Syriac Papyrus Fragments Recently
+    Discovered in Deir Al-Surian (Egypt).” <hi rend="italic">Hugoye:
+    Journal of Syrian Studies</hi>, vol. 4, no. 1, January
+    2001.</p>
+         <p>Vööbus, A.
+    “Discovery of New Important <hi rend="italic">memre</hi> of Gewargi,
+    the Bishop of the Arabs.” <hi rend="italic">Journal of Semitic
+    Studies,</hi> 18 (1973), 235-237.</p>
+         <p>Youssef, Youhanna Nessim.
+    “Severus of Antioch in the Coptic Liturgical
+    Books.” <hi rend="italic">Journal of Coptic Studies,</hi> Vol 6
+    (Louvain, 2004), 139-148.</p>
+         <p>
             <ref target="http://www.jimloy.com/hiero/e-dict16.htm">http://www.jimloy.com/hiero/e-
     dict16.htm</ref>
          </p>

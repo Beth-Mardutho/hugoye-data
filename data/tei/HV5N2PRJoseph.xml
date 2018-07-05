@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Response to J.F. Coakley's Review of John Joseph, The Modern Assyrians of the Middle East: Encounters with Western Christian missions, archaeologists,and colonial powers (Studies in Christian Mission, 26; Leiden: Brill, 2000).</title>
+            <title type="main">Response to J.F. Coakley's Review of John Joseph, The Modern Assyrians of the Middle East: Encounters with Western Christian missions, archaeologists,and colonial powers (Studies in Christian Mission, 26; Leiden: Brill, 2000).</title>
             <author>
-               <name>John Joseph</name>
+               <name>
+                  <forename>John</forename>
+                  <surname>Joseph</surname>
+               </name>
                <affiliation>
                   <orgName>Lewis Audenreid Professor of History, Emeritus</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/responseToBookReview/hv5n2prjoseph</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac</term>
+               <term>Modern Assyrians</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +87,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] I would
+         <p>
+            <anchor corresp="P1"/>[1] I would
     like to start with a crtitical observation made by Chip Coakley
     that especially puzzled me; let me quote his remarks: "With
     matters religious, ecclesiastical and missionary, Joseph is
@@ -75,8 +99,8 @@
     41, a statement admittedly at variance with most of the rest of
     the chapter) will naturally be somewhat wary of the treatment
     of ecclesiastical matters later on in the book."</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     citation above combines two of my sentences into one and omits
     a part of each sentence, creating some unintended but
     troublesome distortions. The omitted parts of my remarks are
@@ -86,8 +110,8 @@
     driven out of there soon after the Council of Chalcedon],
     forced to move further east in the direction of Mesopotamia and
     Persia."</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Since I
+         <p>
+            <anchor corresp="P3"/>[3] Since I
     could not see any discrepancy between the citation and "the
     rest of the chapter" and because Coakley did not explain the
     contradiction that was apparent to him, I reluctantly wrote and
@@ -135,7 +159,7 @@
     subject of "forced" is "church"-- which to Coakley, is "The
     church of Persia..." of his point #3.</p>
          <p>
-            <anchor xml:id="P4"/>[4] Coakley wrote that
+            <anchor corresp="P4"/>[4] Coakley wrote that
     he did not like my statement that "those who adhered to the
     teachings of Nestorius organized their own church"--his point
     #1 above. The point that I was emphasizing in that sentence was
@@ -149,7 +173,7 @@
     of Persia. (Maclean's article in <hi rend="italic">Encyclopedia of Religion
     and Ethics</hi>, under "Nestorianism", 1917 edition.)</p>
          <p>
-            <anchor xml:id="P5"/>[5] As briefly noted
+            <anchor corresp="P5"/>[5] As briefly noted
     in my first two introductory chapters, Edessa was for long a
     stronghold of Syriac learning and tradition in Byzantium,
     highly regarded by the Aramaic-speaking eastern Christians.
@@ -164,7 +188,7 @@
     "Nestorian clergy" in the very capital of the empire,
     Constantinople. (J.B. Segal's <hi rend="italic">Edessa</hi>, p.102.)</p>
          <p>
-            <anchor xml:id="P6"/>[6] If a religious
+            <anchor corresp="P6"/>[6] If a religious
     congregation has clergy, bishops, priests, a theology that it
     passionately upholds, and has a foothold in the Roman empire
     for a considerable time, why isn't it, by definition, a
@@ -175,7 +199,7 @@
     Lavenant, <hi rend="italic">Encyclopedia of the Early Church</hi>, 1992, under
     "Edessa" ).</p>
          <p>
-            <anchor xml:id="P7"/>[7] The Nestorian
+            <anchor corresp="P7"/>[7] The Nestorian
     exiles from Edessa found their way to nearby Nisibis, a town in
     Persian Mesopotamia since 363. There they started the famous
     school of Nisibis which became the center from which Nestorian
@@ -184,7 +208,7 @@
     the chapter is marked by my heading 'NESTORIANISM' FINDS A HOME
     IN PERSIA (pp.41-44).</p>
          <p>
-            <anchor xml:id="P8"/>[8] In the same
+            <anchor corresp="P8"/>[8] In the same
     paragraph discussed above, Coakley writes: "It is also an
     ominous sign, that having banished the name 'Nestorian' from
     the title, the author retains it elsewhere in the book, even in
@@ -200,7 +224,7 @@
     be changed only in the title, as explained in my prefatory
     remarks, which Coakley well covers in his review.</p>
          <p>
-            <anchor xml:id="P9"/>[9] Explaining where
+            <anchor corresp="P9"/>[9] Explaining where
     he would really "fault" me ("and others"), Coakley writes that
     I am "hardly interested in the primary, religious work of the
     missions (there are no tabulations of parishes, schools, books
@@ -214,7 +238,7 @@
     Western Christian Missions, Archaeologists, and Colonial
     Powers</hi>.</p>
          <p>
-            <anchor xml:id="P10"/>[10] Nowhere in his
+            <anchor corresp="P10"/>[10] Nowhere in his
     review does Coakley say anything about the missions and
     Islam--how Islam was viewed by the early missionaries; the role
     that they hoped a "reformed Nestorian church" would play in the
@@ -229,7 +253,7 @@
     and Islam', neither of which", he writes, "is particularly
     relevant to the Assyrians."</p>
          <p>
-            <anchor xml:id="P11"/>[11] According to
+            <anchor corresp="P11"/>[11] According to
     Coakley my "praise" for the missionaries is limited "more or
     less, to their role in the relief of suffering during World War
     I". John P. Ameer raised a similar point in his review that
@@ -250,12 +274,12 @@
     the political and cultural imperialism of the 'Christian'
     powers."</p>
          <p>
-            <anchor xml:id="P12"/>[12] The statement
+            <anchor corresp="P12"/>[12] The statement
     above does not say that "these missions were the agents" of the
     European powers; Coakley's clause actually distorts the meaning
     and intent of the above passage.</p>
          <p>
-            <anchor xml:id="P13"/>[13] These
+            <anchor corresp="P13"/>[13] These
     differences of opinion on the missions aside, let me express my
     agreement with some of Chip Coakley's other critical
     observations. He is right that I am not an ecclesiastical

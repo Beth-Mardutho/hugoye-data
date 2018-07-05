@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>IV North American Syriac Symposium Syriac Christianity: Culture at the Crossroads</title>
+            <title type="main">IV North American Syriac Symposium Syriac Christianity: Culture at the Crossroads</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv5n2fcsyrsym</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conferences</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,33 +85,29 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p html:align="center">
-            <graphic url="HV5N2FCSymposium.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="216px"
-                     height="253px"/>
+         <p>
+            <graphic url="HV5N2FCSymposium.gif" rend="img" mimeType="image/gif" width="216px" height="253px"/>
             <lb/>
     Princeton Theological Seminary, Ms. 19 Book of
     Prayers. Image of Nestorius.<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Fourth North American Syriac Symposium will be held in
     Princeton during July 9-12, 2003. Those interested in attending
     or presenting papers may add their names to the mailing list of
     the Symposium at <ref target="http://www.bethmardutho.org">http://www.bethmardutho.org</ref>
     (click on the IV Syriac Symposium link). A formal Call For
     Papers will be announced shortly.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     Symposium is hosted by <hi rend="bold">Princeton Theological Seminary</hi>,
     <hi rend="bold">Princeton University</hi>, <hi rend="bold">The Institute for Advanced
     Study</hi>, and <hi rend="bold">Beth Mardutho: The Syriac Institute</hi>. A
     traditional program of hymns and songs by various Churches of
     the Syriac tradition will take place during the conference.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     Symposium will include the Fourth International Forum on Syriac
     Computing, for which see the separate Call for Papers.</p>
          <!-- #EndEditable -->

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Adam H. Becker, Fear of God and the Beginning of Wisdom. The School of Nisibis and Christian Scholastic Culture in Late Antique Mesopotamia, University of Pennsylvania Press, Philadelphia 2006, Series Divination, pp. xvi + 298, ISBN-13: 978-0-8122-3934-8; ISBN-10: 0-8122-3934-2.</title>
+            <title type="main">Adam H. Becker, Fear of God and the Beginning of Wisdom. The School of Nisibis and Christian Scholastic Culture in Late Antique Mesopotamia, University of Pennsylvania Press, Philadelphia 2006, Series Divination, pp. xvi + 298, ISBN-13: 978-0-8122-3934-8; ISBN-10: 0-8122-3934-2.</title>
             <author>
-               <name>Ilaria Ramelli</name>
+               <name>
+                  <forename>Ilaria</forename>
+                  <surname>Ramelli</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv10n2prramelli</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Adam Becker</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,36 +87,37 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
+         <p>
+            <anchor corresp="P1"/>[1] This
     rich and fine book (a revision of the author's doctoral
     dissertation) provides an intellectual and institutional
     history of the scholastic culture of the Church of the
-    East—above all of the School of Nisibis—in the late antique and
-    early Islamic periods. The work sheds light on the development
-    of Christian <hi rend="italic">paideia</hi> in Late Antiquity and the rise of
-    the Babylonian Jewish academies, and exposes the importance of
-    the East-Syrian school movement as the background to the
-    intellectual culture to come, a point that has not yet been
-    fully appreciated.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+    East—above all of the School of Nisibis—in the late
+    antique and early Islamic periods. The work sheds light on the
+    development of Christian <hi rend="italic">paideia</hi> in Late Antiquity and
+    the rise of the Babylonian Jewish academies, and exposes the
+    importance of the East-Syrian school movement as the background
+    to the intellectual culture to come, a point that has not yet
+    been fully appreciated.</p>
+         <p>
+            <anchor corresp="P2"/>[2] The
     present study is all more valuable in that the East Syrians,
     called "Nestorians" by their enemies, continue to exist all
     over the world, in the Middle East, in South India, and in the
     Diaspora, e.g. in the U.S.A. (especially in the Midwest), in
     Australia, and in Sweden. Thus it is entirely appropriate that
     in a "Note on Transliteration, Spelling, and Terminology"
-    (xiii-xiv) the author, in line with S. Brock, "The ‘Nestorian’
-    Church: A Lamentable Misnomer," <hi rend="italic">Bulletin of the John
-    Rylands Library of Manchester</hi> 78 (1996) 23-36, sensibly
-    rejects the denomination "Nestorians" for the East Syrians, and
-    also declares his preference for "Miaphysite" rather than
-    "Monophysite," according to the terminology adopted by Lucas
-    van Rompay. These in fact are more accurate denominations, and
-    at the same time much more respectful.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] After a
+    (xiii-xiv) the author, in line with S. Brock, "The
+    ‘Nestorian’ Church: A Lamentable Misnomer,"
+    <hi rend="italic">Bulletin of the John Rylands Library of Manchester</hi> 78
+    (1996) 23-36, sensibly rejects the denomination "Nestorians"
+    for the East Syrians, and also declares his preference for
+    "Miaphysite" rather than "Monophysite," according to the
+    terminology adopted by Lucas van Rompay. These in fact are more
+    accurate denominations, and at the same time much more
+    respectful.</p>
+         <p>
+            <anchor corresp="P3"/>[3] After a
     useful Chronology from AD 363 to 1020 (xv-xvi), the
     Introduction (1-21) provides valuable guidelines for the
     readers. First of all, Becker sketches the history of the
@@ -116,8 +141,8 @@
     "Parting of the Ways" model is to be found in the miscellaneous
     work edited by the author himself and Annette Yoshiko Reed,
     <hi rend="italic">The Ways that Never Parted: Jews and Christians in Late
-    Antiquity and the Early Middle Ages</hi>, Tübingen 2003). In
-    the introduction Becker also presents the main intellectual
+    Antiquity and the Early Middle Ages</hi>, Tübingen 2003).
+    In the introduction Becker also presents the main intellectual
     historical source for the School of Nisibis and one of the
     chief sources for the School of the Persians in Edessa, a
     source on which a good part of this book depends: the <hi rend="italic">Cause
@@ -127,47 +152,48 @@
     Neoplatonism. In this text, all historical figures are
     understood in pedagogical terms, which is a fundamental
     feature.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Becker
+         <p>
+            <anchor corresp="P4"/>[4] Becker
     remarks that the educational system was alike for Christians
     and non-Christians in late antiquity, although some Christian
     schools had particular characteristics, e.g. those run by
-    Justin, Clement, and Origen—but there, too, classical culture
-    and philosophy were present and alive and the author correctly
-    observes that it is doubtful whether Origen himself was
-    attempting to develop a completely autonomous Christian
+    Justin, Clement, and Origen—but there, too, classical
+    culture and philosophy were present and alive and the author
+    correctly observes that it is doubtful whether Origen himself
+    was attempting to develop a completely autonomous Christian
     culture. On this point, I would add some important
     contributions: H. Crouzel, <hi rend="italic">Cultura e fede nella scuola di
     Cesarea con Origene</hi>, in <hi rend="italic">Crescita dell'uomo nella
     catechesi dei Padri</hi>, Rome 1987, 203-209; M. Rizzi, "Il
     <hi rend="italic">didaskalos</hi> nella tradizione alessandrina, da Clemente
     alla <hi rend="italic">Oratio Panegyrica in Origenem</hi>," in <hi rend="italic">Magister.
-    Aspetti culturali e istituzionali</hi>, edd. G. Firpo — G.
-    Zecchini, Milan 1999, 177-198; Gregorio il Taumaturgo (?),
+    Aspetti culturali e istituzionali</hi>, edd. G. Firpo —
+    G. Zecchini, Milan 1999, 177-198; Gregorio il Taumaturgo (?),
     <hi rend="italic">Encomio di Origene</hi>, ed. Id., Milan 2002; J.W. Trigg,
     "God's Marvelous Oikonomia: Reflections of Origen's
     Understanding of Divine and Human Pedagogy in the Address
     Ascribed to Gregory Thaumaturgus," <hi rend="italic">Journal of Early
     Christian Studies</hi> 9 (2001) 27-52; L. Lugaresi, "Studenti
     cristiani e scuola pagana," <hi rend="italic">Cristianesimo nella Storia</hi>
-    25 (2004) 779-832; A. Grafton — M. Williams, <hi rend="italic">Christianity
-    and the Transformation of the Book</hi>, Cambridge-London 2006,
-    22-132; J. Tloka, <hi rend="italic">Griechische Christen, Christliche
-    Griechen</hi>, Tübingen 2006, 25-126. As an example of a
-    fruitful transmission of the liberal arts to the Middle Ages,
-    the author mentions Cassiodorus’ <hi rend="italic">Institutiones</hi>, and we
-    might also recall Boethius’ treatises and Martianus Capella’s
-    <hi rend="italic">De Nuptiis Philologiae et Mercurii</hi> (cf. e.g. my
-    <hi rend="italic">Marziano Capella</hi>, Milan 2001), which was studied and
-    commented on throughout the Middle Ages (editions, essays and
-    commentaries in my <hi rend="italic">Tutti i commenti a Marziano Capella:
-    Scoto Eriugena, Remigio di Auxerre, Bernardo Silvestre e
-    anonimi</hi>, Milan 2006). According to Becker, in fact, the
-    classical <hi rend="italic">paideia</hi> was destroyed not by the Christians,
-    but by the barbarians, and for this reason classical culture in
-    the East remained more stable and endured longer than in the
-    West of the Roman empire; the East-Syrian school movement
-    developed outside the Roman empire, but was based on classical
+    25 (2004) 779-832; A. Grafton — M. Williams,
+    <hi rend="italic">Christianity and the Transformation of the Book</hi>,
+    Cambridge-London 2006, 22-132; J. Tloka, <hi rend="italic">Griechische
+    Christen, Christliche Griechen</hi>, Tübingen 2006,
+    25-126. As an example of a fruitful transmission of the liberal
+    arts to the Middle Ages, the author mentions Cassiodorus’
+    <hi rend="italic">Institutiones</hi>, and we might also recall
+    Boethius’ treatises and Martianus Capella’s <hi rend="italic">De
+    Nuptiis Philologiae et Mercurii</hi> (cf. e.g. my <hi rend="italic">Marziano
+    Capella</hi>, Milan 2001), which was studied and commented on
+    throughout the Middle Ages (editions, essays and commentaries
+    in my <hi rend="italic">Tutti i commenti a Marziano Capella: Scoto Eriugena,
+    Remigio di Auxerre, Bernardo Silvestre e anonimi</hi>, Milan
+    2006). According to Becker, in fact, the classical
+    <hi rend="italic">paideia</hi> was destroyed not by the Christians, but by
+    the barbarians, and for this reason classical culture in the
+    East remained more stable and endured longer than in the West
+    of the Roman empire; the East-Syrian school movement developed
+    outside the Roman empire, but was based on classical
     <hi rend="italic">paideia</hi> and the Scriptures, just like the Christian
     <hi rend="italic">paideia</hi> that grew inside Roman territory. The <hi rend="italic">Book
     of the Laws of Countries</hi>, e.g., by Bardaisan (or perhaps
@@ -178,8 +204,8 @@
     dialogue written on the model of the Platonic dialogues: in it,
     the Christian character of Bardaisan argues against the
     determinism of the stars.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     first chapter, "Divine Pedagogy and the Transmission of the
     Knowledge of God: The Discursive Background of the School
     Movement" (22-40), examines the tendency, well attested in the
@@ -218,8 +244,8 @@
     "<hi rend="italic">Tristitia</hi>. Indagine storica, filosofica e semantica
     su un'accusa antistoica e anticristiana," <hi rend="italic">Invigilata</hi>
             <hi rend="italic">Lucernis</hi> 23 (2001) 187-206.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] In the
+         <p>
+            <anchor corresp="P6"/>[6] In the
     second chapter, "The School of the Persians (Part 1): Rereading
     the Sources" (41-61), the author challenges scholars’
     traditional assumption that the School of Nisibis is an
@@ -236,21 +262,22 @@
     Nestorians and to Chalcedonians as well, such as the letter of
     Simeon of Bet Arsham, which is the earliest source (loosely)
     connecting Ibas to the School of the Persians and contains
-    inaccuracies, or Jacob of Sarug’s Letter 14, an apologetic
-    document, and again, the <hi rend="italic">Chronicle of Edessa</hi>, the
-    <hi rend="italic">Chronicles</hi> of Ps. Dionysius of Tell-Mahre and of
-    Michael the Syrian, and John of Ephesus’ hagiographical work;
-    2) Costantinopolitan sources, i.e. Theodore Anagnostes and the
-    <hi rend="italic">Life of Alexander the Sleepless</hi>, in which the relevant
-    passage is interestingly suggested by the author to be an
-    extrapolation from the Acts of the "Latrocinium" Council of
-    Ephesus (449), and 3) East-Syrian sources: the <hi rend="italic">Cause</hi>
-    and the <hi rend="italic">Ecclesiastical History</hi> by Barhadbshabba,
-    attentively compared by the author, and the <hi rend="italic">Chronicle of
-    Arbela</hi>, which directly connects Ibas to the School of the
-    Persians, which is probably not correct.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In the
+    inaccuracies, or Jacob of Sarug’s Letter 14, an
+    apologetic document, and again, the <hi rend="italic">Chronicle of
+    Edessa</hi>, the <hi rend="italic">Chronicles</hi> of Ps. Dionysius of
+    Tell-Mahre and of Michael the Syrian, and John of
+    Ephesus’ hagiographical work; 2) Costantinopolitan
+    sources, i.e. Theodore Anagnostes and the <hi rend="italic">Life of Alexander
+    the Sleepless</hi>, in which the relevant passage is
+    interestingly suggested by the author to be an extrapolation
+    from the Acts of the "Latrocinium" Council of Ephesus (449),
+    and 3) East-Syrian sources: the <hi rend="italic">Cause</hi> and the
+    <hi rend="italic">Ecclesiastical History</hi> by Barhadbshabba, attentively
+    compared by the author, and the <hi rend="italic">Chronicle of Arbela</hi>,
+    which directly connects Ibas to the School of the Persians,
+    which is probably not correct.</p>
+         <p>
+            <anchor corresp="P7"/>[7] In the
     third chapter, "The School of the Persians (Part 2): From
     Ethnic Circle to Theological School" (62-76), Becker places the
     sources for the School of the Persians in a better framework,
@@ -278,10 +305,10 @@
     considers him trustworthy when he declares that he travelled to
     Edessa and employed its archives, as Eusebius had done in the
     previous century (see my "Possible Historical Traces in the
-    <hi rend="italic">Doctrina Addai</hi>?", <hi rend="italic">Hugoye</hi> 9,1 [2006] §§
-    1-24).</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Only
+    <hi rend="italic">Doctrina Addai</hi>?", <hi rend="italic">Hugoye</hi> 9,1 [2006]
+    §§ 1-24).</p>
+         <p>
+            <anchor corresp="P8"/>[8] Only
     shortly before its closure, according to the <hi rend="italic">Cause</hi> and
     the <hi rend="italic">Ecclesiatical History</hi> by Barhadbshabba, the School
     of the Persians was divided into a tripartite hierarchy, very
@@ -293,16 +320,16 @@
     author is that there was only one exodus from the School of the
     Persians in Edessa to Nisibis, which occurred in 489 after the
     closure of the school itself by order of the Emperor Zeno.
-    Vööbus was led to suppose two exoduses—one in 471 by Narsai,
-    and the other, larger, in 489—by reading the same event,
-    described in the <hi rend="italic">Cause</hi> and in the <hi rend="italic">Ecclesiastical
-    History</hi>, as two different facts. At the end of the
-    chapter, Becker observes a couple of things that may be
-    significant and should stimulate further comparative studies:
-    1) the closure of the School of the Persians by order of the
-    emperor Zeno displays a deep affinity to that of the School of
-    Athens forty years later, in 529, by order of the emperor
-    Justinian. 2) In many different sources, this event is
+    Vööbus was led to suppose two exoduses—one in
+    471 by Narsai, and the other, larger, in 489—by reading
+    the same event, described in the <hi rend="italic">Cause</hi> and in the
+    <hi rend="italic">Ecclesiastical History</hi>, as two different facts. At the
+    end of the chapter, Becker observes a couple of things that may
+    be significant and should stimulate further comparative
+    studies: 1) the closure of the School of the Persians by order
+    of the emperor Zeno displays a deep affinity to that of the
+    School of Athens forty years later, in 529, by order of the
+    emperor Justinian. 2) In many different sources, this event is
     described with the same terminology: all say that the school
     was "uprooted," just as several sources pun on the name of
     Nisibis while saying that the same School of the Persian was
@@ -311,27 +338,27 @@
     other intellectual centres in late antiquity, such as Athens,
     Jerusalem or Beirut, which would be very interesting to
     investigate.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] In the
+         <p>
+            <anchor corresp="P9"/>[9] In the
     fourth chapter, "The School of Nisibis" (77-97), Becker
     carefully analyzes the evidence for the School of Nisibis, its
     foundation, its daily life, and its curriculum. Among its
     models were contemporary cenobitic institutions, the School of
     the Persians in Edessa, and maybe also the local school led by
     the interpreter Simeon of Kashkar in Nisibis when the new
-    school was founded, perhaps incorporating students of Simeon’s
-    school. The author also examines various sets of canons of the
-    School of Nisibis, valuable for reconstructing its daily life
-    and the organization of teaching. and presents the literary
-    production of the scholars attached to the School:
+    school was founded, perhaps incorporating students of
+    Simeon’s school. The author also examines various sets of
+    canons of the School of Nisibis, valuable for reconstructing
+    its daily life and the organization of teaching. and presents
+    the literary production of the scholars attached to the School:
     commentaries, in <hi rend="italic">memre</hi> and then in prose, where also
     the "Alexandrian" allegorical technique crept in; liturgical
     works, treatises and "causes." Illuminating comparisons with
     the organization of other schools are also provided, and the
     author rightly insists on the close parallelism between the
     school year and the liturgical year.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] The
+         <p>
+            <anchor corresp="P10"/>[10] The
     intellectual life of the School of Nisibis is the focus of
     chapters Five through Seven, and is reconstructed on the basis
     of the examination of the <hi rend="italic">Cause</hi>. In particular, the
@@ -349,11 +376,11 @@
     Study of Early Christian Thought in the East</hi>, Cambridge
     1982, 63-65; G.J. Reinink, "Edessa Grew Dim and Nisibis Shone
     Forth: The School of Nisibis at the transition of the
-    Sixth-Seventh Century," in H.J.W. Drijvers—A.A. McDonald, edd.,
-    <hi rend="italic">Centers of Learning. Learning and Location in Pre-Modern
-    Europe and the Near East</hi>, Leiden 1995, 77-89: 81-87; Th.
-    Heinthaler, "Die verschiedenen Schulen, durch die Gott die
-    Menschen lehren wollte. Bemerkungen zur ostsyrischen
+    Sixth-Seventh Century," in H.J.W. Drijvers—A.A. McDonald,
+    edd., <hi rend="italic">Centers of Learning. Learning and Location in
+    Pre-Modern Europe and the Near East</hi>, Leiden 1995, 77-89:
+    81-87; Th. Heinthaler, "Die verschiedenen Schulen, durch die
+    Gott die Menschen lehren wollte. Bemerkungen zur ostsyrischen
     Schulbewegung," in M. Tamcke (ed.), <hi rend="italic">Syriaca II</hi>,
     Münster 2004, 175-192, and my own "Linee introduttive a
     Barhadbeshabba di Halwan, <hi rend="italic">Causa della fondazione delle
@@ -364,11 +391,11 @@
     scuole</hi>. Traduzione e note essenziali," <hi rend="italic">ibid.</hi> 10
     (2005) 127-170. After setting forth the contents of the
     <hi rend="italic">Cause</hi> and the problem of its relationship to the
-    <hi rend="italic">Ecclesiastical History</hi> of Bar<hi rend="&#34;u&#34;">h</hi>adbshabba ‘Arbaya, and that of its
-    authorship by Barhadbshabba d-Halwan, who may be the same as
-    the former, Becker observes that the literary genres that seem
-    to be present in the <hi rend="italic">Cause</hi> are: the "cause" genre,
-    derived from the classical <hi rend="italic">aitia</hi> and mainly
+    <hi rend="italic">Ecclesiastical History</hi> of Bar<hi rend="&#34;u&#34;">h</hi>adbshabba ‘Arbaya, and that of
+    its authorship by Barhadbshabba d-Halwan, who may be the same
+    as the former, Becker observes that the literary genres that
+    seem to be present in the <hi rend="italic">Cause</hi> are: the "cause"
+    genre, derived from the classical <hi rend="italic">aitia</hi> and mainly
     represented in the Syriac tradition by the "causes of
     festivals," which explained the origins of a celebration and
     its theological ground; the protreptic tone, derived from the
@@ -376,78 +403,80 @@
     collective biography, and the scholastic "chain of
     transmission" found in the "successions of philosophers" (on
     which see documentation e.g. in my "Diogene Laerzio storico del
-    pensiero antico tra biografia e dossografia, ‘successioni di
-    filosofi’ e scuole filosofiche," in <hi rend="italic">Diogene Laerzio, Vite e
-    dottrine dei più celebri filosofi</hi>, ed. G. Reale, Milan
-    2005, XXXIII-CXXXVIII) and later of apostles and bishops, and
-    also in Rabbinic sources: most interestingly, Becker points out
-    a terminological similarity between the <hi rend="italic">Cause</hi> and the
-    <hi rend="italic">Avot</hi> Becker also provides a better translation for the
-    title of the <hi rend="italic">Cause</hi>: rather than <hi rend="italic">Cause of the
-    Foundation of the Schools</hi>, he proposes <hi rend="italic">Cause of the
-    Establishment of the Session of the School</hi>, a rendering
-    that is well grounded in Syriac and helps us to understand the
-    writing as an opening and official address to the students and
-    teachers of the School of Nisibis.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+    pensiero antico tra biografia e dossografia, ‘successioni
+    di filosofi’ e scuole filosofiche," in <hi rend="italic">Diogene
+    Laerzio, Vite e dottrine dei più celebri filosofi</hi>,
+    ed. G. Reale, Milan 2005, XXXIII-CXXXVIII) and later of
+    apostles and bishops, and also in Rabbinic sources: most
+    interestingly, Becker points out a terminological similarity
+    between the <hi rend="italic">Cause</hi> and the <hi rend="italic">Avot</hi> Becker also
+    provides a better translation for the title of the
+    <hi rend="italic">Cause</hi>: rather than <hi rend="italic">Cause of the Foundation of the
+    Schools</hi>, he proposes <hi rend="italic">Cause of the Establishment of the
+    Session of the School</hi>, a rendering that is well grounded
+    in Syriac and helps us to understand the writing as an opening
+    and official address to the students and teachers of the School
+    of Nisibis.</p>
+         <p>
+            <anchor corresp="P11"/>[11]
     Chapters Six and Seven analyze the contents of the
     <hi rend="italic">Cause</hi> and place it within its cultural context. The
     sixth chapter, "The Reception of Theodore of Mopsuestia in the
     School of Nisibis" (113-125), demonstrates that the
-    <hi rend="italic">Cause</hi> depends on a sixth-century version of Theodore’s
-    thought, attested not only in the East-Syrian Church, but also
-    in Greek and Latin authors. The author recalls, first of all,
-    the veneration for Theodore of Mopsuestia in the East-Syrian
-    Church, where he is the theological and exegetical authority
-    par excellence, and in particular in the School of Nisibis, and
-    the translations of his works into Syriac, which has turned out
-    to be all the more valuable in that, after the condemnation of
-    his doctrines in 553, most of his writings have been lost in
-    Greek, and are extant only in fragments. Thence, Becker
-    interestingly develops the suggestion by Macina,
-    Wallace-Hadrill, and Reinink, that the <hi rend="italic">Cause</hi>
-    ultimately depends on Theodore’s idea of divine
-    <hi rend="italic">paideia</hi>, and, after giving a brief account of his
-    thought in general, he focuses on the pedagogical conception of
-    history and of the relationship between God and humans, and
-    illustrates how pedagogical terminology in the <hi rend="italic">Cause</hi>
-    and in the Syriac translation of Theodore converge. I
-    definitely agree with the author that we ought not to stress
-    the opposition between Alexandrine and Antiochene exegesis (cf.
-    e.g. my "Giovanni Crisostomo e l'esegesi scritturale: le scuole
-    di Alessandria e di Antiochia e le polemiche con gli
-    allegoristi pagani," in <hi rend="italic">Giovanni Crisostomo: Oriente e
-    Occidente tra IV e V secolo</hi>. Atti del XXXIII Incontro di
-    Studiosi dell'Antichità Cristiana, Roma, Augustinianum
-    6-8.V.2004, I, Roma 2005, 121-162). Becker also states that the
-    focus on the human being as the image of God in the
-    <hi rend="italic">Cause</hi> is an extremely common Antiochene motif, which
-    is absolutely correct; we may nevertheless observe that the
-    so-called "theology of the image", which sees the human being
-    as <hi rend="italic">eikōn tou Theou</hi>—according to <hi rend="italic">Genesis</hi>
-    1:26-27—is central and crucial also in the Cappadocians, and
-    above all in Gregory of Nyssa, who inherited it essentially
-    from Origen: and in fact, the three Cappadocians’ writings are
-    well attested in Syriac, and Basil’s <hi rend="italic">Hexaemeron</hi>,
-    continued by Gregory of Nyssa’s <hi rend="italic">De hominis opificio</hi>,
-    was highly influential in Syriac literature and for an
-    understanding of the book of <hi rend="italic">Genesis</hi>. In any case, the
-    author is right that Theodore of Mopsuestia’s commentary on
-    <hi rend="italic">Genesis</hi>, insofar as it can be reconstructed, seems to
-    lie behind the <hi rend="italic">Cause</hi>’s understanding of
-    <hi rend="italic">Genesis</hi> 1: the author of the <hi rend="italic">Cause</hi> puts
-    Theodore’s notion of divine <hi rend="italic">paideia</hi> into more concrete
-    terms, speaking not only of God who instructed the angels at
-    creation and human beings throughout history, but even of
-    classrooms and schools instituted by God. The author reasonably
-    suggests that the connection between Theodore and the
-    <hi rend="italic">Cause</hi> may have been Narsai, who studied Theodore in
-    Syriac and, as far as we know, is the first who described
-    creation as a school class with books, pens, etc., in
-    similes.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+    <hi rend="italic">Cause</hi> depends on a sixth-century version of
+    Theodore’s thought, attested not only in the East-Syrian
+    Church, but also in Greek and Latin authors. The author
+    recalls, first of all, the veneration for Theodore of
+    Mopsuestia in the East-Syrian Church, where he is the
+    theological and exegetical authority par excellence, and in
+    particular in the School of Nisibis, and the translations of
+    his works into Syriac, which has turned out to be all the more
+    valuable in that, after the condemnation of his doctrines in
+    553, most of his writings have been lost in Greek, and are
+    extant only in fragments. Thence, Becker interestingly develops
+    the suggestion by Macina, Wallace-Hadrill, and Reinink, that
+    the <hi rend="italic">Cause</hi> ultimately depends on Theodore’s idea
+    of divine <hi rend="italic">paideia</hi>, and, after giving a brief account
+    of his thought in general, he focuses on the pedagogical
+    conception of history and of the relationship between God and
+    humans, and illustrates how pedagogical terminology in the
+    <hi rend="italic">Cause</hi> and in the Syriac translation of Theodore
+    converge. I definitely agree with the author that we ought not
+    to stress the opposition between Alexandrine and Antiochene
+    exegesis (cf. e.g. my "Giovanni Crisostomo e l'esegesi
+    scritturale: le scuole di Alessandria e di Antiochia e le
+    polemiche con gli allegoristi pagani," in <hi rend="italic">Giovanni
+    Crisostomo: Oriente e Occidente tra IV e V secolo</hi>. Atti
+    del XXXIII Incontro di Studiosi dell'Antichità
+    Cristiana, Roma, Augustinianum 6-8.V.2004, I, Roma 2005,
+    121-162). Becker also states that the focus on the human being
+    as the image of God in the <hi rend="italic">Cause</hi> is an extremely
+    common Antiochene motif, which is absolutely correct; we may
+    nevertheless observe that the so-called "theology of the
+    image", which sees the human being as <hi rend="italic">eikōn tou
+    Theou</hi>—according to <hi rend="italic">Genesis</hi> 1:26-27—is
+    central and crucial also in the Cappadocians, and above all in
+    Gregory of Nyssa, who inherited it essentially from Origen: and
+    in fact, the three Cappadocians’ writings are well
+    attested in Syriac, and Basil’s <hi rend="italic">Hexaemeron</hi>,
+    continued by Gregory of Nyssa’s <hi rend="italic">De hominis
+    opificio</hi>, was highly influential in Syriac literature and
+    for an understanding of the book of <hi rend="italic">Genesis</hi>. In any
+    case, the author is right that Theodore of Mopsuestia’s
+    commentary on <hi rend="italic">Genesis</hi>, insofar as it can be
+    reconstructed, seems to lie behind the <hi rend="italic">Cause</hi>’s
+    understanding of <hi rend="italic">Genesis</hi> 1: the author of the
+    <hi rend="italic">Cause</hi> puts Theodore’s notion of divine
+    <hi rend="italic">paideia</hi> into more concrete terms, speaking not only of
+    God who instructed the angels at creation and human beings
+    throughout history, but even of classrooms and schools
+    instituted by God. The author reasonably suggests that the
+    connection between Theodore and the <hi rend="italic">Cause</hi> may have
+    been Narsai, who studied Theodore in Syriac and, as far as we
+    know, is the first who described creation as a school class
+    with books, pens, etc., in similes.</p>
+         <p>
+            <anchor corresp="P12"/>[12] The
     seventh chapter, "Spelling God’s Name with the Letters of
     Creation: The Use of Neoplatonic Aristotle in the
     <hi rend="italic">Cause</hi>" (126-154), studies the Neoplatonic
@@ -458,19 +487,20 @@
     from Ephrem and Evagrius. Relying on Sebastian Brock’s
     noteworthy suggestions, the author challenges the widespread
     assumption that philosophical materials like Aristotle’s
-    writings and Porphyry’s <hi rend="italic">Isagoge</hi> were imported into
-    Nisibis by the Edessan School of the Persians after its
+    writings and Porphyry’s <hi rend="italic">Isagoge</hi> were imported
+    into Nisibis by the Edessan School of the Persians after its
     migration. In fact, the evidence for such studies in
     fifth-century Edessa is thin, especially because it seems to be
     a mistake to place Probus, the early Syriac commentator and
-    translator of Aristotle’s logical works, in Edessa in the V
-    century. Aristotle’s logic, read through the Neoplatonists – as
-    has been shown above all by R. Sorabji –, arrived at Nisibis
-    later and through another way, probably thanks to direct
-    contacts with Alexandria, as again has been suggested by Brock
-    and confirmed by several other proofs.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] Of
+    translator of Aristotle’s logical works, in Edessa in the
+    V century. Aristotle’s logic, read through the
+    Neoplatonists – as has been shown above all by R. Sorabji
+    –, arrived at Nisibis later and through another way,
+    probably thanks to direct contacts with Alexandria, as again
+    has been suggested by Brock and confirmed by several other
+    proofs.</p>
+         <p>
+            <anchor corresp="P13"/>[13] Of
     course, Greek philosophy had been absorbed in the Syriac
     culture already since the days of Bardaisan (documentation in
     my "Bardesane e la sua scuola tra la cultura occidentale e
@@ -481,8 +511,8 @@
     <hi rend="italic">Evidence of Greek Philosophical Concepts in the Writings of
     Ephrem the Syrian</hi>, Louvain 1999). I suggest that we might
     even go back to Mara bar Serapion and his philosophical letter
-    to his son, which might be very ancient: see my "Gesù tra i
-    sapienti greci perseguitati ingiustamente in un antico
+    to his son, which might be very ancient: see my "Gesù
+    tra i sapienti greci perseguitati ingiustamente in un antico
     documento filosofico pagano di lingua siriaca," <hi rend="italic">Rivista di
     Filosofia Neoscolastica</hi> 97 (2005) 545-570; D. Rensberger,
     "Reconsidering the Letter of Mara Bar Serapion," in <hi rend="italic">Aramaic
@@ -492,33 +522,33 @@
     ideas and early date is forthcoming by Teun Tieleman and
     Annette Merz in a Festschrift for P.W. van der Horst. And of
     course Greek philosophy came also through Greek Patristic
-    authors translated into Syriac – especially Platonism. The
-    author tries to trace the philosophical background of the
+    authors translated into Syriac – especially Platonism.
+    The author tries to trace the philosophical background of the
     <hi rend="italic">Cause</hi>, especially in the initial sections of this
     writing, where general philosophical issues are put forward;
-    and here both Ephrem’s and Evagrius’ influence is detected, and
-    also, e.g., that of the Tree of Porphyry, read through later
-    Neoplatonism and transferred from logic to metaphysics. Again
-    the Neoplatonists, and Theodore of Mopsuestia, are reasonably
-    supposed to lie behind the issue of the epistemological
-    inaccessibility of God, also addressed by the <hi rend="italic">Cause</hi>,
-    according to which, as a consequence, names can only be
-    attributed to God by analogy. Once more, we may recall also
-    Gregory of Nyssa, who held a mitigated form of apophatism that
-    is central to his whole doctrine. Actually, the author himself
-    remarks that some terminology of apophatism in the
-    <hi rend="italic">Cause</hi> may derive from Evagrius, who knew the Nyssene
-    very well. In sum, it seems to me that the author demonstrates
-    quite finely that the philosophical background of the
-    <hi rend="italic">Cause</hi> derives from both fifth-century Edessa and the
-    spread of Greek philosophical literature in Mesopotamia in the
-    sixth century. Some methodological indications by Becker are
-    also valuable: much work is still required on the reception of
-    Greek philosophical texts and ideas in Syriac, such as an
+    and here both Ephrem’s and Evagrius’ influence is
+    detected, and also, e.g., that of the Tree of Porphyry, read
+    through later Neoplatonism and transferred from logic to
+    metaphysics. Again the Neoplatonists, and Theodore of
+    Mopsuestia, are reasonably supposed to lie behind the issue of
+    the epistemological inaccessibility of God, also addressed by
+    the <hi rend="italic">Cause</hi>, according to which, as a consequence, names
+    can only be attributed to God by analogy. Once more, we may
+    recall also Gregory of Nyssa, who held a mitigated form of
+    apophatism that is central to his whole doctrine. Actually, the
+    author himself remarks that some terminology of apophatism in
+    the <hi rend="italic">Cause</hi> may derive from Evagrius, who knew the
+    Nyssene very well. In sum, it seems to me that the author
+    demonstrates quite finely that the philosophical background of
+    the <hi rend="italic">Cause</hi> derives from both fifth-century Edessa and
+    the spread of Greek philosophical literature in Mesopotamia in
+    the sixth century. Some methodological indications by Becker
+    are also valuable: much work is still required on the reception
+    of Greek philosophical texts and ideas in Syriac, such as an
     edition of the earliest Syriac translation of Aristotle’s
     <hi rend="italic">Categories</hi>.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+         <p>
+            <anchor corresp="P14"/>[14]
     Chapters Eight and Nine recontextualize the School of Nisibis
     and the whole East-Syrian school movement in the frame of
     East-Syrian monasticism. The eighth chapter, "A Typology of
@@ -551,8 +581,8 @@
     could even offer some exegetical teaching and advanced
     learning. Many were founded by Babai of Gbilta in the eighth
     century.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] In
+         <p>
+            <anchor corresp="P15"/>[15] In
     the ninth chapter, "The Monastic Context of the East-Syrian
     School Movement" (169-203), the author argues that, on the one
     hand, although not all schools were connected to monasteries,
@@ -588,22 +618,22 @@
     surprised that Origen’s chief doctrine, that of 
     apocatastasis, appears again in a later Syriac ascetic, Isaac
     of Nineveh. An appendix is devoted to the decline of the School
-    of Nisibis at the beginning of the seventh century—the sources
-    for it become sparse after the sixth—, and Becker hypothesizes
-    that this might be connected to the controversy surrounding
-    Hnana of Adiabene, who led the school in those days: the
-    Barhadbshabba who wrote the <hi rend="italic">Cause</hi>, which comprises
-    high praises of Hnana, may be the same as the one who signed
-    the condemnation of Hnana and left the School of Nisibis: in
-    this case, we should suppose a change in his attitude toward
-    Hnana. This is entirely possible, since the <hi rend="italic">Cause</hi> was
-    probably written before the outbreak of the controversy, which
-    is, at any rate, particularly difficult to reconstruct: he too
-    was charged with "Origenism," but this had meantime become so
-    multivalent and vague an accusation that it is not clear what
-    the point of the controversy was.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] In
+    of Nisibis at the beginning of the seventh century—the
+    sources for it become sparse after the sixth—, and Becker
+    hypothesizes that this might be connected to the controversy
+    surrounding Hnana of Adiabene, who led the school in those
+    days: the Barhadbshabba who wrote the <hi rend="italic">Cause</hi>, which
+    comprises high praises of Hnana, may be the same as the one who
+    signed the condemnation of Hnana and left the School of
+    Nisibis: in this case, we should suppose a change in his
+    attitude toward Hnana. This is entirely possible, since the
+    <hi rend="italic">Cause</hi> was probably written before the outbreak of the
+    controversy, which is, at any rate, particularly difficult to
+    reconstruct: he too was charged with "Origenism," but this had
+    meantime become so multivalent and vague an accusation that it
+    is not clear what the point of the controversy was.</p>
+         <p>
+            <anchor corresp="P16"/>[16] In
     the Conclusion (204-210), the author also indicates further
     areas of possible investigation, which surely would be
     fruitful: philosophical culture in the Sasanian empire, the
@@ -614,35 +644,35 @@
     interpretation of the sources: in East-Syrian Christian
     schools, learning was not merely an intellectual act, and study
     was more than a purely mental activity. A significant example
-    is that of Mar Narsai in Barhadbshabba’s <hi rend="italic">Ecclesiatical
-    History</hi>, where his study practice cannot be separated from
-    his asceticism, which is conceived in terms of imitation of the
-    angels, that is, ceaseless worship of God, a liturgical
-    activity. All this points to a holistic view that joins both
-    the intellectual and the practical, performative side of life.
-    The <hi rend="italic">Cause</hi> was a speech delivered to welcome students
-    who entered the School of Nisibis and was aimed at presenting
-    the whole history as a long succession of schools and to have
-    each student feel a part of the cosmic order, performing his
-    duty of study as a way of life. The author rightly sees this
-    conception in line with the notion of ancient philosophy as a
-    way of life, to which especially Pierre Hadot has recently
-    called attention. This was true of Roman Stoicism, of the
-    Hellenistic philosophical schools in general, but also of
-    Pythagoreanism, for example (on which see, e.g., the
-    introduction by Francesco Romano to his edition, <hi rend="italic">Giamblico.
-    Summa Pitagorica: Vita di Pitagora, Esortazione alla filosofia,
-    Scienza matematica comune, Introduzione all’</hi> Aritmetica
-    <hi rend="italic">di Nicomaco, Teologia dell’aritmetica</hi>, Milan 2006).
-    This idea was kept up by the Christians, and it is particularly
-    evident in the East Syrian scholastic movement, as the author
-    finely illustrates. It is a pity that this important and
-    sanctifying experience was restricted to only half of the
-    Christians, just as it happened in Rabbinic schools as well,
-    whereas already some Greek philosophical schools were open to
-    women too.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] The
+    is that of Mar Narsai in Barhadbshabba’s
+    <hi rend="italic">Ecclesiatical History</hi>, where his study practice cannot
+    be separated from his asceticism, which is conceived in terms
+    of imitation of the angels, that is, ceaseless worship of God,
+    a liturgical activity. All this points to a holistic view that
+    joins both the intellectual and the practical, performative
+    side of life. The <hi rend="italic">Cause</hi> was a speech delivered to
+    welcome students who entered the School of Nisibis and was
+    aimed at presenting the whole history as a long succession of
+    schools and to have each student feel a part of the cosmic
+    order, performing his duty of study as a way of life. The
+    author rightly sees this conception in line with the notion of
+    ancient philosophy as a way of life, to which especially Pierre
+    Hadot has recently called attention. This was true of Roman
+    Stoicism, of the Hellenistic philosophical schools in general,
+    but also of Pythagoreanism, for example (on which see, e.g.,
+    the introduction by Francesco Romano to his edition,
+    <hi rend="italic">Giamblico. Summa Pitagorica: Vita di Pitagora, Esortazione
+    alla filosofia, Scienza matematica comune, Introduzione
+    all’</hi> Aritmetica <hi rend="italic">di Nicomaco, Teologia
+    dell’aritmetica</hi>, Milan 2006). This idea was kept up
+    by the Christians, and it is particularly evident in the East
+    Syrian scholastic movement, as the author finely illustrates.
+    It is a pity that this important and sanctifying experience was
+    restricted to only half of the Christians, just as it happened
+    in Rabbinic schools as well, whereas already some Greek
+    philosophical schools were open to women too.</p>
+         <p>
+            <anchor corresp="P17"/>[17] The
     chapters are followed by the Notes, mostly devoted to
     bibliographical references and the indication of the sources,
     but also containing several valuable side-remarks (211-274).
@@ -651,8 +681,8 @@
     (287-296), which is detailed and quite helpful, given the wide
     range of materials touched upon by the author in his treatment,
     and the Acknowledgments (297-298).</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] This
+         <p>
+            <anchor corresp="P18"/>[18] This
     book definitely is a valuable contribution that is worth
     reading with close attention. Some pages in the Table of
     Contents do not correspond to those we find in the book itself

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Vth World Syriac Conference, SEERI, Kottayam, India, 8-14 September 2002</title>
+            <title type="main">Vth World Syriac Conference, SEERI, Kottayam, India, 8-14 September 2002</title>
             <author>
-               <name>Jacob Thekeparampil</name>
+               <name>
+                  <forename>Jacob</forename>
+                  <surname>Thekeparampil</surname>
+               </name>
                <affiliation>
                   <orgName>SEERI</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnoucement/hv5n1fcseeri</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Conferences</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,16 +86,16 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] St.
+         <p>
+            <anchor corresp="P1"/>[1] St.
     Ephrem Eccumenical Research Institute, Kerala, will be
     organizing the Vth World Syriac Conference. The conference will
     be held at the Institute's headquarters in Kottayam, Kerala
     State, India, and is scheduled to take place between September
     8, 2002, and September 14, 2002, pending a permission of the
     Government of India, New Delhi.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] We call
+         <p>
+            <anchor corresp="P2"/>[2] We call
     upon scholars who are interested in attending to send us the
     following information: full name, title, affiliation, and a
     provisional title of a paper. Information can be sent directly

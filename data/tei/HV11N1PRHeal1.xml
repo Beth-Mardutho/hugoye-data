@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Jerome Alan Lund, The Book of the Laws of the Countries, A Dialogue on Free Will Versus Fate: A Key-Word-in-Context Concordance (Gorgias Press: Piscataway, NJ, 2007) Pp. xiii + 236. Hardback, $ 128.00.</title>
+            <title type="main">Jerome Alan Lund, The Book of the Laws of the Countries, A Dialogue on Free Will Versus Fate: A Key-Word-in-Context Concordance (Gorgias Press: Piscataway, NJ, 2007) Pp. xiii + 236. Hardback, $ 128.00.</title>
             <author>
-               <name>Kristian S. Heal</name>
+               <name>
+                  <forename>Kristian S.</forename>
+                  <surname>Heal</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv11n1prheal1</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>The Book of the Laws of the Countries</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,8 +86,8 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Students
+         <p>
+            <anchor corresp="P1"/>[1] Students
     of Syriac literature are once again indebted to Jerome Lund for
     providing an extremely useful <hi rend="italic">instrument de travail</hi>.
     Following on the heels of his concordance of the <hi rend="italic">Old Syriac
@@ -80,8 +103,8 @@
     the editions of the industrious Werner Strothmann, but up until
     now we have no actual concordances for Syriac literary
     texts.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The
+         <p>
+            <anchor corresp="P2"/>[2] The
     primary value of a KWIC concordance is the convenient manner in
     which it allows one to explore and examine the language of a
     given text. Whether one wants to describe the linguistic
@@ -95,36 +118,37 @@
     Scrolls, to name only two fields benefiting from both
     traditional concordances and searchable electronic corpora. It
     is also the case, moreover, for those scholars working with
-    Bardaisan�s <hi rend="italic">Book of the Laws of the Countries</hi>, since
-    the concordance under review �finds its origin in the database
-    of the Comprehensive Aramaic Lexicon [CAL] directed by Dr.
-    Stephen A. Kaufman� (vii).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Though
+    Bardaisan’s <hi rend="italic">Book of the Laws of the Countries</hi>,
+    since the concordance under review “finds its origin in
+    the database of the Comprehensive Aramaic Lexicon [CAL]
+    directed by Dr. Stephen A. Kaufman” (vii).</p>
+         <p>
+            <anchor corresp="P3"/>[3] Though
     there is a genetic relationship between the CAL database and
-    Lund�s concordance, the two resources are far from identical,
-    or even equally useful. Lund has clearly done a lot of work
-    with the data he obtained from CAL before presenting it for
-    publication. He has imposed a rational order on his material,
-    separating out personal (233-34) and geographic names (235-36),
-    for example. Also, the creation of a concordance has obviously
-    provided numerous opportunities to check and correct the data.
-    Thus, many of the glosses in the concordance are improved over
-    those provided on CAL�s KWIC Search, and a number of entries
-    have been refined or corrected. Most importantly to this
-    reviewer, however, are the substantial aesthetic advances made
-    by the concordance. It is simply easier and more pleasant to
-    find information in the concordance than through CAL�s
-    database, at least as presently constituted. One can easily
-    locate a lemma in the concordance, and quickly see the forms in
-    which that lemma appears in the text, where it appears in the
-    printed edition (by page and line number), and in what
-    context.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] It seems
-    to this reviewer that Lund�s concordance should find a welcome
-    home in every good university library, and will be coveted by
-    all scholars working with early Syriac literature.</p>
+    Lund’s concordance, the two resources are far from
+    identical, or even equally useful. Lund has clearly done a lot
+    of work with the data he obtained from CAL before presenting it
+    for publication. He has imposed a rational order on his
+    material, separating out personal (233-34) and geographic names
+    (235-36), for example. Also, the creation of a concordance has
+    obviously provided numerous opportunities to check and correct
+    the data. Thus, many of the glosses in the concordance are
+    improved over those provided on CAL’s KWIC Search, and a
+    number of entries have been refined or corrected. Most
+    importantly to this reviewer, however, are the substantial
+    aesthetic advances made by the concordance. It is simply easier
+    and more pleasant to find information in the concordance than
+    through CAL’s database, at least as presently
+    constituted. One can easily locate a lemma in the concordance,
+    and quickly see the forms in which that lemma appears in the
+    text, where it appears in the printed edition (by page and line
+    number), and in what context.</p>
+         <p>
+            <anchor corresp="P4"/>[4] It seems
+    to this reviewer that Lund’s concordance should find a
+    welcome home in every good university library, and will be
+    coveted by all scholars working with early Syriac
+    literature.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

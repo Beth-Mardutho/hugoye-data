@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>�The Origins of Syriac Christianity�: First Symposium of the Canadian Society for Syriac Studies</title>
+            <title type="main">“The Origins of Syriac Christianity”: First Symposium of the Canadian Society for Syriac Studies</title>
             <author>
-               <name>Debra FORAN</name>
+               <name>
+                  <forename>Debra</forename>
+                  <surname>Foran</surname>
+               </name>
                <affiliation>
                   <orgName>Department of Near and Middle Eastern Civilizations</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,13 +34,13 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv5n1crforan</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Debra FORAN</author>
-                  <title level="a">�The Origins of Syriac Christianity�: First Symposium of the Canadian Society for Syriac Studies</title>
+                  <title level="a">“The Origins of Syriac Christianity”: First Symposium of the Canadian Society for Syriac Studies</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,8 +62,22 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac Christianity</term>
+               <term>Origins</term>
+               <term>Canadian Society</term>
+               <term>Symposium</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,129 +89,131 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] On
+         <p>
+            <anchor corresp="P1"/>[1] On
     November 24, 2001, the Canadian Society for Syriac Studies held
-    its first symposium.� The conference was organized by the
+    its first symposium.  The conference was organized by the
     president of the Society, Dr. Amir Harrak, professor of Aramaic
     and Syriac at the University of Toronto, and partially financed
     by a grant from the Social Sciences and Humanities Research
-    Council of Canada.� The symposium was chaired by Dr. Grant
+    Council of Canada.  The symposium was chaired by Dr. Grant
     Frame, Associate Professor of Akkadian Language at the
     University of Toronto and Assistant Director/Editor of the
-    Royal Inscriptions of Mesopotamia project.� The program of the
-    day-long conference ranged from an examination of the spread of
-    Christianity in Syria and Mesopotamia to a review of modern
-    scholarship on the subject of Syriac Christianity,
+    Royal Inscriptions of Mesopotamia project.  The program of
+    the day-long conference ranged from an examination of the
+    spread of Christianity in Syria and Mesopotamia to a review of
+    modern scholarship on the subject of Syriac Christianity,
     demonstrating the scope of scholarship in this field.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] After a
+         <p>
+            <anchor corresp="P2"/>[2] After a
     word of greeting from the Chair of the Department of Near and
     Middle Eastern Civilizations at the University of Toronto,
     Professor James Reilly, the symposium began with a paper by the
-    host, Professor Amir Harrak.� His lecture, entitled �Trade
-    Routes and the Christianization of the Near East� began with
-    two of the most important Syriac sources, the <hi rend="italic">Teaching of
-    Addai</hi> and the <hi rend="italic">Acts of Mari</hi>.� These two documents
-    suggest that the spread of Christianity in the Near East was
-    due primarily to a programmed apostolic mission. �Prof. Harrak
-    presented an alternative analysis of these texts, proposing
-    that Christianity was transmitted throughout Syria and
-    Mesopotamia along trade routes and with the help of merchants.�
-    Other religions and sects, including Judaism, Manichaeism,
-    Buddhism, and Islam, spread in this same manner, thus it is not
-    difficult to imagine Syriac Christianity following the same
-    pattern.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+    host, Professor Amir Harrak.  His lecture, entitled
+    “Trade Routes and the Christianization of the Near
+    East” began with two of the most important Syriac
+    sources, the <hi rend="italic">Teaching of Addai</hi> and the <hi rend="italic">Acts of
+    Mari</hi>.  These two documents suggest that the spread of
+    Christianity in the Near East was due primarily to a programmed
+    apostolic mission.  Prof. Harrak presented an alternative
+    analysis of these texts, proposing that Christianity was
+    transmitted throughout Syria and Mesopotamia along trade routes
+    and with the help of merchants.  Other religions and
+    sects, including Judaism, Manichaeism, Buddhism, and Islam,
+    spread in this same manner, thus it is not difficult to imagine
+    Syriac Christianity following the same pattern.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
     second paper of the day, presented by Professor Paul-Hubert
-    Poirier of the Université de Laval, was entitled �Faith and
-    Persuasion: On Bardaisan of Edessa�s Epistemology.�� Prof.
-    Poirier presented the Syriac <hi rend="italic">Book of the Laws of
-    Countries</hi>, a dialogue between Bardaisan and Awida, and then
-    focused his attention on the main theme of the text, that it is
-    impossible to arrive at a firm conviction without faith.� He
-    reconstructed the philosophical background of this belief, and
-    concluded by situating it within a broader scope, that of the
-    Coptic Gnostic treatise <hi rend="italic">The Interpretation of Knowledge</hi>
-    and Augustine�s aphorism �Crede ut intellegas.�</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Dr.
+    Poirier of the Université de Laval, was entitled
+    “Faith and Persuasion: On Bardaisan of Edessa’s
+    Epistemology.”  Prof. Poirier presented the Syriac
+    <hi rend="italic">Book of the Laws of Countries</hi>, a dialogue between
+    Bardaisan and Awida, and then focused his attention on the main
+    theme of the text, that it is impossible to arrive at a firm
+    conviction without faith.  He reconstructed the
+    philosophical background of this belief, and concluded by
+    situating it within a broader scope, that of the Coptic Gnostic
+    treatise <hi rend="italic">The Interpretation of Knowledge</hi> and
+    Augustine’s aphorism “Crede ut
+    intellegas.”</p>
+         <p>
+            <anchor corresp="P4"/>[4] Dr.
     Robert A. Kitchen offered the third lecture of the symposium
-    entitled �Becoming Perfect: The Maturing of Asceticism in the
-    Syriac Book of Steps.�� The speaker presented the mid-fourth
-    century document, which is a collection of thirty discourses on
-    the spiritual life by an anonymous author, and then proceeded
-    to decipher it by focusing on the variety of literary genres
-    employed and what function these different forms play in the
-    development of an ascetic community.� The Syriac Book of Steps
-    is an exceptional work because it provides a seemingly accurate
-    picture of asceticism, with all its inadequacies and
-    accomplishments.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+    entitled “Becoming Perfect: The Maturing of Asceticism in
+    the Syriac Book of Steps.”  The speaker presented
+    the mid-fourth century document, which is a collection of
+    thirty discourses on the spiritual life by an anonymous author,
+    and then proceeded to decipher it by focusing on the variety of
+    literary genres employed and what function these different
+    forms play in the development of an ascetic community. 
+    The Syriac Book of Steps is an exceptional work because it
+    provides a seemingly accurate picture of asceticism, with all
+    its inadequacies and accomplishments.</p>
+         <p>
+            <anchor corresp="P5"/>[5] The
     fourth speaker of the day was Professor Sydney H. Griffith of
-    the Catholic University of America in Washington, DC.� He
-    delivered a paper entitled �Christianity in Edessa and the
-    Syriac-Speaking World: A Review of Past Scholarship and a
-    Proposal for the Future.�� Prof. Griffith presented an overview
-    of the scholarship surrounding the question of the beginning of
-    Christianity in the Syriac-speaking world, on the frontier of
-    the Roman and Persian Empires in Late Antiquity.� A new
-    paradigm for the assessment of the role of the various sects in
-    the Syriac Christian communities was proposed, with a
-    particular focus on the works of Ephrem the Syrian.� He then
-    used this paradigm to help interpret early Christian history in
-    the Syriac-speaking world.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] After
+    the Catholic University of America in Washington, DC.  He
+    delivered a paper entitled “Christianity in Edessa and
+    the Syriac-Speaking World: A Review of Past Scholarship and a
+    Proposal for the Future.”  Prof. Griffith presented
+    an overview of the scholarship surrounding the question of the
+    beginning of Christianity in the Syriac-speaking world, on the
+    frontier of the Roman and Persian Empires in Late
+    Antiquity.  A new paradigm for the assessment of the role
+    of the various sects in the Syriac Christian communities was
+    proposed, with a particular focus on the works of Ephrem the
+    Syrian.  He then used this paradigm to help interpret
+    early Christian history in the Syriac-speaking world.</p>
+         <p>
+            <anchor corresp="P6"/>[6] After
     this fourth scholarly lecture, the audience was treated to a
     performance by the Choir of the Assyrian Church of the East,
-    Toronto Parish.� The choir sang a Syriac poem by Saint Ephrem
-    the Syrian entitled <hi rend="italic">In Praise of Learning</hi>.� This recital
-    provided the spectators with a tangible portrayal of the Syriac
-    Church and its rituals.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
+    Toronto Parish.  The choir sang a Syriac poem by Saint
+    Ephrem the Syrian entitled <hi rend="italic">In Praise of Learning</hi>. 
+    This recital provided the spectators with a tangible portrayal
+    of the Syriac Church and its rituals.</p>
+         <p>
+            <anchor corresp="P7"/>[7] The
     fifth paper of the symposium was presented by Ms. Marica
     Cassis, a graduate student in the Department of Near and Middle
-    Eastern Civilizations at the University of Toronto.� Her paper,
-    entitled �The Archaeology of Christian Kokhe: A Comparative
-    Study,� examined Christian remains from this very important
-    site in southern Iraq.� Kokhe embodies the permanent presence
-    of the early Christian church in the Sassanian world.� The
-    speaker surveyed the archaeological material from the nearby
-    site of Seleucia-Ctesiphon, with a special focus on the
-    Christian remains, and then compared these findings to the
-    existing information on ancient Kokhe in order to develop a
-    better understanding of the Eastern Church in the
+    Eastern Civilizations at the University of Toronto.  Her
+    paper, entitled “The Archaeology of Christian Kokhe: A
+    Comparative Study,” examined Christian remains from this
+    very important site in southern Iraq.  Kokhe embodies the
+    permanent presence of the early Christian church in the
+    Sassanian world.  The speaker surveyed the archaeological
+    material from the nearby site of Seleucia-Ctesiphon, with a
+    special focus on the Christian remains, and then compared these
+    findings to the existing information on ancient Kokhe in order
+    to develop a better understanding of the Eastern Church in the
     3<hi rend="sup">rd</hi> century.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+         <p>
+            <anchor corresp="P8"/>[8] The
     symposium concluded with a presentation by Dr. George A. Kiraz
     of the Syriac Computing Institute and Beth Mardutho: The Syriac
-    Institute.� Dr. Kiraz introduced a new project that he has been
-    involved with, The Syriac Digital Library.� This project
-    endeavors to make a large body of material available on the
-    Internet in an eLibrary.� Various kinds of material will be
-    digitized, including Bible editions, liturgies, grammars,
-    dictionaries, patristic writings, journals and magazines,
-    historical works, and much more.� Pictures and maps will also
-    be incorporated into the eLibrary, and a database will be
-    established to allow searching these documents.� The Syriac
-    Digital Library has partnered with Brigham Young University,
-    Brown University, Princeton Theological Institute, The Catholic
-    University of America, and several other libraries, providing
-    access to an extraordinary amount of material to enrich the
-    collection.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] This
+    Institute.  Dr. Kiraz introduced a new project that he has
+    been involved with, The Syriac Digital Library.  This
+    project endeavors to make a large body of material available on
+    the Internet in an eLibrary.  Various kinds of material
+    will be digitized, including Bible editions, liturgies,
+    grammars, dictionaries, patristic writings, journals and
+    magazines, historical works, and much more.  Pictures and
+    maps will also be incorporated into the eLibrary, and a
+    database will be established to allow searching these
+    documents.  The Syriac Digital Library has partnered with
+    Brigham Young University, Brown University, Princeton
+    Theological Institute, The Catholic University of America, and
+    several other libraries, providing access to an extraordinary
+    amount of material to enrich the collection.</p>
+         <p>
+            <anchor corresp="P9"/>[9] This
     symposium represents the first event of this type for the
-    Canadian Society for Syriac Studies.� It was without a doubt a
-    resounding success.� This conference provided a wide array of
-    papers, covering a range of topics.� One can only hope that
-    this was the beginning of a long tradition of scholarly
-    symposia for the Society.</p>
+    Canadian Society for Syriac Studies.  It was without a
+    doubt a resounding success.  This conference provided a
+    wide array of papers, covering a range of topics.  One can
+    only hope that this was the beginning of a long tradition of
+    scholarly symposia for the Society.</p>
          <!-- #EndEditable -->
       </body>
    </text>

@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Colloquy of Moses on Mount Sinai: Where Syriac Christianity Meets Islamic Spain and Africa between the 16th and 19th Cent.</title>
+            <title type="main">The Colloquy of Moses on Mount Sinai: Where Syriac Christianity Meets Islamic Spain and Africa between the 16th and 19th Cent.</title>
             <author>
-               <name>Karla R. Suomala</name>
+               <name>
+                  <forename>Karla R.</forename>
+                  <surname>Suomala</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n2suomala</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,42 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Moses</term>
+               <term>Torah</term>
+               <term>Colloquy</term>
+               <term>Ge’ez</term>
+               <term>Swahili</term>
+               <term>aljamiado</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>In 1891, Isaac Hall published a Syriac
+    dialogue that blends elements of Exod 19-34 in which Moses
+    ascends Mt. Sinai to receive the Torah, and spends 40 days and
+    nights with God. This dialogue between God and Moses
+    incorporates legal and ethical issues, as well as explores
+    issues of God’s origin and nature. The text seems to have
+    no other counterparts in Syriac literature, but has parallels
+    in four other manuscript traditions:  1) Arabic Christian,
+    2) Ethiopian Christian and Falasha, 3) East African Muslim, and
+    4) Spanish Muslim. This paper will explore those parallels, and
+    investigate the possibility of a common source.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,63 +106,54 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">In 1891, Isaac Hall published a Syriac
-    dialogue that blends elements of Exod 19-34 in which Moses
-    ascends Mt. Sinai to receive the Torah, and spends 40 days and
-    nights with God. This dialogue between God and Moses
-    incorporates legal and ethical issues, as well as explores
-    issues of God�s origin and nature. The text seems to have no
-    other counterparts in Syriac literature, but has parallels in
-    four other manuscript traditions:� 1) Arabic Christian, 2)
-    Ethiopian Christian and Falasha, 3) East African Muslim, and 4)
-    Spanish Muslim. This paper will explore those parallels, and
-    investigate the possibility of a common source.</p>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] During
+         <p>
+            <anchor corresp="P1"/>[1] During
     the course of my dissertation research on Moses and God in
     dialogue in post-biblical literature,<ref target="#FN1">1</ref> I came upon a Syriac
-    dialogue, �The Colloquy of Moses on Mount Sinai,� published by
-    Isaac Hall.<ref target="#FN2">2</ref> The dialogue is set on Mt. Sinai and is loosely
-    based on Exod 19-34. In this dialogue between Moses and God,
-    Moses asks rather simple, straightforward questions. To each of
-    the questions, God provides a response. Hall could not provide
-    a date or setting for the text, although he speculated that it
-    might have some connection to the Nestorian liturgical
-    tradition. He notes that the text he received from a contact in
-    Urmia in 1889 was part of a manuscript that also contained �The
-    Story of Arsenius King of Egypt.� This manuscript, along with
-    two others that contain �The Colloquy�, is held by the Houghton
-    Library at Harvard University.<ref target="#FN3">3</ref>
+    dialogue, “The Colloquy of Moses on Mount Sinai,”
+    published by Isaac Hall.<ref target="#FN2">2</ref> The dialogue is set on Mt. Sinai
+    and is loosely based on Exod 19-34. In this dialogue between
+    Moses and God, Moses asks rather simple, straightforward
+    questions. To each of the questions, God provides a response.
+    Hall could not provide a date or setting for the text, although
+    he speculated that it might have some connection to the
+    Nestorian liturgical tradition. He notes that the text he
+    received from a contact in Urmia in 1889 was part of a
+    manuscript that also contained “The Story of Arsenius
+    King of Egypt.” This manuscript, along with two others
+    that contain “The Colloquy”, is held by the
+    Houghton Library at Harvard University.<ref target="#FN3">3</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] As part
-    of his description of �The Colloquy�, Hall points to the close
-    connection between the Syriac and Arabic Christian manuscript
-    tradition by noting the existence of three additional Karshuni
-    versions.<ref target="#FN4">4</ref> Graf demonstrates that �The Colloquy� is in fact
-    well attested in Christian Arabic traditions, particularly
-    Karshuni, and he suggests that the material in these
-    manuscripts has Syriac origins.<ref target="#FN5">5</ref> Most of the mss in this group
-    are dated to the 16<hi rend="sup">th</hi> and 17<hi rend="sup">th</hi> centuries
-    although there are at least four can be dated to the
-    15<hi rend="sup">th</hi> century. One of the mss is dated as late as the
-    19<hi rend="sup">th</hi> century.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
-    Syriac �Colloquy�, with respect to both form and content has no
-    clear parallels within the Syriac literary tradition,<ref target="#FN6">6</ref> the wider
-    Christian tradition,<ref target="#FN7">7</ref> or even the classical Islamic tradition. At
-    first glance, it would appear that there are parallels between
-    �The Colloquy� and the numerous dialogues between Moses and God
-    in rabbinic literature. However, upon closer examination, aside
-    from the dialogue form, the content and the style of �The
-    Colloquy� does not correspond to any of the rabbinic
+         <p>
+            <anchor corresp="P2"/>[2] As part
+    of his description of “The Colloquy”, Hall points
+    to the close connection between the Syriac and Arabic Christian
+    manuscript tradition by noting the existence of three
+    additional Karshuni versions.<ref target="#FN4">4</ref> Graf demonstrates that “The
+    Colloquy” is in fact well attested in Christian Arabic
+    traditions, particularly Karshuni, and he suggests that the
+    material in these manuscripts has Syriac origins.<ref target="#FN5">5</ref> Most of the mss
+    in this group are dated to the 16<hi rend="sup">th</hi> and
+    17<hi rend="sup">th</hi> centuries although there are at least four can
+    be dated to the 15<hi rend="sup">th</hi> century. One of the mss is
+    dated as late as the 19<hi rend="sup">th</hi> century.</p>
+         <p>
+            <anchor corresp="P3"/>[3] The
+    Syriac “Colloquy”, with respect to both form and
+    content has no clear parallels within the Syriac literary
+    tradition,<ref target="#FN6">6</ref> the wider Christian tradition,<ref target="#FN7">7</ref> or even the
+    classical Islamic tradition. At first glance, it would appear
+    that there are parallels between “The Colloquy” and
+    the numerous dialogues between Moses and God in rabbinic
+    literature. However, upon closer examination, aside from the
+    dialogue form, the content and the style of “The
+    Colloquy” does not correspond to any of the rabbinic
     dialogues.<ref target="#FN8">8</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Is this
+         <p>
+            <anchor corresp="P4"/>[4] Is this
     text simply an anomaly? How can we account for it, given the
     lack of precedent in Jewish, Christian and Muslim literature?
     Interestingly, there are parallels, but not necessarily where
@@ -128,52 +162,54 @@
     texts with similar content and structure are found among: 1)
     Ethiopian Christians and Jews (Falashas), 2) Muslims of
     Mozambique (or perhaps Kenya), and 3) Spanish Muslims.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Steven
+         <p>
+            <anchor corresp="P5"/>[5] Steven
     Kaplan has recently connected this Syriac text to both the
     Ethiopian Christian as well as Falasha traditions. He has
-    published a translation of the Ge�ez version, <hi rend="italic">Nagara
+    published a translation of the Ge’ez version, <hi rend="italic">Nagara
     Muse</hi>, of this dialogue, part of the Falasha corpus of
     literature which was received from the Ethiopian church with
-    very few revisions. <ref target="#FN9">9</ref> There are at least four manuscripts—three
-    in the Faitlovich collection, and one in a private collection.
-    The manuscripts include dates: two of them contain the years
-    1757/58 and one records 1754/55.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Another
+    very few revisions. <ref target="#FN9">9</ref> There are at least four
+    manuscripts—three in the Faitlovich collection, and one
+    in a private collection. The manuscripts include dates: two of
+    them contain the years 1757/58 and one records 1754/55.</p>
+         <p>
+            <anchor corresp="P6"/>[6] Another
     dialogue that appears connected to this group also originates
     in Africa. The Swahili <hi rend="italic">Epic of Moses (Utenzi wa Musa)</hi>
     is considered among the first literary works discovered in
     northern Mozambique. Tentatively dated to the late nineteenth
     century, the text may have been written in Kenya. It is fairly
-    close in length to the Syriac and Ge�ez texts, about 330
+    close in length to the Syriac and Ge’ez texts, about 330
     stanzas, and is written in the Utenzi poetic form. One of the
     three versions of this text found in a copy book by discovered
     by Prof. Eugeniusz Rzewuski of Warsaw University was translated
     by Jan Knappert.<ref target="#FN10">10</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Not
+         <p>
+            <anchor corresp="P7"/>[7] Not
     finding specific precursors in either the Christian or Jewish
     literary traditions, I turned to Islamic biblical legend and
     commentary. As it turns out, there is a rather substantial
     manuscript tradition of dialogue texts involving Moses and God
     in sixteenth century Spain. These texts form part of the body
-    of <hi rend="italic">aljamiado</hi> and <hi rend="italic">morisco</hi> literature�material
-    written or transmitted by Spanish Muslims in Spanish with
-    Arabic characters. The <hi rend="italic">aljamiado</hi> period really only
-    lasted for little more than a century, concluding in 1609, at
-    which point a large portion of the population fled Spain for
-    North Africa. These dialogues are dated not later than 1609,
-    when the last of the <hi rend="italic">Moriscos</hi> fled Spain. In these
-    manuscripts there are direct parallels to the Syriac, Ge�ez,
-    and Swahili dialogues�both in form and in content�although
+    of <hi rend="italic">aljamiado</hi> and <hi rend="italic">morisco</hi>
+    literature—material written or transmitted by Spanish
+    Muslims in Spanish with Arabic characters. The
+    <hi rend="italic">aljamiado</hi> period really only lasted for little more
+    than a century, concluding in 1609, at which point a large
+    portion of the population fled Spain for North Africa. These
+    dialogues are dated not later than 1609, when the last of the
+    <hi rend="italic">Moriscos</hi> fled Spain. In these manuscripts there are
+    direct parallels to the Syriac, Ge’ez, and Swahili
+    dialogues—both in form and in content—although
     theologically they are closer to the Swahili text. There are
     three manuscripts at la Real Academia de la Historia in Spain
-    that contain these dialogues�Gay. T. 19, 8, and 13.<ref target="#FN11">11</ref>
+    that contain these dialogues—Gay. T. 19, 8, and
+    13.<ref target="#FN11">11</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] These
+         <p>
+            <anchor corresp="P8"/>[8] These
     dialogue texts are linked by form and content. The question and
     answer format or what in linguistic terms is called an
     adjacency pair (a completed verbal unit, i.e., a question and
@@ -182,8 +218,8 @@
     central conversation partners are God and Moses, although
     characters such as Iblis and angels also make appearances and
     contribute to the dialogues.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] With
+         <p>
+            <anchor corresp="P9"/>[9] With
     respect to content, the questions that Moses asks fall into
     three categories: 1) those that pertain to ethical, moral, and
     ritual issues, 2) those that reflect a desire to know more
@@ -198,18 +234,18 @@
     who digs a grave:</p>
          <quote>
       Syriac<lb/>
-      And Moses � said, �He that digs the grave of a departed
-      brother believer, what is his reward? And God said to him, I
-      will clothe him with a robe of the light of my divinity, and
-      I will pardon him [his] sins.<ref target="#FN12">12</ref>
+      And Moses … said, “He that digs the grave of a
+      departed brother believer, what is his reward? And God said
+      to him, I will clothe him with a robe of the light of my
+      divinity, and I will pardon him [his] sins.<ref target="#FN12">12</ref>
          </quote>
          <quote>
-      Ge�ez<lb/>
+      Ge’ez<lb/>
       [Moses asks] What will you give to the one who digs a grave
       for his brother in the faith? [God responds] I will write his
       name in the Book of Life with the prophets the apostles, the
       martyrs and the saints.<ref target="#FN13">13</ref> And I will place him in the
-      Garden [paradise]�<ref target="#FN14">14</ref>
+      Garden [paradise]…<ref target="#FN14">14</ref>
          </quote>
          <quote>
       Swahili<lb/>
@@ -224,40 +260,41 @@
       the deceased? [Allah responds] I will prepare for him a
       palace in paradise.<ref target="#FN16">16</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] The
+         <p>
+            <anchor corresp="P10"/>[10] The
     general pattern found in these examples is one where Moses
     inquires as to the reward for a particular behavior (in other
     cases, he asks about the punishment), and God generally
-    responds with a specific compensation—sometimes in this world,
-    sometimes in the hereafter, and occasionally in both. The
-    questions are short, and God�s responses are equivalent in
-    length, if not slightly longer. In the texts above, the only
-    text that does not indicate Moses� question is the Swahili,
-    which tends to have fewer questions from Moses and longer
-    monologues on God�s part covering a wider area of issues. It
-    appears as if Moses� questions are implied in the Swahili text,
-    and the material takes on the character of a summary of the
-    conversation between God and Moses.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] Very
+    responds with a specific compensation—sometimes in this
+    world, sometimes in the hereafter, and occasionally in both.
+    The questions are short, and God’s responses are
+    equivalent in length, if not slightly longer. In the texts
+    above, the only text that does not indicate Moses’
+    question is the Swahili, which tends to have fewer questions
+    from Moses and longer monologues on God’s part covering a
+    wider area of issues. It appears as if Moses’ questions
+    are implied in the Swahili text, and the material takes on the
+    character of a summary of the conversation between God and
+    Moses.</p>
+         <p>
+            <anchor corresp="P11"/>[11] Very
     frequently in the four textual traditions under examination,
     the rewards and punishments are similar. For example, the only
     text above which does not specify paradise as part of the
-    reward is the Syriac, but it does indicate �a robe of the light
-    of my divinity.�<ref target="#FN17">17</ref> A typical example of where the four
-    traditions do agree on rewards is when Moses wants to know what
-    the one who walks with or carries the bier of the dead will
-    receive. In each text, either sins or debts or both will be
-    forgiven.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] A
+    reward is the Syriac, but it does indicate “a robe of the
+    light of my divinity.”<ref target="#FN17">17</ref> A typical example of where the
+    four traditions do agree on rewards is when Moses wants to know
+    what the one who walks with or carries the bier of the dead
+    will receive. In each text, either sins or debts or both will
+    be forgiven.</p>
+         <p>
+            <anchor corresp="P12"/>[12] A
     further ritual concern has to do with prayer. Interestingly,
-    the Syriac and Ge�ez texts include rewards for those who pray
-    at all of the appointed times throughout the day�in the
-    evening, during the night when people sleep, before dawn, and
-    at the third, sixth and ninth hours. The <hi rend="italic">aljamiado</hi> and
-    Swahili texts aren�t as specific, for example:</p>
+    the Syriac and Ge’ez texts include rewards for those who
+    pray at all of the appointed times throughout the day—in
+    the evening, during the night when people sleep, before dawn,
+    and at the third, sixth and ninth hours. The <hi rend="italic">aljamiado</hi>
+    and Swahili texts aren’t as specific, for example:</p>
          <quote>
             <hi rend="italic">aljamiado</hi>
             <lb/>
@@ -271,36 +308,38 @@
          </quote>
          <p>The <hi rend="italic">aljamiado</hi> texts indicate other times for prayer
     throughout the day, corresponding to Islamic practice, although
-    they are not every three hours as found in the Syriac and Ge�ez
-    texts, which reflect Christian practice.<ref target="#FN20">20</ref>
+    they are not every three hours as found in the Syriac and
+    Ge’ez texts, which reflect Christian practice.<ref target="#FN20">20</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
-    Concern for the �other� is a key theme in all of these texts;
-    whether it be parents, neighbors. widows, orphans, the hungry,
-    the poor, a large part of the conversation between God and
-    Moses has to do with these groups of people and their proper
-    treatment. Each of the texts under study is very explicit, and
-    some of them add significant detail in differentiating between
-    these groups. A poor person, for example, might not have money,
-    or clothing, food or shelter, or even friends. The Swahili
-    text, though perhaps the least expansive, provides a good
-    summary of the content found in each of the texts. Here God
-    tells Moses to �respect your neighbor, be generous to the poor
-    and to the orphans, and live in peace with all people,�
-    indicating proper behavior, and then concludes with positive
-    reinforcement, �I will reward you later.�<ref target="#FN21">21</ref>
+         <p>
+            <anchor corresp="P13"/>[13]
+    Concern for the ‘other’ is a key theme in all of
+    these texts; whether it be parents, neighbors. widows, orphans,
+    the hungry, the poor, a large part of the conversation between
+    God and Moses has to do with these groups of people and their
+    proper treatment. Each of the texts under study is very
+    explicit, and some of them add significant detail in
+    differentiating between these groups. A poor person, for
+    example, might not have money, or clothing, food or shelter, or
+    even friends. The Swahili text, though perhaps the least
+    expansive, provides a good summary of the content found in each
+    of the texts. Here God tells Moses to “respect your
+    neighbor, be generous to the poor and to the orphans, and live
+    in peace with all people,” indicating proper behavior,
+    and then concludes with positive reinforcement, “I will
+    reward you later.”<ref target="#FN21">21</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
-    second category of questions reflects Moses� desire to know
-    more about the nature and origin of the Divine. For example, in
-    each tradition Moses wants to be able to see God, very much
-    like Exod 33:18-20, where Moses says ��Show me your glory, I
-    pray.� And he said, �I will make all my goodness pass before
-    you� But,� he said, �you cannot see my face; for no one shall
-    see me and live.�� In the <hi rend="italic">aljamiado</hi> texts, Iblis
-    actually tempts Moses to ask this question.</p>
+         <p>
+            <anchor corresp="P14"/>[14] The
+    second category of questions reflects Moses’ desire to
+    know more about the nature and origin of the Divine. For
+    example, in each tradition Moses wants to be able to see God,
+    very much like Exod 33:18-20, where Moses says
+    “‘Show me your glory, I pray.’ And he said,
+    ‘I will make all my goodness pass before you…
+    But,’ he said, ‘you cannot see my face; for no one
+    shall see me and live.’” In the <hi rend="italic">aljamiado</hi>
+    texts, Iblis actually tempts Moses to ask this question.</p>
          <quote>
       Syriac<lb/>
       [Moses says] I beg you that I might see you with my eyes?
@@ -310,7 +349,7 @@
       them. [God commands] Arise, pray, O Moses.<ref target="#FN22">22</ref>
          </quote>
          <quote>
-      Ge�ez<lb/>
+      Ge’ez<lb/>
       [Moses says] O Lord, can I see you with my eyes? [God
       responds] O Moses, I will let you see me so that you can
       justly say that you have seen God who is above the water.
@@ -322,26 +361,27 @@
       Swahili<lb/>
       [Moses says] My Lord! I wish to see you! [The narrator
       explains that] Moses saw what seemed like a valley of bright
-      light. He fainted again� he heard hundreds of angels calling
-      him: Moses! You have sinned! The Lord cannot be seen! And
-      Moses felt as if the mountains were crumbling and the earth
-      was sinking away.<ref target="#FN24">24</ref>
+      light. He fainted again… he heard hundreds of angels
+      calling him: Moses! You have sinned! The Lord cannot be seen!
+      And Moses felt as if the mountains were crumbling and the
+      earth was sinking away.<ref target="#FN24">24</ref>
          </quote>
          <quote>
             <hi rend="italic">aljamiado</hi>
             <lb/>
       [Moses says] Now show me yourself so that I might see you.
-      [Allah responds]� O Moses, son of Imran, you have asked for a
-      mighty thing� O Moses, you cannot see me.<ref target="#FN25">25</ref>
+      [Allah responds]… O Moses, son of Imran, you have
+      asked for a mighty thing… O Moses, you cannot see
+      me.<ref target="#FN25">25</ref>
             <lb/>
             <lb/>
-      [Moses says] O my Lord, let me see your face.� [Allah
+      [Moses says] O my Lord, let me see your face.… [Allah
       responds] O Moses you cannot see me. [Moses persists] My
       Lord, as I hear your word [voice?] let me see your face
       because my community doubts.<ref target="#FN26">26]</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+         <p>
+            <anchor corresp="P15"/>[15] The
     Swahili and <hi rend="italic">aljamiado</hi> texts indicate that as a result
     of this request, the earth quakes and Moses faints for up to
     three days, at which point he is revived by God and his senses
@@ -349,15 +389,15 @@
     Swahili and the <hi rend="italic">aljamiado</hi> texts that this request
     cannot be granted. In the Syriac text, however, God finally
     allows Moses a glimpse of heaven, and in the <hi rend="italic">aljamiado</hi>
-    text, Moses faints when he sees a glimpse of God�s grandeur. In
-    the Ge�ez text, Moses sees God�s presence but cannot perceive
-    what is before him.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16]
+    text, Moses faints when he sees a glimpse of God’s
+    grandeur. In the Ge’ez text, Moses sees God’s
+    presence but cannot perceive what is before him.</p>
+         <p>
+            <anchor corresp="P16"/>[16]
     Following this line of questioning, Moses also asks God in each
     of the texts where God lives or where God is, and where God was
-    prior to the creation of the universe. The Syriac, Ge�ez, and
-    <hi rend="italic">aljamiado</hi> texts all have a similar progression of
+    prior to the creation of the universe. The Syriac, Ge’ez,
+    and <hi rend="italic">aljamiado</hi> texts all have a similar progression of
     questions and answers: 1) Lord, are you near or far? God
     responds by saying that God is both above and below everything,
     and that God dwells in every place; 2) What is your clothing
@@ -374,16 +414,16 @@
     least expansive in this area, not asking as many questions but
     containing more of a summary of the questions asked in the
     other traditions.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] The
+         <p>
+            <anchor corresp="P17"/>[17] The
     third category of questions is addressed by all of the
-    traditions except the Ge�ez text, which does not deal with a
-    final judgment or redemption. The Syriac, the Swahili and the
-    <hi rend="italic">aljamiado</hi> traditions, however, connect Adam to both
-    Moses and the contemporary audience being addressed. The Syriac
-    text points to the redemption of Adam from Gehenna through
-    Jesus Christ, and the restoration of Adam and his descendants
-    to the Garden of Eden.</p>
+    traditions except the Ge’ez text, which does not deal
+    with a final judgment or redemption. The Syriac, the Swahili
+    and the <hi rend="italic">aljamiado</hi> traditions, however, connect Adam to
+    both Moses and the contemporary audience being addressed. The
+    Syriac text points to the redemption of Adam from Gehenna
+    through Jesus Christ, and the restoration of Adam and his
+    descendants to the Garden of Eden.</p>
          <quote>
       O Moses, this is the word between me and your father Adam:
       After five thousand five hundred years I will descend to
@@ -396,8 +436,8 @@
       and his children, and make him inherit the kingdom of
       heaven.<ref target="#FN27">27</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] The
+         <p>
+            <anchor corresp="P18"/>[18] The
     <hi rend="italic">aljamiado</hi> and Swahili texts, in contrast, point to
     numerous Adams with a final human Adam who is the ancestor of
     Moses as well as all human beings. Because this human Adam
@@ -414,49 +454,50 @@
       the jinns. Many years later I created the human Adam and his
       wife, Eve. All their descendants will die at an unknown time,
       so remember to repent your sins daily, keep the fast in
-      Ramadan� <ref target="#FN28">28]</ref>
+      Ramadan… <ref target="#FN28">28]</ref>
          </quote>
          <p>The <hi rend="italic">aljamiado</hi> texts provide further detail on the
     Adams that were created. In conversation with Moses, Allah
     says:</p>
          <quote>
-      � I created a man whose name was Adam, and he lived ten
-      thousand years; he was not one of the angels, or a human, or
-      even a jinn.�After that I created another Adam, and still
-      later another Adam, and yet another Adam, until I created ten
-      thousand Adams.�Each one lived ten thousand years. �and then
-      after [Iblis] disobeyed me, and descended to earth, I created
-      your father Adam and he lived one thousand years.<ref target="#FN29">29</ref>
+      … I created a man whose name was Adam, and he lived
+      ten thousand years; he was not one of the angels, or a human,
+      or even a jinn. After that I created another Adam, and
+      still later another Adam, and yet another Adam, until I
+      created ten thousand Adams. Each one lived ten thousand
+      years. …and then after [Iblis] disobeyed me, and
+      descended to earth, I created your father Adam and he lived
+      one thousand years.<ref target="#FN29">29</ref>
          </quote>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19]
+         <p>
+            <anchor corresp="P19"/>[19]
     Overall, these texts also reflect some differences, primarily
     in the area of content. The religious bent of the authors of
     the Syriac, Swahili, and <hi rend="italic">aljamiado</hi> texts becomes clear
     within just a few lines of each text with the exception of the
-    Ge�ez text. Since the Ge�ez� is so close to the Syriac text, it
-    is not as easy to tell that it was used in a Falasha community.
-    The <hi rend="italic">aljamiado</hi> and Swahili texts mention Muhammed
-    often, and Allah even commands Moses to pray for Muhammand and
-    fellow Muslims. In both of these textual traditions, Moses
-    becomes jealous of Muhammed, who has not even been born yet,
-    and desires to know more about this man for whom he must pray.
-    Moses asks Allah, �Who is Muhammed, O Lord, that I cannot
-    approach you with saying a prayer for him?�<ref target="#FN30">30</ref> While the Islamic
-    texts are not polemical against either the Jewish or Christian
-    communities, the Syriac text concludes with a strong
-    anti-Jewish polemic:</p>
+    Ge’ez text. Since the Ge’ez  is so close to
+    the Syriac text, it is not as easy to tell that it was used in
+    a Falasha community. The <hi rend="italic">aljamiado</hi> and Swahili texts
+    mention Muhammed often, and Allah even commands Moses to pray
+    for Muhammand and fellow Muslims. In both of these textual
+    traditions, Moses becomes jealous of Muhammed, who has not even
+    been born yet, and desires to know more about this man for whom
+    he must pray. Moses asks Allah, “Who is Muhammed, O Lord,
+    that I cannot approach you with saying a prayer for
+    him?”<ref target="#FN30">30</ref> While the Islamic texts are not polemical
+    against either the Jewish or Christian communities, the Syriac
+    text concludes with a strong anti-Jewish polemic:</p>
          <quote>
-      � I will scatter [the Jews] through creation, and take from
-      them the priesthood and the kingdom and the prophecy, and
-      give them to be stained black, so that they shall be as dogs
-      hated of every one.<ref target="#FN31">31</ref>
+      … I will scatter [the Jews] through creation, and take
+      from them the priesthood and the kingdom and the prophecy,
+      and give them to be stained black, so that they shall be as
+      dogs hated of every one.<ref target="#FN31">31</ref>
          </quote>
-         <p>The Ge�ez text, which is otherwise so close to the Syriac,
-    but represents Ethiopian Jews, logically does not include the
-    polemic.</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20]
+         <p>The Ge’ez text, which is otherwise so close to the
+    Syriac, but represents Ethiopian Jews, logically does not
+    include the polemic.</p>
+         <p>
+            <anchor corresp="P20"/>[20]
     Another interesting difference between the Syriac and the other
     texts in this tradition is with the nature of the prohibitions
     that Moses and God discuss. While in the Swahili and
@@ -468,203 +509,211 @@
     wonders where the impetus arose for such an extensive
     discussion on this subject which is entirely absent from the
     other traditions.</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+         <p>
+            <anchor corresp="P21"/>[21]
     Based on this preliminary discussion, it seems clear that these
     texts have a common source, although it is not clear what that
-    source is. The Syriac, Ge�ez, and Swahili texts all look as if
-    they relate in some way to a larger tradition, such as the one
-    represented in the <hi rend="italic">aljamiado</hi> tradition. At this point
-    there are three fairly extensive <hi rend="italic">aljamiado</hi> dialogues,
-    and they contain almost every feature found in the later texts
-    discussed here. Did the <hi rend="italic">Moriscos</hi> in Spain originate
-    this Moses tradition? It does not seem likely, given the
-    condition of the community in the sixteenth century.<ref target="#FN33">33</ref> These
-    Spanish Muslims were a remnant of the former Islamic population
-    in Spain, and they were fighting a loosing battle against
-    persecution, exile or assimilation. The texts themselves show a
-    people who had lost their Arabic language skills, but had not
-    gained literary Spanish proficiency in their place. The Arabic
-    words in the texts are often used improperly, or are completely
-    misunderstood. The author or authors did not seem to have a
-    grasp of either Spanish or Arabic grammar. Finally, among the
-    texts dealing with biblical characters or themes, there are
-    very few original compositions. Most of the ideas in the
-    <hi rend="italic">aljamiado</hi> texts can be traced back to Medieval Islamic
-    literature, commentary, or hadith material.</p>
-         <p rend="nn">
-            <anchor xml:id="P22"/>[22] To
+    source is. The Syriac, Ge’ez, and Swahili texts all look
+    as if they relate in some way to a larger tradition, such as
+    the one represented in the <hi rend="italic">aljamiado</hi> tradition. At
+    this point there are three fairly extensive <hi rend="italic">aljamiado</hi>
+    dialogues, and they contain almost every feature found in the
+    later texts discussed here. Did the <hi rend="italic">Moriscos</hi> in Spain
+    originate this Moses tradition? It does not seem likely, given
+    the condition of the community in the sixteenth
+    century.<ref target="#FN33">33</ref> These Spanish Muslims were a remnant of the
+    former Islamic population in Spain, and they were fighting a
+    loosing battle against persecution, exile or assimilation. The
+    texts themselves show a people who had lost their Arabic
+    language skills, but had not gained literary Spanish
+    proficiency in their place. The Arabic words in the texts are
+    often used improperly, or are completely misunderstood. The
+    author or authors did not seem to have a grasp of either
+    Spanish or Arabic grammar. Finally, among the texts dealing
+    with biblical characters or themes, there are very few original
+    compositions. Most of the ideas in the <hi rend="italic">aljamiado</hi> texts
+    can be traced back to Medieval Islamic literature, commentary,
+    or hadith material.</p>
+         <p>
+            <anchor corresp="P22"/>[22] To
     date, I have not encountered a tradition in medieval Islamic
     texts which closely matches the material in this grouping.
     Obvious places to start would be commentators like Al-Kisai and
     Al-Tabari, but neither contains Moses material that is similar
     in form or content to these dialogues. This does not mean,
-    however, that such an �ur-tradition� does not exist in Islamic
-    literature. In even a cursory examination of these texts, it
-    becomes clear that the concerns addressed are very close to
-    those found in the Quran itself and in the hadith
-    material—especially the emphasis on proper treatment of the
-    poor, the hungry, orphans, widows, parents, the oppressed, and
-    the dead, along with a great deal of attention on prayer,
+    however, that such an “ur-tradition” does not exist
+    in Islamic literature. In even a cursory examination of these
+    texts, it becomes clear that the concerns addressed are very
+    close to those found in the Quran itself and in the hadith
+    material—especially the emphasis on proper treatment of
+    the poor, the hungry, orphans, widows, parents, the oppressed,
+    and the dead, along with a great deal of attention on prayer,
     lending money, associating with righteous people, and sexual
     behavior. In addition, the reward/punishment schema is found
-    throughout the Koran—particularly in relation to salvation or
-    damnation, which are central issues in these texts.</p>
-         <p rend="nn">
-            <anchor xml:id="P23"/>[23]
-    Given the fact that �The Colloquy� is widely attested in
-    Christian Arabic, one might investigate connections between the
-    Arabic mss and the Islamic traditions. Interestingly, there are
-    no such Muslim dialogues in Arabic.�It is clear that the
-    authors of the <hi rend="italic">aljamiado</hi> texts did not know Arabic
-    very well, if at all, and that even their Spanish lacked
-    polish. Since there are no other examples of this type of
-    dialogue in Christian literature, and the dialogues in Jewish
-    literature don�t really correspond in terms of style and
-    content,<ref target="#FN34">34</ref> it is possible that these dialogues have all
-    been influenced by some earlier, and fairly prominent, Islamic
-    Moses tradition.</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+    throughout the Koran—particularly in relation to
+    salvation or damnation, which are central issues in these
+    texts.</p>
+         <p>
+            <anchor corresp="P23"/>[23]
+    Given the fact that “The Colloquy” is widely
+    attested in Christian Arabic, one might investigate connections
+    between the Arabic mss and the Islamic traditions.
+    Interestingly, there are no such Muslim dialogues in
+    Arabic. It is clear that the authors of the
+    <hi rend="italic">aljamiado</hi> texts did not know Arabic very well, if at
+    all, and that even their Spanish lacked polish. Since there are
+    no other examples of this type of dialogue in Christian
+    literature, and the dialogues in Jewish literature don’t
+    really correspond in terms of style and content,<ref target="#FN34">34</ref> it is possible
+    that these dialogues have all been influenced by some earlier,
+    and fairly prominent, Islamic Moses tradition.</p>_______<lb/>
+         <head xml:id="HV7N2Suomala2">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> K. Suomala, <hi rend="italic">Moses and God in Dialogue: Exodus
     32-34 in Postbiblical Literature</hi>, forthcoming from Peter
     Lang (2004). <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef2">2</ref> I. Hall, �The Colloquy of Moses on Mount Sinai,�
-    <hi rend="italic">Hebraica</hi> 7:3 (1891), 161-177. For the most recent
-    bibliographical information on this manuscript tradition, see
-    A. M. Denis, <hi rend="italic">Introduction � la litt�rature religieuse
-    jud�o-hell�nisitque</hi> I (Turnhout: Brepols, 2000), 467-468,
-    and J.-C. Haelewyck, <hi rend="italic">Clavis apocryphum veteris
-    testamenti</hi> (Turnhout: Brepols, 1998), 94-95. <ref target="#FNRef2">
+         <p>
+            <ref target="#FNRef2">2</ref> I. Hall, “The Colloquy of Moses on Mount
+    Sinai,” <hi rend="italic">Hebraica</hi> 7:3 (1891), 161-177. For the
+    most recent bibliographical information on this manuscript
+    tradition, see A. M. Denis, <hi rend="italic">Introduction à la
+    littérature religieuse
+    judéo-hellénisitque</hi> I (Turnhout: Brepols,
+    2000), 467-468, and J.-C. Haelewyck, <hi rend="italic">Clavis apocryphum
+    veteris testamenti</hi> (Turnhout: Brepols, 1998), 94-95.
+    <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef3">3</ref> A. Desreumaux, �Un manuscript syriaque de T�h�ran
-    contenant des apocryphes,� in <hi rend="italic">Apocrypha. Revue
-    International des Litt�rature Apocryphes</hi> 5 (1994),
-    137-164, describes a Syriac ms in the Issayi 18 collection, and
-    M.H. Goshen-Gottstein, <hi rend="italic">Syriac Manuscripts in the Harvard
-    College Library: A Catalogue</hi>, Harvard Semitic Studies 23
-    (Cambridge, MA: Harvard Univ. 1979), lists syr.�89, syr. 90,
-    and syr. 166, the last being the ms to which Hall referred.
-    <ref target="#FNRef3">
+         <p>
+            <ref target="#FNRef3">3</ref> A. Desreumaux, “Un manuscript syriaque de
+    Téhéran contenant des apocryphes,” in
+    <hi rend="italic">Apocrypha. Revue International des Littérature
+    Apocryphes</hi> 5 (1994), 137-164, describes a Syriac ms in the
+    Issayi 18 collection, and M.H. Goshen-Gottstein, <hi rend="italic">Syriac
+    Manuscripts in the Harvard College Library: A Catalogue</hi>,
+    Harvard Semitic Studies 23 (Cambridge, MA: Harvard Univ. 1979),
+    lists syr. 89, syr. 90, and syr. 166, the last being the
+    ms to which Hall referred. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> I. Hall, 161-162. <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> G. Graf, <hi rend="italic">Geschichte der christlichen arabischen
     Literatur</hi> I, <hi rend="italic">Studi e Testi</hi> 118 (Vatican City:
     Biblioteca Apostolica Vaticana, 1944), 207-208, provides a full
-    listing of Arabic Christian manuscripts.�See also G. Troupeau,
-    <hi rend="italic">Catalogue des manuscrits arabes chr�tiens</hi> I (Paris:
-    Biliotheque nationale, 1972), mss 213, 275, 286, 5072. <ref target="#FNRef5">
+    listing of Arabic Christian manuscripts. See also G.
+    Troupeau, <hi rend="italic">Catalogue des manuscrits arabes
+    chrétiens</hi> I (Paris: Biliotheque nationale, 1972),
+    mss 213, 275, 286, 5072. <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> S. P. Brock examines Moses traditions and their
-    origins in Syriac literature up through the Middle� Ages in
-    �Some Syriac Legends Concerning Moses,� <hi rend="italic">Journal of Jewish
-    Studies</hi> 33 (Spr-Aut 1982), 237-255. There are no dialogues
-    between God and Moses that appear in among these legends.�In
-    addition, there are no parallels in Brock�s examination of
-    Syriac dispute poems or dialogue hymns, both of which are more
-    stylized in form.�See S. P. Brock, �Dialogue hymns of the
-    Syriac Churches,� <hi rend="italic">Sobernost</hi> 5 (1983), 35-45, and
-    �Syriac dispute-poems: the various types,� in <hi rend="italic">Dispute Poems
-    and Dialogues</hi>, Orientalia Lovaniensia Analecta 42, ed. G.
-    Reinink and H. Vanstiphout (Leuven: Department Orientalistiek,
-    1991), 109-19. <ref target="#FNRef6">
+    origins in Syriac literature up through the Middle  Ages
+    in “Some Syriac Legends Concerning Moses,”
+    <hi rend="italic">Journal of Jewish Studies</hi> 33 (Spr-Aut 1982), 237-255.
+    There are no dialogues between God and Moses that appear in
+    among these legends. In addition, there are no parallels
+    in Brock’s examination of Syriac dispute poems or
+    dialogue hymns, both of which are more stylized in
+    form. See S. P. Brock, “Dialogue hymns of the Syriac
+    Churches,” <hi rend="italic">Sobernost</hi> 5 (1983), 35-45, and
+    “Syriac dispute-poems: the various types,” in
+    <hi rend="italic">Dispute Poems and Dialogues</hi>, Orientalia Lovaniensia
+    Analecta 42, ed. G. Reinink and H. Vanstiphout (Leuven:
+    Department Orientalistiek, 1991), 109-19. <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef7">7</ref> The Arabic Christian manuscripts do not really
     present us with a parallel or a separate traditionin that they
-    are so closely connected to the Syriac �Colloquy� and may in
-    fact be based upon the Syriac. <ref target="#FNRef7">
+    are so closely connected to the Syriac “Colloquy”
+    and may in fact be based upon the Syriac. <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> K. Suomala, 91-153. <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> S. Kaplan, <hi rend="italic">Les Falashas</hi> (Turnhout,
     Belgium: Brepols, 1990), 97-105. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef10">10</ref> J. Knappert, �Ritual and Creed in Moses�
-    Conversation with God,� in <hi rend="italic">Windows on the House of
-    Islam</hi>, ed. J. Renard (Berkeley: University of California
-    Press, 1998), 78-84. <ref target="#FNRef10">
+         <p>
+            <ref target="#FNRef10">10</ref> J. Knappert, “Ritual and Creed in
+    Moses’ Conversation with God,” in <hi rend="italic">Windows on
+    the House of Islam</hi>, ed. J. Renard (Berkeley: University of
+    California Press, 1998), 78-84. <ref target="#FNRef10">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef11">11</ref> A. Vespertino Rodr�guez, <hi rend="italic">Leyendas
-    Aljamiadas y Moriscas sobre Personajes B�blicos</hi> (Madrid:
-    Editorial Gredos, 1983). <ref target="#FNRef11">
+         <p>
+            <ref target="#FNRef11">11</ref> A. Vespertino Rodríguez, <hi rend="italic">Leyendas
+    Aljamiadas y Moriscas sobre Personajes Bíblicos</hi>
+    (Madrid: Editorial Gredos, 1983). <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> I. Hall, 172. <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> Clear allusion to the Christian base text,
     presumably the Syriac, of this dialogue. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef14">14</ref> S. Kaplan, 99 (translation is mine).
     <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> J. Knappert, 81. <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef16">16</ref> A. Vespertino Rodr�guez, 215-216. <ref target="#FNRef16">
+         <p>
+            <ref target="#FNRef16">16</ref> A. Vespertino Rodríguez, 215-216.
+    <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> I. Hall, 172. <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef18">18</ref> A. Vespertino Rodr�guez, 188-189. <ref target="#FNRef18">
+         <p>
+            <ref target="#FNRef18">18</ref> A. Vespertino Rodríguez, 188-189.
+    <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> J. Knappert, 80. <ref target="#FNRef19">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> Apparently the Falasha community did not
     adjust the prayer times, even though they considered themselves
     practicing Jews. It may be that because there is such overlap
@@ -673,147 +722,153 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef21">21</ref> J. Knappert, 84. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef22">22</ref> I. Hall, 176. <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef23">23</ref> S. Kaplan, 104. <ref target="#FNRef23">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef24">24</ref> J. Knappert, 79. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef25">25</ref> A. Vespertino Rodr�guez, 170. <ref target="#FNRef25">
+         <p>
+            <ref target="#FNRef25">25</ref> A. Vespertino Rodríguez, 170.
+    <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> Ibid, 197. <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> I. Hall, 177. <ref target="#FNRef27">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> J. Knappert, 84. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef29">29</ref> A. Vespertino Rodr�guez, 179. <ref target="#FNRef29">
+         <p>
+            <ref target="#FNRef29">29</ref> A. Vespertino Rodríguez, 179.
+    <ref target="#FNRef29">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> Ibid, 174. <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef31">31</ref> I. Hall, 177. <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> Ibid, 173. <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef33">33</ref> L. Lopez-Baralt, <hi rend="italic">Islam in Spanish
     Literature: from the Middle Ages to the Present</hi>, trans. A.
     Hurley (Leiden: E.J. Brill, 1992), 171-189. <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef34">34</ref> Jewish tradition might have had some
-    influence on the questions dealing with God�s nature which is
-    an important theme in rabbinic and especially medieval Jewish
-    literature.�Unfortunately, the specific questions that Moses
-    poses in these texts are not found in either corpus. The only
-    passages that come close are those in Numbers and Deuteronomy
-    Rabbah which talk about the possibility of God eating. The
-    Rabbis conclude that God does not eat. Another group of
-    midrashic passages deal with whether or not God sleeps—very
-    much like the passages under study here—and the Rabbis conclude
-    that God does not sleep either. A few rabbinic passages deal
-    with where God resides in heaven and provide descriptions of
-    the throne. Exodus Rabbah 23:13, for example, incorporates the
-    image found in the Syriac text that God�s throne is borne by
-    four angels in the forms of a human, an eagle, a lion, and a
-    bull. Beyond these slight similarities in theme, however, there
-    is nothing specific that connects these four textual traditions
-    to Jewish literature of either the rabbinic or medieval period
-    in any substantial way. <ref target="#FNRef34">
+    influence on the questions dealing with God’s nature
+    which is an important theme in rabbinic and especially medieval
+    Jewish literature. Unfortunately, the specific questions
+    that Moses poses in these texts are not found in either corpus.
+    The only passages that come close are those in Numbers and
+    Deuteronomy Rabbah which talk about the possibility of God
+    eating. The Rabbis conclude that God does not eat. Another
+    group of midrashic passages deal with whether or not God
+    sleeps—very much like the passages under study
+    here—and the Rabbis conclude that God does not sleep
+    either. A few rabbinic passages deal with where God resides in
+    heaven and provide descriptions of the throne. Exodus Rabbah
+    23:13, for example, incorporates the image found in the Syriac
+    text that God’s throne is borne by four angels in the
+    forms of a human, an eagle, a lion, and a bull. Beyond these
+    slight similarities in theme, however, there is nothing
+    specific that connects these four textual traditions to Jewish
+    literature of either the rabbinic or medieval period in any
+    substantial way. <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Brock, S.P., �Some Syriac Legends
-    Concerning Moses,� <hi rend="italic">Journal of Jewish Studies</hi> 33
-    (Spr-Aut 1982), 237-255.</p>
-         <p xml:id="B2" rend="biblio">—, �Dialogue hymns of the Syriac
-    Churches,� <hi rend="italic">Sobernost</hi> 5 (1983), 35-45.</p>
-         <p xml:id="B3" rend="biblio">—, �Syriac dispute-poems: the various
-    types,� in <hi rend="italic">Dispute Poems and Dialogues, Orientalia
-    Lovaniensia Analecta</hi> 42, ed. G. Reinink and H. Vanstiphout
-    (Leuven: Department Orientalistiek, 1991), 109-19.</p>
-         <p xml:id="B4" rend="biblio">Denis, A.M., <hi rend="italic">Introduction � la
-    litt�rature religieuse jud�o-hell�nisitque</hi> I (Turnhout,
-    Belgium: Brepols, 2000).</p>
-         <p xml:id="B5" rend="biblio">Desreumaux, A., �Un manuscript
-    syriaque de T�h�ran contenant des apocryphes,� <hi rend="italic">in
-    Apocrypha. Revue International des Litt�rature Apocryphes</hi>
-    5 (1994), 137-164.</p>
-         <p xml:id="B6" rend="biblio">Goshen-Gottstein, M.H., <hi rend="italic">Syriac
+         <head xml:id="HV7N2Suomala3">Bibliography</head>
+         <p>Brock, S.P., “Some Syriac
+    Legends Concerning Moses,” <hi rend="italic">Journal of Jewish
+    Studies</hi> 33 (Spr-Aut 1982), 237-255.</p>
+         <p>—, “Dialogue hymns of the
+    Syriac Churches,” <hi rend="italic">Sobernost</hi> 5 (1983), 35-45.</p>
+         <p>—, “Syriac dispute-poems:
+    the various types,” in <hi rend="italic">Dispute Poems and Dialogues,
+    Orientalia Lovaniensia Analecta</hi> 42, ed. G. Reinink and H.
+    Vanstiphout (Leuven: Department Orientalistiek, 1991),
+    109-19.</p>
+         <p>Denis, A.M., <hi rend="italic">Introduction
+    à la littérature religieuse
+    judéo-hellénisitque</hi> I (Turnhout, Belgium:
+    Brepols, 2000).</p>
+         <p>Desreumaux, A., “Un manuscript
+    syriaque de Téhéran contenant des
+    apocryphes,” <hi rend="italic">in Apocrypha. Revue International des
+    Littérature Apocryphes</hi> 5 (1994), 137-164.</p>
+         <p>Goshen-Gottstein, M.H., <hi rend="italic">Syriac
     Manuscripts in the Harvard College Library: A Catalogue</hi>,
     Harvard Semitic Studies 23 (Cambridge, MA: Harvard Univ.,
     1979).</p>
-         <p xml:id="B7" rend="biblio">Graf, G., <hi rend="italic">Geschichte der
+         <p>Graf, G., <hi rend="italic">Geschichte der
     christlichen arabischen Literatur</hi> I, <hi rend="italic">Studi e
     Testi</hi> 118 (Vatican City: Biblioteca Apostolica Vaticana,
     1944).</p>
-         <p xml:id="B8" rend="biblio">Haelewyck, J.-C., <hi rend="italic">Clavis
+         <p>Haelewyck, J.-C., <hi rend="italic">Clavis
     apocryphum veteris testamenti</hi> (Turnhout, Belgium: Brepols,
     1998).</p>
-         <p xml:id="B9" rend="biblio">Hall, Isaac, �The Colloquy of Moses
-    on Mount Sinai,� <hi rend="italic">Hebraica</hi> 7:3 (1891), 161-177.</p>
-         <p xml:id="B10" rend="biblio">Kaplan, Steven, <hi rend="italic">Les
+         <p>Hall, Isaac, “The Colloquy of
+    Moses on Mount Sinai,” <hi rend="italic">Hebraica</hi> 7:3 (1891),
+    161-177.</p>
+         <p>Kaplan, Steven, <hi rend="italic">Les
     Falashas</hi> (Turnhout, Belgium: Brepols, 1990).</p>
-         <p xml:id="B11" rend="biblio">Knappert, Jan, �Ritual and Creed in
-    Moses� Conversation with God,� in <hi rend="italic">Windows on the House of
-    Islam</hi>, ed. J. Renard (Berkeley: University of California
-    Press, 1998), 78-84.</p>
-         <p xml:id="B12" rend="biblio">Lopez-Baralt, Luce, <hi rend="italic">Islam in
+         <p>Knappert, Jan, “Ritual and
+    Creed in Moses’ Conversation with God,” in
+    <hi rend="italic">Windows on the House of Islam</hi>, ed. J. Renard
+    (Berkeley: University of California Press, 1998), 78-84.</p>
+         <p>Lopez-Baralt, Luce, <hi rend="italic">Islam in
     Spanish Literature: from the Middle Ages to the Present</hi>,
     trans. A. Hurley (Leiden: E.J. Brill, 1992).</p>
-         <p xml:id="B13" rend="biblio">Suomala, Karla, <hi rend="italic">Moses and God in
+         <p>Suomala, Karla, <hi rend="italic">Moses and God in
     Dialogue: Exodus 32-34 in Postbiblical Literature</hi>,
     forthcoming from Peter Lang (2004).</p>
-         <p xml:id="B14" rend="biblio">Troupeau, G., <hi rend="italic">Catalogue des
+         <p>Troupeau, G., <hi rend="italic">Catalogue des
     manuscrits arabes</hi> 
-            <hi rend="italic">chr�tiens</hi> I (Paris: Biliotheque
-    nationale, 1972).</p>
-         <p xml:id="B15" rend="biblio">Vespertino Rodr�guez, A.,
+            <hi rend="italic">chrétiens</hi> I (Paris:
+    Biliotheque nationale, 1972).</p>
+         <p>Vespertino Rodríguez, A.,
     <hi rend="italic">Leyendas Aljamiadas y Moriscas sobre Personajes
-    B�blicos</hi> (Madrid: Editorial Gredos, 1983).</p>
+    Bíblicos</hi> (Madrid: Editorial Gredos, 1983).</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

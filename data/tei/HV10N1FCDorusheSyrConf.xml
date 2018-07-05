@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dorushe Annual Graduate Student Conference on Syriac Studies</title>
+            <title type="main">Dorushe Annual Graduate Student Conference on Syriac Studies</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol10No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/announcement/hv10n1fcdorushesyrconf</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,13 +73,13 @@
          <lb/>
     
     
-         <p rend="title2">Princeton University<lb/>
-    April 14, 2007 <!-- InstanceEndEditable --></p>
+         <p>Princeton University<lb/>
+    April 14, 2007 </p>
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <p>
+            <anchor corresp="P1"/>[1] The
     Department of Near Eastern Studies at Princeton University in
     cooperation with Beth Mardutho's Dorushe graduate student
     association will hold the 2007 Dorushe Graduate Student Syriac
@@ -71,21 +91,21 @@
     respondant. The submission deadline for the conference was Dec.
     8, 2006. A complete program will be posted at <ref target="http://www.bethmardutho.org/dorushe/">http://www.bethmardutho.org/dorushe/</ref> when
     available.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Planning
+         <p>
+            <anchor corresp="P2"/>[2] Planning
     Committee: David A. Michelson (Chair), Jon Loopstra, Carmen
     Meier, Jeanne-Nicole Saint-Laurent, Daniel L. Schwartz, Anne
     Seville, Jack Tannous, George Kiraz (Beth Mardutho) and
     Emmanuel Papoutsakis (Faculty Advisor).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Support
+         <p>
+            <anchor corresp="P3"/>[3] Support
     for this conference is being provided by Princeton University's
     Department of Near Eastern Studies, Department of History,
     Program in Hellenic Studies, Program in the Ancient World,
     Program in Medieval Studies, Group for the Study of Late
     Antiquity, and Center for the Study of Religion.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] For
+         <p>
+            <anchor corresp="P4"/>[4] For
     further information, contact:</p>
          <p>David A. Michelson<lb/>
     Acting Associate Director (2006-2007)<lb/>

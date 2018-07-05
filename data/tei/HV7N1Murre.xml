@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Generous Devotion: Women in the Church of the East between 1550 and 1850</title>
+            <title type="main">Generous Devotion: Women in the Church of the East between 1550 and 1850</title>
             <author>
-               <name>Heleen (H.L.) Murre-van den Berg</name>
+               <name>
+                  <forename>Heleen</forename>
+                  <surname>Berg</surname>
+               </name>
                <affiliation>
                   <orgName>Universiteit Leiden</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol7No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv7n1murre</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Women</term>
+               <term>Church of the East</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,8 +92,8 @@
     <!-- #BeginEditable "Address" -->
     <!-- #EndEditable -->
     <!-- #BeginEditable "Content" -->
-    <head>Abstract</head>
-         <p rend="abstract">In the centuries following the Ottoman
+
+    <p>In the centuries following the Ottoman
     conquest of northern Mesopotamia and Kurdistan, the Church of
     the East showed a remarkable vitality, which was expressed
     among other things in a considerable manuscript production and
@@ -81,41 +105,44 @@
     their reasons for doing so. A closer reading of the colophons
     also reveals details about the social position of these women,
     the role of their fathers, brothers, and husbands, as well as
-    about their position within the church—varying from incidental
-    references to daughters of the convenant, deaconnesses and
-    nuns, to highly-esteemed mothers and well-doers in the
-    Christian community. Finally, the article asks for a closer
-    reading of the colophons in order to enlarge our knowledge of
-    the Church of the East in this period of history.</p>
+    about their position within the church—varying from
+    incidental references to daughters of the convenant,
+    deaconnesses and nuns, to highly-esteemed mothers and
+    well-doers in the Christian community. Finally, the article
+    asks for a closer reading of the colophons in order to enlarge
+    our knowledge of the Church of the East in this period of
+    history.</p>
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In the
+         <p>
+            <anchor corresp="P1"/>[1] In the
     early summer of 1707, the priest Yosep, son of the priest
     Giwargis, son of the priest Israel Alqoshaya from the Shikwana
-    family, one of the famous scribes� families of Alqosh of the
-    period, in his hometown finished writing a <hi rend="italic">
-               <hi rend="u">t</hi>aksā d-kāhnē</hi>, a priests� office book which
-    included the regular Sunday eucharistic liturgies, a few
-    special liturgies and a number of <hi rend="italic">
-               <hi rend="u">h</hi>uttāmē</hi> by various authors. In his colophon he
-    notes: �This book of the <hi rend="italic">
-               <hi rend="u">t</hi>aksā
-    d-kāhnē</hi> was written thanks to the money and labor of
-    Belgan, a believing woman from Alqoshta, and she bestowed it
-    upon the holy church of Mar Yo<hi rend="u">h</hi>annan in
-    the blessed village of Dawedaya, in the region of <hi rend="u">S</hi>apna (Amadiah region). From now on, everyone is
-    required to read from it.�<ref target="#FN1">1</ref>
+    family, one of the famous scribes’ families of Alqosh of
+    the period, in his hometown finished writing a <hi rend="italic">
+               <hi rend="u">t</hi>aksā d-kāhnē</hi>, a priests’
+    office book which included the regular Sunday eucharistic
+    liturgies, a few special liturgies and a number of
+    <hi rend="italic">
+               <hi rend="u">h</hi>uttāmē</hi> by various
+    authors. In his colophon he notes: “This book of the
+    <hi rend="italic">
+               <hi rend="u">t</hi>aksā d-kāhnē</hi>
+    was written thanks to the money and labor of Belgan, a
+    believing woman from Alqoshta, and she bestowed it upon the
+    holy church of Mar Yo<hi rend="u">h</hi>annan in the
+    blessed village of Dawedaya, in the region of <hi rend="u">S</hi>apna (Amadiah region). From now on, everyone is
+    required to read from it.”<ref target="#FN1">1</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Belgan
+         <p>
+            <anchor corresp="P2"/>[2] Belgan
     from Alqoshta (a little village in the mountains of Berwari,
     about 65 miles north of Alqosh in what is now southeastern
     Turkey) is not the only woman of the Church of the East who
     makes her appearance in the Syriac manuscript colophons of the
-    Ottoman period. In David Wilmshurst�s list of colophons and
-    inscriptions, more than eighty women are mentioned in sixty-six
-    entries made between 1500 and 1830.<ref target="#FN2">2</ref> On the total number of
-    colophons and inscriptions of this period, numbering about
+    Ottoman period. In David Wilmshurst’s list of colophons
+    and inscriptions, more than eighty women are mentioned in
+    sixty-six entries made between 1500 and 1830.<ref target="#FN2">2</ref> On the total number
+    of colophons and inscriptions of this period, numbering about
     1350, this already constitutes a significant group of about six
     percent, but when compared with the number of colophons that
     mention commissioners and sponsors (the roles in which women
@@ -126,39 +153,40 @@
     Church of the East in this period. It is this information that
     is used for the present contribution.<ref target="#FN4">4</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] The
+         <p>
+            <anchor corresp="P3"/>[3] The
     period of about 1500 to 1830 is the period in which the Church
     of the East, after a century of almost complete silence
-    following Timur Leng�s raids in the late fourteenth century,
-    slowly recovered from the destruction and ravages wrought by
-    the plague. The great majority of the East-Syriac manuscripts
-    that have survived to our day date from this period, in which
-    apparently a great effort was made to restore the classical
-    heritage. Especially between 1670 and 1760 the large village of
-    Alqosh was the center of an enormous manuscript production. Its
-    scribes provided new manuscripts for village churches and
-    monasteries in northern Mesopotamia and northwestern Iran that
-    in this period were also often restored. Three famous families
-    dominated life in this village: the Shikwana and Na<hi rend="u">s</hi>ro families, to which most of the scribes belonged,
-    and the Abuna family, from which metropolitans and patriarchs
-    were selected.<ref target="#FN5">5</ref> The patriarchs had their official see in the
-    famous monastery of Rabban Hormizd, not far from Alqosh, and so
-    added to the importance of the region. The importance of the
-    Alqosh region (including the monastery of Rabban Hormizd and
-    the village of Telkepe) is also reflected in the colophons of
-    the manuscripts in my list: thirty-five of the fifty-eight
-    manuscripts were produced here. Smaller centers of manuscript
-    production were found in villages and monasteries in the west
-    (Amida, Gazarta), in the Hakkari mountains (Gissa) and western
-    Iran (Darband, Tergawar). In addition to the copying of older
-    texts, this period also saw a limited production of new texts,
-    both in Classical Syriac and in Modern Aramaic, the spoken
-    language of the majroity of the members of the Church of the
-    East.<ref target="#FN6">6</ref>
+    following Timur Leng’s raids in the late fourteenth
+    century, slowly recovered from the destruction and ravages
+    wrought by the plague. The great majority of the East-Syriac
+    manuscripts that have survived to our day date from this
+    period, in which apparently a great effort was made to restore
+    the classical heritage. Especially between 1670 and 1760 the
+    large village of Alqosh was the center of an enormous
+    manuscript production. Its scribes provided new manuscripts for
+    village churches and monasteries in northern Mesopotamia and
+    northwestern Iran that in this period were also often restored.
+    Three famous families dominated life in this village: the
+    Shikwana and Na<hi rend="u">s</hi>ro families, to which
+    most of the scribes belonged, and the Abuna family, from which
+    metropolitans and patriarchs were selected.<ref target="#FN5">5</ref> The patriarchs had
+    their official see in the famous monastery of Rabban Hormizd,
+    not far from Alqosh, and so added to the importance of the
+    region. The importance of the Alqosh region (including the
+    monastery of Rabban Hormizd and the village of Telkepe) is also
+    reflected in the colophons of the manuscripts in my list:
+    thirty-five of the fifty-eight manuscripts were produced here.
+    Smaller centers of manuscript production were found in villages
+    and monasteries in the west (Amida, Gazarta), in the Hakkari
+    mountains (Gissa) and western Iran (Darband, Tergawar). In
+    addition to the copying of older texts, this period also saw a
+    limited production of new texts, both in Classical Syriac and
+    in Modern Aramaic, the spoken language of the majroity of the
+    members of the Church of the East.<ref target="#FN6">6</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+         <p>
+            <anchor corresp="P4"/>[4]
     Politically, the region became more and more part of the
     Ottoman Empire, although it took until the middle of the
     nineteenth century before the Ottomans were able to exercise
@@ -174,33 +202,34 @@
     Hormizd (whose patriarchs took the formal name Eliya) had
     occasional contacts with Roman Catholic missionaries. In 1681,
     a new Catholic patriarchate (whose holders took the name of
-    Yosep) was created in Amida (Diyarbakır), under the influence
-    of Capuchin missionaries. In 1830, this patriarchate merged
-    with the by then Catholic patriarchate of Alqosh.<ref target="#FN7">7</ref>
+    Yosep) was created in Amida (Diyarbakır), under the
+    influence of Capuchin missionaries. In 1830, this patriarchate
+    merged with the by then Catholic patriarchate of
+    Alqosh.<ref target="#FN7">7</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] Despite
+         <p>
+            <anchor corresp="P5"/>[5] Despite
     occasional setbacks caused by wars (between Turkey and Persia
     as well as between local rulers), outbreaks of the plague and
     looting by local robbers or rival tribes, the considerable
     manuscript production and the restoration of churches testify
     to the vitality of the Church of the East in the Ottoman
     period. However, so far hardly any attention has been paid to
-    the role of women in this �awakening�. This study focuses on
-    the question to what extent and in what way women participated
-    in it. The following themes will be discussed: the position of
-    these women within their families [6-8]; the geographical
-    origin of the women and the manuscripts [9-10]; their names
-    [11], money and status [12-13]; and the reasons for
+    the role of women in this ‘awakening’. This study
+    focuses on the question to what extent and in what way women
+    participated in it. The following themes will be discussed: the
+    position of these women within their families [6-8]; the
+    geographical origin of the women and the manuscripts [9-10];
+    their names [11], money and status [12-13]; and the reasons for
     commissioning, sponsoring<ref target="#FN8">8</ref> and donating<ref target="#FN9">9</ref> [14-16]. I will end
     with a few concluding remarks [17-18].</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] There
+         <p>
+            <anchor corresp="P6"/>[6] There
     can be little doubt that the women in the colophons are first
     and foremost identified by their family relationships. The most
-    common way to introduce a woman is to add her father�s name to
-    her own: Kanzadeh, daughter of the deacon Sulaiman (c. 1660,
-    no. 14), Gozal, daughter of the smith <hi rend="u">H</hi>anna of Mosul (1707, no. 31), Shmuni, daughter of
+    common way to introduce a woman is to add her father’s
+    name to her own: Kanzadeh, daughter of the deacon Sulaiman (c.
+    1660, no. 14), Gozal, daughter of the smith <hi rend="u">H</hi>anna of Mosul (1707, no. 31), Shmuni, daughter of
     the priest <hi rend="u">H</hi>oshaba (1722, no. 37), and
     many more. In the one case of a female scribe, an extended
     genealogy is given, extending to five generations: Teresa,
@@ -223,75 +252,80 @@
     no. 32), as well as <hi rend="sup">c</hi>Azize and her mother Baghdad,
     together with their father and husband Isaac, son of Giwargis
     (1705, no. 28).</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In this
+         <p>
+            <anchor corresp="P7"/>[7] In this
     list, the second most important way of identifying a woman is
-    by giving her husband�s name. However, of only twenty-one of
-    the eighty-four women in the list a husband is mentioned, often
-    in addition to the father, e.g. in the case of a manuscript
-    donated by a couple such as Auraham, son of Mako, and his wife
-    Shmuni, daughter of the priest Quriaqos (1682, no. 19), or by
-    two couples together: �the money was given by the believers
-    <hi rend="u">H</hi>anne, Kammo, and their righteous wives
-    Sara and Maryam� (1723, no. 38). An eighteenth-century
-    inscription in the church of Mar Quriaqos in Salmas simply
-    says: �This church was renovated by the wife of Amr, may the
-    Lord give her rest� (18<hi rend="sup">th</hi> c., no. 36). In addition
-    to these twenty-one cases where a woman�s husband is explicitly
-    mentioned, in eleven instances marriage can be inferred from
-    the mentioning of a dowry, (grand)sons or daughters. The two
-    instances of dowry (<hi rend="italic">māhrā</hi>) probably both date to the
-    early eighteenth century. In the first case the manuscript
-    itself constitutes the dowry, taken for the daughter of the
-    priest <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> son of Zangish (no. 23),
-    in the second, the manuscript contains a note of a dowry taken
-    by the priest <hi rend="u">H</hi>anna for his daughter
-    (no. 24). Both women remain anonymous.<ref target="#FN11">11</ref>
+    by giving her husband’s name. However, of only twenty-one
+    of the eighty-four women in the list a husband is mentioned,
+    often in addition to the father, e.g. in the case of a
+    manuscript donated by a couple such as Auraham, son of Mako,
+    and his wife Shmuni, daughter of the priest Quriaqos (1682, no.
+    19), or by two couples together: “the money was given by
+    the believers <hi rend="u">H</hi>anne, Kammo, and their
+    righteous wives Sara and Maryam” (1723, no. 38). An
+    eighteenth-century inscription in the church of Mar Quriaqos in
+    Salmas simply says: “This church was renovated by the
+    wife of Amr, may the Lord give her rest” (18<hi rend="sup">th</hi>
+    c., no. 36). In addition to these twenty-one cases where a
+    woman’s husband is explicitly mentioned, in eleven
+    instances marriage can be inferred from the mentioning of a
+    dowry, (grand)sons or daughters. The two instances of dowry
+    (<hi rend="italic">māhrā</hi>) probably both date to the early
+    eighteenth century. In the first case the manuscript itself
+    constitutes the dowry, taken for the daughter of the priest
+    <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> son of Zangish (no. 23), in the
+    second, the manuscript contains a note of a dowry taken by the
+    priest <hi rend="u">H</hi>anna for his daughter (no. 24).
+    Both women remain anonymous.<ref target="#FN11">11</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] A total
+         <p>
+            <anchor corresp="P8"/>[8] A total
     of thirty-two married women among the more than eighty women in
     the list is a strikingly low number, which requires an
     exploration of the possible reasons. The most obvious one,
     although explaining only a minority of the cases, is that women
     remained unmarried for religious reasons. In five instances,
     there is little doubt: women are referred to as a nun
-    (<hi rend="italic">rāhiba,</hi> Maryam, daughter of priest Hormizd of 1542,
-    no. 2, and <hi rend="u">H</hi>atun in Mar Yo<hi rend="u">h</hi>annan Na<hi rend="u">h</hi>laya, 1629, no.
-    12), as a daughter of the covenant (<hi rend="italic">ba(r)t qyāmā</hi>,
-    Seltana, daughter of Belgana, c. 1600, no. 8), as a deaconess
-    of the monastery of Mar Augin (<hi rend="italic">mshammshānītā,</hi> Maryam,
-    1739, no. 45) and as a distinguished virgin (<hi rend="italic">btultā
-    zāhyā</hi>, Shmuni, daughter of Marqos, 1824, no. 63).<ref target="#FN12">12</ref> In a
-    number of other cases one may perhaps assume that the women
-    were not married <hi rend="italic">yet</hi>, as in the case of the first
-    colophon in our list, in a manuscript copied by a priest Aprem
-    son of the priest Ya<hi rend="sup">c</hi>qub for �his own and learned
-    daughters Tamar and Shmuni� (1521, no. 1), or our female
-    copyist, the girl Teresa, daughter of the priest Khadjador, who
-    was fifteen years old when she wrote her manuscript in 1767
-    (no. 53).<ref target="#FN13">13</ref> In this respect, one also wonders to what
-    extent the custom described by Surma d�Bait Mar Shimun (a
-    member of the patriarchal family of Qodshanis) in the early
-    twentieth century might explain the fact that for some women no
-    husband is mentioned. She notes: �Often girls and youths live
-    as virgins in their parents� house. They are called Rabbanyati
-    [the usual title for nuns, MvdB] although they have not
-    received the blessing of the Bishop, so they are not officially
-    recognized.�<ref target="#FN14">14</ref> With perhaps a number of widows among them, it
-    seems not unreasonable to assume that a significant part of the
-    remaining fifty-two women were not married. In addition, there
-    is the distinct possibility that even if a woman was married,
-    it was not always necessary to mention that fact in the
-    colophon, especially if the husband had not been personally
-    involved in the commissioning or sponsoring. Whatever the
-    reasons for the low number of husbands in the colophons, it
-    seems to me that at the very least this indicates that husbands
-    in the majority of cases were not the defining factor in
-    deciding whether women could or would donate valuables or
-    commission and sponsor the writing of a manuscript.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] It is
+    (<hi rend="italic">rāhiba,</hi> Maryam, daughter of priest Hormizd of
+    1542, no. 2, and <hi rend="u">H</hi>atun in Mar
+    Yo<hi rend="u">h</hi>annan Na<hi rend="u">h</hi>laya,
+    1629, no. 12), as a daughter of the covenant (<hi rend="italic">ba(r)t
+    qyāmā</hi>, Seltana, daughter of Belgana, c. 1600,
+    no. 8), as a deaconess of the monastery of Mar Augin
+    (<hi rend="italic">mshammshānītā,</hi> Maryam, 1739, no. 45)
+    and as a distinguished virgin (<hi rend="italic">btultā
+    zāhyā</hi>, Shmuni, daughter of Marqos, 1824, no.
+    63).<ref target="#FN12">12</ref> In a number of other cases one may perhaps
+    assume that the women were not married <hi rend="italic">yet</hi>, as in the
+    case of the first colophon in our list, in a manuscript copied
+    by a priest Aprem son of the priest Ya<hi rend="sup">c</hi>qub for
+    “his own and learned daughters Tamar and Shmuni”
+    (1521, no. 1), or our female copyist, the girl Teresa, daughter
+    of the priest Khadjador, who was fifteen years old when she
+    wrote her manuscript in 1767 (no. 53).<ref target="#FN13">13</ref> In this respect,
+    one also wonders to what extent the custom described by Surma
+    d’Bait Mar Shimun (a member of the patriarchal family of
+    Qodshanis) in the early twentieth century might explain the
+    fact that for some women no husband is mentioned. She notes:
+    “Often girls and youths live as virgins in their
+    parents’ house. They are called Rabbanyati [the usual
+    title for nuns, MvdB] although they have not received the
+    blessing of the Bishop, so they are not officially
+    recognized.”<ref target="#FN14">14</ref> With perhaps a number of widows among
+    them, it seems not unreasonable to assume that a significant
+    part of the remaining fifty-two women were not married. In
+    addition, there is the distinct possibility that even if a
+    woman was married, it was not always necessary to mention that
+    fact in the colophon, especially if the husband had not been
+    personally involved in the commissioning or sponsoring.
+    Whatever the reasons for the low number of husbands in the
+    colophons, it seems to me that at the very least this indicates
+    that husbands in the majority of cases were not the defining
+    factor in deciding whether women could or would donate
+    valuables or commission and sponsor the writing of a
+    manuscript.</p>
+         <p>
+            <anchor corresp="P9"/>[9] It is
     worthwhile to take a closer look at the place names mentioned
     in these colophons. The dominance of Alqosh as a center of
     manuscript production has been mentioned above, but for a study
@@ -303,12 +337,12 @@
     the colophon. It seems to me that the reader of the colophon is
     meant to understand that the commissioner or sponsor lived in
     the vicinity of that particular church. One of the few
-    colophons to mention the woman�s home village, is the one
+    colophons to mention the woman’s home village, is the one
     naming Belgan from the village of Alqoshta (no. 30), who
     bestowed a manuscript to a church in Dawedaya, a village about
     fifteen miles south.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] When
+         <p>
+            <anchor corresp="P10"/>[10] When
     we look up the churches and monasteries that profited from the
     generosity of the women of the Church of the East on a map, we
     find that most of these are situated in a rather circumscribed
@@ -330,24 +364,25 @@
     the relative prosperity, which confirms the importance of this
     city in the spiritual life of the time.<ref target="#FN18">18</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] Of
-    the seventy-five woman�s names in the colophons, only about
-    twenty-six can be considered traditional Syriac names. Most of
-    these are biblical and one is Greek. These twenty-six women,
-    however, share among them only nine different names, of which
-    the most popular are Shmuni and Maryam (eight times each), and
-    Helen (five times).<ref target="#FN19">19</ref> All other names will probably be
-    identified as Persian, Arabic, Turkish, Kurdish and perhaps a
-    few as more recent Aramaic/Syriac names, but much further
-    research is required here. Note also here the interesting case
-    of two women named after illustrious cities: Baghdad (1705, no.
-    28) and Stambul (1773, no. 55), a custom that may be observed
-    also among present-day Christians from the region who name
-    their daughters, e.g., after the city of Edessa.<ref target="#FN20">20</ref>
+         <p>
+            <anchor corresp="P11"/>[11] Of
+    the seventy-five woman’s names in the colophons, only
+    about twenty-six can be considered traditional Syriac names.
+    Most of these are biblical and one is Greek. These twenty-six
+    women, however, share among them only nine different names, of
+    which the most popular are Shmuni and Maryam (eight times
+    each), and Helen (five times).<ref target="#FN19">19</ref> All other names will
+    probably be identified as Persian, Arabic, Turkish, Kurdish and
+    perhaps a few as more recent Aramaic/Syriac names, but much
+    further research is required here. Note also here the
+    interesting case of two women named after illustrious cities:
+    Baghdad (1705, no. 28) and Stambul (1773, no. 55), a custom
+    that may be observed also among present-day Christians from the
+    region who name their daughters, e.g., after the city of
+    Edessa.<ref target="#FN20">20</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] The
+         <p>
+            <anchor corresp="P12"/>[12] The
     most interesting aspect of these colophons is the fact that
     they show that at least some women of this period had the
     independent use of money or other possessions. Twenty-three
@@ -368,22 +403,22 @@
     Gospel lectionary (no. 29), while in 1744, Amat, her daughter
     Maryam, Helen, Teka, and Elfiya together paid for a manuscript
     that was commissioned by the priest
-    <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> from Telkepe (no. 48).<ref target="#FN21">21</ref>� Some
-    women made individual donations in other ways: around 1613,
-    Shazemana, the wife of Yazdan, donated a �silver cup worth a
-    hundred drachmas� and �a house in Sharukhiya� to the church of
-    Mar Pethion in Amida (Diarbakir, no. 9), whereas Kanzadeh,
-    daughter of the deacon Sulaiman, ransomed a <hi rend="italic">gazza</hi> that
-    was looted from the church of Mar Yareth in Barbitha and
-    donated it to the church of Mar Shem<hi rend="sup">c</hi>on, Mar
-    Giwargis and Ma(r)t Meskinta in Mosul (around 1660, no. 14). So
-    far no concrete indications of the price of manuscripts as
-    compared with other goods have been found, and only in a few
-    instances prices are mentioned, in a variety of different
-    currencies.<ref target="#FN22">22</ref>
+    <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> from Telkepe (no. 48).<ref target="#FN21">21</ref> 
+    Some women made individual donations in other ways: around
+    1613, Shazemana, the wife of Yazdan, donated a “silver
+    cup worth a hundred drachmas” and “a house in
+    Sharukhiya” to the church of Mar Pethion in Amida
+    (Diarbakir, no. 9), whereas Kanzadeh, daughter of the deacon
+    Sulaiman, ransomed a <hi rend="italic">gazza</hi> that was looted from the
+    church of Mar Yareth in Barbitha and donated it to the church
+    of Mar Shem<hi rend="sup">c</hi>on, Mar Giwargis and Ma(r)t Meskinta in
+    Mosul (around 1660, no. 14). So far no concrete indications of
+    the price of manuscripts as compared with other goods have been
+    found, and only in a few instances prices are mentioned, in a
+    variety of different currencies.<ref target="#FN22">22</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13]
+         <p>
+            <anchor corresp="P13"/>[13]
     Whereas it seems reasonable to assume that the sums involved
     were quite considerable, especially when women were paying and
     commissioning on their own, there is another indication that
@@ -400,17 +435,18 @@
     Mar Eliya (1738, no. 44) is relatively high.<ref target="#FN25">25</ref> The last case
     also indicates that it is possible that a father or a husband
     was a priest but was not referred to as such in the colophon.
-    We know from other sources that Azdiah�s husband, <hi rend="u">H</hi>oshaba son of Giwargis was indeed a priest,
-    although the colophon makes no mention of it.<ref target="#FN26">26</ref> Although we do
-    not have much to go by to compare the numbers of priests and
-    chiefs with the total numbers of men, it is unlikely that these
-    would constitute more than fifty percent of the male
-    population. It seems safe, therefore, to assume that women from
-    priestly and other types of leading families were more likely
-    to have some money available and to be involved in manuscript
-    production.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
+    We know from other sources that Azdiah’s husband,
+    <hi rend="u">H</hi>oshaba son of Giwargis was indeed a
+    priest, although the colophon makes no mention of it.<ref target="#FN26">26</ref>
+    Although we do not have much to go by to compare the numbers of
+    priests and chiefs with the total numbers of men, it is
+    unlikely that these would constitute more than fifty percent of
+    the male population. It seems safe, therefore, to assume that
+    women from priestly and other types of leading families were
+    more likely to have some money available and to be involved in
+    manuscript production.</p>
+         <p>
+            <anchor corresp="P14"/>[14] The
     final question to be asked is what was the most likely reason
     for these women to spend money on manuscripts or church
     buildings. Although there is little hard evidence, it seems
@@ -421,23 +457,26 @@
     that at least some women were able to read, and it is likely
     that she copied the works of John of Damascus for her own
     education. I am inclined to assume that the already mentioned
-    �learned girls Tamar and Shmuni�, were able to read the
-    miscellaneous work that their father for copied for them,
-    including the �Discourse on the monk Mar Shamli� and the �Book
-    of the Centuries� (1521, no. 1). The same might be assumed of
-    the deaconess Maryam, living in the monastery of Mar Augin, who
-    ordered a �Life of Mar Augin� (1739, no. 45).<ref target="#FN27">27</ref> Another book
-    that was commissioned for private use was the �Hexaemeron� of
-    Rabban Emmanuel (<hi rend="italic">ktābā d-shettat yāumē)</hi>, which the
-    daughter of <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> of Alqosh ordered
-    �for her brother the priest Yo<hi rend="u">h</hi>anna, to
-    read from it� (1701, no. 26). Perhaps also for use within the
-    family was the <hi rend="italic">ktābā d-<hi rend="u">h</hi>ermē
-    d-na<hi rend="u">tt</hi>urē</hi> (�book of charms of
-    protection�), which was ordered by <hi rend="sup">c</hi>I<hi rend="u">s</hi>a and Sanam in 1770 (no. 54).<ref target="#FN28">28</ref>
+    “learned girls Tamar and Shmuni”, were able to read
+    the miscellaneous work that their father for copied for them,
+    including the ‘Discourse on the monk Mar Shamli’
+    and the ‘Book of the Centuries’ (1521, no. 1). The
+    same might be assumed of the deaconess Maryam, living in the
+    monastery of Mar Augin, who ordered a ‘Life of Mar
+    Augin’ (1739, no. 45).<ref target="#FN27">27</ref> Another book that was
+    commissioned for private use was the ‘Hexaemeron’
+    of Rabban Emmanuel (<hi rend="italic">ktābā d-shettat
+    yāumē)</hi>, which the daughter of
+    <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> of Alqosh ordered “for
+    her brother the priest Yo<hi rend="u">h</hi>anna, to read
+    from it” (1701, no. 26). Perhaps also for use within the
+    family was the <hi rend="italic">ktābā d-<hi rend="u">h</hi>ermē d-na<hi rend="u">tt</hi>urē</hi> (‘book of charms of
+    protection’), which was ordered by
+    <hi rend="sup">c</hi>I<hi rend="u">s</hi>a and Sanam in 1770 (no.
+    54).<ref target="#FN28">28</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] In
+         <p>
+            <anchor corresp="P15"/>[15] In
     all other cases we may virtually rule out the possibility that
     manuscripts were commissioned for private use. In fact, it
     seems unlikely that these women (as most of the lay men) were
@@ -445,52 +484,56 @@
     have been restricted to the deacons and priests.<ref target="#FN29">29</ref> The colophons,
     however, provide us with two important hints as to the reason
     for commissioning and sponsoring. The first is that the
-    majority of the manuscripts are said to have been copied �for�
-    a particular church or monastery. That is, if a commissioner,
-    sponsor or donor is mentioned, a particular location for the
-    manuscripts is usually also given, as in the very first example
-    I quoted � Belgan bestowing a manuscript on the church of Mar
-    Yo<hi rend="u">h</hi>annan in the village of Dawedaya. The
-    large number of such references indicates that this was indeed
-    the most important reason for women to commission a
-    manuscript.<ref target="#FN30">30</ref> This is also confirmed by the contents of
-    these manuscripts. The large majority of these are of a
-    liturgical nature and belonged to the essentials of every
-    village church: the lectionaries (the Psalter, Gospel
-    lectionary, Epistle lectionary, and the <hi rend="italic">ktābā qeryānē
-    mparrshē</hi>, i.e. OT and other NT readings),<ref target="#FN31">31</ref> the
-    <hi rend="italic">
-               <hi rend="u">t</hi>aksā d-kahnē</hi> or the
-    <hi rend="italic">
-               <hi rend="u">t</hi>aksē d-quddāshā</hi> (the liturgies
-    of Addai and Mari, Theodore and Nestorius), and the other
-    office books, the <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi>
+    majority of the manuscripts are said to have been copied
+    ‘for’ a particular church or monastery. That is, if
+    a commissioner, sponsor or donor is mentioned, a particular
+    location for the manuscripts is usually also given, as in the
+    very first example I quoted – Belgan bestowing a
+    manuscript on the church of Mar Yo<hi rend="u">h</hi>annan
+    in the village of Dawedaya. The large number of such references
+    indicates that this was indeed the most important reason for
+    women to commission a manuscript.<ref target="#FN30">30</ref> This is also confirmed by
+    the contents of these manuscripts. The large majority of these
+    are of a liturgical nature and belonged to the essentials of
+    every village church: the lectionaries (the Psalter, Gospel
+    lectionary, Epistle lectionary, and the <hi rend="italic">ktābā
+    qeryānē mparrshē</hi>, i.e. OT and other NT
+    readings),<ref target="#FN31">31</ref> the <hi rend="italic">
+               <hi rend="u">t</hi>aksā
+    d-kahnē</hi> or the <hi rend="italic">
+               <hi rend="u">t</hi>aksē
+    d-quddāshā</hi> (the liturgies of Addai and Mari,
+    Theodore and Nestorius), and the other office books, the
+    <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi>
     (office book with hymns and other variable parts of the liturgy
-    for all Sundays and feast days of the year), the <hi rend="italic">ktābā
-    d-gazzā</hi> (later additions to the <hi rend="italic">
-               <hi rend="u">h</hi>udrā</hi>), the <hi rend="italic">kashkol</hi> (extract from the
+    for all Sundays and feast days of the year), the
+    <hi rend="italic">ktābā d-gazzā</hi> (later additions to the
     <hi rend="italic">
+               <hi rend="u">h</hi>udrā</hi>), the
+    <hi rend="italic">kashkol</hi> (extract from the <hi rend="italic">
                <hi rend="u">h</hi>udrā</hi>),<ref target="#FN32">32</ref> the <hi rend="italic">ktābā
     d-</hi>
             <hi rend="sup">c</hi>
             <hi rend="italic">unyātā,<ref target="#FN33">33</ref>
-            </hi> and the liturgies for
-    funerals and the Rogation of the Ninevites.<ref target="#FN34">34</ref> Among the books
-    dedicated to churches, there are few non-liturgical
-    works.<ref target="#FN35">35</ref> Despite the fact that a further interpretation
-    of the selection of books that were commissioned and donated is
-    still awaiting a study of the larger context of manuscript
-    commissioning in this period, there can be little doubt that
-    the prime purpose of sponsoring the production of manuscripts
-    was to enlarge the number of liturgical books in the churches
-    and monasteries of the region, thereby contributing to the
-    rebuilding of church life in the Ottoman period. The Gospel
-    lectionary and the office books of the <hi rend="italic">
-               <hi rend="u">h</hi>udrā</hi> and <hi rend="italic">gazzā</hi> were the most popular
-    contributions, presumably because these were considered the
-    most important books of the regular Sunday liturgy.</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] I
+            </hi> and the
+    liturgies for funerals and the Rogation of the
+    Ninevites.<ref target="#FN34">34</ref> Among the books dedicated to churches, there
+    are few non-liturgical works.<ref target="#FN35">35</ref> Despite the fact that a
+    further interpretation of the selection of books that were
+    commissioned and donated is still awaiting a study of the
+    larger context of manuscript commissioning in this period,
+    there can be little doubt that the prime purpose of sponsoring
+    the production of manuscripts was to enlarge the number of
+    liturgical books in the churches and monasteries of the region,
+    thereby contributing to the rebuilding of church life in the
+    Ottoman period. The Gospel lectionary and the office books of
+    the <hi rend="italic">
+               <hi rend="u">h</hi>udrā</hi> and
+    <hi rend="italic">gazzā</hi> were the most popular contributions,
+    presumably because these were considered the most important
+    books of the regular Sunday liturgy.</p>
+         <p>
+            <anchor corresp="P16"/>[16] I
     assume, therefore, that it is first and foremost religious
     devotion that inspired these generous donations made by the
     women of the colophons. These women, like the men that were
@@ -501,56 +544,56 @@
     few colophons to give us some information on this
     subject<ref target="#FN36">36</ref> is the one about Kanzadeh who redeemed a
     manuscript from robbers (around 1660, no. 14). Of her the
-    scribe says: �May Christ our Lord and God give her reward and
-    repay her hundred to one, and let her inheritance be with
+    scribe says: “May Christ our Lord and God give her reward
+    and repay her hundred to one, and let her inheritance be with
     Martha and Maryam and with all the companions of the virgins
-    and the just and righteous women, Amen.�<ref target="#FN37">37</ref> A similar phrase
-    refers to Alpo in 1808: �may Christ give her an inheritance
-    with Sara, I say, Ripqa and Rachel [�] and with all the holy
-    righteous women, Amen.� (no. 59).<ref target="#FN38">38</ref> In at least two cases, the
-    donation is given in connection with a deceased person: the
-    first by Dormlik, daughter of Harun of Nisibis, who donated a
-    Gospel lectionary to the church of Mar Ya<hi rend="sup">c</hi>qub in
-    Nisibis �on behalf of her late husband Darwish� (1569, no. 5),
-    the second in a manuscript that was commissioned by
-    <hi rend="u">H</hi>anna, son of <hi rend="sup">c</hi>Abd Allah, his
-    wife <hi rend="u">H</hi>ane, daughter of Maqsud, and their
+    and the just and righteous women, Amen.”<ref target="#FN37">37</ref> A similar
+    phrase refers to Alpo in 1808: “may Christ give her an
+    inheritance with Sara, I say, Ripqa and Rachel […] and
+    with all the holy righteous women, Amen.” (no.
+    59).<ref target="#FN38">38</ref> In at least two cases, the donation is given
+    in connection with a deceased person: the first by Dormlik,
+    daughter of Harun of Nisibis, who donated a Gospel lectionary
+    to the church of Mar Ya<hi rend="sup">c</hi>qub in Nisibis “on
+    behalf of her late husband Darwish” (1569, no. 5), the
+    second in a manuscript that was commissioned by <hi rend="u">H</hi>anna, son of <hi rend="sup">c</hi>Abd Allah, his wife
+    <hi rend="u">H</hi>ane, daughter of Maqsud, and their
     relatives Kanun, <hi rend="sup">c</hi>Isa, Jem<hi rend="sup">c</hi>a, and
-    Hormizd, to commemorate the death of Hanna and Hane�s son
+    Hormizd, to commemorate the death of Hanna and Hane’s son
     <hi rend="sup">c</hi>Abd al-Masi<hi rend="u">h</hi> on 25 August
     1726, for the church of Mart Maryam in Karamlish (1727, no.
     40). It is likely that such donations were supposed to secure
     peace after death for the deceased, as one might also from two
-    inscriptions in which the phrase �may the Lord give her rest�
-    occurs.<ref target="#FN39">39</ref> Apart from the spiritual benefits centering on
-    the expectation of blissful life after death, it seems likely
-    that immediate social benefits also resulted from generous
-    contributions to the life of the church. The mere fact that
-    these acts of piety were recorded in the manuscripts or on the
-    church walls indicates that public knowledge and recognition of
-    these gifts constituted an essential part of the economy of
-    giving.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] The
-    above overview of some of the most salient features of women�s
-    presence in the literary remains of the years between 1500 and
-    1830 indicates that women, especially those from the more
-    influential and literate families, took an active part in the
-    religious life of the era. Not only did a significant number of
-    them choose to live a celibate, religious life, and do we know
-    of a few that were able to read and contribute to the religious
-    literature of the time, many others contributed to the
-    reawakening of the life of the church by paying for repairs of
-    churches and monasteries, by donating money or land to the
-    church, and, most importantly, by commissioning and sponsoring
-    liturgical manuscripts that were essential to the worship-life
-    of the church of this region. In this way they not only sought
-    to secure religious benefits for themselves or their kin, they
-    also confirmed the importance of their role in the community as
-    a whole.<ref target="#FN40">40</ref>
+    inscriptions in which the phrase “may the Lord give her
+    rest” occurs.<ref target="#FN39">39</ref> Apart from the spiritual benefits
+    centering on the expectation of blissful life after death, it
+    seems likely that immediate social benefits also resulted from
+    generous contributions to the life of the church. The mere fact
+    that these acts of piety were recorded in the manuscripts or on
+    the church walls indicates that public knowledge and
+    recognition of these gifts constituted an essential part of the
+    economy of giving.</p>
+         <p>
+            <anchor corresp="P17"/>[17] The
+    above overview of some of the most salient features of
+    women’s presence in the literary remains of the years
+    between 1500 and 1830 indicates that women, especially those
+    from the more influential and literate families, took an active
+    part in the religious life of the era. Not only did a
+    significant number of them choose to live a celibate, religious
+    life, and do we know of a few that were able to read and
+    contribute to the religious literature of the time, many others
+    contributed to the reawakening of the life of the church by
+    paying for repairs of churches and monasteries, by donating
+    money or land to the church, and, most importantly, by
+    commissioning and sponsoring liturgical manuscripts that were
+    essential to the worship-life of the church of this region. In
+    this way they not only sought to secure religious benefits for
+    themselves or their kin, they also confirmed the importance of
+    their role in the community as a whole.<ref target="#FN40">40</ref>
          </p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] The
+         <p>
+            <anchor corresp="P18"/>[18] The
     study of the colophons raises one more important issue, that of
     the literary genre of the colophons themselves. The colophons
     constitute the largest body of Classical Syriac texts of this
@@ -558,14 +601,14 @@
     mainly from a strictly historical point of view: what names,
     dates and incidents are referred to. The literary genre of the
     colophons with its flowery language of praise and humility, as
-    well as the colophons� possible function in the social and
-    ecclesiastical structures of the times have hardly been
+    well as the colophons’ possible function in the social
+    and ecclesiastical structures of the times have hardly been
     considered worthy of separate attention. It seems to me that a
     verbatim edition of the colophons would help us to expand our
     knowledge of the period considerably, not only in the field of
     Classical Syriac linguistics and literary forms, but also in
     the field of the religious life of the Church of the East.</p>
-         <head>Appendix: Women in the colophons of the Church of the East
+         <head xml:id="HV7N1Murre2">Appendix: Women in the colophons of the Church of the East
     between 1500 and 1830</head>
          <p>The list is set up as follows:</p>
          <table>
@@ -606,8 +649,8 @@
                         </hi>, metrical homily on
             penitents by Ephrem, <hi rend="italic">Book of the Centuries</hi> by
             Eliya of Anbar.</item>
-                     <item>the copyist copied this MS. for his �propres et
-            savantes filles Tamar et Shmoni� (Scher).</item>
+                     <item>the copyist copied this MS. for his “propres
+            et savantes filles Tamar et Shmoni” (Scher).</item>
                   </list>
                </cell>
             </row>
@@ -619,7 +662,7 @@
           Hormizd, son of Sulaiman [259]<lb/>
                   <list type="ordered">
                      <item>N.D. des Semences: Dawra Syr. 39 (Haddad), Scher
-            17, Vost� 20.</item>
+            17, Vosté 20.</item>
                      <item>dated 12 November 1542, by the priest
             <hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -628,9 +671,9 @@
             Alqosh, in Gazarta.</item>
                      <item>Gospel lectionary.</item>
                      <item>the MS. was commissioned by the nun (in the Arabic
-            of the catalogue: <hi rend="italic">ar-rāhiba</hi>) Maryam, daughter
-            of the priest Hormizd, son of Sulaiman, for the
-            monastery of Rabban Hormizd.</item>
+            of the catalogue: <hi rend="italic">ar-rāhiba</hi>) Maryam,
+            daughter of the priest Hormizd, son of Sulaiman, for
+            the monastery of Rabban Hormizd.</item>
                   </list>
                </cell>
             </row>
@@ -645,7 +688,7 @@
           [404]<lb/>
                   <list type="ordered">
                      <item>Mosul 1003 (Bidawid), cf. also Fiey, <hi rend="italic">Mossoul
-            chr�tienne</hi>, 113.</item>
+            chrétienne</hi>, 113.</item>
                      <item>copied in the 16<hi rend="sup">th</hi> c., possibly in
             <hi rend="u">H</hi>arab Olma (near Mar Pethion,
             Mardin region) by the priest Daniel, son of
@@ -653,7 +696,7 @@
                            <hi rend="italic">c</hi>
                         </hi>A<hi rend="u">tt</hi>allah of
             <hi rend="u">H</hi>arab Olma.</item>
-                     <item>�collections diverses� (Fiey).</item>
+                     <item>“collections diverses” (Fiey).</item>
                      <item>the MS. was copied for Putta, the sister of the
             copyist.</item>
                   </list>
@@ -666,13 +709,13 @@
                   <hi rend="bold">Maryam</hi>, daughter of Mima, of Erbil
           [260]<lb/>
                   <list type="ordered">
-                     <item>Vost�, �Inscriptions�, 271.</item>
+                     <item>Vosté, “Inscriptions”, 271.</item>
                      <item>record of the restoration of a wall of Rabban
             Hormizd, in 1559, by Shlemun of Bet Arijai, brother of
             Mar isho<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>yab, directed by the monk
-            <hi rend="sup">�<hi rend="italic">c</hi>
+            <hi rend="sup"> <hi rend="italic">c</hi>
                         </hi>Isa of Alqosh.</item>
                      <item>—</item>
                      <item>at the expense of the priest Isaac and Maryam,
@@ -695,8 +738,8 @@
             Ya<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>qob in Nisibis (which was
-            rebuilt in 1562), �on behalf of her late husband
-            Darwish.�</item>
+            rebuilt in 1562), “on behalf of her late husband
+            Darwish.”</item>
                   </list>
                </cell>
             </row>
@@ -709,16 +752,17 @@
                   <list type="ordered">
                      <item>Giamil, <hi rend="italic">Genuinae Relationes</hi>, 97-6.</item>
                      <item>—</item>
-                     <item>According to Wilmshurst, in 1581, �Eliya Asmar
-            <hi rend="u">H</hi>abib from Gazarta (a
-            traditionalist center), appealed for Cardinal Caraffa�s
-            help in recovering� the hospice (probably the monastery
-            of Mart Maryam) in Jerusalem, that had been
-            �appropriated by a rich East Syrian woman, probably a
-            traditionalist, �who had the ear of the Turk��.�
-            Whether the woman appropriated (bought?) the hospice
-            for her own use or for the use of the non-uniate
-            community in Jerusalem is uncertain.</item>
+                     <item>According to Wilmshurst, in 1581, “Eliya
+            Asmar <hi rend="u">H</hi>abib from Gazarta (a
+            traditionalist center), appealed for Cardinal
+            Caraffa’s help in recovering” the hospice
+            (probably the monastery of Mart Maryam) in Jerusalem,
+            that had been “appropriated by a rich East Syrian
+            woman, probably a traditionalist, ‘who had the
+            ear of the Turk’”.  Whether the woman
+            appropriated (bought?) the hospice for her own use or
+            for the use of the non-uniate community in Jerusalem is
+            uncertain.</item>
                   </list>
                </cell>
             </row>
@@ -736,7 +780,8 @@
                         </hi>, metropolitan
             of Mardin, in Mardin.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="sup">c</hi>unyātā</hi>.</item>
+                        <hi rend="italic">ktābā
+            d-<hi rend="sup">c</hi>unyātā</hi>.</item>
                      <item>commissioned by Maryam, daughter of Elisabeth and
             wife of Maroge, of Nisibis, for the church of Rabban
             Hormizd in Tabyatha.</item>
@@ -747,9 +792,10 @@
                <cell style="color:gray;text-align:right" rowspan="1" colspan="1">(8)</cell>
                <cell style="color:brown;white-space:nowrap" rowspan="1" colspan="1">1593 ca.</cell>
                <cell rowspan="1" colspan="1">
-                  <hi rend="bold">Seltana, <hi rend="italic">ba(r)t qyāmā</hi>
-                  </hi>, daughter
-          of Belgana from Bet Megali (Gazarta) [71, 124]<lb/>
+                  <hi rend="bold">Seltana, <hi rend="italic">ba(r)t
+          qyāmā</hi>
+                  </hi>, daughter of Belgana from
+          Bet Megali (Gazarta) [71, 124]<lb/>
                   <list type="ordered">
                      <item>Jerusalem Syr. 15 (Chabot).</item>
                      <item>dated 8 August 1593, in the monastery of Rabban
@@ -757,9 +803,10 @@
                      <item>Psalter.</item>
                      <item>The monk Abda from Araden bought the MS. from the
             scribe (for 10 <hi rend="italic">shahiyi</hi>), later Seltana
-            <hi rend="italic">ba(r)t qyāmā</hi> of Bet Megali (Gazarta), bought
-            the Psalter for 60 <hi rend="italic">m<hi rend="u">s</hi>rt�.</hi> She gave it to the �monastery of
-            the Nestorians�, Mart Maryam, in Jerusalem.</item>
+            <hi rend="italic">ba(r)t qyāmā</hi> of Bet Megali
+            (Gazarta), bought the Psalter for 60 <hi rend="italic">m<hi rend="u">s</hi>rt’.</hi> She gave it to the
+            “monastery of the Nestorians”, Mart Maryam,
+            in Jerusalem.</item>
                   </list>
                </cell>
             </row>
@@ -774,24 +821,25 @@
                      <item>note in the MS. dated to 7 September 1613, states
             that the MS. was brought to Sharukhiya in 1613 by the
             deacon Constance and his father Giwargis, who paid 200
-            silver dinars (�denariorum argenti�) for it, in the
-            presence of the priests Giwargis, Luke and
+            silver dinars (“denariorum argenti”) for
+            it, in the presence of the priests Giwargis, Luke and
             Hormizd.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi> and
-            other liturgical texts.</item>
+                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi> and other liturgical
+            texts.</item>
                      <item>the second note is on Shazemana: according to
-            Wilmshurst, she donated �a valuable golden cup and a
-            house in Sharukhiya to the church of Mar Pethion in
-            Amid, partly for the priests of that church, and partly
-            for the table of the bishop.� Note, however, that the
-            Assemani says that she donated a silver cup worth a
-            hundred drachmas (�calicem argenteum, centum drachmi
-            pentantem�). Whether Wilmshurst corrected the Latin
-            according to the original is not clear. In addition,
-            there is a further note: �Dilengius the merchant gave
-            some land �next to the large field� in Sharukhiya to
-            the church of Mar Pethion in Amid.�</item>
+            Wilmshurst, she donated “a valuable golden cup
+            and a house in Sharukhiya to the church of Mar Pethion
+            in Amid, partly for the priests of that church, and
+            partly for the table of the bishop.” Note,
+            however, that the Assemani says that she donated a
+            silver cup worth a hundred drachmas (“calicem
+            argenteum, centum drachmi pentantem”). Whether
+            Wilmshurst corrected the Latin according to the
+            original is not clear. In addition, there is a further
+            note: “Dilengius the merchant gave some land
+            “next to the large field” in Sharukhiya to
+            the church of Mar Pethion in Amid.”</item>
                   </list>
                </cell>
             </row>
@@ -812,9 +860,9 @@
                      <item>
                         <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā.</hi>
                      </item>
-                     <item>Ahlijan died April 10 1935 (1624), she �gave two
-            pairs of oxen to the monastery, with land and
-            appurtenances.�</item>
+                     <item>Ahlijan died April 10 1935 (1624), she “gave
+            two pairs of oxen to the monastery, with land and
+            appurtenances.”</item>
                      <item>further notes include two more deaths: the nun
             <hi rend="u">H</hi>atun (see below, no. 12, in
             1629) and Mar Eliya [Bar Tappe?] on March 1, 1929
@@ -837,18 +885,19 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">Maani Gioerida</hi> of Mardin [185]<lb/>
                   <list type="ordered">
-                     <item>Chevalier, <hi rend="italic">Montagnards chr�tiens</hi>, 47.</item>
+                     <item>Chevalier, <hi rend="italic">Montagnards chrétiens</hi>,
+            47.</item>
                      <item>—</item>
                      <item>—</item>
                      <item>—</item>
                      <item>The Italian traveler Pietro Della Valle married a
-            �demoiselle babylonienne�, Maani Gioerida, eighteen
-            years old, born and raised in Baghdad, although the
-            merchant family (with Catholic connections) was
-            originally of Mardin. Her nephew was the priest
-            Ferdinand Gioerida, who had been educated at the
-            College of the Propaganda in Rome and was involved in
-            contacts between Pope Innocentius X and Mar
+            “demoiselle babylonienne”, Maani Gioerida,
+            eighteen years old, born and raised in Baghdad,
+            although the merchant family (with Catholic
+            connections) was originally of Mardin. Her nephew was
+            the priest Ferdinand Gioerida, who had been educated at
+            the College of the Propaganda in Rome and was involved
+            in contacts between Pope Innocentius X and Mar
             Shim<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>un XI (1638-1656).</item>
@@ -861,8 +910,8 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">
                      <hi rend="u">H</hi>atun, nun</hi>
-          (�religieuse�) in Mar Yo<hi rend="u">h</hi>annan
-          Na<hi rend="u">h</hi>laya [92]<lb/>
+          (‘religieuse’) in Mar Yo<hi rend="u">h</hi>annan Na<hi rend="u">h</hi>laya
+          [92]<lb/>
                   <list type="ordered">
                      <item>Seert 34 (Scher), with note of 1624.</item>
                      <item>dated Saturday 6 April 1922 (1611) in the monastery
@@ -891,11 +940,11 @@
                      <hi rend="italic">c</hi>
                   </hi>ud, son of Den<hi rend="u">h</hi>a [327]<lb/>
                   <list type="ordered">
-                     <item>Duval, �Inscriptions�, 57-62.</item>
+                     <item>Duval, “Inscriptions”, 57-62.</item>
                      <item>tombstone in Salmas, July 1631, probably a
             <hi rend="italic">sanduqa</hi> (rectangular)</item>
                      <item>—</item>
-                     <item>�This is the tomb and the resting place of
+                     <item>“This is the tomb and the resting place of
             Nazekhatun, handmaiden of Christ, who died in the month
             Tammuz [July], the Lord grant her rest among the just
             women. Nazekhatun was a blessed woman, she supported
@@ -910,7 +959,7 @@
             Ma<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>ud, son of the honorable
-            Den<hi rend="u">h</hi>a.�</item>
+            Den<hi rend="u">h</hi>a.”</item>
                   </list>
                </cell>
             </row>
@@ -964,16 +1013,16 @@
                   <list type="ordered">
                      <item>Athens 1801 (Brock).</item>
                      <item>copied 18 March 1667 by
-            �<hi rend="sup">
+            “<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abdisho<hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>, son
-            of the priest Isaac, son of the priest <hi rend="u">H</hi>aushep, and his mother is Asmar and his
+                        </hi>,
+            son of the priest Isaac, son of the priest <hi rend="u">H</hi>aushep, and his mother is Asmar and his
             wife Naubar from the village of Supergan under the
             protection of Mar Giwargis. [..] Written today in the
             region of Salmas in the village of Rugamesh under the
-            protection of Mar Sargis. [..]�</item>
+            protection of Mar Sargis. [..]”</item>
                      <item>Gospel lectionary.</item>
                      <item>The colophon is somewhat unclear, but gives
             detailed information on the family tree of the scribe.
@@ -990,25 +1039,28 @@
           David of Barbitha [118]<lb/>
                   <list type="ordered">
                      <item>Mosul 6 (Magdasi) and Bidawid 3119, cf. also Fiey,
-            <hi rend="italic">Mossoul chr�tienne,</hi> 113-4.</item>
+            <hi rend="italic">Mossoul chrétienne,</hi> 113-4.</item>
                      <item>dated 13 April 1671 by Paul of Sheben (aged 12),
             nephew of the priest Yo<hi rend="u">h</hi>annan,
-            of Sheben, Gwerkel district, �then living in
-            Barbitha.�</item>
+            of Sheben, Gwerkel district, “then living in
+            Barbitha.”</item>
                      <item>
-                        <hi rend="italic">ktābā d-bā<hi rend="sup">c</hi>utā.</hi>
+                        <hi rend="italic">ktābā
+            d-bā<hi rend="sup">c</hi>utā.</hi>
                      </item>
                      <item>the MS. was commissioned by Maryam, mother of David
             (priest, chief of Barbitha) for church of Mart Maryam
             in Barbitha, Qaimar district, Gazarta region.</item>
                      <item>note: Fiey (114) has a different description,
             containing nothing about David or Mart Maryam, but
-            adding: �Le livre fuit ensuite offert aux trois �glises
-            [of Mosul] de Shim<hi rend="sup">
+            adding: “Le livre fuit ensuite offert aux trois
+            églises [of Mosul] de
+            Shim<hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>un a<hi rend="u">s</hi> 
-                        <hi rend="u">S</hi>afa, mar Guorguis
-            et Meskinta, par la famille du chammas <hi rend="u">H</hi>idr, pour le repos de son �me.�</item>
+                        </hi>un a<hi rend="u">s</hi>
+                        <hi rend="u">S</hi>afa, mar Guorguis et Meskinta,
+            par la famille du chammas <hi rend="u">H</hi>idr,
+            pour le repos de son âme.”</item>
                   </list>
                </cell>
             </row>
@@ -1021,9 +1073,9 @@
                      <item>uncatalogued MS.</item>
                      <item>dated 11 May 1671.</item>
                      <item>—</item>
-                     <item>commissioned by a �believer named Maryam for the
-            church of the village of Deir Abun�, Khabur district,
-            Gazarta region.</item>
+                     <item>commissioned by a “believer named Maryam for
+            the church of the village of Deir Abun”, Khabur
+            district, Gazarta region.</item>
                   </list>
                </cell>
             </row>
@@ -1040,8 +1092,8 @@
             the priest Israel, son of the priest Hormizd, son of
             the priest Israel of Alqosh, in Alqosh, the first dated
             to 28 June 1681, the second to 12 September 1707.</item>
-                     <item>1681: <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi>, 1707: <hi rend="italic">ktābā qeryānē
-            mparrshē.</hi>
+                     <item>1681: <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi>, 1707: <hi rend="italic">ktābā
+            qeryānē mparrshē.</hi>
                      </item>
                      <item>The first MS. (1681) was commissioned by the
             superior Hormizd, paid for by his son the deacon
@@ -1067,12 +1119,13 @@
             son of the priest Israel son of the priest Hormizd son
             of the priest Israel of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-qeryānē mparrshē.</hi>
+                        <hi rend="italic">ktābā d-qeryānē
+            mparrshē.</hi>
                      </item>
-                     <item>commissioned �in 1682 by Abraham, son of Mako, and
-            his wife Shmuni, daughter of the priest Quriaqos�, for
-            the church of Mar Quriaqos in Telkepe, Mosul
-            region.</item>
+                     <item>commissioned “in 1682 by Abraham, son of
+            Mako, and his wife Shmuni, daughter of the priest
+            Quriaqos”, for the church of Mar Quriaqos in
+            Telkepe, Mosul region.</item>
                   </list>
                </cell>
             </row>
@@ -1101,18 +1154,18 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">Elfiya</hi>, mother of chief Kina [238]<lb/>
                   <list type="ordered">
-                     <item>N.D. des Semences: Dawra Syr 43 (Haddad), Vost�
-            23.</item>
+                     <item>N.D. des Semences: Dawra Syr 43 (Haddad),
+            Vosté 23.</item>
                      <item>MS. dated 26 January 1690, by the priest Giwargis,
             son of the priest Israel, son of the priest Hormizd,
             son of the priest Israel of Alqosh, in Alqosh.</item>
                      <item>Gospel lectionary.</item>
-                     <item>commissioned by �by the chief Kina, son of
+                     <item>commissioned by “by the chief Kina, son of
             Shem<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>on, and his mother Elfiya, at
-            the expense of its the priest <hi rend="u">H</hi>anna� for the church of Mar Giwargis in
-            Pioz, Mosul region.</item>
+            the expense of its the priest <hi rend="u">H</hi>anna” for the church of Mar Giwargis
+            in Pioz, Mosul region.</item>
                   </list>
                </cell>
             </row>
@@ -1128,13 +1181,15 @@
             son of the priest <hi rend="u">H</hi>adbshabba,
             son of the priest Israel of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">tash<hi rend="sup">c</hi>yātā d-qaddishē w-sāhdē d-lā
-            bu<hi rend="u">s</hi>ar</hi> � collection of
-            Saints� lives.</item>
+                        <hi rend="italic">tash<hi rend="sup">c</hi>yātā d-qaddishē
+            w-sāhdē d-lā bu<hi rend="u">s</hi>ar</hi> – collection of Saints’
+            lives.</item>
                      <item>MS. commissioned by the priest Yalda
-            <hi rend="italic">qankāyā</hi> (�sacristan�) and by the believing
-            Zize from Alqosh, for the church of Mar Miles in
-            Tel-<hi rend="u">H</hi>ash (<hi rend="u">H</hi>esh), Dohuk district, Amadiya region.</item>
+            <hi rend="italic">qankāyā</hi> (‘sacristan’)
+            and by the believing Zize from Alqosh, for the church
+            of Mar Miles in Tel-<hi rend="u">H</hi>ash
+            (<hi rend="u">H</hi>esh), Dohuk district, Amadiya
+            region.</item>
                   </list>
                </cell>
             </row>
@@ -1155,12 +1210,14 @@
                      <item>undated MS., probably from Telkepe, around 1700,
             unknown copyist.</item>
                      <item>
-                        <hi rend="italic">ktābā d-qeryānā mparrshā.</hi>
+                        <hi rend="italic">ktābā d-qeryānā
+            mparrshā.</hi>
                      </item>
-                     <item>�This lectionary came into the possession of the
-            sincere (<hi rend="italic">shpē re<hi rend="sup">c</hi>y</hi>
-                        <hi rend="italic">ānā</hi>)
-            priest (<hi rend="italic">qa</hi>
+                     <item>“This lectionary came into the possession of
+            the sincere (<hi rend="italic">shpē
+            re<hi rend="sup">c</hi>y</hi>
+                        <hi rend="italic">ānā</hi>) priest
+            (<hi rend="italic">qa</hi>
                         <hi rend="italic">shshī</hi>
                         <hi rend="italic">shā</hi>)
             <hi rend="sup">
@@ -1169,11 +1226,12 @@
                            <hi rend="italic">c</hi>
                         </hi>,
             honorable and upright, son of the deceased believer
-            Zangish, witnessed by the honorable priests (<hi rend="italic">kāhnē
-            zahyē</hi>) David, Iyyub, and Yahb-Marya. He received
-            this life-giving book from Yo<hi rend="u">h</hi>annan Satnaya, it was dowry
-            (<hi rend="italic">mahrā</hi>) for his daughter� (Sat is a village in
-            Jilu, Hakkari).</item>
+            Zangish, witnessed by the honorable priests
+            (<hi rend="italic">kāhnē zahyē</hi>) David, Iyyub, and
+            Yahb-Marya. He received this life-giving book from
+            Yo<hi rend="u">h</hi>annan Satnaya, it was dowry
+            (<hi rend="italic">mahrā</hi>) for his daughter” (Sat is a
+            village in Jilu, Hakkari).</item>
                   </list>
                </cell>
             </row>
@@ -1191,8 +1249,9 @@
             first dates from around 1700 (date partly illegible),
             which might also provide a rough date for the second
             note on the dowry (see under d for both notes).</item>
-                     <item>funeral madrashe and <hi rend="italic">ktābā d-pardaysā
-            d-Eden</hi> (�The book of the Paradise of Eden�) of
+                     <item>funeral madrashe and <hi rend="italic">ktābā
+            d-pardaysā d-Eden</hi> (‘The book of the
+            Paradise of Eden’) of
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abdisho<hi rend="sup">
@@ -1205,8 +1264,8 @@
             and the deacon x (illeg.). Note of dowry taken by the
             priest <hi rend="u">H</hi>anna for his daughter,
             with the priest Maroge, Dawo of Bet Qoza (= Zoza?),
-            Jajjo Qarda<hi rend="u">h</hi>e (�smith�) and
-            <hi rend="u">H</hi>assino of the family of
+            Jajjo Qarda<hi rend="u">h</hi>e
+            (‘smith’) and <hi rend="u">H</hi>assino of the family of
             Sheikh<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>ali as witnesses, written by
@@ -1230,13 +1289,14 @@
                   </hi>azar [146]<lb/>
                   <list type="ordered">
                      <item>N.D. des Semences: Dawra Syr 541 (Haddad), Scher
-            109, Vost� 190.</item>
+            109, Vosté 190.</item>
                      <item>dated 12 September 1701, by the priest Yalda, son
             of the priest Daniel, son of the priest Eliya, son of
             the priest Daniel of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-rīshānē</hi> (�Book of Governors�) of
-            Thomas of Maraga.</item>
+                        <hi rend="italic">ktābā d-rīshānē</hi>
+            (‘Book of Governors’) of Thomas of
+            Maraga.</item>
                      <item>commissioned by Shmuni daughter of
             Na<hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -1262,22 +1322,25 @@
             the priest Eliya, son of the priest Daniel of Alqosh,
             in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-shettat yāumē</hi> � Hexaemeron of
-            Rabban <hi rend="sup">
+                        <hi rend="italic">ktābā d-shettat yāumē</hi>
+            – Hexaemeron of Rabban
+            <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Emmanuel.</item>
-                     <item>�The MS. was commissioned (<hi rend="italic">rnāt deyn
+                     <item>“The MS. was commissioned (<hi rend="italic">rnāt deyn
             w-ye<hi rend="u">s</hi>pat, w-akpat lāh
-            b-maktbānuteh</hi>) by the believing lady, daughter of
-            the upright believer and deceased
+            b-maktbānuteh</hi>) by the believing lady,
+            daughter of the upright believer and deceased
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abdisho<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi> of
             Alqosh, thanks to her money and the work of her hands
-            (<hi rend="italic">men meddem dīlāh w-men pul<hi rend="u">h</hi>ānā d-īdēyh</hi>). And it was written so
-            that her brother the priest Yo<hi rend="u">h</hi>anna could read from it.�</item>
+            (<hi rend="italic">men meddem dīlāh w-men pul<hi rend="u">h</hi>ānā d-īdēyh</hi>). And
+            it was written so that her brother the priest
+            Yo<hi rend="u">h</hi>anna could read from
+            it.”</item>
                   </list>
                </cell>
             </row>
@@ -1293,15 +1356,17 @@
                      <item>MS. dated to 2 October 1498 in Mosul, with two
             notes, one of 1702 when the MS. was restored by a
             deacon Giwargis, son of the priest Daniel. The second
-            note, of 1704 or 1804 mentions a deacon �Giwargis, son
-            of the believing woman Gozal.�</item>
+            note, of 1704 or 1804 mentions a deacon
+            “Giwargis, son of the believing woman
+            Gozal.”</item>
                      <item>Gospel lectionary.</item>
-                     <item>�In this year Ali Pasha came to Shangar [Baranduz
-            district, Urmi region], in the year two-thousand and
-            hundred (<hi rend="italic">w-emmā</hi>) fifteen of the blessed
-            Greeks, Amen. Thus wrote the deacon Giwargis, son of
-            the believing woman Gozal � may Christ pardon the sins
-            of his parents, Amen.�</item>
+                     <item>“In this year Ali Pasha came to Shangar
+            [Baranduz district, Urmi region], in the year
+            two-thousand and hundred (<hi rend="italic">w-emmā</hi>) fifteen
+            of the blessed Greeks, Amen. Thus wrote the deacon
+            Giwargis, son of the believing woman Gozal – may
+            Christ pardon the sins of his parents,
+            Amen.”</item>
                   </list>
                </cell>
             </row>
@@ -1319,20 +1384,20 @@
                      <item>Mar Ya<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>qob 15, and Fiey,
-            <hi rend="italic">Assyrie chr�tienne</hi> II, 720.</item>
+            <hi rend="italic">Assyrie chrétienne</hi> II, 720.</item>
                      <item>dated 17 February 1705, by the deacon Giwargis, son
             of the priest Daniel, son of the priest Eliya, son of
             the priest Daniel of Alqosh, in Alqosh.</item>
                      <item>—</item>
-                     <item>the MS. was commissioned by �Isaac, son of
+                     <item>the MS. was commissioned by “Isaac, son of
             Giwargis, his daughter <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Azize and
             his wife Baghdad (originally of Alqosh) for the
             monastery of Mar Ya<hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>qob, Qashafir�
-            (Dohuk district, Amadiya region).</item>
+                        </hi>qob,
+            Qashafir” (Dohuk district, Amadiya region).</item>
                   </list>
                </cell>
             </row>
@@ -1346,7 +1411,7 @@
                   </hi>na and <hi rend="bold">Nasrat</hi>
           [164]<lb/>
                   <list type="ordered">
-                     <item>Aqra 10 (Habbi) and Vost� 6.</item>
+                     <item>Aqra 10 (Habbi) and Vosté 6.</item>
                      <item>dated 9 September 1706, by the priest Yosep, son of
             the priest Giwargis, son of the priest Israel, son of
             the priest Hormizd of Alqosh, in Alqosh.</item>
@@ -1373,17 +1438,18 @@
             Alqosh.</item>
                      <item>
                         <hi rend="italic">
-                           <hi rend="u">t</hi>aksā d-kahnē</hi> with
-            <hi rend="italic">
+                           <hi rend="u">t</hi>aksā
+            d-kahnē</hi> with <hi rend="italic">
                            <hi rend="u">h</hi>uttāmē.</hi>
                      </item>
-                     <item>�this book ... was written thanks to the money and
-            labor (<hi rend="italic">men meddem dīlāh w-men pul<hi rend="u">h</hi>ānāh</hi>) and by the work of Belgan, a
-            believing woman from Alqoshta, and she bestowed it upon
-            the holy church of Mar Yo<hi rend="u">h</hi>annan
-            in the blessed village of Dawedaya, in the region of
-            <hi rend="u">S</hi>apna (Amadiah region). From now
-            on, everyone is required to read from it.�</item>
+                     <item>“this book ... was written thanks to the
+            money and labor (<hi rend="italic">men meddem dīlāh w-men
+            pul<hi rend="u">h</hi>ānāh</hi>) and by
+            the work of Belgan, a believing woman from Alqoshta,
+            and she bestowed it upon the holy church of Mar
+            Yo<hi rend="u">h</hi>annan in the blessed village
+            of Dawedaya, in the region of <hi rend="u">S</hi>apna (Amadiah region). From now on,
+            everyone is required to read from it.”</item>
                   </list>
                </cell>
             </row>
@@ -1398,8 +1464,8 @@
                      <item>dated 18 July 1707, by the deacon Yo<hi rend="u">h</hi>annan, son of the priest Eliya son of the
             deacon Mika, in Mosul.</item>
                      <item>
-                        <hi rend="italic">ktābā d-gazzā</hi> (for all holidays and
-            saints� days).</item>
+                        <hi rend="italic">ktābā d-gazzā</hi> (for all
+            holidays and saints’ days).</item>
                      <item>commissioned by Gozal, daughter of <hi rend="u">H</hi>anna (smith) of Mosul, for the monastery of
             Mar Giwargis of Bet <hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -1418,7 +1484,7 @@
           Eliya, of Telkepe [222]<lb/>
                   <list type="ordered">
                      <item>Telkepe/ N.D. des Semences: Dawra Syr. 64 (Haddad),
-            Scher 28, Vost� 35.</item>
+            Scher 28, Vosté 35.</item>
                      <item>dated 7 February 1710, by the deacon
             Sabrisho<hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -1430,8 +1496,8 @@
                            <hi rend="italic">c</hi>
                         </hi>Ajmaya), in Telkepe</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="sup">c</hi>ellātā d-zmaryātā
-            d-<hi rend="u">t</hi>ubānē d-Dāwid</hi>
+                        <hi rend="italic">ktābā d-<hi rend="sup">c</hi>ellātā
+            d-zmaryātā d-<hi rend="u">t</hi>ubānē d-Dāwid</hi>
             (commentary on the Psalms of David, and varia).</item>
                      <item>commissioned by the believing ladies of Telkepe,
             <hi rend="u">H</hi>atun and her mother Sette,
@@ -1458,10 +1524,11 @@
                            <hi rend="u">t</hi>
                         </hi>
                         <hi rend="italic">aksā
-            d-<hi rend="u">h</hi>udrā d-yāumātā sh<hi rend="u">h</hi>īmē (kashkol.)</hi>
+            d-<hi rend="u">h</hi>udrā
+            d-yāumātā sh<hi rend="u">h</hi>īmē (kashkol.)</hi>
                      </item>
-                     <item>commissioned by (or �at the expense of� Eddne [or
-            Ezdne]), daughter of the priest Maroge.</item>
+                     <item>commissioned by (or “at the expense of”
+            Eddne [or Ezdne]), daughter of the priest Maroge.</item>
                   </list>
                </cell>
             </row>
@@ -1473,7 +1540,7 @@
           deacon Gabriel of Semmer, wife of Safar, and her
           mother-in-law <hi rend="bold">Dalle</hi> [141]<lb/>
                   <list type="ordered">
-                     <item>Dohuk 39 (Haddad � not identified).</item>
+                     <item>Dohuk 39 (Haddad – not identified).</item>
                      <item>dated 26 June 1718, by the priest Yalda, son of the
             priest Daniel, son of the priest Eliya, son of the
             priest Daniel of Alqosh, in Alqosh.</item>
@@ -1514,8 +1581,8 @@
             the priest Israel, son of the priest Hormizd of Alqosh,
             probably in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-egrātā d-shlī<hi rend="u">h</hi>e
-            <hi rend="u">t</hi>ubānē.</hi>
+                        <hi rend="italic">ktābā d-egrātā
+            d-shlī<hi rend="u">h</hi>e <hi rend="u">t</hi>ubānē.</hi>
                      </item>
                      <item>commissioned by <hi rend="u">H</hi>azmi,
             daughter of the priest the priest <hi rend="u">H</hi>oshaba and her daughter Dalle, daughter of
@@ -1537,24 +1604,26 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">anonymous wife</hi> of Amr [326-7, 488]<lb/>
                   <list type="ordered">
-                     <item>Duval, �Inscriptions�, 56.</item>
+                     <item>Duval, “Inscriptions”, 56.</item>
                      <item>undated inscription in the church of Mar Quriaqos
             in Salmas somewhere in the 18<hi rend="sup">th</hi>, probably
             preceding an inscription of 1770 (Duval,
-            �Inscriptions�, 54-5), and following another undated
-            inscription: �The builder of this church was master
-            mason <hi rend="sup">
+            “Inscriptions”, 54-5), and following
+            another undated inscription: “The builder of this
+            church was master mason <hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>Abda, whereas they also
-            built the church of the Armenians in the same year, in
-            the time of Mar Isho<hi rend="sup">
+                        </hi>Abda,
+            whereas they also built the church of the Armenians in
+            the same year, in the time of Mar
+            Isho<hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>yab,
-            metropolitan of Salmas� (Duval, �Inscriptions�,
+                        </hi>yab, metropolitan of
+            Salmas” (Duval, “Inscriptions”,
             56-7).</item>
                      <item>—</item>
-                     <item>�This church was renovated by the wife of Amr, may
-            the Lord give her rest� (Duval, 56).</item>
+                     <item>“This church was renovated by the wife of
+            Amr, may the Lord give her rest” (Duval,
+            56).</item>
                   </list>
                </cell>
             </row>
@@ -1571,7 +1640,8 @@
             the priest Giwargis, son of the priest Israel of
             Alqosh, (of the Shikwana family), in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-huggāyā d-osha<hi rend="sup">c</hi>nā.</hi>
+                        <hi rend="italic">ktābā d-huggāyā
+            d-osha<hi rend="sup">c</hi>nā.</hi>
                      </item>
                      <item>commissioned by Shmuni, daughter of the priest
             <hi rend="u">H</hi>oshaba, brother of Mar Eliya,
@@ -1592,7 +1662,8 @@
             priest Yalda, son of the priest Daniel, son of the
             deceased the priest Eliya of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-gazzā</hi> with hymns.</item>
+                        <hi rend="italic">ktābā d-gazzā</hi> with
+            hymns.</item>
                      <item>This book came into the possession
             (<hi rend="italic">itawhy</hi>) of the holy church of Mar
             A<hi rend="u">hh</hi>a <hi rend="sup">
@@ -1600,14 +1671,13 @@
                         </hi>Allana
             which is in the village of Shelmat, may the Lord
             protect her. The honorable priest (<hi rend="italic">kahnā</hi>
-                        <hi rend="italic">zahyā</hi>) <hi rend="italic">qashshīshā</hi> Hormizd and
-            <hi rend="italic">qashshīshā</hi> Denkha and the chief
-            (<hi rend="italic">rēbānā</hi>) Yalda of the village of Shelmat
-            commissioned (<hi rend="italic">ī<hi rend="u">s</hi>ep</hi>) the
-            writing of this book of the gazza, whereas the price
-            for this book of the gazza was given (<hi rend="italic">ya(h)bw
-            <hi rend="u">t</hi>īmāwy</hi>) from their own
-            money (<hi rend="italic">men meddem dīlhon)</hi> by the believer
+                        <hi rend="italic">zahyā</hi>) <hi rend="italic">qashshīshā</hi>
+            Hormizd and <hi rend="italic">qashshīshā</hi> Denkha and
+            the chief (<hi rend="italic">rēbānā</hi>) Yalda of the
+            village of Shelmat commissioned (<hi rend="italic">ī<hi rend="u">s</hi>ep</hi>) the writing of this book of the
+            gazza, whereas the price for this book of the gazza was
+            given (<hi rend="italic">ya(h)bw <hi rend="u">t</hi>īmāwy</hi>) from their own money
+            (<hi rend="italic">men meddem dīlhon)</hi> by the believer
             <hi rend="u">H</hi>anne, the believer Kammo and
             their righteous wives Sara and Maryam.</item>
                   </list>
@@ -1620,14 +1690,14 @@
                   <hi rend="bold">anonymous women</hi> from Urmi region
           [313]<lb/>
                   <list type="ordered">
-                     <item>note of 1723 in Telkepe 43 (Vost�, not
+                     <item>note of 1723 in Telkepe 43 (Vosté, not
             identified)</item>
                      <item>—</item>
                      <item>—</item>
-                     <item>the note mentions �that several East Syrian women
-            had been captured during a recent raid in the Urmi
-            region by the Bany Pushtadar tribe, and had been
-            ransomed by the patriarch Eliya XII.�</item>
+                     <item>the note mentions “that several East Syrian
+            women had been captured during a recent raid in the
+            Urmi region by the Bany Pushtadar tribe, and had been
+            ransomed by the patriarch Eliya XII.”</item>
                   </list>
                </cell>
             </row>
@@ -1647,15 +1717,15 @@
           [219]<lb/>
                   <list type="ordered">
                      <item>Karamlish collection (not identified) and Fiey,
-            <hi rend="italic">Assyrie chr�tienne</hi> II, 411.</item>
+            <hi rend="italic">Assyrie chrétienne</hi> II, 411.</item>
                      <item>copied in 1727 by the priest Yosep, son of the
             priest Giwargis, son of the priest Israel, son of the
             priest Hormizd of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi>
-            (Fiey, <hi rend="italic">Assyrie chr�tienne</hi>, 411: �magnifique
+                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>udrā</hi> (Fiey, <hi rend="italic">Assyrie
+            chrétienne</hi>, 411: “magnifique
             <hi rend="u">H</hi>udra complet, encore en
-            usage.�)</item>
+            usage.”)</item>
                      <item>the MS. was donated to the church of Mart Maryam
             (in Karamlish, Mosul region) by <hi rend="u">H</hi>anna, son of <hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -1668,7 +1738,7 @@
             Jem<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>a, and Hormizd, to commemorate
-            the death of <hi rend="u">H</hi>anna�s son
+            the death of <hi rend="u">H</hi>anna’s son
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abd al-Masi<hi rend="u">h</hi> on 25 August 1726. Fiey notes that the
@@ -1686,7 +1756,7 @@
                   <hi rend="bold">Helen</hi>, daughter of Nisan [146]<lb/>
                   <list type="ordered">
                      <item>N.D. des Semences: Dawra Syr 463 (Haddad), Scher
-            75, Vost� 105.</item>
+            75, Vosté 105.</item>
                      <item>dated 11 February 1731, by the priest
             Shem<hi rend="sup">c</hi>on, son of the priest Yalda, son of the
             priest Daniel of Alqosh, in Alqosh.</item>
@@ -1761,14 +1831,14 @@
             of the priest Hormizd of Alqosh, the second certainly
             copied in Rabban Hormizd, the first uncertain.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="u">t</hi>aksā</hi> (226)
-            <hi rend="italic">+ qāle d-sh<hi rend="u">h</hi>īmē auket
+                        <hi rend="italic">ktābā d-<hi rend="u">t</hi>aksā</hi> (226) <hi rend="italic">+ qāle
+            d-sh<hi rend="u">h</hi>īmē auket
             d-<hi rend="sup">c</hi>unyātē</hi> (235).</item>
                      <item>both MSS. were commissioned by the lady Azdiya,
-            daughter of Safar of Alqosh, �mother of patriarch Mar
-            Eliya� and married to <hi rend="u">H</hi>oshaba,
-            son of Giwargis, and both were intended for (the church
-            of) the monastery of Rabban Hormizd.</item>
+            daughter of Safar of Alqosh, “mother of patriarch
+            Mar Eliya” and married to <hi rend="u">H</hi>oshaba, son of Giwargis, and both were
+            intended for (the church of) the monastery of Rabban
+            Hormizd.</item>
                   </list>
                </cell>
             </row>
@@ -1786,10 +1856,10 @@
                            <hi rend="italic">c</hi>
                         </hi>on, son of the priest Yalda,
             son of the priest Eliya of Alqosh, in Alqosh.</item>
-                     <item>�Life of Mar Augin.�</item>
-                     <item>commissioned by Maryam, <hi rend="italic">mshammshanitā</hi> of
-            the monastery of Mar Augin, Nisibis, together with the
-            layman <hi rend="u">H</hi>oshaba, in
+                     <item>‘Life of Mar Augin.’</item>
+                     <item>commissioned by Maryam, <hi rend="italic">mshammshanitā</hi>
+            of the monastery of Mar Augin, Nisibis, together with
+            the layman <hi rend="u">H</hi>oshaba, in
             Ma<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>arre.</item>
@@ -1803,8 +1873,8 @@
                   <hi rend="bold">Merot</hi>, daughter of the priest Hormizd
           [161]<lb/>
                   <list type="ordered">
-                     <item>N.D. des Semences: Dawra Syr 620 (Haddad), Vost�
-            210.</item>
+                     <item>N.D. des Semences: Dawra Syr 620 (Haddad),
+            Vosté 210.</item>
                      <item>dated 10 October 1740, by the priest
             Shem<hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -1812,10 +1882,11 @@
             son of the priest Giwargis, son of the priest Israel of
             Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-tash<hi rend="sup">
+                        <hi rend="italic">ktābā
+            d-tash<hi rend="sup">
                               <hi rend="italic">c</hi>
-                           </hi>yātā</hi>
-            (Book of histories: of On�simus, Yohannan b. Malke,
+                           </hi>yātā</hi> (Book of
+            histories: of Onésimus, Yohannan b. Malke,
             Rabban Hormizd, Maran<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>ammeh.)</item>
@@ -1834,7 +1905,7 @@
                      <hi rend="italic">c</hi>
                   </hi>a [143]<lb/>
                   <list type="ordered">
-                     <item>Telkepe 42 (Vost�), Habbi 66.</item>
+                     <item>Telkepe 42 (Vosté), Habbi 66.</item>
                      <item>dated 18 November 1740, by the deacon Yalda, son of
             the priest
             <hi rend="sup">
@@ -1846,8 +1917,8 @@
             the priest Israel of Alqosh, in Alqosh.</item>
                      <item>
                         <hi rend="italic">
-                           <hi rend="u">t</hi>aksā d-quddāshā</hi>
-            (eucharistic liturgies).</item>
+                           <hi rend="u">t</hi>aksā
+            d-quddāshā</hi> (eucharistic liturgies).</item>
                      <item>MS. commissioned for the church of Mar Quriaqos in
             Telkepe by the priest Gabriel and the pilgrim Thomas,
             son of the deacon Yalda, at the request of the
@@ -1885,9 +1956,10 @@
                            <hi rend="u">t</hi>aksā
             d-quddāshā.</hi>
                      </item>
-                     <item>�He commissioned this book thanks to the money and
-            the labor of these women, Amat and her daughter Maryam,
-            Helena, Teka, and Elfiya, the believers, he, the priest
+                     <item>“He commissioned this book thanks to the
+            money and the labor of these women, Amat and her
+            daughter Maryam, Helena, Teka, and Elfiya, the
+            believers, he, the priest
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abdisho<hi rend="sup">
@@ -1898,7 +1970,7 @@
             holy monastery of Mar Giwargis of Bet
             <hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>Awire.�</item>
+                        </hi>Awire.”</item>
                   </list>
                </cell>
             </row>
@@ -1918,8 +1990,9 @@
             Alqosh, in Alqosh.</item>
                      <item>
                         <hi rend="italic">
-                           <hi rend="sup">c</hi>unyātā d-mdabbrānutēh d-Māran
-            d-Gīwargis Wardā</hi> � hymns of Giwargis Warda (and
+                           <hi rend="sup">c</hi>unyātā
+            d-mdabbrānutēh d-Māran d-Gīwargis
+            Wardā</hi> – hymns of Giwargis Warda (and
             others) on the life of our Lord.</item>
                      <item>commissioned by Helen, daughter of the deacon
             Kazum, of Batnaya, for the church of Mar Quriaqos in
@@ -1962,7 +2035,8 @@
             priest Yalda, son of the priest Daniel of Alqosh, in
             Alqosh.</item>
                      <item>
-                        <hi rend="italic">mēmrā d-bā<hi rend="sup">c</hi>utā.</hi>
+                        <hi rend="italic">mēmrā
+            d-bā<hi rend="sup">c</hi>utā.</hi>
                      </item>
                      <item>commissioned by Kandi, daughter of the priest
             Yalda.</item>
@@ -1976,7 +2050,7 @@
                   <hi rend="bold">Naze</hi>, daughter of
           <hi rend="bold">Shmuni</hi> [162]<lb/>
                   <list type="ordered">
-                     <item>Aqra 76 (Habbi) and Vost� 54.</item>
+                     <item>Aqra 76 (Habbi) and Vosté 54.</item>
                      <item>dated 31 December 1766, by the deacon Israel, son
             of the priest Shem<hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -2007,7 +2081,7 @@
           <hi rend="sup">
                      <hi rend="italic">c</hi>
                   </hi>Abdelkarim, son of the priest Bakos,
-          son of�the priest Khadjo, son of the priest Bet
+          son of the priest Khadjo, son of the priest Bet
           Sabrisho<hi rend="sup">
                      <hi rend="italic">c</hi>
                   </hi> of <hi rend="sup">
@@ -2015,14 +2089,14 @@
                   </hi>Ayn
           Tannur, fifteen years old [61]<lb/>
                   <list type="ordered">
-                     <item>Diarbakir 155 (Scher) � Note: Arabic MS.</item>
+                     <item>Diarbakir 155 (Scher) – Note: Arabic MS.</item>
                      <item>dated 9 February 1767, by Teresa, daughter of the
             priest Khadjador, son of the deacon
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Abdelkarim, son of the priest
-            Bakos, son of� the priest Khadjo, son of the priest Bet
-            Sabrisho<hi rend="sup">
+            Bakos, son of  the priest Khadjo, son of the
+            priest Bet Sabrisho<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi> of
             <hi rend="sup">
@@ -2031,15 +2105,15 @@
             in <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Ayn Tannur.</item>
-                     <item>John of Damascus� Hundred homilies, Book of
+                     <item>John of Damascus’ Hundred homilies, Book of
             Philosophy, Logic and Rhetoric, and Five Discourses
             Against the Heretics; two treatises by Paul of Antioch,
             bishop of <hi rend="u">S</hi>aida.</item>
                      <item>—</item>
-                     <item>�during the pope Clement XIII, patriarch Mar Yosep
-            IV, and Mar Yo<hi rend="u">h</hi>annan
-            metropolitan of Amid� (indicating that Teresa belonged
-            to the Catholic movement in the region).</item>
+                     <item>“during the pope Clement XIII, patriarch Mar
+            Yosep IV, and Mar Yo<hi rend="u">h</hi>annan
+            metropolitan of Amid” (indicating that Teresa
+            belonged to the Catholic movement in the region).</item>
                   </list>
                </cell>
             </row>
@@ -2054,27 +2128,28 @@
           Daralik [523]<lb/>
                   <list type="ordered">
                      <item>Berlin Syr 107 (Sachau).</item>
-                     <item>dated 20 August 1770, by <hi rend="u">S</hi>libo son of Jammo of Taimar, �then living
-            in Salmas�, probably in Salmas.</item>
+                     <item>dated 20 August 1770, by <hi rend="u">S</hi>libo son of Jammo of Taimar, “then
+            living in Salmas”, probably in Salmas.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>ermē
-            d-na<hi rend="u">tt</hi>urē.</hi>
+                        <hi rend="italic">ktābā d-<hi rend="u">h</hi>ermē d-na<hi rend="u">tt</hi>urē.</hi>
                      </item>
-                     <item>Wilmshurst: �commissioned by
+                     <item>Wilmshurst: “commissioned by
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>I<hi rend="u">s</hi>a and his
-            wife Sanam, of Daralik, Sulduz district, Urmi region,�
-            but according to Sachau�s notes,
+            wife Sanam, of Daralik, Sulduz district, Urmi
+            region,” but according to Sachau’s notes,
             <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>I<hi rend="u">s</hi>a is
-            mentioned several times as the �son of Sanam�. In the
-            most extensive note, the MS. is said to have been
-            written for �<hi rend="sup">
+            mentioned several times as the “son of
+            Sanam”. In the most extensive note, the MS. is
+            said to have been written for
+            “<hi rend="sup">
                            <hi rend="italic">c</hi>
-                        </hi>I<hi rend="u">s</hi>a son of Kabgi and the lady Sanam from the
-            village of Daralik.�</item>
+                        </hi>I<hi rend="u">s</hi>a
+            son of Kabgi and the lady Sanam from the village of
+            Daralik.”</item>
                   </list>
                </cell>
             </row>
@@ -2086,18 +2161,19 @@
           <hi rend="bold">Anisa</hi> [215]<lb/>
                   <list type="ordered">
                      <item>Mosul: Magdasi 17, Scher 49, Bidawid 317 and Fiey,
-            <hi rend="italic">Mossoul chr�tienne</hi>, 114.</item>
+            <hi rend="italic">Mossoul chrétienne</hi>, 114.</item>
                      <item>dated 3 January 1773, by the deacon Homo, son of
             the priest Hanna, son of the priest Homo, son of the
             priest Daniel, son of the priest Eliya of Alqosh, in
             Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-gazzā</hi>�(possibly a Catholic
+                        <hi rend="italic">ktābā
+            d-gazzā</hi> (possibly a Catholic
             version).</item>
-                     <item>commissioned by �by Lady Stambul for her daughter
-            Anisa, at the request of the deacon Thomas, son of
-            Slibo�, for the 3 churches Mart Meskinta, Mar
-            Shem<hi rend="sup">
+                     <item>commissioned by “by Lady Stambul for her
+            daughter Anisa, at the request of the deacon Thomas,
+            son of Slibo”, for the 3 churches Mart Meskinta,
+            Mar Shem<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>on bar
             Sabba<hi rend="sup">
@@ -2113,7 +2189,7 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">Elfiya</hi>, daughter of Yagmur [226]<lb/>
                   <list type="ordered">
-                     <item>Telkepe 14 (Habbi) and Vost� 24.</item>
+                     <item>Telkepe 14 (Habbi) and Vosté 24.</item>
                      <item>dated 22 July 1774, by the priest Homo, son of the
             priest <hi rend="u">H</hi>anna, son of the priest
             Homo, son of the priest Daniel, son of the priest Eliya
@@ -2174,9 +2250,9 @@
             of the priest Hoshaba, son of the priest Israel of
             Alqosh, in Alqosh.</item>
                      <item>Homilies of Isaac of Nineveh.</item>
-                     <item>commissioned by a �some pious ladies of Telkepe�,
-            for the monastery of Mar Giwargis of Bet
-            <hi rend="sup">
+                     <item>commissioned by a “some pious ladies of
+            Telkepe”, for the monastery of Mar Giwargis of
+            Bet <hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>Awire.</item>
                   </list>
@@ -2191,23 +2267,23 @@
                      <item>note in Berlin Syr. 31 (Sachau).</item>
                      <item>MS. dated to 14 July 1591, but with a long note
             dated to 28 August 1808 (see Sachau for the full text),
-            when the MS. was restored �in the monastery [..] Mar
-            Mushe in the [..] village of Ha<hi rend="u">ss</hi>ān, the village of Noah, where he planted
-            grapevines and made wine and drank it and became drunk.
-            [...]. This MS. was bound together and pressed [..] by
-            the feeble, sinful and wretched hands of the
-            metropolitan Mar Yosep of the blessed village of Shakh.
-            [...]�, who came to live in the monastery in
-            Ha<hi rend="u">ss</hi>an because of wars and
+            when the MS. was restored “in the monastery [..]
+            Mar Mushe in the [..] village of Ha<hi rend="u">ss</hi>ān, the village of Noah, where he
+            planted grapevines and made wine and drank it and
+            became drunk. [...]. This MS. was bound together and
+            pressed [..] by the feeble, sinful and wretched hands
+            of the metropolitan Mar Yosep of the blessed village of
+            Shakh. [...]”, who came to live in the monastery
+            in Ha<hi rend="u">ss</hi>an because of wars and
             unrest.</item>
                      <item>New Testament in Peshitta version.</item>
-                     <item>�A perfect and upright believing woman named Alpo
-            commissioned and took pains from her own money for the
-            binding, the binding together and the pressing of this
-            book of the life-giving and reviving Gospel � may
-            Christ give her an inheritance with Sara, I say, and
-            Ripqa and Rachel [..] and with all the holy righteous
-            women, Amen.�</item>
+                     <item>“A perfect and upright believing woman named
+            Alpo commissioned and took pains from her own money for
+            the binding, the binding together and the pressing of
+            this book of the life-giving and reviving Gospel
+            – may Christ give her an inheritance with Sara, I
+            say, and Ripqa and Rachel [..] and with all the holy
+            righteous women, Amen.”</item>
                   </list>
                </cell>
             </row>
@@ -2217,8 +2293,8 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">Marta</hi>, daughter of Haye [139]<lb/>
                   <list type="ordered">
-                     <item>Mosul 42 (Scher), cf. also Fiey, �Sanctuaires et
-            villages�, 59.</item>
+                     <item>Mosul 42 (Scher), cf. also Fiey, “Sanctuaires
+            et villages”, 59.</item>
                      <item>copied in 1809 by the priest
             <hi rend="sup">
                            <hi rend="italic">c</hi>
@@ -2229,7 +2305,8 @@
             living in Ishnik (<hi rend="u">S</hi>apna).</item>
                      <item>
                         <hi rend="italic">
-                           <hi rend="u">t</hi>aksā d-kāhnē.</hi>
+                           <hi rend="u">t</hi>aksā
+            d-kāhnē.</hi>
                      </item>
                      <item>commissioned by Marta, for the church of Mar
             Zay<hi rend="sup">
@@ -2275,16 +2352,16 @@
             family of the bishop Mar Yo<hi rend="u">h</hi>annan in the church of Mar Giwargis in
             Shibane, Tergawar district.</item>
                      <item>Psalter.</item>
-                     <item>commissioned by �<hi rend="u">H</hi>nanisho<hi rend="sup">
+                     <item>commissioned by “<hi rend="u">H</hi>nanisho<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>, son of the
             deceased Petros, his mother was called Banusheh, of
-            Gulpasha[n]� (in Baranduz). In a different hand it is
-            stated that the MS. was written for the believing woman
-            �Daris Sargis, that the scholars will read and recite
-            from it in the church, for the sake of her and her
-            parents� reward [or: 'salvation' (<hi rend="italic">purqānā</hi>)],
-            Amen.�</item>
+            Gulpasha[n]” (in Baranduz). In a different hand
+            it is stated that the MS. was written for the believing
+            woman “Daris Sargis, that the scholars will read
+            and recite from it in the church, for the sake of her
+            and her parents’ reward [or: 'salvation'
+            (<hi rend="italic">purqānā</hi>)], Amen.”</item>
                   </list>
                </cell>
             </row>
@@ -2294,8 +2371,8 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="bold">Helen</hi>, daughter of Yonan [141]<lb/>
                   <list type="ordered">
-                     <item>Dohuk 2 (Haddad), Vost� 44 (Dohuk) � not
-            identified.</item>
+                     <item>Dohuk 2 (Haddad), Vosté 44 (Dohuk) –
+            not identified.</item>
                      <item>dated 6 October 1820, by Gabriel, son of the priest
             <hi rend="u">H</hi>oshaba, son of the deacon Yosep
             of Alqosh, in Alqosh.</item>
@@ -2306,7 +2383,7 @@
             Ma<hi rend="sup">
                            <hi rend="italic">c</hi>
                         </hi>alta, Dohuk district, in
-            �catholic period.�</item>
+            ‘catholic period.’</item>
                   </list>
                </cell>
             </row>
@@ -2327,9 +2404,10 @@
             of Gauro (Gabriel) of Alqosh, probably in Alqosh.</item>
                      <item>Book of the seven hours (Roman Catholic monastic
             literature, in use in the Chaldean monasteries).</item>
-                     <item>commissioned (<hi rend="italic">rnāt deyn w-ye<hi rend="u">s</hi>pat w-akpat lāh</hi>) by Shmuni, <hi rend="italic">btultā
-            zahyā</hi> (�honorable virgin�), daughter of the
-            believing Marqos who is of the house of Kubyar.</item>
+                     <item>commissioned (<hi rend="italic">rnāt deyn w-ye<hi rend="u">s</hi>pat w-akpat lāh</hi>) by Shmuni,
+            <hi rend="italic">btultā zahyā</hi> (‘honorable
+            virgin’), daughter of the believing Marqos who is
+            of the house of Kubyar.</item>
                   </list>
                </cell>
             </row>
@@ -2355,7 +2433,8 @@
                         </hi>, son
             of the priest Hormizd of Alqosh, in Alqosh.</item>
                      <item>
-                        <hi rend="italic">ktābā d-<hi rend="sup">c</hi>uppīyā d-kahnē.</hi>
+                        <hi rend="italic">ktābā d-<hi rend="sup">c</hi>uppīyā
+            d-kahnē.</hi>
                      </item>
                      <item>commissioned by Kafo of Bidwil (Shemkan district),
             for his daughter Gozal, 1826.</item>
@@ -2387,34 +2466,34 @@
                </cell>
             </row>
          </table>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV7N1Murre3">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> See appendix, no. 30. <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef2">2</ref> The appendix contains a list of women�s names taken
-    from the primarily Syriac colophons in MSS. written by Church
-    of the East copyists between 1500 and 1830. The list is gleaned
-    from David Wilmshurst�s list of colophons of Syriac
-    manuscripts, in <hi rend="italic">The Ecclesiastical Organisation of the
-    Church of the East, 1318-1913,</hi> CSCO vol. 582, Subsidia 104
-    (Louvain: Peeters, 2000). When the catalogues were available to
-    me and provided extra information on the women and the MSS.,
-    such information has been added. Note that Wilmshurst did not
-    include the Arabic MSS. produced by Church of the East writers
-    in this period. Note also that my timeframe is considerably
-    shorter than that of Wilmshurst, who covers the period from
-    1318 to 1913. I have limited myself to the �Ottoman period�,
-    but with the exclusion of most of the nineteenth century,
-    because of the largely different circumstances (considerable
-    western influence) and abundance of sources from about 1830
-    onwards. <ref target="#FNRef2">
+         <p>
+            <ref target="#FNRef2">2</ref> The appendix contains a list of women’s names
+    taken from the primarily Syriac colophons in MSS. written by
+    Church of the East copyists between 1500 and 1830. The list is
+    gleaned from David Wilmshurst’s list of colophons of
+    Syriac manuscripts, in <hi rend="italic">The Ecclesiastical Organisation of
+    the Church of the East, 1318-1913,</hi> CSCO vol. 582, Subsidia
+    104 (Louvain: Peeters, 2000). When the catalogues were
+    available to me and provided extra information on the women and
+    the MSS., such information has been added. Note that Wilmshurst
+    did not include the Arabic MSS. produced by Church of the East
+    writers in this period. Note also that my timeframe is
+    considerably shorter than that of Wilmshurst, who covers the
+    period from 1318 to 1913. I have limited myself to the
+    ‘Ottoman period’, but with the exclusion of most of
+    the nineteenth century, because of the largely different
+    circumstances (considerable western influence) and abundance of
+    sources from about 1830 onwards. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> My numbers are based on the colophon descriptions
     in Wilmshurst, <hi rend="italic">The Ecclesiastical Organisation</hi>.
     Although he seems to have taken into account all manuscripts
@@ -2424,7 +2503,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> To my knowledge, women in the colophons in similar
     manuscript traditions have not been studied in extenso, cf.,
     e.g., the absence of any particular reference to women in the
@@ -2435,54 +2514,55 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> Wilmshurst, <hi rend="italic">The Ecclesiastical
     Organisation</hi>, 244, 249, 251. <ref target="#FNRef5">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef6">6</ref> See H.L. Murre-van den Berg, �A Syrian Awakening.
-    Alqosh and Urmia as Centres of Neo-Syriac Writing�,� in
-    Symposium Syriacum VII, Uppsala University, Department of Asian
-    and African Languages, 11-14 August 1996, OCP 256, ed. R.
-    Lavenant, S.J. (Rome: 1998), 499-515, and Alessandro Mengozzi,
-    <hi rend="italic">Israel of Alqosh and Joseph of Telkepe. A Story in a
-    Truthful Language, Religious Poems in Vernacular Syriac (North
-    Iraq, 17<hi rend="sup">th</hi> century)</hi>, 2 vols. CSCO 589, 590,
-    Scryptores Syri 230, 231 (Louvain: Peeters 2002). <ref target="#FNRef6">
+         <p>
+            <ref target="#FNRef6">6</ref> See H.L. Murre-van den Berg, “A Syrian
+    Awakening. Alqosh and Urmia as Centres of Neo-Syriac
+    Writing”,  in Symposium Syriacum VII, Uppsala
+    University, Department of Asian and African Languages, 11-14
+    August 1996, OCP 256, ed. R. Lavenant, S.J. (Rome: 1998),
+    499-515, and Alessandro Mengozzi, <hi rend="italic">Israel of Alqosh and
+    Joseph of Telkepe. A Story in a Truthful Language, Religious
+    Poems in Vernacular Syriac (North Iraq, 17<hi rend="sup">th</hi>
+    century)</hi>, 2 vols. CSCO 589, 590, Scryptores Syri 230, 231
+    (Louvain: Peeters 2002). <ref target="#FNRef6">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef7">7</ref> See H.L. Murre-van den Berg, �The Patriarchs of the
-    Church of the East from the Fifteenth to Eighteenth Centuries�
-    [<hi rend="italic">Hugoye, Journal of Syriac Studies</hi> 2:2 (1999),
-    <ref target="http://www.syrcom.cua.edu/Hugoye/index.html">http://www.syrcom.cua.edu/Hugoye/Vol2No2/</ref>].
+         <p>
+            <ref target="#FNRef7">7</ref> See H.L. Murre-van den Berg, “The Patriarchs
+    of the Church of the East from the Fifteenth to Eighteenth
+    Centuries” [<hi rend="italic">Hugoye, Journal of Syriac Studies</hi>
+    2:2 (1999), <ref target="http://www.syrcom.cua.edu/Hugoye/index.html">http://www.syrcom.cua.edu/Hugoye/Vol2No2/</ref>].
     <ref target="#FNRef7">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef8">8</ref> The difference between commissioning
-    (<hi rend="italic">y<hi rend="u">s</hi>ep</hi>), and sponsoring (�giving
-    money� � cf. no. 38) is unclear. In many cases only
-    commissioning is mentioned and we are left to assume that
-    commissioning in those cases included providing the money. In
-    other cases commissioners and sponsors are mentioned
+    (<hi rend="italic">y<hi rend="u">s</hi>ep</hi>), and sponsoring
+    (‘giving money’ – cf. no. 38) is unclear. In
+    many cases only commissioning is mentioned and we are left to
+    assume that commissioning in those cases included providing the
+    money. In other cases commissioners and sponsors are mentioned
     separately, which might suggest a different role for each.
     <ref target="#FNRef8">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef9">9</ref> I use the term donor/donating in the case of
     already existing MSS. or other valuables, such as land and/or
     houses. <ref target="#FNRef9">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef10">10</ref> In at least two cases I have not been able
     to ascertain whether the name of the parent refers to a man or
     a woman: Maryam, daughter of Mima of Erbil (1559, no. 4), and
@@ -2493,78 +2573,79 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef11">11</ref> Curiously enough, the copyist of the second
     MS. seems to be the same <hi rend="sup">c</hi>Abdisho<hi rend="sup">c</hi> of
-    Zangish who accepted a MS. as his daughter�s dowry. In both
-    cases, the names of three or four witnesses (all men, different
-    in each case) are added. <ref target="#FNRef11">
+    Zangish who accepted a MS. as his daughter’s dowry. In
+    both cases, the names of three or four witnesses (all men,
+    different in each case) are added. <ref target="#FNRef11">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef12">12</ref> The presence of these different types of
     religious women raises some issues that cannot be adequately
     treated in this article. One is the apparent survival of the
-    earlier offices of both �deaconess� and �daughter of the
-    covenant�, although we learn next to nothing about the content
-    of these offices (on these in the early days, see S. Harvey
-    Ashbrook, �Women�s Service in Ancient Syriac Christianity�, in
-    <hi rend="italic">Kanon XVI. Yearbook of the Society for the Law of the
-    Eastern Churches</hi>: <hi rend="italic">Mother, Nun, Deaconess, Images of
-    Women according to Eastern Canon Law</hi> (Egling: Edition
-    Roman Kovar, 2000, p. 226-241). The other interesting issue is
-    the possibility that the nun Shmuni was involved in the early
+    earlier offices of both ‘deaconess’ and
+    ‘daughter of the covenant’, although we learn next
+    to nothing about the content of these offices (on these in the
+    early days, see S. Harvey Ashbrook, “Women’s
+    Service in Ancient Syriac Christianity”, in <hi rend="italic">Kanon
+    XVI. Yearbook of the Society for the Law of the Eastern
+    Churches</hi>: <hi rend="italic">Mother, Nun, Deaconess, Images of Women
+    according to Eastern Canon Law</hi> (Egling: Edition Roman
+    Kovar, 2000, p. 226-241). The other interesting issue is the
+    possibility that the nun Shmuni was involved in the early
     stages of the Chaldean monastic movement, initiated in 1808 by
     Gabriel Danbo in Alqosh; cf. S. Bello, <hi rend="italic">La congregation de
-    S. Hormisdas et l��glise chald�enne dans la premi�re moiti� du
-    XIXe si�cle</hi>, OCA 122 (Rome: Pont. Institutum Orientalium
-    Studiorum, 1939), although Bello does not mention female
-    involvement. <ref target="#FNRef12">
+    S. Hormisdas et l’église chaldéenne dans la
+    première moitié du XIXe siècle</hi>, OCA
+    122 (Rome: Pont. Institutum Orientalium Studiorum, 1939),
+    although Bello does not mention female involvement. <ref target="#FNRef12">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef13">13</ref> Although I do not have direct evidence for
     the age at which girls generally were married, somewhere
     between twelve and sixteen seems likely. <ref target="#FNRef13">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef14">14</ref> Surma d�Bait Mar Shimun, <hi rend="italic">Assyrian Church
-    Customs and the Murder of Mar Shimun</hi>, Vehicle editions,
-    ca. 1920, p. 32. <ref target="#FNRef14">
+         <p>
+            <ref target="#FNRef14">14</ref> Surma d’Bait Mar Shimun, <hi rend="italic">Assyrian
+    Church Customs and the Murder of Mar Shimun</hi>, Vehicle
+    editions, ca. 1920, p. 32. <ref target="#FNRef14">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef15">15</ref> For detailed maps, see Wilmshurst, <hi rend="italic">The
     Ecclesiastical Organisation</hi>. <ref target="#FNRef15">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef16">16</ref> This is probably due to the fact that
     inscriptions from other regions have not been edited, whereas
     the Salmas inscriptions were edited by Rubens Duval. <ref target="#FNRef16">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef17">17</ref> Sanam of Daralik in Sulduz (1770, no. 54)
     and Banusheh from Gulpashan in Baranduz (1813, no. 62).
     <ref target="#FNRef17">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef18">18</ref> See no. 6 (pre-1581), no. 8 (ca. 1593) and
     no. 33 (1710). <ref target="#FNRef18">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef19">19</ref> Syriac/traditional names: Tamar, Shmuni
     (8x), Maryam (8x), Helen (5x), Qudsiya Hormez, Meskinta, Marta,
     Sara, and Elisabeth. I wonder whether Elfiya (3x) and Nasimo
@@ -2574,77 +2655,81 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef20">20</ref> As was observed also by J.M. Fiey,
-    <hi rend="italic">Mossoul chr�tienne. Essai sur l'histoire, l�arch�ologie et
-    l��tat actuel des monument chr�tiens de la ville de
-    Mossoul</hi>. Recherches publi�es sous la direction de
-    l�Institut de lettres Orientales de Beyrouth 12 (Beirut:
+    <hi rend="italic">Mossoul chrétienne. Essai sur l'histoire,
+    l’archéologie et l’état actuel des
+    monument chrétiens de la ville de Mossoul</hi>.
+    Recherches publiées sous la direction de
+    l’Institut de lettres Orientales de Beyrouth 12 (Beirut:
     Imprimerie Catholique Beirouth, 1959), 114. <ref target="#FNRef20">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef21">21</ref> In this respect, compare also no. 58,
     another MS. from Telkepe, which was commissioned thirty-four
-    years later (1778) by a group of �believing women� whose names
-    are not given. This MS. was copied by the same scribe and
-    donated to the same monastery of Giwargis Bet
+    years later (1778) by a group of “believing women”
+    whose names are not given. This MS. was copied by the same
+    scribe and donated to the same monastery of Giwargis Bet
     <hi rend="sup">c</hi>Awire. <ref target="#FNRef21">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef22">22</ref> For a better insight in the prices of
     manuscripts, a separate study of all prices in the colophons
     would be needed. Prices for MSS. in connection with women
     donors are: 10 <hi rend="italic">shahiye</hi> (ca 1593, no. 8), 60
-    <hi rend="italic">m<hi rend="u">s</hi>rt�</hi> (not identified), 12�
-    <hi rend="italic">qarushe</hi> (1660, no. 14), 5 �piasters� (ca. 1700, no.
-    24). Around 1700 one manuscript constituted a dowry (no. 23).�
-    A <hi rend="italic">qurush</hi> (or <hi rend="italic">ak�e</hi>) was the Ottoman standard
-    silver currency, while the <hi rend="italic">shahi</hi> (or <hi rend="italic">dirham</hi>)
-    was a similar coin minted in the eastern provinces with a view
-    to the Persian market. For further details, see Şevket Pamuk,
-    �Evolution of the Ottoman Monetary System�, in Halil İnalcik
-    and Donald Quataert, <hi rend="italic">An Economic and Social History of the
-    Ottoman Empire</hi> (Cambridge: Cambridge University Press,
-    1994), vol. ii, 947-980. <ref target="#FNRef22">
+    <hi rend="italic">m<hi rend="u">s</hi>rt’</hi> (not identified),
+    12½ <hi rend="italic">qarushe</hi> (1660, no. 14), 5
+    “piasters” (ca. 1700, no. 24). Around 1700 one
+    manuscript constituted a dowry (no. 23).  A
+    <hi rend="italic">qurush</hi> (or <hi rend="italic">akçe</hi>) was the Ottoman
+    standard silver currency, while the <hi rend="italic">shahi</hi> (or
+    <hi rend="italic">dirham</hi>) was a similar coin minted in the eastern
+    provinces with a view to the Persian market. For further
+    details, see Şevket Pamuk, “Evolution of the Ottoman
+    Monetary System”, in Halil İnalcik and Donald
+    Quataert, <hi rend="italic">An Economic and Social History of the Ottoman
+    Empire</hi> (Cambridge: Cambridge University Press, 1994), vol.
+    ii, 947-980. <ref target="#FNRef22">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef23">23</ref> Of the women�s fathers, three are chiefs
-    (two of them also being a priest or a deacon), seventeen are
-    priests, one a merchant. Three women are called �lady�
-    (<hi rend="italic">khatun</hi>) which probably indicates an important family,
-    and one father is called �glorious�, which gives a total of
-    twenty-four women that probably come from important families,
-    compared to sixteen cases where the colophon does not give
-    additional information on the father�s status. In addition, one
+         <p>
+            <ref target="#FNRef23">23</ref> Of the women’s fathers, three are
+    chiefs (two of them also being a priest or a deacon), seventeen
+    are priests, one a merchant. Three women are called
+    ‘lady’ (<hi rend="italic">khatun</hi>) which probably indicates
+    an important family, and one father is called
+    ‘glorious’, which gives a total of twenty-four
+    women that probably come from important families, compared to
+    sixteen cases where the colophon does not give additional
+    information on the father’s status. In addition, one
     father is a smith and two are deacons. <ref target="#FNRef23">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef24">24</ref> Two priests, two deacons, and eight without
     title. <ref target="#FNRef24">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef25">25</ref> Two priests, one deacon-copyist, one
     patriarch and three without title. <ref target="#FNRef25">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef26">26</ref> Wilmshurst, <hi rend="italic">The Ecclesiastical
     Organisation</hi>, 251. <ref target="#FNRef26">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef27">27</ref> However, she ordered it together with a
     certain <hi rend="u">H</hi>oshaba, which may exclude the
     possibility that she actually wanted it for her own use.
@@ -2652,19 +2737,19 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef28">28</ref> Four more MSS. could have been commissioned
-    for private use:� no. 3 (ca. 1550 �collections diverses�),
-    copied �for Putta, the sister of the copyist�; no 61 (1813),
-    commissioned �for the believing woman Daris Sargis; no. 63
-    (1824, �Book of the seven hours�), commissioned by the nun
-    Shmuni; no. 65 (1826, funeral offices for priests),
-    �commissioned by Kafo of Bidwil for his daughter Gozal�.
-    <ref target="#FNRef28">
+    for private use:  no. 3 (ca. 1550 “collections
+    diverses”), copied “for Putta, the sister of the
+    copyist”; no 61 (1813), commissioned “for the
+    believing woman Daris Sargis; no. 63 (1824, ‘Book of the
+    seven hours’), commissioned by the nun Shmuni; no. 65
+    (1826, funeral offices for priests), “commissioned by
+    Kafo of Bidwil for his daughter Gozal”. <ref target="#FNRef28">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef29">29</ref> To what extent women (including religious
     women) in this period were able to read is difficult to
     ascertain. The missionaries in Urmia believed that in the early
@@ -2682,77 +2767,80 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef30">30</ref> Thirty-nine MSS. were <hi rend="italic">copied for</hi>,
     three others were <hi rend="italic">donated to</hi> churches and monasteries.
     In addition, seven donations were made to churches and
     monasteries, varying from paying for repairs (no. 38),
-    restoration of a MS.� (no. 59), and donating money and goods
-    directly (nos. 9 and 10). Only eight colophons do not indicate
-    for which church or monastery the MS. was intended, although
-    three of these did end up in church collections (no. 33 in
-    Jerusalem, no. 51 in the Chaldean monastery in Baghdad, no. 63
-    in Dohuk), whereas one is in London (no. 61). The four others
-    may be interpreted as commissioned for private use, although it
-    is not impossible that the persons for whom these MSS. were
-    copied were supposed to donate them to a particular church or
-    monastery (for these, see note 28). <ref target="#FNRef30">
+    restoration of a MS.  (no. 59), and donating money and
+    goods directly (nos. 9 and 10). Only eight colophons do not
+    indicate for which church or monastery the MS. was intended,
+    although three of these did end up in church collections (no.
+    33 in Jerusalem, no. 51 in the Chaldean monastery in Baghdad,
+    no. 63 in Dohuk), whereas one is in London (no. 61). The four
+    others may be interpreted as commissioned for private use,
+    although it is not impossible that the persons for whom these
+    MSS. were copied were supposed to donate them to a particular
+    church or monastery (for these, see note 28). <ref target="#FNRef30">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef31">31</ref> Of these the Gospel lectionary was the most
     popular: it occurs seven times (nos 2, 5, 15, 21, 27, 29, 43).
     <ref target="#FNRef31">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef32">32</ref> Of these, the <hi rend="italic">
-               <hi rend="u">t</hi>aksā d-kahnē</hi> occurs five times in our list
-    (nos. 30, 44, 47, 48, 60), the <hi rend="italic">
-               <hi rend="u">h</hi>udrā</hi> six times (9, 10, 12, 18, 40, 57), the
-    <hi rend="italic">gazzā</hi> five times (14, 20, 31, 55, 38), and the
-    <hi rend="italic">kashkol</hi> once (no. 33). Note that the <hi rend="italic">
-               <hi rend="u">h</hi>udrā</hi> is by far the largest of all liturgical
-    books, but despite its size (and presumably its considerable
-    price), it is almost as popular as the Gospel lectionary. On
-    the difference between the various office books, cf. J. Mateos,
-    <hi rend="italic">Lelya-Sapra. Essai d�interpr�tation des matines
-    chald�ennes</hi>, OCA 156 (Rome: Pont. Institutum Orientalium
-    Studiorum, 1959), 3-14, on the liturgy see further G. P.
-    Badger, <hi rend="italic">The Nestorians and their Rituals</hi> (London:
-    Joseph Masters, 1852, vol. ii), and A.J. Maclean, <hi rend="italic">East
-    Syrian Daily</hi> Offices (London: Rivington, Percival &amp;
-    Co., 1894). <ref target="#FNRef32">
+               <hi rend="u">t</hi>aksā d-kahnē</hi> occurs five times in
+    our list (nos. 30, 44, 47, 48, 60), the <hi rend="italic">
+               <hi rend="u">h</hi>udrā</hi> six times (9, 10, 12, 18, 40, 57),
+    the <hi rend="italic">gazzā</hi> five times (14, 20, 31, 55, 38), and
+    the <hi rend="italic">kashkol</hi> once (no. 33). Note that the
+    <hi rend="italic">
+               <hi rend="u">h</hi>udrā</hi> is by far the
+    largest of all liturgical books, but despite its size (and
+    presumably its considerable price), it is almost as popular as
+    the Gospel lectionary. On the difference between the various
+    office books, cf. J. Mateos, <hi rend="italic">Lelya-Sapra. Essai
+    d’interprétation des matines
+    chaldéennes</hi>, OCA 156 (Rome: Pont. Institutum
+    Orientalium Studiorum, 1959), 3-14, on the liturgy see further
+    G. P. Badger, <hi rend="italic">The Nestorians and their Rituals</hi>
+    (London: Joseph Masters, 1852, vol. ii), and A.J. Maclean,
+    <hi rend="italic">East Syrian Daily</hi> Offices (London: Rivington, Percival
+    &amp; Co., 1894). <ref target="#FNRef32">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef33">33</ref> Various hymn books (church hymns of a later
     date than those included in the <hi rend="italic">
-               <hi rend="u">h</hi>udrā</hi> or <hi rend="italic">gazzā</hi>) occur five times in
-    the list (nos. 7, 37, 44, 49, 52). <ref target="#FNRef33">
+               <hi rend="u">h</hi>udrā</hi> or <hi rend="italic">gazzā</hi>) occur five
+    times in the list (nos. 7, 37, 44, 49, 52). <ref target="#FNRef33">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef34">34</ref> Funeral madrashe (nos. 41, 65),
-    <hi rend="italic">ba<hi rend="sup">c</hi>uta</hi> [<hi rend="italic">d-Ninwāyē</hi>] (nos. 16, 51).
-    <ref target="#FNRef34">
+    <hi rend="italic">ba<hi rend="sup">c</hi>uta</hi> [<hi rend="italic">d-Ninwāyē</hi>] (nos.
+    16, 51). <ref target="#FNRef34">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef35">35</ref> A commentary on the Psalms for a monastery
-    (1710, no. 32), a �Book of Saints� Lives� for the church of Mar
-    Miles in Tel-Hash (1697, no. 22), the <hi rend="italic">ktābā d-rīshānē</hi>
-    (�Book of Governors�) of Thomas of Maraga for the church of Mar
+    (1710, no. 32), a ‘Book of Saints’ Lives’ for
+    the church of Mar Miles in Tel-Hash (1697, no. 22), the
+    <hi rend="italic">ktābā d-rīshānē</hi> (‘Book
+    of Governors’) of Thomas of Maraga for the church of Mar
     Isaac in Tella (1701, no. 25). <ref target="#FNRef35">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef36">36</ref> Most editors of the colophons did not bother
     to give the extensive and detailed information on the donors;
     much more will probably be found when the original MSS. are
@@ -2760,7 +2848,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef37">37</ref> V. Rosen and J. Forshall, <hi rend="italic">Catalogus
     codicum manuscriptorum orientalium qui in Museo Britannico
     asservantur; Pars I, Codices syriacos et carshunicos
@@ -2768,199 +2856,221 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef38">38</ref> A third example might be found in no. 62
     (1813). <ref target="#FNRef38">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef39">39</ref> Nos. 13 and 35. In the last case, this
     phrase follows immediately on the reference to her financial
     contribution. <ref target="#FNRef39">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef40">40</ref> Such a contribution to the community is
     lovingly described in the funeral inscription of Nazekhatun
     (1631, no. 13). <ref target="#FNRef40">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef41">41</ref> Note that only very few traces of
     Neo-Aramaic occur in the colophons. Although the modern
     language was used for poetry in the same period, it was hardly
-    used in correspondence or other types of �free writing� such as
-    the colophons. <ref target="#FNRef41">
+    used in correspondence or other types of ‘free
+    writing’ such as the colophons. <ref target="#FNRef41">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
          <lb/>
     _______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Assemani, S.E. and J.S.
+         <head xml:id="HV7N1Murre4">Bibliography</head>
+         <p>Assemani, S.E. and J.S.
     <hi rend="italic">Bibliothecae Apostolicae Vaticanae codicum manuscriptorum
     catalogus</hi>, vol. ii. Rome: 1758.</p>
-         <p xml:id="B2" rend="biblio">Sanjian K. Avedis <hi rend="italic">Colophons of
+         <p>Sanjian K. Avedis <hi rend="italic">Colophons of
     Armenian Manuscripts, 1301-1480. A Source for Middle Eastern
     History</hi>. Harvard Armenian Texts and Studies 2. Cambridge
     (Mass): Harvard University Press, 1969.</p>
-         <p xml:id="B3" rend="biblio">G. P. Badger <hi rend="italic">The Nestorians and
+         <p>G. P. Badger <hi rend="italic">The Nestorians and
     their Rituals</hi>. London: Joseph Masters, 1852, vol. ii.</p>
-         <p xml:id="B4" rend="biblio">Bello, S. <hi rend="italic">La congregation de S.
-    Hormisdas et l��glise chald�enne dans la premi�re moiti� du
-    XIXe si�cle</hi>. OCA 122. Rome: Pont. Institutum Orientalium
-    Studiorum, 1939.</p>
-         <p xml:id="B5" rend="biblio">Brock, S.P. �The Syriac Manuscripts
-    in the National Library, Athens.� In <hi rend="italic">Le Mus�on</hi> 79
-    (1966), 165-85.</p>
-         <p xml:id="B6" rend="biblio">Chabot, J.B. �Notice sur les
-    manuscrits syriaques conserv�s dans la biblioth�que du
-    patriarcat grec orthodoxe de Jerusalem.� In <hi rend="italic">Journal
-    Asiatique</hi> 3 (1894), 92-134.</p>
-         <p xml:id="B7" rend="biblio">Chevalier, M. <hi rend="italic">Montagnards
-    chr�tiens du Hakk�ri et du Kurdistan septentrional</hi>.
-    Publications du D�partement de G�ographie de l�Universit� de
+         <p>Bello, S. <hi rend="italic">La congregation de S.
+    Hormisdas et l’église chaldéenne dans la
+    première moitié du XIXe siècle</hi>. OCA
+    122. Rome: Pont. Institutum Orientalium Studiorum, 1939.</p>
+         <p>Brock, S.P. “The Syriac
+    Manuscripts in the National Library, Athens.” In <hi rend="italic">Le
+    Muséon</hi> 79 (1966), 165-85.</p>
+         <p>Chabot, J.B. “Notice sur les
+    manuscrits syriaques conservés dans la
+    bibliothèque du patriarcat grec orthodoxe de
+    Jerusalem.” In <hi rend="italic">Journal Asiatique</hi> 3 (1894),
+    92-134.</p>
+         <p>Chevalier, M. <hi rend="italic">Montagnards
+    chrétiens du Hakkâri et du Kurdistan
+    septentrional</hi>. Publications du Département de
+    Géographie de l’Université de
     Paris-Sorbonne no. 13. Paris: 1985.</p>
-         <p xml:id="B8" rend="biblio">Duval, R. �Inscriptions syriaques de
-    Salamas en Perse.� In <hi rend="italic">Journal Asiatique</hi> 8/5 (1885):
-    39-62.</p>
-         <p xml:id="B9" rend="biblio">Fiey, J.M. <hi rend="italic">Mossoul chr�tienne.
-    Essai sur l'histoire, l�arch�ologie et l��tat actuel des
-    monument chr�tiens de la ville de Mossoul.</hi> Recherches
-    publi�es sous la direction de l�Institut de lettres Orientales
-    de Beyrouth 12. Beirut: Imprimerie Catholique Beirouth,
-    1959.</p>
-         <p xml:id="B10" rend="biblio">Fiey, J.M. <hi rend="italic">Assyrie chr�tienne.
-    Contribution � l'�tude de l'histoire et de la g�ographie
-    eccl�sistiques et monastiques du nord de l'Iraq.</hi>
-    Recherches publi�es sous la direction de l�Institut de lettres
-    Orientales de Beyrouth 22, 23, 42. Beirut: Imprimerie
-    Catholique Beirouth, 1965-1986, 3 vols.</p>
-         <p xml:id="B11" rend="biblio">Fiey, J.M. �Sanctuaires et villages
-    syriaques orientaux de la vall�e de Sapna.� In <hi rend="italic">Le
-    Mus�on</hi> 102 (1989), 43-67.</p>
-         <p xml:id="B12" rend="biblio">Giamil, S. <hi rend="italic">Genuinae Relationes
+         <p>Duval, R. “Inscriptions
+    syriaques de Salamas en Perse.” In <hi rend="italic">Journal
+    Asiatique</hi> 8/5 (1885): 39-62.</p>
+         <p>Fiey, J.M. <hi rend="italic">Mossoul
+    chrétienne. Essai sur l'histoire,
+    l’archéologie et l’état actuel des
+    monument chrétiens de la ville de Mossoul.</hi>
+    Recherches publiées sous la direction de
+    l’Institut de lettres Orientales de Beyrouth 12. Beirut:
+    Imprimerie Catholique Beirouth, 1959.</p>
+         <p>Fiey, J.M. <hi rend="italic">Assyrie
+    chrétienne. Contribution à l'étude de
+    l'histoire et de la géographie ecclésistiques et
+    monastiques du nord de l'Iraq.</hi> Recherches publiées
+    sous la direction de l’Institut de lettres Orientales de
+    Beyrouth 22, 23, 42. Beirut: Imprimerie Catholique Beirouth,
+    1965-1986, 3 vols.</p>
+         <p>Fiey, J.M. “Sanctuaires et
+    villages syriaques orientaux de la vallée de
+    Sapna.” In <hi rend="italic">Le Muséon</hi> 102 (1989),
+    43-67.</p>
+         <p>Giamil, S. <hi rend="italic">Genuinae Relationes
     inter Sedem Apostolicum et Assyriorum Orientalium seu
     Chaldaeorum Ecclesiam</hi>. Rome: 1902.</p>
-         <p xml:id="B13" rend="biblio">Habbi, J. �Manuscripts of Talkaif
-    Church.� In Haddad, <hi rend="italic">Fahāris al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 21-50.</p>
-         <p xml:id="B14" rend="biblio">Haddad, P. (e.a.) <hi rend="italic">Fahāris
-    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt al
-    Suryānīya fī�l <hi rend="sup">c</hi>Irāq</hi> (�Catalogues of Syriac
+         <p>Habbi, J. “Manuscripts of
+    Talkaif Church.” In Haddad, <hi rend="italic">Fahāris
+    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 21-50.</p>
+         <p>Haddad, P. (e.a.) <hi rend="italic">Fahāris
+    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt al Suryānīya fī’l
+    <hi rend="sup">c</hi>Irāq</hi> (‘Catalogues of Syriac
     Manuscripts in Iraq), 2 vols. Baghdad: Syriac Academy,
     1977-1981.</p>
-         <p xml:id="B15" rend="biblio">Haddad, P., and Isaac, J.
-    <hi rend="italic">Al-Makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt
-    al-Suryānīyā wa�-l-<hi rend="sup">c</hi>Arabīyā fī khizānat al-rahbānīya
-    al Kaldānīya fī Baghdad</hi> (�Syriac and Arabic Manuscripts in
-    the Library of the Chaldean Monastery, Baghdad�), Bagdad: Iraqi
-    Academy Press, 1988 (= Dawra Syr.)</p>
-         <p xml:id="B16" rend="biblio">Haddad, P. �Manuscripts of Batnaya
-    Church.� In Haddad, <hi rend="italic">Fahāris al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 161-186.</p>
-         <p xml:id="B17" rend="biblio">Haddad, P. �Manuscripts of Telleskef
-    Church.� In Haddad, <hi rend="italic">Fahāris al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 187-198.</p>
-         <p xml:id="B18" rend="biblio">Ashbrook Harvey, S. �Women�s Service
-    in Ancient Syriac Christianity�. In <hi rend="italic">Kanon XVI. Yearbook of
-    the Society for the Law of the Eastern Churches: Mother, Nun,
-    Deaconess, Images of Women according to Eastern Canon Law</hi>.
-    Egling: Edition Roman Kovar, 2000, 226-241.</p>
-         <p xml:id="B19" rend="biblio">Maclean, A.J.<hi rend="italic">East Syrian Daily
+         <p>Haddad, P., and Isaac, J.
+    <hi rend="italic">Al-Makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt al-Suryānīyā
+    wa’-l-<hi rend="sup">c</hi>Arabīyā fī khizānat
+    al-rahbānīya al Kaldānīya fī
+    Baghdad</hi> (‘Syriac and Arabic Manuscripts in the
+    Library of the Chaldean Monastery, Baghdad’), Bagdad:
+    Iraqi Academy Press, 1988 (= Dawra Syr.)</p>
+         <p>Haddad, P. “Manuscripts of
+    Batnaya Church.” In Haddad, <hi rend="italic">Fahāris
+    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 161-186.</p>
+         <p>Haddad, P. “Manuscripts of
+    Telleskef Church.” In Haddad, <hi rend="italic">Fahāris
+    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 187-198.</p>
+         <p>Ashbrook Harvey, S.
+    “Women’s Service in Ancient Syriac
+    Christianity”. In <hi rend="italic">Kanon XVI. Yearbook of the Society
+    for the Law of the Eastern Churches: Mother, Nun, Deaconess,
+    Images of Women according to Eastern Canon Law</hi>. Egling:
+    Edition Roman Kovar, 2000, 226-241.</p>
+         <p>Maclean, A.J.<hi rend="italic">East Syrian Daily
     Office.</hi> London: Rivington, Percival &amp; Co., 1894.</p>
-         <p xml:id="B20" rend="biblio">Magdasi, M. �Manuscripts of the
-    Chaldean Archbishopric in Mosul.� In Haddad, <hi rend="italic">Fahāris
-    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 7-20.</p>
-         <p xml:id="B21" rend="biblio">Mateos, J. <hi rend="italic">Lelya-Sapra. Essai
-    d�interpr�tation des matines chald�ennes</hi>. OCA 156. Rome:
-    Pont. Institutum Orientalium Studiorum, 1959.</p>
-         <p xml:id="B22" rend="biblio">Mengozzi, A. <hi rend="italic">Israel of Alqosh
+         <p>Magdasi, M. “Manuscripts of
+    the Chaldean Archbishopric in Mosul.” In Haddad,
+    <hi rend="italic">Fahāris al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>,
+    7-20.</p>
+         <p>Mateos, J. <hi rend="italic">Lelya-Sapra. Essai
+    d’interprétation des matines
+    chaldéennes</hi>. OCA 156. Rome: Pont. Institutum
+    Orientalium Studiorum, 1959.</p>
+         <p>Mengozzi, A. <hi rend="italic">Israel of Alqosh
     and Joseph of Telkepe. A Story in a Truthful Language,
     Religious Poems in Vernacular Syriac (North Iraq,
     17<hi rend="sup">th</hi> century)</hi> 2 vols. CSCO 589, 590, Scryptores
     Syri 230, 231. Louvain: Peeters 2002.</p>
-         <p xml:id="B23" rend="biblio">Mingana, A. <hi rend="italic">Catalogue of the
+         <p>Mingana, A. <hi rend="italic">Catalogue of the
     Mingana Collection of Manuscripts, now in the Posession of the
     Trustees of the Woodbrooke Settlement, Selly Oaks,
     Birmingham.</hi> Cambridge: Heffer, 1933-1939.</p>
-         <p xml:id="B24" rend="biblio">Murre-van den Berg, H.L. �A Syrian
-    Awakening. Alqosh and Urmia as Centres of Neo-Syriac Writing.��
-    In <hi rend="italic">Symposium Syriacum VII, Uppsala University, Department
-    of Asian and African Languages, 11-14 August 1996.</hi>
-    �<hi rend="italic">OCP</hi> 256, ed. R. Lavenant, S.J. Rome, 1998:
-    499-515.</p>
-         <p xml:id="B25" rend="biblio">Murre-van den Berg, H.L. �The
+         <p>Murre-van den Berg, H.L. “A
+    Syrian Awakening. Alqosh and Urmia as Centres of Neo-Syriac
+    Writing.”  In <hi rend="italic">Symposium Syriacum VII, Uppsala
+    University, Department of Asian and African Languages, 11-14
+    August 1996.</hi>  <hi rend="italic">OCP</hi> 256, ed. R. Lavenant, S.J.
+    Rome, 1998: 499-515.</p>
+         <p>Murre-van den Berg, H.L. “The
     Patriarchs of the Church of the East from the Fifteenth to
-    Eighteenth Centuries.� In <hi rend="italic">Hugoye, Journal of Syriac
+    Eighteenth Centuries.” In <hi rend="italic">Hugoye, Journal of Syriac
     Studies</hi> 2,2 (1999), <ref target="http://www.syrcom.cua.edu/Hugoye/index.html">www.syrcom.cua.edu/Hugoye/index.html</ref>
          </p>
-         <p xml:id="B26" rend="biblio">Nau, F. �Notice des manuscripts
-    syriaques, �thiopiens et mand�ens, entr�s � la Biblioth�que
-    Nationale de Paris depuis l��dition des catalogues.� In
-    <hi rend="italic">Revue de l�Orient Chr�tien</hi> 6/16 (1911), 271-310.</p>
-         <p xml:id="B27" rend="biblio">Şevket Pamuk, �Evolution of the
-    Ottoman Monetary System�, in� Halil İnalcik and Donald
-    Quataert, <hi rend="italic">An Economic and Social History of the Ottoman
-    Empire</hi>, Cambridge: Cambridge University Press, 1994, vol.
-    ii, 947-980.</p>
-         <p xml:id="B28" rend="biblio">Perkins, J. <hi rend="italic">Missionary Life in
+         <p>Nau, F. “Notice des
+    manuscripts syriaques, éthiopiens et mandéens,
+    entrés à la Bibliothèque Nationale de
+    Paris depuis l’édition des catalogues.” In
+    <hi rend="italic">Revue de l’Orient Chrétien</hi> 6/16 (1911),
+    271-310.</p>
+         <p>Şevket Pamuk, “Evolution
+    of the Ottoman Monetary System”, in  Halil
+    İnalcik and Donald Quataert, <hi rend="italic">An Economic and Social
+    History of the Ottoman Empire</hi>, Cambridge: Cambridge
+    University Press, 1994, vol. ii, 947-980.</p>
+         <p>Perkins, J. <hi rend="italic">Missionary Life in
     Persia: being glimpses of a quarter of a century of labors
     among the Nestorian Christians</hi>. Andover: Allen, Morill
     &amp; Wardwell, 1863.</p>
-         <p xml:id="B29" rend="biblio">Rosen, V., and Forshall, J.
+         <p>Rosen, V., and Forshall, J.
     <hi rend="italic">Catalogus codicum manuscriptorum orientalium qui in Museo
     Britannico asservantur; Pars I, Codices syriacos et carshunicos
     amplectens</hi>. London: 1838.</p>
-         <p xml:id="B30" rend="biblio">Sana, H. (e.a.). �Manuscripts of
-    Al-Qosh Church.� In Haddad, <hi rend="italic">Fahāris al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 209-73.</p>
-         <p xml:id="B31" rend="biblio">Sachau, Eduard. <hi rend="italic">Verzeichniss der
-    Syrischen Handschriften der K�niglichen Bibliothek zu
-    Berlin.</hi> Die Handschriften-Verzeichnisse der K�niglichen
-    Bibliothek zu Berlin 23, Berlin: A. Asher &amp; Co., 1899, 2
-    vols.</p>
-         <p xml:id="B32" rend="biblio">Scher, A. �Notices sur les mss.
-    syriaques et arabes conserv�s � l�archev�ch� chald�en de
-    Diarbekr.� In <hi rend="italic">Journal Asiatique</hi> 10 (1907), 332-62.</p>
-         <p xml:id="B33" rend="biblio">Scher, A. �Notices des manuscrits
-    syriaques et arabes conserv�s dans la biblioth�que de l��v�ch�
-    chald�en de Mardin.� In <hi rend="italic">Revue des biblioth�ques</hi> 18
-    (1908), 64-95.</p>
-         <p xml:id="B34" rend="biblio">Scher, A. �Notices sur les
-    manuscrits syriaques conserv�s dans la biblioth�que du couvent
-    des Chald�ens de N.D. des Semences.� In <hi rend="italic">Journal
-    Asiatique</hi> 7 (1906), 479-512 and 8 (1906), 55-82.</p>
-         <p xml:id="B35" rend="biblio">Scher, A. �Notice sur les manuscrits
-    syriaques conserv�s dans la biblioth�que du patriarcat chald�en
-    de Mossoul.� In <hi rend="italic">Revue des biblioth�ques</hi> 17 (1907),
-    237-60.</p>
-         <p xml:id="B36" rend="biblio">Scher, A. <hi rend="italic">Catalogue des
-    manuscrits syriques et arabes conserv�s dans la biblioth�que
-    �piscopale de Seert (Kurdistan)</hi>. Mosul: Imprimerie des
-    p�res dominicains, 1905.</p>
-         <p xml:id="B37" rend="biblio">Surma d�Bait Mar Shimun,
+         <p>Sana, H. (e.a.). “Manuscripts
+    of Al-Qosh Church.” In Haddad, <hi rend="italic">Fahāris
+    al-makh<hi rend="u">t</hi>ū<hi rend="u">t</hi>āt</hi>, 209-73.</p>
+         <p>Sachau, Eduard. <hi rend="italic">Verzeichniss der
+    Syrischen Handschriften der Königlichen Bibliothek zu
+    Berlin.</hi> Die Handschriften-Verzeichnisse der
+    Königlichen Bibliothek zu Berlin 23, Berlin: A. Asher
+    &amp; Co., 1899, 2 vols.</p>
+         <p>Scher, A. “Notices sur les
+    mss. syriaques et arabes conservés à
+    l’archevêché chaldéen de
+    Diarbekr.” In <hi rend="italic">Journal Asiatique</hi> 10 (1907),
+    332-62.</p>
+         <p>Scher, A. “Notices des
+    manuscrits syriaques et arabes conservés dans la
+    bibliothèque de l’évêché
+    chaldéen de Mardin.” In <hi rend="italic">Revue des
+    bibliothèques</hi> 18 (1908), 64-95.</p>
+         <p>Scher, A. “Notices sur les
+    manuscrits syriaques conservés dans la
+    bibliothèque du couvent des Chaldéens de N.D. des
+    Semences.” In <hi rend="italic">Journal Asiatique</hi> 7 (1906),
+    479-512 and 8 (1906), 55-82.</p>
+         <p>Scher, A. “Notice sur les
+    manuscrits syriaques conservés dans la
+    bibliothèque du patriarcat chaldéen de
+    Mossoul.” In <hi rend="italic">Revue des bibliothèques</hi> 17
+    (1907), 237-60.</p>
+         <p>Scher, A. <hi rend="italic">Catalogue des
+    manuscrits syriques et arabes conservés dans la
+    bibliothèque épiscopale de Seert
+    (Kurdistan)</hi>. Mosul: Imprimerie des pères
+    dominicains, 1905.</p>
+         <p>Surma d’Bait Mar Shimun,
     <hi rend="italic">Assyrian Church Customs and the Murder of Mar Shimun</hi>,
     Vehicle editions, ca. 1920.</p>
-         <p xml:id="B38" rend="biblio">Vost�, J.M. <hi rend="italic">Catalogue de la
-    biblioth�que syro-chald�ene du couvent de N.D. des Semences,
-    pr�s d�Alqosh (Iraq)</hi>. Paris, Librarie Orientaliste P.
-    Geuthner: 1929 (reprint from <hi rend="italic">Angelicum</hi> 1928).</p>
-         <p xml:id="B39" rend="biblio">Vost�, J.M. �Catalogue des
-    manuscrits syro-chaldeens conserv�s dans la biblioth�que
-    �piscopale de <hi rend="sup">c</hi>Aqra (Iraq).� In <hi rend="italic">OCP</hi> 5
-    (1939), 368-406.</p>
-         <p xml:id="B40" rend="biblio">Voste, J.M. �Catalogue des
-    manuscrits syro-chald�ens dans la biblioth�que de l�archev�ch�
-    chald�en de Kerkouk (Iraq).� In <hi rend="italic">OCP</hi> 5 (1939),
-    72-102.</p>
-         <p xml:id="B41" rend="biblio">Vost�, J.M. �Les inscriptions de
-    Rabban Hormizd et de N.D. des Semences.� In <hi rend="italic">Le Mus�on</hi>
-    43 (1930), 263-316.</p>
-         <p xml:id="B42" rend="biblio">Wilmshurst, David. <hi rend="italic">The
+         <p>Vosté, J.M. <hi rend="italic">Catalogue de
+    la bibliothèque syro-chaldéene du couvent de N.D.
+    des Semences, près d’Alqosh (Iraq)</hi>. Paris,
+    Librarie Orientaliste P. Geuthner: 1929 (reprint from
+    <hi rend="italic">Angelicum</hi> 1928).</p>
+         <p>Vosté, J.M. “Catalogue
+    des manuscrits syro-chaldeens conservés dans la
+    bibliothèque épiscopale de <hi rend="sup">c</hi>Aqra
+    (Iraq).” In <hi rend="italic">OCP</hi> 5 (1939), 368-406.</p>
+         <p>Voste, J.M. “Catalogue des
+    manuscrits syro-chaldéens dans la bibliothèque de
+    l’archevêché chaldéen de Kerkouk
+    (Iraq).” In <hi rend="italic">OCP</hi> 5 (1939), 72-102.</p>
+         <p>Vosté, J.M. “Les
+    inscriptions de Rabban Hormizd et de N.D. des Semences.”
+    In <hi rend="italic">Le Muséon</hi> 43 (1930), 263-316.</p>
+         <p>Wilmshurst, David. <hi rend="italic">The
     Ecclesiastical Organisation of the Church of the East,
     1318-1913.</hi> CSCO 582, Subsidia 104. Louvain: Peeters,
     2000.</p>
-         <p xml:id="B43" rend="biblio">Wright, William, <hi rend="italic">A Catalogue of
+         <p>Wright, William, <hi rend="italic">A Catalogue of
     the Syriac Manuscripts preserved in the Library of the
     University of Cambridge.</hi> Cambridge: University Press,
     1901, 2 vols.</p>

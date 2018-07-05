@@ -1,19 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000. Pp. xii + 864. Paper, � 160. ISBN 90-429-0876-9. Some Annotations on David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000.</title>
+            <title type="main">David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000. Pp. xii + 864. Paper, € 160. ISBN 90-429-0876-9. Some Annotations on David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000.</title>
             <author>
-               <name>Alessandro MENGOZZI</name>
+               <name>
+                  <forename>Alessandro</forename>
+                  <surname>Mengozzi</surname>
+               </name>
                <affiliation>
-                  <orgName>Universit� degli Studi di Torino</orgName>
+                  <orgName>Università degli Studi di Torino</orgName>
                </affiliation>
             </author>
             <author>
-               <name>Pier Giorgio Borbone (Universit� degli Studi di Pisa)</name>
+               <name>
+                  <forename>Pier</forename>
+                  <surname>Pisa)</surname>
+               </name>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2003</date>
@@ -25,14 +40,14 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv6n1prmengozziborbone</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Alessandro MENGOZZI</author>
-                  <author>Pier Giorgio Borbone (Universit� degli Studi di Pisa)</author>
-                  <title level="a">David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000. Pp. xii + 864. Paper, � 160. ISBN 90-429-0876-9. Some Annotations on David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000.</title>
+                  <author>Pier Giorgio Borbone (Università degli Studi di Pisa)</author>
+                  <title level="a">David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000. Pp. xii + 864. Paper, € 160. ISBN 90-429-0876-9. Some Annotations on David Wilmshurst, The Ecclesiastical Organisation of the Church of the East, 1318-1913. Corpus Scriptorum Christianorum Orientalium, Vol. 582, Subsidia 104. Leuven: Peeters, 2000.</title>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -54,8 +69,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Church of the East</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,13 +93,13 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] David
+         <p>
+            <anchor corresp="P1"/>[1] David
     Wilmshurst first became interested in the Church of the East
     when working as an administrator in the Hong Kong Government.
     He completed a doctoral thesis in 1998 at Oxford University
-    under the supervision of Sebastian Brock and published �a
-    significantly expanded version� of his thesis in the
+    under the supervision of Sebastian Brock and published ‘a
+    significantly expanded version’ of his thesis in the
     <hi rend="italic">Subsidia</hi> series of the <hi rend="italic">Corpus Scriptorum
     Christianorum Orientalium</hi> (Leuven 2000). It is a book of
     imposing bulk, which only partially corresponds to the wide
@@ -82,101 +108,106 @@
     facts does is to catalogue very scrupulously an impressive
     amount of documentary material relating to the history of the
     Church of the East.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Chapter
+         <p>
+            <anchor corresp="P2"/>[2] Chapter
     1 (p. 1-15) provides the reader with general information on the
     book and a survey of the sources. It is remarkable how scanty
     the original Syriac historiography is in most of the centuries
-    under study. After Bar Hebraeus� <hi rend="italic">Chronography</hi> and the
-    <hi rend="italic">History of Rabban Sawma and Mar Yahballaha</hi> (date of
+    under study. After Bar Hebraeus’ <hi rend="italic">Chronography</hi> and
+    the <hi rend="italic">History of Rabban Sawma and Mar Yahballaha</hi> (date of
     composition 1317-1319) and the additions to the
     <hi rend="italic">Chronography</hi> in the Bodleian Ms. 52 (relating the
     Timurid invasion of Mesopotamia in 1394), Syriac historiography
     seems to fade out until the 19th century.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Wilmshurst mentions here and there East-Syrian poetry composed
     on historical subjects (wars, famine, Kurdish assaults). It is
     probably among those poems written in Classical or Vernacular
     Syriac—few of them are published and even fewer carefully
-    studied—that we should look for an East-Syrian perception of
-    history from the Mongolian period to the 19th-century.
+    studied—that we should look for an East-Syrian perception
+    of history from the Mongolian period to the 19th-century.
     Wilmshurst, however, does not appear to be interested in
     literature other than historical narrative as an indirect
-    source for his reconstruction. For instance, Macuch�s
-    <hi rend="italic">Geschichte der sp�t- und neusyrischen Literatur</hi>
+    source for his reconstruction. For instance, Macuch’s
+    <hi rend="italic">Geschichte der spät- und neusyrischen Literatur</hi>
     (Berlin-New York, 1976) does not appear in his
     bibliography.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] The
+         <p>
+            <anchor corresp="P4"/>[4] The
     silence of (East-)Syrian historians is partly compensated for
-    by other sources: colophons, inscriptions and—especially after
-    the intensification of diplomatic contacts with Rome in the
-    16th century—the official correspondence between the Vatican
-    and the East-Syrian Patriarchs, reports from missionaries,
-    diaries of European travellers. Wilmshurst�s research focused
-    on manuscript colophons, since, as the author states, �in many
-    cases, the name of a priest or a deacon is the only evidence
-    for Christian activity in a particular village� (p. v).</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+    by other sources: colophons, inscriptions and—especially
+    after the intensification of diplomatic contacts with Rome in
+    the 16th century—the official correspondence between the
+    Vatican and the East-Syrian Patriarchs, reports from
+    missionaries, diaries of European travellers.
+    Wilmshurst’s research focused on manuscript colophons,
+    since, as the author states, ‘in many cases, the name of
+    a priest or a deacon is the only evidence for Christian
+    activity in a particular village’ (p. v).</p>
+         <p>
+            <anchor corresp="P5"/>[5] The
     author presents a fair discussion on the terminology used (p.
-    4). Nevertheless, expressions such as �schism�, �conversion to
-    Catholicism� or �to become a Catholic� used for describing the
-    facts of 1552 and their consequences might have been more
-    accurately pondered and discussed from the juridical and
-    historical points of view. Was it really a schism? Who
-    called/calls it a �schism�? Who converted/was converted to
-    what? What did it mean �to became a Catholic� in various
-    circumstances? The same holds for �traditionalist� used to
-    distinguish those in the Church of the East who did not accept
-    the union with Rome. Together with its counterpart
-    �non-traditionalist� used for the Catholic Chaldeans, the term
-    �traditionalist� may be a useful label for a Western scholar,
-    but it risks introducing an external and questionable point of
-    view onto dangerous ground. Which side tradition takes is often
-    a moot point.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+    4). Nevertheless, expressions such as ‘schism’,
+    ‘conversion to Catholicism’ or ‘to become a
+    Catholic’ used for describing the facts of 1552 and their
+    consequences might have been more accurately pondered and
+    discussed from the juridical and historical points of view. Was
+    it really a schism? Who called/calls it a ‘schism’?
+    Who converted/was converted to what? What did it mean ‘to
+    became a Catholic’ in various circumstances? The same
+    holds for ‘traditionalist’ used to distinguish
+    those in the Church of the East who did not accept the union
+    with Rome. Together with its counterpart
+    ‘non-traditionalist’ used for the Catholic
+    Chaldeans, the term ‘traditionalist’ may be a
+    useful label for a Western scholar, but it risks introducing an
+    external and questionable point of view onto dangerous ground.
+    Which side tradition takes is often a moot point.</p>
+         <p>
+            <anchor corresp="P6"/>[6] The
     author presents a fair discussion on the terminology used (p.
-    4). Nevertheless, expressions such as �schism�, �conversion to
-    Catholicism� or �to become a Catholic� used for describing the
-    facts of 1552 and their consequences might have been more
-    accurately pondered and discussed from the juridical and
-    historical points of view. Was it really a schism? Who
-    called/calls it a �schism�? Who converted/was converted to
-    what? What did it mean �to became a Catholic� in various
-    circumstances? The same holds for �traditionalist� used to
-    distinguish those in the Church of the East who did not accept
-    the union with Rome. Together with its counterpart
-    �non-traditionalist� used for the Catholic Chaldeans, the term
-    �traditionalist� may be a useful label for a Western scholar,
-    but it risks introducing an external and questionable point of
-    view onto dangerous ground. Which side tradition takes is often
-    a moot point.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In
+    4). Nevertheless, expressions such as ‘schism’,
+    ‘conversion to Catholicism’ or ‘to become a
+    Catholic’ used for describing the facts of 1552 and their
+    consequences might have been more accurately pondered and
+    discussed from the juridical and historical points of view. Was
+    it really a schism? Who called/calls it a ‘schism’?
+    Who converted/was converted to what? What did it mean ‘to
+    became a Catholic’ in various circumstances? The same
+    holds for ‘traditionalist’ used to distinguish
+    those in the Church of the East who did not accept the union
+    with Rome. Together with its counterpart
+    ‘non-traditionalist’ used for the Catholic
+    Chaldeans, the term ‘traditionalist’ may be a
+    useful label for a Western scholar, but it risks introducing an
+    external and questionable point of view onto dangerous ground.
+    Which side tradition takes is often a moot point.</p>
+         <p>
+            <anchor corresp="P7"/>[7] In
     Chapters 3 to 6 (p. 38-341), the author arranges the
     information that he has collected according to geographical
-    criteria. The result very much resembles Fiey�s <hi rend="italic">Assyrie
-    Chr�tienne</hi> (Beirut 1965-68), the corresponding paragraphs
-    of which are quoted in square brackets beside Wilmshurst�s
-    titles. Of each of the regions examined (Nisibis and Beth
-    �Arabaye, Amid, Egypt-Syria-Palestine-Cilicia-Cypros, Mardin,
-    Seert, Gazarta, �Amadiya, Berwari, �Aqra, Erbil, Kirkuk, Mosul,
-    Hakkari, Urmia), the author sketches a brief �Ecclesiastical
-    History�—in reality a survey of the� various dioceses—and a
-    detailed �Topographical Survey� with copious information on
+    criteria. The result very much resembles Fiey’s
+    <hi rend="italic">Assyrie Chrétienne</hi> (Beirut 1965-68), the
+    corresponding paragraphs of which are quoted in square brackets
+    beside Wilmshurst’s titles. Of each of the regions
+    examined (Nisibis and Beth ‘Arabaye, Amid,
+    Egypt-Syria-Palestine-Cilicia-Cypros, Mardin, Seert, Gazarta,
+    ‘Amadiya, Berwari, ‘Aqra, Erbil, Kirkuk, Mosul,
+    Hakkari, Urmia), the author sketches a brief
+    ‘Ecclesiastical History’—in reality a survey
+    of the  various dioceses—and a detailed
+    ‘Topographical Survey’ with copious information on
     districts, villages, monasteries etc. Wilmshurst reports in
     detail and organizes the data provided by more than 2500
     East-Syrian colophons: number of manuscripts copied in a given
     place, names of scribes and genealogical reconstruction of
     their families, occasional historical information recorded by
     the copyists, ecclesiastical title of the persons mentioned in
-    the colophons as copyist, copyist�s family or purchaser(s),
-    etc.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] The
+    the colophons as copyist, copyist’s family or
+    purchaser(s), etc.</p>
+         <p>
+            <anchor corresp="P8"/>[8] The
     evidence provided by manuscript colophons is integrated with
     information coming from secondary sources. Whenever available,
     from the 19th century onwards, demographic data (number of
@@ -186,54 +217,58 @@
     secondary literature, however, turned out to be a little
     superficial in a number of cases into which I was able to
     inquire.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] In 1654
+         <p>
+            <anchor corresp="P9"/>[9] In 1654
     the Belgian Carmelite Fr. Dionysius of the Crown of Thorns
     visited the village of Telkepe, in the Mosul plain, to visit
     the Patriarch Mar Ilyas. In his diplomatic discussion with the
-    Patriarch he received help from a �well-disposed� priest
-    Joseph. Fiey (<hi rend="italic">Assyrie Chr�tienne</hi> 359-360) identifies
-    this priest Joseph with a Joseph mentioned in a colophon as
-    <hi rend="italic">malpana</hi> �teacher, professor�, together with another
-    priest Joseph <hi rend="italic">qankaya</hi> �sacristan, curate�. We know,
-    thus, of the existence of at least two priests called Joseph in
-    Telkepe in 1654. Fiey suggests that the priest who met Fr.
-    Dionysius was probably none other than Joseph son of Jamāl
-    al-Dīn (�Ce pr�tre Yūsif est probablement le m�me que...�),
-    author of a number of poems in Vernacular Syriac (see Macuch,
-    <hi rend="italic">Geschichte</hi>, p. 99-100). Wilmshurst presents this
-    identification as a fact, without providing further evidence:
-    �Denys [Fr. Dionysius] tried unsuccessfully to persuade him
-    [the Patriarch] to become a Catholic, with the help of the
-    influential Telkepe priest Joseph, son of Jamāl al-Dīn. Joseph,
-    who composed several religious poems�� (p. 223-224).</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+    Patriarch he received help from a ‘well-disposed’
+    priest Joseph. Fiey (<hi rend="italic">Assyrie Chrétienne</hi> 359-360)
+    identifies this priest Joseph with a Joseph mentioned in a
+    colophon as <hi rend="italic">malpana</hi> ‘teacher, professor’,
+    together with another priest Joseph <hi rend="italic">qankaya</hi>
+    ‘sacristan, curate’. We know, thus, of the
+    existence of at least two priests called Joseph in Telkepe in
+    1654. Fiey suggests that the priest who met Fr. Dionysius was
+    probably none other than Joseph son of Jamāl al-Dīn
+    (‘Ce prêtre Yūsif est probablement le
+    même que...’), author of a number of poems in
+    Vernacular Syriac (see Macuch, <hi rend="italic">Geschichte</hi>, p. 99-100).
+    Wilmshurst presents this identification as a fact, without
+    providing further evidence: ‘Denys [Fr. Dionysius] tried
+    unsuccessfully to persuade him [the Patriarch] to become a
+    Catholic, with the help of the influential Telkepe priest
+    Joseph, son of Jamāl al-Dīn. Joseph, who composed
+    several religious poems…’ (p. 223-224).</p>
+         <p>
+            <anchor corresp="P10"/>[10]
     About the famous East-Syrian author and scribe Israel of
-    Alqosh, Wilmshurst writes: �He remained a traditionalist [sic!]
-    throughout his life, remarking in 1611 that he had preserved
-    the old faith of the Church of the East, �corrupted by the
-    Jacobites� (p. 243. quoting H.L. Murre-van den Berg, �A Syrian
-    Awakening. Alqosh and Urmia as Centers of Neo-Syriac Writing�,
-    unpublished paper). The text by Israel of Alqosh runs in fact:
-    �This is the profession of the faith of the
-    <hi rend="italic">madden<hi rend="u">h</hi>āyē</hi> (Fiey: �Orientaux�).
+    Alqosh, Wilmshurst writes: ‘He remained a traditionalist
+    [sic!] throughout his life, remarking in 1611 that he had
+    preserved the old faith of the Church of the East,
+    ‘corrupted by the Jacobites’ (p. 243. quoting H.L.
+    Murre-van den Berg, ‘A Syrian Awakening. Alqosh and Urmia
+    as Centers of Neo-Syriac Writing’, unpublished paper).
+    The text by Israel of Alqosh runs in fact: ‘This is the
+    profession of the faith of the <hi rend="italic">madden<hi rend="u">h</hi>āyē</hi> (Fiey: ‘Orientaux’).
     We have kept it truthfully from the time of the first apostles,
-    and grace dwelled in it, and the <hi rend="italic">ya�qubāyē</hi> (Fiey:
-    �Nestoriens�) changed it�. I quote from the same paper by H.L.
-    Murre-van den Berg, published in R. Lavenant (ed.), <hi rend="italic">VII
-    Symposium Syriacum (1996)</hi>, Orientalia Christiana Analecta
-    256, Rome 1998, 499-515. It is difficult to find in these
-    verses a conscious and explicit attempt to defend the
-    �traditional� faith of the Church of the East against the
-    Catholic sympathies of others, unless we read a text such as
-    that translated by Fiey, where �Jacobites� (attested in all
-    manuscripts available to me) was mysteriously or, better,
-    ideologically replaced by �Nestorians�. Pace Wilmshurst (and
-    Murre-van den Berg), Israel of Alqosh or whoever wrote those
-    lines probably had no Catholics in mind at that moment.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11]
+    and grace dwelled in it, and the
+    <hi rend="italic">ya‘qubāyē</hi> (Fiey:
+    ‘Nestoriens’) changed it’. I quote from the
+    same paper by H.L. Murre-van den Berg, published in R. Lavenant
+    (ed.), <hi rend="italic">VII Symposium Syriacum (1996)</hi>, Orientalia
+    Christiana Analecta 256, Rome 1998, 499-515. It is difficult to
+    find in these verses a conscious and explicit attempt to defend
+    the ‘traditional’ faith of the Church of the East
+    against the Catholic sympathies of others, unless we read a
+    text such as that translated by Fiey, where
+    ‘Jacobites’ (attested in all manuscripts available
+    to me) was mysteriously or, better, ideologically replaced by
+    ‘Nestorians’. Pace Wilmshurst (and Murre-van den
+    Berg), Israel of Alqosh or whoever wrote those lines probably
+    had no Catholics in mind at that moment.</p>
+         <p>
+            <anchor corresp="P11"/>[11]
     Chapter 7 (p. 342-370) is an attempt to summarize and arrange
     chronologically the material that in the previous chapters is
     presented geographically, region by region, district by
@@ -241,74 +276,81 @@
     in this chapter:</p>
          <list type="unordered">
             <item>the situation in the outlying provinces of the Church of
-      the East (Persia, Central Asia, India, China) which, �with
-      the important exception of India, collapsed during the second
-      half of the fourteenth century� possibly because of �a
-      combination of persecution, disease, and isolation� (p.
-      345);</item>
+      the East (Persia, Central Asia, India, China) which,
+      ‘with the important exception of India, collapsed
+      during the second half of the fourteenth century’
+      possibly because of ‘a combination of persecution,
+      disease, and isolation’ (p. 345);</item>
             <item>the patriarchal succession, which is not documented by
-      reliable evidence in the period 1318-1552, while �from 1552
-      to the 19th century it is certain in the case of the Mosul
-      patriarchate, but less exact for the successors of the
+      reliable evidence in the period 1318-1552, while  from
+      1552 to the 19th century it is certain in the case of the
+      Mosul patriarchate, but less exact for the successors of the
       rebellious Sulaqa;</item>
             <item>the population of the Church of the East (clergy and
       believers) throughout the centuries, with comparative
       statistics of the faithful to the Chaldean and Qudshanis
       Patriarchates in the last period relevant for the study (p.
-      363): �With a membership of around 100,000 in 1913, the
-      Chaldean church was only slightly smaller than the Qūdshānīs
-      patriarchate (probably 120,000 East Syrians at most,
-      including the population of the nominally Russian Orthodox
-      villages in the Ūrmī region)�;</item>
-            <item>an attempt at comparison of �the resources and influence
-      of the Mosul, Qūdshānīs and Āmid patriarchates at different
-      periods� (p. 343).</item>
+      363): ‘With a membership of around 100,000 in 1913, the
+      Chaldean church was only slightly smaller than the
+      Qūdshānīs patriarchate (probably 120,000 East
+      Syrians at most, including the population of the nominally
+      Russian Orthodox villages in the Ūrmī
+      region)’;</item>
+            <item>an attempt at comparison of ‘the resources and
+      influence of the Mosul, Qūdshānīs and
+      Āmid patriarchates at different periods’ (p.
+      343).</item>
          </list>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] In 4
+         <p>
+            <anchor corresp="P12"/>[12] In 4
     appendixes, David Wilmshurst provides the reader with the
     corpora used as evidence in his study. Appendix One (p.
-    371-377) contains �a concordance of manuscript catalogue
-    numbers�. The concordances provided includes manuscript
-    catalogues from �Aqra, Alqosh, Mosul, Telkepe, and Dohuk.
-    Appendix Two (p. 378-732) is �a list of East-Syrian manuscript
-    colophons and inscriptions�. The 2450 records are listed in
-    chronological order from 615 to 1984 A.D. and arranged in five
-    columns giving: catalogue number, date, place where the
-    manuscript was copied, name of scribe(s), and other details
-    useful as historical information. From the point of view of a
-    Syriac scholar, possibly not of a historian, it is regrettable
-    that no reference is made to the contents of the manuscripts.
-    Appendix Three (p. 733-738) contains �extracts from the
-    correspondence of the East-Syrian patriarchs� in the Italian or
-    Latin translation preserved in Rome and published by Giamil
-    (Rome 1902) and Assemani (Rome 1719-1728). Appendix Four (p.
-    739-746) contains a brief biography (4-9 lines)� of 41 Chaldean
-    bishops of the 19th century.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] The
+    371-377) contains ‘a concordance of manuscript catalogue
+    numbers’. The concordances provided includes manuscript
+    catalogues from ‘Aqra, Alqosh, Mosul, Telkepe, and Dohuk.
+    Appendix Two (p. 378-732) is ‘a list of East-Syrian
+    manuscript colophons and inscriptions’. The 2450 records
+    are listed in chronological order from 615 to 1984 A.D. and
+    arranged in five columns giving: catalogue number, date, place
+    where the manuscript was copied, name of scribe(s), and other
+    details useful as historical information. From the point of
+    view of a Syriac scholar, possibly not of a historian, it is
+    regrettable that no reference is made to the contents of the
+    manuscripts. Appendix Three (p. 733-738) contains
+    ‘extracts from the correspondence of the East-Syrian
+    patriarchs’ in the Italian or Latin translation preserved
+    in Rome and published by Giamil (Rome 1902) and Assemani (Rome
+    1719-1728). Appendix Four (p. 739-746) contains a brief
+    biography (4-9 lines)  of 41 Chaldean bishops of the 19th
+    century.</p>
+         <p>
+            <anchor corresp="P13"/>[13] The
     bibliography (p. 747-757) is divided into three sections:
     books, articles, manuscript collections and notes on
     manuscripts and inscriptions. In the third section of the
     bibliography (and in the study), manuscript collections
     containing texts in Vernacular Syriac (M. Lidzbarski<hi rend="italic">, Die
-    neu-aram�ischen Handschriften der Kgl. Bibliothek zu
-    Berlin</hi>, 2 vol., Weimar 1896 and Y. Habbi, �Udabā�
-    al-sūrith al-awā�il�, <hi rend="italic">Majallat al-majma�
-    al-�ilmī al-�irāqī al-hay�a al-suryānīya</hi> 4 (1978)
-    97-120) have not been included.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] The
+    neu-aramäischen Handschriften der Kgl. Bibliothek zu
+    Berlin</hi>, 2 vol., Weimar 1896 and Y. Habbi,
+    “Udabā’
+    al-sūrith al-awā’il”, <hi rend="italic">Majallat
+    al-majma‘
+    al-‘ilmī al-‘irāqī
+    al-hay’a al-suryānīya</hi> 4 (1978) 97-120) have
+    not been included.</p>
+         <p>
+            <anchor corresp="P14"/>[14] The
     work is complete with maps of the territories covered by the
-    study. �The details given in these maps have been taken from
-    the 1921 British G.S.G.S. map series ..., revised from an
+    study. ‘The details given in these maps have been taken
+    from the 1921 British G.S.G.S. map series ..., revised from an
     earlier I.D.W.O. map series of 1916, which has recently been
     used as the basis for an atlas of East Syrian settlement in
     Kurdistan [J.C.J. Sanders, <hi rend="italic">Assyro-chaldese christenen in
     oost-Turkije en Iran. Hun laatste vaderland opnieuw in kaart
-    gebracht</hi>, A.A. Brediusstichting, Hernen 1997]� (p. 8).</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+    gebracht</hi>, A.A. Brediusstichting, Hernen 1997]’ (p.
+    8).</p>
+         <p>
+            <anchor corresp="P15"/>[15] The
     quantity of material that the author has analyzed is immense.
     The amount of information he has managed to include in 370
     pages of discussion, 51 tables, 4 genealogical trees, 5
@@ -320,91 +362,93 @@
     Church of the East and Syriac scholars.</p>
     
     
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] Two
-    important East Syriac works by �Abdisho� bar Brikha (<hi rend="italic">Kunasha
-    d-qanone sunhadiqaye</hi>—ed. by A. Mai, Rome 1838—and <hi rend="italic">Tukkās
-    dine 'edtanaye</hi>, composed respectively in 1284 and
-    1315-1316) do not appear among the sources used by Wilmshurst.
-    Their content is canonical and provides a picture of the
-    ecclesiastical structure of the Church of the East at the
-    beginning of the 14th century.</p>
-         <p rend="nn">
-            <anchor xml:id="P17"/>[17] The
+         <p>
+            <anchor corresp="P16"/>[16] Two
+    important East Syriac works by ‘Abdisho‘ bar Brikha
+    (<hi rend="italic">Kunasha d-qanone sunhadiqaye</hi>—ed. by A. Mai, Rome
+    1838—and <hi rend="italic">Tukkās dine 'edtanaye</hi>, composed
+    respectively in 1284 and 1315-1316) do not appear among the
+    sources used by Wilmshurst. Their content is canonical and
+    provides a picture of the ecclesiastical structure of the
+    Church of the East at the beginning of the 14th century.</p>
+         <p>
+            <anchor corresp="P17"/>[17] The
     facts of 1552, which eventually led to the East-Syrian Uniate
     movement, represent an important change in the history of the
     Church of the East. In this connection, it would have been
     worth mentioning the fact that the <hi rend="italic">primatus Petri</hi> was a
     canonical principle fairly well established in the East-Syrian
-    milieu a couple of centuries before Sulaqa�s rebellion.
-    �Abdisho� bar Brikha, e.g., attributes the <hi rend="italic">shultanutha</hi>
-    over all the patriarchs to the successor of Peter, the bishop
-    of Rome (<hi rend="italic">Kunasha d-qanone sunhadiqaye</hi>—ed. by A. Mai,
-    <hi rend="italic">Scriptorum veterum nova et inedita collectio</hi> X, Rome
-    1838, 327, 165). The patriarch Mar Yahballaha III addressed the
-    Pope in similar terms in an Arabic letter dated 1304 (L.
-    Bottini, �Due lettere inedite del patriarca Mar Yahballaha III
-    (1281-1317)�, <hi rend="italic">Rivista degli studi orientali</hi> 1992,
-    239-256).</p>
-         <p rend="nn">
-            <anchor xml:id="P18"/>[18] In
+    milieu a couple of centuries before Sulaqa’s rebellion.
+    ‘Abdisho‘ bar Brikha, e.g., attributes the
+    <hi rend="italic">shultanutha</hi> over all the patriarchs to the successor of
+    Peter, the bishop of Rome (<hi rend="italic">Kunasha d-qanone
+    sunhadiqaye</hi>—ed. by A. Mai, <hi rend="italic">Scriptorum veterum nova
+    et inedita collectio</hi> X, Rome 1838, 327, 165). The patriarch
+    Mar Yahballaha III addressed the Pope in similar terms in an
+    Arabic letter dated 1304 (L. Bottini, ‘Due lettere
+    inedite del patriarca Mar Yahballaha III (1281-1317)’,
+    <hi rend="italic">Rivista degli studi orientali</hi> 1992, 239-256).</p>
+         <p>
+            <anchor corresp="P18"/>[18] In
     Chapter 2, some statements about the history of the 14th
     century need to be corrected or at least toned down. When the
     author comments upon the diplomatic mission of Rabban Sawma
     (1287-1288, not 1284-1285 as stated on p. 17) and says that
-    �the Church of the East worked... to encourage a
-    Mongol-Christian alliance against the Mamluk� (p. 16-17), he is
-    probably going too far. As far as we know, there is no evidence
-    to support such an interpretation. The role of ecclesiastical
-    �ambassadors� sent by the Ilkhans was not a consequence of a
-    specific interest of the Church in political and military
-    alliance, and their position was subordinated to that of other
-    ambassadors—Western, mainly Genoese, guests at the Ilkhanid
-    court—who were sent with them. Of course, the <hi rend="italic">History of
-    Rabban Sawma and Mar Yahballaha</hi> might give us a different
-    impression, due to the origin and character of the narrative.
-    But it should not be forgotten that, even though Rabban Sawma�s
-    mission is �the best known Mongol initiative towards the
-    Christian powers� (p. 17), it was only one of many and not
+    ‘the Church of the East worked... to encourage a
+    Mongol-Christian alliance against the Mamluk’ (p. 16-17),
+    he is probably going too far. As far as we know, there is no
+    evidence to support such an interpretation. The role of
+    ecclesiastical ‘ambassadors’ sent by the Ilkhans
+    was not a consequence of a specific interest of the Church in
+    political and military alliance, and their position was
+    subordinated to that of other ambassadors—Western, mainly
+    Genoese, guests at the Ilkhanid court—who were sent with
+    them. Of course, the <hi rend="italic">History of Rabban Sawma and Mar
+    Yahballaha</hi> might give us a different impression, due to the
+    origin and character of the narrative. But it should not be
+    forgotten that, even though Rabban Sawma’s mission is
+    ‘the best known Mongol initiative towards the Christian
+    powers’ (p. 17), it was only one of many and not
     necessarily the most successful.</p>
-         <p rend="nn">
-            <anchor xml:id="P19"/>[19] The
+         <p>
+            <anchor corresp="P19"/>[19] The
     hypothesis that the synod of 1318 had to cope with the
-    corruption and illiteracy of the clergy �perhaps because
+    corruption and illiteracy of the clergy ‘perhaps because
     Yahballaaha III, who knew little Syriac himself, had been
-    unable to control his bishops and visitors effectively� (p. 18)
-    does not appear to be based on solid grounds. It was precisely
-    during the partiarchate of Mar Yahballaha III that �Abdisho�
-    bar Brikha wrote his canonical works, which may bear witness to
-    the patriarch�s interest in setting up an �up-dated� set of
-    rules for the Church of the East, although he personally was
-    not a scholar, an exegete, or a canonist as his predecessors
-    and successor were. Wilmshurst refers to probable difficulties
-    in the relationship between Mar Yahballaha and (some of) his
-    bishops. This conjecture is in fact supported by evidence
-    provided by Ricoldo da Montecroce, who attended a debate in
-    Baghdad between Mar Yahballaha and some bishops about the
-    permission to preach that the patriarch had given to the Latin
-    missionaries (Riccold de Monte Croce, <hi rend="italic">P�r�grination en Terre
-    Sainte et au Proche Orient</hi>. Texte latin et traduction,
-    <hi rend="italic">Lettres sur la chute de Saint-Jean d�Acre</hi>. Traduction
-    par R. Kappler, Paris 1997, 152-155).</p>
-         <p rend="nn">
-            <anchor xml:id="P20"/>[20] The
-    �humane emir Choban� had much more than �an important
-    moderating influence on the il-khan Abu Said�. Choban was in
-    fact the real ruler at the beginning of the reign of Abu Said,
-    who came to the throne as a boy. Indeed Amir Choban was a
-    Muslim, and the good will he showed to the Christians according
-    to the <hi rend="italic">History of Rabban Sawma and Mar Yahballaha</hi> may
-    have sprung more from political calculation than from �humane�
-    disposition.</p>
-         <p rend="nn">
-            <anchor xml:id="P21"/>[21]
+    unable to control his bishops and visitors effectively’
+    (p. 18) does not appear to be based on solid grounds. It was
+    precisely during the partiarchate of Mar Yahballaha III that
+    ‘Abdisho‘ bar Brikha wrote his canonical works,
+    which may bear witness to the patriarch’s interest in
+    setting up an ‘up-dated’ set of rules for the
+    Church of the East, although he personally was not a scholar,
+    an exegete, or a canonist as his predecessors and successor
+    were. Wilmshurst refers to probable difficulties in the
+    relationship between Mar Yahballaha and (some of) his bishops.
+    This conjecture is in fact supported by evidence provided by
+    Ricoldo da Montecroce, who attended a debate in Baghdad between
+    Mar Yahballaha and some bishops about the permission to preach
+    that the patriarch had given to the Latin missionaries (Riccold
+    de Monte Croce, <hi rend="italic">Pérégrination en Terre Sainte
+    et au Proche Orient</hi>. Texte latin et traduction, <hi rend="italic">Lettres
+    sur la chute de Saint-Jean d’Acre</hi>. Traduction par R.
+    Kappler, Paris 1997, 152-155).</p>
+         <p>
+            <anchor corresp="P20"/>[20] The
+    ‘humane emir Choban’ had much more than ‘an
+    important moderating influence on the il-khan Abu Said’.
+    Choban was in fact the real ruler at the beginning of the reign
+    of Abu Said, who came to the throne as a boy. Indeed Amir
+    Choban was a Muslim, and the good will he showed to the
+    Christians according to the <hi rend="italic">History of Rabban Sawma and Mar
+    Yahballaha</hi> may have sprung more from political calculation
+    than from ‘humane’ disposition.</p>
+         <p>
+            <anchor corresp="P21"/>[21]
     Finally, the note about the Ms. Vat. Syr 622 (p. 390) needs
     correction: the princess Sara was not the daughter, but the
-    sister of Giwargis, king of the �ngg�d (autoptical check in
-    Rome, 21-06-2002).</p>
+    sister of Giwargis, king of the Önggüd (autoptical
+    check in Rome, 21-06-2002).</p>
          <!-- #EndEditable -->
       </body>
    </text>

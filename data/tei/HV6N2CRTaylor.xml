@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ARAM Society for Syro-Mesopotamian Studies: Twentieth International Conference on Alcohol, 7-9 July 2003.</title>
+            <title type="main">ARAM Society for Syro-Mesopotamian Studies: Twentieth International Conference on Alcohol, 7-9 July 2003.</title>
             <author>
-               <name>David G.K. TAYLOR</name>
+               <name>
+                  <forename>David G.K.</forename>
+                  <surname>Taylor</surname>
+               </name>
                <affiliation>
                   <orgName>Department of Theology,</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv6n2crtaylor</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>ARAM</term>
+               <term>Alcohol</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,8 +86,8 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The very
+         <p>
+            <anchor corresp="P1"/>[1] The very
     first Aram Society International Conference (on the Nabataeans)
     was held as recently as 1989, but such has been the driving
     energy and enthusiasm of the Society's founder, Shafiq
@@ -76,8 +100,8 @@
     mixed with those of specialists in literature, history, and
     theology, and on this occasion the periods discussed ranged
     across many millennia.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Maria
+         <p>
+            <anchor corresp="P2"/>[2] Maria
     Teresa Viviani presented a paper on the iconographic
     representation of alcoholic beverages and their consumption in
     third millennium BCE Sumer and Akkad. Beer was consumed by all
@@ -99,8 +123,8 @@
     described its production in the Graeco-Roman world, including
     northern Europe, and the attitudes towards it of contemporary
     writers.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Skipping
+         <p>
+            <anchor corresp="P3"/>[3] Skipping
     on to the second half of the first millennium, and moving from
     beer to wine, Steven Derfler gave an illustrated account of the
     excavation of wine presses at Tel Michal and the Sharon in
@@ -110,8 +134,8 @@
     structures and installations at Hulda, and some of the
     corresponding data from Lebanon was presented by Moheb
     Chanesaz.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Several
+         <p>
+            <anchor corresp="P4"/>[4] Several
     papers explored the economic and social impact of the
     production and trading of wine in different periods and
     regions; Michael Decker's paper focussed on the wine trade of
@@ -120,8 +144,8 @@
     and the Levant; and Souad Slim took the conference forward to
     eighteenth and nineteenth-century viticulture on <hi rend="italic">waqf</hi>
     land in Lebanon.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] A
+         <p>
+            <anchor corresp="P5"/>[5] A
     cluster of four papers related to wine and its use in the
     Aramaic city states of Late Antiquity. Lucinda Dirven started
     with images of banquet scenes from Hatra, and went on to argue
@@ -159,8 +183,8 @@
     demand of their religion? Or does some of the evidence need to
     be re-examined or redated? Perhaps we shall learn the
     resolution of this issue at a future Aram conference.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Three
+         <p>
+            <anchor corresp="P6"/>[6] Three
     papers related to alcohol in Syriac sources. Shafiq AbouZayd
     explored the evidence for the strict prohibition of the
     drinking of alcohol in Syriac ascetic sources, and discussed
@@ -181,8 +205,8 @@
     suggested that a probable context for these poems was the court
     of the Mongol Il-Khanate at the end of the thirteenth
     century.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] The
+         <p>
+            <anchor corresp="P7"/>[7] The
     <hi rend="italic">khamriyya</hi> genre in its Islamic context formed the
     subject matter of Kathryn Kueny's paper, which focussed on a
     poem of the early-thirteenth-century Cairene poet Umar ibn
@@ -192,22 +216,22 @@
     the intoxication induced by the divine fragrance which brings
     clarity of mind and an appreciation of what is real, a
     drunkenness which restores the soul to the state of its
-    pre-existence. Another medieval Arabic text—an amusing account
-    of a man who falls unconscious through drink, is joined by his
-    friends who do likewise, and on his awaking he decides to
-    rejoin them, and so on, so that over several days of sharing
-    the same room they never actually meet each other awake—was
-    chosen by Bo Holmberg as the focus for a fascinating
-    examination of the longing for unconsciousness in the light of
-    modern psychological theory. The final paper on alcohol in
-    Arabic sources was Stephan D�hne's discussion of an
-    early-eighteenth-century Christian-Arabic sermon against the
-    sin of drunkenness produced by a European missionary in the
+    pre-existence. Another medieval Arabic text—an amusing
+    account of a man who falls unconscious through drink, is joined
+    by his friends who do likewise, and on his awaking he decides
+    to rejoin them, and so on, so that over several days of sharing
+    the same room they never actually meet each other
+    awake—was chosen by Bo Holmberg as the focus for a
+    fascinating examination of the longing for unconsciousness in
+    the light of modern psychological theory. The final paper on
+    alcohol in Arabic sources was Stephan Dähne's discussion
+    of an early-eighteenth-century Christian-Arabic sermon against
+    the sin of drunkenness produced by a European missionary in the
     Lebanon. Amongst several memorable features was its claim that
     humans began to drink wine after the flood because the water
     had been contaminated by the corpses of those drowned!</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] In this
+         <p>
+            <anchor corresp="P8"/>[8] In this
     report I have inevitably passed over much of great interest,
     and have no doubt garbled the arguments of some of the papers I
     have discussed, but the full texts should be available in due

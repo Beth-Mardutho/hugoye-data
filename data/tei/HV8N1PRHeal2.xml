@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Vatican Syriac Manuscripts: Volume 1</title>
+            <title type="main">Vatican Syriac Manuscripts: Volume 1</title>
             <author>
-               <name>Kristian S. Heal</name>
+               <name>
+                  <forename>Kristian S.</forename>
+                  <surname>Heal</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/projectReport/hv8n1prheal2</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,15 +86,15 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] This
+         <p>
+            <anchor corresp="P1"/>[1] This
     report marks the publication on DVD-ROM of a collection of
     thirty-three electronic facsimiles of Syriac manuscripts from
     the Vatican Library. Further details, including how to order
     the DVD-ROM are available at the project's website (<ref target="http://cpart.byu.edu/Vatican">http://cpart.byu.edu/Vatican</ref>).<ref target="#FN1">1</ref>
          </p>
-         <head xml:id="S1">Background</head>
-         <p rend="n"> This project is focused on
+         <head xml:id="HV8N1PRHeal21">Background</head>
+         <p> This project is focused on
     the Syriac manuscripts of the Biblioteca Apostolica Vaticana, a
     collection that extends to over 850 manuscripts, including the
     collection of 181 formerly at the Borgian Museum.<ref target="#FN2">2</ref> The collection
@@ -81,8 +104,8 @@
     Through the efforts of Elias Assemani, his cousin J. S.
     Assemani, and Gabriel Eva, some of the most significant of all
     surviving Syriac manuscripts were acquired in this period.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] In 1999
+         <p>
+            <anchor corresp="P3"/>[3] In 1999
     Mar Bawai Soro, a bishop of the Assyrian Church of the East,
     began discussions with the Vatican Library to make their Syriac
     collections more accessible both to scholars as well as to the
@@ -93,8 +116,8 @@
     the Vatican Library was signed in early 2000. The manuscript
     photography was undertaken in two phases, one in June 2000 and
     another in April 2002.</p>
-         <head xml:id="S2">Report</head>
-         <p rend="n"> The project was formulated
+         <head xml:id="HV8N1PRHeal22">Report</head>
+         <p> The project was formulated
     with the kind assistance of academics working in the field of
     Syriac studies and was carried out with direction from a small
     advisory group (Professor Sidney Griffith, Professor Samir
@@ -104,8 +127,8 @@
     (Appendix 1 below). From this list, Mar Bawai Soro selected 28
     for a pilot project, which was later supplemented by 5
     additional manuscripts.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     project proposal was originally modeled on BYU's Dead Sea
     Scrolls database. This database gives precedence to a
     searchable transcription of the scrolls and includes both the
@@ -116,8 +139,8 @@
     Estrangelo and Serto scripts. This proved to be a not
     altogether appropriate model and a new approach was formulated
     as will be discussed below.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The
+         <p>
+            <anchor corresp="P6"/>[6] The
     photography was undertaken in two stages. In both stages we
     were able to set up a controlled studio environment, including
     camera stands, full lighting sets and back-up systems. The
@@ -131,21 +154,21 @@
     EOS 1D, which captured full color 4 megapixal images. These
     images were also archived in uncompressed TIFF format, with
     each image being approximately 25 megabytes in size.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] In the
+         <p>
+            <anchor corresp="P7"/>[7] In the
     two stages of photography we captured a total of 14,700 images,
     which occupy 196 CD-ROMS, with a total archival data size of
     117,600 megabytes. One manuscript alone, Vatican Syriac 117,
     required 50 CD-ROMS to produce the archival copy.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Further
+         <p>
+            <anchor corresp="P8"/>[8] Further
     to the conventional photography we also undertook a series of
     tests using Multi-Spectral Imaging on Vatican Syriac 110, 114,
     117, 147, 252, and 586. Thus far these tests have produced no
     beneficial results, though further analysis of the data is
     underway.</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] All
+         <p>
+            <anchor corresp="P9"/>[9] All
     digital photographs require processing. Furthermore, the
     uncompressed images were prohibitively large to view easily, so
     some compression was necessary. We opted for JPEG compression
@@ -163,8 +186,8 @@
     prudent. Scholars who wish to undertake more sophisticated
     manipulation of particular manuscripts can request copies of
     the uncompressed images.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     After a number of meetings with digital projects specialists at
     the BYU library, it was determined that the Adobe PDF format
     would be the best format to deliver the images. Though initial
@@ -173,8 +196,8 @@
     that such an approach was impractical. A number of other
     image-only solutions were considered, but each of these proved
     less desirable than Adobe PDF.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] The
+         <p>
+            <anchor corresp="P11"/>[11] The
     advantages of the PDF format are numerous. In particular,
     because Adobe PDF was designed to view continuous documents and
     books, it reproduces an environment that is familiar to
@@ -185,8 +208,8 @@
     academic context, with many libraries delivering documents in
     this format. Also, the Adobe Reader is freely available and
     constantly being improved by the developer.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12] In
+         <p>
+            <anchor corresp="P12"/>[12] In
     order to make a number of PDF files available on the same DVD,
     we designed and developed a simple interface which runs
     immediately on inserting the disc. This interface includes an
@@ -204,8 +227,8 @@
     place in the manuscript to which that index entry refers. Also,
     for ease of reference we have included the original catalog
     entry immediately after our index.</p>
-         <head xml:id="S3">General Assessment of the Project</head>
-         <p rend="nn"> This project has been
+         <head xml:id="HV8N1PRHeal23">General Assessment of the Project</head>
+         <p> This project has been
     undertaken over a four year period. During that time the
     objectives of the project have shifted and settled. The initial
     project description was modeled on our successful Dead Sea
@@ -226,8 +249,8 @@
     therefore reconfigured the project to actively meet the needs
     of the field, and intend to re-purpose the extensive
     transcription work that we have undertaken.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14] Not
+         <p>
+            <anchor corresp="P14"/>[14] Not
     only have our objectives been clarified, but we have also seen
     the technological landscape entirely shift. When we began this
     project, we used specialist industrial grey-scale digital
@@ -243,8 +266,8 @@
     Nevertheless, with respect to the necessary technology this is
     a highly propitious time to continue this important
     project.</p>
-         <p rend="nn"/>
-         <head html:align="center" xml:id="S4">Appendix 1</head>
+         <p/>
+         <head xml:id="HV8N1PRHeal24">Appendix 1</head>
          <p>
       (Items in red are included in Volume 1)
     </p>
@@ -459,8 +482,8 @@
     128. Vat. Syr. 527: Canticles, 6th cent. (2 folios)<lb/>
     _______<lb/>
          </p>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV8N1PRHeal25">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> An interim report for this project was published in
     "The Digitizing of Selected Syriac MSS in the Vatican Apostolic
     Library," <hi rend="italic">Hugoye: Journal of Syriac Studies</hi>
@@ -469,16 +492,16 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> For further bibliography on the Vatican Library's
     Syriac collection see, A. Desreumaux and F. Briquel-Chantonnet,
-    <hi rend="italic">R�pertoire des Biblioth�ques et des Catalogues de
-    Manuscrits Syriaques</hi> (Paris: Editions du Centre national
-    de la recherche scientifique, 1991).<ref target="#FNRef2">
+    <hi rend="italic">Répertoire des Bibliothèques et des
+    Catalogues de Manuscrits Syriaques</hi> (Paris: Editions du
+    Centre national de la recherche scientifique, 1991).<ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt"/>
+         <p/>
          <!-- InstanceEndEditable -->
          <!-- InstanceEnd -->
       </body>

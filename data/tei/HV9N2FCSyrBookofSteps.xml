@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Syriac Book of Steps (Liber Graduum) Volume</title>
+            <title type="main">Syriac Book of Steps (Liber Graduum) Volume</title>
             <author>
-               <name/>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol9No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/callForPapers/hv9n2fcsyrbookofsteps</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Syriac Book of Steps</term>
+               <term>Liber Graduum</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,46 +87,48 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The Book
-    of Steps (<hi rend="italic">ktābā dmasqātā</hi>) is an anonymous fourth
-    century Syriac collection of 30 <hi rend="italic">mēmrē</hi> or discourses on
-    the spiritual life.� Set in a pre-monastic community, probably
-    in present-day Iraq, a significant part of the <hi rend="italic">mēmrē</hi>
-    is devoted to describing, instructing, and admonishing two
-    primary levels of the Christian life: that of the Perfect
-    (<hi rend="italic">gmīrē</hi>) and the Upright (<hi rend="italic">kēnē</hi>). The recent
-    publication of an English translation and introduction of
-    <hi rend="italic">The Book of Steps</hi>, has prompted a desire in several
-    scholars to encourage and stimulate a renewed interest in this
-    a long and diverse work (<hi rend="italic">The Book of Steps: The Syriac
-    Liber Graduum</hi>, translation and introduction, R. A. Kitchen
-    &amp; M. F. G. Parmentier, Cistercian Studies 196; Cistercian
-    Publications: Kalamazoo, 2004).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] The �CUA
-    Studies in Early Christianity� series has expressed interest in
-    a collection of studies on various aspects of <hi rend="italic">The Book of
-    Steps</hi>, to be edited by Robert A. Kitchen and Kristian S.
-    Heal.� Several senior scholars have already been invited to
-    contribute a significant study to this collection, and a number
-    have already responded positively, including Alexander Golitzin
-    (Marquette University), Jeff Childers (Abilene Christian
-    University), John Corbett (University of Toronto-Mississauga),
-    Luk van Rompay (Duke University) and David Taylor (University
-    of Oxford).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] We
+         <p>
+            <anchor corresp="P1"/>[1] The Book
+    of Steps (<hi rend="italic">ktābā dmasqātā</hi>) is an
+    anonymous fourth century Syriac collection of 30
+    <hi rend="italic">mēmrē</hi> or discourses on the spiritual
+    life.  Set in a pre-monastic community, probably in
+    present-day Iraq, a significant part of the
+    <hi rend="italic">mēmrē</hi> is devoted to describing, instructing,
+    and admonishing two primary levels of the Christian life: that
+    of the Perfect (<hi rend="italic">gmīrē</hi>) and the Upright
+    (<hi rend="italic">kēnē</hi>). The recent publication of an English
+    translation and introduction of <hi rend="italic">The Book of Steps</hi>, has
+    prompted a desire in several scholars to encourage and
+    stimulate a renewed interest in this a long and diverse work
+    (<hi rend="italic">The Book of Steps: The Syriac Liber Graduum</hi>,
+    translation and introduction, R. A. Kitchen &amp; M. F. G.
+    Parmentier, Cistercian Studies 196; Cistercian Publications:
+    Kalamazoo, 2004).</p>
+         <p>
+            <anchor corresp="P2"/>[2] The
+    “CUA Studies in Early Christianity” series has
+    expressed interest in a collection of studies on various
+    aspects of <hi rend="italic">The Book of Steps</hi>, to be edited by Robert
+    A. Kitchen and Kristian S. Heal.  Several senior scholars
+    have already been invited to contribute a significant study to
+    this collection, and a number have already responded
+    positively, including Alexander Golitzin (Marquette
+    University), Jeff Childers (Abilene Christian University), John
+    Corbett (University of Toronto-Mississauga), Luk van Rompay
+    (Duke University) and David Taylor (University of Oxford).</p>
+         <p>
+            <anchor corresp="P3"/>[3] We
     invite other scholars, especially junior scholars and graduate
     students, to open the book, explore its contents and offer
-    further studies for consideration.� Sessions on <hi rend="italic">The Book of
-    Steps</hi> are being proposed by the volume editors at the
-    Syriac Studies Symposium in Toronto and the Oxford
-    International Patristics Conference, both in 2007.�All papers
-    will be peer reviewed prior to being accepted for publication.�
-    The target for publication is 2008.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4]
+    further studies for consideration.  Sessions on <hi rend="italic">The
+    Book of Steps</hi> are being proposed by the volume editors at
+    the Syriac Studies Symposium in Toronto and the Oxford
+    International Patristics Conference, both in 2007. All
+    papers will be peer reviewed prior to being accepted for
+    publication.  The target for publication is 2008.</p>
+         <p>
+            <anchor corresp="P4"/>[4]
     Inquiries about the volume, submission of papers, and/or
     participation in the conference sessions mentioned above should
     be directed to:</p>

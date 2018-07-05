@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Peter J. Williams, Early Syriac Translation Technique and the Textual Criticism of the Greek Gospels, Gorgias Press, Piscataway NJ, 2004, xvi + 339 pages (Texts and Studies. Contributions to Biblical and Patristic Literature, Third Series, Volume 2), ISBN 1-59333-096-0. $65.00</title>
+            <title type="main">Peter J. Williams, Early Syriac Translation Technique and the Textual Criticism of the Greek Gospels, Gorgias Press, Piscataway NJ, 2004, xvi + 339 pages (Texts and Studies. Contributions to Biblical and Patristic Literature, Third Series, Volume 2), ISBN 1-59333-096-0. $65.00</title>
             <author>
-               <name>Jan Joosten</name>
+               <name>
+                  <forename>Jan</forename>
+                  <surname>Joosten</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/bookReview/hv8n2prjoosten</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Textual Criticism</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,25 +86,25 @@
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Using a
+         <p>
+            <anchor corresp="P1"/>[1] Using a
     translated text in textual criticism creates many
     complications: before any collation can be made, the translated
-    text needs to be �retroverted� into the original language; only
-    then can questions of relative priority and textual history be
-    addressed. Retroversion is hard to accomplish and always leaves
-    a margin of doubt. The problem is particularly palpable in
-    textual criticism of the Old Testament, where chance has it
-    that some of the main textual witnesses—notably the
-    Septuagint—are translations. In OT research, the need to
-    establish the �translation technique� characterizing a given
-    textual unit is well recognized (although perhaps not
-    universally applied). A large body of research on the
-    translation technique of the Septuagint exists, comprehending
-    both theoretical considerations and extensive studies of
-    detail.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Textual
+    text needs to be ‘retroverted’ into the original
+    language; only then can questions of relative priority and
+    textual history be addressed. Retroversion is hard to
+    accomplish and always leaves a margin of doubt. The problem is
+    particularly palpable in textual criticism of the Old
+    Testament, where chance has it that some of the main textual
+    witnesses—notably the Septuagint—are translations.
+    In OT research, the need to establish the ‘translation
+    technique’ characterizing a given textual unit is well
+    recognized (although perhaps not universally applied). A large
+    body of research on the translation technique of the Septuagint
+    exists, comprehending both theoretical considerations and
+    extensive studies of detail.</p>
+         <p>
+            <anchor corresp="P2"/>[2] Textual
     criticism of the New Testament is relatively less dependent on
     versional evidence. Thousands of Greek manuscripts are
     attested, representing a wide variety of textual types and
@@ -94,8 +117,8 @@
     often jointly, many readings that are absent from the Greek
     tradition or extant only in a small group of manuscripts
     (notably the famous codex D).</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] As in
+         <p>
+            <anchor corresp="P3"/>[3] As in
     the field of OT textual criticism, so in the NT, caution should
     be observed in using the versions. A reading attested in a
     version is not equivalent to a reading in a Greek manuscript.
@@ -111,65 +134,67 @@
     variation regularly occurs in the Syriac versions, these
     versions may no longer be quoted as evidence for the said
     variation in Greek manuscripts.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] A good
+         <p>
+            <anchor corresp="P4"/>[4] A good
     example is provided by one of the first investigations offered
     in the book, the addition of the name Jesus (pp. 24-37). There
     is a noticeable tendency in both the Peshitta and Old Syriac to
     add this name where the Greek has a mere pronoun. For instance,
-    in Matt 4:21, the Greek manuscripts read: �he called them
-    (i.e., the sons of Zebedee)�, but the Curetonian Old Syriac
-    reads: �Jesus called them�. Since this tendency is very marked,
-    it is methodologically unsound to quote the Syriac versions in
-    support of Greek manuscripts having the same addition. In Matt
-    8:3, �he touched him�, many Greek manuscripts read: �Jesus
-    touched him�. The latter reading is found also in the Peshitta
+    in Matt 4:21, the Greek manuscripts read: “he called them
+    (i.e., the sons of Zebedee)”, but the Curetonian Old
+    Syriac reads: “Jesus called them”. Since this
+    tendency is very marked, it is methodologically unsound to
+    quote the Syriac versions in support of Greek manuscripts
+    having the same addition. In Matt 8:3, “he touched
+    him”, many Greek manuscripts read: “Jesus touched
+    him”. The latter reading is found also in the Peshitta
     and the Old Syriac. Yet there is no way of knowing whether the
     Syriac versions reflect a Greek text having the addition of the
     proper noun (in which case they would count as textual
     evidence), or whether the addition of the name Jesus was made
     by the translators (in which case the Syriac reading lays no
-    weight in the scales). In Williams� study, the addition of the
-    name Jesus is fully documented and extensively discussed,
-    leaving little room for doubt as to the text-critical
-    implications of the phenomenon.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] In six
+    weight in the scales). In Williams’ study, the addition
+    of the name Jesus is fully documented and extensively
+    discussed, leaving little room for doubt as to the
+    text-critical implications of the phenomenon.</p>
+         <p>
+            <anchor corresp="P5"/>[5] In six
     chapters, many other phenomena are studied in the same detailed
     way: addition and omission of proper nouns, common nouns and
     pronouns; changes regarding articles, particles and adverbs;
     grammatical variants such as alteration in number, person,
     voice or tense; questions of word order; variations in words of
-    speech, and miscellanea. Some brief �rules for the use of
-    Syriac in NT textual criticism� are spelled out in appendix 1,
-    while a second appendix lists a large number of suggested
-    corrections to the apparatus of Nestle-Aland�s 27<hi rend="sup">th</hi>
-    edition of the NT text.</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] The book
+    speech, and miscellanea. Some brief “rules for the use of
+    Syriac in NT textual criticism” are spelled out in
+    appendix 1, while a second appendix lists a large number of
+    suggested corrections to the apparatus of Nestle-Aland’s
+    27<hi rend="sup">th</hi> edition of the NT text.</p>
+         <p>
+            <anchor corresp="P6"/>[6] The book
     will be very useful for the small number of specialists whose
     business it is to produce critical editions of the NT text. One
-    may expect future editions of Nestle-Aland�s <hi rend="italic">editio
+    may expect future editions of Nestle-Aland’s <hi rend="italic">editio
     minor</hi> to omit a large number references to the Syriac
     versions. In a few cases, the elimination of the Syriac
     witnesses may change the balance of probability and lead to
     some adjustment in the establishment of the critical text.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] For all
+         <p>
+            <anchor corresp="P7"/>[7] For all
     those who are not into the composing of critical apparatuses of
     the gospel text, the usefulness of the book is less immediate.
     Indeed, the kind of textual phenomena treated in this work
     almost never have exegetical implications. Since the mere
-    pronoun �he� and the proper noun �Jesus� clearly have the same
-    referent in Matt 8:3, the interpretation of the passage will
-    change little whichever reading is adopted. This is not to say
-    Williams� work is uninteresting. Much can be learnt on the
-    workings of the Syriac language, on the attitude of the Syriac
-    translators to their source, on the history of the text of the
-    New Testament. But on all these points, the reader must go, so
-    to say, beyond the limits the book has set itself.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Nowhere
+    pronoun ‘he’ and the proper noun
+    ‘Jesus’ clearly have the same referent in Matt 8:3,
+    the interpretation of the passage will change little whichever
+    reading is adopted. This is not to say Williams’ work is
+    uninteresting. Much can be learnt on the workings of the Syriac
+    language, on the attitude of the Syriac translators to their
+    source, on the history of the text of the New Testament. But on
+    all these points, the reader must go, so to say, beyond the
+    limits the book has set itself.</p>
+         <p>
+            <anchor corresp="P8"/>[8] Nowhere
     in this monograph is it stated explicitly that the
     text-critical value of the Syriac versions of the gospels is
     small. Nevertheless, by disqualifying so many readings attested
@@ -179,14 +204,14 @@
     and, especially, in the Old Syriac gospels cannot, in fact, be
     accounted for simply by their translation technique. A good
     example is found in John 3:18, where the Sinaitic Old Syriac
-    alone reads �the chosen son� against the Greek manuscripts�
-    �the only son�.�Being either unattested in the Greek tradition,
-    or attested only in codex D, many of these readings are
-    regarded with utmost suspicion by textual critics of the NT.
-    Yet it would be right to restore them to our critical
-    apparatuses, so as not to lose sight completely of the
-    potential contribution of the versions to the history of the
-    text of the New Testament.</p>
+    alone reads ‘the chosen son’ against the Greek
+    manuscripts’ ‘the only son’. Being
+    either unattested in the Greek tradition, or attested only in
+    codex D, many of these readings are regarded with utmost
+    suspicion by textual critics of the NT. Yet it would be right
+    to restore them to our critical apparatuses, so as not to lose
+    sight completely of the potential contribution of the versions
+    to the history of the text of the New Testament.</p>
          <!-- InstanceEndEditable -->
       </body>
    </text>

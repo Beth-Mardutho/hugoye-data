@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A Bibliographical Clavis to the Corpus of Works attributed to Isaac of Antioch</title>
+            <title type="main">A Bibliographical Clavis to the Corpus of Works attributed to Isaac of Antioch</title>
             <author>
-               <name>Edward G. Mathews, Jr.</name>
+               <name>
+                  <forename>Edward G.</forename>
+                  <surname>Mathews, jr.</surname>
+               </name>
                <affiliation>
                   <orgName>Edward G. Mathews, Jr.</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>January 2002</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol5No1</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv5n1mathews</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,31 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Isaac of Antioch</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>The corpus of extant Syriac works which are
+    attributed to Isaac of Antioch have barely begun to be studied.
+    There are no critical editions and the secondary literature is
+    sparse at best. This little <hi rend="italic">Clavis</hi> is a simple catalogue
+    of work-to-date on this corpus.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -63,138 +95,71 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">The corpus of extant Syriac works which are
-    attributed to Isaac of Antioch have barely begun to be studied.
-    There are no critical editions and the secondary literature is
-    sparse at best. This little <hi rend="italic">Clavis</hi> is a simple catalogue
-    of work-to-date on this corpus.</p>
+
          <lb/>
-         <head>Contents</head>
-         <list type="ordered">
-            <item>
-               <ref target="#S1">Preface</ref>
-            </item>
-            <item>
-               <ref target="#S2">Abbreviations</ref>
-            </item>
-            <item>
-               <ref target="#S3">General Studies and Presentations</ref>
-               <list type="ordered">
-                  <item>
-                     <ref target="#S3A">Sections in introductory works and
-          handbooks</ref>
-                  </item>
-                  <item>
-                     <ref target="#S3B">Articles in dictionaries and
-          encyclopedias</ref>
-                  </item>
-                  <item>
-                     <ref target="#S3C">General works and references</ref>
-                  </item>
-                  <item>
-                     <ref target="#S3D">Biographical Notices and Material for
-          Identification of Isaac/s</ref>
-                  </item>
-               </list>
-            </item>
-            <item>
-               <ref target="#S4">Survey of the Works attributed to Isaac</ref>
-               <list type="ordered">
-                  <item>
-                     <ref target="#S4A">Editions</ref>
-                     <list type="ordered">
-                        <item>
-                           <ref target="#S4Ai">Editions of Collected
-              Works</ref>
-                        </item>
-                        <item>
-                           <ref target="#S4Aii">Editions of Individual
-              Works</ref>
-                        </item>
-                     </list>
-                  </item>
-                  <item>
-                     <ref target="#S4B">Translations</ref>
-                     <list type="ordered">
-                        <item>
-                           <ref target="#S4Bi">English</ref>
-                        </item>
-                        <item>
-                           <ref target="#S4Bii">French</ref>
-                        </item>
-                        <item>
-                           <ref target="#S4Biii">German</ref>
-                        </item>
-                        <item>
-                           <ref target="#S4Biv">Italian</ref>
-                        </item>
-                     </list>
-                  </item>
-                  <item>
-                     <ref target="#S4C">Studies</ref>
-                  </item>
-               </list>
-            </item>
-         </list>
+
          <lb/>
-         <head xml:id="S1">Preface</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] The
+         <head xml:id="HV5N1Mathews3">Preface</head>
+         <p>
+            <anchor corresp="P1"/>[1] The
     fifth-century Syriac writer, generally known in the scholarly
-    world as �Isaac of Antioch�, is one of only very few Syriac
-    authors to whom tradition has accorded the appellation �the
-    Great�.� Even Ephrem the Syrian, with whom medieval Syrian
-    writers often associate Isaac, is never so dubbed.� In the
-    manuscript tradition, however, Isaac is far more often given
-    the simple designation �teacher� (Syr. malf�n�), or even
-    �teacher of the Syrians�.� The Jacobite Patriarch John bar
-    Shushan (�1073) considered the works of Isaac sufficiently
-    numerous and edifying that he made an attempt to bring them all
-    into a single collection.� Unquestionably, Isaac should be
-    numbered among the most prolific of Syriac writers; his works,
-    mostly m�mr� with a few madr<hi rend="overline">a</hi>sh�,
-    have still not been collected or sorted out, but those that are
+    world as ‘Isaac of Antioch’, is one of only very
+    few Syriac authors to whom tradition has accorded the
+    appellation ‘the Great’.  Even Ephrem the
+    Syrian, with whom medieval Syrian writers often associate
+    Isaac, is never so dubbed.  In the manuscript tradition,
+    however, Isaac is far more often given the simple designation
+    ‘teacher’ (Syr. malfônô), or even
+    ‘teacher of the Syrians’.  The Jacobite
+    Patriarch John bar Shushan (†1073) considered the works
+    of Isaac sufficiently numerous and edifying that he made an
+    attempt to bring them all into a single collection. 
+    Unquestionably, Isaac should be numbered among the most
+    prolific of Syriac writers; his works, mostly mêmrê
+    with a few madr<hi rend="overline">a</hi>shê, have
+    still not been collected or sorted out, but those that are
     known number considerably more than two hundred.<ref target="#FN1">1</ref> Yet, as nearly
     every student of Syriac knows, there remains the problem of who
-    Isaac was or, more precisely, �how many� Isaac was.� It is
-    commonplace in the sparse secondary literature on Isaac to cite
-    a letter of Jacob of Edessa to John the Stylite, one of his
-    favorite correspondents, in which Jacob responds to John�s
-    query concerning the identity of Isaac, by enumerating three
-    Isaacs who lived during the course of the fifth century, and to
-    say that it is the works of these three Isaacs that constitute
-    the corpus of works that scholars generally attribute to Isaac
-    of Antioch.� Yet, Robert Murray may be closer to the mark when
-    he opts not to attempt to �solve the problem of how many
-    writers shelter under the name of Isaac of Antioch.�<ref target="#FN2">2</ref> As a
-    single example, scholars have already noted that there are a
-    number of works that are variously attributed to Isaac and to
-    Ephrem, a division already reflected in early editions of these
-    two authors (see below).</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Despite
+    Isaac was or, more precisely, ‘how many’ Isaac
+    was.  It is commonplace in the sparse secondary literature
+    on Isaac to cite a letter of Jacob of Edessa to John the
+    Stylite, one of his favorite correspondents, in which Jacob
+    responds to John’s query concerning the identity of
+    Isaac, by enumerating three Isaacs who lived during the course
+    of the fifth century, and to say that it is the works of these
+    three Isaacs that constitute the corpus of works that scholars
+    generally attribute to Isaac of Antioch.  Yet, Robert
+    Murray may be closer to the mark when he opts not to attempt to
+    “solve the problem of how many writers shelter under the
+    name of Isaac of Antioch.”<ref target="#FN2">2</ref> As a single example, scholars
+    have already noted that there are a number of works that are
+    variously attributed to Isaac and to Ephrem, a division already
+    reflected in early editions of these two authors (see
+    below).</p>
+         <p>
+            <anchor corresp="P2"/>[2] Despite
     the great number of works attributed to Isaac, however, there
-    has been embarassingly little work done on this corpus.� Much
-    less than half of the works have been edited at all, and then
-    only on the basis of few and late manuscripts (see editions,
-    below).� This corpus has been accorded equally meager treatment
-    in modern scholarly research; very little has been done to sort
-    out the corpus and there has been almost no attempt to try to
-    discover the identity, or identities, of the author or authors
-    whose works are included in this corpus.� A decade and a half
-    ago now, Sebastian Brock noted that the state of the works of
-    Isaac, along with those of Narsai and Jacob of Sarug, was
-    �indicative of the underdeveloped state of Syriac
-    studies�.<ref target="#FN3">3</ref> In the time since Brock�s article appeared, only
-    a very few works of Narsai and Jacob have appeared in new
-    editions or translations, but only a very secondary works that
-    deal with anything from the Isaac corpus.<ref target="#FN4">4</ref> This little
-    <hi rend="italic">Clavis</hi> constitutes, I hope, the very first attempt at
-    rectifying this state of affairs.<ref target="#FN5">5</ref>
+    has been embarassingly little work done on this corpus. 
+    Much less than half of the works have been edited at all, and
+    then only on the basis of few and late manuscripts (see
+    editions, below).  This corpus has been accorded equally
+    meager treatment in modern scholarly research; very little has
+    been done to sort out the corpus and there has been almost no
+    attempt to try to discover the identity, or identities, of the
+    author or authors whose works are included in this
+    corpus.  A decade and a half ago now, Sebastian Brock
+    noted that the state of the works of Isaac, along with those of
+    Narsai and Jacob of Sarug, was “indicative of the
+    underdeveloped state of Syriac studies”.<ref target="#FN3">3</ref> In the time since
+    Brock’s article appeared, only a very few works of Narsai
+    and Jacob have appeared in new editions or translations, but
+    only a very secondary works that deal with anything from the
+    Isaac corpus.<ref target="#FN4">4</ref> This little <hi rend="italic">Clavis</hi> constitutes, I hope,
+    the very first attempt at rectifying this state of
+    affairs.<ref target="#FN5">5</ref>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] Readers
+         <p>
+            <anchor corresp="P3"/>[3] Readers
     of this journal will quickly note that the organization of the
     material below owes a great debt to the extremely clear and
     orderly presentation of Dirk Kruisheer and Luk Van Rompay in
@@ -202,54 +167,51 @@
     Edessa</hi>, which appeared in the very first issue of
     <hi rend="italic">Hugoye</hi>.<ref target="#FN6">6</ref> Due to both the contents of the Isaacian corpus
     and the relatively smaller secondary literature, I was able to
-    simplify the categories somewhat from theirs.� The list of
+    simplify the categories somewhat from theirs.  The list of
     studies below was also compiled, for pre-1960, on the basis of
     C. Moss, <hi rend="italic">Catalogue of Syriac Printed Books and Related
     Literature in the British Museum</hi> (London 1962) and I. Ortiz
-    de Urbina, <hi rend="italic">Patrologia Syriaca</hi> (Rome 1965).� For
+    de Urbina, <hi rend="italic">Patrologia Syriaca</hi> (Rome 1965).  For
     subsequent years I, like Syriac scholars everywhere, am
     indebted to the bibliographies of Sebastian Brock published in
     <hi rend="italic">PdO</hi> 4 (1973) 393-465, 10 (1981-1982) 291-412, 14 (1987)
-    289-360, 17 (1992) 211-301.� These four bibliographies have now
-    been collated together and published in book form in S.P.
-    Brock, <hi rend="italic">Syriac Studies. A Classified Bibliography
-    (1960-1990)</hi> (Kaslik 1996).� Subsequent to these, S.P.
-    Brock, �Syriac Studies 1990-1995.� A Classified Bibliography,�
-    <hi rend="italic">PdO</hi> 23 (1998) 241-342 has appeared; it is presumed �
-    even hoped � that another installment for 1996-2000 should
-    appear in one of the next volumes of <hi rend="italic">Parole de
-    l�Orient</hi>.� I have made every attempt both to check all
-    these earlier entries and to bring them as up-to-date as
-    possible.� Following Kruisheer and Van Rompay, I have also
-    provided references to the standard handbooks and
-    encyclopedias, which were necessarily not included in the
-    previously mentioned bibliographies.� Likewise, I have not
-    included catalogues of manuscripts.� I hope to provide a
-    revised checklist of incipits in a future issue of this
-    journal; this will comprise a glimpse of a complete catalogue
-    of Isaac�s works in manuscript collections that is also
-    currently in preparation.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Unlike
+    289-360, 17 (1992) 211-301.  These four bibliographies
+    have now been collated together and published in book form in
+    S.P. Brock, <hi rend="italic">Syriac Studies. A Classified Bibliography
+    (1960-1990)</hi> (Kaslik 1996).  Subsequent to these, S.P.
+    Brock, “Syriac Studies 1990-1995.  A Classified
+    Bibliography,” <hi rend="italic">PdO</hi> 23 (1998) 241-342 has appeared;
+    it is presumed – even hoped – that another
+    installment for 1996-2000 should appear in one of the next
+    volumes of <hi rend="italic">Parole de l’Orient</hi>.  I have made
+    every attempt both to check all these earlier entries and to
+    bring them as up-to-date as possible.  Following Kruisheer
+    and Van Rompay, I have also provided references to the standard
+    handbooks and encyclopedias, which were necessarily not
+    included in the previously mentioned bibliographies. 
+    Likewise, I have not included catalogues of manuscripts. 
+    I hope to provide a revised checklist of incipits in a future
+    issue of this journal; this will comprise a glimpse of a
+    complete catalogue of Isaac’s works in manuscript
+    collections that is also currently in preparation.</p>
+         <p>
+            <anchor corresp="P4"/>[4] Unlike
     Kruisheer and Van Rompay, I did not have the advantage of a
     symposium on Isaac, and as a consequence the following list
     suffers from the great disadvantage of having been compiled by
-    one person � and one who is clearly not Sebastian Brock.�
-    Thankfully, George Kiraz offered the possibility of submitting
-    this bibliography to <hi rend="italic">Hugoye</hi>, whose electronic medium
-    will easily allow emendations of omission and/or reparation,
-    and of any other sort of necessary improvement to the present
-    work.� I, therefore, kindly proffer a similar invitation to
-    readers of this journal, to send in any corrections, additions,
-    or any other sort of helpful remark, all of which I will be
-    happy to include and to acknowledge in future updates to a
-    bibliography that I hope will begin to grow with greater
-    rapidity than heretofore.</p>
-         <head xml:id="S2">Abbreviations</head>
-         <table html:border="0"
-                html:cellspacing="5"
-                html:cellpadding="5"
-                html:align="center">
+    one person – and one who is clearly not Sebastian
+    Brock.  Thankfully, George Kiraz offered the possibility
+    of submitting this bibliography to <hi rend="italic">Hugoye</hi>, whose
+    electronic medium will easily allow emendations of omission
+    and/or reparation, and of any other sort of necessary
+    improvement to the present work.  I, therefore, kindly
+    proffer a similar invitation to readers of this journal, to
+    send in any corrections, additions, or any other sort of
+    helpful remark, all of which I will be happy to include and to
+    acknowledge in future updates to a bibliography that I hope
+    will begin to grow with greater rapidity than heretofore.</p>
+         <head xml:id="HV5N1Mathews4">Abbreviations</head>
+         <table html:border="0" html:cellspacing="5" html:cellpadding="5" html:align="center">
             <row>
                <cell valign="top" rowspan="1" colspan="1">
                   <hi rend="italic">BA</hi>
@@ -260,7 +222,7 @@
                <cell valign="top" rowspan="1" colspan="1">
                   <hi rend="italic">BKV</hi>
                </cell>
-               <cell valign="top" rowspan="1" colspan="1">Bibliothek der Kirchenv�ter</cell>
+               <cell valign="top" rowspan="1" colspan="1">Bibliothek der Kirchenväter</cell>
             </row>
             <row>
                <cell valign="top" rowspan="1" colspan="1">
@@ -299,7 +261,7 @@
                <cell valign="top" rowspan="1" colspan="1">
                   <hi rend="italic">LM</hi>
                </cell>
-               <cell valign="top" rowspan="1" colspan="1">Le Mus�on</cell>
+               <cell valign="top" rowspan="1" colspan="1">Le Muséon</cell>
             </row>
             <row>
                <cell valign="top" rowspan="1" colspan="1">
@@ -329,7 +291,7 @@
                <cell valign="top" rowspan="1" colspan="1">
                   <hi rend="italic">PdO</hi>
                </cell>
-               <cell valign="top" rowspan="1" colspan="1">Parole de l�Orient</cell>
+               <cell valign="top" rowspan="1" colspan="1">Parole de l’Orient</cell>
             </row>
             <row>
                <cell valign="top" rowspan="1" colspan="1">
@@ -360,336 +322,355 @@
                <cell valign="top" rowspan="1" colspan="1">
                   <hi rend="italic">ZfS</hi>
                </cell>
-               <cell valign="top" rowspan="1" colspan="1">Zeitschrift f�r Semitistik</cell>
+               <cell valign="top" rowspan="1" colspan="1">Zeitschrift für Semitistik</cell>
             </row>
          </table>
-         <head xml:id="S3">I. General Studies and Presentations</head>
-         <head xml:id="S3A">A. Sections in Introductory Works and
+         <head xml:id="HV5N1Mathews5">I. General Studies and Presentations</head>
+         <head xml:id="HV5N1Mathews6">A. Sections in Introductory Works and
     Handbooks</head>
-         <p rend="biblio">- J.S. Assemanus, <hi rend="italic">Bibliotheca Orientalis
+         <p>- J.S. Assemanus, <hi rend="italic">Bibliotheca Orientalis
     Clementino-Vaticana</hi> I (Rome 1719) 207b-234b.</p>
-         <p rend="biblio">- W. Wright, <hi rend="italic">A Short History of Syriac
+         <p>- W. Wright, <hi rend="italic">A Short History of Syriac
     Literature</hi> (London 1894) 51-54 [and see index].</p>
-         <p rend="biblio">- J. Mann, <hi rend="italic">Al-muruj al-nuzhiah</hi> I
+         <p>- J. Mann, <hi rend="italic">Al-muruj al-nuzhiah</hi> I
     (Mosul 1901) 163-176.</p>
-         <p rend="biblio">- R. Duval, <hi rend="italic">La litt�rature syriaque</hi>
-    (Anciennes litt�ratures chr�tiennes 2; Paris 1907) 14,
-    337-339.</p>
-         <p rend="biblio">- A. Baumstark, <hi rend="italic">Die christlichen
-    Literaturen des Orients</hi>, I.� <hi rend="italic">Einleitung. I.� Das
-    christlich-aram�ische und das koptische Schrifttum</hi>
-    (Sammlung G�schen; Leipzig 1911) 103.</p>
-         <p rend="biblio">- A. Baumstark, <hi rend="italic">Geschichte der syrischen
+         <p>- R. Duval, <hi rend="italic">La littérature
+    syriaque</hi> (Anciennes littératures chrétiennes
+    2; Paris 1907) 14, 337-339.</p>
+         <p>- A. Baumstark, <hi rend="italic">Die christlichen
+    Literaturen des Orients</hi>, I.  <hi rend="italic">Einleitung. I. 
+    Das christlich-aramäische und das koptische Schrifttum</hi>
+    (Sammlung Göschen; Leipzig 1911) 103.</p>
+         <p>- A. Baumstark, <hi rend="italic">Geschichte der syrischen
     Literatur</hi> (Bonn 1922) 63-66.</p>
-         <p rend="biblio">- O. Bardenhewer, <hi rend="italic">Geschichte der
+         <p>- O. Bardenhewer, <hi rend="italic">Geschichte der
     Altkirchlichen Literatur</hi> IV (Freiburg im Bresgau 1924)
     402-407.</p>
-         <p rend="biblio">- J.-B. Chabot, <hi rend="italic">Litt�rature syriaque</hi>
-    (Paris 1934) 33-35.</p>
-         <p rend="biblio">- W.H.P. Hatch, <hi rend="italic">An Album of Dated Syriac
-    Manuscripts</hi> (Boston 1946) 148, 150, 153, 161.� [sample
-    manuscript pages from Isaac�s works]</p>
-         <p rend="biblio">- A. Baumstark, �Aram�isch und Syrisch�, in
-    <hi rend="italic">Semitistik</hi> (Handbuch der Orientalistik III.2-3; Leiden
-    1954) 174.</p>
-         <p rend="biblio">- Aphraam I Barsaum, <hi rend="italic">Kitaab al-lu�lu�
-    al-manthuur fii taariikh al-<hi rend="sup">c</hi>uluum wa�l-aadaab al-
-    suryaaniyya</hi> (Aleppo 1956<hi rend="sup">2</hi>; Glane
-    1987<hi rend="sup">4</hi>) 263-264.� [Eng. tr., in Aphraam I. Barsaum,
-    <hi rend="italic">The History of Syriac Literature and Sciences</hi>, tr.,
-    Matti Mousa (Pueblo 2000) 84-85]</p>
-         <p rend="biblio">- I. Ortiz de Urbina, <hi rend="italic">Patrologia
+         <p>- J.-B. Chabot, <hi rend="italic">Littérature
+    syriaque</hi> (Paris 1934) 33-35.</p>
+         <p>- W.H.P. Hatch, <hi rend="italic">An Album of Dated Syriac
+    Manuscripts</hi> (Boston 1946) 148, 150, 153, 161.  [sample
+    manuscript pages from Isaac’s works]</p>
+         <p>- A. Baumstark, “Aramäisch und
+    Syrisch”, in <hi rend="italic">Semitistik</hi> (Handbuch der
+    Orientalistik III.2-3; Leiden 1954) 174.</p>
+         <p>- Aphraam I Barsaum, <hi rend="italic">Kitaab
+    al-lu’lu’ al-manthuur fii taariikh
+    al-<hi rend="sup">c</hi>uluum wa’l-aadaab al- suryaaniyya</hi>
+    (Aleppo 1956<hi rend="sup">2</hi>; Glane 1987<hi rend="sup">4</hi>)
+    263-264.  [Eng. tr., in Aphraam I. Barsaum, <hi rend="italic">The History
+    of Syriac Literature and Sciences</hi>, tr., Matti Mousa (Pueblo
+    2000) 84-85]</p>
+         <p>- I. Ortiz de Urbina, <hi rend="italic">Patrologia
     Syriaca</hi> (Rome 1965<hi rend="sup">2</hi>) 100-102.</p>
-         <p rend="biblio">- A. Abouna, <hi rend="italic">Adab al-lughat
+         <p>- A. Abouna, <hi rend="italic">Adab al-lughat
     al-aramiyya</hi> (Beirut 1970) 92, 202-204.</p>
-         <p rend="biblio">- J. Assfalg and P. Kr�ger, <hi rend="italic">Kleines
-    W�rterbuch des Christlichen Orients</hi> (Wiesbaden 1975)
+         <p>- J. Assfalg and P. Krüger, <hi rend="italic">Kleines
+    Wörterbuch des Christlichen Orients</hi> (Wiesbaden 1975)
     148-149.</p>
-         <p rend="biblio">- M. Albert, �Langue et litt�rature
-    syriaques�, in M. Albert et al., eds., <hi rend="italic">Christianismes
-    orientaux.� Introduction � l��tude des langues et des
-    litt�ratures</hi> (Initiations au christianisme ancien; Paris
-    1993) 347.</p>
-         <p rend="biblio">- S.P. Brock, <hi rend="italic">A Brief Outline of Syriac
-    Literature</hi> (M<hi rend="overline">o</hi>r<hi rend="overline">a</hi>n �Eth�<hi rend="overline">o</hi>; 9;
-    Kottayam 1997) 41-42.</p>
-         <p rend="biblio">- P. Bettiolo, �VI. Letteratura Siriaca,� in
-    A. di Berardino, <hi rend="italic">Patrologia V.� Dal Concilio di Calcedonia
-    (451) a Giovanni Damasceno (�750):� I Padre Orientali</hi>
-    (Institutum Patristicum Augustinianum; Genoa 2000) 458-459.</p>
-         <head xml:id="S3B">B.�Articles in dictionaries and encyclopedias</head>
-         <p rend="biblio">- E. Nestle, art. �Isaak von Antiochien�,
-    <hi rend="italic">Real-Encyklop�die f�r protestantische Theologie und
-    Kirche</hi> 7 (1880<hi rend="sup">2</hi>) 162-163.</p>
-         <p rend="biblio">- C.J. Ball, arts. �Isaacus Antiochenus�,
-    �Isaacus (35)�, <hi rend="italic">Dictionary of Christian Biography</hi> III
-    (1880) 295-296, 297.</p>
-         <p rend="biblio">- O. Bardenhewer, art. �Isaak von
-    Antiochien�, <hi rend="italic">Wetzer und Welte�s Kirchenlexikon, oder
-    Encyklop�die der katholischen Theologie und ihrer
-    H�lfswissenschaften</hi> 6 (1889) 940-941.</p>
-         <p rend="biblio">- C.E. Nestle, art. �Isaak von Antiochien�,
-    <hi rend="italic">Realencyklop�die f�r protestantische Theologie und
-    Kirche</hi> 9 (1900<hi rend="sup">3</hi>) 437-438.</p>
-         <p rend="biblio">- L. Petit, art. �Isaac d�Antioche�,
-    <hi rend="italic">Dictionnaire de th�ologie catholique</hi> 8 (1924) 8-10.</p>
-         <p rend="biblio">- A. R�cker, art. �Isaak von Antiochien�,
-    <hi rend="italic">Lexikon f�r Theologie und Kirche</hi> 5 (1933) 610-611.</p>
-         <p rend="biblio">- I. Ortiz de Urbina, arts. �Isacco�, �Isacco
-    di Amida�, �Isacco di Antiochia�, �Isacco di Edessa�,
-    <hi rend="italic">Enciclopedia Cattolica</hi> 7 (1951) 232.</p>
-         <p rend="biblio">- P. Kr�ger, art. �Isaac von Antiocheia�,
-    <hi rend="italic">Lexikon f�r Theologie und Kirche</hi> 5 (1960<hi rend="sup">2</hi>)
-    772.</p>
-         <p rend="biblio">- R.Janin, art. �Isacco�, <hi rend="italic">Bibliotheca
-    Sanctorum</hi> 7 (1966) 920-921.</p>
-         <p rend="biblio">- F. Graffin, art. �Isaac d�Amid et Isaac
-    d�Antioche�, <hi rend="italic">Dictionnaire de Spiritualit�</hi> 7 (1971)
-    2010-2011.</p>
-         <p rend="biblio">- M. van Esbroeck, arts. �Isacco di Amida�,
-    �Isacco di Antiochia�, �Isacco di Edessa�, <hi rend="italic">Dizionario
-    Patristico e di Antichit� cristiane</hi> 2 (1984) 1828-1829.</p>
-         <p rend="biblio">- N.M. Boreng�sser, art. �Isaak von
-    Antiochien�, <hi rend="italic">Marienlexikon</hi> 3 (1991) 317-318.</p>
-         <p rend="biblio">- A.-M. Talbot, art. �Isaac of Antioch�,
-    <hi rend="italic">Oxford Dictionary of Byzantium</hi> 2 (1991) 1013.</p>
-         <p rend="biblio">- M. van Esbroeck, arts. �Isaac of Amida�,
-    �Isaac of Antioch�, �Isaac of Edessa�, <hi rend="italic">Encyclopedia of the
-    Early Church</hi> 1 (1992) 416 [transl. and rev. of arts.
-    �Isacco di Amida�, �Isacco di Antiochia�, �Isacco di Edessa�,
-    <hi rend="italic">Dizionario Patristico</hi>].</p>
-         <p rend="biblio">- P. Bruns, art. �Isaak von Antiochien�,
-    <hi rend="italic">Lexikon f�r Theologie und Kirche</hi> 5 (1996<hi rend="sup">3</hi>)
-    607.</p>
-         <p rend="biblio">- R. Aubert, arts. �Isaac d�Amid�, �Isaac dit
-    l�Ancien�, �Isaac d�Antioche�, �Isaac d�Edesse�, �Isaac le
-    Grand�, <hi rend="italic">Dictionnaire d�histoire et de g�ographie
-    eccl�siastiques</hi> 26 (1997) 74-75, 80, 82.</p>
-         <p rend="biblio">- P. Bruns, art. �Isaak III (von
-    Antiochien)�, <hi rend="italic">Reallexikon f�r Antike und Christentum</hi> 18
-    (1998) 931-945.</p>
-         <head xml:id="S3C">C. General Works and References</head>
-         <p rend="biblio">- R. Duval, <hi rend="italic">Histoire politique, religieuse
-    et littéraire d'Édesse jusqu'à la première croisade</hi> (Paris
-    1892) 161.</p>
-         <p rend="biblio">- M. Jugie, <hi rend="italic">Theologia dogmatica
+         <p>- M. Albert, “Langue et
+    littérature syriaques”, in M. Albert et al., eds.,
+    <hi rend="italic">Christianismes orientaux.  Introduction à
+    l’étude des langues et des littératures</hi>
+    (Initiations au christianisme ancien; Paris 1993) 347.</p>
+         <p>- S.P. Brock, <hi rend="italic">A Brief Outline of Syriac
+    Literature</hi> (M<hi rend="overline">o</hi>r<hi rend="overline">a</hi>n ’Eth’<hi rend="overline">o</hi>; 9; Kottayam 1997) 41-42.</p>
+         <p>- P. Bettiolo, “VI. Letteratura
+    Siriaca,” in A. di Berardino, <hi rend="italic">Patrologia V.  Dal
+    Concilio di Calcedonia (451) a Giovanni Damasceno
+    (†750):  I Padre Orientali</hi> (Institutum
+    Patristicum Augustinianum; Genoa 2000) 458-459.</p>
+         <head xml:id="HV5N1Mathews7">B. Articles in dictionaries and
+    encyclopedias</head>
+         <p>- E. Nestle, art. “Isaak von
+    Antiochien”, <hi rend="italic">Real-Encyklopädie für
+    protestantische Theologie und Kirche</hi> 7 (1880<hi rend="sup">2</hi>)
+    162-163.</p>
+         <p>- C.J. Ball, arts. “Isaacus
+    Antiochenus”, “Isaacus (35)”, <hi rend="italic">Dictionary
+    of Christian Biography</hi> III (1880) 295-296, 297.</p>
+         <p>- O. Bardenhewer, art. “Isaak von
+    Antiochien”, <hi rend="italic">Wetzer und Welte’s Kirchenlexikon,
+    oder Encyklopädie der katholischen Theologie und ihrer
+    Hülfswissenschaften</hi> 6 (1889) 940-941.</p>
+         <p>- C.E. Nestle, art. “Isaak von
+    Antiochien”, <hi rend="italic">Realencyklopädie für
+    protestantische Theologie und Kirche</hi> 9 (1900<hi rend="sup">3</hi>)
+    437-438.</p>
+         <p>- L. Petit, art. “Isaac
+    d’Antioche”, <hi rend="italic">Dictionnaire de théologie
+    catholique</hi> 8 (1924) 8-10.</p>
+         <p>- A. Rücker, art. “Isaak von
+    Antiochien”, <hi rend="italic">Lexikon für Theologie und Kirche</hi>
+    5 (1933) 610-611.</p>
+         <p>- I. Ortiz de Urbina, arts.
+    “Isacco”, “Isacco di Amida”,
+    “Isacco di Antiochia”, “Isacco di
+    Edessa”, <hi rend="italic">Enciclopedia Cattolica</hi> 7 (1951) 232.</p>
+         <p>- P. Krüger, art. “Isaac von
+    Antiocheia”, <hi rend="italic">Lexikon für Theologie und Kirche</hi>
+    5 (1960<hi rend="sup">2</hi>) 772.</p>
+         <p>- R.Janin, art. “Isacco”,
+    <hi rend="italic">Bibliotheca Sanctorum</hi> 7 (1966) 920-921.</p>
+         <p>- F. Graffin, art. “Isaac d’Amid
+    et Isaac d’Antioche”, <hi rend="italic">Dictionnaire de
+    Spiritualité</hi> 7 (1971) 2010-2011.</p>
+         <p>- M. van Esbroeck, arts. “Isacco di
+    Amida”, “Isacco di Antiochia”, “Isacco
+    di Edessa”, <hi rend="italic">Dizionario Patristico e di
+    Antichità cristiane</hi> 2 (1984) 1828-1829.</p>
+         <p>- N.M. Borengässer, art. “Isaak
+    von Antiochien”, <hi rend="italic">Marienlexikon</hi> 3 (1991)
+    317-318.</p>
+         <p>- A.-M. Talbot, art. “Isaac of
+    Antioch”, <hi rend="italic">Oxford Dictionary of Byzantium</hi> 2 (1991)
+    1013.</p>
+         <p>- M. van Esbroeck, arts. “Isaac of
+    Amida”, “Isaac of Antioch”, “Isaac of
+    Edessa”, <hi rend="italic">Encyclopedia of the Early Church</hi> 1 (1992)
+    416 [transl. and rev. of arts. “Isacco di Amida”,
+    “Isacco di Antiochia”, “Isacco di
+    Edessa”, <hi rend="italic">Dizionario Patristico</hi>].</p>
+         <p>- P. Bruns, art. “Isaak von
+    Antiochien”, <hi rend="italic">Lexikon für Theologie und Kirche</hi>
+    5 (1996<hi rend="sup">3</hi>) 607.</p>
+         <p>- R. Aubert, arts. “Isaac
+    d’Amid”, “Isaac dit l’Ancien”,
+    “Isaac d’Antioche”, “Isaac
+    d’Edesse”, “Isaac le Grand”,
+    <hi rend="italic">Dictionnaire d’histoire et de géographie
+    ecclésiastiques</hi> 26 (1997) 74-75, 80, 82.</p>
+         <p>- P. Bruns, art. “Isaak III (von
+    Antiochien)”, <hi rend="italic">Reallexikon für Antike und
+    Christentum</hi> 18 (1998) 931-945.</p>
+         <head xml:id="HV5N1Mathews8">C. General Works and References</head>
+         <p>- R. Duval, <hi rend="italic">Histoire politique, religieuse
+    et littéraire d'Édesse jusqu'à la
+    première croisade</hi> (Paris 1892) 161.</p>
+         <p>- M. Jugie, <hi rend="italic">Theologia dogmatica
     christianorum orientalium V. De theologia dogmatica
     nestorianorum et monophysitarum</hi> (Paris 1935) 376.</p>
-         <p rend="biblio">- A. Vööbus, <hi rend="italic">History of Asceticism in the
-    Syrian Orient. A Contribution to the History of Culture in the
-    Near East</hi> I (CSCO 184; Louvain l958) 155-156, and
+         <p>- A. Vööbus, <hi rend="italic">History of
+    Asceticism in the Syrian Orient. A Contribution to the History
+    of Culture in the Near East</hi> I (CSCO 184; Louvain l958)
+    155-156, and passim.</p>
+         <p>- A. Vööbus, <hi rend="italic">History of
+    Asceticism in the Syrian Orient. A Contribution to the History
+    of Culture in the Near East</hi> II (CSCO 197; Louvain 1960)
     passim.</p>
-         <p rend="biblio">- A. Vööbus, <hi rend="italic">History of Asceticism in the
-    Syrian Orient. A Contribution to the History of Culture in the
-    Near East</hi> II (CSCO 197; Louvain 1960) passim.</p>
-         <p rend="biblio">- G. Downey, <hi rend="italic">A History of Antioch in
+         <p>- G. Downey, <hi rend="italic">A History of Antioch in
     Syria: From Seleucus to the Arab Conquest</hi> (Princeton 1961)
     479-480.</p>
-         <p rend="biblio">- J.B. Segal, <hi rend="italic">Edessa, 'The Blessed
+         <p>- J.B. Segal, <hi rend="italic">Edessa, 'The Blessed
     City'</hi> (Oxford 1970) 168-169 [and see index].</p>
-         <p rend="biblio">- R. Murray, <hi rend="italic">Symbols of Church and
+         <p>- R. Murray, <hi rend="italic">Symbols of Church and
     Kingdom: A Study in Early Syriac Tradition</hi> (London 1975)
     36, 41 [and see indices].</p>
-         <p rend="biblio">- H.J.W. Drijvers, <hi rend="italic">Cults and Beliefs at
-    Edessa</hi> (Etudes préliminaires aux religions orientales dans
-    l'Empire romain, 82; Leiden 1980) 36-37, 97, 158, 185.</p>
-         <p rend="biblio">- A. Vööbus, <hi rend="italic">History of Asceticism in the
-    Syrian Orient. A Contribution to the History of Culture in the
-    Near East</hi> III (CSCO 500; Louvain 1988) 82-94, and
-    passim.</p>
-         <head xml:id="S3D">D. Biographical Notices and Material for
+         <p>- H.J.W. Drijvers, <hi rend="italic">Cults and Beliefs at
+    Edessa</hi> (Etudes préliminaires aux religions
+    orientales dans l'Empire romain, 82; Leiden 1980) 36-37, 97,
+    158, 185.</p>
+         <p>- A. Vööbus, <hi rend="italic">History of
+    Asceticism in the Syrian Orient. A Contribution to the History
+    of Culture in the Near East</hi> III (CSCO 500; Louvain 1988)
+    82-94, and passim.</p>
+         <head xml:id="HV5N1Mathews9">D. Biographical Notices and Material for
     Identification of Isaac/s</head>
-         <p rend="biblio">- L. Hallier, <hi rend="italic">Untersuchungen über die
+         <p>- L. Hallier, <hi rend="italic">Untersuchungen über die
     Edessenische Chronik</hi> (TU 9.1; Leipzig 1892) 17-18, 114, 151
     (text).</p>
-         <p rend="biblio">- E.W. Brooks, ed., <hi rend="italic">Chronica Minora II</hi>
+         <p>- E.W. Brooks, ed., <hi rend="italic">Chronica Minora II</hi>
     (CSCO 3; Louvain 1960) 217.</p>
-         <p rend="biblio">- J. Bidez, and G.C. Hansen, eds.,
+         <p>- J. Bidez, and G.C. Hansen, eds.,
     <hi rend="italic">Sozomenus Kirchengeschichte</hi> (GCS 50; Berlin 1960) 301,
     361-362, 375.</p>
-         <p rend="biblio">- L. Parmentier and F. Scheidweiler, eds.,
+         <p>- L. Parmentier and F. Scheidweiler, eds.,
     <hi rend="italic">Theodoret Kirchengeschichte</hi> (GCS 44; Berlin 1954)
     272.</p>
-         <p rend="biblio">- E.C. Richardson, ed., <hi rend="italic">Gennadius, Liber
+         <p>- E.C. Richardson, ed., <hi rend="italic">Gennadius, Liber
     de Viris Inlustribus</hi> (TU XIV.1; Leipzig 1896) 84.</p>
-         <p rend="biblio">- G.C. Hansen, ed., <hi rend="italic">Theodoros Anagnostes
+         <p>- G.C. Hansen, ed., <hi rend="italic">Theodoros Anagnostes
     Kirchengeschichte</hi> (2d ed., GCS Neue Folge, Bd. 3; Berlin
     1995) 75.</p>
-         <p rend="biblio">- T. Mommsen, ed., "Marcellini v.c. comitis
+         <p>- T. Mommsen, ed., "Marcellini v.c. comitis
     chronicon ad a. DXVIII continuatum ad a. DXXXIV. Additamentum
     ad a. DXLVIII," in T. Mommsen, <hi rend="italic">Chronica minora saec. IV. V.
     VI. VII. II</hi> (MGH 11; Berlin 1894) 87. See also B. Croke,
     <hi rend="italic">The Chronicle of Marcellinus: A Translation and
     Commentary</hi> (BA, 7; Sydney 1995) 23, 95.</p>
-         <p rend="biblio">- J.B. Chabot, ed., <hi rend="italic">Incerti Auctoris
+         <p>- J.B. Chabot, ed., <hi rend="italic">Incerti Auctoris
     Chronicon Pseudo-Dionysianum Vulgo Dictum I</hi> (CSCO 91;
     Louvain 1927) 39, 193.</p>
-         <p rend="biblio">- E.W. Brooks, ed., <hi rend="italic">Historia Ecclesiastica
+         <p>- E.W. Brooks, ed., <hi rend="italic">Historia Ecclesiastica
     Zachariae Rhetori vulgo adscripta I</hi> (CSCO 83; Louvain 1919)
     103.</p>
-         <p rend="biblio">- M. Brière, ed., <hi rend="italic">Les homiliae cathedrales
-    de Sevère d'Antioche dans le traduction syriaque de Jacques
-    d'Édesse</hi> (PO 29.1; Paris 1960) 204 [708].</p>
-         <p rend="biblio">- Jacob of Edessa, "Letter to John the
+         <p>- M. Brière, ed., <hi rend="italic">Les homiliae
+    cathedrales de Sevère d'Antioche dans le traduction
+    syriaque de Jacques d'Édesse</hi> (PO 29.1; Paris 1960)
+    204 [708].</p>
+         <p>- Jacob of Edessa, "Letter to John the
     Stylite on various questions". The relevant section is edited
     and translated in Bedjan, iv-vi, and in Lamy IV, 362-363 (full
     citations below). [A new edition of all Jacob's letters is in
     preparation by J.J. Van Ginkel]</p>
-         <p rend="biblio">- Anonymous, "De S. Isaacio Confessore Abbate
+         <p>- Anonymous, "De S. Isaacio Confessore Abbate
     Constantinopoli" in <hi rend="italic">Acta Sanctorum</hi> (Editio novissima,
     curante Joanne Carnandet; Paris and Rome 1866) MAI
     7.243-255.</p>
-         <p rend="biblio">- J.B. Chabot, ed., <hi rend="italic">Chronique de Michel le
+         <p>- J.B. Chabot, ed., <hi rend="italic">Chronique de Michel le
     Syrien</hi> IV (Paris 1910) 185 [Syr.]; II (Paris 1901) 36
     [transl.].</p>
-         <p rend="biblio">- J. Abbeloos and T.J. Lamy, eds.,
+         <p>- J. Abbeloos and T.J. Lamy, eds.,
     <hi rend="italic">Gregorii Barhebraei Chronicon Ecclesiasticum</hi> I (Louvain
     1872) 165-166.</p>
-         <p rend="biblio">- A. J. Wensinck, <hi rend="italic">Bar Hebraeus's Book of
+         <p>- A. J. Wensinck, <hi rend="italic">Bar Hebraeus's Book of
     the Dove, together with some chapters from his Ethikon</hi>
     (Leiden 1919) 124.</p>
-         <head xml:id="S4">II. SURVEY OF ISAAC'S WORKS</head>
-         <head xml:id="S4A">A. Editions</head>
-         <head xml:id="S4Ai">i. Editions of Collected Works</head>
-         <p rend="biblio">- P. Bedjan, ed., <hi rend="italic">Homiliae S. Isaaci Syri
+         <head xml:id="HV5N1Mathews10">II. SURVEY OF ISAAC'S WORKS</head>
+         <head xml:id="HV5N1Mathews11">A. Editions</head>
+         <head xml:id="HV5N1Mathews12">i. Editions of Collected Works</head>
+         <p>- P. Bedjan, ed., <hi rend="italic">Homiliae S. Isaaci Syri
     Antiocheni</hi> I (Paris 1903). [67 mêmrê]</p>
-         <p rend="biblio">- G. Bickell, ed., <hi rend="italic">Sancti Isaaci Antiochi
+         <p>- G. Bickell, ed., <hi rend="italic">Sancti Isaaci Antiochi
     Doctoris syrorum opera omnia, syriace, arabiceque primus
-    edidit, latine vertit</hi> I-II (Gissae 1873-1877). [21 mêmrê
-    and 16 madrashê]</p>
-         <p rend="biblio">- T.J. Lamy, ed., <hi rend="italic">Sancti Ephraem Syri
+    edidit, latine vertit</hi> I-II (Gissae 1873-1877). [21
+    mêmrê and 16 madrashê]</p>
+         <p>- T.J. Lamy, ed., <hi rend="italic">Sancti Ephraem Syri
     Hymni et Sermones</hi> I-IV (Mechlinia 1882-1902). [contains a
-    number of mêmrê that are also attributed to Isaac: II.313-333
-    (=Bedjan, 408-420), II.393-426 (Baumstark, 65 n.4, attributes
-    this to Isaac), III.133-188 (Baumstark, 65 n.4, attributes this
-    to Isaac), IV.147-185 (=Bedjan, 49-70), IV.207-215 (Ms. Ming.
-    Syr. 190, ff. 124v attributes this to Isaac), IV.225-239
-    (=Bedjan, 36-44), IV.241-261 (=Bedjan, 13-24), IV.453-461 (Ms.
-    Br. Lib. Add. 14612, ff. 84v attributes this to Isaac)] it is
-    also likely that others in this volume belong to Isaac.</p>
-         <head xml:id="S4Aii">ii. Editions of Individual Works</head>
-         <p rend="biblio">- C. Moss, "Isaac of Antioch, Homily on the
+    number of mêmrê that are also attributed to Isaac:
+    II.313-333 (=Bedjan, 408-420), II.393-426 (Baumstark, 65 n.4,
+    attributes this to Isaac), III.133-188 (Baumstark, 65 n.4,
+    attributes this to Isaac), IV.147-185 (=Bedjan, 49-70),
+    IV.207-215 (Ms. Ming. Syr. 190, ff. 124v attributes this to
+    Isaac), IV.225-239 (=Bedjan, 36-44), IV.241-261 (=Bedjan,
+    13-24), IV.453-461 (Ms. Br. Lib. Add. 14612, ff. 84v attributes
+    this to Isaac)] it is also likely that others in this volume
+    belong to Isaac.</p>
+         <head xml:id="HV5N1Mathews13">ii. Editions of Individual Works</head>
+         <p>- C. Moss, "Isaac of Antioch, Homily on the
     Royal City," <hi rend="italic">ZfS</hi> 7 (1929) 295-306.</p>
-         <p rend="biblio">- S. Kazan, "Isaac of Antioch's Homily
+         <p>- S. Kazan, "Isaac of Antioch's Homily
     against the Jews," <hi rend="italic">OC</hi> 45 (1961) 30-53.</p>
-         <head xml:id="S4B">B. Translations</head>
-         <head xml:id="S4Bi">i. English</head>
-         <p rend="biblio">- C. Moss, "Isaac of Antioch, Homily on the
+         <head xml:id="HV5N1Mathews14">B. Translations</head>
+         <head xml:id="HV5N1Mathews15">i. English</head>
+         <p>- C. Moss, "Isaac of Antioch, Homily on the
     Royal City," <hi rend="italic">ZfS</hi> 8 (1932) 61-72.</p>
-         <p rend="biblio">- S. Kazan, "Isaac of Antioch's Homily
+         <p>- S. Kazan, "Isaac of Antioch's Homily
     against the Jews," <hi rend="italic">OC</hi> 45 (1961) 30-53.</p>
-         <head xml:id="S4Bii">ii. French</head>
-         <p rend="biblio">- P. Feghali, "Isaac d'Antioche, poème sur
-    l'incarnation du Verbe," <hi rend="italic">PdO</hi> 10 (1981/1982) 79-102. [=
-    Bedjan, 789-800; Bickell I, 2-24]</p>
-         <p rend="biblio">- P. Feghali, "Isaac d'Antioche, une hymne
+         <head xml:id="HV5N1Mathews16">ii. French</head>
+         <p>- P. Feghali, "Isaac d'Antioche, poème
+    sur l'incarnation du Verbe," <hi rend="italic">PdO</hi> 10 (1981/1982) 79-102.
+    [= Bedjan, 789-800; Bickell I, 2-24]</p>
+         <p>- P. Feghali, "Isaac d'Antioche, une hymne
     sur l'Incarnation," <hi rend="italic">PdO</hi> 11 (1983) 201-222. [= Bedjan,
     712-725; Bickell I, 54-78]</p>
-         <head xml:id="S4Biii">iii. German</head>
-         <p rend="biblio">- G. Bickell, <hi rend="italic">Ausgewählte Gedichte der
-    syrischen Kirchenväter, Cyrillonas, Baläus, Isaak v. Antiochien
-    und Jakob v. Sarug, zum ersten Male aus dem Syrischen
-    übersetzt</hi> (BKV; Kempten 1872) 109-191. [Bedjan, 789-800
-    (=Bickell I.2-24), 712-725 (=Bickell I.54-78), 815-821
-    (=Bickell I.294-306), 158-170 (=Bickell I.250-274), 171-180
-    (=Bickell I.274-294)]</p>
-         <p rend="biblio">- P.S. Landersdorfer, <hi rend="italic">Ausgewählte Gedichte
-    der syrischen Dichter, aus dem Syrischen übersetzt</hi>
-    (<hi rend="italic">BKV</hi> 6; Munich 1913) 101-248. [Bedjan, 789-800 (=Bickell
-    I.2-24), 805-815 (=Bickell I.32-48), 712-725 (=Bickell
-    I.54-78), 800-804 (=Bickell I.24-32), 621-641 (=Bickell
-    II.236-266), 454-468 (=Bickell I.178-204), 539-566 (=Bickell
-    II.266-352), 815-821 (=Bickell I.294-306), 158-170 (=Bickell
-    I.250-274), 171-180 (=Bickell I.274-294), 145-152, 153-158]</p>
-         <p rend="biblio">- P. Krüger, "Der dem Isaac von Antiochien
-    zugeschriebene Sermo über den Glauben," <hi rend="italic">OKS</hi> 1 (1952)
-    46-54. [= Bedjan, 655-664]</p>
-         <head xml:id="S4Biv">iv. Italian</head>
-         <p rend="biblio">- G. Furlani, "Tre discorsi metrici d'Isacco
+         <head xml:id="HV5N1Mathews17">iii. German</head>
+         <p>- G. Bickell, <hi rend="italic">Ausgewählte Gedichte
+    der syrischen Kirchenväter, Cyrillonas, Baläus, Isaak
+    v. Antiochien und Jakob v. Sarug, zum ersten Male aus dem
+    Syrischen übersetzt</hi> (BKV; Kempten 1872) 109-191.
+    [Bedjan, 789-800 (=Bickell I.2-24), 712-725 (=Bickell I.54-78),
+    815-821 (=Bickell I.294-306), 158-170 (=Bickell I.250-274),
+    171-180 (=Bickell I.274-294)]</p>
+         <p>- P.S. Landersdorfer, <hi rend="italic">Ausgewählte
+    Gedichte der syrischen Dichter, aus dem Syrischen
+    übersetzt</hi> (<hi rend="italic">BKV</hi> 6; Munich 1913) 101-248.
+    [Bedjan, 789-800 (=Bickell I.2-24), 805-815 (=Bickell I.32-48),
+    712-725 (=Bickell I.54-78), 800-804 (=Bickell I.24-32), 621-641
+    (=Bickell II.236-266), 454-468 (=Bickell I.178-204), 539-566
+    (=Bickell II.266-352), 815-821 (=Bickell I.294-306), 158-170
+    (=Bickell I.250-274), 171-180 (=Bickell I.274-294), 145-152,
+    153-158]</p>
+         <p>- P. Krüger, "Der dem Isaac von
+    Antiochien zugeschriebene Sermo über den Glauben,"
+    <hi rend="italic">OKS</hi> 1 (1952) 46-54. [= Bedjan, 655-664]</p>
+         <head xml:id="HV5N1Mathews18">iv. Italian</head>
+         <p>- G. Furlani, "Tre discorsi metrici d'Isacco
     d'Antiochia sulla fede," <hi rend="italic">RTFR</hi> 4 (1923) 257-287. [=
     Bedjan, 800-804, 789-800, 712-725; Bickell I, 24-32, 2-24,
     54-78]</p>
-         <p rend="biblio">- G. Furlani, "La Psicologia d'Isacco
+         <p>- G. Furlani, "La Psicologia d'Isacco
     d'Antiochia," <hi rend="italic">GDFI</hi> 7 (1926) 241-253. [= Bedjan,
     399-408]</p>
-         <head xml:id="S4C">C. Studies</head>
-         <p rend="biblio">- H. Koch, "Isaac von Antiochien als Gegner
+         <head xml:id="HV5N1Mathews19">C. Studies</head>
+         <p>- H. Koch, "Isaac von Antiochien als Gegner
     Augustinus," <hi rend="italic">TG</hi> 1 (1909) 622-634.</p>
-         <p rend="biblio">- P. Krüger, "Die mariologischen Anschauungen
-    in den dem Isaak von Antiochien zugeschriebenen Sermones. Ein
-    dogmengeschichtlicher Beitrag," <hi rend="italic">OKS</hi> 1 (1952)
-    123-131.</p>
-         <p rend="biblio">- P. Krüger, "Gehenna und Scheol in dem
+         <p>- P. Krüger, "Die mariologischen
+    Anschauungen in den dem Isaak von Antiochien zugeschriebenen
+    Sermones. Ein dogmengeschichtlicher Beitrag," <hi rend="italic">OKS</hi> 1
+    (1952) 123-131.</p>
+         <p>- P. Krüger, "Gehenna und Scheol in dem
     Schrifttum unter dem Namen des Isaak von Antiochien. Ein
-    dogmengeschichtlicher Beitrag zur Eschatologie der ältesten
-    Zeit," <hi rend="italic">OKS</hi> 2 (1953) 270-279.</p>
-         <p rend="biblio">- S. Kazan, "Isaac of Antioch's Homily
+    dogmengeschichtlicher Beitrag zur Eschatologie der
+    ältesten Zeit," <hi rend="italic">OKS</hi> 2 (1953) 270-279.</p>
+         <p>- S. Kazan, "Isaac of Antioch's Homily
     against the Jews," <hi rend="italic">OC</hi> 46 (1962) 87-98; 47 (1963) 89-97;
     49 (1965) 57-78.</p>
-         <p rend="biblio">- A.C. Klugkist, "Pagane Brauche in den
+         <p>- A.C. Klugkist, "Pagane Brauche in den
     Homilien des Isaak von Antiocheia gegen die Wahrsager," in
     <hi rend="italic">Symposium Syriacum</hi> 1972 (<hi rend="italic">OCA</hi> 197; Rome 1974)
     353-369. [re: Bedjan, 821-830 (=Bickell II, 204-221); Bedjan,
     830-837 (=Bickell II, 221-237); Lamy II, 393-426]</p>
-         <p rend="biblio">- S.P. Brock, "The Published Verse Homilies
+         <p>- S.P. Brock, "The Published Verse Homilies
     of Isaac of Antioch, Jacob of Serugh, and Narsai: Index of
     Incipits," <hi rend="italic">JSS</hi> 32 (1987) 279-313.</p>
-         <p rend="biblio">- A.C. Klugkist, "Die beiden Homilien des
-    Isaak von Antiocheia über die Eroberung von Bet Hur durch die
-    Araber," in <hi rend="italic">IV Symposium Syriacum 1984: Literary Genres in
-    Syriac Literature</hi>, ed., H.J.W. Drijvers, R. Lavenant, C.
+         <p>- A.C. Klugkist, "Die beiden Homilien des
+    Isaak von Antiocheia über die Eroberung von Bet Hur durch
+    die Araber," in <hi rend="italic">IV Symposium Syriacum 1984: Literary Genres
+    in Syriac Literature</hi>, ed., H.J.W. Drijvers, R. Lavenant, C.
     Molenberg, and G.J. Reinink (<hi rend="italic">OCA</hi> 229; Rome 1987)
     237-256. [re: Bedjan, 821-837; Bickell II, 204-237]</p>
-         <p rend="biblio">- E.G. Mathews, Jr., "'On Solitaries', Ephrem
+         <p>- E.G. Mathews, Jr., "'On Solitaries', Ephrem
     or Isaac?" <hi rend="italic">LM</hi> 103 (1990) 91-110. [re: Bedjan, 49-70;
     Lamy IV, 147-185]</p>
-         <p rend="biblio">- E.G. Mathews, Jr., "The Rich Man and
+         <p>- E.G. Mathews, Jr., "The Rich Man and
     Lazarus: Almsgiving and Repentance in Early Syriac Tradition,"
     <hi rend="italic">Diakonia</hi> 22 (1988-89) 89-104. [re: Bedjan, 112-127]</p>
-         <p rend="biblio">- S. AbouZayd, "Isaac of Antioch on Learning
+         <p>- S. AbouZayd, "Isaac of Antioch on Learning
     and Knowledge," in <hi rend="italic">VI Symposium Syriacum 1992</hi>, ed., R.
     Lavenant (<hi rend="italic">OCA</hi> 247; Rome 1994) 215-220. [re: Bedjan,
     1-12]</p>
-         <p rend="biblio">- M. van Esbroeck, "The memra on the parrot
+         <p>- M. van Esbroeck, "The memra on the parrot
     by Isaac of Antioch," <hi rend="italic">JTS</hi> 47 (1996) 464-476. [re:
     Bedjan, 737-788; Bickell I, 84-174]</p>
-         <p rend="biblio">- G. Greatrex, "Isaac of Antioch and the Sack
+         <p>- G. Greatrex, "Isaac of Antioch and the Sack
     of Beth Hur," <hi rend="italic">LM</hi> 111 (1998) 287-291. [re: Bedjan,
     821-837; Bickell II, 204-237]</p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
+         <head xml:id="HV5N1Mathews20">Notes</head>
+         <p>
             <ref target="#FNRef1">1</ref> See E.G. Mathews, Jr., "The Corpus of Isaac of
     Antioch: An Overview of its Contents," forthcoming. <ref target="#FNRef1">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef2">2</ref> R. Murray, <hi rend="italic">Symbols of Church and Kingdom</hi>
     (Cambridge 1975), 36. <ref target="#FNRef2">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef3">3</ref> S.P. Brock, "The Published Verse Homilies of Isaac
     of Antioch, Jacob of Serugh, and Narsai: Index of Incipits,"
     <hi rend="italic">JSS</hi> 32 (1987) 279. <ref target="#FNRef3">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef4">4</ref> A decade later Brock reiterated his plea in S.P.
     Brock, "Syriac Studies in the Last Three Decades: Some
     Reflections," in <hi rend="italic">VI Symposium Syriacum 1992</hi>, ed., R.
     Lavenant (OCA 247; Rome 1994) 28; shortly after this article A.
-    de Halleux, "Vingt ans d'�tude critique des �glises syriaques,"
-    in <hi rend="italic">The Christian East: Its Institutions and its Thought. A
-    Critical Reflection</hi>, ed. R.F. Taft (OCA 251; Rome 1996)
-    155, speaks of the corpus of Isaac as "un complexe litt�raire
-    encore mal d�brouill�." <ref target="#FNRef4">
+    de Halleux, "Vingt ans d'étude critique des
+    églises syriaques," in <hi rend="italic">The Christian East: Its
+    Institutions and its Thought. A Critical Reflection</hi>, ed.
+    R.F. Taft (OCA 251; Rome 1996) 155, speaks of the corpus of
+    Isaac as "un complexe littéraire encore mal
+    débrouillé." <ref target="#FNRef4">
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef5">5</ref> Other projects are also already in progress in
     conjunction with the newly established series Eastern Christian
     Texts (ECT) at Brigham Young University. It is hoped that
@@ -700,7 +681,7 @@
                <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
             </ref>
          </p>
-         <p rend="fnTxt">
+         <p>
             <ref target="#FNRef6">6</ref> D. Kruisheer and L. Van Rompay, "A Bibliographical
     Clavis to the Works of Jacob of Edessa," <ref target="../Vol1No1/index.html">
                <hi rend="italic">Hugoye</hi>

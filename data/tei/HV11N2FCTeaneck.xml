@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Jacob of Sarug and His Times: Studies in Sixth Century Syriac Christianity</title>
+            <title type="main">Jacob of Sarug and His Times: Studies in Sixth Century Syriac Christianity</title>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date/>
@@ -16,7 +25,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol11No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/conferenceAnnouncement/hv11n2fcteaneck</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -43,8 +52,19 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Jacob of Sarug</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,14 +73,14 @@
          <lb/>
     
     
-         <p rend="title2">Teaneck, October 24-26, 2008 
-    <!-- InstanceEndEditable --></p>
+         <p>Teaneck, October 24-26, 2008
+    </p>
     
     
          <!-- InstanceBeginEditable name="Content" -->
-         <head style="text-align:center">Call for Registration</head>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] St.
+         <head xml:id="HV11N2FCTeaneck1">Call for Registration</head>
+         <p>
+            <anchor corresp="P1"/>[1] St.
     Mark's Cathedral, on the occasion of its 50th Anniversary, is
     holding an international symposium on Jacob of Sarug and His
     Times. The symposium will be held on October 24-26, 2008 at 260
@@ -79,20 +99,20 @@
             <item>Aho Shemunkasho, University of Salzburg</item>
             <item>Lucas Van Rompay, Duke University</item>
          </list>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] To
+         <p>
+            <anchor corresp="P2"/>[2] To
     register contact Info@SyrianOrthodoxChurch.Org or (201)
     907-0122. The Symposium Secretary is Jack C. Darakjy, Symposium
     Secretariat, 161 Main Street, Suite 2, Hackensack, NJ
     07601-7114.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3]
+         <p>
+            <anchor corresp="P3"/>[3]
     Accommodation: Attendees are expected to make their own
     arrangements. The closest hotel (2 miles from the Cathedral) is
     the Teaneck Marriott at Glenpointe, 100 Frank W Burr Blvd,
     Teaneck, NJ 07666, Tel. 800-804-6835. Web site: <ref target="http://www.marriott.com/hotels/travel/ewrgp-teaneck-marriott-at-glenpointe">Teaneck Marriott</ref>.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Travel:
+         <p>
+            <anchor corresp="P4"/>[4] Travel:
     The closest airport is Newark International, ca. 20 minutes
     drive from Teaneck. The closest train station is NJ Transit
     station at Hackensack.</p>

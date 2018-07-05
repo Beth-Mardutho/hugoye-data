@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>François Graffin, S.J. (1905-2002)</title>
+            <title type="main">François Graffin, S.J. (1905-2002)</title>
             <author>
-               <name>Bernard OUTTIER</name>
+               <name>
+                  <forename>Bernard</forename>
+                  <surname>Outtier</surname>
+               </name>
                <affiliation>
                   <orgName>Bibliothèque du Caucase</orgName>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/inMemoriam/hv6n2outtier</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,8 +62,20 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Obituary</term>
+               <term>Fr. Francois Graffin</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,58 +87,58 @@
     
     
          <!-- #BeginEditable "Content" -->
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] Father
-    François Graffin was an outstanding figure in the world of
-    French oriental studies and of Syriac studies in particular.
+         <p>
+            <anchor corresp="P1"/>[1] Father
+    François Graffin was an outstanding figure in the world
+    of French oriental studies and of Syriac studies in particular.
     His gentle energy allowed him to work for many years in order
     to make known the field which had become dear to him: the
     theology of those who wrote in the Syriac language, especially
     of the poets.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Born in
-    the West of France, in the <hi rend="italic">Département de la Sarthe</hi>, on
-    January 1, 1905, he always remained attached to his family and
-    to his native village, to which he used to return every
-    year.<lb/>
+         <p>
+            <anchor corresp="P2"/>[2] Born in
+    the West of France, in the <hi rend="italic">Département de la
+    Sarthe</hi>, on January 1, 1905, he always remained attached to
+    his family and to his native village, to which he used to
+    return every year.<lb/>
          </p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] He
-    received a solid education in the <hi rend="italic">Collège Sainte-Croix</hi>
-    of Le Mans, with the Jesuit Fathers, and subsequently he
-    himself joined the Society of Jesus.</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] However,
+         <p>
+            <anchor corresp="P3"/>[3] He
+    received a solid education in the <hi rend="italic">Collège
+    Sainte-Croix</hi> of Le Mans, with the Jesuit Fathers, and
+    subsequently he himself joined the Society of Jesus.</p>
+         <p>
+            <anchor corresp="P4"/>[4] However,
     the fate of Father Graffin was to be determined by the work of
-    his uncle, Monseigneur René Graffin (1858-1941), editor of the
-    <hi rend="italic">Patrologia Syriaca</hi>, which was soon expanded into the
-    <hi rend="italic">Patrologia Orientalis</hi>, enabling the inclusion of texts
-    in the other languages of Eastern Christianity.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] François
-    Graffin loved to tell the humorous tale of how he was appointed
-    his uncle's successor by Pope Pius XI, to whom his uncle
-    submitted every year the new installments of the <hi rend="italic">Patrologia
-    Orientalis</hi>. In 1931, the Pope suggested that the work
-    should be entrusted to a religious order, which would guarantee
-    its continuity. "I have been educated by the Jesuits," was
-    Monseigneur Graffin's reply, "and I have a nephew who is a
-    Jesuit." - "Well then, take him!"</p>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Ten
+    his uncle, Monseigneur René Graffin (1858-1941), editor
+    of the <hi rend="italic">Patrologia Syriaca</hi>, which was soon expanded into
+    the <hi rend="italic">Patrologia Orientalis</hi>, enabling the inclusion of
+    texts in the other languages of Eastern Christianity.</p>
+         <p>
+            <anchor corresp="P5"/>[5]
+    François Graffin loved to tell the humorous tale of how
+    he was appointed his uncle's successor by Pope Pius XI, to whom
+    his uncle submitted every year the new installments of the
+    <hi rend="italic">Patrologia Orientalis</hi>. In 1931, the Pope suggested that
+    the work should be entrusted to a religious order, which would
+    guarantee its continuity. "I have been educated by the
+    Jesuits," was Monseigneur Graffin's reply, "and I have a nephew
+    who is a Jesuit." - "Well then, take him!"</p>
+         <p>
+            <anchor corresp="P6"/>[6] Ten
     years later, after additional studies in Paris, François
     Graffin succeeded his uncle as editor of the <hi rend="italic">Patrologia
     Orientalis</hi>. He himself became a specialist in the Syriac
     language, which he taught at the <hi rend="italic">Institut catholique</hi> in
     Paris from 1951 to 1975.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] His
+         <p>
+            <anchor corresp="P7"/>[7] His
     interest remained focused on theology. In 1957, he published
     one of the "bases" of the "Lamp of the Sanctuary" (a major work
     by Gregory Abu 'l-Faraj Barhebraeus), devoted to theology
     (<hi rend="italic">Patrologia Orientalis</hi>, XXVII, fasc. 4).</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] Father
+         <p>
+            <anchor corresp="P8"/>[8] Father
     Graffin was a faithful man in the fullest sense of the word. He
     took care to complete the work left unfinished by his teachers,
     a heavy task to which he gave priority over his own work. He
@@ -123,59 +147,61 @@
     <hi rend="italic">Patrologia Orientalis</hi> - and subsequently of the
     <hi rend="italic">Dissertationes decem de Uno e sancta Trinitate incorporato
     et passo</hi> by Philoxenus of Mabbog (four fascicules).</p>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] For
+         <p>
+            <anchor corresp="P9"/>[9] For
     fourteen years he was deeply involved in bringing these works
     to completion and it was only in 1984 that he published
     anonymous Syriac homilies, based on a sixth-century manuscript,
     and then co-authored the publication of the <hi rend="italic">Letter on the
     Three Degrees of Monastic Life</hi> by Joseph Hazzaya.</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10] In
-    fifty years of intense activity, François Graffin supervised
-    the publication of fifty fascicules of the <hi rend="italic">Patrologia
-    Orientalis</hi>, thirty-two of which deal with Syriac texts.</p>
-         <p rend="nn">
-            <anchor xml:id="P11"/>[11] He
+         <p>
+            <anchor corresp="P10"/>[10] In
+    fifty years of intense activity, François Graffin
+    supervised the publication of fifty fascicules of the
+    <hi rend="italic">Patrologia Orientalis</hi>, thirty-two of which deal with
+    Syriac texts.</p>
+         <p>
+            <anchor corresp="P11"/>[11] He
     was also in charge of the publication of the last volume of the
-    <hi rend="italic">Revue de l'Orient Chrétien</hi>, and he was considering
-    resuming the publication of this journal after the death of
-    Monseigneur Khouri-Sarkis (1968) and the termination of
-    <hi rend="italic">L'Orient syrien</hi>, the journal to which he had contributed
-    regularly, from its third issue onwards, and of which he had
-    become vice-director.</p>
-         <p rend="nn">
-            <anchor xml:id="P12"/>[12]
+    <hi rend="italic">Revue de l'Orient Chrétien</hi>, and he was
+    considering resuming the publication of this journal after the
+    death of Monseigneur Khouri-Sarkis (1968) and the termination
+    of <hi rend="italic">L'Orient syrien</hi>, the journal to which he had
+    contributed regularly, from its third issue onwards, and of
+    which he had become vice-director.</p>
+         <p>
+            <anchor corresp="P12"/>[12]
     However, a different solution was adopted, which consisted in
     the merger with the journal <hi rend="italic">Melto</hi> and the creation of
-    <hi rend="italic">Parole de l'Orient</hi>. François Graffin was particularly
-    pleased with this solution, which highlighted the special
-    relations which he had developed with his Eastern students, in
-    this case those of the Maronite University of Kaslik, in
-    Lebanon. He was a member of the editorial committee of this
-    recreated journal and published in it several articles.</p>
-         <p rend="nn">
-            <anchor xml:id="P13"/>[13] Of
+    <hi rend="italic">Parole de l'Orient</hi>. François Graffin was
+    particularly pleased with this solution, which highlighted the
+    special relations which he had developed with his Eastern
+    students, in this case those of the Maronite University of
+    Kaslik, in Lebanon. He was a member of the editorial committee
+    of this recreated journal and published in it several
+    articles.</p>
+         <p>
+            <anchor corresp="P13"/>[13] Of
     course, he was in love with Saint Ephrem, and because he also
     loved the beauty of French, he contributed to two volumes with
     translations of hymns which appeared in the collection
     <hi rend="italic">Sources chrétiennes</hi>.</p>
-         <p rend="nn">
-            <anchor xml:id="P14"/>[14]
+         <p>
+            <anchor corresp="P14"/>[14]
     Always speaking with the rigor and the clarity of a teacher, he
     remained humble, amiable in all circumstances, and
     generous.</p>
-         <p rend="nn">
-            <anchor xml:id="P15"/>[15] The
+         <p>
+            <anchor corresp="P15"/>[15] The
     impulse that he was able to give to Syriac studies in France
     resonates far beyond, in space as well as in time!</p>
-         <p rend="nn">
-            <anchor xml:id="P16"/>[16] A
-    printed bibliography of François Graffin, up to 1975, can be
-    found in volume 6-7 (1975-1976) of <hi rend="italic">Parole de l'Orient</hi>,
-    which was offered to honor him on the occasion of his
-    seventieth birthday. On the web, see: <ref target="http://www.jesuites.com/bibliographie/auteurs/graffin.htm">http://www.jesuites.com/bibliographie/auteurs/graffin.htm</ref>.</p>
-         <p rend="nn">[Translated from French by L. Van Rompay]</p>
+         <p>
+            <anchor corresp="P16"/>[16] A
+    printed bibliography of François Graffin, up to 1975,
+    can be found in volume 6-7 (1975-1976) of <hi rend="italic">Parole de
+    l'Orient</hi>, which was offered to honor him on the occasion of
+    his seventieth birthday. On the web, see: <ref target="http://www.jesuites.com/bibliographie/auteurs/graffin.htm">http://www.jesuites.com/bibliographie/auteurs/graffin.htm</ref>.</p>
+         <p>[Translated from French by L. Van Rompay]</p>
          <!-- #EndEditable -->
       </body>
    </text>

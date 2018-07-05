@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Some Further Notes on Thecla in Syriac Christianity</title>
+            <title type="main">Some Further Notes on Thecla in Syriac Christianity</title>
             <author>
-               <name>Catherine BURRIS and Lucas VAN ROMPAY</name>
+               <name>
+                  <forename>Catherine</forename>
+                  <surname>Rompay</surname>
+               </name>
                <affiliation>
                   <orgName/>
                </affiliation>
             </author>
+            <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+            <editor role="general">George A. Kiraz</editor>
+            <editor role="associate">James E. Walters</editor>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name type="script">html2TEI.xsl</name>
+            </respStmt>
          </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
             <date>July 2003</date>
@@ -22,7 +34,7 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol6No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/ /hv6n2burrisvanrompay</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -50,11 +62,35 @@
                         best scholarship available in the field of Syriac studies.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Syriac Studies</term>
+               <term>Thecla</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc status="uncorrectedTransformation">
-         <change when="2018-06-26-04:00">File created by XSLT transformation of original HTML encoded article.</change>
+         <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <front>
+         <div type="abstract">
+            <p>This paper is a follow up to an earlier
+    publication in which data related to the Syriac <hi rend="italic">Acts of
+    Thecla</hi> and to the cult of Thecla in Syria were
+    provisionally collected and surveyed. Some further data are
+    presented here. They are taken from Syriac literary sources:
+    the letters of Severus of Antioch, a liturgical hymn, and the
+    biography of John of Tella. In addition, the Armenian tradition
+    of the <hi rend="italic">Acts of Thecla</hi> is briefly mentioned as a witness
+    to the early Syriac text.</p>
+         </div>
+      </front>
       <body>
          <lb/>
          <lb/>
@@ -64,11 +100,7 @@
     
          <table html:align="center" html:cellpadding="5" html:cellspacing="5">
             <row>
-               <cell rend="address"
-                     valign="top"
-                     nowrap="nowrap"
-                     rowspan="1"
-                     colspan="1">
+               <cell rend="address" valign="top" nowrap="nowrap" rowspan="1" colspan="1">
                   <hi rend="address">cburris@email.unc.edu<lb/>
         University of North Carolina, Chapel Hill<lb/>
         Department of Religious Studies, CB#3225<lb/>
@@ -77,11 +109,7 @@
                <cell rowspan="1" colspan="1">
                   <hi rend="address">&amp;</hi>
                </cell>
-               <cell rend="address"
-                     valign="top"
-                     nowrap="nowrap"
-                     rowspan="1"
-                     colspan="1">
+               <cell rend="address" valign="top" nowrap="nowrap" rowspan="1" colspan="1">
                   <hi rend="address">rompay@duke.edu<lb/>
         Duke University<lb/>
         Department of Religion, Box 90964<lb/>
@@ -91,19 +119,10 @@
          </table>
          <!-- #EndEditable -->
          <!-- #BeginEditable "Content" -->
-         <head>Abstract</head>
-         <p rend="Abstract">This paper is a follow up to an earlier
-    publication in which data related to the Syriac <hi rend="italic">Acts of
-    Thecla</hi> and to the cult of Thecla in Syria were
-    provisionally collected and surveyed. Some further data are
-    presented here. They are taken from Syriac literary sources:
-    the letters of Severus of Antioch, a liturgical hymn, and the
-    biography of John of Tella. In addition, the Armenian tradition
-    of the <hi rend="italic">Acts of Thecla</hi> is briefly mentioned as a witness
-    to the early Syriac text.</p>
+
          <lb/>
-         <p rend="n">
-            <anchor xml:id="P1"/>[1] In an
+         <p>
+            <anchor corresp="P1"/>[1] In an
     earlier issue of this periodical we made a first attempt to
     survey the Syriac manuscript tradition of the <hi rend="italic">Acts of
     Thecla</hi> and to bring together various pieces of information
@@ -114,8 +133,8 @@
     the Thecla cult in Egypt [Davis 2001]. After the completion of
     our earlier paper, a few more interesting data have come to our
     attention which we would like to present here briefly.</p>
-         <p rend="n">
-            <anchor xml:id="P2"/>[2] Several
+         <p>
+            <anchor corresp="P2"/>[2] Several
     of the data listed earlier are datable to the sixth century.
     Two manuscripts of the <hi rend="italic">Acts</hi> originated in the sixth
     century, Severus' homily on Thecla can be situated between 512
@@ -123,8 +142,8 @@
     Thecla</hi> in the <hi rend="italic">Life of Febronia</hi> probably belongs to
     the late sixth or to the early seventh century. Most of our new
     data can be related to the sixth century as well.</p>
-         <p rend="n">
-            <anchor xml:id="P3"/>[3] First,
+         <p>
+            <anchor corresp="P3"/>[3] First,
     we return to Severus of Antioch, Syrian-Orthodox patriarch from
     512 to 518, whose homily no. 97, delivered on Thecla's feast
     day (September 24), was briefly analyzed earlier. It is
@@ -161,8 +180,8 @@
     and the heretics (i.e., the Chalcedonians) are not unlawfully
     conducting services or singing inside." [Brooks I,2, 1904, 305
     - Brooks' translation: II,2, 1904, 271]</p>
-         <p rend="n">
-            <anchor xml:id="P4"/>[4] Our
+         <p>
+            <anchor corresp="P4"/>[4] Our
     second reference is more loosely connected to Severus. A hymn
     devoted to Thecla is preserved in a collection which originally
     can be traced back to Severus, but which later was expanded to
@@ -180,8 +199,8 @@
     are by different authors. For those hymns that do not have an
     author's name it is impossible to ascertain whether or not they
     go back to Severus.</p>
-         <p rend="n">
-            <anchor xml:id="P5"/>[5] The
+         <p>
+            <anchor corresp="P5"/>[5] The
     collection of hymns has a small section devoted to "Holy
     martyrs who were martyred from among women". It contains hymns
     on Thecla, Drusis (two hymns), Euphemia, and Pelagia. The Hymn
@@ -209,19 +228,20 @@
       alike<lb/>
       thoughts of chastity and thy great mercy.
     </quote>
-         <p rend="n">
-            <anchor xml:id="P6"/>[6] Jacob's
+         <p>
+            <anchor corresp="P6"/>[6] Jacob's
     notes include a number of variants which do not affect the
     content of the text. Jacob also provides the reference to the
     Gospel of Luke, to which he adds a brief commentary. As for the
     two main terms used with regard to Thecla, "evangelist"
-    (<hi rend="italic">msabbronito</hi>) and "apostolic" (<hi rend="italic">šli<!--<u>-->h<!--</u>-->oyto</hi>,
-    apparently a substantivized adjective), no variant is provided.
-    Each of the sentences of the hymn refers to a specific event in
-    the <hi rend="italic">Acts</hi>, while the main lesson for later Christians
-    seems to be that of chastity.</p>
-         <p rend="n">
-            <anchor xml:id="P7"/>[7] Since
+    (<hi rend="italic">msabbronito</hi>) and "apostolic"
+    (<hi rend="italic">šli<!--<u>-->h<!--</u>-->oyto</hi>, apparently a substantivized
+    adjective), no variant is provided. Each of the sentences of
+    the hymn refers to a specific event in the <hi rend="italic">Acts</hi>, while
+    the main lesson for later Christians seems to be that of
+    chastity.</p>
+         <p>
+            <anchor corresp="P7"/>[7] Since
     the hymn on Thecla, like the other hymns on female martyrs, is
     anonymous, we are unable to ascertain whether Severus or a
     later sixth-century poet is its author. We may assume that the
@@ -229,8 +249,8 @@
     translated it into Syriac and that Jacob of Edessa still found
     it in the Greek manuscripts which he used in his revision
     work.</p>
-         <p rend="n">
-            <anchor xml:id="P8"/>[8] A
+         <p>
+            <anchor corresp="P8"/>[8] A
     further most interesting reference to Thecla is found in the
     biography of John of Tella, one of the leaders of the
     anti-Chalcedonian movement in Syria after Severus' exile to
@@ -266,8 +286,8 @@
       small upper room and spent there all his time ... (in order
       to practice ascetic life).
     </quote>
-         <p rend="n">
-            <anchor xml:id="P9"/>[9] The
+         <p>
+            <anchor corresp="P9"/>[9] The
     reading of the <hi rend="italic">Acts of Thecla</hi> is presented here, in
     early-sixth century Callinicus, as the decisive factor which
     made John turn away from a worldly career and opt for a radical
@@ -279,8 +299,8 @@
     including the Syriac one). Our new example shows that such
     effects were not the privilege of women, but also could be
     experienced by men!</p>
-         <p rend="nn">
-            <anchor xml:id="P10"/>[10]
+         <p>
+            <anchor corresp="P10"/>[10]
     Finally, an indirect witness to the prominent position of the
     <hi rend="italic">Acts of Thecla</hi> in Syriac Christianity may be seen in the
     Armenian version of the <hi rend="italic">Acts</hi>. Already in 1896, Conybeare
@@ -292,52 +312,53 @@
     Thecla starts being incorporated into original Armenian
     literature from the late fifth century onwards (Calzolari 1996
     and Calzolari 1997).</p>
-         <head xml:id="S1">Acknowledgement</head>
+         <head xml:id="HV6N2BurrisVanRompay2">Acknowledgement</head>
          <p>Michael Stone (Jerusalem) and Andrea B. Schmidt
     (Louvain-la-Neuve) should be thanked for having drawn our
     attention to the Armenian materials.</p>_______<lb/>
-         <head>Bibliography</head>
-         <p xml:id="B1" rend="biblio">Brooks 1902, 1903, 1904 = E.W.
+         <head xml:id="HV6N2BurrisVanRompay3">Bibliography</head>
+         <p>Brooks 1902, 1903, 1904 = E.W.
     Brooks, <hi rend="italic">The Sixth Book of the Select Letters of Severus
     Patriarch of Antioch in the Syriac Version of Athanasius of
     Nisibis</hi>, I,1-2. <hi rend="italic">Text</hi>, II,1-2. <hi rend="italic">Translation</hi>
     (London &amp; Oxford, 1902-1904).</p>
-         <p xml:id="B2" rend="biblio">Brooks 1907 = E.W. Brooks, <hi rend="italic">Vitae
+         <p>Brooks 1907 = E.W. Brooks, <hi rend="italic">Vitae
     virorum apud Monophysitas celeberrimorum</hi>, I (CSCO, 7 / Syr.
     7; Paris, 1907).</p>
-         <p xml:id="B3" rend="biblio">Brooks 1911 = E.W. Brooks, <hi rend="italic">James
+         <p>Brooks 1911 = E.W. Brooks, <hi rend="italic">James
     of Edessa. The Hymns of Severus of Antioch and Others</hi>, I-II
     (PO, VI,1 and VII,5; Paris, 1911).</p>
-         <p xml:id="B4" rend="biblio">Brock 1981 = Sebastian Brock, "The
+         <p>Brock 1981 = Sebastian Brock, "The
     Conversations with the Syrian Orthodox under Justinian (532)."
     <hi rend="italic">Orientalia Christiana Periodica</hi> 47 (1981): 87-121.</p>
-         <p xml:id="B5" rend="biblio">Burris &amp; Van Rompay 2002 =
+         <p>Burris &amp; Van Rompay 2002 =
     Catherine Burris &amp; Lucas Van Rompay, "Thecla in Syriac
     Christianity. Preliminary Observations." <hi rend="italic">Hugoye</hi> 5/2
     (July 2002).</p>
-         <p xml:id="B6" rend="biblio">Calzolari 1996 = Valentina Calzolari,
-    "Notes sur la traduction arménienne du texte syriaque des Actes
-    de Thècle." In <hi rend="italic">Proceedings of the Fifth International
-    Conference on Armenian Linguistics. McGill University,
-    Montreal, Quebec, Canada, May 1-5,1995</hi>, ed. Dora Sakayan
-    (Delmar, New York 1996): 233-243.</p>
-         <p xml:id="B7" rend="biblio">Calzolari 1997 = Valentina Calzolari,
-    "De sainte Thècle à Anahit: Une hypothèse d'interprétation du
-    récit de la mort de l'empereur Valens dans les Buzandaran
-    Patmut`iwnk`." In <hi rend="italic">Armenian Perspectives. 10th Anniversary
-    Conference of the Association Internationale des Etudes
-    Arméniennes</hi>, ed. Nicholas Awde (Richmond 1997): 39-49.</p>
-         <p xml:id="B8" rend="biblio">Conybeare 1896 = F.C. Conybeare,
+         <p>Calzolari 1996 = Valentina Calzolari,
+    "Notes sur la traduction arménienne du texte syriaque
+    des Actes de Thècle." In <hi rend="italic">Proceedings of the Fifth
+    International Conference on Armenian Linguistics. McGill
+    University, Montreal, Quebec, Canada, May 1-5,1995</hi>, ed.
+    Dora Sakayan (Delmar, New York 1996): 233-243.</p>
+         <p>Calzolari 1997 = Valentina Calzolari,
+    "De sainte Thècle à Anahit: Une hypothèse
+    d'interprétation du récit de la mort de
+    l'empereur Valens dans les Buzandaran Patmut`iwnk`." In
+    <hi rend="italic">Armenian Perspectives. 10th Anniversary Conference of the
+    Association Internationale des Etudes Arméniennes</hi>,
+    ed. Nicholas Awde (Richmond 1997): 39-49.</p>
+         <p>Conybeare 1896 = F.C. Conybeare,
     <hi rend="italic">The Armenian Apology and Acts of Apollonius and Other
     Monuments of Early Christianity</hi> (London 1896).</p>
-         <p xml:id="B9" rend="biblio">Davis 2001 = Stephen J. Davis, <hi rend="italic">The
+         <p>Davis 2001 = Stephen J. Davis, <hi rend="italic">The
     Cult of Saint Thecla: A Tradition of Women's Piety in Late
     Antiquity</hi> (Oxford Early Christian Studies; Oxford
     2001).</p>
-         <p xml:id="B10" rend="biblio">Honigmann 1951 = Ernest Honigmann,
-    <hi rend="italic">Évêques et évêchés monophysites d'Asie antérieure au
-    VI<hi rend="sup">e</hi> siècle</hi> (CSCO, 127 / Subsidia 2; Louvain
-    1951).</p>
+         <p>Honigmann 1951 = Ernest Honigmann,
+    <hi rend="italic">Évêques et évêchés
+    monophysites d'Asie antérieure au VI<hi rend="sup">e</hi>
+    siècle</hi> (CSCO, 127 / Subsidia 2; Louvain 1951).</p>
          <!-- #EndEditable -->
       </body>
    </text>
