@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+<<<<<<< HEAD
+                <title type="main">Conference Report: Workshop: Linked Data and Syriac Sources, Amsterdam, March 2018</title>
+=======
+                <title type="main">Conference Report: Workshop: Linked Data and Syriac Sources, Amsterdam, Marcy 2018</title>
+>>>>>>> dd6aa1ba3a645855354ab5d30a0c60311e4d3f23
+                <author>
+                    <name>
+                        <forename>Rachel</forename>
+                        <surname>Dryden</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of Cambridge</orgName>
+                    </affiliation>
+                </author>
+                <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+                <editor role="general">George A. Kiraz</editor>
+                <editor role="associate">James E. Walters</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person">James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2018</date>
+                <idno>Volume 21.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.org/conferenceReport/hv21n1cr-amsterdam</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Rachel Dryden</author>
+                        <title level="a">Conference Report: Workshop: Linked Data and Syriac Sources, Amsterdam, Marcy 2018</title>
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol21/HV21N1Possekel.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2018</date>
+                        </imprint>
+                        <biblScope type="vol" n="21">21</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="197" to="204">197–204</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change when="2018-07-09">?File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="conferenceReport">
+        <body>
+                <div>
+                    <p>Around 30 scholars from more than a dozen different countries met in
+                        Amsterdam in mid-March for two days of discussions and presentations on
+                        developments in digital humanities in Syriac language and literature.</p>
+                    <p>
+                        <graphic
+                            width="10cm" height="7cm"
+                            url="HV21N1CR-Amsterdam_image1" rend="center"/>
+                    </p>
+                    <caption rend="bold center">George Kiraz of the Beth Mardutho Institute
+                        presents an update on the SEDRA project.</caption>
+                    <p>Participants were welcomed to the workshop and Amsterdam by Professor Joke
+                        van Saane, Vice-Dean of the Faculty of Theology at VU Amsterdam and
+                        Professor Wido van Peursen, the workshop organizer and host.</p>
+                    <p>Following an overview of digital Syriac projects in the Netherlands (<ref
+                        target="https://www.nwo.nl/en/research-and-results/research-projects/i/57/19157.html"
+                        >CALAP</ref>, <ref
+                            target="https://www.nwo.nl/en/research-and-results/research-projects/i/79/1179.html"
+                            >Turgama</ref>, <ref
+                                target="http://www.cltl.nl/teaching/student-assistant-projects/polemics-visualised/"
+                                >Polemics Visualized</ref>, Topic Visualizer for Syriac texts, <ref
+                                    target="https://www.clariah.nl/projecten/research-pilots/linksyr/linksyr"
+                                    >LinkSyr</ref><ref target="https://www.clariah.nl/projecten/research-pilots/linksyr/linksyr">: Linking Syriac Data </ref><ref
+                                        target="https://www.clariah.nl/projecten/research-pilots/linksyr/linksyr"
+                                        >(CLARIAH</ref>), Linked Data and Syriac Sources, Electronic Peshitta
+                        Text, e-CSCO), Professor van Peursen explained the methodology behind the
+                        projects, which aim to produce more reliable versions of Syriac texts than
+                        are currently available.</p>
+                    <p>Hannes Vlaardingerbroek (Leiden/Amsterdam), presented an overview of the <ref
+                        target="https://www.clariah.nl/en/projects/research-pilots/granted-pilot-research-projects/linksyr#abstract">LinkSyr project</ref>, which is using data in the form
+                        of tagged and untagged morphological terms from existing projects and
+                        materials and collating them into one dataset, with 160,000 items already
+                        tagged of what will eventually comprise more than one million terms.
+                        However, there is not enough data to train reliable HMM language models:
+                        existing tagging methods for Semitic languages, such as Hebrew and Arabic,
+                        use large corpora to train language models, which are not currently
+                        available for Syriac. Syromorph (BYU) claims high accuracy but is not yet
+                        compatible with the LinkSyr data. Mathias
+                        Coeckelbergs (Brussels and Leuven), discussed the nature of the data in more
+                        detail and longer-term plans, such as linking terms to the <ref
+                            target="http://syriaca.org/">syriaca.org</ref> database, providing
+                        automatic reading tools for non-Syriac specialists, and more efficient
+                        search facilities. The dataset has some limits, as the method works by
+                        recognizing surface forms, which can have multiple translations. Eventually,
+                        it is hoped the classification of URIs will be more data-driven and
+                        searchable for specific collections of texts.</p>
+                    <p>Following this, George Kiraz (Beth Mardutho) described the process for
+                        converting Syriac lexicons from image to text files, creating an <ref
+                            target="https://sedra.bethmardutho.org/">on-line, searchable
+                            dictionary</ref>, as part of the <ref
+                                target="https://sedra.bethmardutho.org/about/sedra">SEDRA</ref> project.
+                        While <ref target="https://sedra.bethmardutho.org/about/sedra">SEDRA</ref>
+                        was designed specifically for Syriac, the project has the technical
+                        capability to be expanded to include other Semitic languages and is looking
+                        for funding to achieve this longer-term aim.</p>
+                    <p>David A. Michelson (Vanderbilt) provided an update on the <ref
+                        target="http://syriaca.org/">syriaca.org</ref> project, which has minted
+                        URIs for places, persons, primary source texts and citations (bibliographic
+                        items), and published them online. URIs relating to factoids (events),
+                        ontology (keyword classification) and manuscripts are available as raw data.
+                        The project is currently looking for someone to do the same for artifacts.
+                        Daniel L. Schwartz (Texas A&amp;M) demonstrated the various features the
+                        site offers.</p>
+                    <p>James Walters (Oxford-BYU Syriac Corpus) talked participants through the
+                        structure and functions of the Oxford-BYU website and the new edition of
+                        <ref target="http://www.bethmardutho.org/index.php/home.html"><hi
+                            rend="italic">Hugoye</hi></ref>, to be launched this summer.</p>
+
+                        <p><graphic n="1004" width="10.127847222222222cm"
+                            height="7.595886111111111cm" url="HV21N1CR-Amsterdam_image1" rend="center"/>
+                        </p>
+                        <caption rend="center bold">James Walters showcases the Oxford-BYU Syriac
+                            Corpus</caption>
+                    
+                    <p>Daniel Stökl ben Ezra (EPEH Paris), demonstrated the interface and search
+                        functions offered by the <ref target="http://www.lectionary.eu/">ThALES
+                            lectionary database</ref>, which includes material in Syriac and
+                        Arabic.</p>
+                    <p>In the afternoon, a number of working groups discussed Lexicography, Named
+                        Entities, Liturgy, Text Corpus Creation, Scholars’ Needs and Interests, How
+                        to Bridge Syriac Linked Data and the Syriac Community and Linking to Other
+                        Traditions such as Arabic and Ethiopic, and brainstormed recommendations and
+                        suggestions for future projects.</p>
+                    <p>The workshop continued on the second day with further project presentations
+                        and updates on the <ref
+                            target="http://gtr.rcuk.ac.uk/projects?ref=AH/M005704/1">Galen
+                            Palimpsest</ref> and <ref
+                                target="https://uclouvain.be/fr/instituts-recherche/incal/ciol/the-concordances-of-the-gregori-project.html"
+                                >GREgORI</ref> projects and <ref
+                                    target="https://www.oeaw.ac.at/en/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/hunaynnet/"
+                                    >Hun@yannet</ref>. Natalia Smelova (Manchester) began by presenting the
+                        results of research on the Syriac Galen Palimpsest, which has been fully
+                        digitized using multispectral technology, with the resulting images
+                        available free online. The tools and software developed as a part of the
+                        project will also be made available to individuals and institutions dealing
+                        with multi-layered texts.</p>
+                    <p>Grigory Kessel (Austrian Academy of Sciences/ Manchester) and Slavomír Čéplö
+                        (Austrian Academy of Sciences), showcased the ERC-funded <ref
+                            target="https://www.oeaw.ac.at/en/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/hunaynnet/"
+                            >Hun@yannet</ref> database, consisting of a Greek-Syriac-Arabic corpus
+                        of Classical scientific and philosophical literature. Hun@yannet will allow
+                        for a comprehensive comparison of Syriac and Arabic translations of Greek
+                        texts, through lexicographical analysis, for which a dedicated research tool
+                        is being developed. It will be capable of handling vertical texts in UTF-8
+                        encoding, (with manual parallel alignment by sentence or clause units), via
+                        a TEI to HTML transformation reading interface. While there remain some
+                        issues with parallel corpora, search by REGEX of 15 texts with 50
+                        translations in Syriac and Arabic is already possible.</p>
+                    <p>Bastien Kindt (Leuven), also presented the <ref
+                        target="https://uclouvain.be/fr/instituts-recherche/incal/ciol/the-concordances-of-the-gregori-project.html"
+                        >GREgORI</ref> project, a free, multi-lingual corpus and fully
+                        lemmatized concordance, with parts of speech tagged, although Syriac is
+                        still to be completed.</p>
+                    <p>In the afternoon, the working groups reported their findings from the
+                        previous day with the Lexicography working group stressing the need for both
+                        archival/reading and linguistic analysis versions of texts. A general
+                        consensus was reached that a TEI format of a Syriac text was useful for
+                        archival, canonical, and human readable formats and that texts would then
+                        need to be “unwrapped” or converted for use in text analysis tools such as
+                        Text Fabric. As Text Fabric uses the word as the basic entity, more work
+                        would be needed to handle idiomatic phrases, compound nouns and names. It
+                        was suggested that Syriaca.org and SEDRA might ensure that two types of
+                        tagging could be facilitated by dividing the NER into two stages: the
+                        identification of proper nouns as simply being proper nouns and the
+                        identification of specific names and concepts for persons, places, etc.</p>
+                    <p>The Named Entities group discussed the desirability for current projects to
+                        be structured so as to permit a machine-generated model of Syriac
+                        scholarship in the future, which could be created by the analysis of named
+                        entities and their links; methods that diverse projects could use link to
+                        named entities, through using URIs minted by Syriaca.org, with the resulting
+                        benefit of creating a collective body of linked data and making various
+                        diverse projects discoverable through Syriaca.org. For projects linking to
+                        Syriaca.org URIs, the preferred method was to link to permanent Syriaca.org
+                        URIs (e.g. <ref target="http://syriaca.org/place/78"><hi
+                            rend="underline color(1155CC)"
+                            >http://syriaca.org/place/78</hi></ref>). Syriaca.org agreed to provide
+                        content negotiation for this purpose and was willing to link to projects in
+                        any way desired e.g. permanent URIs, RESTful API queries. The group also
+                        discussed how to generate a cloud of RDF data related to Syriac from various
+                        projects, concluding that more discussion was needed to work out how to
+                        create, host and query this.</p>
+                    <p>These two groups concluded by agreeing on a protocol for connecting various
+                        digital texts online in various formats, considering it desirable for all
+                        projects to use CTS/DTS URNs. Syriaca.org offered to serve as a catalogue
+                        for various projects and conservator of standards. Through the New Handbook
+                        of Syriac Literature, Syriaca.org could also provide a standard form for the
+                        first half of a CTS URN, language, corpus, work family, work number. The
+                        second half, the local ids, would then be published by each individual
+                        project. The resulting URNs would then be combined, crosswalked, archived
+                        and catalogued by Syriaca.org. The end result would be to establish a
+                        standard method for citation and api calls to digital Syriac texts across
+                        all projects.</p>
+                    <p>The Liturgy working group members agreed future cooperation between LinkSyr
+                        and ThALES, either through the exchange and/or linking of data. A liturgical
+                        app is being developed by George Kiraz, with Srophe potentially hosting it.
+                        The Text Corpus group looked at how synergy could best be established,
+                        recommending joining forces to avoid the same work being done twice and also
+                        suggested potential collaboration with commercial partners. It was noted
+                        that many projects have encoding at the word level, which is sufficient for
+                        a large corpus with a broad public audience, but linguists and exegetes may
+                        required more layers of analysis. The group also agreed to form a standing
+                        committee to follow-up on discussions at the workshop, identify issues and
+                        make their materials available on GitHub and hold a regular Google hangout
+                        seminar for Syriac studies.</p>
+                    <p>The group on Other Traditions discussed the fact that, except for the
+                        connections with Greek loan words and the Bible, this area is otherwise
+                        generally neglected. The group felt the most important traditions to link to
+                        were, qur’ānic Arabic, Aramaic, medieval Arabic/Greek philosophy and
+                        non-Christian sources, and that there was a need for more inter-disciplinary
+                        tools. More video-based help guides instead of text-based explanations of
+                        how to make use of the various aspects of the databases available, were also
+                        requested and it was felt there was a need to somehow bridge the gap between
+                        those specialised in digital humanities and those wanting to develop a
+                        digital aspect to their research projects.</p>
+                    <p>The working group looking at How to Bridge Develop-ments in the Digital
+                        Humanities with the Syriac Community, felt that a focus on language,
+                        liturgy, tradition and history would be beneficial to members of the Syriac
+                        Orthodox community, and also provide a means of strengthening their sense of
+                        identity and heritage. Liturgical and Bible readings with accurate
+                        vocalization and options for comparison (e.g. how to deal with those Sundays
+                        for which there are no readings), and musical aspects were also considered
+                        desirable. They also supported the translation of lectionaries into Turoyo
+                        with a format comparable to the ThALES database with additional audio/visual
+                        recordings, which would be particularly useful for a non-academic audience,
+                        who could then actually <hi rend="italic">hear</hi> the word of God. While
+                        there are large amounts of audio/visual resources available online, it was
+                        felt that it would be useful to somehow collect and organise these and link
+                        specific topics with other online resources. Regarding the public impact
+                        aspect of the LinkSyr project, it was agreed there was a need to create more
+                        awareness of what tools the University can offer the Community, perhaps
+                        through offering some sort of training about this. The University and
+                        Community could also facilitate more exchange in the form of visits,
+                        lectures etc. Addressing young people was considered one of the biggest
+                        challenges; while there is some material available for teenagers, there is
+                        not much for younger children. Since teenagers tend not to read books,
+                        digital tools that can be used on a tablet/smartphone, such as interactive
+                        apps, games, etc. were also recommended. Regarding the question of how to
+                        translate information for children, it was felt the NT2 method (<hi
+                            rend="italic">Dutch as a second language</hi>) was considered a good
+                        guideline. Regarding the financial aspect of community interaction, while
+                        attracting more people was obviously a positive, it was felt important that
+                        they be paid for their contributions (e.g. transcribing manuscripts), either
+                        through financial recompense or, in the case of university students, perhaps
+                        in exchange for skills/experience. Crowdsourcing was also discussed as a
+                        possible means of obtaining knowledge/skills free of charge.</p>
+                    <p>The Scholars’ Interests group asked whether current projects really meet the
+                        needs of scholars and if not, what desiderata and caveats these projects
+                        should take into account, in order to develop things that are really useful.
+                        Amongst the issues they outlined were; the use of the techniques under
+                        discussion to make stylistic analyses or characterizations of texts, to
+                        identify authors, or compare texts and translations; how to publish texts,
+                        which are both in print with a publisher and in a digital format in the open
+                        domain, and how to refer to digital texts, that in time may change, or
+                        otherwise remain fluid in their presentation. It was felt that audiences
+                        could be successfully reached by means other than promotion e.g. by
+                        providing interfaces in Arabic, Persian and Turkish, and that there should
+                        be further campaigns for the implementation of Syriac word processing; the
+                        submission of additional characters to the Unicode Consortium; an update of
+                        the Meltho fonts; an approach made to Apple about the implementation of
+                        Syriac, and the development of a cross-platform Syriac language pack for
+                        LibreOffice.</p>
+                    <p>The workshop provided a rare opportunity for face-to-face discussion and
+                        exchange amongst scholars working with Syriac in a variety of fields and it
+                        is to be hoped that the connections that were made at the workshop continue
+                        to develop to the benefit of current and future projects.</p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>
