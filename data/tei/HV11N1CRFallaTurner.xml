@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
-            <date/>
+            <date>2008</date>
             <idno>Vol. 11, No. 1</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
@@ -34,13 +34,14 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.bethmardutho.org/conferenceReport/hv11n1crfallaturner</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv11n1crfallaturner</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Terry Falla and Beryl Turner</author>
                   <title level="a">International Syriac Language Project Ljubljana, Slovenia. July 2007</title>
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol11/HV11N1CRFallaTurner.pdf</idno>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -50,7 +51,8 @@
                   </imprint>
                   <biblScope type="vol" n="11">11</biblScope>
                   <biblScope type="issue" n="1">1</biblScope>
-               </monogr>
+<biblScope type="order" n="11"/>
+</monogr>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
@@ -78,7 +80,7 @@
          <change when="2018-06-28-04:00">File created by XSLT transformation of original HTML encoded article.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text type="report">
       <body>
          <lb/>
          <lb/>
@@ -443,7 +445,13 @@
          <head xml:id="HV11N1CRFallaTurner21">11. Andreas Juckel, Institute for New Testament
     Textual Research, Münster</head>
          <head xml:id="HV11N1CRFallaTurner22">Comparative features in a future lexicon of the Syriac New
-    Testament<ref target="#FN1">1</ref>
+    Testament<note place="foot" xml:id="FN1" n="1">
+                    <p rend="footnote text">
+             This eleventh paper, while not delivered at the
+    conference, will be published in the volume with the above
+    
+         </p>
+                </note>
          </head>
          <p>
             <anchor corresp="P24"/>[24] By
@@ -484,13 +492,7 @@
     understanding the translational limits, restrictions, and
     quality of the Peshitta.</p>_______<lb/>
          <head xml:id="HV11N1CRFallaTurner23">Notes</head>
-         <p>
-            <ref target="#FNRef1">1</ref> This eleventh paper, while not delivered at the
-    conference, will be published in the volume with the above
-    <ref target="#FNRef1">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
+         
          <!-- InstanceEndEditable -->
       </body>
    </text>

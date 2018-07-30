@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml">
    <teiHeader>
       <fileDesc>
@@ -13,7 +12,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>Beth Mardutho: The Syriac Institute</publisher>
-            <date/>
+            <date>2005</date>
             <idno>Vol. 8, No. 2</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
@@ -22,13 +21,14 @@
                                 copyright.</p>
                </licence>
             </availability>
-            <idno type="URI">https://hugoye.org/Vol8No2</idno>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/HV8N2Juckel</idno>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
                   <author>Andreas Juckel</author>
                   <title level="a">Septuaginta and Peshitta Jacob of Edessa quoting the Old Testament in Ms BL Add 17134</title>
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol8/HV8N2Juckel.pdf</idno>
                </analytic>
                <monogr>
                   <title level="j">Hugoye: Journal of Syriac Studies</title>
@@ -96,25 +96,79 @@
          <head xml:id="S1">1. Introduction</head>
          <p rend="n">
             <anchor xml:id="P1"/>[1] In
-    1910/11 E.W. Brooks published<ref target="#FN1">1</ref> the Syriac version of <hi rend="italic">�The
+    1910/11 E.W. Brooks published<note place="foot" xml:id="FN1" n="1">
+                    <p rend="footnote text">
+             E. W. Brooks, <hi rend="italic">Jacob of Edessa. The Hymns of
+    Severus of Antioch and Others</hi> (PO 6.1 and 7.5; Turnhout,
+    1910/1911). 
+         </p>
+                </note> the Syriac version of <hi rend="italic">�The
     Hymns of Severus of Antioch and Others�,</hi> originally
     translated by Paul of Edessa between 619/29, and revised by
-    Jacob of Edessa in 674/75<ref target="#FN2">2</ref>. Based on the two extant
-    manuscripts<ref target="#FN3">3</ref> of Jacob�s revision (Ms BL Add. 17134 and Add.
+    Jacob of Edessa in 674/75<note place="foot" xml:id="FN2" n="2">
+                    <p rend="footnote text">
+             On this translation and its revision see A.
+    Baumstark, <hi rend="italic">Geschichte der syrischen Literatur mit Ausschlu�
+    der christlich-pal�stinensischen Texte</hi> (Bonn, 1922), 190
+    and 253; R. Duval, <hi rend="italic">La litt�rature syriaque. Des origines
+    jusqu� � la fin de cette litt�rature apr�s la conqu�te par les
+    arabes au XIII si�cle</hi> (Paris, 1907/Amsterdam, 1970),
+    317-18; W. Wright, <hi rend="italic">A Short History of Syriac
+    Literature</hi> (London, 1894/Piscataway, 2001), 135 and 149;
+    J.-B. Chabot, <hi rend="italic">La litt�rature syriaque</hi> (Paris, 1934),
+    86; I. Ortiz de Urbina, <hi rend="italic">Patrologia syriaca</hi> (Rome,
+    1965), 173 and 180; F. Nau, �L�Aram�en chr�tien (Syriaque). Les
+    traductions faites du grec en syriaque au viie si�cle�,
+    <hi rend="italic">RHR</hi> 99 (1929) 263-65. 
+         </p>
+                </note>. Based on the two extant
+    manuscripts<note place="foot" xml:id="FN3" n="3">
+                    <p rend="footnote text">
+             W. Wright, <hi rend="italic">Catalogue of Syriac Manuscripts in
+    the British Museum Acquired Since the Year 1838,</hi> 1
+    (London, 1870/Piscataway, 2003), 330-339 (no. ccccxxi) and
+    339-340 (no. ccccxxii). A facsimile of Ms Add 17134 in 3
+    (London, 1872/Piscataway, 2003), plate v. 
+         </p>
+                </note> of Jacob�s revision (Ms BL Add. 17134 and Add.
     18816), Brooks� edition is a typographical master-piece by the
     meticulous presentation of Ms BL Add. 17134 and of its
     revisional features. This manuscript substantially gives the
     text of Paul�s translation and carefully denotes the revisional
     alterations Jacob introduced to it <hi rend="italic">inter lineas</hi> or by
-    red ink.<ref target="#FN4">4</ref> In a note on fol. 75rv Jacob explains the reason
+    red ink.<note place="foot" xml:id="FN4" n="4">
+                    <p rend="footnote text">
+             Brooks puts Jacob�s corrections <hi rend="italic">inter
+    lineas</hi> in the notes; the words and single letters that
+    Jacob painted red, are represented by Estrangelo-type to
+    distinguish them from Paul�s text in Serto-type, and by italics
+    in the translation. 
+         </p>
+                </note> In a note on fol. 75rv Jacob explains the reason
     and the method of his revision for which he used Greek
     manuscripts, and gives the date A. Gr. 986 (A. D. 674/75) for
-    his work<ref target="#FN5">5</ref>:</p>
+    his work<note place="foot" xml:id="FN5" n="5">
+                    <p rend="footnote text">
+             Syriac text by W. Wright, <hi rend="italic">Catalogue 1</hi>,
+    336-37; text and translation by Brooks, <hi rend="italic">The Hymns of
+    Severus</hi> (PO 7,5), 801-02. 
+         </p>
+                </note>:</p>
          <quote>
       �[...] and they [<hi rend="italic">scil</hi>. the hymns] have been with
       great care and industry corrected and compared with the Greek
       manuscripts with all possible accuracy by me the poor and
-      sinful Jacob the industrious,<ref target="#FN6">6</ref> in the year nine hundred
+      sinful Jacob the industrious,<note place="foot" xml:id="FN6" n="6">
+                    <p rend="footnote text">
+             The identification of �Jacob the industrious� with
+    Jacob of Edessa was rejected by F. Nau, �Notice sur un nouveau
+    manuscript de l�Octoechus de S�v�re d�Antioche, et sur l�auteur
+    Jacques Philoponus, distinct de Jacques d��desse�, <hi rend="italic">JA</hi>
+    12 (9� s�rie, 1898), 346-51; but later he accepted the
+    identification (F. Nau, �Les traductions�, 264 note 1).
+    
+         </p>
+                </note> in the year nine hundred
       and eighty-six of the Greeks [...] and with all the
       carefulness in my power I have distinguished between the
       words of the doctor [i. e., Severus] and those that were
@@ -140,7 +194,25 @@
             <anchor xml:id="P2"/>[2]
     Impressed by this note and by the actual presence of the
     revisional features it describes, W. Wright suggested Ms Add.
-    17134 to be an autograph<ref target="#FN7">7</ref> of Jacob and took the date A. Gr.
+    17134 to be an autograph<note place="foot" xml:id="FN7" n="7">
+                    <p rend="footnote text">
+             Wright, <hi rend="italic">Catalogue 1,</hi> 338: �The reasons for
+    supposing that this manuscript is an autograph of the famous
+    Jacob, bishop of Edessa, are 1. The antiquity of the volume. 2.
+    The character of the handwriting, which is not regular enough
+    for that of a professional scribe. 3. The absence of any
+    indication of another scribe. 4. The care with which the
+    specifications contained in the note, fol. 75a, have been
+    adhered to throughout the whole volume, thus giving it an
+    entirely different character and appearance from those of such
+    copies as Add 18816 [...]. 5. The transcription in full, on the
+    upper and lower margins, of all the passages of Scripture
+    referred to in the hymns. 6. The general accuracy with which
+    the Greek proper names and other words are written in Greek
+    letters; and the correctness with which they are represented in
+    Syriac characters [...].� 
+         </p>
+                </note> of Jacob and took the date A. Gr.
     986 as the date of the manuscript itself. Brooks in the preface
     of his edition, however, rejected Wright�s suggestion by
     declaring that the second manuscript Add. 18816 often gives a
@@ -148,10 +220,25 @@
     rejected by Brooks indeed gives an idea about a certain
     inferiority of Ms Add. 17134 to Ms Add. 18816. The text is
     slightly corrupted by scribal errors and orthographical
-    mistakes,<ref target="#FN8">8</ref> which reflect the process of transmission and
+    mistakes,<note place="foot" xml:id="FN8" n="8">
+                    <p rend="footnote text">
+             F. Nau gives a different (and certainly wrong)
+    interpretation: �Il semble pr�f�rable de dire que le scribe du
+    seconde manuscript [i.e., Add. 18816] a simplifi� et parfois
+    corrig� le premier [i.e., Add. 17134] qui resterait ainsi
+    l�autographe de Jacques d�Edesse� (F. Nau, �Les traductions�,
+    263-64).</p>
+                </note> which reflect the process of transmission and
     can hardly be ascribed to Jacob himself. As Ms Add. 17134 can
     be assigned to the 8<hi rend="sup">th</hi> cent. on palaeographical
-    ground,<ref target="#FN9">9</ref> it is a copy perhaps written already during
+    ground,<note place="foot" xml:id="FN9" n="9">
+                    <p rend="footnote text">
+             The script is almost identical with the one of
+    plate LIII (Ms Sachau 321, A.D. 740/41) in W. H. P. Hatch,
+    <hi rend="italic">An Album of Dated Syriac Manuscripts</hi> (Boston,
+    1946/Piscataway, 2003). 
+         </p>
+                </note> it is a copy perhaps written already during
     Jacob�s lifetime or not long after his death in 708.</p>
          <p rend="n">
             <anchor xml:id="P3"/>[3] The
@@ -168,11 +255,35 @@
     of this manuscript tacitly adopts Jacob�s corrections in the
     main text. The reduction of the revisional features in Ms Add.
     18816 gives a greater significance to Ms Add 17134 with the
-    fully preserved revisional features;<ref target="#FN10">10</ref> in text-critical
+    fully preserved revisional features;<note place="foot" xml:id="FN10" n="10">
+                    <p rend="footnote text">
+             This manuscript, however, is already
+    affected by a fading-out of the revisional features. In several
+    cases the biblical text usually fully cited in the margins (see
+    below) is not given, but replaced by the reference only.
+    
+         </p>
+                </note> in text-critical
     respect, however, Ms Add. 18816 often is to be preferred. A
     later arrangement and supplementation of the hymns according to
     the �eight tones� to which they are set (Octo�chos) can be
-    found in numerous manuscripts.<ref target="#FN11">11</ref>
+    found in numerous manuscripts.<note place="foot" xml:id="FN11" n="11">
+                    <p rend="footnote text">
+             See Brooks, <hi rend="italic">The Hymns of Severus</hi>
+    (PO 6.1) 6. —� Mss Add. 17134 and Add. 18816 do not yet
+    indicate the tones to which the hymns later were set; but in a
+    few places the tones are added <hi rend="italic">secunda manu</hi>. Brooks�
+    edition throughout adds the tones drawn from the later
+    collections. On the �Syriac Octo�chos� see A. Baumstark,
+    <hi rend="italic">Festbrevier und Kirchenjahr der syrischen Jakobiten. Eine
+    liturgische geschichtliche Vorarbeit auf Grund
+    handschriftlicher Studien in Jerusalem und Damaskus</hi> (SGKA
+    3; Paderborn, 1910), 45-48; J. Jeannin/J. Puyade, �L�Octo�chos
+    syrien�, <hi rend="italic">OrChr</hi> N.F. 3 (1913), 82-104; 277-98; J.
+    Jeannin, �Octo�chos syrien�, in <hi rend="italic">DACL</hi> 12/2 (1936)
+    1888-1899. 
+         </p>
+                </note>
          </p>
          <head xml:id="S1.1">The Biblical Quotations</head>
          <p rend="n">
@@ -185,7 +296,14 @@
     introduced biblical material to this revision which is not an
     integral part of Paul�s translation but drawn from his own
     resources. These independent marginal quotations are the
-    subject of the present study.<ref target="#FN12">12</ref>
+    subject of the present study.<note place="foot" xml:id="FN12" n="12">
+                    <p rend="footnote text">
+             The revisional procedure probably is the
+    same as that Thomas of Harqel used at the beginning of the
+    7<hi rend="sup">th</hi> century revising the Philoxenian version.
+    
+         </p>
+                </note>
          </p>
          <p rend="n">
             <anchor xml:id="P5"/>[5] Texts of
@@ -194,20 +312,36 @@
     intention is—according to Jacob�s note on fol. 75rv—to present
     the full scriptural texts (�without variation and without
     addition or diminution�) alluded to or distorted by adaptation
-    to the Greek metre in Paul�s translation.<ref target="#FN13">13</ref> All marginal
+    to the Greek metre in Paul�s translation.<note place="foot" xml:id="FN13" n="13">
+                    <p rend="footnote text">
+             The last sentence of Jacob� note quoted
+    above (�and how the proofs and testimonies ...�) refers to the
+    biblical texts in the margin, not to Jacob� interlinear
+    corrections of biblical quotations inside the text. These
+    interlinear corrections are part of the general corrections of
+    Paul�s translation according to the Greek text of the Hymns;
+    they are not corrections according to an �unvaried� Bible text.
+    Brooks obviously missed an explicit reference to the margin in
+    Jacob� note, and declared: �Some words have perhaps fallen out
+    in this sentence� (802). 
+         </p>
+                </note> All marginal
     quotations belong to the original lay-out of the manuscript; by
     a graphical sign they are attached to words in the main text.
-    Brooks� biblical index<ref target="#FN14">14</ref> gives ca. 1000 Old Testament
+    Brooks� biblical index<note place="foot" xml:id="FN14" n="14">
+                    <p rend="footnote text">
+             The index is appended to PO 14.1 300-309
+    [470-479] (<hi rend="italic">Letters of Severus of Antioch,</hi> ed. by
+    Brooks). 
+         </p>
+                </note> gives ca. 1000 Old Testament
     quotations. Fully quoted in the margins are ca. 600, additional
     365 short quotations from the Psalms are used as headers for
     the 365 hymns inside the text; the rest is represented by a
     marginal reference only (e.g., 
-    <!--<span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1825;&#1826; &#1810;&#1834;&#1821;&#1836;&#1808;</span>--><hi style="vertical-align:-20%;">
-               <graphic url="HV8N2Juckel/HV8N2Juckel_05_01.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="68px"
-                        height="16px"/>
+    <!--<span dir="RTL" style='font-family:"Estrangelo Talada"'>ܡܢ ܒܪܝܬܐ</span>-->
+                <hi style="vertical-align:-20%;">
+               <graphic url="HV8N2Juckel/HV8N2Juckel_05_01.gif" rend="img" mimeType="image/gif" width="68px" height="16px"/>
             </hi>). From the New Testament ca.
     350 texts are quoted.</p>
          <head xml:id="S1.2">Septuagint and Peshitta</head>
@@ -215,7 +349,19 @@
             <anchor xml:id="P6"/>[6]
     According to Brooks� index, ca. 150 of these marginal texts are
     classified as being quoted from the Septuagint; 17 are �neither
-    P nor LXX�;<ref target="#FN15">15</ref> 4 are taken from Theodotion, 1 from the
+    P nor LXX�;<note place="foot" xml:id="FN15" n="15">
+                    <p rend="footnote text">
+             Unfortunately these texts are very short,
+    only Lam 3:22 is suitable for comparison. It shows a mixture of
+    the Septuagint and the Peshitta, a characteristic feature of a
+    large number of Jacob� marginal quotations (see below).
+    Although Exod 3:2 (PO 7.5 page 639 [227]) is a rather long
+    quotation, there are no significant distinctive features
+    between Jacob�s text, the Syro-Hexapla and the Peshitta. The
+    remaining 15 quotations (Psalms) are short headers of the
+    hymns. 
+         </p>
+                </note> 4 are taken from Theodotion, 1 from the
     Syro-Hexapla; and all 13 quotations from Acts are given
     according to the Harklean version. The majority of unclassified
     references in the index are quotations from the Peshitta. This
@@ -247,7 +393,16 @@
     distribution of the Septuagint quotations: Most of them are in
     poetic books, poetic passages or in the prophecies of Isaiah
     and Jeremiah, i.e., not in texts of simple narrative
-    structure.<ref target="#FN16">16</ref> In these portions the Peshitta could be easily
+    structure.<note place="foot" xml:id="FN16" n="16">
+                    <p rend="footnote text">
+             Brooks declares �[...] I cannot trace any
+    principle except that in Genesis they [i.e., the citations] are
+    from P, in the rest of the law from LXX, in Job and in the
+    books not contained in the Hebrew from LXX, in Daniel from
+    Theodotion, and in Isaiah in the earlier hymns generally from
+    P, in the later generally from LXX� (PO 7.5 page 6). 
+         </p>
+                </note> In these portions the Peshitta could be easily
     incongruent with the Septuagint. The Peshitta texts accepted by
     Jacob for quoting, however, are also far from being
     <hi rend="italic">fully</hi> aligned with the Septuagint; but they are in a
@@ -279,12 +434,37 @@
     version and its translational features. The New Testament
     quotations in Ms Add 17134 are hardly affected by diversity or
     revisional activity. With the exception of thirteen quotations
-    from the Harklean version of Acts,<ref target="#FN17">17</ref> they are all taken from the
+    from the Harklean version of Acts,<note place="foot" xml:id="FN17" n="17">
+                    <p rend="footnote text">
+             The Harklean quotations are studied by W. D.
+    MacHardy, �James of Edessa�s citations from the Philoxenian
+    text of the Book of Acts�, <hi rend="italic">JThS</hi> 43 (1942), 168-173;
+    �The text of Jacob of Edessa�s citations and in the Cambridge
+    Add. MS 1700�, <hi rend="italic">JThS</hi> 50 (1949), 186-87. 
+         </p>
+                </note> they are all taken from the
     Peshitta. According to the ca. 120 quotations from the
     <hi rend="italic">Corpus Paulinum,</hi>
-            <ref target="#FN18">18</ref> the textual character of the New
+            <note place="foot" xml:id="FN18" n="18">
+                    <p rend="footnote text">
+             These quotations are included in the
+    comparative edition of that <hi rend="italic">Corpus</hi> published by B.
+    Aland/A. Juckel, <hi rend="italic">Das Neue Testament in syrischer
+    �berlieferung,</hi> II, 1-3 (ANTT 14, 23, 32; Berlin-New York,
+    1991, 1995, 2002). 
+         </p>
+                </note> the textual character of the New
     Testament quotations agrees with the �majority text� of that
-    version.<ref target="#FN19">19</ref> This agreement and the versional uniformity
+    version.<note place="foot" xml:id="FN19" n="19">
+                    <p rend="footnote text">
+             This �majority text� of the <hi rend="italic">Corpus
+    Paulinum</hi> was prepared by G. H. Gwilliam and J. Pinkerton
+    and included in the New Testament volume issued by the
+    <hi rend="italic">British and Foreign Bible Society</hi> in 1920. The
+    majority character of this text, however, needs to be improved
+    by additional collations. 
+         </p>
+                </note> This agreement and the versional uniformity
     are in strong contrast with the diversity of Jacob�s Old
     Testament quotations and may be taken as his acknowledgement of
     the New Testament Peshitta as a satisfactory translation. While
@@ -304,8 +484,52 @@
             <anchor xml:id="P11"/>[11]
     <hi style="font-size:smaller">In the following list 41 OT
     texts quoted by Jacob of Edessa in the margins of Ms Add 17134
-    are compared with the OT Peshitta<ref target="#FN20">20</ref> and with the
-    Septuagint.<ref target="#FN21">21</ref> The Targumim<ref target="#FN22">22</ref> were constantly consulted
+    are compared with the OT Peshitta<note place="foot" xml:id="FN20" n="20">
+                        <p rend="footnote text">
+             The <hi rend="bold">Peshitta</hi> follows the Leiden
+    edition: <hi rend="italic">Liber Genesis</hi> (based on material collected
+    and studies by T. Jansma, prepared by the Peshitta Institute
+    (I,1 1977); <hi rend="italic">Leviticus</hi> ed. D. J. Lane, (I,2 1991);
+    <hi rend="italic">Liber Samuelis</hi> ed. P. A. H. de Boer (II,2 1978);
+    <hi rend="italic">Liber Isaiae</hi> ed. S. P. Brock (III,1 1987); <hi rend="italic">Liber
+    Ezechielis</hi> ed. M. J. Mulder (III,3 1985);
+    <hi rend="italic">Dodekapropheton</hi>, ed. A. Gelston (III,4 1980); for
+    <hi rend="italic">Jeremiah</hi> and <hi rend="italic">Lamentations</hi> (both to be
+    published in the Leiden Edition) I use the edition of S. Lee
+    (1823). — The <hi rend="bold">Syro-Hexapla</hi> is used according to the
+    edition of Ceriani (and V��bus, where appropriate): <hi rend="italic">Codex
+    Syro-Hexaplaris Anbrosianus photolithographice editus</hi>
+    [Monumenta sacra et profana 7]. Mediolani, 1874; A. V��bus,
+    <hi rend="italic">The Book of Isaiah in the Version of the Syro-Hexapla. A
+    facsimile edition of Ms. St. Mark 1 in Jerusalem</hi> (CSCO
+    449/Subs. 68; Louvain 1983). 
+         </p>
+                    </note> and with the
+    Septuagint.<note place="foot" xml:id="FN21" n="21">
+                        <p rend="footnote text">
+             The Septuaginta are quoted according to the
+    <hi rend="italic">Septuaginta</hi>. Vetus Testamentum Graecum. Auctoritate
+    Societatis Litterarum Gottingensis editum; I: <hi rend="italic">Genesis</hi>,
+    ed. J.W. Wevers (1974), II,2: <hi rend="italic">Leviticus</hi>, ed. J. W.
+    Wevers, U. Quast (1986), XIII: <hi rend="italic">Duodecim prophetae,</hi> ed.
+    J. Ziegler (1943), XIV: <hi rend="italic">Isaias,</hi> ed. J. Ziegler (1939),
+    XVI,1: <hi rend="italic">Ezechiel,</hi> ed. J. Ziegler (1952), XV:
+    <hi rend="italic">Ieremias, Baruch, Threni, Epistula Ieremiae,</hi> ed. J.
+    Ziegler (G�ttingen 1957). For the books of Samuel I used the
+    edition of A. E. Brooke/N. McLean/H. J. Thackeray, <hi rend="italic">The Old
+    Testament in Greek,</hi> II,1:1 and 2 Samuel (Cambridge, 1927).
+    
+         </p>
+                    </note> The Targumim<note place="foot" xml:id="FN22" n="22">
+                        <p rend="footnote text">
+             A. Sperber, <hi rend="italic">The Bible in Aramaic. Based
+    on old manuscripts and printed texts</hi>. 1: The Pentateuch
+    according to Targum Onkelos (Leiden, 1959); 2: The Former
+    Prophets according to Targum Jonathan (Leiden, 1959); 3: The
+    Latter Prophets According to Targum Jonathan (Leiden, 1962).
+    
+         </p>
+                    </note> were constantly consulted
     but did not influence the formation of Jacob�s quotations (nor
     does the Masoretic Text). The <hi rend="italic">Lemmata</hi> are taken from
     the Leiden Peshitta, the <hi rend="italic">variants</hi> from Jacob�s
@@ -335,38 +559,26 @@
          <p>
             <hi rend="bold">1</hi>) Gen 1:27-28/I 155; fol. 34v</p>
          <!--
-<p style="font-size:smaller">28 <span dir="RTL" style='font-family:"Estrangelo Talada"; font-size:smaller'>[&#1808;&#1824;&#1815;&#1808;<sup>2</sup></span> <em>om Jac</em> LXX <span style="background-color:silver">7k4<sup>c</sup> 8/5b1 11l3.4&#8594;</span> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1810;&#1810;&#1829;&#1821;&#1834;&#776;&#1808;</span> <em>no seyame Jac</em></p>
+<p style="font-size:smaller">28 <span dir="RTL" style='font-family:"Estrangelo Talada"; font-size:smaller'>[ܐܠܗܐ<sup>2</sup></span> <em>om Jac</em> LXX <span style="background-color:silver">7k4<sup>c</sup> 8/5b1 11l3.4→</span> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܘܒܒܥܝܪ̈ܐ</span> <em>no seyame Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_01.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="395px"
-                     height="24px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_01.gif" rend="img" mimeType="image/gif" width="395px" height="24px"/>
          </p>
          <p>
             <hi rend="bold">2</hi>) Gen 2:15/I 69; fol. 15v</p>
          <!--
-<p style="font-size:smaller">15 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1825;&#1834;&#1821;&#1808;</span> <em>om Jac</span></em>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1813;&#1829;&#1813;&#1826;</span> <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1813;&#1829;&#1813;&#1821;&#1826;</span> <em>Jac</em></p>
+<p style="font-size:smaller">15 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܡܪܝܐ</span> <em>om Jac</span></em>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܕܥܕܢ</span> <span dir="RTL" style='font-family:"Estrangelo Talada"'>ܕܥܕܝܢ</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_02.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="203px"
-                     height="28px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_02.gif" rend="img" mimeType="image/gif" width="203px" height="28px"/>
          </p>
          <p>
             <hi rend="bold">3</hi>) Gen 2:21-22/I 157; fol. 35r</p>
          <!--
-<p style="font-size:smaller">22 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1808;&#1824;&#1815;&#1808;</span> <em>om Jac</em> LXX: 121-424-31�</p>
+<p style="font-size:smaller">22 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܐܠܗܐ</span> <em>om Jac</em> LXX: 121-424-31�</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_03.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="199px"
-                     height="20px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_03.gif" rend="img" mimeType="image/gif" width="199px" height="20px"/>
          </p>
          <p>
             <hi rend="bold">4</hi>) Gen 3:14-15/II 603 [191]; fol. 40v</p>
@@ -375,11 +587,7 @@
 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1815;&#1816; &#1826;&#1813;&#1816;&#1835; &#1834;&#1835;&#1823;. &#1816;&#1808;&#1826;&#1836; &#1836;&#1825;&#1818;&#1821;&#1816;&#1815;&#1821; &#1810;&#1829;&#1833;&#1810;&#1815; &#1815;&#1816; &#1826;&#1819;&#1834; &#1824;&#1834;&#1821;&#1835;&#1823;&#1798; &#1816;&#1808;&#1826;&#1836; &#1836;&#1819;&#1834; &#1824;&#1829;&#1833;&#1810;&#1815;</span> <em>Jac</em>�LXX (<span style='font-family:Greek'>a�t�j sou thr�sei kefal�n, ka� s� thr�seij a�to� pt�ran</span>)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_04.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="477px"
-                     height="56px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_04.gif" rend="img" mimeType="image/gif" width="477px" height="56px"/>
          </p>
          <p style="font-size:smaller">Jacob substitutes the Old
     Testament Peshitta of <hi rend="italic">vs</hi> 15b by a translation of the
@@ -390,11 +598,7 @@
 <p style="font-size:smaller">17 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1824;&#1808;&#1813;&#1825; &#1808;&#1825;&#1834; &#1816;&#1808;&#1825;&#1834; &#1808;&#1824;&#1815;&#1808; &#1824;&#1808;&#1813;&#1825;</span> <em>Jac</em> &mdash;�18 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1813;&#1834;&#776;&#1813;&#1834;&#1808; &#1816;&#1813;&#1834;&#1834;&#1808;</span> <em>Ms Add 17134 ex err</em>� &mdash;�19 </span><span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1808;&#1830;&#1821;&#776;&#1823;</span> <em>Ms Add 17134 ex err no seyame</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_05.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="479px"
-                     height="44px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_05.gif" rend="img" mimeType="image/gif" width="479px" height="44px"/>
          </p>
          <p>
             <hi rend="bold">6</hi>) Gen 3:17-20/I Ι 767 [355]; fol. 69v</p>
@@ -406,50 +610,34 @@
 4 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1808;&#1835;&#1821;&#1811;&#1816; &#1816;&#1808;&#1835;&#1821;&#1811;</span> <em>Jac</em>�<span style="background-color:silver">7a1 10l1 12a1<em>fam</em> 12b2</span> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1808;&#1827;&#1836;&#1825;&#1823;&#1816; &#1816;&#1808;&#1827;&#1836;&#1825;&#1823;</span> <em>Jac</em>� &mdash;� 5�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1827;&#1810;&#1816; &#1816;&#1827;&#1810;</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_07.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="481px"
-                     height="40px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_07.gif" rend="img" mimeType="image/gif" width="481px" height="40px"/>
          </p>
          <p style="font-size:smaller">According to Jacob�s text, Abraham
     is addressing a single person.</p>
          <p>
             <hi rend="bold">8</hi>) Gen 19:15.17.26/II 716 [304]; fol. 61r</p>
          <!--
-<p>15 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1824;&#1815;</span> <em>om Jac</em>� LXX |�<span dir="RTL" style=' font-family:"Estrangelo Talada"'>[&#1810;&#1818;&#1819;&#1815;&#776;&#1821;&#1815;&#1855; &#1810;&#1818;&#1819;&#1815;&#776;&#1808;</span>  <em>Jac</em> <span style="background-color:silver">5b1</span></p>
+<p>15 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܠܗ</span> <em>om Jac</em>� LXX |�<span dir="RTL" style=' font-family:"Estrangelo Talada"'>[ܒܚܛܗ̈ܝܗܿ ܒܚܛܗ̈ܐ</span>  <em>Jac</em> <span style="background-color:silver">5b1</span></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_08.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="285px"
-                     height="26px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_08.gif" rend="img" mimeType="image/gif" width="285px" height="26px"/>
          </p>
          <p>
             <hi rend="bold">9</hi>) Gen 19:17.26/II 732 [320]; fol. 64r</p>
          <!--
-<p style="font-size:smaller"><em>vs</em> 17 <em>desinit</em> <span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1830;&#1833;&#1829;&#1836;&#1808;</span><br />
-26 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1825;&#1826; &#1810;&#1827;&#1836;&#1834;&#1815; &#1825;&#1826; &#1810;&#1827;&#1836;&#1834;&#1815;&#1855;</span> <em>Jac</em> (explicitly refering to Lot�s wife)</p>
+<p style="font-size:smaller"><em>vs</em> 17 <em>desinit</em> <span dir="RTL" style='font-family:"Estrangelo Talada";'>ܦܩܥܬܐ</span><br />
+26 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܡܢ ܒܣܬܪܗ ܡܢ ܒܣܬܪܗܿ</span> <em>Jac</em> (explicitly refering to Lot�s wife)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_09.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="363px"
-                     height="52px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_09.gif" rend="img" mimeType="image/gif" width="363px" height="52px"/>
          </p>
          <p>
             <hi rend="bold">10</hi>) Gen 28:16-17/I 156; 35r</p>
          <!--
-<p style="font-size:smaller">17 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1813;&#1818;&#1821;&#1824; &#1815;&#1816;</span> <em>om</em> <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1815;&#1816;</span> <em>Jac</em>�<span style="background-color:silver">5b1</span>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1815;&#1826;&#1816; &#1816;&#1815;&#1826;&#1808;</span> <em>Jac</em>�| <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1836;&#1834;&#1829;&#1815;&#1855; &#1813;&#1835;&#1825;&#1821;&#1808;</span> <em>sic</em> [<span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1836;&#1834;&#1829;&#1808; &#1813;&#1835;&#1825;&#1821;&#1808;</span> <em>Jac</em> <span style="background-color:silver">5b1&#8594;</span></p>
+<p style="font-size:smaller">17 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܕܚܝܠ ܗܘ</span> <em>om</em> <span dir="RTL" style='font-family:"Estrangelo Talada"'>ܗܘ</span> <em>Jac</em>�<span style="background-color:silver">5b1</span>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܘܗܢܘ ܘܗܢܐ</span> <em>Jac</em>�| <span dir="RTL" style='font-family:"Estrangelo Talada"'>ܬܪܥܗܿ ܕܫܡܝܐ</span> <em>sic</em> [<span dir="RTL" style='font-family:"Estrangelo Talada"'>ܬܪܥܐ ܕܫܡܝܐ</span> <em>Jac</em> <span style="background-color:silver">5b1→</span></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_10.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="486px"
-                     height="41px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_10.gif" rend="img" mimeType="image/gif" width="486px" height="41px"/>
          </p>
          <p>
             <hi rend="bold">11</hi>) Gen 28:16-19/I 161; fol. 35v</p>
@@ -460,11 +648,7 @@ style='font-family:"Estrangelo Talada";'>&#1810;&#1821;&#1836; &#1808;&#1821;&#1
 <em><span style='text-transform:uppercase'>Ms Add 17134 ex err</span></em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_11.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="481px"
-                     height="64px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_11.gif" rend="img" mimeType="image/gif" width="481px" height="64px"/>
          </p>
          <p>
             <hi rend="bold">12</hi>) Gen 50:24-26/II 773 [361]; fol. 70r</p>
@@ -482,11 +666,7 @@ style='font-family:"Estrangelo Talada";'>&#1816;&#1826;&#1836;&#1813;&#1823;&#18
 dir="RTL" style='font-family:"Estrangelo Talada"'>&#1818;&#1813;&#1808;</span> <em>Jac</em> &mdash; 6 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1818;&#1821;&#1836;&#1808; &#1808;&#1818;&#1834;&#1836;&#1808;</span> <em>transpJac</em> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1825;&#1821;&#776;&#1808; &#1813;&#1825;&#1810;&#1816;&#1829;&#1808; &#1825;&#1810;&#1816;&#1829;&#1808; &#1813;&#1825;&#1821;&#776;&#1808;</span> <em>Jac</em> (<em>cfvs</em> 5)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_13.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="479px"
-                     height="88px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_13.gif" rend="img" mimeType="image/gif" width="479px" height="88px"/>
          </p>
          <p>
             <hi rend="bold">14</hi>) 1Sam 17:34-36/II 759 [347]; fol. 68r</p>
@@ -496,11 +676,7 @@ style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#1830;</span><sup>2</sup>
 dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1830;</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_14.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="483px"
-                     height="46px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_14.gif" rend="img" mimeType="image/gif" width="483px" height="46px"/>
          </p>
          <p style="font-size:smaller">The variants do not agree with
     Jacob�s later revision, see A. Salvesen, <hi rend="italic">The Books of
@@ -516,11 +692,7 @@ style='font-family:"Estrangelo Talada";'>&#1834;&#1821;&#1835;&#1815;</span>
 <em><span style='text-transform:uppercase'>Ms Add</span> 17134 ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_15.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="380px"
-                     height="45px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_15.gif" rend="img" mimeType="image/gif" width="380px" height="45px"/>
          </p>
          <p>
             <hi rend="bold">16</hi>) 2Sam 23: 13-17/ II 631 [219]; fol. 46v</p>
@@ -532,19 +704,12 @@ style='font-family:"Estrangelo Talada";'>&#1813;&#1826;&#1835;&#1836;&#1808; &#1
 "Estrangelo Talada"'>&#1815;&#1824;&#1821;&#1826;</span> <em>Jac</em> <span style='text-transform:uppercase'>LXX</span> (<span style='font-family:Greek'>o�</span>) |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1825;&#1835;&#1834;&#776;&#1821;&#1836;&#1815;&#1816;&#1826; &#1825;&#1835;&#1834;&#776;&#1821;&#1836;&#1808;</span> <em>Jac</em> | <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1824;&#1818;&#1825; [&#1810;&#1821;&#1836;</span> <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1824;&#1818;&#1825; &#1810;&#1810;&#1821;&#1836; <em>Jac</em> 9l2&#8594;</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_16_1.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="477px"
-                     height="79px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_16_1.gif" rend="img" mimeType="image/gif" width="477px" height="79px"/>
          </p>
          <p style="font-size:smaller">Jacob�s later revision offers also
-    <!--<span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1810;&#1810;&#1821;&#1836; &#1824;&#1818;&#1825;</span>--><hi style="vertical-align:-12%;">
-               <graphic url="HV8N2Juckel/HV8N2Juckel_11P_16_2.gif"
-                        rend="img"
-                        mimeType="image/gif"
-                        width="65px"
-                        height="14px"/>
+    <!--<span dir="RTL" style='font-family:"Estrangelo Talada"'>ܒܒܝܬ ܠܚܡ</span>-->
+                <hi style="vertical-align:-12%;">
+               <graphic url="HV8N2Juckel/HV8N2Juckel_11P_16_2.gif" rend="img" mimeType="image/gif" width="65px" height="14px"/>
             </hi> (in <hi rend="italic">vs</hi> 14 and 15; in
     16 different construction), see A. Salvesen, <hi rend="italic">The Books of
     Samuel</hi> part I, 160.</p>
@@ -552,16 +717,12 @@ style='font-family:"Estrangelo Talada";'>&#1813;&#1826;&#1835;&#1836;&#1808; &#1
             <hi rend="bold">17</hi>) Isa 8:23 � 9:1/II, 605 [193]; fol 41r</p>
          <!--
 <p style="font-size:smaller"><em>incipit</em><span
-dir="RTL" style='font-family:"Estrangelo Talada"'> &#1827;&#1834;&#1815;&#1810;&#1836; &#1808;&#1834;&#1829;&#1808; &#1813;&#1817;&#1810;&#1824;&#1816;&#1826;
+dir="RTL" style='font-family:"Estrangelo Talada"'> ܣܪܗܒܬ ܐܪܥܐ ܕܙܒܠܘܢ
 <br />
-ix,1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1813;&#1821;&#1836;&#1810;&#1821;&#1826;</span> <em>ed Leid sub</em> � ] ><span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#1821;&#1824;&#1821;&#1826; &#1813;&#1821;&#1836;&#1810;&#1821;&#1826;</span> <em>Jac</em>� LXX (<span style='font-family:Greek'>o� katoiko�ntej</span>)�7a1 8a1 11l1 12a1</p>
+ix,1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>ܘܕܝܬܒܝܢ</span> <em>ed Leid sub</em> � ] ><span dir="RTL" style='font-family:"Estrangelo Talada"'>ܘܐܝܠܝܢ ܕܝܬܒܝܢ</span> <em>Jac</em>� LXX (<span style='font-family:Greek'>o� katoiko�ntej</span>)�7a1 8a1 11l1 12a1</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_17.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="483px"
-                     height="65px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_17.gif" rend="img" mimeType="image/gif" width="483px" height="65px"/>
          </p>
          <p>
             <hi rend="bold">18</hi>) Isa 10:33 � 11:3/I, 175; fol. 38v</p>
@@ -570,24 +731,16 @@ ix,1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1813;&#182
 <em><span style='text-transform:uppercase'>Ms Add 17134 ex err</span></em> &mdash; xi,1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1826;&#1816;&#1834;&#1810;&#1808; &#1825;&#1826;</span> <em>om Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_18.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="473px"
-                     height="23px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_18.gif" rend="img" mimeType="image/gif" width="473px" height="23px"/>
          </p>
          <p>
             <hi rend="bold">19</hi>) Isa 12:2-3/I, 63; fol. 14v</p>
          <!--
-<p style="font-size:smaller">2 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1835;&#1816;&#1810;&#1818;&#1821;< &#1816;&#1835;&#1816;&#1810;&#1818;</span> 
+<p style="font-size:smaller">2 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܘܫܘܒܚܝ< ܘܫܘܒܚ</span> 
 <em>Ms Add 17134 ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_19.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="216px"
-                     height="16px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_19.gif" rend="img" mimeType="image/gif" width="216px" height="16px"/>
          </p>
          <p>
             <hi rend="bold">20</hi>) Isa 14:3-15/II, 599 [187]; fol. 40r</p>
@@ -596,44 +749,32 @@ ix,1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1813;&#182
 style='font-family:"Estrangelo Talada"'>[&#1810;&#1834;&#1816;&#1836;&#1808;</span> <em>syome Jac</em> (<em>contra</em> Brooks), <em>cf</em> LXX (<span style='font-family:Greek'>t� x�la</span>)� |� <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1827;&#1824;&#1833;&#1816; &#1827;&#1824;&#1833;</span> <em>Jac</em>� LXX (<span style='font-family:Greek'>�n�bh</span>) &mdash;�13 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1808;&#1827;&#1833; &#1813;&#1808;&#1827;&#1833;</span> <em>Jac</em>� 9a1<em>fam</em> 9d1 10d1 11d1 12a1 |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1808;&#1834;&#1821;&#1825; &#1808;&#1827;&#1821;&#1825;</span> <em>Jac</em>SyHex LXX (<span style='font-family:Greek'>q�sw</span>)�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1810;&#1819;&#1816;&#1834;&#776;&#1808; &#1834;&#776;&#1825;&#1808; &#1810;&#1819;&#1816;&#1834;&#1808;</span> <em>Jac cf</em> LXX� (<span style='font-family:Greek'>�n �rei �yhl�</span>) (<span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1810;&#1819;&#1816;&#1834;&#1808; &#1834;&#1825;&#1808;</span> 9a1<em>fam </em>&#8594; )�&mdash;�15�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1825;&#1823;&#1821;&#1824; &#1816;&#1825;&#1823;&#1821;&#1824;</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_20.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="479px"
-                     height="91px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_20.gif" rend="img" mimeType="image/gif" width="479px" height="91px"/>
          </p>
          <p>
             <hi rend="bold">21</hi>) Isa 14:10-12/I 101; fol. 23r</p>
          <!--
 <p style="font-size:smaller"><em>desinit</em>  <span dir="RTL" 
-style='font-family:"Estrangelo Talada";'>&#1825;&#1826; &#1835;&#1825;&#1821;&#1808;</span>
+style='font-family:"Estrangelo Talada";'>ܡܢ ܫܡܝܐ</span>
 <br />
 no variant reading; but the following addition: <span
-dir="RTL" style='font-family:"Estrangelo Talada"'>&#1810;&#1815;&#1855;&#1821; &#1813;&#1821;&#1826; &#1825;&#1835;&#1824;&#1825;&#1826;&#1816;&#1836;&#1808; &#1813;&#1824;&#1816;&#1836; &#1821;&#1816;&#1826;&#1821;&#776;&#1808; &#1808;&#1825;&#1855;&#1834; &#1808;&#1821;&#1823;&#1826;&#1808; &#1826;&#1830;&#1852;&#1824; &#1823;&#1816;&#1823;&#1810; &#1826;&#1816;&#1811;&#1815;&#1808;</span> (the Peshitta reading is <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1821;&#1823;&#1826;&#1808; &#1826;&#1830;&#1824;&#1836; &#1825;&#1826; &#1835;&#1825;&#1821;&#1808;</span>).</p>
+dir="RTL" style='font-family:"Estrangelo Talada"'>ܒܗܿܝ ܕܝܢ ܡܫܠܡܢܘܬܐ ܕܠܘܬ ܝܘܢܝ̈ܐ ܐܡܿܪ ܐܝܟܢܐ ܢܦܼܠ ܟܘܟܒ ܢܘܓܗܐ</span> (the Peshitta reading is <span dir="RTL" style='font-family:"Estrangelo Talada"'>ܐܝܟܢܐ ܢܦܠܬ ܡܢ ܫܡܝܐ</span>).</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_21.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="483px"
-                     height="65px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_21.gif" rend="img" mimeType="image/gif" width="483px" height="65px"/>
          </p>
          <p>
             <hi rend="bold">22</hi>) Isa 28:16/II, 662 [250]; fol. 52v</p>
          <!--
 <p style="font-size:smaller"><em>incipit</em><span dir="RTL" 
-style='font-family:"Estrangelo Talada";'>&#1815;&#1808; &#1808;&#1826;&#1808; &#1825;&#1836;&#1833;&#1826; &#1808;&#1826;&#1808;<br />
-16 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1815;&#1808; &#1808;&#1826;&#1808;</span> <em>om</em> <span dir="RTL" style='font-family:
-"Estrangelo Talada"'>&#1808;&#1826;&#1808;</span> <em>Jac</em>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1810;&#1817;&#1816;&#1821;&#1836;&#1808;</span> <span
-dir="RTL" style='font-family:"Estrangelo Talada"'>&#1810;&#1817;&#1816;&#1826;&#1836;&#1808;</span> 
+style='font-family:"Estrangelo Talada";'>ܗܐ ܐܢܐ ܡܬܩܢ ܐܢܐ<br />
+16 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܗܐ ܐܢܐ</span> <em>om</em> <span dir="RTL" style='font-family:
+"Estrangelo Talada"'>ܐܢܐ</span> <em>Jac</em>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܒܙܘܝܬܐ</span> <span
+dir="RTL" style='font-family:"Estrangelo Talada"'>ܒܙܘܢܬܐ</span> 
 <em>Ms Add 17134 ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_22.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="371px"
-                     height="45px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_22.gif" rend="img" mimeType="image/gif" width="371px" height="45px"/>
          </p>
          <p>
             <hi rend="bold">23</hi>) Isa 29:13-14/II 742 [330]; fol. 65v</p>
@@ -647,11 +788,7 @@ style='font-family:"Estrangelo Talada"'>[&#1816;&#1808;&#1830;&#1824;&#1808;</sp
 dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1830; &#1824;&#1808;</span> <em>Jac</em> 6h3&#8594;</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_24.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="417px"
-                     height="26px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_24.gif" rend="img" mimeType="image/gif" width="417px" height="26px"/>
          </p>
          <p>
             <hi rend="bold">25</hi>) Isa 35:3-10/I 134; fol. 30v</p>
@@ -662,11 +799,7 @@ font-family:"Estrangelo Talada"'>[&#1826;&#1813;&#1834;&#1823;&#1816;&#1826; &#1
 <span style='text-transform:uppercase'>Ms Add 17134</span> ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_25.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="495px"
-                     height="42px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_25.gif" rend="img" mimeType="image/gif" width="495px" height="42px"/>
          </p>
          <p>
             <hi rend="bold">26</hi>) Isa 40:27-41:2/II 615 [203]; fol. 43v</p>
@@ -675,11 +808,7 @@ font-family:"Estrangelo Talada"'>[&#1826;&#1813;&#1834;&#1823;&#1816;&#1826; &#1
 font-family:"Estrangelo Talada"'>[&#1808;&#1821;&#1823; &#1813;&#1821;&#1816;&#1826;&#1808; &#1808;&#1821;&#1823; &#1821;&#1816;&#776;&#1826;&#1808;</span> <em>Jac cf</em> LXX�(<span style='font-family:Greek'>�j �et<b>o�</b></span>)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_26.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="481px"
-                     height="38px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_26.gif" rend="img" mimeType="image/gif" width="481px" height="38px"/>
          </p>
          <p>
             <hi rend="bold">27</hi>) Isa 49:14-18/II 662 [250]; fol. 52r</p>
@@ -691,11 +820,7 @@ style='font-family:"Estrangelo Talada"'>[&#1808;&#1834;&#1821;&#1825;&#1821; &#1
 <em>Ms Add 17134 ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_27.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="51px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_27.gif" rend="img" mimeType="image/gif" width="500px" height="51px"/>
          </p>
          <p>
             <hi rend="bold">28</hi>) Isa 49:18-21/I 137; fol. 31r</p>
@@ -707,11 +832,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 "Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;&#1816;</span> <em>Jac</em>�9l4.6 12a1</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_28.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="436px"
-                     height="26px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_28.gif" rend="img" mimeType="image/gif" width="436px" height="26px"/>
          </p>
          <p>
             <hi rend="bold">29</hi>) Isa 61:3-8/II 639 [227]; fol. 48r</p>
@@ -720,11 +841,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 3 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1818;&#1824;&#1830; &#1816;&#1818;&#1824;&#1830;</span> <em>Jac</em>�&mdash; 4 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1826;&#1810;&#1826;&#1816;&#1826; &#1816;&#1826;&#1834;&#1810;&#1816;&#1826;</span> <em>Jac</em> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1826;&#1833;&#1821;&#1825;&#1816;&#1826;  ... &#1813;&#1813;&#1834;&#1813;&#1834;&#1821;&#1826;</span> <em>om Jac</em>� &mdash;�5 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1826;&#1833;&#1816;&#1825;&#1816;&#1826; &#1826;&#1833;&#1816;&#1825;&#1816;&#1826;</span> <em>Jac</em>�|�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1826;&#1834;&#1829;&#1816;&#1826;  &#1829;&#1826;&#1815;&#1816;&#1826; &#1816;&#1826;&#1834;&#1829;&#1826;&#1816;&#1826; &#1829;&#1821;&#1826;&#1815;&#1816;&#1826;</span> <em>Ms Add 17134 ex err</em>�&mdash;�6 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1825;&#1835;&#1825;&#776;&#1835;&#1826;&#1816;&#1815;&#1821; &#1816;&#1825;&#1835;&#1825;&#776;&#1835;&#1826;&#1808;</span> <em>Jac</em> 9a1<em>fam</em>�&mdash; 7 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1821;&#1816;&#1834;&#1836;&#1826;&#1808; &#1821;&#1816;&#1836;&#1834;&#1826;&#1808;</span> <em>Ms Add 17134 ex err</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_29.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="77px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_29.gif" rend="img" mimeType="image/gif" width="500px" height="77px"/>
          </p>
          <p>
             <hi rend="bold">30</hi>) Isa 58:1-2/II 710 [298]; fol. 60r</p>
@@ -732,11 +849,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 <p style="font-size:smaller">1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1824;&#1810;&#1821;&#1836; &#1816;&#1824;&#1813;&#1810;&#1821;&#1836;</span> <em>Jac</em> 8a1<sup>c</sup> 9d1.2 9l3 10d1 12a1 12d1.2&rarr;</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_30.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="313px"
-                     height="26px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_30.gif" rend="img" mimeType="image/gif" width="313px" height="26px"/>
          </p>
          <p>
             <hi rend="bold">31</hi>) Isa 62:1-4/I 136; fol. 31r</p>
@@ -744,11 +857,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 <p style="font-size:smaller">1 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1826;&#1813;&#1824;&#1833;&#1826;&#1813;&#1824;&#1833;&#1821;</span> <em>Ms Add 17134 ex err</em>�&mdash;�4 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1836;&#1816;&#1810; &#1824;&#1808; &#1836;&#1836;&#1833;&#1834;&#1808; &#1824;&#1808; &#1836;&#1836;&#1833;&#1834;&#1808; &#1836;&#1816;&#1810;</span> <em>Jac cf</em> LXX: <span style='font-family:Greek'>o� klhq�setai]</span> + <span style='font-family:Greek'>�ti</span> <em>O�</em> � <span style='font-family:Greek'>o�k�ti klhq�setai</span> (- <span style='font-family:Greek'>sh </span>147) 147-106c <em>oII L</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_31.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="484px"
-                     height="39px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_31.gif" rend="img" mimeType="image/gif" width="484px" height="39px"/>
          </p>
          <p>
             <hi rend="bold">32</hi>) Isa 66:6-9/I 131; fol. 30r</p>
@@ -758,11 +867,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 7 <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1813;&#1821;&#1824;&#1813;&#1808;</span>] <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1815;&#1855;&#1821; &#1813;&#1821;&#1824;&#1813;&#1808;</span> <em>Jac</em> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1836;&#1830;&#1824;&#1819; &#1836;&#1830;&#1824;&#1819; &#1816;&#1836;&#1808;&#1824;&#1813;</span> <em>Jac cf</em> LXX (<span style='font-family:Greek'>�x�fuge ka� �teken</span>) &mdash;�8 <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1821;&#1823;</span> <em>(twice)</em>] <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1813;&#1808;&#1821;&#1823;</span> <em>(twice) Jac</em>�| <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1825;&#1855;&#1826;</span> ] <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1825;&#1855;&#1826;</span> <em>Jac</em> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1808;&#1834;&#1829;&#1808;</span> <em>add</em> <span dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1821;&#1824;&#1813;&#1808;</span> <em>Jac</em> |�<span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1816;&#1821;&#1824;&#1813;&#1808; &#1832;&#1815;&#1821;&#1816;&#1826;</span><em> transp Jac</em>�LXX: 88 <em>L</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_32.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="482px"
-                     height="81px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_32.gif" rend="img" mimeType="image/gif" width="482px" height="81px"/>
          </p>
          <p>
             <hi rend="bold">33</hi>) Jer 31:15-17/I 154; fol. 34v</p>
@@ -774,11 +879,7 @@ font-family:"Estrangelo Talada"'>&#1808;&#1836;&#1833;&#1834;&#1810;</span> ]<sp
 style='font-family:"Estrangelo Talada"'>[&#1808;&#1816;&#1834;&#1818;&#1815; &#1808;&#1816;&#1834;&#1818;&#1808; &#1813;&#1821;&#1824;&#1815;</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_34.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="411px"
-                     height="29px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_34.gif" rend="img" mimeType="image/gif" width="411px" height="29px"/>
          </p>
          <p>
             <hi rend="bold">35</hi>) Ezek 37:15-17/ I 176; fol. 38v</p>
@@ -787,11 +888,7 @@ style='font-family:"Estrangelo Talada"'>[&#1808;&#1816;&#1834;&#1818;&#1815; &#1
 style='font-family:"Estrangelo Talada"'>[&#1833;&#1821;&#1827; &#1833;&#1821;&#1827;&#1808;</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_35.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="344px"
-                     height="20px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_35.gif" rend="img" mimeType="image/gif" width="344px" height="20px"/>
          </p>
          <p>
             <hi rend="bold">36</hi>) Hos 2:23-25/I 135; fol. 30v</p>
@@ -800,26 +897,18 @@ style='font-family:"Estrangelo Talada"'>[&#1833;&#1821;&#1827; &#1833;&#1821;&#1
 style='font-family:"Estrangelo Talada"'>[&#1816;&#1808;&#1817;&#1834;&#1829;&#1821;&#1815;&#1855; &#1816;&#1808;&#1817;&#1834;&#1829;&#1815;</span> <em>Jac</em> (referring to Hosea�s son? <em>cf</em>. Hos i,4)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_36.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="481px"
-                     height="34px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_36.gif" rend="img" mimeType="image/gif" width="481px" height="34px"/>
          </p>
          <p>
             <hi rend="bold">37</hi>) Amos 8:9-10/II 703 [291]; fol. 59r</p>
          <!--
-<p style="font-size:smaller">10 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1829;&#1813;&#1829;&#1808;&#1813;&#1821;&#776;&#1823;&#1816;&#1826; &#1829;&#1813;&#1829;&#1821;&#1813;&#1821;&#776;&#1823;&#1816;&#1826;</span> <em>Ms Add 17134</em>| <span dir="RTL" 
-style='font-family:"Estrangelo Talada"'>[&#1816;&#1808;&#1818;&#1817;&#1816;&#1833; &#1816;&#1808;&#1818;&#1817;&#1816;&#1833;&#1816;</span><em>
+<p style="font-size:smaller">10 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܥܕܥܐܕܝ̈ܟܘܢ ܥܕܥܝܕܝ̈ܟܘܢ</span> <em>Ms Add 17134</em>| <span dir="RTL" 
+style='font-family:"Estrangelo Talada"'>[ܘܐܚܙܘܩ ܘܐܚܙܘܩܘ</span><em>
 Ms Add 17134 ex err</em>�|�<span dir="RTL" 
-style='font-family:"Estrangelo Talada"'>[&#1813;&#1821;&#1818;&#1821;&#1813;&#1808; &#1813;&#1821;&#1818;&#1821;&#1813;&#1821;&#1808;</span> <em>Jac</em>�11l4.5*&#8594;</p>
+style='font-family:"Estrangelo Talada"'>[ܕܝܚܝܕܐ ܕܝܚܝܕܝܐ</span> <em>Jac</em>�11l4.5*→</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_37.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="480px"
-                     height="39px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_37.gif" rend="img" mimeType="image/gif" width="480px" height="39px"/>
          </p>
          <p>
             <hi rend="bold">38</hi>) Jonah 3:7-9/I 68; fol. 15v</p>
@@ -834,41 +923,29 @@ style='font-family:"Estrangelo Talada"'>[&#1818;&#1819;&#1816;&#1830;&#1821;&#18
 <em>Jac</em> LXX</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_38.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="484px"
-                     height="106px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_38.gif" rend="img" mimeType="image/gif" width="484px" height="106px"/>
          </p>
          <p>
             <hi rend="bold">39</hi>) Hag 2:6-9/II 649 [237]; fol. 50r</p>
          <!--
 <p style="font-size:smaller"><em>incipit</em><span dir="RTL" 
-style='font-family:"Estrangelo Talada";'>&#1836;&#1816;&#1810; &#1818;&#1813;&#1808; &#1817;&#1810;&#1826;</span></p>
+style='font-family:"Estrangelo Talada";'>ܬܘܒ ܚܕܐ ܙܒܢ</span></p>
 
-<p>6 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1835;&#1825;&#1821;&#1808; &#1824;&#1835;&#1825;&#1821;&#1808;</span> <em>Jac</em></p>
+<p>6 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[ܫܡܝܐ ܠܫܡܝܐ</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_39.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="124px"
-                     height="42px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_39.gif" rend="img" mimeType="image/gif" width="124px" height="42px"/>
          </p>
          <p>
             <hi rend="bold">40</hi>) Zech 11:7-8/I 175; fol. 38v</p>
          <!--
 <p style="font-size:smaller"><em>desinit</em> <span dir="RTL" 
-style='font-family:"Estrangelo Talada";'>&#1810;&#1821;&#1834;&#1818;&#1808; &#1818;&#1813;</span><br />
+style='font-family:"Estrangelo Talada";'>ܒܝܪܚܐ ܚܕ</span><br />
 8 <span 
-dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1810;&#1821;&#1834;&#1818;&#1808; &#1810;&#1821;&#1816;&#1825;&#1808;</span> <em>Jac</em></p>
+dir="RTL" style='font-family:"Estrangelo Talada"'>[ܒܝܪܚܐ ܒܝܘܡܐ</span> <em>Jac</em></p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_40.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="124px"
-                     height="42px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_40.gif" rend="img" mimeType="image/gif" width="124px" height="42px"/>
          </p>
          <p>
             <hi rend="bold">41</hi>) Lam 3:25-30/II 731 [319]; fol. 63v</p>
@@ -878,11 +955,7 @@ dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1810;&#1821;&#1834;&#1818;&
 style='font-family:Greek'>�</span>)�&mdash;�27 <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1810;&#1819;&#1824;&#1821;&#1816;&#1836;&#1815; &#1825;&#1826; &#1819;&#1824;&#1821;&#1816;&#1836;&#1815;</span> <em>Jac</em>� LXX<span style='font-family:Greek'>�n ne�thti] �k ne�thtoj</span> <em>L</em> 538 <em>C</em>-239 130 &mdash;�29� <span dir="RTL" style='font-family:"Estrangelo Talada"'>[&#1830;&#1816;&#1825;&#1815; &#1824;&#1818;&#1825;&#1815;</span> <em>Jac</em> �(LXX <em>omvs</em> 29; in <em>O</em>-Q<sup>mg</sup> <em>L </em>538 239 <em>vs</em> 29 is extant, <span style='font-family:Greek'>st�ma a�to�</span> only is attested)</p>
 -->
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_41.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="489px"
-                     height="78px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_11P_41.gif" rend="img" mimeType="image/gif" width="489px" height="78px"/>
          </p>
          <head xml:id="S2.1">Evaluation</head>
          <p rend="nn">
@@ -928,124 +1001,75 @@ style='font-family:Greek'>�</span>)�&mdash;�27 <span dir="RTL" style='font
                   <item>Some of Jacob�s singular variants make the text more
           explicit: Item 9, 16 (<hi rend="italic">vs</hi> 15); 27 (<hi rend="italic">vs</hi>
           17); 32 (<hi rend="italic">vs</hi> 7: 
-          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1815;&#1855;&#1821; &#1813;&#1821;&#1824;&#1813;&#1808;</span>--><hi style="vertical-align:-10%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c2_01.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="49px"
-                                 height="13px"/>
+          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܗܿܝ ܕܝܠܕܐ</span>-->
+                            <hi style="vertical-align:-10%;">
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c2_01.gif" rend="img" mimeType="image/gif" width="49px" height="13px"/>
                      </hi>, and <hi rend="italic">vs</hi> 8:
           <hi rend="italic">add</hi> 
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1816;&#1821;&#1824;&#1813;&#1808;</span>-->           <hi style="vertical-align:-10%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c2_02.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="34px"
-                                 height="13px"/>
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܘܝܠܕܐ</span>-->           <hi style="vertical-align:-10%;">
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c2_02.gif" rend="img" mimeType="image/gif" width="34px" height="13px"/>
                      </hi>).</item>
                   <item>In item 20 (<hi rend="italic">vs</hi> 8) and 26 (<hi rend="italic">vs</hi> 31)
           Jacob imposes the plural of the Septuagint on words of
           the Peshitta in the singular; in item 20 (<hi rend="italic">vs</hi> 13)
           the plural of the Peshitta is changed to the singular of
           the Septuagint (and 
-          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1834;&#1825;&#1808;</span>--><hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_01.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="29px"
-                                 height="11px"/>
+          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܪܡܐ</span>-->
+                            <hi style="vertical-align:-5%;">
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_01.gif" rend="img" mimeType="image/gif" width="29px" height="11px"/>
                      </hi> seems to be omitted by
           error). We also find conflations of Peshitta and
           Septuagint in item 25 (
-          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1808;&#1830;</span>--><hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_02.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="25px"
-                                 height="9px"/>
+          <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܐܦ</span>-->
+                            <hi style="vertical-align:-5%;">
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_02.gif" rend="img" mimeType="image/gif" width="25px" height="9px"/>
                      </hi> is from the Septuagint;
           the verb is from the Peshitta), and 32 (<hi rend="italic">vs</hi> 7:
           the addition of <hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_03.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="39px"
-                                 height="13px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_03.gif" rend="img" mimeType="image/gif" width="39px" height="13px"/>
                      </hi>
-                     <!--<span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'>&#1816;&#1836;&#1808;&#1824;&#1813;</span>-->
+                     <!--<span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'>ܘܬܐܠܕ</span>-->
           derives from the Septuagint, the <hi rend="italic">tempus</hi> from the
           Peshitta).</item>
                   <item>There is a tendency to omit the suffix in a genitive
           relation in item 8, 10, 16, 29, 38 (except 38 all in
           accordance with Peshitta variants), and to reduce
           <hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c4_01.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="29px"
-                                 height="9px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c4_01.gif" rend="img" mimeType="image/gif" width="29px" height="9px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1816;&#1808;&#1830;</span>-->
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܘܐܦ</span>-->
           to <hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_02.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="25px"
-                                 height="9px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c3_02.gif" rend="img" mimeType="image/gif" width="25px" height="9px"/>
                      </hi>
                      <!--
-<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1808;&#1830;</span>-->
+<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܐܦ</span>-->
 (14, 20, 24).</item>
                   <item>In item 27 (<hi rend="italic">vs</hi> 15) Jacob introduces an
           expansion of the verse (<hi dir="rtl" style="vertical-align:-15%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c5_01.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="59px"
-                                 height="16px"/> 
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c5_02.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="45px"
-                                 height="16px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c5_01.gif" rend="img" mimeType="image/gif" width="59px" height="16px"/> 
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c5_02.gif" rend="img" mimeType="image/gif" width="45px" height="16px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1808;&#1830;&#1826; ... &#1824;&#1808; &#1808;&#1819;&#1829;&#1821;&#1815;&#1855;</span>-->)
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܐܦܢ ... ܠܐ ܐܛܥܝܗܿ</span>-->)
           which is difficult to explain. It is a <hi rend="italic">general</hi>
           statement that God will not forget Zion (suffix <hi rend="italic">3rd
           pers. sg.</hi>) immediately before the <hi rend="italic">special</hi>
           address to Zion (suffix <hi rend="italic">2nd pers. sg.</hi>).</item>
                   <item>The variants <hi style="vertical-align:-10%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_01.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="45px"
-                                 height="10px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_01.gif" rend="img" mimeType="image/gif" width="45px" height="10px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1810;&#1821;&#1816;&#1825;&#1808;</span>-->
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܒܝܘܡܐ</span>-->
           (for <hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_02.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="35px"
-                                 height="10px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_02.gif" rend="img" mimeType="image/gif" width="35px" height="10px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1810;&#1821;&#1834;&#1818;&#1808;</span>-->)
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܒܝܪܚܐ</span>-->)
           in item 40, and <hi style="vertical-align:-5%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_03.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="39px"
-                                 height="12px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_03.gif" rend="img" mimeType="image/gif" width="39px" height="12px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1824;&#1818;&#1825;&#1815;</span>-->
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܠܚܡܗ</span>-->
           (for <hi style="vertical-align:-12%;">
-                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_04.gif"
-                                 rend="img"
-                                 mimeType="image/gif"
-                                 width="35px"
-                                 height="12px"/>
+                        <graphic url="HV8N2Juckel/HV8N2Juckel_12c6_04.gif" rend="img" mimeType="image/gif" width="35px" height="12px"/>
                      </hi>
-                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>&#1830;&#1816;&#1825;&#1815;</span>-->)
+                     <!--<span dir="RTL" style='font-family:"Estrangelo Talada";'>ܦܘܡܗ</span>-->)
           in item 41 (<hi rend="italic">vs</hi> 29) cannot be traced anywhere.
           The same is true for Jacob�s variants in item 4
           (<hi rend="italic">vs</hi> 14), 5 (<hi rend="italic">vs</hi> 17), 13 (<hi rend="italic">vs</hi> 6).
@@ -1091,11 +1115,7 @@ style='font-family:Greek'>�</span>)�&mdash;�27 <span dir="RTL" style='font
          <p>
             <hi rend="bold">1</hi>) Isa 1:4-6/II 697 [285], fol. 58r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_01.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="501px"
-                     height="151px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_01.gif" rend="img" mimeType="image/gif" width="501px" height="151px"/>
          </p>
          <!--
 <p><span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'>4 &#1816;&#1821; &#1824;&#1829;&#1825;&#1808; &#1818;&#1819;&#1821;&#1808;&#1799; &#1829;&#1825;&#1808; &#1813;&#1825;&#1824;&#1808; &#1818;&#1819;&#1815;&#776;&#1808;&#1799; &#1817;&#1834;&#1829;&#1808; &#1810;&#1821;&#1835;&#1808; &#1810;&#1826;&#1821;&#776;&#1808; &#1824;&#1808; &#1826;&#1825;&#1816;&#1827;&#1821;&#776;&#1808;. <span style='background:#E6E6E6'>&#1835;&#1810;&#1833;&#1836;&#1816;&#1826; &#1824;&#1825;&#1834;&#1821;&#1808; &#1816;&#1808;&#1834;&#1811;&#1817;&#1836;&#1816;&#1826; &#1824;&#1833;&#1813;&#1821;&#1835;&#1808; &#1813;&#1808;&#1821;&#1827;&#1834;&#1808;&#1821;&#1824;. &#1816;&#1815;&#1830;&#1823;&#1836;&#1816;&#1826; &#1824;&#1810;&#1827;&#1836;&#1834;&#1823;&#1816;&#1826;.</span> 5 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";
@@ -1107,24 +1127,16 @@ style='background:#E6E6E6'>&#1816;&#1823;&#1824; &#1824;&#1810;&#1808; &#1824;&#
          <p>
             <hi rend="bold">2</hi> Isa 3:12-14/II 738 [326], fol. 65r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_02.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="82px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_02.gif" rend="img" mimeType="image/gif" width="500px" height="82px"/>
          </p>
          <!--
-<p>12 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'> &#1808;&#1821;&#1824;&#1821;&#1826; &#1813;&#1821;&#1815;&#1810;&#1821;&#1826; &#1824;&#1823;&#1816;&#1826; &#1819;&#1816;&#1810;&#1808; &#1825;&#1819;&#1829;&#1821;&#1826; &#1824;&#1823;&#1816;&#1826;. &#1808;&#1830; &#1824;&#1835;&#1810;&#1821;&#1824;&#1808; &#1813;&#1834;&#776;&#1811;&#1824;&#1821;&#1823;&#1816;&#1826; &#1813;&#1824;&#1818;&#1821;&#1826;.</span> 13 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'> &#1808;&#1824;&#1808; &#1815;&#1835;&#1808; &#1826;&#1833;&#1816;&#1825; &#1824;&#1813;&#1821;&#1826;&#1808; &#1825;&#1834;&#1821;&#1808;&#1798; &#1816;&#1826;&#1833;&#1821;&#1825; &#1829;&#1825;&#1815; &#1824;&#1813;&#1821;&#1826;&#1808;.</span> 14 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'>&#1815;&#1852;&#1816; &#1825;&#1834;&#1821;&#1808; &#1824;&#1813;&#1821;&#1826;&#1808; &#1826;&#1808;&#1836;&#1808;. &#1829;&#1825; &#1827;&#1810;&#776;&#1808; &#1813;&#1829;&#1825;&#1815; &#1816;&#1829;&#1825; &#1834;&#776;&#1821;&#1835;&#1826;&#1816;&#1815;&#1821;.</p>
+<p>12 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'> ܐܝܠܝܢ ܕܝܗܒܝܢ ܠܟܘܢ ܛܘܒܐ ܡܛܥܝܢ ܠܟܘܢ. ܐܦ ܠܫܒܝܠܐ ܕܪ̈ܓܠܝܟܘܢ ܕܠܚܝܢ.</span> 13 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'> ܐܠܐ ܗܫܐ ܢܩܘܡ ܠܕܝܢܐ ܡܪܝܐ܆ ܘܢܩܝܡ ܥܡܗ ܠܕܝܢܐ.</span> 14 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";'>ܗܼܘ ܡܪܝܐ ܠܕܝܢܐ ܢܐܬܐ. ܥܡ ܣܒ̈ܐ ܕܥܡܗ ܘܥܡ ܪ̈ܝܫܢܘܗܝ.</p>
 <p>13<span style='font-family:Greek;'>e�j kr�sin /<span style='font-family:Greek;'>t�n la�n a�to�]</span> <em>transp Jac</em></p>
 -->
          <p>
             <hi rend="bold">3</hi>) Isa 6:1-7/ ΙΙ 671-72 [259-60], 54r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_03.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="498px"
-                     height="314px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_03.gif" rend="img" mimeType="image/gif" width="498px" height="314px"/>
          </p>
          <!--
 <p><span lang="SYR" dir="RTL" 
@@ -1153,35 +1165,23 @@ style='background:#E6E6E6'>&#1816;&#1810;&#1821;&#1836;&#1808; &#1808;&#1836;&#1
          <p>
             <hi rend="bold">4</hi>) Isa 9:15-16/II 738 [326], 65r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_04.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="498px"
-                     height="45px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_04.gif" rend="img" mimeType="image/gif" width="498px" height="45px"/>
          </p>
          <!--
-<p>15 <span lang="SYR" dir="RTL" style='font-family: "Estrangelo Talada"'>&#1816;&#1826;&#1815;&#1816;&#1816;&#1826; &#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1821;&#1815;&#1810;&#1821;&#1826; &#1819;&#1816;&#1810;&#1808; &#1824;&#1829;&#1825;&#1808; &#1815;&#1826;&#1808; &#1813;&#1819;&#1829;&#1821;&#1826; &#1816;&#1825;&#1819;&#1829;&#1821;&#1826;&#1798; &#1808;&#1821;&#1823;&#1826;&#1808; &#1813;&#1826;&#1810;&#1824;&#1829;&#1816;&#1826; &#1808;&#1826;&#1816;&#1826;.</span> 16 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1825;&#1819;&#1824; &#1815;&#1826;&#1808; &#1829;&#1824; &#1829;&#1824;&#1821;&#1825;&#1821;&#776;&#1815;&#1816;&#1826; &#1824;&#1808; &#1826;&#1818;&#1813;&#1808; &#1808;&#1824;&#1815;&#1808;.</p>
+<p>15 <span lang="SYR" dir="RTL" style='font-family: "Estrangelo Talada"'>ܘܢܗܘܘܢ ܗܿܢܘܢ ܕܝܗܒܝܢ ܛܘܒܐ ܠܥܡܐ ܗܢܐ ܕܛܥܝܢ ܘܡܛܥܝܢ܆ ܐܝܟܢܐ ܕܢܒܠܥܘܢ ܐܢܘܢ.</span> 16 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܡܛܠ ܗܢܐ ܥܠ ܥܠܝܡܝ̈ܗܘܢ ܠܐ ܢܚܕܐ ܐܠܗܐ.</p>
 -->
          <p>
             <hi rend="bold">5</hi>) Isa 21:3-4/II 744 [332], 66r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_05.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="497px"
-                     height="39px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_05.gif" rend="img" mimeType="image/gif" width="497px" height="39px"/>
          </p>
          <!--
-<p>3 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1808;&#1829;&#1816;&#1824;&#1836; &#1813;&#1824;&#1808; &#1808;&#1835;&#1825;&#1829;. &#1808;&#1836;&#1818;&#1830;&#1819;&#1836; &#1813;&#1824;&#1808; &#1808;&#1818;&#1817;&#1808;.</span> 4 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1824;&#1810;&#1808; &#1813;&#1821;&#1824;&#1821; &#1819;&#1855;&#1829;&#1808;. &#1816;&#1824;&#1808; &#1826;&#1825;&#1816;&#1827;&#1821;&#1816;&#1836;&#1808; &#1824;&#1821; &#1825;&#1819;&#1810;&#1829;&#1808;. &#1826;&#1830;&#1835;&#1808; &#1813;&#1821;&#1824;&#1821; &#1833;&#1825;&#1836; &#1810;&#1813;&#1818;&#1824;&#1836;&#1808;.</p>
+<p>3 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> ܐܥܘܠܬ ܕܠܐ ܐܫܡܥ. ܐܬܚܦܛܬ ܕܠܐ ܐܚܙܐ.</span> 4 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܠܒܐ ܕܝܠܝ ܛܿܥܐ. ܘܠܐ ܢܡܘܣܝܘܬܐ ܠܝ ܡܛܒܥܐ. ܢܦܫܐ ܕܝܠܝ ܩܡܬ ܒܕܚܠܬܐ.</p>
 -->
          <p>
             <hi rend="bold">6</hi>) Isa 24:15-20/II 694 [282], fol. 57v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_06.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="501px"
-                     height="192px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_06.gif" rend="img" mimeType="image/gif" width="501px" height="192px"/>
          </p>
          <!--
 <p>15<span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1834;&#1821;&#1808; &#1808;&#1824;&#1815;&#1808; &#1813;&#1808;&#1821;&#1827;&#1834;&#1808;&#1821;&#1824;.</span> 16 <span
@@ -1196,29 +1196,21 @@ lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1816;&#1826;&#18
          <p>
             <hi rend="bold">7</hi>) Isa 24:23-25:1/II 683 [271], 55v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_07.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="503px"
-                     height="84px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_07.gif" rend="img" mimeType="image/gif" width="503px" height="84px"/>
          </p>
          <!--
 <p>23 <span lang="SYR" dir="RTL" style='font-family:
-"Estrangelo Talada"'>&#1825;&#1819;&#1824; &#1813;&#1826;&#1825;&#1824;&#1823; &#1825;&#1834;&#1821;&#1808; &#1810;&#1832;&#1815;&#1821;&#1816;&#1826; &#1816;&#1810;&#1808;&#1816;&#1834;&#1821;&#1835;&#1824;&#1825;.   &#1816;&#1833;&#1813;&#1825; &#1833;&#1835;&#1821;&#776;&#1835;&#1808; &#1826;&#1835;&#1836;&#1810;&#1818;.</span> 1 <span
-lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1834;&#1821;&#1808; &#1808;&#1824;&#1815;&#1821; &#1808;&#1826;&#1836;.</span><span lang="SYR"
-style='font-family:"Estrangelo Talada"'> &#1808;&#1835;&#1810;&#1818;&#1823; <span
-style='background:#E6E6E6'>&#1816;&#1808;&#1816;&#1813;&#1808; &#1824;&#1835;&#1825;&#1823;. &#1813;&#1829;&#1810;&#1813;&#1836;</span> &#1827;&#1816;&#1829;&#1834;&#776;&#1826;&#1808; &#1836;&#1825;&#1821;&#776;&#1815;&#1808;. &#1836;&#1834;&#1829;&#1821;&#1836;&#1808; &#1834;&#1821;&#1835;&#1821;&#1836;&#1808; &#1835;&#1834;&#1821;&#1834;&#1836;&#1808; &#1836;&#1815;&#1816;&#1808; &#1825;&#1834;&#1821;&#1808;.</p>
+"Estrangelo Talada"'>ܡܛܠ ܕܢܡܠܟ ܡܪܝܐ ܒܨܗܝܘܢ ܘܒܐܘܪܝܫܠܡ.   ܘܩܕܡ ܩܫܝ̈ܫܐ ܢܫܬܒܚ.</span> 1 <span
+lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";background:#E6E6E6'>ܡܪܝܐ ܐܠܗܝ ܐܢܬ.</span><span lang="SYR"
+style='font-family:"Estrangelo Talada"'> ܐܫܒܚܟ <span
+style='background:#E6E6E6'>ܘܐܘܕܐ ܠܫܡܟ. ܕܥܒܕܬ</span> ܣܘܥܪ̈ܢܐ ܬܡܝ̈ܗܐ. ܬܪܥܝܬܐ ܪܝܫܝܬܐ ܫܪܝܪܬܐ ܬܗܘܐ ܡܪܝܐ.</p>
 
 <p>1 <span style='font-family:Greek'>�mn�sw] ka� �m.</span>  <em>Jac</em> P� SyH (Ziegler)</p>
 -->
          <p>
             <hi rend="bold">8</hi>) Isa 25:6-10/II 767 [355], 69v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_08.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="273px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_08.gif" rend="img" mimeType="image/gif" width="500px" height="273px"/>
          </p>
          <!--
 <p>6 <span lang="SYR" dir="RTL" style='font-family:
@@ -1234,50 +1226,38 @@ style='background:#E6E6E6'>&#1816;&#1808;&#1816;&#1813;&#1808; &#1824;&#1835;&#1
          <p>
             <hi rend="bold">9</hi>) Isa 26:9/I 124, fol. 28r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_09.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="495px"
-                     height="27px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_09.gif" rend="img" mimeType="image/gif" width="495px" height="27px"/>
          </p>
          <!--
 <p>9 <span lang="SYR" dir="RTL" style='font-family:
-"Estrangelo Talada"'>&#1825;&#1826; &#1824;&#1824;&#1821;&#1808; &#1825;&#1833;&#1813;&#1825;&#1808; &#1834;&#1816;&#1818;&#1821; &#1824;&#1816;&#1836;&#1823; &#1808;&#1824;&#1815;&#1808;&#1798; &#1825;&#1819;&#1824; &#1813;&#1826;&#1816;&#1815;&#1834;&#1808; &#1808;&#1826;&#1816;&#1826; &#1830;&#1816;&#1833;&#1813;&#1826;&#1821;&#776;&#1823; &#1829;&#1824; &#1808;&#1834;&#1829;&#1808;.</p>
+"Estrangelo Talada"'>ܡܢ ܠܠܝܐ ܡܩܕܡܐ ܪܘܚܝ ܠܘܬܟ ܐܠܗܐ܆ ܡܛܠ ܕܢܘܗܪܐ ܐܢܘܢ ܦܘܩܕܢܝ̈ܟ ܥܠ ܐܪܥܐ.</p>
 -->
          <p>
             <hi rend="bold">10</hi>) Isa 26:18-19/II 700 [288], fol. 58v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_10.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="497px"
-                     height="71px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_10.gif" rend="img" mimeType="image/gif" width="497px" height="71px"/>
          </p>
          <!--
-<p>18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1824;&#1808; &#1826;&#1830;&#1824; &#1808;&#1824;&#1808; &#1826;&#1830;&#1824;&#1816;&#1826; &#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1829;&#1825;&#1834;&#1821;&#1826; &#1829;&#1824; &#1808;&#1834;&#1829;&#1808;.</span>
-19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1826;&#1833;&#1816;&#1825;&#1816;&#1826; &#1825;&#1821;&#776;&#1836;&#1808; &#1816;&#1826;&#1836;&#1826;&#1818;&#1825;&#1816;&#1826; &#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1810;&#1833;&#1810;&#1834;&#776;&#1808;. &#1816;&#1826;&#1818;&#1813;&#1816;&#1826; &#1815;&#1852;&#1826;&#1816;&#1826; &#1813;&#1810;&#1808;&#1834;&#1829;&#1808;. &#1819;&#1824;&#1808; &#1811;&#1821;&#1834; 
-&#1815;&#1855;&#1816; &#1813;&#1825;&#1826; &#1824;&#1816;&#1836;&#1823;&#1798; &#1808;&#1827;&#1821;&#1816;&#1836;&#1808; &#1808;&#1821;&#1836;&#1816;&#1815;&#1821; &#1824;&#1815;&#1816;&#1826;. &#1808;&#1834;&#1829;&#1808; &#1813;&#1821;&#1826; &#1813;&#1834;&#776;&#1835;&#1821;&#1829;&#1808; &#1836;&#1830;&#1824;.</p>
+<p>18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> ܠܐ ܢܦܠ ܐܠܐ ܢܦܠܘܢ ܗܿܢܘܢ ܕܥܡܪܝܢ ܥܠ ܐܪܥܐ.</span>
+19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܢܩܘܡܘܢ ܡܝ̈ܬܐ ܘܢܬܢܚܡܘܢ ܗܿܢܘܢ ܕܒܩܒܪ̈ܐ. ܘܢܚܕܘܢ ܗܼܢܘܢ ܕܒܐܪܥܐ. ܛܠܐ ܓܝܪ 
+ܗܿܘ ܕܡܢ ܠܘܬܟ܆ ܐܣܝܘܬܐ ܐܝܬܘܗܝ ܠܗܘܢ. ܐܪܥܐ ܕܝܢ ܕܪ̈ܫܝܥܐ ܬܦܠ.</p>
 
 <p>18 <span style='font-family:Greek'>�ll�] o� peso�meqa �ll�</span> <em>Jac</em> LXX: S<sup>c</sup><em>LC</em></p>
 -->
          <p>
             <hi rend="bold">11</hi>) Isa 30:18-19/II 768 [356], fol. 69v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_11.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="511px"
-                     height="208px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_11.gif" rend="img" mimeType="image/gif" width="511px" height="208px"/>
          </p>
          <!--
-<p><span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1816;&#1836;&#1816;&#1810; &#1825;&#1833;&#1816;&#1808; &#1808;&#1824;&#1815;&#1808; <span
-style='background:#E6E6E6'>&#1824;&#1825;&#1834;&#1818;&#1825;&#1816; &#1829;&#1824;&#1821;&#1823;&#1816;&#1826;.</span> &#1816;&#1825;&#1819;&#1824; &#1815;&#1813;&#1808; &#1826;&#1836;&#1836;&#1834;&#1821;&#1825; &#1824;&#1825;&#1818;&#1826;&#1823;&#1816;&#1826;�[<span
-lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1824;&#1825;&#1818;&#1823;&#1816;&#1826;</span> <span
+<p><span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> ܘܬܘܒ ܡܩܘܐ ܐܠܗܐ <span
+style='background:#E6E6E6'>ܠܡܪܚܡܘ ܥܠܝܟܘܢ.</span> ܘܡܛܠ ܗܕܐ ܢܬܬܪܝܡ ܠܡܚܢܟܘܢ�[<span
+lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܠܡܚܟܘܢ</span> <span
 style='text-transform:uppercase'>Ms]</span> <span lang="SYR"
-style='font-family:"Estrangelo Talada"'>&#1825;&#1819;&#1824; &#1813;&#1813;&#1821;&#1855;&#1826;&#1808; &#1825;&#1834;&#1821;&#1808; &#1808;&#1824;&#1815;&#1826; &#1808;&#1821;&#1836;&#1816;&#1815;&#1821;. &#1816;&#1808;&#1821;&#1823;&#1826;&#1808; &#1826;&#1835;&#1810;&#1816;&#1833; &#1824;&#1836;&#1835;&#1810;&#1816;&#1818;&#1836;&#1823;&#1816;&#1826;. &#1819;&#1816;&#1810;&#1821;&#1815;&#1816;&#1826; &#1824;&#1823;&#1824;&#1815;&#1816;&#1826; &#1815;&#1855;&#1826;&#1816;&#1826; 
-<span style='background:#E6E6E6'>&#1813;&#1825;&#1827;&#1823;&#1821;&#1826; &#1824;&#1815;.</span> 19<span style='font-family:
+style='font-family:"Estrangelo Talada"'>ܡܛܠ ܕܕܝܿܢܐ ܡܪܝܐ ܐܠܗܢ ܐܝܬܘܗܝ. ܘܐܝܟܢܐ ܢܫܒܘܩ ܠܬܫܒܘܚܬܟܘܢ. ܛܘܒܝܗܘܢ ܠܟܠܗܘܢ ܗܿܢܘܢ 
+<span style='background:#E6E6E6'>ܕܡܣܟܝܢ ܠܗ.</span> 19<span style='font-family:
 "Estrangelo Talada"'> </span><span lang="SYR" dir="RTL"
-style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1819;&#1824; &#1813;&#1829;&#1825;&#1808; &#1833;&#1813;&#1821;&#1835;&#1808; <span style='background:#E6E6E6'>&#1810;&#1832;&#1821;&#1815;&#1816;&#1826; &#1821;&#1855;&#1836;&#1810;.</span></p>
+style='font-family:"Estrangelo Talada";background:#E6E6E6'>ܡܛܠ ܕܥܡܐ ܩܕܝܫܐ <span style='background:#E6E6E6'>ܒܨܝܗܘܢ ܝܿܬܒ.</span></p>
 
 <p>18 <span style='font-family:Greek'>katale�yete</span>
 ] <span style='font-family:Greek'>katale�yei</span> <em>Jac</em> SyH | <span style='font-family:Greek'>mak�rioi]</span> <em>add</em> <span style='font-family:Greek'>p�ntej</span> <em>Jac</span></em> (<em>cf</em> P�) LXX</span>: A<em>LC </em>|</span> <span style='font-family:Greek'>o� �mm�nontej �n a�t�] o� �pom�nontej a�t�n</span> <em>Jac</em> P� LXX: <em>L</em> (Ziegler)</p>
@@ -1285,34 +1265,26 @@ style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1819;&#1824;
 <p>Isa 30:18/II 787 [375]</span>, fol. 73v</p>
 
 <p>18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> 
-&#1816;&#1836;&#1816;&#1810; &#1825;&#1833;&#1816;&#1808; &#1808;&#1824;&#1815;&#1808; &#1824;&#1825;&#1834;&#1818;&#1825;&#1816; &#1829;&#1824;&#1821;&#1823;&#1816;&#1826;. &#1816;&#1825;&#1819;&#1824; &#1815;&#1813;&#1808; &#1826;&#1836;&#1836;&#1834;&#1821;&#1825; &#1824;&#1825;&#1818;&#1826;&#1823;&#1816;&#1826;. &#1825;&#1819;&#1824; &#1813;&#1813;&#1821;&#1855;&#1826;&#1808; &#1825;&#1834;&#1821;&#1808; &#1808;&#1824;&#1815;&#1826; &#1808;&#1821;&#1836;&#1816;&#1815;&#1821;. &#1816;&#1808;&#1821;&#1823;&#1808;</span> <em>(sic)</em> <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1826;&#1835;&#1810;&#1816;&#1833; &#1824;&#1835;&#1816;&#1810;&#1818;&#1823;&#1816;&#1826;. &#1819;&#1816;&#1810;&#1821;&#1815;&#1816;&#1826; &#1824;&#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1825;&#1827;&#1823;&#1821;&#1826; &#1824;&#1815;.</p>
+ܘܬܘܒ ܡܩܘܐ ܐܠܗܐ ܠܡܪܚܡܘ ܥܠܝܟܘܢ. ܘܡܛܠ ܗܕܐ ܢܬܬܪܝܡ ܠܡܚܢܟܘܢ. ܡܛܠ ܕܕܝܿܢܐ ܡܪܝܐ ܐܠܗܢ ܐܝܬܘܗܝ. ܘܐܝܟܐ</span> <em>(sic)</em> <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܢܫܒܘܩ ܠܫܘܒܚܟܘܢ. ܛܘܒܝܗܘܢ ܠܗܿܢܘܢ ܕܡܣܟܝܢ ܠܗ.</p>
 
 <p><span style='font-family:Greek'>katale�yete</span> ]  style='font-family:Greek'>katale�yei</span> <em>Jac</em> SyH | <span style='font-family:Greek'>o� �mm�nontej �n a�t�] o� �pom�nontej a�t�n </span> <em>Jac</em> P� LXX: <em>L</em> (Ziegler)</p>
 -->
          <p>
             <hi rend="bold">12</hi>) Isa 46:12-13/II 715 [303], fol. 60v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_12.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="499px"
-                     height="65px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_12.gif" rend="img" mimeType="image/gif" width="499px" height="65px"/>
          </p>
          <!--
 <p>12 <span lang="SYR" dir="RTL" style='font-family:
-"Estrangelo Talada"'> &#1835;&#1816;&#1825;&#1829;&#1816;&#1826;&#1821; &#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1808;&#1810;&#1813;&#1816; &#1824;&#1810;&#1808; &#1813;&#1821;&#1824;&#1815;&#1816;&#1826;. &#1815;&#1855;&#1826;&#1816;&#1826;  &#1813;&#1824;&#1834;&#1816;&#1818;&#1833;&#1808; &#1808;&#1821;&#1836;&#1821;&#1815;&#1816;&#1826; &#1825;&#1826; &#1817;&#1813;&#1821;&#1833;&#1816;&#1836;&#1808;. 
-</span> 13 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1833;&#1834;&#1810;&#1836; &#1824;&#1817;&#1813;&#1821;&#1833;&#1816;&#1836;&#1808; &#1813;&#1821;&#1824;&#1821; &#1816;&#1824;&#1830;&#1816;&#1834;&#1833;&#1826;&#1821; &#1824;&#1808; &#1808;&#1835;&#1836;&#1816;&#1818;&#1834;.</p>
+"Estrangelo Talada"'> ܫܘܡܥܘܢܝ ܗܿܢܘܢ ܕܐܒܕܘ ܠܒܐ ܕܝܠܗܘܢ. ܗܿܢܘܢ  ܕܠܪܘܚܩܐ ܐܝܬܝܗܘܢ ܡܢ ܙܕܝܩܘܬܐ. 
+</span> 13 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܩܪܒܬ ܠܙܕܝܩܘܬܐ ܕܝܠܝ ܘܠܦܘܪܩܢܝ ܠܐ ܐܫܬܘܚܪ.</p>
 
 <p>12 <span style='font-family:Greek'>t�n kard�an]</span> <em>add</em> <span style='font-family:Greek'>a�t�n</span> <em>Jac</em> SyL (Ziegler)</p>
 -->
          <p>
             <hi rend="bold">13</hi>) Isa 55:6-9/II 783 [371], fol. 72r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_13.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="142px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_13.gif" rend="img" mimeType="image/gif" width="500px" height="142px"/>
          </p>
          <!--
 <p>6 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada;background:#E6E6E6"'>&#1810;&#1829;&#1816;     &#1824;&#1825;&#1834;&#1821;&#1808;. &#1816;&#1825;&#1808; &#1813;&#1808;&#1835;&#1823;&#1818;&#1836;&#1816;&#1826;&#1821;&#1815;&#1821; &#1833;&#1834;&#1808;&#1816;&#1815;&#1821;. &#1808;&#1825;&#1836;&#1821; &#1813;&#1821;&#1826; &#1813;&#1826;&#1833;&#1834;&#1816;&#1810; &#1824;&#1816;&#1836;&#1823;&#1816;&#1826;&#1798;</span> 7 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1826;&#1835;&#1810;&#1816;&#1833; &#1834;&#1835;&#1821;&#1829;&#1808; &#1808;&#1816;&#1834;&#776;&#1818;&#1836;&#1815; &#1816;&#1811;&#1810;&#1834;&#1808; &#1824;&#1808; &#1826;&#1825;&#1816;&#1827;&#1821;&#1808; &#1825;&#1818;&#1835;&#1810;&#776;&#1836;&#1815;. &#1816;&#1826;&#1836;&#1830;&#1826;&#1808; &#1824;&#1816;&#1836; &#1825;&#1834;&#1821;&#1808; &#1816;&#1826;&#1836;&#1818;&#1826;&#1826;. &#1825;&#1819;&#1824; &#1813;&#1827;&#1811;&#1821; &#1826;&#1835;&#1810;&#1816;&#1833; &#1824;&#1818;&#1819;&#1815;&#1821;&#776;&#1823;&#1816;&#1826;.</span> 8 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1824;&#1808; &#1811;&#1821;&#1834; &#1808;&#1821;&#1836;&#1821;&#1815;&#1821;&#1826; &#1836;&#1834;&#776;&#1829;&#1821;&#1836;&#1821; &#1808;&#1823;&#1817;&#1826;&#1808; &#1813;&#1836;&#1834;&#776;&#1829;&#1821;&#1836;&#1823;&#1816;&#1826;. &#1816;&#1808;&#1830;&#1824;&#1808; &#1808;&#1823;&#1817;&#1826;&#1808; &#1813;&#1808;&#1816;&#1834;&#776;&#1818;&#1836;&#1823;&#1816;&#1826; &#1808;&#1816;&#1834;&#776;&#1818;&#1836;&#1821; &#1808;&#1825;&#1855;&#1834; &#1825;&#1834;&#1821;&#1808;.</span>
@@ -1323,25 +1295,17 @@ style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1819;&#1824;
          <p>
             <hi rend="bold">14</hi>) Isa 57:19-21/II 710 [298], fol. 60r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_14.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="502px"
-                     height="71px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_14.gif" rend="img" mimeType="image/gif" width="502px" height="71px"/>
          </p>
          <!--
-<p>19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1835;&#1824;&#1825;&#1808; &#1835;&#1824;&#1825;&#1808; &#1824;&#1834;&#776;&#1818;&#1821;&#1833;&#1808; &#1816;&#1824;&#1833;&#1834;&#776;&#1821;&#1810;&#1808; &#1808;&#1825;&#1855;&#1834; &#1825;&#1834;&#1821;&#1808; &#1816;&#1808;&#1827;&#1808; &#1808;&#1826;&#1816;&#1826;.</span> 20 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1829;&#1816;&#776;&#1824;&#1808; &#1813;&#1821;&#1826; &#1815;&#1823;&#1826;&#1808; &#1826;&#1835;&#1836;&#1811;&#1835;&#1816;&#1826;.</span> 21 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1824;&#1808; &#1808;&#1821;&#1836; &#1824;&#1825;&#1818;&#1813;&#1808; &#1824;&#1834;&#776;&#1835;&#1821;&#1829;&#1808; &#1808;&#1825;&#1855;&#1834; &#1825;&#1834;&#1821;&#1808; &#1808;&#1824;&#1815;&#1808;.</p>
+<p>19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada";background:#E6E6E6'>ܫܠܡܐ ܫܠܡܐ ܠܪ̈ܚܝܩܐ ܘܠܩܪ̈ܝܒܐ ܐܡܿܪ ܡܪܝܐ ܘܐܣܐ ܐܢܘܢ.</span> 20 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> ܥܘ̈ܠܐ ܕܝܢ ܗܟܢܐ ܢܫܬܓܫܘܢ.</span> 21 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܠܐ ܐܝܬ ܠܡܚܕܐ ܠܪ̈ܫܝܥܐ ܐܡܿܪ ܡܪܝܐ ܐܠܗܐ.</p>
 
 <p>20 ka� �napa�sasqai o� dun�sontai] <em>om Jac</em> (scribal error?)</p>
 -->
          <p>
             <hi rend="bold">15</hi>) Isa 59:11-13/II 699 [287], fol. 58r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_15.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="501px"
-                     height="98px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_15.gif" rend="img" mimeType="image/gif" width="501px" height="98px"/>
          </p>
          <!--
 <p>11 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1827;&#1823;&#1821;&#1826;&#1826; &#1824;&#1813;&#1821;&#1826;&#1808; &#1816;&#1824;&#1808; &#1808;&#1821;&#1836;&#1816;&#1815;&#1821; &#1830;&#1816;&#1834;&#1833;&#1826;&#1808;. &#1824;&#1834;&#1816;&#1818;&#1833;&#1808; &#1808;&#1836;&#1834;&#1818;&#1833; &#1825;&#1826;&#1826;.</span> 12 <span lang="SYR" dir="RTL" style='font-family:
@@ -1352,41 +1316,29 @@ style='font-family:"Estrangelo Talada";background:#E6E6E6'>&#1825;&#1819;&#1824;
          <p>
             <hi rend="bold">16</hi>) Isa 63:17-18/II 766 [354], fol. 69r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_16.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="507px"
-                     height="88px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_16.gif" rend="img" mimeType="image/gif" width="507px" height="88px"/>
          </p>
          <!--
 <p>17 <span lang="SYR" dir="RTL" style='font-family:
-"Estrangelo Talada"'>&#1824;&#1825;&#1808; &#1808;&#1819;&#1829;&#1821;&#1836; &#1824;&#1826; &#1825;&#1834;&#1821;&#1808; &#1825;&#1826; &#1808;&#1816;&#1834;&#1818;&#1823;&#1799; &#1816;&#1833;&#1835;&#1821;&#1836; &#1824;&#1810;&#1816;&#776;&#1836;&#1826; &#1813;&#1824;&#1808; &#1826;&#1813;&#1818;&#1824; &#1825;&#1826;&#1823;. <span style='background:#E6E6E6'>&#1808;&#1836;&#1830;&#1826;&#1821; &#1825;&#1819;&#1824; &#1829;&#1810;&#776;&#1813;&#1821;&#1823;. &#1825;&#1819;&#1824;</span> &#1835;&#1810;&#776;&#1819;&#1808; 
-<span  style='background:#E6E6E6'>&#1813;&#1821;&#1834;&#1836;&#1816;&#1836;&#1823;.</span> 18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1821;&#1823;&#1826;&#1808; &#1813;&#1833;&#1824;&#1821;&#1824; &#1826;&#1808;&#1834;&#1836; &#1825;&#1826; &#1819;&#1816;&#1834;&#1823; &#1833;&#1813;&#1821;&#1835;&#1808;. 
+"Estrangelo Talada"'>ܠܡܐ ܐܛܥܝܬ ܠܢ ܡܪܝܐ ܡܢ ܐܘܪܚܟ܇ ܘܩܫܝܬ ܠܒܘ̈ܬܢ ܕܠܐ ܢܕܚܠ ܡܢܟ. <span style='background:#E6E6E6'>ܐܬܦܢܝ ܡܛܠ ܥܒ̈ܕܝܟ. ܡܛܠ</span> ܫܒ̈ܛܐ 
+<span  style='background:#E6E6E6'>ܕܝܪܬܘܬܟ.</span> 18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܐܝܟܢܐ ܕܩܠܝܠ ܢܐܪܬ ܡܢ ܛܘܪܟ ܩܕܝܫܐ. 
 
-<span style='background:#E6E6E6'>&#1808;&#1824;&#1816;&#1832;&#1821;&#776;&#1826; &#1813;&#1835;&#1852;&#1816; &#1825;&#1833;&#1813;&#1835;&#1823;.</p>
+<span style='background:#E6E6E6'>ܐܠܘܨܝ̈ܢ ܕܫܼܘ ܡܩܕܫܟ.</p>
 <p>17 <span style='font-family:Greek'>�skl�runaj] ka� �.</span> <em>Jac</em> P�</p>
 -->
          <p>
             <hi rend="bold">17</hi>) Isa 63:19/II 711 [299], 60r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_17.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="481px"
-                     height="26px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_17.gif" rend="img" mimeType="image/gif" width="481px" height="26px"/>
          </p>
          <!--
-<p>19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1815;&#1816;&#1821;&#1826; &#1808;&#1821;&#1823; &#1813;&#1825;&#1826; &#1810;&#1834;&#1821;&#1835;&#1821;&#1836;. &#1808;&#1825;&#1836;&#1821; &#1813;&#1824;&#1808; &#1815;&#1816;&#1821;&#1836; &#1824;&#1826; &#1834;&#1821;&#1835;&#1808;&#1799; 
-&#1808;&#1830;&#1824;&#1808; &#1808;&#1836;&#1833;&#1834;&#1821; &#1835;&#1825;&#1823; &#1829;&#1824;&#1821;&#1826;.</p>
+<p>19 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܗܘܝܢ ܐܝܟ ܕܡܢ ܒܪܝܫܝܬ. ܐܡܬܝ ܕܠܐ ܗܘܝܬ ܠܢ ܪܝܫܐ܇ 
+ܐܦܠܐ ܐܬܩܪܝ ܫܡܟ ܥܠܝܢ.</p>
 -->
          <p>
             <hi rend="bold">18</hi>) Isa 64:4-8/II 772 [360], 70r</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_18.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="500px"
-                     height="170px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_18.gif" rend="img" mimeType="image/gif" width="500px" height="170px"/>
          </p>
          <!--
 <p>4 <span lang="SYR" dir="RTL" style='font-family:
@@ -1399,39 +1351,27 @@ background:#E6E6E6'>&#1816;&#1815;&#1816;&#1821;&#1826;&#1826; &#1808;&#1821;&#1
          <p>
             <hi rend="bold">19</hi>) Isa 65:15-18/II 775 [363], fol. 70v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_19.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="498px"
-                     height="115px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_19.gif" rend="img" mimeType="image/gif" width="498px" height="115px"/>
          </p>
          <!--
-<p>15 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1824;&#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1830;&#1824;&#1818;&#1821;&#1826; &#1824;&#1821; &#1826;&#1836;&#1833;&#1834;&#1808; &#1835;&#1825;&#1808; &#1818;&#1813;&#1836;&#1808;</span> 16 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1815;&#1855;&#1816; &#1813;&#1826;&#1836;&#1810;&#1834;&#1823; &#1829;&#1824; &#1808;&#1834;&#1829;&#1808;. &#1826;&#1810;&#1834;&#1823;&#1816;&#1826; &#1811;&#1821;&#1834; &#1824;&#1808;&#1824;&#1815;&#1808; &#1835;&#1834;&#1821;&#1834;&#1808;. &#1816;&#1815;&#1855;&#1826;&#1816;&#1826; &#1813;&#1821;&#1855;&#1825;&#1821;&#1826; &#1829;&#1824; &#1808;&#1834;&#1829;&#1808;&#1798; &#1826;&#1808;&#1825;&#1816;&#1826; &#1810;&#1808;&#1824;&#1815;&#1808; &#1835;&#1834;&#1821;&#1834;&#1808;. &#1826;&#1819;&#1829;&#1816;&#1826; &#1811;&#1821;&#1834; &#1824;&#1808;&#1816;&#1824;&#1832;&#1826;&#1815;&#1816;&#1826; &#1833;&#1813;&#1825;&#1821;&#1808;&#1798; &#1816;&#1824;&#1808; &#1826;&#1827;&#1833; &#1829;&#1824; &#1824;&#1810;&#1815;&#1816;&#1826;. </span> 17 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1826;&#1815;&#1816;&#1808; &#1811;&#1821;&#1834; &#1835;&#1825;&#1821;&#1808; &#1818;&#1813;&#1836;&#1808; &#1816;&#1808;&#1834;&#1829;&#1808; &#1818;&#1813;&#1836;&#1808;. &#1816;&#1824;&#1808; &#1826;&#1836;&#1813;&#1823;&#1834;&#1816;&#1826; &#1824;&#1815;&#1824;&#1821;&#1826; &#1833;&#1813;&#1825;&#1821;&#776;&#1836;&#1808;. &#1816;&#1808;&#1830;&#1824;&#1808; &#1826;&#1808;&#1836;&#1821;&#776;&#1826; &#1829;&#1824; &#1824;&#1810;&#1815;&#1816;&#1826;.</span> 18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1824;&#1808; &#1818;&#1813;&#1816;&#1836;&#1808; &#1816;&#1808;&#1834;&#1816;&#1817;&#1808; &#1826;&#1835;&#1823;&#1818;&#1816;&#1826; &#1810;&#1815;&#1855;.</p>
+<p>15 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> ܠܗܿܢܘܢ ܕܦܠܚܝܢ ܠܝ ܢܬܩܪܐ ܫܡܐ ܚܕܬܐ</span> 16 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܗܿܘ ܕܢܬܒܪܟ ܥܠ ܐܪܥܐ. ܢܒܪܟܘܢ ܓܝܪ ܠܐܠܗܐ ܫܪܝܪܐ. ܘܗܿܢܘܢ ܕܝܿܡܝܢ ܥܠ ܐܪܥܐ܆ ܢܐܡܘܢ ܒܐܠܗܐ ܫܪܝܪܐ. ܢܛܥܘܢ ܓܝܪ ܠܐܘܠܨܢܗܘܢ ܩܕܡܝܐ܆ ܘܠܐ ܢܣܩ ܥܠ ܠܒܗܘܢ. </span> 17 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܢܗܘܐ ܓܝܪ ܫܡܝܐ ܚܕܬܐ ܘܐܪܥܐ ܚܕܬܐ. ܘܠܐ ܢܬܕܟܪܘܢ ܠܗܠܝܢ ܩܕܡܝ̈ܬܐ. ܘܐܦܠܐ ܢܐܬܝ̈ܢ ܥܠ ܠܒܗܘܢ.</span> 18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܐܠܐ ܚܕܘܬܐ ܘܐܪܘܙܐ ܢܫܟܚܘܢ ܒܗܿ.</p>
 <p>15 a�t�] moi <em>Jac</em> SyH LXX: BS<em>LC</em></p>
 -->
          <p>
             <hi rend="bold">20</hi>) Isa 65:22/II 775 [363], fol. 70v</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_20.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="497px"
-                     height="48px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_20.gif" rend="img" mimeType="image/gif" width="497px" height="48px"/>
          </p>
          <!--
 <p>22 <span lang="SYR" dir="RTL" style='font-family:
-"Estrangelo Talada"'>&#1808;&#1821;&#1823; &#1821;&#1816;&#1825;&#776;&#1836;&#1808; &#1811;&#1821;&#1834; &#1813;&#1808;&#1821;&#1824;&#1826;&#1808; &#1813;&#1818;&#1821;&#776;&#1808; &#1826;&#1815;&#1816;&#1816;&#1826; &#1821;&#1816;&#1825;&#776;&#1836;&#1808; &#1813;&#1829;&#1825;&#1808; &#1813;&#1821;&#1824;&#1821;.</p>
-<p><span style='font-family:Greek'>x�lou t�j zw�j] d�ndrou t. z.</span> <em>Jac</em> (<em>cf</em> P� <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1808;&#1821;&#1823; &#1821;&#1816;&#1825;&#776;&#1836;&#1808; &#1808;&#1826;&#1816;&#1826; &#1813;&#1808;&#1821;&#776;&#1824;&#1826;&#1808;</span>)</p>
+"Estrangelo Talada"'>ܐܝܟ ܝܘܡ̈ܬܐ ܓܝܪ ܕܐܝܠܢܐ ܕܚܝ̈ܐ ܢܗܘܘܢ ܝܘܡ̈ܬܐ ܕܥܡܐ ܕܝܠܝ.</p>
+<p><span style='font-family:Greek'>x�lou t�j zw�j] d�ndrou t. z.</span> <em>Jac</em> (<em>cf</em> P� <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>ܐܝܟ ܝܘܡ̈ܬܐ ܐܢܘܢ ܕܐܝ̈ܠܢܐ</span>)</p>
 -->
          <p>
             <hi rend="bold">21</hi>) Isa 66:17-19/II 723 [311], fol. 62r (hardly
     legible in the microfilm)</p>
          <p>
-            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_21.gif"
-                     rend="img"
-                     mimeType="image/gif"
-                     width="498px"
-                     height="130px"/>
+            <graphic url="HV8N2Juckel/HV8N2Juckel_13S_21.gif" rend="img" mimeType="image/gif" width="498px" height="130px"/>
          </p>
          <!--
 <p>17 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'> &#1815;&#1855;&#1826;&#1816;&#1826; &#1808;&#1821;&#1824;&#1821;&#1826; <span style='background:#E6E6E6'>&#1813;&#1825;&#1836;&#1833;&#1813;&#1835;&#1821;&#1826; &#1816;&#1825;&#1836;&#1813;&#1823;&#1821;&#1826; &#1810;&#1811;&#776;&#1826;&#1808;</span> [&#1816;&#1810;&#1836;]&#1834;&#776;&#1829;&#1808; &#1808;&#1823;&#1824;&#1821;&#1826; &#1810;&#1827;&#1834;&#1808; &#1813;&#1829;&#1816;&#1833;&#1810;&#1834;&#1808; &#1808;[..... <span style='background:#E6E6E6'>&#1826;&#8205;[&#1827;&#1816;&#1830;&#1816;&#1826; &#1808;&#1825;&#1855;&#1834; &#1825;&#1834;&#1821;&#1808;.</span> 18 <span lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#1826;&#1808; [&#1818;&#1816;]&#1835;&#1810;&#1815;&#1816;&#1826; &#1816;[&#1824;&#1829;&#1810;&#776;&#1813;]&#1808; &#1813;&#1821;&#1824;&#1815;&#1816;&#1826; &#1821;&#1813;&#1829; &#1808;&#1826;&#1808;. &#1808;&#1830; &#1808;[&#1836;&#1808; &#1808;&#1826;&#1808;] <span style='background:#E6E6E6'>&#1824;&#1825;&#1823;&#1826;&#1835;&#1816; &#1824;&#1823;&#1824;&#1815;&#1816;&#1826; &#1829;&#1825;&#1825;&#776;&#1808;</span> &#1816;&#1824;&#1835;&#776;&#1826;&#1808;. &#1816;&#1826;&#1808;&#1836;&#1816;&#1826; &#1824;&#1835;&#1816;&#1810;&#1818;&#1821;.</span> 19 <span
@@ -1515,7 +1455,18 @@ lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#183
     rendering of the Septuagint where both differ too much. Full or
     partial agreement of the Peshitta with the Lucianic recension
     favoured the inclusion of the Old Testament Peshitta during the
-    process of rendering the Septuagint texts.<ref target="#FN23">23</ref> The textual
+    process of rendering the Septuagint texts.<note place="foot" xml:id="FN23" n="23">
+                    <p rend="footnote text">
+             The textual affinity between the Old
+    Testament Peshitta and the Lucianic recension is disputed, but
+    it was already acknowledged at the end of the 19<hi rend="sup">th</hi>
+    century, see Th. Stockmayer, �Hat Lucian zu seiner Septuaginta
+    revision die Peschito ben�tzt?�, <hi rend="italic">ZAW</hi> 12 (1892)
+    218-223; and M.P. Weitzmann, <hi rend="italic">The Syriac Version of the Old
+    Testament: An Introduction</hi> (UCOP 56; Cambridge, 1999)
+    83-84. 
+         </p>
+                </note> The textual
     character of Jacob�s Septuagint renderings, however, is clearly
     distinguished from the one of the Peshitta quotations. The
     accommodation does not eliminate the different textual
@@ -1530,15 +1481,44 @@ lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#183
     prehistory of his later Old Testament revision which came into
     existence few years before his death in 708. For the purpose of
     this investigation it is sufficient to state that Jacob�s
-    revision<ref target="#FN24">24</ref> �is fundamentally an amalgam of the Peshitta
-    and Greek texts�.<ref target="#FN25">25</ref> It is based on the Peshitta using the
+    revision<note place="foot" xml:id="FN24" n="24">
+                    <p rend="footnote text">
+             The books of Samuel are the best presented
+    and studied part of Jacob� revision so far; see R. J. Saley,
+    <hi rend="italic">The Samuel Manuscript of Jacob of Edessa. A Study in Its
+    Underlying Textual Traditions</hi> (MPIL 9; Leiden, 1998); �A.
+    Salvesen, <hi rend="italic">The Books of Samuel in the Syriac Version of
+    Jacob of Edessa</hi> (MPIL 10; Leiden, 1999); A. Salvesan,
+    �Jacob of Edessa�s version of Exodus 1 and 28�, <hi rend="italic">Hugoye:
+    Journal of Syriac Studies</hi> 8:1 (2005)
+    [http://www.bethmardutho.org/hugoye]. An instructive article on
+    Jacob� revision was written by W. Baars, �Ein neugefundenes
+    Bruchst�ck aus der syrischen Bibelrevision des Jakob von
+    Edessa�, <hi rend="italic">VT</hi> 18 (1968) 547-54. — For further
+    literature, see D. Kruisheer and L. van Rompay, �A
+    Bibliographical <hi rend="italic">Clavis</hi> to the Works of Jacob of
+    Edessa�, <hi rend="italic">Hugoye</hi> 1:1 (1998), section II A
+    [http://www.bethmardutho.org/hugoye]. 
+         </p>
+                </note> �is fundamentally an amalgam of the Peshitta
+    and Greek texts�.<note place="foot" xml:id="FN25" n="25">
+                    <p rend="footnote text">
+            A. Salvesen, <hi rend="italic">The Books of Samuel,</hi> x.
+    
+         </p>
+                </note> It is based on the Peshitta using the
     different recensions of the Greek (Septuagint); the
     Syro-Hexapla may have influenced his renderings, but is no
     primary source. Special features are a number of regular
     substitutions in the vocabulary of the Peshitta, glosses and
     creative expansions to improve the text, and a more Graecised
     representation of proper nouns than in the Peshitta. A
-    subscription at the end of 1Sam<ref target="#FN26">26</ref> provides the link with
+    subscription at the end of 1Sam<note place="foot" xml:id="FN26" n="26">
+                    <p rend="footnote text">
+             Syriac text in A. Salvesen, <hi rend="italic">The Books of
+    Samuel,</hi> part I, 90. 
+         </p>
+                </note> provides the link with
     Jacob�s quotations in Ms Add. 17134. It states that</p>
          <quote>
       �this First Book of the Kingdoms [i.e., 1Sam] was corrected
@@ -1572,310 +1552,45 @@ lang="SYR" dir="RTL" style='font-family:"Estrangelo Talada"'>&#1816;&#1808;&#183
     correction, and substitution of the traditional Peshitta text.
     In the marginal quotations of Ms BL Add 17134 this principle is
     in its infancy and still lacks the refinement and maturity of
-    the later revision.<ref target="#FN27">27</ref>
-         </p>_______<lb/>
-         <head>Notes</head>
-         <p rend="fnTxt">
-            <ref target="#FNRef1">1</ref> E. W. Brooks, <hi rend="italic">Jacob of Edessa. The Hymns of
-    Severus of Antioch and Others</hi> (PO 6.1 and 7.5; Turnhout,
-    1910/1911). <ref target="#FNRef1">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef2">2</ref> On this translation and its revision see A.
-    Baumstark, <hi rend="italic">Geschichte der syrischen Literatur mit Ausschlu�
-    der christlich-pal�stinensischen Texte</hi> (Bonn, 1922), 190
-    and 253; R. Duval, <hi rend="italic">La litt�rature syriaque. Des origines
-    jusqu� � la fin de cette litt�rature apr�s la conqu�te par les
-    arabes au XIII si�cle</hi> (Paris, 1907/Amsterdam, 1970),
-    317-18; W. Wright, <hi rend="italic">A Short History of Syriac
-    Literature</hi> (London, 1894/Piscataway, 2001), 135 and 149;
-    J.-B. Chabot, <hi rend="italic">La litt�rature syriaque</hi> (Paris, 1934),
-    86; I. Ortiz de Urbina, <hi rend="italic">Patrologia syriaca</hi> (Rome,
-    1965), 173 and 180; F. Nau, �L�Aram�en chr�tien (Syriaque). Les
-    traductions faites du grec en syriaque au viie si�cle�,
-    <hi rend="italic">RHR</hi> 99 (1929) 263-65. <ref target="#FNRef2">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef3">3</ref> W. Wright, <hi rend="italic">Catalogue of Syriac Manuscripts in
-    the British Museum Acquired Since the Year 1838,</hi> 1
-    (London, 1870/Piscataway, 2003), 330-339 (no. ccccxxi) and
-    339-340 (no. ccccxxii). A facsimile of Ms Add 17134 in 3
-    (London, 1872/Piscataway, 2003), plate v. <ref target="#FNRef3">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef4">4</ref> Brooks puts Jacob�s corrections <hi rend="italic">inter
-    lineas</hi> in the notes; the words and single letters that
-    Jacob painted red, are represented by Estrangelo-type to
-    distinguish them from Paul�s text in Serto-type, and by italics
-    in the translation. <ref target="#FNRef4">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef5">5</ref> Syriac text by W. Wright, <hi rend="italic">Catalogue 1</hi>,
-    336-37; text and translation by Brooks, <hi rend="italic">The Hymns of
-    Severus</hi> (PO 7,5), 801-02. <ref target="#FNRef5">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef6">6</ref> The identification of �Jacob the industrious� with
-    Jacob of Edessa was rejected by F. Nau, �Notice sur un nouveau
-    manuscript de l�Octoechus de S�v�re d�Antioche, et sur l�auteur
-    Jacques Philoponus, distinct de Jacques d��desse�, <hi rend="italic">JA</hi>
-    12 (9� s�rie, 1898), 346-51; but later he accepted the
-    identification (F. Nau, �Les traductions�, 264 note 1).
-    <ref target="#FNRef6">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef7">7</ref> Wright, <hi rend="italic">Catalogue 1,</hi> 338: �The reasons for
-    supposing that this manuscript is an autograph of the famous
-    Jacob, bishop of Edessa, are 1. The antiquity of the volume. 2.
-    The character of the handwriting, which is not regular enough
-    for that of a professional scribe. 3. The absence of any
-    indication of another scribe. 4. The care with which the
-    specifications contained in the note, fol. 75a, have been
-    adhered to throughout the whole volume, thus giving it an
-    entirely different character and appearance from those of such
-    copies as Add 18816 [...]. 5. The transcription in full, on the
-    upper and lower margins, of all the passages of Scripture
-    referred to in the hymns. 6. The general accuracy with which
-    the Greek proper names and other words are written in Greek
-    letters; and the correctness with which they are represented in
-    Syriac characters [...].� <ref target="#FNRef7">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef8">8</ref> F. Nau gives a different (and certainly wrong)
-    interpretation: �Il semble pr�f�rable de dire que le scribe du
-    seconde manuscript [i.e., Add. 18816] a simplifi� et parfois
-    corrig� le premier [i.e., Add. 17134] qui resterait ainsi
-    l�autographe de Jacques d�Edesse� (F. Nau, �Les traductions�,
-    263-64).</p>
-         <p rend="fnTxt">
-            <ref target="#FNRef9">9</ref> The script is almost identical with the one of
-    plate LIII (Ms Sachau 321, A.D. 740/41) in W. H. P. Hatch,
-    <hi rend="italic">An Album of Dated Syriac Manuscripts</hi> (Boston,
-    1946/Piscataway, 2003). <ref target="#FNRef9">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef10">10</ref> This manuscript, however, is already
-    affected by a fading-out of the revisional features. In several
-    cases the biblical text usually fully cited in the margins (see
-    below) is not given, but replaced by the reference only.
-    <ref target="#FNRef10">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef11">11</ref> See Brooks, <hi rend="italic">The Hymns of Severus</hi>
-    (PO 6.1) 6. —� Mss Add. 17134 and Add. 18816 do not yet
-    indicate the tones to which the hymns later were set; but in a
-    few places the tones are added <hi rend="italic">secunda manu</hi>. Brooks�
-    edition throughout adds the tones drawn from the later
-    collections. On the �Syriac Octo�chos� see A. Baumstark,
-    <hi rend="italic">Festbrevier und Kirchenjahr der syrischen Jakobiten. Eine
-    liturgische geschichtliche Vorarbeit auf Grund
-    handschriftlicher Studien in Jerusalem und Damaskus</hi> (SGKA
-    3; Paderborn, 1910), 45-48; J. Jeannin/J. Puyade, �L�Octo�chos
-    syrien�, <hi rend="italic">OrChr</hi> N.F. 3 (1913), 82-104; 277-98; J.
-    Jeannin, �Octo�chos syrien�, in <hi rend="italic">DACL</hi> 12/2 (1936)
-    1888-1899. <ref target="#FNRef11">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef12">12</ref> The revisional procedure probably is the
-    same as that Thomas of Harqel used at the beginning of the
-    7<hi rend="sup">th</hi> century revising the Philoxenian version.
-    <ref target="#FNRef12">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef13">13</ref> The last sentence of Jacob� note quoted
-    above (�and how the proofs and testimonies ...�) refers to the
-    biblical texts in the margin, not to Jacob� interlinear
-    corrections of biblical quotations inside the text. These
-    interlinear corrections are part of the general corrections of
-    Paul�s translation according to the Greek text of the Hymns;
-    they are not corrections according to an �unvaried� Bible text.
-    Brooks obviously missed an explicit reference to the margin in
-    Jacob� note, and declared: �Some words have perhaps fallen out
-    in this sentence� (802). <ref target="#FNRef13">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef14">14</ref> The index is appended to PO 14.1 300-309
-    [470-479] (<hi rend="italic">Letters of Severus of Antioch,</hi> ed. by
-    Brooks). <ref target="#FNRef14">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef15">15</ref> Unfortunately these texts are very short,
-    only Lam 3:22 is suitable for comparison. It shows a mixture of
-    the Septuagint and the Peshitta, a characteristic feature of a
-    large number of Jacob� marginal quotations (see below).
-    Although Exod 3:2 (PO 7.5 page 639 [227]) is a rather long
-    quotation, there are no significant distinctive features
-    between Jacob�s text, the Syro-Hexapla and the Peshitta. The
-    remaining 15 quotations (Psalms) are short headers of the
-    hymns. <ref target="#FNRef15">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef16">16</ref> Brooks declares �[...] I cannot trace any
-    principle except that in Genesis they [i.e., the citations] are
-    from P, in the rest of the law from LXX, in Job and in the
-    books not contained in the Hebrew from LXX, in Daniel from
-    Theodotion, and in Isaiah in the earlier hymns generally from
-    P, in the later generally from LXX� (PO 7.5 page 6). <ref target="#FNRef16">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef17">17</ref> The Harklean quotations are studied by W. D.
-    MacHardy, �James of Edessa�s citations from the Philoxenian
-    text of the Book of Acts�, <hi rend="italic">JThS</hi> 43 (1942), 168-173;
-    �The text of Jacob of Edessa�s citations and in the Cambridge
-    Add. MS 1700�, <hi rend="italic">JThS</hi> 50 (1949), 186-87. <ref target="#FNRef17">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef18">18</ref> These quotations are included in the
-    comparative edition of that <hi rend="italic">Corpus</hi> published by B.
-    Aland/A. Juckel, <hi rend="italic">Das Neue Testament in syrischer
-    �berlieferung,</hi> II, 1-3 (ANTT 14, 23, 32; Berlin-New York,
-    1991, 1995, 2002). <ref target="#FNRef18">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef19">19</ref> This �majority text� of the <hi rend="italic">Corpus
-    Paulinum</hi> was prepared by G. H. Gwilliam and J. Pinkerton
-    and included in the New Testament volume issued by the
-    <hi rend="italic">British and Foreign Bible Society</hi> in 1920. The
-    majority character of this text, however, needs to be improved
-    by additional collations. <ref target="#FNRef19">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef20">20</ref> The <hi rend="bold">Peshitta</hi> follows the Leiden
-    edition: <hi rend="italic">Liber Genesis</hi> (based on material collected
-    and studies by T. Jansma, prepared by the Peshitta Institute
-    (I,1 1977); <hi rend="italic">Leviticus</hi> ed. D. J. Lane, (I,2 1991);
-    <hi rend="italic">Liber Samuelis</hi> ed. P. A. H. de Boer (II,2 1978);
-    <hi rend="italic">Liber Isaiae</hi> ed. S. P. Brock (III,1 1987); <hi rend="italic">Liber
-    Ezechielis</hi> ed. M. J. Mulder (III,3 1985);
-    <hi rend="italic">Dodekapropheton</hi>, ed. A. Gelston (III,4 1980); for
-    <hi rend="italic">Jeremiah</hi> and <hi rend="italic">Lamentations</hi> (both to be
-    published in the Leiden Edition) I use the edition of S. Lee
-    (1823). — The <hi rend="bold">Syro-Hexapla</hi> is used according to the
-    edition of Ceriani (and V��bus, where appropriate): <hi rend="italic">Codex
-    Syro-Hexaplaris Anbrosianus photolithographice editus</hi>
-    [Monumenta sacra et profana 7]. Mediolani, 1874; A. V��bus,
-    <hi rend="italic">The Book of Isaiah in the Version of the Syro-Hexapla. A
-    facsimile edition of Ms. St. Mark 1 in Jerusalem</hi> (CSCO
-    449/Subs. 68; Louvain 1983). <ref target="#FNRef20">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef21">21</ref> The Septuaginta are quoted according to the
-    <hi rend="italic">Septuaginta</hi>. Vetus Testamentum Graecum. Auctoritate
-    Societatis Litterarum Gottingensis editum; I: <hi rend="italic">Genesis</hi>,
-    ed. J.W. Wevers (1974), II,2: <hi rend="italic">Leviticus</hi>, ed. J. W.
-    Wevers, U. Quast (1986), XIII: <hi rend="italic">Duodecim prophetae,</hi> ed.
-    J. Ziegler (1943), XIV: <hi rend="italic">Isaias,</hi> ed. J. Ziegler (1939),
-    XVI,1: <hi rend="italic">Ezechiel,</hi> ed. J. Ziegler (1952), XV:
-    <hi rend="italic">Ieremias, Baruch, Threni, Epistula Ieremiae,</hi> ed. J.
-    Ziegler (G�ttingen 1957). For the books of Samuel I used the
-    edition of A. E. Brooke/N. McLean/H. J. Thackeray, <hi rend="italic">The Old
-    Testament in Greek,</hi> II,1:1 and 2 Samuel (Cambridge, 1927).
-    <ref target="#FNRef21">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef22">22</ref> A. Sperber, <hi rend="italic">The Bible in Aramaic. Based
-    on old manuscripts and printed texts</hi>. 1: The Pentateuch
-    according to Targum Onkelos (Leiden, 1959); 2: The Former
-    Prophets according to Targum Jonathan (Leiden, 1959); 3: The
-    Latter Prophets According to Targum Jonathan (Leiden, 1962).
-    <ref target="#FNRef22">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef23">23</ref> The textual affinity between the Old
-    Testament Peshitta and the Lucianic recension is disputed, but
-    it was already acknowledged at the end of the 19<hi rend="sup">th</hi>
-    century, see Th. Stockmayer, �Hat Lucian zu seiner Septuaginta
-    revision die Peschito ben�tzt?�, <hi rend="italic">ZAW</hi> 12 (1892)
-    218-223; and M.P. Weitzmann, <hi rend="italic">The Syriac Version of the Old
-    Testament: An Introduction</hi> (UCOP 56; Cambridge, 1999)
-    83-84. <ref target="#FNRef23">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef24">24</ref> The books of Samuel are the best presented
-    and studied part of Jacob� revision so far; see R. J. Saley,
-    <hi rend="italic">The Samuel Manuscript of Jacob of Edessa. A Study in Its
-    Underlying Textual Traditions</hi> (MPIL 9; Leiden, 1998); �A.
-    Salvesen, <hi rend="italic">The Books of Samuel in the Syriac Version of
-    Jacob of Edessa</hi> (MPIL 10; Leiden, 1999); A. Salvesan,
-    �Jacob of Edessa�s version of Exodus 1 and 28�, <hi rend="italic">Hugoye:
-    Journal of Syriac Studies</hi> 8:1 (2005)
-    [http://www.bethmardutho.org/hugoye]. An instructive article on
-    Jacob� revision was written by W. Baars, �Ein neugefundenes
-    Bruchst�ck aus der syrischen Bibelrevision des Jakob von
-    Edessa�, <hi rend="italic">VT</hi> 18 (1968) 547-54. — For further
-    literature, see D. Kruisheer and L. van Rompay, �A
-    Bibliographical <hi rend="italic">Clavis</hi> to the Works of Jacob of
-    Edessa�, <hi rend="italic">Hugoye</hi> 1:1 (1998), section II A
-    [http://www.bethmardutho.org/hugoye]. <ref target="#FNRef24">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef25">25</ref>A. Salvesen, <hi rend="italic">The Books of Samuel,</hi> x.
-    <ref target="#FNRef25">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef26">26</ref> Syriac text in A. Salvesen, <hi rend="italic">The Books of
-    Samuel,</hi> part I, 90. <ref target="#FNRef26">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
-         </p>
-         <p rend="fnTxt">
-            <ref target="#FNRef27">27</ref> The present study presents only a limited
+    the later revision.<note place="foot" xml:id="FN27" n="27">
+                    <p rend="footnote text">
+             The present study presents only a limited
     number of Jacob�s marginal quotations. Further investigations
     have to study the remaining quotations and compare all of them
     with Jacob�s later Old Testament revision extant in a small
     number of manuscripts, see W. Baars, �Ein neugefundenes
-    Bruchst�ck�, 548-549. <ref target="#FNRef27">
-               <graphic url="../site/RetArrow.gif" rend="img" mimeType="image/gif"/>
-            </ref>
+    Bruchst�ck�, 548-549. 
+         </p>
+                </note>
          </p>_______<lb/>
+         <head>Notes</head>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         _______<lb/>
          <head>Bibliography</head>
          <p xml:id="B1" rend="biblio">Aland, B. and A. Juckel. <hi rend="italic">Das Neue
     Testament in syrischer �berlieferung,</hi> II: Die Paulinischen

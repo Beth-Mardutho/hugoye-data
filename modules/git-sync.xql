@@ -47,6 +47,8 @@ declare variable $exist-collection := $git-config//exist-collection/text();
 (: Github repository :)
 declare variable $repo-name := $git-config//repo-name/text();
 
+declare variable $branch := if($git-config//github-branch/text() != '') then concat('refs/heads/',$git-config//github-branch/text()) else 'refs/heads/master';
+
 (:~  
  : Recursively creates new collections if necessary  
  : @param $uri url to resource being added to db 
@@ -62,8 +64,9 @@ return
 };
 
 declare function local:get-file-data($file-name, $contents-url){
-let $url := concat($contents-url,'/',$file-name)         
-let $raw-url := concat(replace(replace($contents-url,'https://api.github.com/repos/','https://raw.githubusercontent.com/'),'/contents','/master'),$file-name)            
+let $url := concat($contents-url,'/',$file-name)
+let $branch := if($git-config//github-branch/text() != '') then concat('/',$git-config//github-branch/text())  else '/master'
+let $raw-url := concat(replace(replace($contents-url,'https://api.github.com/repos/','https://raw.githubusercontent.com/'),'/contents',$branch),$file-name)
 return 
         http:send-request(<http:request http-version="1.1" href="{xs:anyURI($raw-url)}" method="get">
                             {if($gitToken != '') then
@@ -84,7 +87,7 @@ declare function local:do-update($commits as xs:string*, $contents-url as xs:str
     let $file-data := 
         if(contains($file-name,'.xar')) then ()
         else local:get-file-data($file,$contents-url)
-    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name) 
+    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))        
     return 
         try {
@@ -118,14 +121,14 @@ declare function local:do-add($commits as xs:string*, $contents-url as xs:string
     let $file-data := 
         if(contains($file-name,'.xar')) then ()
         else local:get-file-data($file,$contents-url)
-    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name)
+    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))
     return
         try {
              if(contains($file-name,'.xar')) then ()
              else if(xmldb:collection-available($exist-collection-url)) then 
                 <response status="okay">
-                    <message>{xmldb:store($exist-collection-url, xmldb:encode-uri($file-name), xs:base64Binary($file-data))}</message>
+                    <message>{xmldb:store($exist-collection-url, xmldb:encode-uri($file-name), $file-data)}</message>
                 </response>
              else
                 <response status="okay">
@@ -148,7 +151,7 @@ declare function local:do-add($commits as xs:string*, $contents-url as xs:string
 declare function local:do-delete($commits as xs:string*, $contents-url as xs:string?){
     for $file in $commits
     let $file-name := tokenize($file,'/')[last()]
-    let $resource-path := if($repo-name != '') then substring-before(replace($file,$repo-name,''),$file-name) else substring-before($file,$file-name) 
+    let $resource-path := substring-before(replace($file,$repo-name,''),$file-name)
     let $exist-collection-url := xs:anyURI(replace(concat($exist-collection,'/',$resource-path),'/$',''))
     return
         if(contains($file-name,'.xar')) then ()
@@ -197,8 +200,7 @@ declare function local:execute-webhook($post-data){
 if(not(empty($post-data))) then 
     let $payload := util:base64-decode($post-data)
     let $json-data := parse-json($payload)
-    let $branch := if($git-config//github-branch/text() != '') then $git-config//github-branch/text() else 'refs/heads/master'
-    return 
+    return
         if($json-data?ref[. = $branch]) then 
              try {
                 if(matches(request:get-header('User-Agent'), '^GitHub-Hookshot/')) then
@@ -233,4 +235,3 @@ else
 
 let $post-data := request:get-data()
 return local:execute-webhook($post-data)
-    

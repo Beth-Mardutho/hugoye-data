@@ -1,0 +1,2129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Bardaisan's Influence on Late Antique Christianity</title>
+                <author>
+                    <name>
+                        <forename>Ute</forename>
+                        <surname>Possekel</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Harvard Divinity School</orgName>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2018</date>
+                <idno>Volume 21.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv21n1possekel</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Ute Possekel</author>
+                        <title level="a">Bardaisan's Influence on Late Antique Christianity</title>
+                        <idno type="URI"/><!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol21/HV21N1Possekel.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2018</date>
+                        </imprint>
+                        <biblScope type="vol" n="21">21</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="81" to="125">81-125</biblScope>
+                        <biblScope type="order" n="4"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Bardaisan</term>
+                    <term>Book of the Laws of Countries</term>
+                    <term>Philosophy</term>
+                    <term>Late Antiquity</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2018-07-03">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+       <front>
+           <div type="abstract" xml:lang="en">
+           <head>Abstract</head>
+           <p xml:lang="en">This article seeks to evaluate how the thought of Bardaisan of
+               Edessa was received by later generations of Christians. The article shows that
+               the <hi rend="italic">Book of the Laws of Countries</hi>, a Syriac dialogue in
+               which Bardaisan is the main interlocutor, exercised considerable influence in
+               both the Greek- and Syriac-speaking worlds. Although later authors tended to
+               denigrate Bardaisan’s views on fate and free will as an undue compromise, they
+               nevertheless did not hesitate to borrow freely from his cogent anti-
+               deterministic arguments and integrate them into their own discourses. But
+               Bardaisan’s influence, especially in the Syriac-speaking regions, extended into
+               other areas as well: his innovations in the realm of poetry and music, his
+               astronomical calculations, his ethnographic discourse, and his anti-Marcionite
+               polemics were all appreciated and adapted by subsequent authors. While it is
+               well known that later Christians tended to malign Bardaisan’s thought, and
+               especially his cosmology, as tainted with heresy, this article favors a more
+               nuanced view: alongside the late antique rejection of Bardaisan runs a notable
+               current of positive reception of his innovative contributions in the realms of
+               science, music, and apologetics.</p>
+           </div>
+       </front>
+        <body>
+            <div xml:id="hv21n1possekel.1" xml:lang="en">  
+                <p xml:lang="en">Bardaisan (154–222) composed numerous works on a wide array of theological and
+                    philosophical topics, ranging from cosmology to eschatology, from ethnographic
+                    surveys to astronomy.<note place="foot" xml:id="ftn2" n="2">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Eusebius</hi> mentions dialogues composed by
+                            Bardaisan against the Marcionites and other heretics, as well as a
+                            dialogue <hi rend="italic">On Fate</hi> (<hi rend="italic">h.e</hi>.
+                            4.30.1, ed. E<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">chwartz</hi> / Th<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">ommsen</hi>, <hi rend="italic">Eusebius, Werke II.1. Die
+                                Kirchengeschichte</hi>, second edition, GCS N.F. 6,1 (Berlin 1999),
+                            392,15–17.21–22). <hi rend="smallcaps">Ephrem</hi> explicitly refers to
+                            a <hi rend="italic">Book of Domnos</hi> (<foreign xml:lang="syr">ܟܬܒܐ ܕܕܡܢܘܣ</foreign>) and a <hi rend="italic">Book of Mysteries</hi> (<foreign xml:lang="syr">ܣܦܪ ܪ̈ܐܙܐ</foreign>). <hi rend="italic">Book of Domnos</hi>: <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">Prose Refutations</hi> (hereafter cited as <hi rend="italic">PR</hi>), ed. with Engl. transl. C<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">itchell</hi> / A<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">evan</hi> / F<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">urkitt</hi>, <hi rend="italic">S. Ephraim’s Prose
+                                Refutations of Mani, Marcion, and Bardaisan</hi>, 2 vols. (London
+                            1912–1921), vol. 2, p. 1 and p. 6,42–43; <hi rend="italic">Book of
+                                Mysteries</hi>: <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">Hymns against Heresies</hi> 56,9, ed. with German transl. E<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">eck</hi>, <hi rend="italic">Ephraem des Syrers Hymnen contra haereses</hi>, CSCO
+                            169–170 /Syr. 76–77 (Louvain 1957) (hereafter cited as <hi rend="italic">CH</hi>), text in CSCO 169, 211,22; cf. <hi rend="italic">CH</hi>
+                            1,14 (ed. Beck, 4,11). He also notes that Bardaisan composed hymns (<hi rend="italic">CH</hi> 53,5–6, ed. Beck, 203,5–14), and a treatise on
+                            the resurrection (<hi rend="italic">Hymns on Nisibis</hi> 51,2–3, ed.
+                            with German transl. E<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">eck</hi>, <hi rend="italic">Des heiligen Ephraem des Syrers Carmina
+                                Nisibena</hi>, CSCO 218–219 / Syr. 92–93 [Louvain 1961–1963]).
+                            Bardaisan also wrote on astronomical subjects and composed a treatise on
+                            India (on these, see below).</p>
+                    </note> Yet of his large literary output
+                    nothing has been preserved in its entirety save the Syriac dialogue known as the
+                        <hi rend="italic">Book of the Laws of the Countries</hi>, written down by
+                    Bardaisan’s disciple Philip, in which Bardaisan is the main interlocutor.<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="Footnote Text1"> The <hi rend="italic">Book of the Laws</hi> is preserved in only one
+                            manuscript, BL Syr. add. 14658, fol. 129a–141a, dated by Wright to the
+                            seventh century (W<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">right</hi>, <hi rend="italic">Catalogue of the Syriac Manuscripts
+                                in the British Museum</hi>, vol. 3 [London 1872], 1154). This
+                            manuscript contains various treatises of philosophical and scientific
+                            content (see ibid., 1154–1160).</p>
+                    </note> The fact that only this was
+                    preserved by later generations of Christians is already indicative of its impact
+                    upon the late antique church. Yet while Bardaisan’s reflections on free will and
+                    fate, as set down in this dialogue, evidently had a long trajectory of influence
+                    upon both Syriac and Greek-speaking readers, upon closer inspection it emerges
+                    that other aspects of his teachings did so as well. This essay will highlight
+                    some areas in which Bardaisan’s oeuvre shaped and challenged subsequent
+                    generations of Christians.</p>
+            </div>
+                <div xml:id="hv21n1possekel.2" xml:lang="en">
+                <head>1. The Memory of Bardaisan</head>
+                <p xml:lang="en">Before addressing particular aspects of Bardaisan’s <hi rend="italic">Wirkungs-geschichte</hi>, it will be convenient to trace how the memory of
+                    Bardaisan as a person was preserved in Greek, Latin, Syriac, and Arabic
+                        literature.<note place="foot" xml:id="ftn4" n="4">
+                        <p rend="Footnote Text1">
+                            For reasons of space, the Armenian tradition cannot be considered
+                            here.</p>
+                    </note> Although his writings were lost, his remembrance was
+                    kept alive by friend and foe alike.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="Footnote Text1"> The (in his view irreconcilable) discrepancies in
+                            the reception history of Bardaisan in late antiquity were emphasized by
+                            the Dutch scholar T<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">ansma</hi>, <hi rend="italic">Natuur, lot en vrijheid. Bardesanes,
+                                de filosoof der Arameeërs en zijn images</hi>, Cahiers bij het
+                            Nederlands theologisch tijdschrift 6 (Wageningen 1969).</p>
+                    </note>
+                    Considering the fierce polemics of later Syriac authors, it comes as a surprise
+                    to note that many of those late antique writers who mention him express rather
+                    an amicable attitude towards the Edessene theologian. Amongst those who
+                    expressly value Bardaisan are Julius Africanus (who left the only historical
+                    account of a personal encounter with Bardaisan), Eusebius of Caesarea, Didymus
+                    the Blind, the anonymous fourth-century author of the <hi rend="italic">Life of
+                        Aberkios</hi>, and Jerome.<note place="foot" xml:id="ftn6" n="6">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Julius Africanus</hi>, <hi rend="italic">Kestoi</hi> 7.20, ed. and transl. M. Wallraff / C. Scardino / L.
+                            Mecella / Ch. Guignard / W. Adler, <hi rend="italic">Cesti: The Extant
+                                Fragments</hi>, GCS N.F. 18 (Berlin 2012), 98–103; <hi rend="smallcaps">Eusebius</hi>, <hi rend="italic">h.e</hi>. 4.30.1,
+                            ed. <hi rend="smallcaps">Schwartz / Mommsen</hi>, 392,15–17.21–22
+                            (praises Bardaisan’s ingenuity); <hi rend="smallcaps">didymus the
+                                Blind</hi>, <hi rend="italic">Commentary on Psalms</hi> 181,8–9 (on
+                            Ps. 32), ed. with German transl. A<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">esché</hi> / M<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">ronewald</hi>, <hi rend="italic">Didymus der
+                                Blinde, Psalmen-kommentar (Tura-Papyrus)</hi>, vol. 3,
+                            Papyrologische Texte und Abhandlungen 8 (Bonn 1969), 182–184 (discusses
+                            Bardaisan without a negative comment); <hi rend="italic">Life of
+                                Aberkios</hi>, ed. Th<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">issen</hi>, <hi rend="italic">S. Abercii Vita</hi>
+                            (Leipzig 1912); <hi rend="smallcaps">Jerome</hi>, <hi rend="italic">Vir.
+                                ill</hi>. 33, ed. E<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ichardson</hi>, <hi rend="italic">Hieronymus, Liber
+                                de viris inlustribus. Gennadius, Liber de viris inlustribus</hi>, TU
+                            14.1 (Leipzig 1896), 24–25.</p>
+                    </note> Even Epiphanius, in spite of his
+                    objections, cannot but concede that Bardaisan was ἄριστός τις ἀνήρ.<note place="foot" xml:id="ftn7" n="7">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephiphanius</hi>, <hi rend="italic">Pan</hi>.
+                            56.1.2, ed. K<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">oll</hi>,
+                                <hi rend="italic">Epiphanius, Werke II</hi>, GCS (Leipzig 1922),
+                            338,5. English transl. F<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">illiams</hi>, <hi rend="italic">The Panarion of
+                                Epiphanius. Books II and III (Sects 47–80, De Fide)</hi>, Nag
+                            Hammadi and Manichaean Studies 36 (Leiden 1994). </p>
+                    </note> Although
+                    several of these authors express some doubt regarding Bardaisan’s orthodoxy –
+                    based, of course, on their own later theological perspectives – they all
+                    articulate their admiration for the man: his learning, his eloquence, his
+                    refutation of heresy, his skill as an archer, his scientific mindset. </p>
+                <p xml:lang="en">Over against this group of predominantly Greek-speaking authors favorably
+                    disposed towards the Edessene stand those with a hostile attitude, most of whom
+                    flourished in the same Syriac milieu as did Bardaisan. His most outspoken critic
+                    was the poet Ephrem (d. 373), yet even he does not hesitate occasionally to
+                    borrow from Bardaisan’s ideas – without acknowledgement, to be sure. Eusebius of
+                    Emesa (d. ca. 359), who grew up bilingually in Edessa and wrote in Greek,
+                    engages with Bardaisan’s views in his <hi rend="italic">Commentary on
+                        Genesis</hi>.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="Footnote Text1"> The commentary is preserved only in an Armenian version and in Greek
+                            and Syriac fragments, ed. F<hi rend="smallcaps">. </hi>P<hi rend="smallcaps">etit</hi> /
+                                L<hi rend="smallcaps">. van </hi>R<hi rend="smallcaps">ompay</hi> /
+                                J<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">eitenberg</hi>, <hi rend="italic">Eusèbe d’Émèse,
+                                Commentaire de la Genèse. Texte arménien de l’édition de Venise
+                                (1980). Fragments grecs et syriaques. Avec traductions</hi>,
+                            Traditio Exegetica Graeca 15 (Louvain 2011); section on Bardaisan on pp.
+                            92–95, 212–215, 292–295. See also
+                                R<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">. ter </hi>H<hi rend="smallcaps">aar </hi>R<hi rend="smallcaps">omeny</hi>, <hi rend="italic">A Syrian in Greek
+                                Dress. The Use of Greek, Hebrew, and Syriac Biblical Texts in
+                                Eusebius of Emesa’s Commentary on Genesis</hi>, Traditio Exegetica
+                            Graeca 6 (Louvain 1997), 265–271. Space does not suffice here to discuss
+                            to what extent the opinions attributed to Bardaisan by Eusebius of Emesa
+                            reflects Bardaisan’s own thought, and to what extent they may represent
+                            either later developments among his disciples or heresiological attempts
+                            to discredit Bardaisan.</p>
+                    </note> Significantly, the only two
+                    non-biblical authors mentioned by name in this commentary are Bardaisan and
+                        Homer.<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="Footnote Text1"> P<hi rend="smallcaps">etit</hi> /
+                                <hi rend="smallcaps">van </hi>R<hi rend="smallcaps">ompay</hi> / W<hi rend="smallcaps">eitenberg</hi>,
+                                <hi rend="italic">Eusèbe d’Émèse</hi>, xxxviii, note 69.</p>
+                    </note>
+                    In the course of the christological controversies of the fifth and sixth
+                    centuries, associating one’s opponent with Bardaisan and his theology became a
+                    convenient rhetorical tool, but here, too, authors sometimes unintentionally
+                    cited passages from Bardaisan’s works that seem to have become part of the
+                    common lore.<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="Footnote Text1">
+                            Cf. L<hi rend="smallcaps">. van </hi>R<hi rend="smallcaps">ompay</hi>, “Bardaisan and Mani in Philoxenus of
+                            Mabbog’s <hi rend="italic">Mēmrē Against Habbib</hi>,” in: <hi rend="italic">Syriac Polemics. Studies in Honour of Gerrit Jan
+                                Reinink</hi>, ed. W<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. v. </hi>B<hi rend="smallcaps">ekkum</hi> / J<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">rijvers</hi> / A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">lugkist, OLA 170</hi> (Louvain 2007),
+                        77–90.</p>
+                    </note> A negative memory of Bardaisan is preserved in the
+                    heresiological summaries of a much later age, including those by Barḥadbeshabba
+                    ʿArbaia (6<hi rend="superscript">th</hi> cent.), Theodore bar Koni (late 8<hi rend="superscript">th</hi> cent.), Moses bar Kepha (d. 903), and Michael the
+                    Syrian (12<hi rend="superscript">th</hi> cent).<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Barḥadbeshabba ʿArbaia</hi>, <hi rend="italic">History</hi> 2.5, ed. F<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">au</hi>, <hi rend="italic">La première partie de l’
+                                Histoire de Barḥadbešabba ‘Arbaïa. Texte syriaque édité et
+                                traduit</hi>, PO 23.2 (1932), 191–192; <hi rend="smallcaps">Theodore
+                                bar Koni</hi>, <hi rend="italic">Scholion</hi> 11.49, ed. A<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">cher</hi>, <hi rend="italic">Theodorus bar Kōnī, Liber scholiorum</hi> II, CSCO 69
+                            / Syr. 26 (Louvain 1954), 307,20–308,20; French transl. R<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">espel</hi> / R<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">raguet</hi>, <hi rend="italic">Théodore bar Koni, Livre des scolies (recension de
+                                Séert)</hi>, CSCO 432 / Syr. 188 (Louvain 1982),
+                            229f.;<hi rend="smallcaps"> Moses bar Kepha</hi>,
+                                <hi rend="italic">Hexaemeron Commentary</hi> 1.14, relevant section
+                            ed. F. <hi rend="smallcaps">Nau</hi>, <hi rend="italic">Patrologia
+                                Syriaca</hi> 1.2 (1907), 513–514; section also ed. H<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">rijvers</hi>, <hi rend="italic">Bardaiṣan of
+                                Edessa</hi>, Studia Semitica Neerlandica 6 (Assen 1966), 98–104;
+                            German transl. of the entire treatise
+                                L<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">chlimme</hi>, <hi rend="italic">Der
+                                Hexaemeronkommentar des Moses bar Kepha. Einleitung, Übersetzung und
+                                Untersuchungen</hi>, 2 vols., Göttinger Orientforschungen, 1. Reihe:
+                            Syriaca, vol. 14.1–2 (Wiesbaden 1977), passage on Bardaisan in vol. 1,
+                            137–140; <hi rend="smallcaps">Michael the Syrian</hi>, <hi rend="italic">Chronicle</hi>, ed. with French transl. J<hi rend="smallcaps">.-</hi>B<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">habot</hi>, <hi rend="italic">Chronique de Michel
+                                le Syrien</hi>, 4 vols. (Paris 1899–1910, reprint Brussels 1963),
+                            vol. 1, 183–185 (transl.), vol. 4, 109–111 (text).</p>
+                    </note> On the
+                    other hand, some later Syriac authors do express a favorable attitude towards
+                    Bardaisan, namely with regard to his scientific understanding of astronomy.</p>
+                <p xml:lang="en">One reason for this surprising disparate reception within the Greek and Syriac
+                    traditions is that fact that in the Syriac-speaking communities of northern
+                    Mesopotamia Bardaisanite teachings long continued to be a force to be reckoned
+                    with, challenging the established church with doctrines at times much more
+                    radical than had been those of Bardaisan himself. Another, and not entirely
+                    unconnected reason for this disjunct memory of Bardaisan is that in the Syriac
+                    tradition Bardaisan’s name primarily remained associated with his cosmology
+                    (later judged to be heretical), whereas Christians in territories to the West of
+                    Edessa remembered Bardaisan principally for his capable refutation of astral
+                    determinism.</p>
+                <p xml:lang="en">A third and distinct memory of Bardaisan is preserved by later Arabic-speaking
+                    authors, many of whom regard him as a dualist (which he was not) and attribute
+                    to him otherwise unknown (and most likely inauthentic) works. Ibn al-Nadim, for
+                    instance, lists three book titles for Bardaisan that are unknown in the Syriac
+                        tradition.<note place="foot" xml:id="ftn12" n="12">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ibn al-Nadim</hi>, <hi rend="italic">Fihrist</hi>
+                            9.1, ed. G<hi rend="smallcaps">. </hi>F<hi rend="smallcaps">lügel</hi>,
+                                <hi rend="italic">Kitab al-Fihrist</hi>, 2 vols. (Leipzig
+                            1871–1872); transl. B<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">odge</hi>, <hi rend="italic">The Fihrist of al-Nadīm. A
+                                Tenth-Century Survey of Muslim Culture</hi>, 2 vols. (New York
+                            1970), vol. 2, 805f. Al-Nadim mentions a <hi rend="italic">Book of Light
+                                and Darknes</hi>s, a <hi rend="italic">Book of the Spirituality of
+                                the Truth</hi>, and a <hi rend="italic">Book of the Moving and the
+                                Static</hi>.</p>
+                    </note> By and large, the Arabic testimonies to
+                    Bardaisan reflect much later concerns with dualist sects and fall outside the
+                    scope of this essay.<anchor xml:id="Ref305783540"/>
+                    <note place="foot" xml:id="ftn13" n="13">
+                        <p rend="Footnote Text1"> Important references to the
+                            Bardaisanites by Arabic authors can be found in the writings of
+                            al-Nadim, al-Warraq, al-Maturidi, and al-Biruni. Some of these are
+                            translated and discussed in the following publications: G<hi rend="smallcaps">. </hi>V<hi rend="smallcaps">ajda</hi>, “Le
+                            témoigne de al-Māturidī sur la doctrine des Manichéens, des Dayṣānites
+                            et des Marcionites,” <hi rend="italic">Arabica</hi> 13 (1966), 1–38;
+                                W<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">adelung</hi>,
+                            “Abū ʿĪsā al-Warrāq über die Bardesaniten, Marcioniten und Kantäer,” in:
+                                <hi rend="italic">Studien zur Geschichte und Kultur des Vorderen
+                                Orients. Festschrift für Bertold Spuler zum siebzigsten
+                                Geburtstag</hi>, ed. H<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">oemer</hi> / A<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">oth</hi> (Leiden 1981), 210–224; G<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">onnot</hi>, <hi rend="italic">Islam et religions</hi>, Islam d’hier et d’aujourd’hui
+                            27 (Paris 1986), 34–37, 167–168;
+                                J<hi rend="smallcaps">. van </hi>E<hi rend="smallcaps">ss</hi>, <hi rend="italic">Theologie und
+                                Gesellschaft im 2. und 3. Jahrhundert Hidschra. Eine Geschichte des
+                                religiösen Denkens im frühen Islam</hi>, 6 vols. (Berlin 1991–1995),
+                            vol. 1 (1991), 426–430 (with further bibliography).</p>
+                    </note>
+                </p>
+                </div>
+            <div xml:id="hv21n1possekel.3" xml:lang="en">
+                <head>2. Fate and Free Will</head>
+                <p xml:lang="en">Bardaisan’s refutation of astral determinism, as expressed in the <hi rend="italic">Book of the Laws</hi>, has had the most obvious impact upon
+                    late antique Christianity. This is the only work preserved in its entirety, and
+                    it is also the one cited most widely – with or without attribution to Bardaisan
+                    – in the patristic literature. The Syriac dialogue has come down to us in a
+                    seventh-century manuscript, thus it was still read and copied at that time.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="Footnote Text1"> Detailed
+                            discussion of the manuscript’s content and its possible Sitz in Leben as
+                            a school curriculum may be found in <hi rend="smallcaps">D. King</hi>,
+                            “Origenism in Sixth Century Syria: The Case of a Syriac Manuscript on
+                            Pagan Philosophy,” in <hi rend="italic">Origenes und sein Erbe in Orient
+                                und Okzident</hi>, edited by <hi rend="smallcaps">A. Fürst</hi>
+                            (Münster 2011), 179–212. King’s assertion, however, that this collection
+                            represents Origenist teachings (see esp. 208–211; elsewhere in the
+                            article the subject of Origenism is hardly mentioned) is not wholly
+                            convincing.</p>
+                    </note> Both Greek and Syriac-speaking Christians would
+                    have been familiar with Bardaisan’s thought also through reading Eusebius’ <hi rend="italic">Ecclesiastical History</hi>, the Syriac version of which
+                    likely dates from the fourth century.<note place="foot" xml:id="ftn15" n="15">
+                        <p rend="Footnote Text1"> The Syriac version of Eusebius’ <hi rend="italic">Ecclesiastical History</hi> is ed. W<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">right</hi> / N<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">c</hi>L<hi rend="smallcaps">ean</hi>,
+                                <hi rend="italic">The Ecclesiastical History of Eusebius in Syriac,
+                                edited from the manuscripts. With a collation of the ancient
+                                Armenian version by Adalbert Merx</hi> (Cambridge 1898), the section
+                            on Bardaisan is on p. 243f. The Syriac version of the <hi rend="italic">Ecclesiastical History</hi> is extant in several manuscripts; on
+                            these, see A<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">aumstark</hi>, <hi rend="italic">Geschichte der syrischen Literatur
+                                mit Ausschluß der christlich-palästinensischen Texte</hi> (Bonn
+                            1922), 58–59. </p>
+                    </note>
+                </p>
+                <p xml:lang="en">Several early Syriac treatises, such as the <hi rend="italic">Apology</hi> of
+                    Ps.- Melito or the <hi rend="italic">Acts of Thomas</hi>, <note place="foot" xml:id="ftn16" n="16">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ps.-Melito</hi>, <hi rend="italic">Apology</hi>,
+                            ed. W<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">ureton</hi>, <hi rend="italic">Spicilegium Syriacum: containing remains of Bardesan,
+                                Meliton, Ambrose and Mara bar Serapion</hi> (London 1855), 21–31
+                            (text), 41–51 (transl.). Space does not permit here a discussion of the
+                            relation between the <hi rend="italic">BLC</hi> and Ps.-Melito’s <hi rend="italic">Apology</hi> and the <hi rend="italic">Acts of
+                                Thomas</hi>, respectively.</p>
+                    </note> contain passages that show
+                    close affinities with the <hi rend="italic">Book of the Laws</hi>. This might
+                    suggest, as some scholars have posited,<note place="foot" xml:id="ftn17" n="17">
+                        <p rend="Footnote Text1">
+                                I<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">amelli</hi>, <hi rend="italic">Bardaisan of Edessa.
+                                A Reassessment of the Evidence and a New Interpretation</hi>
+                            (Piscataway, NJ 2009), 111–114, maintains the <hi rend="italic">Acts of
+                                Thomas</hi> “include an unequivocal quotation” from the <hi rend="italic">Book of the Laws</hi> (p. 111).</p>
+                    </note> that the
+                    respective authors of these treatises were familiar with the Syriac dialogue,
+                    but only a close textual analysis can ascertain whether such similarities are
+                    not better explained by the authors’ common cultural and intellectual
+                    milieu.</p>
+                <p xml:lang="en">Ephrem the Syrian in the fourth century was confronted, much like Bardaisan was
+                    in the early third, with deep-seated astrological beliefs among members of his
+                    community. In his <hi rend="italic">Hymns against Heresies</hi>, the poet
+                    specifically targets his congregants’ misguided trust in horoscopes and fate,
+                    and at times Ephrem’s arguments are reminiscent of those set forth in the <hi rend="italic">Book of the Laws</hi> so that a familiarity with Bardaisan’s
+                    most important work appears likely. Bardaisan in the dialogue asserts that fate
+                    does not control human free will in ethical matters, nor does it determine
+                    natural processes such as bodily growth or the need for nourishment. Prominent
+                    among Bardaisan’s examples in support of his claim that fate does not have power
+                    over nature, is that not before puberty or in old age are people able to
+                    conceive children, regardless of fate.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 20, ed. <hi rend="smallcaps">Nau</hi>,
+                            572,1–575,3. On Bardaisan’s defense of free will against astral
+                            determinism, see for example
+                                T<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">egedus</hi>, <hi rend="italic">Early Christianity
+                                and Ancient Astrology</hi> (New York 2007), 261–278.</p>
+                    </note> In
+                    his hymns, Ephrem employs a very similar rationale to oppose the view that fate
+                    is responsible for sexual transgressions, for that would imply that only during
+                    a certain age does fate have this power.<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 4,15, ed.
+                            Beck, 17,9–14. In <hi rend="italic">CH</hi> 6,12–13, ed. Beck,
+                            25,25–26,10, he mentions the example of old age.</p>
+                    </note> Moreover,
+                    Ephrem brings forth several extensive objections to the claim, articulated in
+                    the <hi rend="italic">Book of the Laws</hi>, that fate is the cause of sickness,
+                    health, or a person’s social status.<note place="foot" xml:id="ftn20" n="20">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 4,8–11.14;
+                            5,4.9–10; 6,2.6 and passim, ed. Beck, 15,22–16,18; 17,3–8; 19,11–16;
+                            20,13–24; 23,15–20; 24,16–21.</p>
+                    </note> Taken alone, any of these
+                    arguments would not suffice to establish Ephrem’s familiarity with the Syriac
+                    dialogue, but in their entirety they would seem to allow no conclusion other
+                    than that Ephrem was well aware of the book’s content.</p>
+                <p xml:lang="en">Bardaisan’s rebuttal of astral determinism was still well remembered and
+                    appreciated among learned Syriac authors in the early eighth century, for Jacob
+                    of Edessa (d. 708) favorably comments on the Bardaisanite refutation of fate in
+                    his <hi rend="italic">Commentary on the Hexaemeron</hi>. In this remarkable
+                    passage, Jacob recalls how a man from Edessa, who belonged to the school of
+                    Bardaisan, capably refuted the astral determinism advocated by an astrologer
+                    from Harran.<note place="foot" xml:id="ftn21" n="21">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Jacob of Edessa</hi>, <hi rend="italic">Hexaemeron</hi>, ed. I.-B. <hi rend="smallcaps">Chabot</hi>, <hi rend="italic">Iacobi Edesseni Hexaemeron</hi>, CSCO 92 / Syr. 44
+                            (Louvain 1953), 61a,35–62a,24. Jacob even knows the name of the
+                            Bardaisanite: Vologeses.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">Turning to the reception history of Bardaisan’s <hi rend="italic">Book of the
+                        Laws</hi> in Greek patristic literature, it becomes apparent that here,
+                    unlike among Syriac authors, Bardaisan’s authorship is generally much more
+                    readily acknowledged. Eusebius records in his <hi rend="italic">Ecclesiastical
+                        History</hi> that Bardaisan’s disciples translated his dialogues from Syriac
+                    into Greek,<note place="foot" xml:id="ftn22" n="22">
+                        <p rend="Footnote Text1">
+                            Eusebius, <hi rend="italic">h.e</hi>. 4.30.1, ed. Schwartz / Mommsen,
+                            392,19–21.</p>
+                    </note> and we may assume that the <hi rend="italic">Book
+                        of the Laws</hi> was among these treatises so that the dialogue would have
+                    been available to Greek readers from a very early time.</p>
+                <p xml:lang="en">A long excerpt from the
+                    <hi rend="italic">Book of the Laws </hi>is contained in the
+                    Ps.-Clementine <hi rend="italic">Recognitions</hi>, a fascinating novel produced
+                    in fourth-century Syria that extensively reworks earlier materials. In the <hi rend="italic">Recognitions</hi> Clement of Rome recounts in the first person
+                    his conversion to Christianity, his adventurous journeys with Peter the apostle,
+                    and his eventual reunification with his (now likewise converted) family.<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="Footnote Text1"> Ps.-Clementine
+                                <hi rend="italic">Recognitions</hi>, ed.
+                                B<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ehm</hi> /
+                                G<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">trecker</hi>, <hi rend="italic">Die
+                                Pseudoklementinen II: Rekognitionen in Rufins Übersetzung</hi>,
+                            second edition, GCS (Berlin 1994); English transl.
+                                T<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">mith</hi>, ANF 8 (reprint 1989), 73–211.</p>
+                    </note>
+                    The book includes also lively conversations between the chief protagonists and
+                    prolonged theological discourses. In book nine, Clement debates with a defender
+                    of astrological fate, and Clement’s counter-arguments here include of a long
+                    section lifted from the second part of the <hi rend="italic">Book of the
+                        Laws</hi> (25–46), without, however, naming either Bardaisan or Philip.<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="Footnote Text1"> Ps.-Clementine
+                                <hi rend="italic">Rec</hi>. 9.19–29, ed. <hi rend="smallcaps">Rehm</hi> / <hi rend="smallcaps">Strecker</hi>, 270–314. <hi rend="italic">BLC</hi> 25–46, ed. <hi rend="smallcaps">Nau</hi>,
+                            582,5–608,13.</p>
+                    </note> Although parts of the <hi rend="italic">Recognitions</hi> survive in a Syriac translation of the Greek
+                        original,<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="Footnote Text1">
+                            A Syriac translation of portions from the <hi rend="italic">Ps.-Clementines</hi> is contained in the famous manuscript BL Syr.
+                            add. 12150, dated to AD 411 and thereby the oldest dated Syriac
+                            manuscript. Ed. of the Syriac in W<hi rend="smallcaps">. </hi>F<hi rend="smallcaps">rankenberg</hi>, <hi rend="italic">Die syrischen
+                                Clementinen mit griechischem Paralleltext</hi>, TU 48/3 (Leipzig
+                            1937). English transl. F.
+                            S.<hi rend="smallcaps"> Jones</hi>, <hi rend="italic">The Syriac Pseudo-Clementines. An Early Version of the
+                                First Christian Novel</hi> (Turnhout 2014).</p>
+                    </note> the relevant
+                    passage is extant only in the Latin version of Rufinus and shows a number of
+                    deviations from the Syriac text of the <hi rend="italic">Book of the Laws</hi>.
+                    The encounter between Clement and the defender of astrology (who in the end
+                    turns out to be Clement’s father) is narrated in the Ps.-Clementine <hi rend="italic">Homilies</hi> as well, although here the section from the <hi rend="italic">Book of the Laws</hi> is wanting.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="Footnote Text1"> Ps.-Clementine <hi rend="italic">Hom</hi>. 14, ed.
+                                B<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ehm</hi> /
+                                G<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">trecker</hi>, <hi rend="italic">Die
+                                Pseudo-klementinen I. Homilien</hi>, third edition, GCS (Berlin
+                            1992), 204–211.</p>
+                    </note> The great number of parallels between the <hi rend="italic">Recognitions</hi> and <hi rend="italic">Homilies</hi> has led
+                    scholars to postulate the existence of a Ps.-Clementine <hi rend="italic">Grundschrift</hi> (dated to between 220 and 260), and this <hi rend="italic">Grundschrift</hi> already would have included the sections
+                    from Bardaisan’s dialogue.<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="Footnote Text1">
+                                B<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ehm</hi>, “Bardesanes in den Pseudoclementinen,”
+                                <hi rend="italic">Philologus</hi> 93 (1938), 218–247; F<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">ones</hi>, “The Pseudo-Clementines: A History of
+                            Research,” <hi rend="italic">Second Century</hi> 2 (1982), 1–33, 63–96;
+                                J<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">. Bremmer</hi>,
+                            ed., <hi rend="italic">The Pseudo-Clementines</hi>, Studies on Early
+                            Christian Apocrypha 10 (Louvain 2010).</p>
+                    </note> The Ps.-Clementines
+                    thus contain the oldest known quotation from the <hi rend="italic">Book of the
+                        Laws</hi>.</p>
+                <p xml:lang="en">The earliest Greek author explicitly to attribute quotations from the
+                    dialogue on fate to Bardaisan is Eusebius, who in his <hi rend="italic">Praeparatio evangelica</hi> excerpts lengthy passages.<note place="foot" xml:id="ftn28" n="28">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Eusebius</hi>, <hi rend="italic">Praep. ev</hi>.
+                            6.10.1–48, ed. K<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">ras</hi> /
+                                É<hi rend="smallcaps">. des </hi>P<hi rend="smallcaps">laces</hi>, <hi rend="italic">Eusebius, Werke
+                                VIII.1</hi>, second edition, GCS (Berlin 1982), 335,1–343,15.
+                        </p>
+                    </note> The church historian remarks that he quotes from Bardaisan’s
+                    dialogues with his companions, but he does not specify a title. The sections
+                    cited by Eusebius are almost the same as those quoted in the Ps.-Clementine <hi rend="italic">Recognitions</hi>,<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="Footnote Text1"> Synoptic printing of all three texts in <hi rend="smallcaps">Rehm / Strecker</hi>, <hi rend="italic">Pseudo-klementinen II</hi>, 270–317.</p>
+                    </note> a fact that has
+                    given rise to an extensive scholarly debate concerning the original language of
+                    the <hi rend="italic">Book of the Laws</hi> and the various intertextual
+                    dependencies between the Syriac dialogue, Eusebius, and the Ps.-Clementine <hi rend="italic">Recognitions</hi>.<note place="foot" xml:id="ftn30" n="30">
+                        <p rend="Footnote Text1"> This question need not be taken up here. See the
+                            extensive discussion by R<hi rend="smallcaps">ehm</hi>, “Bardesanes in
+                            den Pseudoclementinen.” That the <hi rend="italic">Book of the Laws</hi>
+                            originally was composed in Syriac (and not in Greek) has been argued
+                            convincingly by Th<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">öldeke</hi>, “Zum ‘Buch der Gesetze der Länder’,”
+                                <hi rend="italic">ZDMG</hi> 64 (1910), 555–560. See also F<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">au</hi>, “Notes
+                            d’astronomie syrienne,” <hi rend="italic">Journal Asiatique</hi>, 10th
+                            series, vol. 16 (1910), 209–228, esp. 216–219;
+                                G<hi rend="smallcaps">. </hi>L<hi rend="smallcaps">evi della </hi>V<hi rend="smallcaps">ida</hi>, “Appunti Bardesanici,” <hi rend="italic">Rivista degli studi orientali</hi> 8 (1919–1920), 709–722.
+                        </p>
+                    </note> Whereas in his <hi rend="italic">Ecclesiastical History</hi>
+                    Eusebius acknowledges Bardaisan’s contribution to Christian theological
+                        discourse,<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="Footnote Text1">
+                            Eusebius, <hi rend="italic">h.e</hi>. 4.30, ed. Schwartz / Mommsen,
+                            392,14–28.</p>
+                    </note> in the <hi rend="italic">Praeparatio
+                        evangelica</hi> he treats the excerpts from Bardaisan among the
+                    non-Christian refutations of astrology<note place="foot" xml:id="ftn32" n="32">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Eusebius</hi>, <hi rend="italic">Praep. ev</hi>.
+                            6.9.32 (ed. <hi rend="smallcaps">Mras / des Places</hi> 334,20–24),
+                            introduces the quotation from Bardaisan by stating that now he will
+                            produce the arguments of the astrologers against the Chaldeans. In <hi rend="italic">Praep. ev</hi>. 6.10.49 (ed. ibid., 343,17–20), he
+                            indicates that the discussion of non-Christian authors is now concluded
+                            and that he will move on to Christian authors. In fact, Origen comes
+                            next.</p>
+                    </note> – perhaps because in his Greek <hi rend="italic">Vorlage</hi>, unlike in the extant Syriac version, Bardaisan does not
+                    explicitly identify himself as a Christian.<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="Footnote Text1"> In the Syriac dialogue, Bardaisan says,
+                            “what shall we say, then, about the new race of us Christians?” (ܡܐܢܐ
+                            ܕܝܢ ܢܐܡܪ ܥܠ ܫܪܒܬܐ ܚܕܬܐ ܕܝܠܢ ܕܟܪ̈ܣܛܝܢܐ) (<hi rend="italic">BLC</hi> 46,
+                            ed. <hi rend="smallcaps">Nau</hi>, 607,16–17), whereas Eusebius’ text
+                            reads τί δὲ ἐροῦμεν περὶ τῆς τῶν Χριστιανῶν αἱρέσεως (<hi rend="smallcaps">Eusebius</hi>, <hi rend="italic">Praep. ev</hi>.
+                            6.10.45, ed. <hi rend="smallcaps">Mras / des Places,</hi>
+                            342,23–24).</p>
+                    </note> The church historian first quotes a segment in
+                    which Bardaisan outlines the respective powers of nature and free will (<hi rend="italic">BLC</hi> 15–16) and then produces a long passage of νόμιμα
+                    βαρβαρικά from the dialogue’s latter part (<hi rend="italic">BLC</hi> 25–47).<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 15–16 and 25–47, ed. <hi rend="smallcaps">Nau</hi>, 558,10–562,3; 582,5–610,7.</p>
+                    </note> For understanding
+                    the dissemination of Bardaisan’s dialogue it is vitally important to note that
+                    Eusebius – unlike the Ps.-Clementine <hi rend="italic">Recognitions</hi> – cites
+                    from two separate sections of the <hi rend="italic">Book of the Laws</hi>.
+                    Eusebius thus had access to the entire dialogue, whereas the author of the
+                    Ps.-Clementine <hi rend="italic">Recognitions</hi> reveals familiarity only with
+                    the second, ethnographic part of this work.</p>
+                <p xml:lang="en">The famous Antiochene exegete Diodore of Tarsus (d. ca. 390) takes up the subject
+                    of fate and free will in his κατὰ εἱμαρμένης. This book is now lost, but we are
+                    well informed of its arguments through the summary provided by the ninth-
+                    century Constantinopolitan patriarch Photios in his <hi rend="italic">Library</hi>.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Photios</hi>, <hi rend="italic">Bibl</hi>. 223
+                            (208b–222a), ed. R<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">enry</hi>, <hi rend="italic">Photius,
+                                Bibliothèque</hi>, vol. 4 (Paris 1991), 8–48.</p>
+                    </note> Right at
+                    the beginning of his synopsis, Photios favorably comments that Diodore (whose
+                    theology he apparently generally does not much appreciate) set forth a clear and
+                    zealous refutation of Bardaisan’s doctrines in the fifty-first chapter of his
+                    treatise. According to the patriarch, Diodore began this section by summarily
+                    criticizing Bardaisan’s position as a half-hearted compromise, because his
+                    discourse freed the soul from fate but kept the body and all which concerns it
+                    subject to fate.<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Photios</hi>, <hi rend="italic">Bibl</hi>. 223
+                            (208b), ed. <hi rend="smallcaps">Henry</hi>, 8,18–9,32.</p>
+                    </note> It is
+                    likely that Diodore regarded Bardaisan’s coherent and well- argued position as a
+                    particular threat to his own anthropology and therefore wished to raise
+                    objections to it already at the beginning of his treatise <hi rend="italic">On
+                        Fate</hi>. Bardaisan’s theology apparently was still a force to be reckoned
+                    with at the end of the fourth century. After surveying Diodore’s refutation,
+                    Photios in due course rehearses several specific points brought forth by the
+                    Antiochene exegete against Bardaisan. Diodore challenged Bardaisan’s theory on
+                    biblical, theological, and philosophical grounds.<note place="foot" xml:id="ftn37" n="37">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Photios</hi>, <hi rend="italic">Bibl</hi>. 223
+                            (221b–222a), ed. <hi rend="smallcaps">Henry</hi>,
+                        45,12–47,16.</p>
+                    </note> Much of Diodore’s reasoning against fate elsewhere
+                    in this treatise rests on anti-deterministic arguments in the tradition of
+                    Carneades, which, of course, were also employed by Bardaisan.<note place="foot" xml:id="ftn38" n="38">
+                        <p rend="Footnote Text1"> Cf.
+                                E<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">mand de Mendieta</hi>, <hi rend="italic">Fatalisme
+                                et liberté dans l’antiquité grecque. Recherches sur la survivance de
+                                l’argumentation morale antifataliste de Carnéade chez les
+                                philosophes grecs et les théologiens chrétiens des quatre premiers
+                                siècles</hi> (Louvain 1945). On Bardaisan’s notion of fate and its
+                            relation to Alexander of Aphrodisias, see A. <hi rend="smallcaps">Dihle</hi>, “Zur Schicksalslehre des Bardesanes,” in: <hi rend="italic">Kerygma und Logos. Beiträge zu den
+                                geistesgeschichtlichen Beziehungen zwischen Antike und Christentum.
+                                Festschrift für Carl Andresen zum 70. Geburtstag</hi>, edited by A.
+                            M. <hi rend="smallcaps">Ritter</hi> (Göttingen 1979),
+                        123–135.</p>
+                    </note> Interestingly, certain parallels between Diodore and the
+                        <hi rend="italic">Book of the Laws</hi> are apparent,<note place="foot" xml:id="ftn39" n="39">
+                        <p rend="Footnote Text1"> For instance, in 215b
+                            Diodore stresses that unlike the behavior of various animals, human
+                            action exhibits much variety, so that it consequently cannot possibly be
+                            determined by fate (ed. <hi rend="smallcaps">Henry</hi>, 28,6–29,28). In
+                            218a Diodore refers to the customs of Jews and Christians as counter
+                            examples (ed. <hi rend="smallcaps">Henry</hi>, 35,13–36,33).</p>
+                    </note>
+                    so that the question presents itself to what degree Diodore might have mined his
+                    opponent’s dialogue for those kinds of arguments that well suited his
+                    agenda.</p>
+                <p xml:lang="en">The reception history of Bardaisan’s <hi rend="italic">Book of the Laws</hi>
+                    continues well into Byzantine times. In the sixth century, an anonymous author
+                    attributed certain theological dialogues to Caesarius, the brother of Gregory of
+                    Nazianzus, and these treatises show familiarity with the <hi rend="italic">Book
+                        of the Laws</hi>. <note place="foot" xml:id="ftn40" n="40">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ps.-Caesarius</hi>, <hi rend="italic">Erotapokriseis</hi>, ed.
+                                R<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">iedinger</hi>, <hi rend="italic">Pseudo-Kaisarios,
+                                Die Erotapokriseis</hi>, GCS (Berlin 1989), 83–87. Older ed. in PG
+                            38 (1862), 977–987 (= <hi rend="italic">dial</hi>. 2, 109–110). On this
+                            author, see R<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">iedinger</hi>, <hi rend="italic">Pseudo-Kaisarios.
+                                Überlieferungsgeschichte und Verfasserfrage</hi>, Byzantinisches
+                            Archiv 12 (München 1969). Brief overview in
+                                D<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">amos-</hi>L<hi rend="smallcaps">issón</hi>,
+                            “Pseudo-Caesarius,” <hi rend="italic">LThK</hi>
+                            <hi rend="superscript">3</hi> 8 (1999), 708.</p>
+                    </note> In the ninth century, the
+                    historian George Harmatolos quotes from the <hi rend="italic">Book of the
+                        Laws</hi>.<note place="foot" xml:id="ftn41" n="41">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">George Hamartolos</hi>, ed.
+                                J<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">ramer,</hi>
+                            <hi rend="italic">Anecdota Graeca Bibliothecarum Oxoniensium</hi>,
+                            vol. 4 (Oxford 1837, reprint Amsterdam 1963), 236–237. Brief overview of
+                            George in A<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">azhdan</hi>
+                            / A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">utler</hi>, “George
+                            Hamartolos,” <hi rend="italic">Oxford Dictionary of Byzantium</hi> 2
+                            (1991), 836.</p>
+                    </note> But inasmuch as George mentions Caesarius
+                    directly prior to his discussion of Bardaisan, and since the two passages
+                    contain many parallels, it appears likely that George may have derived his
+                    knowledge from Ps.-Caesarius, as already A. Hilgenfeld surmised.<note place="foot" xml:id="ftn42" n="42">
+                        <p rend="Footnote Text1">
+                                A<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">ilgenfeld</hi>, <hi rend="italic">Bardesanes, der
+                                letzte Gnostiker</hi> (Leipzig 1864), 93.</p>
+                    </note> Finally, a
+                    reference to Bardaisan occurs in the <hi rend="italic">Ecclesiastical
+                        History</hi> composed by Nikephoros Kallistos in the early part of the
+                    fourteenth century.<note place="foot" xml:id="ftn43" n="43">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Nikephoros Kallistos</hi>, <hi rend="italic">h.e.</hi> 4.11, PG 145 (1904), 1001.</p>
+                    </note> Much of what
+                    Nikephoros writes about the Edessene is taken directly – at times even verbatim
+                    – from Eusebius’ <hi rend="italic">Ecclesiastical History</hi>, but his account
+                    also includes an interesting detail that remains without parallel in the Greek
+                    patristic literature,<note place="foot" xml:id="ftn44" n="44">
+                        <p rend="Footnote Text1"> Noteworthy is Nikephoros’ statement in the
+                            dialogue that Bardaisan characterized the “Father of the Logos” (PG 145,
+                            1001). However, the section in Nikephoros is only brief and no definite
+                            conclusions can be drawn from it.</p>
+                    </note> so that one is led to
+                    wonder if, perhaps, he was acquainted with some of Bardaisan’s treatises. </p>
+                <p xml:lang="en">Of all of Bardaisan’s works, the <hi rend="italic">Book of the
+                        Laws</hi> clearly is the one with the most significant impact upon late
+                    antique Christianity. Although Bardaisan was often criticized for entering a
+                    compromise on the subject of fate and thereby ceding too much to the power of
+                    the stars, the arguments set forth in his dialogue favorably impressed later
+                    generations of theologians and provided useful resources for the ongoing
+                    refutation of astral determinism. Yet Bardaisan’s influence upon Christian
+                    thought, especially in his native Syriac tradition, far exceeds his reflections
+                    on fate and free will and pertains to many other areas as well. Some of these
+                    will be outlined in the remainder of this essay.</p>
+            </div>
+            <div xml:id="hv21n1possekel.4" xml:lang="en">
+                <head>3. Poetry and Madrashe</head>
+                <p xml:lang="en">The Syriac Christian tradition is rightly famous for its abundance of
+                    imaginative religious poetry, a feature that has characterized it from its
+                    inception. What constitutes perhaps the oldest extant literary text in Syriac,
+                    the <hi rend="italic">Odes of Solomon</hi>, is a collection of hymns.<note place="foot" xml:id="ftn45" n="45">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">Odes of Solomon</hi>, ed.
+                                J<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">harlesworth</hi>, <hi rend="italic">The Odes of
+                                Solomon. The Syriac texts, edited with translation and notes</hi>,
+                            SBL Texts and Translations 13, Pseudepigrapha 7 (Chico, CA 1977); also
+                            ed. with German transl.
+                                M<hi rend="smallcaps">. </hi>L<hi rend="smallcaps">attke</hi>, <hi rend="italic">Oden Salomos. Text,
+                                Übersetzung, Kommentar</hi>, 3 vols., Novum Testamentum et Orbis
+                            Antiquus 41 (Göttingen 1999–2005). Scholarly opinion varies as to the
+                            date and original language of the <hi rend="italic">Odes</hi>.</p>
+                    </note> The <hi rend="italic">Acts of Thomas</hi>, dating to
+                    the early third century, incorporate poetic material. And Bardaisan, too, wrote
+                    hymns and psalms – one hundred and fifty of them in imitation of the psalms of
+                    David, Ephrem claims. Ephrem speaks of Bardaisan as a composer of both hymns
+                    (ܡܕܪ̈ܫܐ) and psalms (ܙܡܝܪ̈ܬܐ),<note place="foot" xml:id="ftn46" n="46">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 53,5–6;
+                            54,1, ed. Beck, 203,5–14; 204,25–205,3. </p>
+                    </note> and his remarks
+                    suggest that in the Syriac world it was Bardaisan who first set the previously
+                    existing literary genre of <hi rend="italic">madrasha</hi> to music.<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 53,5, ed.
+                            Beck, 203,5–9. See
+                                K<hi rend="smallcaps">. </hi>E<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">c</hi>V<hi rend="smallcaps">ey</hi>, “Were the
+                            Earliest <hi rend="italic">Madrašē</hi> Songs or Recitations?” in: <hi rend="italic">After Bardaisan. Studies on Continuity and Change in
+                                Syriac Christianity in Honour of Professor Han J. W. Drijvers</hi>,
+                            ed. G<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">einink</hi> / A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">lugkist</hi>, OLA 89 (Louvain 1999), 185–199, esp.
+                            187–190.</p>
+                    </note> Bardaisan’s son is said to have continued in the
+                    footsteps of his father and to have composed chants.<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">PR</hi> II, 221. See
+                            also the passages in Sozomen and Theodoret, cited below in n. 49.
+                        </p>
+                    </note> These Bardaisanite <hi rend="italic">madrashe</hi> significantly
+                    influenced the Syriac tradition, for Ephrem in the later fourth century laments
+                    that Bardaisan’s followers still chant these hymns with their altogether
+                    objectionable content.<note place="foot" xml:id="ftn49" n="49">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem,</hi>
+                            <hi rend="italic">CH</hi> 1,17, ed. Beck, 5,1–3.</p>
+                    </note> According to
+                    the fifth-century Greek church historians Sozomen and Theodoret, Ephrem
+                    consequently set out himself to compose <hi rend="italic">madrashe</hi> with
+                    orthodox content, so that the tunes championed by Bardaisan and his son could
+                    now be sung without causing doctrinal offense.<anchor xml:id="Ref305947697"/>
+                    <note place="foot" xml:id="ftn50" n="50">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Sozomen</hi>, <hi rend="italic">h.e.</hi> 3.16.5–7;
+                            ed. J<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">idez</hi> /
+                                G<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">ansen</hi>, <hi rend="italic">Sozomenus,
+                                Kirchengeschichte</hi>, second edition, GCS N.F. 4 (Berlin 1995),
+                            128,15–129,8; <hi rend="smallcaps">Theodoret</hi>, <hi rend="italic">h.e</hi>. 4.29.2–3, ed. L<hi rend="smallcaps">. </hi>P<hi rend="smallcaps">armentier</hi> / G<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">ansen</hi>, <hi rend="italic">Theodoret,
+                                Kirchengeschichte</hi>, third edition, GCS N.F. 5 (Berlin 1998),
+                            269,13–18.</p>
+                    </note> Bardaisan, even if he cannot be credited with
+                    having invented the genre of <hi rend="italic">madrasha</hi>, appears to have
+                    been the earliest among the Syriac Christians to enhance this poetic form with
+                    music. He was a pioneer in setting poetry to music, and he did so with great and
+                    long-lasting success. From Ephrem’s comments and the few extant fragments of
+                    Bardaisan’s poetry, we can gather that certain of his hymns had educational
+                    theological content, discussing, for example, the doctrine of creation.<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="Footnote Text1"> H. H. <hi rend="smallcaps">Schaeder</hi> argued that the heresiological
+                            summary by Theodore bar Koni contains excerpts from Bardaisan’s
+                            writings, cf. H<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">chaeder</hi>, “Bardesanes von Edessa in der
+                            Überlieferung der griechischen und der syrischen Kirche,” <hi rend="italic">ZKG</hi> 51 (1932), 21–73, esp. 47–49. In <hi rend="italic">CH</hi> 55, Ephrem quotes fragments of hymns
+                            attributed to Bardaisan’s followers. These fragments seem to relate a
+                            cosmogonic myth. </p>
+                    </note> Thereby Bardaisan’s hymns constitute the
+                    oldest Syriac <hi rend="italic">madrashe</hi> (a term derived from <hi rend="italic">drš</hi>, ‘to instruct’) that have come down to us,
+                    ‘teaching-songs’ in the true meaning of the word.</p>
+                <p xml:lang="en">Some of Bardaisan’s theological poems were apparently not only
+                    popular but also sufficiently orthodox to become disconnected from their
+                    author’s name and to enter the mainstream of the Syriac tradition. In the late
+                    fifth century, Philoxenus of Mabbug and the deacon Habbib engaged in a literary
+                    controversy on christology, in the course of which Philoxenus articulated his
+                    own miaphysite stance as follows:</p>
+                <p rend="Quote1">And the Ancient of Ages became a child,</p>
+                <p rend="Quote1">and the Most High a baby in the womb,</p>
+                <p rend="Quote1">and God became human in the womb,</p>
+                <p rend="Quote1">and the spiritual (became) bodily.<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Philoxenus</hi>, <hi rend="italic">Letter to the
+                                Monasteries</hi>, ed. M<hi rend="smallcaps">. Brière</hi> /
+                                F<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">raffin</hi>, <hi rend="italic">Dissertationes decem
+                                de uno et sancto Trinitate incorporate et passo</hi>, PO 41.1
+                            (1982), 44,10–12.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">The well-read Habbib<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="Footnote Text1"> See Habbib’s own statement, quoted by Philoxenus
+                            in <hi rend="italic">Diss</hi>. 3,12, ed. <hi rend="smallcaps">Brière</hi> / <hi rend="smallcaps">Graffin</hi>, PO 38.3, 486,4–6;
+                            cf. <hi rend="smallcaps">van </hi>R<hi rend="smallcaps">ompay</hi>, “Bardaisan and Mani,” 81. On
+                            Philoxenus’ objections to Habbib’s reading list, see <hi rend="italic">Diss</hi>. 10, 189–190, ed. <hi rend="smallcaps">Brière</hi> / <hi rend="smallcaps">Graffin</hi>, PO 40.2 (1980), 344–346.</p>
+                    </note>
+                    claimed at once to have recognized the phrase “the Ancient of Ages became a
+                    child, and God a baby in the womb” as originating from none other than
+                    Bardaisan, and he lost no time in accusing Philoxenus of borrowing from a
+                        heretic.<note place="foot" xml:id="ftn54" n="54">
+                        <p rend="Footnote Text1">
+                            Philoxenus, <hi rend="italic">Diss</hi>., ed. <hi rend="smallcaps">Brière</hi> / <hi rend="smallcaps">Graffin</hi>, PO 41.1, Paris
+                            1982, 14,27–16,2 (no. 17); cf. PO 41.1, 16,23–24 (no. 22); <hi rend="italic">Diss</hi>. 1, 35, ed. <hi rend="smallcaps">Brière,</hi> PO 15.4 (1920), 464,11–12.</p>
+                    </note> Philoxenus’ own
+                    defense against Habbib’s accusation is rather weak and gives the impression that
+                    Bardaisan indeed was the author of this metric passage.<note place="foot" xml:id="ftn55" n="55">
+                        <p rend="Footnote Text1"> On the details of the debate
+                            between Philoxenus and Habbib, see
+                                <hi rend="smallcaps">van </hi>R<hi rend="smallcaps">ompay</hi>, “Bardaisan and Mani.” </p>
+                    </note> This
+                    episode illustrates the power and persuasiveness that Bardaisan’s poetry exerted
+                    for centuries to come.</p>
+            </div>
+            <div xml:id="hv21n1possekel.5" xml:lang="en">
+                <head>4. Astronomy</head>
+                <p xml:lang="en">Bardaisan declares in the <hi rend="italic">Book of the Laws</hi>
+                    that formerly he himself had belonged to the Chaldeans, that is to the
+                    astrologers whose teachings he now so effectively opposes.<note place="foot" xml:id="ftn56" n="56">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 16, ed. <hi rend="smallcaps">Nau</hi>,
+                            564,19–23.</p>
+                    </note> After his conversion to Christianity, he outright
+                    rejected the central tenets of astral determinism and upheld human freedom in
+                    ethical matters.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="Footnote Text1"> Bardaisan upheld that astral phenomena can have
+                            some influence over factors that are beyond the control of human beings
+                            or the laws of nature, such as sickness or poverty that do occur but are
+                            generally undesired. This proposition made him unacceptable to the later
+                            normative church.</p>
+                    </note> As is well known, astrology and astronomy
+                    went hand in hand in antiquity and one cannot always clearly distinguish between
+                    the two. And while Bardaisan’s counter- arguments in the <hi rend="italic">Book
+                        of the Laws</hi> reveal his easy familiarity with astrological doctrines
+                    (which he now opposes), other texts demonstrate that he was also well acquainted
+                    with astronomy. </p>
+                <p xml:lang="en">It may come as a surprise to realize that, in fact, later Syriac
+                    Christians admired him for his specialized astronomical knowledge and upheld his
+                    scientific inquiry as exemplary. In the seventh century, Severus Sebokht, the
+                    learned bishop and monk at Qenneshre,<note place="foot" xml:id="ftn58" n="58">
+                        <p rend="Footnote Text1"> On the intellectual life in the monastery, see
+                                <hi rend="smallcaps">J. Tannous</hi>, “You Are What You Read:
+                            Qenneshre and the Miaphysite Church in the Seventh Century,” in: <hi rend="italic">History and Identity in the Late Antique Near
+                                East</hi>, edited
+                            by<hi rend="smallcaps"> Ph. Wood</hi> (Oxford
+                            2013), 83–102. On Severus at Qenneshre, see É. <hi rend="smallcaps">Villey</hi>, “Qennešre et l’astronomie aux VIe et VIIe siècles,”
+                            in: <hi rend="italic">Les sciences en syriaque</hi>, edited by É. <hi rend="smallcaps">Villey</hi>, Études syriaques 11 (Paris 2014),
+                            149–190.</p>
+                    </note> proudly points out that Bardaisan’s astronomical
+                    insights undeniably demonstrate that not only pagans but also Syriac Christians
+                    were well versed in this discipline.<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="Footnote Text1"> N<hi rend="smallcaps">au</hi>, “Notes
+                            d’astronomie syrienne,” 211,20–212,1. See also
+                                E<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">eich</hi>, “Ein Brief des Severus Sēḇōḵt,” in: <hi rend="italic">Sic itur ad astra. Studien zur Geschichte der
+                                Mathematik und Naturwissenschaften. Festschrift für den Arabisten
+                                Paul Kunitzsch zum 70. Geburtstag</hi>, ed. M<hi rend="smallcaps">. </hi>F<hi rend="smallcaps">olkerts</hi> /
+                                R<hi rend="smallcaps">. </hi>L<hi rend="smallcaps">orch</hi> (Wiesbaden 2000), 478–489.</p>
+                    </note> In
+                    the eighth century, George, the bishop of the Arab tribes (d. 724), similarly
+                    takes recourse to the astronomical calculations of the Bardaisanites in a letter
+                    addressed to the stylite John of Litharb who had, among other things, inquired
+                    about the rising times of the zodiacal signs.<note place="foot" xml:id="ftn60" n="60">
+                        <p rend="Footnote Text1"> George, <hi rend="italic">ep</hi>. 1 (dated
+                            714 AD), ed. V<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">yssel</hi>, “Die astronomischen Briefe Georgs des
+                            Araberbischofs,” <hi rend="italic">Zeitschrift für Assyriologie</hi> 8
+                            (1893), 1–55, esp. 19,7–20,11. To be precise, George refers not to
+                            Bardaisan, but to the “Bardaisanites.” The scientific background and
+                            relevance of the particular astronomical topics that are discussed by
+                            George and by Severus Sebokht need not be addressed here. For this, see
+                            the relevant sections in my forthcoming monograph on
+                        Bardaisan.</p>
+                    </note> Precise knowledge of the rising times was important
+                    for astrology, but it also allowed one to calculate the length of day and night
+                    for a particular date. Christians most likely were interested in such
+                    computations in order to determine the date of moveable feasts such as
+                        Easter.<note place="foot" xml:id="ftn61" n="61">
+                        <p rend="Footnote Text1">
+                            Cf. <hi rend="smallcaps">George</hi>, <hi rend="italic">ep</hi>. 1, ed.
+                                R<hi rend="smallcaps">yssel</hi>, “Die astronomischen Briefe,”
+                            8–11.</p>
+                    </note> Significantly, Bishop George here endorses Bardaisan’s
+                    scientific accomplishments as a solid base for calculations of astral phenomena,
+                    and he does not at all associate him with astrology. This is not due, as one
+                    might surmise, to George not being able adequately to distinguish between
+                    astronomy and astrology, for in another letter to the same John of Litharb,
+                    George vehemently rejects the claims of the “demonic astrologers.”<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">George</hi>, <hi rend="italic">ep</hi>. 2 (dated
+                            716), ed. R<hi rend="smallcaps">yssel</hi>, “Die astronomischen Briefe,”
+                            24–25.</p>
+                    </note> A further illustration of Bardaisan’s astronomical
+                    interest comes from a short manuscript notice on the names for the zodiacal
+                    signs as they were used by the Bardaisanites.<anchor xml:id="Ref511140630"/>
+                    <note place="foot" xml:id="ftn63" n="63">
+                        <p rend="Footnote Text1"> Ed.
+                                E<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">achau</hi>, <hi rend="italic">Inedita syriaca. Eine
+                                Sammlung syrischer Übersetzungen von Schriften griechischer
+                                Profanliteratur. Mit einem Anhang. Aus den Handschriften des
+                                Britischen Museums herausgegeben</hi> (Wien 1870, reprint Hildesheim
+                            1968), 126. </p>
+                    </note> This brief segment is preserved in the same
+                    manuscript as is the <hi rend="italic">Book of the Laws</hi>, but it does not
+                    immediately follow upon the dialogue.<note place="foot" xml:id="ftn64" n="64">
+                        <p rend="Footnote Text1"> In the manuscript BL Syr. add. 14658, the <hi rend="italic">Book of the Laws</hi> (the eleventh text in this
+                            manuscript) is followed by a treatise by Sergius of Reshʿaina <hi rend="italic">On the Motion of the Moon</hi> and a short appendix
+                            thereto (<hi rend="italic">On the Motion of the Sun</hi>), then follows
+                            the notice on the names of the signs of the zodiac; cf. W<hi rend="smallcaps">right</hi>, <hi rend="italic">Catalogue</hi>, vol.
+                            3, 1158.</p>
+                    </note> As with the rising times, the signs of the zodiac
+                    were certainly relevant to astrology, but they were occasionally also discussed
+                    by Christian intellectuals for their scientific relevance, as the letter by
+                    George, the bishop of the Arab tribes, illustrates.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="Footnote Text1"> On the terminology for the
+                            signs of the zodiac used by George, see his letter to John of Litharb,
+                            ed. <hi rend="smallcaps">Ryssel</hi>, 19–21. This is the same passage in
+                            which George discusses the rising times of the signs of the
+                        zodiac.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">These various testimonies show that Bardaisan was known and
+                    appreciated by later Syriac Christians for his astronomical insights and helpful
+                    calculations. We can thus concur with the view voiced already by François Nau
+                    more than a hundred years ago, based on his reading of two of the
+                    above-mentioned sources:  “Les deux textes nous montrent encore que les
+                    préoccupations de Bardesane étaient d’ordre astronomique et géographique et
+                    n’avaient aucun rapport avec les fantaisies théurgiques que les auteurs
+                    postérieurs lui ont attribuées en l’adjoignant à Manès.”<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="Footnote Text1">
+                                F<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">au</hi>, “La cosmographie au VIIe siècle chez les
+                            Syriens,” <hi rend="italic">Revue de l’Orient Chrétien</hi> 15 (1910),
+                            225–254, quote on p. 227.</p>
+                    </note>
+                </p>
+            </div>
+            <div xml:id="hv21n1possekel.6" xml:lang="en">
+                <head>5. Ethnography</head>
+                <p xml:lang="en">Bardaisan’s broad ethnographic interest becomes quickly apparent to
+                    the reader of the <hi rend="italic">Book of the Laws</hi>, for in the dialogue
+                    he reports at length on the various customs and rituals of other peoples. Both
+                    the sources employed by him and the later reception history of the diverse
+                    ethnographic material compiled in this treatise merit further research. Here,
+                    however, I should like to confine myself to some remarks on Bardaisan’s interest
+                    in Indian culture and religion. </p>
+                <p xml:lang="en">In the <hi rend="italic">Book of the Laws</hi>, Indian customs play
+                    an important role and are mentioned in several passages. Bardaisan begins his
+                    list of the laws of the countries, presented in the second half of the treatise,
+                    with the Seres and then immediately moves on to the Indians. He describes the
+                    norms of life common among the ascetic Brahmans as well as the lifestyle of
+                    those who are not Brahmans.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 27–28, ed. <hi rend="smallcaps">Nau</hi>,
+                            583,27–584,25.</p>
+                    </note> Later on in the dialogue he again takes up the
+                    customs of the Indians, now elaborating on their funerary rites.<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 39, ed. Nau, 596,13–20; <hi rend="italic">BLC</hi> 40, ed. Nau, 599,4–8.</p>
+                    </note> Moreover, the large
+                    territory of India serves him as a suitable example to show that within one
+                    climate zone a variety of customs can exist side by side, thus repudiating the
+                    Chaldean doctrine that one of the planets rules over each of the seven <hi rend="italic">climata</hi>.<note place="foot" xml:id="ftn69" n="69">
+                        <p rend="Footnote Text1"> BLC 42, ed. <hi rend="smallcaps">Nau</hi>,
+                            600,22–26. On the theory of seven climata, see
+                                E<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">onigmann</hi>, <hi rend="italic">Die sieben Klimata
+                                und die ΠΟΛΕΙΣ ΕΠΙΣΗΜΟΙ. Eine Untersuchung zur Geschichte der
+                                Geographie und Astrologie im Altertum und Mittelalter</hi>
+                            (Heidelberg 1929).</p>
+                    </note>
+                </p>
+                <p xml:lang="en">Bardaisan’s curiosity about India led him to engage with an Indian
+                    delegation which he encountered, probably in Edessa, while they passed through
+                    the region <hi rend="italic">en route</hi> to Emperor Elagabalus (218–222). In
+                    his writings he rehearses some of what he had learned from them, and fragments
+                    of his reflections on India have come down to us through the Neo-Platonist
+                    philosopher Porphyry (d. 305). In his treatise <hi rend="italic">On the
+                        Styx</hi>, Porphyry preserves a passage from Bardaisan in which the Edessene
+                    describes an ordeal by water common among the Brahmans. In the same treatise,
+                    Porphyry presents another excerpt in which Bardaisan describes an androgynous
+                    cosmogonic statue, as it were a prototype of creation, that is said to be
+                    located in a grotto in India. In this cave, Brahmans purportedly assemble for
+                    prayer, debate the statue’s meaning, and undergo a ritual of
+                        self-examination.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Porphyry</hi>, <hi rend="italic">De Styge</hi> (=
+                                <hi rend="smallcaps">Stobaios</hi>, <hi rend="italic">Florilegium</hi>. 1.3.56), ed. F. <hi rend="smallcaps">Jacoby</hi>,
+                                <hi rend="italic">FGH</hi> 3C (Leiden 1958), no. 719, Fragm. 1, p.
+                            643–645. Ed. with German transl.
+                                F<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">inter</hi>, <hi rend="italic">Bardesanes von Edessa
+                                über Indien. Ein früher syrischer Theologe schreibt über ein fremdes
+                                Land</hi>, Frühes Christentum. Forschungen und Perspektiven 5 (Thaur
+                            1999), 37–40, 47–55. For the most recent discussion of these fragments,
+                            see the excellent study by I. <hi rend="smallcaps">Tanaseanu-Döbler,</hi> “Bemerkungen zu Porphyrios und Bardaiṣan,”
+                                <hi rend="italic">ZAC</hi> 19 (2015), 26–68.</p>
+                    </note> Porphyry’s
+                    interest in Bardaisan’s work on India becomes evident also in his treatise <hi rend="italic">On Abstinence</hi>, where he cites a lengthy passage from
+                    Bardaisan that describes the customs of the Indian Brahmans and of the
+                        ‘Samaneans’<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Porphyry</hi>, <hi rend="italic">De abst</hi>.
+                            4.17, ed. <hi rend="smallcaps">Jacoby</hi>, <hi rend="italic">FGH</hi>
+                            3C, no. 719, Fragm. 2, p. 645–647. Ed. with German transl. W<hi rend="smallcaps">inter</hi>, <hi rend="italic">Bardesanes</hi>,
+                            41–43, 56–62. Engl. transl.
+                                T<hi rend="smallcaps">. </hi>T<hi rend="smallcaps">aylor</hi>, <hi rend="italic">Porphyry, On
+                                Abstinence from Animal Food</hi> (London 1965).</p>
+                    </note> (the
+                    latter of which are to be identified with Buddhist monks).<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="Footnote Text1"> W<hi rend="smallcaps">inter</hi>, <hi rend="italic">Bardesanes</hi>, 141–142 and passim;
+                                <hi rend="smallcaps">Tanaseanu-Döbler,</hi> “Bemerkungen,”
+                            59–60.</p>
+                    </note> Via Porphyry’s works Bardaisan’s ethnographic
+                    observations became available to a wider audience, including late antique
+                    Christian authors. Jerome, for instance, in his <hi rend="italic">Against
+                        Jovinian</hi> takes over directly from Porphyry illustrative examples of how
+                    various pagan and Jewish groups practice asceticism, and he includes the
+                    striking illustration pertaining to India provided by Bardaisan.<note place="foot" xml:id="ftn73" n="73">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Jerome</hi>, <hi rend="italic">Against
+                                Jovinian</hi> 2.14, PL 23, 304. Close textual analysis shows that it
+                            is unlikely that Jerome drew on Bardaisan’s works directly.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">We do not know how far-reaching the influence of Bardaisan’s
+                    ethnographic discourses was in late antiquity, but the examples shown above make
+                    manifest that his reflections on India certainly enjoyed a wider audience.
+                    Several passages were favorably cited by the pagan intellectual Porphyry, and
+                    Jerome’s <hi rend="italic">Against Jovinian</hi> reveals that Bardaisan’s
+                    observations on foreign cultures were well received by patristic authors as
+                    well.</p>
+            </div>
+            <div xml:id="hv21n1possekel.7" xml:lang="en">
+                <head>6. Cosmology</head>
+                <p xml:lang="en">Bardaisan’s cosmology, which does not seem to have had much of an
+                    afterlife among Greek intellectuals, constitutes the aspect of his oeuvre most
+                    controversial among later Syriac authors. Although the <hi rend="italic">Book of
+                        the Laws</hi> offers only a sketchy picture of Bardaisan’s cosmology, it
+                    nevertheless clearly affirms that Bardaisan believed God to be the creator of
+                    the world and humankind.<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 1, ed. <hi rend="smallcaps">Nau</hi>,
+                            536,11–14; <hi rend="italic">BLC</hi> 19, ed. <hi rend="smallcaps">Nau</hi>, 567,24–568,1.</p>
+                    </note> Regarding the heavenly bodies,
+                    Bardaisan maintains in the dialogue that these, too, are created entities and
+                    subject to the divine commandments.<note place="foot" xml:id="ftn75" n="75">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 19, ed. Nau, 567,26–568,6; <hi rend="italic">BLC</hi> 8, ed. Nau, 544,14–24.</p>
+                    </note> He posits that the
+                    heavenly bodies were endowed with a certain kind of freedom – a view resonating
+                    with the statement in Gen. 1:17 according to which the heavenly bodies were
+                    given power to rule over day and night<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="Footnote Text1"> Another biblical passage that might have
+                            motivated Bardaisan to this statement is Isa. 45:12, where God exclaims,
+                            “I have given commandments to all the stars.” This verse is among
+                            biblical passages cited by Origen in support of his view that the
+                            heavenly bodies are rational beings. <hi rend="smallcaps">Origen</hi>,
+                                <hi rend="italic">De princ.</hi> 1.7.3, ed. <hi rend="smallcaps">Koetschau</hi>, 88,11–12. On Bardaisan’s use of Scripture more
+                            broadly, see my forthcoming article “Bardaisan and the Bible.” See also
+                            A. C<hi rend="smallcaps">amplani, </hi>“Bardaisan
+                            and the Bible,” in: <hi rend="italic">Gnose et manichéisme: entre les
+                                oasis d’Egypte et la route de la soie: hommage à Jean-Daniel
+                                Dubois</hi>, edited by <hi rend="smallcaps">A. Van den Kerchove</hi>
+                            / <hi rend="smallcaps">G. Soares Santoprete</hi> (Turnhout 2017),
+                            699–715.</p>
+                    </note> – and that based on the use they make of their
+                    freedom, they too will be judged on the last day.<note place="foot" xml:id="ftn77" n="77">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 9, ed. <hi rend="smallcaps">Nau</hi>,
+                            548,15–19.</p>
+                    </note> This understanding of the heavenly bodies in some
+                    respects resembles the ideas articulated by Origen in <hi rend="italic">On First
+                        Principles</hi>, who likewise maintains that the heavenly bodies are
+                    rational beings endowed with free will.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Origen</hi>, <hi rend="italic">De princ</hi>.
+                            1.7.2–1.7.3, ed. <hi rend="smallcaps">Koetschau</hi>. On this subject,
+                            see my “Bardaisan and Origen on Fate and the Power of the Stars,” <hi rend="italic">JECS</hi> 20 (2012), 515–541. Possible parallels
+                            between the thought of Bardaisan and Origen are also addressed by
+                                I<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">amelli</hi>, “Origen, Bardaiṣan, and the Origin of
+                            Universal Salvation,”<hi rend="italic">HTR</hi> 102 (2009),
+                        135–168.</p>
+                    </note> One cannot be sure whether this constitutes an instance
+                    of Bardaisan’s influence upon the great Alexandrian theologian, or if any
+                    similarities between the thought of the Edessene and Origen – of which there are
+                    more – arise out of them reflecting upon the same questions and on the same
+                    biblical passages within a very similar cultural milieu.</p>
+                <p xml:lang="en">The <hi rend="italic">Book of the Laws</hi> hints at Bardaisan’s
+                    belief that the world was created out of pre-existing substances,<note place="foot" xml:id="ftn79" n="79">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 8, ed. <hi rend="smallcaps">Nau</hi>,
+                            547,10–12; <hi rend="italic">BLC</hi> 46, ed. <hi rend="smallcaps">Nau</hi>, 611,10–15.</p>
+                    </note> a notion not without parallel among
+                    early Christian writers. Justin Martyr, for instance, upheld the view that the
+                    world was made from “unformed matter” (ἐξ ἀμόρφου ὕλης).<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Justin</hi>, <hi rend="italic">1 Apol</hi>. 10.2,
+                            ed. M<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">arcovich</hi>, <hi rend="italic">Iustini Martyris
+                                Apologiae pro Christianis</hi>, PTS 38 (Berlin 1994),
+                        45,7.</p>
+                    </note> Harmonizing the accounts given by Plato in the <hi rend="italic">Timaeus</hi> and by Moses in Genesis 1:2, Justin elaborates:
+                    “So by God’s word the whole universe was made out of this substratum (ἐκ τῶν
+                    ὑποκειμένων), as expounded by Moses, and Plato and those who agree with him, as
+                    well as we, have learned it [from him].”<note place="foot" xml:id="ftn81" n="81">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Justin</hi>, <hi rend="italic">1 Apol</hi>. 59, ed.
+                                <hi rend="smallcaps">Marcovich</hi>, 115,10–11; transl. C. C. <hi rend="smallcaps">Richardson,</hi>
+                            <hi rend="italic">Early Christian Fathers</hi> (New York 1970), <hi rend="smallcaps">280</hi>.</p>
+                    </note> Hermogenes (fl. 175–205)<note place="foot" xml:id="ftn82" n="82">
+                        <p rend="Footnote Text1">
+                                M<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">urst</hi>, “Hermogenes,” <hi rend="italic">LThK</hi>
+                            <hi rend="superscript">3</hi> 5 (1996), 13.</p>
+                    </note> too
+                    interprets the Genesis account of creation, not unlike Bardaisan, in such a way
+                    that led him to postulate the existence of several uncreated primal elements
+                    (darkness, the abyss, the spirit, and water).<note place="foot" xml:id="ftn83" n="83">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Tertullian</hi>, <hi rend="italic">Adversus
+                                Hermogenem</hi> 23.1, 30.1, 41–43, and passim, ed.
+                                F<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">hapot</hi>, <hi rend="italic">Tertullien, Contre
+                                Hermogène</hi>, SC 439 (Paris 1999), 140–142, 158–160, 188–194. On
+                            Hermogenes and his teachings, see K<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">reschat</hi>, <hi rend="italic">Apelles und
+                                Hermogenes. Zwei theologische Lehrer des zweiten Jahrhunderts</hi>,
+                            Vigiliae Christianae Supplements 48 (Leiden 2000), esp. 148–166, 224f.
+                            Brief outline of Bardaisan’s cosmogony in my “Die Schöpfungstheologie
+                            des Bardaisan von Edessa,” in: <hi rend="italic">Edessa in
+                                hellenistisch-römischer Zeit. Religion, Kultur und Politik zwischen
+                                Ost und West. Beiträge des internationalen Edessa-Symposiums in
+                                Halle an der Saale, 14.–17. Juli 2005</hi>, ed. L<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">reisiger</hi> / C<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ammelt</hi> / J<hi rend="smallcaps">. </hi>T<hi rend="smallcaps">ubach</hi>, Beiruter
+                            Texte und Studien 116 (Beirut 2009), 219–229; see also A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">amplani</hi>, “Note
+                            bardesanitiche,” <hi rend="italic">Miscellanea Marciana</hi> 12 (1997),
+                            11–43; A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">amplani</hi>,
+                            “Rivisitando Bardesane: Note sulle fonti siriache del bardesanismo e
+                            sulla sua collocazione storico-religiosa,” <hi rend="italic">Cristianesimo nella storia</hi> 19 (1998), 519–596; A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">amplani</hi>,
+                            “Bardesane et bardésanites,” <hi rend="italic">École pratique des hautes
+                                études. Section des sciences religieuses Annuaire. Résumé des
+                                conférences et travaux</hi> 112 (2003–2004), 29–50 (includes
+                            discussion of an unedited fragment on Bardaisan’s cosmogony in the
+                            Hexaemeron commentary by Moses bar Kepha).</p>
+                    </note> In the second
+                    century, when Bardaisan formulated his cosmology, a belief in pre-existing
+                    substances was thus held by several Christian intellectuals, but in a later age,
+                    when the doctrine of a <hi rend="italic">creatio ex nihilo</hi> had emerged as a
+                    broad consensus among theologians,<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="Footnote Text1"> See the comprehensive study by
+                                G<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">ay</hi>, <hi rend="italic">Schöpfung aus dem
+                                Nichts. Die Entstehung der Lehre von der creatio ex nihilo</hi>,
+                            Arbeiten zur Kirchengeschichte 48 (Berlin 1978). On Jewish discussions
+                            of the subject, see M<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">iehoff</hi>, “<hi rend="italic">Creatio ex
+                                Nihilo</hi> Theology in <hi rend="italic">Genesis Rabbah</hi> in
+                            Light of Christian Exegesis,” <hi rend="italic">HTR</hi> 99 (2005),
+                            37–64; M<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">ister</hi>, “Tohu wa-Bohu, Primordial Elements and
+                            Creatio ex Nihilo,” <hi rend="italic">Jewish Studies Quarterly</hi> 14
+                            (2007), 229–256. On the Syriac Christian interpretation of Gen. 1:2, see
+                                A<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">uillaumont</hi>,
+                            “Genèse 1,1–2 selon les commentateurs syriaques,” in: <hi rend="italic">In Principio. Interprétations des premiers versets de la
+                                Genèse</hi>, Collections des Études Augustiniennes. Série Antiquité
+                            38 (Paris 1973), 115–132; S<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">rock</hi>, “The <hi rend="italic">Ruaḥ Elōhīm</hi>
+                            of Gen 1,2 and its Reception History in the Syriac Tradition,” in: <hi rend="italic">Lectures et relectures de la Bible. Festschrift P.-M.
+                                Bogaert</hi>, ed. J<hi rend="smallcaps">.-</hi>M<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">uwers</hi> / A<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">énin</hi>, Bibliotheca Ephemeridum Theologicarum
+                            Lovaniensium 144 (Louvain 1999), 327–349.</p>
+                    </note> the presupposition
+                    of some sort of primordial matter came to be regarded as an outrageous heresy.
+                    The fact that Bardaisan’s followers continued to uphold the idea of primordial
+                    matter and that, moreover, they appear to have developed his doctrines further
+                    into a dualist direction,<note place="foot" xml:id="ftn85" n="85">
+                        <p rend="Footnote Text1"> See <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">PR</hi> II, 227,2–6.</p>
+                    </note> relegated them to a
+                    place far outside the mainline tradition.</p>
+                <p xml:lang="en">This process can be illustrated by the shifting role attributed to
+                    the darkness in the Bardaisanite cosmogony. The <hi rend="italic">Book of the
+                        Laws</hi>, in which the creation of the world receives some attention, never
+                    even mentions the darkness. In the Syriac dialogue Bardaisan firmly rejects
+                    dualist notions,<note place="foot" xml:id="ftn86" n="86">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 1, ed. <hi rend="smallcaps">Nau</hi>,
+                            536,11–12.</p>
+                    </note> and this makes it highly unlikely that he would
+                    have regarded the darkness as some kind of evil entity. On the other hand, since
+                    it can be shown that Bardaisan, as a Christian theologian, developed his
+                    cosmogony in light of the Genesis account, it would be surprising that the
+                    darkness (which features so prominently in Gen 1:2–5) should not have received
+                    some attention in his creation theology. It is thus quite plausible, as Ephrem
+                    later maintained, that the darkness constituted for Bardaisan one of the
+                    primordial elements (alongside water, wind, light, and fire),<note place="foot" xml:id="ftn87" n="87">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">PR</hi> I, 52–53;
+                            II, 222–225.</p>
+                    </note> although it is highly doubtful that he would
+                    have considered the darkness as an evil entity, standing in opposition to God.
+                    While Ephrem generally does not characterize Bardaisan’s darkness as evil, he
+                    hints at this idea when he calls darkness ‘ugly’ (ܣܢܝܐ) in the <hi rend="italic">Hymns against Heresies</hi>.<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 41,7, ed.
+                            Beck, 166,9–13. The passage implies that the attribute “ugly” (or
+                            “hateful”) is Ephrem’s and not Bardaisan’s terminology. </p>
+                    </note>
+                </p>
+                <p xml:lang="en">One may surmise that under Manichaean influence Bardaisan’s disciples
+                    radicalized his teachings and increasingly conceptualized darkness as a negative
+                    force, so that by the sixth century mainline Syriac Christian authors could
+                    describe the darkness in the Bardaisanite cosmology as ‘the enemy’
+                        (ܒܥܠܕܒܒܐ).<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Barḥadbeshabba ʿArbaia</hi>, <hi rend="italic">History</hi> 2.5, ed. <hi rend="smallcaps">Nau</hi>,
+                        191,8.</p>
+                    </note> This process must have continued well into the Islamic
+                    era, for Arabic authors generally treat the Bardaisanites among the dualist
+                    sects and claim that they proposed a juxtaposition of light and darkness within
+                    the cosmogonic system.<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="Footnote Text1"> See the literature cited in n. 12
+                        above.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">Bardaisan’s thought in general, and his cosmology in particular, must
+                    have exercised a profound influence upon the formation of the Manichaean
+                    doctrinal system. The fact that Mani, just as had Bardaisan before him, composed
+                    a book entitled <hi rend="italic">On the Mysteries</hi> already hints at a
+                    certain rivalry.<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="Footnote Text1"> Bardaisan’s treatise <hi rend="italic">On the
+                                Mysteries</hi> is mentioned by <hi rend="smallcaps">Ephrem</hi>, <hi rend="italic">CH</hi> 56,9; cf. <hi rend="italic">CH</hi> 1,14. On
+                            Mani’s book of the same title see the following footnote. </p>
+                    </note>
+                    Ibn al-Nadim in his <hi rend="italic">Fihrist</hi> reports that in his <hi rend="italic">Book of Mysteries</hi> Mani dedicated three sections to a
+                    refutation of Bardaisan’s teachings.<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">al-Nadim</hi>, <hi rend="italic">Fihrist</hi> 9.1,
+                            transl. <hi rend="smallcaps">Dodge</hi>, vol. 2, 797f. It is of course
+                            possible that further sections of this book also addressed Bardaisan’s
+                            teachings.</p>
+                    </note> Moreover, the Arabic astronomer and scientist
+                    al-Biruni (973–1048) preserves a quotation from Mani’s treatise <hi rend="italic">On the Mysteries</hi>, in which Mani explicitly opposes
+                    certain of Bardaisan’s views.<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="Footnote Text1"> The passage is ed.
+                                E<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">achau</hi>, <hi rend="italic">Alberuni’s India. An
+                                account of the religion, philosophy, literature, geography,
+                                chronology, astronomy, customs, laws and astrology of India about
+                                A.D. 1030</hi>, 2 vols. (London 1888), transl. in vol. 1, 54–55. The
+                            subject here is the relation between human soul and body. On this
+                            source, see A. <hi rend="smallcaps">Camplani</hi>, “Bardaisan’s
+                            Psychology: Known and Unknown Testimonies and Current Scholarly
+                            Perspectives,” in: <hi rend="italic">Syriac Encounters: Papers from the
+                                Sixth North American Syriac Symposium, Duke University, 26–29 June
+                                2011</hi>, edited by M. <hi rend="smallcaps">Doerfler</hi> / E. <hi rend="smallcaps">Fiano</hi> / K. <hi rend="smallcaps">Smith</hi>
+                            (Leuven 2015), 259–276. On the relation between Bardaisan’s thought and
+                            the Manichaean system, a subject still deserving further study, see for
+                            example H<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">rijvers</hi>, “Mani und Bardaiṣan. Ein Beitrag zur
+                            Vorgeschichte des Manichäismus,” in: <hi rend="italic">Mélanges
+                                d’histoire des religions offerts à Henri-Charles Puech</hi> (Paris
+                            1974), 459–469; B<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">land</hi>, “Mani und Bardesanes — Zur Entstehung
+                            des manichäischen Systems,” in: <hi rend="italic">Synkretismus im
+                                syrisch-persischen Kulturgebiet. Bericht über ein Symposium in
+                                Reinhausen bei Göttingen in der Zeit vom 4. bis 8. Oktober
+                            1971</hi>, ed. A<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">ietrich</hi>, Abhandlungen der Akademie der
+                            Wissenschaften in Göttingen. Philologisch-historische Klasse, dritte
+                            Folge, Nr. 96 (Göttingen 1975), 123–143; S<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>L<hi rend="smallcaps">ieu</hi>, <hi rend="italic">Manichaeism in the
+                                Later Roman Empire and Medieval China. A Historical Survey</hi>
+                            (Manchester 1985), 42–45, 103–104; G<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">arrison</hi> / J<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">e</hi>D<hi rend="smallcaps">uhn</hi>, “The
+                            Authenticity and Doctrine of (Ps.?) Mani’s Letter to Menoch,” in: <hi rend="italic">The Light and the Darkness. Studies in Manichaeism and
+                                its World</hi>, edited by
+                                P<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">irecki</hi> /
+                                J<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">e</hi>D<hi rend="smallcaps">uhn</hi> (Leiden 2001),
+                            128–172, esp. 151–153, 168–171 (on the possible impact of the <hi rend="italic">BLC</hi> on the author of this letter).</p>
+                    </note>
+                    Mani’s letter to the Edessenes, of which the <hi rend="italic">Cologne Mani
+                        Codex</hi> preserves an excerpt, confirms that a group of Mani’s followers
+                    resided in Edessa.<note place="foot" xml:id="ftn94" n="94">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">Cologne Mani Codex</hi> 64,8–65,22, ed. with German
+                            transl. L<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">oenen</hi> /
+                                C<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ömer</hi>, <hi rend="italic">Der Kölner Mani-Kodex.
+                                Über das Werden seines Leibes</hi> (Opladen 1988), 44f.; ed. with
+                            Engl. transl. R<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">ameron</hi> /
+                                A<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">ewey</hi>, <hi rend="italic">The Cologne Mani Codex
+                                (P. Colon. inv. nr. 4780): Concerning the Origin of his Body</hi>
+                            (Missoula, Mont. 1979), 50–53.</p>
+                    </note> In light of such close
+                    contacts, it would not come as a surprise to find later followers of Bardaisan
+                    in conversation with Manichaeans, adapting their own cosmological views to those
+                    of this successful new religious movement, and in turn influenced it as
+                    well.</p>
+            </div>
+            <div xml:id="hv21n1possekel.8" xml:lang="en">
+                <head>7. The Refutation of Marcionism</head>
+                <p xml:lang="en">A further aspect of Bardaisan’s reception among late antique
+                    Christians that ought to be mentioned here is his refutation of Marcionism.<note place="foot" xml:id="ftn95" n="95">
+                        <p rend="Footnote Text1"> On Marcion, see
+                            now J. <hi rend="smallcaps">Lieu</hi>, <hi rend="italic">Marcion and the
+                                Making of a Heretic: God and Scripture in the Second Century</hi>
+                            (Cambridge, UK 2015).</p>
+                    </note> As W. Bauer has shown long ago, the
+                    Marcionites established a community in Edessa at a very early time, perhaps even
+                    preceding the arrival of ‘orthodox’ Christianity,<note place="foot" xml:id="ftn96" n="96">
+                        <p rend="Footnote Text1">
+                                W<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">auer</hi>, <hi rend="italic">Orthodoxy and Heresy
+                                in Earliest Christianity</hi> (Mifflintown, PA 1996), first publ. as
+                                <hi rend="italic">Rechtgläubigkeit und Ketzerei im ältesten
+                                Christentum</hi>, 1934.</p>
+                    </note> so that Bardaisan most certainly
+                    was confronted with the controversial teachings of Marcion and his followers.
+                    Bardaisan’s vehement opposition to Marcion’s theology constitutes one of the
+                    best documented aspects of his activity,<note place="foot" xml:id="ftn97" n="97">
+                        <p rend="Footnote Text1"> The <hi rend="italic">BLC</hi> does not
+                            explicitly mention Marcion, but Bardaisan’s initial arguments refute the
+                            Marcionite postulate of two gods. Eusebius, Ephrem, the <hi rend="italic">Life of Aberkios</hi>, and the <hi rend="italic">Adamantius Dialogue</hi> (ed. W. H van den Sande Bakhuyzen, <hi rend="italic">Der Dialog des Adamantius</hi>, GCS [Leipzig 1901]),
+                            all mention Bardaisan’s anti-Marcionite efforts as well. Hippolytus, <hi rend="italic">Ref</hi>. VII 31,1, refers to a treatise by the
+                            Marcionite Prepon against Bardaisan, thus confirming the existence of a
+                            literary debate between Marcionites and Bardaisan, ed.
+                                M<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">arcovich</hi>, <hi rend="italic">Hippolytus.
+                                Refutatio omnium haeresium</hi>, PTS 25 (Berlin 1986), 312,3–5.
+                        </p>
+                    </note> but unfortunately none of his dialogues against the Marcionites
+                    has survived<note place="foot" xml:id="ftn98" n="98">
+                        <p rend="Footnote Text1">
+                            Such dialogues are mentioned by <hi rend="smallcaps">Eusebius</hi>, <hi rend="italic">h.e</hi>. 4.30.1–2, ed. <hi rend="smallcaps">Schwartz
+                                / Mommsen, 392,14–23</hi>.</p>
+                    </note> and only traces of his
+                    anti-Marcionite reasoning remain in the patristic literature. In the <hi rend="italic">Book of the Laws</hi>, Bardaisan affirms the doctrine of the
+                    oneness and goodness of God, an indication that he here specifically targets,
+                    albeit without explicitly mentioning the name, Marcion’s novel distinction
+                    between a good god and a foreign god.<note place="foot" xml:id="ftn99" n="99">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">BLC</hi> 1–2, ed. <hi rend="smallcaps">Nau</hi>,
+                            536,9–539,4.</p>
+                    </note> Further evidence for Bardaisan’s consistent
+                    opposition to Marcion is supplied by the
+                    <hi rend="italic">Life </hi>of Aberkios, the second-century
+                    bishop of Hierapolis in Phrygia whose <hi rend="italic">vita</hi> was composed
+                    in the fourth century.<note place="foot" xml:id="ftn100" n="100">
+                        <p rend="Footnote Text1"> On the date of the <hi rend="italic">Vita
+                                Abercii</hi>, see
+                                D<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">undy</hi>, “The Life of Abercius: Its Significance
+                            for Early Syriac Christianity,” <hi rend="italic">Second Century</hi> 7
+                            (1989–90), 163–176; P. <hi rend="smallcaps">Thonemann</hi>, “Abercius of
+                            Hierapolis: Christianization and Social Memory in Late Antique Asia
+                            Minor,” in: <hi rend="italic">Historical and Religious Memory in the
+                                Ancient World</hi>, edited by B. Dignas / R. R. R. Smith. (Oxford
+                            2012), 257–282.</p>
+                    </note> Aberkios on his travels purportedly met
+                        Bardaisan.<note place="foot" xml:id="ftn101" n="101">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">Life of Aberkios</hi> 69–70, ed. <hi rend="smallcaps">Nissen</hi>, 48,17–50,8. French transl. now in P. <hi rend="smallcaps">Maraval</hi>, <hi rend="italic">Vie d’Abercius. Vie
+                                de Polycarpe. Deux biographies légendaires d’évêques du IIe
+                                siècle</hi> (Paris 2017).</p>
+                    </note> The bishop is also said to have
+                    encountered a certain Marcionite named Euxenianos and to have engaged him in a
+                    lively debate during which Aberkios conveniently drew on Bardaisan’s speeches in
+                    the <hi rend="italic">Book of the Laws</hi>.<note place="foot" xml:id="ftn102" n="102">
+                        <p rend="Footnote Text1">
+                            <hi rend="italic">Life of Aberkios</hi> 31–38,
+                            ed.<hi rend="smallcaps"> Nissen</hi>, 23–30.
+                            Detailed discussion of the parallels between the <hi rend="italic">Vita
+                                Abercii</hi> and the <hi rend="italic">Book of the Laws</hi> by
+                                Th<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">issen</hi>, “Die Petrusakten und ein
+                            bardesanitischer Dialog in der Aberkiosvita,” <hi rend="italic">ZNW</hi>
+                            9 (1908), 190–203, 315–328. See also
+                                H<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">régoire</hi>, “Bardesane et S. Abercius,” <hi rend="italic">Byzantion</hi> 25–27 (1955–1957),
+                    363–368.</p>
+                    </note>
+                </p>
+                <p xml:lang="en">Even Ephrem the Syrian, Bardaisan’s most vocal antagonist, cannot but
+                    acknowledge Bardaisan’s persuasive refutation of Marcionism.<note place="foot" xml:id="ftn103" n="103">
+                        <p rend="Footnote Text1"> Ephrem repeatedly affirms
+                            that Bardaisan criticized Marcion,
+                            e.g.,<hi rend="smallcaps"> Ephrem</hi>, <hi rend="italic">CH</hi> 3,4; <hi rend="italic">PR</hi> I,
+                        135.</p>
+                    </note> Among other arguments, Bardaisan apparently adduced
+                    philosophical considerations on the nature of space in order to challenge
+                    Marcion’s notion of two gods, though unfortunately the precise ductus of
+                    Bardaisan’s reasoning can no longer be accessed on account of the fragmentary
+                    nature of our sources. Ephrem on the one hand tries to undermine Bardaisan’s
+                    premises on space in order to challenge Bardaisan’s cosmology;<note place="foot" xml:id="ftn104" n="104">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Ephrem,</hi>
+                            <hi rend="italic">PR</hi> I, 135f.; cf. <hi rend="italic">CH</hi> 3,4.
+                        </p>
+                    </note> but elsewhere Ephrem’s refutation of Marcion reveals such
+                    similarity with Bardaisan’s arguments that in the end, the reader of Ephrem’s
+                    hymns is left to wonder to what extent his anti-Marcionite polemic is itself
+                    indebted to the apologetic discourses of his great Edessene rival.<note place="foot" xml:id="ftn105" n="105">
+                        <p rend="Footnote Text1"> See for
+                            example <hi rend="smallcaps">Ephrem,</hi>
+                            <hi rend="italic">CH</hi> 32,14; 35,1–4.</p>
+                    </note>
+                </p>
+            </div>
+            <div xml:id="hv21n1possekel.9" xml:lang="en">
+                <head>8. The Alphabet of Bardaisan</head>
+                <p xml:lang="en">A curiosity in the reception history of Bardaisan is the so-called
+                    ‘alphabet of Bardaisan’, a cipher widely used by Syriac scribes to encrypt
+                    words, usually their own name, but at times also other short texts. These are
+                    normally found in manuscript colophons. This cipher was first noted by Wright
+                    and commented upon by some nineteenth-century scholars, but only recently has it
+                    garnered more attention.<note place="foot" xml:id="ftn106" n="106">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue … British
+                                Museum</hi>, vol. 3, 1207 and passim; B. H. <hi rend="smallcaps">Cowper</hi>, “The Alphabet of Bardaisan,” <hi rend="italic">Journal
+                                of Sacred Literature and Biblical Record</hi> 6 (1863), 465–466; A.
+                                <hi rend="smallcaps">Merx</hi>, <hi rend="italic">Bardesanes von
+                                Edessa, nebst einer Untersuchung über das Verhältnis der
+                                clementinischen Recognitionen zu dem Buche der Gesetze der
+                                Länder</hi> (Halle 1863), 61–62, n. 1; R. <hi rend="smallcaps">Duval</hi>, <hi rend="italic">Traité de grammaire syriaque:
+                                écriture, phonétique, orthographie, les parties du discours et les
+                                formes des mots, syntaxe, index des mots</hi> (Paris 1881), 12–13;
+                            Y. <hi rend="smallcaps">Paz</hi> / T. <hi rend="smallcaps">Weiss</hi>,
+                            “From Encoding to Decoding: The AṬBḤ of R. Hiyya in Light of a Syriac,
+                            Greek and Coptic Cipher,” <hi rend="italic">Journal of Near Eastern
+                                Studies</hi> 74 (2015), 45–65.</p>
+                    </note> The encryption takes place
+                    by permutating the letters of the alphabet according to the following
+                        schema.<note place="foot" xml:id="ftn107" n="107">
+                        <p rend="Footnote Text1">
+                            BL add. 7202. The scribe here lists assorted other alphabets in
+                            conjunction with that of Bardaisan. See <hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue</hi>, vol. 3, 1207, who
+                            however does not here list the alphabet of Bardaisan. For this, see J.
+                            P. N. <hi rend="smallcaps">Land</hi>, <hi rend="italic">Anecdota
+                                syriaca</hi> (Leiden 1886), 13; <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From Encoding to Decoding,”
+                        52.</p>
+                    </note>
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell>ܬ</cell>
+                        <cell>ܫ</cell>
+                        <cell>ܪ</cell>
+                        <cell>ܩ</cell>
+                        <cell/>
+                        <cell>ܨ</cell>
+                        <cell>ܦ</cell>
+                        <cell>ܥ</cell>
+                        <cell>ܣ</cell>
+                        <cell/>
+                        <cell>ܢ</cell>
+                        <cell>ܡ</cell>
+                        <cell>ܠ</cell>
+                        <cell>ܟ</cell>
+                        <cell/>
+                        <cell>ܝ</cell>
+                        <cell>ܛ</cell>
+                        <cell>ܚ</cell>
+                        <cell/>
+                        <cell>ܙ</cell>
+                        <cell>ܘ</cell>
+                        <cell>ܗ</cell>
+                        <cell/>
+                        <cell>ܕ</cell>
+                        <cell>ܓ</cell>
+                        <cell>ܒ</cell>
+                        <cell>ܐ</cell>
+                    </row>
+                    <row>
+                        <cell>ܩ</cell>
+                        <cell>ܪ</cell>
+                        <cell>ܫ</cell>
+                        <cell>ܬ</cell>
+                        <cell/>
+                        <cell>ܝ</cell>
+                        <cell>ܟ</cell>
+                        <cell>ܠ</cell>
+                        <cell>ܡ</cell>
+                        <cell/>
+                        <cell>ܗ</cell>
+                        <cell>ܣ</cell>
+                        <cell>ܥ</cell>
+                        <cell>ܦ</cell>
+                        <cell/>
+                        <cell>ܨ</cell>
+                        <cell>ܐ</cell>
+                        <cell>ܒ</cell>
+                        <cell/>
+                        <cell>ܓ</cell>
+                        <cell>ܕ</cell>
+                        <cell>ܢ</cell>
+                        <cell/>
+                        <cell>ܘ</cell>
+                        <cell>ܙ</cell>
+                        <cell>ܚ</cell>
+                        <cell>ܛ</cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Several manuscripts, ranging in date from the 14<hi rend="superscript">th</hi> through the 19<hi rend="superscript">th</hi>
+                    century, spell out this alphabet, occasionally alongside other alphabets or
+                    ciphers; this particular code (with some minor variations) is consistently named
+                    ‘alphabet of Bardaisan’.<note place="foot" xml:id="ftn108" n="108">
+                        <p rend="Footnote Text1"> A slight variation is found in the subscription
+                            of ms. BL add. 21,211, fol. 146b, see <hi rend="smallcaps">Wright</hi>,
+                                <hi rend="italic">Catalogue</hi>, vol. 3, 1182. The date of this ms.
+                            is AD 1831 (fol. 42b, see <hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue</hi>, vol. 3, 1181).</p>
+                    </note> The cipher
+                    is not unique to the Syriac world; similar ciphers occur in rabbinic literature
+                    as well as in Greek and Coptic texts. It originated in Greek, where the earliest
+                    extant evidence is a graffito from the second century, and was then adapted from
+                    the Greek by Coptic and Syriac scribes.<note place="foot" xml:id="ftn109" n="109">
+                        <p rend="Footnote Text1"> See the detailed study by <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From
+                            Encoding to Decoding.” On the second-century graffito from Egypt, see
+                            ibid., 58–59.</p>
+                    </note> A peculiarity of this code is that when the
+                    numerical value of each letter is added to that of its code letter, the sum
+                    amounts to 10, 100, 55, or 500.<note place="foot" xml:id="ftn110" n="110">
+                        <p rend="Footnote Text1"> For details, and the corresponding Greek
+                            numerological analysis, see <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From Encoding to Decoding.” The first
+                            to draw attention to this
+                            was<hi rend="smallcaps"> Cowper</hi>,
+                            “Alphabet.”</p>
+                    </note> This numerological aspect, however, is not
+                    normally commented upon by Syriac scribes. Although the actual code and its
+                    designation as ‘alphabet of Bardaisan’ appears only in later manuscripts,
+                    scribes employed it already in some of our oldest extant Syriac manuscripts
+                    (dating to the first half of the sixth century).<note place="foot" xml:id="ftn111" n="111">
+                        <p rend="Footnote Text1"> BL add. 17,176 (containing
+                            Palladius) is dated AD 532, and the encoded name of Stephen appears on
+                            fol. 87b, according to Wright written in “[a]nother, but still ancient,
+                            hand” (<hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue</hi>, vol. 3, 1072–1073). The codex BL add. 14,431
+                            contains the books of Samuel in the Peshitta version and was collated in
+                            AD 545 by a certain George who wrote his name in this cipher (<hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue</hi>, vol.
+                            1, 14–15).</p>
+                    </note>
+                </p>
+                <p xml:lang="en">The question of whether one can attribute this cipher with some
+                    confidence to the historical Bardaisan must be asked, and while it cannot be
+                    answered with certainty, I should like here to present some reasons that might
+                    suggest a cautiously positive response.<note place="foot" xml:id="ftn112" n="112">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Cowper</hi>, “Alphabet,” left the question open and
+                            suggested a “Gnostic origin” (466). <hi rend="smallcaps">Duval</hi>, <hi rend="italic">Traité de grammaire</hi>, 13, posited that the Syriacs
+                            received the cipher from the Jews and attributed it to Bardaisan as “le
+                            premier et le plus célèbre des gnostiques de la Syrie.” </p>
+                    </note>
+                    While it is true, as Paz and Weiss have observed, that the earliest evidence for
+                    the cipher in Syriac “dates to more than three centuries after Bardaisan’s
+                    death” and the designation ‘alphabet of Bardaisan’ appears only in later
+                        manuscripts,<note place="foot" xml:id="ftn113" n="113">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From
+                            Encoding to Decoding,” 58. Because of this, and since no evidence exists
+                            that Bardaisan himself or his followers used the cipher, they do not
+                            consider it likely that the cipher originated with Bardaisan (51–52).
+                            However, in light of the very fragmentary nature of the sources on
+                            Bardaisan, an argument <hi rend="italic">ex silentio</hi> does not carry
+                            too much weight.</p>
+                    </note> we must emphasize that the use of the cipher
+                    was a <hi rend="italic">scribal</hi> habit documented in some of our oldest
+                    Syriac manuscripts; it was not a subject discussed by ancient Syriac authors.
+                    The earliest evidence of this alphabet comes from colophons dating from the
+                    first half of the sixth century, thus belonging to the oldest layer of Syriac
+                    manuscripts since only very few manuscripts produced prior to this date have
+                    come down to us.<note place="foot" xml:id="ftn114" n="114">
+                        <p rend="Footnote Text1"> See S. <hi rend="smallcaps">Brock</hi>, “A
+                            Tentative Check List of Dated Syriac Manuscripts up to 1300.“ <hi rend="italic">Hugoye</hi> 15.1 (2012), 21–48. Brock lists only
+                            fifteen manuscripts prior to 532.</p>
+                    </note> Moreover, drawing attention
+                    to the fact that this cipher originated with the ill-reputed Bardaisan surely
+                    lay not in the interest of any ancient scribe. Nor do these early scribes, in
+                    fact, ever spell out the code or its name; only rather later manuscripts contain
+                    references to the actual cipher and its name, ‘alphabet of Bardaisan’. Three
+                    further points can be adduced in support of the hypothesis that this alphabet
+                    may have originated with Bardaisan. First, Julius Africanus – whom Bardaisan met
+                    in person – is known to have appreciated codifications and quite possibly
+                    employed this particular cipher.<note place="foot" xml:id="ftn115" n="115">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Julius Africanus</hi>, <hi rend="italic">Kestoi</hi> 7. 6, ed. <hi rend="smallcaps">Wallraff</hi> et al.,
+                            58–61. The documentary evidence is somewhat inconclusive, and Paz and
+                            Weiss seem to waiver as to whether or no Africanus knew the cipher.
+                            However, the persuasive arguments in their Appendix suggest that he may
+                            well have been familiar with it. (<hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From Encoding to Decoding,”
+                        65).</p>
+                    </note> It is thus conceivable that Bardaisan learned the code from
+                    Africanus. Second, Bardaisan is known to have exhibited interest in
+                        numbers,<note place="foot" xml:id="ftn116" n="116">
+                        <p rend="Footnote Text1">
+                            This is clear from the astrological calculations with which later
+                            writers credit him. He also engaged in experiments intended to ascertain
+                            how far an arrow would fly if it were to travel at an equal speed for 24
+                            hours. See <hi rend="smallcaps">Julius Africanus</hi>, <hi rend="italic">Kestoi</hi> 7.20, ed. <hi rend="smallcaps">Wallraff</hi> et al.
+                            98–101.</p>
+                    </note> and he was fascinated with language and the meaning
+                    of words.<note place="foot" xml:id="ftn117" n="117">
+                        <p rend="Footnote Text1"> On
+                            the names for the signs of the zodiac, see above n. 62. On Bardaisan’s
+                            interest in names more generally, see <hi rend="smallcaps">Ephrem,</hi>
+                            <hi rend="italic">PR</hi> II, 48 and 221–222.</p>
+                    </note> Adopting this
+                    cipher from the Greek to Syriac would hence fit his intellectual profile
+                    precisely. And thirdly, it would be difficult to explain, were he not at all
+                    affiliated with the origin of this Syriac code, why it should have been named
+                    after him – a contemptible heretic, after all, in the eyes of most Syriac
+                    scribes (as they do not fail to point out).<note place="foot" xml:id="ftn118" n="118">
+                        <p rend="Footnote Text1"> The scribe of Vat. sir. 96, fol. 159a,
+                            writes out the alphabet and labels it “the alphabet of Bardaisan the
+                            wicked, which he and his wicked troop used.” </p>
+                    </note>
+                </p>
+                <p xml:lang="en">The alphabet of Bardaisan enjoyed a surprisingly wide and
+                    long-lasting reception. Babylonian Jews adapted the code from the Syriac, and
+                    the AṬBḤ cipher had a long afterlife in Jewish literature.<note place="foot" xml:id="ftn119" n="119">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From
+                            Encoding to Decoding,” 48–51.</p>
+                    </note> Interestingly, rabbis would
+                    occasionally even employ the cipher to decode a biblical word;<note place="foot" xml:id="ftn120" n="120">
+                        <p rend="Footnote Text1"> R. Hiyya employed the
+                            cipher to explain the hapax <hi rend="italic">manon</hi> (Prov. 29:21),
+                            see <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>,
+                            “From Encoding to Decoding,” 45–46.</p>
+                    </note> a midrash draws on the
+                    numerical aspect of the code; and Kabbalistic literature enhances with the
+                    cipher its theosophical discourse.<note place="foot" xml:id="ftn121" n="121">
+                        <p rend="Footnote Text1">
+                            <hi rend="smallcaps">Paz</hi> / <hi rend="smallcaps">Weiss</hi>, “From
+                            Encoding to Decoding,” 48–51.</p>
+                    </note> In the Syriac tradition, by
+                    contrast, the numerological aspect recedes into the background and the principal
+                    application of the alphabet lies in encoding a scribe’s name, a short phrase, or
+                    a brief text.<note place="foot" xml:id="ftn122" n="122">
+                        <p rend="Footnote Text1"> The scribe of BL add. 14,606, an 8<hi rend="superscript">th</hi>-century codex containing spiritual and monastic literature,
+                            wrote a short encoded paragraph in the colophon; see <hi rend="smallcaps">Wright</hi>, <hi rend="italic">Catalogue</hi>, vol.
+                            2, 744–745.</p>
+                    </note> One scribe even enhanced his encrypted request
+                    for prayer by a pictorial representation of the encoded letters.<note place="foot" xml:id="ftn123" n="123">
+                        <p rend="Footnote Text1"> Cambridge Or.
+                            1142, fol. 324v (Barhebraeus, <hi rend="italic">Ethicon</hi>, ms. dated
+                                18<hi rend="superscript">th</hi> cent.; see J. F. <hi rend="smallcaps">Coakley</hi>, <hi rend="italic">A Catalogue of the
+                                Syriac Manuscripts in Cambridge University Library and College
+                                Libraries Acquired since 1901</hi> (2018), 60–61.</p>
+                    </note> The
+                    practice was seemingly ubiquitous: colophons with encoded words are found in
+                    East and West Syriac manuscripts from as early as A.D. 545 to as recent as the
+                    nineteenth century, and range in content from New Testament Gospels to saints’
+                    lives, from grammar treatises and lexica to philosophical handbooks.<note place="foot" xml:id="ftn124" n="124">
+                        <p rend="Footnote Text1"> See for
+                            example Cambridge Oo.1.31, fol. 220b (Gospels and Epistles, East Syriac,
+                            ca. 17<hi rend="superscript">th</hi> to 18<hi rend="superscript">th</hi>
+                            cent.; see<hi rend="smallcaps"> W. Wright</hi>, <hi rend="italic">A Catalogue of the Syriac Manuscripts Preserved in the
+                                Library of the University of Cambridge</hi>, vol. 2 [Cambridge
+                            1901], 1109–1110); BL 14,431, fol. 157a (Book of Samuel according to the
+                            Peshitta version, dated AD 545; see <hi rend="smallcaps">Wright</hi>,
+                                <hi rend="italic">Catalogue</hi>, vol. 1, 14–15); BL add. 21,21,
+                            fol. 145a (encoded text), 145b (alphabet of Bardaisan) (the manuscript
+                            contains an elementary grammar and the metrical grammar of Bar Hebraeus
+                            and is dated AD 1831 (fol. 42b); see <hi rend="smallcaps">Wright</hi>,
+                                <hi rend="italic">Catalogue</hi>, vol. 3, 1180–1182); Berlin Syriac
+                            ms. 90 (philosophical terms; ms. dating to the 17<hi rend="superscript">th</hi> cent.; see E. <hi rend="smallcaps">Sachau</hi>, <hi rend="italic">Verzeichniss der syrischen Handschriften der
+                                Königlichen Bibliothek zu Berlin</hi>, vol. 1 (Berlin 1899),
+                            338–339. Further examples can be adduced, and I hope soon to offer a
+                            more comprehensive analysis of this scribal habit in Syriac
+                            manuscripts.</p>
+                    </note>
+                </p>
+            </div>
+            <div xml:id="hv21n1possekel.10" xml:lang="en">
+                <head>9. Conclusion</head>
+                <p xml:lang="en">Just as only traces remain from Bardaisan’s numerous works, so we can
+                    find only hints in the patristic literature about the impact these have had on
+                    the church of late antiquity. Yet the evidence that does survive unequivocally
+                    shows the far-reaching and powerful influence this original thinker exercised
+                    upon subsequent generations. Although Bardaisan was later considered a dangerous
+                    heretic, his most influential work, the <hi rend="italic">Book of the Laws</hi>,
+                    was read, used, and criticized by generations of Greek patristic theologians,
+                    and it appears to have had an afterlife in the Syriac tradition as well. Its
+                    clever anti-deterministic arguments offered convenient tools for those wishing
+                    to refute astrology, and its numerous ethnographic illustrations could easily be
+                    adapted to other purposes. By setting <hi rend="italic">madrashe</hi> to music,
+                    Bardaisan made an innovation of considerable importance. His <hi rend="italic">madrashe</hi> inspired Ephrem, as Sozomen relates, to write his own
+                    teaching hymns that in turn would transform Syriac literature. Bardaisan’s
+                    cosmology, perhaps not so exceptional in his own time as later opponents claim,
+                    but further radicalized by his later followers, continued to challenge the
+                    Syriac church and significantly contributed to the negative image passed down by
+                    Syriac authors of Bardaisan the heresiarch. Bardaisan’s objections to Marcion’s
+                    thought are well documented, and although but little survives of his reasoning,
+                    it appears plausible that his <hi rend="italic">Dialogues against the
+                        Marcionites</hi> provided Ephrem with a convenient starting-point for his
+                    own anti-Marcionite polemics.<note place="foot" xml:id="ftn125" n="125">
+                        <p rend="Footnote Text1"> Some of this research was presented several years
+                            ago at a workshop entitled “Bardesanes – Liber legum regionum,” held at
+                            Göttingen University. I would like to thank the organizers, and
+                            especially Dr. Ilaria Ramelli, for the invitation to attend. I am also
+                            grateful to the colloquium participants and to Dr. Lucas van Rompay for
+                            their comments on an earlier version of this article. </p>
+                    </note> Later
+                    generations of Syriac authors also admired Bardaisan’s scientific
+                    accomplishments that ranged from astronomical calculations to experiments on the
+                    flight of arrows. His personal acquaintance with Julius Africanus provides a
+                    tangible link with Graeco-Roman culture, and it may have been this encounter
+                    that inspired Bardaisan to adapt the Greek cipher to the Syriac language. If the
+                    attribution of the alphabet to Bardaisan is correct, this may well constitute
+                    his longest-lasting legacy.</p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p xml:lang="en">
+                    <hi rend="bold">Primary Sources</hi>
+                </p>
+                <listBibl>
+                    <bibl>
+                        <hi rend="italic">Adamantius Dialogue</hi>. Ed. W.
+                        H.<hi rend="smallcaps"> van de Sande Bakhuyzen</hi>.<hi rend="italic"> Der Dialog des Adamantius</hi>.
+                        GCS 4 (Leipzig 1901).</bibl>
+                    <bibl>B<hi rend="smallcaps">arḥadbešhabba ʿ</hi>A<hi rend="smallcaps">rbaia</hi>. <hi rend="italic">History</hi>. Ed.
+                            F<hi rend="smallcaps">. </hi>N<hi rend="smallcaps">au.</hi>
+                        <hi rend="italic">La première partie de l’ Histoire de Barḥadbešabba
+                            ʿArbaïa. Texte syriaque édité et traduit</hi>. PO 23.2 (Paris 1932).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">al-</hi>B<hi rend="smallcaps">iruni</hi>.
+                            <hi rend="italic">On India</hi>. Ed. with English transl.
+                            E<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">achau</hi>. <hi rend="italic">Alberuni’s India. An account of the
+                            religion, philosophy, literature, geography, chronology, astronomy,
+                            customs, laws and astrology of India about A.D. 1030</hi>. 2 vols.
+                        (London 1888).</bibl>
+                    <bibl>P<hi rend="smallcaps">s.-</hi>C<hi rend="smallcaps">aesarius</hi>. <hi rend="italic">Erotapokriseis</hi>. Ed. R. R<hi rend="smallcaps">iedinger</hi>. <hi rend="italic">Pseudo-Kaisarios, Die
+                            Erotapokriseis</hi>. GCS (Berlin 1989).</bibl>
+                    <bibl>P<hi rend="smallcaps">s.-</hi>C<hi rend="smallcaps">lement</hi>.
+                            <hi rend="italic">Homilies</hi>. Ed.
+                            B<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ehm</hi> / G. S<hi rend="smallcaps">trecker</hi>. <hi rend="italic">Die
+                            Pseudoklementinen I. Homilien</hi>. GCS (Berlin 1992).</bibl>
+                    <bibl>P<hi rend="smallcaps">s.-</hi>C<hi rend="smallcaps">lement</hi>.
+                            <hi rend="italic">Recognitions</hi>. Ed. B. R<hi rend="smallcaps">ehm</hi> / G. S<hi rend="smallcaps">trecker.</hi>
+                        <hi rend="italic"> Die Pseudoklementinen II: Rekognitionen in Rufins Übersetzung</hi>.
+                        Second edition. GCS (Berlin 1994).</bibl>
+                    <bibl>
+                        <hi rend="italic">Ps.-Clementines </hi>[Syriac
+                        version]. Ed. W. F<hi rend="smallcaps">rankenberg</hi>. <hi rend="italic">Die syrischen Clementinen mit griechischem Paralleltext</hi>. TU 48/3
+                        (Leipzig 1937).</bibl>
+                    <bibl>
+                        <hi rend="italic">Ps.-Clementines</hi>. English transl. F.
+                        S.<hi rend="smallcaps"> Jones</hi>. <hi rend="italic">The Syriac Pseudo-Clementines. An Early Version of the First Christian
+                            Novel</hi> (Turnhout 2014). </bibl>
+                    <bibl>
+                        <hi rend="italic">Cologne Mani Codex</hi>. Ed. with German
+                        transl. L. K<hi rend="smallcaps">oenen</hi> / C. R<hi rend="smallcaps">ömer</hi>. <hi rend="italic">Der Kölner Mani-Kodex. Über das Werden
+                            seines Leibes</hi> (Opladen 1988).</bibl>
+                    <bibl>
+                        <hi rend="italic">Cologne Mani Codex</hi>. Engl. Transl. R. C<hi rend="smallcaps">ameron</hi> /
+                            A<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">ewey</hi>. <hi rend="italic">The Cologne Mani Codex (P.
+                            Colon. inv. nr. 4780). Concerning the Origin of his Body</hi> (Missoula,
+                        Mont. 1979).</bibl>
+                    <bibl>D<hi rend="smallcaps">idymus the Blind</hi>. <hi rend="italic">Commentary on the Psalms</hi>. Ed.
+                            A<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">esché</hi> / M. G<hi rend="smallcaps">ronewald</hi>. <hi rend="italic">Didymus der Blinde, Psalmenkommentar (Tura-Papyrus)</hi>. Vol. 3 (Bonn
+                        1969).</bibl>
+                    <bibl>E<hi rend="smallcaps">phrem</hi>. <hi rend="italic">Hymns against
+                            Heresies</hi>. Ed. with German transl.
+                            E<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">eck</hi>. <hi rend="italic">Ephraem des Syrers Hymnen contra
+                            haereses</hi>. CSCO 169–170 / Syr. 76–77 (Louvain 1957).</bibl>
+                    <bibl>E<hi rend="smallcaps">phrem</hi>. <hi rend="italic">Hymns on
+                            Nisibis</hi>. Ed. with German transl.
+                            E<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">eck</hi>. <hi rend="italic">Des heiligen Ephraem des Syrers Carmina
+                            Nisibena</hi>. CSCO 218–219 / Syr. 92–93 (Louvain 1961–1963).</bibl>
+                    <bibl>E<hi rend="smallcaps">phrem</hi>. <hi rend="italic">Prose
+                            Refutations</hi>. Ed. with English transl.
+                            C<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">itchell</hi> /
+                            A<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">evan</hi> /
+                            F<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">urkitt</hi>. <hi rend="italic">S. Ephraim’s Prose
+                            Refutations of Mani, Marcion, and Bardaisan</hi>. 2 vols. (London
+                        1912–1921).</bibl>
+                    <bibl>E<hi rend="smallcaps">piphanius</hi>. <hi rend="italic">Panarion</hi>. Ed.
+                            K<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">oll</hi>. <hi rend="italic">Epiphanius, Werke II</hi>. GCS (Leipzig
+                        1922).</bibl>
+                    <bibl>E<hi rend="smallcaps">piphanius</hi>. <hi rend="italic">Panarion</hi>. Transl.
+                            F<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">illiams.</hi>
+                        <hi rend="italic">The Panarion of Epiphanius of Salamis. Books II and III
+                            (Sects 47–80, De Fide)</hi>. Nag Hammadi and Manichaean Studies 36
+                        (Leiden 1994).</bibl>
+                    <bibl>E<hi rend="smallcaps">usebius of Caesarea</hi>. <hi rend="italic">Historia ecclesiastica</hi>. Ed.
+                            E<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">chwartz</hi> / T<hi rend="smallcaps">h. </hi>M<hi rend="smallcaps">ommsen</hi>. <hi rend="italic">Eusebius, Werke II.1.
+                            Die Kirchengeschichte</hi>. Second edition. GCS N.F. 6.1 (Berlin
+                        1999).</bibl>
+                    <bibl>E<hi rend="smallcaps">usebius of
+                        Caesarea</hi>.<hi rend="italic"> Historia ecclesiastica</hi>
+                        [Syriac version]<hi rend="italic">.</hi> Ed. W. W<hi rend="smallcaps">right</hi> / N. M<hi rend="smallcaps">c</hi>L<hi rend="smallcaps">ean</hi>. <hi rend="italic">The Ecclesiastical History of Eusebius in
+                            Syriac, edited from the manuscripts. With a collation of the Armenian
+                            version by Adalbert Merx</hi> (Cambridge 1898).</bibl>
+                    <bibl>E<hi rend="smallcaps">usebius of Caesarea</hi>. <hi rend="italic">Praeparatio evangelica</hi>. Ed.
+                            K<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">ras</hi> / É<hi rend="smallcaps">. des </hi>P<hi rend="smallcaps">laces</hi>. <hi rend="italic">Eusebius, Werke
+                            VIII.1</hi>. Second edition. GCS (Berlin 1982).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Eusebius of Emesa</hi>. <hi rend="italic">Commentary on Genesis</hi>. Ed. F.
+                        P<hi rend="smallcaps">etit </hi>/
+                            L.<hi rend="smallcaps"> van </hi>R<hi rend="smallcaps">ompay</hi> / J.
+                            J<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">eitenberg</hi>. <hi rend="italic">Eusèbe d’Émèse,
+                            Commentaire de la Genèse. Texte arménien de l’édition de Venise (1980).
+                            Fragments grecs et syriaques. Avec traductions</hi>. Traditio Exegetica
+                        Graeca 15 (Louvain 2011).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">George, Bishop of the Arabs</hi>. <hi rend="italic">Letters</hi>. Ed. with German transl. V. R<hi rend="smallcaps">yssel.</hi> “Die astronomischen Briefe Georgs des
+                        Araberbischofs.” <hi rend="italic">Zeitschrift für Assyriologie</hi> 8
+                        (1893), 1–55.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">George</hi> H<hi rend="smallcaps">amartolos</hi>. <hi rend="italic">History</hi>. Ed.
+                            J<hi rend="smallcaps">. </hi>A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">ramer</hi>. <hi rend="italic">Anecdota Graeca
+                            Bibliothecarum Oxoniensium</hi>. Vol. 4 (Oxford 1837, reprint Amsterdam
+                        1963).</bibl>
+                    <bibl>H<hi rend="smallcaps">ippolytus</hi>. <hi rend="italic">Refutatio
+                            omnium haeresium</hi>. Ed.
+                            M<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">arcovich</hi>. <hi rend="italic">Hippolytus. Refutatio omnium
+                            haeresium</hi>. PTS 25 (Berlin 1986).</bibl>
+                    <bibl>J<hi rend="smallcaps">acob of </hi>E<hi rend="smallcaps">dessa</hi>. <hi rend="italic">Hexaemeron</hi>.
+                        Ed<hi rend="smallcaps">. </hi>I.-B. <hi rend="smallcaps">Chabot</hi>. <hi rend="italic">Iacobi Edesseni
+                            Hexaemeron</hi>. CSCO 92 / Syr. 44 (Louvain 1953).</bibl>
+                    <bibl>J<hi rend="smallcaps">acob of </hi>E<hi rend="smallcaps">dessa</hi>. <hi rend="italic">Hexaemeron</hi>. Latin
+                        transl. A<hi rend="smallcaps">. Vaschalde</hi>. <hi rend="italic">Iacobi
+                            Edesseni Hexaemeron</hi>. CSCO 97 / Syr. 48 (Louvain 1953).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Jacoby</hi>, F. <hi rend="italic">Die
+                            Fragmente der griechischen Historiker, Dritter Teil, C</hi> (Leiden
+                        1958).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Jerome</hi>. <hi rend="italic">De viris
+                            illustribus</hi>. Ed.
+                            E<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">ichardson</hi>. <hi rend="italic">Hieronymus, Liber de
+                            viris inlustribus. Gennadius, Liber de viris inlustribus</hi>. TU 14.1
+                        (Leipzig 1896).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Jerome</hi>. <hi rend="italic">Against
+                            Jovinian</hi>. PL 23 (1845), 211–338.</bibl>
+                    <bibl>J<hi rend="smallcaps">ulius </hi>A<hi rend="smallcaps">fricanus</hi>. <hi rend="italic">Kestoi</hi>. Ed. and
+                        transl. M. Wallraff / C. Scardino / L. Mecella / Ch. Guignard / W. Adler.
+                            <hi rend="italic">Cesti: The Extant Fragments</hi>. GCS N.F. 18 (Berlin
+                        2012).</bibl>
+                    <bibl>J<hi rend="smallcaps">ustin</hi>. <hi rend="italic">1
+                            Apologia</hi>. Ed. M. M<hi rend="smallcaps">arcovich</hi>. <hi rend="italic">Iustini Martyris Apologiae pro Christianis</hi>. PTS 38
+                        (Berlin 1994).</bibl>
+                    <bibl>J<hi rend="smallcaps">ustin</hi>. <hi rend="italic">1
+                            Apologia</hi>. Transl. C. C. <hi rend="smallcaps">Richardson,</hi>
+                        <hi rend="italic">Early Christian Fathers</hi> (New York 1970).</bibl>
+                    <bibl>
+                        <hi rend="italic">Life of Aberkios</hi>. Ed.
+                            T<hi rend="smallcaps">h. </hi>N<hi rend="smallcaps">issen</hi>. <hi rend="italic">S. Abercii Vita</hi> (Leipzig 1912).</bibl>
+                    <bibl>
+                        <hi rend="italic">Life of Aberkios</hi>. French
+                        transl. P. <hi rend="smallcaps">Maraval</hi>. <hi rend="italic">Vie
+                            d’Abercius. Vie de Polycarpe. Deux biographies légendaires d’évêques du
+                            IIe siècle</hi> (Paris 2017).</bibl>
+                    <bibl>P<hi rend="smallcaps">s.-</hi>M<hi rend="smallcaps">eliton</hi>.
+                            <hi rend="italic">Apology</hi>. Ed. with English transl.
+                            W<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">ureton</hi>. <hi rend="italic">Spicilegium Syriacum: containing remains
+                            of Bardesan, Meliton, Ambrose and Mara bar Serapion</hi> (London 1855),
+                        22–31 (text), 41–51 (transl.).</bibl>
+                    <bibl>M<hi rend="smallcaps">ichael the </hi>S<hi rend="smallcaps">yrian</hi>. <hi rend="italic">Chronicle</hi>. Ed. with
+                        French transl. J<hi rend="smallcaps">.-</hi>B<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">habot.</hi>
+                        <hi rend="italic">Chronique de Michel le Syrien</hi>. 4 vols. (Paris
+                        1899–1910, reprint Brussels 1963).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Moses bar Kepha</hi>. <hi rend="italic">Hexaemeron Commentary</hi>. Transl. L. S<hi rend="smallcaps">chlimme</hi>. <hi rend="italic">Der Hexaemeronkommentar des Moses bar
+                            Kepha. Einleitung, Übersetzung und Untersuchungen</hi>. 2 vols.
+                        Göttinger Orientforschungen, 1. Reihe: Syriaca, vol. 14.1–2 (Wiesbaden
+                        1977).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">al-</hi>N<hi rend="smallcaps">adim,
+                        Ibn</hi>. <hi rend="italic">Fihrist</hi>. Ed.
+                            G<hi rend="smallcaps">. </hi>F<hi rend="smallcaps">lügel</hi> (Leipzig 1871–1872).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">al-</hi>N<hi rend="smallcaps">adim, </hi>I<hi rend="smallcaps">bn</hi>. <hi rend="italic">Fihrist</hi>. Transl.
+                            B<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">odge</hi>. <hi rend="italic">The Fihrist of al-Nadīm. A Tenth-Century
+                            Survey of Muslim Culture</hi>. 2 vols. (New York 1970).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Nikephoros Kallistos</hi>. <hi rend="italic">Historia ecclesiastica</hi>. PG 145 (1904), 549–1332.</bibl>
+                    <bibl>
+                        <hi rend="italic">Odes of Solomon</hi>. Ed. with German transl.
+                        M. L<hi rend="smallcaps">attke. </hi>
+                        <hi rend="italic">Oden Salomos. Text, Übersetzung, Kommentar</hi>. 3 vols. Novum
+                        Tes-tamentum et Orbis Antiquus 41 (Göttingen 1999–2005).</bibl>
+                    <bibl>
+                        <hi rend="italic">Odes of Solomon</hi>. Ed. with English transl.
+                            J<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">harlesworth.</hi>
+                        <hi rend="italic">The Odes of Solomon. The Syriac texts, edited with
+                            translation and notes</hi>. SBL Texts and Translations 13,
+                        Pseudepigrapha Series 7 (Chico, CA 1977).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Origen</hi>. <hi rend="italic">De
+                            principiis</hi>. Ed. <hi rend="smallcaps">P. Koetschau</hi>. <hi rend="italic">Origenes, Werke V. De principiis</hi>. GCS (Leipzig
+                        1913).</bibl>
+                    <bibl>P<hi rend="smallcaps">hiloxenus of </hi>M<hi rend="smallcaps">abbug</hi>. <hi rend="italic">Dissertationes decem de
+                            uno et sancto</hi>
+                        <hi rend="italic">Trinitate incorporate et passo</hi>. Ed. M.
+                        <hi rend="smallcaps">Brière </hi>/
+                            F<hi rend="smallcaps">. </hi>G<hi rend="smallcaps">raffin</hi>. PO 15.4, 38.3, 39.4, 40.2, 41.1 (Paris 1920–1982).</bibl>
+                    <bibl>P<hi rend="smallcaps">hotios</hi>. <hi rend="italic">Bibliotheca</hi>. Ed.
+                            R<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">enry</hi>. <hi rend="italic">Photius, Bibliothèque</hi>. Vol. 4: <hi rend="italic">Codices 223–229</hi> (Paris 1991).</bibl>
+                    <bibl>P<hi rend="smallcaps">orphyry</hi>. <hi rend="italic">De
+                            abstinentia</hi>. Transl.
+                            T<hi rend="smallcaps">h. </hi>T<hi rend="smallcaps">aylor</hi>. <hi rend="italic">Porphyry, On Abstinence from Animal
+                            Food</hi> (London 1965).</bibl>
+                    <bibl>S<hi rend="smallcaps">ozomen</hi>. <hi rend="italic">Historia
+                            ecclesiastica</hi>. Ed.
+                            J<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">idez</hi> /
+                            G<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">ansen</hi>. <hi rend="italic">Sozomenus,
+                            Kirchengeschichte</hi>. Second edition. GCS N.F. 4 (Berlin 1995).</bibl>
+                    <bibl>T<hi rend="smallcaps">ertullian</hi>. <hi rend="italic">Adversus
+                            Hermogenem</hi>. Ed. with French transl.
+                            F<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">hapot</hi>. <hi rend="italic">Tertullien, Contre Hermogène</hi>. SC 439
+                        (Paris, 1999).</bibl>
+                    <bibl>T<hi rend="smallcaps">heodore bar </hi>K<hi rend="smallcaps">oni</hi>. <hi rend="italic">Scholion</hi>. Ed.
+                            A<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">cher</hi>. <hi rend="italic">Theodorus bar Kōnī, Liber scholiorum
+                            II</hi>. CSCO 66 / Syr. 26 (Louvain 1912). </bibl>
+                    <bibl>T<hi rend="smallcaps">heodore bar </hi>K<hi rend="smallcaps">oni</hi>. <hi rend="italic">Scholion</hi>. Transl.
+                            R<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">espel</hi> / R. D<hi rend="smallcaps">raguet</hi>. <hi rend="italic">Théodore bar Koni, Livre des scolies (recension de Séert) II. Mimrè
+                            VI–XI</hi>. CSCO 432 / Syr. 188 (Louvain 1982).</bibl>
+                    <bibl>T<hi rend="smallcaps">heodoret of </hi>K<hi rend="smallcaps">yros</hi>. <hi rend="italic">Historia
+                            ecclesiastica</hi>. Ed.
+                            L<hi rend="smallcaps">. </hi>P<hi rend="smallcaps">armentier</hi> /
+                            G<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">ansen</hi>. <hi rend="italic">Theodoret,
+                            Kirchengeschichte</hi>. Third edition. GCS N.F. 5 (Berlin 1998).</bibl>
+                </listBibl>
+                    <p xml:lang="en">
+                    <hi rend="bold">Secondary Sources</hi>
+                </p>
+                <listBibl>
+                    <bibl>A<hi rend="smallcaps">land, </hi>B<hi rend="smallcaps">. </hi>“Mani
+                        und Bardesanes – Zur Entstehung des manichäischen Systems.” In: <hi rend="italic">Synkretismus im syrisch-persischen Kulturgebiet. Bericht
+                            über ein Symposium in Reinhausen bei Göttingen in der Zeit vom 4. bis 8.
+                            Oktober 1971</hi>, edited by A<hi rend="smallcaps">. </hi>D<hi rend="smallcaps">ietrich</hi> (Göttingen 1975), 123–143.</bibl>
+                    <bibl>A<hi rend="smallcaps">mand de Mendieta, </hi>E. <hi rend="italic">Fatalisme et liberté dans l’antiquité grecque. Recherches
+                            sur la survivance de l’argumentation morale antifataliste de Carnéade
+                            chez les philosophes grecs et les théologiens chrétiens des quatre
+                            premiers siècles</hi> (Louvain 1945).</bibl>
+                    <bibl>B<hi rend="smallcaps">auer, </hi>W<hi rend="smallcaps">.</hi>
+                        <hi rend="italic">Orthodoxy and Heresy in Earliest Christianity</hi>
+                        (Mifflin-town, PA 1996). Originally published as <hi rend="italic">Rechtgläubigkeit und Ketzerei im ältesten Christentum</hi> (Tübingen
+                        1934).</bibl>
+                    <bibl>B<hi rend="smallcaps">aumstark, </hi>A<hi rend="smallcaps">.</hi>
+                        <hi rend="italic">Geschichte der syrischen Literatur mit Ausschluß der
+                            christlich-palästinensischen Texte</hi> (Bonn 1922).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Bremmer, </hi>J. N<hi rend="smallcaps">.</hi>, ed. <hi rend="italic">The
+                            Pseudo-Clementines</hi>. Studies on Early Christian Apocrypha 10
+                        (Louvain 2010).</bibl>
+                    <bibl>B<hi rend="smallcaps">rock, </hi>S<hi rend="smallcaps">.</hi> “The <hi rend="italic">Ruaḥ Elōhīm</hi> of Gen
+                        1,2 and its Reception History in the Syriac Tradition.” In: <hi rend="italic">Lectures et relectures de la Bible. Festschrift P.-M.
+                            Bogaert</hi>, edited by J<hi rend="smallcaps">.-</hi>M A<hi rend="smallcaps">uwers</hi> /
+                            A<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">énin</hi> (Louvain 1999), 327–349.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Brock</hi>, S. “A Tentative
+                        Check List of Dated Syriac Manuscripts up to 1300.” <hi rend="italic">Hugoye</hi> 15.1 (2012), 21–48.</bibl>
+                    <bibl>B<hi rend="smallcaps">undy, </hi>D<hi rend="smallcaps">.</hi> “The Life of Abercius: Its Significance for
+                        Early Syriac Christianity.” <hi rend="italic">Second Century</hi> 7
+                        (1989–90), 163–176.</bibl>
+                    <bibl>C<hi rend="smallcaps">amplani, </hi>A.
+                        “Bardesane et bardésanites.” <hi rend="italic">École pratique des hautes
+                            études. Section des sciences religieuses. Annuaire. Résumé des
+                            conférences et travaux</hi> 112 (2003–2004), 29–50.</bibl>
+                    <bibl>C<hi rend="smallcaps">amplani, </hi>A. “Bardaisan and
+                        the Bible.” In: <hi rend="italic">Gnose et mani-chéisme: entre les oasis
+                            d’Egypte et la route de la soie: hommage à Jean-Daniel Dubois</hi>,
+                        edited by <hi rend="smallcaps">A. Van den Kerchove</hi> / <hi rend="smallcaps">G. Soares Santoprete</hi> (Turnhout 2017), 699–715.</bibl>
+                    <bibl>C<hi rend="smallcaps">amplani, </hi>A. “Bardaisan’s
+                        Psychology: Known and Un-known Testimonies and Current Scholarly
+                        Perspectives.” <anchor xml:id="ENREF_1"/>In: <hi rend="italic">Syriac
+                            Encounters: Papers from the Sixth North American Syriac Symposium, Duke
+                            University, 26–29 June 2011</hi>, edited by M. <hi rend="smallcaps">Doerfler</hi> / E. <hi rend="smallcaps">Fiano</hi> / K. <hi rend="smallcaps">Smith</hi> (Leuven 2015), 259–276.</bibl>
+                    <bibl>C<hi rend="smallcaps">amplani, </hi>A. “Note
+                        bardesanitiche.” <hi rend="italic">Miscellanea Marciana</hi> 12 (1997),
+                        11–43.</bibl>
+                    <bibl>C<hi rend="smallcaps">amplani, </hi>A.
+                        “Rivisitando Bardesane: Note sulle fonti siri-ache del bardesanismo e sulla
+                        sua collocazione storico–religiosa.” <hi rend="italic">Cristianesimo nella
+                            storia</hi> 19 (1998), 519–596.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Coakley</hi>, J. F. <hi rend="italic">A Catalogue of the Syriac Manuscripts in Cambridge
+                            University Library and College Libraries Acquired since 1901</hi>
+                        (2018).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Cowper</hi>, B. H. “The
+                        Alphabet of Bardaisan,” <hi rend="italic">Journal of Sacred Literature and
+                            Biblical Record</hi> 6 (1863), 465–466.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Dihle</hi>, A. “Zur Schicksalslehre des
+                        Bardesanes.” In: <hi rend="italic">Kerygma und Logos. Beiträge zu den
+                            geistesgeschichtlichen Beziehungen zwischen Antike und Christentum.
+                            Festschrift für Carl Andresen zum 70. Geburtstag</hi>, edited by A. M.
+                            <hi rend="smallcaps">Ritter</hi> (Göttingen 1979), 123–135.</bibl>
+                    <bibl>D<hi rend="smallcaps">rijvers, </hi>H<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>W<hi rend="smallcaps">.</hi>
+                        <hi rend="italic">Bardaiṣan of Edessa</hi>. Studia Semitica Neerlandica 6
+                        (Assen 1966).</bibl>
+                    <bibl>D<hi rend="smallcaps">rijvers, </hi>H<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>W.
+                        “Mani und Bardaiṣan. Ein Beitrag zur Vorgeschichte des Manichäismus.” In:
+                            <hi rend="italic">Mélanges d’histoire des religions offerts à
+                            Henri-Charles Puech</hi> (Paris 1974), 459–469.</bibl>
+                    <bibl>D<hi rend="smallcaps">urst, </hi>M<hi rend="smallcaps">.</hi> “Hermogenes.” <hi rend="italic">LThK</hi>
+                        <hi rend="superscript">3</hi> 5 (1996), 13.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Duval</hi>, R. <hi rend="italic">Traité de
+                            grammaire syriaque: écriture, phonétique, orthographie, les parties du
+                            discours et les formes des mots, syntaxe, index des mots</hi> (Paris
+                        1881).</bibl>
+                    <bibl>G<hi rend="smallcaps">régoire, </hi>H<hi rend="smallcaps">.</hi> “Bardesane et S. Abercius.” <hi rend="italic">Byzantion</hi> 25–27 (1955–1957), 363–368.</bibl>
+                    <bibl>G<hi rend="smallcaps">reschat, </hi>K. <hi rend="italic">Apelles und Hermogenes. Zwei theologische Lehrer des
+                            zweiten Jahrhunderts</hi>. Vigiliae Christianae Supplements 48 (Leiden
+                        2000).</bibl>
+                    <bibl>G<hi rend="smallcaps">uillaumont, </hi>A<hi rend="smallcaps">.</hi> “Genèse 1,1–2 selon les commentateurs
+                        syriaques.” In: <hi rend="italic">In Principio. Interprétations des premiers
+                            versets de la Genèse</hi> (Paris 1973), 115–132.</bibl>
+                    <bibl>H<hi rend="smallcaps">aar</hi>
+                            R<hi rend="smallcaps">omeny, </hi>R<hi rend="smallcaps">. </hi>B<hi rend="smallcaps">. ter</hi>. <hi rend="italic">A Syrian in Greek Dress.
+                            The Use of Greek, Hebrew, and Syriac Biblical Texts in Eusebius of
+                            Emesa’s Commentary on Genesis</hi>. Traditio Exegetica Graeca 6 (Louvain
+                        1997).</bibl>
+                    <bibl>H<hi rend="smallcaps">arrison, </hi>G<hi rend="smallcaps">.</hi> / J. B<hi rend="smallcaps">e</hi>D<hi rend="smallcaps">uhn</hi>. “The Authenticity and Doctrine of (Ps.?)
+                        Mani’s Letter to Menoch.” In: <hi rend="italic">The Light and the Darkness.
+                            Studies in Manichaeism and its World</hi>, edited by
+                            P<hi rend="smallcaps">. </hi>M<hi rend="smallcaps">irecki</hi> / J. B<hi rend="smallcaps">e</hi>D<hi rend="smallcaps">uhn</hi> (Leiden 2001), 128–172.</bibl>
+                    <bibl>H<hi rend="smallcaps">egedus, </hi>T. <hi rend="italic">Early Christianity and Ancient Astrology</hi> (New York
+                        2007).</bibl>
+                    <bibl>H<hi rend="smallcaps">ilgenfeld, </hi>A. <hi rend="italic">Bardesanes, der letzte Gnostiker</hi> (Leipzig 1864).</bibl>
+                    <bibl>H<hi rend="smallcaps">onigmann, </hi>E. <hi rend="italic">Die sieben Klimata und die ΠΟΛΕΙΣ ΕΠΙΣΗΜΟΙ. Eine
+                            Untersuchung zur Geschichte der Geographie und Astrologie im Altertum
+                            und Mittelalter</hi> (Heidelberg 1929).</bibl>
+                    <bibl>J<hi rend="smallcaps">ansma, </hi>T. <hi rend="italic">Natuur, lot en vrijheid. Bardesanes, de filosoof der
+                            Arameeërs en zijn images</hi>. Cahiers bij het Nederlands theologisch
+                        tijdschrift 6 (Wageningen 1969).</bibl>
+                    <bibl>J<hi rend="smallcaps">ones, </hi>F<hi rend="smallcaps">. </hi>S<hi rend="smallcaps">.</hi> “The Pseudo-Clementines: A History of Research.”
+                            <hi rend="italic">Second Century</hi> 2 (1982), 1–33, 63–96.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Jurasz, I. “</hi>Éphrem, Bardesane et
+                        Albinus sur les Incorporels. Une confrontation entre le platonisme et le
+                        stoïcisme en milieu syriaque.” <hi rend="italic">Philosophie antique</hi> 17
+                        (2017), 169–204.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Jurasz, I</hi>. <hi rend="smallcaps">“</hi>Résurrection de l’âme chez Bardesane.”
+                        <hi rend="italic">Chora. Journal of Ancient and Medieval Studies </hi>9–10
+                        (2011–2012), 399–427.</bibl>
+                    <bibl>K<hi rend="smallcaps">azhdan, </hi>A<hi rend="smallcaps">.</hi> /
+                            A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">utler</hi>. “George Hamartolos.” <hi rend="italic">Oxford Dictionary of
+                            Byzantium</hi> 2 (1991), 836.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">King</hi>, D. “Origenism in
+                        Sixth Century Syria: The Case of a Syriac Manuscript on Pagan Philosophy.”
+                        In: <hi rend="italic">Origenes und sein Erbe in Orient und Okzident</hi>,
+                        edited by A. <hi rend="smallcaps">Fürst</hi> (Münster 2011), 179–212.</bibl>
+                    <bibl>K<hi rend="smallcaps">ister, </hi>M. “Tohu
+                        wa-Bohu, Primordial Elements and Creatio ex Nihilo.” <hi rend="italic">Jewish Studies Quarterly</hi> 14 (2007), 229–256.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Land</hi>, J. P. N. <hi rend="italic">Anecdota syriaca</hi> (Leiden 1886).</bibl>
+                    <bibl>L<hi rend="smallcaps">evi della</hi>
+                            V<hi rend="smallcaps">ida, </hi>G<hi rend="smallcaps">.</hi> “Appunti Bardesanici.” <hi rend="italic">Rivista
+                            degli studi orientali</hi> 8 (1919–1920), 709–722.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Lieu</hi>, J. <hi rend="italic">Marcion and the Making of a Heretic: God and Scripture in
+                            the Second Century</hi> (Cambridge, UK 2015).</bibl>
+                    <bibl>L<hi rend="smallcaps">ieu, </hi>S.
+                            N<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">.</hi>
+                        <hi rend="italic">Manichaeism in the Later Roman Empire and Medieval China.
+                            A Historical Survey</hi> (Manchester 1985).</bibl>
+                    <bibl>M<hi rend="smallcaps">adelung, </hi>W. “Abū
+                        ‘Īsā al-Warrāq über die Bardesaniten, Marcioniten und Kantäer.” In: <hi rend="italic">Studien zur Geschichte und Kultur des Vorderen Orients.
+                            Festschrift für Bertold Spuler zum siebzigsten Geburtstag</hi>, edited
+                        by H. R<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">oemer</hi> / A. N<hi rend="smallcaps">oth</hi> (Leiden
+                        1981), 210–224.</bibl>
+                    <bibl>M<hi rend="smallcaps">ay, </hi>G. <hi rend="italic">Schöpfung aus dem Nichts. Die Entstehung der Lehre von der
+                            creatio ex nihilo</hi>. Arbeiten zur Kirchengeschichte 48 (Berlin
+                        1978).</bibl>
+                    <bibl>McV<hi rend="smallcaps">ey, </hi>K. E<hi rend="smallcaps">.</hi> “Were the Earliest <hi rend="italic">Madrašē</hi> Songs or Recitations?” In: <hi rend="italic">After
+                            Bardaisan. Studies on Continuity and Change in Syriac Christianity in
+                            Honour of Professor Han J. W. Drijvers</hi>, edited by
+                            G<hi rend="smallcaps">. </hi>J<hi rend="smallcaps">. </hi>R<hi rend="smallcaps">einink</hi> /
+                            A<hi rend="smallcaps">. </hi>C<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">lugkist</hi>. OLA 89 (Louvain 1999), 185–198.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Merx</hi>, A. <hi rend="italic">Bardesanes
+                            von Edessa, nebst einer Untersuchung über das Verhältnis der
+                            clementinischen Recognitionen zu dem Buche der Gesetze der Länder</hi>
+                        (Halle 1863).</bibl>
+                    <bibl>M<hi rend="smallcaps">onnot, </hi>G. <hi rend="italic">Islam et religions</hi>. Islam d’hier et d’aujourd’hui 27
+                        (Paris 1986).</bibl>
+                    <bibl>N<hi rend="smallcaps">au, </hi>F<hi rend="smallcaps">.</hi> “La cosmographie au VIIe siècle chez les
+                        Syriens.” <hi rend="italic">Revue de l’Orient Chrétien</hi> 15 (1910),
+                        225–254.</bibl>
+                    <bibl>N<hi rend="smallcaps">au, </hi>F. “Notes
+                        d’astronomie syrienne.” <hi rend="italic">Journal Asiatique</hi>, 10<hi rend="superscript">th</hi> series, vol. 16 (1910), 209–228.</bibl>
+                    <bibl>N<hi rend="smallcaps">iehoff, </hi>M. R<hi rend="smallcaps">.</hi> “<hi rend="italic">Creatio ex Nihilo</hi>
+                        Theology in <hi rend="italic">Genesis Rabbah</hi> in Light of Christian
+                        Exegesis.” <hi rend="italic">HTR</hi> 99 (2005), 37–64.</bibl>
+                    <bibl>N<hi rend="smallcaps">issen, </hi>T<hi rend="smallcaps">h</hi>. “Die Petrusakten und ein bardesanitischer
+                        Dialog in der Aberkiosvita.” <hi rend="italic">ZNW</hi> 9 (1908), 190–203,
+                        315–328.</bibl>
+                    <bibl>N<hi rend="smallcaps">öldeke, </hi>T<hi rend="smallcaps">h.</hi> “Zum ‘Buch der Gesetze der Länder’.” <hi rend="italic">ZDMG</hi> 64 (1910), 555–560.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Paz, Y. / T. Weiss.</hi> “From Encoding to
+                        Decoding: The AṬBḤ of R. Hiyya in Light of a Syriac, Greek, and Coptic
+                        Cipher.” <hi rend="italic">Journal of Near Eastern Studies</hi> 74 (2015),
+                        45–65.</bibl>
+                    <bibl>P<hi rend="smallcaps">ossekel, </hi>U.
+                        “Bardaisan and Origen on Fate and the Power of the Stars.” <hi rend="italic">JECS</hi> 20 (2012), 515–541.</bibl>
+                    <bibl>P<hi rend="smallcaps">ossekel, </hi>U. “Die
+                        Schöpfungstheologie des Bardaisan von Edessa.” In: <hi rend="italic">Edessa
+                            in hellenistisch-römischer Zeit. Religion, Kultur und Politik zwischen
+                            Ost und West. Beiträge des internationalen Edessa-Symposiums in Halle an
+                            der Saale, 14.–17. Juli 2005</hi>, edited by L. G<hi rend="smallcaps">reisiger</hi> / C. R<hi rend="smallcaps">ammelt</hi> / J. T<hi rend="smallcaps">ubach.</hi> Beiruter Texte und Studien 116 (Beirut
+                        2009), 219–229.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Possekel</hi>, U. “Bardaisan
+                        of Edessa on the Resurrection. Early Syriac Eschatology in its
+                        Religious-Historical Context.” <hi rend="italic">Oriens Christianus</hi> 88
+                        (2004), 1–28.</bibl>
+                    <bibl>R<hi rend="smallcaps">amelli, </hi>I. <hi rend="italic">Bardaisan of Edessa. A Reassessment of the Evidence and a
+                            New Interpretation</hi> (Piscataway, NJ 2009).</bibl>
+                    <bibl>R<hi rend="smallcaps">amelli, </hi>I.
+                        “Origen, Bardaiṣan, and the Origin of Universal Salvation.” <hi rend="italic">HTR</hi> 102 (2009), 135–168.</bibl>
+                    <bibl>R<hi rend="smallcaps">amos-</hi>L<hi rend="smallcaps">issón, </hi>D<hi rend="smallcaps">.</hi> “Pseudo-Caesarius.” <hi rend="italic">LThK</hi>
+                        <hi rend="superscript">3</hi> 8 (1999), 708.</bibl>
+                    <bibl>R<hi rend="smallcaps">ehm, </hi>B.
+                        “Bardesanes in den Pseudoclementinen.” <hi rend="italic">Philologus</hi> 93
+                        (1938), 218–247.</bibl>
+                    <bibl>R<hi rend="smallcaps">eich, </hi>E. “Ein
+                        Brief des Severus Sēḇōḵt.” In: <hi rend="italic">Sic itur ad astra. Studien
+                            zur Geschichte der Mathematik und Naturwissenschaften. Festschrift für
+                            den Arabisten Paul Kunitzsch zum 70. Geburtstag</hi>, edited by M. F<hi rend="smallcaps">olkerts</hi> / R.<hi rend="smallcaps"> </hi>L<hi rend="smallcaps">orch</hi> (Wiesbaden 2000), 478–489.</bibl>
+                    <bibl>R<hi rend="smallcaps">iedinger, </hi>R. <hi rend="italic">Pseudo-Kaisarios. Überlieferungsgeschichte und
+                            Verfasserfrage</hi>. Byzantinisches Archiv 12 (München 1969).</bibl>
+                    <bibl>S<hi rend="smallcaps">achau, </hi>E. <hi rend="italic">Inedita syriaca. Eine Sammlung syrischer Übersetzungen von
+                            Schriften griechischer Profanliteratur. Mit einem Anhang. Aus den
+                            Handschriften des Britischen Museums herausgegeben</hi> (Wien 1870,
+                        reprint Hildesheim 1968).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Sachau</hi>, E. <hi rend="italic">Verzeichniss der syrischen Handschriften der Königlichen
+                            Bibliothek zu Berlin</hi>. 2 vols. (Berlin 1899).</bibl>
+                    <bibl>S<hi rend="smallcaps">chaeder, </hi>H<hi rend="smallcaps">. </hi>H<hi rend="smallcaps">.</hi> “Bardesanes von Edessa in der Überliefer-ung der
+                        griechischen und der syrischen Kirche.” <hi rend="italic">ZKG</hi> 51
+                        (1932), 21–73.</bibl>
+                    <bibl>
+                        <anchor xml:id="ENREF_4"/>
+                        <hi rend="smallcaps">Tanaseanu-Döbler, I</hi>. “Bemerkungen zu Porphyrios und Bardaiṣan.”
+                            <hi rend="italic">ZAC</hi> 19 (2015), 26–68.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Tannous</hi>, J. “You Are What You Read:
+                        Qenneshre and the Miaphysite Church in the Seventh Century.” In: <hi rend="italic">History and Identity in the Late Antique Near East</hi>,
+                        edited by<hi rend="smallcaps"> Ph. Wood</hi> (Oxford
+                        2013), 83–102.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Thonemann</hi>, P. “Abercius of Hierapolis:
+                        Christianization and Social Memory in Late Antique Asia Minor.” In: <hi rend="italic">Historical and Religious Memory in the Ancient World</hi>,
+                        edited by B. Dignas / R. R. R. Smith. (Oxford 2012), 257–282.</bibl>
+                    <bibl>V<hi rend="smallcaps">ajda, </hi>G<hi rend="smallcaps">.</hi> “Le témoigne de al-Māturidī sur la doctrine des
+                        Manichéens, des Dayṣānites et des Marcionites.” <hi rend="italic">Arabica</hi> 13 (1966), 1–38.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">van </hi>E<hi rend="smallcaps">ss, </hi>J.
+                            <hi rend="italic">Theologie und Gesellschaft im 2. und 3. Jahrhundert
+                            Hidschra. Eine Geschichte des religiösen Denkens im frühen Islam</hi>. 6
+                        vols. (Berlin 1991–1995).</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">van </hi>R<hi rend="smallcaps">ompay, </hi>L.
+                        “Bardaisan and Mani in Philoxenus of Mabbog’s <hi rend="italic">Mēmrē
+                            Against Habbib</hi>.” In: <hi rend="italic">Syriac Polemics. Studies in
+                            Honour of Gerrit Jan Reinink</hi>, edited by W.
+                            J<hi rend="smallcaps">. van </hi>B<hi rend="smallcaps">ekkum</hi> / J. W. D<hi rend="smallcaps">rijvers</hi> /
+                        A. C<hi rend="smallcaps">. </hi>K<hi rend="smallcaps">lugkist</hi>. OLA 170 (Louvain 2007), 77–90.</bibl>
+                    <bibl>
+                        <hi rend="smallcaps">Villey</hi>, É. “Qennešre et
+                        l’astronomie aux VIe et VIIe siècles.” In: <hi rend="italic">Les sciences en
+                            syriaque</hi>, edited by É. <hi rend="smallcaps">Villey</hi>. Études
+                        syriaques 11 (Paris 2014), 149–190.</bibl>
+                    <bibl>W<hi rend="smallcaps">inter, </hi>F. <hi rend="italic">Bardesanes von Edessa über Indien. Ein früher syrischer
+                            Theologe schreibt über ein fremdes Land</hi>. Frühes Christentum.
+                        Forschungen und Perspektiven 5 (Thaur 1999).</bibl>
+                    <bibl>W<hi rend="smallcaps">right, </hi>W<hi rend="smallcaps">.</hi>
+                        <hi rend="italic">Catalogue of the Syriac Manuscripts in the British
+                            Museum</hi>. 3 vols. (London 1870–1872).</bibl>
+                    <bibl>
+                        <anchor xml:id="ENREF_3"/>
+                        <hi rend="smallcaps">Wright</hi>, W. <hi rend="italic">A Catalogue of the Syriac Manuscripts
+                            Preserved in the Library of the University of Cambridge</hi>. 2 vols.
+                        (Cambridge 1901).</bibl>
+                </listBibl>
+                </div>
+            
+        </body>
+    </text>
+</TEI>

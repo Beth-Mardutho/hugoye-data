@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Transmission and Reception: New Testament Text-critical and Exegetical Studies </title>
+                <author>
+                    <name>
+                        <forename>Craig E.</forename>
+                        <surname>Morrison</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Pontifical Biblical Institute, Rome </orgName>
+                    </affiliation>
+                </author>
+                <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+                <editor role="general">George A. Kiraz</editor>
+                <editor role="associate">James E. Walters</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person"><!-- Insert name of person who converts the document here --></name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2010</date>
+                <idno>Volume 13.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv13n1prmorrison</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Craig E. Morrison</author>
+                        <title level="a"> Transmission and Reception: New Testament Text-critical and Exegetical Studies</title>
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol13/hv13n1prmorrison.pdf</idno>
+                        <idno type="URI"/><!-- Insert Syriaca bibl URI when available -->
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2010</date>
+                        </imprint>
+                        <biblScope type="vol" n="13">13</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="87" to="89">87-89</biblScope>
+                        <biblScope type="order" n="8"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+                <!-- If the article is written in another language, declare that here by replacing "en" (English) with the ISO language code for the language in question -->
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="PDF">
+            <change when="2018-07-10">File created by Amy Hannoush</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="review">
+        <body>
+            <div type="title">
+                <ab type="review-title"><!-- Insert the bibliographic record exactly as it appears at the beginning of the review --></ab>
+                <!-- Note: aything in italcs, such as the title of a monograph, needs to be inside a tag that looks like this: <hi rend="italic">[text that needs to be in italics]</hi> -->
+            </div>
+            <div type="body">
+                <p xml:lang="en"><!-- Insert text of first paragraph --></p>
+                <p xml:lang="en"><!-- Insert text of next paragraph --></p>
+                <p xml:lang="en"><!-- Insert text of next paragraph --></p>
+                <!-- Repeat p element as necessary -->
+                <!-- Footnotes should be inserted in the text where the footnote should appear in this format:
+                     For each of the # symbols, replace with the number of the footnote (which should be in sequential order beginning with 1 for each article
+                        <p rend="footnote text">Insert footnote text here</p>
+                    </note>
+                -->
+            </div>
+                <div xml:id="bibliography" type="bibliography"><!-- If the review includes a bibliography (most don't), it should be formatted as follows-->
+                    <head>Bibliography</head>
+                    <listBibl>
+                        <bibl><!-- Each work in the bibliography should be a separate <bibl> element -->
+                            <!-- Note: this bibl is for a monograph. Look up bibl element in TEI P5 guidelines for other types of publication (journal article, etc.) -->
+                            <author><!-- Insert name of author here --></author>
+                            <!-- Repeat <author> element as necessary if multiple authors -->
+                            <date><!-- Insert date of publication here --></date>
+                            <title><!-- Insert title of publication here --></title>
+                            <pubPlace><!-- Insert place of publication here --></pubPlace>
+                            <publisher><!-- Insert name of publisher here --></publisher>
+                        </bibl>
+                    </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>
