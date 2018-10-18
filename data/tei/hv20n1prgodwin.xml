@@ -41,7 +41,7 @@
                     <analytic>
                         <author>R. Todd Godwin</author>
                         <title level="a">A State of Mixture: Christians, Zoroastrians, and Iranian Political Culture in Late Antiquity</title>
-                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol20/hv20n1prgodwin.pdf</idno>
+                        <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol20/HV20N1PRGodwin.pdf</idno>
                         <idno type="URI"/><!-- Insert Syriaca bibl URI when available -->
                     </analytic>
                     <monogr>
@@ -78,35 +78,7 @@
     </teiHeader>
     <text type="review">
         <body>
-            <div type="title">
-                <ab type="review-title"><!-- Insert the bibliographic record exactly as it appears at the beginning of the review --></ab>
-                <!-- Note: aything in italcs, such as the title of a monograph, needs to be inside a tag that looks like this: <hi rend="italic">[text that needs to be in italics]</hi> -->
-            </div>
-            <div type="body">
-                <p xml:lang="en"><!-- Insert text of first paragraph --></p>
-                <p xml:lang="en"><!-- Insert text of next paragraph --></p>
-                <p xml:lang="en"><!-- Insert text of next paragraph --></p>
-                <!-- Repeat p element as necessary -->
-                <!-- Footnotes should be inserted in the text where the footnote should appear in this format:
-                     For each of the # symbols, replace with the number of the footnote (which should be in sequential order beginning with 1 for each article
-                        <p rend="footnote text">Insert footnote text here</p>
-                    </note>
-                -->
-            </div>
-                <div xml:id="bibliography" type="bibliography"><!-- If the review includes a bibliography (most don't), it should be formatted as follows-->
-                    <head>Bibliography</head>
-                    <listBibl>
-                        <bibl><!-- Each work in the bibliography should be a separate <bibl> element -->
-                            <!-- Note: this bibl is for a monograph. Look up bibl element in TEI P5 guidelines for other types of publication (journal article, etc.) -->
-                            <author><!-- Insert name of author here --></author>
-                            <!-- Repeat <author> element as necessary if multiple authors -->
-                            <date><!-- Insert date of publication here --></date>
-                            <title><!-- Insert title of publication here --></title>
-                            <pubPlace><!-- Insert place of publication here --></pubPlace>
-                            <publisher><!-- Insert name of publisher here --></publisher>
-                        </bibl>
-                    </listBibl>
-                </div>
+            <p>HTML Version of this article coming soon! You can download a PDF from the PDF icon.</p>
         </body>
     </text>
 </TEI>
