@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Gišeroy kcʿurdkʿ (Hymns of the Night)</title>
+                <title type="sub">Seven Madrāše of Ephrem the Syrian Preserved in Armenian</title>
+                <author>
+                    <name>
+                        <forename>Jesse Siragan</forename>
+                        <surname>Arlen</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of California, Los Angeles</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2018</date>
+                <idno>Volume 21.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv21n2arlen</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Jesse Siragan Arlen</author>
+                        <title level="a">Gišeroy kcʿurdkʿ (Hymns of the Night): Seven Madrāše of
+                            Ephrem the Syrian Preserved in Armenian</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol21/HV21N2Arlen.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2018</date>
+                        </imprint>
+                        <biblScope type="vol" n="21">21</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="15" to="66">15-66</biblScope>
+                        <biblScope type="order" n="3"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Ephrem the Syrian</term>
+                    <term>Armenian</term>
+                    <term>Hymns</term>
+                    <term>Madrāše</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2018-11-01">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+
+        <front>
+            <div type="abstract">
+                <p xml:lang="en">This paper treats the collection of fifty-one hymns (madrāše) of
+                    Ephrem the Syrian that survive in Armenian translation (Arm. kc‘urdk‘), with a
+                    particular focus upon one cycle of seven, the Hymns of the Night (Gišeroy
+                    kc‘urdk‘), which treat the topic of vigil. After a brief discussion of the
+                    collection as a whole, an annotated English translation of the Hymns of the
+                    Night (kc‘urdk‘ 10-16) is made for the first time. Following this is a
+                    commentary that discusses linguistic, historical and thematic evidence that
+                    supports the attribution to Ephrem and points towards a fifth-century date for
+                    the translation from Syriac to Armenian.</p>
+            </div>
+        </front>
+        <body>
+            <pb n="267"/>
+            <div xml:id="hv21n2arlen.1" xml:lang="en">
+                <head>Introduction to the <hi rend="italic">Kc‘urdk‘</hi>
+                    <note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> I would like to
+                            thank my doctoral advisor, Peter Cowe, for his close guidance throughout
+                            the process of writing and revising this article and the translations
+                            therein, which was carried out in the course of a year-long seminar on
+                            Armenian Ephremica at UCLA. This article and the translations would have
+                            been much poorer without his careful and thorough assistance. I would
+                            also like to thank Jeffrey Wickes, who, both via email and in person at
+                            the 2017 NAPS meeting (where an earlier version of this paper was
+                            presented), offered suggestions and helped me with some of my questions
+                            regarding Ephrem and his fourth-century context, while pointing me to
+                            relevant bibliographical sources that I made use of in this paper. All
+                            shortcomings in this article and any errors in translation are entirely
+                            my own responsibility. A note on transliteration: Armenian has been
+                            transliterated according to the Hübschmann-Meillet standard as applied
+                            in the <hi rend="italic">Revue des Études Arméniennes</hi>, and Syriac
+                            has been transliterated according to the standard used by the Library of
+                            Congress (<ref target="https://www.loc.gov/catdir/cpso/roman.html"><hi
+                                    rend="underline color(0000FF)"
+                                    >https://www.loc.gov/catdir/cpso/roman.html</hi></ref>. Accessed
+                            20 March 2018). This has not been strictly maintained for the names of
+                            modern Armenian writers, in cases where their names are conventionally
+                            rendered into Latin characters with a different spelling, or for
+                            bibliographic references classified according to a different
+                            transliteration system (such as Library of Congress). For the vowel
+                                <foreign xml:lang="hy">ու</foreign>, I follow the convention of
+                            transliterating it as ‘u’ instead of ‘ow.’ Thus: <foreign xml:lang="hy"
+                                >կցուրդ</foreign> is rendered as <hi rend="italic">kc‘urd</hi> and
+                            not <hi rend="italic">kc‘owrd</hi>. Transliterated words in both
+                            languages are marked off in italics, except for personal and place
+                            names.</p></note></head>
+                <p>Among the profuse corpus of extant Armenian texts attributed to Ephrem the Syrian
+                    are fifty-one pieces called <hi rend="italic">kc‘urd</hi> (<foreign
+                        xml:lang="hy">կցուրդ</foreign>), the Armenian rendering of the Syriac <hi
+                        rend="italic">madrāšā</hi>. Although traditionally translated into English
+                    as ‘hymn,’ <hi rend="italic">madrāšā </hi>might be better
+                    rendered as ‘teaching song,’ which captures the twin components of this Syriac
+                    genre, at the nexus betwen didactic literary work and liturgical hymn.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> This is the
+                            nomenclature of scholars such as Andrew Palmer and Kees den Biesen. See
+                            Andrew Palmer, “A Single Human Being Divided in Himself: Ephraim the
+                            Syrian, the Man in the Middle,” <hi rend="italic">Hugoye: Journal of
+                                Syriac Studies</hi> 1:2 (1998): 119-163; Kees den Biesen, <hi
+                                rend="italic">Simple and Bold: Ephrem’s Art of Symbolic
+                            Thought</hi>, Gorgias Dissertations 26, Early Christian Studies 6
+                            (Piscataway, NJ, 2006).</p></note> The Syriac root <hi rend="italic"
+                        >drš</hi>, ‘to tread out (a path)’ with its derived meaning of ‘to train,
+                    instruct,’ indicates the didactic origin of the genre,<pb n="268"/> immediately
+                    bringing to mind as well the Hebrew tradition of <hi rend="italic">midraš</hi>,
+                    and its association with interpretation and debate. It is likely that at the
+                    earliest stage the <hi rend="italic">madrāšā</hi> genre was a purely literary
+                    one (i.e. not sung), and probably prose rather than poetry.<note place="foot"
+                        xml:id="ftn3" n="3"><p rend="footnote text"> On the <hi rend="italic"
+                                >madrāšā</hi> genre, see Kathleen McVey, “Were the earliest <hi
+                                rend="italic">madrāšē</hi> songs or recitations?” in <hi
+                                rend="italic">After Bardaisan. Studies on Continuity and Change in
+                                Syriac Christianity in Honour of Professor Han J.W. Drijvers</hi>,
+                            eds. G.J. Reinink and A.C. Klugkist, Orientalia Lovaniensia Analecta 89
+                            (Louvain, 1999): 185-199; Edmund Beck, “Ephräms des Syrers Hymnik,” in
+                                <hi rend="italic">Liturgie und Dichtung. Ein interdisziplinäres
+                                Kompendium. Gualtero Duerig annum vitae septuagesimum feliciter
+                                complenti</hi>, eds. H. Becker and R. Kaczynski (St. Ottilien,
+                            1983), vol. 1: 345-379.</p></note> Ephrem himself cites the
+                    second/third-century figure Bardaiṣan as the one responsible for transforming
+                    this prose genre into measured verse with melodies.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text">
+                            <hi rend="italic">Hymns against Heresies</hi> 53.5.1-5 in Edmund Beck,
+                                <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen contra
+                                Haereses</hi>, Corpus Scriptorum Christianorum Orientalium 169/170,
+                            Scriptores Syri 76/77 (Louvain, 1957). See Kathleen McVey, “The earliest
+                                <hi rend="italic">madrāšē</hi>,” 187-188.</p></note> Ephrem,
+                    following Bardaiṣan’s lead, became the most celebrated composer of <hi
+                        rend="italic">madrāše</hi>, employing it for his own instructive and
+                    polemical purposes. The combination of verse and song made for an effective
+                    means of polemics in the contested religious environment of the fourth century
+                    in addition to providing a means of edification for hearers and a fit medium for
+                    Ephrem’s poetic and symbolically rich thought world and theological method.<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> On Ephrem’s
+                            theological method, see den Biesen, <hi rend="italic">Simple and
+                                Bold</hi>, as well as two recent dissertations: Jeffrey Wickes, “Out
+                            of Books, a World: The Scriptural Poetics of Ephrem the Syrian’s Hymns
+                            on Faith,” PhD diss., University of Notre Dame, 2013; Carmen Maier,
+                            “Poetry as Exegesis: Ephrem the Syrian’s Method of Scriptural
+                            Interpretation Especially as Seen in his Hymns on Paradise and Hymns on
+                            Unleavened Bread,” PhD diss., Princeton Theological Seminary,
+                        2012.</p></note>
+                </p>
+                <p> By the time of the fifth century — the earliest possible period at which the <hi
+                        rend="italic">madrāše</hi> of Ephrem could have been translated into
+                    Armenian, due to the invention of Armenian letters in the fifth century — <hi
+                        rend="italic">madrāšā</hi> referred to a type of liturgical hymn, already
+                    present in all Syriac traditions, of<pb n="269"/> isosyllabic lines arranged in
+                    strophes sung by a soloist, with a short refrain sung by a choir, the singers
+                    often being women.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"
+                            > On the performance context of Ephrem’s <hi rend="italic">madrāše</hi>,
+                            see Andrew Palmer, “Ephrem of Nisibis,” in <hi rend="italic">The Wiley
+                                Blackwell Companion to Patristics</hi>, ed. Ken Parry (Chichester,
+                            2015): 126–140 at 127.</p></note> The Armenian term <hi rend="italic"
+                        >kc‘urd</hi> (<foreign xml:lang="hy">կցուրդ</foreign>), like the
+                    fifth-century <hi rend="italic">madrāšā</hi>, refers to strophic, often
+                    antiphonal liturgical poetry, usually sung in connection with the celebration of
+                    a feast-day.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">
+                            NBHL, s.v. <foreign xml:lang="hy">կցուրդ</foreign>.</p></note> It is
+                    derived from the verb <hi rend="italic">kc‘em</hi> (<foreign xml:lang="hy"
+                        >կցեմ</foreign>), meaning “to join, unite, tie,” and could refer either to
+                    the joining together of syllables and words into metric verse, or the joining
+                    together of voices in song.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"> It likewise carries a derivative meaning of “to
+                            play (an instrument)” or “to sing.” See NBHL, s.v. <foreign
+                                xml:lang="hy">կցեմ</foreign>.</p></note> In connection with this,
+                    the standard word for hymn in Armenian, <hi rend="italic">šarakan</hi> (<foreign
+                        xml:lang="hy">շարական</foreign>) from the root <hi rend="italic"
+                        >šar</hi>/<hi rend="italic">šarem</hi> (<foreign xml:lang="hy"
+                        >շար</foreign>/<foreign xml:lang="hy">շարեմ</foreign>) shares this sense of
+                    ‘ordering, arranging.’<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text"> NBHL, s.v. <foreign xml:lang="hy"
+                                >շարական</foreign>, <foreign xml:lang="hy"
+                        >շարեմ</foreign>.</p></note></p>
+                <p> The complete collection of Ephrem’s fifty-one <hi rend="italic">Kc‘urdk‘</hi>
+                    were first published in a diplomatic edition by Nersēs Akinian of the Vienna
+                    Mekhitarist order of scholar-monks in 1957.<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text"> Nersēs Akinian, <hi rend="italic">Kc‘urdk‘
+                                S. Ep‘remi Xorin Asorwoy</hi> [=<hi rend="italic">Ephräm des Syrers
+                                51 Madrasche in Armenischer Ubersetzung</hi>], Texte und
+                            Untersuchungen der Altarmenischen Literature, Bd. 1.3 (Vienna,
+                            1957).</p></note> A few years later this text was reproduced by Louis
+                    Mariès and Charles Mercier along with an introduction and annotated translation
+                    into Latin.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">
+                            Louis Mariès and Charles Mercier, <hi rend="italic">Hymnes de Saint
+                                Ephrem conservées en version arménienne</hi>, Patrologia Orientalis
+                            XXX, fascicle 1 (Paris: Firmin-Didot, 1961). For earlier publications
+                            see Edward Mathews, “Armenian Hymn IX, <hi rend="italic">On
+                                Marriage</hi> by Saint Ephrem the Syrian,” <hi rend="italic">Journal
+                                of the Society for Armenian Studies</hi> 9 (1999): 55-63, at 56-57,
+                            n. 7; and Mariès and Mercier, <hi rend="italic">Hymnes</hi>,
+                        10-11.</p></note> Corrections and further variant readings from manuscripts
+                    not consulted by Akinian were added by Levon Tēr-Petrosian in a later
+                        study.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                            Levon Tēr-Petrosian, “Kc‘urdk‘ S. Ep‘remi Xorin Asorvoy: Bnagrakan
+                            Čšgrtumner [<hi rend="italic">Kc‘urdk‘</hi> of Ephrem the Syrian:
+                            Text-Critical Emendations],” <hi rend="italic">Handēs Amsoreay</hi> 92
+                            (1978): 15-48.</p></note> Over the years,<pb n="270"/> there have been a
+                    number of scattered translations of individual hymns, often with brief studies
+                    accompanying them, in French and English.<note place="foot" xml:id="ftn13"
+                        n="13"><p rend="footnote text"> The following <hi rend="italic"
+                                >kc‘urdk‘</hi> have been translated into English or French: <hi
+                                rend="italic">Kc‘urdk‘</hi> 2-7, 9 in François Graffin, “Hymnes
+                            inédites de S. Ephrem sur la virginité” <hi rend="italic">L’Orient
+                                Syrien </hi>6 (1961): 213–42; <hi rend="italic">Kc‘urdk‘</hi> 4-5 in
+                            Edward Mathews, “Saint Ephrem the Syrian: Armenian Dispute Hymns between
+                                <hi rend="italic">Virginity</hi> and <hi rend="italic"
+                                >Chastity</hi>,” <hi rend="italic">Revue des études
+                                arméniennes </hi>28 (2001/2): 143–69;
+                            <hi rend="italic">Kc‘urd </hi>9 in Edward
+                            Mathews, “Armenian Hymn IX, On Marriage, by Saint Ephrem the Syrian,”
+                                <hi rend="italic">Journal of the Society for Armenian Studies </hi>9
+                            (1996/7 [1999]): 55–63;
+                            <hi rend="italic">Kc‘urdk‘ </hi>14-15 in Louis
+                            Mariès, “Deux Antiphonae de Saint Ephrem,” <hi rend="italic">Recherches
+                                de Science Religieuse</hi> 45 (1957), 396-408;
+                            <hi rend="italic">Kc‘urd </hi>46 in Robert Murray,
+                            “‘A Marriage for all eternity’: The Consecration of a Syrian bride of
+                            Christ,” <hi rend="italic">Sobornost/Eastern Churches Review </hi>11
+                            (1989): 65–8; <hi rend="italic">Kc‘urdk‘</hi> 47-51 in Bernard
+                            Outtier, “Hymnes de saint Ephrem sur l’Eucharistie,” <hi rend="italic"
+                                >Lettre aux amis de Solesmes</hi> 18 (avril-juin 1979): 3-9 and
+                            Idem, “Hymnes de saint Ephrem sur l’Eucharistie II” <hi rend="italic"
+                                >Lettre aux amis de Solesmes</hi> 22 (avril-juin 1980): 3-8 and
+                            Idem, “Hymnes de saint Ephrem sur l’Eucharistie III”
+                            <hi rend="italic">Lettre aux amis de Solesmes </hi>(1981:1):
+                            14-18 and Idem, “Hymnes de saint Ephrem sur l’Eucharistie IV” <hi
+                                rend="italic">Lettre aux amis de Solesmes</hi> (1981:3): 3-7 and
+                            Idem, “Hymnes de saint Ephrem sur l’Eucharistie V” <hi rend="italic"
+                                >Lettre aux amis de Solesmes</hi> (1982:2): 3-5;
+                            <hi rend="italic">Kc‘urd </hi>48 in Louis Mariès,
+                            “Une Antiphona de Saint Ephrem sur l’eucharistie,” <hi rend="italic"
+                                >Recherches de Science Religieuse</hi> 42 (1954), 395-403;
+                            <hi rend="italic">Kc‘urd </hi>49 in Sebastian
+                            Brock, <hi rend="italic">The Harp of the Spirit: Poems of Saint Ephrem
+                                the Syrian</hi>, 3<hi rend="superscript">rd</hi> ed., The Institute
+                            for Orthodox Christian Studies (Cambridge, 2013): 119-123. Robert Murray
+                            also treats the dispute hymns
+                            (<hi rend="italic">Kc‘urdk‘ </hi>4-5, 9) in Robert
+                            Murray, “Aramaic and Syriac Dispute-Poems and Their Connections,” in
+                            M.J. Geller, J.C. Greenfield, M.P. Weitzmann, eds., <hi rend="italic"
+                                >Studia Aramaica: New Sources and New Approaches</hi>, Journal of
+                            Semitic Studies, Supplement 4, (Oxford, 1995): 157-187.</p></note></p>
+                <p> Akinian’s diplomatic Armenian text is largely derived from two manuscripts:
+                    Matenadaran 821 and Nicosia (Cyprus) 8 (now Antelias 85).<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text"> Akinian, <hi rend="italic"
+                                >Kc‘urdk‘</hi>, ix-xviii and Mariès and Mercier, <hi rend="italic"
+                                >Hymnes</hi>, 8-18. I summarize their description of the manuscripts
+                            in my account which follows, also making use of Ō. Eganyan, A.
+                            Zeytʻunyan, Pʻ. Antʻabyan, eds., <hi rend="italic">Mayr tsʻutsʻak
+                                hayerēn dzeṛagratsʻ Mashtotsʻi Anuan Matenadarani</hi> [=Grand
+                            Catalogue of the Armenian Manuscripts of the Matenadaran named Maštoc‘],
+                            Erevan, 1984—, vol. III, s.v. 821. In fact, for <hi rend="italic"
+                                >Kc‘urdk‘</hi> 16-51, Akinian actually uses Vienna 257 as his base
+                            text, which is a derivative of Matenadaran 821.</p></note>
+                    <hi rend="italic">Kc‘urdk‘</hi> 16-51 are provided from the former and 1-15 from
+                    the latter. Matenadaran 821 is a religious<pb n="271"/> miscellany (<foreign
+                        xml:lang="hy">ժողովածոյ</foreign>) copied in 1313 at the monastery of Akner
+                        (<foreign xml:lang="hy">Ակներ</foreign>) in Cilicia.<note place="foot"
+                        xml:id="ftn15" n="15"><p rend="footnote text"> Eganyan et al., <hi
+                                rend="italic">Mayr tsʻutsʻak</hi>, vol. III, s.v. 821. The full
+                            texts of the Matenadaran manuscript catalogues (now up to nine volumes,
+                            which covers manuscripts 1-3000) are available at the Matenadaran
+                            website: http://www.matenadaran.am/.</p></note> It contains only <hi
+                        rend="italic">Kc‘urdk‘</hi> 16-51 because the initial pages of the
+                    manuscript are missing, resulting in the loss of the first 15 <hi rend="italic"
+                        >Kc‘urdk‘</hi>. Occasional pages or portions of pages are also missing or
+                    damaged (as well as some being out of order), leading to lacunae in later <hi
+                        rend="italic">Kc‘urdk‘</hi>. The manuscript was already in a defective state
+                    when it was repaired in 1596 at T‘lkuran (<foreign xml:lang="hy"
+                        >Թլկուրան</foreign>) near Edessa, as is clear from the colophon of the
+                    renewer who begged the reader’s forgiveness for the missing initial pages and
+                    their mixed-up order.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text"> The full colophon of the renewer reads as follows:
+                            Ի թվին ՌԽԵ (1596) ամին նորոգեցաւ դարձեալ վերստին սուրբ գիրքս ի
+                            գեաւղաքաղաքն ի Թլկուրան, ի դուռն Սուրբ Կարապետին, ի հայրապետութեան
+                            տէր Պետրոս քաջ րաբունապետին մերոյ, եւ ի առաջնորդութեանն տէր Կարապետին եւ
+                            աստուածաբան վարդապետին, ձեռամբ անարժան Թումայի աշակերտի։ Եւ որք
+                            ընթեռնուք եւ ուսանիք, Աստուած ողորմի ասացէք, եւ Աստուած ձեզ եւ մեզ
+                            ողորմեսցի. ամէն։ Դարձեալ, կրկին, աղաչեմ, չլինել մեղադիր մեզ վասն
+                            պակասութեան գրոցս եւ խարնիխուրն լինելոյ, քանզի յոյժ աշխատ եղաք եւ ոչ
+                            կարացաք գտանել զպակասն սորա, եւ այլ օրինակ ոչ գոյր, բայց զայն, որ յայտնի
+                            գոյ ի գիրքս՝ ուսցիս եւ զմեզ անպարսաւ թողցես. եւ Քրիստոսի փառք յաւիտեանս.
+                            ամէն։ </p><p rend="footnote text">In the year 1045 (=1596 CE) this holy
+                            book was yet again restored in the town of T‘lkuran, at the door of Holy
+                            Karapet, during the patriarchy of Father Petros our excellent pontiff,
+                            and during the prelacy of Father Karapet, theological doctor [<hi
+                                rend="italic">vardapet</hi>], by the hand of the unworthy disciple
+                            T‘umay. And you who read and study it, say “May God have mercy,” and may
+                            God have mercy upon you and us. Amen. Again, a second time, I beg you
+                            not to blame us on account of the defectiveness of this book and its
+                            mixed-up state, because we made great effort and yet were unable to find
+                            its missing pages, and there was no other exemplar, except that which is
+                            present in this book. May you study, and leave us irreproachable. And to
+                            Christ glory forever. Amen. Eganyan et al., <hi rend="italic">Mayr
+                                ts‘uts‘ak</hi>, vol. III, s.v. 821.</p></note>
+                </p>
+                <p> From this we can conclude that by 1313 when the manuscript was copied, it
+                    contained all 51 <hi rend="italic">Kc‘urdk‘</hi> of Ephrem<pb n="272"/> as a
+                    single collection. Unfortunately however, all the manuscripts derived from this
+                    copy were undertaken after it had become defective. In 1939 on a trip to Cyprus,
+                    Akinian discovered Nicosia 8 (now Antelias 85), which contained the missing
+                    initial fifteen <hi rend="italic">Kc‘urdk‘</hi>, as well as <hi rend="italic"
+                        >Kc‘urdk‘</hi> 47-51 (it therefore lacks numbers 16-46).<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text"> Nersēs Akinian, <hi
+                                rend="italic">Tsʻutsʻak hayerēn dzeragratsʻ Nikosiayi i Kipros</hi>
+                            [=Katalog der armenischen Handscriften in Nikosia auf Cyprus], Vienna,
+                            1961, 36-41. The manuscripts of Nicosia, Cyprus are now held in
+                            Antelias, Lebanon at the Armenian Catholicosate of Cilicia. Nicosia 8 is
+                            now Antelias 85, and is also described in Anoushawan Vardapet Tanielian,
+                                <hi rend="italic">Mayr tsʻutsʻak hayerēn dzeṛagratsʻ Metsi Tann
+                                Kilikioy Katʻoghikosutʻean</hi> [=Catalogue of the Armenian
+                            Manuscripts in the Collection of the Armenian Catholicosate of Cilicia],
+                            (Antelias, 1984), 319-322.</p></note> It is a collection of religious
+                    texts, compiled mostly from the lives and writings of the Fathers, and was
+                    copied in the fourteenth century. It is in a deteriorated state, but nonetheless
+                    for the most part filled the gaps of Matenadaran 821 by supplying the texts
+                    (with some lacunae) of the first fifteen <hi rend="italic">Kc‘urdk‘</hi>. </p>
+                <p> It is highly unlikely that the fifty-one <hi rend="italic">Kc‘urdk‘</hi> of
+                    Ephrem surviving in Armenian were all derived from an original cycle of
+                    fifty-one <hi rend="italic">madrāše</hi> put together as such in the fourth
+                    century by Ephrem, but rather were pulled together at some point, presumably by
+                    the Armenian translator(s), from different Syriac originals. The surviving
+                    fifty-one <hi rend="italic">Kc‘urdk‘</hi> treat a variety of different topics,
+                    but can be broken down into at least three major sub-groupings, perhaps
+                    representative of three originally separate cycles of <hi rend="italic"
+                        >madrāše</hi>: <hi rend="italic">Kc‘urdk‘ </hi>1-9
+                    treat virginity and holiness;
+                    <hi rend="italic">Kc‘urdk‘ </hi>10-16 all contain the
+                    superscript <foreign xml:lang="hy">Գիշերոյ կցուրդ</foreign> (<hi rend="italic"
+                        >Gišeroy kc‘urd</hi>, “Teaching Song of the Night”) and have to do with
+                    vigil; <hi rend="italic">Kc‘urdk‘ </hi>17-51 in one way or
+                    another all treat the topic of eating, in particular the Lord feeding his
+                    creatures, with topics derived from everyday life and the Scriptures, including
+                    the Lord feeding his creatures through mysteries (<hi rend="italic">rāze</hi>),
+                    such as the Eucharist
+                    (<hi rend="italic">Kc‘urdk‘ </hi>47-51). These three larger
+                    themes likely reveal the taste of the Armenian translator(s),<pb n="273"/> who
+                    chose these particular hymns for their relevance to the Armenian ecclesiastical
+                    context.</p>
+                <p> Most scholars have assumed an early date for the translation of these texts,
+                    supposing that they come from the initial translation movement of Maštoc‘ and
+                    his students in the fifth century. No scholars who have worked on the <hi
+                        rend="italic">Kc‘urdk‘</hi> have found grounds for questioning either the
+                    authenticity of their attribution to Ephrem or the early date of
+                        translation.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"
+                            > For example, according to Edward Mathews, “Language, style, and the
+                            themes treated in these poems clearly reflect those found in the genuine
+                            Syriac hymns of Ephrem,” in Mathews, “Armenian Dispute Hymns,” 148.
+                            Robert Murray, in the brief introduction to his translation of <hi
+                                rend="italic">Kc‘urd</hi> 46 says, “Though this poem comes to us in
+                            Armenian, a number of significant expressions clearly represent Syriac
+                            terms which are familiar both from St. Ephrem and from his contemporary
+                            Aphrahat,” in Murray, “Marriage for all eternity,” 65. For further
+                            examples, see the studies in note 10 above.</p></note> There has however
+                    been very little effort to give concrete evidence for either of these two
+                    suppositions. In light of recent studies of Edward Mathews demonstrating that
+                    many of the works translated from Syriac into Armenian — both those attributed
+                    to Ephrem and as well as the works of other writers — actually date from the
+                    Cilician period (especially the twelfth–thirteenth centuries) when there was a
+                    sizeable Syriac community living within the Armenian realm, as opposed to the
+                    fifth-century provenance that previous scholars had simply assumed for most
+                    Syriac works in Armenian, it seemed worthwhile to investigate the attribution
+                    and provenance of these texts by examining the concrete linguistic evidence of
+                    the texts as well as some historical and thematic evidence.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text"> On the dating and authorship
+                            of Syriac translations into Armenian, see Edward G. Mathews, “Syriac
+                            into Armenian: The Translations and their Translators,” <hi
+                                rend="italic">Journal of the Canadian Society for Syriac
+                                Studies</hi> 10 (2010): 20-44.</p></note>
+                </p>
+                <p> After conducting my investigation into this question, I believe the evidence
+                    strongly favors the view to date that these texts issue from authentic Syriac
+                    originals of Ephrem rendered into Armenian in the fifth century. This article
+                    focuses on the cycle of seven <hi rend="italic">Gišeroy kc‘urdk‘</hi> that treat
+                    the topic of vigil, providing an annotated translation as well as a commentary
+                        <pb n="274"/> providing mostly linguistic evidence that supports their
+                    authentic attribution to Ephrem. A translation of all fifty-one <hi
+                        rend="italic">Kc‘urdk‘</hi> into English is currently under preparation.
+                </p>
+            </div>
+            <div xml:id="hv21n2arlen.2" xml:lang="en">
+                <head>Annotated Translation<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text"> I am following the text found in Mariès and
+                            Mercier, <hi rend="italic">Hymnes</hi>, 76-80, which is the same as that
+                            of Akinian, <hi rend="italic">Kc‘urdk‘</hi>, 26-28. Since this is a
+                            diplomatic edition, at times I translate from more preferable readings
+                            found in the apparatus or among the additional manuscript witnesses
+                            found in Tēr-Petrosian, “Kc‘urdk‘.”</p></note></head>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 10 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 1]</p>
+                <p style="text-align:center;">Blessing, Hymn of the First Night</p>
+                <p style="text-align:center;">O Son, glorified by the sleepless ones; blessing to
+                    You from those keeping watch.</p>
+                <p style="text-align:left;">1 O watchers, be like Moses, the chief of the
+                    Hebrews,</p>
+                <p style="text-align:left;">He who estranged himself from sleep during the days in
+                    which he stood on the mountain;<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text"> The following account of Moses’ behavior on Mount
+                            Sinai differs in many respects from the narrative in Exodus (which
+                            commences in chapter 19 and continues to the end of the book). Ephrem
+                            likely makes use of extracanonical, including oral traditions native to
+                            early Syriac Christian and perhaps Rabbinic traditions of Mesopotamia
+                            related to Moses, as he expands the biblical narrative with his own
+                            interpretation. This is of course one of the aspects of the poetic,
+                            exegetical method of his <hi rend="italic">madrāše</hi> that align them
+                            with their Hebrew counterpart, <hi rend="italic"
+                    >midraš</hi>.</p></note></p>
+                <p style="text-align:left;">But from the hour that he became a [seer of] god<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> The text reads
+                            reads simply <foreign xml:lang="hy">աստուած</foreign> (“god”). Akinian
+                            suggested correcting <foreign xml:lang="hy">աստուած</foreign> to
+                                <foreign xml:lang="hy">աստուածատես</foreign> (“a seer of God”).
+                            Although there are no manuscript witnesses to support his emendation, it
+                            is logically sound and I have followed it in the English translation.
+                            The compound <foreign xml:lang="hy">աստուածատես</foreign> (“a seer of
+                            God”) is found among fifth-century writers. See NBHL, s.v. <foreign
+                                xml:lang="hy">աստուածատես</foreign>.</p></note> and his face was
+                    illumined,</p>
+                <p style="text-align:left;">Sleep feared to approach his eyes, which had put on<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> Literally,
+                            “clothed, dressed” (<foreign xml:lang="hy">զգեցան</foreign>).</p></note>
+                    glory.</p>
+                <p style="text-align:left;">5 For the veil of Moses was limiting the vision of all
+                        the<pb n="275"/> people,</p>
+                <p style="text-align:left;">Who would remain outside all the walls, and did not have
+                    the temerity to pass from outside the veil to be with him.<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text"> Exod 34:29-35.</p></note></p>
+                <p style="text-align:left;">Although sleep was hovering near to Moses within the
+                    veil,</p>
+                <p style="text-align:left;">If he were to enter [sc. into sleep], he would be killed
+                    by the glory right away.</p>
+                <p style="text-align:left;">Since even without the glory, he had banished the sleep
+                    of eighty nights,<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text"> Ephrem derives the number eighty by combining the
+                            two accounts of Moses being on the mountain for forty days and forty
+                            nights, as mentioned in Exod 24:18 and Exod 34:28.</p></note></p>
+                <p style="text-align:left;">10 After he had put on<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text"> Literally, “clothed, dressed” (<foreign
+                                xml:lang="hy">զգեցաւ</foreign>).</p></note> glory, how much more
+                    would he banish it!</p>
+                <p style="text-align:left;">But so that the people would not err and think that he
+                    was not a man,</p>
+                <p style="text-align:left;">He would doze off lightly, in order to teach them that
+                    he is earthly and not celestial.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text"> Literally, “lower (<foreign xml:lang="hy"
+                                >ներքին</foreign>) and not upper (<foreign xml:lang="hy"
+                                >վերին</foreign>).”</p></note></p>
+                <p style="text-align:left;">And because he had trained himself and had become a
+                    watcher by a little effort of his will,</p>
+                <p style="text-align:left;">Behold, he estranged himself from sleep, from the days
+                    of our Lord up until now.</p>
+                <p style="text-align:left;">15 Concerning his coming to Tabor,<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text"> Ephrem is referring to Moses’
+                            appearance at the transfiguration. See Matt 17:1-8 with parallels in
+                            Mark 9:2-8 and Luke 9:28-36. </p></note> Scripture says,<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text"> The subjectless
+                                “<foreign xml:lang="hy">ասէ</foreign>” in the Armenian text is
+                            usually used to introduce a quote from Scripture, although here it could
+                            refer to Tradition more broadly, or an early written or oral souce that
+                            falls outside of canonical Scripture.</p></note>
+                </p>
+                <p style="text-align:left;">“Afterwards he slept no more, but he stands with the
+                    sleepless ones in sleep.”<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text"> None of the gospel passages mention directly
+                            Moses’ lack of sleep, so presumably Ephrem is drawing on an
+                            extra-canonical source. The Lukan account does mention the disciples
+                            sleepiness during the event. Ephrem seems to distinguish in this passage
+                            between two kinds of sleep: one that is lower (terrestrial) and one that
+                            is upper (celestial). The latter is a kind of intelligible, cognizant
+                            sleep of eternal rest.</p></note></p>
+                <pb n="276"/>
+                <p style="text-align:left;">And Joshua son of Nun<note place="foot" xml:id="ftn31"
+                        n="31"><p rend="footnote text"> Joshua is regularly named along with his
+                            patronymic, since the Syriac for Joshua and Jesus are the same (as in
+                            Hebrew and Greek). The form found in the Armenian bible for “Joshua, Son
+                            of Nun” is normally <foreign xml:lang="hy">Յեսու որդի Նաւեայ</foreign> ,
+                            as in Exodus 33:11, Numbers 11:28, 13:16/17, Joshua 1:1, and elsewhere.
+                            The unusual form here (<foreign xml:lang="hy">Յեսու Նաւեանց</foreign> )
+                            is a kind of Armenization of the patronymic, treating it gramatically
+                            how Armenian <hi rend="italic">naxarar</hi> family names are treated.
+                            The same form is also found in the beginning of a commentary on Joshua
+                            and Judges by the fifth-century author <hi rend="italic">Ełišē</hi>
+                                (<foreign xml:lang="hy">Մեկնութիւն Յեսուայ եւ Դատաւորաց</foreign>):
+                                “<foreign xml:lang="hy">Կոչեցաւ Յեսու Նաւեանց ի Տեառնէ առաջնորդ
+                                Իսրայելի</foreign> ...” in Ełišē Vardapet, <hi rend="italic"
+                                >Matenagrut‘iwnk‘</hi>, Venice, 1859, 167.</p></note> was a dweller
+                    in the tent of meeting, as it is written.<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text"> Exod 33:11.</p></note>
+                </p>
+                <p style="text-align:left;">Through his dwelling in the holy place, he banished the
+                    sleep of his eyes,</p>
+                <p style="text-align:left;">And the desire of his body parts, and the dozing and
+                    sleep of his pupils. </p>
+                <p style="text-align:left;">20 Modesty dwelt in his heart, and wakefulness in his
+                    eyelids.</p>
+                <p style="text-align:left;">Sleep and desire are natural, and both were conquered by
+                        Hoshea.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">
+                            Hoshea was the name of Joshua before Moses changed his name: see Num
+                            13:8 and Num 13:16/17. The Armenian form here (<foreign xml:lang="hy"
+                                >Հոշայէ</foreign>) is derived from the Syriac (<hi rend="italic"
+                                >hušā‘</hi> ), and not from the Greek (<foreign xml:lang="gr"
+                                >Αυση</foreign>), even though the form found in the Armenian bible
+                                (<foreign xml:lang="hy">Աւսեայ</foreign>, appearing only in the
+                            genitive) is derived from the Greek.</p></note></p>
+                <p style="text-align:left;">Because he who conquers desire of the body is able to
+                    conquer sleep of the eyes.</p>
+                <p style="text-align:left;">He submitted himself to sleep for a little, but to
+                    desire not ever at all.</p>
+                <p style="text-align:left;">Sleep was struck off from his eyes, and desire did not
+                    rule in his heart.</p>
+                <p style="text-align:left;">25 Along with this same example, Elijah banished
+                        sleep<pb n="277"/> from his eyes,</p>
+                <p style="text-align:left;">Because for forty nights his eyelids fasted from
+                        sleep.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> 1
+                            Kgs 19:8.</p></note></p>
+                <p style="text-align:left;">And because he trained himself in watching in his
+                    journey on Mount Horeb,<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text"> 1 Kgs 19.</p></note></p>
+                <p style="text-align:left;">That watching of a short time made him a watcher
+                        forever.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">
+                            This seems to be another allusion to the transfiguration, as was made
+                            with Moses above.</p></note></p>
+                <p style="text-align:left;">Job was awake in his testing to seek and receive from
+                    his Lord</p>
+                <p style="text-align:left;">30 Thanksgiving instead of complaining and blessing
+                    instead of blasphemy.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text"> Job 1:20-22; 2:9-10.</p></note></p>
+                <p style="text-align:left;">Jonah kept watch during the nights in which he was in
+                    the womb of the fish;</p>
+                <p style="text-align:left;">He was buried in the fish and the sea, but sleep did not
+                    reign over his eyes.<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text"> Jonah 1:17-2:10.</p></note></p>
+                <p style="text-align:left;">The wakefulness of the son of Amathias surprised and
+                    amazed the big fish,</p>
+                <p style="text-align:left;">Because he did not even want to bend his knee so long as
+                    he was in the belly of the fish.</p>
+                <p style="text-align:left;">35 Jonah fled from God because he thought in his
+                    ignorance</p>
+                <p style="text-align:left;">That the Holy One and Glorious One dwells only in the
+                    land of Promise.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"
+                            > Jonah 1:3.</p></note></p>
+                <p style="text-align:left;">But when he descended into the floor of the sea, he
+                    learned from his own experience </p>
+                <p style="text-align:left;">That not only on the earth is that Holy One, but also in
+                    the abyss of the depths of the sea.<note place="foot" xml:id="ftn40" n="40"><p
+                            rend="footnote text"> Jonah 2.</p></note></p>
+                <pb n="278"/>
+                <p style="text-align:left;">Jeremiah was awake in the pit to make prayers for his
+                    murderers;</p>
+                <p style="text-align:left;">40 Through his occupation with God, he estranged himself
+                    from the foul pit.<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text"> Jer 38:6-13.</p></note></p>
+                <p style="text-align:left;">Ezekiel banished his sleep for four hundred and thirty
+                        days,<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"> Ezek
+                            4:4-8.</p></note></p>
+                <p style="text-align:left;">For he fasted from sleep, as he fasted from food.</p>
+                <p style="text-align:left;">By the same measure [with which he measured] his food,
+                    he measured the sleep of his eyes,</p>
+                <p style="text-align:left;">And since his food was little, he would only moisten his
+                        palate.<note place="foot" xml:id="ftn43" n="43"><p rend="footnote text">
+                            Ezek 4:9-17.</p></note></p>
+                <p style="text-align:left;">45 By the [measure of the] little water which he would
+                    drink, he would lead eye to eye for a short time,</p>
+                <p style="text-align:left;">And before having slept, right on the spot he would wake
+                    up.</p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 11 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 2]</p>
+                <p style="text-align:center;">Hymn of the Second Night</p>
+                <p style="text-align:center;">Blessed is the one who comes and makes glad the
+                    watchers at his appearance.</p>
+                <p>1 Be sober a little while, O virtuous ones, lifting up the heaviness of
+                    darkness.</p>
+                <p>Because behold, a little while<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text"> The language here of “a little while” hearkens to
+                            Jesus’ farewell discourse in the gospel of John (see John 16:16).
+                            Immediately following this discourse is the incident at Gethsemane,
+                            where Jesus tells the disciples to watch and they fall asleep. This is
+                            brought up in the verses of this <hi rend="italic">Kc‘urd</hi> that
+                            immediately follow. Thus, Ephrem encourages his watchers not to fall
+                            asleep as the disciples did.</p></note> and [night] has completed its
+                    hours, and morning comes and makes us glad.</p>
+                <p>At night, the disciples kept watch, yet because they<pb n="279"/> dozed off,</p>
+                <p>Out of wrath, the teacher severely reproached the twelve.<note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text"> Matt 26:36-46 with parallels
+                            in Mark 14:32-42, Luke 22:40-46.</p></note></p>
+                <p>5 The establisher of that nature would not have compelled them [sc. to stay
+                    awake],</p>
+                <p>If he had not known that humanity is able to conquer sleep;</p>
+                <p>And he would not have laid down a commandment again,</p>
+                <p>If he had not known that [sleep] could be conquered.</p>
+                <p>Scripture says, “Be watchers, to guard the hour of the bridegroom who is to
+                        come.”<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"> This
+                            appears to be a reference to the parable of the bridegroom, although
+                            this exact language is not found in the gospel passages (see Matt
+                            25:1-13). Ephrem may also have in mind Mark 13:32-37.</p></note></p>
+                <p>10 He gave us four watches<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text"> The four watches of the night are mentioned in
+                            Mark 13:35 (evening, midnight, cockcrow, and dawn).</p></note> to guard,
+                    throughout all the nights of our life,</p>
+                <p>So that in whichever of them he comes, he will find his church awake.</p>
+                <p>Although he hid his day and his hour, and did not reveal the hour of his
+                    dawning,</p>
+                <p>Yet behold, he foretold through the four parts that in the night his revelation
+                    is made.<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text"> Mark
+                            13:32-37.</p></note></p>
+                <p>Let us keep therefore the hour of the groom, as we received a commandment,</p>
+                <p>15 Because even if he does not come in our days, his trustworthiness will not
+                    defraud us.<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">
+                            Ephrem’s point is that even if the Second Coming does not occur in their
+                            days, they will still get a reward for having kept watch.</p></note></p>
+                <p>“As you will be found, you will be led,”<note place="foot" xml:id="ftn50" n="50"
+                            ><p rend="footnote text"> This doesn’t seem to correspond to any
+                            canonical biblical passage, so it likely derives from an extra-canonical
+                            source.</p></note> said the teacher<pb n="280"/> to his disciples.</p>
+                <p>Let us chase away sleep from our eyes, to be ready at his coming.</p>
+                <p>Unexpectedly, the lightning flashes; thunder cracks and causes fright.</p>
+                <p>Unexpectedly, the firstborn hastens, and he stirs the powers of the heavens.<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text"> For thunder,
+                            lightning, and other celestial activity in regards to the return of
+                            Christ, see Matt 24: 27-31 and Luke 17:24.</p></note></p>
+                <p>20 The violence of lightning flashes and the terrors of all thunderings</p>
+                <p>Are as a breath and as nothing in the eyes of the revelation of Christ.</p>
+                <p>The sun grows dark from his [sc. Christ’s] face, and the moon is obstructed from
+                    the face of his glory.<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text"> Matt 24:29.</p></note></p>
+                <p>Darkness is erased and diminished through the dawning of the great sign.<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text"> Matt
+                        24:30.</p></note></p>
+                <p>Sleep and slumber of the eyes falls away, and desire of body parts is
+                    removed,</p>
+                <p>25 And one wakefulness spreads out, which does not diminish.<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text"> Ephrem here seems to envision
+                            a vigilance enveloping everyone and everything. This vigilance is single
+                            and whole, and will continue without ceasing, allowing for a pure
+                            continuity of consciousness. On animals keeping watch, see for example
+                            the reference to the wild beasts keeping watch with Daniel in the den at
+                                <hi rend="italic">Kc‘urd</hi> 13.2.</p></note></p>
+                <p>Everyone who keeps<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text"> Following mss C: <foreign xml:lang="hy"
+                                >պահէ</foreign> instead of <foreign xml:lang="hy"
+                            >պատմէ</foreign>.</p></note> the hours of the groom, he makes glad at
+                    his appearance.</p>
+                <p>Because those who remove the heaviness from their life are right to put to sleep
+                    their body parts.</p>
+                <p>Let us keep watch as much as we are able, and not less<pb n="281"/> than our
+                    ability.</p>
+                <p>Our laziness is reproached by the strong ones who toil among us, for we did not
+                    keep watch in the evening. </p>
+                <p>30 Let us by no means be half-awake,<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">
+                            <foreign xml:lang="hy">ծանրարթունք</foreign>, literally “heavily-awake,”
+                            perhaps a reference to keeping watch in a hypnagogic state.</p></note>
+                    for there is one who keeps watch the whole night; let us keep watch at least
+                        half.<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">
+                            Ephrem indicates that his group keeping watch is not the most extreme
+                            ascetically, keeping vigil as they do for around half the night. There
+                            are others who shun sleep even longer, keeping watch throughout the
+                            entire night.</p></note></p>
+                <p>What benefit is it that we slept yesterday, since we will sleep again today?</p>
+                <p>Watchers abound in prayers, while sleepers are numbered by their dreams.<note
+                        place="foot" xml:id="ftn58" n="58"><p rend="footnote text"> Here begins a
+                            contrast between the praying of watchers and the dreaming of sleepers.
+                            Dreams are regarded as empty and evanescent at best, with the dangerous
+                            potential to induce passions and sin through deceptive and foul visions
+                            (dreams). Furthermore, there is no lasting benefit brought from sleep or
+                            its attendant dreams, as one simply becomes tired again the next day.
+                            Watching with prayer on the other hand, brings both present and lasting
+                            benefit to the practitioner, purifying them in and through the act of
+                            watching, while storing up future benefits and recompense that will be
+                            reaped at the revelation of Christ.</p></note></p>
+                <p>The breaths of watchers are purified and their minds become chaste,</p>
+                <p>While in the breath of sleepers the error of deceptive visions is gathered.</p>
+                <p>35 The breath of watchers is glorified through their occupation with God,</p>
+                <p>While the breath of sleepers is a game for the Evil One.</p>
+                <p>In their dreams, they are befouled through their visions, and passions seize
+                    power over them,</p>
+                <p>And sleep, which they thought was rest, became entirely disturbed.<pb n="282"
+                    /></p>
+                <p>They wander through many places and roam, and they suffer to no benefit.</p>
+                <p>40 In all directions they soared and returned, although they were not removed
+                    from their bodies.</p>
+                <p>Because they were not engaged in the watching of God, Satan seized power over
+                    their visions.</p>
+                <p>Because they did not gather at the door of their Lord, they were dispersed
+                    through their visions to their souls’ harm.<note place="foot" xml:id="ftn59"
+                        n="59"><p rend="footnote text"> This section likely serves as a warning to
+                            those of Ephrem’s community who have skipped the vigil for sleep (or
+                            were tempted to do so).</p></note></p>
+                <p>The benefits of watchers were multiplied unto them, while the dreams of sleepers
+                    were multiplied unto them.</p>
+                <p>The toil of watchers is preserved, while the accumulation of dreams turns to
+                    nothing.</p>
+                <p>45 May there be a memorial for me among you, O watchers,</p>
+                <p>Who lifted up the heaviness, because others did not keep watch.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text"> The very communal idea
+                            expressed here and alluded to also in verse 1 of this <hi rend="italic"
+                                >Kc‘urd</hi> is that those keeping watch lift the heaviness for
+                            those who did not keep vigil. On the idea of the vigil of some making up
+                            for the neglect or sin of others, see also <hi rend="italic">Kc‘urd</hi>
+                            16.38.</p></note></p>
+                <p>Behold I exhort the multitude, that they may become awake.</p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 12 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 3]</p>
+                <p style="text-align:center;">Hymn of the Third Night</p>
+                <p style="text-align:center;">May the watchers, who became worthy to become a
+                    companion of the holy seraphim, thank You.</p>
+                <p>1 Do not grant authority to sleep to reign over your body<pb n="283"/> parts;</p>
+                <p>Hear the calamities, which it worked on earth; shudder with fear, and flee from
+                        it.<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text"> In the
+                            following <hi rend="italic">Kc‘urd</hi>, Ephrem brings forth a number of
+                            examples from figures in the Hebrew Bible, who had bad things happen to
+                            them in their sleep. As is often the case with Ephrem, his
+                            interpretation and presentation of some of these passages is often
+                            unique and atypical when compared with late antique Greek and Latin
+                            exegetes and commentators of Scripture. See, for example, his
+                            presentation of Adam in lines 3-4 and Lot and his daugthers in lines
+                            7-8.</p></note></p>
+                <p>Adam was plundered in sleep, by the rib that was taken from him.</p>
+                <p>In wakefulness, he was one; when he slept, he was divided, and turned into
+                        two.<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text"> Gen
+                            2:21-22. </p></note></p>
+                <p>5 Noah was greatly ridiculed through his sleep, by the one who was born from
+                    him;</p>
+                <p>In wakefulness he was sober and temperate; in his sleep, he became naked and was
+                    exposed to shame.<note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text"> Gen 9:20-27.</p></note></p>
+                <p>Lot also, through his sleep, was plundered and did not sense it.</p>
+                <p>The wakeful ones became wealthy from his treasure, and from his seed they turned
+                    into nations.<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">
+                            Gen 19:30-38.</p></note></p>
+                <p>For if sleep worked this against the just, and they did not sense it while it was
+                    robbing them,</p>
+                <p>10 How much more ought we sinners to fear sleep so that it not reign over us!</p>
+                <p>The firstborn of Egypt died in sleep, and that misfortunate one [sc. Pharaoh] did
+                    not sense it;</p>
+                <p>But after he awoke and got up, then he felt his blow.<note place="foot"
+                        xml:id="ftn65" n="65"><p rend="footnote text"> Exod 12:29-30.</p></note><pb
+                        n="284"/></p>
+                <p>Sisera, who through his gigantic strength slaughtered the nation of the
+                    Hebrews,</p>
+                <p>Became as great in his wakefulness, as he was weakened through sleep.</p>
+                <p>15 For Jael rose up against him and drove a stake through his jaws;</p>
+                <p>Sleep made him into a disgrace, for by the hand of a woman it killed him.<note
+                        place="foot" xml:id="ftn66" n="66"><p rend="footnote text"> Judg
+                            4:12-22.</p></note></p>
+                <p>Samson,<note place="foot" xml:id="ftn67" n="67"><p rend="footnote text"> The
+                            story of Samson is told in Judg 13-16.</p></note> who had taken an
+                        oath,<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"> Judg
+                            13:2-7 and Judg 16:17.</p></note> who from the womb had been clothed
+                    with gigantic strength,</p>
+                <p>Who had burned Philistia<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text"> Judg 15:4-5.</p></note> — through a woman, the
+                    Philistines blinded his eyes.<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text"> Judg 16:18-22.</p></note>
+                </p>
+                <p>He who killed that lion<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text"> Judg 14:5-6.</p></note> and with foxes burned
+                        Philistia,<note place="foot" xml:id="ftn72" n="72"><p rend="footnote text">
+                            Judg 15:4-5.</p></note></p>
+                <p>20 Sleep duped and robbed him, and in the daytime tied him to a millstone.</p>
+                <p>At night, Midian was pillaged by the wakeful ones, who were with Gideon.<note
+                        place="foot" xml:id="ftn73" n="73"><p rend="footnote text"> This episode is
+                            narrated in Judg 7.</p></note></p>
+                <p>At the sound of the trumpets, Midian was roused and woke up, arose and struck
+                    itself with the sword.<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text"> Judg 7:19-23.</p></note></p>
+                <p>The hands of the wakeful ones were not smeared in the blood of the drowsy
+                    sleepers.</p>
+                <p>By the lanterns and shouts of the wakeful one, it was polluted in its own
+                    blood.</p>
+                <p>25 Gideon was vigilant in prayer,<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text"> Judg 7:15.</p></note> and dreams were making
+                    Midian flow.<pb n="285"/></p>
+                <p>They prophesied victory to it, but defeat came to it.</p>
+                <p>Saul was plundered in sleep, for he lost the hem of his robe.<note place="foot"
+                        xml:id="ftn76" n="76"><p rend="footnote text"> 1 Sam 24:1-8.</p></note></p>
+                <p>Through the hem which [David] cut, he took the royal rule from him. </p>
+                <p>And because he [sc. Saul] did not shudder in fear from it [sc. sleep], he
+                    continued and slept again.</p>
+                <p>30 He remained deprived of his weapon, because his spear was taken from him.<note
+                        place="foot" xml:id="ftn77" n="77"><p rend="footnote text"> 1 Sam
+                            26:1-12.</p></note></p>
+                <p>Life after that sleep, David granted to him as a gift;</p>
+                <p>For after that sleep which was in the cave, he slept an eternal sleep. </p>
+                <p>And because the Rabshakeh blasphemed and slept, an angel smashed his army,<note
+                        place="foot" xml:id="ftn78" n="78"><p rend="footnote text"> The narrative
+                            involving the Rabshakeh of Assyria is told in 2 Kgs
+                    18-19.</p></note></p>
+                <p>And the seed that he sowed in the day, he reaped in the night. </p>
+                <p>35 Behold the Rabshakeh was sleeping on his couch, while Hezekiah was awake in
+                        prayer.<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">
+                            Judg 19:14-34.</p></note></p>
+                <p>The sleepless one descended at the prayers of the wakeful one, and slaughtered
+                    the camps of the sleepers.<note place="foot" xml:id="ftn80" n="80"><p
+                            rend="footnote text"> Judg 19:35.</p></note></p>
+                <p>Sion was full of prayers, and the camp of Assyria with dead people.</p>
+                <p>The watchers made the sleepers who blasphemed slumber in an eternal sleep.</p>
+                <p>In the night, Babylon was pillaged by the Medes, who were vigilant.<note
+                        place="foot" xml:id="ftn81" n="81"><p rend="footnote text"> Dan
+                        5:30-31.</p></note><pb n="286"/></p>
+                <p>40 Sleep handed over the marvelous one [sc. Babylon] to death along with the
+                    whole country.</p>
+                <p>For he who sleeps along with the wakeful one — they are one, and they are not
+                    one.</p>
+                <p>The rest of sleep does not endure, but the recompense of prayers is stored
+                    up.</p>
+                <p>This labor which is in our body parts, multiplies for us benefit in the
+                    heights.</p>
+                <p>Our labor passes away, but our reward endures forever.<note place="foot"
+                        xml:id="ftn82" n="82"><p rend="footnote text"> The last few verses of this
+                                <hi rend="italic">Kc‘urd</hi> reiterate the latter half of <hi
+                                rend="italic">Kc‘urd</hi> 11.</p></note></p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 13 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 4]</p>
+                <p style="text-align:center;">Hymn of the Fourth Night</p>
+                <p style="text-align:center;">Blessed is He who made worthy the sons of Adam to sing
+                    psalms with the angels.</p>
+                <p>1 Blessed are the watchers, who in all nights are arrayed against sleep. </p>
+                <p>Daniel was awake in the den, and the wild beasts were keeping watch with
+                        him;<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text"> Dan
+                            6:19-23.</p></note></p>
+                <p>The night was too short to give thanks for his salvation that came about for
+                    him.</p>
+                <p>Darius also drove away sleep; he estranged himself also from delicacies.</p>
+                <p>5 He did not give rest to his body because of his love for Daniel.<note
+                        place="foot" xml:id="ftn84" n="84"><p rend="footnote text"> Dan
+                        6:18.</p></note></p>
+                <p>Throughout that time in which Daniel fasted from the delicacies of the
+                    kingdom,</p>
+                <p>He was sober in all his hours for he was awake in all his hours.<note
+                        place="foot" xml:id="ftn85" n="85"><p rend="footnote text"> Dan
+                        1:8-17.</p></note></p>
+                <p>He drove away sleep from his pupils, in order to call on<pb n="287"/> his God,</p>
+                <p>In order that by sign and manifestation, insults might be blocked from his
+                    people.</p>
+                <p>10 Through vigil he persuaded God to show him the dream of the king.<note
+                        place="foot" xml:id="ftn86" n="86"><p rend="footnote text"> The reference is
+                            to Daniel receiving the interpretation of King Nebuchadnezzar as
+                            narrated in Dan 2. Dan 2:19 specifically mentions that the
+                            interpretation to the dream was given to Daniel in a vision at night.
+                        </p></note></p>
+                <p>And through his and his companions’ vigil, [God] revealed to him [sc. Daniel] the
+                    dream and His [sc. God’s] interpretation.<note place="foot" xml:id="ftn87"
+                        n="87"><p rend="footnote text"> Dan 2:17-19.</p></note></p>
+                <p>The Chaldaeans and sorcerers entered and were confounded, because they did not
+                    comprehend it.<note place="foot" xml:id="ftn88" n="88"><p rend="footnote text">
+                            Dan 2:1-11.</p></note></p>
+                <p>The watcher entered and told the dream, and along with the dream its
+                    interpretation.</p>
+                <p>Because that which the king saw as he was sleeping in the house of his
+                    kingdom,</p>
+                <p>15 The prayers of the watchers made vividly clear before the king and his
+                    companions. </p>
+                <p>The Chaldeans were saved by the vigil that the youths kept,<note place="foot"
+                        xml:id="ftn89" n="89"><p rend="footnote text"> Dan 2:24.</p></note></p>
+                <p>Because vigil shone upon it and revealed the dream that was concealed from the
+                    sorcerers. </p>
+                <p>Through wakefulness and soberness, you are similar to the sleepless ones on
+                    high,</p>
+                <p>And to the prophets through your halleluias, and to the Seraphim through your
+                        holinesses,<note place="foot" xml:id="ftn90" n="90"><p rend="footnote text">
+                            Perhaps a reference to an early form of the Trisagion. For the
+                            association with Seraphim, cf Isa 6:2-3.</p></note></p>
+                <p>20 To the assembly that blessed in Ephrath<note place="foot" xml:id="ftn91"
+                        n="91"><p rend="footnote text"> i.e. Bethlehem; see Gen 35:19, for the
+                            association of these two places.</p></note> at night at<pb n="288"/> the
+                    dawning of our Savior.<note place="foot" xml:id="ftn92" n="92"><p
+                            rend="footnote text"> Luke 2:13-14.</p></note></p>
+                <p>Behold, may your hosts resemble<note place="foot" xml:id="ftn93" n="93"><p
+                            rend="footnote text"> Corrected <foreign xml:lang="hy"
+                                >նմանեցին</foreign> to <foreign xml:lang="hy"
+                            >նմանեսցին</foreign>.</p></note> them through the blessing<note
+                        place="foot" xml:id="ftn94" n="94"><p rend="footnote text"> Corrected
+                                <foreign xml:lang="hy">աւրհնութեան</foreign> to <foreign
+                                xml:lang="hy">աւրհնութեամբ</foreign>.</p></note> that your mouths
+                    are thundering. </p>
+                <p>The Magi who had sensed concerning the only-begotten Son because they had
+                    banished the sleep of their eyes,</p>
+                <p>Were hastening throughout all the nights, with the illuminating star guiding
+                        them.<note place="foot" xml:id="ftn95" n="95"><p rend="footnote text"> Matt
+                            2:1-10.</p></note></p>
+                <p>The apostles kept watch the whole night to catch fish, but did not find any.</p>
+                <p>25 In the morning their minds rejoiced at the great catch they had found.<note
+                        place="foot" xml:id="ftn96" n="96"><p rend="footnote text"> John
+                            21:3-11.</p></note></p>
+                <p>Our Lord passed the night in prayer once it became evening, in order to be an
+                    example to watchers.<note place="foot" xml:id="ftn97" n="97"><p
+                            rend="footnote text"> See, for example, Matt 14:23. Here and to the end
+                            of the <hi rend="italic">Kc‘urd</hi>, Christ is presented as the watcher
+                                <hi rend="italic">par excellence</hi>.</p></note></p>
+                <p>Blessed are you, who studied with that teacher, the firstborn son who taught
+                    you.</p>
+                <p>He is Lord of both — wakefulness and sleepiness — if he came into both, since
+                    both are for us.</p>
+                <p>As he slept for us, so also he kept watch for us.</p>
+                <p>30 Through sleep he alluded to his body, and through watching he banished our
+                    bouts of sleepiness. </p>
+                <p>Because he came into the world, which is subject to wakefulness and to
+                    sleepiness,</p>
+                <p>He subjected himself to both, since he was close to both.</p>
+                <p>Because if watchfulness were not good, then the Son would not have become an
+                    example of it;<pb n="289"/></p>
+                <p>Without keeping watch, no one is able to alienate oneself from all evils.</p>
+                <p>35 Let us become disciples of Him rightly, so that his life may become perfected
+                    in us.</p>
+                <p>Let us not become disciples half-heartedly, lest we become sleepers and not
+                    watchers.</p>
+                <p>The Son, who was not in need of keeping watch, became a watcher for our sake.</p>
+                <p>He fashioned it as a weapon and gave it to us, so that our discipleship would
+                    bear fruit in virtue. </p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 14 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 5]</p>
+                <p style="text-align:center;">Hymn of the Fifth Night</p>
+                <p style="text-align:center;">Blessing to the Son, who makes glad the watchers by
+                    His dawning.</p>
+                <p>1 King David, who thought to build a temple for God,<note place="foot"
+                        xml:id="ftn98" n="98"><p rend="footnote text"> This <hi rend="italic"
+                                >Kc‘urd</hi> along with the following one treat the Biblical episode
+                            of David intending to build a house (temple) for God, and being told by
+                            God through the prophet Nathan that he will not be able to. In this and
+                            the following <hi rend="italic">Kc‘urd</hi>, Ephrem’s driving motivation
+                            is to explain why David was not allowed by God to build the temple. The
+                            relevant biblical passages are 2 Sam 6-7 and especially Ps 131(132),
+                            upon which Ephrem is more dependent than the narrative in 2 Sam,
+                            although as usual he elaborates upon the biblical narrative. It is also
+                            possible that he is drawing upon extra-canonical texts or oral
+                            traditions in his interpretation.</p></note></p>
+                <p>Made a voluntary covenant to not give sleep to his eyes.<note place="foot"
+                        xml:id="ftn99" n="99"><p rend="footnote text"> Ps 131(132):
+                    2-5.</p></note></p>
+                <p>He distanced himself from his own house, because he saw that far away </p>
+                <p>That ark, which was full of the mystery of Christ,<note place="foot"
+                        xml:id="ftn100" n="100"><p rend="footnote text"> Heb 9.</p></note> had been
+                        neglected.<note place="foot" xml:id="ftn101" n="101"><p rend="footnote text"
+                            > 2 Sam 6:2.</p></note></p>
+                <p>5 The king estranged himself from his own house and<pb n="290"/> from the mattress
+                    of his bed;</p>
+                <p>He pitched for himself a tent instead of a house, and spread out sackcloth on the
+                    ground. </p>
+                <p>And so that his body would not become heavy, he gave it food in moderation.</p>
+                <p>He deprived himself of everything, so that he would be capable of fulfilling his
+                    covenant.</p>
+                <p>From his house and his bed David was able to estrange himself, </p>
+                <p>10 While from his sleep, how was he able to estrange himself?</p>
+                <p>He wanted to know the place, and he had set his desire on building the temple. </p>
+                <p>And he made a covenant for this reason, and he actualized it through his oath. </p>
+                <p>He swore to the Lord and made a covenant with him to not give sleep to his eyes, </p>
+                <p>Nor slumber to his eyelids until he find the place of the Lord.<note place="foot"
+                        xml:id="ftn102" n="102"><p rend="footnote text"> Ps 131(132):
+                        2-5.</p></note></p>
+                <p>15 He descended into great humility until he saw that place;</p>
+                <p>And in the hour that he learned of the place, the covenant of his mouth was
+                    fulfilled.</p>
+                <p>He did not want to offer anything other than things from that place,<note
+                        place="foot" xml:id="ftn103" n="103"><p rend="footnote text"> The episode
+                            recounted in this stanza perhaps refers to 2 Sam 24:15-25.
+                            Alternatively, it could be a reference to 2 Sam 6:17.</p></note></p>
+                <p>So he offered what was found from the same and from the same place.</p>
+                <p>The king’s oxen were found in the same place, and it was not lacking wood.</p>
+                <p>20 With the wood and oxen that were of that place, he sacrificed to the Lord of
+                    that place.<pb n="291"/></p>
+                <p>And because it was a prodigious oath, the Lord worked in him greater things. </p>
+                <p>Because through the fire from above, his sacrifice became acceptable.<note
+                        place="foot" xml:id="ftn104" n="104"><p rend="footnote text"> This could be
+                            a reference to Solomon’s sacrifice at the dedication of the temple in 1
+                            Kgs 8 and 2 Chr 7:1.</p></note>
+                </p>
+                <p>God showed him the place that he sought, and he blocked death from his nation. </p>
+                <p>And why did [God] not allow him to build the house?</p>
+                <p>25 The great things that are not worked, the Lord his benefactor worked for
+                        him,<note place="foot" xml:id="ftn105" n="105"><p rend="footnote text">
+                            Perhaps a reference to 2 Sam 7:8-13.</p></note>
+                </p>
+                <p>And God prohibited him who was smaller than all,<note place="foot"
+                        xml:id="ftn106" n="106"><p rend="footnote text"> 1 Sam 16:11.</p></note>
+                    because of his transgressions. </p>
+                <p>And what actually was his transgression, which prohibited him from building the
+                    house?</p>
+                <p>“You shed much blood, and it is not fitting,” says Scripture, “that you should
+                    build it.”<note place="foot" xml:id="ftn107" n="107"><p rend="footnote text"> 1
+                            Chr 22:8; 1 Chr 28:3; see also 1 Kgs 5:3.</p></note></p>
+                <p>The first blood was Goliath’s,<note place="foot" xml:id="ftn108" n="108"><p
+                            rend="footnote text"> 1 Sam 17.</p></note> and after him the
+                        Amalekites’.<note place="foot" xml:id="ftn109" n="109"><p
+                            rend="footnote text"> 1 Sam 30.</p></note></p>
+                <p>30 And yet not without God did he slaughter the former and the latter. </p>
+                <p>He would ask Him [sc. God], and then he would go up against the nation against
+                    whom he would rampage.<note place="foot" xml:id="ftn110" n="110"><p
+                            rend="footnote text"> 1 Sam 23:2-4; 1 Sam 30:8; 2 Sam 2:1; 2 Sam
+                            5:19-23.</p></note></p>
+                <p>His slaughter is less than that one who slaughtered the thirty-two kings.<note
+                        place="foot" xml:id="ftn111" n="111"><p rend="footnote text"> See Josh
+                            12:7-24, although the biblical passage mentions thirty-one.</p></note>
+                </p>
+                <p>He did not shed blood among his people, except for the blood of Uriah,<note
+                        place="foot" xml:id="ftn112" n="112"><p rend="footnote text"> 2 Sam
+                        11.</p></note><pb n="292"/>
+                </p>
+                <p>And Uriah himself was Hittite and not Hebrew.<note place="foot" xml:id="ftn113"
+                        n="113"><p rend="footnote text"> 2 Sam 11:3.</p></note></p>
+                <p>35 He did not make a demand on Nabal due to his insult because Abigail beseeched
+                        him,<note place="foot" xml:id="ftn114" n="114"><p rend="footnote text"> 1
+                            Sam 25.</p></note></p>
+                <p>And he had pity on Saul for the sake of God and Jonathan,<note place="foot"
+                        xml:id="ftn115" n="115"><p rend="footnote text"> See the episodes recounted
+                            in 1 Sam 24-26.</p></note></p>
+                <p>He who spared his killer from the murder of the men who were with him,<note
+                        place="foot" xml:id="ftn116" n="116"><p rend="footnote text"> 1 Sam
+                            24:1-7.</p></note></p>
+                <p>How was he unjust with regard to killing vainly the sons of his own nation?</p>
+                <p>Could it be that perhaps this same transgression stayed and remained until
+                    Nathan?</p>
+                <p>40 And that Nathan nullified his covenant in this way, when he said to him, “you
+                    will not build it.”<note place="foot" xml:id="ftn117" n="117"><p
+                            rend="footnote text"> 2 Sam 7.</p></note></p>
+                <p>But so that heaviness should not be compounded upon David’s body when he grew
+                    old,</p>
+                <p>He postponed his punishment after him, so that the old man would be in peace.</p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 15 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 6]</p>
+                <p style="text-align:center;">Hymn of the Sixth Night</p>
+                <p style="text-align:center;">Why was David prevented from building the house? And
+                    whether it was because he shed much blood that [God] prohibited him.</p>
+                <p>1 If it was because David slaughtered the nations that it was not lawful [for
+                    him] to build the house,</p>
+                <p>Then everyone who slaughters like him, is under blame like him.</p>
+                <p>If that is so, then Abraham is blameworthy, who slaughtered the five kings,<note
+                        place="foot" xml:id="ftn118" n="118"><p rend="footnote text"> Gen
+                            14:8-16.</p></note><pb n="293"/></p>
+                <p>And Moses who slaughtered Midian<note place="foot" xml:id="ftn119" n="119"><p
+                            rend="footnote text"> Perhaps a reference to Num 25:16-18.</p></note>
+                    and Joshua who slaughtered Canaan.<note place="foot" xml:id="ftn120" n="120"><p
+                            rend="footnote text"> See throughout the book of Joshua.</p></note></p>
+                <p>5 Asa is blameworthy who slaughtered the Indians,<note place="foot"
+                        xml:id="ftn121" n="121"><p rend="footnote text"> In the biblical account,
+                            Asa slaughtered the Ethiopians. See 2 Chr 14:9-13.</p></note> and
+                    Hesechiah who slaughtered Assyria,<note place="foot" xml:id="ftn122" n="122"><p
+                            rend="footnote text"> 2 Kgs 19.</p></note></p>
+                <p>And the Maccabees who slaughtered Ionia,<note place="foot" xml:id="ftn123"
+                        n="123"><p rend="footnote text"> i.e. the Seleucids; this is recounted in
+                            1-2 Mac.</p></note> and Zerubbabel who slaughtered Macedonia.<note
+                        place="foot" xml:id="ftn124" n="124"><p rend="footnote text"> The biblical
+                            account regarding Zerubbabel, who appears in Hag 1-2, does not mention
+                            him slaughtering Macedonia.</p></note></p>
+                <p>Yet if they are not blamed for the blood of those peoples which they shed,</p>
+                <p>Why is only David blamed because of this?</p>
+                <p>If the others were blameworthy, [God] would not let Moses fail to mention it.</p>
+                <p>10 Moses — he is great in reproaches, for he carries the reproaches of the
+                        rock.<note place="foot" xml:id="ftn125" n="125"><p rend="footnote text">
+                            Presumably a reference to Num 20:8-12. </p></note></p>
+                <p>Moses slaughtered one of his people, and was not blamed.<note place="foot"
+                        xml:id="ftn126" n="126"><p rend="footnote text"> Exod
+                    32:25-29.</p></note></p>
+                <p>Neither was Elijah, who with his own hand slaughtered the prophets of Baal.<note
+                        place="foot" xml:id="ftn127" n="127"><p rend="footnote text"> 1 Kgs
+                            18:40.</p></note></p>
+                <p>Although Moses slaughtered the Hebrews, his face was radiant with glory.<note
+                        place="foot" xml:id="ftn128" n="128"><p rend="footnote text"> Exod
+                            34:29-35.</p></note></p>
+                <p>And Elijah who slaughtered the pagan priests, was taken up in a chariot to
+                        heaven.<note place="foot" xml:id="ftn129" n="129"><p rend="footnote text"> 2
+                            Kgs 2:9-12.</p></note><pb n="294"/>
+                </p>
+                <p>15 To Jehu who slaughtered the prophets of Baal,<note place="foot"
+                        xml:id="ftn130" n="130"><p rend="footnote text"> For Jehu, see 2 Kgs 9-10.
+                            The slaughtering in question here is mentioned in 2 Kgs 10:11 and 2 Kgs
+                            10:18-27.</p></note> [God] gave the equipment of the cult,</p>
+                <p>When [God] ordained that for four generations the crown be for his
+                        offspring.<note place="foot" xml:id="ftn131" n="131"><p rend="footnote text"
+                            > 2 Kgs 10:30.</p></note></p>
+                <p>Yet David, who is equal with his companions, why did [God] discriminate him from
+                    his companions?</p>
+                <p>And if he did not discriminate him, then why did he deprive him of building the
+                    temple?</p>
+                <p>His companions received the good news, and for him [sc. David] a heap of
+                    murders.</p>
+                <p>20 Moses made the tent of meeting,<note place="foot" xml:id="ftn132" n="132"><p
+                            rend="footnote text"> Exod 33:7-11.</p></note> but [God] prohibited him
+                    [sc. David] from building the house.</p>
+                <p>[God] did not deprive him on account of the nations, who were numbered among the
+                    holy ones,</p>
+                <p>But rather, [God] spared him from the hardship of the oath, by hastening to
+                    dissolve the oath.</p>
+                <p>If [David] had not hastened to swear, he would have built the temple.</p>
+                <p>The oath, which he swore on account of the temple — <hi rend="italic">it</hi>
+                    deprived him of building it.</p>
+                <p>25 For he swore greater than his ability: that he would not enter into his
+                    house,</p>
+                <p>And that he would not go up to his bed, and that he would not give sleep to his
+                        eyes.<note place="foot" xml:id="ftn133" n="133"><p rend="footnote text"> Ps
+                            131(132): 2-5.</p></note></p>
+                <p>Now so that he would not be in weariness until he had completed the structure</p>
+                <p>Before he even began the structure, [God] brought to fulfillment his oath by the
+                    prohibition.</p>
+                <p>[God] wanted to grant good things to him for the sake<pb n="295"/> of his
+                    trustworthiness,</p>
+                <p>30 So [God] prohibited him under the guise of blame, since he [sc. David] is far
+                    from slander.</p>
+                <p>Because if on account of blame [God] would have prohibited him from building
+                    it,</p>
+                <p>Then Uriah would have been before Him [sc. God] to remind Him at that time.</p>
+                <p>But Uriah was nowhere to be found in order for [God] to remember, because David
+                    had been pardoned through Nathan.<note place="foot" xml:id="ftn134" n="134"><p
+                            rend="footnote text"> 2 Sam 12:13.</p></note></p>
+                <p>The blame of the righteous ones hastened to Him [sc. God], who surrounded Him
+                    [sc. God] and were not blamed. </p>
+                <p>35 Or was he who had received along with the temple the Spirit of holiness,<note
+                        place="foot" xml:id="ftn135" n="135"><p rend="footnote text"> 1 Sam
+                            16:13</p></note></p>
+                <p>And had been glorified and become worthy of the Spirit, was he unworthy to build
+                    the temple?</p>
+                <p>And if it was said to him in earnest, then why did [God] demand of him [sc.
+                    David]</p>
+                <p>That which was not demanded from a single one of the righteous?</p>
+                <p>And if all the righteous who had slaughtered — whether from the people or from
+                    the nations — were not blamed,</p>
+                <p>40 How could [God] have blamed David? On the contrary, he is blessed and without
+                    blame like his companions.</p>
+                <p style="text-align:center;"><hi rend="italic">Kc‘urd</hi> 16 [<hi rend="italic"
+                        >Gišeroy kc‘urd</hi> 7]</p>
+                <p style="text-align:center;">Hymn of the Seventh Night</p>
+                <p style="text-align:center;">[Title and beginning lost]<note place="foot"
+                        xml:id="ftn136" n="136"><p rend="footnote text"> The title and first few
+                            lines of this <hi rend="italic">Kc‘urd</hi> are lost.</p></note><pb
+                        n="296"/></p>
+                <p>1 …as the number of his years is prolonged.</p>
+                <p>Keeping watch, which is heavy for everyone, is very light for them.<note
+                        place="foot" xml:id="ftn137" n="137"><p rend="footnote text"> This <hi
+                                rend="italic">Kc‘urd</hi> involves an extended comparison between
+                            the vigil of groomsmen or wedding guests of an earthly groom who stay up
+                            late to celebrate the wedding, with the vigil of the groomsmen of the
+                            heavenly groom (Christ), i.e. those keeping vigil for whom Ephrem writes
+                            this <hi rend="italic">Kc‘urd</hi>.</p></note></p>
+                <p>You are groomsmen, who were invited to the wedding of the groom who does not
+                    die.</p>
+                <p>Let us drive away sleep from our pupils through the blessing of our lips.</p>
+                <p>5 For if they become joyful there, by the joy that compunction gives to souls</p>
+                <p>How much more should they become joyful here, by the joy that gathers its seed a
+                        hundredfold!<note place="foot" xml:id="ftn138" n="138"><p
+                            rend="footnote text"> There is a reference here to the Parable of the
+                            Sower, found in Matt 13:1-9, Mark 4:1-9, and Luke 8:4-8.</p></note></p>
+                <p>And if there — soundings of trumpets, here — harps of psalms;</p>
+                <p>There — accursed shoutings to the Evil One, while here — blessings to God.</p>
+                <p>There they repeat the hateful passions, which desire works among humankind,</p>
+                <p>10 While here they repeat the blessed passions, which the Lord and his servants
+                    bore.</p>
+                <p>For if through the trumpet and harp they remove sleep from the eyes of
+                    humans,</p>
+                <p>And if the clashing of cymbals dispels that which rebels against all [sc.
+                    sleep];</p>
+                <p>Then here, because the Spirit of holiness resounds in the mouth of David his
+                    harp,</p>
+                <p>How much more will wakefulness reign among us, so that through the power of his
+                    words we may become wise!<pb n="297"/></p>
+                <p>15 If sleep, driven out by revelries, is defeated, and licentiousness was able to
+                    conquer it,</p>
+                <p>Then how much more will modesty conquer it!</p>
+                <p>The earthly<note place="foot" xml:id="ftn139" n="139"><p rend="footnote text">
+                            Literally “lower” (<foreign xml:lang="hy">ներքին</foreign>).</p></note>
+                    groom becomes happy in watching<note place="foot" xml:id="ftn140" n="140"><p
+                            rend="footnote text"> i.e. staying up late at the wedding party. Here
+                            and throughout this <hi rend="italic">Kc‘urd</hi>, the same word is used
+                            by the translator to refer to the staying up late of the groomsmen of
+                            the earthly groom at the wedding party. It is the same word he uses for
+                            the keeping watch of the groomsmen of the heavenly groom: <foreign
+                                xml:lang="hy">հսկումն</foreign>. </p></note> instead of
+                    mourning;</p>
+                <p>The celestial<note place="foot" xml:id="ftn141" n="141"><p rend="footnote text">
+                            Literally “upper” (<foreign xml:lang="hy">վերին</foreign>).</p></note>
+                    groom becomes happy through the pure watching of holy mourners.</p>
+                <p>He who is defeated by the heavines of this sleep of limbs</p>
+                <p>20 Is reproached by the temporal groomsman who drove away sleep from his eyes. </p>
+                <p>There wakefulness is without recompense, and watching is without a promise,</p>
+                <p>But glory is prepared for our watching, and a paradise of delight is
+                    promised.</p>
+                <p>If in that watching there is festivity, behold, modesty in this watching. </p>
+                <p>And since that one is full of all harm, it is also thickened through slipping. </p>
+                <p>25 That watching passes, O brothers, yet all its stains are retained,</p>
+                <p>While although this watching ceases, the treasure of its life remains. </p>
+                <p>In the great dawning of the Son of God, the eternal groom,</p>
+                <p>They will expose the hidden sins, which were accumulated in the watching of the
+                    temporal groom.</p>
+                <p>Because there everyone is prepared to scandalize the one who listens to him,<pb
+                        n="298"/></p>
+                <p>30 While here everyone is prepared to help the one who listens to him.</p>
+                <p>There everyone shows his face to his friend to harm him,</p>
+                <p>While here, behold through a veil, brothers have warned each other.</p>
+                <p>They summon desire upon themselves through the sound which enters their ears,</p>
+                <p>While here they hear the voice of the Spirit, who cleanses their minds.</p>
+                <p>35 There everyone is hardened to sin against his companion,</p>
+                <p>While here everyone strives to earn himself and his friend.<note place="foot"
+                        xml:id="ftn142" n="142"><p rend="footnote text"> i.e. earn their
+                            salvation</p></note>
+                </p>
+                <p>There they go in revelry and laughter, while here they come in weeping and
+                    mourning. </p>
+                <p>The debts that they accumulated there, they expiate by this<note place="foot"
+                        xml:id="ftn143" n="143"><p rend="footnote text"> Corrected <foreign
+                                xml:lang="hy">այնու</foreign> to <foreign xml:lang="hy"
+                                >այսու</foreign>. </p></note> watching.<note place="foot"
+                        xml:id="ftn144" n="144"><p rend="footnote text"> Here, as well as in <hi
+                                rend="italic">Kc‘urd</hi> 11.46 is the idea that those keeping vigil
+                            are also bringing benefit to those who are not. </p></note></p>
+                <p>If the watching that is full of such dangers is lovable and light,</p>
+                <p>40 Then how much more should our watching of manifold benefit be enjoyed by the
+                    sleepless ones!</p>
+                <p>Let us take for ourselves a good example from that licentious watching.</p>
+                <p>Let us resemble each other through wakefulness, but estrange ourselves from their
+                    thoughts.</p>
+                <p>And since their thoughts are similar to the exclamations that fall in their
+                    ears,</p>
+                <p>Our thoughts should be similar to the exclamations of the Spirit that we have
+                    heard. </p>
+                <p>45 The revelry ceased, but its harm remains; the watching passed, yet its
+                    lawlessness remains.<pb n="299"/></p>
+                <p>Sayers and hearers died, but the judgement is kept for the awful tribunal. </p>
+                <p>We are one here and there, yet we are not equal; here, weary and dejected in
+                    mind;</p>
+                <p>For whatever is without benefit is light for the ones who do it,</p>
+                <p>While everything that comes about by hope, one performs with toil.</p>
+                <p>50 As the Evil One urges and hastens people to the watching that harms the
+                    watchers,</p>
+                <p>So also here he has his effect<note place="foot" xml:id="ftn145" n="145"><p
+                            rend="footnote text"> Following the suggestion of Mariès, who corrected
+                                <foreign xml:lang="hy">անդաստէ</foreign> to <foreign xml:lang="hy"
+                                >անդ ազդէ</foreign> ; cf Mariès et Mercier, <hi rend="italic"
+                                >Hymnes</hi>, 254-255, n. 222.</p></note> upon those who keep watch
+                    for the sake of benefit.</p>
+            </div>
+            <div xml:id="hv21n2arlen.3" xml:lang="en">
+                <head>Commentary</head>
+                <p>The commentary will be limited to three major foci. First, I will provide
+                    evidence for a Syriac original to the Armenian text. Second, I will provide
+                    evidence for an early date of translation. Third, I will show how the teaching
+                    and practice of vigil in the <hi rend="italic">Kc‘urdk‘</hi> aligns with what we
+                    know about Ephrem’s views on vigil from the authentic Syriac works of Ephrem. </p>
+                <div xml:id="hv21n2arlen.3.1" xml:lang="en">
+                    <head>Evidence for a Syriac Original</head>
+                    <p>Prose far outweighs poetry in quantity in early Armenian literature, and
+                        early Armenian prose is indebted to ideals of Greek rhetoric for its
+                        compositional standards. Fifth-century Armenian prose is marked by balance
+                        and repetition in phraseology, lexical surplusage, complex syntactical
+                        constru-ctions, a prevalent use of compound verbal adjectives, and the use
+                        of rhetorical tropes and figures derived from Greek models. The <hi
+                            rend="italic">Kc‘urdk‘</hi> of Ephrem on the other hand are marked by
+                        simple syntactical constructions, lexical paucity, and an overall plain
+                        style of composition that owes little to Greek<pb n="300"/> rhetorical
+                        models. Although they were originally composed in Syriac verse, the Armenian
+                        translator has made no consistent effort to render them into Armenian verse,
+                        apart from marking where the original Syriac lines ended. In the fifth
+                        century, Armenian poetic forms were still primarily oral and employed
+                        varying syllabic counts, and therefore were unlike the fixed syllabic counts
+                        of Ephrem’s verse forms.<note place="foot" xml:id="ftn146" n="146"><p> Mary
+                                Boyce, “The Parthian ‘Gōsān’ and Iranian Minstrel Tradition,” <hi
+                                    rend="italic">Journal of the Royal Asiatic Society of Great
+                                    Britain and Ireland</hi>, No. 1/2 (April 1957): 10-45 at 44 note
+                                5.</p></note> Concrete examples of linguistic evidence for a Syriac
+                        original are given below, first looking at phonology and then syntax and
+                        morphology.</p>
+                    <div xml:id="hv21n2arlen.3.2" xml:lang="en">
+                        <head>Phonology</head>
+                        <p>The immediate place to look for evidence of a Syriac original in the
+                            realm of phonology is with the rendering of names in the texts. The vast
+                            number of names appearing in the <hi rend="italic">Kc‘urdk‘</hi> forbids
+                            bringing forth every example, but the examples drawn from the chart
+                            below are representative of the way that the translator often preserves
+                            a Syriac rendering of a name over and against a Greek one. The Armenian
+                            biblical text contains portions translated from both Greek and Syriac,
+                            and therefore names from biblical figures are rendered in the Armenian
+                            Bible as well as Armenian literature in different forms depending on
+                            whether they come from a Syriac or Greek original.<note place="foot"
+                                xml:id="ftn147" n="147"><p rend="footnote text"> On the Armenian
+                                    Bible, see S. Peter Cowe, “The Bible in Armenian” in <hi
+                                        rend="italic">The New Cambridge History of the Bible, Volume
+                                        2: From 600 to 1450</hi>, eds. Richard Marsden and E. Ann
+                                    Matter (Cambridge, 2012): 143-161; Idem, “The Two Armenian
+                                    Versions of Chronicles: their Origin and Translation Technique,”
+                                        <hi rend="italic">Revue des études arméniennes</hi> 22
+                                    (1990–1): 53–96.</p></note> Therefore, by looking at the names
+                            in the Armenian text, we can gain an indication as to whether the text
+                            issues from a Syriac or Greek original, based on how the translator
+                            renders the names.</p>
+                        <pb n="301"/>
+                        <table rend="rules">
+                            <row>
+                                <cell rend="center"><hi rend="smallcaps">Name in English</hi></cell>
+                                <cell rend="center"><hi rend="smallcaps">Place in Text</hi></cell>
+                                <cell rend="center"><hi rend="smallcaps">Arm form from
+                                    Syriac</hi></cell>
+                                <cell rend="center"><p style="text-align:center;"
+                                        ><hi rend="smallcaps">Form in </hi></p><p
+                                        style="text-align:center;"><hi rend="smallcaps"
+                                        >Syriac</hi></p></cell>
+                                <cell rend="center"><p style="text-align:center;"
+                                        ><hi rend="smallcaps">Form in </hi></p><p
+                                        style="text-align:center;"><hi rend="smallcaps"
+                                        >Greek</hi></p></cell>
+                                <cell rend="center"><hi rend="smallcaps">Arm form from
+                                    Greek</hi></cell>
+                            </row>
+                            <row>
+                                <cell rend="center">Hoshea (a name of Joshua)</cell>
+                                <cell rend="center">10.21 [X.28]<note place="foot" xml:id="ftn148"
+                                        n="148"><p rend="footnote text"> The line numbers in
+                                            brackets refer to the numbering of the Armenian text in
+                                            Mariès et Mercier, <hi rend="italic"
+                                        >Hymnes</hi>.</p></note></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Հոշայէ</foreign> (gen.)</cell>
+                                <cell rend="center"><foreign xml:lang="syr">ܗܘܫܥ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="grc">Αυση</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Աւսեայ</foreign> (gen.)</cell>
+                            </row>
+                            <row>
+                                <cell rend="center">Philistines</cell>
+                                <cell rend="center">12.18 [XII.31]</cell>
+                                <cell rend="center"><foreign xml:lang="hy">Փղշտացիք</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="syr">ܦܠܫ̈ܬܝܐ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="grc">ὁι ἀλλόφυλοι</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Այլազգիք</foreign><note place="foot" xml:id="ftn149"
+                                        n="149"><p rend="footnote text"> Although the Armenian bible
+                                            does know the form <foreign xml:lang="hy"
+                                                >Փղշտացիք</foreign>, it employs <foreign
+                                                xml:lang="hy">Այլազգիք</foreign> in the vast
+                                            majority of cases, following the Greek (<foreign xml:lang="grc">ὁι
+                                            ἀλλόφυλοι</foreign>).</p></note></cell>
+                            </row>
+                            <row>
+                                <cell rend="center">Saul</cell>
+                                <cell rend="center">12.27 [XII.47]</cell>
+                                <cell rend="center"><foreign xml:lang="hy">Շաւուղ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="syr">ܫܐܘܠ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="grc">Σαουλ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Սաւուղ</foreign></cell>
+                            </row>
+                            <row>
+                                <cell rend="center">Joshua</cell>
+                                <cell rend="center">15.4 [XV.7]</cell>
+                                <cell rend="center"><foreign xml:lang="hy">Յեշով</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="syr">ܝܫܘܥ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="grc">Ἰησοῦς</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Յեսու</foreign></cell>
+                            </row>
+                            <row>
+                                <cell rend="center">Jehu</cell>
+                                <cell rend="center">15.15 [XV.23]</cell>
+                                <cell rend="center"><foreign xml:lang="hy">Յահով</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="syr">ܝܗܘ</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="grc">Ιου</foreign></cell>
+                                <cell rend="center"><foreign xml:lang="hy">Յէու</foreign></cell>
+                            </row>
+                        </table>
+                        <p><lb/>The Armenian versions of the names in the above chart all follow
+                            Syriac forms over and against the form in Greek, which provides strong
+                            evidence for the presence of a Syriac original. Although in a number of
+                            cases, the Armenian version of a name in the <hi rend="italic"
+                                >Kc‘urdk‘</hi> follows a Greek form over and against a Syriac one,
+                            this can be explained by the fact that the former became predominant
+                            over time, and a translator or later copier would be more likely to
+                            prefer a Greek form to its Syriac variant, especially in the case of a
+                            common or renowned biblical figure. Conversely, the names of less common
+                            or renowned figures would have been more likely to retain their original
+                            form from the Syriac.<note place="foot" xml:id="ftn150" n="150"><p
+                                    rend="footnote text"> None of the personages in the above chart
+                                    are especially renowned in the Armenian Christian tradition. For
+                                    more examples of names used in the texts, see: Akinian, <hi
+                                        rend="italic">Kc‘urdk‘</hi>, xxii-xxiii.</p></note></p>
+                        <pb n="302"/>
+                    </div>
+                    <div>
+                        <head xml:id="hv21n2arlen.3.3" xml:lang="en">Syntax and Morphology</head>
+                        <p>The syntax of the <hi rend="italic">Kc‘urdk‘</hi> exhibits throughout
+                            constructions that are unusual or awkward in Armenian grammar, because
+                            they are closely following an original Syriac. A number of
+                            representative examples will be brought forth below. </p>
+                        <p> 10.3 <foreign xml:lang="hy">Բայց</foreign>
+                            <hi rend="underline"><foreign xml:lang="hy">ի ժամէն</foreign>, զի</hi>
+                            <foreign xml:lang="hy">եղեւ նա աստուած[ատես]</foreign> (But <hi
+                                rend="underline">from the hour that</hi> he became a [seer of] god).
+                            In normal Armenian syntax, <foreign xml:lang="hy">ի ժամէն</foreign>
+                            <hi rend="underline"><foreign xml:lang="hy">զի</foreign></hi> would be
+                            rendered as <foreign xml:lang="hy">ի ժամէն</foreign>
+                            <hi rend="underline"><foreign xml:lang="hy">յորում</foreign></hi>, with
+                            the use of the relative pronoun in the locative. However, here it seems
+                            that the translator preferred to use the particle <foreign xml:lang="hy"
+                                >զի</foreign> as it more closely matches with the Syriac <foreign xml:lang="syr">ܕ</foreign>, which is
+                            evidently the underlying form here.</p>
+                        <p> 10.7 [X.9]<note place="foot" xml:id="ftn151" n="151"><p
+                                    rend="footnote text"> The line numbers in brackets refer to the
+                                    numbering of the Armenian text in Mariès et Mercier, <hi
+                                        rend="italic">Hymnes</hi>.</p></note>
+                            <foreign xml:lang="hy">Դարձեալ կայր քունն Մովսիսի</foreign>
+                            <hi rend="underline"><foreign xml:lang="hy">ի ներքս քան
+                                զնա</foreign></hi> (Although sleep was hovering near to Moses <hi
+                                rend="underline">within it</hi> [sc. the veil]). <foreign
+                                xml:lang="hy">Ի ներքս քան</foreign> + <foreign xml:lang="hy"
+                                >զ</foreign> + acc. is very awkward and unusual in Armenian. A more
+                            common Armenian rendering would be <foreign xml:lang="hy"
+                                >ներքոյ</foreign> + gen. or <foreign xml:lang="hy">ի
+                                ներքոյ</foreign> + abl. It seems to be rendering an underlying
+                            Syriac <foreign xml:lang="syr">ܠܓܘ
+                            ܡܢ</foreign><hi style="font-size:14pt">. </hi>Armenian
+                                <foreign xml:lang="hy">ի</foreign> correlates with <foreign
+                                xml:lang="syr">ܠ</foreign>; <foreign xml:lang="hy">ներքս</foreign>
+                            correlates with <foreign xml:lang="syr">ܓܘ</foreign>; and <foreign
+                                xml:lang="hy">քան</foreign> correlates with <foreign xml:lang="syr"
+                                >ܡܢ</foreign>.</p>
+                        <p> 10.43 [X.59] <foreign xml:lang="hy">Նովին կշռով կերակրոյ իւրոյ կշռեաց
+                                զքուն աչաց իւրոց</foreign> (By the same measure [<hi
+                                rend="underline">with which he measured</hi>] his food, he measured
+                            the sleep of his eyes). Ellipsis is a prevelant feature of Syriac prose,
+                            when words or phrases may be supplied from corresponding clauses, as
+                                here.<note place="foot" xml:id="ftn152" n="152"><p
+                                    rend="footnote text"> See Theodor Nöldeke, <hi rend="italic"
+                                        >Compendious Syriac Grammar</hi>, tr. James A. Chrichton
+                                    (London, 1904): §332, 374, 382.</p></note> The same construction
+                            is not a regular feature of Armenian syntax.</p>
+                        <p> 11.29 [XI.45-46] <hi rend="underline"><foreign xml:lang="hy">Ժիրք
+                                    որ</foreign></hi>
+                            <foreign xml:lang="hy">վաստակին ի միջի մերում</foreign>
+                            <hi style="font-size:11pt">, </hi><hi
+                                rend="underline"><foreign xml:lang="hy">նոքաւք</foreign></hi>
+                            <foreign xml:lang="hy">կշտամբի վատութիւն մեր</foreign> (<hi
+                                rend="underline">The strong ones who</hi> toil among us, <hi
+                                rend="underline">by them</hi> our laziness is reproached). The
+                            syntax of this phrase is unmistakeably Syriac, with its expansion,
+                            periphrasis, and use of antecedent and pronominal reference,<pb n="303"/>
+                            the underlying portion being represented by something like: <foreign xml:lang="syr">ܚܝܠܬܢ̈ܐ
+                                ܕ...ܒܗܢܘܢ</foreign> where a fronted focused subject noun is introduced,
+                            then expanded into a relative by means of the pronoun <foreign xml:lang="syr">ܕ</foreign>, and
+                            then itself is the antecedent of a pronoun in the following phrase.<note
+                                place="foot" xml:id="ftn153" n="153"><p rend="footnote text"> See
+                                    Takamitsu Muraoka, <hi rend="italic">Classical Syriac: A Basic
+                                        Grammar with a Chrestomathy, 2</hi><hi
+                                        rend="italic superscript"
+                                    >nd</hi><hi rend="italic"> rev. ed., Porta Linguarum Orientalium: Neue Serie</hi>
+                                    (Wiesbaden, 2005): §91; Aaron Butts, “The Classical Syriac
+                                    Language,” in <hi rend="italic">The Syriac World</hi>, ed.
+                                    Daniel King (Routledge, forthcoming in 2018); Gideon Goldenberg,
+                                    “On Some Niceties of Syriac Syntax” in <hi rend="italic">Studies
+                                        in Semitic Linguistics: Selected Writings</hi> (Jerusalem,
+                                    1998): 579-590.</p></note> Nothing like this is found in native
+                            Armenian writing.</p>
+                        <p> 11.35 [XI.57-58] <foreign xml:lang="hy">Փառաւորի շունչ հսկեցողաց
+                                զբաղմամբ իւրեանց <hi rend="underline">որ</hi> ընդ Աստուծոյ</foreign>
+                            (The breath of watchers is glorified, through their occupation <hi
+                                rend="underline">which is</hi> with God). There is nothing in the
+                            Armenian syntax which requires the use of the relative pronoun <foreign
+                                xml:lang="hy">որ</foreign> here, and it would read much smoother
+                            without it. However, it likely renders a Syriac <foreign xml:lang="syr"
+                                >ܕ</foreign>, which in Syriac is preferable in the above
+                            construction. </p>
+                        <p> 11.31 [XI.51-52] <foreign xml:lang="hy">Զի՞նչ աւգուտ է զի ննջեցաքն
+                                երէկ</foreign>, <foreign xml:lang="hy">զի</foreign>
+                            <hi rend="underline"><foreign xml:lang="hy">յաւելցուք
+                                    ննջեսցուք</foreign></hi>
+                            <foreign xml:lang="hy">այսօր</foreign>>։ (What benefit is it that we
+                            slept yesterday, since <hi rend="underline">we will sleep again</hi>
+                            today?). In Syriac, the verb <foreign xml:lang="syr">ܝܣܦ</foreign> ‘to
+                            add, increase,’ when paired with another verb, takes on an adverbial
+                            function meaning ‘more’ or ‘again.’ In this line, the translator calqued
+                            the idiom into Armenian using the corresponding Armenian verb in this
+                            line, and again at 12.29 [XII.51-52]: <foreign xml:lang="hy">եւ զի ոչ
+                                քասքնեաց նա յայնմանէ, <hi rend="underline">եւ յաւել միւսանգամ
+                                    ննջեաց</hi></foreign> (And because Saul did not shudder in fear
+                            from it [sleep], <hi rend="underline">he continued and slept
+                            again</hi>). </p>
+                        <p> 12.28 [XII.49-50] <hi rend="underline"><foreign xml:lang="hy">ի ձեռն
+                                    տտնոյն</foreign></hi>
+                            <foreign xml:lang="hy">զոր եհատ, առ զթագաւորութիւնն ի նմանէ</foreign>
+                                (<hi rend="underline">Through the hem</hi> which he cut, he took the
+                            royal rule from him). <foreign xml:lang="hy">Ի ձեռն</foreign> + gen. to
+                            render an instrumental represents another calque of a Syriac idiom
+                                (<foreign xml:lang="syr">ܒܝܕ</foreign>). This idiom is used very
+                            frequently throughout the <hi rend="italic">Kc‘urdk‘</hi>. While it is
+                            not uncommon in native Armenian due to influence<pb n="304"/> most
+                            especially from the Bible (the LXX and NT also employ this Semitic
+                            construction), it is much more frequently found in Armenian translated
+                            from Syriac.</p>
+                        <p> The above examples of Armenian syntactical and morphological usage
+                            closely following Syriac usage over and against standard Armenian
+                            syntactical practice are meant to serve as representative (and by no
+                            means exhaustive) examples, that provide strong evidence for a Syriac
+                            original to the <hi rend="italic">Kc‘urdk‘</hi>.</p>
+                    </div>
+                </div>
+                <div xml:id="hv21n2arlen.4" xml:lang="en">
+                    <head>Evidence for a Fifth-Century Date of Translation</head>
+                    <div xml:id="hv21n2arlen.4.1" xml:lang="en">
+                        <head>Linguistic</head>
+                        <p>Certain syntactic features in the <hi rend="italic">Kc‘urdk‘</hi> are
+                            also indicative of early Armenian usage. Two representative examples are
+                            presented below. </p>
+                        <p> 12.32 [XII.57-58]<note place="foot" xml:id="ftn154" n="154"><p
+                                    rend="footnote text"> The line numbers in brackets refer to the
+                                    numbering of the Armenian text in Mariès et Mercier, <hi
+                                        rend="italic">Hymnes</hi>.</p></note>
+                            <foreign xml:lang="hy">Զի յայնմ քնոյ որ <hi rend="underline">յայրի
+                                    անդ</hi></foreign>, <foreign xml:lang="hy">քուն յաւիտենից ննջեաց
+                                նա</foreign> (For after that sleep which was <hi rend="underline">in
+                                the cave</hi>, <hi rend="italic">he</hi> slept an eternal sleep).
+                            This line has two features characteristic of early Armenian prose. The
+                            first is the use of the local adverb (<foreign xml:lang="hy"
+                                >անդ</foreign>) in the place of the deictic suffix (-<foreign
+                                xml:lang="hy">ն</foreign>) to define the object of the preposition
+                                <foreign xml:lang="hy">ի</foreign> (when used with a sense of
+                                motion).<note place="foot" xml:id="ftn155" n="155"><p
+                                    rend="footnote text">
+                                    <foreign xml:lang="hy">ի</foreign> + acc. + <foreign
+                                        xml:lang="hy">անդր</foreign>; <foreign xml:lang="hy"
+                                        >ի</foreign> + loc. + <foreign xml:lang="hy">անդ</foreign>
+                                    (as here); <foreign xml:lang="hy">ի</foreign> + abl. + <foreign
+                                        xml:lang="hy">անտի</foreign>.</p></note> In later periods of
+                            Armenian, the deictic suffix is more commonly used to define the object
+                            in these kinds of grammatical constructions. The second feature here is
+                            the otiose usage of the personal pronoun (<foreign xml:lang="hy"
+                                >նա</foreign>), which in constructions like the above clause is
+                            perceived by later Armenian writers to be redundant and tends to be
+                            dropped, since there is no change of subject (and third person singular
+                            is indicated already by the verb ending). In early Armenian prose
+                            however, there is a greater tendency for an otiose use of personal
+                            pronouns. Another example may be found in 12.41 [XII.75-76]: <foreign
+                                xml:lang="hy">Զի այն որ ննջէն հանդերձ արթնովն մի են եւ<pb n="305"/>
+                                չեն մի <hi rend="underline">նոքա</hi></foreign> (Because he who
+                            sleeps along with the wakeful one, <hi rend="underline">they</hi> are
+                            one, and <hi rend="underline">they</hi> are not one). </p>
+                        <p> The most important linguistic feature of the <hi rend="italic"
+                                >Kc‘urdk‘</hi> suggesting an early date of translation lies in the
+                            realm of morphology. Rather than specific data, it is the lack of data —
+                            that is, the striking absence of any influence from the Hellenizing
+                            school of translations, which began in the sixth century and affected
+                            the morphology of all later Armenian authors and translators to a
+                            greater or lesser extent.<note place="foot" xml:id="ftn156" n="156"><p
+                                    rend="footnote text"> On characteristics features of the
+                                    Hellenizing school, particularly in the realm of morphology, and
+                                    their effect upon subsequent Armenian compositions, see Abraham
+                                    Terian, “The Hellenizing School: Its Time, Place, and Scope of
+                                    Activities Reconsidered” in <hi rend="italic">East of Byzantium:
+                                        Syria and Armenia in the Formative Period (Dumbarton Oaks
+                                        Symposium, 1980)</hi>, eds. Nina Garsoïan, Thomas F.
+                                    Mathews, and Robert W. Thomson (Washington, D.C., 1982):
+                                    175-186; Gohar Muradyan, <hi rend="italic">Grecisms in Ancient
+                                        Armenian</hi>, Hebrew University Armenian Studies 13,
+                                    (Leuven, 2012).</p></note> The absence of any influence from the
+                            Hellenizing school of translations strongly suggests that the
+                            translation of the <hi rend="italic">Kc‘urdk‘</hi> was made before the
+                            sixth century.</p>
+                    </div>
+                    <div xml:id="hv21n2arlen.4.2" xml:lang="en">
+                        <head>Historical</head>
+                        <p>Early Armenian Christianity bears witness to Syriac, and in particular
+                            Edessene influence, in a variety of areas. These include of course
+                            liturgical practices, such as a pre-baptismal anointing (prior to the
+                            invention of Armenian letters, Syriac was the liturgical language of
+                            certain spheres in the Armenian realm and so the maintenance of
+                            specifically Syriac liturgical practices is by no means
+                                surprising).<note place="foot" xml:id="ftn157" n="157"><p
+                                    rend="footnote text"> One may consult the dozens of studies by
+                                    Gabriele Winkler that treat Syriac influence on Armenian
+                                    liturgical practice.</p></note> Influence is also seen in myths
+                            of apostolic foundation, where there was for example a co-opting of the
+                            Abgar legend, that turned Abgar into an Armenian king, and the apostolic
+                            mission of Addai/Thaddaeus into the realm of Armenia. Syriac influence
+                            is also prevelant in other realms of literature and language
+                            (particularly in vocabulary in the ecclesiastical domain). Koriwn, the
+                                disciple<pb n="306"/> and biographer of Maštoc‘, inventor of the
+                            Armenian alphabet, narrates how his master went first to Edessa in his
+                            quest to create an alphabet for Armenian, making use of a modified
+                            Syriac alphabet for two years before developing the Armenian alphabet.
+                            Armenian students were also sent to Edessa to study Syriac so as to be
+                            able to translate from Syriac into Armenian. It is then by no means
+                            surprising that in the fifth-century translation efforts, Maštoc‘ and
+                            his students drew on the works of Ephrem, who besides being renowned in
+                            Edessa, had gained fame across the multilingual Christian world,
+                            including of course the Armenian realm with its strong Syriac influence. </p>
+                        <p> The topics treated in these particular <hi rend="italic">Kc‘urdk‘</hi>
+                            also fit well with what we know of the interests and the particular
+                            ascetic inclinations of Maštoc‘ and his students, which shared much in
+                            common with early Syriac asceticism, as can be seen in the works of
+                            Koriwn and the
+                            <hi rend="italic">Buzandaran </hi>(P‘awstos
+                            Biwzand), and thus it is easy to see why they would have been objects of
+                                translation.<note place="foot" xml:id="ftn158" n="158"><p
+                                    rend="footnote text"> Nina Garsoïan, “Introduction to the
+                                    Problem of Early Armenian Monasticism,” <hi rend="italic">Revue
+                                        des études arméniennes</hi> 30 (2005-7): 177-236.</p></note>
+                            Finally, the <hi rend="italic">Kc‘urdk‘</hi> show no signs of any
+                            Christological or Theological language or concepts dating from a period
+                            after the fourth century, nor any other historical references after the
+                            time of Ephrem. After considering the historical situation, one is led
+                            to conclude that it would be much more surprising if the Armenian
+                            tradition did not transmit authentic works of Ephrem the Syrian than if
+                            it did. </p>
+                        <p> If these texts then are authentic, it seems more likely that they were
+                            translated in an early period rather than in the medieval period, since
+                            no Syriac originals survive, not even in fragmentary form. A counter
+                            argument cannot be made from the fact that the earliest extant
+                            manuscript of the <hi rend="italic">Kc‘urdk‘</hi> dates from the
+                            thirteenth century, since so few Armenian manuscripts survive from
+                            before the tenth century.<note place="foot" xml:id="ftn159" n="159"><p
+                                    rend="footnote text"> Dickran Kouymjian, “The Archaeology of the
+                                    Armenian Manuscript: Codicology, Paleography, and Beyond,” in
+                                        <hi rend="italic">Armenian Philology in the Modern Era: From
+                                        Manuscript to Digital Text</hi>, ed. Valentina Calzolari
+                                    (Leiden, 2014): 5–22.</p></note> The<pb n="307"/> earliest
+                            Armenian manuscripts of many renowned early authors — both native
+                            Armenian authors and translated authors of an early period — date from
+                            the thirteenth century or later.</p>
+                    </div>
+                </div>
+                <div xml:id="hv21n2arlen.5" xml:lang="en">
+                    <head>Vigil in the authentic Syriac works of Ephrem and the <hi rend="italic"
+                            >Kc‘urdk‘</hi></head>
+                    <p>In this section, a brief discussion will be advanced to suggest that the
+                        teaching and practice of vigil as presented in the <hi rend="italic"
+                            >Kc‘urdk‘</hi> align with the views on vigil that are presented in
+                        Ephrem’s authentic Syriac corpus. </p>
+                    <p> Ephrem speaks of vigil and watching not as actions undertaken only by human
+                        beings, but as something proper to the divine and angelic realms as well. In
+                        the divine realm, Christ is presented as the watcher <hi rend="italic">par
+                            excellence</hi>, and even referred to as such by that appellation; for
+                        example, one of the <hi rend="italic">Hymns on Nisibis</hi> is a meditation
+                        on Christ the watcher, who descended to Sheol after his crucifixion to
+                        awaken the sleepers there.<note place="foot" xml:id="ftn160" n="160"><p
+                                rend="footnote text">
+                                <hi rend="italic">Hymns on Nisibis</hi> LXVI. For the Syriac text of
+                                the <hi rend="italic">Hymns on Nisibis</hi> with German translation
+                                and a study, see Edmund Beck, <hi rend="italic">Des heiligen Ephraem
+                                    des Syrers Carmina Nisibena</hi>, 4 vols. Corpus Scriptorum
+                                Christianorum Orientalium 218–9, 240-241 (Louvain, 1961; 1963); a
+                                French translation is available in P. Féghali and C. Navarre, <hi
+                                    rend="italic">Saint Éphrem: Sur les chants de Nisibe</hi>,
+                                Antioche chrétienne 3 (Paris, 1997), and Dominique Cerbelaud, <hi
+                                    rend="italic">La descente aux enfers: Carmina Nisibena</hi>,
+                                Spiritualité Orientale 89 (Godewaersvelde, 2009). Christ is also
+                                referred to by the designation “watcher” at <hi rend="italic">Hymns
+                                    on the Nativity</hi> I.61 and VI.23. For the Syriac text of the
+                                <hi rend="italic">Hymns on Nativity </hi>with
+                                German translation and a study, see: Edmund Beck, <hi rend="italic"
+                                    >Des heiligen Ephraem des Syrers Hymnen De Nativitate
+                                    (Epiphania)</hi> 2 vols. Corpus Scriptorum Christianorum
+                                Orientalium 186–7 (Louvain, 1959). A French translation and study
+                                may be found in François Cassingena-Trévedy, o.s.b., tr., <hi
+                                    rend="italic">Hymnes sur la nativité</hi>, Sources Chrétiennes
+                                459 (Paris, 2001). An English translation is available in Kathleen
+                                McVey, <hi rend="italic">Ephrem the Syrian: Hymns</hi> (New York,
+                                1989). Quotations in English will be taken from McVey’s
+                                translation.</p></note> In a dense passage from the <hi
+                            rend="italic">Commentary on the Diatessaron</hi> referring to Christ’s
+                        calming of the storm at sea, Ephrem writes: “He who was sleeping was
+                        awakened, and put to sleep the sea, so that by the wakefulness of the sea
+                        which had slept, he might<pb n="308"/> demonstrate the wakefulness of his
+                        divinity, which never sleeps.”<note place="foot" xml:id="ftn161" n="161"><p
+                                rend="footnote text">
+                                <hi rend="italic">Commentary on the Diatessaron</hi>, VI.25. See
+                                Christian Lange, <hi rend="italic">The Portrayal of Christ in the
+                                    Syriac Commentary on the Diatessaron</hi>, Corpus Scriptorum
+                                Christianorum Orientalium 616, Subsidia 118 (Louvain, 2005),
+                            83.</p></note> Ephrem likely drew inspiration from the biblical image of
+                        God as the one who never sleeps, constantly keeping watch over his
+                            creation.<note place="foot" xml:id="ftn162" n="162"><p
+                                rend="footnote text"> See for example Ps 121.</p></note> Jesus
+                        shares in this quality through his divinity which remained “awake” in him
+                        even during the incarnation, and hence he is referred to as the “watcher” or
+                        “wakeful one.” We find this same teaching in the <hi rend="italic"
+                            >Kc‘urdk‘</hi>, most prominently in the latter half of <hi rend="italic"
+                            >Kc‘urd</hi> 13 (lines 26-38), where Ephrem discusses the purpose of
+                        Christ’s watching.</p>
+                    <p> An important aspect of the mission of Christ the watcher was to come to
+                        earth to wake up human creatures, lost in the slumber of sin. In the <hi
+                            rend="italic">Hymns on Nativity</hi>, Ephrem writes, “Let us glorify Him
+                        Who watched and put to sleep our captor. / Let us glorify the One Who went
+                        to sleep and awoke our slumber.”<note place="foot" xml:id="ftn163" n="163"
+                                ><p rend="footnote text">
+                                <hi rend="italic">Hymns on the Nativity</hi> III.19. McVey, <hi
+                                    rend="italic">Hymns</hi>, 87.</p></note> The need for human
+                        beings to be awakened from their slumber is present in other early Syriac
+                        literature, such as the famous <hi rend="italic">Hymn of the
+                            Pearl</hi>.<note place="foot" xml:id="ftn164" n="164"><p
+                                rend="footnote text"> On this text, see P. H. Poirier <hi
+                                    rend="italic">L'hymne de la perle des actes de Thomas.
+                                    Introduction, Texte-Traduction, Commentaire</hi>,
+                                (Louvain-la-Neuve, 1981).</p></note> In a later hymn from this same
+                        cycle, Ephrem writes: “The Watcher has come to make us watchers on
+                            earth.”<note place="foot" xml:id="ftn165" n="165"><p
+                                rend="footnote text">
+                                <hi rend="italic">Hymns on the Nativity</hi> XXI.4. McVey, <hi
+                                    rend="italic">Hymns</hi>, 174.</p></note> But why the need to
+                        watch? In Early Christianity, watching and vigilance had an eschatological
+                        reference, involving the anticipation of the Second Coming. The parable of
+                        the ten virgins is crucial here. When the bridegroom came, those invited to
+                        the banquet would be those who had stayed awake to watch for his coming.
+                        Hence, the constant reiteration of the importance of keeping watch, during
+                        the four watches of the night, since it is during one of those watches that
+                        Christ indicated he will return, as is expressed in <hi rend="italic"
+                            >Kc‘urd</hi> 11.9-13.</p>
+                    <pb n="309"/>
+                    <p> Watchfulness is also a practice associated with the angelic realm. This is
+                        due in part to the fact that watchfulness is associated with holiness and
+                        thus bears easy connection with the sinless angels, whereas, by contrast,
+                        insentient sleep is associated with death and sin. This dichotomy of
+                        wakeful-ness/holiness and sleep/sin is made explicit in the first <hi
+                            rend="italic">Hymn on the Nativity</hi>:</p>
+                    <p>The watchers rejoice today because the Awakener has come to wake us up;</p>
+                    <p>Who will sleep on this night when all creation is awake?</p>
+                    <p>Because Adam introduced into the world the sleep of death in sins,</p>
+                    <p>The Watcher came down to wake us up from the slumber of sin.<note
+                            place="foot" xml:id="ftn166" n="166"><p>
+                                <hi rend="italic">Hymns on the Nativity</hi> I.61-62. English
+                                translation from McVey, <hi rend="italic"
+                                >Hymns</hi><hi> (n. 6 above) 71.</hi></p></note></p>
+                    <p>The purpose of Christ’s coming into the world, as celebrated in the feast of
+                        the Nativity, is to wake up humans from the slumber induced by sin. <hi
+                            rend="italic">Kc‘urd</hi> 13.18-21 also makes explicit mention of the
+                        host of angels keeping vigil on the night of Christ’s birth. In the first
+                        line of the above quoted text, the angels are referred to explicitly as
+                        “watchers.” In fact, “watchers” (<hi rend="italic">‘īre</hi>) is one of
+                        Ephrem’s most frequent designations for angelic beings, and appears
+                        throughout his Syriac corpus; this Aramaic appellation for angels is common
+                        to both Jewish and Syriac Christian tradition, and goes back all the way to
+                        the biblical book of Daniel.<note place="foot" xml:id="ftn167" n="167"><p>
+                                <hi> For example, in the </hi><hi rend="italic"
+                                    >Hymns on
+                                    Faith</hi><hi> alone, mention of “watchers” is made at: 3.5, 3.9, 4.1, 4.7, 5.1-4, 6.8, 7.10, 8.3, 8.15, 10.4, 10.9-11, 11.7-8, 22.11, 28.1, 29.1, 30.2, 46.8, 51.5, 52.9, 54.2, 61.13, 68.20. For the Syriac text of the </hi><hi rend="italic">Hymns on Faith </hi><hi>with German translation and a study, see: Edmund Beck, </hi><hi
+                                    rend="italic">Des heiligen Ephraem des Syrers Hymnen de
+                                    Fide</hi><hi>, 4 vols. Corpus Scriptorum Christianorum Orientalium 154–5; 212–13 (Louvain 1955; 1961). For an English translation and study of the </hi><hi
+                                    rend="italic">Hymns on
+                                    Faith</hi><hi>, see: Jeffrey T. Wickes, tr., </hi><hi
+                                    rend="italic">St. Ephrem the
+                                    Syrian</hi><hi>: </hi><hi rend="italic">The
+                                    Hymns on
+                                    Faith</hi><hi>, The Fathers of the Church 130 (Washington D.C. 2015). This usage of “watchers” is also prevelant in the </hi><hi
+                                    rend="italic">Hymns on the
+                                    Nativity</hi><hi>. On the usage of this term in Syriac literature at large, see Robert Murray, “The Origin of Aramaic ‘îr, Angel,” </hi><hi
+                                    rend="italic"
+                                    >Orientalia</hi><hi> 53 (1984): 303–317; Idem, “Some Themes and Problems of Early Syriac Angelology,” </hi><hi
+                                    rend="italic">Orientalia Christiana
+                                    Analecta</hi><hi> 236 (1990): 143–153. On its usage in Ephrem as well as some general remarks on the theme of watching and vigil, see: Idem, </hi><hi
+                                    rend="italic">Symbols of Church and Kingdom: A Study in Early
+                                    Syriac
+                                    Tradition</hi><hi>, rev. ed. (Piscataway, 2004) 14; Sebastian Brock, </hi><hi
+                                    rend="italic">The Luminous Eye: The Spiritual World Vision of
+                                    Saint
+                                    Ephrem</hi><hi>, Cistercian Studies Series 124 (Kalamazoo, 1992) 139–141; Wickes, </hi><hi
+                                    rend="italic">Hymns on
+                                    Faith</hi><hi>, 68, note 2 and McVey, </hi><hi
+                                    rend="italic"
+                                    >Hymns</hi><hi>, 229, note 36; Cassingena-Trévedy, </hi><hi
+                                    rend="italic"
+                                >Nativité,</hi><hi> 40, note 5.</hi>
+                            </p></note> Armenian shares this<pb n="310"/> usage, with its term
+                            <foreign xml:lang="hy">զուարթունք</foreign> (<hi rend="italic"
+                            >zuart‘unk‘</hi>, “sleepless ones”), used in the <hi rend="italic"
+                            >Kc‘urdk‘</hi> to refer to angels.<note place="foot" xml:id="ftn168"
+                            n="168"><p rend="footnote text"> See for example the title of <hi
+                                    rend="italic">Kc‘urd</hi> 10,
+                                <hi rend="italic">Kc‘urd </hi>10.16, <hi
+                                    rend="italic">Kc‘urd</hi> 13.18-21, and Kc<hi rend="italic"
+                                    >‘urd</hi> 16.40.</p></note> Like Christ, “watchers” are
+                        sleepless, since they stand ceaselessly in the divine presence in perpetual
+                        contemplation and praise, and as such serve as models of admiration and
+                        imitation. They maintain the continual consciousness of attention on God
+                        that the human watcher strives for through the practice of vigil. The
+                        watching of angels is twofold, as they stand wakeful not just in God’s
+                        presence, but also watch over earthly life, as Ephrem puts it “suffering
+                        over the sinners but rejoicing over penitents.”<note place="foot"
+                            xml:id="ftn169" n="169"><p>
+                                <hi> See </hi><hi rend="italic">Hymns against
+                                    Julian</hi><hi> I.8. Translation in McVey, </hi><hi
+                                    rend="italic"
+                                    >Hymns</hi><hi>, 229. For the Syriac text of the </hi><hi rend="italic">Hymns against Julian </hi><hi>with German translation and a study, see Edmund Beck, </hi><hi
+                                    rend="italic">Des heiligen Ephraem des Syrers Hymnen de Paradiso
+                                    und Contra
+                                    Julianum</hi><hi>, 2 vols. Corpus Scriptorum Christianorum Orientalium 174–5 (Louvain 1957). English translation in McVey, </hi><hi
+                                    rend="italic"
+                                >Hymns</hi><hi>, 229. </hi></p></note>
+                    </p>
+                    <p> Watchfulness is closely associated with another concept important to Ephrem
+                        and early Syriac Christianity, that of <hi rend="italic">íḥiyḍāyā</hi>,
+                        a term rich in semantic range, incorporating at least three separate but
+                        interconnected fields of meaning: singular, unique, individual;
+                        single-minded, not divided in heart; and single in the sense of unmarried,
+                            celibate.<note place="foot" xml:id="ftn170" n="170"><p>
+                                <hi> Murray, </hi><hi rend="italic"
+                                    >Symbols</hi><hi>, 13–14; Brock, </hi><hi
+                                    rend="italic">Luminous Eye</hi><hi>, 136.</hi></p></note> The
+                        term in its first usage refers above all to Christ, and corresponds to Greek
+                            <hi rend="italic">monogenēs</hi>, “only-begotten.” Its connection with
+                        watching and vigil is particularly relevant in the second range, that of
+                        single-mindedness, in other words not being divided in heart or will.<pb
+                            n="311"/> To be watchful is to be in spiritual harmony, to be always
+                        attentive and single-minded in one’s devotion to Christ.<note place="foot"
+                            xml:id="ftn171" n="171"><p>
+                                <hi> Brock, </hi><hi rend="italic">Luminous
+                                    Eye</hi><hi>, 141.</hi></p></note> It is to maintain a
+                        consistent consciousness of attention on God in prayer. This understanding
+                        of being single and undivided in conscious vigil and being divided in sleep
+                        occurs in the <hi rend="italic">Kc‘urdk‘</hi> as well.<note place="foot"
+                            xml:id="ftn172" n="172"><p rend="footnote text"> See for example <hi
+                                    rend="italic">Kc‘urd</hi> 11.25 and <hi rend="italic"
+                                    >Kc‘urd</hi> 11.39-40.</p></note> It also helps one understand
+                        the negative portrayal of the creation of Eve during the sleep of Adam in
+                            <hi rend="italic">Kc‘urd</hi> 12.3-4. </p>
+                    <p> Not all watching is portrayed positively in the works of Ephrem. There are
+                        forms of watching that not only are of no benefit but are harmful, such as
+                        the vigil of the greedy who stay up late to devise ways to make more money
+                        or the worrier who cannot sleep from the anxiety brought on by worries.<note
+                            place="foot" xml:id="ftn173" n="173"><p rend="footnote text"> Ephrem
+                                outlines a whole litany of such people who keep watch to no benefit
+                                in <hi rend="italic">Hymns on the Nativity</hi>, I.63-82.
+                            </p></note> Referring to biblical examples, Ephrem says that even Judas
+                        Iscariot kept vigil an entire night to betray Christ, and “even the
+                        Pharisees, sons of darkness, were awake an entire night; / the dark ones
+                        kept vigil to conceal the incomprehensible light.”<note place="foot"
+                            xml:id="ftn174" n="174"><p rend="footnote text">
+                                <hi rend="italic">Hymns on the Nativity</hi>, I.70-72; McVey, <hi
+                                    rend="italic">Hymns</hi>, 72.</p></note> Similarly, <hi
+                            rend="italic">Kc‘urd</hi> 16 contains a lengthy meditation on the
+                        worthlessness of those who stay up late “keeping vigil” at a wedding party.
+                        This stands in sharp contrast with the benefits accrued by those who keep
+                        vigil in anticipation of the heavenly bridegroom. </p>
+                    <p> This brief discussion indicates the consonance of Ephrem’s thought on vigil
+                        as expressed in the <hi rend="italic">Kc‘urdk‘</hi> with what we know from
+                        the authentic Syriac texts of Ephrem that mention vigil, further reinforcing
+                        the linguistic and historical evidence that point to the strong likelihood
+                        of the <hi rend="italic">Kc‘urdk‘</hi> being authentic works authored by
+                        Ephrem, and translated in the fifth century.</p>
+                    <pb n="312"/>
+                </div>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Akinian, Nersēs, <hi rend="italic">Kc‘urdk‘ S. Ep‘remi Xorin Asorwoy</hi> [=<hi
+                        rend="italic">Ephräm des Syrers 51 Madrasche in Armenischer
+                    Ubersetzung</hi>], Texte und Untersuchungen der Altarmenischen Literature, Bd.
+                    1.3 (Vienna, 1957).</bibl>
+                <bibl>_____, <hi rend="italic">Ts‘uts‘ak hayerēn dzeragrats‘ Nikosiayi i Kipros</hi>
+                    [=Katalog der armenischen Handscriften in Nikosia auf Cyprus], Vienna, 1961.</bibl>
+                <bibl>Beck, Edmund, <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de
+                        Fide</hi>, 4 vols. Corpus Scriptorum Christianorum Orientalium 154–5; 212–13
+                    (Louvain 1955; 1961).</bibl>
+                <bibl>_____, <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen contra
+                        Haereses</hi>, Corpus Scriptorum Christianorum Orientalium 169/170,
+                    Scriptores Syri 76/77 (Louvain, 1957).</bibl>
+                <bibl>_____, <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Paradiso und
+                        Contra Julianum</hi>, 2 vols. Corpus Scriptorum Christianorum Orientalium
+                    174–5 (Louvain 1957).</bibl>
+                <bibl>_____, <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen De Nativitate
+                        (Epiphania)</hi> 2 vols. Corpus Scriptorum Christianorum Orientalium 186–7
+                    (Louvain, 1959).</bibl>
+                <bibl>_____, <hi rend="italic">Des heiligen Ephraem des Syrers Carmina Nisibena</hi>, 4
+                    vols. Corpus Scriptorum Christianorum Orientalium 218–9, 240-241 (Louvain, 1961;
+                    1963).</bibl>
+                <bibl>_____, “Ephräms des Syrers Hymnik,” in <hi rend="italic">Liturgie und Dichtung.
+                        Ein interdisziplinäres Kompendium. Gualtero Duerig annum vitae septuagesimum
+                        feliciter complenti</hi>, eds. H. Becker and R. Kaczynski (St. Ottilien,
+                    1983), vol. 1: 345-379.</bibl>
+                <pb n="313"/>
+                <bibl>Boyce, Mary, “The Parthian ‘Gōsān’ and Iranian Minstrel Tradition,” <hi
+                        rend="italic">Journal of the Royal Asiatic Society of Great Britain and
+                        Ireland</hi>, No. 1/2 (April 1957): 10-45.</bibl>
+                <bibl>Brock, Sebastian, <hi rend="italic">The Luminous Eye: The Spiritual World Vision
+                        of Saint Ephrem</hi>, Cistercian Studies Series 124 (Kalamazoo, 1992).</bibl>
+                <bibl>_____, <hi rend="italic">The Harp of the Spirit: Poems of Saint Ephrem the
+                        Syrian</hi>, 3<hi rend="superscript">rd</hi> ed., The Institute for Orthodox
+                    Christian Studies (Cambridge, 2013).</bibl>
+                <bibl>Butts, Aaron, “The Classical Syriac Language,” in <hi rend="italic">The Syriac
+                        World</hi>, ed. Daniel King (Routledge, forthcoming in 2018).</bibl>
+                <bibl>Cassingena-Trévedy, François, o.s.b., <hi rend="italic">Hymnes sur la
+                        nativité</hi>, Sources Chrétiennes 459 (Paris, 2001).</bibl>
+                <bibl>Cerbelaud, Dominique, <hi rend="italic">La descente aux enfers: Carmina
+                        Nisibena</hi>, Spiritualité Orientale 89 (Godewaersvelde, 2009).</bibl>
+                <bibl>Cowe, S. Peter, “The Two Armenian Versions of Chronicles: their Origin and
+                    Translation Technique,” <hi rend="italic">Revue des études arméniennes</hi> 22
+                    (1990–1): 53–96.</bibl>
+                <bibl>_____, “The Bible in Armenian” in <hi rend="italic">The New Cambridge History of
+                        the Bible, Volume 2: From 600 to 1450</hi>, eds. Richard Marsden and E. Ann
+                    Matter (Cambridge, 2012): 143-161.</bibl>
+                <bibl>den Biesen, Kees, <hi rend="italic">Simple and Bold: Ephrem’s Art of Symbolic
+                        Thought</hi>, Gorgias Dissertations 26, Early Christian Studies 6
+                    (Piscataway, NJ, 2006).</bibl>
+                <bibl>Eganyan, Ō., A. Zeytʻunyan, Pʻ. Antʻabyan, eds., <hi rend="italic">Mayr tsʻutsʻak
+                        hayerēn dzeṛagratsʻ Mashtotsʻi Anuan Matenadarani</hi> [=Grand Catalogue of
+                    the Armenian Manuscripts of the Matenadaran named Maštoc‘], 9 vols., Erevan,
+                    1984—.</bibl>
+                <pb n="314"/>
+                <bibl>Ełišē Vardapet, <hi rend="italic">Matenagrut‘iwnk‘</hi>, Venice, 1859.</bibl>
+                <bibl>Féghali, P., and C. Navarre, <hi rend="italic">Saint Éphrem: Sur les chants de
+                        Nisibe</hi>, Antioche chrétienne 3 (Paris, 1997).</bibl>
+                <bibl>Garsoïan, Nina, “Introduction to the Problem of Early Armenian Monasticism,” <hi
+                        rend="italic">Revue des études arméniennes</hi> 30 (2005-7): 177-236.</bibl>
+                <bibl>Goldenberg, Gideon, “On Some Niceties of Syriac Syntax” in <hi rend="italic"
+                        >Studies in Semitic Linguistics: Selected Writings</hi> (Jerusalem, 1998):
+                    579-590.</bibl>
+                <bibl>Graffin, François, “Hymnes inédites de S. Ephrem sur la virginité” <hi
+                        rend="italic">L’Orient Syrien </hi>6 (1961): 213–42.</bibl>
+                <bibl>Kouymjian, Dickran, “The Archaeology of the Armenian Manuscript: Codicology,
+                    Paleography, and Beyond,” in <hi rend="italic">Armenian Philology in the Modern
+                        Era: From Manuscript to Digital Text</hi>, ed. Valentina Calzolari (Leiden,
+                    2014): 5–22.</bibl>
+                <bibl>Lange, Christian, <hi rend="italic">The Portrayal of Christ in the Syriac
+                        Commentary on the Diatessaron</hi>, Corpus Scriptorum Christianorum
+                    Orientalium 616, Subsidia 118 (Louvain, 2005).</bibl>
+                <bibl>Maier, Carmen, “Poetry as Exegesis: Ephrem the Syrian’s Method of Scriptural
+                    Interpretation Especially as Seen in his Hymns on Paradise and Hymns on
+                    Unleavened Bread,” PhD diss., Princeton Theological Seminary, 2012.</bibl>
+                <bibl>Mariès, Louis, “Une Antiphona de Saint Ephrem sur l’eucharistie,” <hi
+                        rend="italic">Recherches de Science Religieuse</hi> 42 (1954), 395-403.</bibl>
+                <bibl>_____, “Deux Antiphonae de Saint Ephrem,” <hi rend="italic">Recherches de Science
+                        Religieuse</hi> 45 (1957), 396-408.</bibl>
+                <pb n="315"/>
+                <bibl>Mariès, Louis and Charles Mercier, <hi rend="italic">Hymnes de Saint Ephrem
+                        conservées en version arménienne</hi>, Patrologia Orientalis XXX, fascicle 1
+                    (Paris: Firmin-Didot, 1961).</bibl>
+                <bibl>Mathews, Edward, “Armenian Hymn IX, <hi rend="italic">On Marriage</hi> by Saint
+                    Ephrem the Syrian,” <hi rend="italic">Journal of the Society for Armenian
+                        Studies</hi> 9 (1996/7 [1999]): 55-63.</bibl>
+                <bibl>_____, “Saint Ephrem the Syrian: Armenian Dispute Hymns between <hi rend="italic"
+                        >Virginity</hi> and <hi rend="italic">Chastity</hi>,” <hi rend="italic"
+                        >Revue des études arméniennes </hi>28 (2001/2): 143–69.</bibl>
+                <bibl>_____, “Syriac into Armenian: The Translations and their Translators,” <hi
+                        rend="italic">Journal of the Canadian Society for Syriac Studies</hi> 10
+                    (2010): 20-44.</bibl>
+                <bibl>McVey, Kathleen, <hi rend="italic">Ephrem the Syrian: Hymns</hi> (New York,
+                    1989).</bibl>
+                <bibl>_____, “Were the earliest <hi rend="italic">madrāšē</hi> songs or recitations?”
+                    in <hi rend="italic">After Bardaisan. Studies on Continuity and Change in Syriac
+                        Christianity in Honour of Professor Han J.W. Drijvers</hi>, eds. G.J.
+                    Reinink and A.C. Klugkist, Orientalia Lovaniensia Analecta 89 (Louvain, 1999):
+                    185-199.</bibl>
+                <bibl>Muradyan, Gohar, <hi rend="italic">Grecisms in Ancient Armenian</hi>, Hebrew
+                    University Armenian Studies 13, (Leuven, 2012).</bibl>
+                <bibl>Muraoka, Takamitsu, <hi rend="italic">Classical Syriac: A Basic Grammar with a
+                        Chrestomathy, 2</hi><hi rend="italic superscript"
+                    >nd</hi><hi rend="italic"> rev. ed., Porta Linguarum Orientalium: Neue Serie</hi>
+                    (Wiesbaden, 2005).</bibl>
+                <bibl>Murray, Robert, “The Origin of Aramaic ‘îr, Angel,” <hi rend="italic"
+                        >Orientalia</hi> 53 (1984): 303–317.</bibl>
+                <pb n="316"/>
+                <bibl>_____, “‘A Marriage for all eternity’: The Consecration of a Syrian bride of
+                    Christ,” <hi rend="italic">Sobornost/Eastern Churches Review </hi>11 (1989):
+                    65–8.</bibl>
+                <bibl>_____, “Some Themes and Problems of Early Syriac Angelology,” <hi rend="italic"
+                        >Orientalia Christiana Analecta</hi> 236 (1990): 143–153.</bibl>
+                <bibl>_____, “Aramaic and Syriac Dispute-Poems and Their Connections,” in M.J. Geller,
+                    J.C. Greenfield, M.P. Weitzmann, eds., <hi rend="italic">Studia Aramaica: New
+                        Sources and New Approaches</hi>, Journal of Semitic Studies, Supplement 4,
+                    (Oxford, 1995): 157-187.</bibl>
+                <bibl>_____, <hi rend="italic">Symbols of Church and Kingdom: A Study in Early Syriac
+                        Tradition</hi>, rev. ed. (Piscataway, 2004).</bibl>
+                <bibl>Nöldeke, Theodor, <hi rend="italic">Compendious Syriac Grammar</hi>, tr. James A.
+                    Chrichton (London, 1904).</bibl>
+                <bibl>Outtier, Bernard, “Hymnes de saint Ephrem sur l’Eucharistie,” <hi rend="italic"
+                        >Lettre aux amis de Solesmes</hi> 18 (avril-juin 1979): 3-9.</bibl>
+                <bibl>_____, “Hymnes de saint Ephrem sur l’Eucharistie II” <hi rend="italic">Lettre aux
+                        amis de Solesmes</hi> 22 (avril-juin 1980): 3-8.</bibl>
+                <bibl>_____, “Hymnes de saint Ephrem sur l’Eucharistie III”
+                    <hi rend="italic">Lettre aux amis de Solesmes </hi>(1981:1):
+                    14-18.</bibl>
+                <bibl>_____, “Hymnes de saint Ephrem sur l’Eucharistie IV” <hi rend="italic">Lettre aux
+                        amis de Solesmes</hi> (1981:3): 3-7.</bibl>
+                <bibl>_____, “Hymnes de saint Ephrem sur l’Eucharistie V” <hi rend="italic">Lettre aux
+                        amis de Solesmes</hi> (1982:2): 3-5.</bibl>
+                <bibl>NBHL = <hi rend="italic">Nor bargirk‘ haygazean lezui</hi>, 2 vols. (Venice
+                    1836-7).</bibl>
+                <pb n="317"/>
+                <bibl>Palmer, Andrew, “A Single Human Being Divided in Himself: Ephraim the Syrian, the
+                    Man in the Middle,” <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> 1:2
+                    (1998): 119-163.</bibl>
+                <bibl>_____, “Ephrem of Nisibis,” in <hi rend="italic">The Wiley Blackwell Companion to
+                        Patristics</hi>, ed. Ken Parry (Chichester, 2015): 126–140.</bibl>
+                <bibl>Poirier, P. H., <hi rend="italic">L'hymne de la perle des actes de Thomas.
+                        Introduction, Texte-Traduction, Commentaire</hi>, (Louvain-la-Neuve,
+                    1981).</bibl>
+                <bibl>Tanielian, Anoushawan Vardapet, <hi rend="italic">Mayr tsʻutsʻak hayerēn
+                        dzeṛagratsʻ Metsi Tann Kilikioy Katʻoghikosutʻean</hi> [=Catalogue of the
+                    Armenian Manuscripts in the Collection of the Armenian Catholicosate of
+                    Cilicia], (Antelias, 1984).</bibl>
+                <bibl>Terian, Abraham, “The Hellenizing School: Its Time, Place, and Scope of
+                    Activities Reconsidered” in <hi rend="italic">East of Byzantium: Syria and
+                        Armenia in the Formative Period (Dumbarton Oaks Symposium, 1980)</hi>, eds.
+                    Nina Garsoïan, Thomas F. Mathews, and Robert W. Thomson (Washington, D.C.,
+                    1982): 175-186.</bibl>
+                <bibl>Tēr-Petrosian, Levon, “Kc‘urdk‘ S. Ep‘remi Xorin Asorvoy: Bnagrakan Čšgrtumner
+                        [<hi rend="italic">Kc‘urdk‘</hi> of Ephrem the Syrian: Text-Critical
+                    Emendations],” <hi rend="italic">Handēs Amsoreay</hi> 92 (1978): 15-48.</bibl>
+                <bibl>Wickes, Jeffrey T., “Out of Books, a World: The Scriptural Poetics of Ephrem the
+                    Syrian’s <hi rend="italic">Hymns on Faith</hi>,” PhD diss., University of Notre
+                    Dame, 2013. </bibl>
+                <bibl>_____, <hi rend="italic">St. Ephrem the Syrian</hi>. <hi rend="italic">The Hymns
+                        on Faith</hi>, The Fathers of the Church 130 (Washington D.C. 2015).</bibl>
+                <pb n="318"/>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

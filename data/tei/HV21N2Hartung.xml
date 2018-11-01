@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Mêmrâ on the Signs Moses Performed in Egypt</title>
+            <title type="sub">An Exegetical Homily of the "School" of Ephrem<note place="foot"
+                  xml:id="ftn0" n="0"><p rend="footnote text"> I would like to express my gratitude
+                     to the anonymous readers of this article for their helpful feedback. I am also
+                     indebted to Jeffrey Wickes, Susan Ashbrook Harvey, and Philip Michael Forness
+                     for reading and commenting on earlier drafts. All errors remain my own.
+                  </p></note></title>
+            <author>
+               <name>
+                  <forename>Blake</forename>
+                  <surname>Hartung</surname>
+               </name>
+               <affiliation>
+                  <orgName>Saint Louis University</orgName>
+               </affiliation>
+            </author>
+            <respStmt>
+               <resp>TEI XML encoding by </resp>
+               <name>James E. Walters</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+            <date>2018</date>
+            <idno>Volume 21.2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication, a Creative Commons Attribution 4.0 International license
+                     has been granted by the author(s), who retain full copyright.</p>
+               </licence>
+            </availability>
+            <idno type="URI">https://hugoye.bethmardutho.org/article/hv21n2hartung</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author>Blake Hartung</author>
+                  <title level="a">The Mêmrâ on the Signs Moses Performed in Egypt: An Exegetical Homily of the "School" of Ephrem</title>
+                  <idno type="URI"/>
+                  <!-- Insert Syriaca bibl URI when available -->
+                  <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol21/HV21N2Hartung.pdf</idno>
+               </analytic>
+               <monogr>
+                  <title level="j">Hugoye: Journal of Syriac Studies</title>
+                  <imprint>
+                     <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                     <date>2018</date>
+                  </imprint>
+                  <biblScope type="vol" n="21">21</biblScope>
+                  <biblScope type="issue" n="2">2</biblScope>
+                  <biblScope type="pp" from="67" to="104">67-104</biblScope>
+                  <biblScope type="order" n="4"/>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study of
+               the Syriac tradition, published semi-annually (in January and July) by Beth Mardutho:
+               The Syriac Institute. Published since 1998, Hugoye seeks to offer the best
+               scholarship available in the field of Syriac studies.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>Ephrem the Syriam</term>
+               <term>Translation</term>
+               <term>Commentary</term>
+               <term>Homilies</term>
+               <term>Exegesis</term>
+               <term>Exodus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="Published">
+         <change when="2018-11-01">File created by James E. Walters</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <front>
+         <div type="abstract">
+            <head>Abstract</head>
+            <p xml:lang="en">This article examines the <hi rend="italic"
+               >Mêmrâ on the Signs Moses Performed in Egypt</hi>, a text first published by J.J.
+               Overbeck. Despite its attribution to Ephrem of Nisibis (ca. 307–373), this <hi
+                  rend="italic">mêmrâ</hi> is not well-known in Syriac scholarship. In this article, I
+               provide the first English translation of the text, and argue that it is the product of
+               the literary circle of Ephrem in fourth-century Nisibis or Edessa. Furthermore, I
+               contend that this prose exegetical homily represents a genre almost entirely unknown in
+               extant early Syriac literature. As a witness to little-known exegetical and homiletical
+               practices in that formative period, it enriches our understanding of the early emergence
+               and development of Syriac Christian literary culture.</p>         </div>
+      </front>
+      <body>
+         <pb n="319"/>
+         <div xml:id="hv21n2hartung.1" xml:lang="en">
+            <head>PART I: THE <hi rend="italic">MÊMRÂ ON THE SIGNS </hi>AND
+               SYRIAC LITERARY CULTURE IN THE FOURTH CENTURY</head>
+            <div xml:id="hv21n2hartung.1.1" xml:lang="en">
+               <head>Introduction</head>
+               <p>Although scholars widely acknowledge Ephrem of Nisibis
+                  (<hi rend="italic">ca. </hi>307–373) as a singular figure in
+                  Syriac literature and a valuable source for Christianity in late antique Northern
+                  Mesopotamia, many texts bearing his name remain untranslated and unstudied. Among
+                  the vast corpus of little-known Syriac texts attributed to Ephrem is a prose
+                  <hi rend="italic">mêmrâ </hi>entitled “First
+                  <hi rend="italic">Mêmrâ </hi>On the Signs Moses Performed in
+                  Egypt” (hereafter, <hi rend="italic">MoS</hi>).<note place="foot" xml:id="ftn1"
+                     n="1"><p rend="footnote text"> The manuscript heading identifying this
+                        <hi rend="italic">mêmrâ </hi>as the “first,” could
+                        refer to its place as the initial
+                        <hi rend="italic">mêmrâ </hi>in the codex, or, as
+                        Jansma argues, to its place as the first in a series of (now lost)
+                        <hi rend="italic">mêmrê </hi>on Moses in Egypt. See
+                        Taeke Jansma, “Une homélie sur les plaies d’Egypte,”
+                        <hi rend="italic">L’Orient Syrien </hi>6 (1961): 3–24,
+                        23.</p></note> This text has survived (along with several other
+                  <hi rend="italic">mêmrê </hi>attributed to Ephrem) in a
+                  single manuscript of the fifth or sixth century.<note place="foot" xml:id="ftn2"
+                     n="2"><p rend="footnote text"> London, British Library Add. 17189, folios
+                        1v–4v. See William Wright, <hi rend="italic">Catalogue of the Syriac
+                           Manuscripts in the British Museum acquired since the year 1838</hi>, Vol.
+                        2 (London: British Museum, 1871), 407. This small codex contains five prose
+                        homilies:
+                        <hi rend="italic">On the Signs Moses Performed in Egypt </hi>(fol.
+                        1r–4v),
+                        <hi rend="italic">On the Coming of the Spirit and the Division of the Tongues in the Upper Room </hi>(fol.
+                        4v–6r)<hi rend="italic">, On the Fast </hi>fol. 6r-8v),
+                        <hi rend="italic">On the Creation of the World </hi>(fol.
+                        9r–12v), and
+                        <hi rend="italic">On the Sin of Adam </hi>(fol.
+                        12v–15v).</p></note> Although J.J. Overbeck produced a printed edition of
+                  <hi rend="italic">MoS </hi>in 1865,<note place="foot"
+                     xml:id="ftn3" n="3"><p rend="footnote text"> J.J. Overbeck, ed., <hi
+                           rend="italic">S. Ephraemi Syri Rabulae Episcopi Edesseni Balaei
+                           Aliorumque Opera Selecta</hi>, (Oxford: Clarendon Press, 1865), 88–94.
+                        Based upon my reading of the manuscript, Overbeck’s edition is a nearly
+                        perfect reproduction of the text. In my translation, I offer only a few
+                        minor corrections on the basis of the manuscript. </p></note> Taeke Jansma
+                  is the only modern scholar to have discussed it in
+                  detail<hi rend="italic">. </hi>In an article on the
+                  <hi rend="italic">mêmrâ, </hi>Jansma strongly contended for
+                  accepting it as an authentic work of Ephrem.<note place="foot" xml:id="ftn4" n="4"
+                        ><p rend="footnote text"> Jansma, “Une homélie sur les plaies.”</p></note>
+                  Despite Jansma’s argument, which has been accepted by<pb n="320"/>
+                  Brock,<note place="foot"
+                     xml:id="ftn5" n="5"><p rend="footnote text"> Sebastian P. Brock, “St. Ephrem: A
+                        Brief Guide to the Main Editions and Translations,”
+                        <hi rend="italic">The Harp </hi>3 (1990):
+                     7–29.</p></note> more recent scholarship has largely overlooked the text.<note
+                     place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> See, e.g., the
+                        absence of mention of <hi rend="italic">MoS </hi>in the
+                        exhaustive survey of editions of texts of Ephremic authorship (including
+                        works of doubtful and dubious authenticity) in Joseph Melki, “Saint Ephrem
+                        le syrien, un bilan de l'édition critique,” <hi rend="italic">Parole de
+                           l’Orient</hi> 11 (1983): 3–88.
+                        <hi rend="italic">MoS </hi>also does not appear in the
+                        recent guide to Syriac homilies produced by Forness. See Philip Michael
+                        Forness, “A Brief Guide to Syriac Homilies,” Version 3, 11–12. Accessed at
+                           <ref
+                           target="http://syri.ac/sites/default/files/A_Brief_Guide_to_%20Syriac_Homilies_-_Versi.pdf"
+                           >http://syri.ac/sites/default/files/A_Brief_Guide_to_
+                           Syriac_Homilies_-_Versi.pdf</ref></p></note> This article seeks to
+                  correct this omission by providing the first English translation of
+                  <hi rend="italic">MoS </hi>and integrating this homily more
+                  fully into the scholarship on fourth-century Syriac literature. With its origins
+                  in the the literary circle or “school” of Ephrem,
+                  <hi rend="italic">MoS </hi>is a remnant of the early stage of
+                  the flourishing of Syriac Christian literary culture. Although its artistic prose
+                  style and narrow exegetical format are relatively anomalous, there is reason to
+                  believe that <hi rend="italic">MoS </hi>bears witness to a
+                  poorly-attested genre in early Syriac literature. As such, its style and
+                  exegetical method are of great value for enhancing our understanding of this
+                  decidedly murky period of Syriac history. </p>
+               <p> This article makes two major claims about <hi rend="italic">MoS</hi>: first, that
+                  it dates from the fourth or early fifth century; and second, that it belongs to
+                  the “school” of Ephrem. With regard to text’s date, I draw on several streams of
+                  evidence: the dating of the manuscript; the lack of influence from the exegesis of
+                  Theodore of Mopsuestia and the “Antiochene school” (which rose to prominence in
+                  Syriac exegesis in the mid-fifth century); and the absence of monastic interests
+                  or priorities in the text (setting it apart from most later Syriac homiletical
+                  material). For the second contention of this article—that
+                  <hi rend="italic">MoS </hi>belongs to the “school” of
+                  Ephrem—I offer three major points of evidence. For one, the text is of Syriac
+                  origin, employing citations from the Peshiṭta rather than the Septuagint. Further,
+                  <hi rend="italic">MoS </hi>has some literary relationship
+                  (sharing common vocabulary and thematic elements) with Ephrem’s <hi rend="italic"
+                     >Commentary<pb n="321"/>
+                     on Exodus</hi>. Finally, although the genre of the text (a prose
+                  exegetical homily, also identified as a <hi rend="italic">tûrgāmâ</hi>) appears to
+                  be relatively unique among extant fourth-century Syriac sources, its exegetical
+                  method has only two close parallels in Syriac literature: Ephrem’s
+                  <hi rend="italic">Commentary on Genesis </hi>and <hi
+                     rend="italic">Commentary on Exodus</hi>. </p>
+            </div>
+            <div xml:id="hv21n2hartung.1.2" xml:lang="en">
+               <head>Text and Authorship </head>
+               <p>Although few scholars have critically examined the <hi rend="italic">Mêmrâ on the
+                     Signs</hi>, there is a small but important body of scholarship on the text.
+                  Following Overbeck’s initial publication of <hi rend="italic">MoS</hi>, the
+                  earliest evaluation of the text fell to F.C. Burkitt. In an appendix to his study
+                  of the Gospel quotations in the writings of Ephrem, Burkitt judged all five prose
+                  homilies preserved in B.L. Add. 17189 to be translations from Greek, and therefore
+                     inauthentic.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">
+                        Given that the subject of Burkitt’s inquiry was quotations from the Gospels,
+                        and that no such quotations appear in <hi rend="italic">MoS</hi>, he did not
+                        cite this specific <hi rend="italic">mêmrâ </hi>in his
+                        analysis of the five homilies. See F.C. Burkitt, <hi rend="italic">Saint
+                           Ephraim’s Quotations from the Gospel</hi>, Texts and Studies:
+                        Contributions to Biblical and Patristic Literature 7 (Cambridge: Cambridge
+                        University Press, 1901), 75–79.</p></note> Later histories of Syriac
+                  literature (by Baumstark and Ortiz de Urbina), followed Burkitt in placing the
+                  five <hi rend="italic">mêmrê </hi>preserved in B.L. Add.
+                  17189 among “Ephremic” works of dubious authorship.<note place="foot"
+                     xml:id="ftn8" n="8"><p rend="footnote text"> See Anton Baumstark,
+                        <hi rend="italic">Geschichte der syrischen Literatur, mit Ausschluss der christlich-palästinensischen Texte </hi>(Bonn:
+                        A. Marcus and E. Webers, 1922), 44; Ignatius Ortiz de Urbina,
+                        <hi rend="italic">Patrologia Syriaca </hi>(Rome: Pont.
+                        Institutum Orientalium Studiorum, 1965), 68, no. 4. </p></note>
+               </p>
+               <p> In a 1961 article, Taeke Jansma challenged this scholarly consensus. His study
+                  provided a French translation of
+                  <hi rend="italic">MoS </hi>and argued in favor of the <hi
+                     rend="italic">mêmrâ’</hi>s attribution to Ephrem. Jansma’s argument focused
+                  primarily upon the close correspondences between
+                  <hi rend="italic">MoS </hi>and Ephrem’s <hi rend="italic"
+                     >Commentary on Exodus</hi>.<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text"> Abbreviated hereafter as <hi rend="italic"
+                           >CommEx.</hi></p></note> He identified several common themes in the two
+                  texts’ interpretations of Exod 7–8: the contrast between the
+                  <hi rend="italic">reality </hi>of<pb n="322"/>
+                  Moses’ miracles and the
+                  <hi rend="italic">illusory </hi>miracles performed by
+                  Pharaoh’s magicians<note place="foot" xml:id="ftn10" n="10"><p
+                        rend="footnote text"> Jansma, “Une homélie sur les plaies,” 12-15. On the
+                        transformation of the staffs into snakes, see
+                        <hi rend="italic">MoS </hi>§5 (Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, 89–90);
+                        <hi rend="italic">CommEx </hi>VI (R.-M. Tonneau, ed.,
+                        <hi rend="italic">Sancti Ephraem Syri in Genesim et in Exodum commentarii, </hi>CSCO
+                        152, Syr. 71 [Louvain: L. Durbecq, 1955], 134). On the transformation of the
+                        water to blood, see <hi rend="italic">MoS </hi>§6
+                        (Overbeck, <hi rend="italic">S. Ephraemi</hi>, 90–91);
+                        <hi rend="italic">CommEx </hi>VII.2 (Tonneau,
+                        <hi rend="italic">Commentarii, </hi>135–6). On the
+                        plague of frogs, see <hi rend="italic">MoS </hi>§8
+                        (Overbeck, <hi rend="italic">S. Ephraemi</hi>, 92–93);
+                        <hi rend="italic">CommEx </hi>VIII.1 (Tonneau,
+                        <hi rend="italic">Commentarii, </hi>136–137).</p></note>;
+                  and the juxtaposition of the magicians’ belief and Pharaoh’s unbelief in the
+                  aftermath of the plague of lice (Exod 8:19).<note place="foot" xml:id="ftn11"
+                     n="11"><p rend="footnote text"> Jansma, “Une homélie sur les plaies,” 16. See
+                        <hi rend="italic">MoS </hi>§10 (Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, 94);
+                        <hi rend="italic">CommEx </hi>VIII.2 (Tonneau,
+                        <hi rend="italic">Commentarii, </hi>137).</p></note> He
+                  then noted close parallels in vocabulary between
+                  <hi rend="italic">CommEx </hi>and <hi rend="italic"
+                     >MoS</hi>.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                        Jansma, “Une homélie sur les plaies,” 17–18.</p></note> For instance, he
+                  observed that after the transformation of Moses’ staff (Exod 7:10), both
+                  <hi rend="italic">MoS </hi>and
+                  <hi rend="italic">CommEx </hi>identify it as a <foreign  xml:lang="syr">ܬܢܝܢܐ</foreign> (“serpent”), and the
+                  trans-formed staffs of Pharaoh’s magicians as <foreign xml:lang="syr">ܚܘܘ̈ܬܐ</foreign> (“snakes”). The Peshiṭta, in contrast, describes both as
+                  <foreign xml:lang="syr">ܬܢܝ̈ܢܐ</foreign>.<note
+                     place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> Jansma, “Une
+                        homélie sur les plaies,” 17. See
+                        <hi rend="italic">MoS </hi>§5 (Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, p. 89);
+                        <hi rend="italic">CommEx </hi>VI.1, VII.4 (Tonneau,
+                        <hi rend="italic">Commentarii, </hi>134,
+                     136).</p></note> As Jansma saw it, the choice of two distinct words for “snake”
+                  highlighted the two texts’ common desire to distinguish between the feats of Moses
+                  and the magicians. He also observed that both texts use the same words to describe
+                  the magicians’ failures to “transform” (root <foreign xml:lang="syr">ܫܚܠܦ</foreign>) the “natures” (<foreign xml:lang="syr">ܟܝ̈ܢܐ</foreign>) of
+                     things.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">
+                        Jansma, “Une homélie sur les plaies,” 17. See
+                        <hi rend="italic">MoS </hi>§5 (Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, 90);
+                        <hi rend="italic">CommEx </hi>VI.1, VII.2 (Tonneau, <hi
+                           rend="italic">Commentarii</hi>, 134, 136).</p></note> Once again, such a
+                  description fits the two texts’ shared goal of downplaying the achievements of the
+                  magicians in favor of the miracles of Moses. Ultimately, Jansma identified no less
+                  than fourteen such examples in which the two texts share common vocabulary.<note
+                     place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> Jansma, “Une
+                        homélie sur les plaies,” 17-18.</p></note> On the basis of these close
+                  correspondences in language and themes between the
+                  <hi rend="italic">CommEx </hi>and <hi rend="italic">MoS</hi>,
+                  Jansma concluded that the <hi rend="italic">mêmrâ </hi>was
+                  the work of Ephrem. </p><pb n="323"/>
+               <p> Jansma’s analysis advanced our understanding of
+                  <hi rend="italic">MoS </hi>in two key respects. First, he
+                  proved that the text was originally written in Syriac (relying upon Peshiṭta, not LXX, readings from Exodus).
+                  Second, he demonstrated the extremely close textual relationship between
+                  <hi rend="italic">MoS </hi>and Ephrem’s <hi rend="italic"
+                     >Commentary on Exodus</hi>. The most problematic feature of Jansma’s analysis
+                  was his singleminded focus on the question of authorship. As I shall demonstrate,
+                  the authorship issue is not as clear-cut as Jansma argued. There are several
+                  possible interpretations of the literary relationship between
+                  <hi rend="italic">MoS </hi>and
+                  <hi rend="italic">CommEx. </hi></p>
+               <p> To make the case for an early date of composition (and address the issue of
+                  authorship), we must turn to the single surviving manuscript of <hi rend="italic"
+                     >MoS</hi>, the fifth/sixth century codex B.L. Add. 17189.<note place="foot"
+                     xml:id="ftn16" n="16"><p rend="footnote text"> Wright, <hi rend="italic"
+                           >Catalogue</hi>, 407. </p></note> The early compilation of the codex
+                  indicates that the composition of
+                  <hi rend="italic">MoS </hi>can date no later than the fifth
+                  century. The attribution of authorship in the manuscript is somewhat more
+                  complicated. The initial title (on fol. 1v) appears in a later hand, and
+                  attributes the homilies to either Ephrem, Basil, or John Chrysostom. Running
+                  titles on later folia, however, describe the texts as the work of Ephrem.<note
+                     place="foot" xml:id="ftn17" n="17"><p rend="footnote text"> Fol. 2r, 9r, 12v,
+                        13r. For a complete description of these marginal titles, see Wright, <hi
+                           rend="italic">Catalogue</hi>, 407. </p></note> F.C. Burkitt argued that
+                  the headings attributing the homilies to Ephrem were written in a different hand
+                  and thus offered no evidence as to their attribution at the time the codex was
+                     copied.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">
+                        Burkitt, <hi rend="italic">Saint Ephraim’s Quotations from the Gospel</hi>,
+                        76.</p></note> Given the diverse character of the collected homilies (some
+                  are Syriac compositions and others are translations from Greek) it is possible
+                  that when assembling this compilation of homilies, the original scribe did not
+                  know or bother to attribute the collection to any single author.<note place="foot"
+                     xml:id="ftn19" n="19"><p rend="footnote text"> On the basis of this (apparently
+                        cursory) examination, Burkitt initially judged all of the homilies to be
+                        original Greek compositions. (Burkitt, <hi rend="italic">Saint Ephraim’s
+                           Quotations from the Gospel</hi>, 77). Later, Jansma argued that the
+                        fourth and fifth homilies
+                        (<hi rend="italic">On the Creation of the World </hi>and
+                           <hi rend="italic">On the Sin of Adam</hi>) were translations of Greek
+                        homilies of the Antiochene exegetical tradition. See Taeke Jansma, “Une
+                        homélie anonyme sur la création du monde,”
+                        <hi rend="italic">L’Orient Syrien </hi>5 (1960):
+                        385–400; idem, “Une homélie anonyme sur la chute d’Adam,”
+                        <hi rend="italic">L’Orient Syrien </hi>5 (1960):
+                        159–182. The first three (<hi rend="italic">MoS</hi>,
+                        <hi rend="italic">On the Fast, </hi>and <hi
+                           rend="italic">On the Coming of the Holy Spirit</hi>) appear to be of
+                        Syriac origin. </p></note> As it is, the manuscript<pb n="324"/> itself provides evidence
+                  that <hi rend="italic">MoS</hi> was composed at a relatively early date, but it
+                  does not provide any clear indication of its authorship.</p>
+               <p> Despite their varied provenance, the five
+                  <hi rend="italic">mêmrê </hi>of B.L. Add. 17189 share a
+                  common profile.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">
+                        Given the concurring presence of native Syriac homilies as well as
+                        translated Greek homilies with an Antiochene exegetical bent within the
+                        codex, Jansma attributed this codex to the “School of the Persians” in
+                        fifth-century Edessa. (Taeke Jansma, “Les homélies du manuscrit Add. 17.189
+                        du British Museum. Une homélie anonyme sur le jeûne,”
+                        <hi rend="italic">L'Orient Syrien </hi>6.1 [1961]:
+                        412–440, 436–37).Jansma overstates the evidence for the existence of such a
+                        school (a common problem discussed above). Nevertheless, this collection of
+                        Greek and Syriac homilies attests to a transitional moment in Syriac
+                        Christian literary production.</p></note> With the exception of the second
+                  homily (<hi rend="italic">On the Fast</hi>) they each explicate a single passage
+                  of Scripture. This is likely why the scribe identified them in a heading as
+                  <hi rend="italic">tûrgāmê </hi>(“explanations” or
+                     “interpre-tations”).<note place="foot" xml:id="ftn21" n="21"><p
+                        rend="footnote text"> See B.L. Add. 17189, fol. 12v (page heading).
+                     </p></note> Although it is quite difficult to parse the precise nature of such
+                  literary terms in early Syriac literature, a similar collection of
+                  <hi rend="italic">tûrgāmê </hi>by Jacob of Sarug provides
+                  evidence that scribes used the word
+                  <hi rend="italic">tûrgāmâ </hi>to describe a distinct prose
+                  homiletic form of early Syriac exegesis.<note place="foot" xml:id="ftn22" n="22"
+                        ><p rend="footnote text"> In the case of B.L. Add. 17189, for example, the
+                        homilies are variously described as
+                        <hi rend="italic">mêmrê </hi>and <hi rend="italic"
+                           >tûrgāmê</hi>. For a summary of some of the Syriac terms used for
+                        commentary literature, see Lucas Van Rompay, “Between the School and the
+                        Monk’s Cell: The Syriac Old Testament Commentary Tradition,” in <hi
+                           rend="italic">The Peshiṭta: Its Use
+                           in Literature and Liturgy: Papers Read at the Third Peshiṭta Symposium</hi>, ed. Bas Ter Haar Romeny, Monographs of
+                        the Peshitta Institute (Leiden: Brill, 2006), 30. </p></note> Jacob composed
+                  the vast majority of his homilies in meter, in the artistic and elevated language
+                  of poetry. His six
+                     <hi rend="italic">Festal Homilies </hi>(<hi rend="italic"
+                     >tûrgāmê</hi>), by contrast, are prose homilies centered upon explaining a
+                  passage of Scripture associated with a particular time in the liturgical<pb n="325"/> year
+                  (e.g., the Baptism of Jesus in <hi rend="italic">Hom. </hi>2:
+                     <hi rend="italic">On Epiphany</hi>).<note place="foot" xml:id="ftn23" n="23"><p
+                        rend="footnote text"> Frédéric Rilliet, ed., <hi rend="italic">Jacques de
+                           Saroug: Six homélies festales en prose</hi>, PO 43.4 (Turnhout: Brepols,
+                        1986). The six homilies are:
+                        <hi rend="italic">On Nativity </hi>(I)<hi rend="italic">, On Epiphany </hi>(II)<hi rend="italic">, On The Forty-Day Fast </hi>(III),
+                        <hi rend="italic">On Palm Sunday </hi>(IV)<hi rend="italic">, On the Friday of the Passion </hi>(V),
+                        and
+                        <hi rend="italic">On the Sunday of the Resurrection </hi>(VI).
+                        Other early prose homilies I have examined are described in the manuscript
+                        tradition as <hi rend="italic">mêmrê </hi>or
+                        <hi rend="italic">mamllê. </hi>This is the case with
+                        the anonymous prose homilies edited by Desreumeux and Graffin. See Alain
+                        Desreumaux, ed., <hi rend="italic">Trois Homélies syriaques anonymes sur
+                           l’Épiphanie</hi>, PO 38.4 (Turnhout: Brepols, 1977); Francois Graffin,
+                        ed., <hi rend="italic">Homélies anonymes du VIe siècle</hi>, PO 41.4
+                        (Turnhout: Brepols, 1984).</p></note> These examples of <hi rend="italic"
+                     >tûrgāmê</hi> attest to a particular form of homiletic exegetical composition
+                  known to early Syriac writers, characterized by a prose format and a narrow
+                  exegetical focus. The manuscript evidence, therefore, supports the following
+                  conclusions: that <hi rend="italic">MoS </hi>was written in
+                  Syriac no later than the fifth century, compiled in a collection of
+                  exegetically-oriented homilies—which the scribe identified as
+                  <hi rend="italic">mêmrê </hi>or <hi rend="italic"
+                     >tûrgāmê</hi>—in the fifth or sixth century, and as a part of that collection
+                  was not originally attributed to any particular author. To attribute
+                  <hi rend="italic">MoS </hi>to the fourth/early fifth century,
+                  and to the nebulous literary circle often described as the “school” of Ephrem,
+                  will require additional proof.</p>
+            </div>
+            <div xml:id="hv21n2hartung.1.3" xml:lang="en">
+               <head>Fourth-Century Syriac Literature and the “School of Ephrem” </head>
+               <p>Although we possess numerous hymns, homilies, and prose works by Ephrem,<note
+                     place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> For a survey of the
+                        editions and translations of Ephrem, see Melki, “Saint Ephrem le syrien.”
+                        See also Brock, “St. Ephrem: A Brief Guide.”</p></note> as well as several
+                  works by other authors, namely Aphrahat,<note place="foot" xml:id="ftn25" n="25"
+                        ><p rend="footnote text"> Jean Parisot, ed.,
+                        <hi rend="italic">Aphraatis Sapientis Persae Demonstrationes, </hi>Patrologia
+                        Syriaca 1.1 (Paris: Firmin-Didot, 1894). </p></note> Cyrillona,<note
+                     place="foot" xml:id="ftn26" n="26"><p rend="footnote text"> Carl W. Griffin,
+                        ed.
+                        <hi rend="italic">The Works of Cyrillona </hi>(Picataway,
+                        N.J.: Gorgias Press, 2016). Although scholars have theorized several
+                        possible identities, we know nothing of the identity of the poet Cyrillona,
+                        the author of five (or six) poems extant in a single manuscript (B.L. Add.
+                        14591). Given that his work seems to originate from around the turn of the
+                        fifth century and his style is strikingly similar to Ephrem’s, it is
+                        possible that his sophisticated
+                        <hi rend="italic">mêmrê </hi>and
+                        <hi rend="italic">sûgyātâ </hi>also emerged from the
+                        ascetic literary circle associated with Ephrem. See Sebastian Brock,
+                        “Qurillona,” in <hi rend="italic">The Gorgias Encyclopedic Dictionary of the
+                           Syriac Heritage</hi>, edited by Sebastian Brock et al. (Piscataway, N.J.:
+                        Gorgias Press, 2011), 346–347; Carl W. Griffin, “Cyrillona: A Critical Study
+                        and Commentary,” Ph.D. dissertation, Catholic University of America, 2011,
+                        esp. 1–76. </p></note> and the anonymous author of<pb n="326"/> the <hi rend="italic"
+                     >Book of Steps</hi>,<note place="foot" xml:id="ftn27" n="27"><p
+                        rend="footnote text"> Michael Kmosko, ed., <hi rend="italic">Liber
+                           Graduum</hi>, Patrologia Syriaca 1.3 (Paris: Firmin-Didot 1926).
+                        Scholarly consensus has tended to date this idiosyncratic text to the fourth
+                        century. Recently, however, Kyle Smith has raised some valuable challenges
+                        to this consensus, arguing that the
+                        <hi rend="italic">Book of Steps </hi>may be a
+                        “purposefully anonymous (and in that sense, pseudepigraphic), fifth-century
+                        biblical commentary wherein the author masquerades as a first-century
+                        writer”. He offers the ecclesiastical reforms of Rabbula
+                        (<hi rend="italic">ca. </hi>430) as a possible moment
+                        of tension that may have precipitated the work’s composition. See Kyle
+                        Smith, “A Last Disciple of the Apostles: The ‘Editor’s’ Preface, Rabbula’s
+                        Rules, and the Date of the Book of Steps,” in Kristian S. Heal and Robert A.
+                        Kitchen, eds.,
+                        <hi rend="italic">Breaking the Mind: New Studies in the Syriac Book of Steps </hi>(Washington,
+                        D.C.: Catholic University of America Press, 2013), 90–91.</p></note> these
+                  extant writings reveal very little about the context of their composition or the
+                  lives of their authors. In the attempt to make sense of the shadowy world of
+                  fourth-century Syriac Christianity, scholars have sometimes overstated their
+                     evidence.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"> One
+                        of the most striking examples of this is the attempt to place Ephrem’s
+                        writings in a chronological sequence, contrasting texts believed to be
+                        earlier (from Ephrem’s time in Nisibis) with writings which are allegedly
+                        more mature and therefore later (from Ephrem’s time in Edessa). The most
+                        detailed implementation of this periodization appears in Christian Lange’s
+                        study of the
+                        <hi rend="italic">Commentary on the Diatessaron. </hi>See
+                        Christian Lange,
+                        <hi rend="italic">The Portrayal of Christ in the Syriac Commentary on the Diatessaron, </hi>CSCO
+                        616, Subsidia 118 (Louvain: Peeters,
+                        2005<hi rend="italic">), </hi>29–33. The problem with
+                        this approach is that relies upon subjective assessments of “maturity,” and
+                        unproven historical assumptions about the cultural and religious situations
+                        in Edessa and Nisibis, respectively. </p></note> In fact, we know very
+                  little of the social and religious landscape of important cities like Nisibis and
+                  Edessa, or of the historical circumstances of the lives of crucial authors like
+                     Ephrem.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"> For a
+                        thorough summary of the extant evidence and the numerous remaining questions
+                        regarding Ephrem’s home city of Nisibis, see Paul S. Russell, “Nisibis as
+                        the Background to the Life of Ephrem the Syrian,”
+                        <hi rend="italic">Hugoye </hi>8 (2005): 179–235. With
+                        respect to the historical details of the life of Ephrem, scholars reject the
+                        Syriac <hi rend="italic">Life of Ephrem </hi>and
+                        <hi rend="italic">Testament of Ephrem </hi>as later
+                        compositions conveying little accurate data regarding Ephrem’s life. For
+                        this problem, see
+                        <hi rend="italic">The Syriac </hi>Vita <hi
+                           rend="italic">Tradition of Ephrem the Syrian</hi>, ed. and trans. Joseph
+                        P. Amar, CSCO 629/630 (Louvain: Peeters, 2011); idem, “Byzantine Ascetic
+                        Monachism and Greek Bias in the
+                        <hi rend="italic">Vita </hi>Tradition of Ephrem the
+                        Syrian,” <hi rend="italic">OCP </hi>58 (1992): 123–156;
+                        Bernard Outtier, “Saint Éphrem d’après ses biographies et ses œuvres,”
+                        <hi rend="italic">Parole de l’Orient </hi>4:1–2 (1973):
+                        11–33, 12–15. </p></note>
+               </p><pb n="327"/>
+               <p> As a result, contextualizing the extant literature of the fourth century has
+                  proven a significant challenge. For exegetical works, one of the most productive
+                  avenues thus far has been to trace the connections between Syriac and Jewish
+                  exegetical traditions.<note place="foot" xml:id="ftn30" n="30"><p
+                        rend="footnote text"> See Sebastian Brock, “Jewish Traditions in Syriac
+                        Sources,” <hi rend="italic">JJS </hi>30, no. 2 (1979):
+                        212–232; Paul Féghali, “Influence des targums sur la pensée exégétique
+                        d’Ephrem,” in <hi rend="italic">IV Symposium Syriacum 1984: Literary Genres
+                           in Syriac Literature</hi>, Orientalia Christiana Analecta 229 (Rome:
+                        Pontifical Institutum Studiorum Orientalium, 1987), 71–82; Nicolas Sed, “Les
+                        hymnes sur le paradis de saint Ephrem et les traditions juives,”
+                        <hi rend="italic">Le Muséon </hi>81 (1968): 455–501;
+                        Tryggve Kronholm,
+                        <hi rend="italic">Motifs from Genesis 1–11 in the Genuine Hymns of Ephrem the Syrian, with Particular Reference to the Influence of Jewish Exegetical Traditions </hi>(Uppsala:
+                        Almqvist &amp; Wiksell, 1978).</p></note> We do not, however, know when and
+                  how Syriac and Jewish sources came to share these common traditions. Furthermore,
+                  despite efforts to associate fourth-century Syriac exegesis with other
+                  contemporaneous Christian traditions—particularly the “Antiochene School”<note
+                     place="foot" xml:id="ftn31" n="31"><p rend="footnote text"> See, e.g., Nabil
+                        el-Khoury, “Hermeneutics in the Works of Ephrem the Syrian,” in
+                        <hi rend="italic">IV Symposium Syriacum, 1984: Literary Genres in Syriac Literature, </hi>Orientalia
+                        Christiana Analecta 229 (Rome: Pontifical Institutum Studiorum Orientalium,
+                        1987), 95–6; Kronholm, <hi rend="italic">Motifs from Genesis 1-11</hi>,
+                        25–7; Sten Hidal, <hi rend="italic">Interpretatio Syriaca: die Kommentare
+                           des Heiligen Ephräm des Syrers zu Genesis und Exodus mit besondere[r]
+                           Berücksichtigung ihrer auslegungsgeschichtlichen Stellung</hi>, trans.
+                        Christiane Boehncke Sjöberg, Coniectanea biblica. Old Testament series 6
+                        (Lund: Gleerup, 1974), 25. </p></note>—the earliest works of Syriac exegesis
+                  exhibit marked differences from the work of Diodore and Theodore, as Lucas Van
+                  Rompay has shown.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">
+                        See Lucas Van Rompay, “Antiochene Biblical Interpretation: Greek and
+                        Syriac,” in <hi rend="italic">The Book of Genesis in Jewish and Oriental
+                           Christian Interpretation: A Collection of Essays</hi>, ed. Judith
+                        Frishman and Lucas Van Rompay (Louvain: Peeters, 1997).</p></note>
+                  <hi rend="italic">MoS </hi>likewise shows no evidence of the<pb n="328"/>
+                  influence of Antiochene exegetical culture, a matter which I will discuss in
+                  greater detail below. </p>
+               <p> The rapid dissemination of Ephrem’s works and the great reputation he quickly
+                  attained indicates that his influence inspired a great deal of scribal and
+                  literary activity in and beyond the cities where he lived and worked. In his
+                  biographical sketch of the life of Ephrem (one of the earliest in any language)
+                  the fifth-century Greek historian Sozomen presents a multi-faceted (even
+                  contradictory) portrait of the man. Sozomen’s Ephrem is an anchoritic ascetic, a
+                  popular hymn-writer, and a renowned teacher and philosopher who produced many
+                  famed students.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">
+                        See <hi rend="italic">Sozomenos. Historia Ecclesiastica</hi>, ed. and trans.
+                        by Günter Christian Hansen, FC 73:1-4 (Turnhout: Brepols, 2004),
+                     III.16.</p></note> Later Syriac sources also described Ephrem as a teacher,
+                  associating him with the nebulous “School of the Persians” in Edessa.<note
+                     place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> For the primary
+                        source of this tradition, Barḥadbšabbâ’s
+                        <hi rend="italic">Cause of the Foundation of the Schools </hi>(<hi rend="italic">ca. </hi>600),
+                        see Addai Scher, ed., <hi rend="italic">Cause de la fondation des
+                           écoles</hi>, PO 4.4 (Paris: Firmin-Didot, 1908) 381. For a thorough
+                        commentary on this text, see Becker, <hi rend="italic">Fear of God and the
+                           Beginning of Wisdom</hi>, 98–112. </p></note> The image of Ephrem as a
+                  teacher offers a particularly intriguing context in which to interpret his vast
+                  and diverse literary corpus.<note place="foot" xml:id="ftn35" n="35"><p
+                        rend="footnote text"> Ephrem himself alludes to the activities of teaching
+                        on several occasions. For example, in the third <hi rend="italic">Mêmrâ on
+                           Reproof</hi>, Ephrem develops a lengthy metaphor of the human mind as a
+                        tablet upon which to copy and learn God’s law. The image is of a young
+                        copyist learning to write in straight lines and duplicate the correct
+                        letters. By contrast, he says, humans are inclined to wander off and copy
+                        the word “mammon” instead of “God,” when they should be following the
+                        example of their divine teacher
+                        (<hi rend="italic">Repr. </hi>III.389–433). For the
+                        best analysis of the limited evidence on Ephrem’s educational background,
+                        see Ute Possekel, <hi rend="italic">Evidence of Greek Philosophical Concepts
+                           on the Writings of Ephrem the Syrian</hi>, CSCO 102 (Louvain: Peeters,
+                        1999), 48–54.</p></note> It also provides a possible setting in which to
+                  understand the composition of <hi rend="italic">MoS. </hi>As
+                  much as we might like to envision an exegetical homily like
+                  <hi rend="italic">MoS </hi>as part of the curriculum of an
+                  Ephremic theological “academy,” there is no evidence for a formal Christian
+                  “school” in Nisibis or Edessa during<pb n="329"/> Ephrem’s lifetime.<note place="foot"
+                     xml:id="ftn36" n="36"><p rend="footnote text"> The earliest references to this
+                        school originate from the sixth century. Among them are Jacob of Sarug’s
+                        Letter 14, Simeon of Beth Arsham’s
+                        <hi rend="italic">Letter on Bar Ṣawmâ and the heresy of the Nestorians, </hi>and
+                        Barhadbšabbhâ’s
+                        <hi rend="italic">Ecclesiastical History </hi>and
+                        <hi rend="italic">Cause of the Foundation of the Schools. </hi>For
+                        a more in-depth analysis of these sources, see Adam Becker,
+                        <hi rend="italic">Fear of God and the Beginning of Wisdom: The School of Nisibis and Christian Scholastic Culture in Late Antique Mesopotamia </hi>(Philadelphia:
+                        University of Pennsylvania Press, 2006), 41–61.</p></note> We might better
+                  conceptualize the teach-ing and writing of Ephrem and his colleagues within the
+                  context of an ancient “voluntary association” that only gradually developed the
+                  features of a formalized institution, as Adam Becker argues with regard to the
+                  “School of the Persians.”<note place="foot" xml:id="ftn37" n="37"><p
+                        rend="footnote text"> Becker, <hi rend="italic">Fear of God and the
+                           Beginning of Wisdom</hi>, 69. On the existence of the “School of the
+                        Persians,” Becker takes a less credulous view of the sources than his
+                        predecessors. J.B. Segal, for example, allows that while “there is no direct
+                        evidence that he founded, or taught at, the School of the Persians... it
+                        would be strange if he were not associated with it.” (J.B. Segal,
+                        <hi rend="italic">Edessa: The Blessed City </hi>[Oxford:
+                        Clarendon Press, 1970], 87.). Likewise, Arthur Vööbus sees Ephrem as laying
+                        a “foundation” that developed into the school (Arthur
+                           Vööbus<hi rend="bold">, </hi><hi rend="italic"
+                           >History of the School of Nisibis</hi>, CSCO 266, Subsidia 26 [Louvain:
+                        Secrétariat du CorpusSCO, 1965], 8–9). H.J.W. Drijvers even argues for the
+                        existence of an earlier “School of Edessa” preceding Ephrem’s time. See Han
+                        J.W. Drijvers, “The School of Edessa: Greek Learning and Local Culture,” in
+                           <hi rend="italic">Centres of Learning: Learning and Location in
+                           Pre-Modern Europe and the Near East</hi>, ed. Jan Willem Drijvers and
+                        Alasdair A. MacDonald, Brill’s Studies in Intellectual History 61 (Leiden:
+                        Brill, 1995), 58–59.</p></note>
+               </p>
+               <p> In a recent article, Jeffrey Wickes proposes a setting for Ephrem’s literary
+                  activity that attempts to account for his renown as a teacher and the
+                  sophisticated subject matter of his writings. He argues that Ephrem composed the
+                  majority of his works within and for an ascetic “literary circle,” a group that
+                  would have “blurred” modern distinctions between school, liturgy, and monastery.
+                  Wickes writes: </p>
+               <p rend="H Quote Block"
+                  >Because of the particularly bookish content of many of the madrāšê, we can think of this small circle neither as the local parish, nor as some kind of proto-monastery,<pb n="330"/> but as a proto-school, gathered to learn and pray. The small gatherings of iḥîdāyê (“single ones”), <hi rend="italic">qaddîšê </hi>(“holy ones”), and <hi rend="italic">btûlātâ </hi>(“virgins”) read, sang, prayed, discussed, and wrote.
+                     The ideals of their life were ascetic, but their asceticism was carried out in
+                     especially literary ways.<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text"> Jeffrey Wickes, “Between Liturgy and School:
+                        Reassessing the Performative Context of Ephrem’s <hi rend="italic"
+                           >Madrāšê</hi>,” <hi rend="italic">JECS </hi>26, no.
+                        1 (2018): 25–51, 45. </p></note>
+               </p>
+               <p> Such a literary circle would provide a context in which to comprehend the rapid
+                  rise in Ephrem’s fame across the Eastern Roman Empire. Less than twenty years
+                  after his death, his reputation had reached Jerome in distant Bethlehem.<note
+                     place="foot" xml:id="ftn39" n="39"><p rend="footnote text"> See Jerome, <hi
+                           rend="italic">De Viris Illustribus</hi> 115. </p></note> We can envision
+                  Ephrem and his disciples engaged not only in prayer and teaching, but also in book
+                  production and even potentially translation, working to promulgate and spread
+                  their work beyond the confines of Nisibis or Edessa.<note place="foot"
+                     xml:id="ftn40" n="40"><p rend="footnote text"> Sozomen claims that Ephrem’s
+                        writings were being copied and translated into Greek even during his own
+                        lifetime. See Sozomen, <hi rend="italic">HE</hi> III.16. </p></note>
+                  Although we possess no direct evidence of Syriac book production from the fourth
+                  century, B.L. Add. 12150, the oldest known Syriac codex (dated to 411 CE), attests
+                  to a longstanding history of Syriac scribal practices in Edessa that must underlie
+                  the production of a codex of such quality and sophistication.<note place="foot"
+                     xml:id="ftn41" n="41"><p rend="footnote text"> Millar, “Greek and Syriac in
+                        Edessa,” 106.</p></note>
+               </p>
+               <p> Others in Ephrem’s circle seem to have produced their own works during and after
+                  his lifetime, some of which are extant. They likely composed the earliest
+                  pseudonymous Ephremic writings in the Syriac literary record, as tributes to or
+                  continuations of Ephrem’s work.<note place="foot" xml:id="ftn42" n="42"><p
+                        rend="footnote text"> Some of Ephrem’s <hi rend="italic">madrāšê</hi> cycles
+                        (particularly the <hi rend="italic">Madrāšê on Julian Saba</hi> and the <hi
+                           rend="italic">Madrāšê on Abraham Qidunaya</hi>) seem to be of mixed
+                        provenance, with an original Ephremic core supplemented by additional
+                        pseudo-Ephremic material. The likely explanation for this phenomenon is that
+                        Ephrem’s literary and ascetic circle continued to copy, supplement, and
+                        disseminate the master’s writings after his death. See Sidney Griffith,
+                        “Julian Saba, “Father of the Monks” of Syria,” <hi rend="italic">JECS</hi>
+                        2, no. 2 (1994): 185–216, 201; idem, “Abraham Qîdunayâ, St. Ephraem the
+                        Syrian, and Early Monasticism in the Syriac-speaking World,” in <hi
+                           rend="italic">Il Monachesimo tra Eredità e Aperture</hi>, ed. Daniel
+                        Hombergen and Maciej Bielawski, Studia Anselmiana 140 (Rome: 2004), 239–64,
+                        250; Andrew Hayes, <hi rend="italic">Icons of the Heavenly Merchant: Ephrem
+                           and Pseudo-Ephrem in the Madrashe in Praise of Abraham of Qidun</hi>,
+                        Gorgias Eastern Christian Studies 45 (Piscataway, N.J.: Gorgias Press,
+                        2016), 20. </p></note> This literary circle was<pb n="331"/> probably also the setting in
+                  which Ephrem’s followers compiled and revised the apparently heterogeneous <hi
+                     rend="italic">Commentary on the Diatessaron</hi>.<note place="foot"
+                     xml:id="ftn43" n="43"><p rend="footnote text"> In his study of the <hi
+                           rend="italic">Commentary on the Diatessaron</hi>, Christian Lange argues
+                        that the commentary was of heterogeneous origin, a school text with later
+                        additions and corrections by Ephrem’s students. See Lange, <hi rend="italic"
+                           >The Portrayal of Christ</hi>, 66–67. </p></note> Aba is the only other
+                  named member of Ephrem’s circle whose works survive today.<note place="foot"
+                     xml:id="ftn44" n="44"><p rend="footnote text"> Sozomen names Aba as one of
+                        several notable “disciples” of Ephrem, and the title “disciple of Ephrem”
+                        frequently accompanies his name in the extant manuscript fragments. See
+                        <hi rend="italic">HE </hi>III.16. </p></note> However,
+                  until the recent discovery of a previously-unknown treatise
+                  <hi rend="italic">On Faith </hi>in the library of Deir
+                  al-Surian (attributed in marginal notes to Aba), only fragments of his work had
+                  been recovered.<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">
+                        Wadi al-Natrun, Deir al-Surian, Syr. 20C, fol. 76–194v. For a description of
+                        this unpublished text, see Sebastian P. Brock and Lucas Van Rompay, <hi
+                           rend="italic">Catalogue of the Syriac Manuscripts and Fragments in the
+                           Library of Deir al-Surian, Wadi al-Natrun (Egypt)</hi>, Orientalia
+                        Lovaniensia Analecta 227 (Louvain: Peeters, 2014), 105–110.</p></note> Aba
+                  evidently composed several works of exegetical interest, including commentaries on
+                  the Diatessaron and the Psalms, and a
+                  <hi rend="italic">mêmrâ </hi>on Job.<note place="foot"
+                     xml:id="ftn46" n="46"><p rend="footnote text"> For these fragments, which
+                        survive in B.L. Add. 17194 and B.L. Add. 14726, see François Nau, “Fragments
+                        de Mar Aba, Disciple de Saint Ephrem.”
+                        <hi rend="italic">Revue de l’Orient Chrétien </hi>17
+                        (1912): 69–73; Gerrit J. Reinink, “Neue Fragmente zum Diatessaronkommentar
+                        des Ephraem-schülers Aba,”
+                        <hi rend="italic">Orientalia Lovaniensia Periodica </hi>11
+                        (1980): 117–133.</p></note> While they reveal almost nothing of the context
+                  of their production, the works of Ephrem and Aba, and some of the earlier
+                  Pseudo-Ephremic writings, attest to a highly literate circle, capable of producing
+                  works of exegesis, polemic, and theology in poetry and prose. </p>
+               <p> The central question for our purposes is whether
+                  <hi rend="italic">MoS </hi>should be attributed to this
+                  circle. At first glance, it seems to<pb n="332"/> bear little resemblance to other
+                  <hi rend="italic">mêmrê </hi>associated with Ephrem and his
+                  circle, most of which are metrical in form and thematic in content.<note
+                     place="foot" xml:id="ftn47" n="47"><p rend="footnote text"> For instance, the
+                        three <hi rend="italic">Mêmrê on Reproof </hi>and
+                        <hi rend="italic">Mêmrê on Nicodemia </hi>urge the
+                        people of Nisibis to repentance, while the
+                        <hi rend="italic">Mêmrê on Faith </hi>warn against what
+                        Ephrem sees as false teachings. </p></note> Although its exegesis closely
+                  resembles that of Ephrem’s Old Testament commentaries, it is written in an
+                  artistic prose akin to that of Ephrem’s
+                  <hi rend="italic">Letter to Publius </hi>and <hi
+                     rend="italic">Mêmrâ on Our Lord</hi>.<note place="foot" xml:id="ftn48" n="48"
+                        ><p rend="footnote text"> Sebastian Brock first proposed the category of
+                        “artistic prose” in his critical edition of the
+                        <hi rend="italic">Letter to Publius. </hi>See Sebastian
+                        P. Brock, “Ephrem’s Letter to Publius,”
+                        <hi rend="italic">Le Muséon </hi>89 (1976), 261–305,
+                        263. Like this text, <hi rend="italic">MoS </hi>(though
+                        not written in meter) employs literary features common to Syriac poetry,
+                        such as repetition and personification. </p></note> Finally,
+                  <hi rend="italic">MoS </hi>centers on a single biblical
+                  account, a method shared by only two
+                  <hi rend="italic">mêmrê </hi>of likely Ephremic authorship,
+                  both of them metrical—the
+                  <hi rend="italic">Mêmrâ on Nineveh and Jonah </hi>and the <hi
+                     rend="italic">Mêmrâ on the Sinful Woman</hi>.<note place="foot" xml:id="ftn49"
+                     n="49"><p rend="footnote text"> Critical editions of both
+                        <hi rend="italic">mêmrê </hi>can be found in Edmund
+                        Beck, ed, <hi rend="italic">Des Heiligen Ephraem des Syrers Sermones
+                        II</hi>, CSCO 311–312, Scriptores Syri 134–135 (Louvain, 1970). </p></note>
+                  The only possible parallels to
+                  <hi rend="italic">MoS </hi>from Ephrem and his circle are
+                  extant only in fragments: the
+                  <hi rend="italic">Mêmrâ on the Prologue of John </hi>attributed
+                  to Ephrem<note place="foot" xml:id="ftn50" n="50"><p rend="footnote text"> Burkitt
+                        reproduces these fragments, with an English translation and commentary, in
+                        Burkitt, <hi rend="italic">Saint Ephraim’s Quotations from the Gospel</hi>,
+                        59–65. </p></note> and Aba’s <hi rend="italic">Mêmrâ on Job</hi>. Fragments
+                  of these <hi rend="italic">mêmrê </hi>reveal them to be prose
+                  homilies with a narrow exegetical focus, similar, therefore, to
+                  <hi rend="italic">MoS. </hi>One other comparable text is a
+                  short <hi rend="italic">mêmrâ/tûrgāmâ </hi>of Syriac origin
+                  preserved with <hi rend="italic">MoS </hi>in B.L. Add. 17189:
+                     <hi rend="italic">On the Coming of the Holy Spirit</hi>.<note place="foot"
+                     xml:id="ftn51" n="51"><p rend="footnote text"> For this text, see Taeke Jansma,
+                        “Une homélie anonyme sur l’effusion du Saint Esprit,”
+                        <hi rend="italic">L’Orient Syrien </hi>6 (1961):
+                        157–178.</p></note> With its robust Trinitarian formulae and defenses of the
+                  divinity of the Holy Spirit, however, the earliest possible date of composition
+                  for this text would place it in the decades after Ephrem’s death (around the turn
+                  of the fifth century). Furthermore, although the homily focuses on the Pentecost
+                  narrative, the author is more willing to make direct theological application and
+                  reference other biblical passages than the author of <hi rend="italic">MoS</hi>.<pb n="333"/>
+                  Despite these differences, it seems to reflect another variation on the same
+                  genre. If B.L. Add. 17189 had not survived, there would be no complete extant
+                  witnesses to this type of homily from the early period of Syriac literature. </p>
+               <p> Finally, although <hi rend="italic">MoS </hi>bears a close
+                  resemblance to Ephrem’s <hi rend="italic">Commentary on Exodus</hi>, the exact
+                  nature of their literary relationship is unclear.
+                  <hi rend="italic">MoS </hi>could have been a homiletic
+                  reworking of some of the exegetical traditions found in the <hi rend="italic"
+                     >Commentary on Exodus</hi>. It is also possible that
+                  <hi rend="italic">MoS </hi>was the earlier text, and
+                  <hi rend="italic">CommEx </hi>was a summary or compilation of
+                  existing homiletic exegetical material.<note place="foot" xml:id="ftn52" n="52"><p
+                        rend="footnote text"> In the preface to his
+                        <hi rend="italic">Commentary on Genesis, </hi>Ephrem
+                        describes the Commentary as a brief summary of what he had written about “at
+                        length” (<foreign xml:lang="syr">ܒܣܓܝܐ̈ܬܐ</foreign>)
+                        in his <hi rend="italic">mêmrê </hi>and <hi
+                           rend="italic">madrāšê</hi>. Perhaps something similar may have been the
+                        case with
+                        <hi rend="italic">CommEx. </hi>See<hi rend="italic"> CommGen, </hi>Prologue,
+                        1 (Tonneau, <hi rend="italic">Commentarii, </hi>3).
+                        ‌‌This could perhaps explain why the manuscript heading (Vat. sir. 110, fol.
+                        76) identifies <hi rend="italic">CommEx </hi>as a
+                        <hi rend="italic">tûrgāmâ, </hi>a label which—as I have
+                        argued—early Syriac scribes used to describe a form of homily.</p></note>
+                  Nevertheless, the close parallels between the two texts offer the best evidence
+                  for attributing <hi rend="italic">MoS </hi>to the Ephremic
+                  circle. Whatever the case, we cannot be sure of the precise author of
+                  <hi rend="italic">MoS. </hi>It could, as Jansma argues, be
+                  the work of Ephrem. It is just as possible, however, that
+                  <hi rend="italic">MoS </hi>was written by an unknown member
+                  of Ephrem’s circle. In fact, its style and literary form (otherwise unattested in
+                  Ephrem’s works) weigh against attributing it to Ephrem himself. Yet other factors,
+                  especially its exegetical method, support locating the composition within the
+                  Ephremic circle. </p>
+            </div>
+            <div xml:id="hv21n2hartung.1.4" xml:lang="en">
+               <head>Performance and Biblical Exegesis </head>
+               <p><hi rend="italic">MoS </hi>offers no outright clues about the
+                  context and circumstances of its delivery. Although its artistic prose style and
+                  humorous comments on the biblical narrative seem well-suited to the context of a
+                  publicly-delivered homily, there is reason to believe that it was not addressed to
+                  either a monastic audience or to a public liturgical audience. The exegetical
+                  method of <hi rend="italic">MoS </hi>gives some indications
+                  as to its possible<pb n="334"/> audience and function. First, although the
+                  <hi rend="italic">mêmrâ </hi>consistently contrasts the false
+                  illusions of the magicians and the works of God through Moses, it strikingly never
+                  offers any sort of contemporary moral application of this theme. The reader
+                  familiar with Ephrem’s corpus might expect the author to take the opportunity to
+                  inveigh against the magicians or astrologers of his own time, associating them
+                  with the defeated magicians of Exodus.<note place="foot" xml:id="ftn53" n="53"><p
+                        rend="footnote text"> See, e.g., Ephrem’s vehement condemnation of Christian
+                     women who turn for help to “magicians” (<foreign xml:lang="syr">ܚܪ̈ܫܐ</foreign>) and “diviners” (<foreign xml:lang="syr">ܩܨܘ̈ܡܐ</foreign>) in the
+                        second
+                        <hi rend="italic">Mêmrâ on Reproof </hi>(<hi rend="italic">Repr. </hi>II.
+                        605–614, 759–784). </p></note> Yet
+                  <hi rend="italic">MoS </hi>contains
+                  <hi rend="italic">no </hi>obvious moral or theological
+                  exhortations. This approach suggests that the
+                  <hi rend="italic">mêmrâ </hi>was addressed, not to a public
+                  homiletic context, but to a smaller literary circle. Within this circle, it
+                  appears to have played a more narrow and constrained role, perhaps correlating to
+                  the conventions of this form of exegetical homily, and its distinct (albeit
+                  unknown) place in the “curriculum” of the study circle. What, then, might have
+                  been the purpose of such a homily? </p>
+               <p> The exegetical method of <hi rend="italic">MoS </hi>most
+                  closely resembles Ephrem’s commentaries on Genesis and Exodus. It adheres to a
+                  narrow narrative frame of reference and retells the biblical account while
+                  clarifying problematic narrative elements. In addition, it gives no symbolic or
+                  typological readings of any events in the Exodus narrative. Unlike “literal”
+                  exegesis in the Greek tradition,<note place="foot" xml:id="ftn54" n="54"><p
+                        rend="footnote text"> See Lucas Van Rompay, “The Christian Syriac
+                        Tradition,” in <hi rend="italic">Hebrew Bible, Old Testament: The History of
+                           Its Interpretation</hi>, Vol. I, Part 1, ed. Magne Sæbø (Göttingen:
+                        Vandenhoeck &amp; Ruprecht, 1996, 612-641, 624.</p></note> it does not dwell
+                  on the meaning of the <hi rend="italic">words </hi>of the
+                  biblical text, but focuses on the interpretation of the <hi rend="italic"
+                     >narrative</hi>.<note place="foot" xml:id="ftn55" n="55"><p
+                        rend="footnote text"> Lund’s comments on Ephrem’s
+                        <hi rend="italic">Commentary on Genesis </hi>are also
+                        applicable here: “Ephrem's work is primarily a commentary on the story of
+                        Genesis, not its text
+                        <hi rend="italic">per se.” </hi>(Jerome Lund,
+                        “Observations on Some Biblical Citations in Ephrem's Commentary on Genesis,”
+                        <hi rend="italic">Aramaic Studies </hi>4 [2006]:
+                        207–220, 220).</p></note> In this respect,
+                  <hi rend="italic">MoS </hi>has almost no parallels in
+                  Christian exegetical literature, save Ephrem’s commentaries on Genesis and Exodus.
+                  To borrow Lucas Van Rompay’s description of Ephrem’s Old Testament commentaries,
+                  “there<pb n="335"/> is a world of difference” between the exegesis of
+                  <hi rend="italic">MoS </hi>and contemporaneous exegetical
+                  works in Greek (as well as later works in Syriac).<note place="foot"
+                     xml:id="ftn56" n="56"><p rend="footnote text"> Van Rompay, “Between the School
+                        and the Monk’s Cell,” 40.</p></note> The Armenian commentary on Exodus
+                  attributed to Ephrem (almost certainly a translation from a Syriac original)
+                  provides a helpful contrast. This commentary frequently cites and alludes to other
+                  portions of Scripture, and occasionally embraces allegorical or symbolic readings
+                  of the narrative.<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">
+                        For instance, when commenting on the plague of blood, it pivots to an
+                        allegorical reading: “the river with its purity is the people of Israel
+                        while Egypt is an example of sin.” To support this reading, the author draws
+                        upon Isaiah 1:18 and 1 Cor. 10:1–4. While this is not an uncommon approach
+                        in early Christian texts, it is strikingly different from the limited frame
+                        of reference of <hi rend="italic">MoS. </hi>(Mathews,
+                        <hi rend="italic">Armenian Commentaries [ed.], </hi>15;
+                        Mathews,
+                        <hi rend="italic">Armenian Commentaries [trans.], </hi>14).</p></note>
+                  The distinctive quality of the exegesis of
+                  <hi rend="italic">MoS </hi>(shared only by works of Ephrem)
+                  lends further credence to situating the text in the fourth-century literary circle
+                  of Ephrem. </p>
+               <p> While <hi rend="italic">MoS </hi>limits itself to the
+                  confines of a single biblical narrative and refrains from referencing other
+                  biblical passages, its retelling of the text is selective, foregrounding a single
+                  theme at the expense of most others: the conflict between the true “signs”
+                  performed by Moses and the false “represen-tations” of the magicians. This concern
+                  is central to the way that the
+                  <hi rend="italic">mêmrâ </hi>retells the story of Exodus. It
+                  does not engage in detailed exegesis of every verse of the relevant portions of
+                  Exodus, but passes over entire sections of the narrative. Sections 1–4 of the
+                  <hi rend="italic">mêmrâ </hi>depict Moses’ arrival in Egypt,
+                  borrowing language from God’s call of Moses in Exod 4:23<note place="foot"
+                     xml:id="ftn58" n="58"><p rend="footnote text"> “Let my son go and let him serve
+                        me. If not, I will kill your firstborn son.”
+                        (<hi rend="italic">MoS </hi>§3; Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, 88).</p></note> and Moses’ initial
+                  encounter with Pharaoh (Exod 5:1–2),<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text"> “‘The Lord, God of the Hebrews, has sent me to you and
+                        says,
+                        “<hi rend="italic">Let my people go and let them serve me.” </hi>But
+                        Pharaoh, in the hardness of his heart, answered [with] the statement: ‘<hi
+                           rend="italic">I do not know the Lord, and I will not let Israel
+                        go.</hi>’” (<hi rend="italic">MoS </hi>§4; Overbeck,
+                           <hi rend="italic">S. Ephraemi</hi>, 89).</p></note> but completely bypass
+                  the account of the bricks without straw<pb n="336"/> (Exod 5:3–23) and the details of Exod
+                  6–7:7. These omissions allow the
+                  <hi rend="italic">mêmrâ </hi>to proceed dramatically from the
+                  initial arrival of Moses to the transformation of the staffs, which it presents as
+                  the first battle in the “war” of signs between Moses and Egypt. <note place="foot"
+                     xml:id="ftn60" n="60"><p rend="footnote text"> For warfare imagery, see §1, 3,
+                        5, 7, 8, 9.</p></note>
+               </p>
+               <p> The <hi rend="italic">mêmrâ</hi>’s retelling of Exodus addresses problematic
+                  interpretive issues primarily through “narrative expansions,” the addition of
+                  events, dialogue, and explanations to the biblical narrative.<note place="foot"
+                     xml:id="ftn61" n="61"><p rend="footnote text"> For this terminology, see James
+                        L. Kugel,
+                        <hi rend="italic">In Potiphar’s House: the Interpretive Life of Biblical Texts </hi>(San
+                        Francisco: HarperSanFrancisco, 1990), 4. For my application of Kugel’s
+                        classification to Syriac studies, I am indebted to Kristian Heal, “Reworking
+                        the Biblical Text in the Dramatic Dialogue Poems on the Old Testament
+                        Patriarch Joseph,” in <hi rend="italic">The Peshiṭta: Its Use
+                           in Literature and Liturgy: Papers Read at the Third Peshiṭta Symposium, </hi>Monographs
+                        of the Peshitta Institute 15, ed. B. ter Haar Romeny (Leiden: Brill, 2006),
+                        87–98, 88. </p></note> Its dramatic narrative arc and (uneven) use of
+                  dialogue place it in an early stage in the development of biblically-oriented
+                  dialogue literature in Syriac (types 4 and 5 in Sebastian Brock’s five-part
+                  classification of the Syriac dispute and dialogue tradition).<note place="foot"
+                     xml:id="ftn62" n="62"><p rend="footnote text"> Brock proposes a five-type
+                        classification system of disputes and dialogues in the Syriac tradition.
+                        Type 1 is the classic precedence dispute in alternating stanzas, which
+                        appears only in <hi rend="italic">madrāšê </hi>(and
+                        their sub-genre, <hi rend="italic">sūgyātâ</hi>). Type 2 is what Brock calls
+                        a “transitional form... where the two parties no longer speak in alternating
+                        stanzas, but are allocated uneven blocks of speech.” Both
+                        <hi rend="italic">madrāšê </hi>and
+                        <hi rend="italic">mêmrê </hi>of this sort are extant.
+                        Type 3 comprises dialogue
+                        <hi rend="italic">madrāšê </hi>with a narrative
+                        framework and no alternating pattern of speech. Types 4 and 5 are
+                        represented in narrative
+                        <hi rend="italic">mêmrê </hi>which make the narrative
+                        framework the forefront. (Sebastian P. Brock, “Dramatic Dialogue Poems,” in
+                           <hi rend="italic">IV Symposium Syriacum 1984: Literary Genres in Syriac
+                           Literature</hi>, OCA 229 ed. H.J.W. Drijvers, R. Lavenant, C. Molenberg
+                        and G.J. Reinink [Rome: Pont. Institutum Studiorum Orientalium, 1987],
+                        136-8).</p></note> As a prose text, it stands apart from virtually every
+                  known representative of dramatic dialogue literature in Syriac. The fact that
+                  <hi rend="italic">MoS </hi>does not bear the features of the
+                  more developed and formalized Syriac dialogue poems<pb n="337"/> of the fifth- and
+                  sixth-century adds further support to dating the text to the fourth century or
+                  early fifth century. </p>
+               <p> Narrative expansions are the homilist’s primary means to develop the central
+                  theme of the <hi rend="italic">mêmrâ</hi>: the distinction between the actions of
+                  Moses and those of the Egyptian magicians.<note place="foot" xml:id="ftn63" n="63"
+                        ><p rend="footnote text"> Other added details contribute relatively little
+                        to the primary themes of the
+                        <hi rend="italic">mêmrâ, </hi>but do serve to address
+                        other potential questions raised by the biblical narrative. For instance, in
+                        the <hi rend="italic">mêmrâ’</hi>s account of the Nile turning to blood, it
+                        explains that the river had changed into blood because it contained the
+                        blood of the Hebrew children. Similarly, the fish in the river died (Exod
+                        7:21) “because they had become graves for Hebrew infants.”
+                        (<hi rend="italic">MoS </hi>§6 [Overbeck, <hi
+                           rend="italic">S. Ephraemi</hi>, 90]). The same explanation also appears
+                        in <hi rend="italic">CommEx </hi>VII.1.</p></note>
+                  <hi rend="italic">MoS </hi>consistently presents the mimicry
+                  of the various plagues by the sorcerers of Egypt as a “representation” (<foreign xml:lang="syr">ܕܘܡܝܐ</foreign>), an “appearance”
+                  (<foreign xml:lang="syr">ܐܣܟܡܐ</foreign>), or a
+                  “falsehood” (<foreign xml:lang="syr">ܕܓܠܬܐ</foreign>),
+                  rather than “the truth” (<foreign xml:lang="syr">ܫܪܪܐ</foreign>).<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text">
+                        See Jansma, “Une homélie sur les plaies,” 13–16. </p></note> The homilist
+                  repeatedly claims that unlike Moses, the magicians only
+                  <hi rend="italic">appeared </hi>to change the natures of
+                     things.<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text"> Jewish
+                        sources also make this distinction. See, for example, Josephus,
+                        <hi rend="italic">JA </hi>II.14. A similar concern
+                        appears in Ephrem’s
+                        <hi rend="italic">Commentary on Exodus </hi>(see
+                        VIII.1) as well as the pseudo-Ephremic Armenian commentary on Exodus: “But
+                        [the sorcerers] did not actually or truly change created things as Moses
+                        [had done], but they did perform them by illusions to lead astray those who
+                        were watching... For if they could not interpret the clear and plain dream
+                        of Pharaoh, how could they possibly change created things?” (Mathews,
+                        <hi rend="italic">Armenian Commentaries [ed.], </hi>18;
+                        Mathews, <hi rend="italic">Armenian Commentaries
+                     [trans.],</hi>16).</p></note> In fact, as the conclusion explains, their
+                  actions were only the result of human “skill” (<foreign xml:lang="syr">ܐܘܡܢܘܬܐ</foreign>), while Moses’ feats were
+                  the result of the “creative power” (<foreign xml:lang="syr">ܒܪܘܝܘܬܐ</foreign>) of God.<note place="foot"
+                     xml:id="ftn66" n="66"><p>
+                        <hi rend="italic">MoS </hi><hi>§10 (Overbeck, </hi><hi
+                           rend="italic">S. Ephraemi</hi><hi>, 94). Elsewhere, Ephrem draws clear distinctions between divine ܥܒܘܕܘܬܐ and creaturely ܐܘܡܢܘܬܐ.  Although the terminology for divine “creative power” is different here, the concept is the same. See Amar and Mathews, </hi>
+                        <hi rend="italic">Selected Prose Works, </hi><hi>240, n. 97. </hi></p></note>
+                  The <hi rend="italic">mêmrâ </hi>adds a number of
+                  supplementary explanations and narrative expansions intended to advance this
+                  distinction.<pb n="338"/></p>
+               <p> For example, after a sarcastic appraisal of the magicians’ efforts to mimic
+                  Moses’ production of frogs, the
+                  <hi rend="italic">mêmrâ </hi>cites details from the narrative
+                  of Exodus: “For when Pharaoh petitioned Moses, he prayed and they died. And they
+                  piled up their bodies “<hi rend="italic">into heaps,</hi>” and the land of Egypt
+                  stank from their stench.”<note place="foot" xml:id="ftn67" n="67"><p>
+                        <hi> Exod 8:14. </hi></p></note>
+                  To this, it adds, “Their carcasses proclaimed the reality of their bodies.” In
+                  contrast, then, it describes the fate of the frogs produced by the magicians.
+                  Unlike the stinking carcasses of Moses’ frogs, these frogs simply “dissipated into
+                  the air like smoke, for their appearance had neither body nor tangible
+                     reality.”<note place="foot" xml:id="ftn68" n="68"><p>
+                        <hi rend="italic">MoS </hi><hi>§8 (Overbeck, </hi><hi
+                           rend="italic">S. Ephraemi</hi><hi
+                          >, 92).</hi></p></note> This addition to the Exodus
+                  narrative clarifies the distinction between the actions of Moses and the magicians
+                  and anticipates the repentance of the magicians following the plague of lice
+                  (§10). </p>
+               <p> The details the <hi rend="italic">mêmrâ </hi>adds to the
+                  account of the river turning to blood are likewise quite remarkable: </p>
+               <p rend="H Quote Block">“<hi rend="italic"
+                     >The magicians also did the same through their
+                     enchantments.</hi>”<note place="foot"
+                     xml:id="ftn69" n="69"><p>
+                         Exod 7:22.</p></note> A misleading representation (<foreign xml:lang="syr">ܕܘܡܝܐ</foreign>
+                  <foreign xml:lang="syr">ܕܓܠܐ</foreign>)! Neither true nor accurate (<foreign xml:lang="syr">ܫܪܝܪܐ ܚܬܝܬܐ</foreign>
+                  )! Where did they [find] water for themselves to make
+                     into blood? For there was not [any] water left in the land of Egypt that had
+                     not been turned into blood! The Egyptians longed to drink water, but they were
+                     unable. They dug around the river to drink water.<note place="foot"
+                     xml:id="ftn70" n="70"><p rend="footnote text"> Exod
+                     7:24.</p></note> So from this it is known that the magicians did not make blood from water, for look: there was not any water that one could drink until Moses prayed and the water returned to its first nature!<note
+                     place="foot" xml:id="ftn71" n="71"><p rend="footnote text"> MoS §6 (Overbeck,
+                           <hi rend="italic">S. Ephraemi</hi>, 91).</p></note>
+               </p>
+               <p>In this example, the homilist displays a striking willingness to bend the plain
+                  meaning of the text in support of that theme. He argues that, since the magicians
+                  possessed no water to<pb n="339"/> transform into blood, the plain meaning implied by the text
+                  is impossible! He derives this apparent contradiction from a close reading of the
+                  biblical narrative, noting (following Exod 7:20–21) that
+                  <hi rend="italic">all </hi>of the water in Egypt had turned
+                  to blood. He then applies this information to the following verse’s claim that
+                  “the magicians did the same through their enchantments” (Exod 7:22), and concludes
+                  that this would have been impossible.<note place="foot" xml:id="ftn72" n="72"><p
+                        rend="footnote text"> Jansma makes the odd claim that such inconsistencies
+                        between the narratives of
+                        <hi rend="italic">MoS </hi>and Exodus were meant to
+                        capture the attention of the audience. See Jansma, “Une homélie sur les
+                        plaies,” 19. </p></note> This example reveals something of the author’s
+                  exegetical process. A problem raised by the biblical account becomes an
+                  opportunity to expound an important theological theme: the distinction between
+                  divine and creaturely activity. The homilist makes this point in a relatively
+                  straightforward exegetical manner, considering a problematic passage by reference
+                  to another part of the same passage. </p>
+               <p> We can characterize the exegesis of
+                  <hi rend="italic">MoS </hi>as follows: an absence of moral or
+                  ascetic exhortation and theological application in favor of a subtle and narrow
+                  form of narrative exegesis. In light of this evidence, we may venture the
+                  following hypothesis regarding the purpose and performance of the homily. This
+                  homily, along with perhaps many others (now lost), was not performed for a
+                  liturgical audience, but for a smaller body, probably the ascetic literary circle
+                  associated with Ephrem. Within this context, the homily (which may have been
+                  variously described as a <hi rend="italic">mêmrâ </hi>or <hi
+                     rend="italic">tûrgāmâ</hi>) likely functioned as a sort of exegetical exercise.
+                  It retold a familiar biblical story in a way that clarified potential problems,
+                  providing a pattern of interpretation for others to follow. This initial level of
+                  exegetical work offered by the homily could then support moral or theological
+                  applications of the biblical passage in other contexts.<pb n="340"/></p>
+            </div>
+            <div xml:id="hv21n2hartung.1.5" xml:lang="en">
+               <head>Conclusion</head>
+               <p>When viewed in relation to other extant fourth-century Syriac literature,
+                  <hi rend="italic">MoS </hi>is a strikingly unique work. It
+                  bears a close literary relationship to Ephrem’s
+                  <hi rend="italic">Commentary on Exodus </hi>and its
+                  exegetical method is nearly identical to that of Ephrem’s commentaries. Its
+                  elegant artistic prose, however, resembles texts like Ephrem’s <hi rend="italic"
+                     >Mêmrâ on our Lord</hi>, while its format as a piece of narrative exegesis is
+                  reminiscent of Ephrem’s metrical
+                  <hi rend="italic">Mêmrâ on Nineveh and Jonah. </hi>Simply
+                  put, although there are sufficient reasons to date this text to the fourth or
+                  early fifth century and to attribute it to the Ephremic literary circle, there is
+                  no other piece of extant early Syriac literature quite like this one. Regardless
+                  of whether its author was Ephrem himself or someone in his circle (a question
+                  which we cannot answer with certainty),
+                  <hi rend="italic">MoS </hi>provides a crucial piece of
+                  evidence for a form of homiletic writing almost entirely absent from the record of
+                  early Syriac literature: the prose exegetical
+                  <hi rend="italic">mêmrâ </hi>or
+                  <hi rend="italic">tûrgāmâ. </hi>Why such forms of homiletic
+                  composition were not favored by later Syriac copyists is unclear. Nevertheless,
+                  <hi rend="italic">MoS </hi>offers new insight into the
+                  little-known formative period of Syriac literary culture in fourth-century
+                  northern Mesopotamia, shedding additional light on the exegetical practices and
+                  forms of writing common to Ephrem’s literary circle. </p>
+            </div>
+         </div>
+         <div xml:id="hv21n2hartung.2" xml:lang="en">
+            <head>PART II: TRANSLATION</head>
+            <div xml:id="hv21n2hartung.2.1" xml:lang="en">
+               <head>Notes on the Translation</head>
+               <p>Because this is a prose text, I have opted not to present the translation in a
+                  lined format, as it appears in Overbeck’s critical edition. Instead, I have
+                  created new paragraph-based section numbers. The numbers in parentheses indicate
+                  page and line numbers in the critical edition. This format is in line with the<pb n="341"/>
+                  precedent set in the most recent English translations of Ephrem’s prose
+                     works.<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text"> Joseph
+                        P. Amar and Edward G. Mathews, Jr., trans.,
+                        <hi rend="italic">St. Ephrem the Syrian: Selected Prose Works, </hi>Fathers
+                        of the Church 91 (Washington, D.C.: Catholic University of America Press,
+                        1994).</p></note></p>
+            </div>
+            <div xml:id="hv21n2hartung.2.2" xml:lang="en">
+               <head>First Mêmrâ on the Signs Moses Performed in Egypt</head>
+               <table rend="rules">
+                  <row>
+                     <cell rend="left"><p>§1. Moses, like a divine general, put on hidden armor and
+                           came to wage a new war against Pharaoh and his hosts. Without horses and
+                           chariots, he fought against armed Egyptians. Without legions and armed
+                           troops, he entered to shatter<note place="foot" xml:id="ftn74" n="74"><p
+                                 rend="footnote text"> Syr. ܢܬܪܘܥ. This has a passive sense, but it
+                                 is immediately followed by the active imperfect verb ܢܟܒܘܫ. For the
+                                 sake of internal consistency, I have rendered both as
+                              active.</p></note> walls and smash fortifications. When Egypt was
+                           prosperous in its lifestyle, and Pharaoh was exalted in the authority of
+                           his kingship, a foreign message of a new war was announced to them. A
+                           strange report reached<note place="foot" xml:id="ftn75" n="75"><p
+                                 rend="footnote text"> The sense of the Syriac term ܪܡܐ is more like
+                                 to ‘cast’ or ‘put’ into the ears. This choice of words suggests
+                                 something very physical about the act of
+                                 <hi rend="italic">hearing. </hi>However, for
+                                 the sake of translation, I have opted for more conventional English
+                                 wording.</p></note> their ears, and a word of liberation from the
+                           yoke of their slavery was spoken to them. </p><p>§2. For at that time,
+                           [Moses] spoke authoritatively to Pharaoh: “The Lord has sent me<note
+                              place="foot" xml:id="ftn76" n="76"><p rend="footnote text"> Except for
+                                 the first letter, ܫ, the manuscript is illegible. Overbeck reads it
+                                 as ܫܕܪܢܝ. </p></note> to you to tell you: ‘Release my firstborn son
+                           Israel, whom you have enslaved for yourself [as] a humble slave. Remove
+                           your authority from him! He is freeborn! For too long you have subjugated
+                           him under [your] authority. He is my own inheritance,<note place="foot"
+                              xml:id="ftn77" n="77"><p rend="footnote text"> The Syriac word ܝܪܬܘܬܐ
+                                 can also be translated as ‘property,’ but the translation
+                                 ‘inheritance’ is reminiscent of Deut 32:9: “Because the Lord’s
+                                 portion (ܦܠܓܘܬܗ) is his people, and Jacob his allotted inheritance
+                                 (ܝܪܬܘܬܗ).”</p></note> but you have received him in slavery<pb n="342"/> as if
+                           [he is] part of [your] inheritance. Loosen your yoke from his neck! For
+                           too long you have worked him harshly. Break your shackles off his neck!
+                           For too long you have tormented him<note place="foot" xml:id="ftn78"
+                              n="78"><p rend="footnote text"> The Syriac verb ܐܥܡܠ can alternatively
+                                 mean ‘imposed toil.’ </p></note> without compassion. Keep your
+                           blade from his children! For too long you have made his mothers bereft
+                           [of their children]. Hold back your sword from murder! For too long you
+                           have increased his destruction. <hi rend="italic">Let my son</hi><note
+                              place="foot" xml:id="ftn79" n="79"><p rend="footnote text"> Jansma
+                                 rightly identifies manuscript’s addition of a ܘ prefix before ܠܒܪܝ
+                                 as a scribal error. (Jansma, “Une homélie sur les plaies,”
+                              4).</p></note><hi rend="italic"> go and let him serve me. If not, I will kill your firstborn son</hi>.”<note
+                              place="foot" xml:id="ftn80" n="80"><p rend="footnote text"> Exod
+                                 4:23.</p></note> This message was heard from Moses. </p><p>§3.
+                           Egypt was in an uproar and its hosts were in turmoil. The magicians and
+                           sages assembled before the king, and [people of] all ranks and stations
+                           were present for the spectacle. They came to see who this was who had
+                           advanced and entered their borders.<note place="foot" xml:id="ftn81"
+                              n="81"><p rend="footnote text"> The Syriac is singular.</p></note>
+                           With what was he armed, that he had dared to enter their city? In whom
+                           did he place his trust, that he cast this terrifying message into their
+                           ears? Who was his escort,<note place="foot" xml:id="ftn82" n="82"><p
+                                 rend="footnote text"> Or ‘his companion’ (ܠܘܝܬܗ).</p></note> that
+                           he would wish to contend against Egypt and Pharaoh? How great was his
+                              power,<note place="foot" xml:id="ftn83" n="83"><p rend="footnote text"
+                                 > Or perhaps ‘his army’ (ܚܝܠܗ).</p></note> that he scorned them and
+                           entered their land? Great and small, strong and weak, assembled, for the
+                           message was frightening and it roused the whole court<note place="foot"
+                              xml:id="ftn84" n="84"><p rend="footnote text"> Syr. <foreign xml:lang="syr">ܟܠ ܬܪ̈ܥܝܢ</foreign>. The noun
+                                 can have the sense of ‘royal court,’ which is how I translate it
+                                 here. </p></note> with its harsh sound.</p><p>§4. Now when Egypt
+                           had assembled like locusts,<note place="foot" xml:id="ftn85" n="85"><p
+                                 rend="footnote text"> The Syriac is singular.</p></note> and
+                                    Pharaoh was standing among them at their head,<pb n="343"/> Moses and Aaron stood
+                           before them and were fearlessly saying to Pharaoh: “The Lord, God of the
+                           Hebrews has sent me to you and says, ‘<hi rend="italic">Let my people go
+                              and let them serve me</hi>.’”<note place="foot" xml:id="ftn86" n="86"
+                                 ><p rend="footnote text"> Exod 5:1.</p></note>‌ But Pharaoh, in the
+                           hardness of his heart, replied: “<hi rend="italic">I do not know the
+                              Lord, and I will not let Israel go.</hi>”<note place="foot"
+                              xml:id="ftn87" n="87"><p rend="footnote text"> Exod 5:2.
+                           </p></note></p><p>[Moses said]: “O Pharaoh, if you do not know the Lord,
+                           you will learn about him.” </p><p>[Pharaoh asked]: “How will I learn
+                           about him?” </p><p>[Moses said]: “You will learn about him through his
+                           power, which I will show you.”<note place="foot" xml:id="ftn88" n="88"><p
+                                 rend="footnote text"> A similar line of additional dialogue appears
+                                 in the Armenian commentary on Exodus attributed to Ephrem:
+                                 “Although you do not know who God is from [your] sorcerers whom you
+                                 do know, you will learn about that One whom you do not know.”
+                                 (Edward G. Mathews, Jr., ed., <hi rend="italic">The Armenian
+                                    Commentaries on Exodus-Deuteronomy attributed to Ephrem the
+                                    Syrian</hi>, CSCO 587, Scriptores Armeniaci 25 [Louvain:
+                                 Peeters, 2001], 13).</p></note></p><p>§5. And Moses threw down his
+                           staff, and it became a serpent.<note place="foot" xml:id="ftn89" n="89"
+                                 ><p rend="footnote text"> The text uses two different Syriac nouns
+                                 to describe the serpent of Moses (ܬܢܝܢܐ) and the serpents of the
+                                 magicians (ܚܘܘ̈ܬܐ), as Jansma points out. (Jansma, “Une homélie sur
+                                 les plaies,” 17).</p></note> It gazed at Pharaoh and alarmed him,
+                           and at the Egyptians and unsettled them. Then the magicians also threw
+                           down their staffs and they became serpents, not truly, but in appearance.
+                           To Pharaoh and the Egyptians, they looked to be serpents. But given that
+                           they were not [serpents], those staffs were dead and shriveled wood! They
+                           did not change from their own natures, and they did not become what they
+                           were not. They were unable to flee and could not fight (by their own
+                           power, since they had not changed from their first nature. </p><pb n="344"/><p> But
+                           the staff of Moses,<note place="foot" xml:id="ftn90" n="90"><p
+                                 rend="footnote text"> As Jansma notes, the text identifies the
+                                 staff as the staff of Moses, rather than Aaron, as in the text of
+                                 Exod 7:10–12. (Jansma, “Une homélie sur les plaies,”
+                              21).</p></note> because it had truly changed and became a serpent in
+                           reality, hissed and swallowed up the staffs of the magicians. And by its
+                           gorging, it made known the transformation of its nature, and through this
+                           affirmed that it had indeed truly become a serpent when it swallowed up
+                           the staffs of the magicians. But at this, “<hi rend="italic">the heart of
+                              Pharaoh was hardened.</hi>”<note place="foot" xml:id="ftn91" n="91"><p
+                                 rend="footnote text"> Exod 7:13 (almost a direct quotation from the
+                                    Peshiṭta: <foreign xml:lang="syr">ܐܬܥܫܢ
+                                 ܠܒܗ ܕܦܪܥܘܢ</foreign>).</p></note> Now at this it would have been appropriate
+                           for him to recognize that Moses had won the victory, and defeat had
+                           befallen the magicians<note place="foot" xml:id="ftn92" n="92"><p
+                                 rend="footnote text"> Following Jansma, I believe that the
+                                 manuscript’s pointing of ܚܪܫܐ as singular was a copyist’s error.
+                                 (Jansma, “Une homélie sur les plaies,” 4).</p></note> from the
+                           beginning of the contest (since they arrived
+                           <hi rend="italic">with </hi>a staff and left <hi
+                              rend="italic">without</hi> a staff)! But if, as Pharaoh believed, the
+                           staffs of the magicians had become serpents (which they did not!), it
+                           would have been proper for him to be an honest observer between Moses and
+                           the magicians, and to see that the feat of Moses was more powerful than
+                           that of the magicians. </p><p> But “<hi rend="italic">the heart of
+                              Pharaoh was hardened</hi>,” so that his scourging would increase; and
+                           his mind became unbending, so that his end would be evil. He was led
+                           astray by the illusions of the magicians so that he would drown in the
+                           sea; and he put his trust in an erroneous shadow, so that he would demand
+                           those things that he owed the judgment of [divine] justice.<note
+                              place="foot" xml:id="ftn93" n="93"><p rend="footnote text"> The Syriac
+                                 text here is difficult to understand, but the meaning seems to be
+                                 that by putting his trust in things other than God, Pharaoh would
+                                 condemn himself before God’s judgment seat. An alternative (albeit
+                                 looser) translation might also be possible: “He was so confident in
+                                 an erroneous shadow so that he would demand those things that were
+                                 owed to His just judgment.” In this reading, Pharaoh would be
+                                 described as asking for things that belong rightly to God.
+                              </p></note></p><pb n="345"/><p>§6. In the morning, [Pharaoh] came out to the river
+                           and Moses stood before him and said to him: “If the transformation of the
+                           staff did not persuade you, today let the transformation of the river
+                           convince you!” And Moses struck the river with [his] staff, and
+                           immediately it was transformed into blood (and it was real blood).
+                           Immediately the fish in the river that had been turned into blood
+                              died,<note place="foot" xml:id="ftn94" n="94"><p rend="footnote text">
+                                 Or “immediately the fish in the river died, for they were turned to
+                                 blood.”</p></note> because hidden within [the river] was the blood
+                           of the children. The fish also died because they had become graves for
+                           the Hebrew infants.<note place="foot" xml:id="ftn95" n="95"><p
+                                 rend="footnote text"> Cf. Exod 1:15–22.</p></note> There was blood
+                           even “<hi rend="italic">on the wood and on the stones.</hi>”<note
+                              place="foot" xml:id="ftn96" n="96"><p rend="footnote text"> Exod 7:19.
+                                 Pesh.: ܒܩ̈ܝܣܐ ܘܒܟܐ̈ܦܐ</p></note> Indeed, that blood of which Egypt
+                           was guilty appeared in every place to accuse those who shed it!</p><p>
+                              “<hi rend="italic">The magicians also did the same through their
+                              enchantments</hi>”<note place="foot" xml:id="ftn97" n="97"><p
+                                 rend="footnote text"> Exod 7:22.</p></note>—a misleading
+                           representation! Neither true nor accurate! Where did they [find] water
+                           for themselves to make into blood? For there was not [any] water left in
+                           the land of Egypt that had not been turned into blood!<note place="foot"
+                              xml:id="ftn98" n="98"><p rend="footnote text"> Cf. Exod 7:19.
+                              </p></note> The Egyptians longed to drink water, but they were unable.
+                           They dug around the river to drink water.<note place="foot"
+                              xml:id="ftn99" n="99"><p rend="footnote text"> Exod 7:24.</p></note>
+                           So from this it is known that the magicians did not make blood from
+                           water, for look: there was not any water that a person could drink until
+                           Moses prayed and the water returned to its first nature! And with that,
+                           Pharaoh returned<note place="foot" xml:id="ftn100" n="100"><p
+                                 rend="footnote text"> The same verb (ܦܢܐ) used to describe the
+                                 transformation of the blood back into water in the previous
+                                 sentence. </p></note> to his rebellious mind, so that the
+                           discipline he deserved because of his wickedness would prevail over him.
+                           </p><pb n="346"/><p>§7. And again the Lord said to Moses, “Speak to Aaron and let him
+                           wave the staff over all the water of Egypt, and it will swarm with
+                              frogs.”<note place="foot" xml:id="ftn101" n="101"><p
+                                 rend="footnote text"> Exod 8:3,5.</p></note> The staff was a
+                              sign<note place="foot" xml:id="ftn102" n="102"><p rend="footnote text"
+                                 > Syr. ܢܘܦܐ. The same root as the verb ‘wave’ above.</p></note> to
+                           the host contained in the water: like an army it was commanded by the
+                           general, and like a battle formation it submitted to the leader. </p><p>
+                           Now, instead of the flocks of birds<note place="foot" xml:id="ftn103"
+                              n="103"><p rend="footnote text"> Syr. singular</p></note> the water
+                           had formerly produced, it vomited up terrifying legions.<note
+                              place="foot" xml:id="ftn104" n="104"><p rend="footnote text"> The
+                                 contrast is between flocks of water birds flying off of the river
+                                 en masse and the hordes of frogs now emerging from the water.
+                              </p></note> And it gave forth an innumerable throng, a single race
+                           without variation,<note place="foot" xml:id="ftn105" n="105"><p
+                                 rend="footnote text"> The same word (ܫܘܚܠܦܐ) is used elsewhere in
+                                 this text to describe the
+                                 <hi rend="italic">true </hi>‘transformation’
+                                 wrought by Moses (of the snake and of the river). However, in this
+                                 case, it seems to have a different sense. </p></note> a new
+                           creation born without copulation, multiplied without birth, increased
+                           without propagation, grown up without days, and matured without months. A
+                           force which is unarmed but not beaten; though without armor, it does not
+                           die; without chariots, but overtakes the swift; without skill, but treads
+                           down walls; without strategy, but brings down fortifications; without
+                           knowledge, but knows how to wage war; contemptible, it humbles kings;
+                           weak, it defeats the mighty. </p><p> [The frogs] buried the land and
+                           covered the fields; traversed walls and entered into homes; climbed into
+                           the beds of kings and reclined on the couches of rulers; overturned their
+                           tables, having defiled their meals;<note place="foot" xml:id="ftn106"
+                              n="106"><p rend="footnote text"> Syr. singular</p></note> and spilled
+                           their drinks,<note place="foot" xml:id="ftn107" n="107"><p
+                                 rend="footnote text"> Syr. singular</p></note> having climbed into
+                           their cups.<note place="foot" xml:id="ftn108" n="108"><p
+                                 rend="footnote text"> All of these verbs in Syriac are singular,
+                                 presumably referring to the ‘army’ or ‘force’ of frogs. However,
+                                 for the sake of English translation, I have rendered them as
+                                 plural.</p></note>
+                           </p><pb n="347"/><p>§8. “<hi rend="italic">The magicians also did the same through their
+                              enchantments</hi>”<note place="foot" xml:id="ftn109" n="109"><p
+                                 rend="footnote text"> Exod 7:7.</p></note>: another lie, and not
+                           the truth! O the blindness of Pharaoh! If the magicians had been
+                              useful,<note place="foot" xml:id="ftn110" n="110"><p
+                                 rend="footnote text"> Syr. ܚܫܚܘ. The text seems to mean that the
+                                 magicians were not of any use to Egypt, because they only attempted
+                                 to add more frogs to those that Moses had already produced. An
+                                 alternative interpretation is as follows: “If the magicians had
+                                 been adept [at their sorcery], they would not have imitated Moses”
+                                 (i.e., they would not have needed to simply mimic whatever he did).
+                              </p></note> they would not have imitated Moses’ feat. Rather (had they
+                           been able), they would have negated whatever Moses had done. And look:
+                           Moses would have failed, those [magicians] would have conquered, and
+                           Egypt would have been delivered! For victory in warfare is when one
+                           conquers the armies of his enemy, not when one adds to his adversaries.
+                           But when the magicians mimic Moses, it neither harms Moses nor helps
+                           Egypt, since they do not negate Moses’ feat, but add to his feat! And if
+                           the frogs that the magicians had made truly had bodies,<note place="foot"
+                              xml:id="ftn111" n="111"><p rend="footnote text"> Syr.
+                              singular.</p></note> they would have increased the affliction of
+                              Egypt,<note place="foot" xml:id="ftn112" n="112"><p
+                                 rend="footnote text"> This is another example of the hypothetical
+                                 perfect. </p></note> since they were adding to those that Moses had
+                           made. But because [the frogs] were<note place="foot" xml:id="ftn113"
+                              n="113"><p rend="footnote text"> The Syriac reads
+                                 “<hi rend="italic">it was </hi>a deceitful
+                                 image”, but I have altered this in translation for the sake of
+                                 clarity. </p></note> a deceitful image, [the magicians] were not of
+                           any use. </p><p> However, those that Moses had made were truly frogs, and
+                           their death testified [to this]. For when Pharaoh petitioned Moses, he
+                           prayed and they died. And they piled up<note place="foot" xml:id="ftn114"
+                              n="114"><p rend="footnote text"> Overbeck has ܟܣܘ, but the manuscript
+                                 reads ܟܫܘ<hi rend="italic">. </hi></p></note>
+                           their bodies “<hi rend="italic">into heaps,</hi>” and the land of Egypt
+                           stank from their stench.<note place="foot" xml:id="ftn115" n="115"><p
+                                 rend="footnote text"> Exod 8:14. </p></note> Their carcasses
+                           proclaimed the reality of their bodies. But those that the magicians had
+                           made dissipated into the<pb n="348"/> air like smoke, for their appearance had neither
+                           body nor tangible reality. It is unknown from where they came, nor is it
+                           known where they went. Because they did not even exist, they vanished.
+                           </p><p> Again Pharaoh’s heart was hardened. He turned toward himself and
+                           continued in disobedience. </p><p>§9. And the Lord said to Moses: “Speak
+                           to Aaron and have him raise [his] staff over the land.”<note place="foot"
+                              xml:id="ftn116" n="116"><p rend="footnote text"> Exod 8:16.</p></note>
+                           So he raised [his] staff and lice appeared in the dust of the earth. [The
+                           earth] sprouted, though there was no seed in it. It vomited forth, though
+                           it did not produce [a crop]. It sprung up, though it did not receive
+                           [seed]: a flying seed, a moving harvest, an inedible eater, an afflicter
+                           of all races. </p><p> The clouds of lice which were swarming and crawling
+                           upon each body, descending upon each figure, eating from all flesh, and
+                           tormenting [both] animals and humans, were bringing pain to king and poor
+                           man alike. No one could care for his companion, for each one was
+                           attending to his own pain. There was no slave who helped his master, nor
+                           a maidservant who aided her mistress; no father who cared for his son,
+                           and no mother who cared for her daughter. They were afflicted before one
+                           another, but no one was able to save his companion. </p><p> The wild
+                           beasts were bellowing in pain, and the livestock were crying out in
+                           agony. Consumed by their itching, they were knocking down walls. And dust
+                           and clouds were rising up from the ground because of their rolling. The
+                           wild beasts were scampering off<note place="foot" xml:id="ftn117" n="117"
+                                 ><p rend="footnote text"> This verb (ܦܘܚ) also carries the sense of
+                                 ‘to stink,’ so the Syriac description carries a humorous resonance
+                                 that cannot be conveyed in English.</p></note> in all directions,
+                              and the livestock were running amok: herds<pb n="349"/> [of cattle]<note place="foot"
+                              xml:id="ftn118" n="118"><p rend="footnote text"> The Syriac uses two
+                                 similar words: <foreign xml:lang="syr">ܪ̈ܡܟܐ ܘܒܩܪ̈ܐ</foreign>, but I have chosen to render these with a
+                                 single English word. The distinction between the two words for
+                                 ‘herd’ is too subtle for English translation.</p></note> were
+                           wandering among the mountains, and flocks [of sheep]<note place="foot"
+                              xml:id="ftn119" n="119"><p rend="footnote text"> Again, I have
+                                 simplified more complex Syriac pastoral terminology. The Syriac
+                                 text uses two nouns: <foreign xml:lang="syr">ܓܙܪ̈ܐ ܘܡܪܥܝܬܐ</foreign>, both
+                                 of which essentially describe a ‘flock’ of sheep or goats. The
+                                 distinctions which exist are once again too subtle for English
+                                 translation. </p></note> were splitting off in all quarters.</p><p>
+                           [Both] inside and outside, people were wailing: “O lice, weak army which
+                           has defeated the strong! O tiny bodies which have overcome the mighty! O
+                           gentle mouths which have filled all mouths with wailing! O wretched sight
+                           through which enchantment has been exposed!”</p><p>§10. Until then, by
+                           its shadow, error led astray, but through the crucible of the lice, the
+                           fraud of the magicians was exposed. And what they did not wish to confess
+                           on the first day, they confessed because of the lice. The lie ran toward
+                           the truth, took off its shoes,<note place="foot" xml:id="ftn120" n="120"
+                              ><p rend="footnote text"> Lit. ‘unshod its feet’ (<foreign xml:lang="syr">ܐܢܚܦ
+                              ܪ̈ܓܠܝܗ</foreign>).</p></note> and stayed still. The day grew warm and the
+                           clouds dissipated; the sun dawned and darkness fled. Daytime reigned and
+                           night was veiled. The magicians were stricken in their bodies and
+                           unwillingly confessed the truth.<note place="foot" xml:id="ftn121"
+                              n="121"><p rend="footnote text"> This somewhat obscure line likely
+                                 means that being bitten by the lice led the magicians to their
+                                 eventual (albeit unwilling) confession of God’s power. </p></note>
+                           They cried out to Pharaoh: “<hi rend="italic">This is the finger of
+                              God</hi>!”<note place="foot" xml:id="ftn122" n="122"><p
+                                 rend="footnote text"> Exod 8:15. </p></note> But his ears,<note
+                              place="foot" xml:id="ftn123" n="123"><p rend="footnote text"> The
+                                 Syriac is singular.</p></note> stopped up with contention, did not
+                           hear. O hardened heart! He did not believe Moses, nor did he give
+                           credence to the magicians. He did not fear God, nor did he wish to let
+                           the People go. </p><p> The magicians turned away from their battle with
+                              Moses, like men defeated in a competition. They<pb n="350"/> ended the contest and
+                           gave the crown of victory to that One through whose power Moses had
+                           contended. And they did not imitate the actions of Moses any further, for
+                           they knew that his skill was not like their own. Rather, it was “the
+                           finger of God,” which is stronger than all. Indeed, they saw that it was
+                           the creative power of God and not human skill. For through the signs in
+                           Egypt was seen the creative power of God, to whom be glory forever!
+                           Amen.</p></cell>
+                     <cell rend="left"
+                           ><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.89)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.90)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.91)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.92)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.93)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p><p>(25)</p><p>(p.94)</p><p>(5)</p><p>(10)</p><p>(15)</p><p>(20)</p></cell>
+                  </row>
+               </table>
+            </div>
+         </div>
+         <div type="bibliography" xml:id="hv21n2hartung.3" xml:lang="en">
+            <head>BIBLIOGRAPHY</head>
+            <bibl>Amar, Joseph P. “Byzantine Ascetic Monachism and Greek Bias in the
+               <hi rend="italic">Vita </hi>Tradition of Ephrem the Syrian.”
+               <hi rend="italic">OCP </hi>58 (1992): 123–156.</bibl>
+            <bibl>_____. <hi rend="italic">The Syriac </hi>Vita <hi rend="italic"
+                  >Tradition of Ephrem the Syrian</hi>. CSCO 629–630, Scriptores Syri 242–243.
+               Louvain: Peeters, 2011.</bibl>
+            <bibl>Amar, Joseph P., and E.G. Mathews, Jr.
+               <hi rend="italic">St. Ephrem the Syrian: Selected Prose Works. </hi>Fathers
+               of the Church 91. Washington: Catholic University of America Press, 1994.</bibl>
+            <bibl>Baumstark, Anton. <hi rend="italic">Geschichte der syrischen Literatur, mit
+                  Ausschluss der christlich-palästinensischen Texte</hi>. Bonn: A. Marcus and E.
+               Webers, 1922.</bibl>
+            <bibl>Beck, Edmund.
+               <hi rend="italic">Des Heiligen Ephraem des Syrers Sermones II. </hi>CSCO
+               311–312, Scriptores Syri 134–135. Louvain: Secrétariat du CorpusSCO, 1970. </bibl>
+            <bibl>Becker, Adam H.
+               <hi rend="italic">Fear of God and the Beginning of Wisdom: The School of Nisibis and Christian Scholastic Culture in Late Antique Mesopotamia. </hi>Philadelphia:
+               University of Pennsylvania Press, 2006.</bibl>
+            <bibl>Brock, Sebastian P. “Ephrem’s Letter to Publius,”
+               <hi rend="italic">Le Muséon </hi>89 (1976): 261–305. </bibl>
+            <bibl>_____. “Jewish Traditions in Syriac Sources.”
+               <hi rend="italic">Journal of Jewish Studies </hi>30, no. 2
+               (1979): 212–232.</bibl><pb n="351"/>
+            <bibl>_____. “Dramatic Dialogue Poems.” In <hi rend="italic">IV Symposium Syriacum 1984:
+                  Literary Genres in Syriac Literature</hi>. OCA 229. Edited by H.J.W. Drijvers, R.
+               Lavenant, C. Molenberg and G.J. Reinink. Rome: Pont. Institutum Studiorum
+               Orientalium, 1987.</bibl>
+            <bibl>_____. “St. Ephrem: A Brief Guide to the Main Editions and Translations.”
+               <hi rend="italic">The Harp </hi>3 (1990): 7–29.</bibl>
+            <bibl>_____. “Qurillona.” In <hi rend="italic">The Gorgias Encyclopedic Dictionary of the
+                  Syriac Heritage</hi>. Edited by Sebastian Brock et al. Piscataway, N.J.: Gorgias
+               Press, 2011. </bibl>
+            <bibl>Brock, Sebastian P., and Lucas Van Rompay. <hi rend="italic">Catalogue of the Syriac
+                  Manuscripts and Fragments in the Library of Deir al-Surian, Wadi al-Natrun
+                  (Egypt)</hi>. Orientalia Lovaniensia Analecta 227. Louvain: Peeters, 2014.</bibl>
+            <bibl>Burkitt, F.C. <hi rend="italic">Saint Ephraim’s Quotations from the Gospel</hi>,
+               Texts and Studies: Contributions to Biblical and Patristic Literature 7. Cambridge:
+               Cambridge University Press, 1901.</bibl>
+            <bibl>Desreumaux, Alain. <hi rend="italic">Trois Homélies syriaques anonymes sur
+                  l’Épiphanie</hi>. PO 38. Turnhout: Brepols, 1977.</bibl>
+            <bibl>Drijvers, Han J.W. “The School of Edessa: Greek Learning and Local Culture.” In <hi
+                  rend="italic">Centres of Learning: Learning and Location in Pre-Modern Europe and
+                  the Near East</hi>. Edited by Jan Willem Drijvers and Alasdair A. MacDonald.
+               Brill’s Studies in Intellectual History 61. Leiden: Brill, 1995.</bibl>
+            <bibl>El-Khoury, Nabil. “Hermeneutics in the Works of Ephraim the Syrian.” In
+               <hi rend="italic">IV Symposium Syriacum 1984: Literary Genres in Syriac Literature. </hi>OCA
+               229. Edited by H.J.W. Drijvers, R. Lavenant, C. Molenberg and G.J. Reinink. Rome:
+               Pontifical Institutum Studiorum Orientalium, 1987.</bibl>
+            <bibl>Féghali, Paul. “Influence des targums sur la pensée exégétique d’Ephrem.” In <hi
+                  rend="italic">IV Symposium Syriacum 1984: Literary Genres in Syriac
+               Literature</hi>. OCA 229. Edited by H.J.W. Drijvers, R. <pb n="352"/>Lavenant, C. Molenberg and
+               G.J. Reinink. Rome: Pontifical Institutum Studiorum Orientalium, 1987.</bibl>
+            <bibl>Forness, Philip Michael. “A Brief Guide to Syriac Homilies,” Version 3. Accessed at
+                  <ref
+                  target="http://syri.ac/sites/default/files/%20A_Brief_Guide_to_Syriac_Homilies_-_Versi.pdf"
+                  >http://syri.ac/sites/default/files/
+                  A_Brief_Guide_to_Syriac_Homilies_-_Versi.pdf</ref></bibl>
+            <bibl>Graffin, Francois.
+               <hi rend="italic">Homélies anonymes du VIe siècle. </hi>PO 41.
+               Turnhout: Brepols, 1984.</bibl>
+            <bibl>Griffin, Carl W. “Cyrillona: A Critical Study and Commentary,” Ph.D. dissertation,
+               Catholic University of America, 2011.</bibl>
+            <bibl>_____. <hi rend="italic">The Works of Cyrillona. </hi>Picataway,
+               N.J.: Gorgias Press, 2016.</bibl>
+            <bibl>Griffith, Sidney. “Julian Saba, “Father of the Monks” of Syria,”
+               <hi rend="italic">JECS </hi>2, no. 2 (1994): 185–216.</bibl>
+            <bibl>_____. “Abraham Qîdunayâ, St. Ephraem the Syrian, and Early Monasticism in the
+               Syriac-speaking World.” In <hi rend="italic">Il Monachesimo tra Eredità e
+                  Aperture</hi>. Edited by Daniel Hombergen and Maciej Bielawski. Studia Anselmiana
+               140. Rome: 2004.</bibl>
+            <bibl>Hansen, Günter Christian. <hi rend="italic">Sozomenos. Historia Ecclesiastica</hi>.
+               FC 73. Turnhout: Brepols, 2004.</bibl>
+            <bibl>Hayes, Andrew. <hi rend="italic">Icons of the Heavenly Merchant: Ephrem and
+                  Pseudo-Ephrem in the Madrashe in Praise of Abraham of Qidun</hi>. Gorgias Eastern
+               Christian Studies 45. Piscataway, N.J.: Gorgias Press, 2016.</bibl>
+            <bibl>Heal, Kristian. “Reworking the Biblical Text in the Dramatic Dialogue Poems on the
+               Old Testament Patriarch Joseph.” In <hi rend="italic">The Peshiṭta: Its Use in
+                  Literature and Liturgy: Papers Read at the Third Peshiṭta Symposium</hi>, Monographs of the
+               Peshitta Institute 15, edited by Bas ter Haar Romeny. Leiden: Brill, 2006.</bibl>
+            <bibl>Hidal, Sten. <hi rend="italic">Interpretatio Syriaca: die Kommentare des Heiligen<pb n="353"/>
+                  Ephräm des Syrers zu Genesis und Exodus mit besondere[r] Berücksichtigung ihrer
+                  auslegungsgeschichtlichen Stellung</hi>, translated by Christiane Boehncke
+               Sjöberg. Coniectanea biblica. Old Testament series 6. Lund: Gleerup, 1974.</bibl>
+            <bibl>Jansma, Taeke. “Une homélie anonyme sur la chute d’Adam,”
+               <hi rend="italic">L’Orient Syrien </hi>5 (1960): 159–182.</bibl>
+            <bibl>______. “Une homélie anonyme sur la création du monde,”
+               <hi rend="italic">L’Orient Syrien </hi>5 (1960): 385–400.</bibl>
+            <bibl>______. “Une homélie sur les plaies d’Egypte,”
+               <hi rend="italic">L’Orient Syrien </hi>6 (1961): 3–24.</bibl>
+            <bibl>______. “Une homélie anonyme sur l’effusion du Saint Esprit,”
+               <hi rend="italic">L’Orient Syrien </hi>6 (1961): 157–178.</bibl>
+            <bibl>______. “Les homélies du manuscrit Add. 17.189 du British Museum. Une homélie anonyme
+               sur le jeûne,” <hi rend="italic">L'Orient Syrien </hi>6 (1961):
+               412–440. </bibl>
+            <bibl>Kugel, James L.
+               <hi rend="italic">In Potiphar’s House: the Interpretive Life of Biblical Texts. </hi>San
+               Francisco: HarperSanFrancisco, 1990.</bibl>
+            <bibl>Kmosko, Michael. <hi rend="italic">Liber Graduum</hi>. Patrologia Syriaca 1.3. Paris:
+               Firmin-Didot, 1926.</bibl>
+            <bibl>Kronholm, Tryggve.
+               <hi rend="italic">Motifs from Genesis 1–11 in the Genuine Hymns of Ephrem the Syrian, with Particular Reference to the Influence of Jewish Exegetical Traditions. </hi>Uppsala:
+               Almqvist &amp; Wiksell, 1978.</bibl>
+            <bibl>Lange, Christian.
+               <hi rend="italic">The Portrayal of Christ in the Syriac Commentary on the Diatessaron. </hi>CSCO
+               616, Subsidia 118. Louvain: Peeters, 2005.</bibl>
+            <bibl>Lund, J.A. “Observations on Some Biblical Citations in Ephrem's Commentary on
+               Genesis,” <hi rend="italic">Aramaic Studies </hi>4 (2006):
+               207–220.</bibl>
+            <bibl>Mathews, Edward G., Jr.
+               <hi rend="italic">The Armenian Commentaries on Exodus-Deuteronomy attributed to Ephrem the Syrian. </hi>CSCO
+               587–588, Scriptores Armeniaci 25–26. Louvain: Peeters, 2001.</bibl><pb n="354"/>
+            <bibl>Melki, Joseph. “Saint Ephrem le syrien, un bilan de l'édition critique,” <hi
+                  rend="italic">Parole de l’Orient</hi> 11 (1983): 3–88. </bibl>
+            <bibl>Millar, Fergus. “Greek and Syriac in Edessa: From Ephrem to Rabbula (CE 363–435).”
+               <hi rend="italic">Semitica et Classica </hi>4, no. 1 (2011):
+               99–113.</bibl>
+            <bibl>Nau, François. “Fragments de Mar Aba, Disciple de Saint Ephrem,”
+               <hi rend="italic">Revue de l’Orient Chrétien </hi>17 (1912):
+               69–73.</bibl>
+            <bibl>Neuschäfer, Bernhard.
+               <hi rend="italic">Origenes als Philologe. </hi>Basel: F.
+               Reinhardt, 1987.</bibl>
+            <bibl>Ortiz de Urbina,
+               Ignatius<hi rend="italic">. Patrologia Syriaca. </hi>Rome: Pont.
+               Institutum Orientalium Studiorum, 1965. </bibl>
+            <bibl>Outtier, Bernard. “Saint Éphrem d’après ses biographies et ses œuvres,”
+               <hi rend="italic">Parole de l’Orient </hi>4, no. 1–2 (1973):
+               11–33.</bibl>
+            <bibl>Overbeck, J.J. <hi rend="italic">S</hi>. <hi rend="italic"
+                  >Ephraemi Syri Rabulae Episcopi Edesseni Balaei Aliorumque Opera Selecta</hi>.
+               Oxford: Clarendon Press, 1865.</bibl>
+            <bibl>Parisot, Jean.
+               <hi rend="italic">Aphraatis Sapientis Persae Demonstrationes. </hi>Patrologia
+               Syriaca 1.1. Paris: Firmin-Didot, 1894.</bibl>
+            <bibl>Reinink, Gerrit J. “Neue Fragmente zum Diatessaron-kommentar des Ephraem-schülers
+               Aba,” <hi rend="italic">Orientalia Lovaniensia Periodica </hi>11
+               (1980): 117–133.</bibl>
+            <bibl>Rilliet, Frédéric. <hi rend="italic">Jacques de Saroug: Six homélies festales en
+                  prose</hi>, PO 43. Turnhout: Brepols, 1986.</bibl>
+            <bibl>Russell, Paul S. “Nisibis as the Background to the Life of Ephrem the Syrian,”
+               <hi rend="italic">Hugoye </hi>8 (2005): 179–235. </bibl>
+            <bibl>Scher, Addai. <hi rend="italic">Cause de la fondation des écoles</hi>. PO 4. Paris:
+               Firmin-Didot, 1908.</bibl>
+            <bibl>Sed, Nicolas. “Les hymnes sur le paradis de saint Ephrem et les traditions juives.”
+               <hi rend="italic">Le Muséon </hi>81 (1968): 455–501.</bibl>
+            <bibl>Segal, J.B. <hi rend="italic">Edessa: The Blessed City</hi>. Oxford: Clarendon Press,
+               1970. </bibl>
+            <bibl>Tonneau, R.-M.
+               <hi rend="italic">Sancti Ephraem Syri in Genesim et in Exodum<pb n="355"/> commentarii. </hi>CSCO
+               152, Scriptores Syri 71. Louvain: L. Durbecq, 1955. </bibl>
+            <bibl>Van Rompay, Lucas. “The Christian Syriac Tradition.” In <hi rend="italic">Hebrew
+                  Bible, Old Testament: The History of Its Interpretation</hi>, Vol. I, Part 1.
+               Edited by Magne Sæbø. Göttingen: Vandenhoeck &amp; Ruprecht, 1996.</bibl>
+            <bibl>______. “Antiochene Biblical Interpretation: Greek and Syriac.” In
+               <hi rend="italic">The Book of Genesis in Jewish and Oriental Christian Interpretation: A Collection of Essays. </hi>Edited
+               by Judith Frishman and Lucas Van Rompay. Louvain: Peeters, 1997.</bibl>
+            <bibl>______. “Between the School and the Monk’s Cell: The Syriac Old Testament Commentary
+               Tradition.” In <hi rend="italic">The Peshiṭta: Its Use in
+                  Literature and Liturgy: Papers Read at the Third Peshiṭta Symposium. </hi>Edited by Bas ter
+               Haar Romeny. Monographs of the Peshitta Institute 15. Leiden: Brill, 2006.</bibl>
+            <bibl>Vööbus, Arthur. <hi rend="italic">History of the School of Nisibis</hi>. CSCO 266.
+               Subsidia 26. Louvain: Secrétariat du CorpusSCO, 1965.</bibl>
+            <bibl>Wickes, Jeffrey T. “Between Liturgy and School: Reassessing the Performative Context
+               of Ephrem’s Madrāšê.”
+               <hi rend="italic">Journal of Early Christian Studies </hi>26,
+               no. 1 (2018): 25–51.</bibl>
+            <bibl>Wright, William. <hi rend="italic">Catalogue of the Syriac Manuscripts in the British
+                  Museum acquired since the year 1838</hi>, Vol. 2. London: British Museum,
+               1871.</bibl><pb n="356"/>
+         </div>
+      </body>
+   </text>
+</TEI>
