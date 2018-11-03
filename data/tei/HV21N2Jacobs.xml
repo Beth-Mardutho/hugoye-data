@@ -1,0 +1,1370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Preliminary Considerations on Dionysius Bar Ṣalībī's Islamic
+                    Sources</title>
+                <title type="sub"/>
+                <author>
+                    <name>
+                        <forename>Bert</forename>
+                        <surname>Jacobs</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>KU Leuven</orgName>
+                        <orgName>The Louvain Centre for Eastern and Oriental Christianity
+                            (LOCEOC)</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2018</date>
+                <idno>Volume 21.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv21n2jacobs</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Bert Jacobs</author>
+                        <title level="a">Preliminary Considerations on Dionysius Bar Ṣalībī's
+                            Islamic Sources</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol21/HV21N2Jacobs.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2018</date>
+                        </imprint>
+                        <biblScope type="vol" n="21">21</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="357" to="389">357-389</biblScope>
+                        <biblScope type="order" n="5"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Qurʾān</term>
+                    <term>Translation</term>
+                    <term>Alphonse Mingana</term>
+                    <term>Dionysius Bar Ṣalībī</term>
+                    <term>Christian-Muslim apologetics</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2018-11-01">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">Though Dionysius Bar Ṣalībī (d. 1171) wrote his <hi rend="italic"
+                        >Disputation Against the Arabs</hi> during the so-called ‘Syriac
+                    Renaissance’ (c. 1026-1318), a period characterized by an increased Christian
+                    awareness of Islamic literary culture, to date no sustained appeal has been made
+                    for a direct use of Islamic sources in composing this work. This situation seems
+                    largely influenced by Alphonse Mingana who categorically rejected Bar Ṣalībī’s
+                    knowledge of Islamic literature, particularly the Arabic Qurʾān. This article
+                    proposes to take a fresh look at the potential traces of Islamic sources the
+                    work displays. Such a reading reveals traces of at least five other Islamic
+                    literary genres besides the Qurʾānic excerpts for which the work is well known:
+                    Muḥammad’s biography (<hi rend="italic">sīra</hi>), heresiography, exegesis (<hi
+                        rend="italic">tafsīr</hi>), prophetic traditions (<hi rend="italic"
+                        >ḥadīth</hi>), and the so-called ‘stories of the prophets’ (<hi
+                        rend="italic">qiṣaṣ al-anbiyāʾ</hi>). To prepare the way for a closer
+                    assessment of Bar Ṣalībī’s Islamic sources, the aim of this paper is to survey
+                    the various allusions to and quotations of the material<pb n="357"/> reminiscent of these
+                    five additional literary genres, and to reflect on their significance with
+                    regards to Bar Ṣalībī’s interculturality. </p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="hv21n2jacobs.1" xml:lang="en">
+            <p xml:lang="en">Though the earliest interactions between Syriac Christians and Muslims
+                within the nascent Islamic empire may have been characterized by more hybridity and
+                ill-defined borders than was once suspected,<note place="foot" xml:id="ftn1" n="1"
+                        ><p xml:lang="en">* This article presents some intermediary results of my
+                        current PhD project on the apologetic theology and sources of Dionysius Bar
+                        Ṣalībī’s <hi rend="italic">Disputation Against the Arabs</hi>, particularly
+                        his use of the Qurʾān and other Islamic texts. I thank the FWO for
+                        generously supporting my research. I also wish to thank James E. Walters for
+                        his patience with me and for checking my English.</p><p xml:lang="en"> Thus
+                        the thesis of Michael P. Penn, <hi rend="italic">Envisioning Islam: Syriac
+                            Christianity and the Early Muslim World</hi> (Pennsylvania: University
+                        of Pennsylvania Press, 2015).</p></note> the religious borderlines soon
+                became increasingly delineated. An activity particularly instrumental to this
+                development was the production of apologetic/polemic texts on both sides clearly
+                manifesting the depths of the Christian-Muslim theological divide. Though the
+                earliest examples of such works on the Christian side were still composed in Syriac,
+                such as <hi rend="italic">The Disputation between Patriarch John and an Emir</hi>,
+                    <hi rend="italic">The Disputation between a Monk of Bēt</hi><hi rend="italic"
+                    >Ḥālē and a Muslim</hi>, and <hi rend="italic">The Disputation between Timothy I
+                    and the Caliph al-Mahdī</hi>, from the early ʿAbbāsid period onwards the use of
+                Syriac as the primary literary language of theological discourse and debate
+                gradually declined in favor of the official language of the Caliphate, Arabic.<note
+                    place="foot" xml:id="ftn2" n="2"><p xml:lang="en"> For overviews of the Syriac
+                        apologetic texts in response to Islam, see Sidney H. Griffith, “Disputes
+                        with Muslims in Syriac Christian Texts: From Patriarch John (d. 648) to Bar
+                        Hebraeus (d. 1286),” in <hi rend="italic">Religionsgespräche im
+                            Mittelalter</hi>, Wolfenbütteler Mittelalter-Studien 4, ed. B. Lewis and
+                        F. Niewöhner (Wiesbaden: Harrassowitz, 1992), 251-273; id., <hi
+                            rend="italic">Syriac Writers on Muslims and the Religious Challenge of
+                            Islam</hi> (Kottayam: SEERI, 1995); Barbara Roggema, “Pour une lecture
+                        des dialogues islamo-chrétiens en syriaque à la lumière des controverses
+                        internes à l’islam,” in <hi rend="italic">Les controverses religieuses en
+                            syriaque</hi>, Études syriaques 13, ed. F. Ruani (Paris: Geuthner,
+                        2016), 261-294. For early Muslim polemics against Christianity, see e.g.
+                        David Thomas, <hi rend="smallcaps">“</hi>Early Muslim Responses to
+                        Christianity,” in <hi rend="italic">Christians at the Heart of Islamic Rule:
+                            Church Life and Scholarship in </hi><hi rend="italic">ʿAbbasid
+                        Iraq</hi>, The History of Christian-Muslim Relations 1, ed. D. Thomas
+                        (Leiden: Brill, 2003), 231-254.</p></note> In the period of the so-called
+                ‘Syriac<pb n="358"/> Renaissance’ (c. 1026-1318), however, one more Syriac work specifically
+                devoted to refuting Islam would appear. Of all Syriac refutation texts, this one
+                perhaps most sharply draws the lines between the truth of Christianity and the
+                falsehood of Islam: <hi rend="italic">The Disputation Against the Arabs</hi> (<hi
+                    rend="italic">ōruʿutō luqbal ʿamō d-Arābōyē</hi>) composed by Dionysius Bar
+                Ṣalībī (d. 1171), the West Syrian Metropolitan of Amīd (present-day
+                    Diyarbakir).<note place="foot" xml:id="ftn3" n="3"><p xml:lang="en"> A critical
+                        edition based on five manuscripts together with an English translation was
+                        published in 2005 by Joseph Amar, <hi rend="italic">Dionysius Bar Ṣalībī: A
+                            Reponse to the Arabs</hi>, CSCO 614-615 (Leuven: Peeters, 2005). I have
+                        checked Amar’s edition against the oldest manuscript from the year 1207, <hi
+                            rend="italic">Ms. Syriac Orthodox Patriarchate 160</hi> (ff. 245a-278b).
+                        Amar’s translation is the basis for the citations occuring in this paper,
+                        but I regularly applied changes were deemed necessary. For Bar Ṣalībī’s
+                        bio-bibliography, see Stephan D. Ryan, <hi rend="italic">Dionysius bar
+                            Salibi's Factual and Spiritual Commentary on Psalms 73-82</hi>, Cahiers
+                        de révue biblique 57 (Paris: J. Gabalda et Cie, 2004), p. 1-14. On the
+                        period of the ‘Syriac Renaissance’, see Herman Teule, “The Syriac
+                        Renaissance,” in <hi rend="italic">The Syriac Renaissance</hi>, Eastern
+                        Christian Studies 9, ed. H. Teule <hi rend="italic">et al.</hi> (Leuven:
+                        Peeters, 2010), 1-30. Other writers of this period engaged Islam as well in
+                        their theological writings, but none of them is credited for having composed
+                        a seperate work in response to Islam. Some studies on these author’s
+                        apologetics are Herman Teule, “Jacob bar Šakkō, the Book of Treasures and
+                        the Syrian Renaissance,” in <hi rend="italic">Eastern Crossroads. Essays on
+                            Medieval Christian Legacy</hi>, Gorgias Eastern Christianity Studies 1,
+                        ed. J.-P. Monferrer-Sala (Piscataway, NJ: Georgias Press, 2007), 143-154;
+                        Salam Rassi, <hi rend="italic">Justifying Christianity in the Islamic Middle
+                            Ages: The Apologetic Theology of ʿAbdīshōʿ bar Brīkhā (d. 1318)</hi>
+                        (PhD diss., University of Oxford, 2015); Bert Jacobs, “Unveiling Christ in
+                        the Islamicate World: Fakhr al-Dīn al-Rāzī's Prophetology as a Model for
+                        Christian Apologetics in Gregory Bar ʿEbrōyō’s Treatise on the Incarnation,”
+                            <hi rend="italic">Intellectual History of the Islamicate World</hi>
+                        6/1&amp;2 (2018), 187-216.</p></note></p>
+            <p xml:lang="en"> Part of a larger encyclopedic work that also includes a theological
+                compendium and disputations against the Jews, Nestorians, Chalcedonians, and
+                Armenians, <hi rend="italic">Against the Arabs</hi> is a quite significant hallmark
+                in the history of Christian-Muslim relations.<note place="foot" xml:id="ftn4" n="4"
+                        ><p xml:lang="en"> See my PhD dissertation for a discussion of the larger
+                        literary context. On the content and significance of the <hi rend="italic"
+                            >Disputation Against the Arabs</hi>, see also the overviews of Syriac
+                        apologetic texts in nr. 2, as well as Sidney H. Griffith<hi rend="smallcaps"
+                            >,</hi> “Dionysius bar Ṣalībī on the Muslims,” in <hi rend="italic">IV
+                            Symposium Syriacum: Literary Genres in Syriac Literature</hi>,
+                        Orientalia Christiana Analecta 229, ed. H. Drijvers <hi rend="italic">et
+                            al</hi>. (Rome: Pontificium Institutum Studiorum Orientalium, 1987), p.
+                        353-365; Herman Teule, “Dionysius Bar Ṣalibi,” <hi rend="italic"
+                            >Christian-Muslim Relations: A Bibliographical History </hi>3 (Leiden:
+                        Brill, 2011), 665-70, p. 667-70.</p></note> It is not only the latest
+                disputation against Islam to<pb n="359"/> be composed in Syriac, but also the lengthiest and most
+                comprehensive work of its kind, covering all the major issues of Christian-Muslim
+                controversy in thirty chapters divided over three <hi rend="italic">mimrē</hi> or
+                tracts. The primary topics of dispute, the doctrines of the Trinity and Incarnation,
+                are most prominently present, though various secondary themes have their place as
+                well. <hi rend="italic">Mimrō</hi> I (chs. 1-8) is principally devoted to refuting
+                Muslim objections against Trinitarian doctrine, but also has an introductory chapter
+                on the origins and teachings of Islam, and one on the divisions in the early Muslim
+                community. The doctrine of the Incarnation is the central theme of <hi rend="italic"
+                    >mimrō</hi> II (chs. 9-24), but several chapters also discuss Muḥammad’s
+                prophetic status, the legitimacy of Christian spiritual practices, the scriptural
+                integrity of the Bible and the Qurʾān, and the proper conception of Paradise. </p>
+            <p xml:lang="en"> In these first two <hi rend="italic">mimrē</hi>, Bar Ṣalībī relies on
+                four types of arguments to uphold the veracity of Christianity. Besides the usual
+                use of arguments from ‘nature and scripture’, he also presents testimonies from the
+                pagan sages,<note place="foot" xml:id="ftn5" n="5"><p xml:lang="en"> Bar Ṣalībī
+                        provides two such testimony lists: in chapter 8 concerning the Trinity, and
+                        in chapter 19 for the Incarnation. Only the latter list was studied in
+                        Sebastian P. Brock, ”A Syriac Collection of Prophecies of the Pagan
+                        Philosophers,” <hi rend="italic">Orientalia Lovaniensia Periodica</hi> 14
+                        (1983): 203-246; id., “Some Syriac Excerpts from Greek Collections of Pagan
+                        Prophecies,” <hi rend="italic">Vigilae Christianae</hi> 38 (1984):
+                        77-90.</p></note> and more importantly, arguments from the Qurʾān, which is
+                cited in a Syriac translation. Conforming to a widespread Christian approach to the
+                Qurʾān, his quotes serve either to demonstrate the Qurʾān’s flawed character or
+                conversely, to find support in it for Christian teachings.<note place="foot"
+                    xml:id="ftn6" n="6"><p xml:lang="en"> On early Christian approaches to the
+                        Qurʾān, see Mark Beaumont, “Early Christian Interpretation of the Qurʾān,”
+                            <hi rend="italic">Transformation</hi> 22/4 (2005): 195-203; Sidney H.
+                        Griffith, “The Qurʾān in Arab Christian Texts; the Development of an
+                        Apologetical Argument: Abū Qurrah in the <hi rend="italic">Maǧlis</hi> of
+                        al-Maʾmūn,” <hi rend="italic">Parole de l’Orient</hi> 24 (1999): 203-233;
+                        id., <hi rend="smallcaps">“</hi>Christians and the Arabic Qurʾān:
+                        Prooftexting, Polemics, and Intertwined Scriptures,” <hi rend="italic"
+                            >Intellectual History of the Islamicate World</hi> 2 (2014): 243-266;
+                        Clare E. Wilde, <hi rend="a-size-large"><hi rend="italic">Approaches to the
+                                Qur’an in Early Christian Arabic Texts</hi> (750CE-1258 CE)
+                        (</hi>Palo Alto, California: <hi rend="a-size-large"> Academica Press,
+                            2014)</hi>.</p></note> This reading of the Qurʾān is fully<pb n="360"/> developed in
+                    <hi rend="italic">mimrō</hi> III (chs. 25-30), undoubtedly the most original
+                part of the work. In these final six chapters, Bar Ṣalībī divides the pages into two
+                sections: one containing excerpts from the Qurʾān and the other section providing
+                his commentary, i.e. his apologetic and polemic interpretations of the cited
+                material. The themes that are discussed in the six chapters are revelation and
+                creation (25), Adam (26), Noah (27), the Patriarchs (28), Mary and Jesus (29), and
+                concludes with a chapter clustering Qurʾānic verses on a wide range of topics
+                (30).</p></div>
+            <div xml:id="hv21n2jacobs.2" xml:lang="en">
+                <head>The Issue of the Sources</head>
+                <p xml:lang="en">Like other writers of the Syriac Renaissance, Bar Ṣalībī’s favored
+                    method of composition, as displayed in <hi rend="italic">Against the Arabs</hi>,
+                    is to compile previous works and combine, edit, and shape them to his own
+                    purposes. The identification of his sources and the assessment of how he makes
+                    uses of them, however, is still largely uncharted territory. That he principally
+                    draws, as might be expected, on Syriac and Christian Arabic sources has recently
+                    received some initial attention.<note place="foot" xml:id="ftn7" n="7"><p
+                            xml:lang="en"> See Martin Heimgartner, <hi rend="italic">Timotheos I.,
+                                Ostsyrischer Patriarch: Disputation mit dem Kalifen Al-Mahdī,
+                            </hi>CSCO 631-2 (Leuven: Peeters,<hi rend="smallcaps"> 2011), </hi>tr.,
+                            p. xxvii (nr. 105); Shabo Talay, “Aus dem polemischen Genre des
+                            Syrischen: Die luqbal-Schriften von Bar Ṣalībī und Bar Šūšan,” in <hi
+                                rend="italic">Orientalia Christiana, Festschrift für Hubert Kaufhold
+                                zum 70. Geburtstag</hi>, ed. P. Bruns and H. O. Luthe(Wiesbaden:
+                            Harrassowitz, 2013), 511-521, p. <hi rend="smallcaps">517-8</hi>. On Bar
+                            Ṣalībī’s use of the now lost <hi rend="italic">Chronicle </hi>of
+                            Dionysius of Tell-Maḥrē (d. 845) in the opening chapter of the <hi
+                                rend="italic">Disputation</hi>, see Bert Jacobs, “Tentative
+                            Reconstruction of Dionyius of Tell-Maḥrē’s Account of the Rise of Islam
+                            through Three Dependant Texts,” forthcoming.</p></note> However, whether
+                    he also made use of Islamic sources, a marked trait of<pb n="361"/> Syriac Christian writers
+                    during his period,<note place="foot" xml:id="ftn8" n="8"><p xml:lang="en"> See
+                            Teule, “The Syriac Renaissance,” p. 23-8.</p></note> remains completely
+                    elusive to date. Despite the fact that several recent studies have called
+                    attention to the originality of Bar Ṣalībī’s knowledge of Islamic history and
+                    the Qurʾān, little to no appeals for a direct reliance on Arabic Islamic sources
+                    have been made so far. </p>
+                <p xml:lang="en"> This state of affairs appears to be largely indebted to the first
+                    modern scholar to have dealt with the text, Alphonse Mingana (1878-1937), who in
+                    1925 not only rejected Bar Ṣalībī’s knowledge of the Arabic Qurʾān, but also of
+                    Islamic literature altogether. Basing his argument solely on <hi rend="italic"
+                        >mimrō</hi> III, Mingana was arguing for Bar Ṣalībī’s reliance on a late
+                    seventh or early eighth-century Syriac translation of a pre-standardized
+                    recension of the Qurʾān, or as he called it, “an ancient Syriac translation of
+                    the Ḳurʾān [sic] exhibiting new verses and variants.”<note place="foot"
+                        xml:id="ftn9" n="9"><p xml:lang="en"> Alphonse Mingana, “An Ancient Syriac
+                            Translation of the Ḳurʾan Exhibiting New Verses and Variants,” <hi
+                                rend="italic">Bulletin of the John Rylands Library</hi> 9/1 (1925):
+                            188-235; reprinted with minimal corrections and additions in Manchester:
+                            Manchester University Press, 1925, 3-50. The current paper cites from
+                            Mingana’s final version. Recently, Mingana’s study has been reprinted in
+                            a volume seeking to challenge the Qurʾān’s traditional status in Islam,
+                                <hi rend="a-size-large"><hi rend="italic">Which Koran?: Variants,
+                                    Manuscripts, Linguistics</hi>, ed. </hi>Ibn Warraq<hi
+                                rend="a-size-large"> (</hi>Amherst, Prometheus Books<hi
+                                rend="a-size-large">, 2008; 2011). </hi>Mingana’s study and
+                            translation of the quotation section of <hi rend="italic">mimrō </hi>III
+                            was based on a single manuscript, <hi rend="italic">Mingana Syriac
+                                89</hi> (1715 AD). After completion of his study, he was able to
+                            compare this manuscript with <hi rend="italic">Harvard Syriac 91</hi>
+                            (1898 AD), the results of which he described in a supplementary note
+                            appended to the paper.<hi rend="a-size-large"> </hi></p></note> It was
+                    in the context of postulating a dependence on such a translation that Mingana
+                    provided several arguments for why Bar Ṣalībī could not himself have translated
+                    the Qurʾānic excerpts from the Arabic. His boldest move occurs at the very end
+                    of the paper, where he argues that Bar Ṣalībī simply was unqualified for the
+                    task, due to his seemingly “extremely meagre” knowledge of Islamic works.<note
+                        place="foot" xml:id="ftn10" n="10"><p xml:lang="en"> Mingana<hi
+                                rend="smallcaps">, “</hi>An Ancient Syriac Translation,” p.
+                            29-30.</p></note>
+                </p>
+                <p xml:lang="en"> Though Mingana’s claim of having unearthed evidence of a
+                    non-canonical Qurʾān was soon rejected by prominent contemporary Qurʾānic
+                    scholars such as Gotthelf Bergsträβer,<pb n="362"/> Theodore Nöldeke, and Arthur Jeffery, and
+                    largely ignored by Islamicists ever since, to date no conclusive alternative
+                    account for the provenance of the Qurʾānic translations in Bar Ṣalībī’s work has
+                    been advanced.<note place="foot" xml:id="ftn11" n="11"><p xml:lang="en">
+                            Gotthelf Bergsträβer<hi rend="smallcaps">, </hi>“Die Geschichte des
+                            Qurāntexts,” in T. Nöldeke, F. Schwally, G. Bergsträβer, and O. Pretzl,
+                                <hi rend="italic">Geschichte des Qurāns</hi>, <hi rend="st">3 vols.
+                                (Leipzig: Dieterich’sche Verlagsbuchhandlung, 1909, 1919, 1938),
+                                Vol. 3, </hi>p. 100-2. For Nöldeke’s brief epistolary response from
+                            April 13, 1925, see ibid., p. 102 (nr. 1). Bergsträβer’s view that the
+                            variants presented by Mingana are unrelated to the non-canonical
+                            variants known from Muslim sources was endorsed by Arthur Jeffery, <hi
+                                rend="italic">Materials for the History of the Text of the Qur’an:
+                                The Old Codices</hi> (Leiden: Brill, 1937), p. 14-15 (nr
+                        1).</p></note> Yet one interesting hypothesis worthy of further exploration
+                    has already been put forth a while ago by Sidney Griffith, who suggested that
+                    Bar Ṣalībī himself “made the translations to suit his own apologetic/ polemic
+                    purposes, and that the variants are to be explained as distortions, rather than
+                    as evidence of ‘an ancient Syriac translation’.”<note place="foot"
+                        xml:id="ftn12" n="12"><p xml:lang="en"> Griffith, <hi rend="italic">Syriac
+                                Writers on Muslims</hi>, p. 25.</p></note> Before reexamining Bar
+                    Ṣalībī’s potential translation work, however, it may be wise to first clarify
+                    the more fundamental issue of his interculturality, as someone with no affinity
+                    whatsoever with Islamic literary culture is indeed not very likely to be a
+                    Qurʾānic translator. </p>
+                <p xml:lang="en"> As we shall see, Mingana’s ‘extremely’ low estimation of Bar
+                    Ṣalībī’s interculturality was not only founded on a flawed manuscript basis, but
+                    a fresh reading of the work brings to light traces of at least five other
+                    Islamic literary genres in addition to the Qurʾān. Some of these materials had
+                    been noted by Mingana and were (mistakenly) interpreted as “new verses and
+                    variants [from the Qurʾān],” other materials he missed due to his neglect of
+                    both <hi rend="italic">mimrē</hi> I-II and the commentary section of <hi
+                        rend="italic">mimrō</hi> III.<note place="foot" xml:id="ftn13" n="13"><p
+                            xml:lang="en"> See my PhD for a full assessment of Mingana’s proposals.
+                        </p></note> For the sake of convenience, these materials will be surveyed
+                    according to their characteristic literary genres, though one has to bear in
+                    mind that none of the materials under review are limited to works of one
+                    particular genre alone.</p><pb n="363"/>
+            </div>
+            <div xml:id="hv21n2jacobs.3" xml:lang="en">
+                <head>Classification of Islamic Material by Literary Genre </head>
+                <div xml:id="hv21n2jacobs.3.1" xml:lang="en">
+                    <head><hi rend="italic">Sīra</hi></head>
+                    <p xml:lang="en">Although not the first trace of Muslim literature in the work,
+                        we begin our survey with a passage in the commentary section of chapter 25
+                        dealing with works on Muḥammad’s life, since the first half of it was the
+                        sole basis for Mingana’s claim that Bar Ṣalībī’s knowledge of Islamic works
+                        was “extremely meagre.” According to Mingana’s reading of the passage, Bar
+                        Ṣalībī would have thought that Muslims have <hi rend="italic">only</hi> two
+                        books in addition to the Qurʾān, the <hi rend="italic">Maghāzī</hi> and the
+                            <hi rend="italic">Mukhtāra</hi>.<note place="foot" xml:id="ftn14" n="14"
+                                ><p xml:lang="en"> Mingana<hi rend="smallcaps">, “</hi>An Ancient
+                                Syriac Translation,” p. 29-30: “[…] his own knowledge of Muslim
+                                religious and historical books seems to have been extremely meagre.
+                                […] Of the innumerable Muslim works of <hi rend="italic">ḥadīth
+                                </hi>and history, preceding the twelfth century, the author had
+                                apparently heard only of the <hi rend="italic">Maghāzi</hi> and the
+                                    <hi rend="italic">Mukhtāra </hi>(<hi rend="italic">!</hi>), and
+                                even these he had not seen and read; he was aware of their existence
+                                only through hearsay: ‘the Muslims say that they have …’ A man of
+                                this calibre would hardly be able to translate the Ḳurʾān [sic] or
+                                to use the early works of tradition in a controversial work between
+                                Christians and Muslims.” (Mingana’s italics)</p></note> If that were
+                        what he actually believed, one could indeed rightly criticize him for being
+                        in a complete state of ignorance of the ambient Muslim culture. What Mingana
+                        fatally overlooked, however, is that the single manuscript he is relying on
+                        displays a large gap in the passage under consideration.<note place="foot"
+                            xml:id="ftn15" n="15"><p xml:lang="en">
+                                <hi rend="italic">Ms. </hi><hi rend="Footnote_Text_Char"><hi
+                                        rend="italic">Mingana Syriac </hi>89, f. 76a</hi>. This
+                                manuscript is nowadays easily consultable online, see
+                                http://vmr.bham.ac.uk/Collections/Mingana/ Syriac_89.</p></note>
+                        This lacuna appears to be of an early date, since it is also present in all
+                        the manuscripts consulted by Amar.<note place="foot" xml:id="ftn16" n="16"
+                                ><p xml:lang="en"> Bar Ṣalībī, <hi rend="italic">Against the
+                                    Arabs</hi>, ed. p. 111; tr. 103. Amar’s manuscripts include <hi
+                                    rend="italic">Harvard Syriac 91</hi>, the manuscript which
+                                Mingana later used for comparison in his supplementary notes.
+                            </p></note> Fortunately, the oldest manuscript, <hi rend="italic">Ms.
+                            Syriac Orthodox Patriarchate</hi> 160 from the year 1207 AD, fills in
+                        the missing relative clause qualifying Bar Ṣalībī’s statement (see
+                        italics):</p><pb n="364"/>
+                    <cit><quote><p xml:lang="en">The Muslims say that they have two other books in
+                        addition to the Qurʾān <hi rend="italic">by which the lifespan of Muḥammad
+                            is known </hi>(<hi rend="italic">da-b-hūn metīdaʿ yubōlō d-Mwḥmd</hi>):
+                        the <hi rend="italic">Maghāzī</hi> (<foreign xml:lang="syr"
+                        >ܡܓܐܙܝ</foreign>), which records the actions of Muḥammad in battle, and
+                        (also) at the end of the book which they call the <hi rend="italic"
+                            >Mukhtāra</hi> (<foreign xml:lang="syr">ܡܘܟܬܪܐ</foreign>), they report
+                        on the lifespan (<hi rend="italic">yubōleh</hi>) of Muḥammad.<note
+                            place="foot" xml:id="ftn17" n="17"><p xml:lang="en">
+                                <hi rend="italic">Ms. Syriac Orthodox Patriarchate </hi>160, f.
+                                271a-b. Cf. Bar Ṣalībī, <hi rend="italic">Against the Arabs</hi>,
+                                ed. p. 111, tr. p. 103-4. Also the word <hi rend="italic"
+                                    >yubōleh</hi> occuring at the end of this passage appears to be
+                                a better reading than <hi rend="italic">yuqneh</hi>, ‘his image’,
+                                the reading attested in the manuscripts consulted by Amar.
+                            </p></note></p></quote></cit>
+                    <p xml:lang="en">Thus, the mentioned “two other books” do not at all refer to
+                        Muslim literature in general, as Mingana understood it, but only to <hi
+                            rend="italic">particular</hi> works narrating the life of Muḥammad.
+                        Apparently, Bar Ṣalībī acquired this knowledge from Muslim informants,
+                        presumably orally or through a writing. As for the first work refered to,
+                        there are numerous Islamic writings entitled <hi rend="italic">Kitāb
+                            al-Maghāzī</hi> (<hi rend="italic">Book of Expeditions</hi>) reporting
+                        on Muḥammad’s raids and military campagns during the Medinan period, such as
+                        those of Ibn Isḥāq (d. c. 770) and al-Wāqidī (d. 823), to name only two
+                        important writers.<note place="foot" xml:id="ftn18" n="18"><p xml:lang="en">
+                                See the works surveyed by F. Sezgin, <hi rend="italic">Geschichte
+                                    des arabischen Schrifttums</hi>, Vol. 1 (Leiden: Brill, 1967),
+                                237-56, 275-302; and more generally M. Hinds, “Al-Maghāzī,” <hi
+                                    rend="italic">EI</hi><hi rend="italic superscript">2</hi> 5
+                                (1986): 1161-6. </p></note> The writing that answers to the name <hi
+                            rend="italic">Mukhtāra</hi> is more doubtful. One possibility is that it
+                        refers to a <hi rend="italic">sīra</hi> work that has <hi rend="italic"
+                            >al-mukhtār</hi>, ‘the chosen one’, in its title, such as for instance
+                        al-Baghawī’s (d. 1117) <hi rend="italic">Kitāb al-Anwār fī shamāʾil al-Nabī
+                            al-Mukhtār</hi> (<hi rend="italic">Book of Elucidations on the Good
+                            Qualities of the Chosen Prophet</hi>).</p>
+                    <p xml:lang="en"> Although Bar Ṣalībī only refers to <hi rend="italic">sīra</hi>
+                        works the Muslims say they have in their possession, without claiming any
+                        direct affinity with them, he does appear to be familiar with the basic
+                        Muslim narrative of Muḥammad’s early years as seen from the account that
+                        follows immediately thereafter, which was completely ignored by Mingana:</p><pb n="365"/>
+                    <cit><quote><p xml:lang="en">They also call him Aḥmad (cf. Q 61:6), as if it is the
+                        same as Muḥammad, son of ʿAbdallāh, son of ʿAbd al-Muṭṭalib. When his father
+                        died, his uncle Abū Ṭālib raised him, and his foster mother was called
+                        ḥalīma. When he was forty years old, he went around saying that two angels
+                        had come, tied up his stomach, washed his heart, and restored it to his
+                        body. He also saw along the road a tree and a rock that greeted him. One day
+                        he saw an angel who tried to strangle him three times, saying to him:
+                        ‘Recite in the name of your Lord, who made man from clay. Recite by your
+                        honorable Lord, who instructed with the pen that wrote’ (Q 96:1-4).<note
+                            place="foot" xml:id="ftn19" n="19"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                    rend="italic">Against the Arabs</hi>, ed. p. 111, tr. p. 103-4.
+                                Amar misread several proper names at the beginning of this passage.
+                                The oldest manuscript has an additional sentence which adds a
+                                somewhat polemical twist to the narrative: “Muḥammad and his foster
+                                mother put him [the angel] down, as he [the angel] was about to
+                                choke him with the pen that wrote”, see <hi rend="italic">Ms. Syriac
+                                    Orthodox Patriarchate </hi>160, f. 271b.</p></note>
+                    </p></quote></cit>
+                    <p xml:lang="en">Very similar descriptions of Muḥammad’s genealogy, his
+                        upbringing as an orphan, the miraculous events prefiguring his prophetic
+                        mission, and the first revelation said to be brought to him by the angel
+                        Gabriel at mount ḥirāʾ, are readily found in the <hi rend="italic">sīra</hi>
+                            literature.<note place="foot" xml:id="ftn20" n="20"><p xml:lang="en">
+                                See e.g. Alfred Guillaume, <hi rend="italic">The Life of Muḥmmad: A
+                                    Translation of Ibn Isḥaq’s </hi>Sīrat rasūl Allāh (Oxford:
+                                Oxford University Press, 1982), p. 69-72 (on his birth, foster
+                                mother, and the washing of his heart by two men in white when he was
+                                an infant); p. 79 (Abū Ṭālib becomes Muḥammad’s guardian after the
+                                death of his grandfather); p. 104-106 (on the stones and trees
+                                greeting him and the first revelation he received, i.e. Q 96:1-5).
+                                Note the slight discrepancy that Abū Ṭālib became Muḥammad’s
+                                guardian after the death of his grandfather ʿAbd al-Muṭṭalib, not
+                                after the death of his father, as Bar Ṣalībī wrote.</p></note> The
+                        Islamic character of this account is further emphasized by the fact that a
+                        very different, much more polemic portrayal of Muḥammad’s career, drawn from
+                        the <hi rend="italic">Chronicle</hi> of Dionysius of Tell-Maḥrē (d. 845),
+                        was included in Bar Ṣalībī’s opening chapter.<note place="foot"
+                            xml:id="ftn21" n="21"><p xml:lang="en"> See n. 7 for my forthcoming
+                                study on this chapter.</p></note>
+                    </p><pb n="366"/>
+                </div>
+                <div xml:id="hv21n2jacobs.3.2" xml:lang="en">
+                    <head>Heresiography</head>
+                    <p xml:lang="en">The earliest trace of Islamic literature in the work is found
+                        as early as chapter two, which discusses the divisions that arose in the
+                        early Muslim community. Bar Ṣalībī writes that “approximately 73 heresies
+                            (<hi rend="italic">heresīs</hi>)” belonging to four principal sects
+                        sprang up among Muḥammad’s people after his death. These four ‘mother’ sects
+                        call themselves <hi rend="italic">al-Shīʿa, al-Khawārij, al-Muʿtazila</hi>,
+                        and <hi rend="italic">al-Sunna</hi>, but their opponents call them
+                        respectively <hi rend="italic">al-Rawāfiḍ, al-Ḥarūriyya, al-Qadariyya, and
+                            al- al-Murjiʾa</hi>. For all of these Arabic appelations Bar Ṣalībī also
+                        provides Syriac equivalents.<note place="foot" xml:id="ftn22" n="22"><p
+                                xml:lang="en"> See Talay, “Aus dem polemischen Genre,” p.
+                            516-7.</p></note> This terminological overview then proceeds with a
+                        sketch of the enmity and discord among them concerning the issues of
+                        rightful leadership and divine providence. During this discussion, Bar
+                        Ṣalībī also quotes some Qurʾānic verses and <hi rend="italic">ḥadīth</hi>
+                        said to be used against one another by these four sects. <note place="foot"
+                            xml:id="ftn23" n="23"><p xml:lang="en"> Bar Ṣalībī, <hi rend="italic"
+                                    >Against the Arabs</hi>, ed. p. 5-8, tr. p. 2-9. In his Arabic
+                                Chronicle, Bar ʿEbrōyō includes a similar but more elaborate account
+                                of early Islamic schisms, undoubtedly borrowed from (a) Muslim
+                                source(s), see Bar ʿEbrōyō, <hi rend="italic">Taʾrīkh mukhtaṣar
+                                    al-duwal</hi>, ed. Ṣalhānī, p. 164-7. </p></note>
+                    </p>
+                    <p xml:lang="en"> The originality of this account among Syriac Christian texts
+                        on Islam has been pointed out by scholars as Sidney Griffith, Herman Teule,
+                        and Barbara Roggema.<note place="foot" xml:id="ftn24" n="24"><p
+                                xml:lang="en"> See the works cited in nr. 2 and 4.</p></note> What
+                        is yet to be explored, however, are the remarkable parallels with works of
+                        Islamic heresiography, such as those written by al-Nawbakhtī (d. 912),
+                        al-Ashʿarī (d. 936), al-MalaṬī (d. 987), al-Baghdādī (d. 1037), and
+                        al-Shahrastānī (d. 1153), to name only some of the most prominent. Following
+                        explicitly or implicitly a <hi rend="italic">ḥadīth</hi> about the division
+                        of the <hi rend="italic">umma</hi> into 72 or 73 sects, all the named
+                        authors classify, just as Bar Ṣalībī did, the various sects of Islam under
+                        the four headings of <hi rend="italic">Shīʿa</hi>, <hi rend="italic"
+                            >Khawārij</hi>, <hi rend="italic">Muʿtazila</hi>, and <hi rend="italic"
+                            >Murjiʾa</hi>, and discuss their internal disputes.<note place="foot"
+                            xml:id="ftn25" n="25"><p xml:lang="en"> Henri Laoust, “La classification
+                                des sectes dans le <hi rend="italic">Farq</hi> d’al-Baghdādī,” <hi
+                                    rend="italic">Revue des Études Islamiques</hi> 29 (1961): 19-59;
+                                reprinted in <hi rend="italic">Pluralismes dans l'islam</hi> (Paris,
+                                1983), 135-75; id. “La classification des sects dans
+                                l’hérésiographie ashʿarite,” <hi rend="italic">Arabic and Islamic
+                                    Studies in Honor of Hamilton A. R. Gibb</hi>, ed. G. Makdisi
+                                (Leiden 1965), 377-86.; id., “L'hérésiographie musulmane sous les
+                                Abbassides,” <hi rend="italic">Cahiers de civilisation
+                                    médiévale</hi> 38 (1967), 157-178; Dominique Sourdel, “Les
+                                classification des sects islamiques dans le <hi rend="italic">Kitāb
+                                    al-Milal</hi> d’al-Šahrastānī,” <hi rend="italic">Studia
+                                    Islamica</hi> 31 (1970): 239-247; Claude Gilliot, “Islam,
+                                ‘sectes’ et groups d’opposition politico-religieux (VIIe-XIIe
+                                siècles),” <hi rend="italic">Rives nord-méditerranéeennes </hi>10
+                                (2002): 1-13.</p></note> At least one<pb n="367"/> major scholar of Islamic
+                        heresiography has recently drawn attention to the apparent influence of this
+                        literature on Bar Ṣalībī’s presentation of the sects of Islam.<note
+                            place="foot" xml:id="ftn26" n="26"><p xml:lang="en"> Josef van Ess, <hi
+                                    rend="italic">Der Eine und das Andere. Beobachtungen an
+                                    islamischen haresiographischen Texten</hi>, 2 vols (Berlin/New
+                                York: De Gruyter, 2011), Vol. 1., p. 77.</p></note></p>
+                    <p xml:lang="en"> According to al-Shahrastānī, the divisions between Muslims
+                        boil down to four fundamental issues: (1) the divine attributes (<hi
+                            rend="italic">ṣifāt Allāh</hi>); (2) faith and eschatology; (3) divine
+                        determinism (<hi rend="italic">qadar</hi>); and (4) the issue of rightful
+                        leadership (<hi rend="italic">imāma</hi>).<note place="foot" xml:id="ftn27"
+                            n="27"><p xml:lang="en"> Laoust<hi rend="smallcaps">,
+                                </hi>“L'hérésiographie musulmane sous les Abbassides,” p. 171.
+                             </p></note> In Bar Ṣalībī’s account, however, only the final two topics
+                        appear to be of interest and most of all the issue of divine determinism. He
+                        goes to some lengths to describe the four sects’ opinion on whether good and
+                        evil come from God or from human freedom. This information has a distinct
+                        purpose in his discourse, as it allows him to thereafter refute Sunnī
+                        determinism and reaffirm the proper Christian understanding of divine
+                        providence and human free will. It is not surprising to encounter this theme
+                        this early in the work. In the aftermath of the shocking Zangid destruction
+                        of the ‘blessed city’ of Edessa in 1144 and 1146, making sense of divine
+                        providence was a very heavily debated topic within the West Syrian
+                        community, a debate in which Bar Ṣalībī played a prominent role, although
+                        still only a deacon at the time.<note place="foot" xml:id="ftn28" n="28"><p
+                                xml:lang="en"> Teule, “Dionysius Bar Ṣalibi,” p. 665. The <hi
+                                    rend="italic">Disputation</hi> as a whole may even be written in
+                                response to the Muslim destruction of Edessa. After having upheld
+                                the doctrines of the Trinitiy and Incarnation to his own
+                                satisfaction, Bar Ṣalībī somewhat triumphantically writes that,
+                                through his efforts, “the proclamation of Christianity has achieved
+                                victory over the people that has overpowered us because of our sins
+                                    (<hi rend="italic">ʿamō d-men ʿelat ḥṭōhayn etʿašan
+                                ʿlayn</hi>)”. This important allusion to the fall of Edessa was
+                                mistrans-lated by Amar, see Bar Ṣalībī, <hi rend="italic">Against
+                                    the Arabs</hi>, ed. p. 81, tr. p. 74.</p></note>
+                    </p><pb n="368"/>
+                </div>
+                <div xml:id="hv21n2jacobs.3.3" xml:lang="en">
+                    <head><hi rend="italic">Tafsīr</hi>
+                    </head>
+                    <p xml:lang="en">In the commentary section of <hi rend="italic">mimrō</hi> III,
+                        Bar Ṣalībī twice refers to opinions of Qurʾānic commentators, whom he calls
+                            <hi rend="italic">mfashqōnē</hi>. His first reference to Islamic
+                        exegetical literature is on the subject of the odd so-called ‘disconnected
+                        letters’ (<hi rend="italic">al-ḥurūf al-muqaṭṭaʿa</hi>) occuring at the
+                        beginning of the second sūra: “Alif Lam Mim. That is the Book, wherein is no
+                        doubt, a guidance to the godfearing” (Q 2 :1-2, Arberry)<hi rend="italic"
+                            >.</hi> In commen-ting on these verses, Bar Ṣalībī writes:</p>
+                    <cit><quote><p xml:lang="en">(The Qurʾān reads here) ‘that’ (<hi rend="italic"
+                            >haw</hi>) book and not ‘this’ (<hi rend="italic">hōnō</hi>) book.<note
+                            place="foot" xml:id="ftn29" n="29"><p xml:lang="en"> Bar Ṣalībī may
+                                allude here to the fact that although Muslim exegetes usually
+                                interpret <hi rend="italic">dhālika l-kitāb</hi> (Q 2:2) to mean
+                                ‘this book’, i.e. the Qurʾān, it literally says ‘<hi rend="italic"
+                                    >that</hi> book’. This sentence was not included in Amar’s
+                                translation, though it is present in his edition. </p></note> What
+                        sort of book is this? Their exegetes (<hi rend="italic">mfashqōnē
+                            dīlhūn</hi>) interpret these letters in many different ways. Some of
+                        them say that these letters are the numbers of the years of Muḥammad[‘s
+                            community]<note place="foot" xml:id="ftn30" n="30"><p xml:lang="en"> My
+                                emendation.</p></note>. And there are those who interpret them
+                        according to the name of their God. Therefore he wrote and added after the
+                        letters, saying: ‘That is the great tablet (<hi rend="italic">lawḥō
+                            rabtō</hi>) which is in heaven, raised up before the eyes of the angel
+                        Michael’, which they call in Arabic (<hi rend="italic">b-Ṭayyōyōʾīt</hi>),
+                        the ‘Preserved Tablet’ ([<hi rend="italic">al-</hi>] <hi rend="italic">lawḥ
+                            al-maḥfūẓ</hi>, <foreign xml:lang="syr">ܠܘܚ ܐܠܡܚ[ܦ]ܘܕ</foreign>).<note
+                            place="foot" xml:id="ftn31" n="31"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                    rend="italic">Against the Arabs</hi>, ed. p. 112, tr. p. 104.
+                            </p></note></p></quote></cit>
+                    <p xml:lang="en">Muslim exegetical literature reports a wide range of possible
+                        interpretations for the ‘disconnected letters’ appearing at the beginning of
+                        some 29 sūras.<note place="foot" xml:id="ftn32" n="32"><p xml:lang="en"> On
+                                the large spectrum of interpretations within Sunnī <hi rend="italic"
+                                    >tafsīr</hi>, see Martin Nguyen, “Exegesis of the <hi
+                                    rend="italic">ḥurūf al-muqaṭṭaʿa</hi>: Polyvalency in Sunnī
+                                Traditions of Qur’ānic Interpretation,” <hi rend="italic">Journal of
+                                    Qurʾānic Studies</hi> 14/2 (2012): 1-28.</p></note> Within this
+                        large spectrum of<pb n="369"/> views one finds the very same opinions voiced by Bar
+                        Ṣalībī. With some discontent, al-Ṭabarī mentions a report to the extent that
+                        a group of Jews had heard the recitation of <hi rend="italic">alif lām
+                            mīm</hi> and said that the numerical value of these letters (1+30+40)
+                        indicate the number of years Muḥammad’s community would last. When they
+                        thereafter heard the recitation of other letters carrying each time a higher
+                        numerical value, they in the end had to conclude that the matter was
+                            ambiguous.<note place="foot" xml:id="ftn33" n="33"><p xml:lang="en">
+                                al-Ṭabarī, <hi rend="italic">Jāmiʿ al-bayān ʿan taʾwīl āy
+                                    al-Qurʾān</hi>, ed. Cairo, p. 210.</p></note> Among the
+                        interpretations al-Ṭabarī is more supportive of, he refers to the view that
+                        the letters refer to God’s greatest name (<hi rend="italic">al-ism
+                            al-aʿẓam</hi>); to an abbreviation of one of God’s names, e.g. <hi
+                            rend="italic">alm</hi> means <hi rend="italic">al-raḥīm</hi>; or to
+                        multiple names of God, i.e. <hi rend="italic">alif</hi> stands for <hi
+                            rend="italic">Allāh</hi>, <hi rend="italic">lām</hi> for <hi
+                            rend="italic">al-Laṭīf</hi> (‘the Gentle’), and <hi rend="italic"
+                            >mīm</hi> for <hi rend="italic">al-Majīd</hi> (‘the Glorious’).<note
+                            place="foot" xml:id="ftn34" n="34"><p xml:lang="en"> Ibid., p.
+                                204-228.</p></note> Other commentators interpret the letters as one
+                        of the names of the Qurʾān and say that it refers to God’s statement: “I
+                        revealed this book [i.e. the Qurʾān] to you from the ‘Preserved Tablet’ (<hi
+                            rend="italic">al-lawḥ al-maḥfūẓ</hi>)”, i.e. from the heavenly Book (cf.
+                        Q 85:21-2).<note place="foot" xml:id="ftn35" n="35"><p xml:lang="en">
+                                al-Qurṭubī, <hi rend="italic">al-Jāmiʿ li-aḥkām al-Qurʾān</hi>, ed.
+                                Beirut, p. 241. See Daniel A. Madigan, “Preserved Tablet,” <hi
+                                    rend="italic">EQ</hi> 4 (2004): 261-3. </p></note>
+                    </p>
+                    <p xml:lang="en">
+                        <hi rend="italic">Ms. Syriac Orthodox Patriarchate 160</hi> has preserved an
+                        additional sentence to Bar Ṣalībī’s comment which may contain his motive for
+                        adducing this information on Muslim exegesis. In it, Bar Ṣalībī appeals to
+                        the authority of Muḥammad to appropriate the contents of the ‘Preserved
+                        Tablet’ to Christianity: “The things he [i.e. the angel Michael] recites
+                        here, he [i.e. Muḥammad] says, are Christians things.”<note place="foot"
+                            xml:id="ftn36" n="36"><p xml:lang="en">
+                                <hi rend="italic">Ms. Syriac Orthodox Patriarchate </hi>160, f.
+                                271b: <foreign xml:lang="syr">ܗܠܝܢ ܕܬ̇ܢܐ ܗܪܟܐ ܗܠܝܢ ܕܝܠܢ ܟܖ̈ܝܣܛܝܢܐ
+                                    ܐܡܪ݂.</foreign>
+                            </p></note> In other words, what the angel Gabriel is reciting from the
+                        Preserved Tablet is not the Qurʾān in Bar Ṣalībī’s opinion, but things
+                        (texts?) related to Christianity.</p>
+                    <p xml:lang="en"> The second reference to Muslim exegesis occurs in his comment
+                        on Q 69:17 about the so-called <hi rend="italic">ḥamlat al-ʿarsh</hi>, the
+                        angels bearing the Throne of God who are also mentioned in<pb n="370"/> Q 40:7. Although
+                        in the citation provided by Bar Ṣalībī, “They bear the Throne of your Lord
+                        above them <hi rend="italic">on the eighth day </hi>(<hi rend="italic"
+                            >b-yawmō tmīnōyō</hi>),”<note place="foot" xml:id="ftn37" n="37"><p
+                                xml:lang="en"> Bar Ṣalībī, <hi rend="italic">Against the Arabs</hi>,
+                                ed. 110, tr. p. 103.</p></note> the reference to the amount of
+                        angels was obscured possibly as a result of misunderstanding the elliptic
+                        ending of the Arabic “they will bear the Throne of your Lord above them <hi
+                            rend="italic">on that Day, eight [of them] </hi>(<hi rend="italic"
+                            >yawmaʾidh thamāniya</hi>),” Bar Ṣalībī clearly is aware of Muslim
+                        interpretations of this verse: “Their exegetes say that four angels bear the
+                        Throne of God, but then they add (<hi rend="italic">awsefw</hi>) another
+                        four which makes eight. Perhaps, the first four grew tired?”<note
+                            place="foot" xml:id="ftn38" n="38"><p xml:lang="en">
+                                <hi rend="italic">Ms. Syriac Orthodox Patriarchate </hi>160, f.
+                                272b. The manuscripts consulted by Amar read ‘to add’ in the
+                                singular (<hi rend="italic">awsef</hi>) which is taken to mean that
+                                it is the Qurʾān that adds four angels, see Bar Ṣalībī, <hi
+                                    rend="italic">Against the Arabs</hi>, ed. 113, tr. p. 106.
+                                Mingana derived a rather bizarre argument against Bar Ṣalībī’s
+                                translatorship from this comment, see Mingana, “An Ancient Syriac
+                                Translation,” p. 6-7<hi rend="smallcaps">.</hi>
+                            </p></note> In this piece of rhetoric, Bar Ṣalībī appears to ridicule
+                        Muslim exegetes who acknowledge four Throne bearers but later double their
+                        number. To harmonize the fact that Q 69:17 mentions eight angels while some
+                            <hi rend="italic">ḥ</hi><hi rend="italic">adīth</hi> report only four,
+                        some exegetes indeed have taken the position that the Throne is currently
+                        carried by four angels, but on the Day of Resurrection by eight.<note
+                            place="foot" xml:id="ftn39" n="39"><p xml:lang="en"> Stephen R. <hi
+                                    rend="a-size-extra-large">Burge, <hi rend="italic">Angels in
+                                        Islam: Jalāl al-Dīn al-Suyūtī's</hi> al-Ḥabāʾik fī akhbār
+                                    al-malāʾik, Culture and Civilization in the Middle East 31
+                                    (Oxon: Routledge, 2012), p. 43-4.</hi>
+                            </p></note> A specific <hi rend="italic">ḥadīth</hi> is often adduced in
+                        support of this view: “Four carry Him today, eight (will carry God) on the
+                        Day of Resurrection.”<note place="foot" xml:id="ftn40" n="40"><p
+                                xml:lang="en"> al-Ṭabarī, <hi rend="italic">Jāmiʿ al-bayān ʿan
+                                    taʾwīl āy al-Qurʾān</hi>, ed. Cairo, p. 229; <hi
+                                    rend="a-size-extra-large">Burge, <hi rend="italic">Angels in
+                                        Islam</hi>, </hi>p. 146.</p></note>
+                    </p>
+                    <p xml:lang="en"> The reason why Bar Ṣalībī found such a doubling of angels
+                        absurd is obviously determined by the Biblical lens through which he reads
+                        the Qurʾān. As such, he certainly knew that in Ezekiel’s vision only four
+                        creatures carry the divine Throne (Ezek 1). He thus indirectly appears to be
+                        criticizing Muslim exegetes, and by extension the Qurʾān, for contradicting
+                        the Bible, a polemic made repeatedly in the <hi rend="italic"
+                            >Disputation</hi>.</p><pb n="371"/>
+                </div>
+                <div xml:id="hv21n2jacobs.3.4" xml:lang="en">
+                    <head><hi rend="italic">Ḥadīth</hi></head>
+                    <p xml:lang="en">Three direct citations of prophetic sayings of Muḥammad
+                        recorded in the major Sunnī <hi rend="italic">ḥadīth</hi> collections occur
+                        among the Qurʾānic excerpts in <hi rend="italic">mimrō</hi> III. Among the
+                        verses dealing with creation in chapter 25, Bar Ṣalībī quotes a well-known
+                            <hi rend="italic">ḥadīth</hi> transmitted in various forms about what
+                        God created first:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">Disputation</hi>, XXV</cell>
+                            <cell><hi rend="italic">Sunan Abū Dāwūd</hi></cell>
+                        </row>
+                        <row>
+                            <cell>And when he [i.e. Muḥammad] wished to speak of
+                                creation, he said: “First He created the pen of the scribe (<hi
+                                    rend="italic">qnayō d-sōfrō</hi>). He said to the pen: ‘Walk and
+                                write!’ But the pen answered: ‘What should I write?’. He said:
+                                ‘Write concerning what will happen until the end’.<note place="foot"
+                                    xml:id="ftn41" n="41"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                            rend="italic">Against the Arabs</hi>, ed. p. 110, tr. p.
+                                        102. </p></note></cell>
+                            <cell>[…] I heard the Messenger of God (peace be
+                                upon him) say: ‘The first thing God created was the pen (<hi
+                                    rend="italic">al-qalam</hi>)’. He said to it: ‘Write!’ It asked:
+                                ‘What should I write, my Lord?’ He said: ‘Write what was decreed
+                                about everything until the Last Hour’ […].<note place="foot"
+                                    xml:id="ftn42" n="42"><p xml:lang="en">
+                                        <hi rend="italic">Sunan Abū Dāwūd</hi>, ed. <hi
+                                            rend="italic">Dār al-salām, </hi>Vol. 5, book 42, 4700,
+                                        p. 213 (translation slightly adapted). For other versions,
+                                        see ‘creation’ in A. J. Wensinck, <hi rend="italic">A
+                                            Handbook of Early Mohammadan Tradition</hi> (Leiden:
+                                        Brill, 1927), p. 49.</p></note></cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en">The reason why Bar Ṣalībī found this saying important enough to
+                        include is seen from his commentary, in which he makes the error of
+                        Muḥammad’s teaching apparent by contrasting it with the Biblical account of
+                        creation:</p>
+                    <cit><quote><p xml:lang="en">Moses wrote: ‘In the beginning, God
+                            created heaven and earth’ (Gen 1:1). He said this before [writing that]
+                            (God) created the <hi rend="italic"
+                            >qalam</hi>, that is, the pen (<hi
+                            rend="italic">qnayō</hi><hi
+                           >) of the scribe! And how is God in need of
+                            writing, unless he fears to forget something?!</hi><note place="foot"
+                            xml:id="ftn43" n="43"><p xml:lang="en"> Bar Ṣalībī<hi rend="italic">,
+                                    Against the Arabs</hi>, ed. p. 113, tr. p. 105. Note Bar
+                                Ṣalībī’s use of the Arabic term for pen, <hi rend="italic"
+                                    >qalam</hi>. </p></note>
+                    </p></quote></cit>
+                    <p xml:lang="en"> On another occasion, in chapter 30, Bar Ṣalībī introduces a
+                        saying of Muḥammad concerning his community with the words ‘Muḥammad
+                        said’:</p><pb n="372"/>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">Disputation</hi>, XXX</cell>
+                            <cell>Ṣaḥīḥ al-Bukhārī</cell>
+                        </row>
+                        <row>
+                            <cell>Muḥammad said: ‘My community is among the
+                                nations as a white spot on a black ox (<hi rend="italic">ūmtō dīly
+                                    baynōtʿammē ak ōtōḥwōrtō b-tawrō ukōmō</hi>)’.<note place="foot"
+                                    xml:id="ftn44" n="44"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                            rend="italic">Against the Arabs</hi>, ed. p. 128, tr. p.
+                                        122.</p></note></cell>
+                            <cell>[…] (Muḥammad) said: ‘My community is among
+                                the nations as a white hair on a black ox (<hi rend="italic">inna
+                                    ummatī fī l-umamk-al-shaʿara al-bayḍāʾ fī l-thawr
+                                    al-aswad</hi>)’.<note place="foot" xml:id="ftn45" n="45"><p
+                                        xml:lang="en">
+                                        <hi rend="italic">Ṣaḥīḥ al-Bukhārī</hi>, ed. <hi
+                                            rend="italic">Dār al-salām</hi>, Vol. 8, book 81, 6529,
+                                        p. 287 (translation slightly adapted).</p></note></cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en">Muḥammad’s apparent admittance of the insignificant position of
+                        his community apparently was of value to Bar Ṣalībī’s polemics, for this is
+                        what one reads in his commentary: “Your own prophet testifies that (Muslims)
+                        are few in the world. Christians, however, are numerous and this is why they
+                        are strong.”<note place="foot" xml:id="ftn46" n="46"><p xml:lang="en"> Bar
+                                Ṣalībī, <hi rend="italic">Against the Arabs</hi>, ed. p. 135, tr. p.
+                                130.</p></note></p>
+                    <p xml:lang="en"> With the words “Prayer of the <hi rend="italic">Ṭayyōyē</hi>,”
+                        Bar Ṣalībī cites one final <hi rend="italic">ḥadīth</hi> in chapter 30. This
+                        prayer is the well-known ‘Abrahamic prayer’ (<hi rend="italic">al-ṣalāt
+                            al-Ibrāhīmiyya</hi>) reported in various <hi rend="italic">ḥadīth</hi>
+                        collections, which serves as the closing supplication of the five-daily
+                        Muslim prayer:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">Disputation</hi>, XXX</cell>
+                            <cell><hi rend="italic">Sunan Abū Dāwūd</hi></cell>
+                        </row>
+                        <row>
+                            <cell>Prayer of the Muslims: ‘O God, pray (<hi
+                                    rend="italic">ṣalō</hi>) for Muḥammad and the sons of his
+                                people. And bless (<hi rend="italic">barek</hi>) Muḥammad and the
+                                sons of his people as you prayed for (<hi rend="italic">ṣlayt</hi>),
+                                blessed (<hi rend="italic">barekt</hi>), and had mercy (<hi
+                                    rend="italic">w-ḥōnt</hi>) on Abraham and the sons of his
+                                people. For he [i.e. Muḥammad] is praiseworthy and exalted (<hi
+                                    rend="italic">mshabḥō wa-mraymō</hi>)’.<note place="foot"
+                                    xml:id="ftn47" n="47"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                            rend="italic">Against the Arabs</hi>, ed. p. 132, tr. p.
+                                        127. Mingana was unable to identify this passage, perhaps
+                                        because he read <hi rend="italic">ʿameh</hi>, ‘his people’
+                                        as <hi rend="italic">ʿamhu</hi>, Arabic for ‘his paternal
+                                        uncle’, see Mingana, “An Ancient Syriac Translation,” p. 45
+                                        (nr. 3) </p></note></cell>
+                            <cell>[…] So he [i.e. Muḥammad] said: ‘O God, send
+                                your <hi rend="italic">ṣalāt</hi> (<hi rend="italic">ṣalli</hi>)
+                                upon Muhammad, and the family of Muḥammad, as you have sent your <hi
+                                    rend="italic">ṣalāt</hi> (<hi rend="italic">ṣallayta</hi>) upon
+                                Abraham. And send your bless-ings (<hi rend="italic">bārik</hi>)
+                                upon Muhammad, and the family of Muḥammad, as you have sent your
+                                blessings (<hi rend="italic">bārakta</hi>) upon the family of
+                                Abraham. Indeed, you are the praiseworthy (<hi rend="italic"
+                                    >ḥamīd</hi>), the glorious (<hi rend="italic">majīd</hi>)’.<note
+                                    place="foot" xml:id="ftn48" n="48"><p xml:lang="en">
+                                        <hi rend="italic">Sunan Abū Dāwūd</hi>, ed. Dār al-salām,
+                                        Vol. 1, book 177/8, 976, p. 571-2 (translation slightly
+                                        adapted).</p></note></cell>
+                        </row>
+                    </table><pb n="373"/>
+                    <p xml:lang="en">Though Bar Ṣalībī provides no comment for this quotation, his
+                        motive for including it most likely is linked to an earlier debate on the
+                        meaning of Christ’s prayer and the Muslim’s prayer for Muḥammad, in which
+                        Bar Ṣalībī argued that “because you pray for your prophet, you seem to be
+                        better than he is since you petition God to forgive him his
+                            wrongdoing”.<note place="foot" xml:id="ftn49" n="49"><p xml:lang="en">
+                                Bar Ṣalībī, <hi rend="italic">Against the Arabs, </hi>ed. p. 72, tr.
+                                p. 65. </p></note> This polemic background may also explain
+                        (assuming that Bar Ṣalībī is the translator at work) why the Arabic verb <hi
+                            rend="italic">ṣallā</hi>, which can mean ‘to pray’ or ‘to bless’
+                        (usually the latter in this context) is rendered by its Syriac cognate
+                        having only the meaning ‘to pray’. Even more pertinent, this background
+                        could also provide an explanation for the distorted concluding doxology
+                        which addresses the prayer not to God, but to Muḥammad. </p>
+                    <p xml:lang="en"> In addition to these three direct quotations of prophetic <hi
+                            rend="italic">ḥadīth</hi>, Bar Ṣalībī also twice alludes to Muslim
+                        traditions on the collection of the Qurʾān. In chapter 23, in response to
+                        the Muslim critique that the Gospels are unreliable since they were written
+                        by the apostles and not by Christ himself, Bar Ṣalībī retorts by arguing
+                        that such a critique applies as well to the Qurʾān, which was not written
+                        down by Muḥammad himself, but was collected for the first time into a single
+                        codex by his cousin ʿAlī ibn Abū Ṭālib: </p>
+                    <cit><quote><p xml:lang="en">Against them we say: Consider that when Muḥammad died,
+                        the Qurʾān was neither written down. So his cousin ʿAlī ibn Abū Ṭālib –
+                        others of them say: ʿUthmān ibn ʿAffān – swore that he would not put on the
+                        cloak (<hi rend="italic">marṭūṭō</hi>) until their scripture was collected
+                        and its parts joined together. For they were scattered here and there among
+                        various individuals during the life of Muḥammad. So ʿAlī collected it and
+                        made it into<pb n="374"/> a single codex (<hi rend="italic">ktōbō</hi>), and he called it
+                        ‘Qurʾān’ because he joined, that is, bound together (<hi rend="italic"
+                            >aqrana awkīt dabaq</hi>) (the fragments). Therefore ‘Qurʾān’ means:
+                        ‘volume and collection of disparate fragments’.<note place="foot"
+                            xml:id="ftn50" n="50"><p xml:lang="en"> Bar Ṣalībī, <hi rend="italic"
+                                    >Against the Arabs</hi>, ed. p. 98, tr p. 90-1. Amar misread the
+                                part on the swearing, reading it as though ʿAlī swore that ʿUthmān
+                                would not put on the cloak. Note that Bar Ṣalībī implies that the
+                                term ‘Qurʾān’ is etymologically derived from the Arabic verb <hi
+                                    rend="italic">aqrana</hi>, ‘to join together, to combine’, from
+                                the root <hi rend="italic">q-r-n</hi>, rather than from the root <hi
+                                    rend="italic">q-r-</hi>ء<hi rend="italic">, </hi>‘to read, to
+                                recite’, which is the standard explanation. Though Bar Ṣalībī’s take
+                                on it is manifestly polemical, this alternative etymology is not as
+                                “fanciful” as Amar suggested, for the root <hi rend="italic"
+                                    >q-r-n</hi> is discussed by Arab lexicographers among the
+                                possible meaning of ‘Qurʾān’, see Anne-Sylvie Boisliveau, <hi
+                                    rend="italic">Le Coran par lui-même: Vocabulaire et
+                                    argumentation du discours coranique autoréférentiel
+                                </hi>(Leiden: Brill, 2014), p. 41-3.</p></note></p></quote></cit>
+                    <p xml:lang="en"> Although the standard Muslim account ascribes the first
+                        collection of the Qurʾān to the initiative of Caliph Abū Bakr, several
+                        traditions recorded in both Sunnī and Shīʿī sources indeed contain reports
+                        that it was ʿAlī who first collected the Qurʾān after Muḥammad’s death.
+                        Interestingly enough, such reports also mention ʿAlī’s act of swearing not
+                        to put on the cloak, that is, not to leave the house, until the Qurʾān was
+                        fully collected. For instance: </p>
+                    <cit><quote><p xml:lang="en">ʿAbd Khayr reported from ʿAlī that when he saw people in
+                        despair and frustration at the death of the Prophet, he swore that he would
+                        not wear his cloak on his back until he had collected the Qurʾān. Then he
+                        sat in his house and collected the Qurʾān. So it was the first <hi
+                            rend="italic">muṣḥaf</hi> in which the Qurʾān had been collected –
+                        collected from his heart and this [<hi rend="italic">muṣḥaf</hi>] is with
+                        the descendants of Jaʿfar.<note place="foot" xml:id="ftn51" n="51"><p
+                                xml:lang="en"> Quoted in Shehzad Saleem, <hi rend="italic"
+                                    >Collection of the Qurʾān: A Critical and Historical Study of
+                                    Al-Farāhī’s View</hi> (PhD diss., University of Wales Lampeter,
+                                2010), p. 239. For the narratives of ʿAlī’s collection of the
+                                Qurʾān, see ibid.<hi rend="italic">, </hi>p. 236-279; Seyfeddin
+                                Kara, “The Suppression of ʿAlī ibn Abī Ṭālib’s Codex: Study of the
+                                Traditions on the Earliest Copy of the Qurʾān,” <hi rend="st"><hi
+                                        rend="italic">Journal of Near Eastern Studies</hi></hi> 75/2
+                            (2016): 267-289.</p></note></p></quote></cit><pb n="375"/>
+                    <p xml:lang="en"> Bar Ṣalībī also remarks that Muslims differ on who collected
+                        the Qurʾān for the first time: was it ʿAlī ibn Abū Ṭālib, or as “others of
+                        them say” ʿUthmān ibn ʿAffān? This ambiguity is also reflected in Islamic
+                        sources, although there not only a difference is to be noted on whether the
+                        first collection of the Qurʾān was made by ʿAlī or ʿUthmān, but “each of the
+                        first four caliphs is reported to have been the first person to collect the
+                        Ḳurʾān [sic].”<note place="foot" xml:id="ftn52" n="52"><p xml:lang="en">
+                                Welch, “Ḳurʾān,” <hi rend="italic">EI</hi><hi
+                                    rend="italic superscript smallcaps">2</hi> 5 (1986), p. 405. See
+                                also John Burton, <hi rend="italic">The Collection of the
+                                    Qurʾān</hi> (Cambrigde: Cambridge University Press, 1977), p.
+                                138-159.</p></note>
+                    </p>
+                    <p xml:lang="en"> According to the most widespread Sunnī account, the final
+                        consonantal text was established during the reign of Caliph ʿUthmān who was
+                        confronted with the need of uniting the Muslim community around one unified,
+                        official text. The Caliph obtained the Qurʾānic collection commissioned by
+                        Abū Bakr now in the possession of ḥafṢa, and appointed a commission to copy
+                        it into several volumes which then were sent to the main cities of the
+                        empire. Due to ʿUthmān’s initiative in the establishment of an official,
+                        unified text, it came to be called <hi rend="italic">al-muṣḥaf
+                            al-ʿUthmānī</hi>, ‘the ʿUthmānic Codex’. Bar Ṣalībī also seems to know
+                        of this subsequent stage of the Qurʾān’s textual history. To refute the
+                        Muslim claim that the revelation of the Qurʾān is similar to that of the Law
+                        and the Gospel, Bar Ṣalībī points out that, unlike Moses’ writing of the Law
+                        and the apostles’ writing of the Gospel, Muḥammad did not write down the
+                        Qurʾān himself, but ʿUthmān did it, which is why the book is called the
+                        ʿUthmānic Codex (<hi rend="italic">ktōbō</hi><hi rend="italic"
+                        >ʿUthmānī</hi>): </p>
+                    <cit><quote><p xml:lang="en">As for you, from where was the scripture revealed to
+                        your prophet, although he [i.e. Muḥammad] died without writing (it)? Abū
+                        Bakr ruled after him and did not write anything down, neither did ʿUmar
+                        write the scripture. ʿUthmān collected (<hi rend="italic">kanesh</hi>) your
+                        scripture which had been collected by your elders (<hi rend="italic"
+                            >sōbē</hi>) and he made them swear to say whatever they heard from the<pb n="376"/>
+                        prophet. He wrote this down, and it was called ‘the ʿUthmānic Codex’ (<hi
+                            rend="italic">ktōbō</hi><hi rend="italic">ʿUthmānī</hi>).<note
+                            place="foot" xml:id="ftn53" n="53"><p xml:lang="en"> Bar Ṣalībī, <hi
+                                    rend="italic">Against the Arabs</hi>, ed. p. 111, tr. p. 103.
+                                Note Bar Ṣalībī’s use of the <hi rend="italic">nisba </hi>adjective
+                                    <hi rend="italic">ʿUthmānī</hi>. </p></note></p></quote></cit>
+                    <p xml:lang="en"> The oldest manuscript has also here preserved an additional
+                        sentence, in which reference is made to other Muslim works narrating the
+                        Qurʾān’s textual history: “The Muslims say they have two other books [in
+                        which] the story of the codices is written (<hi rend="italic">Ōmrīn</hi><hi
+                            rend="italic">Ṭayyōyē d-īt l-hūn trēn ktōbē ḥrōnē. Ktīb sharbō
+                            da-ktōbē</hi>).”<note place="foot" xml:id="ftn54" n="54"><p
+                                xml:lang="en">
+                                <hi rend="italic">Ms. Syriac Orthodox Patriarchate </hi>160, f.
+                                271b. </p></note></p>
+                </div>
+                <div xml:id="hv21n2jacobs.3.5" xml:lang="en">
+                    <head><hi rend="italic">Qiṣaṣ al-Anbiyāʾ</hi></head>
+                    <p xml:lang="en">As the Qurʾān narrates the lives and deeds of the prophets
+                        before Muḥammad only in a very cursory manner, Muslim commentators soon
+                        began to reconstruct the narratives by drawing on Jewish and Christian
+                        traditions, the so-called <hi rend="italic">Isrāʾīliyyāt</hi>,<note
+                            place="foot" xml:id="ftn55" n="55"><p xml:lang="en"> On this term, see
+                                    <hi rend="italic">Roberto Tottoli</hi><hi rend="st"><hi
+                                        rend="italic">,</hi> “Origin and Use of the Term
+                                </hi>Isrāʾīliyyāt in Muslim Literature,” <hi rend="italic">Arabica
+                                </hi>46 (1999): 193-209.</p></note> which led to the emergence of
+                        collections of ‘stories of the prophets’ (<hi rend="italic">Qiṣaṣ
+                            al-anbiyāʾ</hi>). These collections were included in the early sections
+                        of Muslim historiographies, or were transmitted in separate works of <hi
+                            rend="italic">Qiṣaṣ al-anbiyāʾ</hi>. Though the latter works were
+                        produced from early on, it was in the eleventh century, just before Bar
+                        Ṣalībī’s lifetime, that major works were composed, such as those by Abū
+                        Isḥaq al-Thaʿlabī and Muḥammad ibn ʿAbdallāh al-Kisāʾī. Both were very
+                        popular, comprehensive collections of traditions on the prophets, ordered
+                        chronologically from creation to the time of Jesus.<note place="foot"
+                            xml:id="ftn56" n="56"><p xml:lang="en"> On this genre in general, see
+                                Tilman Nagel, <hi rend="italic">Die Qiṣaṣ al-Anbiyāʾ. Ein Beitrag
+                                    zur Arabischen Literaturgeschichte</hi> (PhD diss., University
+                                of Bonn, 1967); Roberto Tottoli, <hi rend="italic">Biblical Prophets
+                                    in the Qurʾan and Muslim Literature</hi>, Routledge Studies in
+                                the Qur'an (London/New York: Routledge, 2001).</p></note> There are
+                        two passages in <hi rend="italic">mimrō</hi> III that recall the often
+                        rather legendary character of the <hi rend="italic">Qiṣaṣ al-Anbiyāʾ</hi>
+                        genre. </p>
+                    <p xml:lang="en"> In the context of the Adam narratives of chapter 26, Bar
+                        Ṣalībī quotes a peculiar account of Adam’s creation according<pb n="377"/> to which he
+                        would have laid soulless on the earth for forty years. A very similar
+                        tradition was already reported by al-Ṭabarī (d. 923) in both his <hi
+                            rend="italic">Tafsīr</hi> and <hi rend="italic">History</hi>:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">Disputation</hi>,
+                                XXVI</cell>
+                            <cell>Ṭabarī, <hi rend="italic">Tafsīr/Ta</hi><hi
+                                    rend="italic">ʾrīkh</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Adam was formed and lay on the earth for forty
+                                years without a soul. The angels passed by him and saw him.<note
+                                    place="foot" xml:id="ftn57" n="57"><p xml:lang="en"> Bar Ṣalībī,
+                                            <hi rend="italic">Against the Arabs</hi>, ed. p. 115,
+                                        tr. p. 108. Note that the mention of the angels’ fear is
+                                        absent from Bar Ṣalībī’s version, possibly because it was
+                                        irrelevant to the point he seeks to make.</p></note></cell>
+                            <cell>So God shaped Adam into a human being, and he
+                                remained a figure of clay for forty years, corresponding to the day
+                                of Friday. The angels passed by him and were seized with fear by
+                                what they saw, and <hi rend="italic">Iblīs</hi> felt fear most.<note
+                                    place="foot" xml:id="ftn58" n="58"><p xml:lang="en"> al-Ṭabarī,
+                                            <hi rend="italic">Jāmiʿ al-bayān ʿan taʾwīl āy
+                                            al-Qurʾān</hi>, ed. Cairo, p. 459; Franz Rosenthal, <hi
+                                            rend="italic">The History of al-Tabari</hi>, <hi
+                                            rend="italic">Vol. 1:  General Introduction and From the
+                                            Creation to the Flood</hi> (Albany: Suny Press, 1989),
+                                        p. 262. On the proces of the creation of Adam, see Cornelia
+                                        Schöck, <hi rend="italic">Adam im Islam. Ein Beitrag zur
+                                            Ideengeschichte der Sunna</hi> (Berlin: Klaus Schwarz
+                                        Verlag, 1993), p. 74-8. This aspect of the creation of Adam
+                                        was not discussed in Kisters’ study of Adamic legends in
+                                        Islam, see M. J. Kister, “<hi rend="Footnote_Text_Char"
+                                            >Ādam: A Study of Some Legends in <hi rend="italic"
+                                                >Tafsīr</hi> and <hi rend="italic">Ḥadīṯ</hi>
+                                            Literature,” <hi rend="italic">Israel Oriental
+                                                Studies</hi> 13 (1993):
+                                113-74.</hi> </p></note></cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en">The idea behind this waiting period appears to be that a
+                        certain time was needed for Adam’s clay body to dry before God could breathe
+                        a soul into it.<note place="foot" xml:id="ftn59" n="59"><p xml:lang="en">
+                                Schöck, <hi rend="italic">Adam im Islam</hi>, p. 75. </p></note>
+                        Such a time interval is, of course, totally alien to Bar Ṣalībī’s biblical
+                        frame of reference, which is exactly the point he draws out in his
+                        commentary:</p>
+                    <cit><quote><p xml:lang="en">Although scripture says that Adam was
+                            created on the sixth day (cf. Gn 1:26-31), this scripture says that Adam
+                            was formed and was lying without a soul in the dust of the earth for
+                            forty years!<note place="foot" xml:id="ftn60" n="60"><p
+                                xml:lang="en"> Bar Ṣalībī, <hi rend="italic">Against the Arabs</hi>,
+                                ed. p. 116, tr. p. 109.</p></note>
+                    </p></quote></cit>
+                    <p xml:lang="en"> In chapter 27 on Noah and the flood, Bar Ṣalībī at one point
+                        interrupts the flow of Qurʾānic verses with a lengthy report on a giant
+                        named Og, son of ʿAnaq (ʿ<hi rend="italic">Awg/ʿŪg bar<pb n="378"/> ʿAnaq</hi>), said to
+                        have survived the flood and who was later killed by Moses. The purpose of
+                        this report, as his comment shows, is clearly to ridicule the silly stories
+                        given credence by Muslims.<note place="foot" xml:id="ftn61" n="61"><p
+                                xml:lang="en"> Bar Ṣalībī, <hi rend="italic">Against the Arabs</hi>,
+                                ed. p. 119, tr. p. 112: “Observe that also this story is
+                                unbelievable, dull, and very foolish”.</p></note> As the many
+                        legendary embellishments in this Og story very specifically points to a <hi
+                            rend="italic">Qiṣaṣ al-anbiyāʾ</hi> work, it is worth quoting in full: </p>
+                    <cit><quote><p xml:lang="en">(God) did not set apart men, except Noah and those who
+                        were with him in the ark, and Og, son of ʿAnaq, as the readers of the
+                        scriptures (<hi rend="italic">qōryay ktōbē</hi>) say. Og was the son of
+                        Sayhan and his mother ʿAnaq, and Og was a giant. As he was created by God,
+                        his stature was so great in creation that no one was able to describe it.
+                        And he was an enemy of the Muslims (<hi rend="italic">b</hi><hi
+                            rend="italic">ʿeldbōbō d-mashlmōnē</hi>) and those who are like them.
+                        His mother, ʿAnaq, was a woman of the daughters of Adam, and, as they say,
+                        she was beautiful to behold. But the readers of the scriptures say that at
+                        his birth he was already huge, in a way that is impossible to relate. On the
+                        waist of the giant there was a belt, and he used to stretch out his hand
+                        into the sea to take hold of a big fish from the bottom of the sea and he
+                        would hold it up to the sun to roast and eat it. He lived for 3600 years. He
+                        was born in the days of Adam, and lived until (the time of) Moses who killed
+                        him. </p></quote></cit>
+                    <cit><quote><p xml:lang="en">They say that he was killed as such: The giant looked
+                        from a distance upon the Children of Israel (<hi rend="italic">bnay
+                            Īsrōʾīl</hi>) as they were praying in their camp, and determined that
+                        the circumference of the camp was about two hours away. So the giant
+                        approached a big mountain and broke off a rock as big as the circumference
+                        of the camp. He put it above his head intending to hurl it on them to kill
+                        them then and there. But immediately, God sent a common bird, a hoopoe, to
+                        show His<pb n="379"/> power to His servant. And it took hold of a palm branch and a rock
+                        the size of the head of the giant. And when the hoopoe pierced the rock, it
+                        fell on the giant’s neck who collapsed to the ground.<note place="foot"
+                            xml:id="ftn62" n="62"><p xml:lang="en"> Bar Ṣalībī, <hi rend="italic"
+                                    >Against the Arabs</hi>, ed. p. 118-119, tr. p.
+                            111-2.</p></note></p></quote></cit>
+                    <p xml:lang="en"> In the Old Testament, Og is only scantly mentioned as the
+                        Amorite king of Bashan, a last descendant of a race of giants who was
+                        defeated by Moses (cf. Nu 21:33-35; Dt 1:4; 3:11; 4:47). In early rabbinic
+                        writings, these disparate verses gave rise to legendary elaborations which
+                        later found their way to Muslim sources.<note place="foot" xml:id="ftn63"
+                            n="63"><p xml:lang="en"> B. Heller and S.M. Wasserstrom, “Ūdj,” <hi
+                                    rend="italic">EI</hi><hi rend="italic superscript">2</hi> 10
+                                (2000): 777-8. See also Admiel Kosman, “The Story of a Giant Story:
+                                The Winding Way of Og King of Bashan in the Jewish Haggadic
+                                Tradition,” <hi rend="st"><hi rend="italic">Hebrew Union College
+                                        Annual</hi> 73 (2002): 157-190; </hi>Ján Pauliny, “ʿŪg ibn
+                                ʿAnāq, ein sagenhafter Riese: Untersuchungen zu den islamischen
+                                Riesengeschichten,” <hi rend="italic">Craecolatina et Orientalia
+                                </hi>5 (1973): 249-268.</p></note> In the story itself, as cited by
+                        Bar Ṣalībī, clues are found that it was indeed taken from a Muslim source,
+                        namely the reference to “the readers of the scriptures” which is how <hi
+                            rend="italic">ahl al-kitāb</hi>, the Muslim designation for Jews and
+                        Christians, is usually translated in the <hi rend="italic">Disputation</hi>;
+                        the appellation of Moses’ people as <hi rend="italic">bnay Īsrōʾīl</hi>, the
+                        cognate of the Qurʾānic appelation <hi rend="italic">banū Isrāʾīl</hi>; and
+                        the fact that the giant is portrayed as “an enemy of the Muslims”.<note
+                            place="foot" xml:id="ftn64" n="64"><p xml:lang="en"> Gutmann remarks
+                                that Og, who was among the earliest biblical figures depicted in
+                                Islamic art, fascinated Muslims “as he symbolized the accursed, evil
+                                infidel who is vanquished by such true believers as Moses”, see
+                                Joseph Gutmann, “More about the Giant Og in Islamic Art,” <hi
+                                    rend="italic">Bulletin of the Asia Institute</hi> 3 (1989):
+                                107-114, p. 111.</p></note>
+                    </p>
+                    <p xml:lang="en"> Indeed, very similar narratives, including specific details
+                        are reported in popular works of <hi rend="italic">Qiṣaṣ al-anbiyāʾ</hi>
+                        such as those by al-Thaʿlabī and al-Kisāʿī’.<note place="foot"
+                            xml:id="ftn65" n="65"><p xml:lang="en"> al-Thaʿlabī, <hi rend="italic"
+                                    >Arāʾis al-majālis fī qiṣas al-anbiyāʾ</hi>, tr. Brinner, p.
+                                99-100, 399-403; al-Kisāʾī, <hi rend="italic">Qiṣaṣ al-anbiyā</hi>,
+                                ed. Eisenberg p. 233-5, tr. Thackston, p. 251-3.</p></note> The
+                        enduring popularity of the story of Og and Moses is further testified by the
+                        fact that historiographical works from the Mongol and later periods<pb n="380"/>
+                        sometimes include illustrations of scenes of the narrative.<note
+                            place="foot" xml:id="ftn66" n="66"><p xml:lang="en"> Joseph Gutmann and
+                                Vera B. Moreen “The Combat between Moses and Og in Muslim
+                                Miniatures,” <hi rend="italic">Bulletin of the Asia Institute</hi> 1
+                                (1987): 111-21. On the important place of the story of Og in <hi
+                                    rend="italic">Qiṣaṣ al-Anbiyāʾ</hi> manuscripts from the
+                                sixteenth century, see <ref
+                                    target="https://www.google.be/search?hl=nl&amp;tbo=p&amp;tbm=bks&amp;q=inauthor:%22Na%27ama+Brosh%22"
+                                    >Naʿama Brosh</ref> and <ref
+                                    target="https://www.google.be/search?hl=nl&amp;tbo=p&amp;tbm=bks&amp;q=inauthor:%22Rachel+Milstein%22"
+                                    >Rachel Milstein</ref>, <hi rend="italic">Biblical Stories in
+                                    Islamic Painting</hi> (Jerusalem: Israel Museum, 1991), p.
+                                39-40, 97-9; Rachel Milstein, Karin Rührdanz, and Barbara Schmitz,
+                                    <hi rend="italic">Stories of the Prophets: Illustrated
+                                    Manuscripts of Qiṣaṣ al-Anbiyāʾ</hi> (California: Mazda
+                                Publishers, 1999), p. 131, 191.</p></note> An early example is found
+                        in Zakariyyā al-Qazwīnī’s (d. 1283) <hi rend="italic">ʿAjāʾib al-Makhlūqāt
+                            wa-gharāʾib al-mawjūdāt</hi> (<hi rend="italic">Marvels of Creatures and
+                            Strange Things Existing</hi>):</p>
+                    <figure>
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV21N2Jacobs1.png"
+                            rend="center">
+                        </graphic>
+                    </figure>
+                    <p style="text-align:center;"><hi rend="bold">Image: </hi><hi rend="italic">Ms.
+                            Walters 659</hi>, f. 143b<note place="foot" xml:id="ftn67" n="67"><p
+                                xml:lang="en">
+                                <hi rend="italic">Ms. Walters 659</hi>, f. 143b,
+                                https://commons.wikimedia.org/wiki/
+                                File:Muhammad_ibn_Muhammad_Shakir_Ruzmah-%27i_Nathani__The
+                                _Demon_%27Uj_ibn_%27Unuq_Carries_a_Mountain_with_which_to_Kill_Moses_and_His_Men_-_Walters_W659143B_-_Full_Page.jpg</p></note></p><pb n="381"/>
+                </div>
+            </div>
+            <div xml:id="hv21n2jacobs.4" xml:lang="en">
+                <head>Concluding Remarks</head>
+                <p xml:lang="en">Almost a century after Mingana’s paper on the <hi rend="italic"
+                        >Disputation Against the Arabs</hi>, a new start was made in the present
+                    article in tracing the potential Islamic sources Bar Ṣalībī relied upon in
+                    composing the work. Mingana’s swift claim that Bar Ṣalībī’s knowledge of Islamic
+                    works was “extremely meagre” has proven to be ‘extremely’ inaccurate, not only
+                    because it rests on a flawed textual basis, but also because it combines with a
+                    highly selective reading of the text. The fact that little of the material
+                    discussed above is paralleled in other known Syriac (or Christian Arabic) texts
+                    leads one to suspect very strongly that Bar Ṣalībī was drawing directly on
+                    Islamic sources, incorporating material as he saw fit to his apologetic and
+                    polemic purposes at hand. </p>
+                <p xml:lang="en"> However, one should not fall in the opposite extreme of saying
+                    that his knowledge of Islamic sources was ‘extremely rich’. Given the fact that
+                    one finds in many Islamic works material on Muḥammad’s life, the sects of Islam,
+                        <hi rend="italic">tafsīr</hi>, the <hi rend="italic">ḥadīth</hi>, and the
+                    stories of the prophets, a limited number of <hi rend="italic">Vorlagen</hi>
+                    could already suffice to account for all the material under review. The
+                    specificity of the material of the heresiography and <hi rend="italic">Qiṣaṣ
+                        al-anbiyāʾ</hi> genres may warrant first and foremost further exploration
+                    along these lines. Particularly the prospects of a reliance on a work of <hi
+                        rend="italic">Qiṣaṣ al-anbiyāʾ</hi> seems promising, as the use of such a
+                        <hi rend="italic">Vorlage</hi> not only could explain the origin of his
+                    legendary accounts on Adam’s creation and Og the giant, but potentially also
+                    account for his notices on Muḥammad’s life and Muslim exegesis as well as his
+                    direct citations of <hi rend="italic">ḥadīth</hi> material. Even more
+                    fascinating – to go already one step further – it may possibly also go to some
+                    lengths in explaining where the thematically arranged collection of Qurʾānic
+                    excerpts included in <hi rend="italic">mimrō</hi> III came from in the first
+                    place. All of this, however, is a subject for some other time. </p><pb n="382"/>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Bar Ṣalībī, Dionysius, <hi rend="italic">Against the Arabs</hi>,
+                    ed. and tr. Joseph P. Amar, <hi rend="italic">Dionysius Bar Ṣalībī: A Response
+                        to the Arabs</hi>, CSCO 614-615. Leuven: Peeters, 2005.</bibl>
+                <bibl>Beaumont, Mark I. “Early Christian Interpretation of the Qurʾān.”
+                        <hi rend="italic">Transformation</hi> 22/4 (2005): 195-203.</bibl>
+                <bibl>Boisliveau, Anne-Sylvie, <hi rend="italic">Le Coran par lui-même:
+                        Vocabulaire et argumentation du discours coranique autoréférentiel</hi>.
+                    Leiden: Brill, 2014.</bibl>
+                <bibl>Brinner, William M., ʿArāʾis al-Majālis fī Qisas al-Anbiyāʾ <hi
+                        rend="italic">or “Lives of the Prophets” as recounted by Abū Isḥāq Aḥmad Ibn
+                        Muḥammad Ibn Ibrāhīm Al-Thaʿlabī</hi>, Studies in Arabic Literature 24.
+                    Leiden: Brill, 2002</bibl>
+                <bibl>Brock, Sebastian P., “A Syriac Collection of Prophecies of the
+                    Pagan Philosophers.” <hi rend="italic">Orientalia Lovaniensia Periodica</hi> 14
+                    (1983): 203-246.</bibl>
+                <bibl>_________ , “Some Syriac Excerpts from Greek Collections of Pagan
+                    Prophecies.” <hi rend="italic">Vigilae Christianae</hi> 38 (1984): 77-90.</bibl>
+                <bibl>Brosh,<hi rend="italic"> Naʿama and Rachel Milstein, Biblical
+                        Stories in Islamic Painting</hi>. Jerusalem: Israel Museum, 1991. </bibl>
+                <bibl>Burge, Stephen R., <hi rend="italic">Angels in Islam: Jalāl al-Dīn
+                        al-Suyūtī's</hi> al-Ḥabāʾik fī akhbār al-malāʾik, Culture and Civilization
+                    in the Middle East 31. Oxon: Routledge, 2012.</bibl>
+                <bibl>Burton, John, <hi rend="italic">The Collection of the Qurʾān</hi>.
+                    Cambrigde: Cambridge University Press, 1977.</bibl><pb n="383"/>
+                <bibl>Gilliot, Claude, “Islam, ‘sectes’ et groups d’opposition
+                    politico-religieux (VIIe-XIIe siècles).” <hi rend="italic">Rives
+                        nord-méditerranéeennes</hi> 10 (2002): 1-13.</bibl>
+                <bibl>Griffith, Sidney H, “Dionysius bar Ṣalībī on the Muslims.” In <hi
+                        rend="italic">IV Symposium Syriacum: Literary Genres in Syriac
+                        Literature</hi>, Orientalia Christiana Analecta 229, ed. H. Drijvers et al.
+                    Rome: Pontificium Institutum Studiorum Orientalium, 1987, 353-365.</bibl>
+                <bibl>_________ , “Disputes with Muslims in Syriac Christian Texts: From
+                    Patriarch John (d. 648) to Bar Hebraeus (d. 1286).” In <hi rend="italic"
+                        >Religionsgespräche im Mittelalter</hi>, Wolfenbütteler Mittelalter-Studien
+                    4, ed. B. Lewis and F. Niewöhner. Wiesbaden: Harrassowitz, 1992, 251-273.</bibl>
+                <bibl>_________ , <hi rend="italic">Syriac Writers on Muslims and the
+                        Religious Challenge of Islam</hi>. Kottayam: SEERI, 1995.</bibl>
+                <bibl>_________ , “The Qurʾān in Arab Christian Texts; the Development of
+                    an Apologetical Argument: Abū Qurrah in the Maǧlis of al-Maʾmūn.” <hi
+                        rend="italic">Parole de l’Orient</hi> 24 (1999): 203-233.</bibl>
+                <bibl>_________ , “Christians and the Arabic Qurʾān: Prooftexting,
+                    Polemics, and Intertwined Scriptures.” <hi rend="italic">Intellectual History of
+                        the Islamicate World</hi> 2 (2014): 243-266.</bibl>
+                <bibl>Guillaume, Alfred, <hi rend="italic">The Life of Muḥammad: A
+                        Translation of Ibn Isḥaq’s</hi> Sīrat rasūl Allāh. Oxford: Oxford University
+                    Press, 1982.</bibl>
+                <bibl>Gutmann, Joseph and Vera B. Moreen “The Combat between Moses and Og
+                    in Muslim Miniatures.” <hi rend="italic">Bulletin of the Asia Institute</hi> 1
+                    (1987): 111-21.</bibl><pb n="384"/>
+                <bibl>Gutmann, Joseph, “More about the Giant Og in Islamic Art.” <hi
+                        rend="italic">Bulletin of the Asia Institute</hi> 3 (1989): 107-114.</bibl>
+                <bibl>Heimgartner, Martin, Timotheos I., <hi rend="italic">Ostsyrischer
+                        Patriarch: Disputation mit dem Kalifen Al-Mahdi</hi>, CSCO 631-2. Leuven:
+                    Peeters, 2011.</bibl>
+                <bibl>Heller, B. and S. M. Wasserstrom, “Ūdj,” <hi rend="italic">EI<hi
+                            rend="sup">2</hi></hi> 10 (2000): 777-8.</bibl>
+                <bibl>Hinds, M. “Al-Maghāzī,” <hi rend="italic">EI<hi rend="sup"
+                        >2</hi></hi> 5 (1986): 1161-6.</bibl>
+                <bibl>Jacobs, Bert, “Unveiling Christ in the Islamicate World: Fakhr
+                    al-Dīn al-Rāzī's Prophetology as a Model for Christian Apologetics in Gregory
+                    Bar ʿEbrōyō's Treatise on the Incarnation.” <hi rend="italic">Intellectual
+                        History of the Islamicate World</hi> 6/1&amp;2 (2018), 187-216.</bibl>
+                <bibl>_________ , “Tentative Reconstruction of Dionysius of Tell-Maḥrē’s
+                    Account of the Rise of Islam through Three Dependant Texts.” Forthcoming.</bibl>
+                <bibl>Jeffery, Arthur, <hi rend="italic">Materials for the History of the
+                        Text of the Qurʾan: The Old Codices</hi>. Leiden: Brill, 1937.</bibl>
+                <bibl>Kara, Seyfeddin, “The Suppression of ʿAlī ibn Abī Ṭālib’s Codex:
+                    Study of the Traditions on the Earliest Copy of the Qurʾān.” <hi rend="italic"
+                        >Journal of Near Eastern Studies</hi> 75/2 (2016): 267-289.</bibl>
+                <bibl>Al-Kisāʾī, <hi rend="italic">Qiṣaṣ al-anbiyā</hi>, ed. Isaac
+                    Eisenberg, <hi rend="italic">Vita Prophetarum auctore Muḥammad ben ʿAbdallāh
+                        al-Kisāʾī ex codicibus, qui in Monaco, Bonna, Kygd. Batav. Lipsia et Gothana
+                        Asservantur</hi>. Leiden: Brill, 1922; tr. William M. Thackston, <hi
+                        rend="italic">Tales of the Prophets of Al-Kisaʾi</hi>. Library of Classical
+                    Arabic literature 2. Boston: Twayne Publishers, 1978.</bibl><pb n="385"/>
+                <bibl>Kister, M. J., “Ādam: A Study of Some Legends in Tafsīr and Ḥadīṯ
+                    Literature.” <hi rend="italic">Israel Oriental Studies</hi> 13 (1993):
+                    113-74.</bibl>
+                <bibl>Kosman, Admiel, “The Story of a Giant Story: The Winding Way of Og
+                    King of Bashan in the Jewsih Haggadic Tradition.” <hi rend="italic">Hebrew Union
+                        College Annual</hi> 73 (2002): 157-190.</bibl>
+                <bibl>Laoust, Henri, “La classification des sectes dans le Farq
+                    d’al-Baghdādī.” <hi rend="italic">Revue des Études Islamiques</hi> 29 (1961):
+                    19-59; repr. in H. Laoust, <hi rend="italic">Pluralismes dans l'islam</hi>.
+                    Paris: Geuthner, 1983, 135-75. </bibl>
+                <bibl>_________ , “La classification des sects dans l’hérésiographie
+                    ashʿarite.” In <hi rend="italic">Arabic and Islamic Studies in Honor of Hamilton
+                        A. R. Gibb</hi>, ed. G. Makdisi. Leiden: Brill, 1965, 377-86.</bibl>
+                <bibl>_________ , “L'hérésiographie musulmane sous les Abbassides.” <hi
+                        rend="italic">Cahiers de civilisation médiévale</hi> 38 (1967): 157-178.</bibl>
+                <bibl>Madigan, Daniel A., “Preserved Tablet,” <hi rend="italic">EQ</hi> 4
+                    (2004): 261-3.</bibl>
+                <bibl>Milstein, R., K. Rührdanz and B. Schmitz, <hi rend="italic">Stories
+                        of the Prophets: Illustrated Manuscripts of</hi> Qiṣaṣ al-Anbiyāʾ.
+                    California: Mazda Publishers, 1999.</bibl>
+                <bibl>Mingana, Alphonse, “An Ancient Syriac Translation of the Ḳurʾan
+                    Exhibiting New Verses and Variants.” <hi rend="italic">Bulletin of the John
+                        Rylands Library</hi> 9/1 (1925): 188-235; repr. in Manchester: Manchester
+                    University Press, 1925, 1-50; repr. in <hi rend="italic">Which Koran?: Variants,
+                        Manuscripts, Linguistics</hi>, ed. Ibn Warraq. Amherst: Prometheus Books,
+                    2008; 2011.</bibl>
+                <bibl>Nagel, Tilman, <hi rend="italic">Die Qiṣaṣ al-Anbiyāʾ. Ein Beitrag
+                        zur Arabischen Literaturgeschichte</hi>. Unpubl. PhD diss., University of
+                    Bonn, 1967.</bibl><pb n="386"/>
+                <bibl>Nöldeke, T., F. Schwally, G. Bergsträβer, and O. Pretzl, <hi
+                        rend="italic">Geschichte des Qurāns</hi>, 3 vols. Leipzig: Dieterichsche
+                    Verlagsbuchhandlung, 1909, 1919, 1938.</bibl>
+                <bibl>Nguyen, Martin, “Exegesis of the ḥurūf al-muqaṭṭaʿa: Polyvalency in
+                    Sunnī Traditions of Qur’ānic Interpretation.” <hi rend="italic">Journal of
+                        Qurʾānic Studies</hi> 14/2 (2012): 1-28.</bibl>
+                <bibl>O’Shaughnessy, Thomas J. “God’s Throne and the Biblical Symbolism
+                    of the Qurʾān.” <hi rend="italic">Numen</hi> 20/4 (1973): 202-221. </bibl>
+                <bibl>Pauliny, Ján, “ʿŪg ibn ʿAnāq, ein sagenhafter Riese: Untersuchungen
+                    zu den islamischen Riesengeschichten.” <hi rend="italic">Craecolatina et
+                        Orientalia</hi> 5 (1973): 249-268.</bibl>
+                <bibl>Penn, Michael P., <hi rend="italic">Envisioning Islam: Syriac
+                        Christianity and the Early Muslim World</hi>. Pennsylvania: Pennsylvania
+                    University Press, 2015.</bibl>
+                <bibl>Rassi, Salam, <hi rend="italic">Justifying Christianity in the
+                        Islamic Middle Ages: The Apologetic Theology of ʿAbdīshōʿ bar Brīkhā (d.
+                        1318)</hi>. PhD diss., University of Oxford, 2015.</bibl>
+                <bibl>Roggema, Barbara, “Pour une lecture des dialogues islamo-chrétiens
+                    en syriaque à la lumière des controverses internes à l’islam.” In <hi
+                        rend="italic">Les controverses religieuses en syriaque</hi>, Études
+                    syriaques 13, ed. F. Ruani. Paris: Geuthner, 2016, 261-294.</bibl>
+                <bibl>Rosenthal, Franz, <hi rend="italic">The History of al-Tabari, Vol.
+                        1: General Introduction and From the Creation to the Flood</hi>. Albany:
+                    Suny Press, 1989.</bibl>
+                <bibl>Ryan, Stephan D. <hi rend="italic">Dionysius bar Salibi's Factual
+                        and Spiritual Commentary on Psalms 73-82</hi>, Cahiers de révue biblique 57.
+                    Paris: J. Gabalda et Cie, 2004.</bibl><pb n="387"/>
+                <bibl>Saleem, Shehzad, <hi rend="italic">Collection of the Qur’ān: A
+                        Critical and Historical Study of Al-Farāhī’s View</hi>. PhD diss.,
+                    University of Wales Lampeter, 2010. </bibl>
+                <bibl>Sezgin, F. <hi rend="italic">Geschichte des arabischen
+                        Schrifttums</hi>, Vol. 1. Leiden: Brill, 1967.</bibl>
+                <bibl>Schöck, Cornelia, <hi rend="italic">Adam im Islam. Ein Beitrag zur
+                        Ideengeschichte der Sunna</hi>. Berlin: Klaus Schwarz Verlag, 1993.</bibl>
+                <bibl>Sourdel, Dominique, “Les classification des sects islamiques dans
+                    le Kitāb al-Milal d’al-Šahrastānī.” <hi rend="italic">Studia Islamica</hi> 31
+                    (1970): 239-247.</bibl>
+                <bibl>Talay, Shabo, “Aus dem polemischen Genre des Syrischen: Die
+                    luqbal-Schriften von Bar Ṣalībī und Bar Šūšan.” In <hi rend="italic">Orientalia
+                        Christiana, Festschrift für Hubert Kaufhold zum 70. Geburtstag</hi>, ed. P.
+                    Bruns and H. O. Luthe. Wiesbaden: Harrassowitz, 2013, 511-521.</bibl>
+                <bibl>Teule, Herman, “Jacob bar Šakkō, the Book of Treasures and the
+                    Syrian Renaissance.” In <hi rend="italic">Eastern Crossroads. Essays on Medieval
+                        Christian Legacy</hi>, Gorgias Eastern Christianity Studies 1, ed. J.-P.
+                    Monferrer-Sala. Piscataway, NJ: Georgias Press, 2007, 143-154.</bibl>
+                <bibl>_________ , “The Syriac Renaissance.” In <hi rend="italic">The
+                        Syriac Renaissance</hi>, Eastern Christian Studies 9, ed. H. Teule et al.
+                    Leuven: Peeters, 2010, 1-30.</bibl>
+                <bibl>_________ , “Dionysius bar Ṣalibi,” <hi rend="italic"
+                        >Christian-Muslim Relations: A Bibliographical History</hi> 3, ed. D. Thomas
+                    et al. Leiden: Brill, 2011, 665-670.</bibl>
+                <bibl>Thomas, David, “Early Muslim Responses to Christianity.” In <hi
+                    rend="italic">Christians at the Heart of Islamic Rule: Church Life and<pb n="388"/>
+                        Scholarship in ʿAbbasid Iraq</hi>, The History of Christian-Muslim Relations
+                    1, ed. D. Thomas. Leiden: Brill, 2003, 231-254.</bibl>
+                <bibl>Tottoli, Roberto, “Origin and Use of the Term Isrāʾiliyyāt in
+                    Muslim Literature,” <hi rend="italic">Arabica</hi> 46 (1999): 193-209.</bibl>
+                <bibl>_________ , <hi rend="italic">Biblical Prophets in the Qur'an and
+                        Muslim Literature</hi>. Routledge Studies in the Qurʾan. London: Routledge,
+                    2001.</bibl>
+                <bibl>van Ess, Josef, <hi rend="italic">Der Eine und das Andere.
+                        Beobachtungen an islamischen haresiographischen Texten</hi>, 2 vols. Berlin:
+                    De Gruyter, 2011.</bibl>
+                <bibl>Welch, A.T., “Ḳurʾān,” <hi rend="italic">EI<hi rend="sup"
+                        >2</hi></hi> 5 (1986): 400-29.</bibl>
+                <bibl>Wensinck, A.J., <hi rend="italic">A Handbook of Early Mohammadan
+                        Tradition</hi>. Leiden: Brill, 1927.</bibl>
+                <bibl>Wilde, Clare E., <hi rend="italic">Approaches to the Qurʾān in
+                        Early Christian Arabic Texts (750CE-1258 CE)</hi>. Palo Alto: Academica
+                    Press, 2014.</bibl><pb n="389"/>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
