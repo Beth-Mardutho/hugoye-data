@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Greek Source for the <hi rend="italic">Treatise on the
+                        Composition of Man</hi> Attributed to Aḥūdemmeh Anṭīpaṭrōs?</title>
+                <title type="sub"/>
+                <author>
+                    <name>
+                        <forename>Thomas</forename>
+                        <surname>Benfey</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Princeton University</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2019</date>
+                <idno>Volume 22.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv22n1benfey</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Thomas Benfey</author>
+                        <title level="a">A Greek Source for the Treatise on the Composition of Man
+                            Attributed to Aḥūdemmeh Anṭīpaṭrōs?</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol22/HV22N1Benfey.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2019</date>
+                        </imprint>
+                        <biblScope type="vol" n="22">22</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="3" to="37">3-37</biblScope>
+                        <biblScope type="order" n="1"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Syriac medicine</term>
+                    <term>Greek medicine</term>
+                    <term>Aḥūdemmeh</term>
+                    <term>Anṭīpaṭrōs</term>
+                    <term>Hippocrates</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2019-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <head>Abstract</head>
+            <p xml:lang="en">Here I establish the close relationship between a large portion of the
+                Syriac <hi rend="italic">Treatise on the Composition of Man</hi> attributed to
+                Aḥūdemmeh Anṭīpaṭrōs, originally published by Chabot in 1943, and the Greek
+                pseudo-Hippocratic treatise originally published as <hi rend="italic">On the
+                    Formation of Man</hi> by Jouanna in 2006, arguing that one of these texts must
+                be a translation of the other. While firm conclusions about the direction, place and
+                time of this translation must await an improved edition of the Syriac text, I make
+                several suggestions on these points as well. I also show that the Greek
+                pseudo-Hippocratic text may need to be revised, since certain manuscripts
+                consistently agree with the Syriac against others.</p>
+        </front>
+        <body>
+            <div xml:id="hv22n1benfey.1" xml:lang="en">
+
+                <head>I. Introduction</head>
+                <p xml:lang="en">Here I will show that a lengthy portion of the <hi rend="italic"
+                        >Treatise on the Composition of Man </hi>attributed to “Aḥūdemmeh
+                    Anṭīpaṭrōs” (or simply “Anṭīpaṭrōs”--the text has two separate attributions) has
+                    a close relationship to the Greek pseudo-Hippocratic treatise of the same name
+                    first edited by Jouanna in 2006; one is certainly a translation of the
+                        other.<note place="foot" xml:id="ftn1" n="1"><p xml:lang="en"> Although I
+                            use “translation” in a somewhat broader sense than the one it has for
+                            modern times, allowing for a somewhat higher level of invention and
+                            adaptation on the translator’s part, I have found no egregious instances
+                            of innovation on the part of any translator here, as far as the
+                            translation’s putative Urtext is concerned. The text of the Syriac work,
+                            as well as a Latin translation, appears in J.-B. Chabot, “Notice sur
+                            deux manuscrits contenant les oeuvres du moine Isaac de Rabban Isho et
+                            du métropolitain Aḥoudemmeh” (<hi rend="italic">Notices et extraits des
+                                manuscrits de la Bibliothèque Nationale et autres Bibliothèques</hi>
+                            43 [1943]), 53-60 (text) and 63-70 (translation). The pseudo-Hippocratic
+                            treatise, meanwhile, has been edited and translated into French (as <hi
+                                rend="italic">On the Formation of Man</hi>—I will discuss the
+                            suitability of this title below) in J. Jouanna, “Un traité inédit
+                            attributé à Hippocrate, <hi rend="italic">Sur la formation de
+                                l’homme</hi>: editio princeps,” in <hi rend="italic">Ecdotica e
+                                ricezione dei testi medici greci: atti del V Convegno
+                                Internazionale, Napoli, 1-2 ottobre 2004</hi>, Collectanea 24, ed.
+                            V. Boudon-Millot (Naples: M. D’Auria, 2006), 298-319 (text and
+                            translation).</p></note> In this Syriac work we have a new addition to
+                    the “collection of texts” in various languages attesting to the post-Galenic
+                    “development of the theory of the four humors” discussed by Jouanna.<note
+                        place="foot" xml:id="ftn2" n="2"><p xml:lang="en"> J. Jouanna, “The Legacy
+                            of the Hippocratic Treatise <hi rend="italic">The Nature of Man</hi>:
+                            The Theory of the Four Humours” in <hi rend="italic">Greek Medicine from
+                                Hippocrates to Galen</hi>, Studies in Ancient Medicine 40, ed. P.
+                            van der Eijk and tr. N. Allies (Leiden/Boston: Brill, 2012),
+                        348.</p></note> Firm conclusions about the nature of this relationship (the
+                    place and time in which the translation occurred, as well as the translation’s
+                    direction) must await an edition of the Syriac text that incorporates all
+                    relevant manuscripts; my aim here is simply to establish the relationship
+                    between these texts. Along the way I will make some suggestions about the
+                    underlying causes of their affinities, as well as some adjustments that may need
+                    to be made to the Greek text on the basis of the Syriac.</p>
+                <p xml:lang="en"> The <hi rend="italic">Treatise on the Composition of Man </hi>(<hi
+                        rend="italic">Mēmrā ʿal rūkkābā d-barnāšā</hi>) attributed to Aḥūdemmeh
+                    Anṭīpaṭrōs was originally edited and translated by Chabot in 1943.<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Chabot, “Notice,”
+                            53-60 (text) and 63-70 (Latin translation).</p></note> This edition,
+                    which will serve as the basis for this article, was produced using the East
+                    Syrian manuscript copied in the early 20th century now known as CSCO Syr.
+                        21.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> The
+                            whereabouts of CSCO Syr. 21 are currently unknown. This <hi
+                                rend="italic">Treatise</hi> is also attested in two additional
+                            20th-century manuscripts, which I have been unable to access: Mingana
+                            Syr. 589 and BJI 13. In addition to the <hi rend="italic">Treatise on
+                                the Composition of Man </hi>itself BJI 13 also includes an anonymous
+                                <hi rend="italic">Treatise On the Humors </hi>that explicitly draws
+                            upon the <hi rend="italic">Treatise on the Composition of Man</hi> (G.
+                            Kessel, “Field Notes on Syriac Manuscripts I: Two Medical Manuscripts
+                            Digitized by the Hill Museum &amp; Manuscript Library” (<hi
+                                rend="italic">Hugoye</hi> 20:2 [2017]), 427-428; R. Degen, “Ein <hi
+                                rend="italic">Corpus Medicorum Syriacorum</hi>” (<hi rend="italic"
+                                >Medizinhistorisches Journal</hi> 7.1/2 [1972]), 118, n. 23; A.
+                            Mingana, <hi rend="italic">Catalogue of the Mingana Collection of
+                                Manuscripts</hi>, vol. 1 [Cambridge: W. Heffer, 1933],
+                            1125-1127).</p></note> Chabot already suspected that this work was based
+                    on a Greek model, citing the Greek origin of the name Anṭīpaṭrōs, and the
+                    “numerous Greek technical terms” that appear in the text.<note place="foot"
+                        xml:id="ftn5" n="5"><p xml:lang="en"> Chabot, “Notice,” 74.</p></note>
+                    Chabot suggests that the work’s Greek Vorlage had simply been attributed to a
+                    certain Antipatros; the name Aḥūdemmeh was the addition of an overzealous
+                    copyist, who was familiar with ʿAbdīšōʿ's attribution of a work with a similar
+                    title, the <hi rend="italic">Treatise on the Composition of the Person</hi>, or
+                        <hi rend="italic">Persons</hi> (<hi rend="italic">Mēmrā ʿal rūkkāb
+                        qnōmā</hi>/<hi rend="italic">qnōmē)</hi> to Aḥūdemmeh, and, assuming that
+                    this must be the same as what he had in front of him, “corrected” the
+                    attribution accordingly.<note place="foot" xml:id="ftn6" n="6"><p xml:lang="en">
+                            <hi rend="italic">Qnōmā</hi> (i.e., &lt;qnwmʾ&gt; without <hi
+                                rend="italic">syāmē </hi>points), “person” or “hypostasis,” and <hi
+                                rend="italic">qnōmē </hi>(i.e., &lt;qnwmʾ&gt; with <hi rend="italic"
+                                >syāmē</hi> points), “persons” or “hypostases,” are both attested
+                            here in manuscripts of ʿAbdīšōʿ's catalog (Chabot, “Notice,” 73, n. 3;
+                            J. Assemani, <hi rend="italic">Bibliotheca Orientalis
+                                Clementino-Vaticana</hi>, vol. 3.1 [Rome: Sacrae Congregationis de
+                            Propaganda Fide, 1725], 192-4).</p></note> Chabot mentions two Roman
+                    physicians named Antipatros as possible authors of this Greek Vorlage.<note
+                        place="foot" xml:id="ftn7" n="7"><p xml:lang="en"> Chabot, “Notice,” 75. In
+                            a note appended to an article by Gignoux touching on the origins of the
+                            Syriac <hi rend="italic">On the Composition of Man </hi>attributed to
+                            Aḥūdemmeh Anṭīpaṭrōs, Jouanna discusses an unsuccessful search for
+                            parallels to the Syriac text in the attested writings and overall
+                            intellectual orientations of either of these Antipatroses. (P. Gignoux,
+                            “Anatomie et physiologie humaine chez un auteur syriaque, Ahūhdemmeh.”
+                                (<hi rend="italic">Comptes rendus des séances de l’Académie des
+                                Inscriptions et Belles-Lettres</hi> 142.1 [1998]),
+                        141-2).</p></note> As Chabot also notes, we have a West Syrian treatise
+                    attributed to Aḥūdemmeh, first edited by Nau, with the all-but-identical title
+                        <hi rend="italic">Treatise on the Composition of Man</hi> (<hi rend="italic"
+                        >Mēmrā ʿal rūkkābeh d-barnāšā</hi>), but completely different content than
+                    the treatise attributed to Aḥūdemmeh Anṭīpaṭrōs; Chabot does not spell this
+                    possibility out, but a copyist aware of the former work’s existence but
+                    unfamiliar with its contents could have made an analogous overcorrection.<note
+                        place="foot" xml:id="ftn8" n="8"><p xml:lang="en"> Ibid., 73; this treatise
+                            was edited and translated in F. Nau, Histoires d’Ahoudemmeh et de
+                            Marouta, métropolitains jacobites de Tagrit et de l’Orient (VIe et VIIe
+                            siècles): suivies du traité d’Ahoudemmeh sur l’homme, Patrologia
+                            Orientalis 3.1 (Paris: Firmin-Didot, 1909), 100-115.</p></note> Reinink
+                    adduces further support for the notion that the attribution of the East Syrian
+                        <hi rend="italic">On the Composition of Man</hi> to Aḥūdemmeh is late and
+                    erroneous, in pointing to the work’s curious double attribution: the text’s very
+                    first line, after the title “<hi rend="italic">Treatise on the Composition of
+                        Man</hi>, pronounced by Mār Aḥūdemmeh Anṭīpaṭrōs,” includes a greeting
+                    addressed to the “explorers of secret things... from Anṭīpāṭrōs.”<note
+                        place="foot" xml:id="ftn9" n="9"><p xml:lang="en"> G. J. Reinink, “Man as
+                            Microcosm: A Syriac Didactic Poem and Its Prose Background” in <hi
+                                rend="italic">Calliope’s Classroom : Studies in Didactic Poetry from
+                                Antiquity to the Renaissance</hi>, ed. A. Harder, A. A. MacDonald,
+                            and G. J. Reinink (Dudley, MA: Peeters, 2007), 130-1.</p></note></p>
+                <p xml:lang="en"> Gignoux, meanwhile, has advanced a dissenting view, saying that
+                    this work is “difficult to attribute to a Roman physician,” but is rather an
+                    original Syriac composition, likely to be attributed to the same Aḥūdemmeh who
+                    wrote the West Syrian <hi rend="italic">On the Composition of Man</hi>.<note
+                        place="foot" xml:id="ftn10" n="10"><p xml:lang="en"> Gignoux, “Anatomie et
+                            physiologie humaine,” 232-235.</p></note> Gignoux believes that this
+                    Aḥūdemmeh is to be identified with the East Syrian bishop “Aḥūdemmeh of Nisibis”
+                    who is named as a participant in a 544 church council.<note place="foot"
+                        xml:id="ftn11" n="11"><p xml:lang="en"> Ibid., 231.</p></note> Gignoux makes
+                    two points to support his contention that this treatise is an original Syriac
+                    work, neither of which is particularly convincing. First, he floats the
+                    possibility that both Aḥūdemmeh and Anṭīpaṭrōs are not simply proper names in
+                    the attribution of the East Syrian <hi rend="italic">On the Composition of
+                        Man</hi>, but are rather to be interpreted in their Syriac and Greek root
+                    meanings--“brother of his mother” and “in the place of the father,”
+                    respectively. For Gignoux, these terms could be working in concert to specify
+                    the role the author of this work played in his family--an uncle who served as a
+                    kind of “guardian” for his sister’s children.<note place="foot" xml:id="ftn12"
+                        n="12"><p xml:lang="en"> Ibid., 233.</p></note> This explanation, while
+                    ingenious, does nothing to get around the difficulty the unmistakably Greek name
+                    Anṭīpaṭrōs poses for the identification of this text as an original Syriac
+                    composition; indeed, if “Anṭīpaṭrōs” was actually meant to mean “in the place of
+                    the father” here, rather than simply functioning as a name (given how
+                    well-attested this name is in the Roman Empire, the latter possibility is much
+                    more likely), this would actually be a strong indication that the bearer of this
+                    name lived among Greek speakers.<note place="foot" xml:id="ftn13" n="13"><p
+                            xml:lang="en"> On the popularity of the name Antipatros in the Roman
+                            Empire, consider that Chabot was able to find two Roman physicians named
+                            Antipatros; and see the three additional Antipatroses in J. R.
+                            Martindale, <hi rend="italic">The Prosopography of the Later Roman
+                                Empire</hi>, vol. 2 (Cambridge: Cambridge University Press, 1971),
+                            106.</p></note>
+                </p>
+                <p xml:lang="en"> Second, Gignoux maintains that this work’s content is “not well
+                    understood except within the Syriac tradition,” and that there is “no need to
+                    appeal to a Greco-Latin tradition” in order to account for its origins.<note
+                        place="foot" xml:id="ftn14" n="14"><p xml:lang="en"> Gignoux, “Anatomie et
+                            physiologie humaine,” 234.</p></note> Curiously, the support for this
+                    claim looks forward to a thirteenth-century didactic poem on the theme of “the
+                    human being as microcosm” authored by George Wardā, which, Gignoux convincingly
+                    demonstrates, has clear parallels with the treatise attributed to Aḥūdemmeh
+                    Anṭīpatrōs, and likely drew on this work, whether directly or indirectly.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> Ibid.,
+                            234-8.</p></note> This has no clear relevance for the question of the
+                    origins of the <hi rend="italic">Treatise on the Composition of Man</hi>.</p>
+                <p xml:lang="en"> As it turns out, a large section of the treatise attributed to
+                    Aḥūdemmeh Anṭīpatrōs, beginning on page 54 of Chabot’s edition, closing on page
+                    57, and immediately followed by the words “thus said the great Hippocrates,”
+                    corresponds closely to the Greek pseudo-Hippocratic treatise <hi rend="italic"
+                        >On the Composition of Man</hi> edited and translated by Jouanna in
+                        2006.<note place="foot" xml:id="ftn16" n="16"><p xml:lang="en"> Chabot,
+                            “Notice,” 54.13-57.7 (text) and 64-67 (translation); Jouanna, “Un traité
+                            inédit” 298-319 (text and translation).</p></note> As will be discussed
+                    below, multiple scenarios could explain this correspondence: the basis for the
+                    Greek could be an excerpt from the Syriac treatise attributed to Aḥūdemmeh
+                    Anṭīpatrōs, or one of the Syriac treatise’s component parts that circulated
+                    separately; or the basis for part of the Syriac treatise attributed to Aḥūdemmeh
+                    Anṭīpatrōs could be this Greek pseudo-Hippocratic treatise—the part of the
+                    Syriac not corresponding to this pseudo-Hippocratic treatise would then consist
+                    of other translations from Greek (or other languages), or original Syriac
+                    compositions. </p>
+                <p xml:lang="en"> Jouanna’s edition is based on four manuscripts: the 15th-century
+                    Ambrosianus gr. 331 (which I will hereafter designate as A., following Jouanna’s
+                    shorthand); the 16th-century Parisinus gr. 985 (P.); the 16th-century Parisinus
+                    gr. 2320 (Par.); and the 15th- or 16th-century Parisinus gr. 2494 (Pa.).<note
+                        place="foot" xml:id="ftn17" n="17"><p xml:lang="en"> Jouanna, “Un traité
+                            inédit,” 275-283.</p></note> Judging P. to be the manuscript preserving
+                    the treatise in its “most complete” form, Jouanna makes it the basis for his
+                    edition, but he leaves open the possibility that the version in P. is “in some
+                    respects” a more “developed” form of an originally “shorter version” and that
+                    Par. may preserve such a shorter version, rather than being a lacunary version
+                    of the text in P.<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> Ibid., 282-283.</p></note>
+                </p>
+                <p xml:lang="en"> In fact, as we will see, the section of the treatise attributed to
+                    Aḥūdemmeh Anṭīpatrōs corresponding to this Greek pseudo-Hippocratic work mostly
+                    agrees with Par., as well as Pa., over P., indicating that Jouanna’s suspicions
+                    about the chronological priority of Par. relative to P. were likely correct, and
+                    that the former manuscript should be prioritized accordingly for any Greek text.
+                    If the Syriac was the basis for the Greek, it is self-evident that the Greek
+                    manuscripts corresponding more closely to the Syriac should be prioritized. If,
+                    on the other hand, the Greek was the basis for the Syriac, it is probable that
+                    this translation was made sometime between the sixth and ninth centuries—the
+                    period in which medical translations are known to have been made from Greek into
+                    Syriac. Given that even the ninth century precedes our earliest Greek manuscript
+                    by some 500 years, in this scenario, too, the Syriac text should be assigned
+                    great importance in any edition of the Greek text.<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text"> On medical translations from
+                            Greek into Syriac, see 22-3 below.</p></note> This agreement of the
+                    Syriac treatise with Par. and Pa. over P. extends to the work’s title, as the
+                    treatise in Par., along with Pa., is said to be on the “composition” (<foreign
+                        xml:lang="gr">κατασκευή</foreign>) of human beings, rather than on their
+                    “formation” (<foreign xml:lang="gr">διάπλασις</foreign>).<note place="foot"
+                        xml:id="ftn20" n="20"><p xml:lang="en"> Ibid., 298.</p></note> Accordingly,
+                    I take <hi rend="italic">On the Composition of Man </hi>to be the original title
+                    of the Greek treatise, and refer to it as such, rather than <hi rend="italic">On
+                        the Formation of Man</hi>, as Jouanna calls it.</p>
+                <p xml:lang="en"> The Syriac <hi rend="italic">On the Composition of Man </hi>opens
+                    with the aforementioned greeting from “Anṭīpatrōs” to the “investigators of
+                    secrets,” and a discussion of the great benefits the medical discussions of “the
+                    first philosophers” offer humanity.<note place="foot" xml:id="ftn21" n="21"><p
+                            xml:lang="en"> Chabot, “Notice,” 53.2-54.8.</p></note> The final passage
+                    of this introductory section includes a list of some of these “philosophers,”
+                    who have helped to combat “subjection to harmful diseases,” in which Plato,
+                    Aristotle, Asclepiades, Chiron, Democritus, Hippocrates, and Galen are named
+                        explicitly.<note place="foot" xml:id="ftn22" n="22"><p xml:lang="en">
+                            Chabot, “Notice,” 54.8-13.</p></note>
+                </p>
+                <p xml:lang="en">The section corresponding to the Greek <hi rend="italic">On the
+                        Composition of Man </hi>comes next. I will first give a general overview of
+                    the contents of the text, and the relationship among the Syriac version and the
+                    four Greek manuscripts, before turning to a more in-depth comparison of the
+                    Syriac and Greek manuscripts’ respective renditions of selected passages and
+                    phrases. The text begins with a general description of “man,” outlining “his”
+                    relationship to God, and to the rest of creation (according to Jouanna’s
+                    numbering of the sections, which I will adopt here, this is section I).<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> Chabot,
+                            “Notice,” 54.13-17; Jouanna, “Un traité inédit,” 298.1-5.</p></note>
+                    After this, it discusses the various attributes that help to define the human
+                    being, including a detailed accounting of the amounts of bones and “conduits” in
+                    the body (Jouanna’s II-III).<note place="foot" xml:id="ftn24" n="24"><p
+                            xml:lang="en"> Chabot, “Notice,” 54.17-55.5; Jouanna, “Un traité
+                            inédit,” 298.6-304.10.</p></note> The text then turns to the “places” or
+                    “homes” of the various humors in the body, and the places in which they have
+                    “dominion” (IV),<note place="foot" xml:id="ftn25" n="25"><p xml:lang="en">
+                            Chabot, “Notice,” 55.5-13; Jouanna, “Un traité inédit,”
+                            304.11-306.8.</p></note> followed by a discussion of the influences
+                    various parts of the body and their associated humors have on human seed
+                        (V),<note place="foot" xml:id="ftn26" n="26"><p xml:lang="en"> Chabot,
+                            “Notice,” 55.13-20; Jouanna, “Un traité inédit,” 306.9-23.</p></note>
+                    the ways in which the hour of conception influences the individual’s
+                    constitution, appearance and character (VI-IX),<note place="foot" xml:id="ftn27"
+                        n="27"><p xml:lang="en"> Chabot, “Notice,” 55.20-56.24; Jouanna, “Un traité
+                            inédit,” 308.1-316.17.</p></note> and, finally, the four different types
+                    of seed, and the combined influence of seed and “surrounding air” on the
+                    development of any creature (X).<note place="foot" xml:id="ftn28" n="28"><p
+                            xml:lang="en"> Chabot, “Notice,” 56.24-57.7; Jouanna, “Un traité
+                            inédit,” 316.18-318.18.</p></note> As discussed above, Jouanna bases his
+                    text on P., but Pa. and Par. are considerably closer to the Syriac than P. (or
+                    A.). Jouanna’s text generally corresponds to the Syriac quite closely, and
+                    discrepancies between Jouanna’s text and the Syriac can often be resolved by
+                    selecting a reading from Pa. or Par. over one from P. or A. Jouanna’s text
+                    diverges most from the Syriac in the sections concerning the influence of one’s
+                    time of conception (VI-IX); while Jouanna’s text and the Syriac continue to
+                    share general structural features here, the two texts’ specific contents diverge
+                    to a considerably greater extent than they do in the surrounding sections. Two
+                    features of the Greek manuscript heritage may help to explain this: Pa., perhaps
+                    the closest of the Greek manuscripts to the Syriac, breaks off just after the
+                    beginning of section V; while Par.’s rendering of sections VI-IX is considerably
+                    more laconic than that of P. (the basis of Jouanna’s text, of course), and is in
+                    some respects closer to the Syriac.</p>
+                <p xml:lang="en"> The Syriac<hi rend="italic"> On the Composition of Man</hi>
+                    continues after the conclusion of the section corresponding to the Greek
+                    pseudo-Hippocratic text. In the Syriac text, the latter section closes with the
+                    words “thus said the great Hippocrates,” almost certainly referring to the
+                    sentence immediately before it, which discusses the effect the surrounding air
+                    has on the constitution of the individual, in line with what is laid out in the
+                    Hippocratic work <hi rend="italic">Airs, Waters and Places</hi>.<note
+                        place="foot" xml:id="ftn29" n="29"><p xml:lang="en"> W. H. S. Jones, <hi
+                                rend="italic">Hippocrates </hi>I, Loeb Classical Library 147 (New
+                            York: Putnam, 1923), 65-137.</p></note> After this, we have an
+                    enumeration of the parts of the body and their respective functions, including a
+                    broader description of the entire human body (introduced as a “return to our
+                    theme”) from the inside out: “the human body on the outside is skin, and inside
+                    the skin [there is flesh], and inside the flesh there is fat, and inside the fat
+                    there are arteries…”<note place="foot" xml:id="ftn30" n="30"><p xml:lang="en">
+                            Chabot, “Notice,” (entire section) 57.9-60.20; (quoted passage, in its
+                            entirety) 58.26-31.</p></note> In Chabot’s text, the <hi rend="italic"
+                        >Treatise on the Composition of Man</hi> attributed to Aḥūdemmeh Anṭīpatrōs
+                    is directly followed by something entitled <hi rend="italic">From The Book of
+                        Medicine</hi>; this latter is now recognized to be an entirely independent
+                    work from the treatise attributed to Aḥūdemmeh Anṭīpatrōs.<note place="foot"
+                        xml:id="ftn31" n="31"><p xml:lang="en"> Ibid., 60.21-63.7. On this text’s
+                            authorship, see the questions raised about whether this treatise is to
+                            be attributed to A<hi style="font-family:Garamond Gorgias">ḥ</hi>ūdemmeh
+                            in Reinink, “Man as Microcosm,” 130; and the case for it being an
+                            excerpt from a work of Šemʿōn of Ṭaibūteh laid out in G. Kessel, “La
+                            position de Simon de Taibuteh dans l’éventail de la tradition mystique
+                            syriaque” in <hi rend="italic">Les mystiques syriaques</hi>, Études
+                            syriaques 8, ed. A. Desreumaux (Paris: Geuthner, 2011),
+                        126-128.</p></note>
+                </p>
+                <p xml:lang="en"> Aside from the awkward double attribution at the very beginning,
+                    the treatise attributed to Aḥūdemmeh Anṭīpatrōs is seamless and coherent,
+                    proceeding from one topic to another with little redundancy or inconsistency:
+                    from a general history of medicine, to a more detailed discussion of the
+                    constituents of the human body, known thanks to the progress medical science has
+                        made.<note place="foot" xml:id="ftn32" n="32"><p xml:lang="en"> On the
+                            attribution of the text, see 4 above.</p></note> There is therefore no
+                    reason to suppose, purely on the basis of a reading of the Syriac, that we are
+                    dealing with some kind of compilation here; only a demonstration that the Greek
+                    is the basis for the section of the Syriac text to which it corresponds would
+                    lead us to that conclusion. </p>
+            </div>
+            <div xml:id="hv22n1benfey.2" xml:lang="en">
+                <head>II. Comparative Analysis of Selected Passages</head>
+                <p xml:lang="en"> I now turn to an in-depth analysis of selected passages and
+                    expressions paralleling one another in the Greek and Syriac. This analysis will
+                    illustrate the general degree of correspondence between the Greek and Syriac,
+                    and the tendency of the Greek manuscripts Pa. and Par. to agree with the Syriac
+                    against P. and A. It may also shed light on the direction of the translation,
+                    though on this front my results remain preliminary and speculative. I will start
+                    from the very beginning of the text; as the following table shows, the profound
+                    similarities between the Greek and Syriac are already apparent here.</p>
+                <table rend="rules">
+                    <row>
+                        <cell>Syriac<note place="foot" xml:id="ftn33" n="33"><p xml:lang="en">
+                                    Chabot, “Notice,” 54.13-17.</p></note></cell>
+                        <cell>Greek (Jouanna text)<note place="foot" xml:id="ftn34" n="34"><p
+                                    xml:lang="en"> Jouanna, “Un traité inédit,”
+                            298.1-5.</p></note></cell>
+                        <cell>Greek text (Pa. only)<note place="foot" xml:id="ftn35" n="35"><p
+                                    xml:lang="en"> Ibid., 298.1-5 (text adjusted using Jouanna’s
+                                    critical apparatus).</p></note></cell>
+                    </row>
+                    <row>
+                        <cell><p xml:lang="en"><hi rend="italic">netnē mādēn w-nēmarʿal barnāšā. ak
+                                    d-īt. w-hākanā bīdā bīdāʿal ḥšaḥtā d-sammmānē. barnāšā hākēl
+                                    alāha-w d-arʿānē. brīta-w d-tahrā. mārā da-knawāteh. esārā
+                                    d-tartēn brītē. dmūtā d-bāryeh. māna-w d-tedmūrtā. wa-ṣbūta-w
+                                    da-b-tahrā qaymā.</hi></p></cell>
+                        <cell><foreign xml:lang="gr">Ὁ ἄνθρωπος οὗτος· θεός ἐστιν ἐπίγειος· ἐπεὶ καὶ
+                                πλάσμα θεϊκόν ἐστι· κύριος δὲ κατέστη ὑπὸ τοῦ δημιουργοῦ τῶν κτηνῶν
+                                καὶ ἀλόγων, καὶ πάσης τῆς ὁρατῆς κτίσεως· ἐζωσμένος τέ τοῖς δυσὶ
+                                μέρεσιν· εἰκὼν δέ ἐστι τοῦ πλάσαντος αὐτόν· ἐνδιαίτημά ἐστι
+                                θαυμαστόν· καὶ θέλημα ἐπιθυμητόν.</foreign>
+                        </cell>
+                        <cell><foreign xml:lang="gr">Ὁ ἄνθρωπος θεός ἐστιν ἐπίγειος· θεϊκὸν πλάσμα·
+                                κύριος ἐστὶν παντων τῶν κτηνῶν καὶ τῶν ἀλόγων ζώων· ἐζωσμένος τέ
+                                τοῖς δυσὶ μέρεσιν· εἰκὼν ἐστι τοῦ πλάσαντος αὐτόν· ἐνδιαίτημά ἐστι
+                                θαυμαστόν· καὶ θέλημα ἐστιν ἐπιθυμητόν.</foreign>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell><p xml:lang="en">Thus we will narrate, and we will speak of <hi
+                                    rend="bold">man</hi>, <hi rend="bold">what he is</hi>; and
+                                likewise, little by little, about the use of drugs. Now, <hi
+                                    rend="bold">man is a god of terrestrial things</hi>, a wonderful
+                                    <hi rend="bold">creation</hi>, <hi rend="bold">master of his
+                                    fellow [beasts?].</hi></p>
+                            <p xml:lang="en">bond [or <hi rend="bold">girdle</hi>; <hi rend="italic"
+                                    >esārā</hi>] of the <hi rend="bold">two</hi> creations, <hi
+                                    rend="bold">the image of his creator</hi>. </p>
+                            <p xml:lang="en">He is a <hi rend="bold">marvelous</hi> instrument [or
+                                    “<hi rend="bold">vessel”</hi>; <hi rend="italic">mānā</hi>], and
+                                is something [or <hi rend="bold">a will</hi>; ṣbūtā] that consists
+                                of wonder [or, perhaps, “exists in wonder”]. </p></cell>
+                        <cell><p xml:lang="en"><hi rend="bold">Man is such</hi>. </p>
+                            <p xml:lang="en">He<hi rend="bold"> is a terrestrial god</hi>, for
+                                precisely [his] <hi rend="bold">formation</hi> is divine. He was
+                                made <hi rend="bold">master of the beasts </hi>and of those lacking
+                                reason, and of every visible creature, by the </p>
+                            <p xml:lang="en">craftsman. And he is <hi rend="bold">girt</hi> with <hi
+                                    rend="bold">two</hi> parts. <hi rend="bold">He is the image of
+                                    the one who created him</hi>, </p>
+                            <p xml:lang="en">and [his] <hi rend="bold">dwelling-place</hi> is <hi
+                                    rend="bold">marvelous</hi>, and [his] <hi rend="bold"
+                                >will</hi>is desirable. </p></cell>
+                        <cell><p xml:lang="en"><hi rend="bold">Man is a terrestrial god</hi>, a
+                                divine <hi rend="bold">formation</hi>. He is <hi rend="bold">master
+                                    of the beasts </hi>and of the animals lacking reason.</p>
+                            <p xml:lang="en">And he is <hi rend="bold">girt</hi> with <hi
+                                    rend="bold">two</hi> parts. <hi rend="bold">He is the image of
+                                    the one who created him</hi>,</p>
+                            <p xml:lang="en">and [his] <hi rend="bold">dwelling-place</hi> is <hi
+                                    rend="bold">marvelous</hi>, and [his] <hi rend="bold">will</hi>
+                                is desirable. </p></cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Even within these first few lines, then, we have several clear
+                    parallels between the two texts, on the most noteworthy among which I will now
+                    briefly comment. To begin, we have two particularly striking bits of
+                    nearly-equivalent phrasing. In the Syriac and Greek texts “man” is called a “god
+                    of terrestrial things” and a “terrestrial god,” respectively, in a nearly
+                    parallel construction, which finds the copula after the noun, but before the
+                    adjective (<hi rend="italic">elāha-w d-arʿānē</hi>; <foreign xml:lang="gr">θεός
+                        ἐστιν ἐπίγειος</foreign> ). Further, the Syriac text refers to “man” as “the
+                    image of his creator” (<hi rend="italic">dmūtā d-bāryeh</hi>) while the Greek
+                    has the almost identical “the image of the one who created him” (<foreign
+                        xml:lang="gr">εἰκὼν…τοῦ πλάσαντος αὐτόν</foreign>).</p>
+                <p xml:lang="en"> There are also some curious partial parallels here, which may
+                    point to the direction of the translation. First, there is the Syriac phrase
+                    “bond of the two creations” (<hi rend="italic">esārā d-tartēn brītē</hi>)
+                    corresponding to “girt with two parts” in Greek (<foreign xml:lang="gr"
+                        >ἐζωσμένος... τοῖς δυσὶ μέρεσιν</foreign> ). In this particular case, it is
+                    easier to imagine the Greek being a translation from the Syriac than vice-versa.
+                    This Syriac phrase “bond of the two creations” has a close parallel in an
+                    anonymous Syriac homily initially attributed to Ephrem, which Jansma believes to
+                    be of Greek origin.<note place="foot" xml:id="ftn36" n="36"><p xml:lang="en"> J.
+                            J. Overbeck, S. Ephraemi Syri, Rabulae episcopi Edesseni, Balaei
+                            aliorumque opera selecta e codicibus Syriacis manuscriptis in Museo
+                            Britannico et Bibliotheca Bodleiana asservatis primus (Oxford: Clarendon
+                            Press, 1865), 76; T. Jansma, “Une homélie anonyme sur la création du
+                            monde” (L’Orient Syrien 5 [1960]), 389, 398-400.</p></note> In this
+                    text, the human being is designated as the single “bond” (<hi rend="italic"
+                        >esārā</hi>) which God made in order to “gather and fasten together the
+                    creation” (<hi rend="italic">neqoš w-neḥzoq l-brītā</hi>); humans are uniquely
+                    “related to” both the “invisible” and “visible” parts of creation, insofar as
+                    they possess both soul and body.<note place="foot" xml:id="ftn37" n="37"><p
+                            xml:lang="en"> Overbeck, <hi rend="italic">S. Ephraemi Syri opera
+                                selecta</hi>, 76.14-20 (text); Jansma, “Une homélie anonyme sur la
+                            création du monde,” 389 (translation).</p></note> The phrase “bond of
+                    the two creations” in the Syriac <hi rend="italic">On the Composition of
+                        Man</hi> is surely an elliptical reference to the same notion, the unique
+                    link between the “invisible” and “visible” that humanity constitutes. As for the
+                    Greek “girt with two parts,” meanwhile, I have been unable to find such a clear
+                    parallel elsewhere in this language’s corpus, though here it could mean
+                    something analogous but not equivalent to the Syriac phrase: the “two parts”
+                    could be the body and soul, which the human being has “put on” like a piece of
+                    clothing. Furthermore, the Syriac word used for “bond” here (<hi rend="italic"
+                        >esārā</hi>) can also mean “girdle,” whereas the Greek word corresponding to
+                    “girt” (<foreign xml:lang="syr">ἐζωσμένος</foreign>) cannot be construed in the
+                    wider sense of “bound.” It is most likely that the discrepancy between the
+                    Syriac and Greek on this point stems from a translator’s incorrect choice among
+                    the meanings of the Syriac word <hi rend="italic">esārā</hi>, rather than his
+                    invention of an entirely new meaning for the Greek <foreign xml:lang="gr"
+                        >ἐζωσμένος</foreign>. </p>
+                <p xml:lang="en"> The apparent correspondence between Syriac “thing” or “will” (<hi
+                        rend="italic">ṣbūtā</hi>) and Greek “will” (<foreign xml:lang="gr"
+                        >θέλημα</foreign>) may be an analogous case. Although the possibility that
+                        <hi rend="italic">ṣbūtā</hi> in Syriac means “will” rather than “something”
+                    here should not be entirely discounted, here too we may have an instance of a
+                    Greek translator choosing incorrectly among the various meanings of a Syriac
+                    word, translating <hi rend="italic">ṣbūtā</hi> as “will” rather than
+                    “something.” </p>
+                <p xml:lang="en"> Finally, as noted in Chabot’s edition, the Syriac text refers to
+                    the human being with a phrase from the Peshitta version of <hi rend="italic"
+                        >Ecclesiasticus </hi>43:2, “marvelous instrument” (<hi rend="italic">mānā
+                        d-tedmūrtā</hi>).<note place="foot" xml:id="ftn38" n="38"><p xml:lang="en">
+                            Chabot, “Notice,” 54.16, 64; P. de Lagarde, <hi rend="italic">Libri
+                                Veteris Testamenti Apocryphi Syriace</hi> (Leipzig: F. A. Brockhaus,
+                            1861), 43.31.</p></note> Incidentally, precisely the same phrase, <hi
+                        rend="italic">mānā d-tedmūrtā</hi>, is used as a descriptor for humanity
+                    near the beginning of Aḥūdemmeh’s <hi rend="italic">On the Composition of
+                        Man</hi>.<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">
+                            Nau, Histoires d’Ahoudemmeh et de Marouta, 101.4.</p></note> This phrase
+                    seems to correspond to “marvelous dwelling-place” (<foreign xml:lang="gr"
+                        >ἐνδιαίτημά… θαυμαστόν</foreign> ) in the Greek text. Jouanna deems this to
+                    refer to paradise, adducing a parallel passage in ps.-Gregory Nyssa’s <hi
+                        rend="italic">On Paradise</hi>, in which the same phrase meaning “marvelous
+                    dwelling-place,” <foreign xml:lang="gr">ἐνδιαίτημα… θαυμαστόν</foreign> , refers
+                    to paradise, and, as in the Greek pseudo-Hippocratic treatise, occurs just after
+                    an assertion of humanity’s superiority to animals. There is a real possibility
+                    of a translation going either way here, as both “marvelous instrument” and
+                    “marvelous dwelling-place” make sense in context, and have clear parallels
+                    elsewhere in Syriac and Greek, respectively. It is also conceivable that neither
+                    of these phrases is a translation of the other, despite their similarity to one
+                    another, and corresponding place in each text. Still, it is worth noting that as
+                    in the two cases we have just examined, the Syriac word <hi rend="italic"
+                        >mānā</hi> has a broader range of meanings than the Greek word that seems to
+                    correspond to it, <foreign xml:lang="gr">ἐνδιαίτημα</foreign>; in addition to
+                    “instrument,” <hi rend="italic">mānā</hi> can also mean “vessel.” A Greek
+                    translator may have had difficulty understanding how human beings could be
+                    “vessels” in themselves, and accordingly construed <hi rend="italic">mānā</hi>
+                    as the “vessel” containing humanity: their “dwelling-place” (<foreign
+                        xml:lang="gr">ἐνδιαίτημα</foreign>). In this case it is not too hard to see
+                    the misunderstanding going the other way, however; it is conceivable that a
+                    translator working from Greek to Syriac could have construed <hi rend="italic"
+                        >mānā</hi> in the passage from Ecclesiasticus as something more like
+                    “vessel.” Seeing a corresponding equivalence between <hi rend="italic">mānā</hi>
+                    and <foreign xml:lang="gr">ἐνδιαίτημα</foreign>, he could have rendered
+                    “marvelous dwelling-place” (<foreign xml:lang="gr">ἐνδιαίτημα…
+                        θαυμαστόν</foreign> ) as “marvelous vessel” (<hi rend="italic">mānā
+                        d-tedmūrtā</hi>).</p>
+                <p xml:lang="en"> A broader stylistic comparison between the Greek and Syriac texts
+                    may also be relevant for the direction of the translation. The Greek <hi
+                        rend="italic">On the Composition of Man</hi> makes a somewhat abrupt
+                    transition, from initially describing “man” directly, as “girt with two parts”
+                    and “the image of the one who created him,” to describing his attributes--“he is
+                    the image of the one who created him” is immediately followed by, literally,
+                    “the dwelling-place is marvelous” and “the will is desirable.” The corresponding
+                    passage in the Syriac text lacks this abrupt transition, as the descriptors
+                    there are consistently predicated of “man” himself, not his attributes. Of
+                    course, this discrepancy between the two texts could be the result of a
+                    translator working from Greek to Syriac smoothing out an awkward transition he
+                    found in his Vorlage. Still, it is somewhat easier to see the valiant attempt of
+                    a translator working from Syriac to Greek to make sense of an incompletely
+                    understood Syriac Vorlage here.</p>
+                <p xml:lang="en"> The Syriac text may also help to better establish the hierarchy
+                    among the Greek manuscripts. As the above table shows, the Syriac text follows
+                    the Greek manuscript Pa. significantly more closely than P., the basis for
+                    Jouanna’s text. For example, the Syriac has no equivalent for the conjunction
+                        <foreign xml:lang="gr">ἐπεὶ</foreign> (“for”) following <foreign
+                        xml:lang="gr">θεός ἐστιν ἐπίγειος</foreign> (“he is a terrestrial god”) in
+                    Jouanna’s text, which Pa. and Par. also lack; and the Syriac has no equivalent
+                    for the phrases <foreign xml:lang="gr">κατέστη ὑπὸ τοῦ δημιουργοῦ</foreign>
+                    (“made by the craftsman”) or <foreign xml:lang="gr">καὶ πάσης τῆς ὁρατῆς
+                        κτίσεως</foreign> (“and of every visible creature”), each of which is unique
+                    to P.<note place="foot" xml:id="ftn40" n="40"><p xml:lang="en"> For this passage
+                            Pa. is the closest to the Syriac among the four Greek manuscripts whose
+                            variant readings are recorded in Jouanna; both Par. and A. include
+                            several additional phrases that depart from the Syriac distinctly more
+                            than anything in Pa. Here and throughout the text, A.’s departures from
+                            the Syriac are particularly conspicuous.</p></note>
+                </p>
+                <p xml:lang="en"> Both the Syriac and the Greek then turn to the enumeration of
+                    various body parts. Here again the close parallels between the texts are
+                    unmistakable.</p>
+                <table rend="rules">
+                    <row>
+                        <cell>Syriac<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text"
+                                    > Chabot, “Notice,” 54.17-19.</p></note></cell>
+                        <cell>Greek<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">
+                                    Jouanna, “Un traité inédit,” 298.5-10.</p></note></cell>
+                    </row>
+                    <row>
+                        <cell><p xml:lang="en"><hi rend="italic">kolleh gūšmā da-treʿsar haddāmaw.
+                                    w-rukkābā da-tlātmā wa-štīn wa-štā minyānaw. w-quyyāmā d->ḥamšā
+                                    &lt;d-regšaw&gt;.</hi><note place="foot" xml:id="ftn43" n="43"
+                                        ><p xml:lang="en"> My emendation of Chabot’s <hi
+                                            rend="italic">d-reglaw</hi>, to be discussed below
+                                        (Chabot, “Notice,” 54.18).</p></note>
+                                <hi rend="italic">māʾtēn gēr w-arbʿīn wa-tmānyā garmīn mdabbqīn
+                                    b-barnāšā.</hi></p></cell>
+                        <cell><p xml:lang="en"><foreign xml:lang="gr">Στάσις ἐστὶ σεπτὴ ὅλον σῶμα.
+                                    Σῶμα δέ ἐστι δωδεκάμελον ματηρτισμένον εἰς τριακόσια ἑξήκοντα· ὁ
+                                    ἀριθμὸς αὐτοῦ οὗτος· στοιχεῖα δ´·αἷμα, φλέγμα, χολὴ ξανθὴ καὶ
+                                    χολὴ μέλαινα· αἰσθήσεις αὐτῷ πέντε· ὅρασις, ὄσφρησις, ἀκοή,
+                                    γεῦσις καὶ ἀφή. Κεκόλληνται δὲ τῷ ἀνθρώπῳ ὀστᾶ
+                                σμη´</foreign></p></cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="bold">And the whole body is of twelve members, and the
+                                composition three-hundred sixty-six. </hi>[As for] <hi rend="bold"
+                                >his numbers</hi>: his <hi rend="bold">state</hi> is of five &lt;of
+                            his <hi rend="bold">senses</hi>&gt;. <hi rend="bold">For two-hundred
+                                forty-eight bones are put together in man. </hi></cell>
+                        <cell>[His] <hi rend="bold">state</hi> is venerable with respect to the <hi
+                                rend="bold">whole body. His body is twelve-membered, compounded into
+                                three-hundred sixty-six</hi>; <hi rend="bold">its number </hi>is
+                            such: 4 elements: blood, phlegm, yellow bile and black bile. <hi
+                                rend="bold">Five senses</hi> are there: sight, smell, hearing, touch
+                            and taste. <hi rend="bold">248 bones are put together in
+                            man.</hi></cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Many parallels are immediately apparent here. The Syriac and the
+                    Greek agree in assigning the body “twelve members,” some kind of further
+                    subdivision into 366 parts, and 248 bones. In all likelihood, they also both
+                    declare “man” to have five senses: Chabot’s text has <hi rend="italic"
+                        >d-reglaw</hi> (&lt;drglwhy&gt;), “of his feet,” but this is one letter away
+                    from <hi rend="italic">d-regšaw</hi> (&lt;drgšwhy&gt;), “of his senses.”<note
+                        place="foot" xml:id="ftn44" n="44"><p xml:lang="en"> The seemingly excessive
+                            use of the Syriac conjunction/pronoun <hi rend="italic">d-</hi> here is
+                            worthy of attention; for Chabot it indicates a lacuna in the Syriac text
+                            (Ibid., 64, n. 7).</p></note> A discussion of the bones in the body
+                    follows this passage, starting with the bones in the foot, and it is not hard to
+                    imagine an inattentive copyist jumping the gun here, writing “feet” for
+                    “senses.” Finally, as in the case of the passage examined before this one, the
+                    Greek manuscripts Pa. and Par. are in a certain respect closer to the Syriac
+                    than Jouanna’s text, which prioritizes P. The most obvious difference between
+                    the Syriac and Jouanna’s Greek text here is Jouanna’s text’s enumeration of the
+                    four “elements” of the body, the humors, which is entirely lacking in the
+                    Syriac. As it happens, Par. entirely omits this section, while Pa. has “four
+                    elements,” but also lacks the specific detailing of the four humors.<note
+                        place="foot" xml:id="ftn45" n="45"><p xml:lang="en"> Everything from the
+                            beginning of the passage through the enumeration of the four humors is
+                            omitted in Par. (<foreign xml:lang="gr">Στάσις…μέλαινα</foreign>), while
+                            everything from “blood” through the “five” in “five senses” is omitted
+                            in Pa. (<foreign xml:lang="gr">αἷμα…πέντε</foreign>) (Jouanna, “Un
+                            traité inédit,” 298 [critical apparatus]). It is also noteworthy that
+                            although the Greek sentence “[His] state is venerable with respect to
+                            the whole body” (<foreign xml:lang="gr">στάσις ἐστὶ σεπτὴ ὅλον
+                                σῶμα</foreign>) has nothing directly corresponding to it in the
+                            Syriac text, two phrases from this sentence in the Greek do find
+                            isolated parallels a bit later in the Syriac passage quoted above:
+                            “whole body” (<hi rend="italic">kolleh gūšmā</hi>), and “state” (<hi
+                                rend="italic">quyyāmā</hi>). It is difficult to know quite what to
+                            make of this.</p></note></p>
+                <p xml:lang="en"> A detailed discussion of the bones in the body follows, in both
+                    Chabot’s Syriac text and the Greek. For this section, P., Pa. and Par. agree
+                    with Chabot’s Syriac against A., which has something almost entirely
+                        different.<note place="foot" xml:id="ftn46" n="46"><p xml:lang="en"> Aside
+                            from one sentence, on the “opening and closing” accomplished by certain
+                            bones near the heart, A.’s rendering of this section diverges entirely
+                            from those of P., Pa. and Par. (Jouanna, “Un traité inédit,”
+                            298.11-302.14).</p></note> The following table shows the numbers of
+                    bones the Syriac <hi rend="italic">On the Composition of Man</hi> and P., Pa.
+                    and Par. situate in each part of the body, in the order in which these figures
+                    occur in each manuscript (an empty cell designates that nothing in the given
+                    manuscript corresponds to whatever figures occur in the columns alongside
+                    it):</p>
+                <table rend="rules">
+                    <row>
+                        <cell>Syriac<note place="foot" xml:id="ftn47" n="47"><p xml:lang="en">
+                                    Chabot, “Notice,” 54.19-27.</p></note></cell>
+                        <cell>P.</cell>
+                        <cell>Pa.</cell>
+                        <cell>Par.<note place="foot" xml:id="ftn48" n="48"><p xml:lang="en"> P., Pa.
+                                    and Par. all from Jouanna, “Un traité inédit,”
+                                298.11-300.7.</p></note></cell>
+                    </row>
+                    <row>
+                        <cell><hi style="font-size:10pt">30 [total] in the feet, “5 and 5 again” in
+                                the sole of the foot</hi></cell>
+                        <cell><p style="text-align:left;"><hi style="font-size:10pt">“5 and 5 per
+                                    toe”; 5 in the sole of the foot</hi></p></cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                    </row>
+                    <row>
+                        <cell>3 in the knees</cell>
+                        <cell>3 in the knees</cell>
+                    </row>
+                    <row>
+                        <cell>2 in the thighs</cell>
+                        <cell>2 in the back of the knee<note place="foot" xml:id="ftn49" n="49"><p
+                                    rend="footnote text"> P., Pa., and Par. have <foreign
+                                        xml:lang="gr">ἄγκυον</foreign> (meaning unclear), <foreign
+                                        xml:lang="gr">αγγύλην</foreign> (a kind of javelin),
+                                        <foreign xml:lang="gr">άγκῶνα</foreign> (“bend in the arm or
+                                    leg”) here, respectively; Jouanna emends to <foreign
+                                        xml:lang="en">αγκύλην</foreign>, “back of the knee” (Ibid.,
+                                    298 [critical apparatus]).</p></note></cell>
+                    </row>
+                    <row>
+                        <cell>1 in the chest</cell>
+                        <cell>1 in the thigh<note place="foot" xml:id="ftn50" n="50"><p
+                                    xml:lang="en"> P., Pa. and Par. have <foreign xml:lang="gr"
+                                        >μιρὸν</foreign> (meaning unclear), <foreign xml:lang="gr"
+                                        >μηρὸν</foreign> (“thigh”), <foreign xml:lang="gr"
+                                        >μυρὸν</foreign> (“unguent”) here, respectively; Jouanna
+                                    opts for <foreign xml:lang="gr">μηρὸν</foreign>, “thigh” (Ibid.
+                                    [critical apparatus]).</p></note></cell>
+                    </row>
+                    <row>
+                        <cell>5 in the loins</cell>
+                        <cell>9 in the [region of?] the kidneys</cell>
+                        <cell>5 in the [region of?] the kidneys</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell>8 in the legs</cell>
+                        <cell rend="left"/>
+                    </row>
+                    <row>
+                        <cell>9 in the head</cell>
+                        <cell rend="left"/>
+                        <cell>7 in the head</cell>
+                        <cell>9 in the head</cell>
+                    </row>
+                    <row>
+                        <cell>8 in the neck</cell>
+                        <cell>5 in the neck</cell>
+                        <cell>8 in the neck</cell>
+                    </row>
+                    <row>
+                        <cell>5 in the palm of the hand</cell>
+                        <cell>5 in the palm of the hand<note place="foot" xml:id="ftn51" n="51"><p
+                                    rend="footnote text"> No “of the hand” in Par. (Ibid. [critical
+                                    apparatus]).</p></note></cell>
+                    </row>
+                    <row>
+                        <cell>5 in each finger</cell>
+                        <cell>5 per finger</cell>
+                        <cell>5 [lit. “five five”] per finger<note place="foot" xml:id="ftn52"
+                                n="52"><p rend="footnote text"> Pa.’s “five five” (<foreign
+                                        xml:lang="gr">πέντε πέντε</foreign>) finds a literal
+                                    parallel in the Syriac “five five” (<hi rend="italic">ḥamšā
+                                        ḥamšā</hi>), used in the same context (Ibid., 300 [critical
+                                    apparatus]; Chabot, “Notice,” 54.23). But while doubling a
+                                    number in Syriac expresses distribution--in this case, “five
+                                    each”--it has no particular meaning in Greek, which expresses
+                                    this kind of distribution by means of a preposition or prefix
+                                    (T. Nöldeke, <hi rend="italic">Compendious Syriac Grammar</hi>,
+                                    tr. J. A. Crichton [London: Williams &amp; Norgate, 1904], 186;
+                                    H. W. Smyth, <hi rend="italic">A Greek Grammar for
+                                    Colleges</hi>, Greek Series for Colleges and Schools
+                                    [Cincinnati: American Book Company, 1920], 106). This could be a
+                                    sign that the translation was made from Syriac to Greek, or that
+                                    the original Greek was somehow of a “Syriacizing” variety. Of
+                                    course, the duplication of a word is among the most frequent
+                                    errors for a copyist to make; and moreover it should be noted
+                                    that neither of the other two instances of distributive
+                                    repetition in the Syriac version of this passage (both of which
+                                    involve “one”) has this kind of literal parallel in any Greek
+                                    manuscript.</p></note></cell>
+                        <cell rend="left"/>
+                    </row>
+                    <row>
+                        <cell>3 in the back</cell>
+                        <cell>3 in the elbow</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell>2 in the arm</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell>1 in the shoulder</cell>
+                        <cell>1 in the “muscle”</cell>
+                    </row>
+                    <row>
+                        <cell>101 in the right side</cell>
+                        <cell>5 in the right side</cell>
+                        <cell>101 in the right side</cell>
+                        <cell>102 in the right side</cell>
+                    </row>
+                    <row>
+                        <cell>100 in the left side</cell>
+                        <cell>5 in the left side</cell>
+                        <cell>101 in the left side</cell>
+                        <cell>118 in the left side</cell>
+                    </row>
+                    <row>
+                        <cell>18 “ribs-vertebrae” in the back, “18 ribs are joined to them, these
+                            vertebrae”</cell>
+                        <cell>18 vertebrae in the lower back<note place="foot" xml:id="ftn53" n="53"
+                                    ><p rend="footnote text"> Par. omits the numeral (Jouanna, “Un
+                                    traité inédit,” 300 [critical apparatus]).</p></note></cell>
+                    </row>
+                    <row>
+                        <cell>6 in each shoulder</cell>
+                        <cell>6 in each shoulder</cell>
+                    </row>
+                    <row>
+                        <cell>3 in each arm</cell>
+                        <cell>3 in each arm</cell>
+                        <cell>[something else]<note place="foot" xml:id="ftn54" n="54"><p
+                                    xml:lang="en"> Jouanna notes that after giving the amount of
+                                    bones in the shoulder, Pa. has “another version,” and does not
+                                    correspond to P. and Par. again until the three manuscripts’
+                                    shared sentence on what “open and close [?] the members of the
+                                    body.” Unfortunately, Jouanna does not elaborate on the contents
+                                    of this “other version” attested only in Pa. (Ibid. [critical
+                                    apparatus]).</p></note></cell>
+                        <cell>3 in each arm</cell>
+                    </row>
+                    <row>
+                        <cell>5 in the openings of the heart</cell>
+                        <cell>5 in the opening of the heart</cell>
+                        <cell rend="left"/>
+                        <cell>5 in the opening of the heart</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell>“The ribs are 6. The false [ribs] are 5. And for the vertebrae of the
+                            lower back 14. For the right side 101. And for the left side 101. So
+                            that altogether the bones are 360.”</cell>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                    </row>
+                </table>
+                <p xml:lang="en">Here the broad trends we saw in the passages previously examined
+                    continue: the Syriac agrees closely with the Greek in general, and particularly
+                    closely with the manuscripts Pa. and Par. As can be seen in the table above,
+                    there are several instances in the discussion of the bones in which the Syriac
+                    agrees partially or completely with Pa. and Par. over P.; and there are no
+                    instances in which the Syriac agrees with P. over either Pa. or Par. These
+                    instances of the Syriac agreeing with Pa. and Par. against P. include: the
+                    Syriac, Pa. and Par. assigning five bones to the “loins” (in the Syriac) and
+                    “kidneys” (in the Greek), where P. assigns nine bones to this region; Pa., Par.
+                    and the Syriac addressing the bones of the head after those associated with the
+                    kidneys and loins, where P. discusses the bones in the legs; Pa., Par. and the
+                    Syriac assigning eight bones to the neck, as opposed to P.’s five; and Pa., Par.
+                    and the Syriac assigning a hundred or more bones to the right and left sides of
+                    the body, while P. locates only five in each side in the corresponding passage
+                    (though P. does register a figure more in line with Pa., Par. and the Syriac
+                    later in the text).</p>
+                <p xml:lang="en"> I will now discuss one recurring set of corresponding expressions
+                    in the Greek and Syriac, whose Greek component has already been puzzled over by
+                    Jouanna. Several times in the text, we have the corresponding phrases,
+                    perplexing in the Greek and Syriac alike, “transformation [or, once, “form”] of
+                    the back of the head [?]” (<foreign xml:lang="gr">μεταμόρφωσις</foreign> [or,
+                    once, <foreign xml:lang="gr">μόρφωσις</foreign>] <foreign xml:lang="gr">τοῦ
+                        ἐγκροτάφου</foreign> ) in Greek, and “form [?] of the brain” (&lt;ṣwrtʾ&gt;
+                    [the vocalization is uncertain—perhaps <hi rend="italic">ṣūrtā</hi>?] <hi
+                        rend="italic">d-mūḥā</hi>) in Syriac.<note place="foot" xml:id="ftn55"
+                        n="55"><p xml:lang="en"> Ibid., 304.5, 9-10, 306.3, and (with <foreign
+                                xml:lang="gr">μόρφωσις τοῦ ἐγκροτάφου)</foreign> 9-10. Chabot,
+                            “Notice,” 55.10, 13-14; 56.24.</p></note>
+                </p>
+                <p xml:lang="en"> The Greek <foreign xml:lang="gr">μεταμόρφωσις</foreign>/<foreign
+                        xml:lang="gr">μόρφωσις τοῦ ἐγκροτάφου</foreign> is a difficult expression to
+                    understand. <foreign xml:lang="gr">Ἐγκρόταφος</foreign> is only otherwise
+                    attested in the <hi rend="italic">Etymologicon Gudianum</hi>, where it is
+                    glossed as <foreign xml:lang="gr">ἀντικέφαλος</foreign>, “back of the head,”
+                    though Jouanna opts for “part of the head between the temples” on the basis of
+                    the word’s derivation (<foreign xml:lang="gr">ἐν</foreign>-, “inside” + <foreign
+                        xml:lang="gr">κρόταφος</foreign>, “temple”).<note place="foot"
+                        xml:id="ftn56" n="56"><p xml:lang="en"> Jouanna, “Un traité inédit,” 294; E.
+                            L. de Stefani, <hi rend="italic">Etymologicum Gudianum quod vocatur</hi>
+                            (Leipzig: Teubner, 1909), 395.1-3.</p></note> As for <foreign
+                        xml:lang="gr">μεταμόρφωσις</foreign>, Jouanna simply observes that this word
+                    “cannot have its usual sense of transformation here,” and leaves it untranslated
+                    in each of its attestations, rendering the entire phrase <foreign xml:lang="gr"
+                        >μεταμόρφωσις</foreign>/<foreign xml:lang="gr">μόρφωσις τοῦ
+                        ἐγκροτάφου</foreign> simply as “the part of the head between the
+                        temples.”<note place="foot" xml:id="ftn57" n="57"><p xml:lang="en"> Jouanna,
+                            “Un traité inédit,” 305, n. 10, and 307.</p></note> Probably because of
+                    the strangeness of the phrase, the Greek manuscripts have significant
+                    discrepancies in their renderings of it; <foreign xml:lang="gr">κρόταφος
+                    </foreign>(“temple”) often occurs as a variant for the scantily attested
+                        <foreign xml:lang="gr">ἐγκρόταφος</foreign> (“the back of the head”?), as
+                    does <foreign xml:lang="gr">μορφή</foreign> (“form”) for the more complex
+                        <foreign xml:lang="gr">μεταμόρφωσις</foreign> (“transformation”), or for the
+                    rarer <foreign xml:lang="gr">μόρφωσις</foreign> (“form”). It is only in P. that
+                    the phrase consistently occurs as <foreign xml:lang="gr">μεταμόρφωσις</foreign>
+                    (or, once, <foreign xml:lang="gr">μόρφωσις</foreign>) <foreign xml:lang="gr">τοῦ
+                        ἐγκροτάφου</foreign> . The overall tendency of Pa. and Par. (in which
+                    variants such as <foreign xml:lang="gr">κρόταφος</foreign> and <foreign
+                        xml:lang="gr">μορφή</foreign> often occur) to agree with the Syriac against
+                    P. should raise some questions about whether P.’s reading of <foreign
+                        xml:lang="gr">μεταμόρφωσις</foreign>/ <foreign xml:lang="gr">μόρφωσις τοῦ
+                        ἐγκροτάφου</foreign> is the correct one here.<note place="foot"
+                        xml:id="ftn58" n="58"><p xml:lang="en"> Ibid., 304, 306 [critical
+                            apparatus].</p></note> Nonetheless, in my estimation here the principle
+                    of <hi rend="italic">lectio difficilior</hi> should override whatever general
+                    fidelity to the original Pa. and Par.’s broader closeness to the Syriac implies;
+                    it seems likely that a difficult phrase like this would have been simplified and
+                    clarified in the course of its transmission, and that P. preserves an older
+                    reading that has been adjusted in other manuscripts.</p>
+                <p xml:lang="en"> The Syriac phrase &lt;ṣwrtʾ&gt; <hi rend="italic">d-mūḥā</hi>
+                    presents its own difficulties. As for its distribution in the text, its three
+                    attestations correspond directly to the last three attestations (out of four) of
+                        <foreign xml:lang="gr">μεταμόρφωσις</foreign>/<foreign xml:lang="gr"
+                        >μόρφωσις τοῦ ἐγκροτάφου</foreign> in the Greek--the first attestation of
+                    this phrase in the Greek corresponds to “upper entrance” (<hi rend="italic"
+                        >tarʿā ʿillāyā</hi>) in the Syriac.<note place="foot" xml:id="ftn59" n="59"
+                            ><p rend="footnote text"> Chabot, “Notice,” 55.1-2; Jouanna, “Un traité
+                            inédit,” 304.5.</p></note> In his translations of &lt;ṣwrtʾ&gt; <hi
+                        rend="italic">d-mūḥā</hi>, Chabot consistently renders &lt;ṣwrtʾ&gt; as <hi
+                        rend="italic">cervix</hi>, “nape”, claiming that the word’s literal meaning
+                    is <hi rend="italic">collum</hi>, “neck,” and suggesting that the whole phrase
+                    &lt;ṣwrtʾ&gt; <hi rend="italic">d-mūḥā</hi> designates the “cerebellum,” the
+                    part of the brain in the back of the skull.<note place="foot" xml:id="ftn60"
+                        n="60"><p xml:lang="en"> Chabot, “Notice,” 65, n. 4., and 66.</p></note>
+                    Chabot’s suspicion that &lt;ṣwrtʾ&gt; means something other than simply “neck”
+                    here finds support not only in the obscurity of the phrase “neck of the brain,”
+                    but also in the fact that the most common Syriac word for “neck,” <hi
+                        rend="italic">ṣawrā</hi> (spelled &lt;ṣwrʾ&gt;), is attested earlier in the
+                    text (directly corresponding to <foreign xml:lang="gr">τραχήλος</foreign>, also
+                    “neck,” in the Greek).<note place="foot" xml:id="ftn61" n="61"><p xml:lang="en">
+                            Ibid., 54.22; Jouanna, “Un traité inédit,” 298.14.</p></note> But
+                    Chabot’s reading of &lt;ṣwrtʾ&gt; <hi rend="italic">d-mūḥā</hi>, while
+                    persuasive to a certain extent, is on somewhat shaky ground in its own right; I
+                    have been unable to find anything in the lexica for &lt;ṣwrtʾ&gt; as “nape,”
+                    “neck” or, indeed, a word referring directly to any part of the body. The most
+                    common meaning of &lt;ṣwrtʾ&gt; is “form” (in the vocalization <hi rend="italic"
+                        >ṣūrtā</hi>) though we also have the identically-spelled <hi rend="italic"
+                        >ṣāwartā</hi> recorded on its own with the meaning of “insanity” or
+                    “confusion” and “ringing of the ears” in Mannā’s Syriac lexicon.<note
+                        place="foot" xml:id="ftn62" n="62"><p xml:lang="en"> J. E. Mannā, <hi
+                                rend="italic">Chaldean-Arabic Dictionary</hi> (Beirut: Babel Center,
+                            1975), 623. </p></note></p>
+                <p xml:lang="en"> Neither the Greek nor the Syriac phrase, then, has a particularly
+                    obvious meaning in itself; hence, neither is obviously a translation of the
+                    other. The correspondence between the most common meaning of &lt;ṣwrtʾ&gt;,
+                    “form” (with the vocalization <hi rend="italic">ṣūrtā</hi>) and those of the
+                    Greek words <foreign xml:lang="gr">μεταμόρφωσις</foreign> and <foreign
+                        xml:lang="gr">μόρφωσις</foreign>, “transformation” and “form,” respectively,
+                    is surely significant, as is the correspondence between the meanings of Syriac
+                        <hi rend="italic">mūḥā</hi>, “brain,” and Greek <foreign xml:lang="gr"
+                        >ἐγκρόταφος</foreign>, which clearly has to do with the head; but what was
+                    translated into what? We have signs pointing both ways. On the one hand, the
+                    fact that &lt;ṣwrtʾ&gt; is so similar to the Syriac word for “neck” (<hi
+                        rend="italic">ṣawrā</hi>), and that a word with this spelling, <hi
+                        rend="italic">ṣāwartā</hi>, has two further meanings having to do with
+                    health problems (“ringing of the ears”; “insanity” or “confusion”), could sway
+                    us to take &lt;ṣwrtʾ&gt; <hi rend="italic">d-mūḥā</hi> as a scantily attested
+                    phrase with an anatomical significance in Syriac. The sense of this phrase could
+                    have eluded a Greek translator, who simply did the best he could with the only
+                    meaning of &lt;ṣwrtʾ&gt; known to him: “form.” Speaking for a Greek to Syriac
+                    direction, on the other hand, is the obscurity of the word <foreign
+                        xml:lang="gr">ἐγκρόταφος</foreign>: why would a translator working from
+                    Syriac to Greek use such an arcane word to render <hi rend="italic">mūḥā</hi>,
+                    “brain,” with the more straightforward <foreign xml:lang="gr">ἐγκέφαλος also
+                        available to him?</foreign><note place="foot" xml:id="ftn63" n="63"><p
+                            xml:lang="en">
+                            <foreign xml:lang="gr">ἐγκέφαλος</foreign> occurs later in the text
+                            (Jouanna, “Un traité inédit,” 310.3, 6). </p></note> Moreover, it is
+                    conceivable, of course, that in the context in which it occurs <hi
+                        style="font-family:SBL Greek">μεταμόρφωσις</hi> could have an anatomical
+                    sense in Greek as well, as a technical term referring to a specific part of the
+                    body; &lt;ṣwrtʾ&gt; <hi rend="italic">d-mūḥā</hi> could be an attempt at
+                    rendering an unfamiliar Greek expression on the part of a Syriac translator.</p>
+            </div>
+            <div xml:id="hv22n1benfey.3" xml:lang="en">
+                <head>III. Concluding Discussion</head>
+                <p xml:lang="en">As discussed above, definitive conclusions about the direction,
+                    place, and time of the translation that the profound correspondences between
+                    these texts indicate will have to await an edition of the Syriac text that
+                    incorporates all relevant manuscripts, as well as, perhaps, a revision of
+                    Jouanna’s text prioritizing the Greek manuscripts that tend to be closer to the
+                    Syriac. As far as these details go, at this point we only have a definite <hi
+                        rend="italic">terminus ante quem</hi> for the Syriac text: the composition
+                    of George Wardā’s poem on “man as microcosm” in the thirteenth century, which,
+                    as Gignoux has convincingly demonstrated, draws upon the Syriac <hi
+                        rend="italic">On the Composition of Man </hi>attributed to Aḥūdemmeh
+                        Anṭīpaṭrōs.<note place="foot" xml:id="ftn64" n="64"><p xml:lang="en">
+                            Gignoux, “Anatomie et physiologie humaine,” 233-8.</p></note>
+                    Consequently, the following suggestions remain equivocal and provisional. </p>
+                <p xml:lang="en"> I will begin with the direction of the translation. The limited
+                    collection of textual comparisons I have presented here does not decisively
+                    point either way (nor have I been able to find anything conclusive in the rest
+                    of the text), and this question is worth a comprehensive treatment once the
+                    Syriac <hi rend="italic">On the Composition of Man</hi> is available in a better
+                    edition. At this point, several indications suggest that the original language
+                    of the text was most likely Greek: the likely original attribution of the entire
+                    Syriac <hi rend="italic">On the Composition of Man </hi>to “Anṭīpaṭrōs,” as
+                    convincingly argued by Chabot and Reinink; the many Greek philosophers and
+                    physicians cited within the Syriac text; and, perhaps most importantly, the fact
+                    that many more translations are known to have been made from Greek into Syriac
+                    than from Syriac into Greek. If it is the case that the direction of the
+                    translation is Greek to Syriac, this would fix the likely date of composition
+                    for both the Greek and the Syriac between the sixth and ninth centuries, within
+                    the period of known medical translation activity from Greek into Syriac.<note
+                        place="foot" xml:id="ftn65" n="65"><p xml:lang="en"> On the relative numbers
+                            of Greek-to-Syriac and Syriac-to-Greek translations, see S. P. Brock,
+                            “Greek into Syriac and Syriac into Greek” in S. P. Brock, <hi
+                                rend="italic">Syriac Perspectives on Late Antiquity</hi>, Collected
+                            Studies 199 (Aldershot: Variorum, 1984), 11. This range of centuries for
+                            Greek-to-Syriac medical translations has been most recently given in A.
+                            Muraviev, “La médecine thérapeutique en syriaque” in <hi rend="italic"
+                                >Les sciences en syriaque</hi>, Études syriaques 11, ed. E. Villey
+                            (Paris: Geuthner, 2014), 264. More has come to light since the
+                            publication of this article, but for orientation on these medical
+                            translations see those listed in R. Degen, “<hi rend="italic">Ein Corpus
+                                Medicorum Syriacorum</hi>” (<hi rend="italic">Medizinhistorisches
+                                Journal</hi> 7.1/2 [1972]), 114–22.</p></note> In this scenario the
+                    Greek text would have likely been initially translated into Syriac on its own,
+                    and then subsequently incorporated into <hi rend="italic">On the Composition of
+                        Man</hi>, alongside what were originally separate texts. </p>
+                <p xml:lang="en"> If, on the other hand, the direction of the translation is Syriac
+                    to Greek—the less likely possibility, though some of the results of my
+                    preliminary comparative analysis of the Greek and Syriac texts suggest that this
+                    may have been the case—the range of plausible dates for each text’s composition
+                    widens considerably. Translations from Syriac to Greek are firmly attested from
+                    the third century through the eleventh century, and while the overall number of
+                    such translations is quite low, and nothing medical is included among them, the
+                    possibility cannot be excluded that this work went from Syriac to Greek at some
+                    point during this stretch.<note place="foot" xml:id="ftn66" n="66"><p
+                            rend="footnote text"> S. P. Brock, “Greek into Syriac and Syriac into
+                            Greek,” 11-17.</p></note> Touwaide, meanwhile, has noted several
+                    Byzantine Greek medical manuscripts that are either attributed to a “Syrian”
+                    author or designated as “Syriac” themselves, construing them as part of a
+                    broader “transfer of knowledge from the Arabic to the Byzantine world,” taking
+                    place from the tenth century through the fourteenth, and ultimately resulting in
+                    “Arabic medicine” being “massively present in late thirteenth- and early
+                    fourteenth-century Constantinople.”<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text"> See the list of texts in A. Touwaide, “Arabic into
+                            Greek: The Rise of an International Lexicon of Medicine in the Medieval
+                            Eastern Mediterranean?” in <hi rend="italic">Vehicles of Transmission,
+                                Translation and Transformation in Medieval Textual Culture</hi>,
+                            Cursor Mundi 4, ed. C. Fraenkel, F. Wallis, R. Wisnovsky and J. C. Fumo,
+                            200, 207-8; Id. “The Jujube Tree in the Eastern Mediterranean: A Case
+                            Study in the Methodology of Textual Archaeobotany” in <hi rend="italic"
+                                >Health and Healing from the Medieval Garden</hi>, ed. P. Dendle and
+                            A. Touwaide (Woodbridge/Rochester: Boydell, 2008), 98.</p></note> The
+                    linguistic origins of these texts have yet to be thoroughly investigated, but it
+                    is possible that this corpus includes some translations of Syriac medical texts
+                    into Greek, which would have been made sometime between the tenth and fourteenth
+                    centuries, according to Touwaide’s reckoning; the hypothetical Syriac-to-Greek
+                    translation now under discussion could have been part of this trend. The
+                    scenario here would be either of the following, each somewhat involved, but not
+                    impossible: a pseudo-Hippocratic work was initially composed in Syriac,
+                    incorporated into the <hi rend="italic">Treatise on the Composition of Man
+                    </hi>attributed to Aḥūdemmeh Anṭīpaṭrōs, and independently translated into
+                    Greek; or the Greek <hi rend="italic">On the Composition of Man</hi> was based
+                    on an excerpt from the longer Syriac work attributed to Aḥūdemmeh Anṭīpaṭrōs. In
+                    the latter scenario, we can hypothesize that the Greek translator misconstrued
+                    the concluding sentence of the portion of the Syriac text that corresponds to
+                    the Greek pseudo-Hippocratic treatise, “thus said the great Hippocrates,” as
+                    referring to the entire section of the text leading up to it, rather than simply
+                    the preceding sentence (as it almost certainly does).<note place="foot"
+                        xml:id="ftn68" n="68"><p xml:lang="en"> Chabot, “Notice,” 57.7. On the
+                            significance of this attribution to Hippocrates, see 8 above.
+                        </p></note> Of course, neither scenario, in itself, would imply any
+                    particular <hi rend="italic">terminus post quem</hi> for the composition of the
+                    Syriac text; and the Greek translation could have happened after the
+                    thirteenth-century <hi rend="italic">terminus ante quem</hi> (discussed above)
+                    for the Syriac text’s composition. </p>
+                <p xml:lang="en"> As for what the philological data say about the Greek and Syriac
+                    texts’ respective dates, any conclusions on this basis must await an updated
+                    edition of the Syriac text (as well as, perhaps, the Greek), but it is worth
+                    noting that I could find nothing conspicuously late in the Syriac text: the text
+                    contains no loanwords from Arabic, nor was I able to discern any other
+                    linguistic features (such as a proliferation of certain adjectives in <hi
+                        rend="italic">-āyā</hi>, or nouns in <hi rend="italic">-ānā</hi> and <hi
+                        rend="italic">-ānūtā</hi>) suggesting that the composition of the text
+                    postdates the sixth century.<note place="foot" xml:id="ftn69" n="69"><p
+                            xml:lang="en"> On philological criteria for dating Syriac texts, see S.
+                            P. Brock, “The Syriac Background to Ḥunayn’s Translation Techniques,”
+                                (<hi rend="italic">Aram</hi> 3.1&amp;2 [1991]), 139–62; Id.
+                            “Diachronic Aspects of Syriac Word Formation: An Aid for Dating
+                            Anonymous Texts” in <hi rend="italic">V Symposium Syriacum 1988:
+                                Katholieke Universiteit, Leuven, 29-31 Août 1988</hi>, Orientalia
+                            Christiana Analecta 236, ed. R. Lavenant (Rome: Pont. Institutum
+                            Studiorum Orientalium, 1990), 321-330; Id. “A Criterion for Dating
+                            Undated Syriac Texts: The Evidence from Adjectival Forms in -Aya.” (<hi
+                                rend="italic">Parole de l’Orient</hi> 35 [2010]), 111–24.</p></note>
+                    Interestingly, the spelling of “Hippocrates” in the Syriac text,
+                    &lt;ywpqrṭys&gt;, finds no exact parallel in the Syriac corpus aside from the
+                    Syriac <hi rend="italic">Epidemics</hi>, a translation of an Alexandrian
+                    super-commentary on Galen’s commentary on Hippocrates’ <hi rend="italic"
+                            >Epidemics.<note place="foot" xml:id="ftn70" n="70"><p xml:lang="en">
+                                Chabot, “Notice” 54.10, 55.7. G. Kessel, “The Syriac Epidemics and
+                                the Problem of Its Identification” in <hi rend="italic">Epidemics in
+                                    context: Greek commentaries on Hippocrates in the Arabic
+                                    tradition</hi>, Scientia Greco-Arabica 8, ed. P. Pormann
+                                (Berlin/Boston: de Gruyter, 2012), 120.</p></note> The Syriac <hi
+                            rend="italic">Epidemics</hi> is quite early; our sole manuscript was
+                        copied no later than 705 CE, in Khuzestān, and in large part on these
+                        grounds Kessel has argued that Sergius of Rešʿaynā translated the text from
+                        Greek into Syriac during the sixth century.<note place="foot" xml:id="ftn71"
+                            n="71"><p xml:lang="en"> Ibid., 97-8.</p></note> &lt;ywpqrṭ</hi>ys&gt;
+                    is clearly closer to Sergius’ favored spelling, &lt;ypqṭrys&gt;, than it is to
+                    Ḥunayn’s &lt;ʾyppwqrʾṭys&gt;, which follows the Greek much more closely, but it
+                    should be noted that it is not identical to Sergius’ spelling.<note place="foot"
+                        xml:id="ftn72" n="72"><p xml:lang="en"> Ibid., 120.</p></note> In any case,
+                    this spelling of Hippocrates suggests that “Aḥūdemmeh Anṭīpaṭrōs’s” <hi
+                        rend="italic">Treatise on the Composition of Man</hi> was composed before
+                    Ḥunayn’s <hi rend="italic">floruit </hi>in the ninth century, and perhaps in the
+                    same milieu (or even by the same writer) as the Syriac <hi rend="italic"
+                        >Epidemics</hi>. </p>
+                <p xml:lang="en"> Jouanna has singled out the Greek text’s usage of <foreign
+                        xml:lang="gr">συγκερασμός</foreign> for “mixture,” as opposed to the more
+                    usual <foreign xml:lang="gr">μίξις</foreign>, <foreign xml:lang="gr"
+                        >κρᾶσις</foreign>, and derivatives thereof, as an unusual feature of the
+                    text. Jouanna observes that this word is quite rare; it is recorded in the <hi
+                        rend="italic">Corpus Glossarium Latinorum</hi>, but is only otherwise
+                    attested in a twelfth-century Byzantine chronicle, referring to a mixture of
+                    colors. For Jouanna this suggests a late date of composition for the Greek,
+                    though he holds off on drawing any firm conclusions on this basis.<note
+                        place="foot" xml:id="ftn73" n="73"><p xml:lang="en"> Jouanna, “Un traité
+                            inédit,” 294-5.</p></note> But given that <foreign xml:lang="gr"
+                        >συγκερασμός</foreign> also occurs in a passage from the <hi rend="italic"
+                        >Sayings of the Desert Fathers</hi>, which was almost certainly composed
+                    prior to the sixth century, an attestation overlooked by Jouanna, there is
+                    little reason to posit a late date for the Greek text on the basis of its use of
+                    this word.<note place="foot" xml:id="ftn74" n="74"><p rend="footnote text"> J-C.
+                            Guy, <hi rend="italic">Les apophtegmes des Pères: collection
+                                systématique</hi>, Sources chrétiennes 387 (Paris: Editions du Cerf,
+                            1993), vol. I, 208.3. This passage’s presence in a sixth-century Latin
+                            translation of the <hi rend="italic">Sayings</hi> furnishes a solid <hi
+                                rend="italic">terminus ante quem</hi> for its composition in Greek
+                            (on the Latin translation, see the discussion in J. Wortley, <hi
+                                rend="italic">The Anonymous Sayings of the Desert Fathers: A Select
+                                Edition and Complete English Translation</hi> [New York: Cambridge
+                            University Press, 2013], 2; the Latin passage itself, where <foreign
+                                xml:lang="gr">συγκερασμός</foreign> is rendered as <hi rend="italic"
+                                >modicum</hi>, can be found in the <hi rend="italic">Patrologia
+                                Latina </hi>reprint of Rosweyde’s 1612 edition of Pelagius and
+                            John’s <hi rend="italic">Verba Seniorum</hi> [<hi rend="italic">PL
+                            </hi>73:869.36-7]). I thank Reviewer 2 at <hi rend="italic">Hugoye
+                            </hi>for bringing this early attestation of <foreign xml:lang="gr"
+                                >συγκερασμός</foreign> to my attention.</p></note> Still, the rarity
+                    of <foreign xml:lang="gr">συγκερασμός</foreign> is noteworthy nonetheless; and
+                    it is worth mentioning in this connection that two of the very few known
+                    attestations of a close relative of <foreign xml:lang="gr">συγκερασμός</foreign>
+                    with the same meaning of “mixture,” <foreign xml:lang="gr">συγκέρασμα</foreign>,
+                    apparently occur in purported Greek translations of Syriac texts: the <hi
+                        rend="italic">Homily On Virtue and Vice</hi> attributed to Ephrem, which may
+                    simply be an original Greek composition; and (probably) the Greek version of a
+                    homily of Isaac of Nineveh, whose roots in Isaac’s original Syriac are not in
+                        doubt.<note place="foot" xml:id="ftn75" n="75"><p xml:lang="en"> References
+                            found in <hi rend="italic">Lexikon zur byzantinischen Gräzität</hi>,
+                            s.v. “<foreign xml:lang="gr">συγκέρασμα.</foreign>” The places where
+                            these attestations of <foreign xml:lang="gr">συγκέρασμα</foreign> occur
+                            are, respectively, K. G. Phrantzolas, <hi rend="italic">Hosiou Ephraim
+                                tou Syrou erga</hi> (Thessalonike: Ekdoseis to Perivoli tēs
+                            Panagias, 1995), vol. I, 68.8 [lower portion of page]; and, according to
+                            the <hi rend="italic">LBG</hi>, N. Theotokēs, <hi rend="italic">Tou
+                                Hosiou patros hēmōn Isaak episkopou Nineui tou Syrou Ta heurentha
+                                askētika</hi> (Athens: Ek tou Typographeiou Paraskeua Leōnē, 1895),
+                            219. I have been unable to locate <foreign xml:lang="gr"
+                                >συγκέρασμα</foreign> on this page or nearby in Theotokēs’s edition,
+                            however. One cannot be certain about this, but it seems most likely that
+                            the word occurs somewhere in these translations of Isaac, and that the
+                                <hi rend="italic">LBG</hi>’s authors have simply made a mistake with
+                            the page number—that they have not erroneously assigned an attestation
+                            of <foreign xml:lang="gr">συγκέρασμα</foreign> to these texts, where
+                            none actually exists. On the disputed origins of this homily attributed
+                            to Ephrem, see D. Hemmerdinger-Iliadou, “Ephrem, Les versions, I, Ephrem
+                            Grec” in <hi rend="italic">Dictionnaire de Spiritualité</hi>, vol. IV
+                            (Paris: Beauchesne, 1960-61), 808. On these early Greek translations of
+                            Isaac’s works, made in the ninth century, see S. P. Brock “Greek into
+                            Syriac and Syriac into Greek,” 15-16.</p></note></p>
+                <p xml:lang="en"> As for the Syriac text’s place of origin, the nature of the
+                    manuscripts in which it occurs likely speaks to this. The <hi rend="italic"
+                        >Treatise on the Composition of Man</hi> attributed to Aḥūdemmeh Anṭīpaṭrōs
+                    is known to have been transmitted in three East Syriac manuscripts, all of which
+                    also contain a likely extract from the <hi rend="italic">Book of Medicine
+                    </hi>authored by Šemʿōn of Ṭaibūteh, and two of which have a portion of the
+                    anonymous Syriac <hi rend="italic">Book of Medicines (eventually edited by
+                            Budge).<note place="foot" xml:id="ftn76" n="76"><p xml:lang="en"> The
+                                contents of CSCO Syr. 21 are discussed in Chabot, “Notice,” 51-3 and
+                                A. de Halleux, “Les manuscrits syriaques du <hi rend="italic"
+                                    >CSCO</hi>” (<hi rend="italic">Le Muséon </hi>100 [1987]), 45,
+                                while the contents of the other two manuscripts, Mingana Syr. 589
+                                and BJI 13, are discussed in Kessel, “Field Notes,” 421-8; and
+                                Mingana, <hi rend="italic">Catalogue</hi>, vol. I, 1125-1127,
+                                respectively.</p></note> While texts could and did circulate between
+                        West and East Syrian communities in late antiquity, the fact that this
+                        treatise is consistently attested in East Syriac manuscripts, as well as its
+                        association with two texts whose origins lie in the territory of the former
+                        Sasanian Empire--the anonymous <hi rend="italic">Book of Medicines </hi>and
+                        a work probably to be attributed to Šemʿōn of Ṭ</hi>aibūteh, an East Syrian
+                    monk based in seventh-century Khuzestān--suggest that this treatise, too, was
+                    initially composed or translated by an East Syrian Christian, and circulated
+                    among members of this community from an early stage, whether in the Sasanian
+                    Empire itself, or in the Empire’s erstwhile territories in the centuries
+                    following the Islamic conquest.<note place="foot" xml:id="ftn77" n="77"><p
+                            rend="footnote text"> On texts circulating between East and West Syrian
+                            communities, see J. Tannous, “Greek Kanons and the Syrian Orthodox
+                            Liturgy” in <hi rend="italic">Prayer and Worship in Eastern
+                                Christianities, 5th to 11th Centuries</hi>, ed. B. Bitton-Ashkelony
+                            and D. Krueger (New York: Routledge, 2017), 161-166. On the linguistic
+                            features of the <hi rend="italic">Syriac Book of Medicines </hi>that
+                            suggest an origin in territories in which Middle Persian was spoken
+                            (i.e. the Sasanian Empire itself, or its former territories), see P.
+                            Gignoux, “La Pharmacopée Syriaque Exploitée D’un Point de Vue
+                            Linguistique” (<hi rend="italic">Le Muséon</hi> 124.1–2 [2011]), 11–26.
+                            On the life and career of Šemʿōn of Ṭaibūteh, and the case for his
+                            authorship of the work entitled <hi rend="italic">From the Book of
+                                Medicine </hi>often (but not always) attested next to the treatise
+                            attributed to Aḥūdemmeh Anṭīpaṭrōs, see Kessel, “La position de Simon de
+                            Taibuteh.” </p></note>
+                    <note place="foot" xml:id="ftn78" n="78"><p xml:lang="en">* I thank Jack
+                            Tannous, Michael Cook, Joe Glynias, Grigory Kessel, Mark Geller, and the
+                            three anonymous peer reviewers for their valuable advice and criticisms,
+                            which have improved this article considerably. Of course, the
+                            responsibility for any remaining defects lies with me alone.
+                            Yoeli-Tlalim’s “Exploring Persian Lore in the Hebrew <hi rend="italic"
+                                >Book of Asaf</hi>” (<hi rend="italic">Aleph </hi>18:1 [2018])
+                            reached my attention too late to substantially figure into this article.
+                            In connection with Yoeli-Tlalim’s important contribution, I will
+                            restrict myself to the following brief note. One of Yoeli-Tlalim’s
+                            central findings is that the Syriac text attributed to “Aḥūdemmeh
+                            Anṭīpaṭrōs” has a close parallel in a lengthy passage from the
+                                Hebrew <hi rend="italic">Sefer Asaf</hi>. For Yoeli-Tlalim, this
+                            (along with some other distinctly Iranian features of the text,
+                            including month names and a history of science that parallels that of
+                            Abū Sahl b. Nawbakht) indicates that <hi rend="italic">Sefer
+                            Asaf</hi> derived, at least in part from “Syriac medical literature of
+                            the Eastern Church in Persia” (Yoeli-Tlalim, “Exploring Persian Lore,”
+                            138-145). At first glance, it may seem that the existence of this Hebrew
+                            parallel poses complications for my main argument in this article--that
+                            the similarity between these Syriac and Greek texts reflects the fact
+                            that one was directly translated from the other. But although the
+                            possibility that the Hebrew served as an intermediary between the Syriac
+                            and the Greek cannot be ruled out, I do not find this likely; there is a
+                            much greater incidence of texts moving between Syriac and Greek in late
+                            antiquity than between Greek and Hebrew, and, as far as I know, no
+                            secular text has been demonstrated to have gone either from Greek into
+                            Hebrew, or from Hebrew into Greek, during this period. </p></note>*</p>
+            </div>
+            <div type="bibliogrpahy" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl>Assemani, J. <hi rend="italic">Bibliotheca Orientalis
+                            Clementino-Vaticana</hi>. Vol. 3.1. Rome: Sacrae Congregationis de
+                        Propaganda Fide, 1725.</bibl>
+                    <bibl>Brock, S. P. “A Criterion for Dating Undated Syriac Texts: The Evidence
+                        from Adjectival Forms in -Aya.” <hi rend="italic">Parole de l’Orient</hi> 35
+                        (2010): 111–24.</bibl>
+                    <bibl>———. “Diachronic Aspects of Syriac Word Formation: An Aid for Dating
+                        Anonymous Texts.” In <hi rend="italic">V Symposium Syriacum 1988: Katholieke
+                            Universiteit, Leuven, 29-31 Août 1988</hi>, ed. R. Lavenant. Rome: Pont.
+                        Institutum Studiorum Orientalium, 1990: 321-330.</bibl>
+                    <bibl>———. “Greek into Syriac and Syriac into Greek.” <hi rend="italic">Journal
+                            of the Syriac Academy</hi> 3 (1977): 406–22.</bibl>
+                    <bibl>———. “The Syriac Background to Ḥunayn’s Translation Techniques.” <hi
+                            rend="italic">Aram</hi> 3:1&amp;2 (1991): 139–62.</bibl>
+                    <bibl>Chabot, J.-B. “Notice sur deux manuscrits contenant les oeuvres du moine
+                        Isaac de Rabban Isho et du métropolitain Aḥoudemmeh.” <hi rend="italic"
+                            >Notices et extraits des manuscrits de la Bibliothèque Nationale et
+                            autres bibliothèques</hi> 43 (1943): 43–76.</bibl>
+                    <bibl>Degen, R. “Ein Corpus Medicorum Syriacorum.” <hi rend="italic"
+                            >Medizinhistorisches Journal</hi> 7:1/2 (1972): 114–22.</bibl>
+                    <bibl>Gignoux, P. “Anatomie et physiologie humaine chez un auteur syriaque,
+                        Ahūhdemmeh.” <hi rend="italic">Comptes rendus des séances de l’Académie des
+                            Inscriptions et Belles-Lettres</hi> 142:1 (1998): 231–42.</bibl>
+                    <bibl>———. “La pharmacopée syriaque exploitée d’un point de vue linguistique.”
+                            <hi rend="italic">Le Muséon</hi> 124:1–2 (2011): 11–26.</bibl>
+                    <bibl>Guy, J.-C. <hi rend="italic">Les apophtegmes des Pères: collection
+                            systématique</hi>. Sources chrétiennes 387. 3 vols. Paris: Editions du
+                        Cerf, 1993.</bibl>
+                    <bibl>de Halleux, A. “Les manuscrits syriaques du <hi rend="italic">CSCO</hi>.”
+                            <hi rend="italic">Le Muséon</hi> 100 (1987): 35–48.</bibl>
+                    <bibl>Hemmerdinger-Iliadou, D. “Ephrem, Les versions, I, Ephrem Grec.” In <hi
+                            rend="italic">Dictionnaire de Spiritualité</hi>. Vol. IV, ed. M.
+                        Villier, F. Cavallera and J. de Guibert. Paris: Beauchesne, 1960-61:
+                        800-815.</bibl>
+                    <bibl>Jansma, T. “Une homélie anonyme sur la création du monde.” <hi
+                            rend="italic">L’Orient Syrien</hi> 5 (1960): 385–400.</bibl>
+                    <bibl>Jones, W. H. S. <hi rend="italic">Hippocrates</hi>. Vol. I<hi
+                            rend="italic">.</hi> Loeb Classical Library. New York: Putnam,
+                        1923.</bibl>
+                    <bibl>Jouanna, J. “Un traité inédit attributé à Hippocrate, <hi rend="italic"
+                            >Sur la formation de l’homme</hi>: <hi rend="italic">Editio
+                            princeps</hi>.” In <hi rend="italic">Ecdotica e ricezione dei testi
+                            medici greci: Atti del V convegno internazionale, Napoli, 1-2 Ottobre
+                            2004</hi>, Collectanea 24, ed. V. Boudon-Millot, Naples: M. D’Auria,
+                        2006, 273–319.</bibl>
+                    <bibl>Jouanna, J. “The Legacy of the Hippocratic Treatise <hi rend="italic">The
+                            Nature of Man</hi>: The Theory of the Four Humours.” In <hi
+                            rend="italic">Greek Medicine from Hippocrates to Galen : Selected
+                            Papers</hi>, Studies in Ancient Medicine 40, ed. P. J. van der Eijk, tr.
+                        Neil Allies. Boston/Leiden: Brill, 2012, 335–59.</bibl>
+                    <bibl>Kessel, G. “Field Notes on Syriac Manuscripts I: Two Medical Manuscripts
+                        Digitized by the Hill Museum &amp; Manuscript Library.” <hi rend="italic"
+                            >Hugoye</hi> 20:2 (2017): 419–34.</bibl>
+                    <bibl>———. “La position de Simon de Taibuteh dans l’éventail de la tradition
+                        mystique syriaque.” In <hi rend="italic">Les mystiques syriaques</hi>,
+                        Études syriaques 8, ed. A. Desreumaux. Paris: Geuthner, 2011.</bibl>
+                    <bibl>———. “The Syriac Epidemics and the Problem of Its Identification.” <hi
+                            rend="italic">Epidemics in Context : Greek Commentaries on Hippocrates
+                            in the Arabic Tradition</hi>, Scientia Greco-Arabica 8, ed. P. Pormann.
+                        Berlin/Boston: de Gruyter, 2012.</bibl>
+                    <bibl>de Lagarde, P. <hi rend="italic">Libri Veteris Testamenti Apocryphi
+                            Syriace</hi>. Leipzig: F. A. Brockhaus, 1861.</bibl>
+                    <bibl>Mannā, J. E. <hi rend="italic">Chaldean-Arabic dictionary</hi>. Beirut:
+                        Babel Center, 1975.</bibl>
+                    <bibl>Martindale, J. R. <hi rend="italic">The Prosopography of the Later Roman
+                            Empire</hi>. Vol. II. Cambridge: Cambridge University Press,
+                        1971.</bibl>
+                    <bibl>Mingana, A. <hi rend="italic">Catalogue of the Mingana Collection of
+                            Manuscripts</hi>. 4 Vols. Cambridge: W. Heffer, 1933.</bibl>
+                    <bibl>Muraviev, A. “La médecine thérapeutique en syriaque.” In <hi rend="italic"
+                            >Les sciences en syriaque</hi>, Études syriaques 11, ed. E. Villey.
+                        Paris: Geuthner, 2014: 253–84.</bibl>
+                    <bibl>Nau, F. <hi rend="italic">Histoires d’Ahoudemmeh et de Marouta,
+                            métropolitains jacobites de Tagrit et de l’Orient (VIe et VIIe siècles):
+                            suivies du traité d’Ahoudemmeh sur l’homme</hi>. Patrologia
+                        Orientalis 3.1. Paris: Firmin-Didot, 1909.</bibl>
+                    <bibl>Nöldeke, T. <hi rend="italic">Compendious Syriac Grammar</hi>. Tr. J. A.
+                        Crichton. London: Williams &amp; Norgate, 1904.</bibl>
+                    <bibl>Overbeck, J. J. <hi rend="italic">S. Ephraemi Syri, Rabulae episcopi
+                            Edesseni, Balaei aliorumque opera selecta e codicibus Syriacis
+                            manuscriptis in Museo Britannico et Bibliotheca Bodleiana asservatis
+                            primus</hi>. Oxford: Clarendon, 1865.</bibl>
+                    <bibl>Phrantzolas, K. G. <hi rend="italic">Hosiou Ephraim tou Syrou erga.
+                        </hi>Thessaloniki: Ekdoseis to Perivoli tēs Panagias, 2001.</bibl>
+                    <bibl>Reinink, G. J. “Man as Microcosm: A Syriac Didactic Poem and Its Prose
+                        Background.” In <hi rend="italic">Calliope’s Classroom: Studies in Didactic
+                            Poetry from Antiquity to the Renaissance</hi>, ed. A. Harder, A. A.
+                        MacDonald, and G. J. Reinink. Dudley, MA: Peeters, 2007: 123–52.</bibl>
+                    <bibl>Smyth, H. W. <hi rend="italic">A Greek Grammar for Colleges</hi>. Greek
+                        Series for Colleges and Schools. Cincinnati: American Book Company,
+                        1920.</bibl>
+                    <bibl>de Stefani, E. L. <hi rend="italic">Etymologicum Gudianum quod
+                            vocatur</hi>. Leipzig: Teubner, 1909.</bibl>
+                    <bibl>Tannous, J. “Greek Kanons and the Syrian Orthodox Liturgy.” In <hi
+                            rend="italic">Prayer and Worship in Eastern Christianities, 5th to 11th
+                            Centuries</hi>, ed. D. Krueger and B. Bitton-Ashkelony. New York:
+                        Routledge, 2017: 151–80.</bibl>
+                    <bibl>Theotokēs, N. <hi rend="italic">Tou hosiou patros hēmōn Isaak episkopou
+                            Nineui tou Syrou Ta heurethenta.</hi> Athens: Ek tou Typographeiou
+                        Paraskeua Leōnē, 1895.</bibl>
+                    <bibl>Touwaide, A. “Arabic into Greek: The Rise of an International Lexicon of
+                        Medicine in the Medieval Eastern Mediterranean?” In <hi rend="italic"
+                            >Vehicles of Transmission, Translation, and Transformation in Medieval
+                            Textual Culture</hi>, Cursor Mundi 4, ed. R. Wisnovsky, C. Fraenkel, F.
+                        Wallis, and J. C. Fumo. Turnhout: Brepols, 2011: 195-222.</bibl>
+                    <bibl>———. “The Jujube Tree in the Eastern Mediterranean: A Case Study in the
+                        Methodology of Textual Archaeobotany.” In <hi rend="italic">Health and
+                            Healing from the Medieval Garden</hi>, ed. P. Dendle and P. Touwaide,.
+                        Rochester, NY: Boydell, 2008: 72–100.</bibl>
+                    <bibl>Trapp, E., W. Hörandner, J. M. Diethart, and A. Steiner-Weber. <hi
+                            rend="italic">Lexikon zur byzantinischen Gräzität: besonders des 9.-12.
+                            Jahrhunderts</hi>, Veröffentlichungen der Kommission für
+                        Byzantinistik 6. Wien: Verlag der Österreichischen Akademie der
+                        Wissenschaften, 1994.</bibl>
+                    <bibl>Yoeli-Tlalim, R. “Exploring Persian Lore in the Hebrew Book of Asaf.” <hi
+                            rend="italic">Aleph</hi> 18:2 (2018): 123–46.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

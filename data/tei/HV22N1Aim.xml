@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">An Unexpected Co-occurrence Restriction on Syriac Root
+                    Consonants<note place="foot" xml:id="ftn1" n="1"><p xml:lang="en">∗ I am
+                        grateful to Georges Bohas and to the anonymous reviewers of <hi
+                            rend="italic">Hugoye: Journal of Syriac Studies</hi> for their helpful
+                        comments. Of course,<hi rend="Emphasis"> </hi>any errors <hi rend="st">and
+                            insufficiencies </hi>remain my own.</p></note></title>
+                <title type="sub"/>
+                <author>
+                    <name>
+                        <forename>Emmanuel</forename>
+                        <surname>Aïm</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Tel Aviv</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2019</date>
+                <idno>Volume 22.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv22n1aim</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Emmanuel Aïm</author>
+                        <title level="a">An Unexpected Co-occurrence Restriction on Syriac Root
+                            Consonants</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol22/HV22N1Aim.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2019</date>
+                        </imprint>
+                        <biblScope type="vol" n="22">22</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="39" to="61">39-61</biblScope>
+                        <biblScope type="order" n="2"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Phonology</term>
+                    <term>Morphology</term>
+                    <term>root Incompatibilities</term>
+                    <term>Dissimilation</term>
+                    <term>Defective Roots</term>
+                    <term>Semi-vowels</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2019-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+            <head>Abstract</head>
+            <p xml:lang="en">The aim of this paper is to highlight an
+                unexpected, and so far, unidentified, root consonants incompatibility in Syriac. It
+                is generally admitted that Semitic radical w and y can combine freely with any other
+                radical consonant. This is indeed mostly the case in Syriac. However, as I shall
+                demonstrate, final radical w is subject to a dissimilatory constraint: it cannot
+                follow a homorganic medial root consonant, viz. labial p, b, m and velar k, g, q.
+                Syriac semi-vowels phonology is blurred by several processes (both synchronic and
+                diachronic) that neutralize the opposition between w and y in favor of y. In order
+                to demonstrate the regularity of the incompatibility of final radical w with
+                preceding homorganic medial radicals, exhaustive examination of the III-w roots is
+                consequently carried out.</p>
+            </div>
+        </front>
+                <body>   
+                    <div xml:id="hv22n1aim.1" xml:lang="en">
+                        <head>1. Root incompatibilities and radical semi-vowels</head><note place="foot"
+                        xml:id="ftn2" n="2"><p xml:lang="en"> The transliteration of Syriac
+                            follows the Eastern tradition. The transliteration of the vowels
+                            resembles the system in Nöldeke (1904) and Costaz (1997): matres
+                            lectionis are not transliterated, <hi rend="italic">rbāṣāʿarrīkā</hi> is
+                            always transcribed as <hi rend="italic">e</hi> (never <hi rend="italic"
+                                >i</hi> or <hi rend="italic">ə</hi>). Following the remarks and
+                            evidence put forward by Bohas (1999, 2017), Daniels (1997: 135) and
+                            Healey (2011: 641), vocal <hi rend="italic">šǝwā</hi> is not marked. For
+                            sake of clarity, spirantization of the <hi rend="italic">bgdkpt</hi> is
+                            not written. Note that <hi rend="italic">h</hi>, <hi rend="italic"
+                                >‘</hi> and <hi rend="italic">r</hi> are never geminated; the
+                            following compensatory lengthening of the preceding vowel (e.g.
+                            /ṭaʿʿīyā/ &gt; <hi rend="italic">ṭaʿīyā</hi> &gt; <hi rend="italic"
+                                >ṭāʿīyā</hi> ‘erring’) is a late phenomenon that is not noted in the
+                            spelling (see Bohas 2017: 7). For this reason, it is not transcribed
+                            here.</p></note>
+                <p xml:lang="en">It is well known that certain combinations of consonants are avoided within
+                    Semitic triconsonantal roots.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text"> Needless to say, these restrictions do not apply
+                            outside the root or between the root and affix. The literature on
+                            Semitic radical consonants incompatibilities is large, see Vernet (2011)
+                            for a comprehensive overview. Not too surprisingly, studies that
+                            specifically deal with Aramaic are rare. We can mention Aešcoly
+                            (1937-40) which unfortunately I could not consult and, with focus on
+                            roots with identical II and III radicals, Bohas (1990) and Hoberman
+                            (1993). </p></note> The two major limitations are the impossibility of
+                    two identical initial and medial radicals such as *<hi rend="italic bold"
+                        >mmd</hi> and the trend to disfavor two homorganic radicals such as *<hi
+                        rend="italic bold">mpd</hi> *<hi rend="italic">d</hi><hi rend="italic bold"
+                        >mp</hi> and *<hi rend="italic bold">md</hi><hi rend="italic bold"
+                        >p</hi>.<note place="foot" xml:id="ftn4" n="4"><p xml:lang="en"> Note
+                            that each language also has its own restrictions (e.g. in Akkadian,
+                            dissimilation applies on two emphatic consonants (Geers' Law) as in *<hi
+                                rend="italic">qaṭnu</hi> &gt; <hi rend="italic">qatnu</hi> ‘thin’
+                            cf. Hebrew <hi rend="italic">qāṭān</hi> ‘little’) and that some
+                            constraints are not of dissimilatory origin (e.g. in Akkadian<hi
+                                rend="italic"> g</hi> and <hi rend="italic">z</hi> as III radicals
+                            are excluded, cf. Moscati 1964: 74).</p></note> These incompatibilities
+                    are accounted for by dissimilatory constraints (Cantineau 1946, Greenberg 1950),
+                    formalized in generative grammar under the Obligatory Contour Principle (see
+                    among others McCarthy 1979, 1983, 1989).<note place="foot" xml:id="ftn5" n="5"
+                            ><p xml:lang="en"> On the Ethio-Semitic roots with identical I
+                            and II radicals, see Banksira (2000).</p></note>
+                </p>
+                <p xml:lang="en"> In general, Arabic root incompatibilities are valid, mutatis mutandis, for the
+                    other classical Semitic languages, Syriac included (Greenberg 1950: passim).
+                    Regarding the patterning of semi-vowels, Arabic <hi rend="italic">w</hi> and <hi
+                        rend="italic">y</hi> combine with almost all the consonants (Greenberg 1950:
+                    164-166) and this is also mostly the case in Syriac.<note place="foot"
+                        xml:id="ftn6" n="6"><p xml:lang="en"> For that reason, studies that
+                            do not take the semi-vowels into account are common (e.g. McCarthy 1989,
+                            Pierrehumbert 1993). Nonetheless, McCarthy (1989: 18) already noted that
+                                <hi rend="italic">w</hi> and <hi rend="italic">y</hi> may be subject
+                            to some incompatibilities.</p></note> Indeed, Syriac initial <hi
+                        rend="italic">w</hi> and <hi rend="italic">y</hi> are compatible with any
+                    consonant, including homorganic ones: <hi rend="italic">w</hi> combines with II
+                    or III labials and velars and <hi rend="italic">y</hi> combines with II or III
+                    coronals (i.e. dentals and palatals).<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text"> I follow the characterization of the coronal
+                            feature suggested by Clements (1993) that includes the palatal
+                            articulation. That is, Syriac coronal consonants are: dental <hi
+                                rend="italic">t, d, ṭ, s, z, ṣ, l, n, r</hi>, post-alveolar <hi
+                                rend="italic">š</hi> and palatal <hi rend="italic">y</hi>. In fact,
+                            whatever the feature by which <hi rend="italic">y</hi> is defined
+                            (coronal, palatal, dorsal), it is clear that it can combine with all the
+                            root consonants. Besides, it is not significant here to distinguish
+                            between obstruent coronals <hi rend="italic">t, d, ṭ, s, z, ṣ, š</hi>
+                            and sonorant coronals <hi rend="italic">l, n, r</hi> as is sometimes
+                            necessary when considering root incompatibilities. I also consider <hi
+                                rend="italic">q</hi> as the emphatic counterpart of <hi
+                                rend="italic">k</hi>, that is as a velar consonant (cf. Moscati
+                            1964: 37). To consider <hi rend="italic">q</hi> as an uvular will not
+                            affect our analysis: instead of 'velar' it would be just necessary to
+                            understand ‘velar and uvular’.</p></note> Some examples are given below:
+                        <note place="foot" xml:id="ftn8" n="8"><p xml:lang="en"> There are
+                            about thirty I-w roots (isolated nouns included); evidence that these
+                            roots are still I-w from a synchronic perspective (cf. forms as <hi
+                                rend="italic">ʾawdaʿ ‘he made known’)</hi> is given in Aïm (2016:
+                            87-90). Note that Syriac <hi rend="italic">wbš</hi> is related to Arabic
+                            and Geez <hi rend="italic">ybs</hi> and that Syriac <hi rend="italic"
+                                >wdʿ</hi> is related to Akkadian <hi rend="italic">wdʾ</hi> and to
+                            Arabic and Geez <hi rend="italic">ydʿ</hi>. I-y roots are very rare. In
+                            addition to the examples above, they are attested by some roots (<hi
+                                rend="italic">yʾy</hi> 'beautiful', <hi rend="italic">yʾb</hi> 'to
+                            desire', <hi rend="italic">ybb</hi> 'to sound', <hi rend="italic"
+                                >yll</hi> 'to wail') and by about ten isolated nouns (e.g. <hi
+                                rend="italic">ʾīdā</hi> &lt; /yadā/ 'hand', <hi rend="italic"
+                                >yadnā</hi> 'hyena', <hi rend="italic">yawmā</hi> 'day', <hi
+                                rend="italic">yawnā</hi> 'dove', <hi rend="italic">yammā</hi>
+                            'sea'). There are also some loans and interjections. Besides, both
+                            initial and medial radical <hi rend="italic">w</hi> shift to <hi
+                                rend="italic">y</hi> in various contexts; on this well-known sound
+                            change, see Aïm (2016).</p></note>
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell/>
+                        <cell>II-labial</cell>
+                        <cell/>
+                        <cell>III-labial</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>I-w</cell>
+                        <cell><hi rend="italic">wbl</hi>
+                        </cell>
+                        <cell>'to conduct'</cell>
+                        <cell><hi rend="italic">whb</hi></cell>
+                        <cell>'to give'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">wmy</hi></cell>
+                        <cell>'to swear'</cell>
+                        <cell><hi rend="italic">wsp</hi></cell>
+                        <cell>'to add</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">wpy</hi></cell>
+                        <cell>'to finish'</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>II-velar</cell>
+                        <cell/>
+                        <cell>III-velar</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>I-w</cell>
+                        <cell><hi rend="italic">wgy</hi></cell>
+                        <cell>'to reject'</cell>
+                        <cell><hi rend="italic">wrq</hi></cell>
+                        <cell>'to be green'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">wqr</hi></cell>
+                        <cell>'to be heavy'</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>II-coronal</cell>
+                        <cell/>
+                        <cell>III-coronal</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>I-y</cell>
+                        <cell><hi rend="italic">ynq</hi></cell>
+                        <cell>'to suck'<note place="foot" xml:id="ftn9" n="9"><p
+                                    rend="footnote text"> In causative conjugation, the root appears
+                                    in two forms: <hi rend="italic">ʾayneq</hi> ~ <hi rend="italic"
+                                        >ʾawneq</hi> 'to suckle'.</p></note></cell>
+                        <cell><hi rend="italic">ymn</hi><seg> </seg></cell>
+                        <cell>'right'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">ytm</hi></cell>
+                        <cell>'orphan'</cell>
+                        <cell><hi rend="italic">ybl</hi></cell>
+                        <cell>'couch-grass'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">ylp</hi></cell>
+                        <cell>'to learn'<note place="foot" xml:id="ftn10" n="10"><p
+                                    rend="footnote text"> Cf. Hebrew <hi rend="italic">ʾ</hi><hi
+                                        rend="italic">lp</hi> and Arabic <hi rend="italic"
+                                    >ʾlf</hi>.</p></note></cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </table>
+                <p xml:lang="en">In the same way, II <hi rend="italic">w</hi> and <hi rend="italic">y</hi> are
+                    compatible with I or III homorganic consonants, e.g.:<note place="foot"
+                        xml:id="ftn11" n="11"><p xml:lang="en"> As it is well known, II-y
+                            verbs merged diachronically with II-w verbs (the intervocalic syncope of
+                                <hi rend="italic">y</hi> and <hi rend="italic">w</hi> and the shift
+                                <hi rend="italic">w&gt;y</hi> have certainly favored mixing and then
+                            leveling of the conjugations, cf. Brockelmann 1910: 185). As a result,
+                            II-w verbs are numerous whereas II-y verbs are rare (<hi rend="italic"
+                                >sām</hi>, <hi rend="italic">nsīm</hi> 'to place', the other verbs
+                            being frequently considered as denominatives, e.g. <hi rend="italic"
+                                >ḥayyel</hi> 'to strengthen' from <hi rend="italic">ḥaylā</hi>
+                            'force'). The same process occurred in the nouns as well; the opposition
+                            between II-y and II-w roots remains mostly in the <hi rend="italic"
+                                >CaCC</hi> pattern, e.g. <hi rend="italic">ḥaylā</hi> 'force' vs.
+                                <hi rend="italic">qawmā</hi> 'standing position'. Apart from that,
+                            no attempt is made in the present study to distinguish between hollow
+                            II-w roots and roots with strong <hi rend="italic">wāw</hi>; on this
+                            particular issue, see Aïm (2017).</p></note></p>
+                <table rend="rules">
+                    <row>
+                        <cell/>
+                        <cell>I-labial</cell>
+                        <cell/>
+                        <cell>III-labial</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>II-w</cell>
+                        <cell><hi rend="italic">pwš</hi></cell>
+                        <cell>'to remain'</cell>
+                        <cell><hi rend="italic">swp</hi></cell>
+                        <cell>'to perish'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">bwr</hi></cell>
+                        <cell>'to be waste'</cell>
+                        <cell><hi rend="italic">ḥwb</hi></cell>
+                        <cell>'to be inferior'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">mwt</hi></cell>
+                        <cell>'to die'</cell>
+                        <cell><hi rend="italic">nwm</hi></cell>
+                        <cell>'to fall asleep'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>I-velar</cell>
+                        <cell/>
+                        <cell>III-velar</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>II-w</cell>
+                        <cell><hi rend="italic">kwn</hi></cell>
+                        <cell>'to be, exist'</cell>
+                        <cell><hi rend="italic">twk</hi></cell>
+                        <cell>'to cease'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">gws</hi></cell>
+                        <cell>'refuge'</cell>
+                        <cell><hi rend="italic">ḥwg</hi></cell>
+                        <cell>'to go around'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">qwm</hi></cell>
+                        <cell>'to rise'</cell>
+                        <cell><hi rend="italic">swq</hi></cell>
+                        <cell>'to breathe'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>I-coronal</cell>
+                        <cell/>
+                        <cell>III-coronal</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>II-y</cell>
+                        <cell><hi rend="italic">ṭyn</hi></cell>
+                        <cell>'mud'</cell>
+                        <cell><hi rend="italic">qyṭ</hi></cell>
+                        <cell>'summer'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">dyn</hi></cell>
+                        <cell>'judgment'</cell>
+                        <cell><hi rend="italic">ḥyl</hi><seg> </seg></cell>
+                        <cell>'strength'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">sym</hi></cell>
+                        <cell>'to place'</cell>
+                        <cell><hi rend="italic">gys</hi></cell>
+                        <cell>'army'</cell>
+                    </row>
+                </table>
+                <p xml:lang="en">With regard to the final semi-vowels, <hi rend="italic">y</hi> patterns with all
+                    the consonants, homorganic ones included (note that III-y roots are more
+                    numerous than I-y and II-y roots), e.g.: </p>
+                <table rend="rules">
+                    <row>
+                        <cell/>
+                        <cell cols="2">I-coronal</cell>
+                        <cell cols="2">II-coronal</cell>
+                    </row>
+                    <row>
+                        <cell>III-y</cell>
+                        <cell><hi rend="italic">tpy</hi></cell>
+                        <cell>'hearth'</cell>
+                        <cell><hi rend="italic">rty</hi></cell>
+                        <cell>'to admonish'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">dhy</hi></cell>
+                        <cell>'bright'</cell>
+                        <cell><hi rend="italic">bdy</hi></cell>
+                        <cell>'to imagine'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">ṭby</hi></cell>
+                        <cell>'gazelle'</cell>
+                        <cell><hi rend="italic">sṭy</hi></cell>
+                        <cell>'to deviate'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">sny</hi></cell>
+                        <cell>'spiny bush'</cell>
+                        <cell><hi rend="italic">‘sy</hi></cell>
+                        <cell>'doctor, to cure'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">zwy</hi></cell>
+                        <cell>'angle'</cell>
+                        <cell><hi rend="italic">gzy</hi></cell>
+                        <cell>'to be bereaved of children'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">ṣby</hi></cell>
+                        <cell>'to be willing'</cell>
+                        <cell><hi rend="italic">ḥsy</hi></cell>
+                        <cell>'holy'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">šny</hi></cell>
+                        <cell>'to go away'</cell>
+                        <cell><hi rend="italic">nšy</hi></cell>
+                        <cell>'to forget'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">lwy</hi></cell>
+                        <cell>'to accompany'</cell>
+                        <cell><hi rend="italic">bly</hi></cell>
+                        <cell>'to be worn'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">nqy</hi></cell>
+                        <cell>'to sacrifice'</cell>
+                        <cell><hi rend="italic">gny</hi></cell>
+                        <cell>'to lie down'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi rend="italic">ršy</hi></cell>
+                        <cell>'to blame'</cell>
+                        <cell><hi rend="italic">gry</hi></cell>
+                        <cell>'greedy'</cell>
+                    </row>
+                </table>
+                <p xml:lang="en"> In contrast, the distribution of final <hi rend="italic">w</hi> is limited.
+                    First and foremost, a historical process common to all the Northwest Semitic
+                    languages has leveled the paradigms of the III‑w verbs (and of almost all the
+                    III-ʾ verbs in Aramaic) to the paradigms of the III-y verbs, leading to the
+                    almost complete vanishing of III-w verbs.<note place="foot" xml:id="ftn12"
+                        n="12"><p xml:lang="en"> Most grammars discuss the III-w/y verbs as
+                            III-Alaph verbs since the final long vowel of these verbs (which results
+                            from the syncope of <hi rend="italic">y</hi> or <hi rend="italic"
+                            >w</hi>) is written with an Alaph. Besides, note that the tendency to
+                            change III‑w verbs into III-y verbs appears also in Standard Babylonian
+                            (Huehnergard 2000: 598) and sedentary Arabic dialects (Kaye and
+                            Rosenhouse 1997: 297)</p></note> The same leveling is evidenced in the
+                    nouns, albeit incompletely. Consequently, some III-w nouns remain, generally
+                    alongside verbs and nouns of the same historical root but which have transformed
+                    to III-y, e.g.: <note place="foot" xml:id="ftn13" n="13"><p xml:lang="en"
+                            > Loanwords are not considered. Generally, <hi rend="italic">w</hi> is
+                            retained (e.g. <hi rend="italic">ʾarwānā</hi> 'calf' &lt; Avestan <hi
+                                rend="italic">aurvant</hi>, <hi rend="italic">badwāyā</hi> 'bedouin'
+                            &lt; Arabic <hi rend="italic">badawī</hi>, <hi rend="italic">kalwā</hi>
+                            'miter' &lt; Latin <hi rend="italic">calautica</hi>) even when preceded
+                            by a homorganic consonant as in <hi rend="italic">gagwāyā</hi> 'a
+                            fornicator, harlot' &lt; Akkadian <hi rend="italic">gagū</hi> &lt;
+                            Sumerian <hi rend="italic">gagi</hi> 'cloister, hierodulic home'.
+                        </p></note></p>
+                <table rend="rules">
+                    <row>
+                        <cell cols="2">III-y verb</cell>
+                        <cell cols="2">III-y noun</cell>
+                        <cell cols="2">III-w noun</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ṭʿā</hi></cell>
+                        <cell>'to wander'</cell>
+                        <cell><hi rend="italic">ṭaʿīyā</hi><note place="foot" xml:id="ftn14" n="14"
+                                    ><p xml:lang="en"> From underlying /ṭaʿʿīyā/; remember
+                                    that <hi rend="italic">ʿ</hi> is not geminated at the 'phonetic'
+                                    level.</p></note>
+                        </cell>
+                        <cell>'erring' </cell>
+                        <cell><hi rend="italic">ṭaʿwānā</hi></cell>
+                        <cell>'error'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ḥzā</hi></cell>
+                        <cell>'to see'</cell>
+                        <cell><hi rend="italic">ḥāzōyā</hi></cell>
+                        <cell>'spectator'</cell>
+                        <cell><hi rend="italic">ḥezwā</hi></cell>
+                        <cell>'vision'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ḥdā ~ </hi><hi rend="italic">ḥ</hi><hi rend="italic"
+                                >dī</hi></cell>
+                        <cell>'to rejoice'</cell>
+                        <cell><hi rend="italic">ḥaddāyā</hi></cell>
+                        <cell>'joyful'</cell>
+                        <cell><hi rend="italic">ḥadwtā</hi></cell>
+                        <cell>'joy'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">sḥā ~ sḥī</hi></cell>
+                        <cell>'to take a bath'</cell>
+                        <cell><hi rend="italic">saḥḥāyā</hi></cell>
+                        <cell>'swimmer'</cell>
+                        <cell><hi rend="italic">saḥwā</hi></cell>
+                        <cell>'swimming'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">šlā ~ šlī</hi>
+                        </cell>
+                        <cell>'to rest'</cell>
+                        <cell><hi rend="italic">šullāyā</hi></cell>
+                        <cell>'cessation'</cell>
+                        <cell><hi rend="italic">šalwā</hi></cell>
+                        <cell>'rest'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">tnā</hi></cell>
+                        <cell>'to repeat'</cell>
+                        <cell><hi rend="italic">tnāyā</hi></cell>
+                        <cell>'exception'</cell>
+                        <cell><hi rend="italic">tenw-ay</hi><note place="foot" xml:id="ftn15" n="15"
+                                    ><p xml:lang="en"> For sake of clarity, morphological
+                                    boundaries are sometimes noted.</p></note></cell>
+                        <cell>'clause'</cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Minimal pairs (or almost) and doublets are not uncommon, e.g.:</p>
+                <table rend="rules">
+                    <row>
+                        <cell>III-y noun</cell>
+                        <cell/>
+                        <cell>III-w noun</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ḥadytā</hi></cell>
+                        <cell>'joy'</cell>
+                        <cell><hi rend="italic">ḥadwtā</hi></cell>
+                        <cell>'joy'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ḥazyā</hi></cell>
+                        <cell>'visible'</cell>
+                        <cell><hi rend="italic">ḥezwā</hi></cell>
+                        <cell>'vision'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ḥayytā</hi></cell>
+                        <cell>'midwife'</cell>
+                        <cell><hi rend="italic">ḥaywtā</hi></cell>
+                        <cell>'animal'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">leʾyā</hi></cell>
+                        <cell>'weariness'</cell>
+                        <cell>/leʾwtā/ &gt; <hi rend="italic">lēwtā</hi>
+                            <note place="foot" xml:id="ftn16" n="16"><p xml:lang="en"> See
+                                    below the section on the feminine <hi rend="italic">CvCw</hi>
+                                    nouns.</p></note></cell>
+                        <cell>'weariness'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">patyā</hi></cell>
+                        <cell>'broad'</cell>
+                        <cell><hi rend="italic">petwā</hi></cell>
+                        <cell>'breadth'</cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="italic">ṣahyā</hi></cell>
+                        <cell>'thirst, thirsty'</cell>
+                        <cell><hi rend="italic">ṣahwā</hi></cell>
+                        <cell>'thirst'</cell>
+                    </row>
+                </table>
+                <p xml:lang="en"> In order to bring out the regular aspect of the restrictions to which <hi
+                        rend="italic">w</hi> is subject, let us consider now, in synchronic
+                    perspective, all the morphophonological contexts in which final <hi
+                        rend="italic">w</hi> appears. III-w nouns will be examined according to
+                    their pattern: disyllabic <hi rend="italic">CaCaw</hi>, monosyllabic <hi
+                        rend="italic">CvCw</hi> and augmented by affixes.<note place="foot"
+                        xml:id="ftn17" n="17"><p xml:lang="en"> A great number of III-w nouns
+                            appears with various vocalizations, e.g. <hi rend="italic">mḥōtā</hi> ~
+                                <hi rend="italic">maḥōtā </hi>or<hi rend="italic"> maḥḥōtā ~
+                                māḥōtā</hi> 'brim', <hi rend="italic">mṭūtā ~ maṭūtā </hi>or <hi
+                                rend="italic">maṭṭūtā ~ māṭūtā</hi> 'portion'. In most of the cases,
+                            the first vowel can either vanish (<hi rend="italic">mḥōtā</hi>) or
+                            remain albeit in open syllable (<hi rend="italic">maḥōtā</hi>). In this
+                            last case, it could be a form with geminate consonant (<hi rend="italic"
+                                >maḥḥōtā</hi>). Note that vowel retention in open syllable is common
+                            after the vocalization of <hi rend="italic">w</hi> into <hi
+                                rend="italic">ū</hi>, e.g. /ḥadwtā/ &gt; <hi rend="italic">ḥadūtā
+                            </hi>'joy'. Anyway, these questions do not affect the argument of this
+                            paper. Thus, for reason of place and clarity, only one variant of each
+                            noun will be cited unless variations are of interest.</p></note> Mention
+                    will be made of the rare III-w verbs.<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> Most of the data has been drawn from Brockelmann
+                            (1928), Payne Smith (1879-1901), Payne Smith (1903) and Costaz (1997). I
+                            have occasionally checked Eastern Syriac vocalization in Audo (1985).
+                        </p></note>
+                </p>
+            </div>
+                    <div xml:id="hv22n1aim.2" xml:lang="en">
+                <head>2. III-w nouns and verbs</head>
+                        <div xml:id="hv22n1aim.2.1" xml:lang="en">
+                    <head>2.1. <hi rend="italic">CaCaw</hi> nouns</head>
+                    <p xml:lang="en">All the attested disyllabic III-w nouns are feminine. According to Duval
+                        (1881: 212-213, 215) and Brockelmann (1912: 43),<note place="foot"
+                            xml:id="ftn19" n="19"><p xml:lang="en"> Contra Birkeland (1947:
+                                30) who argues for a <hi rend="italic">CvCāw</hi> pattern. Of
+                                course, the Western Syriac form is <hi rend="italic">CCūtō</hi> as
+                                in <hi rend="italic">brūtō</hi>,<hi rend="italic"> dyūtō</hi>, etc.
+                            </p></note> their pattern is <hi rend="italic">CaCaw</hi> (or at least
+                            <hi rend="italic">CvCaw</hi>) where /aw/ develops into <hi rend="italic"
+                            >ō</hi>:<note place="foot" xml:id="ftn20" n="20"><p xml:lang="en"
+                                > Some variations occur in the <hi rend="italic">CaCaw</hi> nouns
+                                declension, compare sg. emph. <hi rend="italic">ṣlōtā</hi>, sg. cst.
+                                    <hi rend="italic">ṣlōt</hi>, sg. abs. <hi rend="italic"
+                                >ṣlō</hi>, pl. emph. <hi rend="italic">ṣalwātā</hi> (as in Nöldeke
+                                1904: 52) or <hi rend="italic">ṣlawātā</hi> (as in Muraoka 1997: 25,
+                                26 note 15) vs. sg. emph. <hi rend="italic">mḥōtā</hi>, sg. cst. <hi
+                                    rend="italic">maḥwat</hi>, sg. abs. <hi rend="italic"
+                                >maḥwā</hi>, pl. emph. <hi rend="italic">maḥwātā</hi>. These
+                                fluctuations could be due to a difference in stem (resulting from
+                                interactions between <hi rend="italic">CaCaw</hi> nouns, <hi
+                                    rend="italic">CvCw</hi> nouns and abstract nouns with <hi
+                                    rend="italic">–ūt</hi>, as advocated by Duval 1881: 213) or -
+                                    <hi rend="short_text">as a reviewer pointed out to me</hi> - a
+                                difference between the two allomorphs <hi rend="italic">-t/-at</hi>
+                                of the feminine suffix (<hi rend="italic">/ṣalaw-t/ &gt; </hi><hi
+                                    rend="italic">ṣlōt</hi> vs. <hi rend="italic">/maḥaw-at/
+                                    &gt;mḥōt</hi>, cf. Brockelmann 1908: 407).</p></note>
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell>/baraw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">brōtā</hi></cell>
+                            <cell>'sawdust'</cell>
+                        </row>
+                        <row>
+                            <cell>/dayaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">dyōtā</hi></cell>
+                            <cell>'ink'</cell>
+                        </row>
+                        <row>
+                            <cell>/<hi>ḥ</hi>ayaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ḥayōtā</hi><note place="foot" xml:id="ftn21"
+                                    n="21"><p xml:lang="en">
+                                        <hi> According to Duval (1881: 212-213); other sources give
+                                            </hi><hi rend="italic">ḥayūtā</hi>.</p></note></cell>
+                            <cell>'animal'</cell>
+                        </row>
+                        <row>
+                            <cell>/ḥaraw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ḥrōtā</hi></cell>
+                            <cell>'thigh'</cell>
+                        </row>
+                        <row>
+                            <cell>/kabaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">kbōtā</hi></cell>
+                            <cell>'excrement, dung-cake'</cell>
+                        </row>
+                        <row>
+                            <cell>/ma<hi>ḥ</hi>aw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">mḥōtā</hi></cell>
+                            <cell>'blow'</cell>
+                        </row>
+                        <row>
+                            <cell>/maḥaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">mḥōtā</hi></cell>
+                            <cell>'brim, balustrade'</cell>
+                        </row>
+                        <row>
+                            <cell>/masaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">msōtā</hi></cell>
+                            <cell>'rennet'</cell>
+                        </row>
+                        <row>
+                            <cell>/ṣalaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ṣlōtā</hi></cell>
+                            <cell>'prayer'</cell>
+                        </row>
+                        <row>
+                            <cell>/šaḥaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">šḥōtā</hi><note place="foot" xml:id="ftn22"
+                                    n="22"><p xml:lang="en"> Cited in Duval (1881:
+                                    215).</p></note>
+                            </cell>
+                            <cell>'axilla'</cell>
+                        </row>
+                        <row>
+                            <cell>/šaʿaw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">šʿōtā</hi></cell>
+                            <cell>'wax'</cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en"> In addition, three feminine <hi rend="italic">CaCaw</hi> nouns are extended
+                        with the suffix <hi rend="italic">-ī</hi>. Here, intervocalic final <hi
+                            rend="italic">w</hi> is preserved. Eastern Syriac lengthen the preceding
+                        /a/ into <hi rend="italic">ā</hi> (/aw/ &gt; <hi rend="italic">āw</hi> is a
+                        regular process in Eastern Syriac) whereas Western Syriac retains the
+                        underlying quantity:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell>Eastern Syriac</cell>
+                            <cell>Western Syriac</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>/ḥawaw-ī-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ḥwāwītā</hi></cell>
+                            <cell><hi rend="italic">ḥwawītō</hi></cell>
+                            <cell>'female-serpent'</cell>
+                        </row>
+                        <row>
+                            <cell>/ʿanaw-ī-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ʿanāwītā</hi><note place="foot" xml:id="ftn23"
+                                    n="23"><p xml:lang="en"> Variant: <hi rend="italic"
+                                            >ʿanwītā</hi>.</p></note></cell>
+                            <cell><hi rend="italic">ʿnawītō</hi></cell>
+                            <cell>'stomach'</cell>
+                        </row>
+                        <row>
+                            <cell>/<hi>ʿ</hi>araw-ī-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ʿarāwītā</hi><note place="foot" xml:id="ftn24"
+                                    n="24"><p xml:lang="en"> Variants: <hi rend="italic"
+                                            >ʿarwītā</hi> and <hi rend="italic"
+                                    >ʿarāwītā</hi>.</p></note></cell>
+                            <cell><hi rend="italic">ʿrawītō</hi>
+                            </cell>
+                            <cell>'fever, shivering'</cell>
+                        </row>
+                    </table>
+                </div>
+                        <div xml:id="hv22n1aim.2.2" xml:lang="en">
+                    <head>2.2. Masculine <hi rend="italic">CvCw</hi> nouns</head>
+                    <p xml:lang="en">Masculine <hi rend="italic">CvCw</hi> nouns are very common.<note
+                            place="foot" xml:id="ftn25" n="25"><p xml:lang="en"> There
+                                appears to be no sg. abs./cst. form for these nouns.</p></note> They
+                        are given in the following list:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">baʿwā</hi></cell>
+                            <cell>'camel's hair'</cell>
+                            <cell><hi rend="italic">ʿelwā</hi></cell>
+                            <cell>'leathern bottle'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">hetwā</hi></cell>
+                            <cell>'grey heron'</cell>
+                            <cell><hi rend="italic">ʿelwā</hi><note place="foot" xml:id="ftn26"
+                                    n="26"><p xml:lang="en"> Variants: <hi rend="italic"
+                                            >ʿlāwā </hi>and <hi rend="italic">ʿelāwāy</hi>.
+                                    </p></note></cell>
+                            <cell>'waking state'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">ḥadwā</hi></cell>
+                            <cell>'joy'</cell>
+                            <cell><hi rend="italic">petwā</hi></cell>
+                            <cell>'breadth, ampleness'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">ḥezwā</hi></cell>
+                            <cell>'vision, sight'</cell>
+                            <cell><hi rend="italic">ṣadwā</hi></cell>
+                            <cell>'mockery'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">ṭašwā</hi></cell>
+                            <cell>'secret'</cell>
+                            <cell><hi rend="italic">ṣahwā</hi></cell>
+                            <cell>'thirst'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">marwā</hi></cell>
+                            <cell>'origanum syriacum (plant)'</cell>
+                            <cell><hi rend="italic">ṣaḥwā</hi></cell>
+                            <cell>'fine weather'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">salwā</hi></cell>
+                            <cell>'spine'</cell>
+                            <cell><hi rend="italic">ṣarwā</hi></cell>
+                            <cell>'pine kernels'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">saḥwā</hi></cell>
+                            <cell>'swimming'</cell>
+                            <cell><hi rend="italic">šalwā</hi></cell>
+                            <cell>'cessation'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">satwā</hi></cell>
+                            <cell>'winter'</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p xml:lang="en"> In addition, two <hi rend="italic">CvCw</hi> nouns exhibit free alternation
+                        between <hi rend="italic">w</hi> and <hi rend="italic">b</hi>.<note
+                            place="foot" xml:id="ftn27" n="27"><p xml:lang="en"> The original
+                                consonant in <hi rend="italic">ḥedwā ~ ḥedbā</hi> 'cichorium endivia
+                                (plant)' might be <hi rend="italic">b</hi> as shown by the parallel
+                                form <hi rend="italic">hendbā</hi> and its Greek etymology <foreign
+                                    xml:lang="gr">ἐντύβον</foreign> (see Sokoloff 2010: 346). I
+                                would like to thank here the reviewer who let me know this fact and
+                                provide me the reference in Sokoloff (2010).</p></note> In the case
+                        of <hi rend="italic">šalbā ~ šalwā ~ šelwā</hi> 'a mountain pass, cave,
+                        chasm, hollow', <hi rend="italic">w</hi> is likely original, at least
+                        diachronically, since the root <hi rend="italic">šlw</hi> appears in the
+                        Akkadian noun <hi rend="italic">šīlu ~ šēlu</hi> 'depression, concavity'. On
+                        the contrary, in the case of <hi rend="italic">ʾelāwā ~ </hi><hi
+                            rend="italic">ʾalwā ~ </hi><hi rend="italic">ʾelbā</hi> 'colostrum', <hi
+                            rend="italic">b</hi> seems to be etymological because of the Arabic
+                        cognate <hi rend="italic">liba</hi><hi rend="italic">ʾ</hi>.<note
+                            place="foot" xml:id="ftn28" n="28"><p xml:lang="en"> This
+                                hypothesis is also suggested by Neo-Syriac form, see Brockelmann
+                                (1928: s.v. <hi rend="italic">ʾalwā</hi>). </p></note> However, <hi
+                            rend="italic">w</hi> would consequently come from the unexpected and
+                        exceptional postconsonantal weakening of <hi rend="italic">b</hi>.<note
+                            place="foot" xml:id="ftn29" n="29"><p xml:lang="en"> In two
+                                special cases, it is impossible to determine with certainty the
+                                underlying semi-vowel. First, there is a ‑<hi rend="italic"
+                                    >awātā</hi> plural suffix, e.g. <hi rend="italic">nahrā</hi>
+                                &gt; <hi rend="italic">nahrawātā</hi> 'river'. Some nouns definitely
+                                III-y form their plural with this suffix with a further syncope of
+                                    <hi rend="italic">y</hi>, e.g. <hi rend="italic">rāʿyā</hi> &gt;
+                                    <hi rend="italic">rāʿawātā</hi> 'shepherd'. Some nouns, possibly
+                                III-y or III-w, also form their plural in this way, e.g. <hi
+                                    rend="italic">ḥ>ewyā</hi> &gt; <hi rend="italic">ḥwawātā</hi>
+                                'serpent'. Now the plural suffix -<hi rend="italic">ātā</hi> exists
+                                as well, e.g. <hi rend="italic">malkā</hi> &gt; <hi rend="italic"
+                                    >malkātā</hi> 'queen'. So, we might think that the sequence <hi
+                                    rend="italic">aw</hi> does not belong to the suffix but to the
+                                noun: /ḥwaw‑ātā/. Consequently, there would be an alternation
+                                between <hi rend="italic">w</hi> and <hi rend="italic">y</hi>.
+                                Whether in case of the root of an isolated name or in case of a root
+                                already attested under the two forms III-w and III-y, it is not
+                                possible to confirm this hypothesis nor to define the underlying
+                                semi-vowel with certainty. For instance, is <hi rend="italic"
+                                    >ḥewyā</hi> from a III‑y root (as its singular as well as its
+                                Arabic cognate <hi rend="italic">ḥayy-(at)</hi> suggest) or from a
+                                III-w root (as its feminine and plural counterparts <hi
+                                    rend="italic">ḥwāwītā</hi> and <hi rend="italic">ḥwawātā</hi>
+                                imply)? The same reasoning applies to nouns whose final semi-vowel
+                                merges with the preceding vowel in the singular (e.g. <hi
+                                    rend="italic">sḥātā</hi> 'washing' from /saḥaw-tā/ or
+                                /saḥay-tā/, cf. <hi rend="italic">saḥwā</hi> 'swimming' vs. <hi
+                                    rend="italic">sḥāyā</hi> 'purification') and whose plural is
+                                formed with -<hi rend="italic">awātā</hi> (e.g. <hi rend="italic"
+                                    >sḥawātā</hi>). Note that the Eastern Syriac form of the suffix
+                                is -<hi rend="italic">awātā </hi>according to Audo (1985: passim)
+                                and Muraoka (1997: 25) but ‑<hi rend="italic">āwātā </hi>with
+                                expected <hi rend="italic">aw&gt;āw</hi> according to Nöldeke
+                                (1904:35) and Costaz (1997: 30); it is transcribed as ‑<hi
+                                    rend="italic">auwātā</hi> (that is ‑<hi rend="italic"
+                                    >awwātā</hi>) in Brockelmann (1912). The Western Syriac form is
+                                    -<hi rend="italic">awōtō</hi>. On some <hi rend="italic"
+                                    >y-w</hi> interchanges in the broader perspective of comparative
+                                afroasiatic linguistics, see Putten (2018).</p></note>
+                    </p>
+                </div>
+                        <div xml:id="hv22n1aim.2.3" xml:lang="en">
+                    <head>2.3. Feminine <hi rend="italic">CvCw</hi> nouns and feminine abstract
+                        nouns with -<hi rend="italic">ūt</hi></head>
+                    <p xml:lang="en">Difference between feminine <hi rend="italic">CvCw</hi> nouns and feminine
+                        abstract nouns with -<hi rend="italic">ūt</hi> from defective roots is
+                        small. Indeed, the adding of -<hi rend="italic">ūt</hi> to III-y nouns is
+                        occasionally followed by the syncope of <hi rend="italic">y</hi> (e.g.
+                        /demy-ūtā/ &gt; <hi rend="italic">dmūtā</hi> 'image', /ṣeby-ūtā/ &gt; <hi
+                            rend="italic">ṣbūtā</hi> 'will'). As a result, the declension of these
+                        III-y abstract nouns and that of the feminine <hi rend="italic">CvCw</hi>
+                        nouns partly coincide. This is illustrated in the following table with an
+                        (almost) minimal pair already pointed out by Nöldeke (1904: 52, note 1).
+                        Identical forms are in bold; triliteral regular abstract noun <hi
+                            rend="italic">malkūt</hi> 'kingdom' is given for the sake of comparison:
+                            <note place="foot" xml:id="ftn30" n="30"><p xml:lang="en"> The
+                                inflected forms of the two examples are not all attested (of course,
+                                the unattested forms have been reconstituted by analogy with the
+                                declension of other nouns). The most relevant forms, viz. sg. abs.
+                                    <hi rend="italic">ḥaywā </hi>vs. <hi rend="italic">ḥayū </hi>and
+                                sg. cst. <hi rend="italic">ḥaywat </hi>vs. <hi rend="italic"
+                                    >ḥayūt</hi> are nevertheless attested. </p></note>
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell><hi rend="italic">CvCw</hi></cell>
+                            <cell><hi rend="italic">CvC-ūt &lt; </hi>/CvCy-ūt/</cell>
+                            <cell><hi rend="italic">CaCC-ūt</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell>/<hi>ḥ</hi>ayw-/</cell>
+                            <cell>/<hi>ḥ</hi>ay-ūt/ &lt; /<hi>ḥ</hi>ayy-ūt/</cell>
+                            <cell>/malk-ūt/</cell>
+                        </row>
+                        <row>
+                            <cell>sg.</cell>
+                            <cell>abs.</cell>
+                            <cell><hi rend="italic">ḥayw-ā</hi>
+                            </cell>
+                            <cell><hi rend="italic">ḥay-ū</hi></cell>
+                            <cell><hi rend="italic">malk-ū</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>cst.</cell>
+                            <cell><hi rend="italic">ḥayw-at</hi></cell>
+                            <cell><hi rend="italic">ḥay-ūt</hi></cell>
+                            <cell><hi rend="italic">malk-ūt</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>emph.</cell>
+                            <cell><hi rend="italic bold">ḥayū-tā</hi>
+                            </cell>
+                            <cell><hi rend="italic bold">ḥay-ūtā</hi>
+                            </cell>
+                            <cell><hi rend="italic">malk-ūtā</hi></cell>
+                        </row>
+                        <row>
+                            <cell>pl.</cell>
+                            <cell>abs.</cell>
+                            <cell><hi rend="italic bold">ḥayw-ān</hi></cell>
+                            <cell><hi rend="italic bold">ḥay-wān</hi></cell>
+                            <cell><hi rend="italic">malk-wān</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>cst.</cell>
+                            <cell><hi rend="italic bold">ḥayw-āt</hi></cell>
+                            <cell><hi rend="italic bold">ḥay-wāt</hi></cell>
+                            <cell><hi rend="italic">malk-wāt</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>emph.</cell>
+                            <cell><hi rend="italic bold">ḥayw-ātā</hi></cell>
+                            <cell><hi rend="italic bold">ḥay-wātā</hi></cell>
+                            <cell><hi rend="italic">malk-wātā</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell>'animal'</cell>
+                            <cell>'life, animality'</cell>
+                            <cell>'kingdom'</cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en"> The declension forms that allow to distinguish between <hi rend="italic"
+                            >CvCw</hi> and <hi rend="italic">CvC(y)-ūt</hi> nouns are the singular
+                        absolute and the singular construct. In addition to <hi rend="italic">ḥaywtā
+                            ~ </hi><hi rend="italic">ḥayūtā</hi> 'animal',<note place="foot"
+                            xml:id="ftn31" n="31"><p xml:lang="en"> Also <hi rend="italic"
+                                    >ḥayōtā</hi>, cf. supra under the <hi rend="italic">CaCaw</hi>
+                                nouns section.</p></note> nouns which are unmistakably <hi
+                            rend="italic">CvCw</hi> owing to the attestation of their sg. abs.
+                        and/or sg. cst. are the following (the free realization of /w/ as <hi
+                            rend="italic">w</hi> or <hi rend="italic">ū</hi> between two consonants
+                        is regular, the compensatory lengthening /eʾ/ &gt; /e/ &gt; <hi
+                            rend="italic">ē</hi> appears frequently):</p>
+                    <table rend="rules">
+                        <row>
+                            <cell>sg.</cell>
+                            <cell>abs.</cell>
+                            <cell><hi rend="italic">ḥadwā</hi></cell>
+                            <cell>not attested</cell>
+                            <cell/>
+                            <cell>/leʾwā/ &gt;</cell>
+                            <cell><hi rend="italic">lēwā</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>cst.</cell>
+                            <cell><hi rend="italic">ḥadwat</hi></cell>
+                            <cell>/geʾwat/<hi rend="italic"> &gt;</hi></cell>
+                            <cell><hi rend="italic">gēwat</hi></cell>
+                            <cell>/leʾwat/ &gt;</cell>
+                            <cell><hi rend="italic">lēwat</hi></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>emph.</cell>
+                            <cell><hi rend="italic">ḥadwtā ~ </hi><hi rend="italic"
+                                >ḥadūtā</hi></cell>
+                            <cell>geʾwtā/<hi rend="italic"> &gt;</hi></cell>
+                            <cell><hi rend="italic">gēūtā</hi><seg> </seg></cell>
+                            <cell>/leʾwtā/<hi rend="italic"> &gt;</hi></cell>
+                            <cell><hi rend="italic">lēwtā ~ lēūtā</hi><seg> </seg></cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell>'joy'<note place="foot" xml:id="ftn32" n="32"><p
+                                        rend="footnote text"> Cf. its masculine form <hi
+                                            rend="italic">ḥadwā</hi> 'joy'.</p></note></cell>
+                            <cell>'pride'</cell>
+                            <cell/>
+                            <cell>'weariness'</cell>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p xml:lang="en"> However, the sg. abs. and sg. cst. are not always attested. As a result, we
+                        often lack relevant morphophonological information necessary to determine
+                        whether a noun is <hi rend="italic">CvCw</hi> or <hi rend="italic"
+                            >CvC(y)-ūt</hi>. What is left to decide is the meaning.<note
+                            place="foot" xml:id="ftn33" n="33"><p xml:lang="en"> Comparative
+                                analysis helps define the roots that have been historically III-w.
+                                But since the majority of III-w roots have become synchronically
+                                III-y in Syriac, the comparative evidence has a limited impact in a
+                                synchronic study like the present one. </p></note> The abstract
+                        meaning of some nouns leads us to consider them as possible abstract III-y
+                        nouns with <hi rend="italic">-ūt</hi>:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell>/ruʿy-ūtā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ruʿūtā</hi>
+                            </cell>
+                            <cell>'opinion'</cell>
+                        </row>
+                        <row>
+                            <cell>/ta-rʿy-ūtā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">tarʿūtā</hi>
+                            </cell>
+                            <cell>'reconciliation'</cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en">Conversely, nouns whose meaning is clearly concrete are more likely III-w
+                        nouns:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell>/hetw-tā /</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">hetūtā</hi></cell>
+                            <cell>'female grey heron'<note place="foot" xml:id="ftn34" n="34"><p
+                                        rend="footnote text"> Cf. its masculine counterpart <hi
+                                            rend="italic">hetwā</hi>.</p></note></cell>
+                        </row>
+                        <row>
+                            <cell>/ḥadw-tā /</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ḥadūtā</hi></cell>
+                            <cell>'silo'<note place="foot" xml:id="ftn35" n="35"><p
+                                        rend="footnote text"> Or perhaps <hi rend="italic"
+                                            >ḥaddūtā</hi>, cf. note 16.</p></note></cell>
+                        </row>
+                        <row>
+                            <cell>/ḥānw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">ḥānūtā</hi></cell>
+                            <cell>'cell, room, shop'</cell>
+                        </row>
+                        <row>
+                            <cell>/kašw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">kšūtā</hi>
+                                <note place="foot" xml:id="ftn36" n="36"><p xml:lang="en">
+                                        According to Payne Smith (1879-1901: q.v.), it is a loan
+                                        from Arabic, as suggested by the irregular sound
+                                        correspondence Syriac <hi rend="italic">š</hi> – Arabic <hi
+                                            rend="italic">š</hi>. This etymology is not retained by
+                                        Brockelmann (1928: q.v.).</p></note></cell>
+                            <cell>'cuscuta (plant)'</cell>
+                        </row>
+                        <row>
+                            <cell>/maṭw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">mṭūtā</hi></cell>
+                            <cell>'portion'</cell>
+                        </row>
+                        <row>
+                            <cell>/masw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">msūtā</hi></cell>
+                            <cell>'cypress'</cell>
+                        </row>
+                        <row>
+                            <cell>/ma-nṣw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">maṣṣūtā</hi></cell>
+                            <cell>'quarrel'</cell>
+                        </row>
+                        <row>
+                            <cell>/saḥw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">sḥūtā</hi></cell>
+                            <cell>'washing, ablution'</cell>
+                        </row>
+                        <row>
+                            <cell>/ma-sḥw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">masḥūtā</hi></cell>
+                            <cell>'bath, watering'</cell>
+                        </row>
+                        <row>
+                            <cell>/parw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">prūtā</hi></cell>
+                            <cell>'skin, leather garment'</cell>
+                        </row>
+                        <row>
+                            <cell>/qaṭw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">qṭūtā</hi></cell>
+                            <cell>'cucumber'</cell>
+                        </row>
+                        <row>
+                            <cell>/šāqw-ūtā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">šāqūtā</hi></cell>
+                            <cell>'irrigation, drink'</cell>
+                        </row>
+                        <row>
+                            <cell>/šārw-tā/></cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">šārūtā</hi></cell>
+                            <cell>'meal, banquet'<note place="foot" xml:id="ftn37" n="37"><p
+                                        rend="footnote text"> The case of <hi rend="italic"
+                                            >šārūtā</hi> which has a concrete meaning but a sg. abs.
+                                            <hi rend="italic">šārū</hi> whose shape is that of an
+                                        abstract noun with <hi rend="italic">-ūt</hi> is is to be
+                                        paralleled with the already noted irregularities of <hi
+                                            rend="italic">ṣlōtā</hi> 'prayer' whose sg. abs. is <hi
+                                            rend="italic">ṣlō</hi> in place of expected <hi
+                                            rend="italic">ṣalwat</hi>.</p></note></cell>
+                        </row>
+                        <row>
+                            <cell>/ta-msw-tā/</cell>
+                            <cell>&gt;</cell>
+                            <cell><hi rend="italic">tamsūtā</hi></cell>
+                            <cell>'pus'</cell>
+                        </row>
+                    </table>
+                    <p xml:lang="en">Finally, note that because of its meaning, <hi rend="italic">gālūtā</hi>
+                        'exile, captivity' seems to be an abstract noun. However, its related
+                        adjective <hi rend="italic">gālwāyā</hi> 'exile (pers.)' indicates that the
+                        root they share is III‑w. </p>
+                </div>
+                        <div xml:id="hv22n1aim.2.4" xml:lang="en">
+                    <head>2.4. III-w nouns augmented with afformatives</head>
+                    <p xml:lang="en">In most cases, augmented patterns are analyzable as <hi rend="italic"
+                            >CvCw</hi> nouns<note place="foot" xml:id="ftn38" n="38"><p
+                                rend="footnote text"> Or eventually as disyllabic <hi rend="italic"
+                                    >CvCvw</hi> with second vowel syncope after addition of the
+                                suffix, e.g. *<hi rend="superscript">?</hi>/salaw-ay/ &gt; <hi
+                                    rend="italic">salway</hi> 'quail'.</p></note> with an additional
+                        affix such as -<hi rend="italic">ay</hi> (an archaic feminine suffix), -<hi
+                            rend="italic">āy</hi>, -<hi rend="italic">ān</hi> or<hi rend="italic">
+                            -ā</hi><hi rend="italic">ʾ</hi><hi rend="italic">īt</hi> (an adverbial
+                            suffix)<note place="foot" xml:id="ftn39" n="39"><p xml:lang="en">
+                                On this particular suffix, see Butts (2010).</p></note>, e.g.:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell><hi rend="italic">dayway</hi></cell>
+                            <cell>'a kind of bird'</cell>
+                            <cell><hi rend="italic">ḥezwānā</hi></cell>
+                            <cell>'vision'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">salway</hi></cell>
+                            <cell>'quail'</cell>
+                            <cell><hi rend="italic">ṭaʿwānā</hi></cell>
+                            <cell>'error'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">tenway</hi></cell>
+                            <cell>'clause, treaty'</cell>
+                            <cell><hi rend="italic">šahwānē</hi></cell>
+                            <cell>'cold'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic"> ḥānwāyā</hi></cell>
+                            <cell>'tavern-keeper'</cell>
+                            <cell><hi rend="italic">šalwāʾīt</hi></cell>
+                            <cell>'intermittently'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">šalwāyā</hi></cell>
+                            <cell>'a bucket for drawing water'</cell>
+                            <cell><hi rend="italic">šarwāʾīt</hi></cell>
+                            <cell>'at first'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">šalwāyā</hi></cell>
+                            <cell>'ceasing'</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">šarwāyā</hi></cell>
+                            <cell>'new'</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">satwāyā</hi></cell>
+                            <cell>'wintry'</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">‘anwāyā</hi></cell>
+                            <cell>'humble, little'</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p xml:lang="en"> Nouns with multiple suffixes are also frequent, e.g. <hi rend="italic"
+                            >ḥānwāyūtā</hi> 'hermit's life',<note place="foot" xml:id="ftn40" n="40"
+                                ><p xml:lang="en">
+                                <hi rend="italic">ḥānūtā </hi>means 'arched chamber, room, cell,
+                                shop, booth' hence the related but distinct words and meanings <hi
+                                    rend="italic">ḥānwāyā </hi>'tavern-keeper, huckster' and <hi
+                                    rend="italic">ḥānwāyūtā </hi>'hermit's life' (hermits have often
+                                lived in cells).</p></note>
+                        <hi rend="italic">šarwāyūtā</hi> 'beginning', <hi rend="italic"
+                            >ʿanwāyūtā</hi> 'humility'. Finally, forms with both prefix and suffix
+                        (e.g. <hi rend="italic">mʿanwyā</hi> 'humble'), patterns other than <hi
+                            rend="italic">CaCaw</hi> or <hi rend="italic">CvCw</hi> (e.g. <hi
+                            rend="italic">ʿ</hi><hi rend="italic">lāwā</hi> 'waking state', <hi
+                            rend="italic">ḥānūtā</hi> 'cell, room, shop') and participles of III-w
+                        verbs (see below) enlarged with suffixes (e.g. <hi rend="italic">met</hi><hi
+                            rend="italic">ḥzawzīnūtā</hi> 'manifestation') are found at times.</p>
+                </div>
+                        <div xml:id="hv22n1aim.2.5" xml:lang="en">
+                    <head>2.5. III-w verbs</head>
+                    <p xml:lang="en">All the III-verbs are denominative, built on the rare verbal patterns <hi
+                            rend="italic">paʿlī</hi>, <hi rend="italic">ʾetpaʿlī</hi> and <hi
+                            rend="italic">ʾetpaʿl</hi><hi rend="italic">ʿ</hi><hi rend="italic"
+                            >ī</hi> (which is the form of <hi rend="italic">ʾ</hi><hi rend="italic"
+                            >etpaʿl</hi><hi rend="italic">ʿal</hi> with defective roots). They are
+                        listed below with the nouns from which they are derived:</p>
+                    <table rend="rules">
+                        <row>
+                            <cell>nouns</cell>
+                            <cell/>
+                            <cell cols="2">denominative III-w verbs</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">gālūtā</hi></cell>
+                            <cell>'exile' </cell>
+                            <cell><hi rend="italic">galwī</hi></cell>
+                            <cell>'to exile'</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell><hi rend="italic">ʾetgalwī</hi></cell>
+                            <cell>'to emigrate'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">ḥezwā</hi></cell>
+                            <cell>'vision'</cell>
+                            <cell><hi rend="italic">ʾetḥzawzī</hi></cell>
+                            <cell>'to swagger'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">ʿanwāyā</hi></cell>
+                            <cell>'humble'</cell>
+                            <cell><hi rend="italic">ʾetʿanwī</hi></cell>
+                            <cell>'to apply oneself to'</cell>
+                        </row>
+                        <row>
+                            <cell><hi rend="italic">tenway</hi></cell>
+                            <cell>'clause, treaty'</cell>
+                            <cell><hi rend="italic">tanwī</hi></cell>
+                            <cell>'to make a contract'</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell><hi rend="italic">ʾ</hi><hi rend="italic">ettanwī</hi></cell>
+                            <cell>'to be stipulated</cell>
+                        </row>
+                    </table>
+                </div>
+            </div>
+                    <div xml:id="hv22n1aim.3" xml:lang="en">
+                <head>3. Co-occurrence restrictions between II labial / velar and III w</head>
+                <p xml:lang="en">First of all, it is clear that <hi rend="italic">w</hi> combines with any initial
+                    consonant, e.g. I-labial <hi rend="italic">baʿwā</hi> 'camel's hair', I-coronal
+                        <hi rend="italic">satwā</hi> 'winter', I-velar <hi rend="italic">galwī</hi>
+                    'to exile', I-guttural <hi rend="italic">ḥezwā</hi> 'vision'. There is therefore
+                    no need to dwell upon this point. We shall now examine the combinations with the
+                    medial consonant.</p>
+                <p xml:lang="en"> The following table takes into account the 54 III-w roots that I was able to
+                    identify (I hope that no important data has been overlooked).<note place="foot"
+                        xml:id="ftn41" n="41"><p xml:lang="en"> The three indecisive cases
+                                <hi rend="italic">ʾelāwā ~ </hi><hi rend="italic">ʾalwā ~ ʾelbā</hi>
+                            'colostrum', <hi rend="italic">ruʿūtā </hi>'opinion' and <hi
+                                rend="italic">tarʿūtā </hi>'reconciliation' have been included. Note
+                            that <hi rend="italic">ruʿūtā </hi>and<hi rend="italic"> tarʿūtā</hi>
+                            are from two distinct roots (cf. Brockelmann 1928: s.v. <hi
+                                rend="italic">reʿyānā </hi>II, <hi rend="italic">rʿē
+                        </hi>III).</p></note> Each root is illustrated below by one example (glosses
+                    have been added occasionally to avoid confusion between homophone roots). The
+                    table represents the patterning between each possible medial radical and final
+                        <hi rend="italic">w</hi>. For instance, there is one III-w root with <hi
+                        rend="italic">b</hi> as II radical (left column, line 1), whereas there are
+                    10 different III-w roots with <hi rend="italic">l</hi> as II radical (left
+                    column, line 12). The table shows that final <hi rend="italic">w</hi> may be
+                    preceded by any coronal or guttural consonant. Conversely, <hi rend="italic"
+                        >w</hi> cannot obviously be preceded by a labial or a velar, apart from in
+                    exceptional cases. </p>
+                <table rend="rules">
+                    <row>
+                        <cell>II-labial</cell>
+                        <cell>b:</cell>
+                        <cell>1</cell>
+                        <cell><hi rend="italic">kbōtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>p:</cell>
+                        <cell>0</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>m:</cell>
+                        <cell>0</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>w:</cell>
+                        <cell>1</cell>
+                        <cell><hi rend="italic">ḥwāwītā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>II-coronal</cell>
+                        <cell>t:</cell>
+                        <cell>3</cell>
+                        <cell><hi rend="italic">hetwā, petwā, satwā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>d:</cell>
+                        <cell>3</cell>
+                        <cell><hi rend="italic">ḥadwā‘</hi>joy'<hi rend="italic">, </hi><hi
+                                rend="italic">ḥ</hi><hi rend="italic">adūtā</hi> 'silo', <hi
+                                rend="italic">ṣadwā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi>ṭ</hi>:</cell>
+                        <cell>2</cell>
+                        <cell><hi rend="italic">mṭūtā, qṭūtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>s:</cell>
+                        <cell>2</cell>
+                        <cell><hi rend="italic">msōtā</hi> 'rennet'<hi rend="italic">, msūtā</hi>
+                            'cypress'</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>z:</cell>
+                        <cell>1</cell>
+                        <cell><hi rend="italic">ḥezwā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi>ṣ</hi>:</cell>
+                        <cell>1</cell>
+                        <cell><hi rend="italic">maṣṣūtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>š:</cell>
+                        <cell>2</cell>
+                        <cell><hi rend="italic">ṭašwā, kšūtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>l:</cell>
+                        <cell>10</cell>
+                        <cell><hi rend="italic">ʾelāwā</hi>, <hi rend="italic">gālūtā, salwā,
+                                </hi><hi rend="italic">ʿ</hi><hi rend="italic">elwā</hi> 'leathern
+                            bottle', <hi rend="italic">ʿelwā</hi> 'waking state'<hi rend="italic">,
+                                salway, </hi><hi rend="italic">ṣ</hi><hi rend="italic">lōtā,
+                                šalwā</hi> 'cessation', <hi rend="italic">šalwā</hi> 'a mountain
+                            pass, cave,' <hi rend="italic">šalwāyā</hi> 'a bucket for drawing water'
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>n:</cell>
+                        <cell>3</cell>
+                        <cell><hi rend="italic">ḥānūtā, </hi><hi rend="italic">ʿ</hi><hi
+                                rend="italic">anāwītā, tenway</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>r:</cell>
+                        <cell>7</cell>
+                        <cell><hi rend="italic">brōtā, </hi><hi rend="italic">ḥrōtā, marwā, </hi><hi
+                                rend="italic">ʿarāwītā, prūtā, </hi><hi rend="italic">ṣarwā,
+                                šārūtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>y:</cell>
+                        <cell>3</cell>
+                        <cell><hi rend="italic">dyōtā, dayway, ḥaywtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>II-velar</cell>
+                        <cell>k:</cell>
+                        <cell>0</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>g:</cell>
+                        <cell>0</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>q:</cell>
+                        <cell>1</cell>
+                        <cell><hi rend="italic">šāqūtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>III-guttural</cell>
+                        <cell><hi>ʿ</hi>:</cell>
+                        <cell>5</cell>
+                        <cell><hi rend="italic">baʿwā, </hi><hi rend="italic">ṭaʿwānā, ruʿūtā</hi>
+                                'opinion'<hi rend="italic">, tarʿūtā</hi> 'reconciliation'<hi
+                                rend="italic">, šʿōtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi>ḥ</hi>:</cell>
+                        <cell>5</cell>
+                        <cell><hi rend="italic">mḥōtā</hi> 'blow'<hi rend="italic">, mḥōtā</hi>
+                            'brim, balustrade', <hi rend="italic">saḥwā, </hi><hi rend="italic"
+                                >ṣaḥwā, šḥōtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell><hi>ʾ</hi>:</cell>
+                        <cell>2</cell>
+                        <cell>/geʾwtā/<hi rend="italic">&gt;gēūtā, </hi>/leʾwtā/<hi rend="italic"
+                                >&gt;lēwtā</hi></cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>h:</cell>
+                        <cell>2</cell>
+                        <cell><hi rend="italic">ṣahwā, šahwānē</hi></cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Let us analyze the exceptional cases:</p>
+                <p xml:lang="en">- the first case, /kabaw-tā/ &gt; <hi rend="italic">kbōtā</hi> 'excrement,
+                    dung-cake' is actually on its way to becoming a completely III-y noun: its
+                    singular construct and plural emphatic states, respectively <hi rend="italic"
+                        >kbay</hi> and <hi rend="italic">kbayyā</hi> (Western Syriac <hi
+                        rend="italic">kbōyyē</hi>) are already those of III-y nouns.<note
+                        place="foot" xml:id="ftn42" n="42"><p xml:lang="en"> This is not an
+                            isolated case. For instance, <hi rend="italic">qṭūtā</hi> 'cucumber' has
+                            also a III-y plural form, viz. <hi rend="italic">qṭayyā</hi> (cf. also
+                            the related <hi rend="italic">maqtyā</hi> 'field of cucumbers')
+                            alongside a plural with suffix –<hi rend="italic">awātā</hi>, viz. <hi
+                                rend="italic">qṭawātā</hi>. </p></note>
+                </p>
+                <p xml:lang="en">- the second case, <hi rend="italic">ḥwāwītā</hi> 'female-serpent' also presents
+                    a mixed declension: the masculine singular <hi rend="italic">ḥewyā</hi>
+                    'serpent' is III-y.<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text"> The masculine plural <hi rend="italic">ḥ</hi><hi
+                                rend="italic">wawātā</hi> is of no help since it could be a III-w
+                            form as <hi rend="superscript">?</hi>/<hi>ḥ</hi>waw-ātā/ or a III-y-
+                            form with further syncope of <hi rend="italic">y</hi> as in <hi
+                                rend="superscript">?</hi>/<hi>ḥ</hi>awy-awātā/ since -<hi
+                                rend="italic">awātā</hi> is used inter alia for III-y nouns (see
+                            note 27 on this complicated issue).</p></note> Moreover, Bohas (1990)
+                    and Hoberman (1993) convincingly demonstrate that Syriac geminate roots such as
+                        <hi rend="italic">bzz</hi> or <hi rend="italic">ḥww</hi> are in fact
+                    biradical roots <hi rend="italic">bz</hi> and <hi rend="italic">ḥw</hi> that
+                    reduplicate either their first or second consonant (e.g. <hi rend="italic"
+                        >nebbuz</hi> 'he will loot', <hi rend="italic">bezzet</hi> 'I looted') to
+                    fulfill all the consonantal slots of the patterns (of the templates more
+                    exactly). Consequently, the root is <hi rend="italic">ḥ</hi><hi rend="italic"
+                        >w</hi> with no homorganic/ identical <hi rend="italic">Cww</hi>
+                        sequence.<note place="foot" xml:id="ftn44" n="44"><p xml:lang="en">
+                            This is why the other <hi rend="italic">Cww</hi> roots (attested only by
+                            isolated nouns) are not considered here. Here they are: <hi
+                                rend="italic">gww</hi>, <hi rend="italic">gāwwā</hi> 'inside (of the
+                            body)', <hi rend="italic">hww</hi>, <hi rend="italic">hāwwtā</hi>
+                            'abyss', <hi rend="italic">kww</hi>, <hi rend="italic">kāwwtā</hi>
+                            'window'.</p></note>
+                </p>
+                <p xml:lang="en">- finally, the third case, <hi rend="italic">šāqūtā</hi> 'irrigation, drink' is
+                    indecisive. Its shape is that of either a feminine III‑w noun or an abstract
+                    III-y noun where <hi rend="italic">y</hi> dropped before <hi rend="italic"
+                        >-ūt</hi> (see the discussion above). On the one hand, its actual concrete
+                    meaning leads to an analysis as a III-w noun. On the other hand, from a
+                    diachronic perspective, its root is without doubt III-y<note place="foot"
+                        xml:id="ftn45" n="45"><p xml:lang="en"> See the comparative evidence
+                            in Leslau (1987: s.v. <hi rend="italic">saqaya</hi>).</p></note> which
+                    supports the idea of an abstract III-y noun. As a result, the problem remains. </p>
+                <p xml:lang="en"> In summary, <hi rend="italic">Cbw</hi>, <hi rend="italic">Cww</hi> and <hi
+                        rend="italic">Cqw</hi> roots are virtually non-existent. <hi rend="italic"
+                        >Cpw</hi>, <hi rend="italic">Cmw</hi>, <hi rend="italic">Ckw</hi> and <hi
+                        rend="italic">Cgw</hi> roots merely do not exist. Consequently, Syriac root
+                    structure obviously forbids homorganic consonantal sequences II-labial/velar
+                        III-w.<note place="foot" xml:id="ftn46" n="46"><p xml:lang="en">
+                            <hi rend="short_text">As a reviewer pointed out to me, </hi>it is
+                            possible that II-p/m/k/g–III-w roots are unattested due to chance,
+                            considering the low number of attested roots.</p></note> From what we
+                    know about root pattern restrictions in Syriac and other Semitic languages, this
+                    limitation is unexpected. As a matter of fact, since consonants root
+                    restrictions apply more regularly in verbs than in nouns, most studies focus on
+                    verbs and omit nouns (see Vernet 2011). It follows that the limitations specific
+                    to nouns could only escape the attention of researchers who until now focus
+                    solely on verbs.</p>
+            </div>
+                    <div xml:id="hv22n1aim.4" xml:lang="en">
+                <head>4. Conclusion: what happened to the Proto-Semitic II-labial/velar III-w roots
+                    in Syriac?</head>
+                <p xml:lang="en">Although this study is essentially synchronic, it is worth concluding the
+                    examination of the III-w roots with a brief diachronic observation.<note
+                        place="foot" xml:id="ftn47" n="47"><p xml:lang="en"> Comparative
+                            study that encompass the other more or less contemporaneous Aramaic
+                            dialects (such as Jewish-Palestinian, Jewish-Babylonian, Mandaic, etc.)
+                            would not be possible within the limits of this paper. The first step in
+                            such a study would be to check whether II-labial III-w and II-velar
+                            III-w roots are attested in these dialects. If this were the case, it
+                            would not call into question our analysis of Syriac: the existence of
+                            linguistics differences (such as phonological ones) is precisely what
+                            justifies the identification of distinct dialects and languages and we
+                            should be aware of this when evidence from one dialect is used to
+                            evaluate an analysis based on data from a different dialect.</p></note>
+                    It is often difficult to determine the Proto-Semitic semi-vowel of a root from
+                    comparative data. Nonetheless, there are cases where it is possible to ascribe a
+                    Proto-Semitic final <hi rend="italic">w</hi> with more or less certainty. Cases
+                    where Proto-Semitic III <hi rend="italic">w</hi> is preceded by a II labial or
+                    velar are the following:<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text"> Data has been drawn mostly from Black, George and
+                            Postgate (2000), Brockelmann (1928), Kazimirki (1944) and Leslau (1987);
+                            alas, I was not able to consult Sokoloff (2010). </p></note>
+                </p>
+                <table rend="rules">
+                    <row>
+                        <cell>Proto-Semitic</cell>
+                        <cell>Akkadian</cell>
+                        <cell>Arabic</cell>
+                        <cell>Geez</cell>
+                        <cell>Syriac</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>*<hi rend="italic">bqw</hi></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">bqw</hi>
+                            </p><p xml:lang="en">'to watch'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">bqy</hi>
+                            </p><p xml:lang="en">'to test'</p></cell>
+                    </row>
+                    <row>
+                        <cell>*<hi rend="italic">gbw</hi></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">ǧbw</hi>
+                            </p><p xml:lang="en">'to exact (tribute)'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">gby</hi>
+                            </p><p xml:lang="en">'to exact (tribute)'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic underline">d</hi><hi rend="italic"
+                            >kw</hi></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">zkw</hi></p><p xml:lang="en">'to be clear, pure'</p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic underline">d</hi><hi rend="italic">kw</hi>
+                            </p><p xml:lang="en">'to be bright'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">dky</hi>
+                            </p><p xml:lang="en">'to be pure'<note place="foot" xml:id="ftn49" n="49"><p
+                                        rend="footnote text"> The abstract noun <hi rend="italic"
+                                            >zākūtā</hi>, sg. abs. <hi rend="italic">zākū</hi>
+                                        'innocence' is obviously a loan from Hebrew; the genuine
+                                        Aramaic root is that of the table, viz. <hi rend="italic"
+                                            >dky</hi>.</p></note></p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">hgw</hi></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">hǧw</hi>
+                            </p><p xml:lang="en">'to satirize, insult, scold'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">hgy</hi>
+                            </p><p xml:lang="en">'to muse, vocalize'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">skw</hi>
+                        </cell>
+                        <cell/>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">skw</hi>
+                            </p><p xml:lang="en">'window, planet'</p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">sky </hi>
+                            </p><p xml:lang="en">'to wait for, look for'<note place="foot" xml:id="ftn50" n="50"
+                                        ><p xml:lang="en"> Cf. Targumic Aramaic <hi
+                                            rend="italic">sky</hi> 'to look out, hope', <hi
+                                            rend="italic">sakwā’</hi><hi rend="italic">ā</hi>
+                                        'watchman', <hi rend="italic">sākūtā</hi> 'outlook-point'.
+                                        Arabic <hi rend="italic">škw ~ šky ~ škk</hi> 'to complain,
+                                        complain while waiting for help' is perhaps
+                                    related.</p></note></p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">smw</hi></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">smw</hi>
+                            </p><p xml:lang="en">'blindness, to vacillate, be undecided'</p></cell>
+                        <cell/>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">smy</hi>
+                            </p><p xml:lang="en">'blindness'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*ʾ</hi><hi rend="italic">pw</hi></cell>
+                        <cell><p xml:lang="en"><hi rend="superscript">?ʾ</hi><hi rend="italic">pw</hi><hi>
+                                    (or </hi><hi rend="superscript">?</hi><hi rend="italic"
+                                    >ʾ</hi><hi rend="italic">py</hi><hi>) </hi></p><p xml:lang="en">'to become
+                                veiled, cloudy' </p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">ʿ</hi><hi rend="italic">fw</hi>
+                            </p><p xml:lang="en">'to clear, conceal, cover'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">ʿ</hi><hi rend="italic">py</hi>
+                            </p><p xml:lang="en">'to invest, take collect, wrap'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">ṣ</hi><hi rend="italic">pw</hi></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">ṣ</hi><hi rend="italic">pw</hi>
+                            </p><p xml:lang="en">'to soak, drench'</p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">ṣ</hi><hi rend="italic">fw</hi>
+                            </p><p xml:lang="en">'to be clear, limpid (water, drinks)'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">ṣ</hi><hi rend="italic">py</hi>
+                            </p><p xml:lang="en">'to wash, sink'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">qbw</hi></cell>
+                        <cell/>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">qbw</hi>
+                            </p><p xml:lang="en">'to be afflicted with dropsy, be blown up'</p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">qby</hi>
+                            </p><p xml:lang="en">'to contain, collect, run together (liquids,
+                            secretions)'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">rpw</hi></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">rmw</hi>
+                            </p><p xml:lang="en">'to slacken, become loose'</p></cell>
+                        <cell><p xml:lang="en"><hi rend="italic">rfw</hi>
+                            </p><p xml:lang="en">'to calm'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">rpy</hi>
+                            </p><p xml:lang="en">'to slacken'</p></cell>
+                    </row>
+                    <row>
+                        <cell><hi>*</hi><hi rend="italic">špw</hi>
+                        </cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">sfw</hi>
+                            </p><p xml:lang="en">'to be fast (flying or running)'</p></cell>
+                        <cell/>
+                        <cell><p xml:lang="en"><hi rend="italic">špy</hi>
+                            </p><p xml:lang="en">'to smooth'</p></cell>
+                    </row>
+                </table>
+                <p xml:lang="en"> In all the attested realizations of these roots in Syriac, the final semi-vowel
+                    is always <hi rend="italic">y</hi>, never <hi rend="italic">w</hi>. This
+                    suggests that at a certain point in the history of Syriac or Proto-Syriac, <hi
+                        rend="italic">w</hi> shifted to <hi rend="italic">y</hi> after II labial and
+                    velars consonants. The question of whether the change was caused by a genuine
+                    dissimilation process or by the broader and phonetically unconditioned change
+                    III-w &gt; III-y is nevertheless open. A historical study on the evolution of
+                    semi-vowels that would encompass the stages of Aramaic prior to Syriac could
+                    perhaps bring some elements of response. Anyway, the above historical change is
+                    exactly in line with our previous synchronic observations: the phonological
+                    drift is toward increasing the occurrences of <hi rend="italic">y</hi> at the
+                    expense of <hi rend="italic">w</hi>, but final <hi rend="italic">w</hi> may
+                    remain on the condition that it is not preceded by a homorganic medial root
+                        consonant.<note place="foot" xml:id="ftn51" n="51"><p xml:lang="en">
+                            There is also another interesting (and to date unrecognized) related
+                            dissimilatory constraint involving final <hi rend="italic">w</hi> in the
+                                <hi rend="italic">CvCw</hi> nouns. The vowel preceding <hi
+                                rend="italic">w</hi> is never the homorganic <hi rend="italic"
+                                >u</hi> or, stated differently, the <hi rend="italic">CuCw</hi>
+                            pattern is barred from the entire lexicon (the sole exception is <hi
+                                rend="italic">ruʿūtā</hi> 'opinion', an indecisive case, see section
+                            2.3.). The exact definition of this other restriction is beyond the
+                            scope of this article; I hope to treat it thoroughly in a future
+                            study.</p></note></p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Aešcoly, A. Z. 1937-40. “Incompatibilités de phonèmes en hébreu et en araméen”,
+                        <hi rend="italic">Comptes Rendus du Groupe Linguistique d</hi><hi
+                        rend="italic">’Études Chamito-sémitiques</hi> 3: 54–6.</bibl>
+                <bibl>Aïm, E. 2016 . “Le changement w&gt;y en syriaque”, <hi rend="italic">JSS</hi>
+                    61: 85-102.</bibl>
+                <bibl>____. 2017. “Les racines avec waw fort en syriaque”, <hi rend="italic">Le
+                        Muséon</hi> 130: 301-325.</bibl>
+                <bibl>Audo, T. 1985. <hi rend="italic">Treasure of the Syriac Language: A Dictionary of
+                        Classical Syriac</hi> (2 vols., reprint). Glane. </bibl>
+                <bibl>Banksira, D. P. 2000. <hi rend="italic">Sound Mutations, The Morphophonology of
+                        Chaha</hi>. Amsterdam.</bibl>
+                <bibl>Birkeland, H. 1947. “The Syriac phonematic vowel systems”, in C. S. Stang and al.
+                    (eds.), <hi rend="italic">Festskrift til Professor Olaf Broch på hans 80
+                        Årsdag</hi>. Oslo. 13-39.</bibl>
+                <bibl>Bohas, G. 1990. “A Diachronic Effect of the OCP”, <hi rend="italic">Linguistic
+                        Inquiry</hi> 21: 298-301.</bibl>
+                <bibl>_____. 1999. “La logique du signe vocalisateur mhagyānā et du signe accélérateur
+                        mar<hi>ṭ</hi>ānā dans la phonologie du syriaque: une approche de la
+                    structure syllabique”, <hi rend="italic">Bulletin d’</hi><hi rend="italic"
+                        >Études Orientales</hi> 51: 127-49.</bibl>
+                <bibl>____. 2017. “Les méfaits de l'optique hébraïsante sur le traitement des bgdkpt en
+                    syriaque”, <hi rend="italic">Parole de l’Orient</hi> 42: 1-21.</bibl>
+                <bibl>Black, J., George A. and N. Postgate. 2000. <hi rend="italic">A Concise
+                        Dictionary of Akkadian (2nd Corrected Printing)</hi>. Wiesbaden.</bibl>
+                <bibl>Brockelmann, C. 1908. <hi rend="italic">Grundriss der vergleichenden Grammatik
+                        der semitischen Sprachen</hi>, I. Bd. Laut- und Formenlehre. Berlin.</bibl>
+                <bibl>____. 1910. <hi rend="italic">Précis de linguistique sémitique. Translated by W.
+                        Marçais and M. Cohen</hi>. Paris.</bibl>
+                <bibl>____. 1912, <hi rend="italic">Syrische Grammatik: mit Paradigmen, Literatur,
+                        Chrestomathie und Glossar</hi> (3rd ed.). Berlin. </bibl>
+                <bibl>____. 1928. <hi rend="italic">Lexicon Syriacum</hi> (2nd ed.). Halle.</bibl>
+                <bibl>Butts, A. M. 2010. “The Etymology and Derivation of the Syriac Adverbial
+                        Ending ‑ɔ'īθ”, <hi rend="italic">JNES</hi> 69: 79-86. </bibl>
+                <bibl>Cantineau, J. 1946. “Esquisse d'une Phonologie de l'Arabe Classique”, <hi
+                        rend="italic">Bulletin de la Société de Linguistique de Paris </hi>126:
+                    93-140.</bibl>
+                <bibl>Costaz, L. 1994. <hi rend="italic">Dictionnaire syriaque-français /
+                        Syriac-English Dictionary / Qāmūs suryānī-ʿarabī</hi> (2nd ed.).
+                    Beyrouth.</bibl>
+                <bibl>____. 1997. <hi rend="italic">Grammaire syriaque</hi> (4th ed.). Beyrouth.</bibl>
+                <bibl>Clements, G.N. 1993. “Lieu d'articulation des consonnes et des voyelles”, in B.
+                    Laks and A. Rialland (eds.), <hi rend="italic">Architecture des représentations
+                        phonologiques</hi>. Paris. 101‑145.</bibl>
+                <bibl>Daniels, P.T. 1997. “Classical Syriac Phonology”, in A. S. Kaye (ed.), <hi
+                        rend="italic">Phonologies of Asia and Africa</hi>. Winona Lake, IN.
+                    127–40.</bibl>
+                <bibl>Duval, R. 1881. <hi rend="italic">Traité de grammaire syriaque</hi>. Paris.</bibl>
+                <bibl>Greenberg, J. 1950. “The patterning of root morphemes in Semitic”, <hi
+                        rend="italic">Word</hi> 6: 162-181.</bibl>
+                <bibl>Healey, J. F. 2011. “Syriac”, in S. Weninger and al. (eds.), <hi rend="italic"
+                        >The Semitic Languages. An International Handbook</hi>. Berlin. 637-52.</bibl>
+                <bibl>Hoberman, R. 1993. “Local Spreading”, <hi rend="italic">Journal of Afroasiatic
+                        Languages </hi>3: 226-254.</bibl>
+                <bibl>Huehnergard, J. 2000. <hi rend="italic">A grammar of Akkadian</hi> (Harvard
+                    Semitic Studies 25, 3rd printing). Winona Lake, IN.</bibl>
+                <bibl>Kazimirski, A. de Biberstein. 1944. <hi rend="italic">Dictionnaire
+                        arabe-frangais</hi> (2 vols., reprint), Beyrouth. </bibl>
+                <bibl>Kaye, A. S. and J. Rosenhouse. 1997. “Arabic Dialects and Maltese”, in R. Hetzron
+                    (ed.), <hi rend="italic">The Semitic Languages</hi>. London. 263‑311.</bibl>
+                <bibl>Kuryłowicz, J. 1972. <hi rend="italic">Studies in Semitic Grammar and
+                        Metrics</hi>. Warsaw.</bibl>
+                <bibl>Leslau, W. 1987. Comparative Dictionary of Geʿez (Classical Ethiopic): Geʿez
+                    English/English-Geʿez with an Index of Semitic Roots. Wiesbaden.</bibl>
+                <bibl>McCarthy J. 1979. <hi rend="italic">Formal Problems in Semitic Phonology and
+                        Morphology</hi>, Ph. D. Diss., Massachusetts Institute of Technology.</bibl>
+                <bibl>____. 1983. “<hi rend="italic">Consonantal Morphology in the Chaha Verb</hi>”, in
+                    M. Barlow and al. (eds.), <hi rend="italic">Proceedings of the 2</hi><hi
+                        rend="italic superscript">nd West Coast Conference on Formal
+                        Linguistics</hi>. Stanford, CA. 176-88.</bibl>
+                <bibl>____ 1989. “Guttural phonology”, Ms, University of Massachusetts, Amherst.</bibl>
+                <bibl>Moscati, S. and al. 1964. <hi rend="italic">An Introduction to the Comparative
+                        Grammar of the Semitic Languages. Phonology and Morphology </hi>(<hi
+                        rend="Hyperlink">Porta Linguarum Orientalium</hi> 6). Wiesbaden.</bibl>
+                <bibl>Muraoka, T. 1997. <hi rend="italic">Classical Syriac. A Basic Grammar with a
+                        Chrestomathy</hi> (Porta Linguarum Orientalium, N. S. 19). Wiesbaden.</bibl>
+                <bibl>Nöldeke, T. 1904. <hi rend="italic">Compendious Syriac Grammar. Translated from
+                        the second and improved German edition by James A. Crichton</hi>.
+                    London.</bibl>
+                <bibl>Payne Smith, J. 1903. <hi rend="italic">A Compendious Syriac Dictionary founded
+                        upon the Thesaurus Syriacus of R. Payne Smith</hi>. Oxford. </bibl>
+                <bibl>Payne Smith, R. 1879-1901. <hi rend="italic">Thesaurus Syriacus</hi> (2 vols.).
+                    Oxford.</bibl>
+                <bibl><hi rend="italic">Pierrehumbert</hi>, J. 1993. “<hi rend="italic"
+                        >Dissimilarity</hi> in the <hi rend="italic">Arabic verbal roots</hi>”, in
+                    A. Schafer (ed.), <hi rend="italic">Proceedings of the North East Linguistics
+                        Society (NELS) 23</hi>. Amherst, MA. 367–381.</bibl>
+                <bibl>Putten, M. van 2018. “The feminine endings *<hi rend="italic">-ay</hi> and *<hi
+                        rend="italic">-āy</hi> in Semitic and Berber”, <hi rend="italic">BSOAS</hi>
+                    81-2: 205–225.</bibl>
+                <bibl>Sokoloff , M. 2010. <hi rend="italic">A Syriac Lexicon. A Translation from the
+                        Latin, Correction, Expansion, and Update of C. Brockelmann</hi><hi
+                        rend="italic">’s Lexicon Syriacum</hi>. Piscataway.</bibl>
+                <bibl>>Vernet, E. 2011. “Semitic Root Incompatibilities and Historical Linguistics”,
+                        <hi rend="italic">JSS</hi> 56-1: 1-18.</bibl>
+                </listBibl>
+            </div>
+                </body>
+    </text>
+</TEI>
