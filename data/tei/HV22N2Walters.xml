@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Sleep of the Soul and Resurrection of the
+                    Body</title>
+                <title type="sub">Aphrahat’s Anthropology in Context</title>
+                <author>
+                    <name>
+                        <forename>J. Edward</forename>
+                        <surname>Walters</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Rochester University</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2019</date>
+                <idno>Volume 22.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv22n2walters</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>J. Edward Walters</author>
+                        <title level="a">Aphrahat’s Anthropology in Context</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol22/HV22N2Walters.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2019</date>
+                        </imprint>
+                        <biblScope type="vol" n="22">22</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="433" to="465">433-465</biblScope>
+                        <biblScope type="order" n="4"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Aphrahat</term>
+                    <term>Persian Sage</term>
+                    <term>Soul sleep</term>
+                    <term>Rabbinic literature</term>
+                    <term>Resurrection</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2019-08-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:lang="en">
+                <head>Abstract</head>
+                <p xml:lang="en">The fourth-century Syriac corpus known
+                    as the <hi rend="italic">Demonstrations</hi>, attributed to Aphrahat, the Persian
+                    Sage, provides a unique window into the early development of Christianity among
+                    Syriac-speaking communities. Occasionally these writings attest to beliefs and
+                    practices that were not common among other contemporaneous Christian communities,
+                    such as Aphrahat’s apparent belief in the “sleep of the soul” and the implications
+                    of that belief for his concept of the soul-body relationship and what happens to the
+                    soul and body at the resurrection. Aphrahat addresses this topic in the context of a
+                    polemical argument against an unnamed opponent, which provides the occasion to
+                    consider whom these arguments might be addressed against. The present article seeks
+                    to understand Aphrahat’s views on the body and soul within the broad religious
+                    milieu of the eastern Mediterranean world in Late Antiquity. The article concludes
+                    with an argument for reading and understanding the <hi rend="italic"
+                        >Demonstrations</hi> as a witness to the contested development of Christian
+                    identity in the Syriac-speaking world.</p>
+            </div>
+        </front>
+        <body>                 
+            <div>
+                <head>Introduction</head>
+                <p>Aphrahat, the so-called Persian Sage,<note place="foot" xml:id="ftn1" n="1">
+                        <p rend="footnote text"> The name “Aphrahat” does not come to be associated
+                            with the “Persian Sage” mentioned as the author of the <hi rend="italic"
+                                >Demonstrations</hi> until relatively late (8<hi rend="superscript"
+                                >th</hi> century). Previously, the Persian Sage was either unnamed
+                            (BL Add. 14,619; BL Add. 17,182 [part 1]; letters of George, bishop of
+                            the Arabs) or called Jacob (BL Add. 17,182 [part 2]). But later
+                            tradition accepts the name Aphrahat as the correct identification of the
+                            Persian Sage (Barbahlul, Gregory Bar ʿEbroyo, ʿAbdisho).</p>
+                    </note> is a relatively obscure figure in the history of early Christianity
+                    despite the intriguing historical context of his life and writings.<note
+                        place="foot" xml:id="ftn2" n="2">
+                        <p rend="footnote text"> Aphrahat’s writings survive in the form of
+                            twenty-three 
+                                <foreign xml:lang="syr">ܬܚܘܝ̈ܬܐ</foreign>
+                            , which is generally translated “Demonstrations.” Two versions of
+                            the Syriac text have been published: William Wright, ed., <hi
+                                rend="italic">The Homilies of Aphraates, the Persian Sage, edited
+                                from Syriac Manuscripts of the fifth and sixth Century in the
+                                British Museum, Vol. 1: The Syriac Text</hi> (London: Williams and
+                            Norgate, 1869) [note: this was intended as a two volume set with an
+                            English translation in the second volume, but the second volume was
+                            never completed]; and D. Ioannes Parisot, ed., <hi rend="italic"
+                                >Aphraatis Sapientis Persae Demonstrationes I-XXII</hi> (Patrologia
+                            Syriaca 1.1; Paris: Firmin-Didot, 1894), and D. Ioannes Parisot, ed.,
+                                <hi rend="italic">Aphraatis Sapientis Persae Demonstrationes
+                                XXIII</hi> (Patrologia Syriaca 1.2; Paris: Firmin-Didot, 1907),
+                            columns 1-150. In recent years, modern translations of the <hi
+                                rend="italic">Demonstrations</hi> into French, German, English, and
+                            Italian have appeared: Marie-Joseph Pierre, <hi rend="italic">Aphraate
+                                le Sage Persan. Les Exposés</hi>. SC 349, 359 (Paris: Les Éditions
+                            du Cerf, 1988, 1989); Peter Bruns, <hi rend="italic">Aphrahat.
+                                Unterweisungen</hi> (FC 5.1-2; Freiburg: Herder, 1991-1992);
+                            Kuriakose Valavanolickal, <hi rend="italic">Aphrahat.
+                                Demonstrations</hi>. Mōrān ’Eth’ō 23-24 (Kottayam: St. Ephrem
+                            Ecumenical Research Institute, 2005); Adam Lehto, <hi rend="italic">The
+                                Demonstrations of Aphrahat, the Persian Sage</hi> (Gorgias Early
+                            Christian Studies 27; Piscataway, NJ: Gorgias Press, 2010); and Giovanni
+                            Lenzi, <hi rend="italic">Afraate: Le esposizioni, 2 Vols.</hi> (Testi
+                            del Vicino Oriente antico; Brescia: Paideia, 2012).</p>
+                    </note> According to colophons found within the <hi rend="italic"
+                        >Demonstrations</hi>, it can be reasonably assumed that he lived somewhere
+                    within the Persian Empire<note place="foot" xml:id="ftn3" n="3">
+                        <p rend="footnote text"> It is not possible to determine Aphrahat’s precise
+                            location from his writings. Demonstration 14 is addressed to the leaders
+                            of the Church in Seleucia-Ctesiphon, but this does not provide any
+                            concrete information for the author’s locale. The scribe of one late
+                            manuscript (14<hi rend="superscript">th</hi> century) in the British
+                            Library (BM Orient. 1017) claims that Aphrahat was the bishop of the
+                            monastery of Mar Mattai (located in modern-day northern Iraq, near
+                            Mosul). However, this claim is suspect and certainly anachronistic; cf.
+                            S.P. Brock, “Aphrahat” in Brock, et al, <hi rend="italic">Gorgias
+                                Encyclopedic Dictionary of the Syriac Heritage</hi> (Piscataway:
+                            Gorgias Press, 2011), 24-25. </p>
+                    </note> during the early years of the reign of Shapur II.<note place="foot"
+                        xml:id="ftn4" n="4">
+                        <p rend="footnote text"> The precise dates of Aphrahat’s birth and death are
+                            unknown, but dates for the <hi rend="italic">Demonstrations</hi> are
+                            provided directly within the work: <hi rend="italic">Demonstrations</hi>
+                            1-10 were composed in 336-7 CE, <hi rend="italic">Demonstrations</hi>
+                            11-22 in 343-4 CE, and <hi rend="italic">Demonstrations</hi> 23 was
+                            written in 345 CE; see Aphrahat, <hi rend="italic">Demonstrations</hi>
+                            14.40 (Parisot, <hi rend="italic">Aphraatis</hi>, I.724.24-I.725.2),
+                            22.25 (Parisot, <hi rend="italic">Aphraatis</hi>, I.1044.11-20), and
+                            23.69 (Parisot, <hi rend="italic">Aphraatis</hi>, II.149.1-10). Although
+                            there is no specific reason to doubt the accuracy of the information
+                            provided in the colophons, it is important to note that I have argued
+                            elsewhere that the <hi rend="italic">Demonstrations</hi> is likely not
+                            the work of a single author, but rather an edited corpus. See Walters,
+                            “Reconsidering the Compositional Unity of Aphrahat’s <hi rend="italic"
+                                >Demonstrations</hi>,” in Aaron Michael Butts and Robin Darling
+                            Young, eds., <hi rend="italic">Syriac Christian Culture: Beginnings to
+                                Renaissance</hi> (CUA Press, <hi rend="italic"
+                            >forthcoming</hi>).</p>
+                    </note> The religious milieu of early fourth-century Persia featured a
+                    several-century-old state religion in revival (Zoroastrianism) that was
+                    competing not only with well-established religions like Judaism, but also with
+                    native folk religions, the influx of Greek philosophical schools, and various
+                    expressions of Christianity.<note place="foot" xml:id="ftn5" n="5">
+                        <p rend="footnote text"> For a brief, but excellent overview of the Iranian
+                            religious milieu in which early Syriac Christianity developed, see
+                            Carsten Colpe, “Development of Religious Thought,” in Eshan Yarshater,
+                            ed., <hi rend="italic">The Cambridge History of Iran, Vol. 3(2): The
+                                Seleucid, Parthian, and Sasanian Periods</hi> (Cambridge: Cambridge
+                            University Press, 1983), 819-865; for more specifically on the early
+                            history of Christianity in Iran, see J.P. Asmussen, “Christians in
+                            Iran,” in <hi rend="italic">idem</hi>., 924-948.</p>
+                    </note> Despite this fascinating context, Aphrahat’s writings have received
+                    surprisingly little attention as a witness to religious diversity in
+                    fourth-century Persia. The little attention scholars have extended to his work
+                    in this regard has been focused mainly on his depiction of Judaism. While
+                    Judaism does feature prominently in several segments of Aphrahat’s <hi
+                        rend="italic">Demonstrations</hi>, particularly in Demonstrations 11-22, his
+                    writings also offer a unique perspective on the state of Christianity in early
+                    fourth-century Persia. </p>
+                <p>The present article seeks to offer an example of Aphrahat’s unique expression of
+                    ideas and the way his thought fits within the broader religious milieu of early
+                    Syriac-speaking Christianity, namely his beliefs about the body/soul
+                    relationship and what happens to the body and soul at death and in the
+                    resurrection. In his discussions of these topics, Aphrahat demonstrates both
+                    continuity and discontinuity with other early Christian and Jewish sources, and
+                    his unique perspective is likely the result of the diverse context in which
+                    Persian Christianity developed. In particular, Aphrahat’s bipartite view of
+                    humanity, the idea of the ‘sleep of the soul,’ and an idiosyncratic depiction of
+                    the Holy Spirit’s role in conjunction with the body/soul in life, death, and the
+                    resurrection provide a test case for examining the complex web of ideas that
+                    shape the content of Aphrahat’s writings.</p>
+                <p> Offering first a brief sketch of Aphrahat’s views on the body and soul
+                    relationship, this article proceeds by comparing Aphrahat’s perspective to the
+                    literature of various contemporaneous religious communities with which he could
+                    have interacted or about whom he may have been aware. The most obvious point of
+                    comparison is, of course, Judaism, but this point merits caution. The literary
+                    remains of Judaism for this time period are the writings of the Rabbis. Most of
+                    these were compiled well after Aphrahat’s time of writing, yet some of them
+                    reflect much earlier traditions. If Aphrahat was not familiar with proper
+                    “Rabbinic” Judaism, as Jacob Neusner has argued,<note place="foot" xml:id="ftn6"
+                        n="6">
+                        <p rend="footnote text"> Early scholarship on this topic argued that
+                            Aphrahat’s writings showed evidence of rabbinic influence. See for
+                            example Salomon Funk, <hi rend="italic">Die haggadischen Elemente in den
+                                Homilien des Aphraates, des persischen Weisen</hi> (Vienna: Druck
+                            von Moritz, 1891); and Frank Gavin, <hi rend="italic">Aphraates and the
+                                Jews: A Study of the Controversial Homilies of the Persian Sage in
+                                Their Relation to Jewish Thought</hi> (New York: AMS Press, 1966).
+                            Neusner depicted Aphrahat’s writings as reflective of a sort of folk,
+                            non-Rabbinic Judaism; see Jacob Neusner,
+                            <hi rend="italic">Aphrahat and Judaism: The Christian-Jewish Argument in Fourth-Century Iran </hi>(Leiden:
+                            Brill, 1971; reprint: Atlanta: Scholars Press, 1999), see particularly
+                            pp. 144-149. Most recently, Eliyahu Lizorkin has argued that Aphrahat
+                            and his community encountered and interacted with “Rabbinic-related,
+                            Para-Rabbinic Jews,” which seems in large part to overlap with Neusner’s
+                            argument; E. Lizorkin, <hi rend="italic">Aphrahat’s Demonstrations: A
+                                Conversation with the Jews of Mesopotamia</hi>, CSCO 642 (Leuven:
+                            Peeters, 2012), 158.</p>
+                    </note> then we cannot assume that traditions found in Rabbinic writings would
+                    be consistent with Aphrahat’s depiction of his Jewish interlocutors. Naomi
+                    Koltun-Fromm’s recent treatment of this problem is quite helpful here because
+                    she offers a way of dealing with shared exegetical and hermeneutical traditions
+                    between Rabbinic Judaism and Syriac Christianity that resists the urge to draw
+                    direct, causal relationships between the texts.<note place="foot" xml:id="ftn7"
+                        n="7">
+                        <p rend="footnote text"> Koltun-Fromm’s arguments can be found in a number
+                            of publications: “A Jewish-Christian Conversation in Fourth-Century
+                            Persian Mesopotamia,” <hi rend="italic">Journal of Jewish Studies</hi>
+                            47.1 (1996), 45-63, which has been revised, expanded, and re-published
+                            as Naomi Koltun-Fromm, <hi rend="italic">Jewish-Christian Conversation
+                                in Fourth-Century Persian Mesopotamia: A Reconstructed
+                                Conversation</hi> (Judaism in Context 12; Piscataway, NJ: Gorgias
+                            Press, 2011), and especially
+                            <hi rend="italic">The Hermeneutics of Holiness: Ancient Jewish and Christian Notions of Sexuality and Religious Community </hi>(Oxford:
+                            University Press, 2010). </p>
+                    </note> She focuses instead on the way that Aphrahat and the Rabbis each shaped
+                    these received hermeneutical traditions in their own contexts. The question of
+                    whether Aphrahat’s writings on Jews reflect a “real” Jewish opponent or whether
+                    they function as a rhetorical device for Aphrahat’s intended audience remains a
+                    contested issue.<note place="foot" xml:id="ftn8" n="8">
+                        <p rend="footnote text"> For a recent argument that Aphrahat’s Jewish
+                            opponents represent real interactions with a Jewish community, see
+                            Lizorkin, <hi rend="italic">Aphrahat’s Demonstrations</hi>; for my own
+                            argument that Aphrahat employs “imagined Jews” as a rhetorical strategy,
+                            see Walters, “Anti-Jewish Rhetoric and Christian Identity in Aphrahat’s
+                                <hi rend="italic">Demonstrations</hi>,” in Aaron Michael Butts and
+                            Simcha Gross, eds., <hi rend="italic">Judaism and Syriac Christianity:
+                                Identities and Intersections</hi> (Mohr Siebeck, <hi rend="italic"
+                                >forthcoming</hi>).</p>
+                    </note>
+                </p>
+                <p>Beyond Judaism, however, there are also less obvious points of comparison with
+                    Aphrahat. Indeed, it is quite possible that Aphrahat was also familiar with
+                    other expressions of Christianity within the Syriac-speaking milieu, namely
+                    followers of Marcion, Bardaisan, and Mani. There is significant evidence (both
+                        primary<note place="foot" xml:id="ftn9" n="9">
+                        <p rend="footnote text"> While very few original Manichaean writings are
+                            preserved in Syriac, Mani himself is traditionally thought to have
+                            written in Syriac or at least in an Aramaic dialect (cf. Eusebius <hi
+                                rend="italic">HE</hi> 4.30.1; Epiphanius <hi rend="italic">Pan</hi>.
+                            IV.36.1), and several Manichaean works in other languages are presumed
+                            to have had Syriac <hi rend="italic">Vorlagen</hi>. F.C. Burkitt
+                            gathered some of the surviving fragments of Syriac Manichaean literature
+                            in <hi rend="italic">The Religion of the Manichees</hi> (Cambridge:
+                            Cambridge University Press, 1925), 111-118. For a more recent treatment
+                            of Manichaeism and Syriac literature, see Erica C.D. Hunter, “Syriac
+                            Sources and Manichaeism: A Four Hundred Year Trajectory,” in Jacob van
+                            den Berg, Annemaré Kotzé, Tobias, Nicklas, and Madeleine Scopello, eds.,
+                                <hi rend="italic">In Search of Truth: Augustine, Manichaeism and
+                                other Gnosticism</hi>. Nag Hammadi and Manichaean Studies, 74
+                            (Leiden: Brill, 2010), 291-300.</p>
+                    </note> and secondary<note place="foot" xml:id="ftn10" n="10">
+                        <p rend="footnote text"> Ephrem the Syrian explicitly denounces the
+                            followers of these three teachers in two surviving polemical works, one
+                            a prose text (<hi rend="italic">S. Ephraim’s Prose Refutations of Mani,
+                                Marcion, and Bardaisan</hi>, <hi rend="italic">2 Vols.</hi>,
+                            transcribed and translated by C. W. Mitchell [London: Williams and
+                            Norgate, 1912]), and the other a collection of poetry (<hi rend="italic"
+                                >Des heiligen Ephraem des Syrers Hymnen contra Haereses</hi> ed. and
+                            tr. Edmund Beck [CSCO 169-170, Scrip. Syr. 76-77; Louvain: Imprimerie
+                            Orientaliste, 1957]). Moreover, Titus of Bostra’s <hi rend="italic"
+                                >Contra Manichaeos</hi> was also translated into Syriac quite early
+                            (Paul de Lagarde, ed., <hi rend="italic">Titi Bostreni contra manichaeos
+                                libri quatuor syriace</hi> [London: Williams and Norgate, 1859]),
+                            which suggests the popularity of anti-Manichaean texts in the Syriac
+                            tradition. In his work on Ephrem’s polemical writings, John Reeves
+                            argued that Ephrem was “the most important textual witness to the
+                            earliest forms of Manichaean discourse,” primarily because Ephrem
+                            preserved, in Syriac, what are sure to be citations from Mani’s
+                            followers and Manichaean literature. See John C. Reeves, “Manichaean
+                            Citations from the <hi rend="italic">Prose Refutations</hi> of Ephrem,”
+                            in <hi rend="italic">Emerging from Darkness: Studies in the Recovery of
+                                Manichaean Sources</hi>, ed. Paul Mirecki and Jason BeDuhn (Nag
+                            Hammadi and Manichaean Studies 43; Leiden: Brill, 1997), 217-288.</p>
+                    </note>) for the prominence of these movements as alternative expressions of
+                    Christianity in the Syriac-speaking world in Aphrahat’s time period. Moreover,
+                    there is evidence from within Aphrahat’s writings that he was aware of such
+                        communities.<note place="foot" xml:id="ftn11" n="11">
+                        <p rend="footnote text"> Aphrahat, seemingly in passing, mentions teachings
+                            and practices associated with Marcion, Valentinus (perhaps thought of as
+                            the ‘source’ for Bardaisan), and Mani in <hi rend="italic">Dem</hi>. 3.9
+                            (Parisot, <hi rend="italic">Aphraatis</hi>, I.116.4-17). This passage is
+                            discussed in further detail below. </p>
+                    </note> And although Aphrahat never explicitly directs a polemic against the
+                    teachings of these religious groups, there are particular arguments in the <hi
+                        rend="italic">Demonstrations</hi> against what he calls “deceptive
+                    teachings,” which seem to suggest a conscious effort to oppose alternative
+                    Christian teachings, including Aphrahat’s treatment of the resurrection. Thus,
+                    it is possible that Aphrahat’s intra-Christian arguments are directed against
+                    one of these heterodox Christian groups. As a result, the present project seeks
+                    to identify points of continuity and discontinuity on the topic of the
+                    resurrection and the body/soul relationship between Aphrahat and these
+                    contemporaneous religious communities. </p>
+            </div>
+            <div>
+                <head>Sketch of Aphrahat’s Anthropology</head>
+                <p>Although Aphrahat’s most extensive treatment of the resurrection appears in
+                    Demonstration 8 (“On the Resurrection of the Dead”), he first addressed the
+                    topic in Demonstration 6 (“On the <hi rend="italic">Bnay Qyama</hi>”) within the
+                    context of his discussion of Christians receiving the Holy Spirit at baptism.
+                    Aphrahat compares the event of baptism with the creation of humanity, and it is
+                    here that he offers some insight into his views on the body/soul relationship.
+                    The main point of comparison for the two events is the reception of the Holy
+                    Spirit at baptism and the moment in the creation narrative when God breathed
+                    ‘the spirit’ into Adam: </p>
+                <quote>
+                    <foreign  xml:lang="syr">ܒܡܘܠܕܐ ܓܝܪ ܩܕܡܝܐ ܡܬܝܠܕܝܢ ܒܪܘܚܐ ܢܦܫܢܝܬܐ ܕܡܬܒܪܝܐ ܒܓܘܗ ܕܒܪ
+                        ܐܢܫܐ ܘܠܐ ܡܝܘܬܬܐ ܬܘܒ ܐܝܬܝܗ ܐܝܟ ܕܐܡܪ: ܕܗܘܐ ܐܕܡ ܠܢܦܫ ܚܝܐ. ܘܒܡܘܠܕܐ ܕܬܪ̈ܝܢ
+                        ܕܒܡܥܡܘܕܝܬܐ ܡܩܒܠܝܢ ܪܘܚܐ ܕܩܘܕܫܐ ܡܢ ܒܨܪܐ ܕܐܠܗܘܬܐ: ܘܠܐ ܗܘܐ ܡܝܘܬܬܐ ܬܘܒ
+                        ܐܝܬܝܗ.</foreign>
+                    <note place="foot" xml:id="ftn12" n="12">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 6.14 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.293.5-11). </p>
+                    </note>
+                    
+      
+                </quote>
+                <quote>For in the first birth, [humans] are born with a 
+                    <foreign xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>, which is created within a person and
+                    it is not subject to death, as [Scripture] says: ‘The man became a living soul.’
+                    And in the second birth—that is, in baptism—[the baptized] receive the Holy
+                    Spirit from a portion of the divinity, which is also not subject to death.<note
+                        place="foot" xml:id="ftn13" n="13">
+                        <p rend="footnote text"> All translations from Aphrahat are my own, unless
+                            otherwise noted.</p>
+                    </note>
+                </quote>
+                <p>In this brief statement, Aphrahat compares the animation of Adam’s body, via
+                    God’s breath (Gen. 2:7), with the Christian’s reception of the Holy Spirit in
+                        baptism.<note place="foot" xml:id="ftn14" n="14">
+                        <p rend="footnote text"> The creation imagery is made even more explicit in
+                            the broader context of the argument about baptism: “at the moment when
+                            the priests invoke the Spirit, heaven opens and the Spirit descends and
+                                <hi rend="italic">hovers over the water</hi>,” <hi rend="italic"
+                                >Dem</hi>. 6.14 (Parisot, <hi rend="italic">Aphraatis</hi>,
+                            I.292.25-I.293.1).</p>
+                    </note> Although he does not state it explicitly, the logical conclusion of his
+                    citation of Gen 2:7 in reference to the creation of the <foreign  xml:lang="syr"
+                        >ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign> is that the breath of God actually <hi rend="italic"
+                            >became</hi> the <foreign  xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign> of humanity.<note
+                        place="foot" xml:id="ftn15" n="15">
+                        <p rend="footnote text"> I have intentionally left the phrase <hi
+                                rend="italic">ruḥa naphshanayta</hi> untranslated here, but I will
+                            define it in the subsequent discussion.</p>
+                    </note>
+                </p>
+                <p> The link between God’s breath and the <foreign xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>
+                    is forged, at least in part, on linguistic principles. Although the Hebrew text
+                    of Gen 2:7 uses נשמה for ‘breath,’ and the Syriac Peshiṭta follows the Hebrew by using
+                    <foreign xml:lang="syr">ܢܫܡܬܐ</foreign>, Aphrahat’s allusions to Gen 2:7 always
+                    employ <foreign xml:lang="syr">ܪܘܚܐ</foreign> for the breath of God.<note
+                        place="foot" xml:id="ftn16" n="16">
+                        <p rend="footnote text"> See for example <hi rend="italic">Dem</hi>. 17.6
+                            (Parisot, <hi rend="italic">Aphraatis</hi>, I.793.21-24): “[God] has
+                            honored, exalted, and glorified human beings more than all creatures
+                            because he has molded them with his holy hands and he breathed into them
+                            from his spirit (<foreign xml:lang="syr">ܘܡܢ ܪܘܚܗ ܢܦܚ ܒܗܘܢ</foreign>)”; cf.
+                                <hi rend="italic">Dem</hi>. 23.58 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, II.117.13): “You breathed into us from your spirit
+                            of life (<foreign xml:lang="syr">ܘܢܦܚܬ ܒܢ ܡܢ ܪܘܚܟ ܕܚܝܐ</foreign>).”</p>
+                    </note> It is not clear if Aphrahat used <foreign xml:lang="syr">ܪܘܚܐ</foreign> here
+                    because he inherited it as part of the translation of Gen 2:7, though it is
+                    clear that he is not relying upon the Targum translations of Gen 2:7.<note
+                        place="foot" xml:id="ftn17" n="17">
+                        <p rend="footnote text"> The three main Aramaic Targum translations of
+                            Genesis (Onqelos, Ps.-Jonathan, Neofiti) used נשמתא in Gen 2:7. </p>
+                    </note> It is possible that he creatively and intentionally chose the more
+                    flexible word <foreign xml:lang="syr">ܪܘܚܐ</foreign>, though it is also possible that
+                    he conflated this passage with John 20:22 in which Jesus breathed on the
+                    disciples and told them to receive the Holy Spirit (<foreign xml:lang="syr">ܪܘܚܐ
+                        ܕܩܘܕܫܐ</foreign>). Whether or not the use of <foreign xml:lang="syr">ܪܘܚܐ</foreign> is
+                    an intentional change to the received wording, however, it is clear that
+                    Aphrahat deliberately established a link between the ‘spirit’/‘breath’ (<foreign xml:lang="syr">ܪܘܚܐ</foreign>) of God and the <foreign xml:lang="syr">ܪܘܚܐ
+                            ܢܦܫܢܝܬܐ</foreign> of humanity.</p>
+                <p> Thus far our discussion has left untranslated the key phrase for parsing
+                    Aphrahat’s view of the body and soul, <foreign xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>,
+                    because it is not immediately clear what Aphrahat intended by it. The difficulty
+                    in rendering this phrase correctly is grounded in the fact that Aphrahat used
+                    two words whose layers of meaning overlapped, with <foreign xml:lang="syr"
+                        >ܢܦܫܐ</foreign> (‘soul/self’) being employed as an adjectival modifier of <foreign xml:lang="syr">ܪܘܚܐ</foreign> (‘spirit’). Most modern translators, agreeing
+                    with Parisot’s Latin translation that accompanies the primary printed text of
+                    Aphrahat’s <hi rend="italic">Demonstrations</hi>, render the phrase as
+                    “animal/animate” or “natural” spirit.<note place="foot" xml:id="ftn18" n="18">
+                        <p rend="footnote text"> Parisot (<hi rend="italic">Aphraatis</hi>, I.294)
+                            renders it as “spiritus animalis”; Valavanolikal: “animate spirit” (<hi
+                                rend="italic">Aphrahat, Demonstrations I</hi>, 152-153); Lehto
+                            translates “natural spirit” (<hi rend="italic">Demonstrations</hi>,
+                            192); and Pierre renders it as “esprit animé” (<hi rend="italic">Les
+                                Exposés</hi>, <hi rend="italic">I</hi>, 401). In his German version,
+                            Peter Bruns breaks from this trend and translates this phrase more
+                            idiomatically as “sinnenhafte Geiste” (a “sensing spirit”); Bruns, <hi
+                                rend="italic">Aphrahat: Unterweisungen</hi>, I, 205.</p>
+                    </note> It is possible that Aphrahat is adapting Paul’s language from 1 Cor 15
+                    concerning bodies that are <foreign xml:lang="gr"
+                        >ψυχικόν</foreign> and <foreign xml:lang="gr"
+                        >πνευματικόν</foreign>,<note place="foot" xml:id="ftn19" n="19">
+                        <p rend="footnote text"> Indeed, in the broader context, Aphrahat argued
+                            that the ‘natural spirit’ (<foreign xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>)
+                            will be swallowed up by the Holy Spirit and will become ‘spiritual’ (<foreign
+                                xml:lang="syr">ܪܘܚܢܐ</foreign>). This language matches the Syriac
+                            translation of <foreign xml:lang="gr"
+                                >ψυχικόν</foreign> and <foreign xml:lang="gr"
+                                >πνευματικόν</foreign> from 1 Cor 15.</p>
+                    </note> applying the distinction to the soul rather than the body. However, this
+                    would be a rather surprising argument if that’s what Aphrahat intended. The
+                    translation of the phrase as ‘natural/animal spirit’—while not incorrect—does
+                    not necessarily tell us what Aphrahat had in mind when he used the phrase <foreign
+                        xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>. Indeed, the broader context of this
+                    argument suggests that when Aphrahat employed this phrase, he actually just
+                    meant ‘the soul.’ </p>
+                <p> That this is the case can be demonstrated in two ways: first, Aphrahat
+                    associated this entity with a property that was characteristic of the soul in
+                    ancient philosophical discussions of the body and soul: the capacity for sense
+                    perception. Immediately following the comparison of creation and baptism,
+                    Aphrahat asserted, “When people die, the <foreign xml:lang="syr">ܪܘܚܐ
+                        ܢܦܫܢܝܬܐ</foreign> is buried with the body and sensation/perception (<foreign
+                        xml:lang="syr">ܪܓܫܬܐ</foreign>) is taken away from it.”<note place="foot"
+                        xml:id="ftn20" n="20">
+                        <p rend="footnote text"> Dem. 6.14 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.293.12-14).</p>
+                    </note> The idea that the soul is the home for the capacity of
+                    sensation/perception (<foreign xml:lang="gr"
+                        >αἴσθησις</foreign>) in Greek philosophy is at least as old as Aristotle,<note
+                        place="foot" xml:id="ftn21" n="21">
+                        <p rend="footnote text"> Aristotle, <hi rend="italic">De anima</hi> I 1.403
+                            (edition: R.D. Hicks, <hi rend="italic">Aristotle, De Anima</hi>
+                            [Cambridge: University Press, 1907]); although, Aristotle clearly did
+                            not think that the soul had capacity for sensation apart from the
+                            body.</p>
+                    </note> and it also appears in Stoic thought.<note place="foot" xml:id="ftn22"
+                        n="22">
+                        <p rend="footnote text"> Cf. Ps.-Plutarch, <hi rend="italic">Placita
+                                Philosophorum</hi> 4.23 (edition: William W. Goodwin, <hi
+                                rend="italic">Plutarch’s Morals</hi> [Boston: Little Brown and
+                            Company, 1878]): “For the Stoics, the passions are in the affected parts
+                            [of the body], but the perceptions (<foreign xml:lang="gr">αἴσθησις</foreign>) are in
+                            the ruling part (<foreign xml:lang="gr"
+                                >ἡγεμονικός</foreign>) [of the soul].”</p>
+                    </note> Galen attributed the capacity for perception to the <foreign
+                        xml:lang="gr">ἡγεμονικός</foreign>, the “ruling
+                    part” of the soul,<note place="foot" xml:id="ftn23" n="23">
+                        <p rend="footnote text"> Galen, <hi rend="italic">De Placitis Hippocrates et
+                                Platonis</hi>, II.3.4ff; text and edition: Phillip de Lacy, <hi
+                                rend="italic">Corpus Medicorum Graecorum Vol. 4,1,2: Galeni, De
+                                Placitis Hippocratis et Platonis</hi> (Berlin: Akademie Verlag,
+                            2005).</p>
+                    </note> although he disagreed with the Stoics concerning its location within the
+                    body. On the topic of body and soul, Galen’s writings were influential for later
+                    writers, both pagan<note place="foot" xml:id="ftn24" n="24">
+                        <p rend="footnote text"> In particular, Galen was influential for Plotinus
+                            and the neo-Platonic tradition; cf. Teun Tieleman, “Plotinus on the Seat
+                            of the Soul: Reverberations of Galen and Alexander in <hi rend="italic"
+                                >Enn</hi>. IV, 3 [27], 23,” <hi rend="italic">Phronesis</hi> 43.4
+                            (1998), 306-325.</p>
+                    </note> and Christian.<note place="foot" xml:id="ftn25" n="25">
+                        <p rend="footnote text"> Galen was one of the primary sources for the
+                            fourth-century author Nemesius of Emesa’s <hi rend="italic">De natura
+                                hominis</hi>. </p>
+                    </note> The specific correlation of sense perception with the soul also appears
+                    in the middle-Platonic, Jewish exegesis of Gen 2:7, as evidenced by the writings
+                    of Philo of Alexandria.<note place="foot" xml:id="ftn26" n="26">
+                        <p rend="footnote text">
+                            <hi rend="italic">Questions and Answers on Genesis</hi>, I.4-5 (edition:
+                            Ralph Marcus, <hi rend="italic">Philo, Supplement I: Questions and
+                                Answers on Genesis</hi> [Cambridge: Harvard University Press, 1953],
+                            3-4); cf. <hi rend="italic">On the Creation of the Cosmos</hi>, I.18-19
+                            (edition: David T. Runia, <hi rend="italic">Philo of Alexandria: On the
+                                Creation of the Cosmos according to Moses, Introduction,
+                                Translation, and Commentary</hi> [Leiden: Brill, 2001], 82-86).</p>
+                    </note> Thus, by attributing the concept of <foreign xml:lang="syr">ܪܓܫܬܐ</foreign>
+                    to the <foreign xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>, Aphrahat’s writings reflect a
+                    general knowledge of prior and contemporary philosophical concepts of the soul
+                    and its relationship to the body.<note place="foot" xml:id="ftn27" n="27">
+                        <p rend="footnote text"> Unfortunately, Aphrahat did not expand on this
+                            topic at all, making it virtually impossible to identify any “sources”
+                            he may have known or relied on for his view of the soul. It seems best
+                            to conclude that he was simply reflecting a sort of “common knowledge”
+                            about the properties of the soul.</p>
+                    </note>
+                </p>
+                <p> Beyond the recognition of his association of sense perception with the <foreign
+                        xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign>, it is also clear that Aphrahat used
+                    this term in reference to the soul based on his description of what happens to
+                    this entity at death and then at the resurrection, namely that the <foreign
+                        xml:lang="syr">ܪܘܚܐ ܢܦܫܢܝܬܐ</foreign> would be buried along with the body.
+                    Thus, Aphrahat teaches the concept of the “sleep of the soul.” Although Aphrahat
+                    did not explicitly state that the soul “sleeps,” he did argue that it is buried
+                    (<foreign xml:lang="syr">ܡܬܛܡܪܐ</foreign>)<note place="foot" xml:id="ftn28"
+                        n="28">
+                        <p rend="footnote text"> The meaning of the root word <foreign
+                                xml:lang="syr">ܛܡܪ</foreign> is ‘to hide,’ but the passive form
+                            (ethpe’el) that Aphrahat employed here is generally translated as
+                            ‘buried’; cf. M. Sokoloff, <hi rend="italic">A Syriac Lexicon</hi>
+                            (Piscataway, NJ: Gorgias Press, 2009), 537. </p>
+                    </note> with the body and that the capacity for sensation is removed from it.
+                    Thus, the soul remains with the body and exists in some kind of unconscious
+                        state.<note place="foot" xml:id="ftn29" n="29">
+                        <p rend="footnote text"> As Pierre asserts, “Il n’y a plus connaissance ni
+                            discernement,” <hi rend="italic">Éxposes</hi>, vol. 1, 184. </p>
+                    </note>
+                </p>
+                <p>Aphrahat expressed his belief in the sleep of the soul even more clearly when he
+                    returned to this topic in <hi rend="italic">Dem</hi>. 8 (“On the Resurrection of
+                    the Dead”) and contrasted the “sleep” of the righteous and the wicked in the
+                    time between death and the resurrection. He employed here an analogy of good and
+                    bad servants who are sleeping: the bad servants do not sleep well and do not
+                    wish to arise because they know that their master will punish them when they do
+                    wake up. The good servants, however, sleep soundly, knowing the rewards that
+                    await them. Aphrahat concluded the analogy thus: </p>
+                <quote>
+                    <foreign xml:lang="syr">ܘܙܕ̈ܝܩܐ ܕܡܟܝܢ ܘܫܢܬܗܘܢ ܒܣܡܐ ܠܗܘܢ ܒܐܝܡܡܐ ܘܒܠܠܝܐ: ܘܟܠܗ ܠܠܝܐ
+                        ܕܢܓܝܪ ܠܐ ܪܓܫܝܢ ܘܐܝܟ ܚܕܐ ܫܥܐ ܚܫܝܒ ܒܥܝܢܝ̈ܗܘܢ. ܗܝܕܝܢ ܒܡܛܪܬܐ ܕܨܦܪܐ ܡܬܬܥܝܪܝܢ
+                        ܘܚܕܝܢ: ܘܥܘ̈ܠܐ ܫܢܬܗܘܢ ܪܡܝܐ ܥܠܝܗܘܢ ܘܕܡܝܢ ܠܓܒܪܐ ܕܪܡܐ ܒܐܫܬܐ ܪܒܬܐ ܘܥܡܝܩܬܐ: ܘܡܬܗܦܟ
+                        ܒܥܪܣܗ ܠܟܐ ܘܠܟܐ ܘܪܗܝܒ ܠܠܝܐ ܟܠܗ ܕܢܓܪ ܠܗ ܥܠܘܗܝ ܘܕܚܠ ܡܢ ܨܦܪܐ ܕܡܚܝܒ ܠܗ ܡܪܗ.</foreign>
+                </quote>
+                <quote>The upright lie down and their sleep is pleasant, throughout
+                    day and night. For they do not perceive the whole night to be long, but
+                    experience it as though it were a single moment. Then, when the morning comes,
+                    they wake up and rejoice. The sleep of the wicked, however, lies heavily upon
+                    them, like a man stricken with a strong, deep fever who tosses and turns on his
+                    bed, and who is disturbed throughout the long night. They fear the morning, when
+                    their master will condemn them (<hi rend="italic">Dem</hi>. 8.19).<note
+                        place="foot" xml:id="ftn30" n="30">
+                        <p rend="footnote text"> Parisot, <hi rend="italic">Aphraatis</hi>,
+                            I.397.3-14.</p>
+                    </note>
+                </quote>
+                <p>Following this passage, Aphrahat re-emphasized the point that, although the sleep
+                    of death may or may not be pleasant, human beings are not conscious during the
+                    period of death before the resurrection. Aphrahat argued that when the
+                    resurrection takes place,
+                    the <foreign xml:lang="syr">>ܪܘܚܐ ܢܦܫܢܝܬܐ </foreign> will be
+                    raised along with the body and, at least for the righteous, will be transformed
+                    with the body into its “spiritual” state:
+                    “The <foreign xml:lang="syr">>ܪܘܚܐ ܢܦܫܢܝܬܐ </foreign> will be
+                    swallowed up in the heavenly Spirit and the whole person will become spiritual
+                    since the body is in the spirit.”<note place="foot" xml:id="ftn31" n="31">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 6.14 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.296.26-I.297.2).</p>
+                    </note> Those who are not righteous, however, will not be changed; instead, they
+                    remain in their “natural” (<foreign xml:lang="syr">ܢܦܫܢܝܬܐ</foreign>) condition.<note
+                        place="foot" xml:id="ftn32" n="32">
+                        <p rend="footnote text"> Aphrahat also called this the “created nature of
+                            Adam” (<foreign xml:lang="syr">ܟܝܢ ܒܪܝܬܗ ܕܐܕܡ</foreign>); <hi rend="italic"
+                                >Dem</hi>. 6:18 (Parisot, <hi rend="italic">Aphraatis</hi>,
+                            I.309.12).</p>
+                    </note> When the transformed righteous ones are taken away to heaven, the
+                    unrighteous, who are not transformed, remain on Earth and descend to Sheol. </p>
+                <p> Aphrahat’s distinction between the “righteous and unrighteous” in death and at
+                    the resurrection raises the question of what qualifies a person to be called
+                    “righteous.” In Aphrahat’s estimation, each person must maintain the purity of
+                    the Holy Spirit<note place="foot" xml:id="ftn33" n="33">
+                        <p rend="footnote text"> When speaking of this Spirit, Aphrahat varied the
+                            terminology he employed. He often used the phrases “Holy Spirit,”
+                            “Spirit of Christ,” “Spirit of God,” and just “Spirit”
+                            interchangeably.</p>
+                    </note> that was received at the moment of baptism. That is, when someone dies
+                    and their soul and body are buried, the portion of the Holy Spirit that dwelled
+                    in that person from the time of baptism returns to its place with Christ and
+                    testifies either for or against the body it inhabited based on whether or not
+                    that person “guarded [it] in holiness.”<note place="foot" xml:id="ftn34" n="34">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 6.14 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.293.24-I.296.7).</p>
+                    </note> It is this testimony that determines each person’s status in the
+                    resurrection. </p>
+                <p> This particular argument is intriguing for the perspective it offers regarding
+                    Aphrahat’s view of the body/soul relationship. While Aphrahat believed in a
+                    bipartite human existence (with no distinction between a human ‘soul’ and
+                    ‘spirit’), he argued nevertheless that baptized Christians have a tripartite
+                    existence: body, soul, and (Holy) spirit. He even implies that this portion of
+                    the Holy Spirit that returned to be with God maintained some sense of the
+                    individual identity of each person with whom it was associated. This is
+                    presumably how Aphrahat reconciled his understanding of the sleep of the soul
+                    after death with an assumed belief that the righteous would be in the presence
+                    of Christ immediately upon death.<note place="foot" xml:id="ftn35" n="35">
+                        <p rend="footnote text"> As Aphrahat argued, “The [Holy] Spirit returns to
+                            its natural condition with Christ [i.e. at death], for the apostle also
+                            said, ‘When we depart from the body we will be with our Lord’ (2 Cor
+                            5:8),” <hi rend="italic">Dem</hi>. 6.14 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.293.18-21).</p>
+                    </note> Indeed, Aphrahat apparently felt the need to defend his concept of the
+                    sleep of the soul against those who were claiming that people experienced either
+                    reward or punishment immediately upon death: “Those with childish minds say, ‘if
+                    no one has received a reward, why did the apostle say, “When we depart from the
+                    body, we will be with the Lord”?’”<note place="foot" xml:id="ftn36" n="36">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 8.23 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.404.1-4).</p>
+                    </note>
+                </p>
+                <p> The short discussion provided above offers an overview of Aphrahat’s language
+                    and view of the soul/body relationship and of what will happen to the body and
+                    soul in death and at the resurrection. We may isolate at least three unique
+                    features of Aphrahat’s views: the origin of the soul from the breath of God, the
+                    concept of the sleep of the soul, and the Holy Spirit’s role in the life of the
+                    baptized Christian and in the resurrection. Aphrahat’s distinct perspective
+                    emerges more clearly when juxtaposed with the views on such matters among
+                    contemporary religious communities. </p>
+            </div>
+            <div>
+                <head>The Breath of God and the Soul of Humanity</head>
+                <p>Among various religious groups of late antiquity, many different competing
+                    interpretations of the creation narrative circulated. Thus it is not surprising
+                    that the subject of the soul in Gen 2:7, one of the key Scriptural passages for
+                    Aphrahat’s argument, was the subject of multiple interpretive traditions in a
+                    range of other authors and texts. The hermeneutical conclusion that the breath
+                    of God actually became the soul of humanity is at least as old as Philo of
+                    Alexandria, who argued in his work <hi rend="italic">On the Creation</hi> that
+                    “the soul originated from the Father and ruler of all, for that which [God]
+                    breathed into [humanity] was nothing other than Divine breath.”<note
+                        place="foot" xml:id="ftn37" n="37">
+                        <p rend="footnote text"> Philo, <hi rend="italic">On the Creation of the
+                                Cosmos</hi>, 18.134-135 (Runia, <hi rend="italic">Philo: On the
+                                Creation</hi>, 82); elsewhere, this sentiment is even more explicit:
+                            “and [the molded man] obtained a spirit when God breathed life into his
+                            face,” <hi rend="italic">Questions and Answers on Genesis</hi>, I.4
+                            (Marcus, <hi rend="italic">Philo: Supplement I, Questions and
+                                Answers</hi>, 3-4).</p>
+                    </note> It is also worth noting that Philo explicitly linked this interpretation
+                    of Gen 2:7 with the capacity for sense-perception (<foreign xml:lang="gr">αἴσθησις</foreign>). </p>
+                <p> The Jewish pseudepigraphical work known as 4 Ezra<note place="foot"
+                        xml:id="ftn38" n="38">
+                        <p rend="footnote text"> This text, along with 5 Ezra and 6 Ezra, is also
+                            known as 2 Esdras. For a detailed discussion of the text and
+                            transmission of this work, see Michael Edward Stone, <hi rend="italic"
+                                >Fourth Ezra</hi> (Minneapolis: Fortress Press, 1990), 1-8.</p>
+                    </note> also briefly mentions the association between God’s breath and the
+                    animation of Adam’s body. Although the precise date for the composition (most
+                    likely in Hebrew) of 4 Ezra is difficult to discern, it was certainly
+                    circulating in Greek translation by the end of the second century because
+                    Clement of Alexandria cites it explicitly.<note place="foot" xml:id="ftn39"
+                        n="39">
+                        <p rend="footnote text"> Stone, <hi rend="italic">Fourth Ezra</hi>, 9.</p>
+                    </note> The presumed original Hebrew text does not survive at all, and the Greek
+                    translation is only partially attested. Thus, the Syriac version<note
+                        place="foot" xml:id="ftn40" n="40">
+                        <p rend="footnote text"> Preserved only in the famous seventh century
+                                Peshiṭta manuscript
+                            Codex Ambrosianus B.21 (also known as 7a1). For a modern edition of the
+                            text, see R. J. Bidawid, “4 Esdras,” in <hi rend="italic">The Old
+                                Testament in Syriac according to the Peshiṭta Version, IV,3: Apocalypse of Baruch, 4 Esdras</hi>
+                            (Leiden: Brill, 1973).</p>
+                    </note> represents one of the earliest witnesses to the full text of 4 Ezra. The
+                    text in question is found in 4 Ezra 3:5: “…and it [i.e. the dust/ground] gave to
+                    you Adam, a lifeless [lit. ‘dead’] body” (<foreign xml:lang="syr">ܦܓܪܐ
+                        ܡܝܬܐ</foreign>). And yet, he was the work of your hands, so you breathed into him the
+                    breath of life (<foreign xml:lang="syr">ܪܘܚܐ ܕܚ̈ܝܐ</foreign>), and he came alive (<foreign
+                        xml:lang="syr">ܘܗܘܐ ܚܝܐ</foreign>) before you.”<note place="foot"
+                        xml:id="ftn41" n="41">
+                        <p rend="footnote text"> Syriac text from Bidawid, “4 Esdras,” 1;
+                            translation is my own.</p>
+                    </note> A similar sentiment is also found in one Qumran poetic text, 4Q381: “And
+                    by his breath, [God] made them (i.e. Adam and Eve) stand…”<note place="foot"
+                        xml:id="ftn42" n="42">
+                        <p rend="footnote text"> <foreign xml:lang="heb">העמידמ וברוחו, 4</foreign> Q381, Frag. 1, line 7; “4Q381
+                            (4QNon-Canonical Psalms),” ed. by E. Schuller, in <hi rend="italic">The
+                                Dead Sea Scrolls Reader, Part 5: Poetic and Liturgical Texts</hi>,
+                            ed. by Donald W. Parry and Emanuel Tov (Leiden: Brill, 2005),
+                            154-155.</p>
+                    </note> Neither of these Jewish texts explicitly names “the soul,” yet it is
+                    clear that both view God’s breath as the animating force of the otherwise
+                    lifeless body of Adam.</p>
+                <p> The interpretive tradition that linked the breath of God to the soul of humanity
+                    is also found in later Jewish literary traditions. Two of the Aramaic Targum
+                    translations of Genesis incorporate this interpretation directly into their
+                    wording of Gen 2:7:</p>
+                <quote>
+                <p>Targum Onqelos to Genesis 2:7</p>
+                <p xml:lang="heb">
+                    <foreign xml:lang="heb">ממללא
+                    <note place="foot" xml:id="ftn43" n="43">
+                        <p rend="footnote text"> Aramaic text from Moses Aberbach and Bernard
+                            Grossfeld, <hi rend="italic">Targum Onkelos to Genesis</hi> (Hoboken:
+                            Ktav Publishing, 1982), 29.</p>
+                    </note>
+                    לרוח באדם והות דְחיי נשמתא באפוהי ונפח</foreign>
+                </p>
+                <p>“And [God] breathed into [the nostrils] of his face the
+                    breath of life, and it became in Adam a spirit uttering speech.”<note
+                        place="foot" xml:id="ftn44" n="44">
+                        <p rend="footnote text"> English translation from Bernard Grossfeld, <hi
+                                rend="italic">The Targum Onqelos to Genesis</hi>, The Aramaic Bible
+                            6 (Wilmington: Michael Glazier, 1988), 44.</p>
+                    </note>
+                </p>
+                </quote>
+                <quote>
+                <p>Targum Pseudo-Jonathan to Genesis 2:7</p>
+                <p xml:lang="heb">
+                    <foreign xml:lang="heb">אודנין
+                    <note place="foot" xml:id="ftn45" n="45">
+                        <p rend="footnote text"> Aramaic text from E.G. Clarke, et al, <hi
+                                rend="italic">Targum Pseudo-Jonathan of the Pentateuch: Text and
+                                Concordance</hi> (Hoboken: Ktav Publishing House, 1984), 2.</p>
+                    </note>
+                    ולמצתות עינין לאנהרות ממללא לרוח דאדם בגופא נשמתא והוות
+                        דחיי נשמתא בנחירוהי ונפח</foreign>
+                </p>
+                <p>“And [God] breathed into his nostrils the breath of life,
+                    and the breath became in the body of Adam a spirit capable of speech, to give
+                    light to the eyes and hearing to the ears.”<note place="foot" xml:id="ftn46"
+                        n="46">
+                        <p rend="footnote text"> English translation from Michael Maher, <hi
+                                rend="italic">Targum Pseudo-Jonathan: Genesis</hi>, The Aramaic
+                            Bible 1B (Collegeville: Liturgical Press, 1992), 22.</p>
+                    </note>
+                </p>
+                
+                </quote>
+                <p>The fact that both Targum Onqelos and Targum Ps.-Jonathan state explicitly that
+                    the breath (<foreign xml:lang="heb">נשמתא</foreign>) of God <hi rend="italic">became</hi> the soul of humanity
+                    likely indicates that this was an already well-established interpretive
+                    tradition in Jewish interpretation by the time period roughly contemporary with
+                    Aphrahat (i.e. 4<hi rend="superscript">th</hi>-5<hi rend="superscript">th</hi>
+                        century).<note place="foot" xml:id="ftn47" n="47">
+                        <p rend="footnote text"> There is significant debate concerning the dating
+                            of Targum Onqelos, particularly over the question of the existence of a
+                            ‘proto-Onqelos’ known in Palestine, which would then suggest a two-stage
+                            composition for the Targum with the first stage taking place in the
+                            first two centuries of the common era and the second stage taking place
+                            in Babylonia by the end of the fourth century. For a concise summary of
+                            the scholarly question on this matter, see Paul V.M. Flesher and Bruce
+                            Chilton, <hi rend="italic">The Targums: A Critical Introduction</hi>
+                            (Leiden: Brill, 2011), 83-87 and 109-129. Other scholars argue for an
+                            even more specific date for the final edit in the third century based
+                            upon the evidence of the masorah, which is dated to the first half of
+                            the third century; see Bernard Grossfeld, <hi rend="italic">The Targum
+                                Onqelos to Genesis</hi>, 30-32.</p>
+                        <p rend="footnote text">The dating of Targum Pseudo-Jonathan (also known as
+                            Targum Yerushalmi) is even more difficult because there are clearly
+                            elements that are post-Islamic (see Flesher and Chilton, <hi
+                                rend="italic">The Targums</hi>, 88). However, this does not suggest
+                            that the whole Targum was composed after the advent of Islam, as it is
+                            more likely that some passages simply represent a late redaction. While
+                            it appears that Pseudo-Jonathan is reliant upon Onqelos, it is also
+                            apparent from an examination of Targumic citations in the Palestinian
+                            Talmud that both Onqelos an Pseudo-Jonathan were known to Rabbis by the
+                            fifth century at the latest; see Flesher and Chilton, <hi rend="italic"
+                                >The Targums</hi>, 131-150, 157-158. For an even more specific
+                            treatment of the dating of Pseudo-Jonathan, with argues also for a late
+                            fourth-century/early fifth-century date, see Robert Hayward, “Red Heifer
+                            and Golden Calf: Dating Targum Pseudo-Jonathan,” pages 9-32 in Paul V.M.
+                            Flesher, ed., <hi rend="italic">Targum Studies, Vol. 1: Textual and
+                                Contextual Studies in the Pentateuchal Targums</hi> (Atlanta:
+                            Scholars Press, 1992). Other scholars, however, such as Michael Maher,
+                            still accept a later dating of Pseudo-Jonathan and argue that it was
+                            edited into its final form no earlier than the 7<hi rend="superscript"
+                                >th</hi>-8<hi rend="superscript">th</hi> centuries; see Maher, <hi
+                                rend="italic">Targum Pseudo-Jonathan: Genesis</hi>, 11-12.</p>
+                    </note> However, as with Aphrahat, it is not immediately clear that this is a
+                    reference to the soul because the Targumim state that the breath of God became a
+                    <foreign xml:lang="heb">ממללא רוחא</foreign> (a “spirit capable of speaking”) and Ps.-Jonathan also adds the
+                    senses of sight and sound. Thus, although it is clear that the Targum
+                    translations relate the capacities of the senses to the רוחא that resulted from
+                    the breath of God, it is necessary to explore the Rabbinic tradition more widely
+                    in order to establish that the soul is the intended subject here.</p>
+                <p> The midrashic interpretation of Gen 2:7 in <hi rend="italic">Bereshit
+                        Rabbah</hi> (<hi rend="italic">BerR</hi>), a text generally dated to the
+                    fifth century,<note place="foot" xml:id="ftn48" n="48">
+                        <p rend="footnote text"> For a discussion of the problems with dating this
+                            text, see H.L. Strack and Günter Stemberger, <hi rend="italic"
+                                >Introduction to the Talmud and Midrash</hi>, translated by Markus
+                            Bockmuehl (Minneapolis: Fortress Press, 1992), 279-280.</p>
+                    </note> is informative here for several reasons. First, <hi rend="italic"
+                        >BerR</hi> also explicitly linked the breath of God to the soul of humanity
+                    in the interpretation of the phrase <foreign xml:lang="heb">ויפח באפיו</foreign> (“and [God] breathed into his
+                    nostrils”): “This teaches that [God] set him up as a lifeless mass, reaching
+                    from earth to heaven and then infused a soul (<foreign xml:lang="heb">נשמה</foreign>) into him.”<note place="foot"
+                        xml:id="ftn49" n="49">
+                        <p rend="footnote text">
+                            <hi rend="italic">BerR</hi> 14.8; <hi rend="italic">Midrash Rabbah, 2
+                                Vols: Genesis I, Genesis II</hi>, trans. by Rab. H. Freedman (New
+                            York: The Soncino Press, 1983), Vol. 1, 116. All English translations of
+                                <hi rend="italic">BerR</hi> in the present paper are taken or
+                            adapted from this edition.</p>
+                    </note> This text certainly adds support to Rabbinic evidence for the belief
+                    that the breath of God became the soul of humanity. Yet it also adds a layer of
+                    linguistic difficulty because it employs the term נשמה for soul. That multiple
+                    Hebrew and Aramaic words could be used in Rabbinic literature for the concept of
+                    ‘the soul’ is likely a result of the fact that the Hebrew Bible itself employed
+                    a range of words for the soul. Indeed, the editor(s) of <hi rend="italic"
+                        >BerR</hi> was well aware of this issue and addressed it explicitly.
+                    Immediately following the quotation given above, the text of <hi rend="italic"
+                        >BerR</hi> includes a discussion of the five “names” of the soul used in
+                    Scripture: <foreign xml:lang="heb">נפש</foreign>, <foreign xml:lang="heb">נשמה</foreign>, <foreign xml:lang="heb">חיא</foreign>, <foreign xml:lang="heb">רוח</foreign>, and <foreign xml:lang="heb">יחידה</foreign>.<note place="foot" xml:id="ftn50"
+                        n="50">
+                        <p rend="footnote text">
+                            <hi rend="italic">BerR</hi> 14.9; Freedman, <hi rend="italic">Midrash
+                                Rabbah, Genesis I</hi>, 116. The text of Midrash Rabbah throughout
+                            this essay comes from J. Theodor, <hi rend="italic">Bereschit Rabba, 3
+                                Volumes</hi> (Berlin: Akademie Verlag, 1912-1927).</p>
+                    </note> Each word is then explained by referencing the passages where it appears
+                    in the Hebrew Bible. </p>
+                <p> The exegetical principle that can be derived from this passage from <hi
+                        rend="italic">BerR</hi> is as follows: 1) these five words were used
+                    interchangeably for the concept of the human soul, as demonstrated by the
+                    passages mentioned; 2) one of these five words was used to speak of the “breath”
+                    of God; 3) therefore, each of these words could refer either to the breath of
+                    God or to the human soul. If there were any doubt that this was the guiding
+                    principle at work here, it is made explicit just a few lines later in the
+                    context of the discussion of the phrase <foreign xml:lang="heb">חיה לנפש האדם ויהי</foreign> (“And Adam became a
+                    living soul”):</p>
+                <quote>R. Samuel, the son-in-law of R. Hanina, the colleague of the
+                    Rabbis, said: here the <foreign xml:lang="heb">נשמה</foreign> is identified with <foreign xml:lang="heb">נפש</foreign> (Gen 2:7), whereas in another
+                    text the <foreign xml:lang="heb">נשמה</foreign> is equated with רוח (Gen 7:22). How do we know that the statement
+                    of the one text is applicable to that of the other and vice versa? Because חיים
+                    is written in both texts, proving that they are analogous (<hi rend="italic"
+                        >BerR</hi> 14.10).<note place="foot" xml:id="ftn51" n="51">
+                        <p rend="footnote text"> Freedman, <hi rend="italic">Midrash Rabbah, Genesis
+                                I</hi>, 118.</p>
+                    </note>
+                </quote>
+                <p>The lexicographical conclusion, and thus the exegetical conclusion of <hi
+                    rend="italic">BerR</hi> is: <foreign xml:lang="heb">רוח = נפש = נשמה</foreign>, not only because these words
+                    are used interchangeably in various passages of Scripture, but even more so
+                    because each is used in conjunction with חיים.</p>
+                <p> The Rabbis were not the only ones who preserved a tradition of the breath of God
+                    becoming the soul of humanity. This concept also appeared in various texts from
+                    other early Christian communities. Irenaeus of Lyon, for example, stated that
+                    “the breath of life that came from God” animated Adam and bestowed upon him the
+                    capacity for reason.<note place="foot" xml:id="ftn52" n="52">
+                        <p rend="footnote text"> Latin: “ea quae fuit a Deo aspiration vitae…et
+                            animal rationabile ostendit,” Irenaeus, <hi rend="italic">Adv.
+                            Haer</hi>, 5.1.3; for the Latin text, see Norbert Brox, <hi
+                                rend="italic">Irenäus von Lyon, Adversus Haereses—Gegen die
+                                Häresien, Vol. 5</hi>, Fontes Christiani (Freiburg: Herder, 2001),
+                            30.</p>
+                    </note> Although Irenaeus did not explicitly mention the soul, it seems clear
+                    from the context of the argument that this is what he had in mind. This view is
+                    also present within writings that were not accepted as authoritative in the
+                    later development of “orthodox” Christianity. The <hi rend="italic">Apocryphon
+                        of John</hi>,<note place="foot" xml:id="ftn53" n="53">
+                        <p rend="footnote text"> This text is sometimes also referred to as <hi
+                                rend="italic">The Secret Book according to John</hi> (<hi
+                                rend="italic">BJn</hi>). For synoptic text and translation, see <hi
+                                rend="italic">The Apocryphon of John: Synopsis of Nag Hammadi
+                                Codices II,1; III,1; and IV,1 with BG 8502,2,</hi> ed. by Michael
+                            Waldstein and Frederick Wisse, Nag Hammadi and Manichaean Studies XXXIII
+                            (Leiden: Brill, 1995), 12-177.</p>
+                    </note> for example, also includes this tradition in its telling of the creation
+                    narrative: “And they said to Yaltabaoth, ‘Blow into his face something of your
+                    spirit (<foreign xml:lang="cop">ⲡⲉⲕⲡ̅ⲛ̅ⲁ̅</foreign>) and his body
+                    will arise.’ And he blew into his face his spirit, which is the power of his
+                    Mother…and the power of the Mother went out of Yaltabaoth into the psychic body
+                        (<foreign xml:lang="cop">ⲁⲯⲩⲭⲓⲕⲟⲥ ⲛ̅ⲥⲱⲙⲁ</foreign>), which
+                    they had fashioned after the image of the one who exists from the beginning. The
+                    body moved and gained strength, and it was luminous.”<note place="foot"
+                        xml:id="ftn54" n="54">
+                        <p rend="footnote text">
+                            <hi rend="italic">Ap. Jn.</hi> II.19.22-28; Waldstein and Wisse, <hi
+                                rend="italic">Apocryphon of John</hi>, 114-115. Moreover, Irenaeus
+                            of Lyon repeated this belief and attributed it to part of the general
+                            “Gnostic” creation myth; see his <hi rend="italic">Adv. Haer</hi>.
+                            I.30.6; Norbert Brox, <hi rend="italic">Irenäus von Lyon: Epideixis,
+                                Adversus Haereses—Darlegung der apostolischen Verkündigung, Gegen
+                                die Häresien, Vol. 1</hi>, Fontes Christiani (Freiburg: Herder,
+                            1993), 336-338.</p>
+                    </note> Again, although this text does not include an explicit word for “soul,”
+                    it clearly implies that the divine breath that Yaltabaoth blew into the created
+                    body of man was the force that animated the body. Likewise, this sentiment
+                    appears in the texts known as <hi rend="italic">Hypostasis of the Archons</hi>
+                    <note place="foot" xml:id="ftn55" n="55">
+                        <p rend="footnote text">
+                            <hi rend="italic">Hyp. Arch.</hi> 88.3-5: “And he breathed into his
+                            face; and the man came to have a soul (<foreign xml:lang="cop"
+                                >ⲯⲩⲭⲓⲕⲟⲥ</foreign>) [and remained] upon the ground many days.”
+                            Bentley Layton, ed., “The Hypostasis of the Archons,” in <hi
+                                rend="italic">Nag Hammadi Codex II,2-7, Vol.1</hi>, ed. by Bentley
+                            Layton, Nag Hammadi Studies XX (Leiden: Brill, 1989), 238-239. This text
+                            goes on to say, however, that the man only became a “living soul” (<foreign xml:lang="cop">ϣⲱⲡⲉ ⲁⲩⲯⲩⲭⲏ</foreign>) when the
+                            Spirit came and dwelt in the “soul-endowed man” (<foreign xml:lang="cop"
+                                >ⲁⲡⲓⲣⲱⲙⲉ ⲛ̅ⲯⲩⲭⲓⲕⲟⲥ</foreign>). In
+                            this way, even though this text reflects a shared hermeneutical
+                            tradition with Aphrahat, there are significant differences in the
+                            applications of this hermeneutic because of the varied contexts in which
+                            these texts were produced. </p>
+                    </note> and <hi rend="italic">Trimorphic Protennoia</hi>.<note place="foot"
+                        xml:id="ftn56" n="56">
+                        <p rend="footnote text">
+                            <hi rend="italic">Tri. Prot.</hi> 45.28-29: “It is I who put the breath
+                            within my own. And I cast into them the eternally holy Spirit…” John D.
+                            Turner, ed., “Trimorphic Protennoia,” in <hi rend="italic">Nag Hammadi
+                                Codices XI, XII, XIII</hi>, ed. by Charles W. Hedrick, Nag Hammadi
+                            Studies XXVIII (Leiden: Brill, 1990), 422-423.</p>
+                    </note> All of these texts, as with many Coptic texts in the Nag Hammadi
+                    collection, are quite difficult to date because the original Greek versions have
+                    not survived. It is certain, however, that these texts predate the mid-fourth
+                    century because the codices that contain these texts are dated to the middle of
+                    the fourth century.<note place="foot" xml:id="ftn57" n="57">
+                        <p rend="footnote text"> The <hi rend="italic">Apocryphon of John</hi> was
+                            certainly circulating as early as the second century because, as noted
+                            above in fn. 47, it is one of the major sources of Irenaeus’ polemic
+                            against the gnostics, and he quotes from it extensively.</p>
+                    </note> Thus, even though we cannot date these texts precisely, we can say that
+                    these ideas were circulating in various texts by at least the first half of the
+                    fourth century, which is also the precise date range of Aphrahat’s writings.
+                    Based on the evidence provided by Rabbinic materials, various early Christian
+                    writings, and Aphrahat himself, we can quite confidently conclude that there was
+                    a well-established, yet malleable interpretative tradition of associating the
+                    breath of God in the creation story of Genesis with the origin of the human
+                    soul. It is certainly not necessary to claim that Aphrahat knew of or used any
+                    of these texts as “sources” for his own argument, but this broader literary
+                    context allows us to consider Aphrahat’s ideas as part of a complex interpretive
+                    tradition that spans a large geographic and ideological range.</p>
+            </div>
+            <div>
+                <head>Sleep of the Soul</head>
+                <p>While it is relatively easy to adduce potential parallels from other writers that
+                    can be compared fruitfully to Aphrahat’s interpretation of Gen 2:7, it is quite
+                    difficult to contextualize Aphrahat’s argument in favor of the “sleep of the
+                    soul.” This concept is not prevalent in early Christian interpretations of death
+                    and the resurrection, and it is difficult to find points of exegetical
+                    comparison because Aphrahat does not necessarily link the idea of the sleeping
+                    soul to a specific passage of Scripture. While some Jewish writings<note
+                        place="foot" xml:id="ftn58" n="58">
+                        <p rend="footnote text"> Dan. 12:2; cf. 4 Ezra 7:32: “And the earth shall
+                            give back those who are asleep in it, and the dust those who rest in
+                            it.”</p>
+                    </note> do speak of dead bodies “sleeping,” there is very little evidence prior
+                    to Rabbinic interpretation that Jews believed in the “sleep of the soul” <hi
+                        rend="italic">with</hi> the body as Aphrahat describes it. There is,
+                    however, a fairly strong tradition in both Second Temple and Rabbinic literature
+                    of Jewish belief in “treasuries” where the soul would be kept in a state of rest
+                    until the time of the resurrection.<note place="foot" xml:id="ftn59" n="59">
+                        <p rend="footnote text"> The concept of “treasuries” for the souls of
+                            righteous people is frequent in <hi rend="italic">4 Ezra</hi>, including
+                            4:35, 41; 7:32, 80, and 95. See also
+                            <hi rend="italic">2 </hi>Apoc. Bar. 21:23; <hi
+                                rend="italic">Sifre Deut.</hi> 33:3.</p>
+                    </note>
+                </p>
+                <p>There is one Rabbinic text that might suggest a belief in the “sleep of the
+                    soul,” but the broader Rabbinic tradition complicates this text and makes it
+                    difficult to conclude that it represents the position of the Rabbis more
+                    generally. The text in question, also from <hi rend="italic">Bereshit
+                        Rabbah</hi>, offers an exegesis of Abraham’s death (Gen 25:8) that brings up
+                    the topic of a righteous person’s knowledge of the reward to come before death,
+                    which results in a pleasant experience of death. The specific passage from this
+                    text for the present topic is: “The entire reward of the righteous is kept ready
+                    for them for the hereafter, and the Holy One, blessed be He, shows them while
+                    yet in this world the reward He is to give them in the future; their souls
+                    (<foreign xml:lang="heb">נפשם</foreign>) are then satisfied and they fall asleep (ישינים).”<note place="foot"
+                        xml:id="ftn60" n="60">
+                        <p rend="footnote text">
+                            <hi rend="italic">BerR</hi> 62.2; Freedman, <hi rend="italic">Midrash
+                                Rabbah, Genesis II</hi>, 549.</p>
+                    </note>
+                </p>
+                <p>It is possible to conclude, based on the language of sleep and the explicit
+                    mention of souls, that this passage represents a belief in the sleep of the
+                    soul. The parashah continues by offering the metaphor of a king who invited his
+                    guests to view the meal they would eat, after which the guests, so satisfied by
+                    what they had seen, fell asleep peacefully.<note place="foot" xml:id="ftn61"
+                        n="61">
+                        <p rend="footnote text"> A parallel passage
+                            in<hi rend="italic"> Exodus Rabbah</hi> 52.3 (on
+                            Exod. 39:33) repeats the concept of the righteous seeing their reward
+                            before death, and even uses the same passage as a cross reference (Prov.
+                            31:25), but the reference to sleeping souls is entirely absent; S.M.
+                            Lehrman, <hi rend="italic">Midrash Rabbah, Exodus</hi> (New York:
+                            Soncino Press, 1983), 575-577.</p>
+                    </note> Then it concludes with the following explanation: “So does God show the
+                    righteous while yet in this world the reward which He is to give them in the
+                    future, and thus they fall asleep with satisfied souls.” While it is tempting to
+                    associate this passage with a doctrine of soul sleep, this is not a necessary
+                    conclusion, given that sleep-terminology is frequently employed as a metaphor
+                    for death in the Hebrew Bible.<note place="foot" xml:id="ftn62" n="62">
+                        <p rend="footnote text"> Cf. Ps 13:3; 90:5; Dan 12:2; Job 14:10-14; Jer 51:
+                            37-39, 56-67. For extra biblical references to the concept of sleep in
+                            ancient Jewish thought, see Chapter 4 (“Peace, Sleep, and the Just”) in
+                            Joseph S. Park, <hi rend="italic">Conceptions of Afterlife in Jewish
+                                Inscriptions</hi> (Tübingen: Mohr Siebeck, 2000), 87-121.</p>
+                    </note> Even if this passage did provide clear support for the sleep of the
+                    soul, the broader Rabbinic tradition stands in direct contradiction with this
+                    teaching.</p>
+                <p> Although there are several texts that could be used to demonstrate this point,
+                    perhaps the clearest statement of the Rabbinic position on what happens to the
+                    soul/body relationship at death appears in the Talmud in tractate <hi
+                        rend="italic">Berakoth</hi>:</p>
+                <quote>When one wakes he says: ‘My God, the soul that you placed in
+                    me is pure. You fashioned it in me, you breathed it into me, and you preserve it
+                    within me. And one day you will take it from me and then restore it to me in the
+                    time to come. So long as the soul is within me I give thanks unto you, O Lord,
+                    my God, and the God of my fathers, Sovereign of all worlds, Lord of all souls.
+                    Blessed are you, O Lord, who restores souls to dead corpses.’ (<hi rend="italic"
+                        >bBer</hi> 62b)</quote>
+                <p>This passage explicitly states that the soul will be taken from the body
+                    (presumably at death) and that it will be restored in the “time to come.”
+                    Perhaps in order to emphasize that death is the moment at which the separation
+                    takes place, the passage continues by stating that souls are restored to “dead
+                    corpses.” Moreover, in addition to this text, we may also refer to the Rabbinic
+                    distinction between what will happen to the souls of the righteous and the souls
+                    of the wicked, which presupposes that souls will be separated from bodies at
+                        death.<note place="foot" xml:id="ftn63" n="63">
+                        <p rend="footnote text"> See Talmud tractate <hi rend="italic">Shabbath</hi>
+                                (<hi rend="italic">bShab</hi>) 152b; <hi rend="italic">The
+                                Babylonian Talmud, Seder Moʿed, I: Shabbath</hi>, trans. by I.
+                            Epstein (London: Soncino Press, 1938), 778-780; see also the parallel
+                            midrash in <hi rend="italic">Qohelet Rabbah</hi> (<hi rend="italic"
+                                >QohR</hi>) 12.1 (par. 6); A. Cohen, <hi rend="italic">Midrash
+                                Rabbah, Ecclesiastes</hi> (New York: Soncino Press, 1983),
+                            303-304.</p>
+                    </note> Thus, although there is one Rabbinic text that could be interpreted in
+                    support of the sleep of the soul being an idea known among the Rabbis, the
+                    broader Rabbinic tradition shows that such a view was not widely known or
+                    accepted. Moreover, even if the text from <hi rend="italic">BerR</hi> is
+                    representative of an earlier strand of Rabbinic thought that did, in fact,
+                    support belief in the sleep of the soul, it is not necessary to conclude that
+                    Aphrahat was aware of this interpretive tradition because Aphrahat’s
+                    hermeneutical framework for soul sleep has virtually nothing in common with that
+                    of <hi rend="italic">BerR</hi>.</p>
+                <p> The doctrine of the sleep of the soul does not appear to have been prevalent
+                    among early Christian writers, though Tatian and Origen provide limited data to
+                    show that this idea circulated among at least some early Christians. In his <hi
+                        rend="italic">Oratio ad Graecos</hi>, Tatian argued that some souls
+                    (specifically the souls that are “ignorant of the truth”) “dissolve with the
+                    body” (<foreign xml:lang="gr">λύεται μετὰ τοῦ σώματος</foreign> ), and
+                    that these souls would rise again with the body for eternal punishment.<note
+                        place="foot" xml:id="ftn64" n="64">
+                        <p rend="footnote text"> Tatian, <hi rend="italic">Oratio ad Graecos</hi>
+                            13.1 (Molly Whittaker,
+                            <hi rend="italic">Tatian: </hi>Oratio ad Graecos
+                                <hi rend="italic">and Fragments</hi>, Oxford Early Christian Texts
+                            [Oxford: Clarendon Press, 1982], 27). For a more recent edition and
+                            survey of this text along with a German translation, see Jörg
+                            Trelenberg, <hi rend="italic">Tatianos: </hi>Oratio
+                            ad Graecos, <hi rend="italic">Rede an die Griechen</hi>, Beiträge zur
+                            historischen Theologie 165 (Tübingen: Mohr Siebeck, 2012).</p>
+                    </note> For Tatian, though, there is a distinction between the souls who are
+                    “ignorant of the truth” and those who attain “union” with the divine Spirit; the
+                    souls of the latter are not buried with the body because they are led to heaven
+                    by the Spirit.<note place="foot" xml:id="ftn65" n="65">
+                        <p rend="footnote text"> Tatian, <hi rend="italic">ad Gr</hi> 13.2
+                            (Whittaker, <hi rend="italic">Tatian</hi>, 27).</p>
+                    </note> Thus, Tatian’s concept of the sleep of the soul exhibits at least one
+                    major difference from Aphrahat, who teaches that all souls will be buried with
+                    their bodies, but that the righteous souls/bodies would be transformed after the
+                    final judgment. Origen explicitly rejects the idea that the soul remains with
+                    the body after death in the <hi rend="italic">Dialogue with
+                        Heraclides</hi>.<note place="foot" xml:id="ftn66" n="66">
+                        <p rend="footnote text"> For the Greek text and French translation, see Jean
+                            Scherer, <hi rend="italic">Origène: Entretien avec Héraclide</hi>,
+                            Sources Chrétiennes 67 (Paris: Les Éditions du Cerf, 2002). For English
+                            translation, see Robert J. Daly, <hi rend="italic">Treatise on the
+                                Passover. Dialogue with Heraclides and his fellow bishops on the
+                                Father, the Son, and the Soul</hi>, Ancient Christian Writers 54
+                            (New York: Paulist Press, 1992).</p>
+                    </note> In this dialogue, Origen addresses those “who say that the soul remains
+                    in the tomb with the body,” and then refutes this claim by referring to a series
+                    of Scripture passages that he interprets as proof of the soul’s immediate
+                    departure from the body at death.<note place="foot" xml:id="ftn67" n="67">
+                        <p rend="footnote text"> Origen, <hi rend="italic">Dia.Her.</hi> 23.8-24.17
+                            (Scherer, <hi rend="italic">Origène</hi>, 100-102).</p>
+                    </note> It is likely<note place="foot" xml:id="ftn68" n="68">
+                        <p rend="footnote text"> On the identity of the opponents in the <hi
+                                rend="italic">Dialogue with Heraclides</hi> and the possible
+                            association with this reference in Eusebius, see Scherer’s introduction
+                            in <hi rend="italic">Origène</hi>, 19-21.</p>
+                    </note> that this dialogue is the basis for Eusebius’ claim that Origen had a
+                    dispute with some Christians in ‘Arabia’ on the topic of the soul at death.<note
+                        place="foot" xml:id="ftn69" n="69">
+                        <p rend="footnote text"> According to Eusebius, this teaching says that “the
+                            human soul dies for a while in this present time, along with our bodies,
+                            at their death, and with them turns to corruption; but that hereafter,
+                            at the time of the resurrection, it will come to life again along with
+                            them.” Eusebius, <hi rend="italic">Ecc.His.</hi> 6.39 (<hi rend="italic"
+                                >Eusebius: Ecclesiastical History, Books 6-10</hi>, translated by
+                            J.E.L. Oulton, Loeb Classical Library 265 [Cambridge: Harvard University
+                            Press, 1932], 90-91).</p>
+                    </note> Beyond these two authors, the doctrine of soul sleep is not common in
+                    early Christian sources.<note place="foot" xml:id="ftn70" n="70">
+                        <p rend="footnote text"> In his article on the sleep of the soul in the
+                            early Syriac tradition, Frank Gavin attempts to relate Aphrahat’s
+                            teaching to various passages from earlier Christian authors, such as
+                            Irenaeus, but these comparisons are not convincing; F. Gavin, “The Sleep
+                            of the Soul in the Early Syriac Church,” <hi rend="italic">Journal of
+                                the American Oriental Society</hi> 40 (1920): 103-120.</p>
+                    </note> However, as Peter Bruns points out, it is possible that Aphrahat is
+                    simply reflecting a view that was present in some biblical and early Jewish
+                        texts.<note place="foot" xml:id="ftn71" n="71">
+                        <p rend="footnote text"> Bruns lists Isa 26:19, Ps 22:30, Dan 12:2, 2 Esdras
+                            (4 Ezra) 7:32, and the Apocalypse of Baruch 50:2; Bruns, <hi
+                                rend="italic">Aphrahat: Unterweisungen</hi>, I, 69.</p>
+                    </note> Although there are similarities between Aphrahat’s views on the sleep of
+                    the soul and the ideas found in Tatian and Origen, it is not necessary to
+                    conclude that Aphrahat knew either of these sources or that his arguments should
+                    be equated with the views that Tatian and Origen discuss. However, given
+                    Tatian’s Syrian background and the identification of Origen’s opponents as
+                    Arabian, it is plausible that the idea of soul sleep circulated more widely
+                    among Christians in the Eastern Mediterranean.</p>
+            </div>
+            <div>
+                <head>Body and Soul in the Resurrection</head>
+                <p>One of the most significant, yet easily overlooked, aspects of Aphrahat’s
+                    treatment of the resurrection is that it was accompanied by an apparent polemic
+                    against an unnamed opponent who taught a different doctrine of the resurrection.
+                    According to that opponent, there would be a resurrection, yet the body itself
+                    would not be raised. Although Aphrahat does not name this opponent explicitly,
+                    there are two clues that can, perhaps, provide some details about their
+                    identity. First, Aphrahat mentioned explicitly that the alternative teaching on
+                    the resurrection derived from a misinterpretation of the words of Paul in 1 Cor
+                        15.<note place="foot" xml:id="ftn72" n="72">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 6.18 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.305.22-I.309.20) and 8.23 (I.404.1-19); these
+                            passages are discussed in more detail below. It is of course <hi
+                                rend="italic">possible</hi> that Aphrahat is dealing with a Jewish
+                            opponent who had read Paul, but this is unlikely for several reasons:
+                            First, specific issues pertaining to Judaism only arise in the second
+                            set of Demonstrations (11-22), not in Demonstrations 1-10. Second, when
+                            Aphrahat is addressing a Jewish opponent in Demonstrations 11-22, he
+                            does so explicitly. There is no discernable reason that he would be coy
+                            about addressing Jews here if in fact they provided the alternative
+                            point of view. Third, the interpretation of 1 Corinthians 15 is known to
+                            have been contested among various Christian groups. As a result, the
+                            simplest historical explanation for Aphrahat’s context is a rival
+                            Christian interpretation. In the absence of any explicit or implicit
+                            reference to a Jewish opponent, the simplest explanation here (a
+                            non-Jewish opponent) seems to be the best explanation. Finally, it seems
+                            unlikely that any Jews of Aphrahat’s time period would have disagreed
+                            with Aphrahat on the topic of a bodily resurrection. See, for example,
+                            “Benediction 2” of the prayer of the <hi rend="italic">Eighteen
+                                Benedictions</hi>, which expresses the basic belief in the
+                            resurrection; cf. <hi rend="italic">BerR</hi> 14.5 (Freedman, <hi
+                                rend="italic">Midrash Rabbah, Genesis I</hi>, 113-114) and the
+                            extensive apologetic discussion of resurrection beliefs in the
+                            Babylonian Talmud in tractate Sanhedrin (<hi rend="italic">bSanh</hi>)
+                            91; <hi rend="italic">The Babylonian Talmud, Seder Nezikin, III:
+                                Sanhedrin</hi>, trans. by I. Epstein (London: Soncino Press, 1935),
+                            607-614.</p>
+                    </note> As such, it is clear that this opponent takes the words of Paul as
+                    authoritative, which means that they are at least in some way affiliated with
+                    Christianity. The second piece of evidence that Aphrahat provided concerning the
+                    identity of this opponent is the reference to “deceptive teachings, instruments
+                    of the evil one (<foreign xml:lang="syr">ܝܘ̈ܠܦܢܐ ܢܟ̈ܝܠܐ ܡܐܢ̈ܘܗܝ ܕܒܝܫܐ</foreign>).”
+                    This phrase appears in both Demonstrations 6 and 8 within the context of
+                    Aphrahat’s defense of the bodily resurrection, which might suggest that he had a
+                    particular opponent in mind when using this phrase. Thus, it is worth pausing to
+                    consider whether this opponent can be identified more specifically.</p>
+                <p> Elsewhere in the <hi rend="italic">Demonstrations</hi>, Aphrahat used this exact
+                    same phrase (<foreign xml:lang="syr">ܝܘ̈ܠܦܢܐ ܢܟ̈ܝܠܐ ܡܐܢ̈ܘܗܝ ܕܒܝܫܐ</foreign>) and then
+                    explicitly mentioned three teachers that fall under this category:</p>
+                <quote>Observe that the deceptive schools, instruments of the Evil
+                    One, also fast and call to mind their sins, but there is no one to reward them.
+                    Who, indeed, will reward <hi rend="underline">Marcion</hi>, who does not
+                    acknowledge our good creator? And who will reward <hi rend="underline"
+                        >Valentinus</hi> for his fasting, he who preaches that there are a number of
+                    creators, and who says that the perfect God cannot be described in words and
+                    that the intellect cannot examine him? And who will give reward to the sons of
+                    darkness, the school of the wicked <hi rend="underline">Mani</hi>, who remain in
+                    darkness like serpents and engage in astrology, the teaching of Babylon? Behold,
+                    all of these fast, but their fast is not accepted.<note place="foot"
+                        xml:id="ftn73" n="73">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem.</hi> 3.9 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.116.4-17). Note that the immediate context of
+                            this passage is the apologetic argument that these teachers or
+                            communities all practice fasting, but that their fast is ‘not accepted.’
+                            Thus, Aphrahat depicted the respective teachings as being connected with
+                            ascetic practices that were also part of the life of his own community.
+                            Likewise, Aphrahat’s contemporary, Ephrem, who wrote extensively against
+                            both Marcion and Mani, said of the Manichaeans: “Their works are like
+                            our works as their fast is like our fast, but their faith is not like
+                            our faith”; Mitchell, <hi rend="italic">Prose Refutations</hi>,
+                            cxix.</p>
+                    </note>
+                </quote>
+                <p>It is also worth noting that Ephrem the Syrian employed a similar phrase, <foreign
+                        xml:lang="syr">ܝܘ̈ܠܦܢܐ ܜܥ̈ܝܐ</foreign> (‘erroneous teachings/teachers’), to
+                    describe Marcion, Bardaisan, and Mani.<note place="foot" xml:id="ftn74" n="74">
+                        <p rend="footnote text"> See, for example, the titles of the five
+                            “discourses” to Hypatius that make up part of Ephrem’s <hi rend="italic"
+                                >Prose Refutations</hi>; see Mitchell, <hi rend="italic">Prose
+                                Refutations, Vol. 1</hi>, 1.</p>
+                    </note> Indeed, Marcionite, Bardaisanite, and especially Manichaean communities
+                    are known to have existed in Persia in the fourth and fifth centuries, often in
+                    direct competition with communities that would come to be associated with
+                    orthodox Christianity. It is entirely possible—because of his repetition of this
+                    phrase in the polemical context of his treatment of the resurrection—that
+                    Aphrahat is directing this argument about the against one of these ‘heretical’
+                    communities. However, because Aphrahat does not name a specific opponent, it is
+                    also possible that he was dealing with a misunderstanding among his own
+                    community, which may or may not have originated from one of these groups. The
+                    broader context of Aphrahat’s exposition of this topic demands a more thorough
+                    examination in order to determine whether or not this opponent can be
+                    identified.</p>
+                <p> Although he is not mentioned by name in Aphrahat’s list of evil teachers, one
+                    possible opponent that Aphrahat may have had in mind is the followers of
+                    Bardaisan. In a recent article, Thomas D. McGlothlin has made a strong case for
+                    identifying various aspects of Bardaisan’s teachings that illuminate Aphrahat’s
+                    argument about the resurrection in Demonstration 8.<note place="foot"
+                        xml:id="ftn75" n="75">
+                        <p rend="footnote text"> Thomas D. McGlothlin, “Contextualizing Aphrahat’s
+                                <hi rend="italic">Demonstration 8</hi>: Bardaisan, Origen, and the
+                            Fourth-Century Debate on the Resurrection of the Body,” <hi
+                                rend="italic">Le Muséon</hi> 127 (3-4): 311-339.</p>
+                    </note> McGlothlin provides a very helpful “profile” of the opponents Aphrahat
+                    seems to describe,<note place="foot" xml:id="ftn76" n="76">
+                        <p rend="footnote text"> See esp. the summary paragraph on p. 317.</p>
+                    </note> and then seeks to match this profile with depictions of Bardaisan’s
+                    teachings that may have been available in the fourth century, including the <hi
+                        rend="italic">Adamantius Dialogue</hi> and the polemical writings of Ephrem
+                    the Syrian. The key components of McGlothlin’s profile are that Aphrahat’s
+                    opponents seem to recognize the authority of the Old Testament (because Aphrahat
+                    appeals to arguments from it) and that they affirm the resurrection of the soul
+                    while denying the physical resurrection of the body. Ultimately, McGlothlin
+                    argues that these fourth-century constructions of Bardaisan’s
+                    teachings—especially that of Ephrem—fit well with the opponent Aphrahat seems to
+                    address. McGlothlin’s depiction of Bardaisan’s teachings also fits very well
+                    with Ute Possekel’s reconstruction of Bardaisan’s views on the resurrection,
+                    namely that Bardaisan likely taught the dissolution of the body, temporary death
+                    of the soul, and resurrection of the soul alone.<note place="foot"
+                        xml:id="ftn77" n="77">
+                        <p rend="footnote text"> Ute Possekel, “Bardaisan of Edessa on the
+                            Resurrection: Early Syriac Eschatology in its Religious-Historical
+                            Context,” <hi rend="italic">Oriens Christianus</hi> 88 (2004): 1-28. See
+                            also Possekel, “Expectations of the End in Early Syriac Christianity,”
+                                <hi rend="italic">Hugoye: Journal of Syriac Studies</hi> 11.1
+                            (2011): 63-94.</p>
+                    </note>
+                </p>
+                <p> McGlothlin’s assessment of Aphrahat’s opponent and comparison with Bardaisan’s
+                    teachings is fruitful and certainly provides a plausible scenario. However,
+                    McGlothlin’s only other point of reference in the article is the teachings of
+                    Origen of Alexandria, which were certainly circulating in polemical settings in
+                    the fourth century. McGlothlin goes on to make the case that the kinds of
+                    accusations Origen’s later opponents made against his teachings do not fit as
+                    well with the profile of Aphrahat’s opponents. On this matter, I certainly
+                    agree: if the choice of identifying Aphrahat’s opponent is between the teachings
+                    of Bardaisan and Origen, the former certainly fits better than the latter. But
+                    if we explore options beyond Bardaisan and Origen, there are other plausible
+                    opponents whom Aphrahat may have engaged.</p>
+                <p>In his initial reference to the opponent’s misinterpretation of Paul, Aphrahat
+                    addressed a specific issue: the interpretation of the “two Adams” in 1 Cor
+                        15:44.<note place="foot" xml:id="ftn78" n="78">
+                        <p rend="footnote text"> Aphrahat’s citation of this verse reads, “The first
+                            Adam became a living soul, and the second Adam [became] a life-giving
+                            spirit”; <hi rend="italic">Dem</hi>. 6.18 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.308.1-2).</p>
+                    </note> Aphrahat’s representation of what he thought was incorrect about this
+                    teaching is brief and vague. He merely claimed: “They say that there are two
+                    Adams.” His subsequent exegetical exposition of Paul’s verse also posited two
+                    Adams: the earthly Adam, created by God in the garden, and the heavenly Adam,
+                    “our Lord Jesus Christ.” It is reasonable to conclude, then, that Aphrahat
+                    intended to prompt his readers to understand that the “two Adams” posited by his
+                    opponents were somehow different from his own interpretation.<note place="foot"
+                        xml:id="ftn79" n="79">
+                        <p rend="footnote text"> McGlothlin argues, using Ephrem’s writings as a
+                            point of comparison, that Bardaisan’s use of Adam-Christ typology from 1
+                            Cor. 15 would have supported only a resurrection of the soul, not the
+                            body; McGlothlin, “Contextualizing Aphrahat’s <hi rend="italic"
+                                >Demonstration 8</hi>,” 324.</p>
+                    </note>
+                </p>
+                <p> It is possible that Aphrahat was referring here to a teaching that maintained
+                    the “double-creation” of Adam, some form of which can be found in both Jewish
+                    and ‘gnostic’ Christian teachings. In <hi rend="italic">BerR</hi>, for example,
+                    the midrashic interpretations of Gen 1:27 and 2:7 distinguish between the
+                    androgynous human form referred to in the former passage and the corporeal,
+                    earthly creation formed in the latter.<note place="foot" xml:id="ftn80" n="80">
+                        <p rend="footnote text"> Cf. <hi rend="italic">BerR</hi> 8.1, 14.1, and
+                            14.8; Freedman, <hi rend="italic">Midrash Rabbah, Genesis I</hi>, 54-55,
+                            111, and 115-116.</p>
+                    </note> Moreover, Philo also distinguished between the created objects in the
+                    two passages, and his distinction between them is even more pronounced.<note
+                        place="foot" xml:id="ftn81" n="81">
+                        <p rend="footnote text">
+                            <hi rend="italic">On the Creation </hi>XII (section
+                            69-70); Runia, <hi rend="italic">Philo of Alexandria: On the
+                                Creation</hi>, 64</p>
+                    </note> This idea of a double-creation also appears within some versions of a
+                    gnostic creation narrative. According to Irenaeus’s depiction, the gnostic
+                    creation myth included an initial creation of man followed by the gift of the
+                    divine breath and the subsequent addition of skin/flesh.<note place="foot"
+                        xml:id="ftn82" n="82">
+                        <p rend="footnote text"> Irenaeus, <hi rend="italic">Adv. Haer.</hi>
+                            I.5.5-6; for the Greek text, see Norbert Brox, <hi rend="italic">Irenäus
+                                von Lyon: Epideixis, Adversus Haereses—Darlegung der apostolischen
+                                Verkündigung, Gegen die Häresien, Vol. 1</hi>, Fontes Christiani
+                            (Freiburg: Herder, 1993), 160.</p>
+                    </note> There is nothing in Irenaeus’ account, however, that links this
+                    interpretation to 1 Cor 15. </p>
+                <p> Another possibility is that Aphrahat may have been referring here to the
+                    Manichaean distinction between the “Primal Man” and the “second man,” the latter
+                    of which could be interpreted either as the human Adam<note place="foot"
+                        xml:id="ftn83" n="83">
+                        <p rend="footnote text"> See, for example, the Manichaean hymn from <hi
+                                rend="italic">Psalmbook 2</hi>, 141.1-143.34 (Iain Gardner and
+                            Samuel N.C. Lieu, <hi rend="italic">Manichaean Texts from the Roman
+                                Empire</hi> (Cambridge: University Press, 2004), 240-244.), which
+                            refers to the Primal Man and then the second man, Adam. </p>
+                    </note> or as Christ. Indeed, there is evidence within Manichaean sources that
+                    some confusion existed about the distinction between and identity of the two
+                        figures.<note place="foot" xml:id="ftn84" n="84">
+                        <p rend="footnote text"> The Manichaean “Kephalaion 55,” for instance, opens
+                            with disciples questioning Mani about Adam’s creation in the form of
+                            “the ambassador.” Iain Gardner, <hi rend="italic">The Kephalaia of the
+                                Teacher: The Edited Coptic Manichaean Texts in Translation with
+                                Commentary</hi> (Nag Hammadi and Manichaean Studies 37; Leiden:
+                            Brill, 1995), 141.</p>
+                    </note> In Augustine’s anti-Manichaean writings, there is a brief passage that
+                    also sheds some light on this discussion. In his debate with Faustus, Augustine
+                    argued:</p>
+                <quote>Your Primal Man is not the first man of the apostle…
+                    [Augustine quotes 1 Cor 15:48-49] … The first man of the earth is Adam, who was
+                    made of dust. The second man from heaven is the Lord Jesus Christ…Why do you
+                    conjure up this fabulous Primal Man of yours, and refuse to acknowledge the
+                    first man of the apostle? … According to Paul, the first man is of the earth,
+                    that is, earthly; but according to Mani, he is not earthly, and he is equipped
+                    with five elements of some unreal, unintelligible kind.<note place="foot"
+                        xml:id="ftn85" n="85">
+                        <p rend="footnote text"> Augustine, <hi rend="italic">Contra Faustum</hi>
+                            2.4; Latin text: <hi rend="italic">Saint Augustine, Opera Omnia
+                            CAG</hi>, [electronic edition] edited by Cornelius Mayer (Basel:
+                            Schwabe, 1995), part 3, 257.11-29.</p>
+                    </note>
+                </quote>
+                <p>Within the broader context of Augustine’s dispute, it
+                        becomes clear that the Manichaean depiction of “two Adams” did not have
+                        anything to do with the earthly Adam. Rather, according to Augustine, the
+                        Manichaeans asserted that Jesus was the son of the Primal Man. As a result,
+                        the “two Adams” of the Manichaeans were not Adam and Christ, but the Primal
+                        Man and Christ. This passage from Augustine provides an important comparison
+                        with Aphrahat because it shows that we have at least one other witness who
+                        explicitly critiques the Manichaean doctrine of the two Adams as a
+                        misinterpretation of 1 Cor 15. This piece of evidence certainly does not
+                        prove that Aphrahat directed his argument against a Manichaean opponent, but
+                        it does show that ideas attributed to Manichaeans in other polemical
+                        literature could plausibly represent the viewpoint that Aphrahat
+                        critiques.
+                </p>
+                <p>One further element of Aphrahat’s presentation of the body/soul in the resurrection to be considered is his criterion for distinguishing between those who will be transformed at the resurrection into the perfected, heavenly form and those who will remain in their ‘natural state.’ The relevant criterion was whether or not a given person had maintained the Holy Spirit in purity. Aphrahat’s language here sounds remarkably similar to that of the Rabbis.
+                        though of course
+                         Rabbinic sources discuss the importance of maintaining the soul, not the Holy Spirit, in purity. Two different Rabbinic texts, for instance, offer brief parable-like stories that illustrate the importance of maintaining the purity of the soul. In the first case, the example is a king who gives royal garments to his servants, some of whom return them in pristine condition, while others return them soiled.
+                    
+                    <note place="foot" xml:id="ftn86" n="86">
+                        <p rend="footnote text">
+                            <hi rend="italic">bShab</hi> 152b; Epstein, <hi rend="italic"
+                                >Shabbath</hi>, 778-779.</p>
+                    </note>
+                    
+                         The second example is the story of a priest who gives a loaf of purified bread to another priest and expects it to be returned in pure condition.
+                    
+                    <note place="foot" xml:id="ftn87" n="87">
+                        <p rend="footnote text">
+                            <hi rend="italic">QohR</hi> 12.1 (par. 6); Cohen, <hi rend="italic"
+                                >Midrash Rabbah, Ecclesiastes</hi>, 303-304.</p>
+                    </note>
+                    
+                         The concluding application of the latter parable, implied though not stated in the first, demonstrates the Rabbinic teaching quite well: “
+                    Similarly, the Holy One, blessed be He, said, ‘Behold I am pure, my
+                    habitation is pure, my attendants are pure, and the soul that I gave you is
+                    pure. If you return it to me as I give it to you, well and good; otherwise, I
+                    will burn it in your presence.’”<note place="foot" xml:id="ftn88" n="88">
+                        <p rend="footnote text">
+                            <hi rend="italic">QohR</hi> 12.1; Cohen, <hi rend="italic">Midrash
+                                Rabbah, Ecclesiastes</hi>, 303.</p>
+                    </note> This passage shows that within the Rabbinic tradition one can find ideas
+                    that are very similar to Aphrahat’s language concerning maintaining the purity
+                    of the Holy Spirit and one also finds a clear connection of this need for purity
+                    in view of the reward of the afterlife that is to be obtained. Likewise, the
+                    text of 4 Ezra 7:78-99 also gives an extended discussion of the separation of
+                    and distinction between the souls of the righteous and unrighteous, but there is
+                    no indication that the person’s individual soul or spirit plays any role in the
+                    judgment.</p>
+                <p> There is also a Manichaean text that provides an interesting point of comparison
+                    on this issue. One discussion found in the Manichaean <hi rend="italic"
+                        >Kephalaia</hi> provides a similar eschatological perspective that deals
+                    with the reward and punishment of the time to come. The key passage from this
+                    text that is of interest here provides a description of the “second death” for
+                    the unrighteous:</p>
+                <quote>Now the second death is the death in which the souls of the
+                    sinful men shall die; when [they will] be stripped of the shining light that
+                    illuminates the world. And also, they are separated from the living air, from
+                    which they receive the living breath; and they are deprived of the living soul…
+                    because they have blasphemed the Holy Spirit since every generation of the
+                        world.<note place="foot" xml:id="ftn89" n="89">
+                        <p rend="footnote text"> Kephalaion 39 (102.13-104.20);
+                            Gardner,<hi rend="italic"> Kephalaia</hi>,
+                            107-108.</p>
+                    </note>
+                </quote>
+                <p>This text explains that some will be punished in the life to come because they
+                    have blasphemed the Holy Spirit. Aphrahat explicitly warned his hearers not to
+                    ‘grieve’ the Holy Spirit in the context of his discussion of the resurrection;
+                    indeed, according to Aphrahat, the act of grieving the Holy Spirit is precisely
+                    what causes the Spirit to testify against people in the final judgment. We may
+                    also observe another similarity between this passage and Aphrahat’s treatment of
+                    the resurrection: warnings about the second death. In Dem. 8, Aphrahat declared,
+                    “It is right for us, however, to fear the second death, which is full of weeping
+                    and gnashing of teeth, groans, and miseries, and which is situated in the outer
+                        darkness.”<note place="foot" xml:id="ftn90" n="90">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 8.19 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.396.7-9).</p>
+                    </note>
+                </p>
+                <p> The similarities between this Manichaean material and Aphrahat’s depiction of
+                    the judgment and resurrection are intriguing, but intriguing similarities are
+                    insufficient evidence to argue that Aphrahat was engaging Manichaeans directly.
+                    Moreover, as we have seen, Manichaeans were not the only community with such
+                    intriguing similarities with Aphrahat’s opponent. Thus, we must exercise caution
+                    in making definitive claims about the identity these opponents. </p>
+                <p>Even if specific arguments that Aphrahat makes about his opponents can be
+                    plausibly mapped onto historical reconstructions of particular teachers, we know
+                    very little about the ways that these teachings were transmitted in the early
+                    Syriac tradition. Likewise, we have very little data for how the communities
+                    that received these teachings would have attached specific ideas to particular
+                    teachers or how they would have identified themselves. It is s entirely
+                    plausible that ideas and concepts we as historians might identify as
+                    “Bardaisanite” or “Manichaean” or “Jewish” may have circulated freely among
+                    people for whom those labels would be artificial and inaccurate. The ideas that,
+                    over time, have come to be regarded as distinctly associated with a particular
+                    thinker or their followers may not have been rigid boundary markers between
+                    distinct religious identities in antiquity, particularly in the early period of
+                    development for Christian communities. The emergence of polemical literature,
+                    such as the anti-heretical writings of Ephrem in the late fourth century,
+                    attests to the construction of communal identity markers, and the attempt to
+                    associate particular heretical ideas with specific teachers plays a significant
+                    role in the formation of boundaries. In this regard, the polemical arguments
+                    that Aphrahat engages regarding the resurrection are not concerned with the
+                    construction of heretical and orthodox beliefs per se; that is, Aphrahat shows
+                    no desire to construct and thereby oppose a specific opponent. However,
+                    Aphrahat’s argument does attempt to construct a logical, cohesive Christian
+                    theology of the soul/body problem, including the implications of that problem
+                    for the doctrine of the resurrection.</p>
+            </div>
+            <div>
+                <head>Conclusion: Aphrahat’s Anthropology in Context</head>
+                <p>While many of the texts discussed above shed some light on the various components
+                    of Aphrahat’s depiction of the soul/body relationship, no single text or piece
+                    of information concerning a contemporary religious group suffices to enable the
+                    modern interpreter to explain his unique views. Rabbinic materials, and
+                    particularly the midrashic interpretations of Genesis, illuminate some concepts,
+                    but not others. Likewise, while it is clear that Aphrahat directed part of his
+                    polemic against some contemporary group engaged in the interpretation of
+                    Christian Scripture, the attempt to identify this opponent proves to be quite
+                    difficult.</p>
+                <p> If we resist the temptation to locate a <hi rend="italic">specific</hi> opponent
+                    and instead focus on the broader milieu of religious and philosophical ideas
+                    about the body, the soul, and about what happens at death and the resurrection,
+                    it is possible to view Aphrahat’s arguments as part of a larger conversation.
+                    Aphrahat engaged this conversation with some exegetical and hermeneutical
+                    traditions that were evident in preceding and contemporary religious
+                    communities, but he also provided a unique expression of those traditions based
+                    on the needs of his own community and his interpretation of Scripture. Thus,
+                    even if the context of Aphrahat’s arguments do not provide enough information to
+                    correctly identify his opponent(s), the contours of the polemic do tell us
+                    something about Aphrahat’s own community.</p>
+                <p> That Aphrahat felt the need to support his views with specific arguments against
+                    alternative exegetical conclusions suggests that his positions were not
+                    necessarily representative of everyone’s views in his immediate community. One
+                    might be tempted to read his works as a straightforward depiction of his local
+                    expression of Christianity, and thus one might equate Aphrahat’s beliefs with
+                    those of his community. However, if we search beneath the surface of Aphrahat’s
+                    certainty about the issues he addressed, we find evidence of a Christian
+                    community whose particular dogmatic identity was not completely secure or
+                    defined. Indeed, perhaps Aphrahat should not be taken as the sole representative
+                    of a particular expression of Christianity that we might call a native ‘Syriac’
+                    or ‘Persian’ Christianity. Rather his writings could serve as a witness to the
+                    diversity of Christian communities in the Persian milieu within which his works
+                    originated. Instead of thinking of separate, distinct religious communities with
+                    already defined beliefs and practices, it might be more productive to think of
+                    multiple Christian communities, lacking precise identity markers that would
+                    distinguish them from one another. In this regard, Aphrahat’s writings might
+                    best be viewed as an attempt to articulate and shape the identity of a
+                    particular expression of Christianity by providing precisely such identity
+                    markers and dogmatic borders.<note place="foot" xml:id="ftn91" n="91">
+                        <p rend="footnote text"> What I am arguing here for Aphrahat is quite
+                            similar to, and influenced by, Christine Shepardson’s treatment of
+                            Ephrem in her work <hi rend="italic">Anti-Judaism and Christian
+                                Orthodoxy: Ephrem’s Hymns in Fourth-Century Syria</hi> (Washington
+                            D.C.: The Catholic University of America Press, 2008).</p>
+                    </note>
+                </p>
+                <p> Aphrahat’s arguments about the body/soul relationship offer a good example of
+                    how his writings might be viewed through this lens. His initial discussion of
+                    the topic of the body/soul and what happens at the resurrection is not an
+                    isolated, independent argument; it appears within the context of the
+                    Demonstration dedicated to the <hi rend="italic">Bnay Qyama</hi>, a special
+                    group within Aphrahat’s community of fellow believers who dedicated themselves
+                    to chastity. Aphrahat’s discussion of how human beings receive the breath/spirit
+                    of God at creation and of how Christians receive the Holy Spirit at baptism is
+                    preceded by a survey of holy women and men, examples in the chaste life, who
+                    were able to lead such a life because of the power of the Holy Spirit. Moreover,
+                    Aphrahat’s argument also carried a moral component when he went on to warn his
+                    audience that the Spirit could depart from them at any time, and that the Spirit
+                    would certainly depart from them in the case of sin. To complete this
+                    exposition, he informed his audience how they might retain the Spirit and not
+                    grieve her.<note place="foot" xml:id="ftn92" n="92">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 6.15-17 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.297.8-I.305.21).</p>
+                    </note> Likewise, although Aphrahat’s further exposition of his views about the
+                    resurrection in Demonstration 8 could have been a response to a specific
+                    opponent or controversy, his ultimate aim was to shape the beliefs of the
+                    members of his community: “Receive what I have explained to you, and believe
+                    that on the day of resurrection your body will rise up in its entirety. You will
+                    receive the reward for your faith from your Lord, and will rejoice and take
+                    delight in all that you have believed.”<note place="foot" xml:id="ftn93" n="93">
+                        <p rend="footnote text">
+                            <hi rend="italic">Dem</hi>. 8.25 (Parisot, <hi rend="italic"
+                                >Aphraatis</hi>, I.405.16-20).</p>
+                    </note>
+                </p>
+                <p> There are multiple beliefs, practices, or traditions originating from various
+                    religious traditions that could have influenced Aphrahat’s ideas: the
+                    bifurcation of a religious community into a small group of ascetic elites and a
+                    larger group whose members were not bound by the same strict ascetic demands was
+                    at the very core of Manichaean belief and practice; the concept of maintaining
+                    the Holy Spirit/Spirit of God in purity as the basis for eternal salvation
+                    appeared both in Rabbinic and in Manichaean thought; the idea of the sleep of
+                    the soul is attested by some early Christian witnesses, but does not seem to
+                    have gained much popularity; the wide ranging interpretive traditions of Gen 2:7
+                    demonstrate the creativity with which various Jewish and Christian authors
+                    opined on the creation of the soul; and various interpretations of 1 Cor 15 and
+                    the subsequent implications for beliefs about the resurrection appear in the
+                    surviving literature of a number of Christian communities, covering virtually
+                    the entire range of expressions of earliest Christianity. However, none of these
+                    prior traditions “explains” or “contextualizes” Aphrahat’s views in isolation
+                    from the others. Yet if we consider the composite picture of these traditions,
+                    it is possible to view Aphrahat’s writings as the attempt to provide some sense
+                    of stability, a concrete expression of belief and practice emerging out of the
+                    inchoate, unorganized state of Christian identity in fourth-century Persia. The
+                    writings attributed to Aphrahat are thus not a representative of “Christianity”
+                    over and against other religious communities; rather, they are a witness to a
+                    stage in the development of Christian identity in Persia when the precise
+                    contours of Christian practice and belief were not well defined.</p>
+                <p style="text-align:center;">***</p>
+                <p>As a postscript, it is worth reflecting on whether or not Aphrahat’s attempt to
+                    define a particular Christian identity was successful. Although we do not have
+                    much direct data for the immediate reception of the <hi rend="italic"
+                        >Demonstrations</hi>, it is noteworthy that the first known Syriac author
+                    who explicitly engages content from the <hi rend="italic"
+                        >Demonstrations</hi>, George, bishop of the Arabs, was not impressed with
+                    the writings of the anonymous Persian Sage.<note place="foot" xml:id="ftn94"
+                        n="94">
+                        <p rend="footnote text"> George does not know the identity of the author of
+                            the <hi rend="italic">Demonstrations</hi>, whom he refers to only as the
+                            Persian Sage; George, Bishop of the Arabs, “Letter 4.” As a text and
+                            translation, I have used Jack Tannous’ unpublished edition of George’s
+                            letters.</p>
+                    </note> Writing to his pupil, Yeshuʿ, George argues that the Persian Sage should
+                    not be counted among the “approved teachers” (<foreign xml:lang="syr">ܡܠܦ̈ܢܐ ܚܬܝ̈ܬܐ</foreign> ) because he does
+                    not have “approved teachings” (<foreign xml:lang="syr">ܡܠܦܢܘ̈ܬܐ ܚܬܝ̈ܬܐ</foreign> ). George asserts
+                    further that the <hi rend="italic">Demonstrations</hi> contain many
+                    “errors” (<foreign xml:lang="syr">ܦܘܕ̈ܐ</foreign>) and
+                    dissuades Yeshuʿ from reading them further.<note place="foot" xml:id="ftn95"
+                        n="95">
+                        <p rend="footnote text"> George, Bishop of the Arabs, “Letter 4.” </p>
+                    </note> Somewhat ironically, it is precisely Aphrahat’s discussion of the
+                    indwelling of the Holy Spirit, touched upon in the argument above, that George
+                    finds most objectionable. This brief episode from the reception history of the
+                        <hi rend="italic">Demonstrations</hi> provides further evidence
+                    that the writings of Aphrahat witness to a developmental phase in
+                    Syriac-speaking Christianity, and Aphrahat’s expression of Christian identity
+                    was by no means authoritative.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
