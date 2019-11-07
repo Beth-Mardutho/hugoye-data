@@ -97,21 +97,12 @@
     known, this paper aims to outline the history of Syriac
     computing and offer some considerations for the
     future.</p>
+         
          </div>
       </front>
       <body>
-         <lb/>
-         <lb/>
-    
-    
-    
-    
-         <!-- InstanceBeginEditable name="Content" -->
-
-         <lb/>
-
-         <lb/>
-         <head xml:id="HV10N1Kiraz3">Computational Lexicography</head>
+<div>
+<head xml:id="HV10N1Kiraz3">Computational Lexicography</head>
          <p>
             <anchor corresp="P1"/>[1] The
     first project that is known to me which employed computer
@@ -131,7 +122,7 @@
     Nothing is known about the intention of the project; it may
     have been simply a study aid.</p>
          <p>
-            <graphic url="HV10N1Kiraz_01.jpg" rend="img" mimeType="image/jpeg"/>
+            <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV10N1Kiraz_01.jpg" rend="center"/>
          </p>
          <p>Figure 1. Computer system similar
     to the one used at UCLA in the 1960s.</p>
@@ -140,7 +131,9 @@
     lexicographical projects aimed at the generation of
     concordances, primarily to biblical texts. These are discussed
     below in chronological order.</p>
-         <head xml:id="HV10N1Kiraz4">The Göttingen Project</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz4">The Göttingen Project</head>
          <p>
             <anchor corresp="P3"/>[3] In 1970,
     an ambitious project began in Göttingen to publish
@@ -176,7 +169,9 @@
     mainframe computer. Syriac text was entered using simple
     transcription (one-to-one mapping from Syriac letters to
     ASCII).</p>
-         <head xml:id="HV10N1Kiraz5">The Way International Project</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz5">The Way International Project</head>
          <p>
             <anchor corresp="P5"/>[5] Also in
     1970, and probably unknown to the Syriac studies community at
@@ -253,7 +248,9 @@
     record type was represented in a flat file, one record per
     line. Fields were fixed-length. The data was later utilized by
     Kiraz in the SEDRA database project (see below).</p>
-         <head xml:id="HV10N1Kiraz6">Borbone / The Peshitta Institute</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz6">Borbone / The Peshitta Institute</head>
          <p>
             <anchor corresp="P7"/>[7] During
     the 1980s, Pier Giorgio Borbone developed a computational
@@ -286,7 +283,9 @@
          </p>
                 </note>
          </p>
-         <head xml:id="HV10N1Kiraz7">Kiraz’s SEDRA Database</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz7">Kiraz’s SEDRA Database</head>
          <p>
             <anchor corresp="P8"/>[8] The
     initial work of George Kiraz’s lexical work goes back to
@@ -315,7 +314,7 @@
     the time stood for “Syriac Electronic Data Research
     Archive.”<note place="foot" xml:id="FN12" n="12">
                     <p rend="footnote text">
-             George A. Kiraz, <hi lang="SYR" dir="rtl" style="font-size:16;font-family:'Estrangelo Edessa'" xml:lang="SYR">ܣܕܪܐ</hi>
+             George A. Kiraz, <foreign xml:lang="syr">ܣܕܪܐ</foreign>
             <hi rend="italic">The Syriac
     Electronic Data Research Archive (SEDRA)</hi> (leaflet), pp.
     1-3. 
@@ -425,7 +424,9 @@
     contains 2,050 roots, 3,559 Lexemes, 31,079 word forms and
     6,337 English meanings (particular to the context of the New
     Testament).</p>
-         <head xml:id="HV10N1Kiraz8">Brigham Young University’s Bar Bahlul
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz8">Brigham Young University’s Bar Bahlul
     Project</head>
          <p>
             <anchor corresp="P12"/>[12] In
@@ -464,7 +465,9 @@
          </p>
                 </note>
          </p>
-         <head xml:id="HV10N1Kiraz9">The Comprehensive Aramaic Lexicon</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz9">The Comprehensive Aramaic Lexicon</head>
          <p>
             <anchor corresp="P14"/>[14] In
     the 1980s, The Comprehensive Aramaic Project was born under the
@@ -491,7 +494,9 @@
          </p>
                 </note> More information on CAL can be found on the
     project’s web site at <ref target="http://cal1.cn.huc.edu/">http://cal1.cn.huc.edu</ref>.</p>
-         <head xml:id="HV10N1Kiraz10">Word Processing and Desktop Publishing</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz10">Word Processing and Desktop Publishing</head>
          <p>
             <anchor corresp="P16"/>[16]
     Until the 1970s and even the early 1980s, publishing Syriac
@@ -542,7 +547,9 @@
     distribution. The general user had to wait until the
     popularization of personal computers, and the availability of
     Syriac digital types for these platforms.</p>
-         <head xml:id="HV10N1Kiraz11">The DOS Era</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz11">The DOS Era</head>
          <p>
             <anchor corresp="P19"/>[19] With
     the release of the IBM Personal Computer in the early 1980s,
@@ -572,7 +579,7 @@
          <p>int Beth[14] = { 0x00, 0x00, 0x3E, 0x41, 0x01, 0x0E, 0x00,
     0x00 };</p>
          <p>
-            <graphic url="HV10N1Kiraz_02.jpg" rend="img" mimeType="image/jpeg"/>
+            <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV10N1Kiraz_02.jpg" rend="center"/>
          </p>
          <p>Figure 2. Crude binary
     representation of <hi rend="italic">beth</hi>. Binary numbers shown in black
@@ -601,7 +608,7 @@
     Syriac font in Fontrix with the help of his father Corepiscopos
     Butros Touma, and used it to print church banners in 1986.</p>
          <p>
-            <graphic url="HV10N1Kiraz_03.jpg" rend="img" mimeType="image/jpeg"/>
+            <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV10N1Kiraz_03.jpg" rend="center"/>
          </p>
          <p>Figure 3. Crude Fontrix and
     Printrix fonts (1985).</p>
@@ -685,7 +692,7 @@
     invitations, and even tombstones! A screen shot appears in
     Figure 4.</p>
          <p>
-            <graphic url="HV10N1Kiraz_04.jpg" rend="img" mimeType="image/jpeg"/>
+            <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV10N1Kiraz_04.jpg" rend="center"/>
          </p>
          <p>Figure 4. Screen shot of MLS 3.2
     showing Kiraz's Syriac, Arabic and cuneiform fonts, along with
@@ -705,7 +712,9 @@
     Microsoft is also quoted to have said in 1981, “640K
     ought to be enough for anybody”. Syriac desktop systems
     would continue to advance.</p>
-         <head xml:id="HV10N1Kiraz12">The Windows Age</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz12">The Windows Age</head>
          <p>
             <anchor corresp="P28"/>[28]
     During the 1990s, users started shifting from the DOS-based
@@ -845,7 +854,7 @@
     The rules are usually specified by the user graphically and may
     be compiled as finite-state machines.</p>
          <p>
-            <graphic url="HV10N1Kiraz_05.jpg" rend="img" mimeType="image/jpeg"/>
+            <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV10N1Kiraz_05.jpg" rend="center"/>
          </p>
          <p>Figure 5. Kerning of Dolath and
     Nun.</p>
@@ -857,7 +866,9 @@
     design for decades and in fact was instrumental in the Assyrian
     Church of the East system mentioned above. The latter comes
     from a family of printing tradition in Iraq.</p>
-         <head xml:id="HV10N1Kiraz13">Standards</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz13">Standards</head>
          <p>
             <anchor corresp="P34"/>[34]
     Since the inception of computer science, standards have emerged
@@ -932,7 +943,9 @@
     provides codes for all languages. Syriac is assigned to
     “Sy” in the two-letter codes and “Syr”
     in the three-letter codes.</p>
-         <head xml:id="HV10N1Kiraz14">The Internet</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz14">The Internet</head>
          <p>
             <anchor corresp="P38"/>[38] In
     1992, the World Wide Web was charted, and only a year later,
@@ -1073,7 +1086,9 @@
     collection of over 1,000 books, manuscripts and archival
     material in digital form. This will hopefully become an
     indispensable tool in our field.</p>
-         <head xml:id="HV10N1Kiraz15">Future Considerations</head>
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz15">Future Considerations</head>
          <p>
             <anchor corresp="P49"/>[49]
     Syriac computing has gone a long way especially in the past two
@@ -1151,55 +1166,17 @@
     your iPod to display Syriac?</p>
          <p>
             <anchor corresp="P55"/>[55]
-    <hi lang="SYR" dir="rtl" style="font-size:16;font-family:'Estrangelo Edessa'" xml:lang="SYR">ܫܠܡ
+    <foreign xml:lang="syr">ܫܠܡ
     ܘܠܐܠܗܐ
     ܏ܫܘܒ܆
     ܘܠܕܘܝܐ
     ܕܣܡ ܗܠܝܢ
-    ܫܘܒܩܢܐ܀</hi>
+    ܫܘܒܩܢܐ܀</foreign>
          </p>
-         <head xml:id="HV10N1Kiraz16">Notes</head>
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         <p>_______<lb/>
-         </p>
-         <head xml:id="HV10N1Kiraz17">Bibliography</head>
+
+         </div>
+<div>
+<head xml:id="HV10N1Kiraz17">Bibliography</head>
          <p>Julie D. Allen et al. (eds), <hi rend="italic">The
     Unicode Standard, Version 5.0</hi> (2007).</p>
          <p>P. Borbone, ‘L’uso
@@ -1234,7 +1211,7 @@
     Proceedings of the First International Forum on Syriac
     Computing</hi> (Cambridge: The Syriac Computing Institute,
     1995).</p>
-         <p>George A. Kiraz, <hi lang="SYR" dir="rtl" style="font-size:16;font-family:'Estrangelo Edessa'" xml:lang="SYR">ܣܕܪܐ</hi>
+         <p>George A. Kiraz, <foreign xml:lang="syr">ܣܕܪܐ</foreign>
             <hi rend="italic">The
     Syriac Electronic Data Research Archive (SEDRA)</hi> (leaflet),
     pp. 1-3.</p>
@@ -1326,7 +1303,7 @@
          <p>M. Zumpe, <hi rend="italic">Technische Aspekte der
     Göttingen Syrischen Konkordanz</hi> (Deutsche
     Arbeitsgemeinschaft Vorderer Orient, September 2001).</p>
-         <!-- InstanceEndEditable -->
+</div>
       </body>
    </text>
 </TEI>
