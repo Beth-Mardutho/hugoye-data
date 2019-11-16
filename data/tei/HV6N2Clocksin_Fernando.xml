@@ -165,7 +165,11 @@
                 data.</p>
             <p xml:lang="en">The results described below were obtained from a handwritten manuscript source (MS)
                 and a typeset source (TS). Both sources were written in Estrangelo. The MS is a
-                leaf<hi rend="superscript" style="font-size:7pt;position:5" xml:space="preserve">1 </hi>taken
+                leaf<note place="foot" xml:id="ftn1" n="1">
+                    <p rend="footnote text">British Library Add. MS 7191, Folio 100va-101rb, which
+                        contains the end of Chapter XXIV and the beginning of Chapter XXV of Book
+                        III.</p>
+                </note> taken
                 from Peter of Callinicum’s Adversus Damianum, a 6th century commentary on the
                 Trinity [8]. The TS consists of the 36 pages of Mark’s Gospel taken from Burkitt’s
                 1904 edition [3] of the <hi rend="italic">Evangelion Da- Mepharreshe</hi> typeset in
@@ -189,12 +193,7 @@
             <div>
             <head>IMAGE PROCESSING</head>
             <p xml:lang="en">Given a page image from a source, image processing proceeds as follows. First, the
-                connected components of the image are ex-</p>
-            <p xml:lang="en"><hi rend="superscript" style="font-size:6.5pt;position:5" xml:space="preserve">1 </hi><hi
-                    style="font-size:10pt">British Library Add. MS 7191, Folio 100va-101rb, which
-                    contains the end of Chapter XXIV and the beginning of Chapter XXV of Book
-                    III.</hi></p>
-            <p xml:lang="en">tracted using the standard two-pass algorithm [13] in which a label is assigned to
+                connected components of the image are extracted using the standard two-pass algorithm [13] in which a label is assigned to
                 each pixel in the first pass, with label equivalence based on pixel connectivity
                 with its eight neighbours. Equivalence classes are determined, and a second pass
                 updates each pixel in a connected component with a label unique to the component.
@@ -365,10 +364,9 @@
                     research, is a conformal mapping from points in image <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image32.jpeg" rend="center"/> to points in the polar image We adapt this by defining an
                     ‘origin’ given by the centroid</p>
                 <p xml:lang="en">Where d is the maximum distance between the mapping is described by</p>
-            </div>
-            <div>
-                <head><graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image33.jpeg" rend="center"/>
-                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image34.jpeg" rend="center"/>(11)</head>
+
+                <p><graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image33.jpeg" rend="center"/></p>
+                <p><graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image34.jpeg" rend="center"/>(11)</p>
                 <p style="text-align:right;"><hi rend="bold">(12)</hi></p>
                 <p xml:lang="en">We map <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV6N2Clocksin_Fernando_image35.jpeg" rend="center"/>onto a
                     polar image of size 64 × 64, giving a representa- tion that is size invariant
@@ -455,6 +453,7 @@
                 <p xml:lang="en">, and have also experimented with increasing the resolution of the method by
                     finding signatures for the four quarters of the bounding box of each character.
                     This increases the number of val- ues in the feature vector to 100.</p>
+            </div>
             </div>
                 <div>
                 <head>CLASSIFICATION</head>
