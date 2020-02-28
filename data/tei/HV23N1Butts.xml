@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Reclaiming Narsai’s
+                    <hi rend="italic">Mēmrā of the Feast of the Victorious
+                        Cross</hi></title>
+                <title type="sub"/>
+                <author>
+                    <name>
+                        <forename>Aaron Michael</forename>
+                        <surname>Butts</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>The Catholic University of America</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2020</date>
+                <idno>Volume 23.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv23n1butts</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Aaron Michael Butts</author>
+                        <title level="a">Reclaiming Narsai’s
+                            <hi rend="italic">Mēmrā of the Feast of the Victorious
+                                Cross</hi></title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol23/HV23N1Butts.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope type="vol" n="23">23</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="3" to="30">3-30</biblScope>
+                        <biblScope type="order" n="1"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Narsai</term>
+                    <term>Memra</term>
+                    <term>Victorious Cross</term>
+                    <term>Authorship</term>
+                    <term>Manuscripts</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2020-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract" xml:lang="en">
+                <head>Abstract</head>
+                <p xml:lang="en">In this article, I discuss the
+                    authorship of a <hi rend="italic">mēmrā</hi> with the incipit ‘In the path of the
+                    divine mysteries, I have girded myself to walk’ (<foreign xml:lang="syr">ܒܐܘܪܚܐ ܕܐܪ̈ܙܐ ܐܠܗ̈ܝܐ
+                        ܚܙܩܬ ܕܐܪܕܐ</foreign>) that is found in four manuscripts that mostly contain <hi
+                            rend="italic">mēmrē</hi> attributed to Narsai (d. ca. 500). Macomber read the
+                    heading of the mēmrā in question as <hi rend="italic">mār(y) Ṣlibā zkā</hi> (<foreign xml:lang="syr">ܡܪܝ ܨܠܝܒܐ
+                        ܙܟܐ</foreign>), which he took to refer to the author of the homily: ‘an otherwise
+                    unknown Ṣlibazka’ in his words.
+                    Departing from Macomber and building upon a previous suggestion by Ibrahim, I argue
+                    here that the earliest recoverable archetype of this heading actually read <hi
+                        rend="italic">ʿē(ʾ)dā daṣlibā zakkāyā</hi> ‘Feast of the victorious cross’ (<foreign
+                            xml:lang="syr">ܥܐܕܐ ܕܨܠܝܒܐ
+                            ܙܟܝܐ</foreign> ), which should be understood as the title of a homily implicitly
+                    attributed to Narsai. The change from an original title to a faux author started, I
+                    suggest, with a graphic error in which &lt;<hi rend="italic"
+                        >ʿʾdʾ</hi>&gt; (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) was misread
+                    by a scribe as &lt;<hi rend="italic">mry</hi>&gt; (<foreign xml:lang="syr">ܡܪܝ</foreign>). This problem
+                    was then exacerbated by Macomber’s misreading of <hi rend="italic">zakkāyā</hi>
+                    ‘victorious’ (<foreign xml:lang="syr"
+                        >ܙܟܝܐ</foreign>) as <hi rend="italic">zkā</hi> ‘it has been victorious; it has
+                    conquered’ (<foreign xml:lang="syr"
+                        >ܙܟܐ</foreign>).</p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p xml:lang="en">According to Macomber, a <hi rend="italic">mēmrā</hi> with the incipit ‘In the
+                    path of the divine mysteries, I have girded myself to walk’ (<foreign xml:lang="syr">ܒܐܘܪܚܐ ܕܐܪ̈ܙܐ ܐܠܗ̈ܝܐ
+                        ܚܙܩܬ ܕܐܪܕܐ</foreign> ) is found in the following four manuscripts that mostly
+                    contain <hi rend="italic">mēmrē</hi> attributed to Narsai (d. ca. 500):<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text">* This publication
+                            was supported by the Andrew W. Mellon Foundation Fellowship for
+                            Assistant Professors at the Institute for Advanced Study. In addition, I
+                            would like to thank the following people for their help with this
+                            article: Adam Becker, Kelli Bryant Gibson, Kristian Heal, Alessandro
+                            Mengozzi, Lucas Van Rompay, and Adam Zeidan.</p><p rend="footnote text">
+                            W. F. Macomber, “The Manuscripts of the Metrical Homilies of Narsai,”
+                            <hi rend="italic">OCP </hi>39 (1973): 275–306, at
+                            306, <hi rend="italic">passim</hi>. Macomber’s article remains
+                            indispensable for any scholar working with the
+                            <hi rend="italic">mēmrē </hi>of Narsai. The present
+                            author, together with Kristian S. Heal and Sebastian P. Brock, is
+                            currently compiling a <hi rend="italic">Clavis to the Metrical Homilies
+                                of Narsai</hi> that deals, <hi rend="italic">inter alia</hi>, with
+                            the manuscript attestation. For an introduction to Narsai, with
+                            additional bibliography, see A. M. Butts, “Narsai’s Life and Work,” in A. M. Butts, K. S. Heal, and R.
+                            A. Kitchen (eds.),
+                            <hi rend="italic">Narsai: Rethinking his Work and his World </hi>(Studies
+                            and Texts in Antiquity and Christianity; Tübingen: Mohr Siebeck,
+                            forthcoming).</p></note></p>
+                <p xml:lang="en">ms. Baghdad (<hi rend="italic">olim</hi> Mosul),
+                    Chaldean Patriarchate 71 (1188–1288), pp. 507–519: In addition to the
+                    <hi rend="italic">mēmrā </hi>in question, this manuscript
+                    contains thirty <hi rend="italic">mēmrē </hi>attributed to
+                    Narsai, one acephalous <hi rend="italic">mēmrā</hi> that Macomber credited to
+                    Narsai, and a <hi rend="italic">Mēmrā on the Washing of Feet</hi> attributed to Rabban Gabriel of Shirzor.<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text"> For this manuscript, see A. Scher, “Notice sur les
+                            manuscrits syriaques conservés dans la bibliothèque du Patriarcat
+                            chaldéen de Mossoul,” <hi rend="italic">Revue des Bibliothèques</hi> 17
+                            (1907): 245; Macomber, “The Manuscripts of the Metrical Homilies of
+                            Narsai,” 280–281; F. G. McLeod, <hi rend="italic">Narsai’s Metrical
+                                Homilies on the Nativity, Epiphany, Passion, Resurrection, and
+                                Ascension</hi> (PO 40.1; Turnhout: Brepols, 1979), 11. Only the
+                            first two (out of four) digits of the date of the manuscript are
+                            preserved, ‘15?? of the Greeks’, placing the manuscript between 1188 and
+                            1288. The Hill Museum &amp; Manuscript Library (HMML) recently digitized
+                            the collection of the Chaldean Patriarchate of Baghdad (<hi
+                                rend="italic">olim</hi> Mosul), but unfortunately this manuscript
+                            was not among those digitized. To make matters worse, P. T. Mingana
+                            reports, on the basis of a personal communication with the curator of
+                            the collection at the Chaldean Patriarchate of Baghdad, that this
+                            manuscript was lost in a disaster (‘una sciagura’) sometime between 1975
+                            and 1990 (<hi rend="italic">“E saranno benedetti nel tuo seme tutti i
+                                popoli della terra”: Uno studio di Pshitta Gn 22, 15–18 nell’esegesi
+                                di Mar Narsai</hi> [Rome: Pontificia Universitas Urbaniana, Facoltà
+                            de Teologia, 2003], 39). Thus, I am entirely dependent on the secondary
+                            literature, especially Macomber, for the contents of this manuscript.
+                            For Rabban Gabriel of Shirzor and his <hi rend="italic">Mēmrā on the
+                                Washing of Feet</hi>, see A. Baumstark, <hi
+                                    rend="italic">Geschichte der syrischen Literatur, mit Ausschluss
+                                    der christlich-pala</hi><hi rend="italic">̈</hi><hi
+                                    rend="italic">stinensischen Texte</hi>
+                                (<hi rend="subfielddata">Bonn: A. Marcus und E. Weber, </hi><hi
+                                rend="highlight">1922),</hi> 222. Ibrahim thinks that this
+                            <hi rend="italic">mēmrā </hi>is actually attributed
+                            to one Rabban Emmanuel, though he is convinced that, regardless of its
+                            attribution, the homily is in fact authentic Narsai (I. Ibrahim, <hi
+                                rend="italic">La doctrine christologique de Narsai. Essai
+                                d’interprétation</hi> [Ph.D. Diss., Pontificia Studiorum Universitas
+                            A. S. Thoma Aq. in Urbe, 1974–1975], 217–219 [s.v., Homélie N. LXXXIV]).
+                            The <hi rend="italic">mēmrā</hi>, which remains unedited, is found in
+                            the following manuscripts (in roughly chronological order): Baghdad (<hi
+                                rend="italic">olim</hi> Mosul), Chaldean Patriarchate 71
+                            (1188–1288), pp. 343–364; Diyarbakır 70 (1328), ff. 221a–232b;
+                            Diyarbakır 71 (14th–16th cent.), ff. 17a-26a; Vatican, Borgia Syriac 83A
+                            (1868), ff. 233b–242a; London, British Library Oriental 9363B (late 19th cent.), ff. 116a–129a; Baghdad (<hi
+                                rend="italic">olim</hi> Mosul), Chaldean Patriarchate 70C (late 19th
+                            cent.), ff. 17a–30a; Vatican, Syriac 588 (1918), ff. 70a–76a.
+                        </p></note>
+                </p>
+                <p xml:lang="en">ms. Diyarbakır 70 (1328), ff. 302a–310a: In addition to the
+                    <hi rend="italic">mēmrā </hi>in question, this manuscript
+                    contains thirty-four
+                    <hi rend="italic">mēmrē </hi>attributed to Narsai, the
+                    previously-mentioned
+                    <hi rend="italic">Mēmrā on the Washing of Feet </hi>attributed
+                    to Rabban Gabriel of Shirzor, (parts of)
+                    a<hi rend="italic"> Mēmrā on Narsai, Abraham, and John </hi>attributed
+                    to Rabban Surin (with additions by his disciple Rabban Jacob), and a <hi rend="italic">Sogitā ‘On Mary and
+                        Magi’</hi>
+                    <note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> For this
+                            manuscript, see A. Scher, “Notice sur les manuscrits syriaques et arabes
+                            conservés à l’archevêché chaldéen de Diarbékir,”
+                            <hi rend="italic">JA </hi>10.1 (1907): 361–362;
+                            Macomber, “The Manuscripts of the Metrical Homilies of Narsai,” 281–282;
+                            McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the Nativity,
+                                Epiphany, Passion, Resurrection, and Ascension</hi>, 11; as well as
+                            the Appendix at the end of the present article. Digital images of this
+                            manuscript are available at HMML (CCM0578): &lt;https://w3id.org/vhmml/
+                            readingRoom/view/502694&gt;. The
+                            <hi rend="italic">Mēmrā on Narsai, Abraham, and John </hi>attributed
+                            to Rabban Surin, with additions by his disciple Rabban Jacob, is
+                            partially edited, with a French translation, in A. Scher,
+                                <hi rend="italic">Mar Barḥadbšabba </hi><hi
+                                rend="italic">ʿ</hi><hi
+                                rend="italic">Arbaya. Évêque de Ḥalwan (VI</hi><hi
+                                rend="italic superscript"
+                            >e siècle). Cause de la fondation des écoles</hi>
+                            (PO 4.4; Paris: Firmin-Didot, 1907), 85–88. See also Baumstark, <hi
+                                rend="subfielddata"><hi rend="italic">Geschichte der syrischen
+                                    Literatur</hi></hi>, 196–197. For the <hi rend="italic">Sogitā
+                                ‘On Mary and Magi’</hi>, see fn. 29 below. </p></note>
+                </p>
+                <p xml:lang="en">ms. Vatican, Borgia Syriac 83A (1868), ff. 253b–261a (incomplete): In addition to
+                    the <hi rend="italic">mēmrā </hi>in question, this
+                    manuscript contains thirty
+                    <hi rend="italic">mēmrē </hi>attributed to Narsai, the
+                    previously-mentioned
+                    <hi rend="italic">Mēmrā on the Washing of Feet </hi>attributed
+                    elsewhere but not here to Rabban Gabriel of Shirzor (see fn. 17 below), a <hi
+                        rend="italic">Mēmrā of the Feast of the Discovery of the Cross</hi>
+                    attributed to David the Scholastic, a <hi rend="italic">Mēmrā on the
+                        Interpretation of the Sacrament of Baptism</hi> by Emmanuel bar Shahhare,
+                        <hi rend="italic">Turgāmē that are Recited before the Gospel-(Reading)</hi>
+                    by <hi>ʿ</hi>Abdisho<hi
+                       >ʿ</hi> bar Brikha of Nisibis, as well
+                    as nine <hi rend="italic">sogyātā</hi>.<anchor xml:id="Ref12530118"/><note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> For this
+                            manuscript, see A. Scher, “Notice sur les manuscrits syriaques du Musée
+                            Borgia, aujourd’hui à la Bibliothèque Vaticane,”
+                            <hi rend="italic">JA </hi>10.13 (1909): 268;
+                            Macomber, “The Manuscripts of the Metrical Homilies of Narsai,” 284–285.
+                            Digital images of this manuscript are available at DigiVatLib
+                            (Borg.sir.83): &lt;https://digi.vatlib.it/view/MSS_ Borg.sir.83&gt;. For
+                            David the Scholastic, see Baumstark, <hi rend="subfielddata"
+                                ><hi rend="italic">Geschichte der syrischen Literatur, </hi></hi>197.
+                                The <hi rend="italic">mēmrā</hi>
+                            attributed to him, which remains unedited, is found in the following
+                            manuscripts (in roughly chronological order): Baghdad (<hi rend="italic"
+                                >olim</hi> Mosul), Chaldean Patriarchate 72 (1705), ff. 248a–254a;
+                            St. Petersburg, Institute of Oriental Studies, Diettrich 6 (18th–early
+                            19th cent.), ff. 284b–292a; Vatican, Borgia Syriac 83A (1868), ff.
+                            199b–204b; Alqosh, Notre-Dame des Semences 160 (1879), ff. 255a–261b;
+                            Berlin, Staatsbibliothek 57 (1881), ff. 255b–262a; Kirkuk, Chaldean
+                            Archdiocese 49 (1881), ff. 243b–249b; <anchor xml:id="Ref23242476"
+                            />London, British Library Oriental 9368 (1887), ff. 250b–256b; Vatican, Syriac
+                            498 (1890), ff. 265b–272b; London, British Library Oriental 5463 (1893),
+                            ff. 352b–356b; Teheran, Neesan 1 (1896), pp. 406–411; Baghdad (<hi
+                                rend="italic">olim</hi> Mosul), Chaldean Patriarchate 69 (1896), ff.
+                            284b–291b; <anchor xml:id="Hlk23242251"
+                            />San Francisco (1901), 1.598–613; Vatican, Syriac 588 (1918), ff.
+                            56a–59b. See Macomber, “The Manuscripts of the Metrical Homilies of
+                            Narsai,” 306. A facsimile edition, of the San Francisco manuscript, is
+                            available as <hi rend="italic">Homilies of Mar Narsai</hi> (San Francisco: Patriarchal Press, 1970), 1.598–613. For
+                            Emmanuel bar Shahhare, see Baumstark, <hi rend="subfielddata"
+                                ><hi rend="italic">Geschichte der syrischen Literatur, </hi></hi>238–239
+                            and L. Van Rompay, “Emmanuel bar Shahhare,” in <hi rend="italic"
+                                >GEDSH</hi>, 143–144. The Syriac of his <hi rend="italic">mēmrā</hi>
+                            is available, with an Arabic translation, in J. Ishaq,
+                                “The Sacrament of Baptism by Emmanuel
+                            bar Shahhare,” <anchor xml:id="Hlk24457868"
+                            /><hi rend="italic">Bayn al-Nahrayn </hi>11.42
+                            (1983): 33–66 (in Arabic). A FT and study can be found in V. van Vossel,
+                            “Quelques remarques en marge du Memra sur le Baptême de Emmanuel Bar
+                            Shahhare,” <hi rend="italic">Questions Liturgiques / Studies in
+                                Liturgy</hi> 82 (2001): 128–147. Macomber identifies this text as
+                            Emmanuel’s “metrical homily on the Hexameron” (“The Manuscripts of the
+                            Metrical Homilies of Narsai,” 285). This is, however, incorrect. For <hi
+                               >ʿ</hi>Abdisho<hi
+                               >ʿ</hi> bar Brikha, see
+                            Baumstark, <hi rend="subfielddata"
+                                ><hi rend="italic">Geschichte der syrischen Literatur, </hi></hi>324–325.
+                            For the genre of <hi rend="italic">turgāmā</hi>, and <hi
+                               >ʿ</hi>Abdisho<hi
+                               >ʿ</hi>’s contribution to it,
+                            see A. Mengozzi and D. Pastore, “The Late East-Syriac Genre of the
+                            Turgāmā: Forms, Function, Vitality in the Liturgy,” <hi rend="italic"
+                                >Христианский Восток</hi> 8 [14] (2017): 171–186. These <hi
+                                rend="italic">Turgāmē</hi>, along with others, are edited in G.
+                            Benjamin, <hi rend="italic">Turgāmē la-m</hi><hi rend="italic"
+                               >ʿaliyut
+                                ēwangāliyon …</hi> (Baghdad, 1968). <hi rend="italic">Contra</hi>
+                            McLeod (<hi rend="italic">Narsai’s Metrical Homilies on the Nativity,
+                                Epiphany, Passion, Resurrection, and Ascension</hi>, 14), the first
+                            26 <hi rend="italic">mēmrē</hi> of this manuscript cannot derive
+                            exclusively from ms. Baghdad (<hi rend="italic">olim</hi> Mosul),
+                            Chaldean Patriarchate 72, since the former contains the <hi
+                                rend="italic">Sogitā ‘On the Cherub and the Thief’</hi> after <hi
+                                rend="italic">Mēmrā 40 ‘On the Resurrection’</hi> whereas the latter
+                            does not (see A. M. Butts, “A Misapplication of <hi rend="italic"
+                                >eliminatio codicum descriptorum</hi> in the Manuscript Tradition of
+                            Narsai [d. <hi rend="italic">c</hi>.500],” <hi rend="italic">Comparative
+                                Oriental Manuscript Studies Bulletin</hi> 5.2 [2019]:
+                        77–100).</p></note></p>
+                <p xml:lang="en">ms. Vatican, Syriac 588 (1918), ff. 80a–84b (incomplete): In addition to the
+                    <hi rend="italic">mēmrā </hi>in question, this manuscript
+                    contains seventeen <hi rend="italic">mēmrē</hi> (one repeated) attributed to
+                    Narsai as well as the previously-mentioned
+                    <hi rend="italic">mēmrē </hi>attributed to Rabban Gabriel
+                    of Shirzor and to David the Scholastic.<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text"> For this manuscript, see A. van Lantschoot,
+                            <hi rend="italic">Inventaire des manuscrits syriaques des fonds Vatican (490–631), Barberini Oriental et Neofiti </hi>(Studi
+                            e Testi 243; Rome: Biblioteca apostolica vaticana, 1965), 115–116;
+                            Macomber, “The Manuscripts of the Metrical Homilies of Narsai,” 281–282.
+                            Digital images of this manuscript are available at DigiVatLib
+                            (Vat.sir.588): &lt;https://digi.vatlib.it/view/MSS_Vat.sir.588&gt;.
+                            Macomber claims that ff. 69b–70a also contain the <hi rend="italic"
+                                >mēmrā</hi> in question, but this is incorrect. As is indicated by a
+                            scribal note in the margin of f. 69b, ff. 69b–70a comes from <hi
+                                rend="italic">Mēmrā 27 ‘On the Parable of the Ten Virgins’</hi>.
+                            This was correctly relayed by van Lantschoot (<hi rend="italic"
+                                >Inventaire des manuscrits syriaques des fonds Vatican [490–631],
+                                Barberini Oriental et Neofiti</hi>, 115). Macomber, however,
+                            mistakenly identified this material as coming from the <hi rend="italic"
+                                >mēmrā</hi> in question, even though he was aware of the scribal
+                            note, writing “On f. 69b someone has written, erroneously in the margin,
+                            the <hi rend="italic">incipit </hi>of the 27th <hi
+                                rend="italic">memra</hi>, presumably with the intent of identifying
+                            the incomplete fragment, but the
+                            <hi rend="italic">explicit </hi>on the following
+                            page is that of the <hi rend="italic">memra</hi> of <hi
+                               >Ṣ</hi>libazka” (Macomber, “The
+                            Manuscripts of the Metrical Homilies of Narsai,” 292 fn. 2). Again, this
+                            is simply incorrect: This text comes from the end of <hi rend="italic"
+                                >Mēmrā 27 ‘On the Parable of the Ten Virgins’</hi> as the scribe
+                            correctly indicated. The text starts at A. Mingana,
+                            <hi rend="italic">Narsai Doctoris Syri Homiliae et Carmina </hi>(Mosul:
+                            Typis Fratrum Praedicatorum, 1905), 256, ln. 12, and it continues onto
+                            the next page where the <hi rend="italic">mēmrā</hi> concludes. This
+                            error is not inconsequential since Macomber uses it to claim mistakenly
+                            that the scribe of this manuscript knew the <hi rend="italic">mēmrā</hi>
+                            in question from two different sources.</p></note></p>
+                <p xml:lang="en">Macomber, who personally consulted all four of these manuscripts, attributes the
+                    homily in question to ‘an otherwise unknown <hi
+                       >Ṣ</hi>libazka’.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text"> Macomber, “The Manuscripts of
+                            the Metrical Homilies of Narsai,” 281, see also 282, 284, 291,
+                        306.</p></note> In his unpublished dissertation, Ibrahim questions
+                    Macomber’s analysis.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text"> Ibrahim, <hi rend="italic">La doctrine
+                                christologique de Narsai</hi>, 219–222 (s.v., Homélie N.
+                        LXXXV).</p></note> Ibrahim suggests—correctly as I will argue below—that
+                    what Macomber read as a personal name <hi
+                        >Ṣ</hi>libazka is actually part of the title of the homily. Ibrahim also
+                    proposes—again correctly, as we will see—that the latter component in the
+                    collocation is not the perfect verb <hi rend="italic">zkā</hi> ‘it has been
+                    victorious; it has conquered’ (<foreign xml:lang="syr">ܙܟܐ</foreign>) but the
+                    adjectival form <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>),
+                    resulting in <hi rend="italic">Ṣlibā zakkāyā</hi> ‘victorious cross’ (<foreign xml:lang="syr">ܨܠܝܒܐ ܙܟܝܐ</foreign>).
+                    Ibrahim is, however, less certain about how to account for <hi rend="italic"
+                        >mār(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>), which
+                    precedes the collocation in some manuscripts. He writes: ‘Il peut y avoir une
+                    erreur de copiste, ou peut-être certaines régions donnaient-elles à la sainte
+                    croix (Sliwa zakkaya) la particule ‘Mar’ comme pour les saints’.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> Ibrahim, <hi
+                                rend="italic">La doctrine christologique de Narsai</hi>,
+                        220.</p></note> While the latter suggestion is theoretically possible, it is
+                    ultimately unlikely in my opinion.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text"> The word <hi rend="italic">mār(y)</hi> is rarely
+                            used as an honorific for non-human entities, including the cross. This,
+                            for instance, occurs in the heading of Narsai’s <hi rend="italic">Mēmrā
+                                54 ‘On the Finding of the Cross’</hi> : <hi rend="italic"
+                               
+                                >ʿal ʿē(ʾ)dā
+                                dašḥaktā dmār(y) ṣlibā qaddišā</hi> ‘On the feast of the finding of <hi
+                                rend="italic">mār(y)</hi> holy cross’ (<foreign xml:lang="syr">ܥܠ ܥܐܕܐ
+                                ܕܫܟܚܬܐ ܕܡܪܝ ܨܠܝܒܐ ܩܕܝܫܐ</foreign> ) in ms. London, British Library Oriental
+                            5463 (1893), f. 194a and in ms. Teheran, Neesan
+                            1 (1896), p. 225. Both of these manuscripts probably ultimately derive
+                            from ms. Urmia 34 (1715) (thus Macomber, “The Manuscripts of the
+                            Metrical Homilies of Narsai,” 280, 286–287 and followed by others), and
+                            so this use of <hi rend="italic">mār(y)</hi> could go back to this
+                            manuscript, though that it is not necessarily the case. </p></note>
+                    Regardless, Ibrahim is, I think, on the right track. In the present article, I
+                    introduce hitherto-neglected manuscript evidence to argue, in line with Ibrahim
+                    and against Macomber, that the <hi rend="italic">mēmrā</hi> in question is not
+                    attributed to an otherwise unknown <hi
+                        >Ṣ</hi>libazka, but rather that in its earliest recoverable form this
+                    collocation is part of the title of a <hi rend="italic">mēmrā</hi> that is
+                    implicitly attributed to Narsai. </p>
+            </div>
+            <div>
+                <head>The Manuscript Evidence</head>
+                <p xml:lang="en">The oldest manuscript attesting the <hi rend="italic">mēmrā</hi> in question,
+                    which is also the oldest known manuscript attesting Narsai, is ms. Chaldean
+                    Patriarchate 71 (1188–1288). Unfortunately, this manuscript is no longer
+                    accessible, and it is in fact likely lost forever.<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text"> See fn. 2 above.</p></note>
+                    Thus, it is impossible to know for certain what the heading of the <hi
+                        rend="italic">mēmrā</hi> in question was in this manuscript.<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> See further fn.
+                            23 below. </p></note></p>
+                <p xml:lang="en">The remaining three manuscripts fall into two groups. The two Vatican
+                    manuscripts, mss. Vatican, Borgia Syriac 83A and Vatican, Syriac 588, attest the
+                    heading ‘<hi rend="italic">mēmrā</hi> of <hi rend="italic">mār(y) Ṣlibā zakkāyā</hi> (“victorious cross”)’ (<foreign xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܨܠܝܒܐ
+                        ܙܟܝܐ</foreign>). For the full context, ms. Vatican, Borgia Syriac 83A introduces
+                    the <hi rend="italic">mēmrā</hi> in question as follows:</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܒܚܝܠ ܐܠܗܢ
+                        ܣܓܝܕܐ ܟܬܒܝܢܢ ܡܐܡܪܐ ܕܡܪܝ ܨܠܝܒܐ ܙܟܝܐ</foreign></p>
+                <p xml:lang="en">Again, in the strength of our praise-worthy God, we write the <hi rend="italic"
+                        >mēmrā</hi> of <hi rend="italic">mār(y)</hi><hi rend="italic"
+                       >Ṣlibā
+                        zakkāyā</hi> (‘victorious cross’) (ms. Vatican, Borgia Syriac 83A, f.
+                    253b)</p>
+                <p xml:lang="en">A slightly shorter heading is found in ms. Vatican, Syriac 588: </p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܝ
+                        ܨܠܝܒܐ ܙܟܝܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of <hi rend="italic">mār(y)</hi><hi
+                        rend="italic">Ṣlibā zakkāyā</hi> (‘victorious cross’) (ms. Vatican, Syriac 588, f.
+                    80a)</p>
+                <p xml:lang="en">I stress that there is no doubt about the reading <hi rend="italic">zakkāyā</hi>
+                        (<foreign xml:lang="syr"
+                            >ܙܟܝܐ</foreign>), clearly with <hi rend="italic">yod</hi>, in both manuscripts. A
+                    different heading is found in ms. Diyarbakır 70:</p>
+                <p xml:lang="en">
+                    <foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܐܕܐ ܕܨܠܝܒܐ ܙܟܝܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the feast of the victorious cross (ms.
+                    Diyarbakır 70, f. 302a)</p>
+                <p xml:lang="en">Again, there is no doubt about the reading <foreign xml:lang="syr">ܙܟܝܐ (</foreign><hi
+                        rend="italic">zakkāyā</hi>). In addition, instead of <hi rend="italic"
+                            >mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>), which is
+                    found in the two Vatican manuscripts, ms. Diyarbakır 70 attests <hi
+                        rend="italic">ʿ</hi><hi rend="italic"
+                            >ē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>). Neither
+                    Macomber, who personally consulted ms. Diyarbakır 70, nor Ibrahim, who does not
+                    seem to have seen the manuscript, note this reading, but it is absolutely
+                    certain as can be seen in Figure 1.</p>
+                <p>
+                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV23N1Butts_image1.png" rend="center"/>
+                </p>
+                <p xml:lang="en"><hi rend="bold">Figure 1</hi></p>
+                <p xml:lang="en"><hi>Ms. Diyarbakır 70, f. 302a (= Turkey, Mardin, </hi><hi>Chaldean Cathedral 60.19 =
+                        HMML Pr. No. CCM 00578</hi>)<hi>. Photo courtesy of
+                        the Hill Museum &amp; Manuscript Library, Saint John’s University,
+                        Minnesota, USA. Published with permission of the Chaldean Cathedral Mardin.
+                        All rights reserved.</hi></p>
+            </div>
+            <div>
+                <head>The Reading <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>) versus
+                    <hi rend="italic">zkā</hi> ‘it has been victorious’ (<foreign xml:lang="syr">ܙܟܐ</foreign>)</head>
+                <p xml:lang="en">As already explained above, Macomber read <hi rend="italic">zkā</hi> ‘it has been
+                    victorious’ (<foreign xml:lang="syr">ܙܟܐ</foreign>), but
+                    Ibrahim questioned Macomber proposing that <hi rend="italic">zakkāyā</hi>
+                    ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>) is more
+                        likely.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                            Macomber, “The Manuscripts of the Metrical Homilies of Narsai,” 281, see
+                            also 282, 284, 291, 306 and Ibrahim, <hi rend="italic">La doctrine
+                                christologique de Narsai</hi>, 220.</p></note> As far as I can tell,
+                    however, Ibrahim did not himself consult the manuscripts. Thus, it is striking
+                    that his proposal for <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>) finds
+                    unanimous support in the three surviving manuscripts: ms. Diyarbakır 70, ms.
+                    Vatican, Borgia Syriac 83A, and ms. Vatican, Syriac 588.</p>
+                <p xml:lang="en">In addition, a stemmatic argument can be made that ms. Chaldean Patriarchate 71
+                    also read <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>). Our
+                    understanding of the stemmatic relationship between the more than two dozen
+                    manuscripts attesting <hi rend="italic">mēmrē</hi> by Narsai admittedly remains
+                    in its infancy. Nevertheless, in the most thorough analysis to date, McLeod
+                    proposes the stemma in Figure 2:<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text"> For criticism of the central branch, headed by ms.
+                            Baghdad (<hi rend="italic">olim</hi> Mosul), Chaldean Patriarchate 72
+                            (1705) (= McLeod’s C), see Butts, “A Misapplication of <hi rend="italic"
+                                >eliminatio codicum descriptorum</hi> in the Manuscript Tradition of
+                            Narsai (d. <hi rend="italic">c</hi>.500).”</p></note>
+                </p>
+                <p>
+                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV23N1Butts_image2.jpeg" rend="center"/>
+                </p>
+                <p xml:lang="en"><hi rend="bold">Figure 2</hi></p>
+                <p xml:lang="en"><hi>Manuscript stemma from McLeod, </hi><hi
+                        rend="italic">Narsai’s Metrical Homilies on the
+                        Nativity, Epiphany, Passion, Resurrection, and Ascension</hi><hi
+                       >, 18.</hi></p>
+                <p xml:lang="en">It is the left-most node that is of importance to us here. If this stemma is
+                    correct, then any reading shared in common by ms. Diyarbakır 70 (= McLeod’s B),
+                    on the one hand, and ms. Vatican, Borgia Syriac 83A as well as ms. Vatican,
+                    Syriac 588, on the other hand, must by stemmatic deduction also be found in ms.
+                    Chaldean Patriarchate 71 (= McLeod’s A).<note place="foot" xml:id="ftn14" n="14"
+                            ><p rend="footnote text"> Assuming of course that there is no
+                            contamination, drift, etc., which we have no reason to suspect here.
+                        </p></note> Thus, if McLeod’s stemmatic analysis of these four manuscripts
+                    is correct, then ms. Chaldean Patriarchate 71 must also have read <hi
+                        rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>).</p>
+                <p xml:lang="en">Regardless, however, of whether or not one accepts the stemmatic argument, it
+                    should be stressed that all the extant manuscripts read <hi rend="italic"
+                        >zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>). The full
+                    import of this will become clear below, but for now it is enough to note that
+                    this reading corroborates Ibrahim’s contention that Macomber’s <hi rend="italic"
+                        >zkā</hi> ‘it has been victorious; it has conquered’ (<foreign xml:lang="syr">ܙܟܐ</foreign>) is a
+                    misreading. This is important since, though the incorrect reading <hi
+                        rend="italic">Ṣlibā-zkā</hi> could be a personal name, the same is not the case for the
+                    correct reading <hi rend="italic">Ṣlibā zakkāyā</hi>, which cannot be a personal name.<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> For <hi
+                                rend="italic">ṣlibā-zkā</hi> as a personal name, see R. Payne Smith,
+                            <hi rend="italic">Thesaurus Syriacus </hi>(Oxford:
+                            Clarendon Press, 1879–1901), 3405. It should be noted that, in contrast,
+                                <hi rend="italic">ṣlibā zakkāyā</hi> is not recorded there as a personal
+                            name. </p></note> In fact, it is the unlikelihood of <hi rend="italic"
+                       >Ṣlibā
+                        zakkāyā</hi> being a personal name that led Ibrahim to claim that either <hi
+                        rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) here is an
+                    honorific title for the cross, which as stated above I think is less likely, or
+                    that <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) is a
+                    scribal error—a more likely proposition and one to which I now turn. </p>
+            </div>
+            <div>
+                <head>The Reading <hi rend="italic">ʿ</hi><hi
+                        rend="italic">ē(</hi><hi rend="italic"
+                            >ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) versus
+                    <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>)</head>
+                <p xml:lang="en">As already mentioned, Ibrahim proposed that <hi rend="italic">mar(y)</hi> ‘Lord’
+                        (<foreign xml:lang="syr"
+                            >ܡܪܝ</foreign>) in the heading of the homily in question was possibly a scribal
+                    error (‘Il peut y avoir une erreur de copiste…’). He seems, however, to have
+                    been unaware of the reading <hi rend="italic"
+                       >ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) in ms.
+                    Diyarbakır 70. In this section, I argue that this hitherto-neglected manuscript
+                    evidence is decisive in showing that <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>)
+                    is in fact a scribal error, as Ibrahim previously proposed. </p>
+                <p xml:lang="en">Considering <hi rend="italic">ʿ</hi><hi
+                        rend="italic">ē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) in ms.
+                    Diyarbakır 70 versus <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) in the two
+                    Vatican manuscripts, we have, I suggest, a scribal error due to graphic
+                    similarity: The East-Syriac <hi rend="italic"
+                       
+                    >ʿayn </hi>followed by <hi
+                        rend="italic">ʾ</hi><hi rend="italic"
+                            >ālap</hi> (<foreign xml:lang="syr">ܥܐ</foreign>) of the
+                    former correspond to the <hi rend="italic">mim</hi> (<foreign xml:lang="syr">ܡ‍</foreign>) of the
+                    latter; <hi rend="italic">dālat</hi> (<foreign xml:lang="syr">ܕ</foreign>) and <hi
+                        rend="italic">rēš</hi> (<foreign xml:lang="syr">ܪ</foreign>) are
+                    distinguished from one another only by the placement of the diacritical point;
+                    and the difference between the final <hi rend="italic"
+                       >ʾālap</hi> and
+                        <hi rend="italic">yod</hi> is likely a deliberate intervention by the scribe
+                    to make sense out of how he read the first part of the word.<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text"> The latter will also obtain
+                            for the presence or absence of the <hi rend="italic">dālat</hi> (<foreign xml:lang="syr">ܕ</foreign>) before <hi rend="italic"
+                                >ṣlibā</hi> ‘cross’ (<foreign xml:lang="syr">ܨܠܝܒܐ</foreign>):
+                            That is, whether the scribe read <hi rend="italic"
+                                >ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>)
+                            or <hi rend="italic">mar(y) </hi>‘Lord’ (<foreign
+                                xml:lang="syr"
+                                >ܡܪܝ</foreign>) governed whether or not he followed with <hi
+                                rend="italic">dālat</hi> (<foreign xml:lang="syr">ܕ</foreign>).</p></note> Given that a graphic error seems all but certain, the
+                    question becomes: Which reading did the archetype have? Is it <hi rend="italic"
+                        >ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) or <hi
+                            rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>)? The
+                    evidence, I think, supports recon-structing <hi rend="italic"
+                        >ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) in the
+                    archetype. </p>
+                <p xml:lang="en">The title of ms. Vatican, Borgia Syriac 83A is peculiar in that it only includes
+                    the name of the author. This results in a heading that lacks the title of the
+                        <hi rend="italic">mēmrā</hi>. Contrast this with the other case in the same
+                    manuscript where an author other than Narsai is named: <note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text"> Note that ms. Vatican, Borgia Syriac 83A also
+                            contains the
+                            <hi rend="italic">Mēmrā on the Washing of Feet </hi>by
+                            Rabban Gabriel of Shirzor (for which, see fn. 2 above), but it is not
+                            attributed to Rabban Gabriel of Shirzor in this manuscript. The heading
+                            simply reads: <foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ
+                                ܕܥܠ ܫܝܓܬܐ ܕܪ̈ܓܠܐ ܕܚܡܫܐ ܒܫܒܐ</foreign> ‘Again, <hi rend="italic"
+                                >mēmrā</hi> on the washing of feet for Thursday’ (ms. Vatican,
+                            Borgia Syriac 83A, f. 233b). Thus, the scribe of ms. Vatican, Borgia
+                            Syriac 83A seems to attribute this <hi rend="italic">mēmrā</hi>
+                            implicitly to Narsai. The same occurs in ms. Diyarbakır 70, where,
+                            however, a later scribe has changed the attribution to Rabban Gabriel of
+                            Shirzor (see fn. 21 below). </p></note></p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܐܕܐ
+                    ܕܫܟܚܬܗ ܕܨܠܝܒܐ ܕܥܒܝܕ ܠܕܘܝܕ ܐܣܟܘܠܝܐ ܣܓܝ ܢܘܗܪܐ ܕܗܘܐ ܡܠܦܢܐ ܒܟܦܪ ܥܙܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the feast of the discovery of the cross,
+                    which was composed by David the Scholastic, the-great-of-light, who was teacher
+                    at Kpar <hi>ʿ</hi>Azzā (ms. Vatican, Borgia
+                    Syriac 83A, f. 199b)<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> For this author and text, see fn. 4 above.
+                        </p></note></p>
+                <p xml:lang="en">Here the title of the <hi rend="italic">mēmrā</hi> is given, and this is in fact
+                    the case with every <hi rend="italic">mēmrā</hi> in this manuscript with the
+                    ostensible exception of the homily in question, which for reference begins as
+                    follows: </p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܒܚܝܠ ܐܠܗܢ
+                    ܣܓܝܕܐ ܟܬܒܝܢܢ ܡܐܡܪܐ ܕܡܪܝ ܨܠܝܒܐ ܙܟܝܐ</foreign></p>
+                <p xml:lang="en">Again, in the strength of our praise-worthy God, we write the <hi rend="italic"
+                        >mēmrā</hi> of <hi rend="italic">mār(y)</hi><hi rend="italic"
+                       >Ṣlibā
+                        zakkāyā</hi> (‘victorious cross’) (ms. Vatican, Borgia Syriac 83A, f.
+                    253b)</p>
+                <p xml:lang="en">Thus, in ms. Vatican, Borgia Syriac 83A, the heading of the <hi rend="italic"
+                        >mēmrā</hi> in question departs from the pattern of the rest of the
+                    manuscript by lacking a title of the <hi rend="italic">mēmrā</hi>. </p>
+                <p xml:lang="en">In contrast, there is no incongruity with the heading of the <hi rend="italic"
+                        >mēmrā</hi> in question in ms. Diyarbakır 70, which again for reference
+                    reads as follows:</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܐܕܐ
+                    ܕܨܠܝܒܐ ܙܟܝܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the feast of the victorious cross (ms.
+                    Diyarbakır 70, f. 302a)</p>
+                <p xml:lang="en">This heading can be compared with the headings of the other <hi rend="italic"
+                        >mēmrē</hi> in this manuscript that are attributed to Narsai.<note
+                        place="foot" xml:id="ftn19" n="19"><p rend="footnote text"> See the Appendix
+                            below for the text of all the headings. </p></note> The heading of the
+                        <hi rend="italic">mēmrā</hi> in question clearly follows the same general
+                    pattern found in this manuscript, and it is in fact an exact structural match to
+                    the headings of a number of <hi rend="italic">mēmrē</hi>, including the
+                    following:</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܬܝ
+                    ܡܪܝܡ ܒܬܘܠܬܐ ܩܕܝܫܬܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of <hi rend="italic">mārt(y)</hi> Mary, the
+                    holy virgin (ms. Diyarbakır 70, f. 42b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܕܢܚܗ
+                    ܕܡܪܢ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the appearance of our Lord (ms. Diyarbakır
+                    70, f. 52b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܝ
+                    ܝܘܚܢܢ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of <hi rend="italic">mār(y)</hi> John (ms.
+                    Diyarbakır 70, f. 61b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܦܛܪܘܣ
+                    ܘܦܘܠܘܣ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of Peter and Paul (ms. Diyarbakır 70, f.
+                    71a)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܝ
+                    ܐܣܛܦܢܘܣ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of <hi rend="italic">mār(y)</hi> Stephen (ms.
+                    Diyarbakır 70, f. 91b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܚܕ
+                    ܦܪܨܘܦܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of ‘one person’ (ms. Diyarbakır 70, f.
+                    105a)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܚܕܒܫܒܐ
+                    ܕܡܥܠܝ ܨܘܡܐ ܦܪܘܩܝܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the Sunday that introduces the salvific
+                    fast (ms. Diyarbakır 70, f. 119b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܚܕܒܫܒܐ
+                    ܕܬܪܝܢ ܕܨܘܡܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the second Sunday of the fast (ms.
+                    Diyarbakır 70, f. 127b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܚܕܒܫܒܐ
+                    ܪܒܐ ܕܩܝܡܬܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the great Sunday of the resurrection (ms.
+                    Diyarbakır 70, f. 257a) </p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܝܘܡ
+                    ܥܐܕܐ ܕܣܘܠܩܗ ܕܡܪܢ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the day of the feast of the ascension of
+                    our Lord (ms. Diyarbakır 70, f. 288b)</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܚܕܒܫܒܐ
+                    ܕܦܢܛܩ̈ܘܣܛܐ</foreign></p>
+                <p xml:lang="en">Again, <hi rend="italic">mēmrā</hi> of the Sunday of Pentecost<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text"> The
+                            <hi rend="italic">syāmē </hi>on this word in the
+                            Syriac is not marking the plural but the final
+                            <hi rend="italic">ē </hi>vowel, reflecting <foreign xml:lang="gr">πεντηκοστή</foreign>. See A. M.
+                            Butts, “The Use of <hi rend="italic">syāmē </hi>as
+                            a Phonological Marker in Syriac,”
+                            <hi rend="italic">Hugoye: Journal of Syriac Studies </hi>18
+                            (2015): 93–109.</p></note> (ms. Diyarbakır 70, f. 295a)</p>
+                <p xml:lang="en">Two conclusions can be drawn from this: First, the scribe of ms. Diyarbakır 70
+                    implicitly attributes the <hi rend="italic">mēmrā</hi> in question to
+                        Narsai.<anchor xml:id="Ref21456982"/><note place="foot" xml:id="ftn21"
+                        n="21"><p rend="footnote text"> An interesting comparison can be made with
+                            the <hi rend="italic">Mēmrā on the Washing of Feet</hi>, which occurs on
+                            ff. 221a–232b of this manuscript and which is explicitly attributed in
+                            other manuscripts to Rabban Gabriel of Shirzor (see fn. 2 above for a
+                            full listing of the known manuscripts). In the main body of ms.
+                            Diyarbakır 70, this homily is introduced as follows: <foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ
+                                ܕܥܠ ܫܝܓܬ ܪ̈ܓܠܐ. ܘܛܒ ܚܫܚ ܠܦܨܚܐ</foreign> ‘Again,
+                            <hi rend="italic">mēmrā </hi>on washing the feet,
+                            and it is especially useful for Passover’. In the margin, there is a
+                            note further specifying the author: <foreign xml:lang="syr">ܣܝܡܐ ܗܘ ܕܪܒܢ
+                                ܓܒܪܝܠ ܕܡܢ ܒܝܬ ܥܒ̈ܐ܀</foreign> ‘It is the work of Rabban Gabriel from Bet
+                                <hi>ʿ</hi>Ābē’. Thus, the
+                            original scribe of ms. Diyarbakır 70 seems to attribute the <hi
+                                rend="italic">Mēmrā on the Washing of Feet</hi> implicitly to Narsai
+                            (this is also the case in ms. Vatican, Borgia Syriac 83A; see fn. 17
+                            above). The scribe of the marginal note, however, changed the
+                            attribution from implicitly Narsai to explicitly Rabban Gabriel from Bet
+                                <hi>ʿ</hi>Ābē. This contrasts
+                            with the <hi rend="italic">mēmrā </hi>in question:
+                            With the <hi rend="italic">mēmrā </hi>in question,
+                            no later scribe has changed the implicit attribution to Narsai by adding
+                            a scribal note or by other means. </p></note> Second, and more pertinent
+                    to the point that I am making here, the heading of the <hi rend="italic"
+                        >mēmrā</hi> in question conforms to the structure of the other headings in
+                    this manuscript. The consistency of the pattern in ms. Diyarbakır 70 suggests
+                    that this manuscript preserves the archetypal reading in <hi rend="italic"
+                        >ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>),
+                    inversely correlating with the incongruity of the reading <hi rend="italic"
+                        >mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>), which is
+                    found in ms. Vatican, Borgia Syriac 83A—an incongruity that suggests that this
+                    is not the archetypal reading. </p>
+                <p xml:lang="en">That the reading <hi rend="italic">ʿ</hi><hi
+                        rend="italic">ē(</hi><hi rend="italic"
+                            >ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) is to be
+                    preferred to <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) is
+                    corroborated by <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>), which,
+                    it will be recalled, is attested in all of the available manuscripts and which,
+                    as Ibrahim already noted, Macomber misread as <hi rend="italic">zkā</hi> ‘it has
+                    been victorious; it has conquered’ (<foreign xml:lang="syr">ܙܟܐ</foreign>). As stated
+                    above, <hi rend="italic">Ṣlibā zakkāyā</hi> is not a personal name. Thus, it is unlikely
+                    that <hi rend="italic">mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>), which is
+                    an honorific used primarily with personal names, goes back to the earliest
+                    recoverable archetype. In contrast, there is no such problem with the reading
+                        <hi rend="italic">ʿ</hi><hi
+                        rend="italic">ē(</hi><hi rend="italic"
+                            >ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) in ms.
+                    Diyarbakır 70: The collocation <hi rend="italic"
+                       >ʿē(ʾ)dā daṣlibā zakkāyā</hi> ‘Feast of the victorious cross’ (<foreign xml:lang="syr">ܥܐܕܐ
+                            ܕܨܠܝܒܐ ܙܟܝܐ</foreign>) makes perfect sense. This is where it is important to
+                    stress that even ms. Vatican, Borgia Syriac 83A and ms. Vatican, Syriac 588 read
+                    <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>): This is
+                    a residual trace of an earlier stage of this branch of the manuscript tradition
+                    in which it also did not have a personal name introduced by <hi rend="italic"
+                        >mar(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) but rather
+                    a title beginning with <hi rend="italic"
+                        >ʿē(</hi><hi rend="italic"
+                       >ʾ)dā</hi>
+                    ‘feast’ (<foreign xml:lang="syr"
+                        >ܥܐܕܐ</foreign>), just as in ms. Diyarbakır 70. </p>
+                <p xml:lang="en">There is one final argument to make against understanding <hi rend="italic"
+                       >Ṣlibā
+                        zakkāyā</hi> as the author of the homily, and it is based on the content of
+                    the homily: The homily deals extensively and exclusively with the cross.<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> See the summary
+                            in Ibrahim, <hi rend="italic">La doctrine christologique de Narsai</hi>,
+                            220–221. It should be noted that two other <hi rend="italic">mēmrē</hi>
+                            dealing with the cross are attributed to Narsai in the manuscript
+                            tradition: <anchor xml:id="Toc12390728"/><hi rend="italic">Mēmrā 54 ‘On
+                                the Finding of the Cross’</hi> (ed. Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                Carmina</hi>, 2.114-30 [no. 30] and <hi rend="italic">Homilies of
+                                Mar Narsai</hi>, 2.414-439; see also L. Abramowski, “Narsai [ca. 415?-502],
+                            Hom. LIV [30] Mingana II, 114-130: ‘Unser König Jesus’, der ‘gekreuzigte
+                            Mann’,” in P. Gemeinhardt and U. Kühneweg [eds.], <hi rend="italic"
+                                >Patristica et Oecumenica. Festschrift für Wolfgang A. Bienert zum
+                                65. Geburtstag</hi> [Marburger Theologische Studien 85; Marburg:
+                            Elwert, 2004], 157-166; K. B. Gibson, “An Early Syriac Apologia Crucis:
+                                <hi rend="italic">Mēmrā 54 ‘On the Finding of the Holy Cross’</hi>,”
+                            in Butts, Heal, and Kitchen, <hi rend="italic">Narsai: Rethinking his
+                                Work and his World</hi>) and <anchor xml:id="Toc12390729"/><hi
+                                rend="italic">Mēmrā 55 ‘On the Bronze Serpent’</hi> (ed. <hi
+                                rend="italic">Homilies of Mar Narsai</hi>, 2.439-455 and [with ET]
+                            J. Frishman, <hi rend="italic">The Ways and Means of the Divine Economy:
+                                An Edition, Translation and Study of Six Biblical Homilies by
+                                Narsai</hi> [Ph.D. Diss., Universiteit Leiden, 1992], 1.109-122).
+                            For the broader context, see K. Bryant, <hi rend="italic">Festal
+                                Apologetics: Syriac Treatises for the Feast of the Discovery of the
+                                Cross</hi> (D.Phil. Thesis, University of Oxford, 2015). </p></note>
+                    It would of course make sense for a homily that deals with the cross to be
+                    entitled <hi rend="italic">mēmrā d</hi><hi rend="italic"
+                       >ʿē(ʾ)dā daṣlibā zakkāyā</hi> ‘<hi rend="italic">mēmrā</hi> of the feast
+                    of the victorious cross’ (<foreign xml:lang="syr">ܡܐܡܪܐ ܕܥܐܕܐ ܕܨܠܝܒܐ
+                        ܙܟܝܐ</foreign>). The alternative is far less likely: A homily on the topic of the
+                    cross could of course be written by someone named ‘Victorious Cross’, but the
+                    law of parsimony (i.e., Occam’s razor) suggests that this is not the case. </p>
+            </div>
+            <div>
+                <head>Conclusion</head>
+                <p xml:lang="en">To summarize, I propose that in the earliest recoverable archetype the <hi
+                        rend="italic">mēmrā</hi> in question was entitled <hi rend="italic">mēmrā
+                        dʿē(ʾ)dā daṣlibā
+                        zakkāyā</hi> ‘<hi rend="italic">mēmrā</hi> of the feast of the victorious
+                    cross’ (<foreign xml:lang="syr"
+                        >ܡܐܡܪܐ ܕܥܐܕܐ ܕܨܠܝܒܐ ܙܟܝܐ</foreign>). This is preserved unaltered in ms.
+                    Diyarbakır 70. In a different branch of the transmission, however, the word <hi
+                        rend="italic">ʿē(ʾ)dā</hi> ‘feast’ (<foreign xml:lang="syr">ܥܐܕܐ</foreign>) became
+                    <hi rend="italic">mār(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>) through a
+                    scribal error. This erroneous <hi rend="italic">mār(y)</hi> ‘Lord’ (<foreign xml:lang="syr">ܡܪܝ</foreign>)
+                    is found in ms. Vatican, Borgia Syriac 83A and ms. Vatican, Syriac 588.<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text"> Again, it is impossible to know for certain what
+                            ms. Chaldean Patriarchate 71—the oldest manuscript known to attest the
+                            homily in question—read here, but this does not affect my argument. The
+                            only matter at stake with the reading of ms. Chaldean Patriarchate 71 is
+                            whether the scribal error whereby &lt;<hi rend="italic"
+                               >ʿʾdʾ</hi>&gt; (<foreign xml:lang="syr">ܥܐܕܐ</foreign>)
+                        became &lt;<hi rend="italic">mry</hi>&gt; (<foreign xml:lang="syr">ܡܪܝ</foreign>)
+                            occurred prior to the copying of ms. Chaldean Patriarchate 71, in which
+                            case it would serve as an <hi rend="italic">error coniunctivus</hi>
+                            uniting ms. Chaldean Patriarchate 71, ms. Vatican, Borgia Syriac 83A,
+                            and ms. Vatican, Syriac 588, or whether the scribal error occurred
+                            between ms. Chaldean Patriarchate 71 and ms. Vatican, Borgia Syriac 83A,
+                            in which case it would serve as an
+                            <hi rend="italic">error separativus </hi>between
+                            the two manuscripts as well as an <hi rend="italic">error
+                                coniunctivus</hi> uniting ms. Vatican, Borgia Syriac 83A and ms.
+                            Vatican, Syriac 588. </p></note> Macomber then exacerbated the problem
+                    by misreading <hi rend="italic">zakkāyā</hi> ‘victorious’ (<foreign xml:lang="syr">ܙܟܝܐ</foreign>) as <hi
+                        rend="italic">zkā</hi> ‘it has been victorious; it has conquered’ (<foreign xml:lang="syr">ܙܟܐ</foreign>).
+                    In doing so, he completed the change from what was originally a title <hi
+                        rend="italic">ʿē(ʾ)dā daṣlibā
+                        zakkāyā</hi> ‘the feast of the victorious cross’ (<foreign xml:lang="syr">ܥܐܕܐ ܕܨܠܝܒܐ
+                            ܙܟܝܐ</foreign>) into a faux person, his ‘otherwise unknown Ṣlibazka’. There is little doubt
+                    that the reading of ms. Diyarbakır 70 is to be preferred in this case. Thus,
+                    this <hi rend="italic">mēmrā</hi> of ‘The Feast of the Victorious Cross’ should
+                    be added to those attributed to Narsai in the manuscript tradition.<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> Ibrahim (<hi
+                                rend="italic">La doctrine christologique de Narsai</hi>, 219–222)
+                            maintains that the <hi rend="italic">mēmrā</hi> is authentic Narsai, and
+                            my admittedly precursory survey of the style and word choice would not
+                            rule this out. Nevertheless, final judgement on its authenticity must
+                            await further research, both on this <hi rend="italic">mēmrā</hi> in
+                            particular and the Narsai corpus more broadly. </p></note>
+                </p>
+            </div>
+            <div>
+                <head>Appendix: Extant Headings for all <hi rend="italic">Mēmrē</hi> in ms.
+                    Diyarbakır 70</head>
+                <p xml:lang="en">The following list provides the text of all the extant headings in ms. Diyarbakır
+                    70 so that the reader has the full set of data at hand.<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text"> Macomber (“The Manuscripts of
+                            the Metrical Homilies of Narsai”) references this manuscript by quire
+                            number plus folio within the quire. This has been updated to folio
+                            numbers based on the digital foliation of HMML. For instance, Macomber’s
+                            2:9b is my f. 17b, etc.</p></note> For each of the headings listed, I
+                    provide in the accompanying footnote the following information: the standard
+                    identification number of the <hi rend="italic">mēmrā</hi>, as established in A.
+                        Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et Carmina</hi>; a
+                    short title, which is generally based on S. P. Brock, “A Guide to Narsai’s Homilies,” <hi rend="italic">Hugoye: Journal of
+                        Syriac Studies</hi> 12 (2009): 21–40, though there is an occasional
+                    departure; and publication details (when relevant). All of this information is
+                    systematized in the <hi rend="italic">Clavis </hi>mentioned
+                    in fn. 1 above though without the headings.</p>
+                <list type="ordered">
+                    <item><foreign xml:lang="syr">ܥܠ
+                            ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡܫܪܝܢܢ ܠܡܟܬܒ ܟܬܒܐ
+                            ܕܡܡܪ̈ܐ(!</foreign>)<foreign xml:lang="syr"> ܕܡܕܒܪܢܘܬܐ ܕܥܒܝܕܝܢ ܠܩܕܝܫܐ ܡܪܝ ܢܪܣܝ ܩܫܝܫܐ ܘܡܠܦܢܐ ܠܫܢܗ ܕܡܕܢܚܐ ܘܡܚܒܢܗ ܕܡܥܪܒܐ ܥܠ ܓܠܝܢܐ ܕܢܒ̈ܝܐ ܀ ܩܕܡܝܬܐ ܀ ܕܚܕܒܫܒܐ ܩܕܡܝܐ ܕܣܘܒܪܐ ܀</foreign>
+                        ‘By the power of our Lord, Jesus Christ, we begin to write the book of
+                        <hi rend="italic">mēmrē </hi>of the (divine) economy
+                        that were composed by <hi rend="italic">mār(y)</hi> Narsai, priest and
+                        teacher, tongue of the East and friend of the West, on the revelation of the
+                        prophets. First. (<hi rend="italic">Mēmrā</hi>) of the first Sunday, of
+                        annunciation’ (ms. Diyarbakır 70, f. 1a)<note place="foot" xml:id="ftn26"
+                            n="26"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 2 ‘On Revelations to Patriarchs and Prophets
+                                    (II)’</hi>, edited G. Cardahi,
+                                <hi rend="italic">Liber thesauri de arte poetica Syrorum </hi>(Rome,
+                                1875), 47-51 (excerpt); Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.29-56 (no. 2); <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.39-77.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܐܚܪܢܐ ܕܣܘܒܪܐ ܥܠ ܓܠܝܢ̈ܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܛܘܒܢܐ ܐܒܪܗܡ</foreign> ‘Again, another
+                            (<hi rend="italic">mēmrā</hi>) of annunciation on the divine revelations
+                        that came about to the blessed Abraham’ (ms. Diyarbakır 70, f. 17b)<note
+                            place="foot" xml:id="ftn27" n="27"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 1 ‘On Revelations to Patriarchs and Prophets
+                                    (I)’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.1–28 (no. 1) and <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.1–39.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܠ ܡܘܠܕܗ ܕܡܪܢ ܕܡܢ ܩܕܝܫܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>on the birth of our Lord
+                        from the holy one’ (ms. Diyarbakır 70, f. 33b)<note place="foot"
+                            xml:id="ftn28" n="28"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 4 ‘On the Nativity’</hi>, edited <hi
+                                    rend="italic">Homilies of Mar Narsai</hi>, 1.77–98 and (with ET) McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection, and Ascension</hi>,
+                                36–69 (no. 1).</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܣܘܓܝܬܐ ܕܝܠܗ ܕܡܐܡܪܐ</foreign> ‘Again,
+                        <hi rend="italic">sogitā </hi>of that <hi rend="italic"
+                            >mēmrā</hi>’<note place="foot"
+                            xml:id="ftn29" n="29"><p rend="footnote text">
+                                <hi rend="italic">Sogitā ‘On Mary and
+                                    Magi’</hi>. See T. J. Lamy, <hi rend="italic">Sancti Ephraem
+                                    Syri hymni et sermones</hi> (Malines: H. Dessain, 1882–1902), 1,
+                                col. 129–144 (Syr. with LT); F. Feldmann, <hi rend="italic">Syrische Wechsellieder von Narses. Ein Beitrag zur altchristlichen syrischen Hymnologie, nach einer Handschrift der Königlichen Bibliothek in Berlin </hi>(Leipzig:
+                                Harrassowitz, 1896), 2–6 (Syr.), 6–11 (GT); J. Gwynn, “Selections
+                                Translated into English from the Hymns and Homilies of Ephraim the
+                                Syrian, and from the Demonstrations of Aphrahat the Persian Sage,”
+                                in <hi rend="italic">NPNF</hi>, vol. 13, part 2, 287–289 (ET); E.
+                                    Manna,
+                                <hi rend="italic">Morceaux choisis de littérature araméenne </hi>(Mosul:
+                                Imprimerie des pères dominicains, 1901), 1.216–222 (Syr.);
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.372–377 (Syr.); E. Beck,
+                                <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Nativitate (Epiphania) </hi>(CSCO
+                                186–187; Louvain: Peeters, 1959), 209–216 (Syr.), 195–200 (GT); S.
+                                P. Brock, <hi rend="italic">Sughyotho Mgabbyotho</hi> (Holland:
+                                Syrian Orthodox Archdiocese of Central Europe, 1982), no. 8 (Syr.);
+                                R. Beshara, <hi rend="italic">Mary, Ship of Treasures</hi> (USA:
+                                Diocese of St. Maron, 1988), 85–88 (ET); S. P. Brock,
+                                <hi rend="italic">Bride of Light. Hymns on Mary from the Syriac Churches </hi>(Moran
+                                Etho 6; Kerala: SEERI, 1994), 125–132 (ET); S. P. Brock, “Mary and
+                                the Angel, and Other Syriac Dialogue Poems,” <hi rend="italic"
+                                    >Marianum</hi> 68 (2006): 139–147 (ET); S. P. Brock, <hi
+                                    rend="italic">The Bride of Light: Hymns on Mary from the Syriac
+                                    Churches</hi> (Moran Etho 6; Piscataway: Gorgias Press, 2010),
+                                139–145 (ET); S. P. Brock, <hi rend="italic">Mary and Joseph, and
+                                    Other Dialogue Poems on Mary</hi> (TeCLA 8; Piscataway: Gorgias
+                                Press, 2011), 49–68 (Syr. with ET); S. P. Brock, <hi rend="italic"
+                                    >Treasure-House of Mysteries: Explorations of the Sacred Text
+                                    through Poetry in the Syriac Tradition</hi> (PPS 45; Yonkers: St Vladimir’s Seminary
+                                Press, 2012), 167–176 (ET).</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܡܪܬܝ ܡܪܝܡ ܒܬܘܠܬܐ ܩܕܝܫܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of <hi rend="italic"
+                            >mārt(y)</hi> Mary, the holy virgin’ (ms. Diyarbakır 70, f. 42b)<note
+                            place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 5 ‘On Mary’</hi>, edited <hi rend="italic"
+                                    >Homilies of Mar Narsai</hi>, 1.104–128.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܕܢܚܗ ܕܡܪܢ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the appearance of our
+                        Lord’ (ms. Diyarbakır 70, f. 52b)<note place="foot" xml:id="ftn31" n="31"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 6 ‘On Epiphany’</hi>, edited <hi
+                                    rend="italic">Homilies of Mar Narsai</hi>, 1.134–157 and (with ET) McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection, and Ascension</hi>,
+                                70–105 (no. 2).</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܡܪܝ ܝܘܚܢܢ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of <hi rend="italic"
+                            >mār(y)</hi> John’ (ms. Diyarbakır 70, f. 61b)<note place="foot"
+                            xml:id="ftn32" n="32"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 7 ‘On John the Baptist’</hi>, edited H.
+                                    Gismondi,
+                                <hi rend="italic">Linguae Syriacae Grammatica </hi>(2nd
+                                ed.; Beirut, 1900), 103–110 (selection) and <hi rend="italic"
+                                    >Homilies of Mar Narsai</hi>, 1.163–185.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܦܛܪܘܣ ܘܦܘܠܘܣ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of Peter and Paul’ (ms.
+                        Diyarbakır 70, f. 71a)<note place="foot" xml:id="ftn33" n="33"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 8 ‘On Peter and Paul’</hi>, edited
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.68–89 (no. 4) and <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.191–220. GT in P. Krüger, “Ein Missionsdokument aus frühchristlicher Zeit. Deutung und
+                                Übersetzung des Sermo de memoria Petri et Pauli des Narsai,” <hi
+                                    rend="italic">Zeitschrift für Missionswissenschaft und
+                                    Religionswissenschaft</hi> 42 (1958): 271–291.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܠ ܫܠܝ̈ܚܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>on the apostles’ (ms.
+                        Diyarbakır 70, f. 83a)<note place="foot" xml:id="ftn34" n="34"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 9 ‘On the Four Evangelists’</hi>, edited <hi
+                                    rend="italic">Homilies of Mar Narsai</hi>, 1.220–241.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܡܪܝ ܐܣܛܦܢܘܣ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of <hi rend="italic"
+                            >mār(y)</hi> Stephen’ (ms. Diyarbakır 70, f. 91b)<note place="foot"
+                            xml:id="ftn35" n="35"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 10 ‘On Stephen’</hi> (incomplete), edited
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.90–99 (no. 5) and <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.241–253.</p></note></item>
+                    <item>Acephalous<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"
+                                > Rabban
+                                Surin,<hi rend="italic"> Mēmrā on Narsai, Abraham, and John</hi>
+                                (incomplete), with addition by Rabban Jacob, disciple of Rabban
+                                Surin; for which, see fn. 3 above. Macomber (“The Manuscripts of the
+                                Metrical Homilies of Narsai,” 296) claims that after <hi
+                                    rend="italic">Mēmrā 10 ‘On Stephen’</hi>, the end of which is
+                                missing, and before the acephalous
+                                <hi rend="italic">Mēmrā on Narsai, Abraham, and John </hi>by
+                                Rabban Surin there is part of Narsai’s <hi rend="italic">Mēmrā 11
+                                    ‘On the Three Doctors’</hi> (edited [with FT] J. P. P.
+                                    Martin, “Homélie de Narses sur les trois docteurs nestoriens,”
+                                <hi rend="italic">JA </hi>9.14 [1899]: 446–493
+                                and <hi rend="italic">Homilies of Mar Narsai</hi>, 1.253-287). This, however, seems to be incorrect. Though
+                                the text here has some similarities with Narsai’s <hi rend="italic"
+                                    >Mēmrā 11 ‘On the Three Doctors’</hi>, it is not that text.
+                                Rather, on f. 97a, Rabban Surin’s <hi rend="italic">Mēmrā on Narsai,
+                                    Abraham, and John</hi> already seems to begin, though
+                                acephalously, and the rubrics on ff. 102b–103a indicate the start of
+                                the additions by his disciple Rabban Jacob. Narsai’s <hi
+                                    rend="italic">Mēmrā 11 ‘On the Three Doctors’</hi> is not found
+                                in ms. Diyarbakır 70.</p></note>
+                    </item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕ ܦܪܨܘܦܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of “one person”’ (ms.
+                        Diyarbakır 70, f. 105a)<note place="foot" xml:id="ftn37" n="37"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 17 ‘For Any Saints Day’</hi>,
+                            unedited.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܐܚܪܢܐ ܕܥܠ ܥܢܝܕ̈ܐ ܘܥܠ ܚܝܬܡܝ̈ܬܐ</foreign> ‘Again, another (<hi rend="italic"
+                            >mēmrā</hi>) on the departed and the resurrection’ (ms. Diyarbakır 70,
+                        f. 110b)<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 18 ‘On the Departed and the
+                                    Resurrection’</hi>, edited <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.743–764.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕܒܫܒܐ ܕܡܥܠܝ ܨܘܡܐ ܦܪܘܩܝܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the Sunday that
+                        introduces the salvific fast’ (ms. Diyarbakır 70, f. 119b)<note place="foot"
+                            xml:id="ftn39" n="39"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 20 ‘On Lent I’</hi>, edited Mingana<hi rend="italic">, Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.167–181 (no. 10) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 1.292–312.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕܒܫܒܐ ܕܬܪܝܢ ܕܨܘܡܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the second Sunday of
+                        the fast’ (ms. Diyarbakır 70, f. 127b)<note place="foot" xml:id="ftn40"
+                            n="40"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 21 ‘On the Temptation of Christ’,</hi>
+                                edited <hi rend="italic">Homilies of Mar Narsai</hi>, 1.312–334.</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܚܕܒܫܒܐ ܀ ܓٓ ܕܨܘܡܐ</foreign> ‘(Again, <hi rend="italic">mēmrā</hi>) of the
+                        third Sunday of the fast’ (ms. Diyarbakır 70, f. 136a)<note place="foot"
+                            xml:id="ftn41" n="41"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 23 ‘On Lent III’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.181–94 (no. 11).</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܚܕܒܫܒܐ ܕܐܪܒܥܐ ܕܨܘܡܐ</foreign> ‘(Again, <hi rend="italic">mēmrā</hi>) of the
+                        fourth Sunday of the fast’ (ms. Diyarbakır 70, f. 144b)<note place="foot"
+                            xml:id="ftn42" n="42"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 24 ‘On Lent IV’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.195–209 (no. 12) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 2.679–699.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܚܕܒܫܒܐ ܕܚܡܫܐ ܕܨܘܡܐ</foreign> ‘Again, of the same, (<hi
+                            rend="italic">mēmrā</hi>) of the fifth Sunday of the fast’ (ms.
+                        Diyarbakır 70, f. 153a)<note place="foot" xml:id="ftn43" n="43"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 26 ‘On Lent V’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.223–143 (no. 14).</p></note></item>
+                    <item><foreign xml:lang="syr">ܕܚܕ
+                        ܒܫܒܐ ܀ ܫܬܐ ܕܨܘܡܐ ܕܒܬܘ̈ܠܬܐ</foreign> ‘(Again, <hi rend="italic">mēmrā</hi>) of
+                        the sixth Sunday of the fast, of the virgins’ (ms. Diyarbakır 70, f.
+                            165b)<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 27 ‘On the Parable of the Ten Virgins’</hi>,
+                                edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.243–56 (no. 15), <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 699–716, and (with FT) E. P. Siman, <hi rend="italic">Narsaï. Cinq homelies sur les paraboles
+                                    évangéliques</hi> (Paris: Cariscript, 1984), 6–22. IT also in M.
+                                    Nin, <hi rend="italic">Narsai di Edessa. L’Olio della
+                                    misericordia</hi> (Testi dei Padri della Chiesa 29; Magnano:
+                                Monastero di Bose, Edizioni Qiqajon, 1997). See also M. Nin,
+                                “L’omelia sulle dieci vergini (Mt 25,1–13) di Narsai di Edessa,” in
+                                E. Vergani and S. Chialà (eds.),
+                                <hi rend="italic">Storia, cristologia e tradizioni della Chiesa Siro-orientale. Atti del 3° Incontro sull’Oriente Cristiano di tradizione siriaca (Milano, Biblioteca Ambrosiana, 14 maggio 2004) </hi>(Ecumenismo
+                                e dialogo; Milan: Centro Ambrosiano, 2006), 115–129 and D. Becerra,
+                                “Exegesis, Askesis, and Identity: Narsai’s Mēmrā on the Parable of
+                                the Ten Virgins,” in Butts, Heal, and Kitchen, <hi rend="italic"
+                                    >Narsai: Rethinking his Work and his
+                        World</hi>.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܕܝܠܗ ܕܠܥܙܪ</foreign> ‘Again, of the same, (<hi rend="italic">mēmrā</hi>) of
+                        Lazarus’ (ms. Diyarbakır 70, f. 173b)<note place="foot" xml:id="ftn45"
+                            n="45"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 28 ‘On the Raising of Lazarus’</hi>, edited
+                                    <hi rend="italic">Homilies of Mar Narsai</hi>, 1.341–363.</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܚܕܒܫܒܐ ܕܐܘܫ̈ܥܢܐ</foreign> ‘(Again, <hi rend="italic">mēmrā</hi>) of the
+                        Sunday of hosannas’ (ms. Diyarbakır 70, f. 183a)<note place="foot"
+                            xml:id="ftn46" n="46"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 31 ‘Against the Jews’</hi>, edited
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.299–312 (no. 18) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 1.363–382. See also J. Frishman, “Narsai’s Homily for the Palm Festival – Against the Jews:
+                                For the Palm Festival or against the Jews?,” in H. J. W. Drijvers,
+                                R. Lavenant, C. Molenberg, and G. J. Reinink (eds.),
+                                <hi rend="italic">IV Symposium Syriacum, 1984. Literary Genres in Syriac Literature (Groningen – Oosterhesselen 10–12 September) </hi>(OCA
+                                229; Rome:
+                                Pontificium Institutum Orientalium Studiorum, 1987),
+                                217–229. </p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܐܚܪܢܐ ܕܐܘܫ̈ܥܢܐ</foreign> ‘Again, another
+                        <hi rend="italic">mēmrā </hi>of hosannas’ (ms.
+                        Diyarbakır 70, f. 191a)<note place="foot" xml:id="ftn47" n="47"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 29 ‘On Palm Sunday’</hi>, edited <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.382–393.</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܬܪܝܢܒܫ̄ ܕܒܬܪ ܐܘܫ̈ܢܐ</foreign> ‘(Again, <hi rend="italic">mēmrā)</hi> of
+                        Monday after hosannas’ (ms. Diyarbakır 70, f. 196a)<note place="foot"
+                            xml:id="ftn48" n="48"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 33 ‘On the Prodigal Son’</hi>, edited <hi
+                                    rend="italic">Homilies of Mar Narsai</hi>, 2.318–336 and (with FT) Siman, <hi rend="italic">Narsaï. Cinq homelies sur les paraboles
+                                    évangéliques</hi>, 23–29. See also C. E. Morrison, “The Faculty
+                                of Discernment in Narsai,” in Butts, Heal, and Kitchen, <hi
+                                    rend="italic">Narsai: Rethinking his Work and his
+                                World</hi>.</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܬܠܬܒܫܒܐ ܕܟܢܥܢܝܬܐ</foreign> ‘(Again, <hi rend="italic">mēmrā)</hi> of
+                        Tuesday, of the Canaanite woman’ (ms. Diyarbakır 70, f. 204a)<note
+                            place="foot" xml:id="ftn49" n="49"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 32 ‘On the Canaanite Woman’</hi>, edited
+                                (with ET) E. G. Walsh,
+                                <hi rend="italic">Sanctifying Boldness: New Testament Women in Narsai, Jacob of Serugh, and Romanos Melodos </hi>(Ph.D.
+                                Diss., Duke University, 2019), 292–332. See also eadem, “‘How the
+                                Weak Rib Prevailed!’: Eve and the Canaanite Woman in the Poetry of
+                                Narsai,” in Butts, Heal, and Kitchen, <hi rend="italic">Narsai:
+                                    Rethinking his Work and his World</hi>.</p></note></item>
+                    <item><foreign xml:lang="syr"
+                        >ܕܐܪܒܥܒܫܒܐ ܥܠ ܕܪ̈ܘܗܝ ܕܡܪܢ</foreign> ‘(Again, <hi rend="italic">mēmrā)</hi> of
+                        Wednesday, on the trials of our Lord’ (ms. Diyarbakır 70, f. 212a)<note
+                            place="foot" xml:id="ftn50" n="50"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 34 ‘On Holy Week’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.313–327 (no. 19) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 1.399–419.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܠ ܫܝܓܬ ܪ̈ܓܠܐ. ܘܛܒ ܚܫܚ ܠܦܨܚܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>on washing the feet, and
+                        it is especially useful for Passover’ (ms. Diyarbakır 70, f. 221a). In the
+                        margin, there is a note further specifying the author: <foreign xml:lang="syr">ܣܝܡܐ ܗܘ ܕܪܒܢ
+                            ܓܒܪܝܠ ܕܡܢ ܒܝܬ ܥܒ̈ܐ܀</foreign> ‘It is the work of Rabban Gabriel from Bet <hi
+                           >ʿ</hi>Ābē.’<note place="foot"
+                            xml:id="ftn51" n="51"><p rend="footnote text"> For this <hi
+                                    rend="italic">mēmrā</hi>, see fn. 2 and fn. 21 above.
+                            </p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܠ ܡܕܒܪܢܘܬܗ ܕܡܪܢ ܕܒܦܓܪ ܘܥܠ ܚܫܐ ܕܡܘܬܐ ܘܕܨܠܝܒܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>on the economy of our Lord
+                        in the flesh and on the suffering of death and of the cross’ (ms. Diyarbakır
+                        70, f. 232b)<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 36 ‘On the Passion’</hi>, edited <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.419–438 and (with ET) McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection, and Ascension</hi>,
+                                106–135 (no. 3). See also L. Abramowski, “Narsai, Ephräm und Kyrill
+                                über Jesu Verlassenheitsruf Matth. 27,46,” in H.-J. Feulner, E.
+                                Velkovska, and R. F. Taft (eds.), <hi rend="italic">Crossroad of
+                                    Cultures: Studies in Liturgy and Patristics in Honor of Gabriele
+                                    Winkler</hi> (OCA 260; Rome: Pontificio Istituto Orientale,
+                                2000), 43–67.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܠܠܝܐ ܕܫܒܬܐ ܘܕܥܠ ܓܝܣܐ ܗܘ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of Sunday night and
+                        concerning the thief’ (ms. Diyarbakır 70, f. 240b)<note place="foot"
+                            xml:id="ftn53" n="53"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 37 ‘On the Repentant Thief’</hi>, edited
+                                Minganaforeign, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.327–340 (no. 20) and <hi rend="italic">Homilies
+                                        of Mar Narsai</hi>foreign, 1.438–457.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܠ ܐܪ̈ܙܐ ܕܥܕܬܐ ܘܥܠ ܡܥܡܘܕܝܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>on the mysteries of the
+                        Church and on baptism’ (ms. Diyarbakır 70, f. 248b)<note place="foot"
+                            xml:id="ftn54" n="54"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 38 ‘On Mysteries and Baptism’</hi>, edited
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 1.341–356 (no. 21) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 1.457–479. ET in R. H. Connolly, <hi rend="italic">The Liturgical Homilies of Narsai</hi>
+                                (TSt 8.1; Cambridge: Cambridge University Press, 1909), 46–61; FT in
+                                P. Brouwers, “Premier poème de Narsai sur le baptême (Memra 21),” <hi
+                                    rend="italic">MUSJ</hi> 41 (1965): 177–207. See also E. C.
+                                Ratcliff, “A Note on the Anaphoras Described in the Liturgical
+                                Homilies of Narsai,” in J. N. Birdsall and R. W. Thomson (eds.), <hi
+                                    rend="italic">Biblical and Patristic Studies in Memory of Robert
+                                    Pierce Casey</hi> (Freiburg: Herder, 1963), 235–249 and J. W.
+                                Childers, “In Search of Jesus: Performative Christology in Narsai’s
+                                    <hi rend="italic">Mēmrē</hi> on Baptism,” in Butts, Heal, and
+                                Kitchen, <hi rend="italic">Narsai: Rethinking his Work and his
+                                    World</hi>.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝܡܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the great Sunday of the
+                        resurrection’ (ms. Diyarbakır 70, f. 257a)<note place="foot" xml:id="ftn55"
+                            n="55"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 40 ‘On the Resurrection’</hi>, edited
+                                    <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.479–495 and (with ET) McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection, and Ascension</hi>,
+                                136–161 (no. 4).</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܪܘܒܬܐ ܕܡܘܕܝ̈ܢܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of Friday, of the
+                        confessors’ (ms. Diyarbakır 70, f. 263b)<note place="foot" xml:id="ftn56"
+                            n="56"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 41 ‘On the Confessors’</hi>, edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.28–45 (no. 24) and <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.495–520.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                            ܡܐܡܪܐ ܕܥܠ ܓܠܝܢܗ ܕܡܫܝܚܐ ܕܡܪܢ
+                            (!</foreign>)<foreign xml:lang="syr"> ܘܥܠ ܕܘܒܪܐ (؟</foreign>)<foreign xml:lang="syr"> ܕܥܠܡܐ ܕܥܬܝܕ ܘܝܬܝܪܐܝܬ ܠܚܡ ܠܚܕܒܫ̄ ܚܪܝܬܐ ܘܠܕܘܟܪܢܐ ܕܥܢ̈ܝܕܐ</foreign>
+                        ‘Again, <hi rend="italic">mēmrā </hi>on the revelation
+                        of Christ our Lord<note place="foot" xml:id="ftn57" n="57"><p
+                                rend="footnote text"> The manuscript reads: ‘of Christ, of our
+                                Lord’. </p></note> and on the condition<note place="foot"
+                            xml:id="ftn58" n="58"><p rend="footnote text"> Reading <foreign xml:lang="syr"
+                                    >ܕܘܒܪ̈ܐ</foreign>.</p></note> of the age to come, especially fitting
+                        for the last Sunday and for the commemoration of the departed’ (ms.
+                        Diyarbakır 70, f. 373a)<note place="foot" xml:id="ftn59" n="59"><p
+                                rend="footnote text">
+                                <hi rend="italic">Mēmrā 52 ‘On the Second Coming’</hi>, edited
+                                    Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.1–28 (no. 23) and <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 2.539–578. LT in E. Delly, “Le 23<hi rend="superscript">e</hi> ‘Memra’ de Narsai,”
+                                    <hi rend="italic">Divinitas</hi> 3 (1959):
+                        514–553.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܝܘܡ ܥܐܕܐ ܕܣܘܠܩܗ ܕܡܪܢ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the day of the feast of
+                        the ascension of our Lord’ (ms. Diyarbakır 70, f. 288b)<note place="foot"
+                            xml:id="ftn60" n="60"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 45 ‘On the Ascension’</hi>, edited <hi rend="italic">Homilies of Mar
+                                    Narsai</hi>, 1.546–563 and (with ET) McLeod, <hi rend="italic">Narsai’s Metrical Homilies on the
+                                    Nativity, Epiphany, Passion, Resurrection, and Ascension</hi>,
+                                162–187 (no. 5).</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕܒܫܒܐ ܕܦܢܛܩ̈ܘܣܛܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of the Sunday of
+                        Pentecost’ (ms. Diyarbakır 70, f. 295a)<note place="foot" xml:id="ftn61"
+                            n="61"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 46 ‘On Pentecost’</hi>, edited E. Manna, <hi rend="italic">Morceaux choisis de littérature
+                                    araméenne</hi> (Mosul, 1901), 1.222–227; Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.72–84 (no. 27); <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.563–581.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܐܕܐ ܕܨܠܝܒܐ ܙܟܝܐ</foreign> ‘Again, <hi rend="italic">mēmrā</hi> of the
+                        feast of the victorious cross’ (ms. Diyarbakır 70, f. 302a)<note
+                            place="foot" xml:id="ftn62" n="62"><p rend="footnote text"> The <hi
+                                    rend="italic">mēmrā</hi> under consideration in the present
+                                article.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܡܪܬܝܢܘܬܐ ܘܕܫܒܘܥܐ ܐܚܪܢܐ ܀ ܘܡܬܩܪܐ ܒܩܘܕܫ ܥܕܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>of admonition and of
+                        another <hi rend="italic">šābo</hi><hi rend="italic"
+                           >ʿā</hi>, and
+                        it is called sanctification of the church’ (ms. Diyarbakır 70, f. 310a)<note
+                            place="foot" xml:id="ftn63" n="63"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 56 ‘On the Dedication of the Church’</hi>,
+                                edited <hi rend="italic">Homilies of
+                                    Mar Narsai</hi>, 1.581–598.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܥܒܝܕ ܥܠ ܚܙܬܐ ܕܣܪ̈ܦܐ ܘܠܚܡ ܠܩܘܕܫ ܥܕܬܐ</foreign> ‘Again,
+                        <hi rend="italic">mēmrā </hi>that was composed on the
+                        vision of the seraphim and that is fitting for the sanctification of the
+                        church’ (ms. Diyarbakır 70, f. 317a)<note place="foot" xml:id="ftn64" n="64"
+                                ><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 58 ‘On Isaiah’s Vision’</hi>, edited <hi
+                                    rend="italic">Ktabona d-Partute</hi> (Urmia, 1898), 235–250; Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.131–44 (no. 31); and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 2.471–490. ET in T. Kuzhuppil,
+                                <hi rend="italic">The Vision of the Prophet Isaiah: A Theological Study of Narsai’s Interpretation of Isaiah 6 </hi>(Rome:
+                                Institutum Patristicum Augustinianum, 2006),
+                        171–189.</p></note></item>
+                    <item><foreign xml:lang="syr">ܬܘܒ
+                        ܡܐܡܪܐ ܕܚܕܒܫܒܐ ܕܐܪܒܥܐ ܕ(!</foreign>)<foreign xml:lang="syr">ܥܕܬܐ ܘܥܠ
+                            ܟܗܢܘܬܐ</foreign> ‘Again, <hi rend="italic">mēmrā </hi>of
+                        the fourth Sunday, on<note place="foot" xml:id="ftn65" n="65"><p
+                                rend="footnote text"> The manuscript reads ‘of’. </p></note> the
+                        Church and on the priesthood’ (ms. Diyarbakır 70, f. 325a)<note place="foot"
+                            xml:id="ftn66" n="66"><p rend="footnote text">
+                                <hi rend="italic">Mēmrā 59 ‘On the Church and the Priesthood’</hi>,
+                                edited Mingana, <hi rend="italic">Narsai Doctoris Syri Homiliae et
+                                    Carmina</hi>, 2.144–56 (no. 32) and <hi rend="italic">Homilies
+                                    of Mar Narsai</hi>, 2.505–522. ET in Connolly, <hi rend="italic">The Liturgical Homilies of Narsai</hi>,
+                                62–74. See also B. D. Spinks, “A Note on the Anaphora Outlined in
+                                Narsai’s Homily XXXII,” <hi rend="italic">JTS</hi> ns 31:1 (1980):
+                                82–93.</p></note></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

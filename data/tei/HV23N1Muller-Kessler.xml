@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"><hi rend="italic">Obsequies of My Lady Mary</hi> (I)</title>
+                <title type="sub">Unpublished Early Syriac Palimpsest Fragments from the
+                    British Library (BL, Add 17.137, no. 2)</title>
+                <author>
+                    <name>
+                        <forename>Christa</forename>
+                        <surname>Müller-Kessler</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Friedrich-Schiller-Universität Jena</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2020</date>
+                <idno>Volume 23.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv23n1muller-kessler</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Christa Müller-Kessler</author>
+                        <title level="a">Reclaiming Narsai’s
+                            <hi rend="italic">Obsequies of My Lady Mary</hi> (I):
+                        Unpublished Early Syriac Palimpsest Fragments from the
+                            British Library (BL, Add 17.137, no. 2)</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol23/HV23N1Muller-Kessler.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope type="vol" n="23">23</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="31" to="59">31-59</biblScope>
+                        <biblScope type="order" n="2"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Mary</term>
+                    <term>Manuscripts</term>
+                    <term>Palimpsests</term>
+                    <term>Obsequies</term>
+                    <term>Jacob of Serugh</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2020-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract" xml:lang="en">
+                
+                <head>Abstract</head>
+                <p xml:lang="en">The Syriac palimpsest folios listed
+                    under Add 17.137, no. 2 in Wright’s <hi rend="italic">Catalogue of the Syriac
+                        Manuscripts in the British Museum </hi>have been described as deriving from the
+                    <hi rend="italic">Obsequies of My Lady Mary</hi>. This attribution has never
+                    been questioned afterwards. Although a specimen consisting of only one column of a
+                    single folio was published a few years ago, the remaining text on the folio and the
+                    other five have been left unedited. It was recently understood that under this sub
+                    shelfmark number two divergent manuscripts are hidden. One manuscript surviving only
+                    in two folios contains the <hi rend="italic">Obsequies</hi> and is written in an
+                    elegant <hi rend="italic">Estrangela</hi> script (ca. 5<hi rend="superscript"
+                        >th</hi> cent.), while the other, in a much bolder script type, shows Jacob of
+                    Serugh’s <hi rend="italic">Homily on the Presentation in the Temple</hi> (ca. 6<hi
+                        rend="superscript">th</hi> cent.), one of the few palimpsest and earliest text
+                    examples of this author. Only the folios with the <hi rend="italic">Obsequies</hi>
+                    are edited here, which offer noteworthy textual additions and a selection of diverse
+                    variants that are not accounted for by the Christian Palestinian Aramaic and much
+                    later Ethiopic transmissions.</p>
+            </div>
+        </front>
+        <body>
+                        <div>
+                <head>1. Research History and Text</head>
+                <p xml:lang="en">William Wright describes the palimpsest fragments under Add 17.137, no. 2 in his
+                    catalogue of the Syriac Manuscripts acquired by the British Museum since 1838 in
+                    the following way: “Six leaves from a manuscript, written in two columns, in a
+                    fine Esṭrangĕlā of the v<hi
+                        rend="superscript">th</hi> or vi<hi rend="superscript">th</hi> cent. From
+                    what is legible on fol. 9 a, it appears that they belonged to the apocryphal
+                    work entitled ‘the Obsequies of my Lady Mary,’ <foreign xml:lang="syr">ܠܘܘܝܗ̇ ܕܡܪܬܝ ܡܪܝܡ</foreign>.”<note
+                        place="foot" xml:id="ftn1" n="1"><p rend="footnote text">
+                            <hi>W. Wright, </hi><hi rend="italic">Catalogue of the Syriac
+                                Manuscripts in the British Museum Acquired Since the Year
+                                1838</hi><hi>, vol. 1 (London: Trustees of the British Museum,
+                                1870), 369 [no. 465]; A. Baumstark, </hi><hi rend="italic"
+                                >Geschichte der syrischen Literatur mit Ausschluß der
+                                christlich-palästinensischen Texte</hi><hi> (Bonn: Marcus und
+                                Webers, 1922), 98 n. 7. He only covers the available manuscripts of
+                                the five-book cycle in the British Library from Deir al-Suryan,
+                                since none from other provenances were known at his time or have
+                                surfaced in the meantime. The only disadvantage of Baumstark’s very
+                                comprehensive description is that he never indicates if a manuscript
+                                is a palimpsest.</hi></p></note> He did not include any text samples
+                    of these folios in his book <hi rend="italic">Contributions to the Apocryphal
+                        Literature </hi>published shortly before.<note place="foot" xml:id="ftn2"
+                        n="2"><p rend="footnote text">
+                            <hi>W. Wright, </hi><hi rend="italic">Contributions to the Apocryphal
+                                Literature of the New Testament </hi><hi>(London: Williams and
+                                Norgate, 1865). </hi></p></note> Upon consultation of the six
+                    palimpsest folios in Syriac just for the sake of comparison with the recently
+                    published Christian Palestinian Aramaic transmission, it emerged that this
+                    primary description by Wright for no. 2 in Add 17.137 was not accurate for the
+                    content of all folios. It soon became quite clear that underneath the upper text
+                        (<hi rend="italic">Hymns for the Vigil</hi>) one could definitely detect two
+                    differently-sized hands of two divergent early <hi rend="italic">Estrangela</hi>
+                    scripts that did not match as one would expect within a single manuscript. This
+                    fact not only escaped Wright, who might obviously have had some doubts
+                    concerning all folios,<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text"><hi> Wright, </hi><hi rend="italic"
+                                >Catalogue</hi><hi>, vol. 1, 369–370. Baumstark, </hi><hi
+                                rend="italic">Geschichte der syrischen Literatur</hi><hi>, 98 n. 7
+                                relied on Wright without ever seeing the original.</hi></p></note>
+                    but also Andrea Schmidt, who recently described all the Syriac palimpsest
+                    manuscripts in the British Library,<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text"><hi> A. Schmidt, “Syriac Palimpsests in the British
+                                Library,” in V. Somers (ed.), </hi><hi rend="italic">Palimpsestes et
+                                éditions de textes: les textes littéraires </hi><hi>(Louvain:
+                                Peeters, 2009), 161–186, esp. 170, still follows the entries in
+                                Wright,</hi><hi rend="italic"> Catalogue</hi><hi>, vol.
+                        1.</hi></p></note> and also Stephen Shoemaker, who published just column (b)
+                    of the recto of fol. 9 some years ago without scrutinizing the deviating scribal
+                    hands on the other folios. Concerning these vellum pages, Shoemaker states the
+                    following: “The remaining folios are indeed largely illegible, and while it is
+                    possible to identify their content with this Dormition apocryphon, they are not
+                    sufficiently legible for any meaningful edition and translation.”<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text"><hi> S. J.
+                                Shoemaker, “New Syriac Dormition Fragments from Palimpsests in the
+                                Schøyen Collection and the British Library,” </hi><hi rend="italic"
+                                >Le Muséon </hi><hi>124 (2011), 259–278, esp. 261.
+                    </hi></p></note></p>
+                <p xml:lang="en"> In the smaller and elegant <hi rend="italic">Estrangela</hi> hand (ca. 5<hi
+                        rend="superscript">th</hi> cent.) on two folios one can make out the <hi
+                        rend="italic">Obsequies of My Lady Mary</hi>, the Syriac title given to the
+                        <hi rend="italic">Liber Requiei Mariae</hi>, but in the larger and bolder
+                    type on the remaining four folios is found the <hi rend="italic">Homily on the
+                        Presentation in the Temple</hi> by Jacob of Serugh (ca. 6<hi
+                        rend="superscript">th</hi> cent.). This discovery came as surprise as it
+                    happens to be one of the few and earliest palimpsest examples for this popular
+                    fifth- to sixth-century Syriac author so far, whose texts circulated
+                        widely.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"><hi>
+                                Along with this early palimpsest witness survived another early
+                                palimpsest (6</hi><hi rend="superscript">th</hi><hi>–7</hi><hi
+                                rend="superscript">th</hi><hi> cent.) with three folios and their
+                                adjoining stubs containing the </hi><hi rend="italic">Ninth Homily
+                                of Joseph</hi><hi> in Sinai, Arabic 514, fol. 96, 98–99; see G.
+                                Kessel, “Undertexts of Sinai, Arabic 514,” in KatIkon
+                                (https://sinai.library.ucla.edu; accessed 4 August 2019). There is
+                                another palimpsest (6</hi><hi rend="superscript"
+                                >th</hi><hi>–7</hi><hi rend="superscript">th</hi><hi> cent.)
+                                recorded in Wright, </hi><hi rend="italic">Catalogue</hi><hi>, vol.
+                                1, 251, no. 312, 8c (Add 14.512).</hi></p></note> In his recycling
+                    of the vellum leaves the twelfth-century scribe of the Syriac upper text<note
+                        place="foot" xml:id="ftn7" n="7"><p rend="footnote text"><hi> The upper text
+                                has </hi><hi rend="italic">Hymns for the Vigil</hi>
+                            <foreign xml:lang="syr">ܩ̈ܠܐ ܫܗ̈ܪܢܝܐ ܐܘܟܝܬ ܓܘ̈ܫܡܐ, </foreign>see Wright, <hi
+                                rend="italic">Catalogue</hi><hi>, 370 [no. 4].</hi></p></note> was
+                    not very particular as to what he selected from the dismembered
+                        manuscripts.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"
+                                ><hi> It was only described as </hi><hi rend="italic">hymns</hi><hi>
+                                in the index of the British Museum collection numbers by Wright,
+                                </hi><hi rend="italic">Catalogue</hi><hi>, vol. 3, 1230, but under
+                                the manuscript entry [no. 465] no title for the content of the upper
+                                manuscript is listed. </hi></p></note> He did not adhere to the
+                    original sequence of the folios and separated them by cutting each folio in
+                    half. Through this procedure both lower manuscript texts were disarranged and
+                    follow a different sequence than the upper text, i.e. that the top and bottom
+                    fragments of the two manuscripts are sometimes combined into one folio and the
+                    script of the lower text may appear in an upside down fashion in contrast to the
+                    upper text. Neither did the scribe keep the former obverse and reverse sides
+                    from the original manuscripts. Only fol. 8, 9, and 11 remained unseparated in
+                    this dismembering process. Fol. 10 belongs to two different paragraphs of Jacob
+                    of Serugh’s <hi rend="italic">Homily</hi>. On fol. 9 the upper text script is
+                    flipped by 180 degrees to the underlying text. It should also be pointed out
+                    that the texture of all six vellum leaves and their trimmed halves looks very
+                    much alike. The script of the lower text is generally very much faded except for
+                    fol. 9. Consequently, this made it a bit cumbersome to obtain a result for the
+                    correct order of the two former manuscript sequences and their content. This
+                    obviously misled Wright and his successors into assigning the folios to one
+                    single manuscript of the <hi rend="italic">Obsequies</hi>. The established
+                    attribution that was oddly neither questioned nor checked for over one hundred
+                    and fifty years, although the palaeographic features pointed to other textual
+                        affiliations.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"
+                                ><hi> This oversight can hardly be blamed only on Wright considering
+                                the amount of material he had to sight, attribute, and describe for
+                                his catalogue of the Syriac manuscripts in three volumes in a rather
+                                short period of time and without technical means for such diverse
+                                and difficult-to-read palimpsest texts. It is also rather peculiar
+                                that presently it seems to be a habit to search and hunt for new
+                                material in the most remote places, while enough unidentified and
+                                unedited texts await their publication in open access
+                                libraries.</hi></p></note> Apart from the content, such
+                    palaeographic peculiarities are always the primary telling points to determine a
+                    specific palimpsest manuscript.</p>
+                <p xml:lang="en"> Through the help of a number of word combinations from fol. 6 bottom, 7 top, 8,
+                    10, and 11, the identification with a homily composed by Jacob of Serugh was
+                    made possible by Sebastian Brock.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text"><hi> After gleaning some catchwords from five
+                                fragments, I sent them to Sebastian Brock, for I had suspected the
+                                authorship of Jacob of Serugh on account of the combination of Jacob
+                                in connection with the lyre. In the end it turned out to be an
+                                additional passage from the </hi><hi rend="italic"
+                                >Obsequies</hi><hi> for § 101 according to the Ethiopic counting,
+                                yet the other four folios belonged to this </hi><hi rend="italic"
+                                >Homily</hi><hi> by Jacob of Serugh. Thanks to Sebastian Brock’s
+                                generous help I could invest most of my time in assigning the folios
+                                of both manuscripts to their correct sequence during my research
+                                stay at the British Library in the spring of 2019.</hi></p></note>
+                    This implies that two thirds of the manuscript running under shelf mark BL, Add
+                    17.137, no. 2 constitute one of earliest text witness of Jacob of Serugh’s <hi
+                        rend="italic">Homily on the Presentation in the Temple</hi>, displaying a
+                    faithful text with some variations to the younger transmission.<note
+                        place="foot" xml:id="ftn11" n="11"><p xml:lang="en"><hi> Initially, the sorting of the
+                                folios tended at the beginning to be rather tricky when it came to
+                                the establishing the correct sequence of the </hi><hi rend="italic"
+                                >Homily</hi><hi> due to the faint script and the mixing of top and
+                                bottom parts by the scribe of the upper text. The full description
+                                with some text samples is presented in C. Müller-Kessler, “Jacob of
+                                Serugh’s Homily on the Presentation in the Temple in an Early Syriac
+                                Palimpsest (BL, Add 17.137, no. 2),” </hi><hi rend="italic"
+                                >ARAM</hi><hi> 32 (2020) [in press].</hi></p></note></p>
+                <p xml:lang="en"> The remaining third of the manuscript with two folios contains the <hi
+                        rend="italic">Obsequies of My Lady Mary.</hi> The top part of fol. 6 and the
+                    bottom one of fol. 7 join into one folio, and with fol. 9 they form a very early
+                    Syriac <hi rend="italic">Obsequies</hi> version (ca. 5<hi rend="superscript"
+                        >th</hi> cent.) along with British Library, Add 14.665, fol. 21–24, still
+                    mostly unedited.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"
+                                ><hi> See Wright, </hi><hi rend="italic">Contributions</hi><hi>,
+                                13–15. The text of the four fragments of BL, Add 14.665, fol. 21–24
+                                are in preparation by me. It might take some time, since the reading
+                                of the partially faint script is quite difficult on these vellum
+                                sheets. A disturbing error occurred in another article on the
+                                </hi><hi rend="italic">Dormition</hi><hi> when citing Add 14.665. It
+                                should read there Add 14.665 for 16.445 on p. 85 and n. 22 in C.
+                                Müller-Kessler, “An Overlooked Christian Palestinian Aramaic Witness
+                                of the Dormition of Mary in </hi><hi rend="italic">Codex Climaci
+                                Rescriptus</hi><hi> (CCR IV),” </hi><hi rend="italic">Collectanea
+                                Christiana Orientalia</hi><hi> 16 (2019), 81–98.</hi></p></note>
+                    There are no paragraph divisions or enlarged letters visible to indicate a new
+                    section as twice in Add 14.665, fol. 22r [G1 § 33] and 21v [G1 § 39; E1 §73].
+                    The right hand column (a) on fol. 9 recto happens to have a rather interesting
+                    section. Here an additional unattested passage was inserted before paragraph
+                        99<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"><hi> The
+                                Ethiopic version (E1) is chosen for the subdivision of the Syriac
+                                text, since there are no obvious text divisions noticeable in the
+                                Syriac transmission.</hi></p></note>, which deals with the sexual
+                    relationship between men and women and the negligence of their work duties on
+                    account of this distraction. It is reminiscent of Romans 1:26–27, but it cannot
+                    be claimed to be an allusion or even a citation of this Bible passage, since a
+                    connotation to homosexual relationships cannot be clearly understood from it.
+                    Just the final sentence shows a similar expressed threat <foreign
+                        xml:lang="syr">ܡܛܠ ܗܢܐ ܐܦ ܗܢܘܢ ܢܩܒܠܘܢ ܫܘܢܩܐ ܕܠܥܠܡ</foreign>
+                     as in Romans 1:27 (<hi rend="italic">Peshitta</hi>) <foreign xml:lang="syr">ܘܦܘܪܥܢܐ ܕܙܕܩ ܗܘܐ
+                    ܠܛܥܝܘܬܗܘܢ ܒܩܢܘܡܗܘܢ ܩܒܠܘܗܝ</foreign><note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text"><hi> I would like to thank Nestor Kavvadas
+                                (University of Tübingen) for drawing my attention to this textual
+                                similarity. He suggested the reading <foreign xml:lang="syr">ܙܘܘܓܐ</foreign> ‘marriage’ in fol. 9ra6
+                                and some better translations in the additional section (§ 98). I am
+                                grateful also to the two peer reviewers, who pointed out some
+                                textual corrections in the reading, which could be verified in time
+                                for publication.</hi></p></note>. </p>
+                <p xml:lang="en"> The diversity in the transmission of this Marian apocryphon of the five-book
+                    (only attested in the Ethiopic text witnesses) or palm version or as termed in
+                    Syriac <hi rend="italic">Obsequies</hi> from the fifth- and sixth-centuries
+                    witnesses becomes here quite visible, since the Syriac text transmission often
+                    deviates considerately from the Christian Palestinian Aramaic one (CP2)<note
+                        place="foot" xml:id="ftn15" n="15"><p rend="footnote text"><hi> See the
+                                recent publication by C. Müller-Kessler, “Three Early Witnesses of
+                                the «Dormition of Mary» in Christian Palestinian Aramaic.
+                                Palimpsests from the Cairo Genizah (Taylor-Schechter Collection) and
+                                the New Finds in St Catherine’s Monastery,” </hi><hi rend="italic"
+                                >Apocrypha</hi><hi> 29 (2018), 69–95, esp. 87–89 (=
+                        CP2).</hi></p></note> and from the thousand years younger Ethiopic sources
+                        (E1)<note place="foot" xml:id="ftn16" n="16"><p xml:lang="en"> See V. Arras, <hi
+                                rend="italic">De Transitu Mariae apocrypha aethiopice</hi> I (CSCO
+                            342/343; <hi rend="italic">scriptores Aethopici</hi> 66/67; Louvain:
+                            Secrétariat du CorpusSCO, 1973), 38 (Latin). The abbreviation system
+                            follows M. van Esbroeck, “Les textes littéraires sur l’Assomption avant
+                            le Xe siècle,” in F. Bovon (ed.), <hi rend="italic">Les actes apocryphes
+                                des Apôtres</hi> (Geneva: Labor et Fides, 1981), 265–285.
+                        </p></note>, neither of which contains this addition. The translations into
+                    Christian Palestinian Aramaic, Ethiopic, and Syriac from a Greek <hi
+                        rend="italic">Vorlage</hi> have to be taken as independent of each other.
+                    How much can be accounted for by redactional interpolation cannot be judged by
+                    means of the still fragmentary early Syriac versions. Other transmissions such
+                    as the Coptic, Georgian, Gaelic-Irish, and Latin do not help to clarify much on
+                    this matter.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"
+                                ><hi> For the relevant editions of these transmissions see the
+                                comprehensive overview in S. J. Shoemaker, </hi><hi rend="italic"
+                                >Ancient Traditions of the Virgin Mary’s Dormition and
+                                Assumption</hi><hi> (Oxford: Oxford University Press, 2002),
+                                419–428.</hi></p></note></p>
+                <p xml:lang="en"> To demonstrate the divergence of this early Syriac text with the <hi
+                        rend="italic">Obsequies</hi> from other text witnesses it is important that
+                    the text should be presented at first in reliable readings of the legible text
+                        parts.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">
+                            <hi>The reading could be partially achieved with the help of an
+                                ultraviolet lamp, actually a LED torch, and despite the unfavourable
+                                light conditions of the British Library Reading Rooms. Reading
+                                palimpsest texts has its special laws. The best time to work on such
+                                difficult palimpsests is a time late in the afternoon, when the
+                                sunlight is not too bright, and probably contains more ultraviolet
+                                rays than in the morning, and a dark environment; see also the older
+                                method used by Nigel Wilson in R. Netz and W. Noel, </hi><hi
+                                rend="italic">The Archimedes Codex: Revealing the Secrets of the
+                                World’s Greatest Palimpsest</hi><hi> (London: Phoenix, 2008), 221,
+                                ph. 11b. Such working conditions were possible in the old National
+                                Library of Russia in St. Petersburg and Westminster College,
+                                Cambridge. The overhead artificial light in modern libraries hinders
+                                the reading and librarians often do not have an understanding for
+                                the special needs of a palimpsest reader. The simple employment of
+                                ultraviolet lamps and a dark room would be sufficient and less
+                                expensive than the modern multispectral imaging, which also has its
+                                limitations, and not all readings can be solved with this modern
+                                form of technology.</hi></p></note></p>
+            </div>
+            <div>
+                <head>2. Content of manuscript(s) British Library, Add 17.137, no. 2 [Wright, <hi
+                        rend="italic">Catalogue</hi> no. 465]<note place="foot" xml:id="ftn19"
+                        n="19"><p rend="footnote text"><hi> Both scripts on the folios are rather
+                                difficult to read, even with the help of an ultraviolet light,
+                                especially on folios 6–8, 10–11. </hi></p></note></head>
+                <p xml:lang="en">Sequence of the folios in BL, Add 17.137, no. 2 according to the upper manuscript
+                    text with the <hi rend="italic">Hymns for the Vigil</hi>
+                    <note place="foot" xml:id="ftn20" n="20"><p xml:lang="en">
+                            <hi>In the modern bound volume the top half-fragments of all six folios
+                                are arranged upside down for the upper script!</hi></p></note>:</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6r top, ll. 1–15</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 101–102</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6r bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6v top, ll. 1–15</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 102–103</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6v bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7r top, ll. 1–15</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7r[v]</hi>
+                            <note place="foot" xml:id="ftn21" n="21">
+                                <p rend="footnote text">
+                                    <hi> For the upper text it is the verso side, but for the lower
+                                        text it is the recto one indicated by square brackets. </hi>
+                                </p>
+                            </note>
+                            <hi> bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 101–102</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7v top, ll. 1–15</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7v[r] bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 103–104</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 8r</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 8v</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 9r</cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 98–100</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 9v</cell>
+                        <cell rend="left">
+                            <hi rend="italic">Obsequies</hi>
+                            <hi> §§ 100–101</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 10r</cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 10v</cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 11r</cell>
+                        <cell rend="left">
+                            <hi rend="italic">Homily on the
+                                Presentation</hi>
+                            <hi> by Jacob of Serugh</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">fol. 11v</cell>
+                        <cell rend="left"><hi rend="italic">Homily on the Presentation</hi> by Jacob
+                            of Serugh<note place="foot" xml:id="ftn22" n="22"><p xml:lang="en"><hi> The details of
+                                        the </hi><hi rend="italic">Homily on the Presentation in the
+                                        Temple</hi><hi> by Jacob of Serugh is edited separately in
+                                        Müller-Kessler, “Jacob of Serugh’s Homily”. The text on
+                                        these folios cannot be easily read and requires special
+                                        reading technologies. At first only the contextual sequence
+                                        could be roughly established.</hi></p></note></cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Distribution of the underlying texts on the six folios:</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 6r top, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 7r top, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 8r,</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 9r</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–27/26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 10r, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                                <hi> (a)</hi>
+                                <note place="foot" xml:id="ftn23" n="23">
+                                    <p xml:lang="en">
+                                        <hi> The text on this folio derives from two non-consecutive
+                                            sections.</hi>
+                                    </p>
+                                </note>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 11r,</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>bottom, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 16–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>r [v] bottom, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 16–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left">
+                            <hi>ll. 16–26 </hi>
+                            <hi rend="italic">Homily</hi>
+                            <hi> (b)</hi>
+                        </cell>
+                        <cell rend="left"/>
+                    </row>
+                </table>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 6v top, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 7v top, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 8v, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 9v,</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–27</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 10v, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–15</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                                <hi> (a)</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>fol. 11v, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 1–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>bottom,</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 16–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Homily</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left">
+                            <p style="text-align:left;">
+                                <hi>v [r] bottom, </hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi>ll. 16–26</hi>
+                            </p>
+                            <p style="text-align:left;">
+                                <hi rend="italic">Obsequies</hi>
+                            </p>
+                        </cell>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left">
+                            <hi>ll. 16–26 </hi>
+                            <hi rend="italic">Homily</hi>
+                            <hi> (b)</hi>
+                        </cell>
+                        <cell rend="left"/>
+                    </row>
+                </table>
+                <p xml:lang="en"><hi rend="bold">b)</hi> Original sequence of the folios for the underlying text
+                    in BL, Add 17.137, no. 2(A) containing the<hi rend="italic"> Obsequies</hi></p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 9r</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi>§§ 98–100(beginning)</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 9v</hi>
+                            <note place="foot" xml:id="ftn24" n="24">
+                                <p xml:lang="en">
+                                    <hi> The upper text is flipped by 180 degrees in contrast to the
+                                        lower text.</hi>
+                                </p>
+                            </note>
+                        </cell>
+                        <cell rend="left">
+                            <hi>§§ 100(middle)–101(beginning)</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6r top, ll. 1–15 +</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi>§§ 101(end)–102(middle)</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7r [v]</hi>
+                            <note place="foot" xml:id="ftn25" n="25">
+                                <p xml:lang="en">
+                                    <hi> See n. 21.</hi>
+                                </p>
+                            </note>
+                            <hi> bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left"/>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 6v top, ll. 1–15 +</hi>
+                        </cell>
+                        <cell rend="left">
+                            <hi>§§ 102(final words)–104(beginning)</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">
+                            <hi>fol. 7v [r] bottom, ll. 16–26</hi>
+                        </cell>
+                        <cell rend="left"/>
+                    </row>
+                </table>
+                <p xml:lang="en">The measures of the cut down vellum folios are approximately 27,2 x 20,8 cm,
+                    having a short gap between the separate top and bottom fragments on the mounted
+                    and restored paper leaves. No line rulings are visible. The text is written on
+                    an area of 20,2 x 16,5 cm in two columns, with 25 to 27 lines per column. Each
+                    line is 0,4 cm apart, in a very fine and elegant <hi rend="italic"
+                        >Estrangela</hi> hand, most probably dating to the ca. 5<hi
+                        rend="superscript">th</hi> cent. The lines are not justified on the left
+                    hand side of the columns nor are any line fillers detectable. Some letters show
+                    pronounced early forms, such as a very large <hi rend="italic">gamal</hi> and
+                        <hi rend="italic">ṣadeh</hi>, and <hi rend="italic">he</hi>, <hi rend="italic"
+                        >waw</hi>, and <hi rend="italic">mim</hi> have open shapes. The left loop of
+                    the <hi rend="italic">taw</hi> is at times squeezed. Some words are stained and
+                    therefore illegible. On the joined folio consisting of fol. 6 top + fol. 7, the
+                    bottom script is often too effaced to be legible in a number of lines.</p>
+            </div>
+            <div>
+                <head>3. Language traits</head>
+                <p xml:lang="en">The spellings and morphological forms in the fifth- and sixth-century manuscripts
+                    often do not conform to the Classical Syriac as presented in the standard
+                    reference grammars by Theodor Nöldeke<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text">
+                            <hi>T. Nöldeke, </hi><hi rend="italic">Kurzgefasste syrische
+                                Grammatik</hi><hi> (Leipzig: Tauchnitz, 1898), XXXII, who speaks
+                                there concerning the language and orthography of a fixed form in the
+                                excellent manuscripts for the fifth century. Working with random
+                                various very good manuscripts of the fifth and sixth centuries
+                                leaves a different impression. In the meantime, this has been
+                                pointed out by several Syriac scholars and should carry more weight,
+                                since one should not consider this diversity improper Classical
+                                Syriac or even classify such spellings as scribal mistakes or
+                                slips.</hi></p></note> or Rubens Duval<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">
+                            <hi>R. Duval, </hi><hi rend="italic">Traité de grammaire
+                                syriaque</hi><hi> (Paris: Vieweg, 1881).</hi></p></note> and earlier
+                    ones. The missing <hi rend="italic">quiescent alaph </hi>inܚܪ̈ܢܐ ‘others’ (§ 98,
+                    101) is one of these salient features.<note place="foot" xml:id="ftn28" n="28"
+                            ><p rend="footnote text"><hi> See L. van Rompay, “Some Preliminary
+                                Remarks on the Origins of Classical Syriac as a Standard Language,”
+                                in G. Goldenberg and S. Raz (ed.), </hi><hi rend="italic">Semitic
+                                and Cushitic Studies</hi><hi> (Wiesbaden: Harrassowitz, 1994),
+                                70–89, esp. 75.</hi></p></note> This also applies to the randomly
+                    occurring <hi rend="italic">plene</hi> spelling in ܟܘܠ ‘all’ (§ 99, 100) andܡܛܘܠ
+                    ‘on account’ (§ 99, 100, 101), which cannot be explained only by the filling of
+                    space, as here in the case for the <hi rend="italic">Obsequies</hi>
+                        manuscript.<note place="foot" xml:id="ftn29" n="29"><p xml:lang="en"><hi> See for various
+                                early spellings and deviations in early Syriac Gospel texts in F. C.
+                                Burkitt, </hi><hi rend="italic">Evangelion da-mepharreshe</hi><hi>,
+                                vol. 2 </hi><hi rend="italic">Introduction and Notes</hi><hi>
+                                (Cambridge: Cambridge University Press, 1904), 39–78; M. D. Koster,
+                                </hi><hi rend="italic">The Peshiṭta of Exodus: The Development of its Text in the
+                                Course of Fifteen Centuries </hi><hi>(Assen, 1977), 94–95; S. P.
+                                Brock, “Some Diachronic Features of Classical Syriac,” in M. F. J.
+                                Baasten and W. T. H. van Peursen (ed.), </hi><hi rend="italic"
+                                >Hamlet on the Hill</hi><hi>: </hi><hi rend="italic">Greek and
+                                Semitic Studies Presented to </hi>Semitic and Greek Studies Presented to Professor T. Muraoka on the
+                                Occasion of His Sixty-Fifth Birthday
+                                (Orientalia Lovaniensia
+                                Analecta, 118; <hi>Louvain:
+                                Peeters, 2003), 95–111, esp. 96–98; D. G. K. Taylor, </hi><hi
+                                rend="italic">The Syriac Versions of the De Spiritu Sancto by Basil
+                                of Caesarea </hi><hi>(</hi><hi rend="italic">CSCO</hi><hi> 576;
+                                </hi><hi rend="italic">Scriptores Syri</hi><hi> 228; Louvain:
+                                Peeters, 1999), 183–195.</hi></p></note></p>
+                <p xml:lang="en"> Noteworthy are a number of nouns appearing in the absolute state in the genitive
+                    construction for either the <hi rend="italic">nomen regens</hi> or <hi
+                        rend="italic">nomen rectum</hi>: ܫܒܐ ܕܢܝܚܐ ‘a Shabbat’s rest’ (§ 100); ܪܡܙܐ
+                    ܕܥܝܢ ‘a wink of an eye’ (§ 100); ܕܛܘܦܝܢ ‘of the flood’ (§ 102).</p>
+                <p xml:lang="en"> The verb in the perfect masculine plural can occur without ending ܗܠܝܢ ܕܥܒܕܝܢ
+                    ܗܘܘ ܡܕܡ ܕܠܐ ܫܦܠ ܘܙܕܩ ܡܕܡ ‘those who did something without being humble and
+                    justifying something’ (§ 98). Such usage seems to be quite regular in the early
+                    Syriac manuscripts of the fifth- and sixth-century.<note place="foot"
+                        xml:id="ftn30" n="30"><p rend="footnote text">
+                            <hi>See on more examples Taylor, </hi><hi rend="italic">The Syriac
+                                Versions of the De Spiritu Sancto</hi><hi>, 191.</hi>
+                        </p></note> Note also the masculine form <foreign xml:lang="syr">ܐܦܝܣ</foreign> ‘persuade’ instead of an
+                    expected feminine <foreign xml:lang="syr">ܐܦܝܣܝ</foreign> (§ 99). Particular are the spellings of the participle
+                    masculine plural without <hi rend="italic">yod</hi>: <foreign xml:lang="syr">ܗܠܝܢ ܕܡܣܬܡܟܢ</foreign> ‘those who are reclining’ (§
+                    101).</p>
+                <p xml:lang="en"> The rarely attested derived noun <foreign xml:lang="syr">ܬܫܠܝܬܐ</foreign> ‘calmness’, in the <hi rend="italic"
+                        >Lexicon Syriacum</hi>.<note place="foot" xml:id="ftn31" n="31"><p xml:lang="en"><hi> E.
+                                Sachau, </hi><hi rend="italic">Inedita Syriaca</hi><hi> (Halle:
+                                Buchhandlung des Waisenhauses, 1870), 45:9; C. Brockelmann, </hi><hi
+                                rend="italic">Lexicon Syriacum</hi><hi> (Halle: Niemeyer, 1928),
+                                779a; not recorded in R. Payne Smith, </hi><hi rend="italic"
+                                >Thesaurus Syriacus</hi><hi> (Oxford: Clarendon Press, 1879–1891),
+                                but entered in the </hi><hi rend="italic">Comprehensive Aramaic
+                                Lexicon</hi><hi> as col. 4162!. </hi></p></note> First readings and
+                        <hi rend="italic">hapax legomena</hi> are always problematic to establish
+                    and should be rightly treated hesitatingly.</p>
+                <p xml:lang="en"> Of considerable interest is the frequent appearance of the very rare and unusual
+                    Greek lexeme <foreign xml:lang="syr">ܬܘܠܣܐ</foreign> for
+                    ‘shoot, branch’ instead of the Aramaic alternatives. Here it occurs in the
+                    combination <foreign xml:lang="syr">ܬܘܠܣܐ ܕܙܝܬܐ</foreign> 
+                    ‘olive-branch’ (§ 102), which is also employed for palm-shoot in the other
+                    Syriac <hi rend="italic">Obsequies</hi> version from BL, Add 14.665, where it is
+                    now attested thrice in succession <foreign xml:lang="syr">ܘܣܒ ܬܘܠܣܐ ܡܢ ܗܢܐ ܫܒܛܐ</foreign> ‘and take the palm-shoot
+                    from this pinnate’ (§76);<note place="foot" xml:id="ftn32" n="32"><p xml:lang="en"><hi>
+                                Wright, </hi><hi rend="italic">Contributions</hi><hi>, 15.
+                        </hi></p></note> <foreign xml:lang="syr"
+                            >ܥܠܘܗܝ ܗܢܐ ܬܘܠܣܐ [...] </foreign> ‘[...] on him this palm-shoot’ (§ 76);<note
+                        place="foot" xml:id="ftn33" n="33"><p xml:lang="en"><hi> Additional reading not in Wright,
+                                </hi><hi rend="italic">Contributions</hi><hi>. </hi></p></note>
+                    <foreign xml:lang="syr">ܘܛܥܝܢ ܗܿܘ ܬܘܠܣܐ</foreign> ‘and he
+                    carries that palm-shoot’ (§ 77).<note place="foot" xml:id="ftn34" n="34"><p xml:lang="en"><hi>
+                                Additional reading not in Wright, </hi><hi rend="italic"
+                                >Contributions</hi><hi>. </hi></p></note> For unknown reasons
+                    <foreign xml:lang="syr">ܬܘܠܣܐ</foreign> never made it
+                    into the <hi rend="italic">Thesaurus Syriacus</hi>, nor is it consequently
+                    recorded in any other Syriac dictionary,<note place="foot" xml:id="ftn35" n="35"
+                                ><p xml:lang="en"><hi> There one finds only the homograph ܬܘܼܠܳܣܳܐ ‘derision’ from
+                                the verbal root in </hi><hi rend="italic">Pael</hi>
+                                    <foreign xml:lang="syr">ܬܠܣ, </foreign>e.g., in E. Castelli, <hi rend="italic">Lexicon
+                                Syriacum</hi><hi> (Göttingen: Dieterich, 1788), 901; Payne Smith,
+                                </hi><hi rend="italic">Thesaurus Syriacus</hi><hi>, col. 4448; J.
+                                Payne Smith, </hi><hi rend="italic">A Compendious Syriac
+                                Dictionary</hi><hi> (Oxford: Clarendon Press, 1903), 607b; 614a
+                                [verbal root]; Brockelmann, </hi><hi rend="italic">Lexicon
+                                Syriacum</hi><hi>, 825b [only verbal root for the </hi><hi
+                                rend="italic">Afel</hi><hi>! followed by the </hi><hi rend="italic"
+                                >Comprehensive Aramaic Lexicon</hi><hi>]; T. Audo, </hi><hi
+                                rend="italic">Dictionnaire de la langue chaldéenne</hi><hi>, vol. 2
+                                (Mosul: Imprimerie des Pères Dominicains, 1897), 625b [verbal root
+                                and derived noun]. The verbal root and its derivations give a bit
+                                the impression as only being attested in the lexical lists and then
+                                being integrated into the dictionaries. In the latest Syriac
+                                dictionary by M. Sokoloff, </hi><hi rend="italic">Syriac
+                                Lexicon</hi><hi> (Winona Lake: Eisenbrauns, 2009) one looks in vain
+                                for both homographs. </hi></p></note> nor does it appear in the
+                    language lists as Bar Bahlūl or Bar Ali. Therefore it was not discussed by
+                    Imanuel Löw in the <hi rend="italic">Flora der Juden</hi> in his very
+                    comprehensive chapter on the <hi rend="italic">Palmaceae</hi> or his earlier
+                    work <hi rend="italic">Aramäische Pflanzennamen</hi>.<note place="foot"
+                        xml:id="ftn36" n="36"><p xml:lang="en"><hi> I. Löw, </hi><hi rend="italic">Flora der
+                                Juden</hi><hi>, vol. 2 (Wien: A Kohut Memorial Foundation Inc.,
+                                1924), 302–362; I. Löw, </hi><hi rend="italic">Aramaeische
+                                Pflanzennamen</hi><hi> (Leipzig: Wilhelm Engelmann, 1881).
+                        </hi></p></note> This applies also to the special studies on Greek
+                    loanwords, including the recent one by Aaron Butts.<note place="foot"
+                        xml:id="ftn37" n="37"><p xml:lang="en"><hi> A. Butts, </hi><hi rend="italic">Language
+                                Change in the Wake of the Empire</hi><hi> (Winona Lake: Eisenbrauns,
+                                2016). </hi></p></note> Now with the occurrence of five attestations
+                    in two independent early fifth-century Syriac manuscripts it can be considered
+                    securely established. It is an obvious loan from the Greek word <foreign xml:lang="gr">θαλλός</foreign><note place="foot" xml:id="ftn38"
+                        n="38"><p xml:lang="en"><hi> At first suggested by Shoemaker, </hi><hi rend="italic"
+                                >Ancient Tradition</hi><hi>, 330 n. 136. The Greek lexicon by H. G.
+                                Liddell and R. Scott, </hi><hi rend="italic">A Greek-English
+                                Lexicon</hi><hi> (Oxford: Clarendon Press, 1897 [reprint]), 782b
+                                understands it as 1) ‘young shoot, young branch’ and 2) θαλλοί ‘palm
+                                leaves’ attested only in the plural. </hi></p></note> with the
+                    emphatic ending added to the nominal Greek ending -<foreign xml:lang="gr">ος</foreign> by elision of the former <hi
+                        rend="italic">omicron</hi> in Syriac and is comparable to other Greek
+                    loanwords and their treatment in Syriac, e.g. <foreign xml:lang="syr">ܛܘܟܣܐ</foreign>
+                    <foreign xml:lang="gr">τάχσις</foreign>, <foreign xml:lang="syr">ܛܘܡܣܐ</foreign>
+                    <foreign xml:lang="gr">τόμος</foreign>, <foreign xml:lang="syr">ܛܘܦܣܐ</foreign>
+                    <foreign xml:lang="gr">τύπος</foreign>, <foreign xml:lang="syr">ܦܘܪܣܐ</foreign>
+                    <foreign xml:lang="gr">πόρος</foreign>.<note place="foot" xml:id="ftn39"
+                        n="39"><p xml:lang="en"><hi> See S. P. Brock, “Greek Words in Syriac,” </hi><hi
+                                rend="italic">Scripta Classica Israelica</hi><hi> 15 (1996),
+                                251–262, esp. 254. </hi></p></note> One has to consider <foreign xml:lang="syr">ܬܘܠܣܐ</foreign> more a foreign word
+                    (Fremdwort) than a loanword as it was only integrated into these two texts from
+                    their dependent Greek “Vorlage”. Apart from this example no other Greek
+                    borrowings are to be noted, leaving aside the very early inherited <foreign xml:lang="syr">ܦܝܣ</foreign> &lt; <foreign xml:lang="gr">πεῖσαι</foreign><note place="foot" xml:id="ftn40"
+                        n="40"><p xml:lang="en"><hi> This derived verb from Greek is a lexical feature of Middle
+                                Aramaic, from a stage of the Hellenistic impact on the Aramaic
+                                language, where Greek was the language of the learned, therefore
+                                this loan is an early inheritance into Middle Aramaic and its
+                                successive dialects, except for Mandaic (only the noun </hi><hi
+                                rend="italic">py’s’</hi><hi> ‘persuasion’ as a late technical term)
+                                and Talmudic Aramaic. The Mandaean scribal schools and the
+                                Babylonian academies were outside of direct Hellenistic
+                                influence.</hi></p></note> and the long before integrated common
+                    particles <foreign xml:lang="syr">ܓܝܪ</foreign> and <foreign xml:lang="syr">ܕܝܢ</foreign>. A similar
+                    situation exists for the Christian Palestinian Aramaic transmission, which
+                    employs another special technical term borrowed from the Greek “Vorlage” <hi
+                        rend="italic">’g:ps</hi>
+                    <foreign xml:lang="gr">ἀγάπας</foreign> ‘memorials’ (§ 98).<note
+                        place="foot" xml:id="ftn41" n="41"><p xml:lang="en"><hi> See Müller-Kessler, “Three Early
+                                Witnesses,” 86–87. </hi></p></note>
+                </p>
+            </div>
+            <div>
+                <head>4. Text and Translation</head>
+                <div>
+                    <head>BL, Add 17.137, fol. 9ra — §§ 98–99 (unpublished)<note place="foot"
+                            xml:id="ftn42" n="42"><p rend="footnote text"> Most of column (b) was
+                                published by Shoemaker 2011, 267, but column (a) and the reverse
+                                were left unread.</p></note></head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܚܪ̈ܢܐ ܓܒܪ̈ܐ ܘܢܫ̈ܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">other men and women,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܠܝܢ ܕܥܒܕܝܢ ܗܘܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">those who did something</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܕܡ ܕܠܐ ܫܦܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">without being humble</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܙܕܩ ܡܕܡ . ܐܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and justifying something. But</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܓܒܪ̈ܐ ܕܝܢ ܡܪܦܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">men, however, renounced</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܿܘ ܗܘܘ ܙܘܘܓܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">that marriage,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܠܗܐ ܣܡ ܠܟܠܗܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">which God had placed on all </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܢ̈ܝ ܐܢܫܐ ܘܒܡܕܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">human-beings. And in an</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܠܐ ܡܟܢ ܡܬܚܫܚܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">unnatural way they made use.<hi rend="Table_Grid"
+                                    > </hi><note place="foot" xml:id="ftn43" n="43"><p
+                                        rend="footnote text"> Only this passage nearly agrees with
+                                        Romans 1:27 <foreign xml:lang="syr">ܘܒܡܕܡ ܕܠܐ ܡܟܢ .ܐܬܚܫܚ̈ܝ</foreign></p></note></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘܘ . ܒܗܿܝ ܕܫܒܩܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Inasmuch they forsook</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘܘ ܢܫ̈ܝܗܘܢ ܘܚܕ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">their wives, and one</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܠ ܚܕ ܐܙܠܝܢ ܗܘܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">by one they went into</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܡܕܡܟܐ ܚܛܝܦܐ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">a forced intercourse.<note place="foot" xml:id="ftn44"
+                                    n="44"><p rend="footnote text"> This passage is reminiscent of
+                                        Romans 1:27 <foreign xml:lang="syr">ܫܒܩܘ ܚܫܚܬܐ ܕܟܝܢܐ .ܕܢܩ̈ܒܬܐ : ܘܐܫܬܪܚܘ ܒܪܓܬܐ ܚܕ ܥܠ
+                                        ܚܕ</foreign></p></note></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܕܐ ܘܢܫ̈ܐ ܗ[..]</foreign><note place="foot" xml:id="ftn45"
+                                    n="45"><p rend="footnote text"> Letters are
+                                stained.</p></note></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And women do this [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܥܒܕܢ ܗܿܘ ܕܫܒܩܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">that, what</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘܝ ܥܒܕܝܗܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">they abandoned (for) their work,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܣܢܬ ܚܢܦܐ [...]ܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the hate of pagans<note place="foot" xml:id="ftn46"
+                                    n="46"><p rend="footnote text"> Letters are not clearly
+                                        discernable.</p></note> [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܡܢܗܝܢ ܥܠ [..]ܝܪܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and of them upon ...<note place="foot" xml:id="ftn47"
+                                    n="47"><p rend="footnote text"> Letters are
+                                stained.</p></note></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܫܟܒܢ ܗܘ̈ܝ ܐܝܟ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">were having intercourse </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܥܡ ܓܒܪܝܗܝܢ . ܡܛܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">as with their husbands. On account</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܢܐ ܐܦ ܗܢܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of this they also will</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܢܩܒܠܘܢ ܫܘܢܩܐ ܕܠܥܠܡ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">receive torment for ever.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܠܝܢ ܕܐܡܪ ܠܗܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">(99) These (things) are what Jesus said to</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܝܫܘܥ . ܝܗܒ ܠܗܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">them. He gave them a</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܘܪܚܐ ܕܢܥܒܪܘܢ ܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">a way so that they could pass by in</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܟܙܢܐ ܘܢܚܘܢ ܕܠܡ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">this manner and could live, since</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">27.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܟܘܠ [ܕܝ]ܢ ܗܠܝܢ ܚܙܘ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">namely, they saw these (things). [Bu]t each</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 9rb — §§ 99–100 (published)<note place="foot" xml:id="ftn48" n="48"
+                                ><p rend="footnote text"> Most of column (b) was published by
+                                Shoemaker 2011, 267, but column (a) and the reverse were left
+                                unread.</p></note></head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܫܬܩܠ</foreign><note place="foot" xml:id="ftn49" n="49"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: ܐ...ܠ.</p></note> <foreign xml:lang="syr">ܡܢܗܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">was taken from them,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"> <foreign xml:lang="syr">. ܝܫܘܥ</foreign><note place="foot" xml:id="ftn50" n="50"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                        Fragments,” 267: ܘܝܫܘܥ. CP2 and E1 have here ‘Saviour’
+                                        instead (Müller-Kessler, “Three Early Witnesses,” 86; Arras,
+                                            <hi rend="italic">De Transitu</hi>, 58 [Eth] and 38
+                                [Lat]).</p></note> <foreign xml:lang="syr">ܘܡܟܐܝܠ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Jesus and Michael.<note place="foot" xml:id="ftn51"
+                                    n="51"><p rend="footnote text"> This passage differs from the
+                                        Ethiopic in so far as that both Jesus and Michael are
+                                        separated from the Apostles, and not only Jesus. It is
+                                        comparable to a similar understanding in version CP2 <hi
+                                            rend="italic">mḥyn’ wmyk’yl rḥqw npšhwn</hi> ‘the Saviour and Michael
+                                        removed themselves’ (Müller-Kessler, “Three Early
+                                        Witnesses,” 86).</p></note></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܫܒܩܗܿ ܠܡܪܝܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And he forsook<note place="foot" xml:id="ftn52" n="52"
+                                        ><p rend="footnote text"> In CP2 both Jesus and Michael are
+                                        forsaking Mary.</p></note> Mary</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">.
+                                ܘܠܫܠܝܚ̈ܐ ܥܠ ܐܪܥܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and the Apostles on earth,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܛܠ ܕܢܕܥܘܢ ܢܦܫܗܘܢ</foreign><note place="foot" xml:id="ftn53"
+                                    n="53"><p rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                        Fragments,” 267: <foreign xml:lang="syr">[ܥܠ ܚ]ܫܗܘܢ.</foreign> Additions are always debatable,
+                                        especially if there does not exist an established text
+                                        basis.</p></note>.</cell>
+                            <cell rend="left"/>
+                            <cell rend="left">so that they will be of the same mind.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܡܚܕܐ</foreign><note place="foot" xml:id="ftn54" n="54"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: ܘ..... .</p></note> <foreign xml:lang="syr">ܗܠܝܢ ܕܒܬܫܢܝܩܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And at once those, who were in torment,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7. </cell>
+                            <cell rend="right"><note place="foot" xml:id="ftn55" n="55"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: *<foreign xml:lang="syr">ܘܬܐ..... *.</foreign></p></note><foreign xml:lang="syr">*ܩܥܘ ܘܒܥܘ ܒܥܘܬܐ</foreign>
+                                *</cell>
+                            <cell rend="left"/>
+                            <cell rend="left">cried out and sought an intercession</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"> <foreign xml:lang="syr">ܘܐܡܪܝܢ .</foreign> <note place="foot" xml:id="ftn56" n="56"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: ܡ...ܡ.</p></note><foreign xml:lang="syr">ܡܢ ܡܪܝܡ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">by Mary and said,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܪܝܡ ܢܘܗܪܐ ܘܐܡܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">‘Mary, the light and the mother</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܢܘܗܪܐ ܡܪܝܡ ܚܝ̈ܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of light; Mary, the life</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܡܗ ܕܚܝ̈ܐ . ܡܪܝܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and the mother<note place="foot" xml:id="ftn57" n="57"
+                                        ><p rend="footnote text"> Only pronominal suffix singular
+                                        masculine instead of plural.</p></note> of life;
+                                Mary,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܢܪܬܐ ܕܕܗܒܐ ܕܛܥܢܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the golden lamp<note place="foot" xml:id="ftn58"
+                                    n="58"><p rend="footnote text"> CP2 has instead <hi
+                                            rend="italic">mnrt’ dqwšṭ’</hi> ‘the lamp of truth’
+                                        (Müller-Kessler, “Three Early Witnesses,” 86). E1 has both
+                                        by taking it as ‘Mary, golden lamp, you who carries every
+                                        true lamp’ (Arras, <hi rend="italic">De Transitu</hi>, 58
+                                        [Eth] and 38 [Lat]).</p></note>, who bore</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܛܥܝܢ ܟܘܠ</foreign><note place="foot" xml:id="ftn59" n="59"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: <hi rend="italic">nil</hi>.</p></note> <foreign xml:lang="syr">.
+                                ܡܪܝܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the one bearing all<note place="foot" xml:id="ftn60"
+                                    n="60"><p rend="footnote text"> Obviously ‘true lamp’ was
+                                        omitted in Syr. The phrase ‘who bore the one bearing every
+                                        true lamp’ is missing in CP2. </p></note>; Mary,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܪܬܐ ܘܐܡܗ ܕܡܪܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the Lady and the Mother of the Lord</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܠܟܬܐ ܟܘܠ</foreign><note place="foot" xml:id="ftn61" n="61"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: [ܪ]ܒܘܠܢ. </p></note> <foreign xml:lang="syr">. ܡܪܝܡ˹ܕ˺</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of all; Mary, the queen<note place="foot"
+                                    xml:id="ftn62" n="62"><p rend="footnote text"> Shoemaker, “New
+                                        Syriac Dormition Fragments,” 267 translates ‘our queen’
+                                        despite the Syr text having only <foreign xml:lang="syr">ܡܠܟܬܐ</foreign> ‘the queen’ as in CP2
+                                        (Müller-Kessler, “Three Early Witnesses,” 87), but in E1 it
+                                        reads ‘our queen’ (Arras, <hi rend="italic">De
+                                        Transitu</hi>, 58 [Eth] and 38 [Lat]).</p></note>,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܠܗܢ . ܘܐܡܗ ܕܡܠܟܢ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and the mother of our King<note place="foot"
+                                    xml:id="ftn63" n="63"><p rend="footnote text"> This addition
+                                        with ‘our king’ is also found in CP2 (Müller-Kessler, “Three
+                                        Early Witnesses,” 88), but is completely omitted in E1
+                                        (Arras, <hi rend="italic">De Transitu</hi>, 58 [Eth] and 38
+                                        [Lat]).</p></note> and our God.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܦܝܣ ܥܠܝܢ ܠܒܪܟܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Persuade your Son on our behalf</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܢܬܠ ܠܢ ܢܦܐܫܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to give us some rest.’</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܩܠܝܠ . ܘܡܛܠ ܗܠܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And because of these</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܬܐܡܪ ܠܦܛܪܘܣ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">(things) it was said to Peter </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܠܐܢܕܪܐܣ ܘܠܝܘܚܢܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and Andreas and John</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܠܟܠܗܘܢ ܫܠܝ̈ܚܐ ܡܿܢ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and all the Apostles, ‘What</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"> <foreign xml:lang="syr">ܥܠ ܗܠܝܢ . ܐܡܪܝܬܘܢ</foreign><note place="foot" xml:id="ftn64"
+                                    n="64"><p rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                        Fragments,” 267: <foreign xml:lang="syr">ܐܡܪܬܘܢ</foreign>. One needs here an active participle
+                                        with the suffixed independent pronoun (present tense). The
+                                        omitted <hi rend="italic">yod</hi> by Shoemaker is
+                                        visible.</p></note></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">do you say about these (things)?’<note place="foot"
+                                    xml:id="ftn65" n="65"><p rend="footnote text"> The CPA has here
+                                        a longer addition, which is absent from the Syriac
+                                        transmission, see Müller-Kessler, “Three Early Witnesses,”
+                                        88–89. </p></note></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܡܚܕܐ ܐܬܚܘܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">(100) And at once our</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܗܘܢ</foreign><note place="foot" xml:id="ftn66" n="66"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: ܠ....</p></note> <foreign xml:lang="syr">ܦܪܘܩܢ ܘܐܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Saviour appeared to them and came to</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"> <foreign xml:lang="syr">ܠܗܿܝ</foreign><note place="foot" xml:id="ftn67" n="67"><p
+                                        rend="footnote text"> Shoemaker, “New Syriac Dormition
+                                Fragments,” 267: ܠ....</p></note> <foreign xml:lang="syr">ܕܘܟܬܐ ܕܬܫܢܝܩܐ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">that place of torment</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 9va — § 100 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܡܪ ܠܟܘܢ . ܗܟܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and said to you, ‘Where</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܟܪܙܬܘܢ ܗܿܘ ܡܕܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">did you proclaim that matter,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܬܐܠܦ ܠܟܘܢ . ܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">which was taught to you? For did</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܓܝܪ ܫܡܥܬܘܢ ܕܟܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">you not hear of all,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܕܟܦܪܬ ܥܕ ܡܢܬܦܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">which I denied while they were driven</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܝ ܘܦܬܓܡܐ ܗܿܘ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to me and that word?</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܫܐܛ ܗܘܝܬ . ܘܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And I was treated with contempt</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܚܫܒܐ ܗܘܝܬ ܠܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and had no idea, </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܠܡܪܢ ܠܐ ܡܫܟܚ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">since for our Lord I</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘܝܬ ܒܚܕ ܪܡܙܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">was not able with a wink</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܠܐ ܐܗܦܘܟ ܕܥܝܢ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of an eye<note place="foot" xml:id="ftn68" n="68"><p
+                                rend="footnote text"><foreign xml:lang="syr">ܪܡܙܐ ܕܥܝܢ</foreign> can be taken as a fixed
+                                expression, therefore the absolute state in <foreign xml:lang="syr">ܥܝܢ</foreign>, see
+                                        Nöldeke, <hi rend="italic">Kurzgefasste syrische
+                                            Grammatik</hi>, 149. It can be compared to constructions
+                                        to describe material ‘made of’. </p></note> not to turn
+                                upon</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܠ ܥܡܘܪܝܗܿ ܘܥܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">her (= the earth) inhabitants and upon</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܚܛ̈ܝܐ ܗܠܝܢ ܕܚܛܘ ܒܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the sinners, those who had sinned against me.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܠܐ ܠܐ ܥܒܕܬ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">But I did not do</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܠܝܢ ܡܛܘܠ ܕܗܘܬ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">these (things), since it was</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܠܝܗܘܢ ܘ[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">against them and [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܬܘ̈ܬܗܘܢ ܗܟܢ ܢܬܘܢ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">their signs will thus come.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܬܪܕܘܢ ܗܢܐ ܐܢܬܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">You shall move this, </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܗܠܝܢ ܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left"> [...] these (things) you</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܒܕܬܘܢ ܐܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">did not do, unless</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܫܡܥܬܐ ܕܢܦܫܟܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">your ... own hearing </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[.]ܥܕܐ ܘܡܥܠ ܪܒܘܬܐ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and bringing in greatness.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܛܠ ܗܢܐ ܗܐ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">On account of this, see,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܬܦܪܥܝܬܘܢ ܐܝܟ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">you are repaid as</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܒܕܬܘܢ [ܠܗܘܢ .] ܗܟܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">you did [to them]. Thus</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26. </cell>
+                            <cell rend="right"><note place="foot" xml:id="ftn69" n="69"><p
+                                        rend="footnote text"> *...* The Syriac diverges here
+                                        considerately, but this is also the case for the early Latin
+                                        and Gaelic-Irish versions, see also Shoemaker, <hi
+                                            rend="italic">Ancient Traditions</hi>, 345 n.
+                                161.</p></note>*<foreign xml:lang="syr">ܠܟܘܢܛܝܒܘܬܐ</foreign><note place="foot" xml:id="ftn70"
+                                    n="70"><p rend="footnote text"> On the <hi rend="italic"
+                                            >plene</hi> spellings in fifth- and sixth-century Syriac
+                                        manuscripts, see Brock, “Some Diachronic Features,”
+                                        96–97.</p></note> <foreign xml:lang="syr">ܐ[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the kindness ... to you,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">27.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܠܐ ܡܛܠ ܕܡܥ̈ܘܗܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">but because of the tears</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 9vb — §§ 100–101 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܡܟܐܝܠ ܘܕܫܠܝܚ̈ܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of Michael and of my holy</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܡܝ ܩܕܝܫ̈ܐ ܘܕܡܪܝܡ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Apostles, and of Mary, my Mother,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܬܘ ܘܚܙܘ ܠܟܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">who went and saw you.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܦܝܣ ܠܢ ܚܠܦܝܟܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And he persuaded us on behalf of you</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܕܢܗܘܐ ܠܟܘܢ ܢܦܐܫܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">so that there will be rest for you</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܡܡܐ ܘܠܠܝܐ ܕܚܕ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">day and night, which</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܫܒܐ ܕܢܝܚܐ . ܘܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">is one and a Shabbat’s rest.’ (101) And</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܬܪ ܗܠܝܢ ܪܡܙ ܡܪܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">after these (things) our Lord gave a sign</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܡܠܐ̈ܟܐ ܕܢܦܬܚܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to the angels to open</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܐܪܥܐ . ܘܐܬܩܠܥܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the earth, and they were hurled</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܓܘܗܿ ܘܫܠܝ̈ܚܐ ܐܙܠܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">inside, and the Apostles went </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܦܪܕܝܣܐ . ܗܘܘ ܠܘܬ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to Paradise. They were</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܠܢܐ ܕܚܝ̈ܐ ܠܘܬ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">near the tree of life,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܢ ܟܢ . ܐܝܬ ܗܘܐ ܕܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">near from here. But</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܬܡܢ ܐܒܪܗܡ ܘܐܝܣܚܩ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">there was Abraham and Isaac,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܝܥܩܘܒ ܥܡ ܟܠܗܘ[ܢ]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and Jacob with all</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܚܪ̈ܢܐ ܘܡܢ ܒܬܪ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the others. And after</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right">[...]<note place="foot" xml:id="ftn71" n="71"><p
+                                        rend="footnote text"> The lower script is here very much
+                                        erased by an additional correction in the upper
+                                        script.</p></note> <foreign xml:lang="syr">ܠܗ ܦܪܘܩܢ ܕܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">our Saviour [...] him, who was</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܝܬ ܡܝ̈ܬܐ ܘܐܦ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">among the dead, and</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܟܣܝ ܐܢܘܢ ܒܦܪܕܝܣܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">he also hid them in Paradise,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܟܢܐ ܕܐܝܬܝܗܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">as they had been</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܗܘܘ ܒܚܝ̈ܗܘܢ . ܘܐܝܬ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">in their life. And</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘܐ ܬܡܢ ܕܘܝܕ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">there was David</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܢ ܒܬܪܗ . ܘܢܩܫ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">after him, and he was</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘ ܒܩܝܬܪܗ ܒܟܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">playing his harp all</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܕܢ ܘܐܝܬ ܗܘܝܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the time. And again</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">27.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܬܘܒ ܬܡܢ ܐܠܝܫܒܥ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">there was Elisabeth,</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 6ra top + fol. 7ra [v] bottom — §§ 101–102 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܝܘܚܢܢ [.]ܐܡܗ ܕܡܪ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the mother of Mar John,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܥܡܕܢܐ . [..]ܬܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the baptist ...</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܘܟ̈ܝܬܐ ܕܢܫ̈ܐ ܦܫ[ܘ]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">places for women, they remain[ed]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܓܒܪ̈ܐ ܐܟܢ [...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">... [...]<note place="foot" xml:id="ftn72" n="72"><p
+                                        rend="footnote text"> Surface on the vellum is scratched
+                                        off.</p></note> the men,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܝܬ ܗܘ[ܘ] ܬܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">who wer[e] there </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[.]ܘܗ [...] ܗܠܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">... [...] those,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܣܒܟܘ ܡܛܘܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">who mingled, because </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܦܪܘܩܢ ܕܐܝܬ ܗܘܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of our Saviour, since there</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܬܘܒ ܬܡܢ ܗܠܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">were again those</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܝܠܘ̈ܕܐ ܙܥܘܪ̈ܐ . ܗܠܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">small children; those,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܡܛܠ ܗܢܐ ܡܪ[ܢ]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">who on account of this, [our] Lord,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܛܘܠ ܦܪܘܩ[ܢ] ܚܘܪܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">on account of [our] Saviour, behold</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܘܚܙܘ ܕܟܡܐ ܬܕܡܪܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and saw as the wonder</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܘܪܚܬܐ ܥܒܕܐ ܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of the ways was made from</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[ܥ]ܒܕܘܗܝ . ܟܠܗܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">his [wo]rks. For all the</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܓܝܪ ܢܦܫ̈ܬܐ ܕܟܪ̈ܣܛܝܢܐ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">souls of the Christians<note place="foot"
+                                    xml:id="ftn73" n="73"><p rend="footnote text"> E1 has ‘good
+                                        people’.</p></note>,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܠܝܢ ܕܢܦܩܝܢ ܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">those, who pass from</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܠܡܐ ܗܢܐ ܩܕܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">this world before</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܟܠ ܡܕܡ ܗܠܝܢ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">all things, those</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܕܡܣܬܡܟܢ ܒ[ܥܘܒ]ܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">who are reclining<note place="foot" xml:id="ftn74"
+                                n="74"><p rend="footnote text"> <foreign xml:lang="syr">ܡܣܬܡܟܢ</foreign> is spelled here without
+                                            <hi rend="italic">yod</hi>.</p></note> in [the
+                                bosom]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܒܪܗܡ ܘܕܐܝܣܚܩ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of Abraham and Isaac</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܕܝܥܩܘܒ ܘܕܘܝܕ* </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and Jacob. And David</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܣܩ ܗܘܐ ܬܫܠܝܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">brought up calmness</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܩܝܬܪܗ* . ܘܚܙܝ[ܢܢ ܐܦ]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">with his harp.<note place="foot" xml:id="ftn75" n="75"
+                                        ><p rend="footnote text"> *...* is an addition not found in
+                                        E1.</p></note>
+                                <hi rend="superscript">(</hi>102) And [we also] saw</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܚܢܘܟ ܘܠܗܿܘ ܬܘܠܣܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Enoch and that olive</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܙܝܬܐ . ܗܿܘ ܕܠܗ̇</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">branch. That one, which she</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 6rb top + fol. 7rb [v] bottom — § 102 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܚܢܘܟ [...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] Enoch [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܗ . ܝܘܢܐ ܦ[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">it. The dove .[...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[......]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[......]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܗ̇ [... ܒܝܘ̈ܡܐ]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">her [... in the days]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܛܘܦܝܢ [...] ܗܘܐ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of the flood [Noah] had</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܝܘܢܐ ܠܦܪܕܝܣܐ [ܫܕܪ] </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[sent] the dove to Paradise</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܬܫܐܠ ܠܩܫܝܫܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to ask the eldest</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܗܢ ܕ..ܗ ܕܐܒܘܗܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of ...<note place="foot" xml:id="ftn76" n="76"><p
+                                        rend="footnote text"> The genealogy is not clear here. It
+                                could be <foreign xml:lang="syr">ܐܚ</foreign> ‘brother’ missing in the illegible space. Noah
+                                        was, however, according to Genesis 8:23–28 the great
+                                        grandfather of Enoch. </p></note> of his father, where
+                                our</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐ[ܦ] ܡܪܢ ܒܐܝܕܘܗܝ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Lord al[so] saved by his hands</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܦܪܩ ܠܐܪܥܐ ܡܛܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the earth on account of</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܝܘܢܐ . ܐܙܠܬܿ ܠܐܪܥܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the dove. She went to the earth,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܠܐ ܐܪܥܐ ܗܘܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">because there was no earth</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܗܿ . ܘܟܕ ܐܙܠܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">for her. And after she had gone,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܫܐܠܬܿ ܠܚܢܘܟ ܘܬܡܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">she asked Enoch and there</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...]ܐ ܘܗܦܟܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...]. and she returned</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܘܬ ܢܘܚ ܟܕ ܡܕܡ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to Noah, when she had</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܝܬ ܥܠܝܗܿ . ܘܬܘܒ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">nothing on her. And again</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> . ܫ[ܕܪܗܿ] ܢܘܚ ܕܬܪܬܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Noah [sent her] a second time.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܡܚܕܐ ܐܙܠܬܿ ܘܫܐܠܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">At once she went and asked</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܚܙܐ ܕܐܠܗܐ . ܚܢܘܟ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">Enoch. And he saw that God</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21. </cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܦܨܝ ܠܐܪܥܐ ܘܦܫܬܿ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">had saved the earth and she stayed behind.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܿܘ ܬܘܠܣܐ ܕܙܝܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">That olive-branch</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܣܝܡܢ ܠܗ . ܘܐܡܪ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">is a sign for him. And he said</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܠܗ . ܐܘܒܠ ܝܘܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to him, ‘He brought the dove</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܠܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] to him</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[......]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[......]</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 6va top + fol. 7va [r] bottom — §§ 102–103 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܬܝܗܿ . ܕܐܝܟ ܫܡܥ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">had. Since as he</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[ܗܘܐ] ܠܗܘܢ ܠܐܝ̈ܠܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">heard the trees </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܠܐ ܗܘܘ ܥܡܟܘܢ . </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">which were not with you.’</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܡܪ ܠܬܘ̈ܚܐ ܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left"><hi rend="superscript">(103)</hi> And he<note
+                                    place="foot" xml:id="ftn77" n="77"><p rend="footnote text"> E1
+                                        has ‘the Lord’.</p></note> said to the mourners<note
+                                    place="foot" xml:id="ftn78" n="78"><p rend="footnote text"> E1
+                                        has only ‘them’.</p></note>,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܬܕܡܪܘܢ ܥܠ ܗܠܝܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">‘Do not wonder about these (things),</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܕܐܬܛܝܒܬܘܢ ܢܦܫܟܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">which you have prepared yourselves</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܗܕܐ ܐܪܥܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">on this earth, </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܡܘܠܟܢܐ ܕܡܝܬܪ̈ܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">*and a promise of virtues</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9. </cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܢ ܗܠܝܢ ܕܠܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">of these (things)*<note place="foot" xml:id="ftn79"
+                                    n="79"><p rend="footnote text"> E1 has for *...* ‘then you will
+                                        find a better inheritance’.</p></note>, which</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܢܨܒܬܘܢ ܐܢܬܘܢ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">you did not set up.’</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܬܘܒ ܐܡܪ ܠܢ [.]ܣܟܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And again he said to us, ‘...</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> [...] ܗܟܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">thus [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܟܠ ܦܓܪܝ [..]ܟܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and my whole [..].. body,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܥܕܡܐ ܕܐܘܒܠ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and until I will bring</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܗ [...]ܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] to him</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">. ܡܕܡ ܘܐܡܪܬ ܠܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">something and said to him.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܣܠܩ ܡܪܢ ܠܥܢܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And our Lord went up onto a cloud</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܘܩܪܐ ܠܦܘܠܘܣ ܨܐܕܘܗܝ .</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and called Paul to him, </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܣܬܠܩ ܒܥܢܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and he was taken up with a cloud</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܫܡܝܐ ܘܐܙܠ ܣܛܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">to heaven. And Satan went</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܘܬܟܘܢ ܠܐܬܪܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">with you to the place</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܐܡܪ . ܐܘ ܒܪ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">and said, ‘Oh, son<note place="foot" xml:id="ftn80"
+                                    n="80"><p rend="footnote text"> E1 has
+                                ‘Jesus’.</p></note>,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܒܪܗ ܖܐܠܗܐ ܕܐܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the Son of God, who came</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܠܥܠܡܐ . ܘܐܦܝܣ ܠܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">into the world and interceded for us,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܣܒܪ .[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">he believed [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܛܝܒܘܬܐ [...ܿ] </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">the grace [...]</cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>fol. 6vb top + fol. 7vb [r] bottom — §§ 103–104 (unpublished)</head>
+                    <table rend="rules">
+                        <row>
+                            <cell rend="left">1.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">...ܘܢ ܒܟܠܗܿ ܒܪܝܬܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">... in all creation</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">2.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܘܠܡܪܐ ܒܐܝ̈ܕܝܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] to the Lord, into the hands</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">3.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܠܗܘܢ ܐܝܟܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] them as</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">4.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...]ܬ ܠܗܢܐ ܕܫܡܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] to this one, whose name is</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">5.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> [ܦܘܠܘܣ] ܕ[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[Paul], who [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">6.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܩܕܡ ܕܡܬܟܬܫ ܥܡܝ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">before fighting with me</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">7.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܠܗܠܝܢ ܓܝܪ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] For those</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">8.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[..]ܫܐ ܕܫܘܝܢ ܗܘܘ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] was fitting</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">9.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[.]ܢܘܢ [...]ܚܘܝܬ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] ......</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">10.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܡܛܠ ܕܐܬܟܬܫܘܢ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] [...] because they fought</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">11.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[......]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[......]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">12.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[......]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[......]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">13.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܦܓܪܝ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] my body</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">14.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> [..]ܥܬܐ ܡܥܠܬ ܠܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">you take him in [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܘܢܬܟܬܫ ܥܡܝ ܘܐ[.]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">And he will fight with me and .[.]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">16.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܐܣܩܝܗ ܘܚܘܝܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] he brought him up and showed him</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">17.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܟܠ ܡܕܡ . ܘܬܘܒ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">all things. <hi rend="superscript">(104) </hi>And
+                                again</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">18.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܬܐ ܠܗ ܠܦܘܠܘܣ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">he went to Paul</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">19.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܟ ܟܕ ܠܐ ܛܝܒ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">as if not being prepared,</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܐܝܟ ܠܩܪܒܐ ܥܡܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">as for battle with him.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">21.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܐܫܬܟܚ ܠܗ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] found for him</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">22.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">[...] ܥܠܝܟ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">[...] concerning you</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">23.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܥܠܬܐ ܘܐ[...]</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">a reason [...]</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">24.</cell>
+                            <cell rend="right"><foreign xml:lang="syr"> ܠܐ [...] ܐܢܐ ܠܗ </foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">not [...] I for him</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܡܢ ܡܬܘܡ ܕܥܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">from afore time, since he responded.</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">26.</cell>
+                            <cell rend="right"><foreign xml:lang="syr">ܗܘ ܓܝܪ ܐܝܟܢܐ</foreign></cell>
+                            <cell rend="left"/>
+                            <cell rend="left">For he in that manner</cell>
+                        </row>
+                    </table>
+                </div>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Arras, V. <hi rend="italic">De Transitu Mariae apocrypha aethiopice</hi> I. CSCO
+                    342/343, <hi rend="italic">scriptores Aethopici</hi> 66/67. Louvain: Secrétariat
+                    du CorpusSCO, 1973.</bibl>
+                <bibl>Audo, T. <hi rend="italic">Dictionnaire de la langue chaldéenne</hi>, vol. 2.
+                    Mosul: Imprimerie des Pères Dominicains, 1897.</bibl>
+                <bibl>Baumstark, A. <hi rend="italic">Geschichte der syrischen Literatur mit Ausschluß
+                        der christlich-palästinensischen Texte</hi>. Bonn: Marcus und Webers,
+                    1922.</bibl>
+                <bibl>Brock, S. P. “Greek Words in Syriac.” <hi rend="italic">Scripta Classica
+                        Israelica</hi> 15 (1996), 251–262.</bibl>
+                <bibl>Brock, S. P. “Some Diachronic Features of Classical Syriac.” In <hi rend="italic"
+                        >Hamlet on the Hill</hi>: <hi rend="italic">Greek and Semitic Studies
+                        Presented to </hi><hi rend="italic color(111111)">Semitic and Greek Studies
+                        Presented to Professor T. Muraoka on the Occasion of His Sixty-Fifth
+                        Birthday</hi><hi rend="color(111111)">, Orientalia Lovaniensia Analecta 118,
+                        ed. </hi>M. F. J. Baasten and W. T. H. van Peursen. Louvain: Peeters, 2003,
+                    95–111.</bibl>
+                <bibl>Brockelmann, C. <hi rend="italic">Lexicon Syriacum</hi>. Halle: Niemeyer,
+                    1928.</bibl>
+                <bibl>Burkitt, F. C. <hi rend="italic">Evangelion da-mepharreshe</hi>, vol. 2 <hi
+                        rend="italic">Introduction and Notes</hi>. Cambridge: Cambridge University
+                    Press, 1904.</bibl>
+                <bibl>Butts, A. <hi rend="italic">Language Change in the Wake of the Empire</hi>.
+                    Winona Lake: Eisenbrauns, 2016. </bibl>
+                <bibl>Castelli, E. <hi rend="italic">Lexicon Syriacum</hi>. Göttingen: Dieterich,
+                    1788.</bibl>
+                <bibl>Duval, R. <hi rend="italic">Traité de grammaire syriaque</hi>. Paris: Vieweg,
+                    1881.</bibl>
+                <bibl>Esbroeck, M. van. “Les textes littéraires sur l’Assomption avant le Xe siècle.”
+                    In <hi rend="italic">Les actes apocryphes des Apôtres</hi>, ed. F. Bovon.
+                    Geneva: Labor et Fides, 1981, 265–285.</bibl>
+                <bibl>Jastrow, M. <hi rend="italic">A Dictionary of the Targumim</hi>,<hi rend="italic"
+                        > the Talmud Babli and Jerushalmi</hi>,<hi rend="italic"> and the Midrashic
+                        Literature</hi>. London: Luzac, 18761903.</bibl>
+                <bibl>Kessel, G. “Undertexts of Sinai, Arabic 514.” In KatIkon
+                    (https://sinai.library.ucla.edu).</bibl>
+                <bibl>Koster, M. D. <hi rend="italic">The Peshiṭta of Exodus:
+                        The Development of its Text in the Course of Fifteen Centuries.</hi> Assen:
+                    Van Gorcum, 1977.</bibl>
+                <bibl>Liddell, H. G. and R. Scott. <hi rend="italic">A Greek-English Lexicon</hi>.
+                    Oxford: Clarendon Press, 1897 [reprint].</bibl>
+                <bibl>Löw, I. <hi rend="italic">Flora der Juden</hi>, vol. 2. Wien: A Kohut Memorial
+                    Foundation Inc., 1924.</bibl>
+                <bibl>Löw, I. <hi rend="italic">Aramaeische Pflanzennamen</hi>. Leipzig: Wilhelm
+                    Engelmann, 1881.</bibl>
+                <bibl>Müller-Kessler, C. “Three Early Witnesses of the «Dormition of Mary» in Christian
+                    Palestinian Aramaic. Palimpsests from the Cairo Genizah (Taylor-Schechter
+                    Collection) and the New Finds in St Catherine’s Monastery.” <hi rend="italic"
+                        >Apocrypha</hi> 29 (2018), 69–95.</bibl>
+                <bibl>Müller-Kessler, C. “An Overlooked Christian Palestinian Aramaic Witness of the
+                    Dormition of Mary in <hi rend="italic">Codex Climaci Rescriptus</hi> (CCR IV).”
+                        <hi rend="italic">Collectanea Christiana Orientalia</hi> 16 (2019),
+                    81–98.</bibl>
+                <bibl>Müller-Kessler, C. “Jacob of Serugh’s Homily on the Presentation in the Temple in
+                    an Early Syriac Palimpsest (BL, Add 17.137, no. 2).” <hi rend="italic">ARAM</hi>
+                    32 (2020) [in press].</bibl>
+                <bibl>Netz, R. and W. Noel. <hi rend="italic">The Archimedes Codex: Revealing the
+                        Secrets of the World’s Greatest Palimpsest</hi>. London: Phoenix, 2008.</bibl>
+                <bibl>Nöldeke, T. <hi rend="italic">Kurzgefasste syrische Grammatik</hi>. Leipzig:
+                    Tauchnitz, 1898.</bibl>
+                <bibl>Payne Smith, J. <hi rend="italic">A Compendious Syriac Dictionary</hi>. Oxford:
+                    Clarendon Press, 1903.</bibl>
+                <bibl>Payne Smith, R. <hi rend="italic">Thesaurus Syriacus</hi>. Oxford: Clarendon
+                    Press, 1879–1901.</bibl>
+                <bibl>Rompay, L. van. “Some Preliminary Remarks on the Origins of Classical Syriac as a
+                    Standard Language.” In <hi rend="italic">Semitic and Cushitic Studies</hi>, ed.
+                    G. Goldenberg and S. Raz. Wiesbaden: Harrassowitz, 1994, 70–89.</bibl>
+                <bibl>Sachau, E. <hi rend="italic">Inedita Syriaca</hi>. Halle: Buchhandlung des
+                    Waisenhauses, 1870.</bibl>
+                <bibl>Schmidt, A. “Syriac Palimpsests in the British Library.” In <hi rend="italic"
+                        >Palimpsestes et éditions de textes: les textes littéraires</hi>, ed. V.
+                    Somers. Louvain: Peeters, 2009, 161–186.</bibl>
+                <bibl>Shoemaker, S. J. <hi rend="italic">Ancient Traditions of the Virgin Mary’s
+                        Dormition and Assumption</hi>. Oxford: Oxford University Press, 2002.</bibl>
+                <bibl>Shoemaker, S. J. “New Syriac Dormition Fragments from Palimpsests in the Schøyen
+                    Collection and the British Library.” <hi rend="italic">Le Muséon </hi>124
+                    (2011), 259–278.</bibl>
+                <bibl>Sokoloff, M. <hi rend="italic">A Dictionary of Jewish Palestinian Aramaic from
+                        the Byzantine Period</hi>. Ramat Gan: Bar-Ilan, 1991). </bibl>
+                <bibl>Sokoloff, M. <hi rend="italic">Syriac Lexicon</hi>. Winona Lake: Eisenbrauns,
+                    2009.</bibl>
+                <bibl>Tal, A. <hi rend="italic">Samaritan Aramaic Dictionary</hi>. Leiden: Brill,
+                    2000.</bibl>
+                <bibl>Taylor, D. G. K. <hi rend="italic">The Syriac Versions of the De Spiritu Sancto
+                        by Basil of Caesarea. </hi>CSCO 576. Scriptores Syri 228. Louvain: Peeters,
+                    1999.</bibl>
+                <bibl>Wright, W. <hi rend="italic">Contributions to the Apocryphal Literature of the
+                        New Testament</hi>. London: Williams and Norgate, 1865.</bibl>
+                <bibl>Wright, W. <hi rend="italic">Catalogue of the Syriac Manuscripts in the British
+                        Museum Acquired Since the Year 1838</hi>, vol. 1. London: Trustees of the
+                    British Museum, 1870. </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

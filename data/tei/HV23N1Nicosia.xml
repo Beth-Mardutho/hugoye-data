@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">From Antony of Tagrit to the Arabic Version</title>
+                <title type="sub">The Syriac Technical Vocabulary of Rhetoric and the Migration of Words</title>
+                <author>
+                    <name>
+                        <forename>Mara</forename>
+                        <surname>Nicosia</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of Naples ‘L’Orientale’</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2020</date>
+                <idno>Volume 23.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv23n1nicosia</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Mara Nicosia</author>
+                        <title level="a">From Antony of Tagrit to the Arabic Version: The Syriac Technical Vocabulary of Rhetoric and the Migration of Words</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol23/HV23N1Nicosia.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope type="vol" n="23">23</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="61" to="97">61-97</biblScope>
+                        <biblScope type="order" n="3"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Antony of Tagrit</term>
+                    <term>Aristotle</term>
+                    <term>Rhetoric Cross</term>
+                    <term>Arabic</term>
+                    <term>Translation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2020-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+       <front>
+           <div type="abstract" xml:lang="en">
+               <head>Abstract</head>
+               <p xml:lang="en">Rhetoric was part of the borrowed Greek
+                   educational system of the <hi rend="italic">Enkyklios paideia,</hi> together with
+                   logic and grammar. However, the technical terminology had to be adapted, so the
+                   question is which strategies were used to create the vocabulary of Syriac rhetoric.
+                   This paper aims at analyzing some meaningful loanwords, adaptations, calques and
+                   native words used to build this specialized lexis. A manuscript containing the
+                   Syriac version of Aristotle’s <hi rend="italic">Rhetoric</hi> was never found, and
+                   we need to rely upon other texts that dealt with this topic: Antony of Taġrit’s <hi
+                       rend="italic">Books of Rhetoric</hi>, a part of Bar Šakko’s <hi rend="italic"
+                           >Book of dialogues</hi> and a part of Bar Hebraeus’s <hi rend="italic">Cream of
+                               wisdom</hi>. If we wish to have a deeper appreciation of this vocabulary,
+                   however, we need to take into account the Arabic version of Aristotle’s <hi
+                       rend="italic">Rhetoric</hi>, since it displays some interesting peculiarities
+                   that can help us in the reconstructive process of what the Syriac version might have
+                   looked like. A very useful tool would be the compilation of a database comparing the
+                   Syriac lexis found in the abovementioned texts with the ones used in the Greek and
+                   Arabic versions of Aristotle’s book: actually, this method already highlighted some
+                   surprising phenomena that will be presented in this paper, in order to show how
+                   trilingual comparison can be an important tool to shed some light on the translation
+                   movement of both texts and cultural patterns that started in Late Antiquity.*<note place="foot" xml:id="ftn0" n="0"
+                       ><p xml:lang="en">* The content of this paper was discussed at the Oriental Institute in
+                           Oxford, during the 48<hi rend="superscript">th</hi> ARAM International
+                           Conference on Syriac Christianity, 11-13<hi rend="superscript"
+                               >th</hi> July 2018. I wish to express my deepest thanks to Professor
+                           John Watt for his invaluable support and his enlightening remarks,
+                           Professor Lucas Van Rompay for his precious insights and comments, and
+                           Aaron Butts for his suggestions and advice.</p></note></p>
+           </div>
+       </front>
+        
+        <body>
+            <div>
+            <p xml:lang="en">The path that brought Aristotelian rhetoric towards the Arabic milieu is a long and
+                complicated one, though it has occasionally been conceived as straightforward, from
+                Greek to Arabic, diminishing the role played by the Syriac world. To weaken the
+                position of Syriac in this field there is the fact that no manuscript containing the
+                Syriac version of Aristotle’s <hi rend="italic">Techne Rhetorike</hi> has been found
+                so far. At the present time, then, the first work dealing with rhetoric in Syriac
+                belongs to, apparently, the 9<hi rend="superscript">th</hi> century and this absence
+                of relevant works on the topic composed during the so-called ‘classical period’
+                unfortunately led some scholars to the wrong impression that the Syriac world was
+                somehow unaware of Aristotelian rhetoric until late, and that a translation of this
+                work was never produced. </p>
+            <p xml:lang="en"> This paper aims at showing that, despite the late date of the Syriac works, they can
+                probably be considered the products of a tradition of interpretation of Aristotle’s
+                books and also the result of a lively discussion on the topic. This interest in
+                Aristotelian sciences, and specifically <hi rend="italic">Rhetoric</hi>, is
+                testified, for instance, by the letter written by Patriarch Timothy I to Mar
+                Pethion, in which he asks his delegate to find out whether the monastery of Mar
+                Mattai possesses commentaries or scholia in Syriac (or other languages) on <hi
+                    rend="italic">Poetics</hi>, <hi rend="italic">Topics, Sophistical Refutations
+                    </hi>and<hi rend="italic"> Rhetoric</hi>.<note place="foot" xml:id="ftn1" n="1"
+                        ><p xml:lang="en">S.P. Brock,
+                            “Two letters of the patriarch Timothy from the late eighth century on
+                            translations from Greek”, <hi rend="italic">Arabic sciences and
+                            philosophy</hi> 9 (1999), 236), J.W. Watt, “Greek philosophy and Syriac
+                        culture in ʿAbbasid Iraq”, in <hi rend="italic">Christian heritage of Iraq.
+                            Collected papers from the Christianity of Iraq</hi>, Gorgias Eastern
+                            Christian Studies 13, ed. E.C.D. Hunter (Piscataway, NJ: Gorgias Press,
+                            2009), 14 and V. Berti, <hi rend="italic">Vita e studi di Timoteo I
+                            patriarca cristiano di Baghdad. Ricerche sull’epistolario e sulle fonti
+                            contigue</hi>, Studia Iranica 41, Chrétiens en terre d’Iran 3
+                            (Paris: Association pour l’avancement des etudes Iraniennes, 2009),
+                            323.</p></note></p>
+            </div>
+                <div>
+                <head>Syriac Works on Rhetoric</head>
+                <p xml:lang="en">Concerning the Syriac contributions to rhetorical studies, the most important –
+                    and yet still little known – one is the work of Antony of Taġrit: the author
+                    composed what looks like a handbook designed for students of rhetoric, divided
+                    into five volumes, that explains in details various aspects of the ‘art of
+                        speaking’.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">
+                            J.W. Watt, “Guarding the Syriac language in an Arabic environment:
+                            Antony of Tagrit on the use of grammar in rhetoric”, in <hi
+                                rend="italic">Syriac polemics. Studies in honour of Gerrit Jan
+                                Reinink</hi>, Orientalia Lavaniensia Analecta 170, eds. W.J. van
+                            Bekkum, et al. (Leuven: Peeters, 2007), 136. Moreover, as J.W. Watt,
+                            “Rhetorical education and Florilegia in Syriac”, in <hi rend="italic"
+                                >Les auteurs syriaques et leur langue</hi>, Études Syriaques 15, ed.
+                            M. Farina (Paris: Geuthner 2018), 96, ft. 2, recently remarked, it would
+                            be more appropriate to say that Antony composed two treatises on
+                            rhetoric, a longer one in four books called ‘On the science of
+                            Rhetoric’, and a shorter one, that coincides with what is normally
+                            accounted as <hi rend="italic">The fifth book of Rhetoric</hi>, called
+                            ‘On the ornamentation and decoration of words’. Regardless, since the
+                            five books division is widespread and accepted, this paper, as Watt’s,
+                            will use the conventional reference for the sake of commodity.
+                        </p></note> The books are based on Aristotelian material but also display
+                    some important differences that show influences of other Greek philosophers like
+                        Plato.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> On the
+                            points of contact between Antony and the Greek philosophers see J.W.
+                            Watt, “The Syriac reception of Platonic and Aristotelian rhetoric”, <hi
+                                rend="italic">ARAM</hi> 5 (1993), J.W. Watt, “Eastward and westward
+                            transmission of classical rhetoric, in <hi rend="italic">Centres of
+                                learning and location in Pre-Modern Europe and the Near East</hi>,
+                            eds. J.W Drijvers and A.A. MacDonald (Leiden: Brill, 1995), J.W. Watt,
+                            “Greek philosophy”, 21-24, and J.W. Watt “Literary and philosophical
+                            rhetoric in Syriac”, in <hi rend="italic">Literary and philosophical
+                                rhetoric in the Greek, Roman, Syriac and Arabic worlds</hi>,
+                            Europaea Memoria. Studien und Texte zur Geschichte der europäische Ideen
+                            66, ed. F. Woerther (Hildesheim: Olms 2009), 147-150. </p></note>
+                    Antony’s efforts also served as a starting point for portions of at least two
+                    other works, namely Bar Šakko’s <hi rend="italic">Book of dialogues</hi><note
+                        place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> The first part of
+                            this book deals with grammar, rhetoric and poetics. The rhetorical part
+                            is based on section one and five of Antony of Taġrit’s treatises. J.
+                            Bendrat (1968). “Der Dialog über die Rhetorik des Jacob bar Shakko“, in
+                                <hi rend="italic">Paul de Lagarde und die syrischen
+                                Kirchengeschichte</hi>, ed. Göttingen Arbeitskreis für syrischen
+                            Kirchengeschichte (Göttingen: Lagarde-Haus, 1968).</p></note> and Bar
+                    Hebraeus’s <hi rend="italic">Cream of wisdom</hi>. The credit for finding out
+                    that a summary of Antony’s works was hidden behind a certain part of Bar Šakko’s
+                        <hi rend="italic">Dialogues</hi> belongs to Martin Sprengling<note
+                        place="foot" xml:id="ftn5" n="5"><p xml:lang="en"> M. Sprengling, “Antonius Rhetor on
+                                versification with an introduction and two appendices”, <hi
+                                rend="italic">The American Journal of Semitic Languages and
+                                Literatures</hi> 32: 3(1916), and “Severus Bar Shakko’s <hi
+                                rend="italic">Poetics</hi>, Part II”, <hi rend="italic">The
+                                American Journal of Semitic Languages and Literatures</hi> 32: 4
+                                (1916). </p></note> and Rubens Duval at the beginning of last
+                        century,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> R.
+                            Duval, “Notice sur la Rhétorique d’Antoine de Tagrit”, in <hi
+                                rend="italic">Orientalische Studien Theodor Nöldeke zum siebzigsten
+                                Geburtstag</hi>., ed. C. Bezold (Gießen: Verlag von Alfred
+                            Töpelmann). </p></note> while for the printed version of this part one
+                    can rely upon <hi rend="italic">abbé</hi> Martin’s edition.<note place="foot"
+                        xml:id="ftn7" n="7"><p xml:lang="en"> J.P.P. Martin, <hi rend="italic">De la
+                                métrique chez les Syriens</hi> (Leipzig: Brockhaus, 1878).
+                            </p></note> John Watt completed an edition, translation, commentary
+                    and provisional glossary of the rhetorical part of the afore-mentioned <hi
+                        rend="italic">Cream of wisdom</hi>.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"> J.W. Watt, <hi rend="italic">Aristotelian rhetoric
+                                in Syriac: Barhebraeus, Butyrum sapientiae, Book of Rhetoric</hi>,
+                            Aristoteles Semitico-Latinus 18 (Leiden-Boston: Brill,
+                    2005).</p></note></p>
+                <p xml:lang="en"> When we talk about Antony of Taġrit’s works, some preliminary remarks are due.
+                    The main remark concerns the scholarly debate about dating Antony’s life, since
+                    the only concrete reference belongs to Bar Hebraeus’s <hi rend="italic"
+                        >Ecclesiastical history</hi>, where it is said that Antony lived at the time
+                    of Patriarch Dionysius of Tell Maḥre,<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text"> See J.W. Watt, “Antony of Tagrit as a student of
+                            Syriac poetry”, <hi rend="italic">Le Muséon </hi>98: 3-4 (1985), 263 and
+                            J.W. Watt, <hi rend="italic">The fifth book of the Rhetoric of Antony of
+                                Tagrit</hi>, CSCO 481, trans. (Louvain: Peeters, 1986), V-VII, for
+                            further references. </p></note> a remark that was embraced by Ignatius
+                        Barsoum.<note place="foot" xml:id="ftn10" n="10"><p xml:lang="en"> I.A. Barsoum,
+                                <hi rend="italic">The scattered pearls: a history of Syriac
+                                literature and sciences (translated by Matti Moosa)</hi>
+                                (Piscataway, NJ: Gorgias Press, 2003), 27 and 383-386, and I.A.
+                                Barsoum, <hi rend="italic">Geschichte der syrischen
+                                Wissenschaften und Literatur (aus dem Arabischen von G. Toro und A.
+                                Gorgis)</hi>, Eichstätter Beiträge zum Christlichen Orient 2,
+                                (Wiesbaden: Harrassowitz, 2012) 19 and 298-300. See also J.W. Watt,
+                                “Anṭun of Tagrit”, in<hi rend="italic"> Gorgias Encyclopedic
+                                Dictionary of the Syriac Heritage</hi>, eds. S.P. Brock et al.
+                                (Piscataway, NJ: Gorgias Press, 2011), 23. </p></note> However,
+                    there appears to be no concrete evidence to prove or reject this date, except
+                    for what Sebastian Brock and Lucas Van Rompay found inside the Deir al-Surian
+                        collection:<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">
+                            S.P. Brock and L. Van Rompay, <hi rend="italic">Catalogue of the Syriac
+                                manuscripts and fragments in the library of Deir al-Surian, Wadi
+                                al-Natrun (Egypt)</hi>, Orientalia Lovaniensia Analecta 227
+                            (Leuven-Paris-Walpole, MA: Uitgeverij Peeters en Department Oosterse
+                            Studies, 2014), 244.</p></note> a portion of a manuscript (Ms. Deir
+                    al-Surian, Syr. 32) containing Antony’s works, that turned out to be the lost
+                    part of the British Library manuscript Add. 17208. The two scholars have
+                    interpreted the handwriting as belonging to the 9<hi rend="superscript">th</hi>
+                    century, confirming the idea previously put forward by William Wright about the
+                    date of the BL portion.<note place="foot" xml:id="ftn12" n="12"><p xml:lang="en"> W.
+                                Wight, <hi rend="italic">Catalogue of Syriac manuscript in the
+                                British Museum</hi>, Vol. II (London: Gilbert and Rivington
+                                Printers, 1871), 613.</p></note>
+                </p>
+                <p xml:lang="en"> Concerning Antony’s treatises on <hi rend="italic">Rhetoric</hi>, which are
+                    complex and still not entirely studied, the translation and edition of the fifth
+                    book has been provided by Watt,<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text"> J.W. Watt, <hi rend="italic">The fifth book of the
+                                Rhetoric of Antony of Tagrit</hi>, CSCO 480-1, edition and
+                            translation, (Louvain: Peeters, 1986).</p></note> who complemented it
+                    with a conspicuous number of articles dealing with the topic of Syriac rhetoric
+                    in general. Pauline Eskenasy, on the other hand, chose the first book as the
+                    subject of her PhD thesis, which unfortunately was never published, and made a
+                    provisional translation and commentary, followed by a reproduction of the
+                    Harvard manuscript that she used for her study.<note place="foot" xml:id="ftn14"
+                        n="14"><p xml:lang="en"> P.E. Eskenasy, <hi rend="italic">Antony of Tagrit’s
+                                Rhetoric Book One: Introduction, partial translation and
+                                commentary</hi>, Unpublished PhD thesis (Harvard University,
+                                1991). </p></note> Sadly, the other books never experienced a
+                    translation or a proper critical edition, having also suffered from the
+                    complicated history of their manuscripts’ transmission and the poor state of
+                    conservation of some of their parts.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text"> For a detailed account on the manuscripts’
+                            transmission see J.W. Watt, “Antony of Tagrit as a student”, 264-266,
+                            J.W. Watt, <hi rend="italic">The fifth book</hi>, edition, XI-XXV and A.
+                            Corcella, “Due citazioni dalle <hi rend="italic">Etiopiche </hi>di
+                            Eliodoro nella <hi rend="italic">Retorica</hi> di Antonio di Tagrīt”,
+                                <hi rend="italic">Orientalia Christiana Periodica</hi> 74:2 (2008),
+                            390-391.</p></note> An attempt has been made by Eliya Sewan d-Bet
+                    Qermez, who published the complete set of Antony’s books:<note place="foot"
+                        xml:id="ftn16" n="16"><p xml:lang="en"> E. Sewan d-Bet Qermez, <foreign xml:lang="syr"
+                                    >ܟܬܒܐ ܥܠ ܐܘܡܢܘܬܐ ܕܪܗܛܪܘܬܐ ܣܝܡ ܠܐܢܛܘܢ ܪܝܛܘܪ ܬܓܪܝܬܝܐ</foreign>. 
+                            <hi rend="italic">The Book of the Rhetoric by Antony Rhitor of
+                                Tagrit</hi> (Stockholm: Författeres Bokmaskin, 2000).
+                        </p></note> the author used as his sources a copy, created in 1947, of
+                    the Jerusalem manuscript MS 230<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text"> Jerusalem, St Mark’s Monastery MS 230, fully
+                            digitalized, HMML project number SMMJ 00230. F.Y. Dōlabānī, <hi
+                                rend="italic">Catalogue of Syriac manuscripts in St Mark’s monastery
+                                (Dairo d-Mor Markos)</hi> (<hi rend="color(1E1E1E)">Damascus: Sidawi
+                                Printing House, </hi>1994), 485. </p></note> collated with another
+                    manuscript written by Asmar al-Khoury of ʿAinwardo (and, for the fifth book,
+                    with Watt’s edition).<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> A. Corcella, “Due citazioni”, 394.</p></note> The
+                    work is by no means a critical edition, but it still represents the only extant
+                    printed sample of the whole set of treatises.<note place="foot" xml:id="ftn19"
+                        n="19"><p rend="footnote text"> I am most grateful to Professor Aldo
+                            Corcella, who provided me with a reproduction of this work, otherwise
+                            impossible to find, in a very short time. </p></note>
+                </p>
+                <p xml:lang="en"> A problem posed by Antony’s texts and their relationship with Aristotle’s works
+                    is that the Syriac author never mentions the Greek philosopher by name. We can
+                    also assume, considering, for instance, the conceptual differences in Antony’s
+                    understanding of Aristotelian categories compared to the Greek “archetype”, that
+                    Antony might have owned a different version of <hi rend="italic">Techné
+                        Rhetoriké</hi>, which has not been transmitted to us.<note place="foot"
+                        xml:id="ftn20" n="20"><p xml:lang="en"> For some editions of the Greek text see M.
+                                Dufour, <hi rend="italic">Aristote Rhétorique. Tome
+                                premier (Paris: Société d’édition </hi><hi rend="italic"
+                                >« Les Belles Lettres »</hi>, 1932), M. Dufour, <hi
+                                rend="italic">Aristote Rhétorique. Tome deuxième</hi> (Paris:
+                                Société d’édition <hi rend="italic">« Les Belles Lettres »,
+                                </hi>1938), M. Dufour and A. Wartelle, <hi rend="italic"
+                                >Aristote Rhétorique. Tome troisième</hi> (Paris: Société
+                                d’édition <hi rend="italic">« Les Belles Lettres »</hi>,
+                                1973) and R. Kassel, <hi rend="italic">Aristotelis Ars
+                                Rhetorica</hi> (Berlin-New York: De Gruyter, 1976). For a
+                                lexicon see A. Wartelle, <hi rend="italic">Lexique de la
+                                «Rhétorique» d’Aristote</hi> (Paris: Belles Lettres, 1982).
+                            </p></note> As Watt phrased it:</p>
+                <cit>
+                    <quote>If Antony learned his theory directly from a Greek handbook, it must have
+                        been very different from any manual known to us, or he must have treated it
+                        with considerable freedom. Since in philosophy Syriac has preserved versions
+                        of late antique compilations of which the originals have been lost, it is by
+                        no means impossible that behind Antony’s treatise lies some lost Greek
+                        rhetorical <hi rend="italic">Art</hi>. But the curious mixture of the
+                        familiar and the strange which this work presents to us makes it possible to
+                        suppose that in the Syro-Mesopotamian area there was a tradition of
+                        rhetorical teaching which had developed in its own particular way.<note
+                            place="foot" xml:id="ftn21" n="21"><p rend="footnote text"> J.W. Watt,
+                                “Syriac rhetorical theory and the Syriac tradition of Aristotle’s
+                                    <hi rend="italic">Rhetoric</hi>”, in <hi rend="italic"
+                                    >Peripatetic Rhetoric after Aristotle</hi>, Rutgers University
+                                Studies in Classical Humanities 6, eds. W.W. Fortenbaugh et al. (New
+                                Brunswick, NJ: Transaction Publishers, 1994), 253-254.</p></note>
+                    </quote>
+                </cit>
+                <p xml:lang="en">It is also necessary to establish whether or not Antony was able to read Greek,
+                    and to what extent. However, the scanty information on Antony that we have at
+                    our disposal makes it hard to answer this question with certainty. Moreover, as
+                    Aaron Butts highlighted,<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text"> A.M. Butts, “The Graeco-Roman context of the
+                            Syriac language”, in <hi rend="italic">Les auteurs syriaques et leur
+                                langue</hi>, Études Syriaques 15, ed. M. Farina (Paris: Geuthner,
+                            2018), 141-142.</p></note> the use of loanwords by a writer tells
+                    nothing about whether or not he was exposed to the second language, since it
+                    only testifies that the language in use, in this case Syriac, had contacts, at a
+                    certain moment, with another language, that provided it with the loanwords. </p>
+                <p xml:lang="en"> The reading of Antony’s treatises may represent an additional resource for
+                    determining the period he lived in, specifically with regard to his prose and
+                    the language he uses. The impression one gets is that of a quite late Syriac,
+                    clearly not in its early classical stage: the texts display, for instance,
+                    plenty of finite verbs instead of the abundance of participles characterizing
+                    Late Aramaic style.<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text"> On the syntax of participles in classical Syriac
+                            see Th. Nöldeke, <hi rend="italic">Compendious Syriac grammar
+                                (translated by J.A. Crichton)</hi> (London: Williams and Norgate,
+                            1904), 211-221. </p></note> His use of the first person singular
+                    (alternated sometimes with the plural) is another interesting feature, probably
+                    to be explained in the light of the ultimate aim of his work, which was intended
+                    as a hard copy for students. This idea is also supported by the richness of
+                    examples that the author provides, which would not have been necessary if we
+                    were to exclude a didactic aim: this abundance ultimately makes the work not
+                    easy to read. In the light of all this, Antony’s prose often appears heavy and
+                    repetitive, but testifies to a certain knowledge of the works of his
+                    forerunners, that are frequently quoted.<note place="foot" xml:id="ftn24" n="24"
+                            ><p rend="footnote text"> The Greek works quoted were probably taken
+                            from a Syriac translation rather than from the Greek originals. See,
+                            among others, J.W. Watt, “Literary and philosophical rhetoric”, 144, and
+                            M. Farina, “Rhétorique en syriaque”, in <hi rend="italic">Encyclopédie
+                                de l’humanisme méditerranéen</hi>, ed. H. Touati (Online, available
+                            at <ref
+                                target="http://encyclopedie-humanisme.com/%20?Rhetorique-en-syriaque"
+                                >http://encyclopedie-humanisme.com/ ?Rhetorique-en-syriaque</ref>
+                            [accessed: 28 September 2018], 2015). </p></note> Barsoum, on the other
+                    hand, had a different opinion, accounting Antony’s style as ‘grand and
+                    eloquent’, and reporting that he also studied Greek. However, he did not provide
+                    evidence to sustain these statements and he did not state the basis on which
+                    they rest.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"> I.E.
+                            Barsoum, <hi rend="italic">The scattered pearls</hi>, 383-384, and I.E.
+                            Barsoum, <hi rend="italic">Geschichte </hi>, 298-299.</p></note></p>
+            </div>
+            <div>
+                <head>The Arabic Version</head>
+                <p xml:lang="en">As previously stated, Antony’s books are based, to a certain extent, on
+                    Aristotelian material, even though it was probably not written in Greek:
+                    actually, Antony might also have relied upon a Syriac translation of Aristotle’s
+                        <hi rend="italic">Rhetoric</hi>,<note place="foot" xml:id="ftn26" n="26"><p
+                            rend="footnote text"> Watt (personal communication) disagrees with this
+                            statement, accounting instead Antony’s works and the Syriac translation
+                            as parallel and independent, both influenced by an earlier Syriac
+                            rhetorical tradition. </p></note> as did the author of the only extant
+                    Arabic version. Actually, this Arabic translation is preserved in a single
+                    manuscript, the <hi rend="italic">Bibliothèque Nationale de France Ms. Arabe
+                        2346</hi> in Paris,<note place="foot" xml:id="ftn27" n="27"><p xml:lang="en"> This
+                                important manuscript also contains the other treatises comprising
+                                the Alexandrian <hi rend="italic">Organon</hi>: Porphyry’s
+                                <hi rend="italic">Isagoge</hi>, <hi rend="italic"
+                                >Categories</hi>, <hi rend="italic">De
+                                Interpretatione</hi>,
+                            <hi rend="italic">Prior Analytics</hi>,
+                            <hi rend="italic">Posterior Analytics</hi>,
+                            <hi rend="italic">Sophistical Refutations</hi>, <hi
+                                rend="italic">Topics</hi> and <hi rend="italic"
+                                >Poetics</hi>. For a complete analysis of the manuscript see H.
+                                Hugonnard-Roche, “Remarques sur la tradition arabe de l’Organon
+                                d’après le manuscrit Paris, Bibliothèque Nationale Ar. 2364”, in
+                                <hi rend="italic">Glosses and commentaries on Aristotelian
+                                logical texts: the Syriac, Arabic and medieval Latin
+                                traditions</hi>, Warburg Institute Surveys and Texts 23, ed. Ch.
+                                Burnett, (London: Warburg Institute, 1993), 19-28.</p></note>
+                    and displays some glosses in which the author explains that the work is based on
+                    two other Arabic manuscripts and a Syriac version.<note place="foot"
+                        xml:id="ftn28" n="28"><p xml:lang="en"> See M.C. Lyons, <hi rend="italic"
+                                >Aristotle’s Ars Rhetorica: the Arabic version</hi>. <hi
+                                rend="italic">A new edition with Commentary and Glossary</hi>
+                                (Cambridge: Pembroke Arabic Text, 1982), II-III, E. Panoussi, “The
+                                unique Arabic manuscript of Aristotle’s <hi rend="italic">Ars
+                                Rhetorica</hi> and its two editions published to date by
+                                ʽAbdurraḥmān Badawī and by M[alcom] C. Lyons”, in <hi
+                                rend="italic">Consciousness and Reality: Studies in Memory of
+                                Toshihiko Izutsu</hi>, Islamic Philosophy, Theology and Science.
+                                Texts and Studies 38, eds. S.J.ad-D. Āshtiyānī et al.
+                                (Leiden-Boston: Brill 2000), 236-238), and U. Vagelpohl, <hi
+                                rend="italic">Aristotle’s Rhetoric in the East: the Syriac and
+                                Arabic translation and commentary tradition</hi>, Philosophy,
+                                Theology and Science. Texts and Studies 76, (Leiden – Boston: Brill,
+                                2008), 59.</p></note> The production of this text must have
+                    required a certain ‘critical’ method, given that the author claims to have had
+                    at hand a good Arabic copy and a poorer (but still valuable) other Arabic one,
+                    while, whenever the two were not sufficient to him, he turned to a Syriac copy,
+                    apparently considered the soundest by him.<note place="foot" xml:id="ftn29"
+                        n="29"><p rend="footnote text"> U. Vagelpohl, <hi rend="italic">Aristotle’s
+                                Rhetoric</hi>, 51-61, expresses some doubts about the existence of a
+                            Syriac version, saying only that ‘it is not unlikely that the <hi
+                                rend="italic">Rhetoric</hi> and <hi rend="italic">Poetics</hi> were
+                            at some point translated into Syriac’ (p. 57). Admittedly though, later
+                            he says that ‘So far, all we can say with some assurance is that Syriac
+                            authors were probably acquainted with the text but that does not require
+                            the existence of written or textual knowledge. As it is, the only
+                            reliable witness for the existence of a Syriac translation – which we
+                            are not in a position to date – is the Arabic <hi rend="italic"
+                                >Rhetoric</hi> itself. There are two types of evidence that have
+                            been derived from the Arabic translation: Ibn al-Samḥ’s marginal notes
+                            referring to a Syriac version; and terminological features of the
+                            translation that point to a Syriac source text’ (p. 59). Vagelpohl then
+                            criticizes M.C. Lyons, <hi rend="italic">Aristotle’s Ars Rhetorica</hi>,
+                            II-VIII and XXV-XXVI, and E. Panoussi, “The unique Arabic manuscript”,
+                            for taking the existence of the Syriac version for granted, and
+                            concludes that the evidences provided by them are far from being
+                            conclusive (pp. 60-61). </p></note> The extant Arabic version was also
+                    the one used by Hermannus Alemannus to compose his Latin version of the text, a
+                    circumstance that provides us with some help to decrypt certain obscure passages
+                    comprised in the Arabic manuscript.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text"> See the reconstruction provided by M.C. Lyons, <hi
+                                rend="italic">Aristotle’s Ars Rhetorica</hi>, XVI-XXI and XVI-XXI.
+                        </p></note>
+                </p>
+                <p xml:lang="en"> If the author, or rather the editor,<note place="foot" xml:id="ftn31" n="31"><p
+                            rend="footnote text"> H. Hugonnard-Roche, “L’intermédiaire syriaque dans
+                            la transmission de la philosophie grecque à l’arabe: le cas de l’<hi
+                                rend="italic">Organon</hi> d’Aristote”, <hi rend="italic">Arabic
+                                Science and Philosophy</hi> 1 (1991), 195.</p></note> of the Arabic
+                    manuscript was, as it seems, Ibn al-Samḥ,<note place="foot" xml:id="ftn32"
+                        n="32"><p rend="footnote text"> M.C. Lyons, <hi rend="italic">Aristotle’s
+                                Ars Rhetorica</hi>, III-IV. </p></note> the text must have been
+                    written before 1027, which is the year of his death, and this would imply that
+                    the work significantly predates those of both Bar Hebraeus and Bar Šakko. The
+                    rhetorical portion of the Parisian manuscript has been edited for the first time
+                    by ʿAbdulraḥmān Badawī<note place="foot" xml:id="ftn33" n="33"><p xml:lang="en"> ʿA. Badawī,
+                                <hi rend="italic">Arisṭūṭālīs: al-ḫiṭābah. al-tarǧamah al-ʿarabīyah
+                                al-qadīmah</hi>, Dirāsāt ʾislāmīyah 23 (al-Kuwait: Wakālah
+                            al-maṭbūʿāt / Beirut (Liban): Dār al-qalam, 1959). </p></note> and later
+                    by Malcom Lyons, who also provided a Greek-based commentary and a bilingual
+                    Greek-Arabic and Arabic-Greek glossary.<note place="foot" xml:id="ftn34" n="34"
+                            ><p rend="footnote text"> M.C. Lyons, <hi rend="italic">Aristotle’s Ars
+                                Rhetorica</hi>. For a complete bibliography of all the Arabic works
+                            dealing with Aristotelian rhetoric see M. Aouad, “La Rhétorique.
+                            Tradition syriaque et arabe”, in <hi rend="italic">Dictionnaire des
+                                philosophes antiques</hi>, <hi rend="italic"> Volume I</hi>, ed. R.
+                            Goulet (Paris: Éditions du CNRS, 1981) and M. Aouad, “La <hi
+                                rend="italic">Rhétorique</hi>. Tradition arabe”, in <hi
+                                rend="italic">Dictionnaire des philosophes antiques.
+                            Supplément</hi>, ed. R. Goulet (Paris : CNRS éditions, 2003).</p></note>
+                    None of these works display a translation, though a partial translation was made
+                    by Uwe Vagelpohl,<note place="foot" xml:id="ftn35" n="35"><p
+                            rend="footnote text"> U. Vagelpohl, <hi rend="italic">Aristotle’s
+                                Rhetoric</hi>, 62-180, translated the first half of the third book
+                            of the Arabic <hi rend="italic">Rhetoric</hi> into English, commenting
+                            upon it. He also provided a bilingual glossary of the terminology he
+                            analyzed (pp. 216-327). </p></note> leaving the task of the realization
+                    of a comprehensive version in a modern language still a <hi rend="italic"
+                        >desideratum</hi>. Additionally, the lack of an Arabic-based commentary,
+                    that uses the actual strings of text displayed by the edition, makes this work
+                    hard to handle. Besides, the extant Arabic text is complicated and occasionally
+                    impenetrable: moreover, it differs from the alleged Greek archetype in
+                    numberless cases, probably due also to the misunderstanding of certain Syriac
+                    words that were mistranslated into Arabic.<note place="foot" xml:id="ftn36"
+                        n="36"><p xml:lang="en"> See M.C. Lyons, <hi rend="italic">Aristotle’s Ars
+                                Rhetorica,</hi> Commentary, and E. Panoussi, “The unique Arabic
+                                manuscript”, 234-235. U. Vagelpohl, “Reading and commenting on
+                                Aristotle’s <hi rend="italic">Rhetoric </hi>in Arabic”, in
+                                <hi rend="italic">Reading the past across space and time:
+                                receptions and world literature</hi>, Geocriticism and Spatial
+                                Literary Studies, eds. B.D. Schildgen and R. Hexter (New York:
+                                Palgrave Macmillan, 2016), 169, suggests that some mistakes in the
+                                Arabic translation might be due to the nature of Greek manuscripts
+                                containing Aristotle’s <hi rend="italic">Rhetoric</hi>,
+                                with their capital letters, their <hi rend="italic">scriptio
+                                continua</hi> and no separating space or punctuation. Moreover,
+                                he also supposes that the author of the Arabic translation, unsure
+                                about the exact meaning of some passages, might have turned to a
+                                very literal translation technique. </p></note> The text
+                    carries traces of so-called ‘demotic forms’ and colloquial variants, mixed with
+                    inexplicable grammatical mistakes.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text"> M.C. Lyons, <hi rend="italic">Aristotle’s Ars
+                                Rhetorica</hi>, XIII-XVI. W. Heinrichs, “Review of <hi rend="italic"
+                                >Aristotle’s Ars Rhetorica</hi> by Malcom C. Lyons”, <hi
+                                rend="italic">Zeitschrift für Geschichte der Arabisch-Islamichen
+                                Wissenschaften</hi> 1 (1984), 315, adds that the presence of this
+                            feature is actually normal in this kind of texts, since they were
+                            composed in “Middle-Arabic”.</p></note> This, combined with Aristotle’s
+                    elliptic prose, which must have puzzled both the Syriac and the Arabic
+                    translators, and that the matter might have not been too familiar to them both,
+                    brought about the extant text and its critical issues.<note place="foot"
+                        xml:id="ftn38" n="38"><p rend="footnote text"> On the oddities in this
+                            Arabic text see also D.S. Margoliouth, “On the Arabic version of
+                            Aristotle’s Rhetoric”, in <hi rend="italic">Semitic studied in memory of
+                                Rev. Dr. Alexander Kohut</hi>, ed. G.A. Kohut (Berlin: S. Calvary
+                            and Co, 1897).</p></note>
+                </p>
+                <p xml:lang="en"> The first Arabic translation must have been produced during the so-called
+                    ‘Greek-to-Arabic Translation Movement’, a label used to denote a massive wave of
+                    interest, started around the 8<hi rend="superscript">th</hi> century and
+                    continuing roughly until the end of the 10<hi rend="superscript">th</hi>, among
+                    Arab intellectuals towards Greek knowledge and works, which triggered the
+                    translation of a great deal of books. The major contribution to this topic has
+                    been provided by Dimitri Gutas, who is however skeptical about the importance of
+                    the role played by the Syrians as the channel through which the Greek knowledge
+                    passed to the Arabs.<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text"> D. Gutas, <hi rend="italic">Greek thought, Arabic
+                                culture. The Graeco-Arabic translation movement in Baghdad and Early
+                                ʽAbbāsid Socienty (2</hi><hi rend="italic superscript">nd</hi><hi
+                                rend="italic">-4</hi><hi rend="italic superscript">th</hi><hi
+                                rend="italic">/8</hi><hi rend="italic superscript">th</hi><hi
+                                rend="italic">-10</hi><hi rend="italic superscript">th</hi><hi
+                                rend="italic"> centuries)</hi> (London: Routledge, 1998), passim. A
+                            different approach has been very recently expressed, for instance, by
+                            S.C. Barry, “Was Ḥunayn Ibn Isḥāq the author of the Arabic translation
+                            of Paul of Aegina’s Pragmateia? Evidence from the Arabic translations of
+                            the Hippocratic Aphorisms and the Syriac lexicons of Bar Bahlul and Bar
+                            ʿAli”, <hi rend="italic">Journal of Semitic Studies</hi> 63:2 (2018),
+                            459-460, who explains which role the Syrian élite played in this
+                            movement. See also S.P. Brock, “Greek into Syriac and Syriac into
+                            Greek”, <hi rend="italic">Journal of the Syriac Academy (Baghdad</hi>) 3
+                            (1977), C.A. Ciancaglini, “Traduzioni e citazioni dal greco in siriaco e
+                            aramaico”, in<hi rend="italic"> I Greci: storia, cultura, arte, società.
+                                Vol. 3: I Greci oltre la Grecia</hi>, Grandi Opere, ed. S. Settis
+                            (Torino: Einaudi, 2001), J.W. Watt, “Greek philosophy”, 12-13, and S.C.
+                            Barry, <hi rend="italic">Syriac medicine and </hi><hi rend="italic"
+                                >Ḥunayn ibn Isḥāq’s Arabic translation of the Hippocratic
+                                aphorisms</hi>, Journal of Semitic Studies Supplement 39 (Oxford:
+                            Oxford University Press, 2018), XI-XVI.</p></note> The same attitude,
+                    specifically about the role of a Syriac version of <hi rend="italic">Rhetoric
+                    </hi>as the source of the Arabic one, is expressed by Vagelpohl, who concludes
+                    that: </p>
+                <p rend="H Quote Block">In the end, the textual evidence may be sufficient to make a
+                    Syriac intermediary “likely”, but it does not amount to conclusive proof.
+                    Irrespective of Watt’s arguments for a Syriac translation of the <hi
+                        rend="italic">Rhetoric </hi>antedating Ḥunayn ibn Isḥāq and its potential
+                    role in the production of our Arabic version, the contribution of the Syriac
+                    translators to the Aristotelian rhetorical tradition in the Islamic world seems
+                    negligible beyond faint echoes and vague influences.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text"> U. Vagelpohl, <hi
+                                rend="italic">Aristotle’s Rhetoric</hi>, 61. About the creation of
+                            the Arabic version itself, more recently U. Vagelpohl, “Reading and
+                            commenting”, 167, stated that it was created in an early phase of the
+                            translation movement, and thus is likely to be the “old translation”
+                            mentioned in the Ibn al-Nadīm’s <hi rend="italic">Catalogue
+                                (Fihrist)</hi>. </p></note></p>
+                <p xml:lang="en"> Watt’s arguments in question are those put forward in the lucid analysis hosted
+                    in the introduction to his edition and translation of the <hi rend="italic"
+                        >Cream of wisdom</hi>:<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text"> J.W. Watt, <hi rend="italic">Aristotelian
+                                Rhetoric</hi>, 3-34.</p></note> in short, Watt writes that the
+                    Syriac translation was composed before the famous translator Ḥunayn ibn Isḥāq
+                    (808-873 CE)<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">
+                            See also M. Aouad, “Les fondements de la <hi rend="italic"
+                                >Rhétorique</hi> d’Aristote reconsidérés par Fārābī, ou le concept
+                            de point de vue immédiat et commun”, <hi rend="italic">Arabic Sciences
+                                and Philosophy</hi> 2 (1992), 163. </p></note> and that Bar
+                    Hebraeus, in composing the only extant Syriac commentary to Aristotle’s <hi
+                        rend="italic">Rhetoric</hi>, used a Syriac version of this latter text, that
+                    was, admittedly: </p>
+                <cit>
+                    <quote>much closer to the Old Arabic<note place="foot" xml:id="ftn43" n="43"><p
+                                rend="footnote text"> By ‘Old Arabic’ edition, Watt means the text
+                                used as the source of the one preserved in the Bibliothèque
+                                Nationale de France Ms. Arabe 2346. </p></note> than to any Greek
+                        recension known to us, yet quite frequently it uses the very same Greek
+                        (loan) words as are present in the Greek text of Aristotle, where the Old
+                        Arabic (and Ibn Sīnā) use a native Arabic term (p. 8).</quote>
+                </cit>
+                <p xml:lang="en"> This paper will use Watt’s solid argument<note place="foot" xml:id="ftn44"
+                        n="44"><p rend="footnote text"> J.W. Watt, <hi rend="italic">Aristotelian
+                                rhetoric</hi>, 24: ‘While the use of a Greek loanword current in
+                            Syriac proves nothing in itself, when that loanword is the very word in
+                            the Greek text of Aristotle, and the Arabic texts (ARar and IS) in the
+                            same passage use a native Arabic term (or do not give it at all), that
+                            strongly suggests that the loanword lay before Bar Hebraeus in a Syriac
+                            version of the <hi rend="italic">Rhetoric</hi>’ [ARar: Arabic version of
+                                <hi rend="italic">Rhetoric</hi>. IS: Ibn Sīnā’s Commentary to <hi
+                                rend="italic">Rhetoric</hi> in the <hi rend="italic">Kitāb
+                                al-Šifāʾ</hi>]. </p></note> in order to show how the presence of
+                    loanwords vs. native words points to the use of a Syriac text as the source of
+                    the Arabic version. Moreover, in the light of the massive work of translation
+                    from Greek into Syriac, and later into Arabic, that started in Late Antiquity,
+                    there is no reason to infer that the lack of a manuscript containing a Syriac
+                    version of Aristotle’s <hi rend="italic">Rhetoric</hi> implies that it never
+                    existed at all. </p>
+            </div>
+            <div>
+                <head>A Trilingual Approach and Some Examples</head>
+                <p xml:lang="en">In order to understand how the technical vocabulary of rhetoric developed
+                    throughout the Syriac and Arabic environments, a comparative trilingual
+                    approach, including also Greek terminology, proves to be a good starting point.
+                    Actually, rhetoric has not been investigated extensively as other sciences have
+                    been, probably also due to the fact that, normally, it does not fit into those
+                    categories such as, for instance, philosophy (at least in its modern concept),
+                    that have received greater attention by scholars. Admittedly, in a recent paper
+                    about the creation of a Syriac philosophical lexicon, King discussed the
+                    opportunity of including the subject within this kind of corpus,<note
+                        place="foot" xml:id="ftn45" n="45"><p xml:lang="en"> D. King, “Remarks on the future
+                                of a Syriac lexicon based upon the corpus of philosophical texts”,
+                                in <hi rend="italic">Reflections on lexicography</hi>,
+                                Perspectives on Linguistics and Ancient Languages 4, eds. R.A.
+                                Taylor and C. E. Morrison C.E. (Piscataway, NJ: Gorgias Press,
+                                2014), 74. </p></note> arguing that Bar Šakko and Bar Hebraeus
+                    treated <hi rend="italic">Rhetoric</hi> as part of the <hi rend="italic"
+                        >Organon</hi>, as was customary for the users of the Alexandrian extended
+                    version of Aristotle’s <hi rend="italic">Organon</hi>,<note place="foot"
+                        xml:id="ftn46" n="46"><p xml:lang="en"> On the history of the transmission of
+                                Aristotelian logic from Greek into Syriac, see H. Hugonnard-Roche,
+                                <hi rend="italic">La logique d’Aristote du grec au syriaque:
+                                études sur la transmission des textes de l’Organon et leur
+                                interprétation philosophique</hi>, Textes et Traditions 9
+                                (Paris: Vrin, 2004). </p></note> even though it would not be
+                    considered today as philosophy <hi rend="italic">strictu sensu</hi>, and he
+                    concludes by saying that Arabic philosophy can serve as a tool to understand
+                    late Syriac authors.<note place="foot" xml:id="ftn47" n="47"><p
+                            rend="footnote text"> D. King, “Remarks”, 77.</p></note> Regardless of
+                    the contemporary position of rhetoric inside the philosophical sciences, a
+                    linguistic analysis comparing the vocabulary of the three languages – Greek,
+                    Syriac and Arabic – allows new perspectives about the history of this science
+                    and helps to trace the path of some phenomena involving the migration of words
+                    throughout centuries. </p>
+                <p xml:lang="en"> This kind of analysis provides, <hi rend="italic">inter alia</hi>, new evidences
+                    about the knowledge that Antony of Taġrit might have had of Greek, and about
+                    what kind of texts he was looking at while composing his treatises. Since he
+                    was, most likely, a teacher of rhetoric, he should have been at least acquainted
+                    with Greek tradition, but considering his (apparently unaware) use of Greek
+                    technical terms, he does not appear too familiar with rhetorical works composed
+                    in this language. He might also have used a Syriac version of Aristotle’s work
+                    rather than its Greek original, as already stated, a conclusion that might be
+                    supported by the confusion he makes between certain concepts, which he uses as
+                    interchangeable and that would not have been misinterpreted if his source had
+                    been a Greek one. An interesting example is provided by the words
+                    <foreign xml:lang="syr">ܐܦܘܕܝܟܣܐ</foreign>/<foreign xml:lang="syr">ܐܦܘܕܝܟܣܝܣ</foreign> and <foreign xml:lang="syr">ܬܚܘܝܬܐ</foreign> used, for instance, in <hi rend="italic">The fifth
+                        book of Rhetoric</hi>. Antony uses them both with the meaning of
+                    ‘demonstration’, even though they correspond to two different Greek technical
+                    terms: the first one is a loanword from <foreign xml:lang="gr"
+                        >ἀπόδειξις</foreign>, while the second one corresponds to Greek <foreign
+                        xml:lang="gr">παράδειγμα</foreign>.<note place="foot" xml:id="ftn48" n="48"
+                            ><p rend="footnote text"> It should be stressed, though, that Syriac
+                            displays as well the loanword <foreign xml:lang="syr">ܦܪܕܝܓܡܐ</foreign>,
+                            meaning ‘paradigm’. However, this loanword is absent from Antony’s fifth
+                            treatise, but it can be spotted in Bar Hebraeus’s rhetorical work (see
+                            J.W. Watt, <hi rend="italic">Aristotelian rhetoric</hi>, 70).
+                        </p></note> Antony uses <foreign xml:lang="syr">ܐܦܘܕܝܟܣܐ</foreign> three
+                    times in his fifth book, while he uses <foreign xml:lang="syr">ܬܚܘܝܬܐ</foreign>
+                    constantly, with the meaning of ‘example’, ‘argument’, and ‘epidictic’<note
+                        place="foot" xml:id="ftn49" n="49"><p rend="footnote text"> See, for
+                            instance, this usage at page 64 and 65 of Watt’s 1986 edition.
+                        </p></note> as well. Therefore, a couple of times, he uses it with the clear
+                    meaning of ‘demonstration’, suggesting that he did not have the Greek technical
+                    word in mind, that would have suggested <foreign xml:lang="gr"
+                        >ἀπόδειξις</foreign> instead. <foreign xml:lang="syr">ܐܦܘܕܝܟܣܐ</foreign> can
+                    also be found in the Arabic translation of <hi rend="italic">Rhetoric</hi> as
+                        <foreign xml:lang="ar">افودقطيقيّا</foreign>,<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text"> The word is absent from G.
+                            Endress and D. Gutas, <hi rend="italic">A Greek and Arabic lexicon
+                                (GALex): materials for a dictionary of the medieval translations
+                                from Greek into Arabic</hi> (Leiden: Brill, 1992-). </p></note>
+                    rather a loanword from <foreign xml:lang="gr">ἀποδεικτική</foreign>, but more
+                    often this text features <foreign xml:lang="ar">تثبيت</foreign>. Attempted
+                    conclusions to explain this latter phenomenon will be provided later. The
+                    situation is represented also in Bar Hebraeus’s <hi rend="italic">Cream of
+                        wisdom</hi>: the author uses <foreign xml:lang="syr">ܐܦܘܕܝܩܛܝܩܐ</foreign> –
+                    again a loanword from <foreign xml:lang="gr">ἀποδεικτική</foreign> – and
+                        <foreign xml:lang="syr">ܬܚܘܝܬܐ</foreign> as synonyms, indicating that there
+                    was no clear perception of the Greek technical term at this stage as well.<note
+                        place="foot" xml:id="ftn51" n="51"><p rend="footnote text"> G. Endress,
+                            “Bilingual lexical materials in the Arabic tradition of the Hellenistic
+                            sciences”, in <hi rend="italic">Lexiques bilingues dans les domaines
+                                philosophique et scientifique (Moyen Âge – Renaissance)</hi>, Textes
+                            et études du moyen âge 14, eds. J. Hamesse and D. Jacquart (Turhout:
+                            Brepols 2001), 162, remarked something similar in bilingual lexicons,
+                            stating that the explanation of Greek loanwords in Syriac was due to a
+                            progressive fading of Greek knowledge already in the 9<hi
+                                rend="superscript">th</hi> century. </p></note> Therefore, the
+                    correspondence between Greek, Syriac and Arabic words, in this case, fluctuates
+                    and appears not to be fixed.</p>
+                <p xml:lang="en"> However, going back to Antony’s fifth treatise, the author seems at least partly
+                    aware of Greek technical vocabulary when he uses loanwords such as ܠܟܣܝܣ &lt;
+                        <foreign xml:lang="gr">λέξις</foreign> ‘style, way of speaking’ or <foreign
+                        xml:lang="syr">ܛܘܦܣܐ</foreign> &lt; <foreign xml:lang="gr">τύπος</foreign>
+                    ‘figure, metaphor’, even though it is possible to spot some other examples
+                    looking quite straightforward while concealing interesting phenomena: this is
+                    the case of some loanwords bearing initial <foreign xml:lang="gr">ῥ</foreign>.
+                    According to Butts,<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text"> A.M. Butts, “The integration of consonants in
+                            Greek loanwords in Syriac”, <hi rend="italic">Aramaic Studies</hi> 14
+                            (2016), 20-24.</p></note> the history of Greek loanwords bearing
+                        <foreign xml:lang="gr">ρ</foreign> with <hi rend="italic">spiritus
+                        asper</hi> mirrors their chronology. To be precise, initial <hi
+                        rend="italic">spiritus asper</hi> was pronounced in Attic Greek as a
+                    voiceless glottal fricative /h/ until Late Antiquity, when it apparently ceased
+                    to be pronounced.<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text"> A.M. Butts, <hi rend="italic">Language change in
+                                the wake of Empire: Syriac in its Greco-Roman context</hi>,
+                            Linguistic Studies in Ancient West Semitic 11 (Winona Lake: Eisenbrauns,
+                            2016), 75. For an account on the realization and evolution of word
+                            initial <hi rend="italic">spiritus asper</hi> see T. Harviainen, “On the
+                            loss of the Greek /h/ and the so-called aspirated rhō”, <hi
+                                rend="italic">Studia Orientalia</hi> 45 (1976). </p></note> Butts
+                    states, for initial <foreign xml:lang="gr">ῥ</foreign>, that it ‘was realized as
+                    a voiceless alveolar trill /r̥/ in Attic Greek’ that turned into a voiced
+                    alveolar trill /r/ in the Roman period.<note place="foot" xml:id="ftn54" n="54"><p xml:lang="en">
+                            A.M. Butts, <hi rend="italic">Language change</hi>, 20. See
+                                also W.S. Allen, <hi rend="italic">Vox Graeca: a guide to the
+                                pronunciation of Classical Greek</hi>, 3<hi
+                                rend="superscript">rd</hi> edition (Cambridge: Cambridge
+                                University Press, 1987) 41-45. H. Gzella, “Review of <hi
+                                rend="italic">Language change in the wake of the Empire</hi> by
+                                A.M. Butts”, <hi rend="italic">Bibliotheca Orientalis</hi>
+                                73: 5-6 (2016), 766, suggests that, comparing for instance Palmyrene
+                                Aramaic examples, the changing in the realization of the 
+                            <hi rend="italic">spititus asper</hi> might be conditioned by
+                                historical spelling.</p></note> The Syriac graphic reflex of
+                    this phoneme was ܪܗ for loanwords acquired by the 5<hi rend="superscript"
+                        >th</hi> century, while later it is represented by a simple ܪ, since,
+                    according to Butts, the pronunciation of <foreign xml:lang="gr">ῥ</foreign>
+                    changed in the meantime. This <foreign xml:lang="gr">ῥ</foreign> phenomenon is
+                    represented in the orthography of the word for ‘rhetoric’ itself, as Antony’s
+                    text preserves both <foreign xml:lang="syr">ܪܗܛܪܘܬܐ</foreign> and <foreign
+                        xml:lang="syr">ܪܝܛܘܪܝܩܝ</foreign>. According to the spelling of the
+                    reflection of the initial <foreign xml:lang="gr">ῥ</foreign>, the former example
+                    is the more ancient form, which entered Syriac before the 5<hi
+                        rend="superscript">th</hi> century, while the latter is a new loanword
+                    reflecting the shift in the realization of initial <foreign xml:lang="gr"
+                        >ῥ</foreign>. Under the morphological point of view, the two borrowing
+                    strategies appear very different: <foreign xml:lang="syr">ܪܗܛܪܘܬܐ</foreign>, the
+                    older one, bears the Syriac suffix <hi rend="italic">–u</hi><hi rend="italic"
+                        >ṯā</hi> used to derive abstract substantives,<note place="foot"
+                        xml:id="ftn55" n="55"><p rend="footnote text"> S.P. Brock, “Secondary
+                            Formations from Greek Loanwords in Syriac”, in <hi rend="italic">Verbum
+                                et calamus. Semitic and Related Studies in Honour of the Sixtieth
+                                Birthday of Professor Tapani Harviainen</hi>, Studia Orientalia
+                            published by the Finnish Oriental Society 99, eds. H. Juusola et al.
+                            (Helsinki: The Finnish Oriental Society, 2004) 32-33, A.M. Butts, “The
+                            use of Syriac derivational suffixes with Greek loanwords”, <hi
+                                rend="italic">Orientalia </hi>83 (2014), 209-217, and A.M. Butts,
+                                <hi rend="italic">Language change</hi>, 124. Incidentally, this
+                            strategy is still productive in modern Neo-Aramaic dialects, like the
+                            one spoken in Arbel. For instance, this derivational suffix is used in
+                            combination with a loanword from Kurdish like <hi rend="italic"
+                                >pyş-</hi> (‘dirt’), giving as an outcome <hi rend="italic">pisānúla
+                            </hi>(‘decomposition’), with the passage of the dental spirant /ṯ/ to
+                            /l/ (G. Khan, <hi rend="italic">A grammar of Neo-Aramaic. The dialect of
+                                the Jews of Arbel</hi>, Handbook of Oriental Studies. Section 1: The
+                            Near and Middle East 47 (Leiden-Boston: Brill, 1999) 422.14). Elsewhere,
+                            Khan (<hi rend="italic">The Neo-Aramaic dialect of Barwar</hi>.<hi
+                                rend="italic"> Volume one: Grammar</hi>, Handbook of Oriental
+                            Studies. Section 1: The Near and Middle East 96 (Leiden-Boston: Brill,
+                            2008), 358-360) collected a series of nouns, belonging to the Christian
+                            Neo-Aramaic dialect of Barwar, that use this strategy: the derivational
+                            suffix works both with native nouns and with loanwords, like the Arabic
+                            adjective <hi rend="italic">wājib </hi>(‘necessary’) that turns into <hi
+                                rend="italic">wajəbuṯa </hi>(‘duty’). </p></note> meaning that
+                    Syriac borrowed the word <foreign xml:lang="gr">ῥήτωρ</foreign> in the first
+                    place and only afterwards derived from it a word for ‘rhetoric’.<note
+                        place="foot" xml:id="ftn56" n="56"><p xml:lang="en"> S.P. Brock, “Greek words in
+                                Ephrem and Narsai: a comparative sample”, <hi rend="italic"
+                                >ARAM</hi>
+                            11-12 (1999-2000), 441, and A.M. Butts, “The use of Syriac
+                                derivational suffixes”, 213. T. Harviainen, “On the loss”, 29,
+                                failed to recognize this adaptation strategy, saying instead that
+                                    <foreign xml:lang="syr">ܪܗܛܪܘܬܐ</foreign> is a loanword from 
+                            <foreign xml:lang="gr">ῥητορῆσαι</foreign>, even though there is no
+                            reason to account a loanword of an abstract noun as coming from a verbal
+                            form.</p></note> The more recent loanword <foreign xml:lang="syr"
+                        >ܪܝܛܘܪܝܩܝ</foreign> appears to be the true borrowed reflex of <foreign
+                        xml:lang="gr">ῥητορική</foreign>, which does not need any derivational
+                    suffix. Combining the statements given so far, it is possible to trace the
+                    following timeline: considering that, according to Butts, <foreign
+                        xml:lang="syr">ܪܗܛܪܘܬܐ</foreign> form should be placed around the 5<hi
+                        rend="superscript">th</hi> century, and considering the orthography of the
+                    initial <foreign xml:lang="gr">ῥ</foreign> as simple ܪ, the <hi rend="italic"
+                        >terminus post quem</hi> of the <foreign xml:lang="syr">ܪܝܛܘܪܝܩܝ</foreign>
+                    loanword is to be placed after the 5<hi rend="superscript">th</hi> century.<note
+                        place="foot" xml:id="ftn57" n="57"><p rend="footnote text"> A.M. Butts, “The
+                            use of Syriac derivational suffixes”, 213.</p></note> Moreover, the
+                    presence of both loanwords in Antony’s text and the interchangeable way in which
+                    they are used mean that they were not perceived as having different
+                    connotations. </p>
+                <p xml:lang="en"> Later in time, the situation changes even more, as represented in Bar Hebraeus’s
+                        <hi rend="italic">Cream of wisdom</hi>: the author uses sparsely <foreign
+                        xml:lang="syr">ܪܗܛܪܘܬܐ</foreign>, <foreign xml:lang="syr">ܪܝܛܘܪܝܩܐ</foreign>
+                    and <foreign xml:lang="syr">ܪܗܝܛܘܪܝܩܐ</foreign>, since, probably, at that point
+                    the origin of loanwords was not meaningful anymore and the reasons for writing ܗ
+                    were not clear. Considering also that the writers and scribes were acquainted
+                    with both the <foreign xml:lang="syr">ܪܗ</foreign> and the <foreign
+                        xml:lang="syr">ܪ</foreign> reflexes in “rhetoric”, virtually nothing
+                    prevented them from creating another outcome, which looks like a recent loanword
+                    according to explanations given above, but bears the orthography <foreign
+                        xml:lang="syr">ܪܗ</foreign>. The same oscillation between two spellings of
+                    the word for rhetoric is to be found in the Arabic text as well:<note
+                        place="foot" xml:id="ftn58" n="58"><p rend="footnote text"> There is no
+                            trace of the Greek aspiration in the Arabic spelling. </p></note> we
+                    have thus <foreign xml:lang="ar">ريطوريّة</foreign> and <foreign xml:lang="ar"
+                        >ريطوريقا</foreign>. Hence, the first one, <foreign xml:lang="ar"
+                        >ريطوريّة</foreign>, appears to bear the same borrowing strategy of <foreign
+                        xml:lang="syr">ܪܗܛܪܘܬܐ</foreign>, employing a derivational suffix belonging
+                    to the recipient language, while <foreign xml:lang="ar">ريطوريقا</foreign> looks
+                    very much like Syriac ܪܝܛܘܪܝܩܝ, preserving the final &lt;q&gt;. Since the two
+                    loanwords show borrowing patterns resembling the ones found in Syriac, and since
+                    they are not used anywhere else in the Arabic tradition, they are likely to have
+                    reached the Arabic version of the Parisian manuscript by means of a Syriac text
+                    rather than directly from Greek. Moreover, none of these loanwords is used in
+                    the Arabic commentaries to <hi rend="italic">Rhetoric</hi>, such as, for
+                    instance, Ibn Sīnā’s, Ibn Rušd’s, or even Ibn Ṭumlūs’s, since they all feature
+                        <foreign xml:lang="ar">خطابة</foreign>, the same term used also by Badawī in
+                    entitling his edition of the Parisian manuscript.<note place="foot"
+                        xml:id="ftn59" n="59"><p xml:lang="en"> ʿA. Badawī, <hi
+                                rend="italic">Arisṭūṭālīs</hi>. For Ibn Sīnā see M.S. Salem,
+                                <hi rend="italic">al-šifa’, al-mantiq VIII – al-khaṭāba (La
+                                logique VIII – La Rhétorique)</hi> (Cairo: al-Hay'ah al-Misriyah
+                                al-'Ammah lil-Kitab, 1954); for Ibn Rušd see M. Aouad, <hi
+                                rend="italic">Averroès (Ibn Rušd). Commentaire moyen à la Rhétorique
+                                d’Aristote, édition critique du texte arabe et traduction
+                                française</hi>, 3 volumes, Textes et Traductions 5 (Paris: Vrin,
+                                2002), and for Ibn Ṭumlūs see M. Aouad, <hi rend="italic">Le
+                                </hi>Livre de la Rhétorique<hi rend="italic"> du philosophe
+                                et médecin Ibn </hi><hi rend="italic">Ṭumlūs (Alhagiag bin
+                                Thalmus)</hi>, Textes et Traductions 13 (Paris: Vrin, 2006). As
+                                a matter of fact, though, Ibn Rušd uses <foreign xml:lang="ar"
+                                >ريطوريقى</foreign> in the title of the first of the three books
+                                of his commentary, but immediately followed by its Arabic
+                                equivalent. </p></note> Actually, <foreign xml:lang="ar"
+                        >خطابة</foreign> is the substantive commonly used in Arabic to indicate
+                    ‘rhetoric’, instead of the Greek loanword: the presence of <foreign
+                        xml:lang="ar">ريطوريقا</foreign> and <foreign xml:lang="ar"
+                        >ريطوريّة</foreign> in the Parisian manuscript looks like an <hi
+                        rend="italic">unicum</hi>. Indeed, this treatise is not entitled ‘<foreign
+                        xml:lang="ar">كتاب الخطابة</foreign>’ as the other treatises on the subject,
+                    but rather ‘<foreign xml:lang="ar">كتاب ارسطوطالس المسمي ريطوريقا</foreign>’,
+                    followed later by the specification ‘which means <foreign xml:lang="ar"
+                        >الخطابة’</foreign>. </p>
+                <p xml:lang="en"> About the outcome of Greek <foreign xml:lang="gr">ῥ</foreign>, something
+                    resembling the aforementioned situation occurs when <foreign xml:lang="gr"
+                        >ῥ</foreign> is in middle position, specifically double <foreign
+                        xml:lang="gr">ῥ</foreign> (<foreign xml:lang="gr">ῤῥ</foreign>). Butts
+                    explains how the spelling of the Syriac form of <foreign xml:lang="gr"
+                        >παῤῥησία</foreign>, meaning ‘to speak freely’, changed across the
+                    centuries, thus representing a variation of the results of Greek gemination in
+                        Syriac:<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text">
+                            A.M. Butts, <hi rend="italic">Language change</hi> , 68-69 and
+                            80-82.</p></note> before the 4<hi rend="superscript">th</hi> century the
+                    word was written as ܦܪܪܣܝܐ, in the 4<hi rend="superscript">th</hi>, 5<hi
+                        rend="superscript">th</hi> and 6<hi rend="superscript">th</hi> centuries we
+                    have ܦܪܗܣܝܐ,<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">
+                            This is the only form reported by T. Harviainen, “On the loss”, 29, who
+                            states that the word was used in the early 4<hi rend="superscript"
+                                >th</hi> century, but A.M. Butts, <hi rend="italic">Language
+                                change</hi>, 78, convincingly argued that, in Syriac, the outcome of
+                            the Syriac phoneme was not represented by a voiceless glottal stop until
+                            the 6<hi rend="superscript">th</hi> century. To explain the reasons why
+                            the graphic representation of this phoneme changes from word to word in
+                            Syriac, Harviainen says that the pronunciation of Greek <foreign
+                                xml:lang="gr">ῥ</foreign> started to be identified with <foreign
+                                xml:lang="gr">ρ</foreign> at a certain point (p. 32). He also adds
+                            that it is not possible to provide an earlier date than the 4<hi
+                                rend="superscript">th</hi> century in which the change occurred, and
+                            that it is impossible to study the development of <foreign xml:lang="gr"
+                                >ῥ</foreign> in various positions inside the word due to the
+                            ‘scantiness of the material’ (later he adds that it is likely that the
+                            change took place in the beginning of the 4<hi rend="superscript"
+                                >th</hi> century for the medial position and developed later for the
+                            initial one, p. 50). Some decades later, luckily, Butts succeeded in
+                            this task. See A.M. Butts, “The integration” and A.M. Butts, <hi
+                                rend="italic">Language change</hi>. Moreover, it must be highlighted
+                            that A. Wasserstein, “A note on the phonetic and graphic representation
+                            of Greek vowels and of the <hi rend="italic">spiritus asper</hi> in the
+                            Aramaic transcription of Greek loanwords”, <hi rend="italic">Scripta
+                                Classica Israelica</hi> 12 (1993), 206, wrote that the Syriac
+                                <foreign xml:lang="syr">ܗ</foreign> is probably the reflex of the
+                            Greek <foreign xml:lang="gr">η</foreign> following <foreign
+                                xml:lang="gr">ῥ</foreign>, rather than the aspiration of the
+                                <foreign xml:lang="gr">ῥ</foreign>. This hypothesis was rejected by
+                            Syriac scholars such as Brock, in S.P. Brock “Greek words in Syriac:
+                            some general features”, <hi rend="italic">Scripta Classica
+                                Israelica</hi> 15 (1996), 256. </p></note> while the 7<hi
+                        rend="superscript">th</hi> century displays a variation betweenܦܪܗܣܝܐ ,
+                    ܦܪܪܣܝܐ and ܦܐܪܪܣܝܐ. However, Antony of Taġrit’s work preserves another form: in
+                    the final part of the fifth book we find ܦܪܝܣܝܐ. The word is preserved in this
+                    orthography in all the manuscripts used by Watt for his edition, namely the
+                    Harvard one, Barsoum’s and Rahmani’s.<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text"> Moreover, the aforementioned Jerusalem manuscript
+                            230, belonging to the 14<hi rend="superscript">th</hi> century, shows
+                            the same orthography ܦܪܝܣܝܐ, suggesting that this is not an accident or
+                            a single scribal mistake. For a discussion on Watt’s sources see J.W.
+                            Watt, <hi rend="italic">The fifth book</hi>, edition, XI-XXV.</p></note>
+                    Since it would be unlikely that an error made in the antigraph is repeated in
+                    all later copies without a single attempt at emendation, what we have might
+                    correspond to the orthography employed around the 8<hi rend="superscript"
+                        >th</hi>-10<hi rend="superscript">th</hi> centuries. </p>
+                <p xml:lang="en"> There is another notable example of the orthography ܦܪܝܣܝܐ in a painted
+                    inscription preserved on the walls of the monastery of Deir al-Surian, in
+                        Egypt.<note place="foot" xml:id="ftn63" n="63"><p xml:lang="en"> The inscription and
+                                its related paintings have been studied by K. Innemée, G. Ochała and
+                                L. Van Rompay, “A memorial for Abbot Maqari of Deir al-Surian
+                                (Egypt)”,
+                            <hi rend="italic">Hugoye</hi> 18: 1 (2015).
+                        </p></note> The inscription is dedicated to the abbot Maqari, native of the
+                    city of Taġrit, who passed away the 10<hi rend="superscript">th</hi> of May 889
+                    CE: the whole painted group, including both written parts and images, was
+                    commissioned shortly after his dead by his son Yuḥannon.<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text"> K. Innemée, G. Ochała and L.
+                            Van Rompay, “A memorial”, 157 and 163-165. On the presence of people
+                            from Taġrit in the monastery of Deir al-Surian, see ibid. 171-180.
+                        </p></note> The Syriac inscription, at line 22, displays our loanword in the
+                    same orthography used by Antony of Taġrit. What seems noteworthy is that the
+                    spelling is linked to well educated people from Taġrit: Yuḥannon, who acquired
+                    the title of abbot after Maqari’s death, knew both Syriac and Coptic, since he
+                    added a second inscription in this latter language to his father’s epitaph, and
+                    appears able to translate from one language into another. What we have here is
+                    then an educated Taġritan that uses the orthography <foreign xml:lang="syr"
+                        >ܦܪܝܣܝܐ</foreign> in a formal context, rather than the more classical
+                        <foreign xml:lang="syr">ܦܐܪܪܝܣܝܐ</foreign> or <foreign xml:lang="syr"
+                        >ܦܪܗܣܝܐ</foreign> spellings. From another Taġritan context, belonging again
+                    to the (early) 9<hi rend="superscript">th</hi> century, comes another occurrence
+                    of <foreign xml:lang="syr">ܦܪܝܣܝܐ:</foreign> the <hi rend="italic">Book of
+                        Divine Providence</hi> by Cyriacus of Taġrit.<note place="foot"
+                        xml:id="ftn65" n="65"><p xml:lang="en"> M. Oez, <hi rend="italic">Cyriacus of
+                                Tagrit and his Book on Divine Providence</hi>, 2 volumes,
+                                Gorgias Eastern Christian Studies 33 (Piscataway, NJ: Gorgias Press,
+                                2012). I wish to express my deepest gratitude to Professor Van
+                                Rompay for drawing my attention to both these two occurrences and
+                                for his notes on their contents.</p></note> The manuscript
+                    containing this text, Jerusalem, St. Mark’s monastery 129,<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text"> HMML project number SMMJ
+                            00129. F.Y. Dōlabānī, <hi rend="italic">Catalogue</hi>.</p></note> bears
+                    the date 806 and, thanks to its colophon, we know that it was copied from
+                    Cyriacus’ autograph only few years after its composition, while Cyriacus was
+                    still alive. The text displays the substantive <foreign xml:lang="syr"
+                        >ܦܪܝܣܝܐ</foreign>, the adjectival form <foreign xml:lang="syr"
+                        >ܦܪܝܣܝܝܬܐ</foreign> and the adverb <foreign xml:lang="syr"
+                        >ܦܪܝܣܝܐܝܬ</foreign>.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text"> M. Oez, <hi rend="italic">Cyriacus of Tagrit</hi>,
+                            397 and 393. </p></note> Therefore, the orthography was certainly in use
+                    in the Taġritan area during the 9<hi rend="superscript">th</hi> century. </p>
+                <p xml:lang="en"> However, it should be mentioned that Bar Šakko’s <hi rend="italic">Book of
+                        dialogues</hi> preserves a different reading of the word <foreign
+                        xml:lang="syr">ܦܪܝܣܝܐ</foreign>: even though he summarized Antony’s work,
+                    Bar Šakko was composing in an autonomous way and might have normalized the word
+                    according to the 7<hi rend="superscript">th</hi> century Yaʿqub of Edessa’s
+                    spelling <foreign xml:lang="syr">ܦܐܪܪܝܣܝܐ</foreign>, since this orthography may
+                    have appeared more classical or correct to him. Moreover, around the same
+                    period, Bar Hebraeus used the same word at the end of the introduction to his
+                        <hi rend="italic">Metrical grammar</hi>, but he spells it <foreign
+                        xml:lang="syr">ܦܪܗܣܝܐ</foreign>, thus employing an older orthography.<note
+                        place="foot" xml:id="ftn68" n="68"><p xml:lang="en"> M. Farina, “Introduction”, in
+                                <hi rend="italic">Les auteurs syriaques et leur
+                                langue</hi>, Études Syriaques 15, ed. M. Farina (Paris:
+                                Geuthner, 2018), 2, recently edited some lines of the text and
+                                translated them. </p></note> Unfortunately, since ‘parrhesia’
+                    is not employed in Aristotle’s <hi rend="italic">Rhetoric</hi>, it is
+                    consequently absent from its Arabic version. However, what we may infer from the
+                    situation of the spelling of this term, bearing Butts’ useful table in
+                        mind,<note place="foot" xml:id="ftn69" n="69"><p rend="footnote text"> A.M.
+                            Butts, <hi rend="italic">Language change</hi> , 82.</p></note> is that
+                    it evolved throughout the ages, until, probably, the 8<hi rend="superscript"
+                        >th</hi>-10<hi rend="superscript">th</hi> century. This latter stage is
+                    testified, at least for the Taġritan milieu, by Antony of Taġrit and his other
+                    two fellow citizens, whereas, later, the spelling of ‘parrhesia’ suffers from a
+                    general state of confusion, as testified by Bar Šakko and Bar Hebraeus, who,
+                    actually, belong to the same period but opt for different orthographies of the
+                    same word. </p>
+                <p xml:lang="en"> As partly shown so far, Antony’s text shows plenty of Greek loanwords, normally
+                    accommodated and arranged in various ways, but, as already remarked, sometimes
+                    the same concept conveyed by a loanword can be found in its Syriac translation
+                    and used side by side with the other one, in apparent free variation.
+                    Occasionally, Antony uses the Greek loanword first, followed by its Syriac
+                    translation a little later, in what can be interpreted as a ‘reader-oriented’
+                    composing strategy. A good example of this tendency is provided by the word for
+                    ‘syllable’ within the part of the treatise devoted to metrical patterns. Antony
+                    provides a long excursus on metrical units in Syriac poetry, with examples and
+                    explanations of the various meters based on syllabic patterns and on the way in
+                    which they can be combined and exchanged. All along this treatise, then, he uses
+                    the word for ‘syllable’, <foreign xml:lang="syr">ܗܓܝܢܐ</foreign>, combined with a number to express the names of
+                    each type of verse (such as disyllable, trisyllable and so on). Every now and
+                    then, though, he uses also a Greek loanword <foreign xml:lang="syr">ܣܘܠܒܣ</foreign>/ <foreign xml:lang="syr">ܣܘܠܒܐ</foreign><note place="foot"
+                        xml:id="ftn70" n="70"><p rend="footnote text"> See H. Hugonnard-Roche,
+                            “Lexiques bilingues grec-syriaque et philosophie aristotélicienne”, in
+                                <hi rend="italic">Lexiques bilingues dans les domaines philosophique
+                                et scientifique (Moyen Âge – Renaissance)</hi>, Textes et études du
+                            moyen âge 14, eds. J. Hamesse and D. Jacquart (Turhout: Brepols, 2001),
+                            10, for a translation of the Syriac explanation of this word as provided
+                            by a bilingual Greek-Syriac lexicon. See also H. Hugonnard-Roche,
+                            “L’intermédiaire”, 193, for the various ways in which Syriac authors
+                            translated Greek technical vocabulary. </p></note> or the Syriac
+                    translation of the concept, <foreign xml:lang="syr">ܫܩܠܐ</foreign>. A similar strategy can be spotted in the
+                    Arabic text, in the use, for instance, of the word meaning ‘element’, <foreign
+                        xml:lang="gr">στοιχεῖον</foreign> in Greek, and <foreign xml:lang="syr"
+                        >ܐܣܛܘܟܣܐ</foreign> Syriac.<note place="foot" xml:id="ftn71" n="71"><p xml:lang="en">
+                                S.P. Brock, “Greek words”, 254, states that a possible explanation
+                                of the presence of <hi rend="italic">-s-</hi> at the end of
+                                    <foreign xml:lang="syr">ܐܣܛܘܟܣܐ</foreign> would be the analogy
+                                with the Syriac result of Greek words ending in <hi
+                                rend="italic">-os</hi>. However, even though the Greek technical
+                                term is indeed <foreign xml:lang="gr">στοιχεῖον</foreign>,
+                                the Syriac and consequently Arabic loanwords may not descend from
+                                it, since there would be little means of explaining, apart from
+                                Brock’s idea of analogy, the fall of the Greek final <hi
+                                rend="italic">-n</hi>. Alternatively, one might posit a case of
+                                semantic contamination with the words <foreign xml:lang="gr"
+                                >στίχος</foreign> or <foreign xml:lang="gr"
+                                >στοῖχος</foreign>, which would offer an explanation for the
+                                consonantal pattern. It looks like a merging of terms, which have
+                                different meanings in Greek, into a single one in Syriac, which has
+                                the meaning of the first one, <foreign xml:lang="gr"
+                                >στοιχεῖον</foreign>, but the aspect of the second one,
+                                <foreign xml:lang="gr">στίχος</foreign> or <foreign
+                                xml:lang="gr">στοῖχος</foreign>. Moreover, in this scenario, the
+                            realization in Syriac of the final <hi rend="italic">-s</hi> would
+                                be in harmony with other cases given by Brock. It should be also
+                                noted that Brock (ibid., 257) states that the form <foreign xml:lang="syr">ܐܣܛܘܟܣܐ</foreign> is the
+                                older one, while in texts from the 6<hi rend="superscript"
+                                >th</hi> century onwards the word is rather spelled as <hi
+                                rend="italic">sṭukaye</hi>. Hence, the spelling used by Antony
+                                of Taġrit would be the more archaic one. On the use of a prosthetic
+                                ܐ before loanwords beginning with ܣ, see A.M. Butts, “The
+                                integration”, 26. 
+                        </p></note> Ibn al-Samḥ, even though the language provided him with the
+                    loanword <foreign xml:lang="ar">اسطقساة</foreign>,<note place="foot"
+                        xml:id="ftn72" n="72"><p rend="footnote text"> G. Endress and D. Gutas, <hi
+                                rend="italic">GALex</hi>, fascicle 2, 218-220. </p></note> similar
+                    to the Syriac one, felt the need to use the Arabic translation <foreign
+                        xml:lang="ar">حرف</foreign> first, writing immediately afterwards that the
+                    word means <foreign xml:lang="ar">اسطقساة</foreign>.<note place="foot"
+                        xml:id="ftn73" n="73"><p rend="footnote text"> Nevertheless, Ibn Rušd does
+                            not seem to use this strategy. See M. Aouad, <hi rend="italic"
+                                >Averroès</hi>, vol. 2, 26. </p></note> This strategy applies also
+                    to the aforementioned case of <foreign xml:lang="ar">افودقطيقيّا</foreign> and
+                        <foreign xml:lang="ar">تثبيت</foreign>: it might be inferred that certain
+                    Greek loanwords were perceived as the proper ‘technical term’ indeed, but were
+                    no longer understood by the readers, making it necessary to clarify them.<note
+                        place="foot" xml:id="ftn74" n="74"><p rend="footnote text"> H.
+                            Hugonnard-Roche, “Lexiques bilingues”, 8, in discussing the bilingual
+                            Greek-Syriac philosophical lexicons, highlights that, in the Baghdadi
+                            lexicon that he is describing, occasionally, after the transliteration
+                            of a Greek term, the translation is replaced or followed by an
+                            explanation of the word itself. This correspond to the strategy
+                            represented in the text under examination here. </p></note> This
+                    tendency of pairing translations and transliterations of foreign words appears
+                    to be used by translators of all eras, even though, in the specific case, the
+                    incidence of the phenomenon probably increases a bit after the 8<hi
+                        rend="superscript">th</hi> century, as a consequence of the general decrease
+                    in the understanding of Greek. </p>
+                <p xml:lang="en"> Some concluding remarks should address the final portion of Antony of Taġrit’s
+                    fifth treatise: apart from involving metric and rhetorical figures, this book
+                    contains also a small but interesting final chapter on the law of assonant
+                    letters, not entirely preserved.<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text"> J.W. Watt, <hi rend="italic">The fifth book</hi>,
+                            trans., XX.</p></note> This last part, dealing with what we could call
+                    ‘rhyming strategies’, displays a lexis on the edge between the grammatical and
+                    the rhetorical domains: in a complex and intricate way, the author explains
+                    which are the best ways to keep a constant rhyme at the end of each verse, and
+                    how to make words alliterate the most. According to him, the more letters words
+                    share, the better the result would be. He engages then in a series of examples,
+                    starting from the keeping of the ܦܪܨܘܦܐ at the end of each verse-ending word.
+                    ܦܪܨܘܦܐ has been translated here as ‘personal suffixes’, but should rather be
+                    translated as ‘person’, as in the first meaning given by Moberg,<note
+                        place="foot" xml:id="ftn76" n="76"><p xml:lang="en">
+                            A. Moberg, <hi rend="italic">Buch der Strahlen die grössere
+                                Grammatik des Barhebräus.</hi><hi rend="italic">
+                                Übersetzung nach einem kritisch berichtigten Texte, mit
+                                Textkritischem Apparat und einem Anhang; zur Terminologie</hi>
+                                (Leipzig: Otto Harrassowitz, 1907), 83*.</p></note> or better
+                    as ‘<hi rend="italic">facie’</hi> (figures), as in Balzaretti,<note place="foot"
+                        xml:id="ftn77" n="77"><p rend="footnote text"> C. Balzaretti, “Ancient
+                            treatises on Syriac homonyms”, <hi rend="italic">Oriens Christianus</hi>
+                            81 (1997), 73.</p></note> for the reason that follows.<note place="foot"
+                        xml:id="ftn78" n="78"><p rend="footnote text"> See also M. Farina, “La
+                            linguistique syriaque selon Jacques d’Édesse”, in <hi rend="italic">Les
+                                auteurs syriaques et leur langue</hi>, Études Syriaques 15, ed. M.
+                            Farina (Paris: Geuthner, 2018), 184, fn. 49. </p></note> Antony lists
+                    both various pronominal object suffixes and the verbal conjugations, but also
+                    the enclitic forms of the pronouns, which are not written altogether with the
+                    noun. To suppose that he was not aware of the differences looks somehow forced,
+                    since, to our understanding, he was a teacher and he himself must have been
+                    educated according to the Syriac version of the <hi rend="italic">enkyklios
+                        paideia </hi>(including grammar, logic and rhetoric).<note place="foot"
+                        xml:id="ftn79" n="79"><p rend="footnote text"> J.W. Watt, “Grammar, Rhetoric
+                            and Enkyklios Paideia in Syriac”, <hi rend="italic">Zeitschrift der
+                                Deutschen Morgenländischen Gesellschaft </hi>143 (1993). </p></note>
+                    What he probably means is that it is more elegant to keep the same ending all
+                    along the poem, since a sudden change would alter the structure of rhyme and the
+                    alliteration patterns.<note place="foot" xml:id="ftn80" n="80"><p
+                            rend="footnote text"> I wish to thank Margherita Farina for her help
+                            with this chapter. </p></note> This explanation is corroborated by the
+                    fact that he usually chooses for his examples verbs and substantives with the
+                    same number of syllables and differing only by one letter, the so-called
+                    ‘minimal pairs’. </p>
+            </div>
+            <div>
+                <head>Conclusive Remarks</head>
+                <p xml:lang="en">Hopefully it has emerged from this analysis that the comparative study of Greek,
+                    Syriac and Arabic rhetoric is productive and stimulating, apt to change some of
+                    the previously fixed perspectives on the topic, which saw the Syriac world as
+                    relatively uninterested in rhetoric and, consequently, Arabic rhetoric as
+                    detached from any Syriac influence. The data presented here are just an
+                    introduction to the potential that a trilingual comparative analysis has in
+                    helping the scholarly community in the rhetorical field: the connections and
+                    interdependences that have been proposed in the present paper hope to show how
+                    much the aforementioned older perspectives need to be revised. Moreover, it
+                    should be stressed that the Arabic version preserving Aristotle’s translation is
+                    an incredibly rich source of vocabulary, since it stands quite different from
+                    the one known in other treatises on Arabic rhetoric. It should be borne in mind
+                    that rhetoric is a science which has an autonomous tradition in the Arab
+                    culture: when referring to the Aristotelian science, <foreign xml:lang="ar"
+                        >خطابة</foreign> is the word to use, which means ‘philosophical rhetoric’,
+                    while when referring to Arab-Islamic rhetoric, <foreign xml:lang="ar"
+                        >بلاغة</foreign> is in charge, in the sense of ‘literary rhetoric’ or, as in
+                    Ghersetti, ‘rhétorique de l’illocutoire’.<note place="foot" xml:id="ftn81"
+                        n="81"><p xml:lang="en"> A. Ghersetti, “Quelques notes sur la définition canonique de
+                                <hi rend="italic">Balāġa</hi>”, in <hi rend="italic">Philosophy
+                                and arts in the Islamic world. Proceedings of the eighteenth
+                                congress of the Union Européenne des Arabisants et Islamisants held
+                                at the Katholieke Universiteit Leuven</hi>, Orientalia Lovaniensia
+                            Analecta 87, eds. U. Vermeulen and D. De Smet (Leuven: Uitgeverij
+                            Peeters, 1998), 57. For a detailed account on the differences between
+                            ḫiṭāba and <hi rend="italic">balāġa</hi>, and on the history of Arabic
+                            rhetoric see Ph. Halldén, “What is Arab Islamic Rhetoric? Rethinking the
+                            history of Muslim oratory art and homiletics”, <hi rend="italic"
+                                >International Journal of Middle East Studies</hi> 37: 1 (2005), who
+                            explains how much, in fact, the two branches were both influenced by
+                            Greek knowledge and how they interacted one with another. See also P.
+                            Larcher, “Mais qu’est-ce donc que la <hi rend="italic">balāġa </hi>?”,
+                            in <hi rend="italic">Literary and philosophical rhetoric in the Greek,
+                                Roman, Syriac and Arabic worlds</hi>, Europaea Memoria. Studien
+                                und Texte zur Geschichte der europäische Ideen 66, ed. F. Woerther
+                                (Hildesheim: Olms, 2009), 197-213.</p></note> However, this
+                    distinction is only partly reliable, since, actually, none of the types of
+                    Arabic rhetoric appears to be entirely detached from foreign influences.<note
+                        place="foot" xml:id="ftn82" n="82"><p rend="footnote text"> Ph. Halldén,
+                            “What is Arab Islamic Rhetoric”, 28.</p></note>
+                </p>
+                <p xml:lang="en"> The creation of a dictionary of Syriac rhetoric has been a <hi rend="italic"
+                        >desideratum </hi>for a long time, and the studies on the migration of words
+                    from Greek to both Syriac and Arabic are still in their early days. This study
+                    hopes to have shown how a triple focus serves as a key to reconstruct the
+                    history of the transmission of words and can be used as a powerful philological
+                    tool. Moreover, having the chance to study rhetorical loanwords in the light of
+                    Brock’s diachronic researches on Syriac derivational strategies might add new
+                    evidences to the data we already possess.<note place="foot" xml:id="ftn83"
+                        n="83"><p rend="footnote text"> See S.P. Brock, “Diachronic aspects of
+                            Syriac word-formation: an aid for dating anonymous texts”, in <hi
+                                rend="italic">V Symposium Syriacum 1988</hi>, ed. R. Lavenant (Roma:
+                            Pontificium Institutum Studiorum Orientalium). Even though this study
+                            concerns “native” Syriac neologisms, one can easily make good use of it
+                            even with loanwords, since Brock’s categories apply to this field as
+                            well. Moreover, the creation of calques based on Greek words, which use
+                            Syriac derivational suffixes, can be easily spotted in Syriac rhetorical
+                            lexis as well. On this topic see, for instance, one of the possible
+                            explanations provided for the word <foreign xml:lang="syr"
+                                >ܩܘܡܕܘܬܐ</foreign> in M. Nicosia, “La <hi rend="italic"
+                                >Rhétorique</hi> d’Aristote dans les milieux syriaques et arabes:
+                            histoire d’un épisode de transmission intellectuelle dans l’Antiquité
+                            Tardive”, in <hi rend="italic">La philosophie en syriaque</hi>, Études
+                            Syriaques 16, eds. E. Fiori and H. Hugonnard-Roche (Paris: Geuthner,
+                            2019), 276-277. </p></note> For all these reasons, my efforts are
+                    revolving around the creation of a trilingual database of rhetorical vocabulary,
+                    hoping to fill a gap that moves from Watt’s invaluable works towards a new
+                    trilingual perspective that, eventually, will help in shedding new light on what
+                    Antony of Taġrit defined:</p>
+                <cit>
+                    <quote>the faculty of persuasive speech […] having the power and ability to
+                        persuade the multitude and bring the crowd to attention and assent by what
+                        is said.<note place="foot" xml:id="ftn84" n="84"><p rend="footnote text">
+                                J.W. Watt, “Syriac rhetorical theory”, 249. </p></note>
+                    </quote>
+                </cit>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography </head>
+                <listBibl>
+                <bibl>Allen, W.S. <hi rend="italic">Vox Graeca: a guide to the pronunciation of
+                        Classical Greek</hi>, 3<hi rend="superscript">rd</hi> edition. Cambridge:
+                    Cambridge University Press, 1987.</bibl>
+                <bibl>Aouad, M. “La Rhétorique. Tradition syriaque et arabe”, in <hi rend="italic"
+                        >Dictionnaire des philosophes antiques</hi>, <hi rend="italic"> Volume
+                        I</hi>., ed. R. Goulet, Paris: Éditions du CNRS, 1981: 455-472.</bibl>
+                <bibl>― “Les fondements de la <hi rend="italic">Rhétorique</hi> d’Aristote reconsidérés
+                    par Fārābī, ou le concept de point de vue immédiat et commun”, <hi rend="italic"
+                        >Arabic Sciences and Philosophy</hi> 2 (1992): 133-180. </bibl>
+                <bibl>― “La <hi rend="italic">Rhétorique</hi>. Tradition arabe”, in <hi rend="italic"
+                        >Dictionnaire des philosophes antiques. Supplément</hi>, ed. R. Goulet,
+                    Paris: CNRS éditions, 2003.</bibl>
+                <bibl>― <hi rend="italic">Averroès (Ibn Rušd). Commentaire moyen à la
+                        </hi>Rhétorique<hi rend="italic"> d’Aristote, édition critique du texte
+                        arabe et traduction française</hi>, 3 volumes, Textes et Traductions 5,
+                    Paris: Vrin, 2002. </bibl>
+                <bibl>― <hi rend="italic">Le </hi>Livre de la Rhétorique<hi rend="italic"> du
+                        philosophe et médecin Ibn </hi><hi rend="italic">Ṭumlūs (Alhagiag bin
+                        Thamlus)</hi>, Textes et Traductions 13, Paris: Vrin, 2006. </bibl>
+                <bibl>Badawī, ʿA. <hi rend="italic">Arisṭūṭālīs: al-ḫiṭābah. al-tarǧamah al-ʿarabīyah
+                        al-qadīmah</hi>, Dirāsāt ʾislāmīyah 23, al-Kuwait: Wakālah al-maṭbūʿāt /
+                    Beirut (Liban): Dār al-qalam, 1959. </bibl>
+                <bibl>Balzaretti, C. ‘Ancient treatises on Syriac homonyms’, <hi rend="italic">Oriens
+                        Christianus</hi> 81 (1997): 73-81. </bibl>
+                <bibl>Barsoum, I.A. <hi rend="italic">The scattered pearls: a history of Syriac
+                        literature and sciences (translated by Matti Moosa)</hi>. Piscataway, NJ:
+                    Gorgias Press, 2003. </bibl>
+                <bibl>― <hi rend="italic">Geschichte der syrischen Wissenschaften und Literatur (aus
+                        dem Arabischen von G. Toro und A. Gorgis)</hi>, Eichstätter Beiträge zum
+                    Christlichen Orient 2, Wiesbaden: Harrassowitz, 2012. </bibl>
+                <bibl>Barry, S.C. “Was Ḥunayn Ibn Isḥāq the author of the Arabic translation of Paul of
+                    Aegina’s <hi rend="italic">Pragmateia</hi>? Evidence from the Arabic
+                    translations of the Hippocratic <hi rend="italic">Aphorisms</hi> and the Syriac
+                    lexicons of Bar Bahlul and Bar ʿAli”, <hi rend="italic">Journal of Semitic
+                        Studies</hi> 63: 2 (2018): 457-465.</bibl>
+                <bibl>― <hi rend="italic">Syriac medicine and Ḥunayn ibn Isḥāq’s Arabic translation of
+                        the Hippocratic aphorisms</hi>, Journal of Semitic Studies Supplement 39,
+                    Oxford: Oxford University Press, 2018. </bibl>
+                <bibl>Bendrat, J. “Der Dialog über die Rhetorik des Jacob bar Shakko” in <hi
+                        rend="italic">Paul de Lagarde und die syrischen Kirchengeschichte</hi>, ed.
+                    Göttingen Arbeitskreis für syrischen Kirchen-geschichte, Göttingen:
+                    Lagarde-Haus, 1968: 19-26. </bibl>
+                <bibl>Berti, V. <hi rend="italic">Vita e studi di Timoteo I patriarca cristiano di
+                        Baghdad. Ricerche sull’epistolario e sulle fonti contigue</hi>, Studia
+                    Iranica. Cahier 41. Chrétiens en terre d’Iran. Vol. 3, Paris: Association pour
+                    l’avancement des études iraniennes, 2009. </bibl>
+                <bibl>Brock, S.P. “Greek into Syriac and Syriac into Greek”, <hi rend="italic">Journal
+                        of the Syriac Academy (Baghdad)</hi> 3 (1977): 406-422. </bibl>
+                <bibl>― “Diachronic aspects of Syriac word-formation: an aid for dating anonymous
+                    texts”, in <hi rend="italic">V Symposium Syriacum 1988</hi>, ed. R Lavenant,
+                    Roma: Pontificium Institutum Studiorum Orientalium, 1990: 321-330.</bibl>
+                <bibl>― “Greek words in Syriac: some general features”, <hi rend="italic">Scripta
+                        Classica Israelica</hi> 15 (1996): 251-62.</bibl>
+                <bibl>― “Two letters of the patriarch Timothy from the late eight century on
+                    translations from Greek”, <hi rend="italic">Arabic Sciences and Philosophy</hi>
+                    9 (1999): 233-246. </bibl>
+                <bibl>― “Greek words in Ephrem and Narsai: a comparative sample”, <hi rend="italic"
+                        >ARAM</hi> 11-12 (1999-2000): 439-449. </bibl>
+                <bibl>― “Secondary Formations from Greek Loanwords in Syriac”, in <hi rend="italic"
+                        >Verbum et calamus. Semitic and Related Studies in Honour of the Sixtieth
+                        Birthday of Professor Tapani Harviainen</hi>, Studia Orientalia published by
+                    the Finnish Oriental Society 99, eds, H. Juusola, J. Laulainen, H. Palva,
+                    Helsinki: The Finnish Oriental Society, 2004: 31-39.</bibl>
+                <bibl>― and Van Rompay, L. <hi rend="italic">Catalogue of the Syriac manuscripts and
+                        fragments in the library of Deir al-Surian, Wadi al-Natrun (Egypt)</hi>,
+                    Orientalia Lovaniensia Analecta 227, Leuven-Paris-Walpole, MA: Uitgeverij
+                    Peeters en Department Oosterse Studies, 2014. </bibl>
+                <bibl>Butts, A.M. “The use of Syriac derivational suffixes with Greek loanwords”, <hi
+                        rend="italic">Orientalia </hi>83 (2014): 207-237.</bibl>
+                <bibl>― “The integration of consonants in Greek loanwords in Syriac”, <hi rend="italic"
+                        >Aramaic Studies</hi> 14 (2016): 1-35. </bibl>
+                <bibl>― <hi rend="italic">Language change in the wake of Empire: Syriac in its
+                        Greco-Roman context</hi>, Linguistic Studies in Ancient West Semitic 11,
+                    Winona Lake: Eisenbrauns, 2016.</bibl>
+                <bibl>― “The Graeco-Roman context of the Syriac language”, in <hi rend="italic">Les
+                        auteurs syriaques et leur langue</hi>, Études Syriaques 15, ed. M. Farina,
+                    Paris: Geuthner, 2018: 137-159. </bibl>
+                <bibl>Ciancaglini, C.A. “Traduzioni e citazioni dal greco in siriaco e aramaico”, in
+                        <hi rend="italic">I Greci: storia, cultura, arte, società. Vol. 3: I Greci
+                        oltre la Grecia</hi>, Grandi Opere, ed. S. Settis, Torino: Einaudi, 2001:
+                    1009-1022.</bibl>
+                <bibl>Corcella, A. “Due citazioni dalle <hi rend="italic">Etiopiche </hi>di Eliodoro
+                    nella <hi rend="italic">Retorica</hi> di Antonio di Tagrīt”, <hi rend="italic"
+                        >Orientalia Christiana Periodica</hi> 74: 2 (2008): 389-416. </bibl>
+                <bibl>Dōlabānī, F.Y. <hi rend="italic">Catalogue of Syriac manuscripts in St Mark’s
+                        monastery (Dairo d-Mor Markos)</hi>, Damascus: Sidawi Printing House,
+                    1994.</bibl>
+                <bibl>Dufour, M. <hi rend="italic">Aristote Rhétorique. Tome premier</hi>, Paris:
+                    Société d’édition <hi rend="italic">« Les Belles Lettres »</hi>, 1932. </bibl>
+                <bibl>― <hi rend="italic">Aristote Rhétorique. Tome deuxième</hi>, Paris: Société
+                    d’édition <hi rend="italic">« Les Belles Lettres »</hi>, 1938.</bibl>
+                <bibl>― and Wartelle, A. <hi rend="italic">Aristote Rhétorique. Tome troisième</hi>,
+                    Paris: Société d’édition <hi rend="italic">« Les Belles Lettres »</hi>,
+                    1973.</bibl>
+                <bibl>Duval, R. “Notice sur la Rhétorique d’Antoine de Tagrit”, in <hi rend="italic"
+                        >Orientalische Studien Theodor Nöldeke zum siebzigsten Geburtstag</hi>, ed.
+                    C. Bezold, Gießen: Verlag von Alfred Töpelmann, 1906: 479-486. </bibl>
+                <bibl>Endress, G. and Gutas, D. <hi rend="italic">A Greek and Arabic lexicon (GALex):
+                        materials for a dictionary of the medieval translations from Greek into
+                        Arabic</hi>, Leiden: Brill, 1992-. </bibl>
+                <bibl>Endress, G. “Bilingual lexical materials in the Arabic tradition of the
+                    Hellenistic sciences”, in <hi rend="italic">Lexiques bilingues dans les domaines
+                        philosophique et scientifique (Moyen Âge – Renaissance)</hi>, Textes et
+                    études du moyen âge 14, eds. J. Hamesse and D. Jacquart, Turhout : Brepols,
+                    2001: 161-173.</bibl>
+                <bibl>Eskenasy, P.E. <hi rend="italic">Antony of Tagrit’s Rhetoric Book One:
+                        Introduction, partial translation and commentary</hi>, Unpublished PhD
+                    thesis, Harvard University, 1991.</bibl>
+                <bibl>Farina, M. “Rhétorique en syriaque”, in <hi rend="italic">Encyclopédie de
+                        l’humanisme méditerranéen</hi>, ed. H. Touati, [Online]. Available at : <ref
+                        target="http://encyclopedie-humanisme.com/?Rhetorique-en-syriaque"
+                        >http://encyclopedie-humanisme.com/?Rhetorique-en-syriaque</ref> (accessed:
+                    28 September 2018). </bibl>
+                <bibl>― “Introduction”, in <hi rend="italic">Les auteurs syriaques et leur langue</hi>,
+                    Études Syriaques 15, ed. M. Farina, Paris: Geuthner, 2018: 1-8.</bibl>
+                <bibl>― “La linguistique syriaque selon Jacques d’Édesse”, in <hi rend="italic">Les
+                        auteurs syriaques et leur langue</hi>, Études Syriaques 15, ed. M. Farina,
+                    Paris: Geuthner, 2018: 167- 187. </bibl>
+                <bibl>Ghersetti, A “Quelques notes sur la définition canonique de <hi rend="italic"
+                        >Balāġa</hi>”, in <hi rend="italic">Philosophy and arts in the Islamic
+                        world. Proceedings of the eighteenth congress of the Union Européenne des
+                        Arabisants et Islamisants held at the Katholieke Universiteit Leuven</hi>,
+                    Orientalia Lovaniensia Analecta 87, eds. U. Vermeulen and D. De Smet, Leuven:
+                    Uitgeverij Peeters, 1998): 57-72.</bibl>
+                <bibl>Gzella, H. “Review of <hi rend="italic">Language change in the wake of the
+                        Empire</hi> by A.M. Butts”, <hi rend="italic">Bibliotheca Orientalis</hi>
+                    73: 5-6 (2016): 761-774.</bibl>
+                <bibl>Gutas, D. <hi rend="italic">Greek thought, Arabic culture. The Graeco-Arabic
+                        translation movement in Baghdad and Early ʽAbbāsid Socienty (2</hi><hi
+                        rend="italic superscript">nd</hi><hi rend="italic">-4</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic">/8</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic">-10</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic"> centuries)</hi>, London:
+                    Routledge, 1998. </bibl>
+                <bibl>Halldén, Ph. “What is Arab Islamic Rhetoric? Rethinking the history of Muslim
+                    oratory art and homiletics”, <hi rend="italic">International Journal of Middle
+                        East Studies</hi> 37: 1 (2005): 19-38. </bibl>
+                <bibl>Harviainen, T. “On the loss of the Greek /h/ and the so-called aspirated rhō”,
+                        <hi rend="italic">Studia Orientalia</hi> 45 (1976): 1-88. </bibl>
+                <bibl>Heinrichs, W. “Review of <hi rend="italic">Aristotle’s Ars Rhetorica</hi> by
+                    Malcom C. Lyons”, <hi rend="italic">Zeitschrift für Geschichte der
+                        Arabisch-Islamischen Wissenschaften</hi> 1 (1984): 312-316. </bibl>
+                <bibl>Hugonnard-Roche, H. “L’intermédiaire syriaque dans la transmission de la
+                    philosophie grecque à l’arabe: le cas de l’<hi rend="italic">Organon</hi>
+                    d’Aristote”, <hi rend="italic">Arabic Science and Philosophy</hi> 1 (1991) :
+                    187-209. </bibl>
+                <bibl>― “Remarques sur la tradition arabe de l’Organon d’après le manuscrit Paris,
+                    Bibliothèque Nationale Ar. 2364”, in <hi rend="italic">Glosses and commentaries
+                        on Aristotelian logical texts: the Syriac, Arabic and Medieval Latin
+                        traditions</hi>, Warburg Institute Surveys and Texts 23, ed. Ch. Burnett,
+                    London: Warburg Institute, 1993: 19-28.</bibl>
+                <bibl>― “Lexiques bilingues grec-syriaque et philosophie aristotélicienne”, in <hi
+                        rend="italic">Lexiques bilingues dans les domaines philosophique et
+                        scientifique (Moyen Âge – Renaissance)</hi>, Textes et études du moyen âge
+                    14, eds. J. Hamesse and D. Jacquart, Turhout : Brepols, 2001: 1-24. </bibl>
+                <bibl>― <hi rend="italic">La logique d’Aristote du grec au syriaque: études sur la
+                        transmission des textes de l’Organon et leur interprétation
+                        philosophique</hi>, Textes et Traditions 9, Paris: Vrin, 2004.</bibl>
+                <bibl>Innemée, K., Ochała, G. and Van Rompay, L. “A memorial for Abbot Maqari of Deir
+                    al-Surian (Egypt)”, <hi rend="italic">Hugoye</hi> 18: 1 (2015): 147-190. </bibl>
+                <bibl>Kassel, R. <hi rend="italic">Aristotelis Ars Rhetorica</hi>, Berlin-New York: De
+                    Gruyter, 1976.</bibl>
+                <bibl>Khan, G. <hi rend="italic">A grammar of Neo-Aramaic. The dialect of the Jews of
+                        Arbel</hi>, Handbook of Oriental Studies. Section 1: The Near and Middle
+                    East 47, Leiden-Boston: Brill, 1999.</bibl>
+                <bibl>― <hi rend="italic">The Neo-Aramaic dialect of Barwar</hi>.<hi rend="italic">
+                        Volume one: Grammar</hi>, Handbook of Oriental Studies. Section 1: The Near
+                    and Middle East 96, Leiden-Boston: Brill, 2008.</bibl>
+                <bibl>King, D. “Remarks on the future of a Syriac lexicon based upon the corpus of
+                    philosophical texts”, in <hi rend="italic">Reflections on lexicography</hi>,
+                    Perspectives on Linguistics and Ancient Languages 4, eds. R.A. Taylor and C.E.
+                    Morrison, Piscataway, NJ: Gorgias Press, 2014: 63-81. </bibl>
+                <bibl>Larcher, P. “Mais qu’est-ce donc que la <hi rend="italic">balāġa </hi>?”, in <hi
+                        rend="italic">Literary and philosophical rhetoric in the Greek, Roman,
+                        Syriac and Arabic worlds</hi>, Europaea Memoria. Studien und Texte zur
+                    Geschichte der europäische Ideen 66, ed. F. Woerther, Hildesheim: Olms, 2009:
+                    197-213.</bibl>
+                <bibl>Lyons, M.C. <hi rend="italic">Aristotle’s Ars Rhetorica: the Arabic version</hi>.
+                        <hi rend="italic">A new edition with Commentary and Glossary</hi>,
+                    Cambridge: Pembroke Arabic Tex, 1982.</bibl>
+                <bibl>Margoliouth, D.S. “On the Arabic version of Aristotle’s Rhetoric”, in <hi
+                        rend="italic">Semitic studies in memory of Rev. Dr. Alexander Kohut</hi>,
+                    ed. G.A. Kohut, Berlin: S. Calvary and Co, 1897: 376-387. </bibl>
+                <bibl>Martin, J.P. P. <hi rend="italic">De la métrique chez les Syriens</hi>, Leipzig:
+                    Brockhaus, 1878. </bibl>
+                <bibl>Moberg, A. <hi rend="italic">Buch der Strahlen die grössere Grammatik des
+                        Barhebräus</hi>.<hi rend="italic"> Übersetzung nach einem kritisch
+                        berichtigten Texte, mit Textkritischem Apparat und einem Anhang; zur
+                        Terminologie</hi>, Leipzig: Otto Harrassowitz, 1907.</bibl>
+                <bibl>Nicosia, M. “La <hi rend="italic">Rhétorique</hi> d’Aristote dans les milieux
+                    syriaques et arabes: histoire d’un épisode de transmission intellectuelle dans
+                    l’Antiquité Tardive”, in <hi rend="italic">La philosophie en syriaque</hi>,
+                    Études Syriaques 16, eds. E. Fiori and H. Hugonnard-Roche, Paris: Geuthner,
+                    2019: 267-286. </bibl>
+                <bibl>Nöldeke, T. <hi rend="italic">Compendious Syriac grammar (translated by J.A.
+                        Crichton)</hi>, London: Williams and Norgate, 1904. </bibl>
+                <bibl>Oez, M. <hi rend="italic">Cyriacus of Tagrit and his Book on Divine
+                        Providence</hi>, 2 volumes, Gorgias Eastern Christian Studies 33,
+                    Piscataway, NJ : Gorgias Press, 2012. </bibl>
+                <bibl>Panoussi, E. “The unique Arabic manuscript of Aristotle’s <hi rend="italic">Ars
+                        Rhetorica</hi> and its two editions published to date by ʽAbdurraḥmān Badawī
+                    and by M[alcom] C. Lyons”, in <hi rend="italic">Consciousness and Reality:
+                        Studies in Memory of Toshihiko Izutsu</hi>, Islamic Philosophy, Theology and
+                    Science. Texts and Studies 38, eds. S.J.ad-D. Āshtiyānī, H. Matsubara, T. Iwami,
+                    A. Matsumoto, Leiden-Boston: Brill, 2000: 233-250. </bibl>
+                <bibl>Ross, W.D. <hi rend="italic">Aristotelis Ars Rhetorica</hi>, Oxford: Oxford
+                    University Press, 1959. </bibl>
+                <bibl>Salem, M.S. (ed.) <hi rend="italic">al-šifa’, al-mantiq
+                        VIII – al-khaṭāba (La logique VIII – La Rhétorique)</hi>, Cairo: al-Hay'ah
+                    al-Misriyah al-'Ammah lil-Kitab, 1954.</bibl>
+                <bibl>Sewan d-Bet Qermez, E. <foreign xml:lang="syr">ܟܬܒܐ ܥܠ ܐܘܡܢܘܬܐ ܕܪܗܛܪܘܬܐ ܣܝܡ
+                        ܠܐܢܛܘܢ ܪܝܛܘܪ ܬܓܪܝܬܝܐ</foreign>. <hi rend="italic">The Book of the Rhetoric
+                        by Antony Rhitor of Tagrit</hi>, Stockholm: Författeres Bokmaskin, 2000. </bibl>
+                <bibl>Sprengling, M. “Antonius Rhetor on versification with an introduction and two
+                    appendices”, <hi rend="italic">The American Journal of Semitic Languages and
+                        Literatures</hi> 32: 3 (1916): 145-216.</bibl>
+                <bibl>― “Severus Bar Shakko’s <hi rend="italic">Poetics</hi>, Part II”, <hi
+                        rend="italic">The American Journal of Semitic Languages and Literatures</hi>
+                    32: 4 (1916): 293-308. </bibl>
+                <bibl>Vagelpohl, U. <hi rend="italic">Aristotle’s Rhetoric in the East: the Syriac and
+                        Arabic translation and commentary tradition</hi>, Islamic Philosophy,
+                    Theology and Science. Texts and Studies 76, Leiden-Boston: Brill, 2008. </bibl>
+                <bibl>― “Reading and commenting on Aristotle’s <hi rend="italic">Rhetoric </hi>in
+                    Arabic”, in <hi rend="italic">Reading the past across space and time: receptions
+                        and world literature</hi>, Geocriticism and Spatial Literary Studies, eds.
+                    B.D. Schildgen and R. Hexter, New York: Palgrave Macmillan, 2016: 165-184.</bibl>
+                <bibl>Wartelle, A. <hi rend="italic">Lexique de la «Rhétorique» d’Aristote</hi>, Paris:
+                    Belles Lettres, 1982. </bibl>
+                <bibl>Wasserstein, A. “A note on the phonetic and graphic representation of Greek
+                    vowels and of the spiritus asper in the Aramaic transcription of Greek
+                    loanwords”, <hi rend="italic">Scripta Classica Israelica</hi> 12 (1993):
+                    200-208.</bibl>
+                <bibl>Watt, J.W. “Antony of Tagrit as a student of Syriac poetry”, <hi rend="italic">Le
+                        Muséon</hi> 98: 3-4 (1985): 261-279.</bibl>
+                <bibl>― <hi rend="italic">The fifth book of the Rhetoric of Antony of Tagrit</hi>,
+                    edition and translation, CSCO 480-1, Louvain: Peeters, 1986. </bibl>
+                <bibl>― “The Syriac reception of Platonic and Aristotelian rhetoric”, <hi rend="italic"
+                        >ARAM</hi> 5 (1993): 579-601.</bibl>
+                <bibl>― “Grammar, Rhetoric and Enkyklios Paideia in Syriac”, <hi rend="italic"
+                        >Zeitschrift der Deutschen Morgenländischen Gesellschaft </hi>143 (1993):
+                    45-71.</bibl>
+                <bibl>― “Syriac rhetorical theory and the Syriac tradition of Aristotle’s <hi
+                        rend="italic">Rhetoric</hi>”, in <hi rend="italic">Peripatetic Rhetoric
+                        after Aristotle</hi>, Rutgers University Studies in Classical Humanities 6,
+                    eds. W.W. Fortenbaugh and D.C. Mirhady, New Brunswick, NJ: Transaction
+                    Publishers, 1994: 243-260. </bibl>
+                <bibl>― “Eastward and westward transmission of classical rhetoric”, in <hi
+                        rend="italic">Centres of learning and location in Pre-Modern Europe and the
+                        Near East</hi>, Brill’s Studies in Intellectual History 61, eds. J.W.
+                    Drijvers and A.A. MacDonald, Leiden: Brill, 1995: 63-75. </bibl>
+                <bibl>― <hi rend="italic">Aristotelian Rhetoric in Syriac: Barhebraeus, Butyrum
+                        sapientiae, Book of rhetoric</hi>, Aristoteles Semitico-Latinus 18,
+                    Leiden-Boston: Brill, 2005. </bibl>
+                <bibl>― “Guarding the Syriac language in an Arabic environment: Antony of Tagrit on the
+                    use of grammar in rhetoric”, in <hi rend="italic">Syriac polemics. Studies in
+                        honour of Gerrit Jan Reinink</hi>, Orientalia Lovaniensia Analecta 170, eds.
+                    W.J. van Bekkum, J.W. Drijvers and A.C. Klugkist, Leuven: Peeters, 2007:
+                    133-150. </bibl>
+                <bibl>― “Greek philosophy and Syriac culture in ʽAbbasid Iraq”, in <hi rend="italic"
+                        >The Christian heritage of Iraq. Collected papers from the Christianity of
+                        Iraq. I-V seminar days</hi>, Gorgias Eastern Christian Studies 13, ed.
+                    C.C.D. Hunter, E.C.D., Piscataway, NJ: Gorgias Press, 2009: 10-37. </bibl>
+                <bibl>― “Literary and philosophical rhetoric in Syriac” in <hi rend="italic">Literary
+                        and philosophical rhetoric in the Greek, Roman, Syriac and Arabic
+                        worlds</hi>, Europaea Memoria. Studien und Texte zur Geschichte der
+                    europäische Ideen 66, ed. F. Woerther, Hildesheim: Olms, 2009: 141-154. </bibl>
+                <bibl>― “Anṭun of Tagrit”, in <hi rend="italic">Gorgias encyclopaedic dictionary of the
+                        Syriac heritage (GEDSH)</hi>, eds. S.P. Brock, A.M. Butts, G.A. Kiraz, and
+                    L. Van Rompay, Piscataway, NJ: Gorgias Press, 2011: 23.</bibl>
+                <bibl>― “Rhetorical education and Florilegia in Syriac”, in <hi rend="italic">Les
+                        auteurs syriaques et leur langue</hi>, Études Syriaques 15, ed. M. Farina,
+                    Paris: Geuthner, 2018: 95-110.</bibl>
+                <bibl>Wright, W. <hi rend="italic">Catalogue of Syriac manuscript in the British
+                        Museum</hi>, part II, London: Gilbert and Rivington Printers, 1871. </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
