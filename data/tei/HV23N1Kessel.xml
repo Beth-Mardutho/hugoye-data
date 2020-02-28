@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Field Notes on Syriac Manuscripts III</title>
+                <title type="sub">A Previously Unknown Philosophical Manuscript from Alqosh</title>
+                <author>
+                    <name>
+                        <forename>Grigory</forename>
+                        <surname>Kessel</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Austrian Academy of Sciences / University
+                            of Manchester</orgName>
+                    </affiliation>
+                </author>
+                <author>
+                    <name>
+                        <forename>Yury</forename>
+                        <surname>Arzhanov</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Austrian Academy of Sciences</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2020</date>
+                <idno>Volume 23.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv23n1kessel_arzhanov</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Grigory Kessel</author>
+                        <author>Yury Arzhanov</author>
+                        <title level="a">Field Notes on Syriac Manuscripts III: A Previously Unknown Philosophical Manuscript from Alqosh</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol23/HV23N1Kessel_Arzhanov.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope type="vol" n="23">23</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="99" to="130">99-130</biblScope>
+                        <biblScope type="order" n="4"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Manuscripts</term>
+                    <term>Philosophy</term>
+                    <term>Bar ʿEbrōyō</term>
+                    <term>Alqosh</term>
+                    <term>ʿEnanīšōʿ</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2020-02-28">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+            <head>Abstract</head>
+            <p xml:lang="en">The article offers a description of the
+                composite East Syriac manuscript preserved in Alqosh (Northern Iraq). Two originally
+                independent parts of the manuscript contain works dealing for the most part with
+                philosophy, logic, grammar and lexicography and were produced in 19th century
+                Alqosh. Whereas the exemplar of one of these can be determined with certainty
+                (British Library, India Office 9), that of the second part is more elusive. This
+                previously unknown manuscript not only provides new textual evidence for a large
+                number of texts, but is also of significant historical importance as a document
+                attesting to the revival of interest in the study of philosophy and grammar in the
+                Chaldean milieu during the modern period.*<note place="foot" xml:id="ftn0" n="0"><p rend="footnote text"
+                    >See the first two
+                        instalments in <hi rend="italic">Hugoye</hi> 20.2 (2017), 419–434 and <hi
+                            rend="italic">Hugoye</hi> 21.1 (2018), 21–42.</p></note></p>
+            </div>
+            <div type="acknowledgements">
+                <p xml:lang="en">The research leading to this article has received funding from the European
+                    Research Council under the European Union’s Seventh Framework Programme
+                    (FP/2007-2013) / ERC Grant Agreement n. 679083 as part of the research
+                    project ‘Transmission of Classical Scientific and Philosophical Literature
+                    from Greek into Syriac and Arabic’ (HUNAYNNET), carried out at the Austrian
+                    Academy of Sciences.</p>
+            </div>
+        </front>  
+       <body>
+            <p>The collection of Syriac manuscripts belonging to the Chaldean Diocese of Alqosh is
+                little known in comparison with the holdings of the Chaldean monastery of Our Lady
+                Protector of the Crops, located close to the same town. The catalogue description of
+                this collection was prepared by the priest Hormizd Ṣanā and covers 111 manuscripts.
+                During the digitization campaign of 2011, organized by the Hill Museum &amp;
+                Manuscript Library (HMML) in collaboration with Centre Numérique des Manuscrits
+                Orientaux, 143 manuscripts (some of which are only fragments) were digitised and are
+                available online at the <hi rend="italic">vHMML</hi> Virtual Reading Room
+                (www.vhmml.org).</p>
+            <p> Hormizd Ṣanā’s description of the manuscript preserved under shelf-mark 61 (HMML
+                project number DCA 61)<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                        >The manuscript is available at: <ref
+                            target="https://w3id.org/vhmml/%20readingRoom/view/500563"
+                            >https://w3id.org/vhmml/ readingRoom/view/500563</ref><hi
+                            rend="Hyperlink">.</hi></p></note> informs us that it contains only one
+                work, Bar ʿEbrōyō’s <hi rend="italic">Tegrat tegrātā</hi>, and was copied in Alqosh
+                by the scribe Mīkhā, son of Yāqō, of Alqosh, on October 11, AG 2130 [= CE 1818]. The
+                actual manuscript does indeed contain Bar ʿEbrōyō’s <hi rend="italic">Tegrat
+                    tegrātā</hi> but it lacks the colophon. At the time of Ṣanā’s cataloguing, the
+                manuscript apparently contained a number of fragments from other manuscripts that
+                were digitized separately in 2011. Indeed, among the digitized manuscripts there is
+                one (DCA 142) that contains exactly the same colophon as Ṣanā provides. Although it
+                is possible to find other fragments of the same manuscript (for example, DCA 141),
+                it is highly unlikely that it belonged originally to one of the two parts of DCA
+                61.</p>
+            <p> DCA 61 is a composite manuscript that consists of two originally independent codices
+                    (<hi rend="bold">A</hi>, ff. 1–222 and <hi rend="bold">B</hi>, ff. 223–280).
+                Regrettably, none of these has preserved a proper colophon that might provide at
+                least some basic historical information about their production. </p>
+            <p> Both parts of the manuscript and the works they contain may shed light on the
+                revival of interest in the study of philosophy in the Chaldean milieu during the
+                modern period. The texts that were included deal predominantly with such subjects as
+                philosophy and logic (<hi rend="bold">A</hi>1, <hi rend="bold">A7</hi>, <hi
+                    rend="bold">A</hi>17, <hi rend="bold">A</hi>18, <hi rend="bold">B</hi>5, <hi
+                    rend="bold">B</hi>6, <hi rend="bold">B</hi>7, <hi rend="bold">B</hi>8, <hi
+                    rend="bold">B</hi>9, <hi rend="bold">B</hi>12, <hi rend="bold">B</hi>16, <hi
+                    rend="bold">B</hi>17), and also grammar and lexicography (<hi rend="bold"
+                >A</hi>2, <hi rend="bold">A</hi>5, <hi rend="bold">A</hi>9, <hi rend="bold"
+                >A</hi>10, <hi rend="bold">A</hi>11, <hi rend="bold">A</hi>12, <hi rend="bold"
+                    >A</hi>16, <hi rend="bold">B</hi>10, <hi rend="bold">B</hi>11, <hi rend="bold"
+                    >B</hi>14, <hi rend="bold">B</hi>15, <hi rend="bold">B</hi>18). Manuscripts of
+                that kind have a long pedigree and may be compared with such well-known manuscripts
+                as the 7th century British Library, Add. 14658 – which includes the works
+                corresponding to the late antique concept of general education – and the 9th century
+                Vat. sir. 158, which seemingly reflects the school curriculum of the Syriac Orthodox
+                monastery Qenneshre. As will be shown below, three East Syriac philosophical
+                manuscripts, Berlin Petermann I 9, Cambridge Add. 2812, and British Library, India
+                Office 9, turn out to be particularly close to DCA 61. </p>
+            <p> The content of the manuscript with its emphasis on philosophy and language
+                distinctly accords with the concern of the Chaldean Church to have the clergy
+                educated. As has been shown by H. Murre-van den Berg, the Uniate milieu tried its
+                best to distinguish itself from the traditional East Syriac branch by means of
+                various reforms, many of which were targeted at education.<note place="foot"
+                    xml:id="ftn2" n="2"><p rend="footnote text"> H. Murre-van den Berg, <hi
+                            rend="italic">Scribes and Scriptures: The Church of the East in the
+                            Eastern Ottoman Provinces (1500‒1850)</hi>, Eastern Christian Studies 21
+                        (Louvain: Peeters, 2015).</p></note> One of the material outcomes of this
+                movement was the production and copying of Syriac manuscripts rich in grammatical,
+                lexicographic, exegetical and philosophical content. It remains, however, uncertain
+                to what extent such manuscripts may be considered as documentary evidence for the
+                contemporary educational curriculum.</p>
+            <div>
+                <head>Alqosh, Chaldean Diocese 61, part A (ff. 1–222)</head>
+                <p>In terms of its genealogy, part <hi rend="bold">A</hi> must have been copied for
+                    the most part from British Library manuscript India Office 9 (henceforth,
+                        IO).<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> The only
+                            description available is still that by Furlani (G. Furlani, “Il
+                            manoscritto siriaco 9 dell’India Office,” <hi rend="italic">Rivista
+                                degli Studi Orientali</hi> 10 (1924): 315–320).</p></note> Out of a
+                    total of eighteen textual items, sixteen are present in IO. The texts were not,
+                    however, always copied faithfully, but rather they were either abridged or
+                    copied selectively (for instance, items <hi rend="bold">A</hi>3, <hi rend="bold"
+                        >A</hi>9, <hi rend="bold">A</hi>10, <hi rend="bold">A</hi>11, <hi
+                        rend="bold">A</hi>12). Occasionally, the name of the author or a title has
+                    been omitted (e.g. item <hi rend="bold">A</hi>17). Nevertheless, a partial
+                    collation as well as certain paratextual elements (such as marginal glosses)
+                    demonstrate a direct dependence on IO. The latter manuscript (copied in 1713/4)
+                    is familiar to specialists as being an important manuscript – the <hi
+                        rend="italic">codex unicus</hi> for some of the texts it contains – but its
+                    history is not particularly known to us. The manuscript was copied by two
+                    scribes, one of whom, Hōmō bar Danīʾēl from the Naṣrō family, was active in
+                    Alqosh during the first quarter of the 18th century.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text"> D. Wilmshurst, <hi
+                                rend="italic">The Ecclesiastical Organisation of the Church of the
+                                East, 1318–1913</hi>, CSCO 582, Subsidia 104 (Louvain: Peeters,
+                            2000), 247, 248, 249.</p></note> Hence, although the place of part <hi
+                        rend="bold">A</hi>’s copying is not indicated, it seems reasonable to posit
+                    that it was copied from IO during the 19th century when it was still present in
+                    Alqosh.</p>
+                <p>The only text not present in IO, Gregory bar ʿEbrōyō’s <hi rend="italic">Tegrat
+                        tegrātā</hi> (item <hi rend="bold">A</hi>1), is now known to be attested by
+                    a couple of early modern manuscript copies of East Syriac origin, none of which,
+                    however, can be straightforwardly associated with Alqosh. Despite the fact that
+                    one of these – Baghdad, Chaldean Patriarchate 223 (<hi rend="italic">olim</hi>
+                    Mosul, Chaldean Patriarchate/Scher 35)<note place="foot" xml:id="ftn5" n="5"><p
+                            rend="footnote text"> G. Kessel, N. Bamballi, “Field Notes on Syriac
+                            Manuscripts II: A Philosophical Manuscript <hi rend="italic">olim</hi>
+                            Mosul 35 Rediscovered,” <hi rend="italic">Hugoye: Journal of Syriac
+                                Studies </hi>21.1 (2018), 21–42.</p></note> – has exactly the same
+                    lacuna at the beginning, DCA 61 elsewhere demonstrates significant differences.
+                    Hence, the textual relationship between the two manuscripts remains to be
+                    explored. It also deserves to be mentioned that the manuscript Baghdad, Chaldean
+                    Monastery 174 (<hi rend="italic">olim</hi> Alqosh, Notre-Dame des Semences/Vosté
+                    55) was produced at approximately the same time, and most probably in Alqosh,
+                    based on <hi rend="italic">olim</hi> Mosul, Chaldean Patriarchate/Scher 35.</p>
+                <p>Paper. – 23 × 16 × 7 cm. – 222 fols. – 1 col., 19–23 l.</p>
+                <p>Modern Eastern Arabic foliation in pencil. – Quire signatures on the first and
+                    last page of a quire. – Catch-words. – An unfinished circle diagram on f. 1r. –
+                    Ff. 222v and 223 are blank.</p>
+                <p><hi rend="smallcaps">Condition</hi>: the manuscript consists of twenty-three
+                    quires; all quires consist of five bifolia and are complete; the first and the
+                    fifth ones are quaternions.</p>
+                <p><hi rend="smallcaps">Date</hi>: apparently, the manuscript had no colophon from
+                    the very beginning, which is unusual for a standard Syriac manuscript and may be
+                    explained if we suppose that it was produced for internal use, within a monastic
+                    community or a learning circle; nevertheless, there can be no doubt of its
+                    19th-century date.</p>
+                <p><hi rend="smallcaps">Scribe</hi> (f. 209v): the name of Ḥadbšabbā, son of
+                    Markhāyā from Alqosh is indicated in the final rubric of item <hi rend="bold"
+                        >A</hi>7.</p>
+                <p> The scribe does not seem otherwise known, although there is a possibility that
+                    he also commissioned the manuscript Alqosh, Chaldean Diocese/Ṣanā 40 (copied in
+                    1824 in Alqosh) – containing Bar ʿEbrōyō’s <hi rend="italic">The book of
+                        splendours.</hi> The commissioner of latter manuscript is introduced as ‘a
+                    true believer and a perfect Christian, deacon Ḥadbšabbā, son of the faithful
+                    Markhāyē (sic!), the son of ʿĪsā from the Sōrō family’ (DCA 40, f. 234v).<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> The manuscript is
+                            available at: <ref
+                                target="https://w3id.org/%20vhmml/readingRoom/view/128695"
+                                >https://w3id.org/ vhmml/readingRoom/view/128695</ref></p></note> If
+                    this identification is correct, then Ḥadbšabbā belonged to one of the important
+                    Chaldean families of Alqosh. And furthermore, we can then see him as the
+                    grandfather of another Chaldean scribe, Manṣūr, son of Mattai, who produced a
+                    number of manuscripts in the second half of the 19th century.<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text"> Wilmshurst, <hi rend="italic"
+                                >The Ecclesiastical Organisation</hi>, 255 and 256.</p></note> Yet
+                    another manuscript is known to have been produced by a certain ‘Khōšābā of
+                    Alqosh’, with no further details available (Baghdad, Chaldean Monastery
+                        483).<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> B.
+                            Ḥaddād and Ǧ. Isḥāq, <hi rend="italic">al-Maḫṭūṭāt al-suryāniyya
+                                wa-l-ʿarabiyya fī ḫizānat al-rahbāniyya al-kaldāniyya fī
+                            Baġdād</hi>, Fahāris al-maḫṭūṭāt al-suryāniyya fī l-ʿIrāq III.1 (Baġdād,
+                            1988), <foreign xml:lang="ar">٢٠٦-٢٠٥</foreign>.</p></note></p>
+                <p> Despite the indication of the scribe’s name, it is likely that more than one
+                    scribe was involved in the production of the manuscript (though impossible to
+                    say exactly how many). All too often one notices portions of the text written by
+                    different hands. Sometimes the change of ductus coincides with the beginning of
+                    a new page (e.g. ff. 66, 67), but on other occasions within the same page (e.g.
+                    ff. 24v, 84v, 89r, 129r). This change of ductus is also paralleled by the
+                    presence or absence of vocalisation. Whereas some individual hands have a
+                    professional air, while others jump out as being rather unpractised. The
+                    phenomenon of group-writing or group-copying may be somehow related to the
+                    educational context of the manuscript and deserves special attention.</p>
+                <p><hi rend="smallcaps">Pastedown</hi>: the binding of the manuscript contains two
+                    paper fragments that were used as pastedowns. Both contain the <hi rend="italic"
+                        >Book of Instruction</hi> of Elias of Anbar (IX/84-85 and 87). It remains to
+                    be seen if the manuscript they belonged to is still extant.</p>
+                <p><hi rend="smallcaps">Catalogue description</hi>: Ṣanā, H., Qayābalū, N., Sekmānī,
+                    ʾĪ., “Maḫṭūṭāt kanīsat al-Qōš.” In <hi rend="italic">Maktabāt al-Mawṣil
+                        w-ʾaṭrāfahā</hi>, Fahāris al-maḫṭūṭāt al-suryāniyya fī l-ʿIrāq I, Baġdād,
+                    1977, <foreign xml:lang="ar">٢٤٦</foreign>.</p>
+                <p><hi rend="smallcaps">Contents</hi>:</p>
+                <div>
+                    <head>1. ff. 1v–118r</head>
+                    <p>Gregory bar ʿEbrōyō, <hi rend="italic">Tegrat tegrātā</hi></p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܬܒܐ ܕܬܐܓܪܬ ܬܐܓܪ̈ܬܐ ܕܐܝܬܝܗ̇ ܦܪܓܡܛܝܐ ܡܠܝܠܬܐ ܡܢ ܣܝܡܗ
+                            ܕܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܦܪܝܢܐ ܕܡܕܢܚܐ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>: </p>
+                    <p><foreign xml:lang="syr">ܕܐܢܬܘܓܝܪ ܝܡܐ ܕܛܝܒܘ̈ܬܐ ܕܠܐ ܡܬܬܓܝܫ.</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܘܬܗܘܡܐ ܕܫܘ̈ܟܢܐ ܕܠܐ ܡܬܬܡܝܫ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p><foreign xml:lang="syr">ܘܠܐ ܬܗܐ ܡܨܥܝܐ ܒܝܫܐ ܕܦܘܪ̈ܣܝ ܓܢܝ̈ܙܬܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Explicit:</hi></p>
+                    <p>
+                        <foreign xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܬܐܓܪܬ ܬܐܓܪܬܐ</foreign></p>
+                    <p><hi rend="italic">Ed</hi>.: remains unedited with the exception of a few
+                        fragments.</p>
+                    <p><hi rend="italic">Lit</hi>.: Takahashi, H. “Barhebraeus und seine islamischen
+                        Quellen. Têḡrat̲ têḡrāt̲ā (Tractatus tractatuum) und Ġazālīs Maqā Ṣid
+                        al-falāsifa.” In <hi rend="italic">Syriaca: Zur Geschichte, Theologie,
+                            Liturgie und Gegenwartslage der syrischen Kirchen. 2. Deutsches
+                            Syrologen-Symposium (Juli 2000, Wittenberg)</hi>, Studien zur
+                        Orientalischen Kirchengeschichte 17, ed. M. Tamcke. Münster: LIT, 2002,
+                        147–175. </p>
+                    <p>Takahashi, H. <hi rend="italic">Barhebraeus. A Bio-Bibliography</hi>.
+                        Piscataway, N.J.: Gorgias Press, 2005, 254–256.</p>
+                    <p>Explanatory notes and glosses in Syriac and Garshūnī are present in the
+                        margins. </p>
+                </div>
+                <div>
+                    <head>2. ff. 118r–151r [IO 1]</head>
+                    <p>Eliya of Nisibis, <hi rend="italic">The Book of the Interpreter</hi></p>
+                    <p><hi rend="italic">Title</hi>: </p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܬܒܐ ܕܦܘܫܩ ܫܡܗ̈ܐ ܕܥܒܝܕ ܠܡܪܝ ܐܠܝܐ</foreign></p>
+                    <p><foreign xml:lang="syr"> ܡܝܛܪܦܘܠܝܛܐ ܕܨܘܒܐ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>: </p>
+                    <p>
+                        <foreign xml:lang="syr">ܒܣܡ ܐܠܠܗ ܐܠܪܚܡܢ ܐܠܪܚܝܡ. ܘܠܡܐ ܪܐܝܬ ܐܠܡܘܠܝ
+                            ܐܠܡܐܠܟ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p><foreign xml:lang="syr">ܐܣܬܘܡ ܘܐܢܨܠܚܬ ܡ̣ܢ ܓܝܪܗܐ ܬܬܩܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: Ḥaddād, B., <hi rend="italic">Targmānā sayomā
+                            Ēliyā bar Shināyā. </hi>Duhok, 2007.</p>
+                    <p><hi rend="italic">Lit.</hi>: McCollum, A.C., “Prolegomena to a New Edition of
+                        Eliya of Nisibis’s Kitāb al-turjumān fī taʿlīm luġat al-suryān.” <hi
+                            rend="italic">Journal of Semitic Studies</hi> 58:2 (2013): 297–322.</p>
+                    <p>3. ff. 151r-154v [<hi rend="bold">IO</hi> 71]</p>
+                    <p>&lt;Gregory bar ʿEbrōyō&gt;, hi >&lt;<hi rend="italic">Laughable
+                        stories</hi>&gt;, ch. 20, ‘physiognomical characteristics described by the
+                        sages’</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p><foreign xml:lang="syr">ܫܘܘܕܥܐ ܕܒܪܢܫܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܣܥܪܐ ܪܟܝܟܐ ܥܠ ܕܚܘܠܬܢܘܬܐ ܡܫܘܕܥ ܘܣܥܪܐ ܩܫܝܐ</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܥܠ ܓܒܪܘܬܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܥܗܕ ܠܡܠܬܐ ܕܐܡܪ ܦܘܠܘܣ ܫܠܝܚܐ ܟܠ ܡܕܡ ܕܟܐ ܗܘ
+                            ܠܕܟܝܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: Budge, E.A.W., <hi rend="italic">The Laughable
+                            Stories Collected by Mâr Gregory John Bar-Hebræus, Maphrian of the East
+                            from A.D. 1264 to 1286</hi>. London: Luzac, 1897, 149–157 [based on IO
+                        and Leeds, Syr. 3].</p>
+                    <p><hi rend="italic">Lit</hi>.: Marzolph, U., “Die Quelle der Ergötzlichen
+                        Erzählungen des Bar Hebräus.” <hi rend="italic">Oriens Christianus</hi> 69
+                        (1985): 81–125.</p>
+                    <p>Takahashi, H. <hi rend="italic">Barhebraeus. A Bio-Bibliography</hi>.
+                        Piscataway, N.J.: Gorgias Press, 2005, 347–353.</p>
+                    <p>Corresponds to chs. 678–725 (with omission of 692 and 726–727) in Budge’s
+                        edition of the <hi rend="italic">Laughable stories</hi>. As was demonstrated
+                        by Marzolph, the <hi rend="italic">Laughable stories</hi> is based for the
+                        most part on the vast anthology <hi rend="italic">Naṯral-durr</hi> by Abū
+                        Saʿd Manṣūr b. al-Ḥusayn al-Ābī (d. CE 1030). For ch. 20, however, <hi
+                            rend="s1">Bar ʿEbrōyō must have used a different source that has not as
+                            yet been precisely identified. The chapter bears close similarities to
+                            Ps.-Aristotle’s </hi><hi rend="italic">Physiognomonica</hi>.</p>
+                    <p><hi rend="Heading_3_Char">4. ff. 154v–157r</hi> [<hi rend="bold">IO</hi>
+                        83]</p>
+                    <p>&lt;ʿAbdīšōʿ of Nisibis&gt;, &lt;<hi rend="italic">Regulation of
+                            Ecclesiastical Judgments</hi>&gt;, book 1, ch. 10 (fragment)</p>
+                    <p><hi rend="italic">Title</hi>: –</p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܙܕܩ ܠܗ ܠܪܫܐ ܕܥܕܬܐ ܕܒܡܕܡ ܠܐ ܢܗܘܐ ܚܣܝܪ ܘܡܛܠ</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܕܥܠ ܙܒܢ̈ܬܐ ܗܠܝܢ ܡ̣ܢ ܣܓܝܐܐ ܡܫܬܐܠ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܝܫܘܥ ܒܪ ܢܘܢ ܩܬܘܠܝܩܐ ܐܬܬܣܝܡ ܝܘܡ ܚܕ ܒܫܒܐ ܬܡܢܬܥܣܪ ܒܝܪܚ
+                            ܚܙܝܪܢ. ܕܒܫܢܬ ܐܠܦ ܘܡܐܐ ܘܬܠܬܝܢ ܘܐܪܒܥ</foreign>
+                    </p>
+                    <p><hi rend="italic">Explicit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܫܠܡ ܚܘܫܒܢܐ ܕܣܘܢܗܕ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: remains unedited with the exception of a few
+                        excerpts.</p>
+                    <p>Vosté, I.-M, <hi rend="italic">Ordo iudiciorum ecclesiasticorum’ collectus,
+                            dispositus, ordinatus et compositus a Mar </hi><hi rend="italic"
+                            >ʿAbdišoʿ metropolita Nisibis et Armeniae, latine interpretatus est
+                            notis illustravit</hi>, Fonti, series 2, fasc. 15. Roma: Typis
+                        Polyglottis Vaticanis 1940 [Latin translation].</p>
+                    <p><hi rend="italic">Lit</hi>.: Selb, W. <hi rend="italic">Orientalisches
+                            Kirchenrecht</hi>, Band I. Wien, 1989, 77–78.</p>
+                    <p>Texts closely similar to this one can be found in a number of other
+                        manuscripts, for instance in Mardin, Chaldean Cathedral (CCM) 20 (<hi
+                            rend="italic">olim</hi> Diyarbakır/Scher 106), and are likely to derive
+                        from the same treatise of ʿAbdīšōʿ of Nisibis. The given text differs from
+                        the others and additionally provides in its second half the dates of several
+                        ecumenical councils (First Council of Constantinople of 381, Council of
+                        Ephesus of 431 and Council of Chalcedon of 451), as well as those of the
+                        Church of the East (e.g. the Synod of Mar Acacius of 486 and the Synod of
+                        Mar Babai, usually dated to 497 but here to CE 500). The fragment ends with
+                        an entry on Catholicos Īšōʿ bar Nūn, absent in ʿAbdīšōʿ’s work but present
+                        in the text attested by manuscript IO.</p>
+                    <p>5. f. 157r [<hi rend="bold">IO</hi> 68]</p>
+                    <p>Anonymous list of biblical toponyms with contemporary equivalents</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܦܘܫܩ ܟܪ̈ܕܠܢܐ ܕܝܘܢܝ̈ܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܪ̈ܕܠܢܐ ܝܘܢܐܝܬ ܬܪ̈ܥܐ ܘܡܠܘܟ̈ܐ ܕܦܦܐ ܡܬܦܫܩܝܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܐܘܪ ܕܟܠܕܝ̈ܐ. ܗ̄. ܒܝܬ ܡܚܘ̈ܙܐ. ܐܘ ܤܝܬ ܒܝܬ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>6. ff. 157r–184r [<hi rend="bold">IO</hi> 69]</p>
+                    <p>&lt;Pseudo&gt;-Aristotle, <hi rend="italic">Physiologus</hi></p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܥܠ ܚܝܘ̈ܬܐ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p><foreign xml:lang="syr">ܝܘܠܦܢܐ ܕܡܩܒ̈ܠܢ ܚܝܘ̈ܬܐ ܠܘ ܡܠܝܐܝܬ ܘܠܘ ܒܛܟܣܐ</foreign>
+                    </p>
+                    <p><foreign xml:lang="syr">ܕܦܪܘܫܘܬܐ</foreign></p>
+                    <p><hi rend="italic">Desinit</hi></p>
+                    <p>
+                        <foreign xml:lang="syr">ܘܡܬܕܟܝܐ ܐܟܡܐ ܕܐܝܬܝܗ ܗܘܬ ܒܟܝܢܗ ܠܗܕܐ ܕܝܢ ܣܓܝܐܐ ܡܢ
+                            ܐܣܘ̈ܬܐ ܣܗܕܘ ܥܠܝܗ̇</foreign>
+                    </p>
+                    <p><hi rend="italic">Explicit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܟܝܢܬܐ ܕܥܒܝܕ ܠܐܪܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: Ahrens, K., <hi rend="italic">Das Buch der
+                            Naturgegenstände</hi>. Kiel: Haeseler, 1892 [based on IO].</p>
+                    <p>The Syriac version of <hi rend="italic">Physiologus</hi> is known in at least
+                        two recensions, whereas the text preserved in IO is considered to be a
+                        collection containing <hi rend="italic">Physiologus</hi> material (a
+                        different collection is preserved in BL Add. 25878).</p>
+                    <p><hi rend="bold">7. ff. 184r–209v</hi> [<hi rend="bold">IO</hi> 3]</p>
+                    <p>Gregory bar ʿEbrōyō, <hi rend="italic">Kṯāḇ>ā da-swād sōpiyā</hi></p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܬܒܐ ܕܣܘܕ ܣܘܦܝܐ ܕܥܒܝܕ ܠܡܪܝ ܓܪܝܓܘܪܝܘܣ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܦܪܘܡܝܘܢ ܡܪܡܪܡܐ ܐܢܬ ܒܐܝܬܘܬܟ ܐܠܗܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܘܝܗܒ ܫܘܟܢ̈ܐ ܘܠܟ ܚܝܒ ܟܠܢܫܡܐ ܠܡܫܒܚܘ ܕܠܐ ܦܣܩ ܠܥܠܡ
+                            ܥܠܡܝܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Explicit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܣܘ ܣܘܦܝܐ ܘܐܝܣܓܘܓܝܢ ܕܥܒܝܕ </foreign></p>
+                    <p><foreign xml:lang="syr">ܠܓܪܝܓܘܪܝܘܣ ܡܦܪܝܢܐ ܕܡܕܢܚܐ</foreign></p>
+                    <p><hi rend="italic">Ed</hi>.: Janssens, H.F., <hi rend="italic">L’entretien de
+                            la sagesse. Introduction aux œuvres philosophiques de Bar Hebraeus</hi>,
+                        BFPUL 75. Liège, 1937.</p>
+                    <p><hi rend="italic">Lit</hi>.: Takahashi, H. <hi rend="italic">Barhebraeus. A
+                            Bio-Bibliography</hi>. Piscataway, N.J.: Gorgias Press, 2005,
+                        257–262.</p>
+                    <p><hi rend="bold">8. ff. 210r–211r</hi> [<hi rend="bold">IO</hi> 34]</p>
+                    <p>Anonymous exposition on the stones in Ex. 28:17-20</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܢܘܗܪܐ ܕܟܐܦ̈ܐ ܕܡܫܟܢ ܙܒܢܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܣܘܡܩܐ ܘܙܪܓܐ ܘܒܪܩܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܪܓܫ ܕܝܢ ܒܪ̈ܓܫܐ ܢܦܫܢܝ̈ܐ. ܐܘ ܟܝܬ ܒܙܘ̈ܥܐ
+                            ܕܢܦܫܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>The text can be found also in Mingana Syr. 108.</p>
+                    <p><hi rend="bold">9. f. 211r</hi> [<hi rend="bold">IO</hi> 40]</p>
+                    <p>Anonymous short explanation of the Greek words</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܦܘܫܩ ܫܡܗ̈ܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܐܪܟܐܠܐܘܣ. ܪܫ ܥܡܐ܀ ܩܘܡܣ. ܪܫ ܚܡܫܡܐܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܣܢܐܓܪܐ. ܗ̄. ܡܥܕܪܢܐ</foreign></p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>A similar work can be also found in Harvard, Houghton Library, Syr. 72, ff.
+                        63r–64v.</p>
+                    <p><hi rend="bold">10. f. 211r</hi><hi rend="apple-tab-span"> [</hi><hi
+                            rend="bold">IO</hi> 41] </p>
+                    <p>Anonymous short treatise on the synonyms</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܡ̇ܢ ܦܪܝܫ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܥܓܠ ܡ̣ܢ ܩܠܝܠ. ܡ̣ܢ ܡܣܪܗܒ. ܘܐܡܪܝܢܢ ܕܗ̇ܘ ܕܚܪܝܦ ܒܙܒܢܗ
+                            ܥܓܠ ܡܬܐܡܪ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܐܣܘܛܐ ܐܦ ܗܘ̤ ܡܬܝܥܢ ܥܠ ܡܐܟܘܠܬܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p><hi rend="bold">11. ff. 211r–213r </hi> [<hi rend="bold">IO</hi> 42]</p>
+                    <p>Anonymous explanation of the Biblical names and other foreign words</p>
+                    <p><hi rend="italic">Title</hi>: –</p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܦܝܢܚܣ. ܚܐܣ ܥܠ ܦܘܡܗ܀ ܕܘܝܕ. ܕܘܝܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܕܡܛܬܣܝܣ ܡܬܚܡܐ ܦܫܝܛܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>The text is not separated from the preceding one; we have divided the texts
+                        according to IO. </p>
+                    <p><hi rend="bold">12. ff. 213r–215v</hi> [<hi rend="bold">IO</hi> 31] </p>
+                    <p>Ḥunayn b. Isḥaq and ʿEnanīšōʿ, <hi rend="italic">Liber canonum de
+                            aequilitteris</hi> (selection).</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܬܒܐ ܕܩܢܘ̈ܢܐ ܕܥܒܝܕܝܢ ܠܪܒܢ ܚܘܢܝܢ ܘܠܪܒܢ
+                            ܥܢܢܝܫܘܥ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܐܡܪ ܡܡܠܠܐ ܕܡ̣ܢ ܟܕܘ ܠܐܚܪ̈ܢܐ ܐܬܐܡܪ ܐܝܟ ܗ̇ܝ</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܕܐܡ̣ܪ ܡܪܝܐ ܠܡܘܫܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܡܬܒܢܕܠܝܢ. ܗ̄. ܡܫܬܓܫܝܢ܀ ܫܘ̈ܠܒܓܐ܆ ܢܘܦܚ̈ܐ
+                            ܙܥܘܪ̈ܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: Hoffmann, G., <hi rend="italic">Opuscula
+                            nestoriana</hi>. Kiliae, 1880, 2–49 [based on IO]. </p>
+                    <p><hi rend="bold">13. ff. 215v–216v</hi> [<hi rend="bold">IO</hi> 55]</p>
+                    <p>&lt;Solomon of Baṣra&gt;, &lt;<hi rend="italic">Book of the Bee</hi>&gt;, ch.
+                        5, ‘on the creation of the angels’ (fragment)</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p><foreign xml:lang="syr">ܥܠ ܒܪܝܬܐ ܕܡܠܐܟ̈ܐ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܡܠܐܟ̈ܐ ܕܝܢ ܬܫܥܐ ܬܓܡ̈ܐ ܐܝܬܝܗܘܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܕܢܥܠܘܢ ܠܥܠܡܐ ܐܝܟ ܡܢܝܢܐ ܕܟܠܗܘܢ ܚܝ̈ܠܘܬܐ
+                            ܫܡܝ̈ܢܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: Budge, E.A.W., <hi rend="italic">The Book of the
+                            Bee. Oxford: Clarendon Press, 1886, 12* l. 20 – 14* l. 15</hi></p>
+                    <p><hi rend="italic">Lit.</hi>: Molenberg, C., <hi rend="italic">The Interpreter
+                            interpreted. Išoʿ bar Nun’s Selected Questions on the Old Testament</hi>
+                        [PhD thesis]. Groningen, 1990, 12–13.</p>
+                    <p>The same text appears in a modern copy, Vat. sir. 593, ff. 53v–54r, as well
+                        as in the older Baghdad, Chaldean Monastery 78 (<hi rend="italic">olim</hi>
+                        Alqosh, Notre-Dame des Semences/Vosté 45), and <hi rend="italic">olim</hi>
+                        Mosul, Chaldean Patriarchate/Scher 103, where it is attributed to Īšōʿ bar
+                        Nūn. C. Molenberg argued that the author is not identical to the Catholicos
+                        Īšōʿ bar Nūn (d. CE 828) but was unable to identify the text.</p>
+                    <p>14. <hi rend="bold">ff. 216v–216v</hi> [<hi rend="bold">IO</hi> 55]</p>
+                    <p>Anonymous, ‘The degrees of the angels and their interpretation’</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܬܘܒ ܕܪ̈ܓܐ ܕܡܠܐܟ̈ܐ ܘܦܘܫܩܗܘܢ</foreign></p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܪ̈ܘܒܐ ܗ̄ ܦܛܪܝܪ̈ܟܐ. ܣܪ̈ܦܐ ܗ̄ ܩܬܘܠܝ̈ܩܐ</foreign></p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܡܠܐܟ̈ܐ. ܗ̄. ܗܘܦܬܝܩ̈ܢܐ܀ ܡܠܐܟ̈ܐ. ܗ̄. ܩܪ̈ܘܝܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>The text has some parallels with the <hi rend="italic">Book of the
+                            Fathers</hi> and ʿAbdīšōʿ of Nisibis’s, <hi rend="italic">Regulation of
+                            Ecclesiastical Judgments</hi> (book 4, ch. 2), both of which are so far
+                        unedited.</p>
+                    <p><hi rend="bold">15. ff. 216v–217r</hi> [<hi rend="bold">IO</hi> 55]</p>
+                    <p>Anonymous work on ecclesiastical degrees and their interpretation in question
+                        and answer form</p>
+                    <p><hi rend="italic">Title</hi>: -</p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܫܘܐܠܐ. ܡܢܐ ܡܡܠܝܢ ܕܪ̈ܓܐ ܗܢܘܢ ܕܒܥܕܬܐ ܚܕ ܚܕ</foreign>
+                    </p>
+                    <p><foreign xml:lang="syr">ܡܢܗܘܢ</foreign></p>
+                    <p><hi rend="italic">Desinit: </hi></p>
+                    <p><foreign xml:lang="syr">ܩܬܘܠܝܩܐ. ܐܒܐ ܓܘܢܝܐ ܡܬܦܫܩ܀ ܦܛܪܝܪܟܐ. ܐܚܝܕ</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܠ ܡܬܦܫܩ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>The text has some parallels with the <hi rend="italic">Book of the
+                            Fathers</hi> and ʿAbdīšōʿ of Nisibis’s, <hi rend="italic">Regulation of
+                            Ecclesiastical Judgments</hi> (book 4, ch. 2).</p>
+                    <p><hi rend="bold">16. ff. 217r–219r</hi>[<hi rend="bold">IO</hi> 12]</p>
+                    <p>Anonymous Greek-Syriac glossary</p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܢܘܗܪܐ ܕܦܬܓܡ̈ܐ ܥܣܩܐ ܕܐܝܬ ܒܦܪܝܪܡܐܢܝܐܣ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܣܘܣܛܘܟܣܝܐ ܗܢܘ ܕܝܢ ܩܐܛܓܘܪܝܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܗܟܣܝܣ. ܣܩܘܒܠܝܘܬܐ ܕܡܩܘܝܐ ܙܒܢܐ ܣܓܝܐܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p><hi rend="italic">Lit</hi>.: Hugonnard-Roche, H., “Lexiques bilingues
+                        grec-syriaque et philosophie aristotélicienne.” In <hi rend="italic"
+                            >Lexiques bilingues dans les domaines philosophique et scientifique
+                            (Moyen Âge – Renaissance)</hi>, Textes et études du Moyen Âge 14, ed. J.
+                        Hamesse and D. Jacquart. Turnhout: Brepols, 2001, 1–24.</p>
+                    <p>Hugonnard-Roche, H., “La tradition du <hi rend="italic">Peri hermeneias</hi>
+                        d’Aristote en syriaque, entre logique et grammaire.” In <hi rend="italic"
+                            >Les auteurs syriaques et leur langue</hi>, Études syriaques 15, ed. M.
+                        Farina. Paris: Geuthner, 2018, 55–93.</p>
+                    <p>Despite its title – ‘Explanation of difficult terms in Aristotle’s <hi
+                            rend="italic">De Interpretatione</hi>’ – the vocabulary represented by
+                        the glossary covers a much broader spectrum and is only tangibly related to
+                        the work of Aristotle. Item <hi rend="bold">B</hi>14 provides a more
+                        extensive version of the same glossary.</p>
+                    <p><hi rend="bold">17. ff. 219r–221v</hi> [<hi rend="bold">IO</hi> 3]</p>
+                    <p>&lt; Yōḥannān bar Zōʿbī &gt;, <hi rend="italic">Universal canon</hi></p>
+                    <p><hi rend="italic">Title</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܩܢܘܢܐ ܓܘܢܝܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Title on the margin</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܦܝܠܣܘܦܝܐ ܕܡܬܩܪܐ ܒܡܘ̈ܫܚܬܐ</foreign>
+                    </p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܒܗܘ ܚܒܝܫܐ ܓܪܡܡܛܝܩܝ ܘܘܐܪܪܝܩܝ ܘܐܦ ܠܘܓܝܩܝ</foreign>
+                    </p>
+                    <p><foreign xml:lang="syr">ܐܘܪ̈ܓܢܝܬ ܦܝܠܣܘܦܝ</foreign>
+                    </p>
+                    <p><hi rend="italic">Desinit</hi>:</p>
+                    <p>
+                        <foreign xml:lang="syr">ܕܐܝܬܝܗܘܢ ܥܠܬܐ ܩܕܡܝܬܐ. ܘܗܠܝܢ ܠܬܐܘܪܝܐ</foreign>
+                    </p>
+                    <p>
+                        <foreign xml:lang="syr">ܟܝܢܝܬܐ ܠܚ̈ܡܢ</foreign>
+                    </p>
+                    <p><hi rend="italic">Ed</hi>.: unedited</p>
+                    <p>In other manuscripts, the text has the title <hi rend="italic">Metrical mēmrā
+                            on philosophy</hi>.</p>
+                    <p><hi rend="bold">18. f. 221r</hi></p>
+                    <p>&lt;Gregory bar ʿEbrōyō&gt;, &lt;<hi rend="italic">Tegrat tegrātā&gt;, book
+                            1, ch. 2 (fragment)</hi></p>
+                    <p><hi rend="italic">Title</hi>: -</p>
+                    <p><hi rend="italic">Incipit</hi>:</p>
+                    <p><foreign xml:lang="syr">ܣܝܠܝܕܝܣ ܕܫܘܝ̈ܬܐ. ܡ̣ܢ ܐܢܢܩܝ ܕܬܗܘܐ. ܠܐ ܡ̣ܢ
+                        </foreign></p>
+                    <p><foreign xml:lang="syr">ܐܢܢܩܝ ܕܬܗܘܐ</foreign></p>
+                    <p>See <hi rend="bold">A</hi>1 above.</p>
+                    <p>The fragment deals with the subject of the negation of modal propositions
+                        (cf. Aristotle, <hi rend="italic">On interpretation</hi> 12). The fragment
+                        appears to have been copied from a text as it can be found elsewhere (see
+                        item <hi rend="bold">A</hi>1 above) in the manuscript (ff. 24v–25r). The
+                        final sentence of the fragment is underlined in the main text. The
+                        accompanying commentary is present also in IO.</p>
+                </div>
+            </div>
+            <div>
+                <head>Alqosh, Chaldean Diocese 61, part B (ff. 223–280)</head>
+                <p>Paper. – 23 x 16 x 7 cm. – 58 fols. – 1 col., 22–23 l. </p>
+                <p>Modern Eastern Arabic foliation in pencil. – Quire signatures on the first and
+                    last pages of quires. Catch-words.</p>
+                <p><hi rend="smallcaps">Condition</hi>: the manuscript consists at present of six
+                    quires and it is impossible to estimate how many are lost; all the quires
+                    consist of five bifolia and are complete, although the sixth one is a
+                    quaternion.</p>
+                <p><hi rend="smallcaps">Date</hi>: the colophon is lost, but the year (CE 1865) is
+                    recorded on f. 239v</p>
+                <p><hi rend="smallcaps">Scribe</hi>: as with part <hi rend="bold">A</hi>,
+                    conspicuous is the presence of multiple hands (distinguishable by their ductus)
+                    and it is likely that at least some of these are identical with those involved
+                    in the production of part <hi rend="bold">A</hi>; no names are indicated.</p>
+                <p> A number of works present in part <hi rend="bold">B</hi> also appear in three
+                    other manuscripts (Cambridge, Add. 2812, Berlin, Petermann I 9, and London,
+                    India Office 9). Examination of some texts makes it unlikely to suppose that
+                    part <hi rend="bold">B</hi> was directly copied from any of those. To establish
+                    the actual relationship with part <hi rend="bold">B</hi>, these three
+                    manuscripts (especially Petermann I 9 containing the largest group of shared
+                    texts) and other related ones will require a special study. The following table
+                    provides a comparison between the four manuscripts (the numbers of the items in
+                    the Berlin and Cambridge manuscripts depend on the descriptions of Sachau and
+                    Wright respectively); the actual text may differ rather significantly from copy
+                    to copy:</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="center"><p>DCA 61</p>part <hi rend="bold">B</hi></cell>
+                        <cell rend="center"><p>Petermann I 9</p><p>(CE 1259/60)</p></cell>
+                        <cell rend="center">Cambridge Add. 2812 (CE 1806)</cell>
+                        <cell rend="center"><p>BL India Office 9</p><p>(CE 1698 and
+                            1712/3)</p></cell>
+                    </row>
+                    <row>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">10</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">2</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">3</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">4</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">5</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">6</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">23</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">7</cell>
+                        <cell rend="center">18</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">8</cell>
+                        <cell rend="center">22</cell>
+                        <cell rend="center">XI</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">9</cell>
+                        <cell rend="center">24</cell>
+                        <cell rend="center">XII</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">&lt;30&gt;.a</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">37</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">11</cell>
+                        <cell rend="center">&lt;30&gt;.b</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">39</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">12</cell>
+                        <cell rend="center">&lt;30&gt;.c</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">13</cell>
+                        <cell rend="center">&lt;30&gt;.d</cell>
+                        <cell rend="center">IX.c</cell>
+                        <cell rend="center">8</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">14</cell>
+                        <cell rend="center">33</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">-</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">16</cell>
+                        <cell rend="center">25</cell>
+                        <cell rend="center">IX.a</cell>
+                        <cell rend="center">11</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">17</cell>
+                        <cell rend="center">25</cell>
+                        <cell rend="center">IX.b</cell>
+                        <cell rend="center">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">18</cell>
+                        <cell rend="center">34</cell>
+                        <cell rend="center">VI</cell>
+                        <cell rend="center">26</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">19</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">20</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                        <cell rend="center">–</cell>
+                    </row>
+                </table>
+                <p><hi rend="bold">1. ff. 223rv</hi>
+                </p>
+                <p>Anonymous work on the Jewish sects that appeared after the return from Babel</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܕܬܕܥ ܠܟܡܐ ܗܪ̈ܣܝܣ ܐܣܬܕܩܬ ܝܗܘܕܝܘܬܐ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܠܫܒܥ ܗܪ̈ܣܝܣ ܐܬܦܠܓܬ ܡ̣ܢ ܒܬܪ ܦܘܢܝܐ ܕܡ̣ܢ ܒܒܠ ܕܐܝܬܝܗܘܢ.
+                        ܣܦܪ̈ܐ ܘܦܪ̈ܝܫܐ ܘܙܕܘܩ̈ܝܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܠܐ ܐܠܦ ܐܢܘܢ ܘܟܦܪܝܢ ܒܩܝܡܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p><hi rend="italic">Lit</hi>.: Brock, S.P., “Some Syriac Accounts of the Jewish
+                    Sects.” In <hi rend="italic">A Tribute to Arthur Vööbus: Studies in Early
+                        Christian Literature and Its Environment, Primarily in the Syrian East</hi>,
+                    ed. R.J. Fischer. Chicago, Illinois: The Lutheran School of Theology at Chicago,
+                    1977, 265–276.</p>
+                <p>The account of the Jewish sects most probably depends on the respective passage
+                    in book 5 of Theodore bar Kōnī’s
+                        <hi rend="italic">Scholion</hi> (edition: Scher, A., <hi rend="italic"
+                        >Theodorus bar Kōni Liber Scholiorum, Pars Prior</hi>, CSCO 55, Syr. II/65.
+                    Paris and Leipzig: E Typographeo Reipublicae, 1910, 366 l. 19 – 369 l. 1).</p>
+                <p><hi rend="bold">2. f. 223v</hi></p>
+                <p>Anonymous, ‘On the &lt;types&gt; of wood from which the altar and the table are
+                    made’</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܬܘܒ ܕܝܢ ܘܐܦ ܡܘܕܥܝܢܢ ܩܝ̈ܣܐ ܕܡܢܗܘܢ ܡܬܥܒܕ ܡܕܒܚܐ ܘܕ̈ܦܐ</foreign>
+                </p>
+                <p><hi rend="italic">Full text</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܕܐܫܟܪܥܐ ܕܗܘ̤ ܫܓܐ܂ ܕܬܘܬܐ܂ ܕܓܘܙܐ܂ ܕܠܘܙܐ܂ ܕܥܘܢܒܘ܂ ܕܫܪܘܝܢܐ܂ ܕܫܡܫܪ܂ ܕܐܒܢܘܣ܂
+                        ܕܬܬܐ܂ ܕܩܝܣܐ ܕܟܝܪܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p><hi rend="bold">3. ff. 223v–224r</hi></p>
+                <p>Anonymous, ‘Explanation of the signs of the zodiac in which the Sun stands’</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܫܘܕܥܐ ܕܫܡܫܐ ܕܒܐܝܢܐ ܡܠܘܫܐ ܗ̇ܘܐ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܒܥܣܪܝܢ ܘܐܪܒܥܐ ܒܢܝܣܢ ܢ̇ܦܩ ܫܡܫܐ ܡ̣ܢ ܐܡܪܐ ܘܥ̇ܐܠ ܠܬܘܪܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܨܠܡܐ ܪܒܐ ܟܢܘܢ ܐܚܪܝ܀ ܕܘܠܐ ܫܒܛ܀ ܢܘܢܐ ܐܕܪ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p>The text is followed by a brief explanation.</p>
+                <p><hi rend="bold">4. f. 224r</hi></p>
+                <p>&lt;Theodore bar Kōnī&gt;, &lt;<hi rend="italic">Scholion</hi>&gt;, book 7
+                    (fragment), ‘The names of the magi-kings who brought offerings to our Lord’</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܫܡ̈ܗܐ ܕܡ̈ܠܟܐ ܡܓܘ̈ܫܐ ܕܐܘܒܠܘ ܩܘܪ̈ܒܢܐ ܠܡܪܢ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐ܂ ܙܪܘܢܕܕ ܒܪ ܐܪܛܒܢ܂ ܒ܂ ܗܘܪܡܙܕ ܒܪ ܣܢܛܪܘܩ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܘܢܦ̣ܠܘ ܣܓܕܘ ܠܗ ܥܠ ܐܪܥܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Scher, A., <hi rend="italic">Theodorus bar Kōni Liber
+                        Scholiorum, Pars Posterior</hi>, CSCO 69, Syr. II/66. Paris and Leipzig: E
+                    Typographeo Reipublicae, 1912, 72 l. 9–20.</p>
+                <p><hi rend="italic">Lit</hi>.: Witakowski, W., “The Magi in Syriac Tradition.” In
+                        <hi rend="italic">Malphono w-Rabo d-Malphone: Studies in Honor of Sebastian
+                        P. Brock</hi>, Gorgias Eastern Christian Studies 3, ed. G.A. Kiraz.
+                    Piscataway, NJ: Gorgias Press, 2008, 809–843.</p>
+                <p>Similar anonymous lists can be found in a number of manuscripts (e.g. Mingana
+                    Syr. 148) but often vary in the spelling of names. </p>
+                <p><hi rend="bold">5. f. 224rv</hi></p>
+                <p>Anonymous, ‘On the difference between ‘nature’, ‘essence’, and ‘person’’</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܒܡ̇ܢ ܦܪܝܫ ܟܝܢܐ ܡ̣ܢ ܩܢܘܡܐ ܡ̣ܢ ܦܪܨܘܦܐ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܟܝܢܐ ܗܟܝܠ ܐܝܬܘܗܝ ܗ̇ܘ ܡܐ ܕܗܘ̤ ܠܝܬܗ ܡܩܝܡ ܒܗ̇ܘ ܡܐ ܕܐܝܬܘܗܝ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܕܩܢܘܡܗ ܕܦܛܪܘܣ ܐܝܬܘܗܝ ܐܘ ܕܐܚܪܢܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p>The text does not seem to be related to the work of John bar Zoʿbi with a similar
+                    title (cf. Furlani, G., “Giovanni Bar Zô‘bî sulla differenza tra natura ed
+                    ipostasi e tra persona e faccia.” <hi rend="italic">Studi e materiali di storia
+                        delle religioni</hi> 2 (1926): 230–242).</p>
+                <p><hi rend="bold">6. f. 224v</hi>
+                </p>
+                <p>Anonymous, ‘In how many ways books can be interpreted’</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܥܠ ܕܒܟܡܐ ܙܢ̈ܝܢ ܡܬܦܫܩܝܢ ܟܬܒ̈ܐ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܒܚܡܫܐ ܙܢ̈ܝܢ ܡܬܦܫܩܝܢ ܟܬܒ̈ܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܘܡܢܗܘܢ ܬܘܒ ܒܣܘܓ̈ܝܬܐ ܘܒܥܘ̈ܢܝܬܐ ܘܒܙܢ̈ܝ ܙܡܪܐ ܕܒܬ ܩ̈ܠܐ
+                    ܘܩ̈ܝܢܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p><hi rend="bold">7. ff. 224v–230r</hi></p>
+                <p>Severus Sēbokht<hi rend="italic">, Letter to the periodeutes Yawnan on difficult
+                        questions in Aristotle’s </hi>De Interpretatione<hi rend="italic"> and
+                    </hi>Analytica Priora</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p><foreign xml:lang="syr">ܐܓܪܬܐ ܕܣܐܘܪܐ ܣܒܘܟܬ ܠܘܬ ܝܘܢܢ ܣܥܘܪܐ ܗ̇ܘ ܕܗܘܐ ܐܦܣܩܘܦܐ ܕܬܠܐ ܡܛܠ ܒܢܬ ܩ̈ܠܐ ܡܕܡ
+                        ܡܕܡ ܕܒܦܪܝܐܝܪܡܢܝܣ ܕܐܪܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ ܘܒܐܢܘܠܘܛܝܩ̈ܐ ܩܕܡ̈ܝܐ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܠܪܚ̇ܡ ܐܠܗܐ ܘܕܚ̇ܠ ܐܠܗܐ ܐܚܘܢ ܪܘܚܢܐ ܘܝܬܝܪ ܚܒܝܒܐ ܩܫܝܫܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܘܐܢ ܒܣܘܥܪ̈ܢܐ ܟܝܬ ܐܠܗ̈ܝܐ ܒܗ̇ ܒܕܡܘܬܐ ܘܐܦ ܒܐܢܫ̈ܝܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Hugonnard-Roche, H., “Questions de logique au VII<hi
+                        rend="superscript">e</hi> siècle. Les épîtres syriaques de Sévère Sebokht et
+                    leurs sources grecques.” <hi rend="italic">Studia Graeco-Arabica</hi> 5 (2015):
+                    53–104.</p>
+                <p><hi rend="italic">Lit</hi>.: Reinink, G.J., “Severus Sebokts Brief an den
+                    Periodeutes Jonan. Einige Fragen zur aristotelischen Logik.” In <hi
+                        rend="italic">Symposium Syriacum III</hi>, Orientalia Christiana Analecta
+                    221, ed. R. Lavenant. Roma, 1983, 97–107.</p>
+                <p>The text belongs to the same branch that is represented by manuscripts Berlin,
+                    Petermann I 9, and Cambridge, Add. 2812.</p>
+                <p><hi rend="bold">8. ff. 230r–239v</hi></p>
+                <p>Aristotle, <hi rend="italic">Prior Analytics</hi>, book I, chapters 1–7
+                    (anonymous Syriac translation)</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐܢܘܠܘܛܝܩܐ ܟܬܒܐ ܩܕܡܝܐ ܕܐܪܣܛܘܛܠܝܣ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p><foreign xml:lang="syr">ܩܕܡܐܝܬ ܙ̇ܕܩ ܕܢܐܡܪ ܕܥܠ ܡܢܐ ܘܕܡܘܢ ܐܝܬܝܗ̇ ܡܬܚܫܒܢܘܬܐ ܕܥܠ
+                    ܐܦܘܕܟܣܝܣ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܘܠܘܬ ܚܕܕܐ ܠܗܠܝܢ ܐܚܪ̈ܢܐ ܗ̇ܢܘܢ ܕܡ̣ܢ ܗܠܝܢ ܐܚܪ̈ܢܐ</foreign>
+                    <hi rend="italic">Final rubric</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܫܠܡ ܐܢܘܠܘܛܝܩܐ ܕܥܒܕܐ ܠܐܪܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Friedmann, I., <hi rend="italic">Aristoteles’
+                        Analytica bei den Syrern</hi> [Inaugural-Dissertation]. Berlin, 1898 [based
+                    on Berlin Petermann I 9].</p>
+                <p>Nagy, A., <hi rend="italic">Una versione siriaca inedita degli Analitici
+                        d’Aristotele</hi>, Rendiconti della Reale Accademia dei Lincei, Classe di
+                    scienze morali, storiche e filologiche, ser. 5, vol. 7. Roma: Tipografia della
+                    Accademia, 1898, 321–347 [based on Vat. sir. 158].</p>
+                <p><hi rend="italic">Lit</hi>.: S.P. Brock, “The Syriac Commentary Tradition.” In
+                        <hi rend="italic">Glosses and Commentaries on Aristotelian Logical Texts:
+                        The Syriac, Arabic, and Medieval Latin Traditions</hi>, ed. Ch. Burnett.
+                    London: The Warburg Institute, 1993, 3–18, here 14 § 4.1.1 = id., <hi
+                        rend="italic">From Ephrem to Romanos: Interactions between Syriac and Greek
+                        in Late Antiquity</hi>. Aldershot: Variorum, 1999, no. xiii].</p>
+                <p>The manuscript contains the early anonymous translation, which covers only the
+                    first seven chapters of the <hi rend="italic">Prior Analytics</hi>. A full
+                    translation was made by George, bishop of the Arabs. The text is very close to
+                    that preserved in Petermann I 9.</p>
+                <p><hi rend="bold">9. f. 240rv</hi></p>
+                <p>Prōḇā, Commentary on Aristotle’s
+                        <hi rend="italic">De Interpretatione</hi> (2nd section)</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܦܘܫܩ ܐܘܟܝܬ ܢܘܗܪܐ ܕܦܣܘܩܐ ܕܬܪܝܢ ܡ̣ܢ ܟܬܒܐ ܕܦܪܝܐܪܡܢܝܣ ܕܐܪܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ
+                        ܕܥܒܝܕ ܠܦܪܘܒܐ ܡܛܠ ܦܪܘܛܣܝܣ ܕܡ̣ܢ ܗ̇ܘ ܕܣܝܡ ܘܡ̣ܢ ܗ̇ܘ ܕܡܬܩܛܪܓ ܒܠܚܘܕ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܒܥܝܢܢ ܕܝܢ ܡ̣ܢ ܩܕܡ ܗܢܐ ܦܣܩܐ ܬܠܬܐ ܡܕܡ ܕܚܫܚܝܢ ܠܢ ܒܗ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܕܗ̇ܘ ܕܣܝܡ ܒܗ̇ܝ ܕܐܝܬܘܗܝ ܐܘ ܠܐ ܐܝܬܘܗܝ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Hoffmann, G., <hi rend="italic">De Hermeneuticis apud
+                        Syros Aristoteleis</hi>. Lipsiae, 1869, 88 l. 7 – 89 l. 23 [based on
+                    Petermann I 9]. </p>
+                <p><hi rend="italic">Lit</hi>.: Brock, S. “The Syriac Commentary Tradition.” In <hi
+                        rend="italic">Glosses and Commentaries on Aristotelian Logical Texts: The
+                        Syriac, Arabic and Medieval Latin Traditions</hi>, ed. Ch. Burnett. London:
+                    The Warburg Institute, 1993, 3–18, here 14 §4.2.2 = id. <hi rend="italic">From
+                        Ephrem to Romanos: Interactions Between Syriac and Greek in Late
+                        Antiquity</hi>, Variorum Collected Studies Series CS664. Aldershot,
+                    Hampshire–Brookfield, VT: Ashgate, 1999, no. xiii.</p>
+                <p>Brock, S. “The Commentator Probus: Problems of Date and Identity.” In <hi
+                        rend="italic">Interpreting the Bible and Aristotle in Late Antiquity. The
+                        Alexandrian Commentary Tradition between Rome and Baghdad</hi>, ed. J. Lössl
+                    and J. W. Watt. Farnham–Burlington, VT: Ashgate, 2011, 195–206.</p>
+                <p>Suermann, H. “Anmerkungen zur Sprache der Übersetzungen und Kommentare von
+                    Aristoteles und Porphyrios bei Probus.” In <hi rend="italic">VI Symposium
+                        Syriacum, 1992: University of Cambridge, Faculty of Divinity, 30 August–2
+                        September 1992</hi>, Orientalia Christiana Analecta 247, ed. R. Lavenant.
+                    Roma: Pontificio Istituto Orientale, 1994, 393–400.</p>
+                <p><hi rend="bold">10. f. 241r</hi>
+                </p>
+                <p>Anonymous riddle on the letters of the alphabet</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܡܬܠܐ ܕܥܒܝܕ ܠܚܕ ܡ̣ܢ ܚܟܝܡ̈ܐ ܥܠ ܐܬܘ̈ܬܐ ܕܐܠܦܐ ܒܝܛܐ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܫܘܐܠܐ: ܒܝܬܐ ܚܕ ܡܪܟܒܐ ܕܟܠܗ ܡܠܘܐܐ ܕܝܠܗ ܠܐ ܡܬܚܒܫ ܒܥܘܦܦܐ
+                    ܬܠܝܬܝܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>: </p>
+                <p><foreign xml:lang="syr">ܘܡܬܚܘܐ ܠܟܠ ܕܡܠܝܠ ܘܣܢܝܩܐ ܥܠܝܗܘܢ ܡܠܟܘܬܐ ܐܪܥܢܝܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p><hi rend="bold">11. f. 241rv</hi>
+                </p>
+                <p>David bar Pawlōs, On different types of nominal forms</p>
+                <p><hi rend="italic">Title</hi>: – </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܬܩܐܣܝܡ ܐܠܐܣܡܐ ܐܠܘܐܩܥܗ ܥܠܝ ܣܐܝܪ ܐܠܐܫܝܐ ܛܝܐܝܬ ܩܪܝ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܡܠܟ ܡ̈ܠܟܐ ܪܒ ܒܝܬܐ ܪܒܐ ܕܒܝܬܐ ܘܟܠ ܕܒܗܢܐ ܙܢܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Sachau, E., <hi rend="italic">Verzeichnis der
+                        Syrischen Handschriften der Königlichen Bibliothek zu Berlin</hi>, vol. I.
+                    Berlin: A. Asher &amp; Co., 1899, 330.</p>
+                <p>Gottheil, R.J.H., “Dawidh bar Paulos, a Syriac Grammarian.” <hi rend="italic"
+                        >Journal of the American Oriental Society</hi> 15 (1893): cxi–cxviii, here
+                    cxiii–cxv [based on IO].</p>
+                <p>A brief work attributed to David bar Pawlōs (8th/9th c.), whose identity is
+                    disputed in the literature, discusses eight types of nouns (examples for each
+                    type derive not only from Syriac, but also from Greek, Hebrew, and Arabic
+                    languages). The opening part is in Garshūnī and is attested also by Peterman I
+                    9, though absent in IO.</p>
+                <p><hi rend="bold">12. f. 241v</hi></p>
+                <p>David bar Pawlōs, A list of Aristotle’s categories in Syriac and Arabic</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܕܝܠܗ ܛܝܝܐܝܬ܂ ܬܦܣܝܪ ܐܠܥܫܪ ܩܨܐܝܐ ܕܐܪܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ </foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p><foreign xml:lang="syr"> ܕܐܝܬܝܗܝܢ ܐܘܣܝܐ</foreign></p>
+                <p><foreign xml:lang="ar">الجوهر الكم والكيف</foreign></p>
+                <p><hi rend="italic">Desinit</hi>: </p>
+                <p><foreign xml:lang="syr"><foreign xml:lang="syr">ܘܟܠܗܘܢ ܐܣܟ̈ܡܐ ܕܛܪܝܓܢܘܢ ܘܫܪܟܐ ܪܛܝܒܐ ܩܫܝܫܐ ܫܪܝܐ
+                            ܩܫܝܐ ܘܟܠ ܕܠܗܠܝܢ ܕܡܝܢ</foreign></foreign></p>
+                <p><hi rend="italic">Final rubric</hi>: </p>
+                <p><foreign xml:lang="syr">ܘܣܟܐ ܕܟܠܗܝܢ ܩܐܛܓܘܪܝܘܣ ܐܝܟ ܕܡܘܕܥ ܠܟ ܐܪܣܛܘ ܦܝܠܣܘܦܐ ܒܟܬܒܐ
+                        ܕܡܠܝܠܘܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p>The author’s name is deduced from the reference to the preceding text.</p>
+                <p><hi rend="bold">13. f. 242rv</hi>
+                </p>
+                <p>Anonymous work on the first scientific discoveries and discoverers</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܬܘܒ ܫܪܒܐ ܕܡܘܕܥ ܫܟܚ̈ܬܐ ܕܝ̈ܕܥܬܐ ܩܕܡ̈ܝܬܐ ܕܗܘܘ̤ ܒܥܠܡܐ ܗܢܐ</foreign>
+                </p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p><foreign xml:lang="syr">ܩܕܡ̈ܝܐ ܕܥܡ̈ܐ ܟܠܗܘܢ ܒܒܠܝ̈ܐ ܐܢܘܢ ܕܐܝܬܝܗܘܢ ܟܠܕܝ̈ܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐܣܩܠܒܝܕܘܣ ܕܝܢ ܗ̣ܘ ܐܝܬܘܗܝ ܗܘ̣ܐ ܕܐܫܟܚ ܠܐܘܡܢܘܬܐ ܕܐܣܝܘܬܐ
+                    ܦܓܪܢܝܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Sachau, E., <hi rend="italic">Verzeichnis der
+                        Syrischen Handschriften der Königlichen Bibliothek zu Berlin</hi>, vol. I.
+                    Berlin: A. Asher &amp; Co., 1899, 331.</p>
+                <p><hi rend="italic">Lit</hi>.: Baumstark, A., <hi rend="italic">Aristoteles bei den
+                        Syrern vom v.–viii Jahrhundert. Bd. 1, Syrisch-Arabische Biographieen des
+                        Aristoteles. Syrische Commentare zur ΕΙΣΑΓΩΓΗ des Porphyrios</hi>. Leipzig:
+                    Teubner, 174–181. </p>
+                <p>The text apparently derives from an introductory work (<hi rend="italic"
+                        >Prolegomena</hi>) to Porphyry’s <hi rend="italic">Eisagoge</hi> that has
+                    come down to us in fragmentary form in Vat. sir. 158.</p>
+                <p><hi rend="bold">14. ff. 242v–245r</hi></p>
+                <p>Anonymous Greek-Syriac glossary</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܬܘܒ ܢܘܗܪܐ ܕܦܬܓܡ̈ܐ ܥܣ̈ܩܐ ܕܐܝܬ ܒܦܪܝܪܡܐܢܝܐܣ ܕܐܪܣܛܘܛܝܣ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܗܦܓܘ̈ܓܐ ܗ̇ܢܘ ܕܝܢ ܡܬܬܝܬܝܢܘܬܐ ܐܦܓܘܓܐ ܗ̄ ܡܬܡܨܝܢ̈ܘܬܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐܘܣ̈ܝܣ ܗ̄ ܡܫܝܚܐ ܩܛܐܓܪܦܝܣ ܗ̄ ܟܬܝܒܘܬܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p>An expanded form of the glossary present in <hi rend="bold">A</hi>16.</p>
+                <p><hi rend="bold">15. ff. 245r–247r</hi></p>
+                <p>Anonymous Greek-Syriac glossary</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܦܘܫܩ ܫܡܗ̈ܐ ܝܘܢܝ̈ܐ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐܣܛܪܛܝܐ ܐܘܪܚܐ ܐܣܛܪ̈ܛܝܘܬܐ ܦܠܚ̈ܐ ܕܡ̈ܠܟܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܕܠܘܬ ܡܢܘ ܣ̇ܠܩ ܦܪܝܛܘܪ̈ܝܩܝ ܟܬܒܐ</foreign>
+                    <foreign xml:lang="ar">وبرهان</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p>Similar to the previous text, this glossary contains Greek words transliterated
+                    into Syriac letters, with Syriac equivalents and occasionally with short
+                    explanations. The glossary contains various nouns and proper names related to
+                    philosophy, patristic literature and the Bible. A large number of Greek proper
+                    names are explained etymologically. The manuscript Mingana Syr. 108 contains a
+                    related glossary.</p>
+                <p><hi rend="bold">16. f. 247r</hi>
+                </p>
+                <p>Anonymous list of Aristotelian categories in Syriac and Arabic</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="ar">القضايا العشرة</foreign>
+                    <foreign xml:lang="syr"> ܗ̄ ܥܣܪ ܩܐܛܓܘܪ̈ܝܣ </foreign></p>
+                <p><hi rend="italic">Full text</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܐܘܣܝܐ</foreign>
+                    <foreign xml:lang="ar">الجوهر</foreign>܂<foreign xml:lang="syr">
+                        ܟܡܝܘܬܐ</foreign>
+                    <foreign xml:lang="ar">الكمية</foreign><foreign xml:lang="syr">܂ ܐܝܢܝܘܬܐ</foreign>
+                    <foreign xml:lang="ar">الكيفية</foreign><foreign xml:lang="syr">܂ ܠܘܬ ܡܕܡ</foreign>
+                    <foreign xml:lang="ar">مضاف</foreign><foreign xml:lang="syr">܂ ܐܝܟܐ</foreign>
+                    <foreign xml:lang="ar">اين</foreign><foreign xml:lang="syr">܂ܐܡܬܝ </foreign>
+                    <foreign xml:lang="ar">متى</foreign><foreign xml:lang="syr">܂ ܐܝܬ </foreign>
+                    <foreign xml:lang="ar">لهى</foreign><foreign xml:lang="syr">܂ ܣܝܡ </foreign>
+                    <foreign xml:lang="ar">موضوع</foreign><foreign xml:lang="syr">܂ ܥ̇ܒܕ </foreign>
+                    <foreign xml:lang="ar">يفعل هو</foreign>
+                    <foreign xml:lang="syr">܂ ܚ̇ܐܫ </foreign>
+                    <foreign xml:lang="ar">ينفعل من اخر</foreign>
+                </p>
+                <p><hi rend="italic">Ed</hi>.: Wright, W., <hi rend="italic">A Catalogue of the
+                        Syriac Manuscripts in the Library of the University of Cambridge</hi>, vol.
+                    2. Cambridge: University Press, 1901, 640.</p>
+                <p>Furlani, G., “Contributi alla storia della filosofia greca in Oriente. Testi
+                    siriaci, I.” <hi rend="italic">Rendiconti della Reale Accademia Nazionale dei
+                        Lincei. Classe di scienze morali, storiche e filologiche</hi> V, 23 (1914):
+                    154–175, here 155–6.</p>
+                <p><hi rend="bold">17. f. 247r</hi></p>
+                <p>Anonymous list of (thirteen) Syriac and Arabic attributes of matter
+                        (<foreign xml:lang="syr">ܗܝܘ̈ܠܐ</foreign>, i.e. <foreign xml:lang="gr">ὕλη</foreign>)</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܡܐ ܕܫ̇ܡܥ ܐܢܬ ܫܡܐ ܕܗܝܘ̈ܠܐ ܐܣܬܟܠ ܕܐܝܬܝܗ </foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܓܘܢܐ</foreign>
+                    <foreign xml:lang="ar">اللون</foreign>܂ <foreign xml:lang="syr">ܐܒܝܘܬܐ</foreign>
+                    <foreign xml:lang="ar">الغلاظ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܩܫܝܫܘܬܐ</foreign>
+                    <foreign xml:lang="ar">الخشونة</foreign><foreign xml:lang="syr">܂ ܪܟܝܟܘܬܐ</foreign>
+                    <foreign xml:lang="ar">النعومة</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: unedited</p>
+                <p><hi rend="bold">18. ff. 247r–278v</hi>
+                </p>
+                <p>&lt;Pseudo&gt;-Michael Badōqā, <hi rend="italic">Book of Definitions</hi></p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܦܘܫܩ ܬܚܘ̈ܡܐ ܕܟܠ ܙܢ̈ܝܢ ܘܨܒܘ̈ܢ ܥܡ ܦܘܫܩܝ̈ܗܘܢ ܘܦܘܠܓܐ ܕܝܠܗܝܢ ܕܨܒܘ̈ܬܐ ܕܥܒܝܕ
+                        ܠܡܝܟܐܝܠ ܒܕܘܩܐ ܘܡܠܦܢܐ ܡܗܝܪܐ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܡܦܣܐ ܗ̣ܝ ܚܟܡܬܟ ܐܘ̇ ܡܪܝ ܕܟܠܗܝܢ ܨܒܘ̈ܬܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܘܗ̣ܝ ܡܡܠܝܐ ܠܟ ܚܠܦ ܬܚܘܡܐ ܐܝܢܐ ܕܗ̣ܘ</foreign></p>
+                <p><hi rend="italic">Final rubric</hi>: </p>
+                <p><foreign xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܬܚܘ̈ܡܐ ܕܥܒܝܕ ܠܡܠܦܢܐ ܡܝܟܐܝܠ ܒܕܘܩܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Furlani, G., <hi rend="italic">‘Il libro delle
+                        definizioni e divisioni’ di Michele l’Interprete</hi>, Atti della Reale
+                    Accademia dei Lincei, Memorie della classe di scienze morali, storiche e
+                    filologiche, ser. 6, vol. 2. Roma: G. Bardi, 1926 [based on Petermann 9, BL
+                    India Office 9, Cambridge Add. 2812, BL Add. 14538]. </p>
+                <p><hi rend="italic">Lit</hi>.: Abramowski, L., “Zu den Schriften des Michael
+                    Malpana/Badoqa.” In <hi rend="italic">After Bardaisan: Studies on Continuity and
+                        Change in Syriac Christianity in Honour of Professor Han J. W.
+                    Drijvers</hi>, Orientalia Lovaniensia Analecta 89, ed. G. J. Reinink and A. C.
+                    Klugkist. Louvain: Peeters, 1999, 1–10.</p>
+                <p><hi rend="bold">19. ff. 278r–280r</hi></p>
+                <p>Rabban Qamīshōʿ of Nuhādrā the Physician, Metrical letter</p>
+                <p><hi rend="italic">Title</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܐܓܪܬܐ ܕܥܒܝܕܐ ܠܪܒܢ ܩܡܝܫܘܥ ܐܣܝܐ ܢܘܗܕܪܝܐ ܒܩܪܝܬܐ
+                        ܕܐܪܒܥ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>: </p>
+                <p>
+                    <foreign xml:lang="syr">ܠܪܚܡܐ ܓܡܝܪܐ ܕܚܟܡܬܐ ܘܒܥܝܐ ܕܫܦܝܪ̈ܬܐ ܗ̇ܘ ܕܓܒܐ ܠܡ ܡ̣ܢ ܐܠܦܐ ܚܢܢܐ ܕܚ̇ܐܢ
+                        ܠܚܛܝ̈ܐ</foreign></p>
+                <p><hi rend="italic">Desinit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܘܒܥܕܢܐ ܕܨܠܘܬܟ ܥܗܕܝܗܝ ܠܐܝܢܐ ܕܠܐܝ ܒܗ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Dolabani, F.Y., <hi rend="italic">Egrōt̲ō d-Dawīd bar
+                        Pawlōs d-metīdaʿd-Bēt Rabban</hi>. Mardin, 1953, 18–22.</p>
+                <p> This is the same text that is known otherwise with attribution to a Syriac
+                    Orthodox author of the 8th/9th century, David bar Pawlōs. That work is preserved
+                    in only one manuscript (Mardin, Church of the Forty Martyrs 158), where its
+                    beginning is lost. One of the most significant differences can be found in the
+                    final strophe where Babai (apparently, the Great) is praised as the ‘second
+                    Aristotle’.</p>
+                <p> The same text appears in at least three other East Syriac manuscripts: Baghdad,
+                    Chaldean Monastery 173 (<hi rend="italic">olim</hi> Alqosh, Notre-Dame des
+                    Semences/Vosté 54), Baghdad, Chaldean Patriarchate 350, and Baghdad, Church of
+                    the East Metropolitan Residence 161. In the latter copy the author’s name is not
+                    indicated.</p>
+                <p> The purported author of text, Rabban Qamīshōʿ is otherwise unknown (a 7th
+                    century monk under this name is attested in Thomas of Marga’s <hi rend="italic"
+                        >Book of the Governors</hi>, where he is presented as a distinguished head
+                    of the monastery of Beth ʿAḇē (see ed. Bedjan, P., <hi rend="italic">Liber
+                        superiorum</hi>. Leipzig: Otto Harrassowitz, 1901, 67–70). </p>
+                <p><hi rend="bold">20. f. 280rv</hi></p>
+                <p>&lt;Isaac of Antioch&gt;, metrical <hi rend="italic">Mēmrā on learnin</hi>g</p>
+                <p><hi rend="italic">Title</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܠ ܝܘܠܦܢܐ</foreign></p>
+                <p><hi rend="italic">Incipit</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܝܘܠܦܢܐ ܡܠܚܐ ܕܢܦܫܐ ܕܒܗ ܡܬܚܝܨܐ ܪܦܝܘܬܐ</foreign></p>
+                <p><hi rend="italic">Desinit mut.</hi>:</p>
+                <p>
+                    <foreign xml:lang="syr">ܘܒܥܝܕܐ ܕܡܐܝܢܘܬܐ ܫܝܛܝܢ ܣܟ̈ܠܐ ܠܝܘܠܦܢܐ</foreign></p>
+                <p><hi rend="italic">Ed</hi>.: Bedjan, P., <hi rend="italic">Homiliae S. Isaaci Syri
+                        Antiocheni</hi>. Leipzig: Harrassowitz, 1903, 1–12 (here ends on p. 3 l.
+                    3).</p>
+                <p><hi rend="italic">Lit</hi>.: Mathews, E.G., Jr., “The Works attributed to Isaac
+                    of Antioch: A[nother] Preliminary Checklist.” <hi rend="italic">Hugoye: Journal
+                        of Syriac Studies</hi> 6:1 (2003): 65 no. 99.</p>
+                <p>The poem belongs to the corpus of works attributed to Isaac of Antioch,
+                    transmitted for the most part by the Syrian Orthodox manuscripts (the earliest
+                    witness appears to be BL Add. 17164 from the 6th/7th century). A selection of 24
+                        <hi rend="italic">mēmrē</hi> from the corpus circulated in the East Syriac
+                    milieu with attribution to Isaac of Nineveh. The <hi rend="italic">Mēmrā on
+                        learning</hi> comes as first in the selection.</p>
+                <p>
+                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV23N1Kessel_Arzhanov_image1.jpeg" rend="center"/>
+                </p>
+                <p><hi rend="bold">Plate 1. Alqosh, Chaldean Diocese (DCA) 61, f. 8v</hi></p>
+                <p>Published with the permission of the Chaldean Diocese of Alqosh. The image is
+                    supplied by the Hill Museum &amp; Manuscript Library.</p>
+                <p>
+                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV23N1Kessel_Arzhanov_image2.jpeg" rend="center"/>
+                </p>
+                <p><hi rend="bold">Plate 2. Alqosh, Chaldean Diocese (DCA) 61, f. 240r</hi></p>
+                <p>Published with the permission of the Chaldean Diocese of Alqosh. The image is
+                    supplied by the Hill Museum &amp; Manuscript Library.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
