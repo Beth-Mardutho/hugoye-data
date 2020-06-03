@@ -1,9 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">The Use of Syāmē as a Phonological Marker in Syriac</title>
-                <title type="sub"><!-- Insert subtitle here if there is one --></title>
+                <title type="main">The Use of Syāmē as a Phonological Marker in Syriac</title>
                 <author>
                     <name>
                         <forename>Aaron Michael</forename>
@@ -18,7 +17,7 @@
                 <editor role="associate">James E. Walters</editor>
                 <respStmt>
                     <resp>TEI XML encoding by</resp>
-                    <name type="person"><!-- Insert name of person who converts the document here --></name>
+                    <name type="person">Joss Childs</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -30,7 +29,7 @@
                 <idno>18.1</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0 International
                             license has been granted by the author(s), who retain full
                             copyright.</p>
                     </licence>
@@ -42,7 +41,7 @@
                 <biblStruct>
                     <analytic>
                         <author>Aaron Michael Butts</author>
-                        <title level="a">The Use of Syāmē as a Phonological Marker in Syriac</title>
+                        <title level="a">The Use of Syāmē as a Phonological Marker in Syriac</title>
                         <idno type="PDF">https://hugoye.bethmardutho.org/pdf/vol18/hv18n1butts.pdf</idno>
                         <idno type="URI"/><!-- Insert Syriaca bibl URI when available --><!-- Don't do anything here yet -->
                     </analytic>
@@ -62,7 +61,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
                     of the Syriac tradition, published semi-annually (in January and July) by Beth
                     Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
                     best scholarship available in the field of Syriac studies.</p>
@@ -72,15 +71,888 @@
             <langUsage>
                 <language ident="en"/>
             </langUsage>
-            <textClass/>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>syāmē</term>
+                    <term>Phonology</term>
+                    <term>Greek</term>
+                    <term>Loanword</term>
+                    <term>Transliteration</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-        <revisionDesc status="PDF">
-            <change when="2018-07-09">File created by Sunil Persad</change>
+        <revisionDesc status="published">
+            <change when="2020-05-21">File created by Joss Childs</change>
         </revisionDesc>
     </teiHeader>
     <text type="article">
+    <front>
+        <div type="dedication"><p xml:lang="en">For J. F. ‘Chip’ Coakley
+            on his retirement</p></div>
+        <div type="thanks"><note place="foot" xml:id="ftn0" n="*"><p
+            rend="footnote text">I would like to thank George A. Kiraz (Beth Mardutho: Syriac
+            Institute) for discussing this paper with me as well as for adding several
+            examples to those cited here. I would also like to thank the anonymous
+            reviewer(s) at <hi rend="italic">Hugoye</hi> who provided useful feedback. Finally, I am especially
+            grateful to Lucas Van Rompay (Duke University) for his helpful comments.
+            Note the following abbreviation: CAD = <hi rend="italic"> The Assyrian Dictionary of the
+                Oriental Institute of the University of Chicago</hi> (Chicago, 1956-).</p></note></div>
+        <div type="abstract">
+            <head>Abstract</head>
+            <p xml:lang="en">It is well established that the primary use of <hi rend="italic">syāmē</hi> in Syriac is to
+                mark the morphological category of plurality. This study explores a
+                secondary use of <hi rend="italic">syāmē</hi>. This occurs most frequently with grc words
+                in Syriac that ended in <foreign xml:lang="grc">-η,</foreign> or more rarely <foreign xml:lang="grc">-ε</foreign> or <foreign xml:lang="grc">-αι,
+                </foreign> in the Greek source. It is proposed that the phonological use of <hi rend="italic">syāmē</hi> can also
+                explain the regularity and consistency with which <hi rend="italic">syāmē</hi> occur with
+                the feminine forms of the teen cardinal numbers.</p>
+        </div>
+    </front>
         <body>
-            <p>HTML Version of this article coming soon! You can download a PDF from the PDF icon.</p>
+            <div xml:id="HV18N1Butts.1" xml:lang="en">
+                <pb n="95"/>
+                <p xml:lang="en">
+                    It is well established that the primary use of <hi rend="italic">syāmē</hi> ‘(lit.) placings’ in
+                    Syriac is to mark the morphological category of plurality.<hi rend="superscript">1</hi>
+                        <note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">
+                            1  Brockelmann 1981: §11; Duval 1881: §66; Kiraz 2012: §225-234;
+                        Nöldeke 1904: §16; Segal 1953: 5. For the history of the term <hi rend="italic">syāmē</hi> along
+                        with alternative designations, such as <hi rend="italic">nāqzay saggiyānutā</hi> ‘points of plurality’,
+                        see Kiraz 2012: §225.</p></note> The
+                    <pb n="96"/>
+                    singular noun  <foreign xml:lang="syr">ܡܠܟܐ</foreign> /malkā/ ‘king’, for instance, is distinguished
+                     <foreign xml:lang="syr">ܡܠܟ̈ܐ</foreign> /malkē/ ‘kings’ in the consonantal
+                    script of Syriac by the <hi rend="italic">syāmē</hi> on the latter.<hi rend="superscript">2</hi>
+                        <note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">
+                            2 As an aside, it should be pointed out that the <hi rend="italic">k</hi> n Syriac <foreign xml:lang="syr">ܡ̈ܠܟܐ</foreign> /malkē/ ‘kings’ 
+                            is not fricativized in contrast to earlier forms of Aramaic where it is, as is reflected in Biblical Aramaic<hi rend="italic">malkin</hi>‘kings’ 
+                            (Ezra 4:20) <hi rend="italic">*malakīn</hi> (see Rosenthal 1995: §51). This is due to an analogical development in Syriac whereby the plural 
+                            base <hi rend="italic">*malak-</hi> was replaced by the singular base <hi rend="italic">*malk-.</hi> </p></note>
+                    This use of <hi rend="italic">syāmē</hi> is attested already in the earliest Syriac manuscripts, such as London, Brit. Libr. Add. 12,150, which is 
+                    dated to 411 CE.<hi rend="superscript">3</hi>
+                         <note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> 
+                            3 A color image of this manuscript is available in Brock, Butts, Kiraz, and Van Rompay 2011: 457, where one can see several examples 
+                            of <hi rend="italic">syāmē</hi> marking plurality, e.g., <foreign xml:lang="syr">ܣܓܝܐ̈ܐ</foreign> /saggiʾē/ ‘much’ (col. 3, ln. 1). Jones (1998) 
+                            has argued that many of the diacritical points after f. 40v of ms. Brit. Libr. Add. 12,150 were added secondarily; this does not, however, 
+                            include<hi rend="italic">syāmē</hi>the use of which belongs to the original scribe (see at p. 439).</p></note>
+                    It should be noted that<hi rend="italic">syāmē</hi>are not found in the Old Syriac inscriptions, e.g., <foreign xml:lang="syr">ܒܢܝ</foreign> /bnay/ 
+                    ‘my children’ (As16 [201/2 CE]; ed. Drijvers and Healey 1999: 73-74), or in the Old Syriac documents, e.g., <foreign xml:lang="syr">ܙܒܢܝܢ</foreign> 
+                    /zabnin/ ‘times’ (P1.7 [243 CE]; ed. Drijvers and Healey 1999: 73-74).<hi rend="superscript">4</hi>
+                        <note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">
+                            4 Jones 1998: 435; Kiraz 2012: §2012.
+                        </p></note>
+                    While <hi rend="italic">syāmē</hi> mark the morphological category of plurality in the vast majority of cases, this is not their only use in Syriac.
+                    Occasionally, <hi rend="italic">syāmē</hi> function as a phonological marker for a final
+                    mid front vowel in Syriac.
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.2" xml:lang="en">
+                <p xml:lang="en">
+                    The occasional use of <hi rend="italic">syāmē</hi> as a phonological marker for a final
+                    mid front vowel is most common with Greek loanwords in Syriac
+                    that ended in <foreign xml:lang="grc">-η</foreign> in the Greek source, as in the following examples:<hi rend="superscript">5</hi>
+                    <note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">
+                        5 In each of these examples, the singular is assured by the context – or,
+                        it is at the very least highly likely. It is tempting to add to this list <foreign xml:lang="grc">τιμή</foreign> (Liddell and Scott 1996: 1793-1794)
+                        > <foreign xml:lang="syr">ܛܝܡܐ</foreign> ‘price’ (Sokoloff 2009: 527), which is often written <foreign xml:lang="syr">ܛܝ̈ܡܐ</foreign> with 
+                        <hi rend="italic">syāmē</hi>. When written with <hi rend="italic">syāmē</hi>, however, this word always seems to take plural agreement. Thus,
+                        <foreign xml:lang="syr">ܛܝ̈ܡܐ</foreign> is better
+                        analyzed as <hi rend="italic">plurale tantum</hi>, probably on analogy to the semantically similar <foreign xml:lang="syr">ܕܡܝ̈ܐ</foreign>
+                        'price’ (Sokoloff 2009: 309), which is also <hi rend="italic">plurale tantum</hi>. It should be noted that the latter may well be a loanword from 
+                        Akkadian <hi rend="italic">damē</hi> ‘blood money’ (CAD D 79, <hi rend="italic">sub</hi>2b), even though it is not included in Kaufman
+                        1974, especially since the Akkadian form is also plural. For the association between <foreign xml:lang="syr">ܛܝܡ̈ܐ</foreign> and 
+                        <foreign xml:lang="syr">ܕܡܝ̈ܐ</foreign>, see already Nöldeke 1904: §88 and Brock 1967: 422.
+                    </p></note>    
+                </p>
+                <pb n="97"/>
+                <p xml:lang="en">(1)</p>
+                <list>
+                    <item>
+                        a.   <foreign xml:lang="grc">ἀνάγκη</foreign> (Liddell and Scott 1996: 101) > <foreign xml:lang="syr">ܐܢܢܩ̈ܐ</foreign> ‘necessity’ in 
+                        <foreign xml:lang="syr">ܐܢܢܩ̈ܐܬܚܝܬ ܗ̣ܝ ܟܕ ܗ̣ܝ ܐܢܢܩ̈ܐ ܢܦ̈ܠܢ</foreign> 'they fall under the same necessity’ (Qiyore of Edessa, <hi rend="italic">
+                        Cause of the Liturgical Feasts</hi>, 103.20; ed. Macomber 1974).                    
+                    </item>
+                    <item>
+                        b.   <foreign xml:lang="grc">διαθήκη</foreign> (Lampe 1961: 348; Liddell and Scott 1996: 394-395) > <foreign xml:lang="syr">ܕܝ̈ܬܩܐ</foreign> 'covenant' in
+                        <foreign xml:lang="syr"> ܢܘܟܪܝܐ ܕܕܝ̈ܬܩܐ ܫܡܝܢܝܬܐ</foreign> ‘stranger to the heavenly covenant’ (<hi rend="italic">(History of St. Cyriacus
+                        and his Mother Julitta</hi> according to the Syriac ms. at the Library of the Royal Asiatic Society, f. 182r, ln. 10 [1569 CE]),<hi rend="superscript">6</hi>
+                            <note place="foot" xml:id="ftn6" n="6"><p rend="footnote text">6 The singular is assured by the following adjective that does not have <hi rend="italic">syāmē</hi> 
+                            as well as by the witnesses of other manuscripts that have <foreign xml:lang="syr">ܕܝܬܩܐ</foreign> without <hi rend="italic">syāmē</hi>, such as ms. Sachau 222 (1881 CE; ed. Bedjan 1890-1897:
+                            3.272.21).</p></note>
+                        in <foreign xml:lang="syr">ܕܝ̈ܬܩܐ ܥܬܝܩܬܐ </foreign> 'Old Testament’ (Qiyore of Edessa, <hi rend="italic"> Cause of the Liturgical Feasts</hi>, 20.26-21.1, 73.17,92.17, 109.23, 171.6, 172.17-18; ed. Macomber 1974);<hi rend="superscript">7</hi>
+                            <note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">7 See also 94.14, 20; 146.20; 147.30; 162.21; 172.4. </p></note>
+                        <foreign xml:lang="syr">ܦܬ ܓܡ̈ܐ ܕܕܝܬܩ̈ܐ ܗܕܐ</foreign> 'the words of this covenant’
+                        (Jer. 11:6; Mosul edition).
+                    </item>
+                    <item>
+                        c.   <foreign xml:lang="grc">νομή</foreign> (Liddell and Scott 1996: 1178-1179) > <foreign xml:lang="syr">ܢܘ̈ܡܐ</foreign> 'pasture' in
+                        <foreign xml:lang="syr">ܐܚܕܬ ܗܘܬ ܢܘ̈ܡܐ ܝܗܝܒܘܬܗ ܕܢܡܘܣܐ</foreign> ‘the giving of the law had spread out’ (Qiyore of Edessa, <hi rend="italic"> Cause of the Liturgical Feasts</hi>,
+                        171.12-13; ed. Macomber 1974). <hi rend="superscript">8</hi>
+                        <note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> 
+                            8 See also 90.3; 150.26; 168.24; 171.13. Perhaps also <foreign xml:lang="syr">ܕܐܚܕܘ ܢܘ̈ܡܐ ܠܘܬܢ ܒܥܠܬ ܕܚܡܬ ܢܝ̈ܚܐ</foreign> because of the love of pleasures that spread among
+                            us’ (Isḥaq of Nineveh, <hi rend="italic">Part 3</hi>, 104.16; ed. Chialà 2011). The form <foreign xml:lang="syr">ܢܘ̈ܡܐ</foreign> may
+                            be singular in this case, since √<hi rend="italic">ʾḥd</hi>‘to take’ plus <foreign xml:lang="syr">ܢܘ̈ܡܐ</foreign> ‘pasture’ forms a
+                            common idiom ‘to spread’ (Sokoloff 2009: 900). It is, however, possible that <foreign xml:lang="syr">ܢܘ̈ܡܐ</foreign>
+                            is plural in this example due to attraction to the plural verb. Regardless, the editor’s emendation (Chialà 2011: 104 n. 38) to <foreign xml:lang="syr">ܢܘ̈ܡܐ</foreign>
+                            without <hi rend="italic">syāmē</hi> should be rejected. 
+                        </p></note> 
+                    </item>
+                    <item>
+                        d.   <foreign xml:lang="grc">πεντηκοστή</foreign> (Lampe 1961: 1060) > <foreign xml:lang="syr">ܦܢܛܩܘ̈ܣܛܐ</foreign> in ’Pentecost‘ 
+                        <foreign xml:lang="syr">ܡܢܐ ܡܒܕܩ ܫܡܐ ܗܢܐ ܕܦܢܛܩܘ̈ܣܛܐ</foreign>
+                        <pb n="98"/>
+                        ‘what does this word “Pentecost” signify’ (Qiyore of
+                        Edessa, <hi rend="italic">Six Explanations of the Liturgical Feasts</hi>, 160.4; 161.13; 162.4-5; ed. Macomber 1974).<hi rend="superscript">9</hi>
+                        <note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">
+                            9 See also 160.1; 162.7; 164.1; 165.8, 18; 187.20.
+                        </p></note>
+                    </item>
+                    <item>
+                        e.  <foreign xml:lang="grc">σχολή</foreign> (Liddell and Scott 1996: 1747-1748) > <foreign xml:lang="syr">ܐܣܟܘ̈ܠܐ</foreign> ‘school’ in 
+                        <foreign xml:lang="syr">ܪ̈ܒܢܐ ܕܟܢܘܫܢܝܐ ܕܐܣܟܘ̈ܠܐ ܩܕܝܫܬܐ ܕܢܨܝܒܝܢ</foreign> ‘the teachers of the community of the holy School of
+                        Nisibis’ (Qiyore of Edessa, <hi rend="italic">Six Explanations of the Liturgical Feasts</hi>, 45.24; ed. Macomber 1974).<hi rend="superscript">10</hi>
+                        <note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">
+                            10 Becker (2006: 104-105 with n. 79 [on p. 243]; see also 2010: 93 n. 10)
+                            suggests that the phonological use of <hi rend="italic">syāmē</hi> occurs in the title of the <hi rend="italic">Cause of
+                                the Foundation of the Schools</hi>: <foreign xml:lang="syr">ܥܠܬܐ ܕܣܝܡ ܡܘܬܒܐ ܕܐܣܟ̈ܘܠܐ</foreign> ed. Scher
+                            1907: 13), which he would render <hi rend="italic">The Cause of the Establishment of the Session of the School</hi>. It should be noted that one manuscript reads
+                            <foreign xml:lang="syr">ܐܣܟܘܠܐ</foreign> instead of <foreign xml:lang="syr">ܐܣܟ̈ܘܠܐ</foreign>, which lends support to this argument; the title at the end of the
+                            text, however, has the plural <foreign xml:lang="syr">ܐܣܟܘܠܣ</foreign> Scher 1907: 83.4; note, however, the
+                            lack of <hi rend="italic">syāmē</hi>), which weakens the argument.
+                        </p></note>
+                    </item>
+                    <item>
+                        f.   <foreign xml:lang="grc">τροφή</foreign> (Liddell and Scott 1996: 1827-1828) > <foreign xml:lang="syr">ܛܪ̈ܘܦܐ</foreign> 'support, nourishment' in
+                        <foreign xml:lang="syr">ܘܚܘܪܪܐ ܕܡܢ ܚ̈ܫܐ ܛܪ̈ܘܦܐ ܕܗܝ ܐܝܬܝܗ̇ ܕܟܝܘܬܐ</foreign> nourishment, which is purity and
+                        freedom from suffering’ (Babai the Great, <hi rend="italic">Commentary on the</hi> ‘Gnostic Chapters’ <hi rend="italic">by Evagrius of Pontus</hi>,
+                        Pontus, 468.14-15; ed. Frankenberg 1912).
+                    </item>
+                    <item>
+                        g.   <foreign xml:lang="grc">ὕλη</foreign> (Liddell and Scott 1996: 1847-1848) > <foreign xml:lang="syr">ܗܝܘ̈ܠܐ</foreign> 'matter‘ in <foreign xml:lang="syr">ܘܡܥܠܝܢ ܗܝܘ̈ܠܐ ܥܠ ܒܪܘܝܘܬܐ ܐܠܗܝܬܐ</foreign>
+                        ‘they introduce matter to the divine creation’ (Qiyore of Edessa, <hi rend="italic">Six Explanations of the Liturgical Feasts</hi>, 20.18-19;
+                        ed. Macomber 1974). <hi rend="italic">11</hi>
+                        <note place="foot" xml:id="ftn11" n="11"><p rend="footnote text">
+                            11 The plural of this loanword only seems to be attested as <foreign xml:lang="syr">ܗܘܠܣ̈</foreign> (Sokoloff 2009: 335, 341).
+                        </p></note>
+                    </item>
+                    <item>
+                        h.   <foreign xml:lang="grc">φυλακή</foreign> (Liddell and Scott 1996: 1960) > <foreign xml:lang="syr">ܦܘ̈ܠܩܐ</foreign> ‘prison’ in
+                        <foreign xml:lang="syr">ܟܕ ܒܦܘ̈ܠܩܐ ܡܬܢܛܪ ܗܘܐ ܡܝܬ</foreign> ‘when he was being guarded in the prison, he died’ (Yuḥanon of Ephesus, 
+                        <hi rend="italic">Ecclesiastical History</hi>, Part 3, 158.22; ed. Brooks 1935).<hi rend="superscript">12</hi>
+                        <note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                             12 The plural cannot be absolutely ruled out in the context, even if the
+                            singular seems much more likely.
+                        </p></note>
+                    </item>
+                </list>
+                <p>
+                    It should be noted that forms without <hi rend="italic">syāmē</hi> are much more
+                    common for all of these words. Regardless, in each of the cases in
+                    (1), the <hi rend="italic">syāmē</hi> serve as a phonological marker for a final mid front 
+                    <pb n="99"/>
+                    vowel. The writing of<hi rend="italic">syāmē</hi>, thus, disambiguates the consonantal
+                    script of these Greek loanwords, which could be read with either
+                    final -<hi rend="italic">ā</hi> or final -<hi rend="italic">ē</hi>, in the same way as it disambiguates the
+                    consonantal script of many masculine nouns, e.g., singular <foreign xml:lang="syr">ܡܠܟܐ</foreign> /malkā/ ‘king’ vs. plural <foreign xml:lang="syr">ܡ̈ܠܟܐ</foreign>
+                    /malkē/ ‘kings’. The list in (1) is
+                    not exhaustive, but it would seem to provide enough evidence to
+                    establish that <hi rend="italic">syāmē</hi> occasionally occur as a phonological marker for
+                    a final mid front vowel in Syriac reflecting -<foreign xml:lang="grc">η</foreign> in the Greek source. <hi rend="superscript">13</hi>
+                    <note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">
+                        13 Though many of these examples occur in Qiyore of Edessa’s <hi rend="italic">Six Explanations of the Liturgical Feasts</hi>, Feasts, the phenomenon is certainly not limited to
+                        this text.</p></note>
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.3" xml:lang="en">
+                <p xml:lang="en">
+                    Syriac <hi rend="italic">syāmē</hi> also serve as a phonological marker for a final mid
+                    front vowel with several Greek proper nouns that ended in -<foreign xml:lang="grc">η</foreign>, as in
+                    the following examples:<hi rend="superscript">14</hi>
+                    <note place="foot" xml:id="ftn14" n="14"><p rend="footnote text">
+                        14 See also <foreign xml:lang="syr">ܢܝ̈ܢܘܐ</foreign> ‘Nineveh’, possibly due to Greek <foreign xml:lang="grc">Νινευή</foreign>, in ms. Paris,
+                        Bibl. Nat. 56, f. 191v (ed. Van Rompay 2015).
+                    </p></note>
+                </p>
+                <p xml:lang="en">(2)</p>
+                <list>
+                    <item>
+                        a.   <foreign xml:lang="grc">Κρήτη</foreign> ‘Crete’ > <foreign xml:lang="syr">ܩܪ̈ܛܐ</foreign> (Zeph 2:5, 6; Leiden edition).
+                    </item>
+                    <item>
+                        b.   <foreign xml:lang="grc">Σκήτη</foreign> ‘Skete’ > <foreign xml:lang="syr">ܐܣܩ̈ܛܐ</foreign> (<hi rend="italic">History of Abba Marcus of Mt. Tharmaka</hi>,
+                        according to ms. Yale Syriac 5, p. 36; e. Look 1929: 1).
+                    </item>
+                </list>
+                <p xml:lang="en">
+                    These cases are comparable to those cited in (1) in which <hi rend="italic">syāmē</hi> disambiguate the consonantal script, which could be read with
+                    either final -<hi rend="italic">ā</hi> or final -<hi rend="italic">ē</hi>.
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.4" xml:lang="en">
+                <p xml:lang="en"> The use of <hi rend="italic">syāmē</hi> as a phonological marker for final Greek <foreign xml:lang="grc">η</foreign> has implications for the pronunciation of <foreign xml:lang="grc">η</foreign> in the Koinē Greek of
+                Syria and Mesopotamia. In Attic Greek, <foreign xml:lang="grc">η</foreign> was a long open-mid
+                front /<foreign xml:lang="grc">ε</foreign>:/.<hi rend="superscript">15</hi>
+                    <note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">
+                    15 Allen 1987: 69-75; Woodard 2004: 617. </p></note>
+                Some Koinē dialects preserved <foreign xml:lang="grc">η</foreign> as an open-mid front /<foreign xml:lang="grc">ε</foreign>/ into the Roman period, whereas others attest a merger of
+                <foreign xml:lang="grc">η</foreign> with the high front /i/, which could be written either <foreign xml:lang="grc">ι</foreign> or <foreign xml:lang="grc">ει</foreign>.<hi rend="superscript">16</hi> 
+                    <note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">
+                        16 Allen 1987: 74-75; Gignac 1976-: 1.235-242; Mayser 1970: 46-54; Palmer 1934: 170; 1945: 1. 
+                    </p></note>
+                    A few spellings in the Greek documents from Syria and Mesopotamia suggest that Greek <foreign xml:lang="grc">η</foreign> was at least beginning to merge to /i/ in this
+                    region by the Roman period.<hi rend="superscript">17</hi>
+                    <note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">
+                        17 See Welles, Fink, and Gilliam 1959: 47 as well as the following spellings from the P.Euph. documents: <foreign xml:lang="grc">ἠ</foreign>
+                        for <foreign xml:lang="grc">εἰ</foreign> (P. Euph. 11.24 [232]); <foreign xml:lang="grc">καθαροποιήσει</foreign> for
+                        <foreign xml:lang="grc">καθαροποιήσῃ</foreign> (P.Euph. 8.27 [251]); <foreign xml:lang="grc">ὑστερέσει</foreign> for
+                        <foreign xml:lang="grc">ὑστερήσῃ</foreign> (P.Euph. 16.A.5 [after 239]). It should be noted that <foreign xml:lang="grc">ε</foreign>, which was
+                        a long close-mid front /e:/ in Attic Greek, had merged with <foreign xml:lang="grc">ι</foreign> as a high
+                        unrounded short /i/ by the Koinē Greek of the Roman and Byzantine
+                        periods (Allen 1987: 70; Gignac 1976-: 1.189-191, 235-262; Mayser 1970:
+                        54-65; Palmer 1934: 170; 1945: 1). For this merger in the Greek of Syria and
+                        Mesopotamia, see Welles, Fink, and Gilliam 1959: 47; many additional
+                        spellings attesting this merger will also be found in the P.Euph. documents.
+                        The Greek P.Euph. documents are edited in Feissel and Gascou 1989;
+                        1995; 2000; Feissel, Gascou, and Teixidor 1997. Images of these texts are
+                        available online at <ref target="http://www.papyrologie.paris-sorbonne.fr/menu1/
+                            collections/pgrec/peuphrate.htm">http://www.papyrologie.paris-sorbonne.fr/menu1/
+                            collections/pgrec/peuphrate.htm</ref>            
+                    </p></note>
+                    The use of <hi rend="italic">syāmē</hi> as a phonological 
+                    <pb n="100"/>
+                    marker for final Greek <foreign xml:lang="grc">η</foreign>, however, suggests that some Syriac
+                    writers and/or scribes preserved a pronunciation of <foreign xml:lang="grc">η</foreign> as a mid
+                    front vowel well into the Roman period, since the Syriac masculine
+                    plural <hi rend="italic">status emphaticus</hi> ending was never realized as a high front
+                    vowel but always as mid front. The preservation of a mid front
+                    pronunciation of Greek <foreign xml:lang="grc">η</foreign> in this area at this time can be
+                    corroborated by the representation of final Greek -<foreign xml:lang="grc">η</foreign> by the
+                    voiceless glottal stop ʾ in Syriac, which would have represented a
+                    final mid front vowel, in contrast to spellings with a final palatal
+                    glide <hi rend="italic">y</hi>, which would have represented a final high front vowel, e.g., <foreign xml:lang="grc">ἀνάγκη</foreign> (Liddell and Scott 1996: 101) >
+                    <foreign xml:lang="syr">ܐܢܢܩܝ ،ܐܢܢܩܐ</foreign> necessity’
+                    (Sokoloff 2009: 63). Thus, Syriac evidence suggests that Greek <foreign xml:lang="grc">η</foreign> was beginning to merge to /i/ in this region by the Roman period
+                    (representations of final <foreign xml:lang="grc">η</foreign> with Syriac <hi rend="italic">y</hi>), though at least some
+                    Syriac writers and/or scribes preserved its mid front realization
+                    well into the Roman Period (representations of final -<foreign xml:lang="grc">η</foreign> with Syriac
+                    ʾ and the occasional use of <hi rend="italic">syāmē</hi> as a phonological marker).<hi rend="superscript">18</hi>
+                    <note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> 
+                        18 The present author is currently completing a study that uses Greek
+                        loanwords in Syriac as a witness to the Greek of Late Antique Syria and
+                    </p></note>
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.5" xml:lang="en">
+                <p xml:lang="en">
+                    In addition to final Greek -<foreign xml:lang="grc">η</foreign>, <hi rend="italic">syāmē</hi> more rarely serve as a
+                    phonological marker for final Greek -<foreign xml:lang="grc">ε</foreign>. This is, for instance, the
+                    case with the writing of the personal name <foreign xml:lang="syr">ܩܝܘܪ̈ܐ</foreign> ‘Qiyore’ in the <hi rend="italic">Six Explanations of the Liturgical Feasts</hi>
+                    by Qiyore of Edessa (1.1; ed. Macomber 1974). This Syriac name derives from Greek <foreign xml:lang="grc">Κῦρε</foreign>, a
+                    frozen vocative of <foreign xml:lang="grc">Κῦρος</foreign> ‘Cyrus’. Thus, in this case, the <hi rend="italic">syāmē</hi> in
+                    <pb n="101"/>
+                    <foreign xml:lang="syr">ܩܝܘܪ̈ܐ</foreign> mark the final -<foreign xml:lang="grc">ε</foreign> in <foreign xml:lang="grc">Κῦρε</foreign>. A similar use of
+                    <hi rend="italic">syāmē</hi> occurs with the writing of the Greek aorist passive infinitive <foreign xml:lang="grc">σφυρισθῆναι</foreign> ‘to be
+                    struck with hammers, beat’ as <foreign xml:lang="syr">ܐܣܦܪ̈ܣܬܝܢܐ</foreign> with <hi rend="italic">syāmē</hi> in Part 3 of
+                    the <hi rend="italic">Ecclesiastical History</hi> by Yuḥanon of Ephesus (15.28; ed. Brooks
+                    1935). In the <hi rend="italic">editio princeps</hi>, Brooks proposed to emend this word by
+                    removing <hi rend="italic">syāmē</hi>. This emendation is, however, unnecessary, since
+                    the <hi rend="italic">syāmē</hi> here are a phonological marker for final Greek -<foreign xml:lang="grc">αι</foreign>, which
+                    had merged with Greek <foreign xml:lang="grc">ε</foreign> as a mid-front short /e/ by the Koinē
+                    Greek of the Roman and Byzantine periods.<hi rend="superscript">19</hi>
+                    <note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">
+                        19 Allen 1987: 79; Gignac 1976-: 1.191-193; Mayser 1970: 83-87. For
+                        this merger in the Greek of Syria and Mesopotamia, see Welles, Fink, and
+                        Gilliam 1959: 47 as well as the following selected spellings from the P.Euph.
+                        documents: <foreign xml:lang="grc">αἰωνημένης</foreign> for <foreign xml:lang="grc">ἐωνημένης</foreign> (P.Euph. 6.17 [249]; 7.10 [249]);
+                        <foreign xml:lang="grc">ἀναπέμψε</foreign> for <foreign xml:lang="grc">ἀναπέμψαι</foreign> (P.Euph. 4.14 [252-256]); <foreign xml:lang="grc">ἀσπάζομε</foreign> for <foreign xml:lang="grc">ἀσπάζομαι</foreign> 
+                        (P.Euph. 16.A.2 [after 239]); <foreign xml:lang="grc">ἐνκαλοῦμε</foreign> for <foreign xml:lang="grc">ἐγκαλοῦμαι</foreign> (P.Euph. 3.12 [252-256]; 4.12 [252-256]); 
+                        <foreign xml:lang="grc">εὔχομε</foreign> for <foreign xml:lang="grc">εὔχομαι</foreign> (P.Euph.
+                        16.B.7 [after 239]; P.Euph. 17.2 [mid-3rd]); <foreign xml:lang="grc">κελεῦσε</foreign> for <foreign xml:lang="grc">κελεῦσαι</foreign> (P.Euph.
+                        2.15 [mid-3rd]); <foreign xml:lang="grc">ται</foreign> for <foreign xml:lang="grc">τε</foreign> (P.Euph. 9.27 [252]); <foreign xml:lang="grc">ὑπόκειτε</foreign> for <foreign xml:lang="grc">ὑπόκειται</foreign>
+                        (P.Euph. 2.14-15 [mid-3rd]); <foreign xml:lang="grc">χέρειν</foreign> for <foreign xml:lang="grc">χαίρειν</foreign> (P. Euph. 11.11 [232]).
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    An interesting case of the use of <hi rend="italic">syāmē</hi> for Greek -<foreign xml:lang="grc">ε</foreign> is found in
+                    the following passage from the anonymous tract on accents in Brit.
+                    Libr. Add. 12,138 (899 CE), which is the only surviving manuscript
+                    of the East-Syriac ‘Masora’:<hi rend="superscript">20</hi> 
+                    <note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">
+                        (P.Euph. 2.14-15 [mid-3rd]); χέρειν for χαίρειν (P. Euph. 11.11 [232]). 20 For this anonymous tract, see Segal 1953: 79. For a facsimile edition
+                        of the entire manuscript, see Loopstra Forthcoming. I would like to thank
+                        Jonathan Loopstra (Capital University) for sharing his work with me prior
+                        to its publication.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    (3)     Anonymous tract in East-Syriac ‘Masora’ (Brit. Libr. Add.
+                    12,138 [899 CE])
+                    <foreign xml:lang="syr">܁ ܦܵ̈݁ܘܠܲܐ </foreign><foreign xml:lang="syr">ܠ̇ܐܵ ܬܹܕ݂ܚܲܠ</foreign> 
+<!--had some difficulty with the vowels and other marks here, not sure if I got them right-->
+                    ‘Do not be afraid, Paul’ (f. 306v, ln. 17 = Acts 27:24)<hi rend="superscript">21</hi>
+                    <note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">
+                        21 Translating Greek <foreign xml:lang="grc">μὴ φοβοῦ Παῦλε</foreign> ‘Do not be afraid, Paul’. It
+                        should be noted that both Segal (1953: 99 n. 1) and Kiraz (2012: §303) cite
+                        the folio as 303v.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    The <hi rend="italic">p</hi> in <foreign xml:lang="syr">ܦܵ̈݁ܘܠܲܐ</foreign> has five points above it: a <hi rend="italic">quššāyā</hi> point, an East-
+                    Syriac <hi rend="italic">zqāpā</hi> with two points, as well as two additional points.<hi rend="superscript">22</hi>
+                    <note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">
+                        22 The same five points appear with this letter in the version of this
+                        verse found on f. 275v, ln. 1 of Brit. Libr. Add. 12,138, which is not from
+                        the anonymous tract (303v-308v) but from the actual biblical samples.
+                    </p></note>
+                    <pb n="102"/>
+                    Segal follows the author of the anonymous tract in interpreting
+                    these two additional points as a <hi rend="italic">rāhṭā</hi> accent, which ‘joins two
+                    words closely together in a context to which a rising tone is
+                    suitable’ (1953: 98-99). A similar interpretation is found in Kiraz’s
+                    recent volume on Syriac orthography, where it is added that the
+                    two points are ‘not to be confused’ with <hi rend="italic">syāmē</hi> (2012: §139). This
+                    analysis is, however, not without problems. The use of <hi rend="italic">rāhṭā</hi> at the
+                    end of a word is found in a fair number of reliable examples.<hi rend="superscript">23</hi>
+                    <note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">
+                        23 .Segal (1953: 98-99), for instance, cites half a dozen.
+                    </p></note>
+                    In contrast, the use of <hi rend="italic">rāhṭā</hi> at the beginning of a word is not so
+                    reliably attested. Following the anonymous tract on accents in Brit.
+                    Libr. Add. 12,138, Segal (1953: 99) provides three total examples,
+                    but comments that ‘in all these examples one of the two points
+                    may not be part of <hi rend="italic">rāhṭā</hi> but a diacritical point’ (n. 7). Given the
+                    uncertainty over the use of <hi rend="italic">rāhṭā</hi> at the beginning of a word, an
+                    alternative analysis of the two additional points in <foreign xml:lang="syr">ܦܵ̈݁ܘܠܲܐ</foreign> in (3) is in
+                    order. These two points could represent <hi rend="italic">syāmē</hi> being used as a
+                    phonological marker. In this case, the <hi rend="italic">syāmē</hi> would represent the
+                    final -<foreign xml:lang="grc">ε</foreign> in the Greek vocative <foreign xml:lang="grc">Παῦλε</foreign>.
+                </p>
+                <p xml:lang="en">
+                    If the <hi rend="italic">syāmē</hi> in <foreign xml:lang="syr">ܦܵ̈݁ܘܠܲܐ</foreign> in (3) are analyzed as a phonological marker
+                    for final -<foreign xml:lang="grc">ε</foreign>, the Syriac vocalization with final <hi rend="italic">ptāḥā</hi> would then be a
+                    secondary development. In his <hi rend="italic">Book of Splendors</hi>, Bar ʿEbroyo (d.
+                    1286) explains that Greek personal names in Syriac that end in -<hi rend="italic">os</hi> have a vocative in -<hi rend="italic">e</hi>, e.g.,
+                    <foreign xml:lang="syr">ܦܘܠܶܐ</foreign> &lt;<foreign xml:lang="grc">Παῦλε</foreign>) vocative of <foreign xml:lang="syr">ܦܘܠܘܣ</foreign> 
+                    (&lt;<foreign xml:lang="grc">Παῦλος),</foreign> and that those that end in -<hi rend="italic">as</hi> have a vocative in -<hi rend="italic">a</hi>, e.g.,
+                    <foreign xml:lang="syr">ܡܰܐܡܰܐ</foreign> ((&lt;<foreign xml:lang="grc">Μάμα)</foreign> vocative of <foreign xml:lang="syr">ܡܰܐܡܰܐܣ</foreign>
+                    ((&lt;<foreign xml:lang="grc">Μάμας</foreign>).<hi rend="superscript">24</hi>
+                    <note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">
+                        24 The Syriac is edited in Moberg 1922: 166.16-22, and a German
+                        translation is available in Moberg 1907-1913: 1.145. It should be noted that
+                        Bar ʿEbroyo does not call these vocatives but diminutives (<hi rend="italic">zuʿʿārā</hi>).
+                    </p></note>
+                    He then provides
+                    the following comment about the derivation of such words in East
+                    Syriac:
+                </p>
+                <pb n="103"/>
+                <p xml:lang="en">
+                    (4)     <hi rend="italic">Book of Splendors</hi> by Bar ʿEbroyo (ed. Moberg 1922)
+                </p>
+                <p xml:lang="en">
+                    <foreign xml:lang="syr">ܡܕܢܚ̈ܐ ܡ̇ܢ ܟܕ ܩܢܘܢܐ ܗܢܐ ܠܐ ܢܛܪܝܢ ܠܬܪ̈ܝܗܘܢ ܛܘ̈ܦܣܐ ܗܠܝܢ ܒܚ̈ܕܕܐ
+                        ܚܠܛܝܢ ܘܦܘܠܳܐ ܘܬܐܦܝܠܳܐ ܘܫܪܟܐ ܒܙܩܦܗܘܢ ܕܕܡܐ
+                    </foreign><hi rend="superscript">25</hi>
+                    <note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">25 The edition has <foreign xml:lang="syr">ܕܡܐ</foreign> here with a single 
+                        <hi rend="italic">dālat</hi>; this is not impossible,
+                        though it is preferable to emend as above.</p></note>
+                    <foreign xml:lang="syr">ܠܦܬܚܐ ܩܪܝܢ...‏</foreign>
+                </p>
+                <p xml:lang="en">
+                    ‘The East Syrians, not keeping this rule, mix these two
+                    types with one another and read <hi rend="italic">pwlā, tʾpylā,</hi> etc., with their <hi rend="italic">zqāpā</hi> which resembles <hi rend="italic">ptāḥā</hi> ...’ (66.23-24)
+                </p>
+                <p xml:lang="en">
+                    Thus, Bar ʿEbroyo states that the two Greek types -<hi rend="italic">os</hi> and -<hi rend="italic">as</hi> had been leveled to a single vocative in
+                    -<hi rend="italic">ā</hi> in East Syriac by his time
+                    (the thirteenth century). The form <foreign xml:lang="syr">ܦܵ̈݁ܘܠܲܐ</foreign> in the East-Syriac ‘Masora’
+                    establishes that this leveling had occurred already by 899, several
+                    centuries prior to Bar ʿEbroyo.<hi rend="superscript">26</hi>
+                    <note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">
+                        26 If the anonymous tract on accents (303v-308v) is older than the
+                        biblical samples in Brit. Libr. Add. 12,138, as Segal (1953: 7) supposes, then
+                        this date can be pushed even earlier.
+                    </p></note>
+                    It is difficult to explain the
+                    discrepancy between the final <hi rend="italic">zqāpā</hi> given by Bar ʿEbroyo in his
+                    description of East Syriac and the final <hi rend="italic">ptāḥā</hi> found in Brit. Libr.
+                    Add. 12,138.<hi rend="superscript">27</hi>
+                    <note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">
+                        27 Perhaps, the forms ending in <hi rend="italic">ptāḥā</hi> are the result of West-Syriac
+                        influence, where the vocative of Greek personal names in -<hi rend="italic">as</hi> end in <hi rend="italic">ptāḥā</hi>. 
+                    </p></note>
+                    It should, however, be noted that both final <hi rend="italic">zqāpā</hi> and <hi rend="italic">ptāḥā</hi> are found for these forms in the later East-Syriac tradition; the
+                    Mosul Bible, for instance, has <foreign xml:lang="syr">ܬܹܐܘܿܦܝܼܠܵܐ</foreign> (Luke 1:3) ending in <hi rend="italic">zqāpā</hi> but
+                    <foreign xml:lang="syr">ܦܝܼܠܝܼܦܲܐ</foreign> (John 14:9) and <foreign xml:lang="syr">ܦܵܘܠܲܐ</foreign> (Acts 27:24) ending in <hi rend="italic">ptāḥā</hi>.
+                </p>
+                <p xml:lang="en">
+                    Thus, it is proposed that the two additional points in <foreign xml:lang="syr">ܦܵ̈݁ܘܠܲܐ</foreign> –
+                    that is, those points that are neither the <hi rend="italic">quššāyā</hi> marker nor the
+                    East-Syriac <hi rend="italic">zqāpā</hi> – are best analyzed as <hi rend="italic">syāmē</hi>. This <hi rend="italic">syāmē</hi> would
+                    have functioned as a phonological marker for final -<foreign xml:lang="grc">ε</foreign> before East
+                    Syriac leveled the two types of vocatives of Greek personal names (-<hi rend="italic">e</hi> and -<hi rend="italic">a</hi>) to a single type in
+                    -<hi rend="italic">a</hi>/<hi rend="italic">ā</hi>. After the leveling, the <hi rend="italic">syāmē</hi> would not have been analyzable, since the final vowel was no
+                    longer mid front. This would have made it possible for <hi rend="italic">syāmē</hi> in this
+                    case to be reinterpreted as a <hi rend="italic">rāhṭā</hi> accent, as they have been in the
+                    East-Syriac ‘Masora’ (Brit. Libr. Add. 12,138, f. 306v, ln. 17).<hi rend="superscript">28</hi>
+                    <note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">
+                        28 It is from here, of course, that this analysis made its way into Segal
+                        1953: 99 and more recently Kiraz 2012: §303.
+                    </p></note>
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.6" xml:lang="en">
+                <pb n="104"/>
+                <p xml:lang="en">
+                    Up to this point, all of the examples of <hi rend="italic">syāmē</hi> functioning as a
+                    phonological marker for a final mid front vowel involve Greek
+                    words in Syriac. There is, however, a set of native Syriac words
+                    where <hi rend="italic">syāmē</hi> also function as a phonological marker (or at least did
+                    originally): the feminine forms of the teen cardinal numbers (11-19).
+                    The most commonly attested forms of the teen cardinal numbers
+                    are given in the chart in (5).
+                </p>
+                <p xml:lang="en">(5)
+                    <table>
+                        <row>
+                            <cell> </cell>
+                            <cell>with masculine nouns</cell>
+                            <cell>with feminine nouns</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell><foreign xml:lang="syr">ܚܕܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܚܕܰܥܶܣ̈ܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell><foreign xml:lang="syr">ܬܪܶܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܰܪ̈ܬܰܥܶܣܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell><foreign xml:lang="syr">ܬܠܳܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܬܠܳܬܰܥܶܣ̈ܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell><foreign xml:lang="syr">ܐܰܪܒܰܥܬܳܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܐܰܪ̈ܒܰܥܶܣܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell><foreign xml:lang="syr">ܚܰܡܶܫܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܚܰܡ̈ܫܰܥܶܣܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>6</cell>
+                            <cell><foreign xml:lang="syr">ܫܬܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܫܬ̈ܬܰܥܶܣܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>7</cell>
+                            <cell><foreign xml:lang="syr">ܫܒܰܥܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܫܒܰܥܷ̈ܣܪܶܐ</foreign></cell>
+                        </row>
+                        <row>
+                            <cell>8</cell>
+                            <cell><foreign xml:lang="syr">ܬܡܳܢܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܬܡܳܢܰܥܷ̈ܣܪܶܐ</foreign></cell> 
+                        </row>
+                        <row>
+                            <cell>9</cell>
+                            <cell><foreign xml:lang="syr">ܬܫܰܥܬܰܥܣܰܪ</foreign></cell>
+                            <cell><foreign xml:lang="syr">ܬܫܰܥܷ̈ܣܪܶܐ</foreign></cell>                        
+                        </row>
+                    </table>
+                </p>
+                <p xml:lang="en">
+                    In the manuscripts, there is a great deal of variation in the
+                    forms themselves as well as in which forms are written with <hi rend="italic">syāmē</hi><hi rend="superscript">29</hi>
+                    <note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">
+                        29 Brockelmann 1981: §157; Coakley 2002: 134; Muraoka 2005: §44;
+                        Nöldeke 1904: §148.
+                    </p></note>
+                    Notwithstanding this, however, <hi rend="italic">syāmē</hi> are most commonly found
+                    with the feminine forms of the teen cardinal numbers. This is due
+                    to the fact that it is the feminine forms of the teen cardinal
+                    numbers that end in -<hi rend="italic">ē</hi>.<hi rend="superscript">30</hi>
+                    <note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                        30 So already Nöldeke 1904: §16 and Hetzron 1977: 186 n. 1.
+                    </p></note>
+                    This final -<hi rend="italic">ē</hi> is not etymologically related 
+                    <pb n="105"/>
+                    to the Syriac masculine plural <hi rend="italic">status emphaticus</hi> ending -<hi rend="italic">ē</hi>.<hi rend="superscript">31</hi>
+                    <note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                        31 This is certain since the same ending is found with these forms in
+                        Biblical Hebrew, which does not of course have the Aramaic masculine
+                        plural <hi rend="italic">status emphaticus</hi> ending -<hi rend="italic">ē</hi>, e.g., <hi rend="italic">šlōš ʿeśrē</hi> ‘thirteen (FEM)’, which is
+                        written in the consonantal script as <hi rend="italic">šlš ʿśrh</hi>. The etymology of the -<hi rend="italic">ē</hi> that
+                        occurs in the word for ten in feminine forms of the teen cardinal numbers
+                        in Hebrew and Syriac continues to defy explanation. Traditionally, it was
+                        connected with the feminine ending *-<hi rend="italic">ay</hi> (see, e.g., Brockelmann 1908:
+                        §225Bdβαα [p. 412]; 249cβ [p. 489]; 1981: §106; Cowley 1910: §80L; Joüon
+                        and Muraoka 2005: §89l, 100e; Moscati et al. 1964: §12.33 [tentatively];
+                        Wright 1890: 138; for the wider Semitic context of the feminine ending *-<hi rend="italic">ay</hi>, see the bibliography and discussion in Layton 1990: 241-249). One would,
+                        however, expect the feminine ending *-<hi rend="italic">ay</hi> to be realized as -<hi rend="italic">ay</hi> in both Syriac
+                        and Hebrew, based on Syriac <hi rend="italic">salway</hi> ‘quail’ (Sokoloff 2009: 1012; for
+                        additional examples, see Nöldeke 1904: §83) and on Hebrew <hi rend="italic">śāray</hi> (Gen.
+                        11:30), the earlier name of Sarah. Ugaritic evidence adds further difficulties
+                        to the traditional etymology that relates the -<hi rend="italic">ē</hi> in the word for ten in
+                        feminine forms of the teen cardinal numbers in Hebrew and Syriac to the
+                        feminine ending *-<hi rend="italic">ay</hi> In Ugaritic, the word for ten in teen cardinal numbers
+                        is written as <hi rend="italic">ʿšrh</hi> alongside <hi rend="italic">ʿšr</hi> and <hi rend="italic">ʿšrt</hi> (Tropper 2000: §62.2). Given that the
+                        word for ten is also written with final -<hi rend="italic">h</hi> in the feminine of these forms in
+                        Hebrew, it is likely that Ugaritic <hi rend="italic">ʿšrh</hi> is cognate to the Hebrew forms as well
+                        as to the Syriac forms, where the <hi rend="italic">mater lectionis</hi> will have been changed from <hi rend="italic">h</hi> to ʾ (for this change in Syriac, compare the orthography of the feminine
+                        singular <hi rend="italic">status absolutus</hi> ending, which is consistently -ʾ in Syriac but was -<hi rend="italic">h</hi> in
+                        Old Aramaic [Degen 1969: §34] with Biblical Aramaic attesting both forms
+                        [Rosenthal 1995: §42]). The -<hi rend="italic">h</hi> in Ugaritic <hi rend="italic">ʿšrh</hi> cannot be a reflex of the
+                        feminine ending *-<hi rend="italic">ay</hi> because: 1. the feminine ending *-<hi rend="italic">ay</hi> is probably
+                        realized as -<hi rend="italic">y</hi> in Ugaritic (Tropper 2000: §52.4 with the comments in Pardee
+                        2003/2004: 176-177); 2. Ugaritic <hi rend="italic">h</hi> never functions as a <hi rend="italic">mater lectionis</hi> and is
+                        always consonantal in Ugaritic (Tropper 2000: §21.342.2; Huehnergard
+                        2012: 21). Thus, while the analysis of the final -<hi rend="italic">h</hi> in Ugaritic <hi rend="italic">ʿšrh</hi> remains
+                        uncertain (Bordreuil and Pardee 2009: 36; Huehnergard 2012: 49; see the
+                        discussion in Tropper 2000: §62.201), the Ugaritic evidence casts further
+                        doubt on analyzing the ending -<hi rend="italic">ē</hi> on the word for ten in feminine forms of
+                        the teen cardinal numbers in Biblical Hebrew and Syriac as the feminine
+                        ending *-<hi rend="italic">ay</hi> (<hi rend="italic">contra</hi> Joüon and Muraoka 2005: §100e, who doubt whether the
+                        Ugaritic evidence can be used to show that <hi rend="italic">h</hi> in Hebrew <hi rend="italic">ʿšrh</hi> was originally
+                        consonantal). It should be noted here in passing that Hetzron (1977) has
+                        proposed that the final -<hi rend="italic">ē</hi> in these Hebrew and Syriac forms is – at least
+                        partially – the result of language contact with Akkadian. This is, however, unlikely given what is known about the contact between these languages as
+                        well as about contact-induced change more broadly.
+                    </p></note>
+                    Thus, the
+                    feminine forms of the teen cardinal numbers represent another 
+                    <pb n="106"/>
+                    case in which <hi rend="italic">syāmē</hi> (at least originally) serve as a phonological
+                    marker for a final mid front vowel in Syriac – this time with native
+                    Syriac words. The fact that <hi rend="italic">syāmē</hi> are occasionally found with the
+                    masculine forms of the teen cardinal numbers, which do not end in -<hi rend="italic">ē</hi>, as well as with other numbers, which also do not end in
+                    -<hi rend="italic">ē</hi> suggests that the phonological use of <hi rend="italic">syāmē</hi> was secondarily
+                    reinterpreted as a morphological marker of plurality by at least
+                    some writers and/or scribes. This, however, represents a secondary
+                    development. The regularity and consistency with which <hi rend="italic">syāmē</hi> occur with the feminine forms of the teen cardinal numbers
+                    suggest that the origin of their use with numbers is to be found
+                    there, where they functioned originally as a phonological marker,
+                    and it is from there that they spread to other numbers.<hi rend="superscript">32</hi>
+                    <note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">
+                        32 The result of such an extension can be illustrated by Christian
+                        Palestinian Aramaic, where <hi rend="italic">syāmē</hi> are used with masculine and feminine
+                        forms of the teen cardinal numbers as well as with many other forms of the
+                        numbers (for the forms, see Müller-Kessler 1991: §4.3.1).
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    The connection between <hi rend="italic">syāmē</hi> and the end of a word is
+                    interestingly enough reflected in the orthography of the Syriac
+                    incantation bowls.<hi rend="superscript">33</hi>
+                    <note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">
+                        33 Syriac incantation bowls, also called ‘magic bowls’, are earthenware
+                        bowls that are inscribed with incantations in ink. The bowls are typically
+                        thought to stem from the late Sasanian period (sixth to seventh century),
+                        though both earlier and later dates have been suggested. Two scripts are
+                        attested in the Syriac bowls: Esṭrangela and a related script that is often
+                        termed ‘Proto-Manichaean’. The language of the Syriac bowls differs in a
+                        number of ways from Classical Syriac (Van Rompay 1990). Collections of
+                        Syriac incantation bowls are available in Hamilton 1971: 98-164 as well as
+                        more recently Moriggi 2004: 235-294 (for the history of publication of
+                        Syriac bowls, see Moriggi 2004: 1-6, 47-48 with further references). The
+                        Syriac incantation bowls have parallels in Mandaic and Jewish Babylonian
+                        Aramaic.
+                    </p></note>
+                    In contrast to the situation in Classical Syriac, <hi rend="italic">syāmē</hi> often occur on the final <hi rend="italic">ʾālap</hi> in the Syriac incantation bowls,
+                    e.g., <foreign xml:lang="syr">ܫܐܕܐ̈</foreign> 'demons’ (Hamilton 1971: 98a [<hi rend="italic">sub</hi> ln. 12]).<hi rend="superscript">34</hi>
+                    <note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">
+                        34 This feature is not mentioned in Hamilton 1971: 48-49 or Moriggi
+                        2004. In addition, <hi rend="italic">syāmē</hi> are unfortunately not marked in the texts in the
+                        appendix of Moriggi 2004, leaving this interesting difference between
+                        Classical Syriac and the language of the Syriac incantation bowls indiscernible to the reader (<hi rend="italic">syāmē</hi> are marked in Hamilton’s texts, even
+                        though they are written in square script). 
+                    </p></note>
+                    The same 
+                    <pb n="107"/>
+                    orthography is found in the Syriac leather amulets edited by Ph.
+                    Gignoux (1987),<hi rend="superscript">35</hi>
+                    <note place="foot" xml:id="ftn35" n="35"><p rend="footnote text">
+                        35 For this edition, see the review article in Wesselius 1991.
+                    </p></note>
+                    e.g., <foreign xml:lang="syr">ܫܐܕܐ̈</foreign> 'demons’ (Amulet 1, ln. 16). This
+                    orthography of writing <hi rend="italic">syāmē</hi> on the last letter of the word indicates
+                    the close connection between <hi rend="italic">syāmē</hi> and the phonology of the last
+                    syllable.
+                </p>
+            </div>
+            <div xml:id="HV18N1Butts.7" xml:lang="en">
+                <p xml:lang="en">
+                    This study has aimed to shed light on a minor, but interesting
+                    orthographic feature of Syriac that is not recorded in the standard
+                    grammars, such as those of Duval (1881) and Nöldeke (1904): the
+                    occasional use of <hi rend="italic">syāmē</hi> as a phonological marker for a final mid
+                    front vowel in Syriac.<hi rend="superscript">36</hi>
+                    <note place="foot" xml:id="ftn36" n="36"><p rend="footnote text">
+                        36 This use was, however, noted by Van Rompay (<hi rend="italic">apud</hi> Salvesen 1997:
+                        245 n. 66), Becker (2010: 93 n. 10), and Kiraz (2012: §158).
+                    </p></note>
+                    This use of <hi rend="italic">syāmē</hi> is due to a reanalysis of
+                    the relationship between <hi rend="italic">syāmē</hi> and the ending -<hi rend="italic">ē</hi> of masculine plural <hi rend="italic">status emphaticus</hi>
+                    nouns, such as <foreign xml:lang="syr">ܡ̈ܠܟܐ</foreign> /malkē/ ‘kings’. Some writers
+                    and/or scribes re-analyzed what was originally a morphological
+                    marker of plurality in nouns such as <foreign xml:lang="syr">ܡ̈ܠܟܐ</foreign> /malkē/ ‘kings' as a
+                    phonological marker for a final mid front vowel. This reanalysis
+                    enabled <hi rend="italic">syāmē</hi> to be extended to non-plural words that ended in a
+                    mid front vowel, such as Greek words in Syriac that ended in -<foreign xml:lang="grc">η</foreign>, or
+                    more rarely -<foreign xml:lang="grc">ε</foreign> or -<foreign xml:lang="grc">αι</foreign> in the Greek source as well as to the feminine
+                    forms of the teen cardinal numbers.<hi rend="superscript">37</hi>
+                    <note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">
+                        37 Following a similar development, <hi rend="italic">syāmē</hi> occasionally function as a
+                        phonological marker for a final mid front vowel in Christian Sogdian texts
+                        (Sims-Williams, <hi rend="italic">apud</hi> Kiraz 2012: §621).
+                    </p></note>
+                </p>
+            </div>
+            <div type="bibliography">
+                <head>BIBLIOGRAPHY</head>
+                <listBibl>
+                    <bibl>
+                        Allen, W. S. 1987. <hi rend="italic">Vox Graeca: A Guide to the Pronunciation of Classical
+                            Greek</hi> (3rd ed.). Cambridge.
+                    </bibl>
+                    <bibl>
+                        Becker, A. H. 2006. <hi rend="italic">Fear of God and the Beginning of Wisdom. The School
+                            of Nisibis and Christian Scholastic Culture in Late Antique
+                            Mesopotamia.</hi> Philadelphia.
+                    </bibl>
+                    <pb n="108"/>
+                    <bibl>
+                        _______. “The Comparative Study of ‘Scholasticism’ in Late
+                        Antique Mesopotamia: Rabbis and East Syrians,” <hi rend="italic">AJS Review</hi> 34: 91-113.
+                    </bibl>
+                    <bibl>
+                        Bedjan, P. 1890-1897. <hi rend="italic">Acta Martyrum et Sanctorum</hi> (7 vols.). Paris –
+                        Leipzig.
+                    </bibl>
+                    <bibl>
+                        Bordreuil, P. and D. Pardee. 2009. <hi rend="italic">A Manual of Ugaritic</hi> (LAWS 3).
+                        Winona Lake.
+                    </bibl>
+                    <bibl>
+                        Brock, S. P. 1967. “Greek Words in the Syriac Gospels (<hi rend="italic">vet</hi> and <hi rend="italic">pe</hi>)," <hi rend="italic">Le Muséon</hi> 80 (1967): 389-426.
+                    </bibl>
+                    <bibl>
+                        Brock, S. P., A. M. Butts, G. A. Kiraz, and L. Van Rompay. 2011. <hi rend="italic">Gorgias Encyclopedic Dictionary of the Syriac Heritage.</hi> Piscataway.
+                    </bibl>
+                    <bibl>
+                        Brockelmann, C. 1908. <hi rend="italic">Grundriß der vergleichenden Grammatik der
+                            semitischen Sprachen</hi>, Vol. I. <hi rend="italic">Laut- und Formenlehre.</hi> Berlin.
+                    </bibl>
+                    <bibl>
+                        _______. 1981. <hi rend="italic">Syrische Grammatik</hi> (13th ed.). Leipzig.
+                    </bibl>
+                    <bibl>
+                        Brooks, E. W. 1935. <hi rend="italic">Iohannis Ephesini. Historiae Ecclesiasticae. Pars
+                            Tertia</hi> (CSCO 105). Louvain.
+                    </bibl>
+                    <bibl>
+                        Chialà, S. 2011. <hi rend="italic">Isacco di Ninive. Terza collezione</hi> (CSCO 637-638).
+                        Louvain.
+                    </bibl>
+                    <bibl>
+                        Coakley, J. F. 2002. <hi rend="italic">Robinson’s Paradigms and Exercises in Syriac
+                            Grammar</hi> (5th ed.). Oxford.
+                        Louvain.
+                    </bibl>
+                    <bibl>
+                        Cowley, A. E. 1910. <hi rend="italic">Gesenius’ Hebrew Grammar</hi> (2nd ed.). Oxford.̮̮
+                    </bibl>
+                    <bibl>
+                        Degen, R. 1969. <hi rend="italic">Altaramäische Grammatik</hi> (2nd ed.). Wiesbaden.
+                    </bibl>
+                    <bibl>
+                        Drijvers, H. J. W. and J. F. Healey. 1999. <hi rend="italic">The Old Syriac Inscriptions of
+                            Edessa and Osrhoene</hi>. Leiden.
+                    </bibl>
+                    <bibl>
+                        Duval, R. 1881. <hi rend="italic">Traité de grammaire syriaque</hi>. Paris.
+                    </bibl>
+                    <bibl>
+                        Feissel, D. and J. Gascou. 1989. “Documents d’archives romains
+                        inédits du Moyen-Euphrate (IIIe siècle après J.-C.),” <hi rend="italic">CRAI</hi> 1989: 535-561.
+                    </bibl>
+                    <bibl>
+                        _______. 1995. “Documents d’archives romains inédits du moyen
+                        Euphrate (IIIe s. après J.-C.). I. Les pétitions (P. Euphr. 1 à 5),” <hi rend="italic">Journal des Savants</hi>: 65-119.
+                    </bibl>
+                    <pb n="109"/>
+                    <bibl>
+                        _______. 2000. “Documents d’archives romains inédits du moyen
+                        Euphrate (IIIe s. après J.-C.). III. Actes diverses et lettres (P.
+                        Euphr. 11 à 17),” <hi rend="italic">Journal des Savants</hi>: 157-208.
+                    </bibl>
+                    <bibl>
+                        Feissel, D., J. Gascou, and J. Teixidor. 1997. “Documents
+                        d’archives romains inédits du moyen Euphrate (IIIe s. après
+                        J.-C.). II. Les actes de vente-achat (P. Euphr. 6 à 10),” <hi rend="italic">Journal des Savants</hi>: 3-57.
+                    </bibl>
+                    <bibl>
+                        Frankenberg, W. 1912. <hi rend="italic">Evagrius Ponticus</hi>. Berlin.
+                    </bibl>
+                    <bibl>
+                        Gignac, F. T. 1976-. <hi rend="italic">A Grammar of the Greek papyri of the Roman and
+                            Byzantine Periods</hi>. Milan.
+                    </bibl>
+                    <bibl>
+                        Gignoux, P. 1987. <hi rend="italic">Incantations magiques syriaques</hi>. Louvain.
+                    </bibl>
+                    <bibl>
+                        Hamilton, V. P. 1971. <hi rend="italic">Syriac incantation bowls</hi>. Ph.D. Diss., Brandeis
+                        University.
+                    </bibl>
+                    <bibl>
+                        Hetzron, R. 1977. “Innovations in the Semitic Numeral System,” <hi rend="italic">JSS</hi> 22: 167-201.
+                    </bibl> 
+                    <bibl>
+                        Huehnergard, J. 2012. <hi rend="italic">An Introduction to Ugaritic</hi>. Peabody, MA.
+                    </bibl>
+                    <bibl>
+                        Jones, F. S. 1998. “Early Syriac Pointing in and behind British
+                        Museum Additional Manuscript 12,150,” in R. Lavenant, S.J.
+                        (ed.), <hi rend="italic">Symposium Syriacum VII</hi> (Orientalia Christiana Analecta
+                        256). Rome. 429-444.
+                    </bibl>
+                    <bibl>
+                        Joüon, P. and T. Muraoka. 1991. <hi rend="italic">A Grammar of Biblical Hebrew</hi>. Rome.
+                    </bibl>
+                    <bibl>
+                        Kaufman, S. A. 1974. <hi rend="italic">Akkadian Influences on Aramaic</hi>. Chicago.
+                    </bibl>
+                    <bibl>
+                        Kiraz, G. A. 2012. <hi rend="italic">Tūrrāṣ Mamllā. A Grammar of the Syriac Language</hi>. Piscataway.
+                    </bibl>
+                    <bibl>
+                        Layton, S. C. 1990. <hi rend="italic">Archaic Features of Canaanite Personal Names in the
+                            Hebrew Bible</hi>. Atlanta.
+                    </bibl>
+                    <bibl>
+                        Liddell, H. and R. Scott (revised by H. Stuart Jones and R.
+                        McKenzie). 1996. <hi rend="italic">A Greek-English Lexicon</hi>. Oxford.
+                    </bibl>
+                    <bibl>
+                        Look, A. E. 1929. <hi rend="italic">The History of Abba Marcus of Mount Tharmaka</hi>. Oxford.
+                    </bibl>
+                    <bibl>
+                        Loopstra, J. Forthcoming. <hi rend="italic">An East Syrian Manuscript of the Syriac
+                            ‘Masora’ to 899 CE</hi>. Piscataway.
+                    </bibl>
+                    <pb n="110"/>
+                    <bibl>
+                        Macomber, W. F. 1974. <hi rend="italic">Six Explanations of the Liturgical Feasts by
+                            Cyrus of Edessa</hi> (CSCO 355-336). Louvain.
+                    </bibl>
+                    <bibl>
+                        Mayser, M. 1970. <hi rend="italic">Grammatik der griechischen Papyri aus der
+                            Ptolemäerzeit,</hi> Vol. I. <hi rend="italic">Laut- und Wortlehre</hi>, Part 1. <hi rend="italic">Einleitung und
+                                Lautlehre</hi> (2nd ed.). Berlin.
+                    </bibl>
+                    <bibl>
+                        Moberg, A. 1907-1913. <hi rend="italic">Buch der Strahlen. Die grössere Grammatik des
+                            Barhebräus</hi>. Leipzig.
+                    </bibl>
+                    <bibl>
+                        _______. 1922. <hi rend="italic">Le Livre des splendeurs. La grande grammaire de Grégoire
+                            Barhebraeus</hi>. Lund.
+                    </bibl>
+                    <bibl>
+                        Moriggi, M. 2004. <hi rend="italic">La lingua delle coppe magiche siriache</hi>. (Quaderni di
+                        Semitistica 21). Firenze.
+                    </bibl>
+                    <bibl>
+                        Moscati, S. et al. 1964. <hi rend="italic">An Introduction to the Comparative Grammar of
+                            the Semitic Languages</hi>. Wiesbaden.
+                    </bibl>
+                    <bibl>
+                        Müller-Kessler, Ch. 1991. <hi rend="italic">Grammatik des Christlich-Palästinisch-
+                            Aramäischen</hi>, Part 1. <hi rend="italic">Schriftlehre, Lautlehre, Formenlehre</hi> (Texte und
+                        Studien zur Orientalistik 6). Hildesheim.
+                    </bibl>
+                    <bibl>
+                        Muraoka, T. 2005. <hi rend="italic">Classical Syriac. A Basic Grammar with a
+                            Chrestomathy</hi>. (2nd ed.; PLO ns 19). Wiesbaden.
+                    </bibl>
+                    <bibl>
+                        Nöldeke, Th. 1904. <hi rend="italic">Compendious Syriac Grammar. Translated from the
+                            second and improved German edition by James A. Crichton</hi>. Leipzig.
+                    </bibl>
+                    <bibl>
+                        Palmer, L. R. 1934. “Prolegomena to a Grammar of the Post-
+                        Ptolemaic Papyri,” <hi rend="italic">JTS</hi> 35: 170-175.
+                    </bibl>
+                    <bibl>
+                        _______. 1945. <hi rend="italic">A Grammar of the Post-Ptolemaic Papyri</hi>. London.
+                    </bibl>
+                    <bibl>
+                        Pardee, D. 2003/2004. Review of Tropper 2000 (online version). <hi rend="italic">AfO</hi> 50.
+                    </bibl>
+                    <bibl>
+                        Rosenthal, F. 1995. <hi rend="italic">A Grammar of Biblical Aramaic</hi> (PLO ns 5).
+                        Wiesbaden.
+                    </bibl>
+                    <bibl>
+                        Salvesen, A. 1997. “Hexaplaric Readings in Išoʿdad of Merv’s
+                        Commentary on Genesis,” in J. Frishman and L. Van Rompay
+                        (eds.), <hi rend="italic">The Book of Genesis in Jewish and Oriental Christian
+                            Interpretation</hi> (Traditio Exegetica Graeca 5). Louvain. 229-252.
+                    </bibl>
+                    <bibl>
+                        Scher, A. 1907. <hi rend="italic">Mar Barḥadbšabba ʿArbaya. Évêque de Ḥalwan (VIe
+                            siècle). Cause de la fondation des écoles</hi> (PO 4.4). Paris.
+                    </bibl>
+                    <pb n="111"/>
+                    <bibl>
+                        Segal, J. B. 1953. <hi rend="italic">The Diacritical Point and the Accents in Syriac</hi> (London
+                        Oriental Series 2). London.
+                    </bibl>
+                    <bibl>
+                        Sokoloff, M. 2009. <hi rend="italic">A Syriac Lexicon. A Translation from the Latin,
+                            Correction, Expansion, and Update of C. Brockelmann’s Lexicon
+                            Syriacum</hi>. Winona Lake – Piscataway.
+                    </bibl>
+                    <bibl>
+                        Tropper, J. 2000. <hi rend="italic">Ugaritische Grammatik</hi>. Münster.
+                    </bibl>
+                    <bibl>
+                        Van Rompay, L. 1990. “Some Remarks on the Language of Syriac
+                        Incantation Texts,” in R. Lavenant, S.J. (ed.), <hi rend="italic">V Symposium
+                            Syriacum 1988</hi> (Orientalia Christiania Analecta 236). Rome. 269-
+                        281.
+                    </bibl>
+                    <bibl>
+                        _______. 2015. “L’histoire du Couvent des Syriens (Wadi al-Natrun,
+                        Égypte), à la lumière des colophons de la Bibliothèque nationale
+                        de France,” in F. Briquel Chatonnet and M. Debié (eds.), <hi rend="italic">Manuscripta Syriaca. Des sources de première main</hi> (Cahiers d’études
+                        syriaques). Paris.
+                    </bibl>
+                    <bibl>
+                        Welles, C. B., R. O. Fink, and J. F. Gilliam. 1959. <hi rend="italic">The Excavations at
+                            Dura-Europus. Final Report V, Part 1. The Parchments and Papyri</hi>. New Haven.
+                    </bibl>
+                    <bibl>
+                        Wesselius, J. W. 1991. “New Syriac magical texts,” <hi rend="italic">BiOr</hi>48: 705-
+                        16.
+                    </bibl>
+                    <bibl>
+                        Woodard, R. D. 2004. “Attic Greek,” in R. D. Woodard (ed.), <hi rend="italic">The
+                            Cambridge Encyclopedia of the World’s Ancient Languages</hi>. Cambridge. 614-649.
+                    </bibl>
+                    <bibl>
+                        Wright, W. 1890.<hi rend="italic">Lectures on the Comparative Grammar of the Semitic
+                            Languages</hi>. Cambridge.
+                    </bibl>
+                </listBibl>
+            </div>
         </body>  
+    
     </text>
 </TEI>
