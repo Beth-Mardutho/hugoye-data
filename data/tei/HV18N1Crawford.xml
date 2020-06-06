@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">The Fourfold Gospel in the Writings of Ephrem the Syrian</title>
-                <title type="sub"><!-- Insert subtitle here if there is one --></title>
                 <author>
                     <name>
                         <forename>Matthew R.</forename>
@@ -18,7 +18,7 @@
                 <editor role="associate">James E. Walters</editor>
                 <respStmt>
                     <resp>TEI XML encoding by</resp>
-                    <name type="person"><!-- Insert name of person who converts the document here --></name>
+                    <name type="person">Joss Childs</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -35,7 +35,6 @@
                             copyright.</p>
                     </licence>
                 </availability>
-                
                 <idno type="URI">https://hugoye.bethmardutho.org/article/hv18n1crawford</idno>
             </publicationStmt>
             <sourceDesc>
@@ -52,10 +51,10 @@
                             <publisher>Beth Mardutho: The Syriac Institute</publisher>
                             <date>2015</date>
                         </imprint>
-                        <biblScope type="vol" n="18">18</biblScope>
-                        <biblScope type="issue" n="1">1</biblScope>
-                        <biblScope type="pp" from="9" to="51">9–51</biblScope>
-                        <biblScope type="order" n="2"/>
+                        <biblScope unit="vol" n="18">18</biblScope>
+                        <biblScope unit="issue" n="1">1</biblScope>
+                        <biblScope unit="pp" from="9" to="51">9–51</biblScope>
+                        <biblScope unit="order" n="2"/>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
@@ -72,15 +71,2065 @@
             <langUsage>
                 <language ident="en"/>
             </langUsage>
-            <textClass/>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Ephrem</term>
+                    <term>Diatessaron</term>
+                    <term>Fourfold Gospel</term>
+                    <term>Commentary on the Gospel</term>
+                    <term>Evangelion Da-Mepharreshe</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-        <revisionDesc status="PDF">
-            <change when="2018-07-09">File created by Sunil Persad</change>
+        <revisionDesc status="Published">
+            <change when="2020-05-27">File created by Joss Childs</change>
         </revisionDesc>
     </teiHeader>
     <text type="article">
+        <front>
+            <div type="abstract" xml:lang="en">
+                <pb n="9"/>
+                <head>Abstract</head>
+                <p xml:lang="en">
+                    Ephrem of Nisibis is unique among patristic authors for having
+                    authored a commentary on Tatian’s gospel commonly known as the
+                    “Diatessaron.” In this article I examine Ephrem’s corpus to
+                    determine what evidence exists for his knowledge and use of gospel
+                    versions beyond that of Tatian, most especially the fourfold, or
+                    separated gospel. I point out that Ephrem, in keeping with Greek
+                    and Latin authors, occasionally used poetic imagery for the fourfold
+                    gospel, and, moreover, that he knew at least the Synoptic genealogies
+                    and the Johannine prologue as distinct texts. It is undeniable,
+                    therefore, that he knew of and to some degree used the separated,
+                    fourfold gospel, even if this remained slight in comparison with his
+                    reliance upon Tatian’s version. Furthermore, on six occasions
+                    Ephrem refers to an unspecified “Greek” gospel version. Previous
+                    scholarship has almost universally interpreted these passages as
+                    references to a separated gospel in Syriac, but I argue that these are
+                    best taken as references to an actual Greek version, and may well be
+                    allusions to a Greek edition of Tatian’s work. Ephrem’s usage of
+                    multiple gospel versions suggests that at this point in the Syriac
+                    tradition, the concept of ‘gospel’ was fluid and more undefined than
+                    would be the case in the fifth century when attempts were made to
+                    restrict its sense to the fourfold gospel. 
+                </p>
+            </div>
+        </front>
         <body>
-            <p>HTML Version of this article coming soon! You can download a PDF from the PDF icon.</p>
-        </body>  
+            <div type="introduction" xml:lang="en">
+                <pb n="10"/>
+                <p xml:lang="en">
+                    In the words of the late William Petersen, the fourth-century
+                    commentary of Ephrem the Syrian “remains the premier witness to
+                    the text of the Diatessaron.
+                    <note place="foot" xml:id="ftn1" n="1"><p xml:lang="en">
+                        1 William L. Petersen, <hi rend="italic">Tatian’s Diatessaron: Its Creation, Dissemination,
+                            Significance, and History in Scholarship</hi>, Supplements to Vigiliae Christianae 25
+                        (Leiden: E.J. Brill, 1994), 115-116. 
+                    </p></note>
+                    Moreover, Ephrem’s commentary
+                    occupies a unique place in early Christianity as the only surviving
+                    commentary on a gospel text other than the usual, fourfold gospel
+                    <note place="foot" xml:id="ftn2" n="2"><p xml:lang="en">
+                        2 Ephrem’s disciple Mar Aba also wrote a commentary on Tatian’s
+                        gospel that survives in fragments. Cf. Gerrit J. Reinink, “Neue Fragmente
+                        zum Diatessaronkommentar des Ephraem-schülers Aba,” <hi rend="italic">Orientalia
+                            Lovaniensia Periodica</hi> 11 (1980): 117-133. 
+                    </p></note>
+                    Indeed, although he was, according to the report of Sozomen the
+                    historian, greatly admired by Greek-speaking Christians such as
+                    Basil of Caesarea and although he, like Basil, opposed the Arians
+                    <note place="foot" xml:id="ftn3" n="3"><p xml:lang="en">
+                        3 Sozomen, <hi rend="italic">h.e.</hi> 3.16.3-4.
+                    </p></note>
+                    his commentary on the gospel text created by the second-century
+                    heretic Tatian causes him to stand out sharply against the backdrop
+                    of other fourth-century authors for whom the tetraevangelium was
+                    the unquestioned standard. Undoubtedly Ephrem’s usage of this
+                    peculiar gospel text is related to the fact that he wrote in Syriac and
+                    lived on the border of the Roman Empire, spending most of his
+                    life in Nisibis, before fleeing to Edessa when the Romans ceded the
+                    city to the Persians after Julian’s disastrous eastern campaign.
+                </p>
+                <p xml:lang="en">
+                    Thus, Ephrem’s composition of a commentary on Tatian’s
+                    gospel could be taken as an indication that he stands apart from the
+                    Greek patristic tradition, inhabiting a Syriac world as it existed
+                    prior to the time when the Greek church imposed itself upon what
+                    has been called a “genuinely Asian Christianity.
+                    <note place="foot" xml:id="ftn4" n="4"><p xml:lang="en">
+                        4 Sebastian Brock, <hi rend="italic">The Luminous Eye: The Spiritual World Vision of Saint
+                            Ephrem the Syrian</hi>, Cistercian Studies 124 (Kalamazoo, MI: Cistercian
+                        Publications, 1992), 15.
+                    </p></note>
+                    Indeed, in the
+                    opinion of Sebastian Brock, Ephrem’s significance lies precisely in
+                    the fact that he belongs to a version of Christianity that “was as yet
+                    comparatively little touched by [the] process of hellenization, or as
+                    we may call it, Europeanization or Westernization.
+                    <note place="foot" xml:id="ftn5" n="5"><p xml:lang="en">
+                        5 <hi rend="italic">Ibid</hi>., 160.
+                    </p></note>
+                    On this
+                    reading, we should not be surprised if Ephrem used a gospel text
+                    quite unlike that current in Greek churches, since his contact with
+                    the Greek world was minimal at best.
+                </p>
+                <pb n="11"/>
+                <p xml:lang="en">
+                    However, this picture of Ephrem as untouched by the forces
+                    of Hellenization has recently been subjected to significant critique
+                    in the work of Ute Possekel. Through a careful reading of the
+                    Syrian’s corpus, Possekel has demonstrated beyond any doubt that
+                    Ephrem was actually well versed in the philosophical milieu that
+                    broadly characterized the late antique Mediterranean world, and
+                    that he had a particular affinity for Stoic philosophy
+                    <note place="foot" xml:id="ftn6" n="6"><p xml:lang="en">
+                        6 <hi rend="italic">Evidence of Greek Philosophical Concepts in the Writings of Ephrem the
+                            Syrian</hi>, CSCO 580, Subsidia 102 (Louvain: Peeters, 1999).
+                    </p></note>
+                    As such, he
+                    can hardly be said to be ‘un-Hellenized.’ This clear evidence of
+                    Ephrem’s knowledge of Greek philosophical sources forces us to
+                    reconsider his idiosyncratic usage of Tatian’s gospel. If the Syriac
+                    culture of Nisibis and Edessa had absorbed Hellenistic philosophy
+                    by at least the mid-fourth century, it is unlikely that the version of
+                    Christianity that existed in those places remained untouched by
+                    Greek Christian sources.
+                </p>
+                <p xml:lang="en">
+                    To be clear, there is good reason to think that churches in
+                    Syriac-speaking areas were peculiar in their usage of Tatian’s
+                    gospel. While there is slim evidence that Tatian’s work circulated
+                    widely in the Greek world, it was quite possibly the earliest version
+                    in which the written gospel reached the Syriac world, and it enjoyed
+                    a primacy in some areas until the first half of the fifth century
+                    <note place="foot" xml:id="ftn7" n="7"><p xml:lang="en">
+                        7 For an up-to-date introduction to early Syriac versions, see Peter J.
+                        Williams, “The Syriac Versions of the New Testament,” in <hi rend="italic">The Text of the
+                            New Testament in Contemporary Research: Essays on the Status Quaestionis</hi>, 2nd
+                        ed., ed. Bart D. Ehrman and Michael W. Holmes (Leiden: Brill, 2013),
+                        143-166.
+                    </p></note>
+                    However, given the interaction between Greek and Syriac sources
+                    apparent in Ephrem’s writings, we should expect that his
+                    knowledge of gospel texts presents a similarly mixed picture.
+                    Hence, in what follows, I intend to investigate Ephrem’s corpus in
+                    search of evidence that he knew and availed himself of not only the
+                    Syriac version of Tatian’s gospel, but also the fourfold, or separated
+                    gospel.
+                </p>
+                <p xml:lang="en">
+                    I wish to argue that, although Tatian’s work remained the
+                    standard gospel version for Ephrem and his community, he
+                    nevertheless was aware of the existence of the fourfold gospel, and,
+                    moreover, he knew the Matthean and Lukan genealogies and the
+                    Johannine prologue as distinct texts linked with their respect
+                    evangelists. A handful of other passages in his corpus which display
+                    <pb n="12"/>
+                    a greater knowledge of evangelist traditions are likely later
+                    interpolations and so do not reflect Ephrem’s own knowledge.
+                    Furthermore, I suggest that Ephrem’s allusions to “the Greek”
+                    gospel, although almost universally taken by previous scholarship
+                    as references to a separated, Syriac gospel, are best understood as
+                    allusions to an actual Greek version, and possibly to a Greek
+                    edition of Tatian’s work. This picture of Ephrem making use of a
+                    range of gospel literature is in keeping with Possekel’s argument
+                    that he had a foot in both the Syriac and Greek worlds. Moreover,
+                    it suggests that he occupied a transitional moment in the cross-
+                    fertilization of Greek and Syriac Christianity. His willingness to
+                    continue using Tatian’s gospel despite his awareness of the fourfold
+                    gospel contrasts sharply with the attitude displayed two generations
+                    later by Theodoret and Rabbula who insisted that only the fourfold
+                    gospel in Syriac translation be used in the churches under their
+                    care. To this degree Brock’s interpretation of Ephrem is correct,
+                    since the Syriac milieu in which he wrote apparently tolerated a
+                    greater diversity than would be the case in the following century.
+                </p>
+                <p xml:lang="en">
+                    One way to approach this topic would be to compare the
+                    gospel texts cited by Ephrem with the Vetus Syra or with the
+                    Peshitta to see if they correspond to either of the earliest known
+                    Syriac versions of the separated gospel. This was the method
+                    followed by F. C. Burkitt one hundred years ago, who concluded
+                    that Ephrem certainly did not use the Peshitta, and more often
+                    than not used Tatian’s version rather than the Vetus Syra
+                    <note place="foot" xml:id="ftn8" n="8"><p xml:lang="en">
+                        8 F.C. Burkitt, <hi rend="italic">S. Ephraim’s Quotations From the Gospel</hi>, Texts and
+                        Studies 7.2 (Cambridge: University Press, 1901), 56. The articles of T.
+                        Baarda over the past several decades have mounted much additional
+                        evidence for Ephrem’s usage of the so-called “Diatessaron.” See, e.g.,
+                        “‘The Flying Jesus’: Luke 4:29-30 in the Syriac Diatessaron,” <hi rend="italic">Vigiliae
+                            Christianae</hi> 40 (1986): 313-341.
+                    </p></note>
+                    However, positive evidence that the Syrian usually used Tatian’s
+                    gospel does not exclude the possibility that he also knew and
+                    availed himself of other gospel versions. Therefore, I intend to take
+                    a different approach, considering three different lines of inquiry:
+                    first, the imagery for the fourfold gospel that occurs in Ephrem’s
+                    corpus; second, Ephrem’s awareness of individual evangelists; and
+                    third, what to make of the references in his corpus to “the Greek”
+                    version. As will become clear in what follows, many of the passages
+                    I will consider have been examined previously by Burkitt and
+                    <pb n="13"/>
+                    several others. However, several important passages have been
+                    overlooked in these prior discussions, and even those passages
+                    which have previously received some attention merit further
+                    scrutiny. Hence, I intend to provide the most thorough
+                    consideration thus far of the evidence for Ephrem’s knowledge of
+                    the fourfold gospel.
+                </p>
+            </div>
+            <div xml:id="hv18n1.1" xml:lang="en">
+                <head>1. IMAGERY FOR THE FOURFOLD GOSPEL IN EPHREM’S
+                    CORPUS</head>
+                <p xml:lang="en">
+                    Metaphorical imagery occupied a central place in Irenaeus’ famous
+                    defense of the fourfold gospel, and such imagery became a
+                    widespread and consistent feature of the Christian tradition,
+                    whether in its Greek, Latin, or Syriac forms. Ephrem, who was
+                    chiefly remembered for his poetic insight, also used such imagery,
+                    though only in a very small number of passages. Three are
+                    particularly relevant.
+                </p>
+                <p xml:lang="en">
+                    The first passage occurs in his <hi rend="italic">Hymns on Faith</hi> 48.10. Here, at
+                    the end of this hymn, Ephrem writes,
+                    <lg>
+                        <l>The Gospel pours forth (<foreign xml:lang="syr">ܓܚܬ</foreign>) in the type of the
+                            Gihon (<foreign xml:lang="syr">ܓܝܚܘܢ</foreign>) to give water.
+                        </l>
+                        <l>By the Euphrates (<foreign xml:lang="syr">ܒܦܪܬ</foreign>) its fruit (<foreign xml:lang="syr">ܦܪܝܗ</foreign>) is
+                            represented because it multiplied its teaching.
+                        </l>
+                        <l>
+                            He depicts its type by the Pishon (<foreign xml:lang="syr">ܒܦܝܫܘܢ</foreign>) and
+                            the cessation (<foreign xml:lang="syr">ܘܦܘܫܗ</foreign>) (of its investigation. 
+                        </l>
+                        <l>
+                            It cleans us (<foreign xml:lang="syr">ܕܩܠܬܢ</foreign>) like the Tigris (<foreign xml:lang="syr">ܕܩܠܬ</foreign>) (by its
+                            speech. 
+                        </l>
+                        <l>
+                            We will bathe and we will ascend through it to the
+                            encounter in Paradise . . 
+                            <note place="foot" xml:id="ftn9" n="9"><p xml:lang="en">
+                                9 Ephrem, <hi rend="italic">Hy. de fide</hi> 48.10 (Edmund Beck, <hi rend="italic">Des heiligen Ephraem des
+                                    Syrers Hymnen de Fide</hi>, CSCO 154, Scriptores Syri 73 (Louvain: L. Durbecq,
+                                1955), 154). I am grateful to Paul S. Russell for allowing me to consult his
+                                pre-publication version of the English translation of these hymns, which I
+                                reproduce above.
+                            </p></note>
+                        </l>
+                    </lg>
+                    Other early Christian authors, such as Hippolytus, Cyprian,
+                    Victorinus of Petovium and Jerome used the four rivers of paradise
+                    as a metaphor for the fourfold gospel
+                    <note place="foot" xml:id="ftn10" n="10"><p xml:lang="en">
+                        10 Hippolytus, <hi rend="italic">comm. Dan.</hi> 1.18; Cyprian, <hi rend="italic">ep.</hi> 73.10.3; Victorinus, <hi rend="italic">In
+                            Apoc.</hi> 4.4; Jerome, <hi rend="italic">comm. Mt.</hi>, prol.
+                    </p></note>
+                    so it is not without warrant
+                    <pb n="14"/>
+                    that Louis Leloir and Christian Lange have taken this passage as a
+                    reference to the four gospels
+                    <note place="foot" xml:id="ftn11" n="11"><p xml:lang="en">
+                        11 Cf. Louis Leloir, <hi rend="italic">Le témoignage d’Éphrem sur le Diatessaron</hi>, CSCO 227,
+                        Subsidia 19 (Louvain: Secrétariat du CorpusSCO, 1962), 72-73; Christian
+                        Lange, “Ephrem, His School, and the Yawnaya: Some Remarks on the
+                        Early Syriac Versions of the New Testament,” in <hi rend="italic">The Peshitta: Its Use in
+                            Literature and Liturgy: Papers Read At the Third Peshitta Symposium</hi>, ed. Robert
+                        Bas ter Haar Romeny, Monographs of the Peshitta Institute Leiden 15
+                        (Leiden: Brill, 2006), 166-67.
+                    </p></note>
+                    However, a closer examination
+                    suggests that, while this interpretation of the passage is possible, it
+                    is not required. First of all, we should note that the word translated
+                    here as “Gospel” is not <foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ</foreign> but rather <foreign xml:lang="syr">ܣܒܪܬܐ</foreign> .%$#Though the
+                    two terms have obviously overlapping semantic domains, the
+                    former is clearly transliterated from Greek whereas the latter is a
+                    native Syriac term. In the Peshitta New Testament these terms are
+                    used interchangeably, with no discernible distinction between them,
+                    and Tj. Baarda has argued that for Aphrahat they are also
+                    synonymous
+                    <note place="foot" xml:id="ftn12" n="12"><p xml:lang="en">
+                        12 Tjitze Baarda, <hi rend="italic">The Gospel Quotations of Aphrahat, the Persian Sage:
+                            Aphrahat’s Text of the Fourth Gospel</hi> (Amsterdam: Vrije Universiteit 
+                        Amsterdam, 1975), 323-324, disagreeing with F.C. Burkitt, <hi rend="italic">Evangelion Da-
+                            Mepharreshe</hi>, 2 vols. (Cambridge: The University Press, 1904), II.180, 
+                        regards the two words as synonymous for Aphrahat, since in his usage
+                        “both words may mean both the Gospel-Book and the Good Message.”
+                        Baarda does not discuss Ephrem’s usage of the terms. 13 Cf. Matthew R. Crawford, “Diatessaron, A
+                    </p></note>
+                    It is difficult to know for certain how Ephrem
+                    distinguished them, if indeed he did so at all, but it is clear that he
+                    called his gospel commentary an exposition of the <foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ</foreign> and
+                    not the <foreign xml:lang="syr">ܣܒܪܬܐ</foreign>
+                    <note place="foot" xml:id="ftn13" n="13"><p xml:lang="en">
+                        13 Cf. Matthew R. Crawford, “Diatessaron, A Misnomer? The
+                        Evidence of Ephrem’s Commentary,” <hi rend="italic">Early Christianity</hi> 4 (2013): 362-85.
+                    </p></note>
+                    Hence, it is possible that <foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ</foreign> in his usage
+                    refers to his written text while <foreign xml:lang="syr">ܣܒܪܬܐ</foreign> is associated more generally
+                    with the proclamation of the good news, in which case we need not
+                    read the above passage as a reference to the fourfold gospel.
+                    Furthermore, there is certainly a poetic play on words going on in
+                    this passage, since each of the names of the four rivers sounds
+                    similar to the four qualities of the gospel mentioned in each line.
+                    <note place="foot" xml:id="ftn14" n="14"><p xml:lang="en">
+                        14 So also Edmund Beck, <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Fide</hi>,
+                        CSCO 155, Scriptores Syri 74 (Louvain: Secrétariat du CorpusSCO, 1967),
+                        131.
+                    </p></note>
+                    Thus, the imagery of the four rivers may simply serve the purpose
+                    of this poetic device, being used to illustrate the manifold effect of
+                    <pb n="15"/>
+                    gospel proclamation, rather than standing as an allusion to its
+                    fourfold written form.
+                </p>
+                <p xml:lang="en">
+                    The next two passages much more clearly demonstrate an
+                    awareness of the gospel in its fourfold form. Lange has drawn
+                    attention to Ephrem’s <hi rend="italic">Sermons on Faith</hi> 2.39-40, in which the Syrian
+                    says, “Four fountains (<foreign xml:lang="syr">ܐܪ̈ܒܥܐ ܡܒ̈ܘܥܝܢ</foreign>) (flow down with truth for
+                    the four regions of the world.” Just prior to this sentence he speaks
+                    of the “former fountains” which are “sufficient,” and in what
+                    follows he refers to the revelation given to Simon Peter. He then
+                    tells his hearers that the “mighty stream” which came to Simon
+                    flowed also to them, a torrent that is even greater than the “fount
+                    of Eden.
+                    <note place="foot" xml:id="ftn15" n="15"><p xml:lang="en">
+                        15 Ephrem, <hi rend="italic">Ser. de fide</hi> 2.39-48 (Edmund Beck, <hi rend="italic">Des heiligen Ephraem des
+                            Syrers Sermones de Fide</hi>, CSCO 212, Scriptores Syri 88 (Louvain: Secrétariat
+                        du CorpusSCO, 1961), 8-9). Cf. Lange, “Ephrem, His School, and the
+                        Yawnaya,” 167.
+                    </p></note>
+                    Ephrem’s intent in this paragraph seems to be to
+                    exhort his hearers to be content with what Scripture says as they
+                    contemplate the divine, rather than attempting to pry into matters
+                    that remain hidden to human knowledge. In light of the reference
+                    to Peter, the “former fountains” presumably refers to the divine
+                    revelation given to the apostles, which Ephrem’s opponents
+                    transgress by attempting to provide an explanation for the Son’s
+                    generation. The “four fountains” then, is likely a reference to the
+                    four gospels which preserve the apostolic witness to the revelation
+                    of Christ. Furthermore, Ephrem’s cosmological notion that the
+                    four gospels correspond to the four regions of the world was a
+                    point first made by Irenaeus and then picked up by a number of
+                    later Greek and Latin authors
+                    <note place="foot" xml:id="ftn16" n="16"><p xml:lang="en">
+                        16 See <hi rend="italic">haer.</hi> 3.11.8.
+                    </p></note>
+                    so in this respect his understanding
+                    of the fourfold gospel was in keeping with the wider Christian
+                    tradition.
+                </p>
+                <p xml:lang="en">
+                    The final passage is even more telling than the previous three.
+                    In his <hi rend="italic">Hymns on Virginity</hi> 51.2, Ephrem once again poetically
+                    interweaves imagery from creation with the themes of Scripture
+                    and revelation. This time he notes that, just as the sun shone forth
+                    in every place on the fourth day of creation, so also “our sun shone
+                    forth in four books” (<foreign xml:lang="syr">ܒܐܪܒܥܐ ܣܦܪ̈ܝܢ ܐܙܠܓ ܠܗ ܗܘ ܫܡܫܢ</foreign>).<hi rend="superscrip">17</hi>
+                    <note place="foot" xml:id="ftn17" n="17"><p xml:lang="en">
+                        17 Ephrem, <hi rend="italic">Hy. de virg.</hi> 51.2 (Edmund Beck, <hi rend="italic">Des heiligen Ephraem des
+                            Syrers Hymnen de Virginitate</hi>, CSCO 223, Scriptores Syri 94 (Louvain:
+                        Secrétariat du CorpusSCO, 1962), 162).
+                    </p></note>
+                    <pb n="16"/>
+                    There can be little doubt that the “four books” mentioned here are
+                    the four canonical gospels, from which the light of the gospel has
+                    gone forth into the earth. Moreover, the geographic spread of the
+                    gospel to the four regions mentioned above in the <hi rend="italic">Sermons on Faith</hi>
+                    is also evident here in the metaphor of the sun that shines upon all
+                    creation.
+                </p>
+                <p xml:lang="en">
+                    These references to the fourfold gospel are few in Ephrem’s
+                    corpus, but they do demonstrate that he was at least aware of the
+                    tetraevangelium, though they leave open the question of to what
+                    extent he actually used it. It is notable that in the unambiguous
+                    reference to the fourfold gospel in the <hi rend="italic">Sermons on Faith</hi> he is
+                    particularly concerned with emphasizing the authoritative tradition
+                    handed down from the apostles, which they had received from
+                    Christ. The same intent is possibly also implicit in the latter passage
+                    from the <hi rend="italic">Hymns on Virginity</hi>. In other words, he does not speak of
+                    the fourfold gospel as though it were the text regularly used by him
+                    and his community, but rather as the original deposit of revelation
+                    given by Christ to his followers. It is also striking that in these
+                    passages he demonstrates no attempt to state the relationship
+                    between the fourfold gospel and Tatian’s gospel upon which he
+                    authored a commentary, nor does he betray any sense that these
+                    gospel versions should be opposed one to another.
+                </p>
+                <p xml:lang="en">
+                    Moreover, we should also observe that Ephrem does not say
+                    there are “four gospels,” but rather “four books.” In fact, he
+                    displays a consistent pattern of speaking of the “Gospel” only in
+                    the singular. This tendency is well illustrated in his <hi rend="italic">Hymns against
+                        Heresies</hi> 22.1. He begins this acrostic poem by comparing Scripture
+                    to the alphabet. As the alphabet is complete and lacks no letter, so
+                    too also is “the truth written / In the holy Gospel / With the
+                    letters of the alphabet, / A perfect measure that admits / Neither
+                    lack nor surplus.
+                    <note place="foot" xml:id="ftn18" n="18"><p xml:lang="en">
+                        18 Ephrem, <hi rend="italic">Hy. contra haer.</hi> 22.1 (Edmund Beck, <hi rend="italic">Des heiligen Ephraem
+                            des Syrers Hymnen contra Haereses</hi>, CSCO 169, Scriptores Syri 76 (Louvain: L.
+                        Durbecq, 1957), 78). I have here used the unpublished translation of
+                        Adam C. McCollum which can be accessed at <ref target="http://archive.org/details/
+                            EphremSyrusHymnsAgainstHeresies22">http://archive.org/details/
+                            EphremSyrusHymnsAgainstHeresies22</ref> 
+                    </p></note>
+                    The mention of truth being written indicates
+                    that here Ephrem has in mind not just generic gospel
+                    proclamation, but specifically the gospel in written form. It is
+                    therefore notable to see him refer to the gospel in the singular (<foreign xml:lang="syr">ܒܐܘܢܓܠܝܘܢ</foreign>). Thus, even though he on occasion acknowledged
+                    <pb n="17"/>
+                    the existence of the gospel in its fourfold form, Ephrem’s idea of
+                    “gospel” retains a notion of unity that corresponds with the
+                    singular form in which he knew the gospel in Syriac.
+                </p>
+                <p xml:lang="en">
+                    In fact, Ephrem’s mention of “four books” corresponds to at
+                    least one other roughly contemporaneous Syriac source that is of
+                    great significance. The earliest copy of the separated gospels in
+                    Syriac, the Codex Sinaiticus Palimpsest written in the late fourth or
+                    early fifth century, calls itself the “Gospel of the Four Separated
+                    Books” (<foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ ܕܡܦܪ̈ܫܐ ܐܪ̈ܒܥܐ ܣܦܪ̈ܝܢ</foreign>)
+                    <note place="foot" xml:id="ftn19" n="19"><p xml:lang="en">
+                        19 Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>, II.31. My translation differs
+                        slightly from that of Burkitt.
+                    </p></note>
+                    This parallel does
+                    not necessarily imply a direct link between Ephrem and Sinaiticus,
+                    but does suggest that the unknown Syriac scribe responsible for the
+                    manuscript inhabited a Syriac milieu similar to that of Ephrem. The
+                    scribe, who was likely accustomed to the gospel in its singular
+                    form, sought to retain the notion of singularity for the word
+                    “gospel” and preferred to speak of the plurality in terms of
+                    multiple “books.”
+                </p>
+            </div>
+            <div xml:id="hv18n1.2.1" xml:lang="en">
+                <head>2. EPHREM’S KNOWLEDGE OF EVANGELIST TRADITIONS</head>
+                <head>2.1 Evangelist Traditions in the <hi rend="italic">Commentary on the Gospel</hi></head>
+                <p xml:lang="en">
+                    We have now seen that Ephrem knew that the gospel existed in a
+                    fourfold form, but we should press further and look for clues that
+                    he knew more about these “four books” beyond their mere
+                    existence. It is, of course, possible that some of the gospel citations
+                    in his corpus actually come from the separated gospel, but since
+                    much of Tatian’s gospel presumably overlapped with the
+                    tetraevangelium, it is often difficult to determine the source of any
+                    given citation. However, information about the individual
+                    evangelists is a more sure sign that Ephrem knew something of
+                    what made each of the gospels distinct from one another.
+                </p>
+                <p xml:lang="en">
+                    In searching for evangelist traditions in Ephrem’s corpus, it is
+                    best to begin with his gospel commentary before extending the net
+                    more widely
+                    <note place="foot" xml:id="ftn20" n="20"><p xml:lang="en">
+                        slightly from that of Burkitt. 20 The authenticity of the commentary has been questioned by some
+                        on the grounds that it is inconsistent with the authentic works of Ephrem
+                        and on the basis of the fact that it exists in two separate versions, an
+                        Armenian and a Syriac one, which diverge from one another in a number
+                        <pb n="18"/>
+                        of instances. Nevertheless, Carmel McCarthy, Ephrem’s English
+                        translator, asserts that it would be “unduly sceptical to remove Ephrem’s
+                        name totally from [the] commentary” (<hi rend="italic">Saint Ephrem’s Commentary on
+                            Tatian’s Diatessaron: An English Translation of Chester Beatty Syriac MS 709</hi>, Journal of Semitic Studies Supplement 2 (Oxford: Published by Oxford
+                        University Press on behalf of the University of Manchester, 1993), 34).
+                        For a recent survey of such matters, see Christian Lange, <hi rend="italic">The Portrayal of
+                            Christ in the Syriac Commentary on the Diatessaron</hi>, CSCO 616, Subsidia 118
+                        (Louvain: Peeters, 2005), 36-68; id., <hi rend="italic">Ephraem der Syrer. Kommentar zum
+                            Diatessaron I</hi>, Fontes Christiani 54/1 (Turnhout: Brepols, 2008), 56-81.
+                        Perhaps, as suggested in Sebastian P. Brock, “Notulae Syriacae: Some
+                        Miscellaneous Identifications,” <hi rend="italic">Le Muséon</hi> 108 (1995): 77, n.15, the
+                        commentary derives from notes taken down by Ephrem’s disciples.
+                        Similarly, Lange, <hi rend="italic">Kommentar zum Diatessaron</hi>, 81, considers it likely that a
+                        student compiled the work. In other words, while the commentary must
+                        be handled with an awareness of potential interpolations, we should not
+                        conclude that it tells us nothing about Ephrem’s gospel versions.
+                    </p></note>
+                    As I have noted in a previous publication, nowhere
+                    <pb n="18"/>
+                    in Ephrem’s gospel commentary is the title “Diatessaron” or the
+                    name “Tatian” mentioned. Instead, Ephrem gave his exposition
+                    the rather austere title <hi rend="italic">Commentary on the Gospel</hi> (hereafter <hi rend="italic">CGos</hi>), as
+                    can be seen from the sole surviving Syriac manuscript, Chester
+                    Beatty 709, as well as from later Syriac references to his work. This
+                    title suggests that he knew Tatian’s work as simply the “Gospel,”
+                    despite Eusebius’ report that Tatian called it the “Gospel through
+                    Four,” or “Diatessaron.
+                    <note place="foot" xml:id="ftn21" n="21"><p xml:lang="en">
+                        21 Crawford, “Diatessaron, A Misnomer?” See Eusebius, <hi rend="italic">h.e.</hi> 4.29.6.
+                    </p></note>
+                    In keeping with this generic title, the
+                    gospel cross-references cited in the commentary are introduced on
+                    six occasions as coming from an unspecified <foreign xml:lang="syr">ܐܘܢܓܠܣܛܐ</foreign> (“evangelist”)
+                    <note place="foot" xml:id="ftn22" n="22"><p xml:lang="en">
+                        22 <hi rend="italic">CGos</hi> I.7; II.1; III.9; VII.15; IX.14a. At <hi rend="italic">CGos</hi> I.26 the word also
+                        occurs, though in a section that I shall argue below is an interpolation into
+                        Ephrem’s text.
+                    </p></note>
+                    On two occasions the word is used to introduce a
+                    citation from the Gospel of John (<hi rend="italic">CGos</hi> I.7; IX.14a), three times for
+                    the Gospel of Matthew (<hi rend="italic">CGos</hi> II.1; III.9), and once for the Gospel
+                    of Luke (<hi rend="italic">CGos</hi> VII.15).
+                </p>
+                <p xml:lang="en">
+                    As can be seen from a passage early in commentary, these
+                    citations attributed to an <foreign xml:lang="syr">ܐܘܢܓܠܣܛܐ</foreign> are best taken as references
+                    to the gospel text upon which Ephrem is commenting, with the
+                    result that the unspecified “evangelist” is probably the individual
+                    responsible for this united gospel text, rather than one of the four
+                    canonical authors. The Syriac gospel commented upon by Ephrem
+                    <pb n="19"/>
+                    began with John 1:1-5 before transitioning to Luke 1:5 and the
+                    subsequent Lukan narrative about the birth of John the Baptist.
+                    Hence John 1:5 and Luke 1:5 stand on either side of a “seam” at
+                    which Tatian stitched together his source materials. As Ephrem
+                    concludes the section of his commentary on John 1:1-5 he writes,
+                </p>
+                <p rend="H Quote Block" xml:lang="en">
+                    [The evangelist] next proclaims the inauguration
+                    of the economy with the body, and begins by
+                    saying that he whom the darkness did not
+                    comprehend (Jn 1:5), nonetheless came into being
+                    in the days of Herod, king of Judea (Lk 1:5)
+                    <note place="foot" xml:id="ftn23" n="23"><p xml:lang="en">
+                        23 <hi rend="italic">CGos</hi> I.7 (Louis Leloir, <hi rend="italic">Saint Éphrem, Commentaire de l’Évangile
+                            concordant, texte syriaque (Manuscrit Chester Beatty 709)</hi>, Chester Beatty
+                        Monographs 8 (Dublin: Hodges Figgis &amp; Co., 1963), 6).
+                    </p></note>
+                </p>
+                <p rend="H Quote Block" xml:lang="syr">
+                    <foreign xml:lang="syr">
+                        ܐܩܦ ܕܢܪܙܝܘܗܝ ܠܫܪܝܐ ܕܡܕܒܪܢܘܬܗ ܕܒܝܕ
+                        ܦܓܪܐ. ܘܫܪܝ ܕܢܐܡܪ ܕܡܢ ܕܚܫܘܟܐ ܠܐ ܐܕܪܟܗ.
+                        ܗܘܐ ܕܝܢ ܒܝܘ̈ܡܝ ܗܪܘܕܣ ܡܠܟܐ ܕܝܗܘܕܐ
+                    </foreign>
+                </p>
+                <p xml:lang="en">
+                    Although Ephrem is surely aware that the subject matter of John
+                    1:1-5 differs markedly from that which is taken up in Luke 1:5 and
+                    following, he seems here to attribute the authorship of both
+                    passages to the same individual, likely the “evangelist” to whom he
+                    refers earlier in his exposition of John 1:5. The author who
+                    previously said the darkness did not comprehend the light “next”
+                    said that this one came to pass in the days of Herod. Therefore,
+                    this passage suggests that Ephrem’s “evangelist” mentioned several
+                    times in the commentary was the individual responsible for the text
+                    before him, rather than Matthew, Mark, Luke, or John individually.
+                </p>
+                <p xml:lang="en">
+                    There are, however, two passages in the commentary that seem
+                    to present a different picture. One of these is almost certainly a
+                    later interpolation though the second is possibly original. Ephrem’s
+                    commentary as it is available to us today exists in two recensions,
+                    one in Syriac and one in Armenian, and although the Armenian
+                    usually represents a close rendering of the Syriac original, there are
+                    passages which appear only in the Armenian and also some which
+                    show up only in the Syriac. As a result of this divergence in the two
+                    traditions, Christian Lange has argued that interpolations occurred
+                    <pb n="20"/>
+                    in both recensions
+                    <note place="foot" xml:id="ftn24" n="24"><p xml:lang="en">
+                        24 See Lange, <hi rend="italic">The Portrayal of Christ</hi>, 36-68. See also the useful table
+                        comparing the two recensions at Lange, <hi rend="italic">Kommentar zum Diatessaron</hi>, 56-59.
+                    </p></note>
+                    One such passage that occurs only in the
+                    Syriac version is the second half of <hi rend="italic">CGos</hi> I.26, a paragraph that
+                    evinces a greater knowledge of the individual evangelists than is
+                    evident from the other unspecified references to the “evangelist.”
+                    This paragraph occurs in the midst of Ephrem’s exegesis of the
+                    annunciation to Mary, and Mary’s subsequent visit with Elizabeth.
+                    Here Ephrem is primarily concerned with emphasizing Mary’s
+                    descent from the tribe of Judah, rather than from the tribe of Levi,
+                    despite the fact that Elizabeth, who was presumably a Levite, was
+                    called her kinswoman (Luke 1:36). For Ephrem it is essential that
+                    Mary be descended from David, and therefore from the tribe of
+                    Judah, in order for Christ to be the heir of the promises given to
+                    David. He makes this point by arguing on the basis of Luke 2:4,
+                    which in his version states that both Mary and Joseph were from
+                    the house of David (<hi rend="italic">CGos</hi> I.25)
+                    <note place="foot" xml:id="ftn25" n="25"><p xml:lang="en">
+                        25 On the peculiar version of Luke 2:4 cited by Ephrem, see Leloir, <hi rend="italic">Le témoignage</hi>, 84-88. Leloir posits that Ephrem’s version represents a later
+                        revision of Tatian’s work, since Theodoret reported that Christ’s descent
+                        from David was omitted by the supposed heretic. However, it is more
+                        likely that this was Theodoret’s own contrived explanation for Tatian’s
+                        omission of the genealogies, which he mentioned immediately prior to
+                        discussing the issue of Davidic descent. In other words, we need not posit
+                        a later revision of Tatian’s work to account for Ephrem’s text of Luke 2:4. 
+                    </p></note>
+                    He next cites a string of cross-
+                    references all of which mention Jesus’ Davidic lineage (Luke 1:32;
+                    Isa 11:1; Luke 1:69; 3 Cor 5; 2 Tim 2:8), and then suggests that the
+                    tribes of Levi and Judah had mixed through the marriage of Aaron
+                    and the sister of Nahshon (cf. Exod 6:23) (<hi rend="italic">CGos</hi> I.26)
+                    <note place="foot" xml:id="ftn26" n="26"><p xml:lang="en">
+                        26 <hi rend="italic">CGos</hi> revision of Tatian’s work to account for Ephrem’s text of Luke 2:4. 26 CGos I.26 (Leloir 1963, 24-26). In the midst of this paragraph, the
+                        Syriac recension contains three additional cross-references that do not
+                        appear in the Armenian version, and which are likely interpolations (Rom
+                        1:2-3; Heb 7:14; Acts 2:30). Cf. Lange, <hi rend="italic">The Portrayal of Christ</hi>, 37-42.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    Thus, Jesus’ Davidic lineage is established and Mary’s kinship
+                    to Elizabeth is explained. Having sufficiently made his point,
+                    Ephrem’s exposition seems to be complete. However, the Syriac
+                    text subsequently launches into a new discussion regarding the
+                    genealogies of Matthew and Luke, in which both authors are
+                    named, with Luke even being called “Luke the evangelist”
+                    (<foreign xml:lang="syr">ܠܘܩܐ ܐܘܢܓܠܣܛܐ</foreign>)
+                    <note place="foot" xml:id="ftn27" n="27"><p xml:lang="en">
+                        27 <hi rend="italic">CGos</hi> I.26 (Leloir 1963, 26).
+                    </p></note>
+                    The apparent intention of this paragraph is
+                    <pb n="21"/>
+                    to reconcile the two discordant genealogies in the canonical gospels
+                    (<hi rend="italic">CGos</hi> I.26), a concern that did not feature at all in the previous
+                    section. The solution proffered is that Matthew wrote regarding
+                    Mary’s descent and Luke about that of Joseph
+                    <note place="foot" xml:id="ftn28" n="28"><p xml:lang="en">
+                        28 Although this solution to the problem appears to be unique to the
+                        commentary, the discordant genealogies vexed other early Christian
+                        authors as well. See Eusebius, <hi rend="italic">h.e.</hi> 1.7.1-17, which records the explanation
+                        offered by Julius Africanus who highlighted the possibility of Levirate
+                        marriage. Eusebius reports the same material in his <hi rend="italic">qu. Steph.</hi> 4.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    If authentic, this passage would serve as indisputable evidence
+                    that Ephrem knew at least some traditions from the separated
+                    gospels, both because Ephrem explicitly names Matthew and Luke,
+                    and because it is known from Theodoret’s report that Tatian’s
+                    gospel omitted the genealogies
+                    <note place="foot" xml:id="ftn29" n="29"><p xml:lang="en">
+                        29 Theodoret, <hi rend="italic">haer.</hi> I.20 (PG 83.372). The text and translation are also
+                        given at Petersen, <hi rend="italic">Tatian’s Diatessaron</hi>, 41-42. The Arabic Diatessaron, a
+                        medieval translation from a Syriac exemplar, also provides supporting
+                        evidence here. There are two recensions of the Arabic. In one the
+                        genealogies are included as an appendix, and in the other the genealogies
+                        are situated within the infancy narrative. This divergence among the
+                        Arabic witnesses testifies to an earlier common ancestor from which the
+                        genealogies were absent, and to which later scribes have made additions in
+                        order to bring the text more into line with the accepted, fourfold form.
+                        See A.S. Marmardji, M <hi rend="italic">Diatessaron de Tatien</hi> (Beirut: Imprimerie catholique,
+                        1935), 36; Petersen, <hi rend="italic">Tatian’s Diatessaron</hi>, 136-137. Recently David Pastorelli
+                        has used this passage in <hi rend="italic">CGos</hi> I.26 to argue that the genealogies actually
+                        were originally in Tatian’s work (“The Genealogies of Jesus in Tatian’s 
+                        <hi rend="italic">Diatessaron</hi>: The Question of their Absence or Presence,” in <hi rend="italic">Infancy Gospels:
+                            Stories and Identities,</hi> 216-30). However, Pastorelli fails to recognize that this
+                        passage is an interpolation. Moreover, he places too much weight on the
+                        so-called “Western witnesses,” not taking into account the recent work of
+                        Ulrich Schmid, “In Search of Tatian’s Diatessaron in the West,” <hi rend="italic">Vigiliae
+                            Christianae</hi> 57 (2003): 176-99. 30 The addition material
+                    </p></note>
+                    However, there is reason to think
+                    otherwise. As noted above, this passage does not occur in the
+                    Armenian recension
+                    <note place="foot" xml:id="ftn30" n="30"><p xml:lang="en">
+                        30 The addition material begins with <foreign xml:lang="syr">ܘܛܘܒ</foreign> (<hi rend="italic">Et iterum</hi> in Leloir’s
+                        Latin translation). 
+                    </p></note>
+                    which immediately casts a shadow of
+                    suspicion upon its authenticity, a suspicion that is strengthened by
+                    the fact that the additional material is internally incoherent with the
+                    surrounding context. In the midst of the prior discussion in <hi rend="italic">CGos</hi>
+                    I.25, Ephrem states that Scripture reckons genealogies <foreign xml:lang="syr">ܫܪ̈ܒܬܐ</foreign>
+                    <pb n="22"/>
+                    through male descent, and “is silent” <foreign xml:lang="syr">ܫܬܩ</foreign> about the genealogies
+                    of women
+                    <note place="foot" xml:id="ftn31" n="31"><p xml:lang="en">
+                        31 <hi rend="italic">CGos</hi> I.25 (Leloir 1963, 24). Lange, <hi rend="italic">The Portrayal of Christ</hi>, 42, also
+                        notes the internal contradiction in <hi rend="italic">CGos</hi> I.25-26 and concludes that the
+                        extra material is an interpolation.
+                    </p></note>
+                    This same point, that Scripture accounts genealogies
+                    through men rather than women, is also made by Ephrem in his <hi rend="italic">Hymns on the Nativity</hi> 2.13, where he again notes that both Mary and
+                    Joseph were of Davidic descent
+                    <note place="foot" xml:id="ftn32" n="32"><p xml:lang="en">
+                        32 Ephrem, <hi rend="italic">Hy. de Nativitate</hi> 2.13.
+                    </p></note>
+                    It is difficult to see how to
+                    reconcile this clearly Ephremic idea with the additional material at
+                    <hi rend="italic">CGos</hi> I.26, which states explicitly that “Matthew wrote concerning 
+                    the geneaology of Mary (<foreign xml:lang="syr">ܡܬܝ ܕܝܢ ܫܪܒܬܗ̇ ܗܘ ܕܡܪܝܡ ܐܟܬܒ</foreign>), This
+                    discrepancy suggests that the additional material is best regarded as
+                    a later interpolation made sometime following the division of the
+                    manuscript tradition into the two recensions available today. As
+                    such, it tells us nothing about Ephrem’s own knowledge of gospel
+                    traditions. Given the age of the Syriac manuscript of Ephrem’s
+                    commentary (late fifth or early sixth century), this addition
+                    provides further evidence alongside Theodoret’s report that some
+                    in the fifth-century Syriac-speaking communitiy were troubled by
+                    the genealogies of Jesus, whether how to reconcile them or their
+                    omission from Tatian’s gospel.
+                </p>
+                <p xml:lang="en">
+                    There is one further passage in the commentary which appears
+                    to indicate knowledge of individual gospel traditions. The very end
+                    of the Syriac manuscript contains a brief paragraph as a conclusion
+                    or appendix, which bears the title “The Evangelists” (<foreign xml:lang="syr">ܐܘܢܓܠܝ̈ܣܛܐ</foreign>),
+                    and which offers an explanation as to why there are four gospels.
+                    The author of this short section acknowledges that “the words of the
+                    apostles are not in agreement” (<foreign xml:lang="syr">ܕܠܐ ܕܝܢ ܫܠܡܢ ܡ̈ܠܝܗܘܢ ܕܫܠܝ̈ܚܐ</foreign>),
+                    but explains this discrepancy by noting that they did not write “the
+                    Gospel” (<foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ</foreign>) at the same time, since, unlike the giving of
+                    the tablets to Moses, they each wrote by the Spirit under various
+                    circumstances (cf. Jer. 31:31-33). In what follows the author of this
+                    paragraph gives a brief recounting of the origins of the gospels:
+                    Matthew is said to have written in Hebrew which others later
+                    translated into Greek; Mark followed Peter and wrote from Rome
+                    after the faithful persuaded him to take up the task; Luke began his
+                    account with the “baptism of John;” and finally John, finding that
+                    Matthew and Luke had spoken of the “genealogies [showing] that
+                    <pb n="23"/>
+                    he was the Son of Man” (<foreign xml:lang="syr">ܫܪ̈ܒܬܗ ܕܡܪ ܐܢܫܐ ܗܘ</foreign>), ,(,+)*decided to
+                    highlight his divinity by beginning with “In the beginning was the
+                    Word.
+                    <note place="foot" xml:id="ftn33" n="33"><p xml:lang="en">
+                        33 <hi rend="italic">CGos</hi>, Evangelistae (Leloir 1963, 250). Leloir did not number this
+                        as a section of the commentary, but set it apart as a separate paragraph
+                        titled “Evangelistae”, the same title it bears in the Syriac manuscript.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    If authentic, then this passage provides undeniable evidence
+                    that evangelist traditions from the Greek church had reached into
+                    Ephrem’s Syriac world. The comment about Matthew goes back to
+                    a report of Papias preserved by Eusebius
+                    <note place="foot" xml:id="ftn34" n="34"><p xml:lang="en">
+                        34 Eusebius, <hi rend="italic">h.e.</hi> 3.39.16. 
+                    </p></note>
+                    The description of
+                    Mark’s writing activities also draws on statements from Papias and
+                    Clement of Alexandria, though, once again, these were mediated
+                    via Eusebius
+                    <note place="foot" xml:id="ftn35" n="35"><p xml:lang="en">
+                        35 Papias’ account of Mark’s origins is recorded in Eusebius, <hi rend="italic">h.e.</hi>
+                        3.39.15. Compare the two versions of Clement’s report in <hi rend="italic">h.e.</hi> 2.15.1-2 and
+                        6.14.6-7. On the distinction between the two passages, see Francis
+                        Watson, <hi rend="italic">Gospel Writing: A Canonical Perspective</hi> (Grand Rapids: Eerdmans,
+                        2013), 442-444.
+                    </p></note>
+                    Furthermore, the fact that the author of this
+                    paragraph alludes to the Matthean and Lukan genealogies in order
+                    to introduce the fourth gospel likewise draws on earlier tradition.
+                    In terms of its structure, this passage is similar once again to
+                    Eusebius’ summary of Clement’s argument that the gospels with
+                    the human genealogies were written first, and that John, seeing the
+                    “bodily facts” recorded in them, decided to compose a “spiritual
+                    gospel.
+                    <note place="foot" xml:id="ftn36" n="36"><p xml:lang="en">
+                        36 Eusebius, <hi rend="italic">h.e.</hi> 6.14.5-7. In between his description of the gospels
+                        with genealogies (i.e., Matthew and Luke) and his description of John,
+                        Eusebius has inserted Clement’s report about Mark, thereby obscuring the
+                        original contrast between Matthew and Luke on the one hand and John
+                        on the other. On the interpolation and the interpretation of this passage,
+                        see Watson, <hi rend="italic">Gospel Writing</hi>, 432-433.
+                    </p></note>
+                    However, despite this clear structural similarity, the way
+                    this paragraph describes the two genealogies is idiosyncratic,
+                    asserting that “one” of these evangelists spoke about Christ’s
+                    “incarnation and about his kingdom from David” while another
+                    evangelist highlighted his descent “from Abraham.” Matthew’s
+                    genealogy does indeed begin with Abraham, so this is
+                    straightforward. However, there is no obvious reason why
+                    someone would refer to the Lukan account as being “about his
+                    kingdom from David,” a description that is, as far as I am aware,
+                    without parallel. Both the Matthean and the Lukan genealogies 
+                    <pb n="24"/>
+                    include David, so the description offered is unsuccessful if it is an
+                    attempt to identify what is distinctive about Luke’s genealogy.
+                </p>
+                <p xml:lang="en">
+                    This final paragraph occurs in both the Syriac and in the
+                    Armenian recensions of the commentary, so we might initially be
+                    inclined to regard it as authentic. However, Lange has highlighted
+                    the fact that some interpolations occurred prior to the division of
+                    the Syriac and Armenian versions, so this observation alone is
+                    insufficient to settle the matter. The paragraph has no connection
+                    with what precedes it, nor with any other portion of the
+                    commentary, leading Leloir and McCarthy to question its
+                    authenticity
+                    <note place="foot" xml:id="ftn37" n="37"><p xml:lang="en">
+                        37 Leloir 1963, 251, n.1; Leloir, <hi rend="italic">Éphrem de Nisibe: Commentaire de
+                            l’Évangile concordant ou Diatessaron</hi>, Sources Chrétiennes 121 (Paris: Éditions
+                        du Cerf, 1966), 409, n.1; McCarthy, <hi rend="italic">Commentary on Tatian’s Diatessaron</hi>, 344,
+                        n.1.
+                    </p></note>
+                    Furthermore, the awareness of specified
+                    “evangelists” in the plural contrasts with the singular and undefined
+                    usage elsewhere in the commentary. Moreover, the Armenian adds
+                    a further paragraph describing the journeys and missions of the
+                    apostles, which demonstrates that the end of a commentary was a
+                    prime location for later scribes to supplement the preceding
+                    discussion with traditional material
+                    <note place="foot" xml:id="ftn38" n="38"><p xml:lang="en">
+                        38 Louis Leloir, <hi rend="italic">Saint Éphrem. Commentaire de l’Évangile concordant, version
+                            arménienne</hi>, CSCO 145, Scriptores Armeniaci 2 (Louvain: L. Durbecq,
+                        1954), 247-248. In the Armenian, this section is titled “Evangelists and
+                        Apostles,” in contrast to the Syriac which has simply “Evangelists.”
+                    </p></note>
+                    For these reasons it seems
+                    most likely that this paragraph is not authentic, in which case it
+                    should not be used as evidence of Ephrem’s knowledge of
+                    evangelist traditions.
+                </p>
+                <p xml:lang="en">
+                    Even if not authentically Ephremic, this passage does shed
+                    valuable light on Syriac Christianity. Whenever this interpolation
+                    occurred, it must have been prior to the copying of Chester Beatty
+                    709, a fifth- or sixth-century manuscript. It was during this same
+                    period that Eusebius’ <hi rend="italic">Ecclesiastical History</hi> was making itself known
+                    in the Syriac world, which agrees with the fact that the paragraph
+                    reveals the influence of Eusebius’ reports about gospel origins.
+                    Eusebius’ works were translated into Syriac at an early stage,
+                    possibly even within his own lifetime. The oldest Syriac
+                    manuscript, written in Edessa in 411 (BM Add. 12,150), contains
+                    several of his works, and the oldest extant witness to his
+                    <hi rend="italic">Ecclesiastical History</hi> in any language is a Syriac manuscript dated to
+                    <pb n="25"/>
+                    462
+                    <note place="foot" xml:id="ftn39" n="39"><p xml:lang="en">
+                        39 William Wright and Norman McLean, <hi rend="italic">The Ecclesiastical History of
+                            Eusebius in Syriac</hi> (Cambridge: University Press, 1898), ix. Wright and
+                        McLean suggest that the text had already gone through several copies by
+                        this point.
+                    </p></note>
+                    Eusebius is known to have had some connection with
+                    Edessene sources, given his knowledge of the Agbar legend
+                    <note place="foot" xml:id="ftn40" n="40"><p xml:lang="en">
+                        40 Eusebius, <hi rend="italic">h.e.</hi> 1.3, on which see Sebastian Brock, “Eusebius and
+                        Syriac Christianity,” in <hi rend="italic">Eusebius, Christianity, and Judaism,</hi> ed. Harold W.
+                        Attridge and Gohei Hata, Studia Post-Biblica 42 (Leiden: Brill, 1992).
+                    </p></note>
+                    and
+                    certainly by the early fifth century at the latest this cultural
+                    transmission was going in the reverse direction as well. Whoever
+                    authored this paragraph was apparently drawing on the <hi rend="italic">Ecclesiastical
+                        History</hi> to supplement Ephrem’s commentary, which probably
+                    came to appear out-of-date rather quickly once the fourfold gospel
+                    was established as the norm.
+                </p>
+            </div>
+            <div xml:id="hv18n1.2.2" xml:lang="en">
+                <head>2.2 Evangelist Traditions in Ephrem’s Broader Corpus</head>
+                <p xml:lang="en">
+                    At this point we should consider whether this pattern we have
+                    observed in Ephrem’s <hi rend="italic">Commentary on the Gospel</hi> is consistent with
+                    what we find throughout his corpus. To begin with, it is important
+                    to observe that the transliterated term <foreign xml:lang="syr">ܐܘܢܓܠܣܛܐ</foreign>”) evangelist”),
+                    noted above as occurring on a handful of occasions in the
+                    <hi rend="italic">Commentary on the Gospel</hi>, is exceedingly rare in Ephrem’s writings.
+                    Edmund Beck, who during the mid-twentieth-century provided
+                    new editions for a number of Ephrem’s works, noted that the only
+                    other occurrence of the word in Ephrem’s genuine corpus comes
+                    in his <hi rend="italic">Commentary on Genesis</hi>, in which the Syrian introduces a
+                    citation of John 1:3 with the formula, “the evangelist has said.”<hi rend="superscript"></hi>
+                    <note place="foot" xml:id="ftn41" n="41"><p xml:lang="en">
+                        41 Edmund Beck, “Der syrische Diatessaronkommentar zu Jo. 1, 1-
+                        5,” <hi rend="italic">Oriens Christianus</hi> 67 (1983): 20, n.28. For the reference to, “the
+                        evangelist,” see <hi rend="italic">Comm. Gen.</hi> I.28 (R.-M. Tonneau, <hi rend="italic">Sancti Ephraem Syri in
+                            Genesim et in Exodum Commentarii</hi>, CSCO 152, Scriptores Syri 71 (Louvain:
+                        L. Durbecq, 1955), 23).
+                    </p></note>
+                    The fact that the word shows up at least once elsewhere in
+                    Ephrem’s corpus demonstrates that its occurrence in the
+                    <hi rend="italic">Commentary on the Gospel</hi> cannot be used as an argument against
+                    Ephremic authorship of the gospel exposition, though certainly it
+                    presents an unusually high concentration of the term, perhaps due
+                    to the fact that it is, after all, a commentary on a gospel text. Still,
+                    <pb n="26"/>
+                    the paucity of the term in Ephrem’s corpus is striking and speaks
+                    against it having been a common word in his Syriac milieu.
+                </p>
+                <p xml:lang="en">
+                    Furthermore, Ephrem’s gospel citations typically lack any
+                    attribution to a specified evangelist. In his study of Ephrem’s gospel
+                    citations Burkitt pointed out that he knew of only two passages from
+                    his corpus in which the Syrian refers to an individual evangelist
+                    <note place="foot" xml:id="ftn42" n="42"><p xml:lang="en">
+                        42 Burkitt, <hi rend="italic">S. Ephraim’s Quotations</hi>, 59-61. Burkitt cites and translates
+                        both Syriac passages. 
+                    </p></note>
+                    The first passage comes from Ephrem’s <hi rend="italic">Hymns on Faith</hi>. Here he
+                    states that “John is like Moses” and “the one ‘In the beginning’ is
+                    like the other ‘In the beginning.
+                    <note place="foot" xml:id="ftn43" n="43"><p xml:lang="en">
+                        43 <hi rend="italic">Hy. de fide</hi> 35.2 (Beck, <hi rend="italic">Hymnen de Fide</hi>, 114).
+                    </p></note>
+                    The second passage noted by
+                    Burkitt is similar, and occurs in a memra on the Johannine
+                    prologue preserved in fragmentary form by Philoxenus of Mabbug.
+                    Here Ephrem states that “John” “began with the generation of the
+                    Son (<foreign xml:lang="syr">ܐܫܪܒܗ ܕܒܪܐ</foreign>) from the point where [it says] ‘Through him all
+                    things were created’.” The following fragment from this homily
+                    likewise notes that when “John” said the Word was “in the
+                    beginning” he was calling in Moses as a witness
+                    <note place="foot" xml:id="ftn44" n="44"><p xml:lang="en">
+                        44 Burkitt cites the fragments of this homily from the older edition of
+                        Ephrem’s works by Lamy, but see the new edition of Philoxenus’ treatise,
+                        along with the Ephrem fragments, in F. Graffin, <hi rend="italic">Patrologia Orientalis</hi> 41
+                        (Turnhout: Brepols, 1982), 62-63.
+                    </p></note>   
+                </p>
+                <p xml:lang="en">
+                    In addition to the naming of the evangelist John, we should
+                    also note that the version of John 1:3 cited here differs from that
+                    given elsewhere in Ephrem’s corpus. In the fragmentary memra he
+                    cites the passage in the form <foreign xml:lang="syr">ܒܐܝܕܗ ܐܬܒܪܝ ܟܠ ܡܕܡ</foreign>, whereas in
+                    his <hi rend="italic">Commentary on the Gospel</hi>, the passage is cited as <foreign xml:lang="syr">ܗܘܐ ܟܠ ܡܕܡ ܒܗ</foreign>.<hi rend="superscript">45></hi>
+                    <note place="foot" xml:id="ftn45" n="45"><p xml:lang="en">
+                        45 See <hi rend="italic">CGos</hi> I.6 (Leloir 1963, 4).
+                    </p></note>
+                    Since these fragments are preserved in a work by
+                    Philoxenus, we might conjecture that Philoxenus has emended
+                    Ephrem’s original citation to correspond to his own gospel version.
+                    However, it is fairly certain that Philoxenus’ version read <foreign xml:lang="syr">ܒܐܝܕܗ ܗܘܐ ܟܠܡܕܡ</foreign>
+                    <note place="foot" xml:id="ftn46" n="46"><p xml:lang="en">
+                        46 J. Edward Walters, “The Philoxenian Gospels as Reconstructed
+                        from the Writings of Philoxenus of Mabbug,” <hi rend="italic">Hugoye: Journal of Syriac
+                            Studies</hi> 13 (2010): 217.
+                    </p></note>
+                    so Philoxenus was probably not responsible for the
+                    alteration. In fact, none of the Syriac versions available to us today
+                    <pb n="27"/>
+                    have <foreign xml:lang="syr">ܐܬܒܪܝ</foreign> for <foreign xml:lang="grc">ἐγένετο</foreign> of John 1:3
+                    <note place="foot" xml:id="ftn47" n="47"><p xml:lang="en">
+                        47 See George Anton Kiraz, <hi rend="italic">Comparative Edition of the Syriac Gospels,
+                            Volume 4: John</hi> (Brill: Leiden, 1996), 3.
+                    </p></note>
+                    leading Burkitt to
+                    remark, “the texts used by Ephraim in the beginning of the Fourth
+                    Gospel are thus diverse and their source is not at all clear.
+                    <note place="foot" xml:id="ftn48" n="48"><p xml:lang="en">
+                        48 Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>, II.139-140. For further
+                        discussion of this issue, see Burkitt, <hi rend="italic">S Ephraim’s Quotations</hi>, 59-62. For a
+                        more recent listing of all of Ephrem’s citations of John 1:3, see Louis
+                        Leloir, <hi rend="italic">L’Évangile d’Éphrem d’après les oeuvres éditées: Recueil des textes</hi>, CSCO
+                        180, Subsidia 12 (Louvain: Secrétariat du CorpusSCO, 1958), 98-99.
+                    </p></note>
+                    We
+                    should also consider the possibility that the version of John 1:3
+                    cited by Ephrem here is something less than an exact quotation. He
+                    introduces the passage by saying that John began “from where 
+                    (<foreign xml:lang="syr">ܡܢ ܟܪ</foreign>) all things were created through him,” and notably does not
+                    use the citation marker <foreign xml:lang="syr">ܠܡ</foreign>. Therefore, the verb <foreign xml:lang="syr">ܐܬܒܪ</foreign> may be
+                    Ephrem’s own gloss on the more ambiguous <foreign xml:lang="syr">ܗܘܐ</foreign> of John 1:3, in
+                    which case we need not posit a distinct, now lost, Syriac version
+                    lying behind the apparent citation
+                    <note place="foot" xml:id="ftn49" n="49"><p xml:lang="en">
+                        49 Sebastian Brock, “The Use of the Syriac Fathers for New
+                        Testament Textual Criticism,” in <hi rend="italic">The Text of the New Testament in
+                            Contemporary Research</hi>, 420, notes “the difficulty (especially in earlier
+                        writers) of identifying what is a quotation and what is a gloss or
+                        paraphrase. Even in cases where the author may seem to introduce a
+                        quotation as direct, by using <hi rend="italic">lam</hi>, ‘it says,’ he may nevertheless insert his
+                        own gloss on a particular word within the quotation.”
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    In addition to these two references to John the evangelist,
+                    there are at least two other relevant passages that Burkitt failed to
+                    mention. The first is a brief allusion in Ephrem’s <hi rend="italic">Hymns on Virginity</hi>,
+                    in which the poet does not explicitly name John the evangelist, but
+                    does identify the author of the Johannine prologue with the
+                    beloved disciple who reclined upon Jesus in the upper room (cf.
+                    John 13:23-25), implying an awareness of the fourth gospel as a
+                    distinct source
+                    <note place="foot" xml:id="ftn50" n="50"><p xml:lang="en">
+                        50 <hi rend="italic">Hy. de virg.</hi> 15.4-5 (Beck, <hi rend="italic">Hymnen de Virginitate</hi>, 52-53). <hi rend="italic">Hy. de virg.</hi> 25
+                        is also devoted to a meditation on the beloved disciple, though again
+                        Ephrem does not name him. However, at <hi rend="italic">CGos</hi> XX.27 Ephrem makes
+                        much the same point as in <hi rend="italic">Hy. de virg.</hi> 25, comparing Mary and John, and
+                        in this instance he does name the disciple. 
+                    </p></note>
+                    The second passage also refers to individual
+                    evangelists, though this time it is the synoptic gospels that are in
+                    view. At the end of the second of his <hi rend="italic">Hymns on the Nativity</hi>, Ephrem
+                    notes that “Luke and Matthew traced his [i.e., Christ’s] lineage: Son
+                    <pb n="28"/>
+                    of Abraham they reckoned him—and of David and of Joseph, so
+                    that by the learned mouths of two witnesses ...
+                    <note place="foot" xml:id="ftn51" n="51"><p xml:lang="en">
+                        51 Ephrem, <hi rend="italic">Hy. de Nativitate</hi> 2.22 (Edmund Beck, <hi rend="italic">Des heiligen Ephraem
+                            des Syrers Hymnen de Nativitate (Epiphania)</hi>, CSCO 186, Scriptores Syri 82
+                        (Louvain: Secrétariat du CorpusSCO, 1959), 19). English translation taken
+                        from <hi rend="italic">Ephrem the Syrian: Hymns</hi>, trans. Kathleen E. McVey (Mahwah, NJ:
+                        Paulist Press, 1989), 81. 
+                    </p></note> 
+                    This passage not
+                    only mentions the evangelists and their genealogies, but also
+                    provides a theological rationale for the existence of genealogies in
+                    two sources. In addition, in hymn nine of this series, Ephrem
+                    singles out Tamar, Rahab, and Ruth for special attention,
+                    undoubtedly because they are the only three women to appear in
+                    the Matthean genealogy
+                    <note place="foot" xml:id="ftn52" n="52"><p xml:lang="en">
+                        52 Ephrem, <hi rend="italic">Hy. de Nativitate</hi> 9.7-16. Tamar and Ruth are also
+                        mentioned in <hi rend="italic">Hy. de Nativitate</hi> 1.12-13. 
+                    </p></note>
+                    In the light of these passages, it is
+                    difficult to avoid the conclusion that Ephrem knew not only of the
+                    existence of the genealogies, but some specific details about their
+                    content. We should observe, however, that the genealogies are not
+                    viewed here as a potential problem needing to be resolved, as was
+                    the case in the already mentioned interpolation in the <hi rend="italic">Commentary on
+                        the Gospel.</hi> Rather they harmoniously function together to attest to
+                    Christ’s origins.
+                </p>
+                <p xml:lang="en">
+                    There is yet another passage in Ephrem’s corpus also
+                    overlooked by Burkitt, also pertaining to the fourth gospel, but it is
+                    of questionable authenticity. In 1917 J. Schäfers, in his 
+                    <hi rend="italic">Evangelienzitate in Ephraems des Syrers Kommentar zu den paulinischen
+                        Schriften</hi>, first drew attention to a passage from an Ephesians
+                    Commentary attributed to Ephrem that survives only in
+                    Armenian
+                    <note place="foot" xml:id="ftn53" n="53"><p xml:lang="en">
+                        53 J. Schäfers, <hi rend="italic">Evangelienzitate in Ephraems des Syrers Kommentar zu den
+                            paulinischen Schriften</hi> (Freiburg im Breisgau: Herder, 1917), 27-31.
+                    </p></note>
+                    In the preface to the commentary, the author notes
+                    that “the Ephesians were taught by John the evangelist,” who,
+                    when he “saw that his three companions had composed their
+                    gospels (<foreign xml:lang="la"><hi rend="italic">evangeliorum</hi></foreign>) from the body (<foreign xml:lang="la"><hi rend="italic">a corpore</hi></foreign>)," began his own
+                    gospel with Christ’s descent not “from Mary, or from David, and
+                    from Abraham, and from Adam,” but rather “from the beginning
+                    was the Word and the Word was with God and the Word was
+                    God.
+                    <note place="foot" xml:id="ftn54" n="54"><p xml:lang="en">
+                        54 Leloir, <hi rend="italic">Le témoignage</hi>, 71-72. I am translating here from Leloir’s Latin
+                        translation of the Armenian text. A Latin translation of the Armenian text
+                        <pb n="29"/>
+                        can also be found at <hi rend="italic">S. Ephræm Syri commentarii in epistolas D. Pauli</hi> (Venice:
+                        Typographia Sancti Lazari, 1893), 140. There is no translation into any
+                        modern language, as far as I am aware. The full extract reads: <foreign xml:lang="la">“Ephesii
+                            edocti erant a Iohanne evangelista. Hic, quia viderat tres socios suos
+                            initium evangeliorum suorum a corpore fecisse, ne perpendentes
+                            existimarent homines, hominem (tantum) fuisse illum qui apparuit ipsi, et
+                            non Filium Dei, declinavit a sociis suis, ut faveret iter novum, quod non
+                            fecerant socii. Initium itaque fecit ille dicendo in capite evangelii sui, non
+                            quod natus esset ille e Maria, aut e Davide, et ex Abrahamo, et ex Adamo,
+                            sed: A principio erat Verbum, et ipsum Verbum erat apud Deum, et Deus
+                            erat ipsum Verbum. Apostolos igitur, quoniam sciebat Ephesios in
+                            divinitate Domini nostri perfectos esse iuxta evangelium Iohannis
+                            praedicatoris eorum, reliquit istud, quia perfecti erant in eo, et incepit ille
+                            scribere eis de dispensatione corporis eius.”</foreign>
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    This passage is largely in keeping with what we saw above in
+                    the final paragraph of the <hi rend="italic">Commentary on the Gospel</hi>. It has exactly the
+                    same structure, introducing the fourth gospel by way of a contrast
+                    with the beginning of the synoptics, and, moreover, summarizing
+                    the message of the fourth gospel by way of quoting its opening
+                    lines. Furthermore, as in the previous passage, so also here the
+                    description of the synoptics is somewhat unclear. Although Mark is
+                    presumably in view as well, since the passage speaks of “three”
+                    gospels prior to John’s writing, the phrase “from Mary, or from
+                    David, and from Abraham, and from Adam” hardly serves as a
+                    description for the Markan gospel, since it includes no infancy
+                    narrative. Furthermore, it is not even clear what in this passage
+                    serves to refer to Matthew and Luke. Neither include Mary in their
+                    genealogies of Jesus, though both include David and Abraham, and
+                    only Luke includes Adam (Matt 1:1-18; Luke 3:23-38). Thus,
+                    although we can say with certainty that this passage draws upon the
+                    same Clementine-Eusebian tradition that contrasted the
+                    genealogies of Matthew and Luke with the opening of John, it
+                    appears that again the information has somehow become confused
+                    in transmission, just as in the final paragraph of the <hi rend="italic">Commentary on the Gospel</hi>
+                    <note place="foot" xml:id="ftn55" n="55"><p xml:lang="en">
+                        55 On the basis of this passage, Leloir, following the earlier work of
+                        Schäfers, noted <foreign xml:lang="fr">“l’imprécision des renseignements que donne Éphr sur
+                            l’évangile tétramorphe”</foreign> (<hi rend="italic">Le Témoignage</hi>, 71-72).
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    If the final paragraph of the <hi rend="italic">Commentary on the Gospel</hi> is an
+                    interpolation, as I have argued, then this implies we should be
+                    skeptical of this section as well in light of the parallels between the
+                    <pb n="30"/>
+                    two. The Pauline commentaries attributed to Ephrem survive only
+                    in Armenian and have been very little studied, while it is known
+                    that much spurious material survived under Ephrem’s name,
+                    especially in Armenian
+                    <note place="foot" xml:id="ftn56" n="56"><p xml:lang="en">
+                        56 For example, the Armenian <hi rend="italic">Commentary on Genesis</hi> attributed to
+                        Ephrem apparently bears little relation to the Syriac <hi rend="italic">Commentary on Genesis</hi>
+                        that also names him as its author, and for this reason the Armenian is
+                        generally regarded as spurious. See Edward G. Matthews, <hi rend="italic">The Armenian
+                            Commentary on Genesis Attributed to Ephrem the Syrian</hi>, CSCO 573, Scriptores
+                        Armeniaci 24 (Louvain: Peeters, 1998); Edward G. Mathews, <hi rend="italic">The
+                            Armenian Commentaries on Exodus-Deuteronomy Attributed to Ephrem the Syrian</hi>,
+                        CSCO 587, Scriptores Armeniaci 25 (Louvain: Peeters, 2001).
+                    </p></note>
+                    Finally, Lange has argued that in at least
+                    one instance the commentary provides an interpretation that differs
+                    from the “authentic Ephrem,” and he therefore advocates keeping
+                    open the question of its authenticity pending further study
+                    <note place="foot" xml:id="ftn57" n="57"><p xml:lang="en">
+                       57 See Christian Lange, “Zum Taufverständnis im syrischen
+                        Diatessaronkommentar,” in <hi rend="italic">Syriaca. Zur Geschichte, Theologie, Liturgie und
+                            Gegenwartslage der syrischen Kirchen. 2. Deutsches Syrologen-Symposium (Juli 2000,
+                            Wittenberg)</hi>, ed. M. Tamcke, Studien zur orientalischen Kirchengeschichte
+                        17 (Münster: Lit, 2002), who also briefly summarizes his argument in
+                        Lange, “Ephrem, His School, and the Yawnaya,” 165.
+                    </p></note>
+                    I
+                    suggest, then, that we not view this passage as evidence of
+                    Ephrem’s knowledge of evangelist traditions.
+                </p>
+                <p xml:lang="en">
+                    Excluding the final paragraph of the <hi rend="italic">Commentary on the Gospel</hi>
+                    and the short passage from the Pauline commentaries, there is no
+                    clear evidence that Ephrem knew the otherwise common evangelist
+                    traditions explaining the origins of the four gospels. Moreover, the
+                    only specific passages we can be sure that he knew from the
+                    separated gospels are the Matthean and Lukan genealogies and the
+                    Johannine prologue. In one sense this is not too surprising since
+                    these texts had long been the twin pillars for understanding the
+                    nature of Christ, going back to Irenaeus who first stated that
+                    Matthew told of Jesus’ “generation as a man” and John his
+                    “generation from the Father.
+                    <note place="foot" xml:id="ftn58" n="58"><p xml:lang="en">
+                        58 Irenaeus, <hi rend="italic">a.h.</hi> 3.11.8.
+                    </p></note>
+                    As noted above, Clement passed
+                    on a version of this tradition as well, contrasting the Synoptic
+                    genealogies with the opening of the fourth gospel. The fact that
+                    Tatian’s edition excluded the genealogies would make have made
+                    these passages from the fourfold gospel stand out prominently to
+                    Ephrem. The genealogies might, then, have been viewed as a sort
+                    of supplement to his usual gospel text. Moreover, the Johannine
+                    <pb n="31"/>
+                    prologue is perhaps the most unique passage in all four canonical
+                    gospels, and was notably important in the ‘Arian’ controversy of
+                    the fourth century, in which Ephrem took part
+                    <note place="foot" xml:id="ftn59" n="59"><p xml:lang="en">
+                        59 See Peter Bruns, “Arius Hellenizans? Ephraem der Syrer und die
+                        neoarianischen Kontroversen seiner Zeit. Ein Beitrag zur Rezeption des
+                        Nizänums im syrischen Sprachraum,” <hi rend="italic">Zeitschrift für Kirchengeschichte</hi> 101
+                        (1990): 21-57; Sidney H. Griffith, “Setting Right the Church of Syria: Saint
+                        Ephraem’s Hymns Against Heresies,” in <hi rend="italic">The Limits of Ancient Christianity:
+                            Essays on Late Antique Thought and Culture in Honor of R. A. Markus</hi>, ed.
+                        William E. Klingshirn and Mark Vessey, (Ann Arbor: The University of
+                        Michigan Press, 1999); Lewis Ayres, <hi rend="italic">Nicaea and Its Legacy: An Approach to
+                            Fourth-Century Trinitarian Theology</hi> (Oxford: Oxford University Press, 2004),
+                        229-235. Ephrem mentions “the Arian” at <hi rend="italic">CGos</hi> XII.9.
+                    </p></note>
+                    so it is to be
+                    expected that this passage would particularly draw his attention. In
+                    other words, even if Ephrem did not necessarily know the
+                    Eusebian evangelist traditions, he seemingly shared with his Greek
+                    and Latin contemporaries the conviction that the Synoptic
+                    genealogies and the Johannine opening were unique and important
+                    passages
+                    <note place="foot" xml:id="ftn60" n="60"><p xml:lang="en">
+                        60 For an exploration of how Ephrem interpreted the opening of
+                        Tatian’s gospel, see my “Reading the Diatessaron with Ephrem: The
+                        Word and the Light, the Voice and the Star,” <hi rend="italic">Vigiliae Christianae</hi>,
+                        forthcoming.
+                    </p></note>
+                </p>
+            </div>
+            <div xml:id="hv18n1crawford.3">
+                <head>3. EPHREM AND “THE GREEK”</head>
+                <p xml:lang="en">
+                    In light of the material considered thus far, it is clear that Ephrem
+                    knew of the existence of the four gospels, knew that the opening of
+                    the fourth gospel was written by the evangelist John, and knew the
+                    Matthean and Lukan genealogies in some detail. These
+                    observations leave little doubt that he worked with some version of
+                    the separated gospels alongside his unified gospel text. We should
+                    now consider whether there are any explicit references in his
+                    corpus to distinct gospel versions aside from the sort of
+                    unspecified references to the “gospel” that remain difficult to
+                    identify. The only such passages are a half-dozen instances in
+                    which he provides variant readings that he says derive from “the
+                    Greek Gospel” or simply “the Greek.” One of these references
+                    occurs in his <hi rend="italic">Refutationes ad Hypatium</hi> and a further five show up in
+                    the <hi rend="italic">Commentary on the Gospel</hi>, both texts that are usually dated during
+                    the final decade of Ephrem’s life that he spent in Edessa.
+                </p>
+                <p xml:lang="en">
+                <pb n="32"/>
+                    Since it has been traditionally assumed that Ephrem did not
+                    know Greek, Burkitt and Arthur Vööbus suggested that Ephrem
+                    refers in these passages to a Syriac translation of the fourfold
+                    gospel which he calls “the Greek” to distinguish it from Tatian’s
+                    version, which was more well known among Syriac speakers
+                    <note place="foot" xml:id="ftn61" n="61"><p xml:lang="en">
+                        61 Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>, II.190; Arthur Vööbus, <hi rend="italic">Studies in
+                            the History of the Gospel Text in Syriac</hi>, CSCO 128, Subsidia 3 (Louvain: L.
+                        Durbecq, 1951), 38-39.
+                    </p></note>
+                    In
+                    other words, Burkitt and Vööbus argued that by calling this version
+                    the “Greek” Ephrem was referring not to its language of
+                    composition, but to the form in which this gospel existed. Leloir
+                    was more cautious, preferring instead to suppose that Ephrem had
+                    access to a number of individual variant readings from the Greek
+                    separated gospels
+                    <note place="foot" xml:id="ftn62" n="62"><p xml:lang="en">
+                        62 Leloir, <hi rend="italic">Le Témoignage</hi>, 72-73. Later Leloir hypothesized that some
+                        Greek-speaking Christians in Edessa could have passed along to Ephrem
+                        these readings from their version of the fourfold gospel (<hi rend="italic">Commentaire de
+                            l’Évangile concordant ou Diatessaron</hi>, 29-30).
+                    </p></note>
+                    Lange, also assuming that these represent a
+                    separated, Syriac translation, has most recently surveyed these
+                    passages in an attempt to determine what version of gospel text lies
+                    behind the citations, but he was unable to clearly identify the
+                    passages with either the Vetus Syra or the Peshitta
+                    <note place="foot" xml:id="ftn63" n="63"><p xml:lang="en">
+                        63 Lange, “Ephrem, His School, and the Yawnaya,” 167-174.
+                        Theodor Zahn, <hi rend="italic">Tatian’s Diatessaron</hi>, Forschungen zur Geschichte des
+                        neutestamentlichen Kanons und der altkirchlichen Literatur, Tl. 1
+                        (Erlangen: Deichert, 1881), 62, ascribed the idiosyncrasies of these
+                        passages to the lack of skill of the translator, concluding that they
+                        represent <foreign xml:lang="de">“ein ziemlich ungeschickter Versuch, das grieschische Original
+                            zu übersetzen”.</foreign>
+                    </p></note>
+                    In what
+                    follows I intend to consider each of these passages closely to
+                    determine if they indicate usage of the fourfold, separated gospel,
+                    as has often been supposed.
+                </p>     
+                <p xml:lang="en">
+                    In the passage from the <hi rend="italic">Refutationes ad Hypatium</hi>, the Syrian
+                    opposes an interpretation of John 1:4 offered by the Manicheans.
+                    He begins by saying that the passage “in the Gospel” (<foreign xml:lang="syr">ܒܐܢܓܠܝܘܢ</foreign>)
+                    reads “the life is the light of a man” (<foreign xml:lang="syr">ܕܐܢܫܐ ܕܗܢܘܢ ܚܝ̈ܐ ܐܝܬܝܗܘܢ ܢܘܗܪܐ</foreign>).
+                    .(Apparently the Manicheans draw from the singular “man”
+                    the conclusion that the passage speaks of the “primal man” (<foreign xml:lang="syr">ܩܕܡܝܐ ܐܢܫܐ</foreign>)
+                    who plays a role in Manichean cosmology. Against this
+                    exegesis Ephrem brings the reading from “the Greek Gospel”
+                    <pb n="33"/>
+                    (<foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ ܝܘܢܝܐ</foreign>), which says “the life is the light of men”
+                    (<foreign xml:lang="syr">ܚܝ̈ܐ ܐܝܬܝܗܘܢ ܢܘܗܪܐ ܕܒ̈ܢܝ ܐܢܫܐ ܕܗܢܘܢ</foreign>)
+                    <note place="foot" xml:id="ftn64" n="64"><p xml:lang="en">
+                        64 C.W. Mitchell, <hi rend="italic">S. Ephraim’s Prose Refutations of Mani, Marcion, and
+                            Bardaisan. Volume I: The Discourses Addressed to Hypatius, Text and Translation
+                            Society</hi> (London: Williams and Norgate, 1912), 121-122 (text), xc
+                        (translation).
+                    </p></note>
+                    As David Bundy and
+                    Christian Lange have observed, the singular form <foreign xml:lang="syr">ܐܢܫܐ</foreign> is
+                    ambiguous in that it could be a collective singular (“humanity”) or
+                    a true singular (“a man”). This is the ambiguous reading that
+                    apparently occurred in Ephrem’s “Gospel” and that lent itself to
+                    Manichean exegesis. However, the plural rendering <foreign xml:lang="syr">ܒ̈ܢܝ ܐܢܫܐ</foreign> 
+                    derived from “the Greek gospel,” removes the ambiguity by
+                    explaining the singular as a collective singular, ruling out any
+                    reference to the primal man
+                    <note place="foot" xml:id="ftn65" n="65"><p xml:lang="en">
+                        65 D. Bundy, “Revising the Diatessaron Against the Manicheans:
+                        Ephrem of Syria on John 1:4,” <hi rend="italic">Aram</hi> 5 (1993): 65-74; Lange, “Ephrem,
+                        His School, and the Yawnaya,” 167-169.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    It is curious then that, in the only citation of John 1:4 in the
+                    <hi rend="italic">Commentary on the Gospel</hi>, the reading given is <foreign xml:lang="syr">ܒ̈ܢܝ ܐܢܫܐ</foreign>, which
+                    corresponds to the reading from “the Greek Gospel” rather than
+                    to that which occurs in Ephrem’s standard gospel text according to
+                    the <hi rend="italic">Refutationes ad Hypatium</hi>
+                    <note place="foot" xml:id="ftn66" n="66"><p xml:lang="en">
+                        66 <hi rend="italic">CGos</hi> I.6 (Leloir 1963, 6). Leloir, <hi rend="italic">L’Évangile d’Éphrem</hi>, 99, does not
+                        list any further citations of John 1:4 in Ephrem’s corpus, so we do not
+                        have any other citations with which to compare it.
+                    </p></note>
+                    If Ephrem composed his <hi rend="italic">Commentary
+                        on the Gospel</hi> after engaging in this bit of anti-Manichean polemic,
+                    then he might have revised the reading himself when commenting
+                    upon the passage in his gospel commentary in order to rule out the
+                    heretical implication. At any rate, the reading in the Greek gospel
+                    tradition is indeed <foreign xml:lang="grc">τῶν ἀνθρώπων</foreign>, and the Curetonian manuscript
+                    of the Old Syriac agrees with Ephrem’s “Greek” version in the
+                    ̈reading <foreign xml:lang="syr">ܒ̈ܢܝ ܐܢܫܐ</foreign>, so his alternate version finds support in the
+                    wider tradition of the separated gospels
+                    <note place="foot" xml:id="ftn67" n="67"><p xml:lang="en">
+                        67 See Kiraz, <hi rend="italic">Comparative Edition of the Syriac Gospels, Volume 4: John</hi>, 4. 
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    We should also observe that Ephrem refers to this additional
+                    gospel text in a way that is parallel to the manner in which he refers
+                    to his standard gospel text. He titled his gospel exposition the
+                    <hi rend="italic">Commentary on the Gospel</hi> (<foreign xml:lang="syr">ܦܘܫܩܐ ܕܐܘܢܓܠܝܘܢ</foreign>) and called the text
+                    upon which he commented simply the “Gospel” (<foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ</foreign>). 
+                    However, when he refers to the alternate version in the <hi rend="italic">Refutationes
+                        <pb n="34"/>
+                        ad Hypatium</hi>, he offers no further description of this text beyond
+                    simply calling it the “Greek Gospel” (<foreign xml:lang="syr">ܐܘܢܓܠܝܘܢ ܝܘܢܝܐ</foreign>). In other
+                    words, pace Burkitt and Vööbus, he does not distinguish these two
+                    gospel versions on the basis of their form, but simply on the basis
+                    of their language. If Ephrem had been referring to a fourfold
+                    gospel, it seems likely that he would have needed to provide some
+                    further description to signal to his readers that this was a reference
+                    to a four-part gospel, in contrast to his singular, united gospel.
+                </p>
+                <p xml:lang="en">
+                    The remaining five references to “the Greek” all occur in
+                    Ephrem’s <hi rend="italic">Commentary on the Gospel</hi> and present a pattern in keeping
+                    with the passage from the <hi rend="italic">Refutationes ad Hypatium</hi>. In <hi rend="italic">CGos</hi> V.2
+                    Ephrem, while commenting upon the wedding feast at Cana, notes
+                    in passing “in Greek he wrote, ‘he was reclining and the wine ran
+                    short’” (<foreign xml:lang="syr">ܒܝܘܢܝܐ ܟܬܒ ܕܣܡܝܟ ܗܘܐ ܘܚܣܪ ܚܡܪܐ</foreign>)
+                    <note place="foot" xml:id="ftn68" n="68"><p xml:lang="en">
+                        68 <hi rend="italic">CGos</hi> V.2 (Louis Leloir, <hi rend="italic">Saint Éphrem, Commentaire de l’Évangile
+                            concordant, texte syriaque (Manuscrit Chester Beatty 709), Folios Additionnels</hi>
+                        (Leuven: Peeters, 1990), 38). Schäfers, <hi rend="italic">Evangelienzitate</hi>, 38-40, regarded this
+                        passage as a marginal note by a scribe that was later incorporated into the
+                        text, but this is unduly skeptical.
+                    </p></note>
+                    When
+                    commenting on this passage Theodor Zahn pointed out that
+                    Ephrem’s version of “the Greek” represents a confusion of <foreign xml:lang="grc">ἐκλίθη</foreign>
+                    (“he reclined”) with <foreign xml:lang="grc">ἐκλήθη</foreign> (“he was invited”), a textual variant
+                    that does not appear in the Greek gospel tradition
+                    <note place="foot" xml:id="ftn69" n="69"><p xml:lang="en">
+                        69 <hi rend="italic">Tatian’s Diatessaron</hi>, 62. So also Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>,
+                        II.190.
+                    </p></note>
+                    Whether the
+                    written text Ephrem refers to actually had this reading or whether
+                    the confusion arose through oral translation from the Greek is
+                    impossible to determine. What this citation seems to add to
+                    Ephrem’s surrounding discussion is precisely the fact that Jesus
+                    “was reclining,” though it is unclear how this point serves the
+                    purpose of the paragraph which is to explain the Savior’s rebuke of
+                    his mother’s request. Since this citation does not in any obvious
+                    way serve Ephrem’s larger point, it is possible that he has included
+                    it simply as a sort of curiosity for his readers. He was obviously
+                    aware that his “gospel” text differed from the “Greek” in this
+                    instance, and this difference alone could have warranted comment.
+                </p>
+                <p xml:lang="en">
+                    At <hi rend="italic">CGos</hi> X.14 Ephrem once more turns to “the Greek.” He
+                    cites his Syriac version of Matthew 11:25 as, “I give thanks to you,
+                    Father, who is in heaven” (<foreign xml:lang="syr">ܕܡܘܕܐ ܐܢܐ ܠܟ ܐܒܐ ܕܒܫܡܝܐ</foreign>), and
+                    <pb n="35"/>
+                    then follows by noting, “the Greek says, ‘I give thanks to you, God,
+                    Father, Lord of heaven and earth’ and ‘that you have hidden [it]
+                    from the wise and revealed [it] to children’ (<foreign xml:lang="syr">ܠܛ̈ܠܝܐ ܐܒܐ ܡܪܐ ܕܫܡܝܐ ܘܕܐܪܥܐ. ܘܕܟܣܝܬ ܡܢ ܚܟܝ̈ܡܐ ܘܓܠܝܬ ܡܘܕܐ ܐܢܐ ܠܟ ܐܠܗܐ</foreign>).
+                    <note place="foot" xml:id="ftn70" n="70"><p xml:lang="en">
+                        70 <hi rend="italic">CGos</hi> X.14 (Leloir 1963, 48). Schäfers, <hi rend="italic">Evangelienzitate</hi>, 40,
+                        conjectured that this reference to “the Greek” is an interpolation that
+                        arose through a marginal note added by a reader, which was accidentally
+                        incorporated into the text by a later scribe. Leloir, <hi rend="italic">Le Témoignage</hi>, 145,
+                        disagreed, noting that the citation occurs in both the Armenian and Syriac
+                        recensions. Schäfers is unduly skeptical in this instance. 71 According to Leloir, L’Évangile d’Éphrem, 11,
+                    </p></note>
+                    The most obvious difference between the two passages
+                    is that the Syriac reads “Father who is in heaven,” while “the
+                    Greek” reads “God, Father, Lord of heaven and earth.” The initial
+                    citation given, which derives from Ephrem’s standard gospel text,
+                    reads like an amalgamation of Matthew 11:25 (<foreign xml:lang="grc">ἐξομολογοῦμαί σοι,
+                        πάτερ, κύριε τοῦ οὐρανοῦ καὶ τῆς γῆς</foreign>) and the <hi rend="italic">Pater Noster</hi> of
+                    Matthew 6:9 (<foreign xml:lang="grc">Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς</foreign>). Given that Ephrem’s
+                    “Gospel” involved Tatian’s editing of preexisting material, it is
+                    entirely possible that the prayer of Jesus recorded here was Tatian’s
+                    own combination of these two passages
+                    <note place="foot" xml:id="ftn71" n="71"><p xml:lang="en">
+                        71 According to Leloir, <hi rend="italic">L’Évangile d’Éphrem</hi>, 11, 24, 83, no other
+                        citations of Matthew 6:9 or Luke 10:21 survive in Ephrem’s corpus, and
+                        the only other citation of Matthew 11:25 occurs in a passage of
+                        questionable authenticity.
+                    </p></note>
+                    On the other hand, the
+                    reading Ephrem here gives as coming from “the Greek” largely
+                    corresponds with the Greek version of the passage as given in
+                    Matthew 11:25 and Luke 10:21 (<foreign xml:lang="grc">κύριε τοῦ οὐρανοὐ καὶ τῆς γῆς</foreign>),
+                    although it has the unusual addition of “God.
+                    <note place="foot" xml:id="ftn72" n="72"><p xml:lang="en">
+                        72 Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>, II.190, might be right in seeing
+                        the mention of “God” as a simple “piece of carelessness” due to Ephrem
+                        citing from memory.
+                    </p></note>
+                    The next reference to “the Greek” is a citation of Matthew
+                    28:18 and it occurs in a short section consisting of three sentences
+                    that are absent from the Armenian recension. The fact that this
+                    passage shows up only in the Syriac version calls into question its
+                    authenticity, though we have at least to reckon with the possibility
+                    that the Armenian translator omitted this passage rather than that it
+                    was a later interpolation to the Syriac. After citing an expanded
+                    version of John 16:15 (“All that my Father has is mine and what is
+                    mine is my Father’s”), the Syriac continues beyond the Armenian
+                    <pb n="36"/>
+                    and cites as further proof an expanded version of Matthew 28:18
+                    (“All authority that is in heaven and on earth has been given to me
+                    by my Father”), before then quoting the same passage as it occurs
+                    in “the Greek.
+                    <note place="foot" xml:id="ftn73" n="73"><p xml:lang="en">
+                        73 <hi rend="italic">CGos</hi> XV.19 (Leloir 1963, 158).
+                    </p></note>
+                    In this instance the only difference between the
+                    Syriac and “the Greek” is that, whereas the Syriac reads “in heaven
+                    and on earth” (<foreign xml:lang="syr">ܕܒܫܡܝܐ ܘܒܐܪܥܐ</foreign>), ܕ” ,(the Greek” has “as in heaven,
+                    so also on earth” (<foreign xml:lang="syr">ܐܝܟ ܕܒܫܡܝܐ ܐܦ ܒܐܪܥܐ</foreign>). .(It is unclear in this
+                    instance what extra exegetical pay-off is gained from the “Greek”
+                    text that cannot be had from the Syriac. Equally puzzling is the fact
+                    that Ephrem’s original text, which stood in his Syriac harmony, is
+                    closer to the proper Greek version of Matthew 28:18 than the text
+                    which he says comes from “the Greek.” Ephrem’s “Greek” version
+                    contains the phrase “as in heaven, so also on earth” which seems
+                    more like a fairly close translation of Matthew 6:10c (<foreign xml:lang="grc">ὡς ἐν οὐρανῷ
+                        καὶ ἐπὶ γῆς</foreign>) rather than 28:18 (<foreign xml:lang="grc">ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς</foreign>), Similar
+                    to the two previous passages from “the Greek,” Ephrem’s citation
+                    here is an unusual rendering of the Greek text as it is available to us
+                    today.
+                </p>
+                <p xml:lang="en">
+                    Furthermore, both of the versions of Matthew 28:18 cited
+                    here, the Syriac and the Greek, have the unusual phrase “by my
+                    Father” that does not occur in the Greek gospel tradition. It is
+                    possible that the additional phrase “by my Father” is Ephrem’s
+                    own loose citation, since immediately preceding his quotation of
+                    Matthew 28:18 is a quotation of John 16:15 which speaks of the
+                    Son receiving “all that the Father has.” Alternatively, it is also
+                    possible that Tatian added this phrase to Matthew 28:18 when
+                    compiling his harmony. The Peshitta inserts a phrase from John
+                    20:21 (“As my Father sent me, so also I send you”) immediately
+                    following Matthew 28:18, a reading that, as Burkitt pointed out,
+                    was probably taken over from the Old Syriac version, which
+                    happens to be lost in this section
+                    <note place="foot" xml:id="ftn74" n="74"><p xml:lang="en">
+                        74 Burkitt, <hi rend="italic">Evangelion Da-Mepharreshe</hi>, I.172-173. 
+                    </p></note>
+                    As with so many of the peculiar
+                    Old Syriac readings, it is likely that this insertion derives ultimately
+                    from the influence of Tatian’s gospel
+                    <note place="foot" xml:id="ftn75" n="75"><p xml:lang="en">
+                        75 On the influence of Tatian’s gospel upon the Vetus Syra, see
+                        Vööbus, <hi rend="italic">Studies in the History</hi>, 34-35; Petersen, <hi rend="italic">Tatian’s Diatessaron</hi>, 130-133.
+                    </p></note>
+                    Further evidence to this
+                    point is that the Arabic Diatessaron likewise places John 20:21
+                    <pb n="37"/>
+                    immediately following Matthew 28:18
+                    <note place="foot" xml:id="ftn76" n="76"><p xml:lang="en">
+                        76 Tat<hi rend="superscript">AR</hi> <hi rend="italic">LV</hi>. 4-5 (Marmardji, <hi rend="italic">Diatessaron de Tatien</hi>, 528-529).
+                    </p></note>
+                    Viewed in this light, it is
+                    plausible that the Johannine-sounding phrase “by my Father”
+                    which Ephrem reads in Matthew 28:18 was also due to Tatian’s
+                    mixing of his Matthean and Johannine sources. Notably, the Syriac
+                    translation of Eusebius’ <hi rend="italic">Theophania</hi>, which provides the only other
+                    early citation of this verse in Syriac, likewise includes the phrase
+                    “by my Father,” supporting the reading in Ephrem’s text
+                    <note place="foot" xml:id="ftn77" n="77"><p xml:lang="en">
+                        77 Eusebius, <hi rend="italic">Theophania</hi> 4.8. The passage is cited in Ignatius Ortix de
+                        Urbina, <hi rend="italic">Vetus Evangelium Syrorum et Exinde Excerptum Diatessaron Tatiani</hi>,
+                        Biblia Polyglotta Matritensia, Series VI (Madrid: Consejo Superior de
+                        Investigaciones Cientificas, 1967), 201. Urbina, who collated gospel
+                        citations from early Syriac texts, provides one other citation of Matthew
+                        28:18, and it too includes the phrase “by my Father,” though it occurs in a
+                        work of questionable authenticity. Leloir, <hi rend="italic">L’Évangile d’Éphrem</hi>, 59, noted
+                        the same ps-Ephremic passage.
+                    </p></note>
+                    If it is
+                    plausible to regard this phrase as Tatian’s own addition, then it is
+                    striking that it shows up both in Ephrem’s Syriac gospel text as
+                    well as in his alternate “Greek” gospel.
+                </p>
+                <p xml:lang="en">
+                    The final two reference to “the Greek” occur in sections of the
+                    commentary for which the folios of Chester Beatty 709 are missing,
+                    and for which therefore only the Armenian recension is available.
+                    At <hi rend="italic">CGos</hi> II.17 Ephrem is explaining the meaning of Simeon’s
+                    prediction to Mary that “You will remove the sword” (<hi rend="italic">Amovebis
+                        gladium</hi>), a reading of Luke 2:35a that makes Mary the subject of the
+                    action, rather than the object as is read in the Greek gospel
+                    tradition (<foreign xml:lang="grc">σοῦ αὐτῆς τὴν ψυχὴν διελεύσεται ῥομφαία</foreign>)
+                    <note place="foot" xml:id="ftn78" n="78"><p xml:lang="en">
+                        78 On the unusual reading of Luke 2:35 given by Ephrem, see Leloir,
+                        <hi rend="italic">Le Témoignage</hi>, 92-93; Robert Murray, “The Lance Which Re-Opened
+                        Paradise, a Mysterious Reading in the Early Syriac Fathers,” <hi rend="italic">Orientalia
+                            Christiana Periodica</hi> 39 (1973): 224-234, 491. The passage is cited again in
+                        the same peculiar form at CGos XXI.27 where Ephrem is commenting
+                        upon the appearance to “Mary” at the empty tomb. I translate here and in
+                        the passage that follows from Leloir’s Latin translation of the Armenian.
+                    </p></note>
+                    Ephrem
+                    provides two alternate interpretations of the verse. He first
+                    connects Mary’s removal of the sword with the sword that guarded
+                    paradise after Eve’s failure, relying on the common typological link
+                    between Eve and Mary. His second interpretation is that the verse
+                    refers to Mary’s “denial” (<hi rend="italic">negationem</hi>). Assuming that Mary, the
+                    mother of Jesus, is the same Mary present at the empty tomb in
+                    John 20:15, Ephrem regards this “denial” as her doubting when she
+                    <pb n="38"/>
+                    encountered the risen Christ, when she thought that he was the
+                    gardener
+                    <note place="foot" xml:id="ftn79" n="79"><p xml:lang="en">
+                        79 The exegetical move of linking Simeon’s prediction to Mary, the
+                        mother of Jesus, with the Mary who doubted at the tomb (cf. John 20:15)
+                        demonstrates a conflation of the different “Mary’s” in the Jesus tradition,
+                        an idea that Ephrem shares with some other early Syriac sources. Cf.
+                        Robert Murray, <hi rend="italic">Symbols of Church and Kingdom: A Study in Early Syriac
+                            Tradition</hi>, Rev. ed. (London: T&amp;T Clark, 2006), 329-335; Sebastian Brock,
+                        “Mary and the Gardiner: An East Syrian Dialogue Soghitha for the
+                        Resurrection,” <hi>Parole de l’Orient</hi> 11 (1983): 225-26. For similar passages in
+                        the commentary, see CGos V.5; XXI.27.
+                    </p></note>
+                    It is in the midst of this second interpretation that the
+                    commentary introduces Luke 2:35b with the words, “the Greek
+                    says quite clearly, ‘the thoughts from many hearts will be revealed,’
+                    that is, the thoughts of those who doubted” (<foreign xml:lang="a"><hi rend="italic">Graecum clare quidem
+                        dicit: Revelabuntur ex multis cordibus cogitationes (nimirum) eorum qui
+                        dubitaverunt</hi></foreign>)
+                    <note place="foot" xml:id="ftn80" n="80"><p xml:lang="en">
+                        80 <hi rend="italic">CGos</hi> II.17 (Leloir, <hi rend="italic">Commentaire de l’Évangile concordant, version
+                            arménienne</hi>, 24). 
+                    </p></note>
+                    In this instance, Ephrem does not contrast the
+                    reading of “the Greek” with that which is given in his primary
+                    gospel text, so it is unclear what exegetical value he thought he
+                    could derive from the Greek version that could not be had simply
+                    from the Syriac. Nevertheless, “the Greek” version of this passage
+                    as reported by Ephrem does correspond well with the Greek text
+                    as it is known to us today (<foreign xml:lang="grc">ἀποκαλυφθῶσιν ἐκ πολλῶν καρδιῶν
+                        διαλογισμοί</foreign>)
+                    <note place="foot" xml:id="ftn81" n="81"><p xml:lang="en">
+                        81 Leloir, <hi rend="italic">L’évangile d’Éphrem</hi>, 74, does not provide any further
+                        citations of Luke 2:35b in Ephrem’s corpus.
+                    </p></note>
+                </p>
+                <p xml:lang="en">
+                    However, there have been doubts as to the authenticity of this
+                    passage. Harris, Schäfers, Leloir, and Lange have noted that
+                    Isho‘dad of Merv later cites this very passage from Ephrem’s
+                    commentary, but notably omits the line that introduces the reading
+                    from “the Greek.
+                    <note place="foot" xml:id="ftn82" n="82"><p xml:lang="en">
+                        82 J. Rendel Harris, <hi rend="italic">Fragments of the Commentary of Ephrem Syrus Upon the
+                            Diatessaron</hi> (London: C.J. Clay and Sons, 1895), 34; Schäfers,
+                        <hi rend="italic">Evangelienzitate</hi>, 32-38; Leloir, <hi rend="italic">Le Témoignage</hi>, 94; Lange, “Ephrem, His
+                        School, and the Yawnaya,” 172-173. Harris gives the passage with a
+                        translation. See also the passage in the context of Isho’dad’s commentary
+                        in Margaret Dunlop Gibson, <hi rend="italic">The Commentaries of Isho’dad of Merv, Bishop of
+                            Hadatha</hi> (c. 850 A.D.) (Cambridge: Cambridge University Press, 2011),
+                        vol. 1, p.159 (translation); vol. 3, p. 21 (text).
+                    </p></note>
+                    On this basis they concluded that the citation
+                    of “the Greek” must be a later interpolation. While this
+                    <pb n="39"/>
+                    interpretation of the evidence cannot be ruled out, it seems to me
+                    that the passage in Isho‘dad reads more like a paraphrase of
+                    Ephrem’s commentary rather than an exact citation. Isho‘dad has
+                    clearly shortened the passage in the latter half of his quotation,
+                    since the version as it stands in the commentary is longer and more
+                    detailed. Isho‘dad includes no reference to the “gardener” of John
+                    20:15, as does Ephrem’s original passage, and whereas Isho‘dad
+                    merely mentions the “miracles” of the Savior, the commentary
+                    explicitly names these marvels: the conception and birth. Given
+                    that Isho‘dad apparently compressed the passage when he cited it,
+                    it is possible that he simply chose to leave out Ephrem’s reference
+                    to “the Greek” which he probably found puzzling and ill-suited to
+                    his purpose. For this reason, I suggest we regard the reference “the
+                    Greek” here as Ephremic.
+                </p>
+                <p xml:lang="en">
+                    The final citation of “the Greek” in <hi rend="italic">CGos</hi> also comes from a
+                    passage extant only in the Armenian. At <hi rend="italic">CGos</hi> XIX.17 Ephrem is
+                    concerned to explain the meaning of Jesus’ prayer in John 17:5,
+                    which he initially cites as “Give me glory in your presence from
+                    that which you gave me before the world had been made” (<foreign xml:lang="la"><hi rend="italic">Da mihi
+                        gloriam apud te ex illa, quam dedisti mihi, antequam mundus factus esset</hi></foreign>). In
+                    the following exegesis, the Syrian wants to make clear that the
+                    “glory” spoken of is understood as the glory which the Son
+                    previously possessed with the Father when the two were creating.
+                    Now that the Son is engaged in bringing to pass a new creation,
+                    Ephrem argues, he prays to receive this same glory from the
+                    Father. After pressing this point for a paragraph or so, he then
+                    recapitulates his argument, asserting that the “Give me” (<foreign xml:lang="la"><hi rend="italic">Da mihi</hi></foreign>)
+                    refers to that glory which “he had before creatures, with the Father,
+                    and in the Father’s presence.” As proof for this interpretation he
+                    next asserts, “for the reading of the Greek also quite clearly says,
+                    ‘Glorify me with that glory which I myself possessed in your
+                    presence, before the world was’” (<foreign xml:lang="la"><hi rend="italic">quoniam et lectio (Graeci) habet et
+                        aperte quidem dicit: Glorifica me, ait, gloria illa quam possidebam ego coram
+                        te, antequam esset mundus</hi></foreign>)
+                    <note place="foot" xml:id="ftn83" n="83"><p xml:lang="en">
+                        83 <hi rend="italic">CGos</hi> XIX.17 (Leloir, <hi rend="italic">Commentaire de l’Évangile concordant, version
+                            arménienne</hi>, 199-200). Leloir notes that manuscript B reads in <foreign xml:lang="la"><hi rend="italic">Graeco lectio</hi></foreign>,
+                        while manuscript A has <foreign xml:lang="la"><hi rend="italic">lectio habet et</hi></foreign>. He has inserted <foreign xml:lang="la"><hi rend="italic">Graeci</hi></foreign> in brackets
+                        into his version of the text, presumably because he assumed <foreign xml:lang="la"><hi rend="italic">Greacus</hi></foreign> has
+                        dropped out from the text in A. 
+                    </p></note>
+                    Ephrem’s citation of “the Greek” in this
+                    instance is a fairly close rendering of the Greek text as it is known
+                    <pb n="40"/>
+                    to us today (<foreign xml:lang="grc">δόξασόν με σύ, πάτερ, παρὰ σεαυτῷ τῇ δόξῃ ᾗ εἶχον
+                        πρὸ τοῦ τὸν κόσμον εἶναι παρὰ σοί</foreign>). Unlike in the previous passage,
+                    he here cites both his gospel text as well as that of “the Greek,” so
+                    we are in a position to compare them. The primary difference
+                    seems to be that the first citation speaks of the glory <hi rend="italic">given</hi> (<foreign xml:lang="la"><hi rend="italic">quam
+                        dedisti mihi</hi></foreign>) to the Son by the Father before the world, whereas “the
+                    Greek” describes the Son as actually <hi rend="italic">possessing</hi> this glory before the
+                    world (<foreign xml:lang="la"><hi rend="italic">quam possidebam ego</hi></foreign>). Perhaps the latter rendering seemed to
+                    Ephrem to make the point “more clearly” that the Son actually had
+                    this glory previously and was therefore not simply receiving it for
+                    the first time. 
+                </p>
+                <p xml:lang="en">
+                    What then are we to make of these passages? To begin with, as
+                    I have already suggested, it is unduly skeptical to reject them all as
+                    later scribal interpolations, as Schäfers has done
+                    <note place="foot" xml:id="ftn84" n="84"><p xml:lang="en">
+                        84 Though, to be fair, Schäfers was working only with the Armenian
+                        version since the Syriac had not yet been discovered.
+                    </p></note>
+                    The fact that
+                    Ephrem engages in this sort of reading in the <hi rend="italic">Refutationes ad
+                        Hypatium</hi>, in a passage whose authenticity no one disputes, implies
+                    that the references in the <hi rend="italic">Commentary on the Gospel</hi> should be given
+                    the benefit of the doubt unless further arguments can be adduced
+                    against their authenticity. Furthermore, I suggest it is most likely
+                    that in these passages Ephrem really does refer to a Greek version,
+                    rather than simply a Syriac tetraevangelium, as Burkitt, Vööbus,
+                    and Lange assumed, since the study of Possekel has laid to rest the
+                    idea that Ephrem had no access to Greek sources. Ephrem’s
+                    labeling of this source as “the Greek” makes much more sense as a
+                    straightforward reference to a text written in Greek, rather than
+                    awkwardly supposing that by “Greek” he actually means “Syriac in
+                    a separated form.” If then it is an actual Greek version to which
+                    Ephrem refers, we should not be greatly surprised that the citations
+                    from “the Greek” correspond with neither the Vetus Syra nor the
+                    Peshitta.
+                </p>
+                <p xml:lang="en">
+                    However, we still have to contend with the fact that several of
+                    the “Greek” passages cited by Ephrem include readings that are
+                    nowhere to be found in the Greek gospel tradition, and at least one
+                    of these readings, the “by my Father” in Matthew 28:18, occurs
+                    both in his Syriac text as well as in the “Greek” version to which he
+                    refers. Moreover, it is striking that he provides no mention
+                    whatsoever of a difference in form between the “Gospel” and “the
+                    <pb n="41"/>
+                    Greek Gospel.” Rather, his language denotes a difference of
+                    language, while conversely implying a similarity in the form in
+                    which these two gospels existed. In light of these observations I
+                    suggest we consider the possibility that in these passages Ephrem
+                    refers to a Greek version of Tatian’s gospel to which he had access
+                    in Edessa. The original language of Tatian’s gospel has been a
+                    subject of much debate, and I do not intend to enter into it here.
+                    However, there is good reason to think that Tatian’s work did exist
+                    in Greek, as well as in Syriac. The only Greek witness to have
+                    survived is the bit of parchment from Dura Europos dated to
+                    sometime before the destruction of the city by the Persians in 256-
+                    257. Although David Parker, D.G.K. Taylor, and Mark Goodacre
+                    have attempted to show that this fragment does not derive from
+                    Tatian’s gospel, Jan Joosten has recently provided a convincing
+                    counter-argument
+                    <note place="foot" xml:id="ftn85" n="85"><p xml:lang="en">
+                        85 D.C. Parker, D.G.K Taylor, and M.S. Goodacre, “The Dura-
+                        Europos Gospel Harmony,” in <hi rend="italic">Studies in the Early Text of the Gospels and
+                            Acts</hi>, ed. D.G.K. Taylor (Atlanta: Society of Biblical Literature, 1999), 192-
+                        228; Jan Joosten, “The Dura Parchment and the Diatessaron,” <hi rend="italic">Vigiliae
+                            Christianae</hi> 57 (2003): 159-175. The fragment was originally published in
+                        Carl H. Kraeling, <hi rend="italic">A Greek Fragment of Tatian’s Diatessaron From Dura</hi>,
+                        Studies and Documents 3 (London: Christophers, 1935). Petersen
+                        provides an overview of the evidence in <hi rend="italic">Tatian’s Diatessaron</hi>, 196-203. Most
+                        recently the issue has been considered in Ulrich Mell, <hi rend="italic">Christliche Hauskirche
+                            und Neues Testament. Die Ikonologie des Baptisteriums von Dura Europos und das
+                            Diatessaron Tatians</hi>, Novum Testamentum et Orbis Antiquus 77
+                        (Göttingen: Vandenhoeck &amp; Ruprecht, 2010), 189-204. Mell writes, “Um
+                        die These, dass es sich bei dem Dura-Fragment um den Text einer
+                        Evangelienharmonie handelt, und zwar ausgerechnet derjenigen von
+                        Tatian, entscheidend zu verifizieren, ist das Dura-Fragment in seinem
+                        Umfang zu klein” (p.204). Mell seems unaware of Joosten’s work, which,
+                        through a comparison of the text with other Tatianic witnesses, succeeds
+                        in showing that the Dura fragment is related to Tatian’s gospel. On the
+                        Dura fragment, see also Matthew R. Crawford, “The Diatessaron,
+                        Canonical or Non-canonical? Rereading the Dura Fragment,” <hi rend="italic">New
+                            Testament Studies</hi> 61 (2015): forthcoming. 
+                    </p></note>
+                    If Tatian’s work survived in a Greek version in
+                    Dura-Europos as late as the mid-third century, then the possibility
+                    must at least be considered that a copy was also housed in the
+                    library at Edessa a century or so later during Ephrem’s residence
+                    <pb n="42"/>
+                    there
+                    <note place="foot" xml:id="ftn86" n="86"><p xml:lang="en">
+                        86 Vööbus, <hi rend="italic">Studies in the History</hi>, 40, noted that a letter originally
+                        written in Syriac but now preserved only in Armenian, was sent by
+                        Aithallah, presumably bishop of Edessa, to Persian Christians. Twice in
+                        this letter the bishop says he is quoting from the Gospel of John (once
+                        “John the evangelist” and once just “John”), leading Vööbus to conclude
+                        that he had quoted from the separated gospels. See the two passages at
+                        Joannes Thorossian, <hi rend="italic">Aithallae Episcopi Edesseni Epistola Ad Christianos in
+                            Persarum Regione De Fide</hi> (Venice: Lazari, 1942), 46, 53. Since Aithallah’s
+                        tenure as bishop began in 324/5 and ended with his death in 345, Vööbus
+                        used the letter as proof that the separated gospels were in use prior to
+                        Ephrem’s decade in Edessa. However, it has recently been shown that this
+                        letter dates to the early fifth century, rather than to the mid-fourth
+                        century. As a result, it does not tell us anything about what form of gospel
+                        text was in use in Edessa prior to Ephrem. On the date of the letter, see
+                        David D. Bundy, “The Letter of Aithallah (CPG 3340): Theology,
+                        Purpose, Date,” in <hi rend="italic">III Symposium Syriacum 1980</hi>, ed. René Lavenant,
+                        (Rome: Pont. Institutum Studiorum Orientalium, 1983), who points out
+                        that the letter cites the third article of the Niceno-Constantinopolitan
+                        Creed of 381. See also David Bundy, “The Creed of Aithallah: A Study in
+                        the History of the Early Syriac Symbol,” <hi rend="italic">Ephemerides Theologicae Lovanienses</hi>
+                        63 (1987): 157-163.
+                    </p></note>
+                    The fact that these readings from “the Greek” occur only
+                    during the final ten years of Ephrem’s life imply that this text was
+                    not available to him in Nisibis but was only found by him once he
+                    had relocated to Edessa. If Ephrem found in Edessa a Greek copy
+                    of the gospel text familiar to him in Syriac, he or perhaps some
+                    other bilingual Christian could easily have provided variant
+                    readings from the Greek to supplement his exposition of the Syriac
+                    text.
+                </p>
+                <p xml:lang="en">
+                    Of course, the evidence is too slim to allow us to conclude
+                    with certainty that Ephrem’s “Greek” version is a Greek
+                    Diatessaron, but nothing rules out the possibility and there is at
+                    least some slim evidence in its favor. This explanation of these
+                    references is, therefore, at least as plausible as the notion that
+                    Ephrem is referring to Greek, separated gospels, even if final
+                    certitude is beyond our reach. If the idea of him using a Greek
+                    Diatessaron initially strikes us as odd, this reaction might simply
+                    reflect the fact that history is written by the victors—in this case
+                    the fourfold, separated gospel—, and what seems strange to us
+                    now might have been commonplace in fourth-century Edessa. We
+                    know that a Greek version of Tatian’s work once existed. That
+                    <pb n="43"/>
+                    Ephrem’s allusive references to the “Greek” might be to such a
+                    text is at least as plausible an explanation as any other.
+                </p>
+                <p xml:lang="en">
+                    Finally, we should observe the way in which Ephrem uses
+                    these cross-references. Vööbus argued that since Ephrem on one
+                    occasion (<hi rend="italic">CGos</hi> XIX.17) calls this variant reading a <hi rend="italic">lectio</hi> (the Syriac
+                    in this section is lost), implying authoritative scriptural status, the
+                    Syrian regarded this alternate text as the normative one, rather than
+                    the “Diatessaron” upon which he commented
+                    <note place="foot" xml:id="ftn87" n="87"><p xml:lang="en">
+                        87 Vööbus, <hi rend="italic">Studies in the History</hi>, 38-39.
+                    </p></note>
+                    In the previous
+                    century Harnack made a similar argument, though he held that
+                    Ephrem knew Greek and was making his own translation from the
+                    Greek separated gospels, while Vööbus regarded the text as a pre-
+                    Peshitta Syriac translation of the separated gospels
+                    <note place="foot" xml:id="ftn88" n="88"><p xml:lang="en">
+                        88 “Tatian’s Diatessaron und Marcion’s Commentar zum Evangelium
+                        bei Ephraem Syrus,” <hi rend="italic">Zeitschrift für Kirchengeschichte</hi> 4 (1881): 495.
+                    </p></note>
+                    The
+                    conclusion that <hi rend="italic">lectio</hi> here implies a more authoritative text is
+                    probably assuming too much on the basis of a single word. In my
+                    reading of these five passages, it seems that Ephrem introduces the
+                    variant readings simply as further evidence for the particular
+                    interpretation he wishes to pursue, rather than as the definitive and
+                    ultimately authoritative textual form. His practice is in keeping with
+                    the way many contemporary Greek authors were content to rely
+                    simultaneously on readings of the Septuagint alongside the Hebrew
+                    Old Testament, without choosing one text over another. It is
+                    notable that in the final two passages I considered above, Ephrem
+                    says “the Greek” “speaks clearly,” suggesting that he thought the
+                    Greek version was a more lucid rendering that better served his
+                    purpose. There is no hint in his exposition of any opposition
+                    between the Syriac “Gospel” and “the Greek Gospel,” and he
+                    seems happy to use either to illuminate the meaning of a given
+                    passage. 
+                </p>
+            </div>
+            <div xml:id="hv18n1crawford.4">
+                <head>4. GOSPEL VERSIONS IN EPHREM’S CORPUS</head>
+                <p xml:lang="en">
+                    In light of the above three lines of inquiry, there is no doubt that
+                    Ephrem had access to gospel versions beyond the Syriac gospel
+                    upon which he authored a commentary. Most significant is the
+                    conclusion that he knew some form of the fourfold gospel, which,
+                    in terms of its form, would have contrasted sharply with Tatian’s
+                    <pb n="44"/>
+                    gospel. Although, as I have argued elsewhere
+                    <note place="foot" xml:id="ftn89" n="89"><p xml:lang="en">
+                        89 Crawford, “Diatessaron, A Misnomer?”
+                    </p></note>
+                    Tatian’s version
+                    was quite likely anonymous and intended as a way of erasing the
+                    memory of the evangelist traditions, it is clear that Ephrem knew
+                    the names of the four canonical evangelists, and had worked with
+                    these texts at least with respect to the Johannine prologue and the
+                    Matthean and Lukan genealogies. It is likely that this knowledge is
+                    due to his acquaintance with an early Syriac translation of the
+                    tetraevangelium. The sole surviving witnesses of the Vetus Syra
+                    date from the period after Ephrem’s death, but these may represent
+                    a much older translation attempt. In addition, Ephrem also made
+                    use of a Greek version of the gospel, which may have been a Greek
+                    edition of Tatian’s work.
+                </p>
+                <p xml:lang="en">
+                    This picture of Ephrem is broadly in keeping with what we can
+                    reconstruct of his context. Aphrahat, who wrote a few decades
+                    earlier than Ephrem and who lived further East under Persian rule,
+                    never mentions evangelist traditions nor does he name Tatian or
+                    the Diatessaron. Ephrem, living in Nisibis and eventually in
+                    Edessa, appears to be more in touch with the Greek-speaking
+                    world further west. I have already noted Possekel’s demonstration
+                    of his usage of Greek philosophical contexts, and we should also
+                    note his engagement with the Arian controversy of the fourth
+                    century. Given this greater contact with the Greek world, it would
+                    be surprising if Ephrem did not know of the gospel in its fourfold
+                    form. In fact, he clearly did, in keeping with his knowledge of other
+                    Greek sources.
+                </p>
+                <p xml:lang="en">
+                    Nevertheless, we should not overlook the significance of the
+                    rather obvious fact that when he came to author a commentary, he
+                    did so not upon Matthew, Mark, Luke, or John, but upon Tatian’s
+                    gospel in its Syriac form. His authoring of the commentary
+                    suggests that for both he and his community this text held some
+                    kind of authoritative status. Defining the nature of this authority
+                    more precisely is, however, more difficult. The most likely
+                    explanation is that this Syriac gospel was the widely accepted
+                    liturgical gospel for Ephrem and many other Syriac-speaking
+                    Christians, as reported also by Theodoret a century later, who
+                    noted its usage in 200 of the 800 churches in his diocese. As the
+                    gospel regularly used liturgically, it would have seemed natural for
+                    Ephrem to have written an exposition of it, in a manner parallel to
+                    <pb n="45"/>
+                    the way that Greek and Latin authors explained the meaning of the
+                    fourfold gospel used liturgically in their churches.
+                </p>
+                <p xml:lang="en">
+                    Yet, even if Tatian’s gospel served as his primary gospel
+                    version, Ephrem apparently felt free to supplement it with
+                    additional material from elsewhere, such as the alternate readings
+                    of the “Greek gospel,” and the genealogies of Jesus which were
+                    absent from his liturgical text. He also treats as authentic certain
+                    traditions about Mary, Zechariah, Elizabeth, and John the Baptist
+                    which were likely drawn from some text like the <hi rend="italic">Protoevangelium of
+                        James</hi>
+                    <note place="foot" xml:id="ftn90" n="90"><p xml:lang="en">
+                        90 On apocryphal gospel traditions in the Syriac tradition, see Agnes
+                        Smith Lewis, <hi rend="italic">Apocrypha Syriaca: The Protevangelium Jacobi and Transitus
+                            Mariae, With Texts From the Septuagint, the Corân, the Peshitta, and From a
+                            Syriac Hymn in a Syro-Arabic Palimpsest of the Fifth and Other Centuries</hi>, Studia
+                        Sinaitica 11 (London: C.J. Clay and Sons, 1902); Cornelia B. Horn, “Syriac
+                        and Arabic Perspectives on Structural and Motif Parallels Regarding Jesus’
+                        Childhood in Christian Apocrypha and Early Islamic Literature: The
+                        ‘Book of Mary,’ the Arabic Apocryphal Gospel of John and the Qu’rān,” 
+                        <hi rend="italic">Apocrypha</hi> 19 (2008): 267-291; Charles Naffah, “Les ‘histoires’ syriaques de
+                        la Vierge: traditions apocryphes anciennes et récentes,” <hi rend="italic">Apocrypha</hi> 20
+                        (2009): 137-188. 
+                    </p></note>
+                </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>BIBLIOGRAPHY</head>
+                <listBibl>
+                    <bibl>Ayres, Lewis. <hi rend="italic">Nicaea and Its Legacy: An Approach to Fourth-Century
+                        Trinitarian Theology</hi>. Oxford: Oxford University Press, 2004.</bibl>
+                    <bibl>Baarda, Tjitze. <hi rend="italic">The Gospel Quotations of Aphrahat, the Persian Sage:
+                        Aphrahat’s Text of the Fourth Gospel</hi>. Amsterdam: Vrije
+                        Universiteit Amsterdam, 1975.</bibl>
+                    <bibl>________. “‘The Flying Jesus’: Luke 4:29-30 in the Syriac
+                        Diatessaron,” <hi rend="italic">Vigiliae Christianae</hi> 40 (1986): 313-341.</bibl>
+                    <bibl>Beck, Edmund. <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Fide.</hi> CSCO
+                        154, Scriptores Syri 73. Louvain: L. Durbecq, 1955.</bibl>
+                    <bibl>________.<hi rend="italic">Des heiligen Ephraem des Syrers Hymnen contra Haereses.</hi> 
+                        CSCO 169, Scriptores Syri 76. Louvain: L. Durbecq, 1957.</bibl>
+                    <bibl>________. <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Nativitate
+                        (Epiphania).</hi>CSCO 186, Scriptores Syri 82. Louvain: Secrétariat
+                        du CorpusSCO, 1959.</bibl>
+                    <bibl>________. <hi rend="italic">Des heiligen Ephraem des Syrers Sermones de Fide.</hi> CSCO
+                        212, Scriptores Syri 88. Louvain: Secrétariat du CorpusSCO,
+                        1961.</bibl>
+                    <bibl>________. <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Virginitate.</hi> 
+                        CSCO 223, Scriptores Syri 94. Louvain: Secrétariat du
+                        CorpusSCO, 1962.</bibl>
+                    <bibl>________. <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de Fide.</hi> CSCO 155,
+                        Scriptores Syri 74. Louvain: Secrétariat du CorpusSCO, 1967.</bibl>
+                    <bibl>________. “Der syrische Diatessaronkommentar zu Jo. 1, 1-5,” 
+                        <hi rend="italic">Oriens Christianus</hi> 67 (1983): 1-31.</bibl>
+                    <bibl>Brock, Sebastian. “Mary and the Gardiner: An East Syrian
+                        Dialogue Soghitha for the Resurrection,” <hi rend="italic">Parole de l’Orient</hi> 11
+                        (1983): 225-26.</bibl>
+                    <bibl>________.<hi rend="italic">The Luminous Eye: The Spiritual World Vision of Saint
+                        Ephrem the Syrian.</hi> Cistercian Studies 124. Kalamazoo, MI:
+                        Cistercian Publications, 1992.</bibl>
+                    <bibl>________. “Eusebius and Syriac Christianity.” In <hi rend="italic">Eusebius,
+                        Christianity, and Judaism,</hi> ed. Harold W. Attridge and Gohei
+                        <pb n="47"/>
+                        Hata, Studia Post-Biblica 42. Leiden: Brill, 1992.</bibl>
+                    <bibl>________. “The Use of the Syriac Fathers for New Testament
+                        Textual Criticism.” <hi rend="italic">In The Text of the New Testament in
+                            Contemporary Research: Essays on the Status Quaestionis,</hi> ed. Bart D.
+                        Ehrman, and Michael W. Holmes, 2nd ed. Leiden: Brill, 2013.</bibl>
+                    <bibl>Bruns, Peter. “Arius Hellenizans? Ephraem der Syrer und die
+                        neoarianischen Kontroversen seiner Zeit. Ein Beitrag zur
+                        Rezeption des Nizänums im syrischen Sprachraum,”<hi rend="italic">Zeitschrift
+                            für Kirchengeschichte</hi> 101 (1990): 21-57.</bibl>
+                    <bibl>Bundy, David. “The Letter of Aithallah (CPG 3340): Theology,
+                        Purpose, Date.” In <hi rend="italic">III Symposium Syriacum 1980,</hi> ed. René
+                        Lavenant. Rome: Pont. Institutum Studiorum Orientalium,
+                        1983.</bibl>
+                    <bibl>________. “Revising the Diatessaron Against the Manicheans:
+                        Ephrem of Syria on John 1:4,” <hi rend="italic">Aram</hi> 5 (1993): 65-74.</bibl>
+                    <bibl>________. “The Creed of Aithallah: A Study in the History of the
+                        Early Syriac Symbol,” <hi rend="italic">Ephemerides Theologicae Lovanienses</hi> 63
+                        (1987): 157-163.</bibl>
+                    <bibl>Burkitt, F.C. <hi rend="italic">S. Ephraim’s Quotations From the Gospel.</hi> Texts and
+                        Studies 7.2. Cambridge: The University Press, 1901.</bibl>
+                    <bibl>________. <hi rend="italic">Evangelion Da-Mepharreshe.</hi> 2 vols. Cambridge: The
+                        University Press, 1904.</bibl>
+                    <bibl>Crawford, Matthew R. “Diatessaron, A Misnomer? The Evidence
+                        of Ephrem’s Commentary,” <hi rend="italic">Early Christianity</hi>4 (2013): 362-85.</bibl>
+                    <bibl>________. “Reading the Diatessaron with Ephrem: The Word and
+                        the Light, the Voice and the Star,” <hi rend="italic">Vigiliae Christianae,</hi> forthcoming.</bibl>
+                    <bibl><hi rend="italic">S. Ephræm Syri commentarii in epistolas D. Pauli</hi>(Venice: Typographia
+                        Sancti Lazari, 1893).</bibl>
+                    <bibl>Gibson, Margaret Dunlop. <hi rend="italic">The Commentaries of Isho’dad of Merv,
+                        Bishop of Hadatha (c. 850 A.D.).</hi> Cambridge: Cambridge
+                        University Press, 2011.</bibl>
+                    <bibl>Graffin, F. <hi rend="italic">Patrologia Orientalis</hi> 41. Turnhout: Brepols, 1982.</bibl>
+                    <bibl>Griffith, Sidney H. “Setting Right the Church of Syria: Saint
+                        <pb n="48"/> Ephraem’s Hymns Against Heresies.” In <hi rend="italic">The Limits of Ancient
+                            Christianity: Essays on Late Antique Thought and Culture in Honor of
+                            R. A. Markus,</hi> ed. William E. Klingshirn and Mark Vessey. Ann
+                        Arbor: The University of Michigan Press, 1999.</bibl>
+                    <bibl>Harnack, Adolf. “Tatian’s Diatessaron und Marcion’s Commentar
+                        zum Evangelium bei Ephraem Syrus,” <hi rend="italic">Zeitschrift für
+                            Kirchengeschichte</hi> 4 (1881): 471-505.</bibl>
+                    <bibl>Harris, J. Rendel. <hi rend="italic">Fragments of the Commentary of Ephrem Syrus Upon the
+                        Diatessaron. </hi>London: C.J. Clay and Sons, 1895.</bibl>
+                    <bibl>Horn, Cornelia B. “Syriac and Arabic Perspectives on Structural
+                        and Motif Parallels Regarding Jesus’ Childhood in Christian
+                        Apocrypha and Early Islamic Literature: The ‘Book of Mary,’
+                        the Arabic Apocryphal Gospel of John and the Qu’rān,”
+                        <hi rend="italic">Apocrypha </hi>19 (2008): 267-291.</bibl>
+                    <bibl>Joosten, Jan. “The Dura Parchment and the Diatessaron,” <hi rend="italic">Vigiliae
+                        Christianae </hi>57 (2003): 159-175.</bibl>
+                    <bibl>Kiraz, George Anton. <hi rend="italic">Comparative Edition of the Syriac Gospels. </hi>4 vols.
+                        Brill: Leiden, 1996.</bibl>
+                    <bibl>Kraeling, Carl H. <hi rend="italic">A Greek Fragment of Tatian’s Diatessaron From Dura. </hi>
+                        Studies and Documents 3. London: Christophers, 1935.</bibl>
+                    <bibl>Lange, Christian. “Zum Taufverständnis im syrischen
+                        Diatessaronkommentar.” In <hi rend="italic">Syriaca. Zur Geschichte, Theologie,
+                            Liturgie und Gegenwartslage der syrischen Kirchen. 2. Deutsches
+                            Syrologen-Symposium (Juli 2000, Wittenberg), </hi>ed. M. Tamcke.
+                        Studien zur orientalischen Kirchengeschichte 17. Münster: Lit,
+                        2002.</bibl>
+                    <bibl>________. <hi rend="italic">The Portrayal of Christ in the Syriac Commentary on the
+                        Diatessaron, </hi>CSCO 616, Subsidia 118. Louvain: Peeters, 2005.</bibl>
+                    <bibl>________. “Ephrem, His School, and the Yawnaya: Some
+                        Remarks on the Early Syriac Versions of the New Testament.”
+                        In <hi rend="italic">The Peshitta: Its Use in Literature and Liturgy: Papers Read At the
+                            Third Peshitta Symposium, </hi>ed. Robert Bas ter Haar Romeny,
+                        Monographs of the Peshitta Institute Leiden 15. Leiden: Brill,
+                        2006.</bibl>
+                    <bibl>________. <hi rend="italic">Ephraem der Syrer. Kommentar zum Diatessaron. </hi> 2 vols.
+                        <pb n="49"/>
+                        Fontes Christiani 54/1-2. Turnhout: Brepols, 2008. </bibl>
+                    <bibl>Leloir, Louis. <hi rend="italic">Saint Éphrem. Commentaire de l’Évangile concordant, version
+                        arménienne. </hi>CSCO 145, Scriptores Armeniaci 2. Louvain: L.
+                        Durbecq, 1954.</bibl>
+                    <bibl>________. <hi rend="italic">L’Évangile d’Éphrem d’après les oeuvres éditées: Recueil des
+                        textes. </hi>CSCO 180, Subsidia 12. Louvain: Secrétariat du
+                        CorpusSCO, 1958.</bibl>
+                    <bibl>________. <hi rend="italic">Le témoignage d’Éphrem sur le Diatessaron. </hi>CSCO 227,
+                        Subsidia 19. Louvain: Secrétariat du CorpusSCO, 1962.</bibl>
+                    <bibl>________. <hi rend="italic">Saint Éphrem, Commentaire de l’Évangile concordant, texte
+                        syriaque (Manuscrit Chester Beatty 709). </hi>Chester Beatty
+                        Monographs 8. Dublin: Hodges Figgis &amp; Co., 1963.</bibl>
+                    <bibl>________. <hi rend="italic">Éphrem de Nisibe: Commentaire de l’Évangile concordant ou
+                        Diatessaron. </hi>Sources Chrétiennes 121. Paris: Éditions du Cerf,
+                        1966.</bibl>
+                    <bibl>Lewis, Agnes Smith. <hi rend="italic">Apocrypha Syriaca: The Protevangelium Jacobi and
+                        Transitus Mariae, with Texts from the Septuagint, the Corân, the
+                        Peshitta, and from a Syriac Hymn in a Syro-Arabic Palimpsest of the
+                        Fifth and Other Centuries. </hi>Studia Sinaitica 11. London: C.J. Clay
+                        and Sons, 1902.</bibl>
+                    <bibl>Marmardji, A. S. <hi rend="italic">Diatessaron de Tatien. </hi>Beirut: Imprimerie catholique,
+                        1935.</bibl>
+                    <bibl>Matthews, Edward G. <hi rend="italic">The Armenian Commentary on Genesis Attributed
+                        to Ephrem the Syrian. </hi>CSCO 573, Scriptores Armeniaci 24.
+                        Louvain: Peeters, 1998.</bibl>
+                    <bibl>________. <hi rend="italic">The Armenian Commentaries on Exodus-Deuteronomy
+                        Attributed to Ephrem the Syrian. </hi>CSCO 587, Scriptores Armeniaci
+                        25. Louvain: Peeters Publishers, 2001.</bibl>
+                    <bibl>McCarthy, Carmel. <hi rend="italic">Saint Ephrem’s Commentary on Tatian’s Diatessaron:
+                        An English Translation of Chester Beatty Syriac MS 709. </hi>Journal of
+                        Semitic Studies Supplement 2. Oxford: Published by Oxford
+                        University Press on behalf of the University of Manchester,
+                        1993.</bibl>
+                    <bibl>Mell, Ulrich. <hi rend="italic">Christliche Hauskirche und Neues Testament. Die Ikonologie
+                        des Baptisteriums von Dura Europos und das Diatessaron Tatians. </hi>
+                        <pb n="50"/>Novum Testamentum et Orbis Antiquus 77. Göttingen:
+                        Vandenhoeck &amp; Ruprecht, 2010.</bibl>
+                    <bibl>Mitchell, C.W. <hi rend="italic">S. Ephraim’s Prose Refutations of Mani, Marcion, and
+                        Bardaisan. Volume I: The Discourses Addressed to Hypatius. </hi>Text and
+                        Translation Society. London: Williams and Norgate, 1912.</bibl>
+                    <bibl>Murray, Robert. “The Lance Which Re-Opened Paradise, a
+                        Mysterious Reading in the Early Syriac Fathers,” <hi rend="italic">Orientalia
+                            Christiana Periodica </hi>39 (1973): 224-234, 491.</bibl>
+                    <bibl>________. <hi rend="italic">Symbols of Church and Kingdom: A Study in Early Syriac
+                        Tradition. </hi>Rev. ed. London: T&amp;T Clark, 2006.</bibl>
+                    <bibl>McVey, Kathleen E. <hi rend="italic">Ephrem the Syrian: Hymns. </hi>Mahwah, NJ: Paulist
+                        Press, 1989.</bibl>
+                    <bibl>Naffah, Charles. “'Les ‘histoires’ syriaques de la Vierge: traditions
+                        apocryphes anciennes et récentes,” <hi rend="italic">Apocrypha </hi>20 (2009): 137-
+                        188.</bibl>
+                    <bibl>Parker, D.C., D.G.K Taylor, and M.S. Goodacre. “The Dura-
+                        Europos Gospel Harmony.” In <hi rend="italic">Studies in the Early Text of the
+                            Gospels and Acts, </hi>ed. D.G.K. Taylor. Atlanta: Society of Biblical
+                        Literature, 1999.</bibl>
+                    <bibl>Pastorelli, David. “The Genealogies of Jesus in Tatian’s
+                        Diatessaron: The Question of their Absence or Presence.” In
+                        <hi rend="italic">Infancy Gospels: Stories and Identities, </hi>ed. Claire Clivaz, Andreas
+                        Dettwiler, Luc Devillers, and Enrico Norelli. WUNT 281.
+                        Tübingen: Mohr Siebeck, 2011.</bibl>
+                    <bibl>Petersen, William L. <hi rend="italic">Tatian’s Diatessaron: Its Creation, Dissemination,
+                        Significance, and History in Scholarship. </hi>Supplements to Vigiliae
+                        Christianae 25. Leiden: E.J. Brill, 1994.</bibl>
+                    <bibl>Possekel, Ute. <hi rend="italic">Evidence of Greek Philosophical Concepts in the Writings of
+                        Ephrem the Syrian. </hi>CSCO 580, Subsidia 102. Louvain: Peeters,
+                        1999.</bibl>
+                    <bibl>Reinink, Gerrit J. “Neue Fragmente zum Diatessaronkommentar
+                        des Ephraemschülers Aba,” <hi rend="italic">Orientalia Lovaniensia Periodica </hi>11
+                        (1980): 117-133.</bibl>
+                    <bibl>Schäfers, J. <hi rend="italic">Evangelienzitate in Ephraems des Syrers Kommentar zu den
+                        paulinischen Schriften. </hi>Freiburg im Breisgau: Herder, 1917.</bibl>
+                    <pb n="51"/>
+                    <bibl>Thorossian, Joannes. <hi rend="italic">Aithallae Episcopi Edesseni Epistola Ad
+                        Christianos in Persarum Regione De Fide. </hi>Venice: Lazari, 1942.</bibl>
+                    <bibl>Tonneau, R.-M. <hi rend="italic">Sancti Ephraem Syri in Genesim et in Exodum
+                        Commentarii. </hi>CSCO 152, Scriptores Syri 71. Louvain: L.
+                        Durbecq, 1955.</bibl>
+                    <bibl>Urbina, Ignatius Ortix de. <hi rend="italic">Vetus Evangelium Syrorum et Exinde
+                        Excerptum Diatessaron Tatiani. </hi>Biblia Polyglotta Matritensia,
+                        Series VI. Madrid: Consejo Superior de Investigaciones
+                        Cientificas, 1967.</bibl>
+                    <bibl>Vööbus, Arthur. <hi rend="italic">Studies in the History of the Gospel Text in Syriac. </hi>
+                        CSCO 128, Subsidia 3. Louvain: L. Durbecq, 1951.</bibl>
+                    <bibl>Walters, J. Edward. “The Philoxenian Gospels as Reconstructed
+                        from the Writings of Philoxenus of Mabbug,” <hi rend="italic">Hugoye: Journal of
+                            Syriac Studies </hi>13 (2010): 177-249.</bibl>
+                    <bibl>Watson, Francis. <hi rend="italic">Gospel Writing: A Canonical Perspective. </hi>Grand
+                        Rapids: Eerdmans, 2013.</bibl>
+                    <bibl>Williams, Peter J. “The Syriac Versions of the New Testament.” In
+                        <hi rend="italic">The Text of the New Testament in Contemporary Research: Essays on
+                            the Status Quaestionis, </hi>ed. Bart D. Ehrman, and Michael W.
+                        Holmes. Leiden: Brill, 2013.</bibl>
+                    <bibl>Wright, William and Norman McLean. <hi rend="italic">The Ecclesiastical History of
+                        Eusebius in Syriac. </hi>Cambridge: University Press, 1898.</bibl>
+                    <bibl>Zahn, Theodor. <hi rend="italic">Tatian’s Diatessaron, </hi>Forschungen zur Geschichte
+                        des neutestamentlichen Kanons und der altkirchlichen
+                        Literatur, Tl. 1 Erlangen: Deichert, 1881.</bibl>
+                </listBibl>
+            </div>
+        </body>
     </text>
 </TEI>
