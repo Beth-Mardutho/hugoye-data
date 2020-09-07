@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">When Ephrem Meets the Maya</title>
+				<title type="sub">Defining and Adapting the Syriac Orthodox Tradition in
+					Guatemala</title>
+				<author>
+					<name>
+						<forename>Anna</forename>
+						<surname>Hager</surname>
+					</name>
+					<affiliation>
+						<orgName>University of Vienna/FWF</orgName>
+					</affiliation>
+				</author>
+				<respStmt>
+					<resp>TEI XML encoding by</resp>
+					<name type="person">Joss Childs></name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.1"/>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Beth Mardutho: The Syriac Institute</publisher>
+				<date>2020</date>
+				<idno>Volume 23.2</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						<p>For this publication, a Creative Commons Attribution 4.0 International
+							license has been granted by the author(s), who retain full
+							copyright.</p>
+					</licence>
+				</availability>
+				<idno type="URI">https://hugoye.bethmardutho.org/article/hv23n2hager</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Anna Hager</author>
+						<title level="a">When Ephrem Meets the Maya: Defining and Adapting the
+							Syriac Orthodox Tradition in Guatemala</title>
+						<idno type="URI"/>
+						<idno type="PDF"
+							>https://hugoye.bethmardutho.org/pdf/vol23/HV23N2Hager.pdf</idno>
+					</analytic>
+					<monogr>
+						<title level="j">Hugoye: Journal of Syriac Studies</title>
+						<imprint>
+							<publisher>Beth Mardutho: The Syriac Institute</publisher>
+							<date>2020</date>
+						</imprint>
+						<biblScope unit="vol" n="23">23</biblScope>
+						<biblScope unit="issue" n="2">2</biblScope>
+						<biblScope unit="pp" from="215" to="262">215-262</biblScope>
+						<biblScope unit="order" n="1"/>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+					of the Syriac tradition, published semi-annually (in January and July) by Beth
+					Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+					best scholarship available in the field of Syriac studies.</p>
+				<!-- ILeave this as is -->
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
+			<textClass>
+				<keywords xml:lang="en">
+					<term>Syriac Orthodox Church></term>
+					<term>Guatemalan Syriac Orthodox</term>
+					<term>Eduardo Aguirre Oestmann</term>
+					<term>Catholic Chrismatic Renewal</term>
+					<term>Archdiocese of Central America</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc status="Published">
+			<change when="2020-07-28">?File created by Joss Childs</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="article">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+				<p xml:lang="en"> The establishment of a Syriac Orthodox archdiocese in Guatemala
+					and Central America in 2013 marked the appearance of Syriac Christianity in a
+					context that is linguistically, historically, and ethnically radically different
+					from communities in the Middle East and Western diasporas. These “Guatemalan
+					Syriac Orthodox” are predominantly Maya and former Roman Catholics from mostly
+					poor rural areas, displaying Catholic Charismatic-type practices. This article
+					is concerned with Syriac Orthodoxy as a tradition defined by the Church
+					leadership for the Guatemalan context, which was subsequently adapted in
+					Guatemala through negotiation between the local clergy and lay communities.
+					Through this union, the Syriac Orthodox Church has defined what she considers
+					non-negotiable aspects of her tradition (liturgy, Syriac language, etc.) and,
+					more importantly, she has been able to engage in a dynamic of growth outside the
+					Middle East, India, and her diaspora communities and (re)claim a universal scope
+					grounded in the biblical event of Antioch. This article adopts a
+					pluri-disciplinary approach using field work conducted in Los <pb n="216"/>
+					Angeles and Guatemala in late 2018 as well as sources in Spanish, Arabic,
+					English. </p>
+			</div>
+		</front>
+		<body>
+			<div xml:id="hv23n2hager.intro" xml:lang="en">
+				<p> In March 2013 a Syriac Orthodox archdiocese was established in Central America,
+					with the bulk of its over 500,000 members located in Guatemala. When I mention
+					this to persons born into the Church or to scholars working in Syriac Studies,
+					they often assume that a Syriac Orthodox diaspora has established itself there
+					as a result of migration from the Middle East. When I reply that these are
+					actually “new” Syriac Orthodox and overwhelmingly Maya and former Roman
+					Catholics, my interlocutors then ask: What liturgy do they use? and, what role
+					does the Syriac language have? </p>
+				<p> The Syriac Orthodox Church of Antioch with its rich liturgical tradition in the
+					Syriac language as well as its now-forming diasporas in the West seems so
+					inherently consolidated that the establishment of an archdiocese in a population
+					with no prior historical or cultural connection with it sounds somewhat odd.
+					Previous scholarly work has shown the importance of liturgy, language, and
+					Church institutions in maintaining cohesion in the community in both the Middle
+					East <note place="foot" xml:id="ftn1" n="1"><p xml:lang="en"> 1 M. Calder,
+							“Syrian Identity in Bethlehem: From Ethnoreligion to Ecclesiology” (<hi
+								rend="italic">Iran and the Caucasus</hi> 20 [2016]), 297-323; T.
+							Jarjour, “Ḥasho: Music Modality and the Economy of Emotional Aesthetics”
+								(<hi rend="italic">Ethnomusicology Forum</hi>, 24:1 [2015]), 51-72;
+							H. Murre-Van den Berg, “A Center of Transnational Syriac Orthodoxy: St.
+							Marks’ Convent in Jerusalem” (<hi rend="italic">Journal of Levantine
+								Studies</hi> 3:1 [2013]), 59-81. </p></note> and the West <note
+						place="foot" xml:id="ftn2" n="2"><p xml:lang="en"> 2 See H. Armbruster, “<hi
+								rend="italic">Wir sprechen die Sprache, die Jesus gesprochen hat”:
+								die Vergangenheit in der Gegenwart syrisch-orthodoxer ChristInnen,
+								AssyrerInnen in Wien</hi> (Vienna: University of Vienna, Master’s
+							thesis, 1994); N. Atto, <hi rend="italic">Hostages in the Homeland,
+								Orphans in the Diaspora: Identity Discourses among the
+								Assyrian/Syriac Elites in the European Diaspora</hi> (Leiden: Leiden
+							University Press, Doctoral thesis, 2011); S. Bakker Kellog, “Ritual
+							sounds, political <pb n="217"/> echoes: Vocal agency and the sensory
+							cultures of secularism in the Dutch Syriac diaspora” (<hi rend="italic"
+								>American Ethnologist</hi> 42,3 [2015]): 431-445; G. Kiraz, <hi
+								rend="italic">The Syriac Orthodox in North America (1895-1995). A
+								Short History</hi> (Piscataway: Gorgias Press, 2019); A. Schmoller
+							(ed.), <hi rend="italic">Middle Eastern Christians and Europe:
+								Historical Legacies and Present Challenges</hi> (Vienna: Lit, 2018).
+						</p></note> . However Western societies <pb n="217"/> pose challenges in
+					“how to preserve the Syriac culture, the hallmark of the Syriac liturgical
+					tradition, in the host societies.” <note place="foot" xml:id="ftn3" n="3"><p
+							xml:lang="en"> 3 K. Dinno, <hi rend="italic">The Syrian Orthodox
+								Christians in the Late Ottoman Period and Beyond. Crisis then
+								Revival</hi> (Piscataway: Gorgias Press, 2017), 311. </p></note>
+					Most studies on Syriac Orthodoxy emphasize its history of suffered violence as a
+					“shared story of displacement” <note place="foot" xml:id="ftn4" n="4"><p
+							xml:lang="en"> 4 Calder, “Syrian Identity in Bethlehem,” 302.
+						</p></note> (which includes <hi rend="italic">Sayfo</hi>, forced migration
+					from Edessa, and the absence of official recognition under the Turkish
+					Republic). As a result, religious traditions, such as the Beth Gazo (Syriac
+					liturgical hymns), are envisioned as sources of healing: “The loss of the
+					musical treasure of the church is a story of violence, repression, and
+					marginalization. Singing the melodies that remain is an act of reconstructing
+					identity out of history’s kaleidoscope,” writes Sarah Bakker Kellogg. <note
+						place="foot" xml:id="ftn5" n="5"><p xml:lang="en"> 5 Bakker Kellog, “Ritual
+							sounds,” 441. </p></note> Mark Calder has shown in the case of the
+					Syriac Orthodox in Bethlehem that the very notion of <hi rend="italic"
+						>ecclesia</hi> facilitates the flexibility of community boundaries and the
+					integration of Non-Syriac through the liturgy. <note place="foot" xml:id="ftn6"
+						n="6"><p xml:lang="en"> 6 See Calder, “Syrian Identity in Bethlehem.”
+						</p></note> Many of these studies also highlight the innovations taking
+					place in the diasporas (they will be discussed elsewhere in this paper). </p>
+				<p> Yet the absence of a Syriac Orthodox past and transmitted ritual practice makes
+					the Guatemalan case fascinating. This article examines the emerging
+					consolidation of a Syriac Orthodox archdiocese in Guatemala between the early
+					2000s and late 2018, when the field work was carried out, with some reference to
+					the visit of Patriarch Ephrem II Karim in November 2019. I am concerned with
+					Syriac Orthodoxy as a tradition defined by Church leaders for Guatemala and
+					subsequently adapted there as an alien <pb n="218"/> tradition through
+					negotiation between the local clergy and lay people (including women). The
+					process of “Syriacization” comprises not only the theology, the liturgy, the
+					sacraments, but also visual, sensorial, and behavioral aspects. This raises the
+					question of what the Church leadership considers necessary and contingent to its
+					tradition. By the same token, Guatemalan Syriac Orthodoxy informs us about what
+					makes its appeal to local communities. Through this union the Syriac Orthodox
+					Church has been able to engage in a dynamic of growth outside the Middle East,
+					India, and its diaspora communities, and (re)claim a universal scope grounded in
+					the event of Antioch (Acts 11), where, for the first time, the disciples of
+					Christ were called “Christians” and Gentiles incorporated into the nascent
+					community </p>
+				<p> The studies mentioned above highlight the tensions between innovation and
+					traditional authority and have studied different aspects of tradition. For the
+					late Patriarch Ignatius Zakka I Iwas tradition “is, basically, the spiritual
+					teaching we have inherited from the Holy Apostles and Church Fathers. Tradition
+					is divine, apostolic or patriarchal.” <note place="foot" xml:id="ftn7" n="7"><p
+							xml:lang="en"> 7 Mor Ignatius Zakka I Iwas, “Tradition” (Patriarchal
+							Magazine [January-March, 1990], pp. 91-93). </p></note> Though for the
+					Patriarch “tradition” constituted foremost a source of legitimacy, the case of
+					Guatemala questions “tradition” in its various dimensions; its content, its
+					modes of transmission, its confrontation with other already-existing traditions,
+					and the negotiations, tensions, and modifications resulting from it. Edward
+					Shils defined “tradition” as “anything which is transmitted or handed down from
+					the past to the present.” <note place="foot" xml:id="ftn8" n="8"><p
+							xml:lang="en"> 8 E. Shils, <hi rend="italic">Tradition</hi> (Chicago:
+							University of Chicago Press, 1981), 12. </p></note> Such a broad
+					definition, together with his conceptual framework outlined in his article <note
+						place="foot" xml:id="ftn9" n="9"><p xml:lang="en"> 9 E. Shils, “Tradition”
+								(<hi rend="italic">Comparative Studies in Society and History</hi>
+							13:2 Special Issue on Tradition and Modernity [1971]), 122-159.
+						</p></note> and book provide a useful and complex approach to the evolution
+					of Syriac Orthodoxy in Guatemala, starting with a “charismatic figure” who broke
+					with the Roman Catholic Church (Part One of the article) <pb n="219"/> and
+					subsequently needed “rationalization,” while Syriac Orthodox figures defined a
+					tradition for Guatemala (Part Two). The concept elaborated by Shils questions
+					the modes of transmission (Part Three) as well as the process of acceptance
+					(Parts Four and Five), and examines the rationales behind accepting a tradition
+					(Part Six). </p>
+				<p> This study adopts a pluri-disciplinary approach using field work conducted in
+					Los Angeles and Guatemala in 2018 (qualitative interviews, informal
+					conversations, participant observation) <note place="foot" xml:id="ftn10" n="10"
+							><p xml:lang="en"> 10 Persons under the rank of bishop are quoted
+							anonymously. Field work was conducted in Los Angeles in August 2018 and
+							in Guatemala in November 2018 in the city of San Juan Comalapa,
+							Chimaltenango, and the municipality of San Juan Sacatepéquez, where I
+							joined the bishop of the Archdiocese. I also carried out participant
+							observations in the absence of the archbishop in both Los Angeles and
+							Guatemala. Information was also gathered from the Roman Catholic Church
+							in Guatemala through written statements from, and informal conversations
+							with, Roman Catholics in Comalapa. </p></note> as well as sources in
+					Spanish, Arabic, and English produced by the Archdiocese, <note place="foot"
+						xml:id="ftn11" n="11"><p xml:lang="en"> 11 The website of the Archdiocese of
+							Central America (icergua.com), in particular the <hi rend="italic"
+								>noticias</hi> tracing the daily activities of the bishop since
+							2003, as well as the handbooks for the liturgy, for baptism, etc., were
+							useful in tracing the evolution of the movement which eventually became
+							Syriac Orthodox. </p></note> by Syriac Orthodox Church figures, and by
+					the Roman Catholic Church. Another source was the social media, in particular
+					the Facebook pages of the clergy in Guatemala, of the Archdiocese, and of the
+					Patriarchate. </p>
+				<p> Part One of this study discusses the original break from the Roman Catholic
+					Church. Part Two describes the search for an “apostolic” tradition in the
+					context of the non-negotiable part of Syriac Orthodox tradition. Parts Three and
+					Four are concerned with ritual and with the visual process of “Syriacization,
+					respectively.” Part Five examines the ecclesiological framework of the
+					Archdiocese. And Part Six explores the core narratives conveyed by the
+					Archdiocese. </p>
+			</div>
+			<div xml:id="hv23n2hager.1">
+				<head>PART ONE: BREAKING WITH ROMAN CATHOLIC TRADITION</head>
+				<p xml:lang="en"> As Edward Shils noted in 1971, “A person who arrives in a
+					situation which is new to him […] comes into an ongoing situation.” <note
+						place="foot" xml:id="ftn12" n="12"><p xml:lang="en"> 12 E. Shils,
+							“Tradition,” 125. </p></note> The story of the Syriac Orthodox
+					Archdiocese in Guatemala starts with the tremendous religious shifts that took
+					place in recent decades as a result of which the Roman Catholic Church lost its
+					monopoly and new religious beliefs and practices emerged, creating tensions. A
+					“charismatic” figure, the former Roman Catholic priest Eduardo Aguirre Oestmann,
+					from a Guatemalan European upper middle-class background, became the driving
+					force behind the movement, eventually joining the Syriac Orthodox Church in
+					2013. Such charismatic figures appear as “breaker[s] of traditions,” <note
+						place="foot" xml:id="ftn13" n="13"><p xml:lang="en"> 13 E. Shils, <hi
+								rend="italic">Tradition</hi>, 228. </p></note> who, according to
+					Shils: </p>
+				<cit>
+					<quote><p xml:lang="en">may be regarded as both an exogenous and an
+					endogenous change. It is exogenous in the sense that it probably occurs under
+					particular circumstances of disorder and of the failure of institutions. But it
+					is endogenous insofar as a personality and mind of originality of imagination
+					perceives a profound gap in the adequacy of the prevailing tradition and seeks
+					to fill that gap, while acknowledging his derivation from it <note place="foot"
+						xml:id="ftn14" n="14"><p xml:lang="en"> 14 Ibid, 229. </p></note></p></quote>
+				</cit>
+				<p xml:lang="en"> In 2003, Fr. Eduardo Aguirre Oestmann (subsequently Fr. Eduardo)
+					established a lay and clerical movement of “renewal” in Guatemala. He completed
+					a doctorate in Sacred Theology at the Gregorian Institute in Rome <note
+						place="foot" xml:id="ftn15" n="15"><p xml:lang="en"> 15 Bishop Mor Eduardo
+							Aguirre Oestmann, personal interview, 23 November 2018 at San Lucas
+							Sacatepéquez. Subsequently quoted as “Aguirre Oestmann, personal
+							interview.” </p></note> and was among other things the director of a
+					youth pastoral program <pb n="221"/> in a Roman Catholic diocese in Guatemala.
+						<note place="foot" xml:id="ftn16" n="16"><p xml:lang="en"> 16 Mor Santiago
+							Eduardo, “Icergua: Introducción a la biografía de Monseñor Eduardo
+							Aguirre Oestmann.” </p></note> He later founded a seminary. <note
+						place="foot" xml:id="ftn17" n="17"><p xml:lang="en"> 17 Aguirre Oestmann,
+							personal interview. </p></note> The stated goal of the movement he
+					established in 2003 was to shift the locus of the Church to the deep local
+					level, following the supposed model of the early Church at Pentecost, and thus
+					to “rediscover and again fully live with all its characteristics the one, holy,
+					and apostolic Church that Christ established when he sent the Holy Spirit on the
+					Apostles the day of Pentecost.” <note place="foot" xml:id="ftn18" n="18"><p
+							xml:lang="en"> 18 Mor Santiago Eduardo, “Icergua: entrevista con el
+							obispo en Ahuachapán el Salvador.” </p></note> The movement quickly
+					attracted mostly poor rural Mayan communities in several parts of the country,
+					particularly Huehuetenango near the Mexican border, El Quiché, and San Juan
+					Comalapa. Fr. Eduardo’s activities caught the attention of the Propaganda de
+					Fide in the early 2000s, which required him to profess the Catholic faith,
+					submit to the authority of the Pope, and cease all pastoral activity. <note
+						place="foot" xml:id="ftn19" n="19"><p xml:lang="en"> 19 Aciprensa,
+							“Sacerdote que fundó,” 2006. </p></note> Except for professing the
+					Catholic faith, the priest rejected all these demands and was excommunicated in
+					2006. This did not prevent the movement from growing: in 2004 it comprised 130
+					communities of 50,000 persons, predominantly in the departments of Huehuetenango
+					and El Quiché <note place="foot" xml:id="ftn20" n="20"><p xml:lang="en"> 20
+							Icergua, “Asamblea Nacional 2005; informe sobre la situación de la
+							comunión a la II asamblea nacional,” November 2005. </p></note> ; but by
+					2010 it had half a million participants. <note place="foot" xml:id="ftn21"
+						n="21"><p xml:lang="en"> 21 Icergua, “Icergua: llegua al medio millón de
+							miembros,” 22 December 2010. </p></note> In a letter addressed to his
+					followers in 2006, Fr. Eduardo wrote that he had answered “the clamor of
+					hundreds of communities and 100,000s of brothers who […] were abandoned,
+					marginalized, mistreated, rejected, and, in many cases, denied access to the
+					sacraments.” <note place="foot" xml:id="ftn22" n="22"><p xml:lang="en"> 22
+							Icergua, “Relación Con Roma,” 15 August 2006. </p></note> In an
+					interview with the author, he recalled that in 2002, </p>
+				<pb n="222"/>
+				<cit><quote><p xml:lang="en"> I started having the experience that the Lord
+					had entrusted me with a new mission […] I felt a call to resign from all my
+					positions […]. [In] 2003 […] after eleven months of prayer, some people came to
+					knock at our door: they have been left out of the [Church], because they were
+					Charismatics […] [There] were many, many in that situation. The mission grew
+					very, very fast, but the rough moment in the relationship with the [Roman]
+					Catholic Church was when Comalapa joined us. <note place="foot" xml:id="ftn23"
+						n="23"><p xml:lang="en"> 23 Aguirre Oestmann, personal interview.
+						</p></note>
+				</p></quote></cit>
+				<p xml:lang="en"> As Fr. Eduardo mentioned here, his movement attracted two
+					different groups, “Charismatics” and <hi rend="italic">cofradías</hi> in the
+					city of Comalapa, both of which had long-standing tensions with the Roman
+					Catholic Church. In 2011, “traditional Catholics” constituted only 27% of the
+					country’s Christian population, whereas the revivalist Pentecostals and
+					Charismatic Catholics comprised 25% and 27% respectively. <note place="foot"
+						xml:id="ftn24" n="24"><p xml:lang="en"> 24 D. Jacobsen, <hi rend="italic"
+								>The World’s Christians: Who They Are, Where They Are, and How They
+								Got There</hi> (Chichester: Wiley-Blackwell, 2011), 207. </p></note>
+					The Catholic Charismatic Renewal (<hi rend="italic">Renovación Carismática
+						Católica</hi>, called “<hi rend="italic">la renovación,</hi>” subsequently
+					CCR <note place="foot" xml:id="ftn25" n="25"><p xml:lang="en"> 25 To avoid
+							ambiguities, “Charismatic” with a capital “C” refers to the Catholic
+							Charismatic Renewal (CCR), whereas “charismatic” refers to the model of
+							the charismatic figure described by Edward Shils. </p></note> ) is a
+					movement that emerged within Roman Catholicism in reaction to, or in parallel
+					with, the general rise of Pentecostal movements. It similarly emphasizes the
+					working of the Holy Spirit and the idea of a personal “conversion experience,”
+						<note place="foot" xml:id="ftn26" n="26"><p xml:lang="en"> 26 O. Compagnon,
+							“La crise du catholicisme latino-américain” (<hi rend="italic"
+								>L'Ordinaire des Amériques</hi> 210 [2008]). </p></note> but insists
+					on the importance of also receiving the sacraments and attending the liturgy.
+						<note place="foot" xml:id="ftn27" n="27"><p xml:lang="en"> 27 J-L Benoit,
+							“Religion populaire et crise identitaire en Amérique latine” (<hi
+								rend="italic">Amerika</hi> 6 [2012]). </p></note> The attitude of
+					the Roman Catholic Church in Guatemala towards the CCR has been ambivalent,
+					hesitating <pb n="223"/> between approval <note place="foot" xml:id="ftn28"
+						n="28"><p xml:lang="en"> 28 In 1986 the Episcopal Conference of Guatemala
+							issued a document establishing the framework for Catholic Charismatic
+							Renewal (see “66: Renovados en el Espíritu. Instrucción pastoral
+							colectiva de los obispos de Guatemala sobre le renovación carismática”.
+							In <hi rend="italic">Al servicio de la vida, la justicia y la paz
+								(1956-1997)</hi>, 30 March 1986). </p></note> and condemnation. One
+					area that eventually became Syriac Orthodox and joined the movement very early
+					was Huehuetenango, where the CRR was forbidden until 2012 and developed
+					illegally. <note place="foot" xml:id="ftn29" n="29"><p xml:lang="en"> 29 J.
+							Thorsen, “El impacto de la renovación carismática en la Iglesia católica
+							de Guatemala” (<hi rend="italic">Anuario de Estudios
+								Centroamericanos</hi> 42:1 [2016]), 213-236, 216. </p></note>
+				</p>
+				<p xml:lang="en"> In his comment above, Fr. Eduardo mentioned the mainly
+					K’aqchiqel-Maya city of San Juan Comalapa, Chimaltenango, located 50 miles (80
+					km) from Guatemala City in a somewhat isolated area. There the conflict with the
+					Roman Catholic Church involved the role of the <hi rend="italic">cofradías</hi>,
+					lay religious brotherhoods organized around local rites, in this case those of
+					the colonial San Juan Bautista church, famous for its many wooden statues of
+					Christ, Mary, and the saints. In the 1950s Catholic Action, a movement endorsed
+					by the Church, arrived in Comalapa and, in an attempt to promote more orthodox
+					Roman Catholic practices, alienated the <hi rend="italic">cofradías</hi>, who
+					consider themselves the guardians of the syncretic Catholic-Mayan culture and
+					the interests of the people. <note place="foot" xml:id="ftn30" n="30"><p
+							xml:lang="en"> 30 See Cofradía Catedral de San Juan Bautista, “La
+							verdadera historia de la Iglesia San Juan Bautista. San Juan Comalapa,
+							Chimaltenango, Guatemala Centro América,” 2008. </p></note> Tensions
+					escalated and in 1968 one person was killed. Subsequently, people attending the
+					San Juan church and attached to the <hi rend="italic">cofradías</hi> complained
+					about pastoral neglect by the Roman Catholic Church. <note place="foot"
+						xml:id="ftn31" n="31"><p xml:lang="en"> 31 See Hager, “The Emergence of a
+							Syriac Orthodox Mayan Church in Guatemala” (<hi rend="italic"
+								>International Journal of Latin American Religions</hi> 3:2 [2019]),
+							370–389, 374-375. </p></note>
+				</p>
+				<p xml:lang="en"> Another important factor was the civil war from the 1960s to the
+					1990s, which severely affected the indigenous Mayas, who represent 45-60% of the
+					population. <note place="foot" xml:id="ftn32" n="32"><p xml:lang="en"> 32 H-J.
+							Prien, <hi rend="italic">Das Christentum in Lateinamerika. IV.6.
+								Kirchengeschichte in Einzeldarstellungen</hi> (Leipzig: Evangelische
+							Verlagsanstalt, 2007), 395-6. </p></note> A fact-finding commission
+					established that the violence on the part of the army constituted genocide
+					against the Mayas: 100,000 to 150,000 people were killed or disappeared and
+					200,000 Mayans fled to Mexico. <note place="foot" xml:id="ftn33" n="33"><p
+							xml:lang="en"> 33 V. Sandford, “From Genocide to Feminicide: Impunity
+							and Human. Rights in Twenty-First Century Guatemala” (<hi rend="italic"
+								>Journal of Human Rights</hi> 7 [2008]), 104–122, 106. </p></note>
+					Although it is not possible to establish a direct causal relation between the
+					violence and the communities joining Fr. Eduardo’s movement, many of them were
+					located in the areas affected, including Chajul in El Quiché, Huehuetenango, and
+					Comalapa. Also, though the Mayan population constitutes only around half of the
+					general population, they comprise 95% of the Archdiocese. <note place="foot"
+						xml:id="ftn34" n="34"><p xml:lang="en"> 34 Aguirre Oestmann, personal
+							interview. Currently 21 Mayan and two non-Mayan languages are officially
+							recognized alongside Spanish (S. Davis, “Mouvement maya et culture
+							nationale au Guatemala,” <hi rend="italic">Journal de la société des
+								américanistes</hi> 90:2 [2004]). </p></note> In his first pastoral
+					letter, issued in 2007, Fr. Aguirre explicitly connected the war with the growth
+					of his movement: “A great many [communities] are in areas that suffered under
+					the armed conflict, having been persecuted, slaughtered, and displaced: it is no
+					coincidence.” <note place="foot" xml:id="ftn35" n="35"><p xml:lang="en"> 35 A.
+							Hager, “The Emergence of a Syriac Orthodox Mayan Church in Guatemala,”
+							373. </p></note>
+				</p>
+				<p xml:lang="en"> Fr. Eduardo’s movement of <hi rend="italic">renovación </hi>thus
+					filled needs felt by a diverse set of communities, Charismatics in Huehuetenango
+					and syncretic Roman Catholic Mayas in Comalapa. These were spiritual,
+					sacramental, and pastoral needs. All these communities displayed a deep
+					attachment to the form of Christianity they practiced. The movement he
+					envisioned in 2003, which he named <hi rend="italic">Santa María del Nuevo
+						Éxodo</hi> (“Saint Mary of the New Exodus”) and later <hi rend="italic"
+						>Iglesia Católica Ecuménica Renovada</hi> (“Catholic, Ecumenical, Renewed
+					Church,” Icergua), was a <hi rend="italic">renovación </hi> to the extent that,
+					like the Roman Catholic Church itself, he promoted conversion while <pb n="225"
+					/> insisting on the importance of the sacraments and liturgy, especially the
+					Eucharist: “The adoration of the Holy Sacrament constitutes the marker of our whole
+					spirituality and the deeds of piety that we undertake.” <note place="foot"
+						xml:id="ftn36" n="36"><p xml:lang="en"> 36 Icergua, “Acta Fundacional de la
+							Comunión,” 25 March 2003. </p></note> A community leader in Los Angeles
+					but originally from Huehuetenango recalled to the author that, as Charismatics,
+					they were denied sacraments by the Roman Catholic Church. By contrast CCR, as
+					defined by the Roman Catholic Church in 1986, decisively took Jesus Christ as
+					the starting point for any type of renewal, something Fr. Eduardo did not. <note
+						place="foot" xml:id="ftn37" n="37"><p xml:lang="en"> 37 See Episcopal
+							Conference of Guatemala, “66: Renovados en el Espíritu. Instrucción
+							pastoral colectiva de los obispos de Guatemala sobre le renovación
+							carismática,” 409. </p></note> Instead he focused on the work of the
+					Holy Spirit: “Guided by the force of the Spirit, we offer our whole existence in
+					order to be instruments [...] that the Gospel be perceived by every human being
+					as the answer to the new realities, problems, and perspectives that have emerged in
+					the contemporary world.” <note place="foot" xml:id="ftn38" n="38"><p
+							xml:lang="en"> 38 Icergua, “Acta Fundacional de la Comunión,” 25 March
+							2003. </p></note> He thus could appeal to the spiritual needs of the
+					communities, while his commitment to return to the early Church appealed to a
+					desire for local control and lay involvement in the communities’ rituals. </p>
+				<p xml:lang="en"> As Edward Shils noted, “The charismatic message becomes
+					rationalized, elaborated, clarified, fortified to withstand criticisms from
+					rival traditions,” <note place="foot" xml:id="ftn39" n="39"><p xml:lang="en"> 39
+							E. Shils, <hi rend="italic">Tradition</hi>, 230. </p></note> such as
+					excommunication by the Roman Catholic Church in 2006. Fr. Eduardo therefore
+					began to examine other “apostolic” traditions. </p>
+			</div>
+			<div xml:id="hv23n2hager.2">
+				<head>PART TWO: TOWARDS UNION AND THE STRUCTURAL FRAMEWORK OF A NEW TRADITION</head>
+				<p xml:lang="en"> As more and more communities in Guatemala joined the movement,
+					while rites were elaborated which apparently <pb n="226"/> differed from Roman
+					Catholic practices, there arose a need for legitimization. Shils notes:
+					“[R]ecommended is not a search for just any traditional belief or practice. […]
+					Sometimes the search goes ʻabroad’ and finds once or still accepted beliefs and
+					practices which are thought to be more valid than the current beliefs and practices” <note
+						place="foot" xml:id="ftn40" n="40"><p xml:lang="en"> 40 Shils, “Tradition,”
+							133. </p></note> –something the Syriac Orthodox Church seemed to
+					provide. There were, however, other factors explaining the choice of this Church
+					over some other Eastern or Oriental Orthodox tradition. And, as of late 2018,
+					incorporating with the Syriac Orthodox Church is an ongoing process. </p>
+				<p xml:lang="en"> According to his own accounts, Fr. Eduardo always identified
+					Orthodoxy as “the best expression of the early Church.” <note place="foot"
+						xml:id="ftn41" n="41"><p xml:lang="en"> 41 Aguirre Oestmann, personal
+							interview. </p></note> Contacts with the Eastern Orthodox Churches
+					started in the late 2000s after prior contacts with the Old Catholic Church of
+					Utrecht and the “Brazilian Catholic Church” (which ordained him Bishop). <note
+						place="foot" xml:id="ftn42" n="42"><p xml:lang="en"> 42 See A. Seraphim,
+							“Orthodox Mission in the Twenty-First Century: Guatemala” (<hi
+								rend="italic">The Glastonbury Review</hi> 126 [2015]). </p></note>
+					Upon closer acquaintance, Fr. Eduardo came to consider the Old Catholics of
+					Utrecht as “too close to the Anglicans and the Lutherans and we were looking for
+					something more apostolic.” <note place="foot" xml:id="ftn43" n="43"><p
+							xml:lang="en"> 43 Aguirre Oestmann, personal interview. The term
+							“apostolic” will be discussed in Part Six. </p></note> Dialogue with the
+					Eastern Orthodox Church was well under way when the latter requested Fr. Eduardo
+					and his clergy to be baptized and chrismated, something he rejected. <note
+						place="foot" xml:id="ftn44" n="44"><p xml:lang="en"> 44 Ibid. </p></note> In
+					the end the bishop described his path towards the Syriac Orthodox Church
+					(instead of another Oriental Orthodox Church) as the result of divine
+					intervention: “To tell you the truth, it was nothing that came from readings, or
+					from [the Church] Fathers, it was something that the Lord put into my heart […]
+					I cannot tell you why we opted for the <pb n="227"/> Syriac Orthodox Church and
+					not for the Coptic [Orthodox Church]. God put us in the presence of the SOC.”
+						<note place="foot" xml:id="ftn45" n="45"><p xml:lang="en"> 45 Ibid.
+						</p></note>
+				</p>
+				<p xml:lang="en"> The first contacts took place in 2010, when Fr. Eduardo approached
+					the Syriac Orthodox bishop for the Western United States, Clemis Eugene Kaplan
+					(subsequently “Bishop Clemis”). <note place="foot" xml:id="ftn46" n="47"><p
+							xml:lang="en"> 46 B. M. C. E. Kaplan, personal interview, 21 August 2018
+							in Burbank. Cited subsequently as “Kaplan, personal interview.”
+						</p></note> This was followed by a first official visit in April 2011. <note
+						place="foot" xml:id="ftn47" n="47"><p xml:lang="en"> 47 SOC-WUS, “His
+							Eminence Mor Clemis Eugene welcomed Bishop Eduardo of Guatemala,” 9
+							April 2011. </p></note> More than seven meetings took place in
+					California, <note place="foot" xml:id="ftn48" n="48"><p xml:lang="en"> 48
+						SOC-WUS, ""<foreign xml:lang="ar">صفحةٌ تأريخية في تاريخ الكنيسة السريانية الأرثوذكسية</foreign>
+						</p></note> followed by one in Guatemala in August 2012. As Bishop Clemis
+					recalled, the dialogue initially emphasized matters of creed. <note place="foot"
+						xml:id="ftn49" n="49"><p xml:lang="en"> 49 Kaplan, personal interview.
+						</p></note> Simultaneously, Fr. Eduardo and his clergy were submitted to an
+					intense introduction to “the teachings of our Church,” “the “study of the holy
+					book,” and “theological sources,” and for the first time celebrated a mass in
+					Guatemala according to the Syriac liturgy–though in Spanish. <note place="foot"
+						xml:id="ftn50" n="50"><p xml:lang="en"> 50 SOC-WUS, “[From the Archive].”
+						</p></note> This probably occurred in the summer of 2012, when the secretary
+					of Bishop Clemis instructed Bishop Eduardo on how to perform the Syriac liturgy.
+						<note place="foot" xml:id="ftn51" n="51"><p xml:lang="en"> 51 Icergua, “02:
+							Primera celebración de la divina liturgia de Santiago por nuestro
+							Obispo,” 2 August 2012. </p></note> Following his visit to Guatemala in
+					August 2012, Bishop Clemis submitted a report to the Holy Synod which, though it
+					did not specify the exact changes implemented so far, stated that Fr. Eduardo
+					and his clergy had been trained in “the proper procedures for the Syriac Rite.”
+						<note place="foot" xml:id="ftn52" n="52"><p xml:lang="en"> 52 M.C.E. Kaplan,
+							“Historical Moment in the History of the Syriac Orthodox Church,” given
+							to the author on 21 August 2018 in Burbank. </p></note> An episcopal
+					committee subsequently discussed this report and thoroughly questioned <pb
+						n="228"/> Bishop Eduardo. <note place="foot" xml:id="ftn53" n="53"><p
+							xml:lang="en"> 53 Kaplan, personal interview. </p></note> During the
+					same period, the Bishop reportedly consulted his communities, seeking their
+					approval for the union. <note place="foot" xml:id="ftn54" n="54"><p
+							xml:lang="en"> 54 Aguirre Oestmann, personal interview. </p></note> When
+					the union was finalized in March 2013, he was only tonsured a monk and given the
+					name of Jacob (Spanish Santiago) in memory of Jacob Baradeus (6<hi
+						rend="superscript">th</hi> century). <note place="foot" xml:id="ftn55"
+						n="55"><p xml:lang="en"> 55 Icergua, “05: Tonsura de nuestro obispo como
+							monje, por su Santidad Ignacio Zaqueo I Iwas,” 5 March 2013. </p></note>
+					Patriarch Ignatius Zakka I Iwas further recognized in the encyclical of March
+					2013 that created the Archdiocese of Central America, comprising Guatemala,
+					Mexico, Central America, the Caribbean islands, and Venezuela. <note
+						place="foot" xml:id="ftn56" n="56"><p xml:lang="en"> 56 Icergua, “05:
+							Encíclicas de su santidad Ignacio Zaqueo I, concernientes a nuestra
+							iglesia,” 5 March 2013. </p></note> This recognition as an <hi
+						rend="italic">archdiocese</hi> rather than as a patriarchal vicariate
+					ensures Fr. Eduardo of maintaining significant autonomy and leverage. Prior to
+					the mid-1990s, the United States and Canada had formed a single archdiocese
+					under Archbishop Samuel, which then split into three patriarchal vicariates
+					(Canada, the Western United States under Bishop Clemis, and the Eastern United
+					States under Bishop Cyril Karim until he was elected Patriarch Ephrem II Karim
+					in 2014), ensuring more control by the Patriarchate in Damascus. <note
+						place="foot" xml:id="ftn57" n="57"><p xml:lang="en"> 57 Kiraz, <hi
+								rend="italic">The Syriac Orthodox in North America</hi>, 256.
+						</p></note> According to Bishop Eduardo, when Bishop Karim was elected
+					Patriarch, he wished to turn the Archdiocese of Central America into a
+					patriarchal vicariate, something the former refused; “If [the] archdiocese is
+					not valid, we don’t know if [we are] still part of Syriac Orthodox [Church].”
+						<note place="foot" xml:id="ftn58" n="58"><p xml:lang="en"> 58 Aguirre
+							Oestmann, personal interview. </p></note>
+				</p>
+				<p xml:lang="en"> The creation of the Archdiocese of Central America is thus the
+					result of an increasingly global Syriac Orthodox Church, with Bishop Clemis and
+					his secretary playing a major role. The early stages of the union indicated how
+					the Syriac Orthodox hierarchy envisioned this unprecedented historical <pb
+						n="229"/> event, <note place="foot" xml:id="ftn59" n="59"><p xml:lang="en">
+							59 Etienne Naveau studied the case of a priest in Indonesia who
+							established a small Syriac Orthodox community and Institute for Syriac
+							Christian Studies which has not been officially recognized by and
+							integrated into the Syriac Orthodox Church (“Les orthodoxes syriaques
+							d’Indonésie” (<hi rend="italic">Les Cahiers de l'Orient</hi> 93:1
+							[2009]), 111-124). </p></note> the idea prevailing that the Church was
+					answering a plea “after having studied the request asking to form part of our
+					apostolic see of Antioch.” <note place="foot" xml:id="ftn60" n="60"><p
+							xml:lang="en"> 60 Icergua, “05: Encíclicas de su santidad Ignacio Zaqueo
+							I, concernientes a nuestra iglesia,” 5 March 2013. </p></note> Bishop
+					Clemis’ secretary wrote, “The Syriac Orthodox see of Antioch empathizes with
+					[the people in Guatemala], she is interested in their affairs and strives to
+					improve their spiritual conditions.” <note place="foot" xml:id="ftn61" n="61"><p
+							xml:lang="en"> 61 SOC-WUS, “[From the Archive].” </p></note> He also
+					spoke of a “desire” for “complete fusion with [<hi rend="italic">indimāj</hi>]
+					the body of our Syriac Church.” Similarly, in the document submitted to the Holy
+					Synod, Bishop Clemis wrote of “com[ing] into the embrace of the Syriac Orthodox
+					Church of Antioch.” <note place="foot" xml:id="ftn62" n="62"><p xml:lang="en">
+							62 Kaplan, “Historical Moment in the History of the Syriac Orthodox
+							Church.” </p></note> The terms used in Arabic and English by the Syriac
+					Orthodox Church suggest a more far-reaching process than the word used in
+					Spanish, <hi rend="italic">unión</hi>, which implies a certain level of
+					equality. According to Bishop Clemis, this process further entailed a “total
+					submission to the presidency of His Holiness the Supreme Pontiff of Mor Ignatius
+					Zakaa I Iwas, the Supreme Head of the Universal Syriac Orthodox Church and its
+					teachings-Semitism and the apostolic faith.” <note place="foot" xml:id="ftn63"
+						n="63"><p xml:lang="en"> 63 Ibid. The terms “Semitism” and “apostolic faith”
+							will be discussed in Part Six. </p></note> The encyclical issued in
+					March 2013 by the Patriarch also emphasized obedience to “the faith, doctrine,
+					and liturgy of the One, Holy, Catholic, and Apostolic Church.” <note
+						place="foot" xml:id="ftn64" n="64"><p xml:lang="en"> 64 Icergua, “05:
+							Encíclicas de su santidad Ignacio Zaqueo I, concernientes a nuestra
+							iglesia,” 5 March 2013. In the Spanish version all these adjectives are
+							written with capital letters; but to avoid confusion with the Roman
+							Catholic Church, “catholic” will be used here without a capital “c” when
+							that Church is not explicitly meant. </p></note> Concerning the liturgy,
+					Patriarch Igantius Zakka Iwas <pb n="230"/> declared, “In the Archdiocese the
+					liturgical and sacramental rites followed in the Holy Apostolic See of Antioch will be
+					gradually implemented and celebrated according to the texts that we have blessed
+					and delivered to our brother Mor Jacob (Santiago) Eduardo.” <note place="foot"
+						xml:id="ftn65" n="65"><p xml:lang="en"> 65 Icergua, “05: Encíclicas de su
+							santidad Ignacio Zaqueo I, concernientes a nuestra iglesia,” 5 March
+							2013. </p></note>
+				</p>
+				<pb n="230"/>
+				<p xml:lang="en"> These non-negotiable parts of Syriac Orthodox tradition though are
+					subject to the modes of transmission. Edward Shils notes, “The mechanisms of
+					the traditional transmission are always bound to be faulty in some way.” <note
+						place="foot" xml:id="ftn66" n="66"><p xml:lang="en"> 66 E. Shils,
+							“Tradition,” 151. </p></note> They involved the transmission by Syriac
+					Orthodox figures to Aguirre (and his clergy) in written and oral form based on a
+					text. When dialogue was established, the Bishop of Western US began providing
+					Bishop Eduardo with material and instructions in English (including Church
+					Fathers like Philoxenos of Mabbug <note place="foot" xml:id="ftn67" n="67"><p
+							xml:lang="en"> 67 Kaplan, personal interview. </p></note> and the three
+					volumes of <hi rend="italic">The Hidden Pearl</hi>
+					<note place="foot" xml:id="ftn68" n="68"><p xml:lang="en"> 68 Icergua, “07:
+							Visita a Mor Clemis Eugene en su sede arzobispal de Burbank,
+							California,” 7 December 2012. </p></note> ), these discussions again
+					centering on “the differences between the Catholic and the Orthodox Churches.”
+						<note place="foot" xml:id="ftn69" n="69"><p xml:lang="en"> 69 Kaplan,
+							personal interview. </p></note> Bishop Eduardo also worked from Sunday
+					School materials. <note place="foot" xml:id="ftn70" n="70"><p xml:lang="en"> 70
+							Icergua, “20: Visita a la comunidad de fieles de la catedral de San
+							Efrén, Burbank, Californa,” 20 January 2014. </p></note> He then
+					produced handbooks in Spanish for liturgy, baptisms, and weddings which have
+					been revised by the Diocese of the Western United States <note place="foot"
+						xml:id="ftn71" n="71"><p xml:lang="en"> 71 Icergua, “16: Reuniones en St.
+							Ephrem’s Cathedral en Burbank, California,” 16 February 2013.
+						</p></note> and approved by the Patriarch. <note place="foot" xml:id="ftn72"
+						n="72"><p xml:lang="en"> 72 Icergua, “19: El patriarca envía la encíclica de
+							bendición para la publicación del sacramentario de la arquidiócesis,” 19
+							June 2017. </p></note> The handbooks employ drawings and very simple
+					language (“the Holy Spirit is like the sun which provides energy to the grain
+						<pb n="231"/> of faith” <note place="foot" xml:id="ftn73" n="73"><p
+							xml:lang="en"> 73 ICASOA, <hi rend="italic">Guía para la formación
+								catequética en preparación a la iniciación cristiana</hi> (San Lucas
+							Sacatepéquez: Editorial Nuevo Éxodo, colección didaché 1 [4]), 22.
+						</p></note> ), and outline didactic training methods for clergy and
+					catechists. Besides these handbooks, Bishop Eduardo also uses the website of the
+					Archdiocese (icergua.com), which features all the material, Patriarchal
+					encyclicals (translated into Spanish), and the Bishop’s activities (under the
+					heading <hi rend="italic">noticias</hi>), which are also given on the latter’s
+					Facebook page. Although the dissemination and use of the handbooks may be
+					limited in the Archdiocese, their content is further promulgated through the
+					Bishop’s sermons and talks during his travels through the Archdiocese performing
+					church services and training clergy and active laity. Bishop Eduardo combines
+					speeches and liturgy with didactic methods, thus closely interacting with the
+					communities. Here language is crucial, for the clergy and laity rarely speak
+					English and only have access to what is produced in Spanish by the Bishop or
+					translated into a Mayan language for those–and there are still many, especially
+					among the older generation–who are not fluent in Spanish. <note place="foot"
+						xml:id="ftn74" n="74"><p xml:lang="en"> 74 One priest told the author that,
+							because they usually do not speak English, in Guatemala the priests and
+							laity have access only to what is available in Spanish, which is
+							exclusively produced by Bishop Eduardo (they do not seem to be aware of
+							the material produced by the Syriac Orthodox diocese of Argentina). In
+							contrast, the Roman Catholic Church produces a tremendous amount of
+							material, including material in the Mayan languages. This situation
+							produces a distorted perception: the priest told the author that he had
+							the feeling Syriac theology was “poor” compared to Roman Catholic
+							theology. </p></note>
+				</p>
+				<p xml:lang="en"> This Part has presented, first, the motivations for union with the
+					Syriac Orthodox Church, second, “Syriac Orthodoxy” as defined by the Church
+					figures involved in the process of union, and, third, the tools of transmission
+					of doctrine. But any discussion of “tradition” would be incomplete without
+					describing how Syriac Orthodoxy was adapted and adopted in the context of
+					Guatemala. </p>
+				<pb n="232"/>
+			</div>
+			<div xml:id="hv23n2hager.3">
+				<head>PART THREE: THE SACRAMENTAL AND LITURGICAL TRADITION</head>
+				<p xml:lang="en"> Though the Syriac Orthodox Church leadership understood this union
+					as an alien community <hi rend="italic">embracing</hi> or <hi rend="italic"
+						>fusing with</hi> its tradition and thus <hi rend="italic">becoming</hi>
+					full members of the Church, Syriac Orthodoxy in fact encountered in Guatemala
+					“an ongoing situation” <note place="foot" xml:id="ftn75" n="75"><p xml:lang="en"
+							> 75 Shils, “Tradition,” 125. </p></note> that included traditional
+					Roman Catholicism, Charismatic Roman Catholicism, and syncretic Roman
+					Catholic-Mayan traditions. Plus, since the mid-2000s Bishop Eduardo had
+					developed and gradually implemented a “renewed Catholic rite” (<hi rend="italic"
+						>rito católico renovado</hi>); <note place="foot" xml:id="ftn76" n="76"><p
+							xml:lang="en"> 76 Icergua, “Primera plática informe acerca de la
+							situación actual de ICERGUA,” November 2008. </p></note> and in 2011 an
+					“Old Catholic” rite was developed with old <hi rend="italic">anaphoras</hi>.
+						<note place="foot" xml:id="ftn77" n="77"><p xml:lang="en"> 77 Icergua, “23:
+							Aprobación ʻad experimentum” del sacramentario católico ortodoxo
+							latino,” 23 August 2011. </p></note> After contacts with the Syriac
+					Orthodox Church were established, further changes were implemented in the
+					sacraments and liturgy. An key element of the way in which changes were adapted
+					and adopted is the strong attachment of the communities to the sacraments and
+					proper pastoral care. </p>
+				<p xml:lang="en"> In a March 2013 encyclical, Patriarch Ignatius Zakka I Iwas
+					stated: “In the archdiocese the liturgical and sacramental rites followed in the
+					Holy See of Antioch will be gradually implemented and celebrated <hi
+						rend="underline">according to the texts</hi> that we have blessed and
+					delivered to our brother Mor Jacob (Santiago) Eduardo [my emphasis].” <note
+						place="foot" xml:id="ftn78" n="78"><p xml:lang="en"> 78 Icergua, “05:
+							Encíclicas de su santidad Ignacio Zaqueo I, concernientes a nuestra
+							iglesia,” 5 March 2013. </p></note> The sacraments of marriage and
+					baptism have been adapted, the latter now also including Chrismation and First
+					Communion in compliance with Syriac Orthodoxy, based on the presumed practice of
+					the early Church and framed in opposition to both Roman Catholic and Pentecostal
+					practices. <note place="foot" xml:id="ftn79" n="79"><p xml:lang="en"> 79 ICASOA,
+								<hi rend="italic">Guía […] preparación a la iniciación
+								cristiana</hi>, 3, 8. </p></note> The handbook on baptism thus
+					reflects Syriac Orthodox views: “Through <pb n="233"/> baptism we are born to a
+					new life (see Jn 3:5), we are purified from sin (Acts 2:38), we achieve in
+					Christ the condition of children of God (Rom. 8:15-16; Gal. 4:5-7), temples of
+					the Holy Spirit (see Acts 2:38), and living members of the Church (1 Cor 12).”
+						<note place="foot" xml:id="ftn80" n="80"><p xml:lang="en"> 80 Ibid, 14.
+						</p></note> The Syriac Orthodox practice of including Chrismation and First
+					Communion emphasizes the central role of the Spirit: the handbook used in
+					Guatemala states, “Through the anointment with Saint Chrism and the imposition
+					of hands, the Holy Spirit and its gifts are received to grow in the life in the
+					Spirit.” <note place="foot" xml:id="ftn81" n="81"><p xml:lang="en"> 81 Ibid, 9.
+						</p></note> The Holy Spirit is indeed the main figure in Syriac Orthodox
+					doctrine: “Anointing with Holy Chrism is considered like receiving the gifts of
+					the Holy Spirit.” <note place="foot" xml:id="ftn82" n="82"><p xml:lang="en"> 82
+							SOC-WUS; Rev. Father John Khoury, “The Seven Living Sacraments,” 29
+							March 2010. </p></note> However, confirmation has been maintained and
+					constitutes an important feature both of Bishop Eduardo’s narrative <note
+						place="foot" xml:id="ftn83" n="83"><p xml:lang="en"> 83 See Part Six.
+						</p></note> and of local community life. The church of San Juan de Comalapa
+					was crowded for the confirmation of over 200 young people attended by the author
+					and was an important event in local community cohesion because of the visible
+					role played by the <hi rend="italic">cofradías</hi> in the Syriac Orthodox
+					Church, though confirmation has also been introduced imitating the Roman
+					Catholic rite <note place="foot" xml:id="ftn84" n="84"><p xml:lang="en"> 84
+							Atto, <hi rend="italic">Hostages in the Homeland</hi>, 245. </p></note>
+					. </p>
+				<p xml:lang="en"> A core element of Syriac Orthodoxy is the West Syriac liturgy of
+					Antioch. In 2013 the late Patriarch Zakka I Iwas agreed to and blessed a special
+					liturgy which included the <hi rend="italic">anamnesis</hi> (memorial of the
+					Last Supper) and <hi rend="italic">epiclesis</hi> (invocation of the Holy Spirit
+					on the bread and wine) of the liturgy of Saint James, <note place="foot"
+						xml:id="ftn85" n="85"><p xml:lang="en"> 85 Icergua, “01: Encuentro de
+							nuestro Arzobispo Mor Santiago Eduardo con su Santidad Ignacio Efrén
+							II.,” 1 March 2014. </p></note> but “for pastoral reasons, given the
+					culture and customs of the presbytery and faithful of the archdiocese of
+					Central America, elements of the Western rite <pb n="234"/> were maintained
+					in non-essential parts.” <note place="foot" xml:id="ftn86" n="86"><p
+							xml:lang="en"> 86 Icergua, “Raíces históricas del proceso que nos ha
+							llevado hasta ser constituidos en arquidiócesis de Centro América de la
+							Santa Iglesia Católica Apostólica siro-ortodoxa de Antioquía,” November
+							2014. </p></note> This “Western” rite was confirmed under Patriarch
+					Ephrem II Karim. <note place="foot" xml:id="ftn87" n="87"><p xml:lang="en"> 87
+							Icergua, “01: Encuentro de nuestro Arzobispo Mor Santiago Eduardo con su
+							Santidad Ignacio Efrén II.,” 1 March 2014. </p></note> The respect paid
+					to local traditions was also emphasized by Bishop Clemis: “They have started to
+					slowly change their rite, from Western to Eastern […] they have their own
+					language, their own traditions, their own heritage.” <note place="foot"
+						xml:id="ftn88" n="88"><p xml:lang="en"> 88 Kaplan, personal interview.
+						</p></note> Currently in the Archdiocese the Saint James liturgy is
+					performed every Thursday in the seminary run by Bishop Eduardo with the priest’s
+					back to the congregation, <note place="foot" xml:id="ftn89" n="89"><p
+							xml:lang="en"> 89 Aguirre Oestmann, personal interview. </p></note>
+					whereas the parishes and communities use the “Western” Syriac liturgy, during
+					which the priest, following the Second Vatican Council, faces the community. </p>
+				<p xml:lang="en"> Overall, the theology of the “Western” rite is Syriac: the Credo
+					does not mention the <hi rend="italic">Filioque</hi> (the Holy Spirit proceeding
+					from the Father <hi rend="italic">and the Son</hi>); and the canon of the Living
+					Fathers of the Church includes the Syriac Orthodox Patriarch. The sequence prior
+					to the <hi rend="italic">anaphora</hi> closely follows the one of the Roman
+					Catholic Church, whereas the actual liturgy (<hi rend="italic">anaphora</hi>)
+					follows a Syriac Orthodox order, albeit much shortened. The <hi rend="italic"
+						>epiclesis</hi> (the invocation of the Holy Spirit in the wine and bread)
+					has both shorter and a longer versions, the latter strongly similar to the <hi
+						rend="italic">epiclesis</hi> of Saint James as published by Bishop Mor
+					Athanasius <note place="foot" xml:id="ftn90" n="90"><p xml:lang="en"> 90 Mar
+							Athanasius Y. Samuel, <hi rend="italic">Saint James Liturgy Anaphora.
+								The Divine Liturgy of Saint James</hi> (1967). </p></note> –bearing
+					in mind that Bishop Eduardo based it on an English translation. The adoption of
+					the Syriac <hi rend="italic">anaphoras</hi> finds its justification in its
+					alleged authenticity: “The central and fundamental part of the liturgy comes
+					from Jerusalem […] and subsequently, through Peter and other Apostles like
+					Bernabe, was carried to <pb n="235"/> Antioch, where it was consolidated and
+					developed.” <note place="foot" xml:id="ftn91" n="91"><p xml:lang="en"> 91
+							Icergua. “Identidad y perspectivas pastorales de la arquidiócesis de
+							Centro América,” November 2014.</p></note> Such a flexible approach to
+					liturgy follows an established pattern in the Syriac Orthodox Church whose Grand
+					Synod in 1930 expressed the need to harmonize the liturgy, which had been
+					practiced differently in different churches for a long time. <note place="foot"
+						xml:id="ftn92" n="92"><p xml:lang="en"> 92 Majallat al-Hikma, “<foreign
+								xml:lang="ar">خلاصة مقررات مجمع دير مار متى المقدس بالموصل
+							</foreign> [Summary of the Decisions of the Synod at Mar Mattai
+							Monastery in Mosul],” Nr. 9, Year 4, November 1930, Pages 516-523, 516.
+						</p></note> The current Patriarch continued this process during his tenure
+					as bishop of the Eastern United States when he shortened the liturgy and
+					expanded the role played by lay people, such as singing. <note place="foot"
+						xml:id="ftn93" n="93"><p xml:lang="en"> 93 Kiraz, <hi rend="italic">The
+								Syriac Orthodox in North America</hi>, 258-9. </p></note> By
+					contrast, the diasporas tend to consider the liturgy as a fixed, repetitive
+					practice. In her study on Syriac Orthodox from Tur Abdin in Austria, Heidemarie
+					Armbrust quoted a priest as stating, “If a cleric happened to omit some sign or
+					symbolic act in the liturgy, he would have to face strong resistance by the
+					believers, even if they constitute only negligible accessory parts.” <note
+						place="foot" xml:id="ftn94" n="94"><p xml:lang="en"> 94 Quoted in H.
+							Armbruster: “Falls ein Geistlicher irgendwelche Zeichen oder
+							Symbolhandlungen in der Liturgie entfallen ließe, hätte er mit großem
+							Widerstand unter den Gläubigen zu rechnen, auch wenn sie nur
+							unwesentliches Beiwerk wären.” (Armbruster, <hi rend="italic">"Wir
+								sprechen die Sprache, die Jesus gesprochen hat"</hi>, 147).
+						</p></note>
+				</p>
+				<p xml:lang="en"> In the case of Guatemala there is not only a discrepancy between
+					the written text and the reality of its practice, but also the liturgy is
+					reinvented each time. Bishop Eduardo adapts his liturgy according to the
+					audience. For instance, he said the <hi rend="italic">anamnesis</hi> in Syriac
+					at the confirmation in Comalapa mentioned above, whereas when visiting remote
+					rural communities in another part of Guatemala, he tended to use some words in
+					Syriac for the <hi rend="italic">anamnesis</hi> and said the Lord’s Prayer in
+					Syriac, introducing it with the explanation, “Do you know what was Jesus’
+					language? Aramaic. Therefore for those who have the handbook, go to page 15.”
+					Variations in the liturgy also occur when the clergy or community leaders <pb
+						n="236"/> perform the service in the absence of the Bishop. The services I
+					attended were exclusively in Spanish or bilingual Spanish-K’aqchiqel and no
+					Syriac was used. At one service in Guatemala Pope Francis was explicitly
+					mentioned in the Canon of the Living Fathers. </p>
+				<p xml:lang="en"> A crucial element of traditional Syriac liturgy is the role and
+					place of the Syriac language, even though the vernacular language is also used,
+					particularly for the sermons. Studies have demonstrated the emotional importance
+					of the Syriac liturgy: Mark Calder notes that “the most often-cited reason for
+					pride in the Aramaic tongue is that it was ‘the language of our Lord’, and the
+					Lord’s Prayer in Syriac is an especially intense moment.” <note place="foot"
+						xml:id="ftn95" n="95"><p xml:lang="en"> 95 Calder, “Syrian Identity in
+							Bethlehem,” p.309. </p></note> Heleen Murre-van den Berg, however,
+					has shown that this attachment is more "symbolic and ideological" because few lay
+					people are actually fluent in the language. <note place="foot" xml:id="ftn97"
+						n="97"><p xml:lang="en"> 97 Murre-Van den Berg, “A Center of Transnational
+							Syriac Orthodoxy,” 68. </p></note> The idea that the liturgy is
+					inherently connected to the Syriac language was evident when Bishop Clemis’
+					secretary taught the seminarians of the Archdiocese the Lord’s Prayer and the
+						<hi rend="italic">anamnesis</hi> in Syriac. <note place="foot"
+						xml:id="ftn98" n="98"><p xml:lang="en"> 98 Icergua, “01: Llegada del
+							coespiscopo Abdulahad Shara como envidao de su Santidad el patriarca,” 1
+							September 2014. </p></note> In 2017 Patriarch Ephrem II Karim expressed
+					his wish for Syriac content to be increased. <note place="foot" xml:id="ftn99"
+						n="99"><p xml:lang="en"> 99 Icergua, “22: Su Santidad Ignacio Efrén II,
+							recide a Mor Santiago Eduardo en el patriarcado de Damasco,” 22 January
+							2017. </p></note> As of 2018-2019 this has been done for the <hi
+						rend="italic">anamnesis</hi> and the Lord’s Prayer in the liturgy handbooks,
+					which are in both Spanish and Syriac (Spanish transcription). As of November
+					2018, the <hi rend="italic">Libro de Oración común</hi> had not yet been
+					approved by the Patriarch though containing more Syriac content, such as the
+					introduction and conclusion of daily prayers (including “<hi rend="italic">haḍ
+						aloho sharīro</hi>” “one true God”) and the Ave Maria. Moreover, <pb n="237"
+					/> during church services, sermons, and the training of clergy and active laity,
+					Bishop Eduardo, though not fluent in Syriac, sometimes uses Syriac words (for
+					instance <hi rend="italic">ruḥo</hi> for “spirit” when discussing the Holy
+					Spirit). In Comalapa, where the changes have been implemented since the
+					mid-2000s, he recites the <hi rend="italic">anamnesis</hi> in Syriac, whereas in
+					the municipality of San Juan Sacatepéquez, where communities have joined more
+					recently (just 1 to 7 years ago), he uses some Syriac during the liturgy (for
+					instance <hi rend="italic">brikho</hi> instead of “blessed”) and, as has been
+					related, he once interrupted his service at the moment of the Lord’s Prayer to
+					ask the congregation, “Do you know what was Jesus’ language? Aramaic. Therefore
+					for those who have the handbook, go to page 15.” <note place="foot"
+						xml:id="ftn100" n="100"><p xml:lang="en"> 100 Also, the author witnessed
+							seminarians saying the daily prayers in Syriac. </p></note> The Lord’s
+					Prayer was then recited in Syriac. The introduction of Syriac is justified as
+					“the Aramaic language, which is not only one of the treasures of our Church, but
+					because it was the language of Jesus, the Virgin Mary, and the twelve Apostles.”
+					<note place="foot" xml:id="ftn101" n="101"><p xml:lang="en"> 101 Icergua, "18: 
+						Encuentro de Mor Santiago Eduardo con su Santidad el patriarca en Lancaster, Pensilvania, 
+						USA," 18 July 2015. </p></note> However, the Bishop resists
+					a too far-reaching use of Syriac, arguing that Syriac Orthodox who were born
+					into the Church naturally insist on “work[ing] and worship[ing] as much as
+					possible in Syriac. That is not possible here.” <note place="foot"
+						xml:id="ftn102" n="102"><p xml:lang="en"> 102 Aguirre Oestmann, personal
+							interview. When the Patriarch visited Guatemala in November 2019, he
+							performed the “Western” Syriac liturgy, thus speaking most of the
+							prayers, including the <hi rend="italic">epiclesis</hi>, in Spanish and
+							facing the community. However the <hi rend="italic">anamnesis</hi> was
+							delivered in Syriac. </p></note> An important aspect of this issue is
+					that since the Second Vatican Council, Roman Catholic liturgy has been performed
+					in the vernacular and while facing the community. <note place="foot"
+						xml:id="ftn103" n="103"><p xml:lang="en"> 103 See E. Hoenes del Pinal, “A
+							Ritual Interrupted: A Case of Contested Ritual Practices in a
+							Q’eqchi’-Maya Catholic Parish” (<hi rend="italic">Journal of
+								Contemporary Religion</hi> 31:3 [2016]): 365-378; Hager, “The
+							Emergence of a Syriac Orthodox Mayan Church in Guatemala,” 380.
+						</p></note>
+				</p>
+				<p xml:lang="en"> Another element of the liturgy is of course communion. In the
+					Syriac tradition this is preceded by fasting and usually <pb n="238"/> not
+					performed frequently. In 1988 Claude Sélis noted that communion could be
+					received at most every forty days and only after confession and fasting. <note
+						place="foot" xml:id="ftn104" n="104"><p xml:lang="en"> 104 C. Sélis, <hi
+								rend="italic">Les Syriens orthodoxes et catholiques</hi> (Turnhout:
+							Brepols, 1988), 196. </p></note> In 1997, however, the Syriac Orthodox
+					Church exhorted its clergy to “diligently urge the faithful to partake of the
+					Holy Eucharist on Sundays and on the festivals of our Lord. Above all, they […]
+					must confess their sins to the priests that, with purity of soul, they may be
+					worthy to partake of the Holy Eucharist. […] observe a complete fast three hours
+					prior.” <note place="foot" xml:id="ftn105" n="105"><p xml:lang="en"> 105 Syrian
+							Orthodox Dioceses of North America and Canada, “The Sacrament of the
+							Holy Eucharist,” 1998. </p></note> Although Bishop Clemis instructed
+					Bishop Eduardo on fasting (an entry on the <hi rend="italic">noticias</hi> dated
+					February 13<hi rend="superscript">th</hi> 2014 explained the feast of Niniveh
+						<note place="foot" xml:id="ftn106" n="106"><p xml:lang="en"> 106 Icergua,
+							“13: Divina liturgia por el ayuno de Nínive y la solemnidad de San
+							Ignacio Elías III.,” 13 February 2014. Heidemarie Armbruster noted that
+							fasting was eased for the Syriac Orthodox community in Vienna originally
+							from Tur Abdin (Armbruster, <hi rend="italic">"Wir sprechen die Sprache,
+								die Jesus gesprochen hat"</hi>, 150). </p></note> ), fasting is
+					hardly ever observed prior to communion. For one thing, according to the Bishop
+					it is difficult to enforce the regulation. <note place="foot" xml:id="ftn107"
+						n="107"><p xml:lang="en"> 107 Aguirre Oestmann, personal interview.
+						</p></note> Furthermore, communion is performed much more frequently in the
+					absence of the Bishop (who often forbids communion to those whose marriage is
+					not sacramental). Another element of “Syriacization” the Bishop and seminarians
+					have been trying to implement, especially among children, is the crossing of the
+					arms over the chest before receiving communion. </p>
+				<p xml:lang="en"> The theological and sacramental process of Syriacization is
+					connected to a whole set of modifications relating to icons, imagery, incense,
+					and other sensory aspects of worship. </p>
+			</div>
+			<pb n="239"/>
+			<div xml:id="hv23n2hager.4">
+				<head>PART FOUR: THE CURRENT FACE OF THE ARCHDIOCESE OF CENTRAL AMERICA</head>
+				<p xml:lang="en"> As Edward Shils noted, tradition includes “material objects,
+					beliefs […], images of persons and events, practices and institutions.” <note
+						place="foot" xml:id="ftn108" n="108"><p xml:lang="en"> 108 Shils, <hi
+								rend="italic">Tradition</hi>, 12. </p></note> The Syriac Orthodox
+					tradition as defined by the Church hierarchy also includes aural (the Syriac
+					language) and olfactory (incense) features, many of which have become adopted in
+					communities alongside already-existing traditions. First are the Syriac Orthodox
+					imagery and icons. A priest of the Malankara Church in the US helped establish
+					contacts with the Church in India for producing priestly vestments. <note
+						place="foot" xml:id="ftn109" n="109"><p xml:lang="en"> 109 Icergua, “21:
+							Divina liturgia de bienvenida a los corepíscopos Mathews y Sabu Thomas
+							en el seminario,” 21 April 2015. However, the vestments are now produced
+							in Guatemala (Aguirre Oestmann, personal interview). </p></note> The
+					priest visited Guatemala and celebrated a liturgy at the seminary. <note
+						place="foot" xml:id="ftn110" n="110"><p xml:lang="en"> 110 Icergua, “24:
+							Divina liturgia en el seminario presidida por los corepíscopos Mathews y
+							Sabu,” 24 April 2015. </p></note> A Comalapan priest recalled that
+					vestments were among the first things they changed. A Syriac Orthodox “sister”
+					who runs an NGO in Germany not only helped fund the construction of several
+					churches in Guatemala but also presented various church communities with
+					pictures of the Archangel Michael in the Syriac style. <note place="foot"
+						xml:id="ftn111" n="111"><p xml:lang="en"> 111 Icergua, “02: Visita a las
+							obras de construcción del templo de Santa María, Cunén, el Quiché,” 2
+							November 2016. Icergua, “15: Divina liturgia en San Miguel Chanquejelbé,
+							Nentón, Huehuetenango,” 15 March 2017). </p></note>
+				</p>
+				<p xml:lang="en"> Lay people play a major role in shaping “Syriac Mayan”
+					Christianity and have a deep attachment to their local churches. They assert
+					their communities in an environment that is also Roman Catholic and Evangelical,
+					with music bands and church building programs (often beyond their financial
+					means). <note place="foot" xml:id="ftn112" n="112"><p xml:lang="en"> 112 Such
+							churches are often built by the members themselves with their own
+							funding or with money provided from outside, such as from the previously
+							mentioned Syriac Orthodox “sister” in Germany. </p></note> Thus, in the
+					churches and temples there is <pb n="240"/> frequently a coexistence of local
+					elements–such as doves representing the Holy Spirit, flowers, a visible altar
+					(or table), the veneration of the images of saints and of the Virgin Mary, the
+					blessing of seeds–alongside Syriac Orthodox features like calendars of the
+					Archdiocese, handbooks (in particular the handbook for liturgy), pictures of the
+					Bishop and sometimes of the Patriarch. In one community in Guatemala the Syriac
+					liturgical tools were donated by a member. Bishop Eduardo, despite his personal
+					disapproval, has taken a pragmatic attitude toward this synthesis, in particular
+					to the veneration of the images in Comalapa. <note place="foot" xml:id="ftn113"
+						n="113"><p xml:lang="en"> 113 Aguirre Oestmann, personal interview.
+						</p></note> As was mentioned above, the confirmation of two hundred young
+					people in Comalapa was an important local event during which the <hi
+						rend="italic">cofradías</hi> played a conspicuous role. </p>
+				<p xml:lang="en"> The issue of incense illustrates that abstract theology can be
+					easier to introduce than physical ritual. In some communities in Huehuetenango
+					the (re)introduction of candles and incense constituted a challenge as a result
+					of apparently Pentecostal influence. <note place="foot" xml:id="ftn114" n="114"
+							><p xml:lang="en"> 114 See Hager, “The Emergence of a Syriac Orthodox
+							Mayan Church in Guatemala,” 382. </p></note> In Comalapa, on the other
+					hand, incense is part of the syncretic Catholic-Mayan tradition and widely used
+					by the Charismatics in the remote rural communities of San Juan Sacatepéquez.
+					Thus one wonders whose tradition incense was in the first place. </p>
+				<p xml:lang="en"> The physical features of the union highlight the important but
+					often ambivalent role the laity plays in the process by adopting or resisting
+					change. </p>
+			</div>
+			<div xml:id="hv23n2hager.5">
+				<head>PART FIVE: WHAT CHURCH?</head>
+				<p xml:lang="en"> The inexact translation from English into Spanish by Bishop
+					Eduardo of one of Patriarch Ephrem II Karim’s sermons during his recent visit to
+					Guatemala reveal the contrasting visions which the Syriac Orthodox hierarchy and
+					the Guatemalan actors have concerning the roles of the clergy <pb n="241"/> and
+					laity, including women, in the Church: the Patriarch asked the congregation to
+					“pray for everyone of our clergy” as well as “for the seminarists and everyone
+					of you”; but Bishop Eduardo amended this in his Spanish translation to “the
+					deacons, the seminarists, the ministries, the catechists, the different
+					ministries and every one of you.” <note place="foot" xml:id="ftn115" n="115"><p
+							xml:lang="en"> 115 Icasoac Siro-Ortodoxo, Facebook entry 7 November
+							2019, Alta Verapaz, Chisec. </p></note> For, unlike traditional Syriac
+					Orthodox laity, the laity in Latin America plays an important religious role and
+					has far-reaching prerogatives. </p>
+				<p xml:lang="en"> Although the Patriarch ordained eleven seminiarians during his
+					recent visit, the Archdiocese is still understaffed. In 2018 the two priests in
+					Huehuetenango served 70 different communities totaling 50,000 persons. <note
+						place="foot" xml:id="ftn116" n="116"><p xml:lang="en"> 116 Aguirre Oestmann,
+							personal interview. </p></note> The clergy have been mainly trained at
+					the seminary near Guatemala City founded by Bishop Eduardo, and are often of
+					local Mayan origin or from other Central American countries. <note place="foot"
+						xml:id="ftn117" n="117"><p xml:lang="en"> 117 Ibid. </p></note> There is a
+					need to distinguish between the younger generation of priests, which has been
+					trained in an increasingly Syriac manner at the seminary (performing the Syriac
+					Saint James liturgy on Thursdays, as was mentioned above) and an older, often
+					former Roman Catholic, generation. The current Patriarch has attempted to
+					facilitate the integration of this clergy into the main body of the Church. In
+					2015 three seminarists were sent from Guatemala to Syria to learn Syriac “so
+					that points of communications exist between the [Guatemalan] Church and the
+					Patriarchate [and] those who are being trained for sacred orders can also know
+					the Aramaic language.” <note place="foot" xml:id="ftn118" n="118"><p
+							xml:lang="en"> 118 Icergua, “18: Encuentro de Mor Santiago Eduardo con
+							su Santidad el patriarca en Lancaster, Pensilvania, USA,” 18 July 2015.
+							Only one of the three seminarians sent to Syria subsequently remained
+							active (Aguirre Oestmann, personal interview). </p></note> In March
+					2014, the Patriarch asked to receive a short biography <pb n="242"/> on every
+					candidate for ordination. <note place="foot" xml:id="ftn119" n="119"><p
+							xml:lang="en"> 119 Icergua, “01: Encuentro de nuestro Arzobispo Mor
+							Santiago Eduardo con su Santidad Ignacio Efrén II.,” 1 March 2014.
+						</p></note> The issue of the clergy is important because, due to their local
+					origin and (in some cases) command of a Mayan language, they are powerful
+					carriers of a “Syriacized” Christianity. At one of the liturgies attended by the
+					author in the absence of the bishop, the priest delivered his sermon in both
+					Spanish and K’aqchiqel-Maya. This is frequent practice throughout the
+					Archdiocese, including trainings; and in 2009 the texts for the rituals were
+					translated into Q’eqchi’-Maya, spoken in parts of Guatemala. <note place="foot"
+						xml:id="ftn120" n="120"><p xml:lang="en"> 120 Icergua, “1: Decanato de las
+							Verapaces y Petén,” 1 May 2009. </p></note>
+				</p>
+				<p xml:lang="en"> In 1986 Patriarch Ignatius Zakka I Iwas wrote, “It is worth noting
+					that what distinguishes our Holy Church from other Churches is the spiritual
+					role to be played by the priest in the congregation. He is the spiritual father
+					of every member of the family that belongs to this congregation. His
+					relationship with each person must be deep and strong.” <note place="foot"
+						xml:id="ftn121" n="121"><p xml:lang="en"> 121 Mor Ignatius Zakka I Iwas,
+							“Identity of the Syrian Orthodox Church,” 1986. </p></note> This view,
+					however, may not match the expectations people in Guatemala have towards their
+					priests and their own role. One priest in Comalapa told the author that lay
+					leaders had complained to Bishop Eduardo that they did not want a priest who
+					only properly performs the liturgy, but one who takes care of his parish. In the
+					Guatemalan context of profound religious shifts, the clergy of the Archdiocese
+					acts more as an outside figure endorsing existing practices of the community,
+					including the sacraments, processions (those of the <hi rend="italic"
+						>cofradías</hi> in Comalapa), and Charismatic prayer groups. <note
+						place="foot" xml:id="ftn122" n="122"><p xml:lang="en"> 122 See Hager, “The
+							Emergence of a Syriac Orthodox Mayan Church in Guatemala,” 381.
+						</p></note> This severely limits the means of coercion available to the
+					clergy which, at its extreme within the Syriac Orthodox Church, resulted in the
+					excommunication of supporters of <pb n="243"/> the Assyrian discourse in Sweden.
+						<note place="foot" xml:id="ftn123" n="123"><p xml:lang="en"> 123 See Atto,
+								<hi rend="italic">Hostages in the Homeland</hi>, 337. </p></note>
+					The Church could take such drastic measures because traditional Syriac Orthodox
+					communities largely depend on the clergy, as George Kiraz demonstrated in the
+					case of the Syriac Orthodox migrants to the United States in the first half of
+					the 20<hi rend="superscript">th</hi> century, who took great pains to establish
+					ecclesiastic structures, requesting priests and a bishop from the Patriarchate.
+						<note place="foot" xml:id="ftn124" n="124"><p xml:lang="en"> 124 See Kiraz,
+								<hi rend="italic">The Syriac Orthodox in North America</hi>.
+						</p></note>
+				</p>
+				<p xml:lang="en"> In the Archdiocese of Central America, however, the heart of the
+					Church is not the parish but the local lay community, as a result of tremendous
+					religious shifts and Bishop Eduardo’s vision. Ever since he established his
+					movement in 2003, he has strongly encouraged lay leaders to form regional <hi
+						rend="italic">decanatos</hi> (deaconates, lay councils below the diocese and
+					above the parishes) and to establish pastoral and financial councils at the
+					community level. <note place="foot" xml:id="ftn125" n="125"><p xml:lang="en">
+							125 Icergua, “10: Reunión con los servidores de la parroquia de San
+							Miguel, Los Ángeles, Calfornia,” 10 August 2014. </p></note> The
+					authority of the clergy is further limited by the laity’s ritual and liturgical
+					leverage–as illustrated by the greater frequency of communion in the absence of
+					the bishop: <note place="foot" xml:id="ftn126" n="126"><p xml:lang="en"> 126 A
+							Syriac Orthodox priest in Guatemala told the author he would give
+							communion to Roman Catholics too (see Hager, “The Emergence of a Syriac
+							Orthodox Mayan Church in Guatemala,” 385). </p></note> in the absence of
+					a priest lay leaders can celebrate a form of liturgy that includes communion
+					because they have retained the Roman Catholic practice of keeping hosties. This
+					situation is the result of a historical expansion of the role played by the
+					laity in Guatemala in the second half of the 20<hi rend="superscript">th</hi>
+					century. In the 1950s and 1960s, prior to the emergence of the CRR, Catholic
+					Action had already promoted the role of lay persons as catechists, thus ensuring
+					a structured religious framework below the parish on the local community level,
+						<note place="foot" xml:id="ftn127" n="127"><p xml:lang="en"> 127 E. Hoenes
+							del Pinal, “From Vatican II to Speaking in Tongues: Theology and
+							Language Policy in a Q’eqchi’-Maya Catholic Parish” (<hi rend="italic"
+								>Language Policy</hi> 15:2 [2016]), 179-197, 186. </p></note>
+					something Bishop Eduardo alluded to in his intentional mistranslation of <pb
+						n="244"/> the Patriarch’s sermon. In both the Pentecostal and Catholic
+					Charismatic movements, the performance of religious services like <hi
+						rend="italic">oraciones</hi> (prayer groups) does not require ordination or
+					theological training. <note place="foot" xml:id="ftn128" n="128"><p
+							xml:lang="en"> 128 See A. Althoff, “Divided by faith and ethnicity:
+							religious pluralism and the problem of race in Guatemala” (<hi
+								rend="italic">International Journal of Latin American Religions</hi>
+							1 [2017]) 331–352, 340. </p></note> In the framework of official CCR,
+					lay people are actively involved as “catechists” celebrating the liturgy <note
+						place="foot" xml:id="ftn129" n="129"><p xml:lang="en"> 129 E. Hoenes del
+							Pinal, “A Ritual Interrupted,” 368. </p></note> and in leading <hi
+						rend="italic">oraciones</hi>. Their role was even more important in areas
+					where the CCR developed in the underground. Thus, although Patriarch Ephrem II
+					Karim expanded the role of the laity during his tenure as Bishop of Eastern
+					America, involving them in the singing of the liturgy, <note place="foot"
+						xml:id="ftn130" n="130"><p xml:lang="en"> 130 Kiraz, <hi rend="italic">The
+								Syriac Orthodox in North America</hi>, 258-259. </p></note> the
+					laity in Guatemala had already achieved even greater roles. </p>
+				<p xml:lang="en"> The role played specifically by women in the Guatemalan
+					Archdiocese differs from that in the Syriac Orthodox Church even though their
+					role had indeed expanded in the latter over recent decades through the
+					rediscovery of ancient practices like Saint Ephrem’s instructions to women from
+					the Bible <note place="foot" xml:id="ftn131" n="131"><p xml:lang="en"> 131
+							Ignatius Zakka I Iwas, “The Role of Women in the Syrian Orthodox Church
+							of Antioch,” 1996. </p></note> and the increasing use of women’s choirs
+						<note place="foot" xml:id="ftn132" n="132"><p xml:lang="en"> 132 See S.
+							Ashbrook Harvey, “Women and Children in Syriac Christianity. Sounding
+							Voices,” in T. King (ed.) <hi rend="italic">The Syriac World</hi>
+							(London: Routledge, 2018), 554-566 </p></note> after the Grand Synod of
+					1930 encouraged the admission of girls into choirs. <note place="foot"
+						xml:id="ftn133" n="133"><p xml:lang="en"> 133 Majallat al-Hikma, “[Summary
+							of the Decisions],” 1930, 517. </p></note> Bishop Eduardo has integrated
+					the role women play locally into the practices of the Archdiocese: “Incomplete
+					approaches: thinking that the woman’s role in the community is merely limited to
+					secondary activities such as cleaning, cooking and domestic services.” <note
+						place="foot" xml:id="ftn134" n="134"><p xml:lang="en"> 134 Quoted in Hager,
+							“The Emergence of a Syriac Orthodox Mayan Church in Guatemala,” 380.
+						</p></note> Women are part of the <hi rend="italic">decanatos</hi>, where
+					they receive theological training and serve on <pb n="245"/> various pastoral
+					councils with men (the author, for example, talked to one Syriac Orthodox woman
+					in Comalapa who had been a member of a liturgical council). They are also very
+					visible during religious services, doing Bible readings (as was the case in all
+					services attended by the author in Comalapa, San Juan Sacatepéquez, and Los
+					Angeles) or as part of the <hi rend="italic">hermandades</hi> (the women’s
+					adjunct to the <hi rend="italic">cofradías</hi>) in Comalapa. This is quite
+					significant, suggesting that even in remote rural areas women are now
+					sufficiently literate to do the readings. <note place="foot" xml:id="ftn135"
+						n="135"><p xml:lang="en"> 135 In 1999, 29.7% of the population in Guatemala
+							was still illiterate, 61% of them were indigenous (Davis, “Mouvement
+							maya et culture nationale au Guatemala”). </p></note> They also
+					participate in the preparation of the Eucharist, entering the sacred space of
+					the altar (which is forbidden to women in traditional Syriac Orthodox churches).
+					In some Charismatic communities (including Huehuetenango and one community in
+					San Juan Sacatepéquez) some young women have started to wear white veils, as in
+					Pentecostal and many traditional Syriac Orthodox churches. According to Bishop
+					Eduardo, the frequency of this practice depends on the seminarian attending the
+					community. <note place="foot" xml:id="ftn136" n="136"><p xml:lang="en"> 136 On
+							the Facebook page of the Syriac Orthodox Patriarchate such women
+							featured prominently. </p></note>
+				</p>
+			</div>
+			<div xml:id="hv23n2hager.6">
+				<head>PART SIX: RECOVERING THE CHURCH OF ANTIOCH</head>
+				<p xml:lang="en"> The preceding descriptions of the adapted sacramental life, local
+					cultural milieu, and particular ecclesiological reality defines the theological
+					and doctrinal identity of the Archdiocese. The Syriacized rituals and liturgy
+						<hi rend="italic">enhance</hi> an already existing narrative centered around
+					the idea of reliving the early Church. In this part I will argue that one of the
+					main reasons why so many communities in Guatemala have adopted Syriac Orthodoxy
+					stems from its supposed embodiment of a much older tradition than that of the
+					Syriac Orthodox Church Fathers, much older even than the Syriac <pb n="246"/>
+					liturgy and language: it is a tradition believed to be from the primitive Church
+					of Antioch itself. In the narrative Bishop Eduardo has been conveying, the
+					Syriac Orthodox Church stands for the event in Antioch where a universal,
+					catholic church was established and from which the Apostles were sent into the
+					world to convert all people, including the then-unknown Mayans. Edward Shils
+					noted, “The sought-for tradition is sometimes said to be the ʻreal’ tradition or
+					the genuine source of temporary ʻdilapidated’ traditions, which have broken the
+					lines of effective traditional transmission with the point of origin.” <note
+						place="foot" xml:id="ftn137" n="137"><p xml:lang="en"> 137 E. Shils,
+							“Tradition,” 133. </p></note> Antioch therefore becomes the archetype
+					for the life of mission which local Guatemalans should reproduce every day. As a
+					result, through Antioch, these communities do not consider themselves <hi
+						rend="italic">excommunicated</hi> Catholics, but the <hi rend="italic"
+						>true</hi> Catholics. Although, as we will see, terms like “catholic,”
+					“apostolic,” “orthodox” may cover different nuances for Church leaders and
+					Bishop Eduardo (and even more so for the laity), this union signals a new
+					dynamic within the Church which claims a universal scope. </p>
+				<p xml:lang="en"> One of the first topics discussed by Bishop Clemis and Bishop
+					Eduardo were theological differences, especially miaphysitism. <note
+						place="foot" xml:id="ftn138" n="138"><p xml:lang="en"> 138 Icergua, “05:
+							Diálogos con el patriarcado ortodoxo siriano de Antioquía,” 5 November
+							2011. </p></note> This doctrine was adopted into the statutes of the
+					Church in 2015 and featured on the Archdiocese’ website with the doctrine of <hi
+						rend="italic">Theotokos</hi>, the sacraments, and the daily prayers. <note
+						place="foot" xml:id="ftn139" n="139"><p xml:lang="en"> 139 Icergua, “06:
+							Publicación del estatuto oficial de la arquidiócesis de Centro América,”
+							6 June 2015. </p></note>
+					<hi rend="italic">Theotokos</hi> and miaphysitism do not represent a radical
+					break with Roman Catholicism because the Roman Catholic Church also recognizes
+					Mary as God-bearer; and in one of his sermons in Guatemala Patriarch Ephrem II
+					Karim alluded to the agreement reached between Patriarch Zakka and Pope John
+					Paul II in 1984, acknowledging that the Christological disagreements of the <pb
+						n="247"/> early centuries did not affect faith. <note place="foot"
+						xml:id="ftn140" n="140"><p xml:lang="en"> 140 Atto, <hi rend="italic"
+								>Hostages in the Homeland</hi>, 535. </p></note> Bishop Eduardo
+					mentions such theological beliefs in his sermons and in the theological training
+					of the laity. <note place="foot" xml:id="ftn141" n="141"><p xml:lang="en"> 141
+							One feature which the author did not witness in her 2018 fieldwork in
+							such a consistent way, was the insistence by Bishop Eduardo during the
+							Patriarch’s visit of the sign of the cross, including “<hi rend="italic"
+								>un solo Dios verdadero</hi> (one true God, “<hi rend="italic">haḍ
+								aloho sharīro</hi>”), something peculiar to the Syriac Orthodox
+							tradition. </p></note> Another doctrine which has been adopted is the
+					rejection of <hi rend="italic">filioque</hi> (the Holy Spirit proceeding from
+					both the Father <hi rend="italic">and Son</hi>) mentioned earlier in the context
+					of liturgy. </p>
+				<p xml:lang="en"> Beyond the theological adaptations, however, there are subtle
+					differences concerning the purpose of rituals, in particular the liturgy, which
+					in the traditional Syriac Orthodox view is not merely an outward display by the
+					congregation: the theologian Baby Varghese writes that “doctrine is inextricably
+					bound with a liturgical action.” <note place="foot" xml:id="ftn142" n="142"><p
+							xml:lang="en"> 142 In B. Varghese, <hi rend="italic">West Syrian
+								Liturgical Theology</hi> (Aldershot: Ashgate, 2004), 47. </p></note>
+					According to him, the Syriac <hi rend="italic">anaphora</hi> embodies the
+					economy of salvation, the <hi rend="italic">anamnesis</hi> especially forming an
+					“integral part of the narration of God’s loving-kindness towards humanity.”
+						<note place="foot" xml:id="ftn143" n="143"><p xml:lang="en"> 143 Ibid, 66.
+						</p></note> However, in Bishop Eduardo’s approach to the liturgy the role of
+					Christ becomes secondary, even more so if the <hi rend="italic">anamnesis</hi>
+					is pronounced in Syriac–something people don’t understand if they do not follow
+					the liturgy book. By contrast, the <hi rend="italic">epiclesis</hi>, which
+					remains in Spanish, is centered around the vitalizing of the bread and wine by
+					the Holy Spirit, in compliance with Syriac Orthodox liturgy. <note place="foot"
+						xml:id="ftn144" n="144"><p xml:lang="en"> 144 Ibid, 85. </p></note> The
+					central role of the Holy Spirit is also emphasized in other sacraments in the
+					Archdiocese. Although the theology and practice of baptism has been Syriacized,
+					in oral sources the idea of it as conversion prevails: “Baptism [means]
+					incorporating as members of the new alliance and receiving the Holy Spirit in
+						<pb n="248"/> order to live as authentic children of God and give witness to
+					the Gospel.” <note place="foot" xml:id="ftn145" n="145"><p xml:lang="en"> 145
+							Icergua, “01: Divina liturgia en la parroquia de Guaxacaná, Nentón,
+							Huehuetenango,” 1 January 2018. </p></note>
+				</p>
+				<p xml:lang="en"> Such subtle differences occur on many other levels and illustrate
+					the desire to return, through Syriac Orthodoxy, to a much older, supposedly
+					genuine, past which legitimizes the existing narrative. This is evident in the
+					Archdiocese’s treatment of the figure of Mary: in addition to naming her <hi
+						rend="italic">theotokos</hi> or <hi rend="italic">yoldath aloho</hi>, Bishop
+					Eduardo opposes both the Roman Catholic doctrine of Immaculate Conception and
+					the Protestant positions demystifying her; <note place="foot" xml:id="ftn146"
+						n="146"><p xml:lang="en"> 146 Hager, “The Emergence of a Syriac Orthodox
+							Mayan Church in Guatemala,” 383. </p></note> yet, unlike Syriac Orthodox
+					understanding, he turns Mary into a <hi rend="italic">model of action</hi>. By
+					contrast, Patriarch Zakka I Iwas described her as a <hi rend="italic">model of
+						virtue</hi>, “Our Lord Jesus Christ […] chose her to be His Mother because
+					of her chastity and godliness so that she deserved that the Holy Spirit descend
+					on her, purify her, absolve her from sin and sanctify her.” <note place="foot"
+						xml:id="ftn147" n="147"><p xml:lang="en"> 147 Iwas, “The Role of Women in
+							the Syrian Orthodox Church of Antioch,” 1996. </p></note> During
+					confirmation in Comalapa though, Bishop Eduardo exhorted the young candidates to
+					follow the action of the Virgin: “Convert yourself like the Virgin Mary did to
+					become persons who carry this Gospel so that all can believe, change their
+					lives, and become children of God.” </p>
+				<p xml:lang="en"> While there is nevertheless some common ground concerning Mary,
+					the almost total absence in the Guatemalan Archdiocese of a narrative on
+					martyrdom is striking, especially given that many areas of the Archdiocese were
+					severely affected by the civil war and the ethnic cleansing. Yet this
+					constitutes a prime element in both the Syriac Orthodox Church and the
+					communities born into her, as well as in scholarly works. In a speech in
+					Colombia in 2018 at the 3<hi rend="superscript">rd</hi> Global Christian Forum,
+					Patriarch Ephrem II Karim stated, “Because of our history of persecution and
+					martyrdom, <pb n="249"/> whenever I think of the marks of the church being One,
+					Holy, Catholic and Apostolic, I immediately add to it ‘Persecuted’. The true
+					church that is faithful to her Lord and Savior has to be a persecuted one.”
+						<note place="foot" xml:id="ftn148" n="148"><p xml:lang="en"> 148 Mor
+							Ignatius Aphrem II Karim, “Following Christ together in discrimination,
+							persecution, martyrdom: What does this mean for the global church
+							today?” 25 April 2018. </p></note> He emphasized this theme in his
+					sermons during his visit to Guatemala, especially at Chajul, El Quiché, where 70 to
+					80 people had been killed by the army in 1983. This community petitioned Bishop
+					Eduardo to have the victims recognized as martyrs, which he granted in 2007 and
+					every year on April 3<hi rend="superscript">rd</hi> these “blessed” are
+					remembered. The picture of the martyrs also appears in the confirmation
+					handbook. <note place="foot" xml:id="ftn149" n="149"><p xml:lang="en"> 149 See
+							Hager, “The Emergence of a Syriac Orthodox Mayan Church in Guatemala,”
+							382. </p></note> Yet the importance of this event remains limited to
+					Chajul and the emphasis on martyrdom in the Guatemalan Archdiocese thus stays
+					local. </p>
+				<p xml:lang="en"> Since 2003 Bishop Aguirre has been urging in his handbooks,
+					sermons, trainings, <hi rend="italic">noticias</hi>, etc., and, in connection
+					with Mary, the liturgy, and the sacraments, a call to emulate the Apostles—and,
+					to a certain extent, the Virgin Mary and Jesus Christ—as models of the ethical
+					and moral attitudes proper to a Christian in Guatemala in the 21<hi
+						rend="italic">st</hi> century, drawing on the themes of repentance and
+					conversion not clearly identifiable with any specific Christian tradition,
+					whether Roman Catholic, Charismatic, Pentecostal, Syriac, or Eastern Orthodox
+					and his call has gained more legitimacy as a result of the union in 2013. It is
+					a Christian ethic which includes both <hi rend="italic">epistrophe
+					</hi>(“turning back to the origin or to oneself or to the perfect ideal”) and
+						<hi rend="italic">metanoïa</hi> (“to repent,” “to be born again”). <note
+						place="foot" xml:id="ftn150" n="150"><p xml:lang="en"> 150 Distinction made
+							by William Barylo, quoted in Hager, “The Emergence of a Syriac Orthodox
+							Mayan Church in Guatemala,” 378. </p></note> In his sermon during
+					confirmation in Comalapa, Bishop Eduardo called on the candidates: </p>
+				<cit><quote><p xml:lang="en"> ‘Authentic Christian’ means authentically
+					anointed by the Spirit of God. And what is the consequence of one having been
+					anointed, precisely by the Spirit of God? [It means] that every one of us turns
+					[converts] into a living Gospel in his life. Every one of you is called to make
+					this Word alive, this presence, this Good News of God […] Convert yourself like
+					the Virgin Mary did to become persons who carry this Gospel so that all can
+					believe, change their lives, and become children of God. </p></quote></cit>
+				<p xml:lang="en"> This conforms more with Syriac Orthodox ideas of collective
+					salvation rather than with the Roman Catholic and Protestant emphasis upon
+					individual salvation: “We are saved not as individuals but as members of the
+					Body of Christ.” <note place="foot" xml:id="ftn151" n="151"><p xml:lang="en">
+							151 Quoted in Calder Calder, “Syrian Identity in Bethlehem,” 316.
+						</p></note> Yet it focuses on this life rather than on the after-life, and
+					on action in the world towards others rather than on inner attitude. By
+					insisting on the work of the Holy Spirit, Bishop Eduardo posits an intimate,
+					growing relationship between God and the individual; 
+					“Implying promoting a life of personal veneration in the Holy Spirit [<hi rend="italic"
+						>oración personal en el Espíritu Santo</hi>], nourished by a sacramental
+					life, as occurred in the first Christian community.” <note place="foot"
+						xml:id="ftn152" n="152"><p xml:lang="en"> 152 Icergua, “03: Exhortación
+							pastoral ʻEl Evangelio de la Renovación,’” 3 April 2014. </p></note> This resonates among the clergy and lay
+					people and was the main theme of the sermon in Spanish and K’aqchiqel-Maya
+					attended by the author. </p>
+				<p xml:lang="en"> The official name of the Archdiocese is “Catholic Apostolic Syriac
+					Orthodox Church of Antioch/Archdiocese of Central America (<hi rend="italic"
+						>Iglesia católica apóstolica siro-ortodoxa de Antioquía/Arquidiócesis de
+						Centro América</hi>, ICASOAC).” This appears on the churches and in the
+					communities in Guatemala, though the name “Iglesia Católica ecuménica
+					renovada–ICERGUA” continues to be used in the <pb n="251"/> handbooks with the
+					official name. <note place="foot" xml:id="ftn153" n="153"><p xml:lang="en"> 153
+							Hager, “The Emergence of a Syriac Orthodox Mayan Church in Guatemala,”
+							377. </p></note> Bishop Eduardo himself hardly ever uses the term
+					“Syriac Orthodox:” “I always insist very much that they have [to] give everybody
+					[the] experience of [the] Early Apostolic church: [it is a] term they understand
+					but we do not use <hi rend="italic">siro-orthodoxo</hi>. I have always
+					understood orthodox in [its] etymological meaning.” <note place="foot"
+						xml:id="ftn154" n="154"><p xml:lang="en"> 154 Aguirre Oestmann, personal
+							interview. </p></note> He thus breaks with the ethnic and linguistic
+					link between Syriac Orthodoxy and the Church of Antioch, though this constituted
+					one condition for union with the Church: in his letter to the Holy Synod, Bishop
+					Clemis insisted upon submission to “its teachings: Semitism and the apostolic
+					faith,” <note place="foot" xml:id="ftn155" n="155"><p xml:lang="en"> 155 Kaplan,
+							“Historical Moment.” </p></note> implying that the Syriac Orthodox
+					Church considers herself heir to a “pure” Semitic form of Christianity. <note
+						place="foot" xml:id="ftn156" n="156"><p xml:lang="en"> 156 See Atto, <hi
+								rend="italic">Hostages in the Homeland</hi>, 531; Dinno, <hi
+								rend="italic">The Syrian Orthodox Christians</hi>, 260. </p></note>
+					In 1981 Patriarch Zakka affirmed this link more clearly: “Our Church is known as
+					the Syrian Orthodox Church of Antioch […], and its language is known as the
+					Syriac language […], and its people by the Syrian people […].” <note
+						place="foot" xml:id="ftn157" n="157"><p xml:lang="en"> 157 Quoted in Atto,
+								<hi rend="italic">Hostages in the Homeland</hi>, 555. </p></note>
+					The “apostolic” part of the Archdiocese’s name is justified by Bishop Clemis’
+					demand that the Archdiocese adhere to the teachings of “the apostolic faith.”
+						<note place="foot" xml:id="ftn158" n="158"><p xml:lang="en"> 158 Kaplan,
+							“Historical Moment.” </p></note> In a short document given to the author
+					and addressed to Syriac Orthodox priests in the US outlining the differences
+					between the SOC and the Roman Catholic and Protestant Churches, Bishop Clemis
+					wrote: “Our Church prides herself as being <hi rend="underline">one of the
+						earliest Apostolic Churches</hi> […] In Antioch, the followers of Jesus were
+					called Christians for the first time [underlining by the author].” <note
+						place="foot" xml:id="ftn159" n="159"><p xml:lang="en"> 159 M.C.E. Kaplan,
+							“Comparison between the Syriac Orthodox Church and the Roman Catholic
+							and Protestant Churches in Brief,” sent to the author in August 2018.
+						</p></note> This seems to echo Bishop Eduardo, who calls on his followers to
+					turn <pb n="252"/> into Apostles: “the holy Syriac Orthodox See of Antioch, the
+					very Church to which the twelve Apostles belonged.” <note place="foot"
+						xml:id="ftn160" n="160"><p xml:lang="en"> 160 Icergua, “11: Renovación de
+							los compromisos presbiterales, vicaría de Huehuetenango, San Rafael de
+							la Independencia,” 11 April 2017. </p></note> However “apostolic” means
+					different things in the Syriac Orthodox tradition and to Bishop Eduardo: for the
+					latter it is a call for action, whereas for the Syriac Orthodox Patriarchate it
+					is the source of legitimacy–“Tradition is, basically, the spiritual teaching we
+					have inherited from the Holy Apostles and Church Fathers,” wrote Patriarch
+					Zakka. <note place="foot" xml:id="ftn161" n="161"><p xml:lang="en"> 161 Iwas,
+							“Tradition.” </p></note> The Church considers herself heir and
+					representative of an unbroken chain of transmission from the <hi rend="italic"
+						>primus inter pares</hi> of the Apostles, Peter, first bishop of Antioch. </p>
+				<p xml:lang="en"> By joining a tradition directly linked to Peter, members of the
+					Archdiocese are able to reassert their catholicity. <note place="foot"
+						xml:id="ftn162" n="162"><p xml:lang="en"> 162 In informal conversations with
+							members in Guatemala and Los Angeles, most identified as “catholics”
+							(See Hager, “The Emergence of a Syriac Orthodox Mayan Church in
+							Guatemala,” 377). </p></note> Bishop Eduardo justifies his consistent
+					use of the term “catholic” as “universal” by reference to Patriarch Ignatius:
+					“Starting in 69 C.E., the Church of Antioch was called ‘Catholic’ (with Saint
+					Ignace, the third successor of Peter).” <note place="foot" xml:id="ftn163"
+						n="163"><p xml:lang="en"> 163 Icasoac Siro-Ortodoxo, Facebook entry 10
+							November 2019, “Santa Eucaristía precidida por Su Santidad Ignacio Efrén
+							II, Estadio Los Cuchumatanes Huehuetenango Guatemala.” </p></note> This
+					claim was evident in one of the sermons by Patriarch Ephrem II Karim in
+					Guatemala: “You, the people of Guatemala and members of the archdiocese of
+					Central America are very dear to our hearts [because you] represent the
+					universality, the catholicity of our Church, the Church of Antioch which was
+					founded as a catholic church.” <note place="foot" xml:id="ftn164" n="164"><p
+							xml:lang="en"> 164 Icasoac Siro-Ortodoxo, Facebook entry 10 November
+							2019, “Santa Eucaristía precidida por Su Santidad Ignacio Efrén II,
+							Estadio Los Cuchumatanes Huehuetenango Guatemala.” </p></note> This idea
+					of regaining the universal and catholic scope of a missionary Church seems to be
+					gaining ground within the Syriac Orthodox hierarchy. <note place="foot"
+						xml:id="ftn165" n="165"><p xml:lang="en"> 165 In an unpublished paper given
+							at the Institute for Eastern Christian Studies, Nijmegen, Netherlands,
+							Naures Atto discussed the <pb n="253"/> trend within the Syriac Orthodox
+							Church advocating a stronger emphasis on Syriac language and culture.
+							But during the Q&amp;A session, the bishop of the Netherlands, Mor
+							Polycarpus Augin Aydin, underlined the importance of a more spiritual
+							emphasis by the Church as a global catholic body transcending boundaries
+							(Naures Atto, “Challenges for the Syriac Orthodox Church: Encounters
+							with Secularism,” January 31<hi rend="superscript">st</hi>-February 1<hi
+								rend="superscript">st</hi>, 2019, Workshop “Redefining Syriac
+							Christianity in a Globalized 21<hi rend="superscript">st</hi> Century:”
+							workshop organized by Anna Hager and Heleen Murre-van den Berg).
+						</p></note> Another hint <pb n="253"/> of this is the name Bishop Eduardo
+					was given when he was tonsured a monk in 2013: Jacob (Spanish Santiago), in
+					memory of Jacob Baradeus (6<hi rend="superscript">th</hi> century) who
+					reorganized the Church. <note place="foot" xml:id="ftn166" n="166"><p
+							xml:lang="en"> 166 Icergua, “05: Tonsura de nuestro obispo como monje,
+							por su Santidad Ignacio Zaqueo I Iwas,” 5 March 2013. </p></note>
+				</p>
+				<p xml:lang="en"> Therefore within the Archdiocese the idea prevails that they have
+					joined <hi rend="italic">the</hi> Mother Church: A priest in Comalapa indeed did
+					identify himself as “orthodox” because of belonging to “[the] Mother Church
+					which maintained the correct doctrine, the true doctrine.” <note place="foot"
+						xml:id="ftn167" n="167"><p xml:lang="en"> 167 Hager, “The Emergence of a
+							Syriac Orthodox Mayan Church in Guatemala,” 377. </p></note> Thus the
+					Syriac Orthodox Church of Antioch legitimizes the movement of <hi rend="italic"
+						>renovación</hi> initiated by Bishop Eduardo in 2003 and which attracted so
+					many communities. </p>
+			</div>
+			<div xml:id="hv23n2hager.conclusion">
+				<head>CONCLUSION</head>
+				<p xml:lang="en"> With the establishment of a new Archdiocese of over half a million
+					people, the Syriac Orthodox Church has grown tremendously. But the Guatemalan
+					Archdiocese has challenged key assumptions about Syriac Orthodox traditions, the
+					Church supposedly embodying foremost a tradition, in the sense of <hi
+						rend="italic">preserving</hi> something. It has also raised questions about
+					the content of these traditions, their mode of transmission, and who has the
+					authority to define, transmit, and adapt them. </p>
+				<p xml:lang="en"> The Syriac Orthodox Church (including the late Patriarch Ignatius
+					Zakka I Iwas, Patriarch Ephrem II Karim, Bishop <pb n="254"/> Clemis, etc.) have
+					considered the union with the Guatemalan church as an “embracing” or “fusion
+					with” the body of the Church, tacitly implying the new Archdiocese’s submission
+					to the authority of the Patriarch, acceptance of the Church’s doctrinal beliefs
+					as well as the Syriac <hi rend="italic">anamnesis</hi>, <hi rend="italic"
+						>epiclesis</hi>, and (with reservations) the Syriac language, and a
+					negotiated adoption of sacraments. This means that the Syriac Orthodox Church
+					considers the Syriac language an important aspect of her identity, even for
+					formerly alien communities. </p>
+				<p xml:lang="en"> The tradition defined by Syriac Orthodoxy is subject to its tools
+					of transmission, which in Guatemala include Bishop Eduardo as the only point of
+					contact and the languages through which it is transmitted (and understood).
+					Although Edward Shils has underlined “faulty transmissions” as the main
+					motivation for modifying a tradition, in the case of the Archdiocese the
+					modifications are the result of the specific interests of Bishop Eduardo and his
+					followers, as the result of which some aspects of Syriac Orthodoxy are resisted
+					(such as incense and fasting prior to communion), while others are more easily
+					accepted (such as Syriac tools for liturgy, the picture of the Patriarch in some
+					communities, “<hi rend="italic">haḍ aloho sharīro</hi>”). Consequently elements
+					of Syriac Orthodoxy merge with existing traditions: communities continue to
+					practice Charismatic prayers; the <hi rend="italic">cofradías</hi> remain active; and Bishop Eduardo
+					continues preaching his view of Christian ethics. But the role the laity plays
+					in traditional Syriac Orthodox congregations and in the Archdiocese are so
+					different that this could lead to tensions. </p>
+				<p xml:lang="en"> The core rational for the Archdiocese’s members in accepting
+					Syriac Orthodox tradition does not rest on liturgy or the Church Fathers, but on
+					a much older past: Antioch. Whether reaching this far back can meet the desire
+					of the Guatemalan Church for regeneration only the future will tell. </p>
+			</div>
+			<pb n="255"/>
+			<div xml:id="hv23n2hager.acknowledgments">
+				<head>ACKNOWLEDGEMENTS</head>
+				<p xml:lang="en"> This article was completed during a postdoctoral fellowship at the
+					Institute of Eastern Christian Studies (IVOC), Radboud University, Netherlands.
+					I would like to thank Prof. Heleen Murre-van den Berg, Dr. George Kiraz and the three anonymous
+					reviewers for their valuable comments as well as Mor Eduardo and Mor Clemis for
+					their help, and all those individuals I had a chance to meet in the course of
+					this project who provided me with their valuable insight and support. </p>
+			</div>
+			<div type="bibliography">
+				<head>BIBLIOGRAPHY</head>
+				<listBibl>
+					<bibl> Aciprensa, “Sacerdote que fundó secta en Guatemala quedó excomulgado,” 18
+						October 2006: <ref
+							target="https://www.aciprensa.com/noticias/sacerdote-que-fundo-secta-en-guatemala-quedo-excomulgado"
+							>https://www.aciprensa.com/noticias/sacerdote-que-fundo-secta-en-guatemala-quedo-excomulgado</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> Aguirre Oestmann, Bishop Mor Eduardo. Personal interview, 23 November
+						2018. San Lucas Sacatepéquez. </bibl>
+					<bibl> Althoff, A. “Divided by faith and ethnicity: religious pluralism and the
+						problem of race in Guatemala.” <hi rend="italic">International Journal of
+							Latin American Religions</hi> 1 (2017): 331–352, 340. </bibl>
+					<bibl> Armbruster, H. <hi rend="italic">“Wir sprechen die Sprache, die Jesus
+							gesprochen hat” : die Vergangenheit in der Gegenwart syrisch-orthodoxer
+							ChristInnen, AssyrerInnen in Wien</hi>, Vienna: University of Vienna,
+						Master’s thesis, 1994. </bibl>
+					<bibl> Ashbrook Harvey, S. “Women and Children in Syriac Christianity. Sounding
+						Voices,” in T. King (ed.)<hi rend="italic"> The Syriac World</hi>, London:
+						Routledge, 2018: 554-566. </bibl>
+					<bibl> Atto, N. <hi rend="italic">Hostages in the Homeland, Orphans in the
+							Diaspora: Identity Discourses among the Assyrian/Syriac Elites in the
+							European Diaspora</hi>, Leiden: Leiden University Press, Doctoral
+						thesis, 2011. </bibl>
+					<bibl> Bakker Kellog, S. “Ritual sounds, political echoes: Vocal agency and the
+						sensory cultures of secularism in the <pb n="256"/> Dutch Syriac diaspora.”
+							<hi rend="italic">American Ethnologist</hi> 42,3 (2015): 431-445. </bibl>
+					<bibl> Benoit, J.L. “Religion populaire et crise identitaire en Amérique
+						latine.” <hi rend="italic">Amerika</hi> 6 (2012): <ref
+							target="https://journals.openedition.org/amerika/3110"
+							>https://journals.openedition.org/amerika/3110</ref> (accessed 9 January
+						2020). </bibl>
+					<bibl> Calder, M. “Syrian Identity in Bethlehem: From Ethnoreligion to
+						Ecclesiology.” <hi rend="italic">Iran and the Caucasus</hi> 20 (2016),
+						297-323. </bibl>
+					<bibl> Cofradía Catedral de San Juan Bautista, “La verdadera historia de la
+						Iglesia San Juan Bautista. San Juan Comalapa, Chimaltenango, Guatemala
+						Centro América” (2008): <ref
+							target="http://www.albedrio.org/htm/otrosdocs/comunicados/IGLESIASANJUANBAUTISTAENLAHISTORIA.pdf"
+							>http://www.albedrio.org/htm/otrosdocs/comunicados/IGLESIASANJUANBAUTISTAENLAHISTORIA.pdf</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> Compagnon, O. “La crise du catholicisme latino-américain.” <hi
+							rend="italic">L'Ordinaire des Amériques</hi> 210 (2008): 9-25: <ref
+							target="http://journals.openedition.org/orda/2613"
+							>http://journals.openedition.org/orda/2613</ref> (accessed 9 January
+						2020). </bibl>
+					<bibl> Davis, S. H. “Mouvement maya et culture nationale au Guatemala.” <hi
+							rend="italic">Journal de la société des américanistes</hi> 90-2 (2004):
+							<ref target="http://journals.openedition.org/jsa/1724"
+							>http://journals.openedition.org/jsa/1724</ref> (accessed 9 January
+						2020). </bibl>
+					<bibl> Dinno, K. <hi rend="italic">The Syrian Orthodox Christians in the Late
+							Ottoman Period and Beyond. Crisis then Revival</hi>. Piscataway: Gorgias
+						Press, 2017. </bibl>
+					<bibl> Episcopal Conference of Guatemala, “66: Renovados en el Espíritu.
+						Instrucción pastoral colectiva de los obispos de Guatemala sobre le
+						renovación carismática.” In <hi rend="italic">Al servicio de la vida, la
+							justicia y la paz (1956-1997)</hi>, 30 March 1986: <ref
+							target="http://www.iglesiacatolica.org.gt/CEGsvjp.pdf"
+							>http://www.iglesiacatolica.org.gt/CEGsvjp.pdf</ref> (accessed 9 January
+						2020). </bibl>
+					<bibl> Hager, A. “The Emergence of a Syriac Orthodox Mayan Church in Guatemala.”
+							<hi rend="italic">International Journal of Latin American Religions</hi>
+						3:2 (2019), 370–389. </bibl>
+					<pb n="257"/>
+					<bibl> Hoenes del Pinal, E. “A Ritual Interrupted: A Case of Contested Ritual
+						Practices in a Q’eqchi’-Maya Catholic Parish.” <hi rend="italic">Journal of
+							Contemporary Religion</hi> 31:3 (2016): 365-378 </bibl>
+					<bibl> -“From Vatican II to Speaking in Tongues: Theology and Language Policy in
+						a Q’eqchi’-Maya Catholic Parish.” <hi rend="italic">Language Policy</hi>
+						15:2 (2016), 179-197 </bibl>
+					<bibl> ICASOA. <hi rend="italic">Guía para la formación catequética en
+							preparación a la iniciación cristiana</hi>. San Lucas Sacatepéquez:
+						Editorial Nuevo Éxodo, colección didaché 1:4. </bibl>
+					<bibl> Icasoac Siro-Ortodoxo. Facebook entry 7 November 2019, Alta Verapaz,
+						Chisec: <ref
+							target="https://www.facebook.com/498235783665202/videos/404401483770752/"
+							>https://www.facebook.com/498235783665202/videos/404401483770752/</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -Facebook entry 10 November 2019, “Santa Eucaristía precidida por Su
+						Santidad Ignacio Efrén II, Estadio Los Cuchumatanes Huehuetenango
+						Guatemala:” <ref
+							target="https://www.facebook.com/498235783665202/videos/410119743001759/"
+							>https://www.facebook.com/498235783665202/videos/410119743001759/</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> Icergua. “Acta Fundacional de la Comunión,” 25 March 2003: <ref
+							target="http://www.icergua.org/latam/actacomunion.html"
+							>http://www.icergua.org/latam/actacomunion.html</ref> (accessed 7
+						February 2019). </bibl>
+					<bibl> -“Asamblea Nacional 2005; informe sobre la situación de la comunión a la
+						II asamblea nacional,” November 2005: <ref
+							target="http://icergua.org/latam/asamblea05.html"
+							>http://icergua.org/latam/asamblea05.html</ref> (accessed 9 January
+						2020). </bibl>
+					<bibl> -“Relación Con Roma,” 15 August 2006: <ref
+							target="http://www.icergua.org/latam/Relacion_roma.html"
+							>http://www.icergua.org/latam/Relacion_roma.html</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“Primera plática informe acerca de la situación actual de ICERGUA,”
+						November 2008: <ref
+							target="http://www.icergua.org/latam/pdf/vasambleanacional/01primeraplatica.pdf"
+							>http://www.icergua.org/latam/pdf/vasambleanacional/01primeraplatica.pdf</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“1: Decanato de las Verapaces y Petén,” 1 May 2009: <ref
+							target="http://www.icergua.org/latam/noticias/09-noticias/09-notagosto.html#13"
+							>http://www.icergua.org/latam/noticias/09-noticias/09-notmayo.html#23</ref>
+						(accessed 9 January 2020). </bibl>
+					<pb n="258"/>
+					<bibl> -“Icergua: llegua al medio millón de miembros,” 22 December 2010: <ref
+							target="http://www.icergua.org/latam/noticias/10-noticias/12-diciembre.html#21"
+							>http://www.icergua.org/latam/noticias/10-noticias/12-diciembre.html#21</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“23: Aprobación ʻad experimentum’ del sacramentario católico ortodoxo
+						latino,” 23 August 2011: <ref
+							target="http://www.icergua.org/latam/noticias/11-noticias/08-agosto.html#27"
+							>http://www.icergua.org/latam/noticias/11-noticias/08-agosto.html#27</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“05: Diálogos con el patriarcado ortodoxo siriano de Antioquía,” 5
+						November 2011: <ref
+							target="http://www.icergua.org/latam/noticias/11-noticias/11-noviembre.html#6"
+							>http://www.icergua.org/latam/noticias/11-noticias/11-noviembre.html#6</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“02: Primera celebración de la divina liturgia de Santiago por nuestro
+						Obispo,” 2 August 2012: <ref
+							target="http://www.icergua.org/latam/noticias/12-noticias/08-agosto.html#1"
+							>http://www.icergua.org/latam/noticias/12-noticias/08-agosto.html#1</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“07: Visita a Mor Clemis Eugene en su sede arzobispal de Burbank,
+						California,” 7 December 2012: <ref
+							target="http://www.icergua.org/latam/noticias/12-noticias/12-diciembre.html#4"
+							>http://www.icergua.org/latam/noticias/12-noticias/12-diciembre.html#4</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“16: Reuniones en St. Ephrem’s Cathedral en Burbank, California,” 16
+						February 2013: <ref
+							target="http://www.icergua.org/latam/noticias/13/02.html#28"
+							>http://www.icergua.org/latam/noticias/13/02.html#28</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“05: Tonsura de nuestro obispo como monje, por su Santidad Ignacio
+						Zaqueo I Iwas,” 5 March 2013: <ref
+							target="http://www.icergua.org/latam/noticias/13/03.html#2"
+							>http://www.icergua.org/latam/noticias/13/03.html#2</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“05: Encíclicas de su santidad Ignacio Zaqueo I, concernientes a nuestra
+						iglesia,” 5 March 2013: <ref
+							target="http://www.icergua.org/latam/noticias/13/03.html#7"
+							>http://www.icergua.org/latam/noticias/13/03.html#7</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“20: Visita a la comunidad de fieles de la catedral de San Efrén,
+						Burbank, Californa,” 20 January 2014: <ref
+							target="http://www.icergua.org/latam/noticias/14/01.html#45"
+							>http://www.icergua.org/latam/noticias/14/01.html#45</ref> (accessed 9
+						January 2020). </bibl>
+					<pb n="259"/>
+					<bibl> -“13: Divina liturgia por el ayuno de Nínive y la solemnidad de San
+						Ignacio Elías III.,” 13 February 2014: <ref
+							target="http://www.icergua.org/latam/noticias/14/02.html#17"
+							>http://www.icergua.org/latam/noticias/14/02.html#17</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“01: Encuentro de nuestro Arzobispo Mor Santiago Eduardo con su Santidad
+						Ignacio Efrén II.,” 1 March 2014: <ref
+							target="http://www.icergua.org/latam/noticias/14/04.html#1"
+							>http://www.icergua.org/latam/noticias/14/04.html#1</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“03: Exhortación pastoral ʻEl Evangelio de la Renovación,’” 3 April
+						2014: <ref target="http://www.icergua.org/latam/noticias/14/04.html#5"
+							>http://www.icergua.org/latam/noticias/14/04.html#5</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“01: Llegada del coespiscopo Abdulahad Shara como envidao de su Santidad
+						el patriarca,” 1 September 2014: <ref
+							target="http://www.icergua.org/latam/noticias/14/09.html#1"
+							>http://www.icergua.org/latam/noticias/14/09.html#1</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“Identidad y perspectivas pastorales de la arquidiócesis de Centro
+						América,” November 2014: <ref
+							target="http://www.icergua.org/latam/pdf/14-11-14-identidad-perspectiva-arquidiocesis.pdf"
+							>http://www.icergua.org/latam/pdf/14-11-14-identidad-perspectiva-arquidiocesis.pdf</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“Raíces históricas del proceso que nos ha llevado hasta ser constituidos
+						en arquidiócesis de Centro América de la Santa Iglesia Católica Apostólica
+						siro-ortodoxa de Antioquía,” November 2014: <ref
+							target="http://www.icergua.org/latam/pdf/14-11-13-historiaarquidiocesis.pdf"
+							>http://www.icergua.org/latam/pdf/14-11-13-historiaarquidiocesis.pdf</ref>
+						(accessed 9 January 2020). </bibl>
+					<bibl> -“21: Divina liturgia de bienvenida a los corepíscopos Mathews y Sabu
+						Thomas en el seminario,” 21 April 2015: <ref
+							target="http://www.icergua.org/latam/noticias/15/04.html#47"
+							>http://www.icergua.org/latam/noticias/15/04.html#47</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“24: Divina liturgia en el seminario presidida por los corepíscopos
+						Mathews y Sabu,” 24 April 2015: <ref
+							target="http://www.icergua.org/latam/noticias/15/04.html#53"
+							>http://www.icergua.org/latam/noticias/15/04.html#53</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“06: Publicación del estatuto oficial de la arquidiócesis de Centro
+						América,” 6 June 2015: <pb n="260"/>
+						<ref target="http://www.icergua.org/latam/noticias/15/06.html#2"
+							>http://www.icergua.org/latam/noticias/15/06.html#2</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“18: Encuentro de Mor Santiago Eduardo con su Santidad el patriarca en
+						Lancaster, Pensilvania, USA,” 18 July 2015: <ref
+							target="http://www.icergua.org/latam/noticias/15/07.html#29"
+							>http://www.icergua.org/latam/noticias/15/07.html#29</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“02: Visita a las obras de construcción del templo de Santa María,
+						Cunén, el Quiché,” 2 November 2016: <ref
+							target="http://www.icergua.org/latam/noticias/16/11.html#5"
+							>http://www.icergua.org/latam/noticias/16/11.html#5</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“22: Su Santidad Ignacio Efrén II, recibe a Mor Santiago Eduardo en el
+						patriarcado de Damasco,” 22 January 2017: <ref
+							target="http://www.icergua.org/latam/noticias/17/01a.html#53"
+							>http://www.icergua.org/latam/noticias/17/01a.html#53</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“15: Divina liturgia en San Miguel Chanquejelbé, Nentón, Huehuetenango,”
+						15 March 2017: <ref
+							target="http://www.icergua.org/latam/noticias/17/03a.html#4"
+							>http://www.icergua.org/latam/noticias/17/03a.html#4</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“11: Renovación de los compromisos presbiterales, vicaría de
+						Huehuetenango, San Rafael de la Independencia,” 11 April 2017: <ref
+							target="http://www.icergua.org/latam/noticias/17/04.html#24"
+							>http://www.icergua.org/latam/noticias/17/04.html#24</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“19: El patriarca envía la encíclica de bendición para la publicación
+						del sacramentario de la arquidiócesis,” 19 June 2017: <ref
+							target="http://www.icergua.org/latam/noticias/17/06a.html#10"
+							>http://www.icergua.org/latam/noticias/17/06a.html#10</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> -“01: Divina liturgia en la parroquia de Guaxacaná, Nentón,
+						Huehuetenango,” 1 January 2018: <ref
+							target="http://www.icergua.org/latam/noticias/18/01.html#2"
+							>http://www.icergua.org/latam/noticias/18/01.html#2</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl>“10: Reunión con los servidores de la parroquia de San Miguel, Los Ángeles,” 10 
+						August 2014: <ref target="http://www.icergua.org/latam/noticias/14/08.html#15">
+							http://www.icergua.org/latam/noticias/14/08.html#15</ref> (accessed 29 July 2020)</bibl>
+					<pb n="261"/>
+					<bibl> Iwas, Mor Ignatius Zakka I. “Identity of the Syrian Orthodox Church,”
+						1986: <ref target="http://syriacchristianity.info/PZakka/IdentityofSOC.htm"
+							>http://syriacchristianity.info/PZakka/IdentityofSOC.htm</ref> (accessed
+						19 December 2019). </bibl>
+					<bibl> -“Tradition” (<hi rend="italic">Patriarchal Magazine</hi> (January -
+						March, 1990): <ref
+							target="http://syriacchristianity.info/PZakka/Artilces/TraditionSOC.pdf"
+							>http://syriacchristianity.info/PZakka/Artilces/TraditionSOC.pdf</ref>
+						(accessed 18 December 2019). </bibl>
+					<bibl> -“The Role of Women in the Syrian Orthodox Church of Antioch,” 1996: <ref
+							target="http://syriacchristianity.info/PZakka/Artilces/WomeninSOC.pdf"
+							>http://syriacchristianity.info/PZakka/Artilces/WomeninSOC.pdf</ref>
+						(accessed 19 December 2019). </bibl>
+					<bibl> Jacobsen, D. <hi rend="italic">The World’s Christians: Who They Are,
+							Where They Are, and How They Got There</hi>. Chichester:
+						Wiley-Blackwell, 2011. </bibl>
+					<bibl> Jarjour, J. “Ḥasho: Music Modality and the Economy of Emotional
+						Aesthetics.” <hi rend="italic">Ethnomusicology Forum</hi>, 24:1 (2015),
+						51-72. </bibl>
+					<bibl> Kaplan, Bishop Mor Clemis Eugene. Personal interview, 21 August 2018,
+						Burbank. </bibl>
+					<bibl> -“Historical Moment in the History of the Syriac Orthodox Church,” given
+						to the author on 21 August 2018, Burbank. </bibl>
+					<bibl> -“Comparison between the Syriac Orthodox Church and the Roman Catholic
+						and Protestant Churches in Brief,” sent to the author in August 2018. </bibl>
+					<bibl> Karim, Mor Ignatius Aphrem II. “Following Christ together in
+						discrimination, persecution, martyrdom: What does this mean for the global
+						church today?” 25 April 2018: <ref
+							target="https://syriacpatriarchate.org/2018/04/following-christ-together-in-discrimination-persecution-martyrdom-what-does-this-mean-for-the-global-church-today/"
+							>https://syriacpatriarchate.org/2018/04/following-christ-together-in-discrimination-persecution-martyrdom-what-does-this-mean-for-the-global-church-today/</ref>
+						(accessed 19 December 2019). </bibl>
+					<bibl> Kiraz, G. <hi rend="italic">The Syriac Orthodox in North America
+							(1895-1995). A Short History</hi>. Piscataway: Gorgias Press, 2019. </bibl>
+					<bibl> Majallat al-Hikma, “<foreign xml:lang="ar">خلاصة مقررات مجمع دير مار متى
+							المقدس بالموصل</foreign> [Summary of the Decisions of the Synod at Mar
+							<pb n="262"/> Mattai Monastery in Mosul],” Nr. 9, Year 4, November 1930,
+						Pages 516-523. </bibl>
+					<bibl> Murre-Van den Berg, H. “A Center of Transnational Syriac Orthodoxy: St.
+						Marks’ Convent in Jerusalem.” <hi rend="italic">Journal of Levantine
+							Studies</hi> 3:1 (2013), 59-81. </bibl>
+					<bibl> Naveau, E. “Les orthodoxes syriaques d’Indonésie.” <hi rend="italic">Les
+							Cahiers de l'Orient</hi> 93:1 (2009), 111-124 <ref
+							target="https://www.cairn.info/revue-les-cahiers-de-l-orient-2009-1-page-111.htm#"
+							>https://www.cairn.info/revue-les-cahiers-de-l-orient-2009-1-page-111.htm#</ref>
+						(accessed 7 April 2019). </bibl>
+					<bibl> Prien, H.-J. <hi rend="italic">Das Christentum in Lateinamerika. IV.6.
+							Kirchengeschichte in Einzeldarstellungen</hi>. Leipzig: Evangelische
+						Verlagsanstalt, 2007. </bibl>
+					<bibl> Samuel, M. A. Y. <hi rend="italic">Saint James Liturgy Anaphora. The
+							Divine Liturgy of Saint James </hi>(1967) </bibl>
+					<bibl> Sandford, V. “From Genocide to Feminicide: Impunity and Human. Rights in
+						Twenty-First Century Guatemala.” <hi rend="italic">Journal of Human
+							Rights</hi> 7 (2008), 104–122. </bibl>
+					<bibl> Santiago Eduardo, Mor. “Icergua: Introducción a la biografía de Monseñor
+						Eduardo Aguirre Oestmann:” <ref
+							target="https://www.youtube.com/watch?v=Yazgw4Mxy_Y"
+							>https://www.youtube.com/watch?v=Yazgw4Mxy_Y</ref> (accessed 7 February
+						2019). </bibl>
+					<bibl> Mor Santiago Eduardo, “Icergua: entrevista con el obispo en Ahuachapán el
+						Salvador,” published 2 June 2012, <ref
+							target="https://www.youtube.com/watch?v=SqyGU_mluRA"
+							>https://www.youtube.com/watch?v=SqyGU_mluRA</ref> (accessed 7 February
+						2019). </bibl>
+					<bibl> Schmoller, A. (ed.), <hi rend="italic">Middle Eastern Christians and
+							Europe: Historical Legacies and Present Challenges</hi>. Vienna: Lit,
+						2018. </bibl>
+					<bibl> Claude, S. <hi rend="italic">Les Syriens orthodoxes et catholiques</hi>.
+						Turnhout: Brepols, 1988 </bibl>
+					<bibl> Seraphim, A. “Orthodox Mission in the Twenty-First Century: Guatemala.”
+						The Glastonbury Review 126 (2015): <ref
+							target="http://britishorthodox.org/glastonburyreview/issue-126-orthodox-mission-in-the-twenty-first-century-guatemala/"
+							>http://britishorthodox.org/glastonburyreview/issue-126-orthodox-mission-in-the-twenty-first-century-guatemala/</ref>
+						(accessed 25 March 2019). </bibl>
+					<bibl> Shils, E. “Tradition.” <hi rend="italic">Comparative Studies in Society
+							and History</hi> 13:2 Special Issue on Tradition and Modernity (1971),
+						122-159. </bibl>
+					<pb n="263"/>
+					<bibl> -<hi rend="italic">Tradition</hi>. Chicago: University of Chicago Press,
+						1981. </bibl>
+					<bibl> SOC-WUS; Rev. Father John Khoury, “The Seven Living Sacraments,” 29 March
+						2010: <ref
+							target="http://syrianorthodoxchurch.org/2010/03/the-seven-living-sacraments/"
+							>http://syrianorthodoxchurch.org/2010/03/the-seven-living-sacraments/</ref>
+						(accessed 7 February 2019). </bibl>
+					<bibl> SOC-WUS, “His Eminence Mor Clemis Eugene welcomed Bishop Eduardo of
+						Guatemala,” 9 April 2011: <ref
+							target="http://www.soc-wus.org/2011News/4102011163933.htm"
+							>http://www.soc-wus.org/2011News/4102011163933.htm</ref> (accessed 7
+						February 2019). </bibl>
+					<bibl> -"<foreign xml:lang="ar">صفحةٌ تأريخية في تاريخ الكنيسة السريانية الأرثوذكسية</foreign> [From the Archive of the
+						Patriarchate: a Historic Page in the History of the Syriac Orthodox
+						Church],” 7 August 2012: <ref
+							target="http://www.soc-wus.org/2012News/8112012115231.htm"
+							>http://www.soc-wus.org/2012News/8112012115231.htm</ref> (accessed 9
+						January 2020). </bibl>
+					<bibl> Syrian Orthodox Dioceses of North America and Canada, “The Sacrament of
+						the Holy Eucharist,” 1998: <ref
+							target="http://sor.cua.edu/Liturgy/Anaphora/Eucharist.html"
+							>http://sor.cua.edu/Liturgy/Anaphora/Eucharist.html</ref> (accessed 18
+						December 2019). </bibl>
+					<bibl> Thorsen, J. “El impacto de la renovación carismática en la Iglesia
+						católica de Guatemala” <hi rend="italic">Anuario de Estudios
+							Centroamericanos</hi> 42:1 (2016), 213-236 </bibl>
+					<bibl> Varghese, B. <hi rend="italic">West Syrian Liturgical Theology</hi>.
+						Aldershot: Ashgate, 2004. </bibl>
+				</listBibl>
+			</div>
+		</body>
+	</text>
+</TEI>
