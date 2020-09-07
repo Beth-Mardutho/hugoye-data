@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">An Armenian Invocational Prayer of a Lost Memra of Jacob of
+					Serugh on Good Friday and the Destruction of Sheol</title>
+				<author>
+					<name>
+						<forename>Andy</forename>
+						<surname>Hilkens</surname>
+					</name>
+				</author>
+				<respStmt>
+					<resp>TEI XML encoding by</resp>
+					<name type="person">Joss Childs</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.1"/>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Beth Mardutho: The Syriac Institute</publisher>
+				<date>2020</date>
+				<idno>Volume 23.2</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						<p>For this publication, a Creative Commons Attribution 4.0 International
+							license has been granted by the author(s), who retain full
+							copyright.</p>
+					</licence>
+				</availability>
+				<idno type="URI">https://hugoye.bethmardutho.org/article/hv23n2hilkens</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Andy Hilkens</author>
+						<title level="a">An Armenian Invocational Prayer of a Lost Memra of Jacob of
+							Serugh on Good Friday and the Destruction of Sheol</title>
+						<idno type="URI"/>
+						<idno type="PDF"
+							>https://hugoye.bethmardutho.org/pdf/vol23/HV23N2Hilkens.pdf</idno>
+					</analytic>
+					<monogr>
+						<title level="j">Hugoye: Journal of Syriac Studies</title>
+						<imprint>
+							<publisher>Beth Mardutho: The Syriac Institute</publisher>
+							<date>2020</date>
+						</imprint>
+						<biblScope unit="vol" n="23>">23</biblScope>
+						<biblScope unit="issue" n="2">2</biblScope>
+						<biblScope unit="pp" from="263" to="277">263-277</biblScope>
+						<biblScope unit="order" n="2"/>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+					of the Syriac tradition, published semi-annually (in January and July) by Beth
+					Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+					best scholarship available in the field of Syriac studies.</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en"/>
+			</langUsage>
+			<textClass>
+				<keywords xml:lang="en">
+					<term>Memro</term>
+					<term>Armenian</term>
+					<term>Invocational prayer</term>
+					<term>Jacob of Serugh</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc status="Published">
+			<change when="2020-09-05">File created by Joss Childs</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="article">
+		<front>
+			<div type="abstract" xml:lang="en">
+				<head>ABSTRACT <note place="foot" xml:id="ftn1" n="1"><p xml:lang="en"> This article
+							grew out of research that began during the first two years of a
+							three-year postdoctoral fellowship at the Department of History at Ghent
+							University (2016-2018), funded by the Research Foundation of Flanders
+							(Fonds Wetenschappelijk Onderzoek Vlaanderen, FWO), and continued at the
+							Center for the Study of Christianity at the Hebrew University of
+							Jerusalem, where I took up a one-year postdoctoral research fellowship
+							in 2018-2019. I am thankful to Edward G. Mathews Jr. for offering his
+							advice and corrections to the edition and translation. Thanks are also
+							in order for the reviewers for their generous feedback and suggestions
+							for improvement, especially of the translation. As always, any remaining
+							errors are entirely my own. </p></note>
+				</head>
+				<p> This article offers the <hi rend="italic">editio princeps</hi> and translation
+					of the Armenian translation of an invocational prayer of a now lost memra of
+					Jacob of Serugh on Good Friday and the destruction of Sheol. This text is
+					different from the Armenian homily on Good Friday which was recently edited and
+					translated by <pb n="264"/> Edward G. Mathews, Jr. On the basis of comparisons
+					with extant homilies of Jacob, it is argued that the prayer is genuine. </p>
+			</div>
+		</front>
+		<body>
+			<div xml:lang="en" xml:id="hv23n2hilkens.1">
+				<head>I. INTRODUCTION</head>
+				<p> It was not only Syriac Orthodox Christians who recognized the eloquence of Jacob
+					of Serugh (d. 29 November 520 or 521), one of the most prolific authors of
+					homilies of Late Antiquity; other Christian communities did as well. In
+					particular, Armenian Christians seem to have appreciated his works. As many as
+					twenty-five of his homilies may have been translated into Armenian, as well as
+					his Lives of Daniel of Aghlosh and Hannina. <note place="foot" xml:id="ftn2"
+						n="2"><p xml:lang="en"> On the homilies, see A. Hilkens, “The manuscripts of
+							the Armenian homilies of Jacob of Serugh: preliminary observations and
+							checklist” <hi rend="italic">Manuscripta</hi> (forthcoming); id., “The
+							Armenian reception of the homilies of Jacob of Serugh: new findings.” in
+								<hi rend="italic">Caught in Translation: Studies on Versions of
+								Late-Antique Christian Literature</hi>, Texts and Studies in Eastern
+							Christianity 17, ed. M. Toca and D. Batovici. Leiden: Brill, 2019,
+							64–84. For an earlier introduction, which was the inspiration for my
+							research, see Edward G. Mathews, Jr., “Jacob of Serugh, Homily on Good
+							Friday and other Armenian treasures: first glances,” in <hi
+								rend="italic">Jacob of Serugh and his times</hi>, ed. G. Kiraz
+							(Piscataway NJ: Gorgias Press, 2010), 133–161. The Armenian version of
+							the Life of Hannina remains unedited but one manuscript witness of the
+							Life of Daniel was published in L. Ter-Petrosyan, “Jacob of Serugh’s
+							‘Life of Mar Daniel of Galash,’” <hi rend="italic">Ējmiadzin</hi> 36
+							(1979): 22–40. </p></note> Research on the manuscript tradition is still
+					in its infancy, but has already revealed an interesting characteristic: a small
+					number of manuscripts only preserve the invocational prayers with which Jacob
+					began his metrical homilies. <note place="foot" xml:id="ftn3" n="3"><p
+							xml:lang="en"> A. Hilkens, “The manuscripts of the Armenian homilies”
+							(forthcoming); id., “‘Beautiful little gems in their own right’:
+							seventeenth-century Armenian collections of invocational prayers from
+							Jacob of Serugh’s memre” (to be published in a Festschrift for Sebastian
+							Brock, edited by M. Hjälm, B. Bitton-Ashkelony and R. Kitchen).
+						</p></note> Occasionally, these manuscripts contain the only remnants of an
+					Armenian translation of a homily of Jacob, which is still extant in Syriac,
+						<note place="foot" xml:id="ftn4" n="4"><p xml:lang="en"> A. Hilkens, “The
+							Armenian version of Jacob of Serugh’s Memra on the Five Talents,” <hi
+								rend="italic">Le Muséon </hi>(forthcoming 2020). </p></note> as is
+					the case for instance with <pb n="265"/> his memra on the Five Talents, but two
+					invocational prayers of homilies of which the Syriac original appears to be lost
+					have also survived, one on Jonah and the Ninevites <note place="foot"
+						xml:id="ftn5" n="5"><p xml:lang="en"> Id., “An Armenian invocational prayer
+							of a lost homily on Jonah and the Ninevites by Jacob of Serugh” (in
+							preparation). </p></note> and another on Good Friday and the Destruction
+					of Sheol. <note place="foot" xml:id="ftn6" n="6"><p xml:lang="en"> This text is
+							different from (1) the Armenian translation of Jacob’s now lost homily
+							on the topic of Good Friday and (2) Jacob’s last homily on Mary and
+							Golgotha, both recently edited and translated in E.G. Mathews, Jr., <hi
+								rend="italic">Jacob of Sarug’s Additional Homilies on Good
+								Friday</hi> (Piscataway NJ: Gorgias Press, 2018), as well as (3-4)
+							from the two homilies edited in P. Bedjan,<hi rend="italic"> Homiliae
+								selectae Mar-Jacobi Sarugensis</hi> (Paris: Harrassowitz, 1910)
+							[repr. P. Bedjan and S.P. Brock, <hi rend="italic">Homilies of Mar Jacob
+								of Sarug / Homiliae Selectae Mar-Jacobi Sarugensis</hi> (Piscataway
+							NJ: Gorgias Press, 2006)], vol. 2, 522–554 and 554–579, and (3) the <hi
+								rend="italic">turgama</hi> on this topic edited and translated by F.
+							Rilliet, <hi rend="italic">Jacques de Sarough, Six Homélies Festales en
+								Prose</hi>, PO 43.4 (Paris: Firmin-Didot, 1986), 610–628.
+						</p></note>
+				</p>
+				<p> This brief article presents the <hi rend="italic">editio princeps</hi>,
+					translation, and commentary on the latter text. Currently, only three manuscript
+					witnesses are known. <note place="foot" xml:id="ftn7" n="7"><p xml:lang="en">
+							Some 6500 manuscripts in the Matenadaran await to be catalogued in
+							detail so it is possible that more witnesses will turn up in the future.
+						</p></note> The first is New Julfa (Isfahan), Church of the All-Saviour (=
+					NOJ) 295, fols. 64v-65v, a homiliary (<foreign xml:lang="hy"
+					>քարոզգիրք</foreign>, k‛arozgirk‛) that was copied in 1659 in the Shenher
+					convent in Julfa (a city, currently in the Azerbaijani exclave of Nakhchivan).
+						<note place="foot" xml:id="ftn8" n="8"><p xml:lang="en"> S. Ter-Avetissian,
+								<hi rend="italic">Katalog der armenischen Handschriften in der
+								Bibliothek des Klosters in Neu-Djoulfa. Band I</hi> (Vienna:
+							Mekhitarist Press, 1970), 729 (cat. nr. 464). Unfortunately, this
+							manuscript has remained inaccessible to me until the time of publication
+							of this article, but the makeup of the collection and the title of the
+							text as described in the catalogue makes it likely that this is the same
+							text. </p></note> The second was copied six years later in Kayseri
+					(Central Anatolia): Yerevan, Matenadaran - Mesrop Mashtots Institute of Ancient
+					Manuscripts (= M) 2291, fols. 119rv, a miscellany (with a section of texts
+					clearly drawn from a similar homiliary as the previous manuscript). <note
+						place="foot" xml:id="ftn9" n="9"><p xml:lang="en"> G. Ter-Vardanyan, <hi
+								rend="italic">General catalogue of Armenian manuscripts of the
+								Mashtots Matenadaran. Volume VII</hi> (Yerevan: Nairi, 2012),
+							813–820. </p></note> The third is Jerusalem, Armenian Patriarchate (= J)
+					1499, a manuscript of uncertain <pb n="266"/> origin to which several different
+					scribes contributed in the late sixteenth and seventeenth centuries. <note
+						place="foot" xml:id="ftn10" n="10"><p xml:lang="en"> N. Bogharyan, <hi
+								rend="italic">General Catalogue of the Manuscripts in St. James’
+								monastery. Volume 5 </hi>(Jerusalem: St. James’ Press, 1971),
+							235–236. </p></note> This explains why it contains two different
+					collections of invocational prayers from Jacob’s homilies and prologues of other
+					homilies by and attributed to other authors (most notably Ephrem and the
+					Armenian homilist Arak‛el of Baghesh/Bitlis <note place="foot" xml:id="ftn11"
+						n="11"><p xml:lang="en"> For a brief English introduction to Arak’el
+							vardapet and a translation of his Lament on the Fall of Constantinople
+							in 1453, see A.J. Hacikyan, <hi rend="italic">The Heritage of Armenian
+								Literature. Volume II: From the Sixth to the Eighteenth Century</hi>
+							(Detroit: Wayne State University Press, 2000), 668–681. For an
+							introduction into his corpus of writings (in Armenian), see A. Ghazinyan
+							and P.M. Khachatryan, <hi rend="italic">Arakʿel of Baghesh (15th
+								century). Study, critical texts, notes</hi>, Medieval Armenian Hymns
+							8 (Yerevan: Armenian Academy of Sciences, 1971), H.A. Anasyan, <hi
+								rend="italic">Armenian Bibliography 5th-18th cc. Volume 1
+							</hi>(Yerevan: Armenian Academy of Sciences, 1959), col. 1106–1143 and
+							id., <hi rend="italic">Armenian Bibliography 5th-18th cc. Volume 2</hi>
+							(Yerevan: Armenian Academy of Sciences, 1976), col. 89–151. </p></note>
+					(1380-1454)), both of which include a version of the invocational prayer from
+					this lost homily on Good Friday (p. 53 and pp. 142-143). <note place="foot"
+						xml:id="ftn12" n="12"><p xml:lang="en"> Bogharyan’s description of this
+							manuscript is incomplete: he only mentions the existence of the first
+							collection and the names of a few authors without identifying any of the
+							texts. Of the second collection he only identifies three texts, on the
+							Star (p. 131), on the Ninevites (p. 133) and on Antioch (p. 148) - which
+							makes it seem as though these texts may be the complete homilies, but in
+							fact these are only the invocational prayers, surrounded by many other
+							prologues of homilies that Bogharyan has not mentioned. A complete
+							description of the contents of these two (and the other) collections
+							will be provided in Hilkens, “‘Beautiful little gems in their own
+							right’” (forthcoming). Unfortunately I did not find out about the
+							presence of the invocational prayer on Good Friday in this manuscript
+							until after submitting this article to Hugoye for review. During the
+							limited time that I was able to consult the extensive collection of
+							Armenian manuscripts in Jerusalem, I only had time to catalogue and
+							identify the texts in this manuscript but not to copy any of them (aside
+							from the ones on the Five Talents) nor to compare the version of this
+							prayer with the one in M 2291. Subsequently I did order images of the
+							manuscript in question, but unfortunately, due to various factors
+							including the Covid-19 crisis, these images did not reach me in time
+							before the <pb n="267"/> publication of this article. That having been
+							said, judging from my study of the Armenian translation of the
+							invocational prayer of Jacob’s homily on the Five Talents, which is a
+							similar case, also being present in M 2291 and twice in J 1499, I would
+							suggest that the versions of the invocational prayer on Good Friday in J
+							1499 will probably not vary a great deal, neither from one another nor
+							from the version in M 2291. </p></note>
+				</p>
+				<pb n="267"/>
+				<p> It is worth noting that this text is never explicitly attributed to Jacob of
+					Serugh. In M 2291 and in the first collection in J 1499 the text remains
+					anonymous, but in the second collection in J 1499 as well as in NOJ 295, it is
+					attributed to “the same Jacob” <foreign xml:lang="hy">(Նորին Յակոբայ)</foreign>.
+						<note place="foot" xml:id="ftn13" n="13"><p xml:lang="en"> For the titles,
+							see above and footnotes 16, 17, and 21 below. </p></note> This label
+					refers back to Jacob of Serugh <foreign xml:lang="hy">(Յակոբայ Սրճոյ, յակոբայ
+						սրճեցոյ)</foreign> who is identified as the author of earlier texts in both
+					collections: a text “on the Mystery of Sunday” <foreign xml:lang="hy">(ի
+						խորհուրդ կիւրակէի)</foreign> in the case of NOJ 295 (fols. 40v-41r) and one
+					on the Raising of Lazarus and another text that was intended to be read on Holy
+					Monday in the second collection in J 1499 (pp. 136-137 and 138-140
+					respectively). I have not been able to see this text on the Mystery of Sunday in
+					NOJ 295, but a text with the same title, which is always attributed to “Jacob of
+					Serugh” and whose language suggests that it is indeed a translation of one of
+					Jacob’s invocational prayers, is extant in other manuscripts: M 2291, fols.
+					116v-117r, <note place="foot" xml:id="ftn14" n="14"><p xml:lang="en"> Title:
+								<foreign xml:lang="hy">Նորին սրբոյն Յակոբայ Սրճեցոյ ասացեալ ի
+								խորհուրդ կիրակէի,</foreign> “Said by the same holy Jacob of Serugh
+							about the Mystery of Sunday.” </p></note> M 2103, fols. 14rv, <note
+						place="foot" xml:id="ftn15" n="15"><p xml:lang="en"> On this manuscript, see
+							Ter-Vardanyan, <hi rend="italic">General catalogue</hi>, col. 17–20.
+						</p></note> and J 1499, p. 19 <note place="foot" xml:id="ftn16" n="16"><p
+							xml:lang="en"> Title:<foreign xml:lang="hy"> նորին սրբոյն յակոբայ
+								սրճեցոյ ասացեալ ի խորհուրդ կիւրակէի,</foreign> “Spoken by the same
+							holy Jacob of Serugh on the Mystery of Sunday.” </p></note> and pp.
+					144-145. <note place="foot" xml:id="ftn17" n="17"><p xml:lang="en"> Title:
+								<foreign xml:lang="hy">նորին սրբոյն յակոբայ ասացեալ ի խորհուրդ
+								կիւրակէի,</foreign> Spoken by the same holy Jacob on the Mystery of
+							Sunday.” Neither of these texts in this manuscript is mentioned in the
+							catalogue. I am preparing an edition of this text based on the
+							accessible witnesses (M 2103, M 2291 and J 1499). </p></note> In
+					contrast to this text <pb n="268"/> and what is likely to be the invocational
+					prayer of Jacob’s metrical homily on the Raising of Lazarus in J 1499, the text
+					for Great Monday is actually not a translation of one of Jacob’s writings, but
+					the prologue of a homily of the fifteenth-century Armenian author Arak‛el of
+					Baghesh. <note place="foot" xml:id="ftn18" n="18"><p xml:lang="en"> On this
+							text, see Anasyan, <hi rend="italic">Armenian Bibliography 5th-18th cc.
+								Volume 1</hi>, col. 1141-1142 (nr. 10) who mentions the following
+							witnesses in addition to M 2291: M 2121, f. 378v-9r, M 745, f.
+							112v-113r, M 597, f. 53v-54r and M 3457, f. 211v-212r. </p></note>
+				</p>
+				<p> The attribution to Jacob of the prayer on Good Friday and the Destruction of
+					Sheol appears to be correct. The Armenian text seems to be a translation of a
+					now lost Syriac original, genuinely written by Jacob. The language is very
+					similar to Jacob’s and some of the imagery that is used in this invocational
+					prayer is also attested in other homilies by Jacob. <note place="foot"
+						xml:id="ftn19" n="19"><p xml:lang="en"> Links with characteristics of other
+							writings by Jacob are explained in the footnotes. </p></note>
+					Furthermore, the way in which the invocational prayer is built up is also
+					typical for his work. The four constituent components of preaching that Jacob
+					tends to include in his introductory prayers are all represented: the Lord, the
+					speaker, the memra, and the hearers. <note place="foot" xml:id="ftn20" n="20"><p
+							xml:lang="en"> S. Ashbrook Harvey, “Th Poet’s Prayer: Invocational
+							Prayers in the Mêmrê of Jacob of Sarug,” in <hi rend="italic">Papers
+								presented at the Seventeenth International Conference on Patristic
+								Studies held in Oxford 2015</hi>, StPatr 78, ed. M. Vinzent, J.
+							Wickes and K.S. Heal (Turnhout: Brepols, 2017), 51–60, at 53.
+						</p></note> The first two verses connect the Lord and the speaker (i.e.
+					Jacob): Jacob beseeches “Christ, the one who gives light to the universe” to
+					also illuminate Jacob’s “obscured mind to preach about” him. The reference to
+					preaching already links these two components to the memra itself. In the last
+					two verses of the prayer, the homily is described as “the words of the
+					bridegroom” and “my homily”, which allow Jacob to not only link the memra to the
+					Lord (“the bridegroom”), but also both to the other two components: the speaker
+					(“my homily”) and his audience (“sons of the bride of the church” and “daughters
+					of Sion”). </p>
+				<pb n="269"/>
+			</div>
+			<div xml:lang="hy" xml:id="hv23n2hilkens.2">
+				<head xml:lang="en">II. EDITION AND TRANSLATION</head>
+				<p xml:lang="hy">
+					<l rend="underline">Ի Մեծի ուրբաթին եւ ի կործանումն դժոխոց</l>
+					<note place="foot" xml:id="ftn21" n="21"><p xml:lang="en"> As mentioned above,
+							the title in NOJ 295 and the second collection in J 1499 is preceded by
+							the words <foreign xml:lang="hy">Նորին Յակոբայ ասացեալ</foreign>,
+							“Spoken/dictated by the same Jacob”, but because my edition is based on
+							M 2291, I have not added those words to the text. </p></note>
+					<l>Լուսատու տիեզերաց ք[րիստո]ս </l>
+					<l>լուսաւորեա զմթացեալ միտս իմ քարոզել զքէն. </l>
+					<l>շնորհ[եա]յ ինձ յողորմութէ քումմէ. </l>
+					<l>զի ողորմութեամբ քո ճանաչեցից զմարդասիրութիւն քո. </l>
+					<l>տուր ինձ շնորհս քարոզել զքէն. </l>
+					<l>զի ամ[ենայ]քն ոյք լսիցեն զղջանալով դարձցին ի չար գ[ո]րծ[ո]ց իւր[եան]ց. </l>
+					<l>սիրով բարերարութ[են]է քո մերձեցիր առ իս. </l>
+					<l rend="indent">ք[ա]ր[ո]զել մարդկան զփառս քո.</l>
+					<l>զի որք լսիցեն խնդրեսցեն ի քէն ներել յանցանաց.</l>
+					<l>զպահպանիչ հոգիդ ս[ուր]բ առաքեա առ իս.</l>
+					<l>զի ես նովաւ զօրանամ խօսել վ[ա]ս[ն] անյաղթ զօրութ[են]է քում</l>
+					<l>որպէս կործանեցեր ի ձայնէ եղջերփողոյն զպարիսպն երիքովի.</l>
+					<l>և այժմ շնորհեայ ձայնի քարոզութե[ան]ս իմոյ կործանել զամրութի[ւն] թշնամոյն. </l>
+					<l>որ սրսկմամբ արեան քո զկահս խորանին սրբեցեր.</l>
+					<l>և այժմ ցօղեա առ իս զողորմութի[ւն] քո. </l>
+					<pb n="270"/>
+					<l>մատամբ քո լուսաւորութի[ւն] շնորհեցեր մեծին մովսէսի. </l>
+					<l>ք[ա]ր[ո]զել զա[ստուա]ծութի[ւն] քո.</l>
+					<l>և այժմ լուսաւորեա զիս ծագմամբ լուսավ քո.</l>
+					<l>զի ես լուսովն քո լուսաւորեցից զորդիս եկեղեցոյ քում.</l>
+					<l>որդիք հարսին եկեղեցւոյ. ընկալարուք զբանս փեսային.</l>
+					<l>և դստերք սիոնի լուարուք զքարոզս:</l>
+				</p>
+				<lb/>
+				<lg xml:lang="en">
+					<l real="underline">On Great Friday and the Destruction of Sheol <note
+							place="foot" xml:id="ftn22" n="22"><p xml:lang="en"> The link between
+								the crucifixion and the destruction of Sheol also appears in Jacob’s
+								last and unfinished homily, on Mary and Golgotha: “when the one
+								slain cries out in a [loud] voice and the walls of Sheol have
+								fallen” (Mathews, <hi rend="italic">Jacob of Sarug’s Additional
+									Homilies</hi>, 78, ll. 33–34). See also T. Kollamparampil, <hi
+									rend="italic">Salvation in Christ according to Jacob of Serugh:
+									An exegetico-theological study on the homilies of Jacob of
+									Serugh on the Feasts of Our Lord</hi>, Gorgias Dissertations in
+								Early Christian Studies 49 (Piscataway NJ: Gorgias Press, 2010),
+								210–211. </p></note>
+					</l>
+					<l>O Christ, the one who gives light to the universe,</l>
+					<l>illuminate my obscured mind to preach about you. <note place="foot"
+							xml:id="ftn23" n="23"><p xml:lang="en"> See also in the Armenian homily
+								on Good Friday: “the mind that has seen You is illumined by You to
+								speak of what it has received from You” (Mathews, <hi rend="italic"
+									>Jacob of Sarug’s Additional Homilies</hi>, 33, ll. 12–13) and
+								“O day-star, great sun, spread forth Your rays into my dark heart,
+								that I may be illumined to speak of You in a worthy manner”
+								(Mathews, <hi rend="italic">Jacob of Sarug’s Additional
+									Homilies</hi>, 33, ll. 18–20). For Jacob’s use of the imagery of
+								light and darkness, see Kollamparampil, <hi rend="italic">Salvation
+									in Christ</hi>, 345–347. </p></note>
+					</l>
+					<l>Grant me from your mercy, <note place="foot" xml:id="ftn24" n="24"><p
+								xml:lang="en"> In this text, the term<foreign xml:lang="hy">
+									ողորմութիւն </foreign>is consistently used to render the idea of
+								mercy. In the case of the Armenian version of Jacob’s homily on the
+								Five Talents, or at least the Armenian equivalent of its
+								invocational prayer, <foreign xml:lang="hy">ողորմութիւն
+								</foreign>appears as the counterpart to two Syriac words that can be
+								rendered as “mercy”,<foreign xml:lang="syr"> ܚܢܢܐ
+									</foreign>and<foreign xml:lang="syr"> ܪ̈ܚܡܐ,</foreign> see
+								Hilkens, “The Armenian version” (forthcoming). On<foreign
+									xml:lang="syr"> ܚܢܢܐ, </foreign>divine mercy, in Jacob’s oeuvre,
+								see Kollamparampil, <hi rend="italic">Salvation in Christ</hi>,
+								206–207. </p></note>
+					</l>
+					<pb n="271"/>
+					<l>so that through your mercy I may comprehend your love of humanity.</l>
+					<l>Grant me grace to preach about you,</l>
+					<l>so that all who listen may turn away in penance from their evil deeds.</l>
+					<l>Touch me through love from your beneficence to proclaim <note place="foot"
+							xml:id="ftn25" n="25"><p xml:lang="en"> The verb that is used here
+									is<foreign xml:lang="hy"> քարոզել</foreign>, k’arozel, from the
+									Syriac<foreign xml:lang="syr"> ܟܪܙ.</foreign> The same word is
+								used in line 5, where I have translated it as “to preach”.
+							</p></note> your glory to humanity,</l>
+					<l>so that those who listen may entreat you to forgive trespasses.</l>
+					<l>Send to me the protector, <note place="foot" xml:id="ftn26" n="26"><p
+								xml:lang="en"> The word <foreign xml:lang="hy">պահպանիչ
+								</foreign>also means “blessing”, but the translation “guardian,
+								protector” makes more sense in this context. I am thankful to the
+								anonymous reviewer for this and several other suggestions for
+								improvement of the translation. </p></note> your Holy Spirit,</l>
+					<l>so that through It I may be strengthened <note place="foot" xml:id="ftn27"
+							n="27"><p xml:lang="en"> Because I have only inspected the text in M
+								2291, I am hesitant to correct the indicative present <foreign
+									xml:lang="hy">զօրանամ </foreign>(zōranam), but I would suggest
+								that the translation may have originally contained the
+									subjunctive<foreign xml:lang="hy"> զօրասցի </foreign>(zōrasc’i),
+								hence my translation “so that through It I may be strengthened”
+								rather than “for through It I am strengthened”. Having said that,
+								this error may also be present in the other witnesses. In the case
+								of the Armenian version of the invocational prayer of Jacob’s homily
+								on the Five Talents, for instance, all four witnesses that I have
+								seen contain the same error in the equivalent of verse 18: <foreign
+									xml:lang="hy">առաքինութիւն </foreign>(aṙak’inut’iwn) instead
+									of<foreign xml:lang="hy"> առաքելութիւն</foreign>
+								(aṙak’elut’iwn), the latter of which is the equivalent of<foreign
+									xml:lang="syr"> ܫܠܝܚܘܬܐ,</foreign> “mission”, which is in the
+								Syriac text, see Hilkens, “The Armenian version” (forthcoming).
+							</p></note> to speak about your invincible force.</l>
+					<l>As you destroyed the walls of Jericho by the sound of the horn, <note
+							place="foot" xml:id="ftn28" n="28"><p xml:lang="en"> Josh 6:1–27. Jacob
+								also evokes the fall of Jericho in his homily on the veil of Moses,
+								where he compares it to Christ’s overthrowing of Sheol, see
+								Kollamparampil, <hi rend="italic">Salvation in Christ</hi>, 196 n
+								138 and 332. </p></note>
+					</l>
+					<l>so also now give grace to the sound of my preaching to destroy the stronghold
+						of the enemy. <note place="foot" xml:id="ftn29" n="29"><p xml:lang="en"> For
+								Jacob’s use of military language, see e.g. A. McCollum, <hi
+									rend="italic">Jacob of Sarug’s Homilies on Jesus’
+									Temptation</hi>, Texts from Christian Late Antiquity 38, The
+								Metrical Homilies of Mar Jacob of Sarug 33 (Piscataway NJ: Gorgias
+									<pb n="272"/> Press, 2014) and A. Hilkens, “Rhetoric in Jacob of
+								Serugh’s Mimro on St. George the Martyr,” in <hi rend="italic"
+									>Rhetoric and historiography</hi>, ed. L. Van Hoof and M.
+								Conterno, Cambridge: Cambridge University Press (forthcoming). In
+								the homily on St. George, for instance, Jacob urges his hearers to
+								build strongholds <foreign xml:lang="syr">(ܚܣ̈ܢܐ)</foreign>:
+								“Blessed are you who make fortified strongholds that cannot be
+								captured, in which those who flee from Satan take refuge” (Bedjan
+								and Brock, <hi rend="italic">Homilies / Homiliae</hi>, vol. 5, 770,
+								l. 4). </p></note>
+					</l>
+					<l>(You) who by the sprinkling <note place="foot" xml:id="ftn30" n="30"><p
+								xml:lang="en"> Here, the idea of sprinkling is rendered in Armenian
+								with the noun<foreign xml:lang="hy"> սրսկումն </foreign>(srskumn,
+								‛sprinkling’). In the next verse an entirely different root is used,
+								which suggests perhaps that Jacob himself also used two different
+								Syriac roots. </p></note> of your blood sanctified the furnishings
+						of the tabernacle, <note place="foot" xml:id="ftn31" n="31"><p xml:lang="en"
+								> Presumably this is the “tabernacle of mysteries”, the “house for
+								the holy things”, the “house for the mysteries” that was built by
+								Melchizedek, like the altar that was built by Abraham and Isaac on
+								Golgotha, the site of the crucifixion, at least according to Jacob.
+								Here it is not a metaphor for Christ himself, but for the Church,
+								which was sanctified by the blood that flowed out of Christ’s side,
+								see A.B. Elkhoury, <hi rend="italic">Types and Symbols of the Church
+									in the Writings of Jacob of Serugh</hi>, PhD Dissertation,
+								Katholische Universität Eichstätt-Ingolstadt 2017, 56 and 69–71.
+								There may also be links with the unstudied homily on the Mystery of
+								the Tabernacle of which the <hi rend="italic">editio princeps</hi>
+								appeared recently, R. Akhrass and I. Syryany, <hi rend="italic">160
+									Unpublished Homilies of Jacob of Serugh</hi>, 2 vols. (Damascus:
+								Department of Syriac Studies, Syriac Orthodox Patriarchate, 2017),
+								vol. 2, 174–191. A study of this homily could also be useful on
+								another level, as it was also translated into Armenian. The
+								diplomatic edition of the Armenian text, based on an unknown
+								manuscript, was published in <hi rend="italic">Spiritual writings
+									and homilies </hi>(Constantinople, 1722), 388–410. Only three
+								Armenian manuscripts are known, two manuscripts in the Armenian
+								Patriarchate in Jerusalem (154c, pp. 1552–1561, copied in 1737, and
+								1365, fols. 52v-83v of unknown date) as well as a late copy in the
+								Matenadaran, M 2786, fols. 129v-135r (19th c.). </p></note>
+					</l>
+					<l>so also now sprinkle your mercy on me. <note place="foot" xml:id="ftn32"
+							n="32"><p xml:lang="en"> Jacob also uses the image of the sprinkling of
+								mercy in his homily on the Ascension: “He walked on the earth and
+								sprinkled mercy and filled it with hope” (Kollamparampil, Salvation
+								in Christ, 207). For the edition and translation of this homily, see
+								P. Bedjan, S. Martyrii, qui et Sahdona, quae supersunt omnia,
+								Paris-Leipzig: Harrassowitz, 1902, 808–832 (at 812, l. 17; repr. in
+								P. Bedjan, <hi rend="italic">Cantus seu Homiliae Mar Jacobi in Jesum
+									et Mariam</hi>, Paris-Leipzig: Harrassowitz, 1902, 169–220 and
+								Bedjan and Brock,<hi rend="italic"> Homiliae / Homilies</hi>, vol.
+								6, 196–220). A vocalized version of this <pb n="273"/> edition,
+								furnished with an English translation, can be found in T.
+								Kollamparampil, <hi rend="italic">Jacob of Sarug’s Homily on the
+									Ascension of Our Lord</hi>, Texts from Late Antiquity 24, The
+								Metrical Homilies of Jacob of Sarug 21 (Piscataway NJ: Gorgias
+								Press, 2010). In the Armenian translation of the homily on the
+								Ascension the verb <foreign xml:lang="hy">ցօղեմ,</foreign> derived
+								from the noun<foreign xml:lang="hy"> ցօղ</foreign>, “dew,” is used
+								to render the verb <foreign xml:lang="syr">ܪܰܣ, </foreign>“to
+								sprinkle,” see<foreign xml:lang="hy" rend="italic"> Գիրք եւ ճառ
+									հոգեշահ </foreign><hi rend="italic">[Spiritual writings and
+									homilies]</hi>, 345–369 (at 350) as well as the draft edition of
+								Paris, Bibliothèque nationale de France, ms. arm. 116, fols.
+								319r-322v (AD 1307), prepared by Alin Suciu and available on his
+								Academia.edu page:<foreign xml:lang="hy"> շրջեցաւ յերկրի
+								</foreign>(P 116: <foreign xml:lang="hy">յաշխարհի), և ցօղեաց ի նա
+									զգութ իւր, և ելից զնա յուսով, </foreign>“He went around the
+								earth, he sprinkled his mercy on it, and he filled it with hope.”
+								That the translator of the invocational prayer from the homily on
+								Good Friday and the Destruction of Sheol used <foreign xml:lang="hy"
+									>ցօղեա</foreign>, the imperative form of this verb, in this
+								verse suggests that the verb<foreign xml:lang="syr"> ܪܰܣ
+								</foreign>may have appeared in the Syriac Vorlage. However, note
+								also how in the Armenian version of the homily on the
+									Ascension,<foreign xml:lang="syr"> ܚܢܢܐ </foreign>(“mercy”) is
+								rendered as<foreign xml:lang="hy"> գութ </foreign>rather than
+									<foreign xml:lang="hy">ողորմութիւն,</foreign> which could
+								suggest the involvement of a different translator. </p></note>
+					</l>
+					<pb n="273"/>
+					<l>By your finger <note place="foot" xml:id="ftn33" n="33"><p xml:lang="en">
+								Perhaps alluding to Lev 4:5–6, which describes how during the
+								sacrifice at the tabernacle, the priest dips his finger in the blood
+								and sprinkles the blood seven times before the veil. </p></note> you
+						granted illumination to the great Moses to proclaim your divinity,</l>
+					<l>so also now illuminate me by the dawning <note place="foot" xml:id="ftn34"
+							n="34"><p xml:lang="en"> Presumably<foreign xml:lang="hy"> ծագմամբ
+								</foreign>is the equivalent of<foreign xml:lang="syr">
+									ܒܕܢܚܐ.</foreign> In the Armenian version of Jacob’s Memra on the
+								Star that appeared to the Magi and on the Slaughter of
+									Infants<foreign xml:lang="syr"> ܒܕܢܚܐ,</foreign> the very first
+								word, was rendered as <foreign xml:lang="syr">ծագումն.</foreign> For
+								the Syriac text of this homily, see Bedjan, Homiliae selectae,
+								vol.1, 84–153 (first word of line 1), translated into English by N.
+								Macabasag, “Jacob of Serugh’s Memra on the Star that appeared to the
+								Magi and on the Slaughter of Infants (vat. syr. 118)”, <hi
+									rend="italic">Parole de l’Orient</hi> 43 (2017): 237–302. The
+								Armenian text is unedited. So far, I have only identified six
+								manuscripts of the Armenian translation, the oldest manuscript being
+								ms. 1, fols. 20v-37v, in the collection of the Mekhitarist fathers
+								in Vienna. In this manuscript, the text is incorrectly ascribed to
+								Jacob of Nisibis. This misattribution also occurs in the most recent
+								witness, ms. 1286, fols. 5r-10v (dated 1820), in the collection of
+								the Mekhitarist fathers in Venice. </p></note> of your light, <note
+							place="foot" xml:id="ftn35" n="35"><p xml:lang="en"> For the idea of the
+								dawning of the sun on the mind, see e.g. Jacob’s second homily on
+								Elissaeus and on the King of Moab (Bedjan, <hi rend="italic"
+									>Homiliae selectae</hi>, vol. 4, 282, l. 6–7; Kollamparampil,
+									<hi rend="italic">Salvation in Christ</hi>, 387). </p></note>
+					</l>
+					<pb n="274"/>
+					<l>so that by your light I may illuminate <note place="foot" xml:id="ftn36"
+							n="36"><p xml:lang="en"> On illumination, see above. </p></note> the
+						sons <note place="foot" xml:id="ftn37" n="37"><p xml:lang="en"> The <hi
+									rend="italic">Vorlage</hi> of <foreign xml:lang="hy"
+									>որդիք,</foreign> “sons”, is most likely <foreign xml:lang="syr"
+									>ܒܢ̈ܝ,</foreign> which literally means “sons”, but can be
+								translated more generally as “children (of your church).”
+							</p></note> of your church.</l>
+					<l>Sons <note place="foot" xml:id="ftn38" n="38"><p xml:lang="en"> Here the
+								translation as “sons” is fairly certain, given that it acts as a
+								counterpart to the “daughters of Sion”. </p></note> of the bride of
+						the church, receive the words of the bridegroom <note place="foot"
+							xml:id="ftn39" n="39"><p xml:lang="en"> On Jacob’s use of this popular
+								and much older theme of the Church as the bride of Christ who is the
+								bridegroom (Mk 2:19–20; Jn 3:29; Eph 5:25–27; 2 Cor 11:2), see e.g.
+								Elkhoury, <hi rend="italic">Types and Symbols</hi>, 221. The theme
+								is also used in the Armenian homily on Good Friday, Mathews, <hi
+									rend="italic">Jacob of Sarug’s Additional Homilies</hi>, 82.
+							</p></note>
+					</l>
+					<l>and daughters of Zion, <note place="foot" xml:id="ftn40" n="40"><p
+								xml:lang="en"> Cf. Zech 9:9; Jn 12:15; Mt 21:5. Jacob uses this term
+								in the singular to refer to Israel, see Kollamparampil <hi
+									rend="italic">Salvation</hi>, 156–157, 254, 256 and Elkhoury,
+									<hi rend="italic">Types and Symbols</hi>, 292, 294. </p></note>
+						listen to my homily <note place="foot" xml:id="ftn41" n="41"><p
+								xml:lang="en"> The Armenian word <foreign xml:lang="hy">քարոզ
+								</foreign>k‛aroz is used for a homily here. In the translation of
+								the invocational prayer of the homily on the Five Talents, memra is
+								consistently translated as<foreign xml:lang="hy"> ճառ</foreign>, a
+								word commonly used to refer to homilies, but which has the basic
+								meaning of “discourse”. This may suggest that the word <foreign
+									xml:lang="hy">քարոզ</foreign> k‛aroz here, was used by the
+								compiler of the invocational prayers, who appears to have made
+								alterations to the last verses of several other invocational prayers
+								as well, see Hilkens, “The Armenian version” (forthcoming).
+							</p></note> .</l>
+				</lg>
+			</div>
+			<div type="bibliography" xml:lang="en">
+				<listBibl>
+					<head>BIBLIOGRAPHY</head>
+					<bibl>Akhrass R. and I. Syryany. <hi rend="italic">160 Unpublished Homilies of
+							Jacob of Serugh</hi>, 2 vols. Damascus: Department of Syriac Studies,
+						Syriac Orthodox Patriarchate, 2017.</bibl>
+				</listBibl>
+				<bibl>Anasyan, H.A. <hi rend="italic">Armenian Bibliography 5th-18th cc. Volume
+						1</hi>. Yerevan: Armenian Academy of Sciences, 1959.</bibl>
+				<bibl>Anasyan, H.A. <hi rend="italic">Armenian Bibliography 5th-18th cc. Volume
+						2</hi>. Yerevan: Armenian Academy of Sciences, 1976.</bibl>
+				<pb n="275"/>
+				<bibl>Ashbrook Harvey, S. “The Poet’s Prayer: Invocational Prayers in the Mêmrê of
+					Jacob of Sarug.” In <hi rend="italic">Papers presented at the Seventeenth
+						International Conference on Patristic Studies held in Oxford 2015</hi>,
+					StPatr 78, ed. M. Vinzent, J. Wickes and K.S. Heal. Turnhout: Brepols,
+					2017.</bibl>
+				<bibl>Bedjan, P. <hi rend="italic">Cantus seu Homiliae Mar Jacobi in Jesum et
+						Mariam</hi>, Paris-Leipzig: Harrassowitz, 1902.</bibl>
+				<bibl>Bedjan, P. <hi rend="italic">Homiliae selectae Mar-Jacobi Sarugensis</hi>. 5
+					vols. Paris: Harrassowitz, 1910 [repr. Bedjan P. and Brock, S.P. <hi
+						rend="italic">Homilies of Mar Jacob of Sarug / Homiliae Selectae Mar-Jacobi
+						Sarugensis</hi>, 6 vols. Piscataway NJ: Gorgias Press, 2006.</bibl>
+				<bibl>Bogharyan, N., <hi rend="italic">General Catalogue of the Manuscripts in St.
+						James’ monastery. Volume 5</hi>. Jerusalem: St. James’ Press, 1971. </bibl>
+				<bibl>Elkhoury, A.B. <hi rend="italic">Types and Symbols of the Church in the
+						Writings of Jacob of Serugh</hi>. PhD Dissertation, Katholische Universität
+					Eichstätt-Ingolstadt, 2017.</bibl>
+				<bibl>Ghazinyan, A. and P.M. Khachatryan, <hi rend="italic">Arak’el of Baghesh (15th
+						century). Study, critical texts, notes</hi>, Medieval Armenian Hymns 8,
+					Yerevan: Armenian Academy of Sciences, 1971.</bibl>
+				<bibl>Hacikyan, A.J. <hi rend="italic">The Heritage of Armenian Literature. Volume
+						II: From the Sixth to the Eighteenth Century</hi>. Detroit: Wayne State
+					University Press, 2000.</bibl>
+				<bibl>Hilkens, A. “The Armenian reception of the homilies of Jacob of Serugh: new
+					findings.” In <hi rend="italic">Caught in Translation: Studies on Versions of
+						Late-Antique Christian Literature</hi>, Texts and Studies in Eastern
+					Christianity 17, ed. M. Toca and D. Batovici. Leiden: Brill, 2019.</bibl>
+				<bibl>Hilkens, A. “Rhetoric in Jacob of Serugh’s Mimro on St. George the Martyr.” In
+						<hi rend="italic">Rhetoric and historiography</hi>, ed. L. Van Hoof and M.
+					Conterno. Cambridge: Cambridge University Press (forthcoming).</bibl>
+				<pb n="276"/>
+				<bibl>Hilkens, A. “The manuscripts of the Armenian homilies of Jacob of Serugh:
+					preliminary observations and checklist” <hi rend="italic">Manuscripta</hi>
+					(forthcoming 2020).</bibl>
+				<bibl>Hilkens, A. “‘Beautiful little gems in their own right’: seventeenth-century
+					Armenian collections of invocational prayers from Jacob of Serugh’s memre”
+					(forthcoming in a Festschrift for Sebastian Brock, edited by M. Hjälm, B.
+					Bitton-Ashkelony and R. Kitchen).</bibl>
+				<bibl>Hilkens, A. “The Armenian version of Jacob of Serugh’s Memra on the Five
+					Talents,” <hi rend="italic">Le Muséon</hi> (forthcoming 2020).</bibl>
+				<bibl>Kollamparampil, T. <hi rend="italic">Salvation in Christ according to Jacob of
+						Serugh: An exegetico-theological study on the homilies of Jacob of Serugh on
+						the Feasts of Our Lord</hi>, Gorgias Dissertations in Early Christian
+					Studies 49. Piscataway NJ: Gorgias Press, 2010.</bibl>
+				<bibl>Kollamparampil, T. <hi rend="italic">Jacob of Sarug’s Homily on the Ascension
+						of Our Lord</hi>, Texts from Late Antiquity 24. The Metrical homilies of
+					Jacob of Sarug 21. Piscataway NJ: Gorgias Press, 2010.</bibl>
+				<bibl>Macabasag, N. “Jacob of Serugh’s Memra on the Star that appeared to the Magi
+					and on the Slaughter of Infants (vat. syr. 118).” <hi rend="italic">Parole de
+						l’Orient</hi> 43 (2017): 237–302.</bibl>
+				<bibl>Mathews, Jr., E.G. “Jacob of Serugh, Homily on Good Friday and other Armenian
+					treasures: first glances.” In <hi rend="italic">Jacob of Serugh and his
+						times</hi>, ed. G. Kiraz, Piscataway NJ: Gorgias Press, 2010.</bibl>
+				<bibl>Mathews, Jr., E.G. <hi rend="italic">Jacob of Sarug’s Additional Homilies on
+						Good Friday</hi>. Piscataway NJ: Gorgias Press: 2018.</bibl>
+				<bibl>McCollum, A. <hi rend="italic">Jacob of Sarug’s Homilies on Jesus’
+						Temptation</hi>, Texts from Christian Late Antiquity 38. The Metrical
+					Homilies of Mar Jacob of Sarug 33. Piscataway NJ: Gorgias Press, 2014.</bibl>
+				<pb n="277"/>
+				<bibl>Rilliet, F. <hi rend="italic">Jacques de Sarough, Six Homélies Festales en
+						Prose</hi>, PO 43.4. Paris: Firmin-Didot, 1986.</bibl>
+				<bibl>Ter-Avetissian, S. <hi rend="italic">Katalog der armenischen Handschriften in
+						der Bibliothek des Klosters in Neu-Djoulfa. Band I</hi>. Vienna: Mekhitarist
+					Press, 1970.</bibl>
+				<bibl>Ter-Petrosyan, L. “Jacob of Serugh’s ‘Life of Mar Daniel of Galash’”, <hi
+						rend="italic">Ējmiadzin</hi> 36 (1979): 22–40.</bibl>
+				<bibl>Ter-Vardanyan, G.<hi rend="italic"> General catalogue of Armenian manuscripts
+						of the Mashtots Matenadaran. Volume VII</hi>. Yerevan: Nairi, 2012.</bibl>
+				<bibl><hi rend="italic">Spiritual writings and homilies</hi>. Constantinople,
+					1722.</bibl>
+			</div>
+		</body>
+	</text>
+</TEI>
