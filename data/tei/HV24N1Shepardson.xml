@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Anxious Vigilance: Heresy and Ritual Pollution in John of Tella
+                    and Severus of Antioch</title>
+                <author>
+                    <name><forename>Christine</forename>
+                        <surname>Shepardson</surname></name>
+                    <affiliation>
+                        <orgName>University of Tennessee, Knoxville</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n1shepardson</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Christine Shepardson</author>
+                        <title level="a">Anxious Vigilance: Heresy and Ritual Pollution in John of Tella
+                            and Severus of Antioch</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N1Shepardson.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="3" to="34">3-34</biblScope>
+                        <biblScope type="order" n="1"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>John of Tella</term>
+                    <term>Orthodoxy</term>
+                    <term>Heresy</term>
+                    <term>Purity</term>
+                    <term>Didascalia</term>
+                    <term>Severus of Antioch</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-02-12">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract" xml:lang="en">
+                <head>Abstract</head>
+                <p xml:lang="en">Anti-Chalcedonian Christians like John of Tella, Severus of
+                    Antioch, Philoxenos of Mabbug, and John Rufus were concerned about orthodox
+                    Christians mingling with heretics. This essay argues that John of Tella combined
+                    narratives of heresy with those of bodily purity and pollution, such as those
+                    related to menstruation, to frame heretics as dangerous to orthodox Christians not
+                    only in their beliefs that could lure an unsuspecting Christian to accept heretical
+                    views, but in their very bodies whose proximity brought the threat of contamination.
+                    John integrated expectations of bodily purity and doctrinal orthodoxy in ways that
+                    suggested that heresy could physically contaminate, while Severus tried to calm his
+                    congregants’ fears about the same. The spread of COVID-19 and the global responses
+                    to it have heightened our awareness of the dynamics of fear and anxiety that can be
+                    produced by threats of physical contamination. The global pandemic in 2020 thus
+                    helps to clarify the power that the rhetoric of these sixth-century
+                    anti-Chalcedonian texts had to confront the spread of what John of Tella implied was
+                    the dangerous physical pollution of Christian heresy.</p>
+            </div>
+        </front>
+        <body>
+
+               <div xml:id="hv24n1shepardson.1" xml:lang="en">         
+            <p xml:lang="en">The spread of COVID-19 and the global responses to it have
+                heightened our awareness of some of the dynamics of fear and anxiety produced by
+                threats of physical contamination. As we learn new habits of social distancing, and
+                experience the anxiety and vigilance produced by the potentially fatal spread of an
+                unseen contagion, we are better able to imagine some of the social dynamics that
+                early Christian rhetoric around heresy and ritual pollution, such as in relation to
+                menstruating bodies, might have hoped to produce. Sixth-century anti-Chalcedonian
+                leaders claimed that heresy threatened Christians’ eternal salvation and warned that
+                it was often difficult for the untrained eye to distinguish a heretic from an
+                orthodox Christian.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">
+                        In this essay I use “anti-Chalcedonian” to refer to what some scholars call
+                        Miaphysite (or, earlier, Monophysite) or sometimes non-Chalcedonian
+                        Christianity. No terminology is without complications, but this term
+                        accurately highlights the individuals’ hostile relation to the Council of
+                        Chalcedon (451). Volker Menze recommends the term “non-Chalcedonian” in his
+                        study of this period, concerned that “anti-Chalcedonian” retains too much
+                        emphasis on doctrinal issues for his study, which “deals mainly with
+                        historical and not Christological issues,” but the focus on doctrinal issues
+                        is appropriate in this present essay: Volker Menze, <hi rend="italic"
+                            >Justinian and the Making of the Syrian Orthodox Church</hi> (New York:
+                        Oxford University Press, 2008), 2. Furthermore, “non-Chalcedonian” could
+                        also describe the churches in Persia that became the Church of the East,
+                        which are not intended here. Cornelia Horn addresses similar concerns and
+                        likewise prefers “anti-Chalcedonian”: Cornelia Horn, <hi rend="italic"
+                            >Asceticism and Christological Controversy in Fifth-Century
+                            Palestine</hi> (New York: Oxford University Press, 2006), 8-9. On the
+                        terminology used for one’s adversaries more generally, see Muriel Debié
+                        “Désigner l’adversaire: La guerre des noms dans les controverses,” in <hi
+                            rend="italic">Les controverses religieuses en syriaque</hi>, ed. Flavia
+                        Ruani, 307-48 (Paris: Geuthner, 2016). On the terminology for the Christians
+                        at the center of this project, see Fergus Millar, “The Evolution of the
+                        Syrian Orthodox Church in the Pre-Islamic Period: From Greek to Syriac?” <hi
+                            rend="italic">JECS</hi> 21.1 (2013): 43-92.</p></note> John of Tella
+                combined this argument with familiar concepts of purity and pollution in order to
+                suggest that physical proximity to heresy could pose a risk of contamination. In
+                contrast, John’s colleague Severus of Antioch downplayed the danger that heresy
+                posed as a form of pollution in an effort to calm the fears of his congregants. As a
+                novel Coronavirus spreads through our world, health officials warn us about this
+                sometimes invisible contagion, and the safety precautions that should be taken at
+                all times because so many people who have the virus are asymptomatic. We are warned
+                to keep our distance from others to protect ourselves and the small communities with
+                whom we interact most closely. The global pandemic in 2020 thus helps to clarify the
+                power that the rhetoric of these sixth-century anti-Chalcedonian texts had to
+                confront the spread of what John of Tella implied was the dangerous physical
+                pollution of Christian heresy.</p>
+            <p xml:lang="en">John of Tella (Yuḥanon bar Qursus) was fundamental to the development of the West
+                Syrian church, but his story is much less well known outside of that tradition.<note
+                    place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> Volker Menze and Kutlu
+                        Akalin, <hi rend="italic">John of Tella’s Profession of Faith: The Legacy of
+                            a Sixth-Century Syrian Orthodox Bishop</hi> (Gorgias Press, 2009), 1.
+                        Joseph Ghanem traced a history of the modern western study of John of Tella
+                        through 1970, and offered a historical background for John’s life: Joseph R.
+                        Ghanem, “The Biography of John of Tella (d. AD 537) by Elias, Translated
+                        from the Syriac with a Historical Introduction and Historical and Linguistic
+                        Commentaries.” PhD Dissertation, University of Wisconsin, 1970, esp.
+                        1-39.</p></note> John was born in 482 in Callinicus (Raqqa, Syria) in the
+                Roman province of Osrhoene, and knew both Syriac and Greek.<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text"> Ghanem, “The Biography of John of
+                        Tella,” 13.</p></note> In 507 when he was twenty-five years old, John joined
+                a monastery near his hometown where he stayed until he was ordained as the bishop of
+                Tella (near modern Aleppo) in 519 by the famous seventy-year old scholar and poet
+                Jacob of Serugh (d. 521) and his colleagues.<note place="foot" xml:id="ftn4" n="4"
+                        ><p rend="footnote text"> Regarding his title, see Menze and Akalin,
+                        <hi rend="italic">John of Tella’s Profession of </hi>Faith,
+                        7-8. See also Volker Menze, “The <hi rend="italic">Regula ad Diaconos</hi>:
+                        John of Tella, his Eucharistic Ecclesiology and the Establishment of an
+                        Ecclesiastical Hierarchy in Exile,” <hi rend="italic">Oriens
+                            Christianus</hi> 90 (2006): 46-8.</p></note> John briefly lived in
+                residence as bishop of Tella from 519-521/2 but then he was sent into exile under
+                the emperor Justin I.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">
+                        Menze and Akalin, <hi rend="italic">John of Tella’s Profession of
+                        Faith</hi>, 5.</p></note> It was in exile, though, that John solidified his
+                place in history with the astonishing number of ordinations he performed, bringing
+                countless lay people and monks into the diaconate and the priesthood in an effort to
+                help the anti-Chalcedonian church not only survive but flourish.<note place="foot"
+                    xml:id="ftn6" n="6"><p rend="footnote text"> Yonatan Moss, <hi rend="italic"
+                            >Incorruptible Bodies: Christology, Society, and Authority in Late
+                            Antiquity</hi> (Berkeley: University of California Press, 2016), 62.
+                    </p></note> Volker Menze and Kutlu Akalin outline “John’s role in establishing
+                the first independent non-Chalcedonian ecclesiastical hierarchy,” a goal for which
+                by all accounts he worked tirelessly.<note place="foot" xml:id="ftn7" n="7"><p
+                        rend="footnote text"> Menze and Akalin, <hi rend="italic">John of Tella’s
+                            Profession of Faith</hi>, 7-8.</p></note> John spent his exile primarily
+                in the Sasanian Empire’s western borderland region, including near modern-day
+                Mardin, Turkey. Early in 537, however, Roman leaders arranged for John’s capture in
+                the mountains of Persia, and he was brought as a prisoner to Antioch, which was
+                under the control of the staunchly Chalcedonian bishop Ephraim, whom
+                anti-Chalcedonian writers like John of Ephesus describe as a vicious
+                    persecutor.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> See,
+                        for example, John of Ephesus, <hi rend="italic">Lives</hi>, PO 17.21;
+                        18.608; 17.293-4; cf., 17.125.</p></note> John of Tella died in 538 in his
+                mid-fifties while in Ephraim’s custody in Antioch. Warning of the danger that
+                physical proximity to heretics or other material objects associated with heresy
+                posed to orthodox Christians helped John in his relentless efforts to expand and
+                preserve the anti-Chalcedonian community during his itinerant exile.</p>
+            <p xml:lang="en">Severus of Antioch, on the other hand, has remained better known. A Greek-speaker
+                born in the mid-460s in Sozopolis in the region of Pisidia, in western modern
+                Turkey, he was educated at some of the best schools in the Roman Empire, first in
+                Alexandria and then in the famous law school in Berytus (Beirut).<note place="foot"
+                    xml:id="ftn9" n="9"><p rend="footnote text"> On Severus’s life and works, see,
+                        for example, Pauline Allen and C.T.R. Hayward, <hi rend="italic">Severus of
+                            Antioch</hi> (New York: Routledge, 2004), 3-55; John D’Alton and
+                        Youhanna Youssef, eds., <hi rend="italic">Severus of Antioch: His Life and
+                            Times</hi> (Boston: Brill, 2016); Sebastian Brock and Brian Fitzgerald,
+                            <hi rend="italic">Two Early Lives of Severos, Patriarch of Antioch</hi>
+                        (Liverpool: Liverpool University Press, 2013), 1-29; Moss, <hi rend="italic"
+                            >Incorruptible Bodies</hi>; Iaian Torrance, <hi rend="italic"
+                            >Christology after Chalcedon: Severus of Antioch and Sergius the
+                            Monophysite</hi> (Eugene, OR: Wipf &amp; Stock, 1988), 3-25; Lucas Van
+                        Rompay, “Severus, Patriarch of Antioch (512-538), in the Greek, Syriac, and
+                        Coptic Traditions,” <hi rend="italic">Journal of the Canadian Society for
+                            Syriac Studies</hi> 8 (2008): 3-22; René Roux, <hi rend="italic"
+                            >L’Exégèse Biblique dans les Homélies Cathédrales de Sévère
+                            d’Antioche</hi>, Studia Ephemerides Augustinianum 84 (Rome: Institutum
+                        Patristicum Augustinianum, 2002), 5-19; and Aryeh Kofsky, “Severus of
+                        Antioch and Christological Politics in the Early Sixth Century,” <hi
+                            rend="italic">Proche-Orient Chrétien</hi> 57 (2007): 43-57.</p></note>
+                According to his hagiographers, Severus was baptized in 488 at the church of St.
+                Leontius in Tripolis (Tripoli, Lebanon) and committed himself to a life of
+                asceticism as Ambrose, Augustine, and many other elite Romans also did. Soon after
+                this, a side-trip to Peter the Iberian’s monastery near Gaza during a pilgrimage to
+                Jerusalem changed Severus’s plans to practice law, and he spent the next twenty
+                years as an ascetic in southern Palestine where he was also ordained as a
+                    priest.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> Brouria
+                        Bitton-Ashkelony and Aryeh Kofsky, <hi rend="italic">The Monastic School of
+                            Gaza</hi> (Boston: Brill, 2006), 33.</p></note> In 508, Severus began a
+                new and more public and politically involved phase of his life when he led a large
+                delegation of monks to Constantinople. In 512 the emperor Anastasius deposed Flavian
+                II from the see of Antioch, thanks in large part to the maneuverings of Philoxenos
+                of Mabbug, and appointed Severus as the city’s new bishop. Severus was forced into
+                exile in 518 upon Justin I’s accession to the throne, and lived most of the rest of
+                his episcopacy in Egypt until he died in 538, within days of John of Tella’s death
+                in Severus’s episcopal home of Antioch.<note place="foot" xml:id="ftn11" n="11"><p
+                        rend="footnote text"> On Severus’s exile, see Allen and Hayward, <hi
+                            rend="italic">Severus of Antioch</hi>, 25-30.</p></note> Severus’s
+                influence in the controversies over the definition of Christian orthodoxy and
+                orthopraxy was far-reaching, particularly in the West Syrian tradition of Syrian
+                Orthodoxy. Severus differed from John of Tella, though, in his insistence that
+                anti-Chalcedonian orthodoxy remained a universal church, and as a result Severus was
+                sometimes more flexible and willing to compromise than John.<note place="foot"
+                    xml:id="ftn12" n="12"><p rend="footnote text"> On Severus’ willingness to
+                        compromise in order to preserve his coherence within imperial orthodoxy, see
+                        Moss, <hi rend="italic">Incorruptible </hi>Bodies, 1-6,
+                        44-74.</p></note> This, along with his context in residence as bishop of
+                Antioch, could explain Severus’s efforts to calm rather than stoke his audience’s
+                fears about heresy’s ability to pollute the liturgy and congregation.</p>
+            <p xml:lang="en">Anti-Chalcedonian leaders like Philoxenos of Mabbug (d. 523), John Rufus (fl.
+                500-18), Severus, and John of Tella all expressed concern about anti-Chalcedonian
+                Christians mingling with heretics, and as late antique Christians they inherited a
+                variety of ways to think about retaining the spiritual purity and health of their
+                community. New Testament comments attributed to Paul offered one relevant discourse,
+                such as of their community as a body in which the spiritual health of one part
+                affected the whole.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">
+                        1 Cor 5-6. See also 1 Cor 6.15-16. All biblical quotations are from the
+                        NRSV. </p></note> Paul asked, “Do you not know that a little yeast leavens
+                the whole batch of dough?”<note place="foot" xml:id="ftn14" n="14"><p
+                        rend="footnote text"> 1 Cor 5.6.</p></note> When Paul taught his audience 
+                “not to associate with anyone
+                who bears the name of brother or sister who is sexually immoral
+                or greedy, or is an idolater, reviler, drunkard, or robber. Do not
+                even eat with such a one,”<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">1 Cor 5.11.</p></note> 
+                he established a method of defining
+                and defending community boundaries that prioritized
+                associating only with those who were spiritually healthy, which
+                anti-Chalcedonian leaders insisted did not include Chalcedonian heretics or
+                “Nestorian” Persian Christians. Like Paul, later Christians also inherited
+                scriptural teachings about bodily purity, reinterpretations of which kept them
+                relevant long past the destruction of the Temple in Jerusalem. John of Tella drew on
+                familiar narratives of bodily purity and pollution, such as those related to
+                menstruation, to frame heretics as dangerous to orthodox Christians not only in
+                their beliefs that could lure an unsuspecting Christian to accept heretical views,
+                but in their very bodies whose proximity brought the threat of contamination. In two
+                letters from his time in residence as Antioch’s powerful bishop, Severus, in
+                contrast, wrote to counter the fear that the perception of heresy as a physical
+                pollution had provoked in his own congregants.<note place="foot" xml:id="ftn16"
+                    n="16"><p rend="footnote text"> That these letters (Severus, <hi rend="italic"
+                            >Ep.</hi> 44, 45) date from Severus’s time in Antioch is suggested in
+                        part by his address of his congregation regarding their concerns over the
+                        names read in the liturgical diptychs, which implies that Severus is
+                        currently leading the services. E.W. Brooks dates Severus, <hi rend="italic"
+                            >Ep.</hi> 44 and 45 to 516-7 in his edition and translation (PO
+                        12.310-15)</p></note> These texts suggest that the idea that heresy was a
+                contaminating pollution was a particularly powerful tool for besieged leaders like
+                John during his long exile, because it inspired vigilant boundary-maintenance among
+                Christians who faced pressure to abandon anti-Chalcedonian teachings in favor of the
+                imperially sanctioned Chalcedonian church.</p>
+            </div>
+            <div xml:id="hv24n1shepardson.2" xml:lang="en">
+                <head>Purity and Pollution: Regulating Menstruating Bodies</head>
+                <p xml:lang="en">Interpretations of biblical regulations involving the ancient contact-contagion
+                    of ritual impurity provide a critical contextual frame for understanding John of
+                    Tella’s rhetoric about the dangers of proximity posed by heresy, and the related
+                    concerns of Severus’s congregants. While metaphors of heresy as an illness or
+                    disease were familiar in late antiquity,<note place="foot" xml:id="ftn17" n="17"
+                            ><p rend="footnote text"> Severus, for example, referred to the
+                            “disease” of Arius, and referred to Eusebius as “contaminated by the
+                            sickness of Arius.” Severus, <hi rend="italic">Hom</hi> 30 (PO
+                            36.4.610-11). Translations of this text are from the Syriac edition and
+                            French translation by M. Brière and F. Graffin in PO 36.4. Jennifer
+                            Barry notes, “Heresy, imagined as a disease, was a popular concept that
+                            flourished after the second half of the fifth century…. by overlapping
+                            the medical with the theological, Christian authors helped their readers
+                            to distinguish the guilty from the innocent”: Jennifer Barry,
+                            “Diagnosing Heresy: Ps.-Martyrius’s <hi rend="italic">Funerary Speech
+                                for John Chrysostom</hi>,” <hi rend="italic">JECS</hi> 24.3 (2016):
+                            395-418, at 402. </p></note> in Greek traditions illness was not
+                    consistently understood to be contracted through person-to-person contact.<note
+                        place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> Vivian Nutton
+                            notes that many Greek medical writers were influenced by Aristotelian
+                            and Platonic ideas and not the “mechanistic view” of the universe of
+                            many Epicureans; as a result they often did not describe diseases
+                            passing through human-to-human contact. Nevertheless, Nutton admits that
+                            many Greek authors who were not medical experts did believe that
+                            proximity to a sick person could pose a risk to one’s health. Vivian
+                            Nutton, “Did the Greeks Have a Word for It? Contagion and Contagion
+                            Theory in Classical Antiquity,” in <hi rend="italic">Contagion:
+                                Perspectives from Pre-Modern Societies</hi>, ed. Lawrence Conrad and
+                            Dominik Wujastyk, 137-62 (Burlington, Vt: Ashgate, 2000). On the Greek
+                            concept of <hi rend="italic">miasma</hi>, which often stood in place of
+                            human contact to explain disease spread, see Jacques Jouanna, “Air,
+                            miasma and Contagion in the Time of Hippocrates and the Survival of
+                            Miasmas in Post-Hippocratic Medicine,” in <hi rend="italic">Greek
+                                Medicine from Hippocrates to Galen: Selected Papers</hi>, ed. Philip
+                            van der Eijk, trans. Neil Allies, 121-36 (Boston: Brill, 2012).
+                        </p></note> Moral impurities, on the other hand, could be described as being
+                    transmitted from one person to another along the lines of ritual bodily
+                    impurities. As Naomi Koltun-Fromm and Christine Hayes note, the apostle Paul
+                    left Christians with the concept that “the individual body can contract ‘moral’
+                    impurities from others who are ‘morally impure’.”<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text"> Naomi Koltun-Fromm, <hi
+                                rend="italic">The Hermeneutics of Holiness: Ancient Jewish and
+                                Christian Notions of Sexuality and Religious Community</hi> (New
+                            York: Oxford University Press, 2010), 88; Koltun-Fromm relies on
+                            Christine Hayes, <hi rend="italic">Gentile Impurities and Jewish
+                                Identities: Intermarriage and Conversion from the Bible to the
+                                Talmud</hi> (Oxford: Oxford University Press, 2002). Nutton agrees
+                            that in antiquity, “Whether pagan or Christian, heretic or libertine,
+                            the views of one’s opponents are characterized by the metaphors of
+                            disease and contagion, of pollution and contamination,” such that
+                            “physical and moral diseases are almost interchangeable” (Nutton, “Did
+                            the Greeks Have a Word for It,” 153).</p></note> More consistently than
+                    metaphors of sickness, it seems to have been the language of purity and
+                    pollution that provoked a heightened sense of Christian vigilance about physical
+                    proximity. Mira Balberg has discussed concepts of purity and impurity that lived
+                    on in rabbinic traditions after the Temple’s destruction, especially “as
+                    powerful conceptual and hermeneutic tools through which ideas about self and
+                    other can be manifested, through which one’s body and environment can be
+                    scrutinized and manifested, and through which one constitutes and forms oneself
+                    as a subject.”<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">
+                            Mira Balberg, <hi rend="italic">Purity, Body, and Self in Early Rabbinic
+                                Literature</hi> (Berkeley: University of California Press, 2014),
+                            3.</p></note> Early Christians – despite a frequent rhetorical disdain
+                    for a “Jewish” focus on ritual, purity laws, and the body – likewise continued
+                    to see religious significance in the perceived state of a person’s body, whether
+                    it was praising the virginal body, preventing certain types of bodies from
+                    ordination, or regulating the participation of bodies with discharges in the
+                    rituals of baptism and the Eucharist. Tracking some of the expectations that
+                    sixth-century anti-Chalcedonian Christians inherited regarding perceptions of
+                    ritual purity and the pollution caused by bodily discharges such as menstruation
+                    provides a new lens for understanding their concerns about the risk that bodies
+                    contaminated by heresy could pose.</p>
+                <p xml:lang="en">Late antique readers of scripture, of course, like readers in any period, updated
+                    the biblical rhetoric around bodily purity for their own context. Balberg notes
+                    that the early rabbis inherited a variety of narratives about bodily purity “as
+                    one of the pivots of the consistent effort to distinguish ‘us’ from ‘them’,” and
+                    she demonstrates that “the rabbis posit the engagement with impurity… as a
+                    critical component in one’s formation as a committed rabbinic Jewish
+                        subject.”<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text">
+                            Balberg, <hi rend="italic">Purity, Body, and Self</hi>, 15. </p></note>
+                    She argues that these post-Temple leaders transformed earlier conversations to
+                    be newly focused on the purity of a religious self under the authority of the
+                        rabbis.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text">
+                            Balberg, <hi rend="italic">Purity, Body, and Self</hi>, 4-5.</p></note>
+                    Among these discussions, Balberg notes mishnaic descriptions of Gentiles as
+                    those who were “considered to convey the same impurity as persons with abnormal
+                    genital discharges, regardless of their physical condition,” such that “if a Jew
+                    or a Jew’s property comes into physical contact with a Gentile, the Jew or her
+                    property is immediately rendered impure.”<note place="foot" xml:id="ftn23"
+                        n="23"><p rend="footnote text"> Balberg, <hi rend="italic">Purity, Body, and
+                                Self</hi>, 16, 124.</p></note> Balberg argues, “the rabbis’
+                    insistence that Gentiles are categorically impure seems geared to cultivating a
+                    particular way of <hi rend="italic">thinking</hi> about Gentiles.”<note
+                        place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> Balberg<hi
+                                rend="italic">, Purity, Body, and Self</hi>, 131.</p></note> I
+                    suggest that John of Tella deployed “heretics” in a way similar to these
+                    rabbinic texts’ use of Gentiles by suggesting that heresy was a form of
+                    pollution that could contaminate orthodox bodies, which would have had the
+                    benefits of sharpening a distinction between “us” and “them,” thus encouraging
+                    Christians to keep their distance from heretics, and giving John the authority
+                    to define those boundaries.</p>
+                <p xml:lang="en">Early Christian readers, like the rabbis, interpreted these biblical texts about
+                    bodily discharges for their own historical and theological contexts. Some
+                    Christians believed that honoring God required approaching the divine with a
+                    pure body as well as soul, based on early biblical traditions where, as Naomi
+                    Koltun-Fromm says, “It is assumed that human bodily impurities, such as semen,
+                    are anathema in some way to God’s presence and must be neutralized through
+                    purification rites before a divine encounter.”<note place="foot" xml:id="ftn25"
+                        n="25"><p rend="footnote text"> Koltun-Fromm, <hi rend="italic">Hermeneutics
+                                of Holiness</hi>, 40. </p></note> Koltun-Fromm argues that in the
+                    early biblical priestly tradition “purity functions as a means to protect the
+                    holy,” while “nonpriestly biblical narratives in general have a looser notion”
+                    in which “purity is something one does in order to handle holy items such as a
+                        sacrifice.”<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">
+                            Koltun-Fromm, <hi rend="italic">Hermeneutics of Holiness</hi>,
+                        37.</p></note> Eastern Christian responses to menstruating women’s bodies in
+                    late antiquity provide some relevant interpretive context for thinking of heresy
+                    as a physical, polluting contaminant among Severus’s congregants and in John of
+                    Tella’s sixth-century Syriac texts. </p>
+                <p xml:lang="en">The third-century <hi rend="italic">Didascalia</hi>, for example, offers two ways
+                    in which biblical purity laws were interpreted by Christ-followers, one through
+                    the voice of the narrator and the other through the arguments attributed to some
+                    women in the community. As Charlotte Fonrobert explains, the <hi rend="italic"
+                        >Didascalia</hi> argues against women whom the text claims “keep themselves
+                    from prayer and from receiving the Eucharist [<hi rend="italic"
+                    >eucharistia</hi>], or from reading the Scriptures” during the “seven days of
+                    their menstrual period.”<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text"> Charlotte Elisheva Fonrobert, <hi rend="italic"
+                                >Menstrual Purity: Rabbinic and Christian Reconstructions of
+                                Biblical Gender</hi> (Stanford University Press, 2000), 173; <hi
+                                rend="italic">Didascalia</hi> 26 (Vööbus, 255-63/238-45, cited by
+                            the page of the Syriac/English edition and translation). Translations of
+                            this text in this essay are revised from the edition and English
+                            translation in Arthur Vööbus, <hi rend="italic">The Didascalia
+                                Apostolorum in Syriac II</hi>, CSCO 407-8 (Louvain: Secrétariat du
+                            Corpus SCO, 1979). </p></note> Fonrobert usefully compares this with a
+                    passage from the early rabbinic Tosefta that allows menstruating women to study
+                    and read the scripture, noting that here the Tosefta and the <hi rend="italic"
+                        >Didascalia</hi> agree with each other against the behavior attributed to
+                    the <hi rend="italic">Didascalia</hi>’s women, although the Tosefta expects
+                    women to keep other “biblical regulations concerning menstruation” whereas the
+                        <hi rend="italic">Didascalia</hi> does not.<note place="foot" xml:id="ftn28"
+                        n="28"><p rend="footnote text"> Fonrobert, <hi rend="italic">Menstrual
+                                Purity</hi>, 173-4; tBer 2:13.</p></note> The <hi rend="italic"
+                        >Didascalia</hi> argues that unlike earlier ablutions for ritual impurity
+                    that were temporary, Christian baptism, with its subsequent indwelling of the
+                    Holy Spirit, protects an upright Christian for the long term and removes the
+                    need for further purification, including from menstruating.<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text">
+                            <hi rend="italic">Didascalia </hi>26 (Vööbus,
+                            255/238). Fonrobert also details the arguments in the <hi rend="italic"
+                                >Didascalia</hi>, and the ways in which the text’s logic is tied to
+                            its representation of what it calls the “second legislation,” that is,
+                            some biblical expectations that the author believes to have been
+                            abrogated by the resurrection of the messiah in the person of Jesus
+                            (Fonrobert, <hi rend="italic">Menstrual Purity</hi>, 172-85).</p></note>
+                    This relation between bodily and spiritual purity relies on what Jonathan
+                    Klawans notes seems to have been an innovation by John the Baptist to advocate
+                    for a ritual cleansing that was “more frequently associated in the past with
+                    ritual impurity” as newly a one-time means “of achieving moral purity” through
+                        baptism.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                            Jonathan Klawans, <hi rend="italic">Impurity and Sin in Ancient
+                                Judaism</hi> (New York: Oxford University Press, 2000), 160. See
+                            also Hayes, <hi rend="italic">Gentile Impurities</hi>. </p></note>
+                </p>
+                <p xml:lang="en">The <hi rend="italic">Didascalia</hi> critiques these women “because of the
+                    observances that you keep,” arguing that “all these observances are foolish and
+                    hurtful,” and reminds the women of all the other laws they would also have to
+                    keep if they followed this one aspect of what the text calls the former
+                        legislation.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                            <hi rend="italic">Didascalia </hi>26 (Vööbus,
+                            258-9/241-2). </p></note> The <hi rend="italic">Didascalia</hi> asks the
+                    women to “flee and avoid such observances…. do not observe these things, nor
+                    think them pollution [<hi rend="italic">ṭamutā</hi>]; and do not refrain
+                    yourselves on their account, nor seek after sprinklings, or baptisms, or
+                    purifications [<hi rend="italic">dukaye</hi>] for these things;” but rather
+                    “come together even in the cemeteries, and read the holy Scriptures, and without
+                    hesitation perform your ministry and your supplication to God; and offer an
+                    acceptable Eucharist [<hi rend="italic">eukarisṭia</hi>].”<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text">
+                            <hi rend="italic">Didascalia </hi>26 (Vööbus,
+                            261/243).</p></note> Thus while these women are said to have kept
+                    themselves from the Eucharist, prayer, and reading scripture during menstruation
+                    as an extrapolation of biblical observances, the <hi rend="italic"
+                        >Didascalia</hi>’s narrator made a strong argument that bodily discharges
+                    did not make a person impure, and therefore should not curtail Christians’
+                    behavior, including in taking the Eucharist.</p>
+                <p xml:lang="en">Despite the <hi rend="italic">Didascalia</hi>’s passionate argument and its
+                    repetition in the late fourth-century <hi rend="italic">Apostolic
+                        Constitutions</hi>, some church leaders did ask menstruating women, among
+                    others with bodily discharges, to delay Christian rituals until their bodies
+                    were cleansed. As Fonrobert notes, for example, “Whereas the Didascalia tried to
+                    convince women in its community to partake in the Eucharist while they are
+                    menstruating,” a nearly contemporary Greek text by Dionysius of Alexandria (d.
+                    265) “attempts to keep them away from it, as well as from the altar and the
+                    church altogether.”<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text"> Fonrobert, <hi rend="italic">Menstrual
+                            Purity</hi>, 196; text from Ross Kraemer, <hi rend="italic">Maenads,
+                                Martyrs, Matrons, Monastics: A Sourcebook on Women’s Religions in
+                                the Greco-Roman World</hi> (Philadelphia: Fortress Press, 1988), 43.
+                            This text is attributed to Dionysius in a “larger collection of epistles
+                            of the Greek church which served as one of the sources of that church’s
+                            canon law” (Kraemer, <hi rend="italic">Maenads</hi>, 397); Kramer found
+                            the text in Charles Feltoe,
+                            <hi rend="italic">Dionusiou Leipsana: The Letters and Other Remains of Dionysius of Alexandria </hi>(Cambridge:
+                            Cambridge University Press, 1904); ANF translation 6:94-96.</p></note>
+                    The text described here is a letter attributed to Dionysius and written to the
+                    Bishop Basilides, which comes to be part of later Greek canon law. It responds
+                    to a question about whether “women in the time of their separation” can “enter
+                    the house of God” by saying, “I do not think that, if they are believing and
+                    pious women, they will themselves be rash enough in such a condition either to
+                    approach the holy table or to touch the body and blood of the Lord…. For to
+                    pray… in whatever condition a person may be” is blameless, but “the individual
+                    who is not perfectly pure [<hi rend="italic">katharas</hi>] both in soul and in
+                    body, shall be prohibited from approaching the holy of holies.”<note
+                        place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> Kraemer, <hi
+                                rend="italic">Maenads</hi>, 43; Canon II (PG 10,
+                        1272-77).</p></note> In this case, bodily purity is expected of Christians
+                    approaching the divine.</p>
+                <p xml:lang="en">The West Syrian <hi rend="italic">Synodicon</hi>, a compilation of earlier
+                    sources, reveals that the <hi rend="italic">Didascalia</hi>’s narrator did not
+                    have the final say, such as in letters attributed to the anti-Chalcedonian
+                    bishop-saints Timothy II (Aelurus) of Alexandria (d. 477) and Severus of
+                    Antioch. The <hi rend="italic">Synodicon</hi> says that Timothy II answered the
+                    question, “If a woman… on the day of baptism is menstruating [<hi rend="italic"
+                        >hawā lāh kepsā</hi>], is it lawful for her to be baptized or shall she be
+                    postponed?” with the response, “It is lawful that she should be postponed until
+                    she becomes purified [<hi rend="italic">metdakya</hi>].”<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text"> Timothy Aelurus, <hi
+                                rend="italic">Questions and Answers</hi>, in Arthur Vööbus, <hi
+                                rend="italic">The Synodicon in the West Syrian Tradition</hi>, CSCO
+                            367-8, 375-6 (Leuven: Secrétariat du Corpus SCO, 197506), I.141/139,
+                            cited by volume followed by the pages of Vööbus’s Syriac/English edition
+                            and translation.</p></note> Similarly, he replied to the question, “If a
+                    faithful woman is menstruating [<hi rend="italic">hawā lāh kepsā</hi>], is it
+                    lawful for her to approach in order to approach the holy mysteries [<hi
+                        rend="italic">rāze qadiše</hi>] on the same day or not?” with the answer,
+                    “It is unlawful that she approach before she becomes purified.”<note
+                        place="foot" xml:id="ftn36" n="36"><p rend="footnote text"> Timothy Aelurus,
+                                <hi rend="italic">Questions and Answers</hi> (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.141/139).</p></note> The <hi
+                        rend="italic">Synodicon</hi> attributes similar teachings to Severus in an
+                    otherwise unattested letter to Caesaria: “it is not lawful for a woman who has
+                    the usual flow of blood [<hi rend="italic">marditā dadmā</hi>] to participate
+                        [<hi rend="italic">teštawtap</hi>] in the divine communion [<hi
+                        rend="italic">šawtaputa alāhāitā</hi>] until the coming of blood
+                        stops.”<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text">
+                            Severus of Antioch, <hi rend="italic">Letter to Caesaria</hi> (Vööbus,
+                                <hi rend="italic">Synodicon</hi> I.144/141).</p></note> These
+                    anti-Chalcedonian texts continue the tradition of separating bodies with
+                    discharges from Christian rituals until they were cleansed.</p>
+                <p xml:lang="en">The <hi rend="italic">Testament of our Lord Jesus Christ</hi> not only contains
+                    similar expectations but also explains how they should be understood. As
+                    Sebastian Brock has summarized, this text appears to have originated in Greek in
+                    the late fourth or late fifth century and was translated into Syriac in 686/7 by
+                    a man named Jacob, usually identified as Jacob of Edessa, and it became part of
+                    the <hi rend="italic">Synodicon</hi>.<note place="foot" xml:id="ftn38" n="38"><p
+                            rend="footnote text"> Sebastian Brock, “Testament of our Lord Jesus
+                            Christ,” in <hi rend="italic">Gorgias Encyclopedic Dictionary of the
+                                Syriac Heritage: Electronic Edition</hi>, edited by Sebastian P.
+                            Brock, Aaron M. Butts, George A. Kiraz and Lucas Van Rompay,
+                            https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ.
+                        </p></note> It teaches about widows, “If she is menstruating [<hi
+                        rend="italic">kepsā</hi>], she shall abide in the temple [<hi rend="italic"
+                        >haiklā</hi>], but shall not approach the altar [<hi rend="italic"
+                        >madbḥā</hi>]. This is not because she has pollution [<hi rend="italic"
+                        >saibutā</hi>], but in order that the altar shall have honor. Afterwards
+                    when she fasts and washes herself,” she can approach.<note place="foot"
+                        xml:id="ftn39" n="39"><p rend="footnote text">
+                            <hi rend="italic">Testament of our Lord Jesus Christ</hi> (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.24/45). It is worth noting that this
+                            text is unusual in signaling the pollution with the term <hi
+                                rend="italic">saibutā</hi> rather than <hi rend="italic"
+                            >ṭamutā</hi>, the former of which appears in Marcus Jastrow’s dictionary
+                            of early rabbinic Hebrew, but is not in Brown, Driver, Briggs’s
+                            dictionary of Biblical Hebrew. </p></note> A section on catechumens
+                    teaches that if a woman is menstruating when the time comes for baptism, she
+                    should wait an extra day for washing and cleansing.<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">
+                            <hi rend="italic">Testament of our Lord Jesus Christ</hi> (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.32/52); cf., Apostolic Tradition of
+                            Hippolytus of Rome 20.6.</p></note> Finally, its canons include a
+                    variety of teachings about bodily purity and the Eucharist, teaching that if a
+                    priest has a nightly emission, he can neither give nor receive the Eucharist
+                    until he has fasted and washed; likewise anyone of the <hi rend="italic">bnai
+                        qyama</hi> in a similar condition cannot approach (the altar) without
+                    fasting and washing, and a widow or any woman who is menstruating [<hi
+                        rend="italic">kepsā</hi>] “shall not approach the communion of the mysteries
+                        [<hi rend="italic">šawtaputā d-rāze</hi>] until she is cleansed and
+                        washed.”<note place="foot" xml:id="ftn41" n="41"><p rend="footnote text">
+                            <hi rend="italic">Testament of our Lord Jesus Christ</hi> (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.40/57).</p></note> As in the section
+                    on widows, the text again stresses that these regulations are not because the
+                    bodies are polluted [<hi rend="italic">saibutā</hi>] but for the honor of the
+                        altar.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">
+                            <hi rend="italic">Testament of our Lord Jesus Christ</hi> (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.40/57).</p></note> Despite their
+                    protests, these Christian texts recall biblical injunctions regarding pollution
+                    by precluding bodies with discharges from having contact with, or even proximity
+                    to, the altar and the Eucharist. </p>
+                <p xml:lang="en">Like the letter attributed to Severus, John of Tella also kept menstruating women
+                    from his liturgical rituals. While John normally allowed deaconesses to give the
+                        <hi rend="italic">qurbānā</hi> to children under five years old,<note
+                        place="foot" xml:id="ftn43" n="43"><p rend="footnote text"> John of Tella,
+                                <hi rend="italic">Questions and Answers</hi> #32 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.218/202); note that this is #33 in
+                            Nau, <hi rend="italic">Canons</hi>, 16, who depended on the Syriac
+                            edition in Thomas Lamy, <hi rend="italic">Dissertatio de Syrorum Fide et
+                                Disciplina in Re Eucharistica</hi> (Louvain: Vanlinthout, 1859),
+                            61-97.</p></note> he taught that for a deaconess, “It is not permissible
+                    when she is menstruating to enter (the sanctuary) or draw near to the <hi
+                        rend="italic">qudšā</hi>,” which he equates in a nearby passage with the <hi
+                        rend="italic">qurbānā</hi>.<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text"> John of Tella, <hi rend="italic">Questions and
+                                Answers</hi> #36 (Vööbus, <hi rend="italic">Synodicon</hi>
+                            I.218/203); Nau, <hi rend="italic">Canons</hi>, 16; note is Question 37
+                            in Nau. Note that the two Syriac editions allude to menstruation through
+                            versions of a scriptural phrase: Lamy’s text retains “the way of women”
+                                [<hi rend="italic">urḥā d-neše</hi>] (cf., Gen 18.11, 31.35 <hi
+                                rend="italic">derek našim</hi>), and Vööbus’s “that of women” [<hi
+                                rend="italic">hai d-neše</hi>]. The text conflates <hi rend="italic"
+                                >qudšā</hi> with <hi rend="italic">qurbānā</hi> in John of Tella,
+                                <hi rend="italic">Questions and Answers</hi> #33 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.218/203).</p></note> This highlights
+                    John’s concern for the physical purity of those approaching the divine. He is
+                    asked with respect to the laity, “Is it permitted for a laywoman who is
+                    menstruating [<hi rend="italic">hai d-neše</hi>] to enter the temple of God in
+                    order to pray?”<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">
+                            John of Tella, <hi rend="italic">Questions and Answers</hi> #31 (Vööbus,
+                                <hi rend="italic">Synodicon</hi> I.218/202); Nau, <hi rend="italic"
+                                >Canons</hi>, 16; note that it is Question 32 in Nau. I have
+                            replaced Nau’s and Vööbus’s translation of “young woman” or “girl” with
+                            “laywoman” because the Syriac in both Lamy and Vööbus is <hi
+                                rend="italic">‘ālmāyātā</hi> not <hi rend="italic">‘alimtā</hi>.
+                            Lamy’s Syriac edition with Latin translation commented on this word and
+                            suggested the spelling <hi rend="italic">‘ālmāyātā</hi> in the
+                            manuscript should be emended for ease of translation (Lamy, 86), and Nau
+                            thus translated it as “young girl”; Vööbus retains the Syriac <hi
+                                rend="italic">‘ālmāyātā</hi> without emendation but translates it as
+                            “girl” without further comment. </p></note> John replies, “When she is
+                    menstruating it is permitted for her to enter the temple of God to pray, but the
+                    canons order her not to participate [<hi rend="italic">teštautap</hi>] in the
+                    holy mysteries.”<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"
+                            > John of Tella, <hi rend="italic">Questions and Answers</hi> #31
+                            (Vööbus, <hi rend="italic">Synodicon</hi> I.218/202); Nau, <hi
+                                rend="italic">Canons</hi>, 16; note that it is Question 32 in Nau.
+                        </p></note> In this case, John provides an explanation that echoes the
+                    reason given in the <hi rend="italic">Testament of our Lord</hi>, explaining
+                    that the delay is “not because of her pollution [<hi rend="italic">ṭamutā</hi>],
+                    but out of honor for the divine mysteries,”<note place="foot" xml:id="ftn47"
+                        n="47"><p rend="footnote text"> John of Tella, <hi rend="italic">Questions
+                                and Answers</hi> #31 (Vööbus, <hi rend="italic">Synodicon</hi>
+                            I.218/202); Nau, <hi rend="italic">Canons</hi>, 16; note that it is
+                            Question 32 in Nau. Note that the women criticized in the <hi
+                                rend="italic">Didascalia</hi> explicitly purport to consider
+                            themselves impure: “according to your opinion you are unclean [<hi
+                                rend="italic">ṭamutā</hi>]” and “do not observe these things, nor
+                            think that it is uncleanness”
+                            (<hi rend="italic">Didascalia </hi>26 [Vööbus,
+                            259/242, 261/243]). </p></note> a tradition that continued according to
+                    the <hi rend="italic">Synodicon</hi> in the seventh-century teachings of Jacob
+                    of Edessa (d. 708), who translated the <hi rend="italic">Testament of our
+                        Lord</hi>.<note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">
+                            Jacob taught regarding the <hi rend="italic">qurbānā</hi>, “She who has
+                            the way of women shall not participate until the flow of blood stops –
+                            if there is no emergency – and until she has washed, not because of
+                            uncleanness but out of honor for the <hi rend="italic">qudshe</hi>”:
+                            Jacob of Edessa, <hi rend="italic">Questions</hi> #24 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.262/239). Such concerns are also
+                            visible in the Greek Chalcedonian late seventh-century <hi rend="italic"
+                                >Questiones et responsiones</hi> of Anastasius of Sinai. </p></note>
+                    Thus while these anti-Chalcedonian traditions explicitly claimed that bodily
+                    impurity was not the reason for the separation, the end result is that these
+                    same bodies were kept from participating in the central ritual that defined
+                    membership in the orthodox community until they were cleansed.<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text"> As Derek Krueger has shown,
+                            “sixth-century liturgists associated liturgical participation with the
+                            shaping of affect and identity”: Derek Krueger, <hi rend="italic"
+                                >Liturgical Subjects: Christian Ritual, Biblical Narrative, and the
+                                Formation of the Self in Byzantium</hi> (Philadelphia: University of
+                            Pennsylvania Press, 2014), 106.</p></note> John’s and Severus’s writings
+                    suggest that these traditions that originated with ritual pollution came to
+                    inform representations of heresy in some of the same ways that rabbis used them
+                    to regulate interactions with Gentiles.</p>
+            </div>
+            <div xml:id="hv24n1shepardson.3" xml:lang="en">
+                <head>Mind the Gap: Regulating Orthodoxy and Heresy</head>
+                <p xml:lang="en">The conflicts over the legitimacy of the Council of Chalcedon (451) were complex
+                    and long-lived, and leaders from all sides wrote vigorously through the late
+                    fifth and sixth centuries to argue for their own legitimacy and against the
+                    heretical views of their opponents. The plethora of references in the writings
+                    of Philoxenos, John Rufus, John of Tella, and Severus to concerns about the
+                    unacceptable social and ritual mixing of people with different doctrinal
+                    commitments suggests that these authors hoped to inspire greater vigilance,
+                    separation, and distinction among some who currently socialized together.
+                    Anti-Chalcedonian writings discouraged not only ritual submission to, but often
+                    any social contact whatsoever with anyone outside of anti-Chalcedonian
+                    orthodoxy. While all of these writers called for greater separation between
+                    their anti-Chalcedonian listeners and their opponents, and reminded them of the
+                    eternal reward or punishment they would earn through their zeal (or lack
+                    thereof), they did not all describe the danger that heresy posed in the same
+                    terms. Most often their writings reflect a concern that anti-Chalcedonian
+                    Christians might be persuaded to abandon their doctrine and join the
+                    Chalcedonian communion. John of Tella is unusual in encouraging the perception
+                    of heresy as a physical contamination. Severus’s letters offer a glimpse of the
+                    anxiety that such a notion could inspire. Under Justin I, anti-Chalcedonian
+                    Christians faced a variety of pressures to join the Chalcedonian church, from
+                    ridicule and peer pressure, to financial and material incentives (or
+                    disincentives), to arrest and physical violence. Contrasting these authors’
+                    different representations of Christian heresy suggests that the notion of heresy
+                    as pollution could have been particularly useful in encouraging
+                    anti-Chalcedonian zeal among John of Tella’s followers, scattered as doctrinal
+                    and ritual minorities in the borderlands of the Roman and Sasanian empires,
+                    during the years of his exile.</p>
+                <p xml:lang="en">Philoxenos, John Rufus, and Severus, for example, all warned their audience about
+                    the dangers of mingling with their doctrinal opponents, but primarily because
+                    they might be persuaded to abandon their anti-Chalcedonian commitment.
+                    Philoxenos wrote, “Do not associate [<hi rend="italic">ḥulṭānā</hi>] with any of
+                    the heretics of the Persians, by communion [<hi rend="italic">šawtāputā</hi>],
+                    or by being eager to ask after their welfare, or by gifts.”<note place="foot"
+                        xml:id="ftn50" n="50"><p rend="footnote text"> Philoxenos, <hi rend="italic"
+                                >Particular Chapters [that We Should Anathematize Each One Who is
+                                Nestorian]</hi> in British Library, MS Add. 14529, ff. 66v-68r, ed.,
+                            and with a partial English transl. E. A. Wallis Budge, <hi rend="italic"
+                                >The Discourses of Philoxenos, Bishop of Mabbôgh, A.D. 485-519</hi>,
+                            vol. 2 (London, 1894), Syriac cxx-cxxiii, English xxxvii-xxxix, at
+                            xxxix, cxxii. </p></note> As Philoxenos wrote with hope at the end of
+                    his <hi rend="italic">Letter to Abu Ya‘fur</hi>, “My Lord God will deliver us
+                    just as all the children of the holy church, from association [<hi rend="italic"
+                        >ḥulṭānā</hi>] and communion [<hi rend="italic">šawtāputā</hi>] with” the
+                        heretics.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">
+                            Philoxenos, <hi rend="italic">Letter to Abu Ya‘fur</hi>, published as
+                            “Lettre de Philoxène de Mabbûg au phylarque Abū Ya‘fūr de Hīrtā de
+                            Bētna’mān (selon le manuscrit no 115 du fond patriarcat de Šarfet),” ed.
+                            and French transl. Paul Harb, <hi rend="italic">Melto</hi> 3.1-2 (1967):
+                            183-222, at 221.</p></note> In other cases Philoxenos criticized those
+                    who had relaxed their zeal on account of temporal presents,<note place="foot"
+                        xml:id="ftn52" n="52"><p rend="footnote text"> Philoxenos, <hi rend="italic"
+                                >Letter concerning Zeal</hi>, in A. Vööbus, <hi rend="italic">Syriac
+                                and Arabic Documents Regarding Legislation Relative to Syrian
+                                Asceticism</hi> (Stockholm: Estonian Theological Society in Exile,
+                            1960), 51-54, at 53. </p></note> and praised others who had resisted the
+                    impulse to do the same.<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text"> Philoxenos, <hi rend="italic">First Letter to the
+                                Monks of Beth Gaugal</hi>, in Arthur Vaschalde, ed. and trans. <hi
+                                rend="italic">Three Letters of Philoxenus, Bishop of Mabbogh
+                                (485-519): Being the Letter to the Monks, the First Letter to the
+                                Monks of Beth-Gaugal, and the Letter to Emperor Zeno</hi> (Rome:
+                            Tipografia della R. Accademia dei Lincei, 1902), 105-18, 146-62, at 106.
+                        </p></note> These examples imply that the danger of interacting was that the
+                    Christian might cease to be zealous in defending anti-Chalcedonian doctrine and
+                    might acquiesce, perhaps on account of pressure or bribes, to Chalcedonian
+                    teachings and rituals. The danger, then, was not so much the physical body of
+                    the heretic that threatened to pollute the orthodox body, but the potential of
+                    the heretic to persuade the orthodox to abandon Philoxenos’s teachings and
+                    Eucharist community.</p>
+                <p xml:lang="en">Severus and John Rufus likewise often focused on the danger of social
+                    interactions for the person’s doctrinal commitment more than their bodily
+                    purity. Severus addressed the noblewoman Caesaria by writing, “you ask whether
+                    some of the orthodox are doing well in not communicating [<hi rend="italic"
+                        >meštawtpein</hi>] with heretics but listening to the reading of the holy
+                    Gospel or even staying during the time of the mysterious prayers but not
+                    communicating in the rites that are being performed.”<note place="foot"
+                        xml:id="ftn54" n="54"><p rend="footnote text"> Severus, <hi rend="italic"
+                                >Ep</hi>. 6.4.10, 306/272, in Ernest Brooks, ed. and trans., <hi
+                                rend="italic">The Sixth Book of the Select Letters of Severus of
+                                Antioch</hi>, vol. 2.1-2 (London: Williams and Norgate, 1904). This
+                            citation represents Book 6, section 4, letter 10, followed by the pages
+                            in Brooks’s Syriac/English edition and translation.</p></note> Echoing
+                    Paul’s concerns in 1 Corinthians 5, Severus cited 2 John 10-11, and concluded,
+                    “If then it is not right to offer even a bare greeting to those who bring
+                    another teaching and do not teach the orthodox faith, how can one communicate in
+                    prayers and in lessons or in any other such things with such as these?”<note
+                        place="foot" xml:id="ftn55" n="55"><p rend="footnote text"> Severus, <hi
+                                rend="italic">Ep</hi>. 6.4.10, 306-7/272-3.</p></note> Severus
+                    relied on Titus 3.10, which he believed was written by the apostle Paul, to
+                    argue, “Paul the wise commands us to turn away even the very face from those who
+                    are in servitude to heresy,” leading Severus to conclude, “One therefore who
+                    comes together [<hi rend="italic">metkanaš</hi>] with the guilty renders
+                    themself subject to the same judgment.”<note place="foot" xml:id="ftn56" n="56"
+                            ><p rend="footnote text"> Severus, <hi rend="italic">Ep</hi>. 6.4.10,
+                            307/273.</p></note> John Rufus presented a similar story that he
+                    attributed to the famous ascetic Peter the Iberian who had a vision that he was
+                    condemned after he unthinkingly returned a greeting in a tight alleyway where he
+                    could not escape the notice of a former friend who had since joined the
+                    “heretical” Chalcedonian community.<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text"> John Rufus, <hi rend="italic">Plerophoriae</hi> 76
+                            (PO 8.130-132). Although he does not engage with ancient medical
+                            perceptions of illness and contagion and conflates them with pollution,
+                            Jan-Eric Steppa has written about the rhetoric of John Rufus’s striking
+                            “notion of heresy as a contagious disease that could affect even the
+                            most holy and orthodox of God’s servants – a dangerous kind of pollution
+                            that spread into the society of the orthodox through even the slightest
+                            contact.” See Jan-Eric Steppa, “Heresy and Orthodoxy: The
+                            Anti-Chalcedonian Hagiography of John Rufus,” in <hi rend="italic"
+                                >Christian Gaza in Late Antiquity</hi>, ed. Brouria Bitton-Ashkelony
+                            and Aryeh Kofsky, 89-106 (Boston: Brill, 2004), 103.</p></note> These
+                    authors worked to keep their congregants from joining Chalcedonian services and
+                    from associating with heretical Christians more generally, but in order that
+                    they would not be persuaded to join the Chalcedonian church or even so they
+                    would not be thought to have joined the competing communion. For these leaders,
+                    proximity to heretics was dangerous because a person might be persuaded to
+                    abandon their zeal and become (or appear to become) associated with the
+                    communion of the heretics.</p>
+                <p xml:lang="en">John of Tella, on the other hand, encouraged Christians to keep their distance
+                    from heretics and objects that had been used in heretics’ rituals in ways that
+                    echo his teachings about keeping menstruating bodies from the orthodox altar,
+                    suggesting a different kind of contamination. Some of John of Tella’s writings,
+                    on the one hand, demonstrate that he considered the material objects of
+                    heretics’ rituals, like Christian altars and the Eucharist itself, to be
+                    contaminated and thus inappropriate for orthodox rituals. John’s <hi
+                        rend="italic">Questions and Answers</hi>, for example, have a series of
+                    questions about what a priest should do if anything related to an altar or the
+                    Eucharist should arrive in a community from outside. If its heretical past is
+                    certain, then John’s answer is clear: “It is not allowed to put an altar [<hi
+                        rend="italic">madbḥa</hi>] of the heretics of Persia in the sanctuary [<hi
+                        rend="italic">beit qudšā</hi>],” although he does allow it to be placed
+                    elsewhere for common or ordinary service [<hi rend="italic">ḥšaḥtā
+                        šḥimtā</hi>].<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text"> John of Tella, <hi rend="italic">Questions and
+                                Answers</hi> #43 (Vööbus, <hi rend="italic">Synodicon</hi>
+                            I.220/204). An earlier French translation is also in François Nau,
+                            <hi rend="italic">Canons et les Résolutions Canoniques de Rabboula, Jean de Tella, Cyriaque d’Amid, Jacques d’Edesse, Georges des Arabes, Cyriaque d’Antioche, Jean III, Théodose d’Antioche, et des Perses </hi>(Paris:
+                            P. Lethielleux, 1906), 18. John here seems most concerned about Persian
+                            Christians whom we might associate with the Church of the East, though
+                            he also was in exile because of his rejection of Chalcedonian
+                            Christianity; anti-Chalcedonian leaders like John conflated both groups
+                            as heretics who inappropriately followed the teachings of
+                        Nestorius.</p></note> The same text also includes the question, “If one
+                    finds a portable altar [<hi rend="italic">ṭablitā</hi>] and some people say they
+                    heard from others that it was consecrated by the orthodox, what should one do
+                    with it? Should one believe those who heard that it belonged to the orthodox
+                    when they are trustworthy people, or rather leave it and not serve with it, as
+                    if it came from the heretics?” to which John of Tella gives the answer, “As I
+                    said above for the altars [<hi rend="italic">madbḥe</hi>] that come from the
+                    Persians, the same one (Mar Abas) ordered certainly not to celebrate [the
+                    Eucharist] on them. If, however, there are trustworthy people who say they heard
+                    from others that a portable altar [<hi rend="italic">ṭablitā</hi>] was
+                    consecrated by the orthodox, one can use it for the sanctuary without however
+                    celebrating on it.”<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text"> John of Tella, <hi rend="italic">Questions and
+                                Answers</hi> #47 (Vööbus, <hi rend="italic">Synodicon</hi>
+                            I.220-1/205); Nau, <hi rend="italic">Canons</hi>, 19. </p></note>
+                    Regarding the ritual components of heretics’ liturgy, John also teaches, “One
+                    must flee their Eucharist [<hi rend="italic">qurbānā</hi>] as a deadly
+                        drug,”<note place="foot" xml:id="ftn60" n="60"><p rend="footnote text"> John
+                            of Tella, <hi rend="italic">Questions and Answers</hi> #44 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.220/205); Nau, <hi rend="italic"
+                                >Canons</hi>, 18. On the language of the deadly drug, see Ephrem,
+                                <hi rend="italic">Azym</hi>. 19; Ignatius, <hi rend="italic">Letter
+                                to the Trallians</hi> 6.</p></note> and if they should somehow
+                    acquire a heretic’s Eucharist, “The <hi rend="italic">qurbānā</hi> that is found
+                    on [the altars (<hi rend="italic">madbḥe</hi>)] will be placed in an honorable
+                    spot or hidden in the ground or in the wall, lest the orthodox approach
+                        it.”<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text"> John
+                            of Tella, <hi rend="italic">Questions and Answers</hi> #46 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.220/205); Nau, <hi rend="italic"
+                                >Canons</hi>, 18-9. </p></note> These material objects are in John’s
+                    view compromised by their association with heresy and must be separated from
+                    orthodox bodies and rituals.</p>
+                <p xml:lang="en">On the other hand, John of Tella also had a strong sense of the importance of
+                    physical separation between people he considered to be heretics and those he
+                    considered orthodox. In his <hi rend="italic">Canons</hi>, John of Tella wrote,
+                    “Promise … to anathematize all heresies,” and he instructed his audience not to
+                    “associate with their adherents.”<note place="foot" xml:id="ftn62" n="62"><p
+                            rend="footnote text"> John of Tella, <hi rend="italic">Canons</hi> #1
+                            (Vööbus, <hi rend="italic">Synodicon</hi> I.147/143, 147/143-4); Nau,
+                                <hi rend="italic">Canons</hi>, 21.</p></note> John’s <hi
+                        rend="italic">Questions and Answers</hi> say, “The canon does not allow
+                    eating with heretics, whether the person makes the sign of the cross or not, and
+                    even if it would be out of the necessity of a journey;”<note place="foot"
+                        xml:id="ftn63" n="63"><p rend="footnote text"> John of Tella, <hi
+                                rend="italic">Questions and Answers</hi> #23 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.215/201); Nau, <hi rend="italic"
+                                >Canons</hi>, 14; this is Question 24 in Nau.</p></note> and he
+                    further stated, “If it is not necessary for lack of tombs for the faithful, it
+                    is not permitted to inter a faithful in the tombs of the heretics.”<note
+                        place="foot" xml:id="ftn64" n="64"><p rend="footnote text"> John of Tella,
+                                <hi rend="italic">Questions and Answers</hi> #27 (Vööbus, <hi
+                                rend="italic">Synodicon</hi> I.215/201); Nau, <hi rend="italic"
+                                >Canons</hi>, 14-5; this is Question 28 in Nau. The question that
+                            follows is also about burials. </p></note> John did make an exception
+                    that he seemed to feel was unavoidable to allow greetings between heretics and
+                    orthodox, “provided,” he said, “that we don’t give them a kiss on the
+                        mouth.”<note place="foot" xml:id="ftn65" n="65"><p rend="footnote text">
+                            John of Tella, <hi rend="italic">Questions and Answers</hi> #25 (Vööbus,
+                                <hi rend="italic">Synodicon</hi> I.216/201); Nau, <hi rend="italic"
+                                >Canons</hi>, 14; this is Question 26 in Nau. On drawing community
+                            boundaries through kissing, see Michael Penn,
+                            <hi rend="italic">Kissing Christians: Ritual and Community in the Late Ancient Church </hi>(Philadelphia:
+                            University of Pennsylvania Press, 2005).</p></note> In his <hi
+                        rend="italic">Canons to Priests</hi>, John again instructed, “do not eat
+                    with the heretics,” and this time he added, “and do not receive any blessing [or
+                    gift], because their hand is the hand of the lawless one”; nor should the
+                    orthodox give any blessing/gift to a heretic.<note place="foot" xml:id="ftn66"
+                        n="66"><p rend="footnote text"> John of Tella, <hi rend="italic">Canons</hi>
+                            #2 (Vööbus, <hi rend="italic">Synodicon</hi> I.147/144); Nau, <hi
+                                rend="italic">Canons</hi>, 21. </p></note> John thus sent a clear
+                    message that his audience should avoid heretics as much as possible, in addition
+                    to the material objects of their rituals. </p>
+                <p xml:lang="en">While John thus encouraged orthodox bodies to distance themselves from heretics
+                    just as an orthodox altar was kept from contact with menstruating bodies, it is
+                    through Severus’s letters explicitly about heresy as pollution that the fear and
+                    anxiety that such rhetoric could produce becomes clear. The experience of the
+                    global pandemic of 2020, and the anxiety that accompanies our efforts to
+                    practice social distancing in order to avoid contracting the potentially fatal
+                    virus, suggests that John’s rhetoric could likewise have caused anxiety as his
+                    audience tried to avoid contamination, especially in a context where notoriously
+                    unstable definitions of “orthodoxy” and “heresy” made it difficult to be certain
+                    who posed a risk.<note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text"> Barry notes that church leaders often used this
+                            challenge in order to argue for their own role as specialists in
+                            “diagnosing” heresy (Barry, “Diagnosing Heresy”).</p></note> Severus’s
+                        <hi rend="italic">Epistles</hi> 44 and 45 confirm that anti-Chalcedonian
+                    Christians in the early sixth century were indeed anxious that they might
+                    unwillingly and unwittingly contract heresy in the manner of a bodily pollution.
+                    Unlike John, however, Severus addressed these concerns in 516-7 as a bishop in
+                    residence under the sympathetic emperor Anastasius. In this context, Severus
+                    tried to calm his congregants’ worries rather than stoking their fears.
+                    Severus’s discussion of the pollution associated with heresy highlights the
+                    effects that John’s language could have had on his community.</p>
+                <p xml:lang="en">Two letters from Severus, written in Greek but preserved in Syriac, provide
+                    evidence that at least some of his congregants understood heresy to be a
+                    dangerous form of pollution. In <hi rend="italic">Epistle</hi> 45, Severus
+                    addressed congregants’ concern that Christians might find themselves polluted by
+                    heresy despite their vigilance, a fear that suggests that such rhetoric could be
+                    a powerful motivator for creating and maintaining clear boundaries between
+                    competing doctrinal communities. Severus tried to assuage their concern by
+                    explaining that despite their fears, the orthodox Eucharist would not be
+                    polluted if the name of an earlier church leader whom Severus considered a
+                    heretic was included in the liturgical diptychs that were read during the
+                        service.<note place="foot" xml:id="ftn68" n="68"><p rend="footnote text"> On
+                            Severus’s liturgy, see: G.C. Cuming, “The Liturgy of Antioch in the Time
+                            of Severus (513-518),” in <hi rend="italic">Time and Community: In Honor
+                                of Thomas Julian Talley</hi>, ed. J.N. Alexander, 83-103
+                            (Washington, D.C.: Pastoral Press, 1980). </p></note> Severus supported
+                    this opinion by means of Cyril of Alexandria’s defense of keeping Theodore of
+                    Mopsuestia’s name in the liturgical diptychs despite the fact that, in Severus’s
+                    words, Theodore “was the putrid sources of the hateful and putrid tenets of
+                        Nestorius.”<note place="foot" xml:id="ftn69" n="69"><p rend="footnote text">
+                            Severus, <hi rend="italic">Ep</hi>. 45 (PO 12.314). Translations of this
+                            text in this essay are revised from the Syriac edition and English
+                            translation by E.W. Brooks in PO 12.</p></note> Cyril allowed Theodore’s
+                    name, Severus argued, “in order not to give an opportunity to those who wished
+                    to disturb the church,” and even though the name was read, Christians did not
+                    believe “that thereby some pollution [<hi rend="italic">ṭamutā</hi>] and stain
+                        [<hi rend="italic">mumā</hi>] of heresy was inflicted on the <hi
+                        rend="italic">qurbānā</hi> of the orthodox,” nor did such names “cause any
+                    injury to the whole fullness of the body of Christ.”<note place="foot"
+                        xml:id="ftn70" n="70"><p rend="footnote text"> Severus, <hi rend="italic"
+                                >Ep</hi>. 45 (PO 12.314).</p></note> Severus insisted, “They are not
+                    acting rightly who think that our <hi rend="italic">qurbānā</hi> is not pure on
+                    account of the names of those who have already died and who have fallen into
+                    heretical tenets and have not been removed from the sacred tablets.”<note
+                        place="foot" xml:id="ftn71" n="71"><p rend="footnote text"> Severus, <hi
+                                rend="italic">Ep</hi>. 45 (PO 12.313); cf. <hi rend="italic"
+                            >Ep</hi>. 44 (PO 12.310-12).</p></note> Contrary to what his audience
+                    seemed to believe, Severus denied that the name of a heretic would contaminate
+                    his orthodox Eucharist and thereby threaten the orthodoxy of his
+                    congregants.</p>
+                <p xml:lang="en">Severus addressed the same concern in <hi rend="italic">Epistle</hi> 44, in this
+                    case acknowledging that if orthodox Christians ever found themselves utterly
+                    surrounded by those who were “sick [<hi rend="italic">krihā</hi>] with heresy,”
+                    then they should indeed avoid that “dead body” that could “pollute” the purity
+                    of their communion [<hi rend="italic">šawtaputā</hi>], using forms of <hi
+                        rend="italic">ṭamutā</hi> throughout to refer to polluting.<note
+                        place="foot" xml:id="ftn72" n="72"><p rend="footnote text"> Severus, <hi
+                                rend="italic">Ep</hi>. 44 (PO 12.310-11). Translations of this text
+                            in this essay are revised from the Syriac edition and English
+                            translation by E.W. Brooks in PO 12.</p></note> But as with pollution in
+                    water, the larger the body of clean water, the less harm a small pollutant could
+                    do, so that “if the holding of the orthodox faith and an anathema of every
+                    heresy reigns in the churches, and whole regions and provinces, and populous
+                    churches confess one uncorrupted confession, then names that are thought to
+                    pollute are inundated by the multitude of streams” and thus are safely diluted;
+                    while ideally, Severus agreed, “no particle of a dead body” (that is, people
+                    infected with heresy) “should be introduced even into a large quantity of water,
+                    if perchance it in fact happens to be introduced, it is overpowered by the
+                    quantity of streams and swamped by the quantity of cleansing.”<note place="foot"
+                        xml:id="ftn73" n="73"><p rend="footnote text"> Severus, <hi rend="italic"
+                                >Ep</hi>. 44 (PO 12.311). </p></note> This echoes language in <hi
+                        rend="italic">Epistle</hi> 45 where Severus argued, “when churches of many
+                    provinces and of dioceses are held in one bond of faith, and resemble fair
+                    fountains and pools and cisterns of water, the dead thing which has the property
+                    of polluting if it fall cannot injure, for it is swamped by the flow, and by the
+                    abundance of many streams.”<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text"> Severus, <hi rend="italic">Ep</hi>. 45 (PO
+                            12.315). </p></note> In these letters, Severus explicitly described
+                    those “infected with heresy” as the equivalent of a “dead body” that early
+                    biblical traditions taught could pollute the purity of those who came into
+                    contact with it. Writing from the comfort of his episcopal see, Severus argued
+                    that the orthodox majority could accommodate and tolerate small amounts of the
+                    pollution of heresy without harm.</p>
+                <p xml:lang="en">Despite Severus’s pastoral efforts to calm congregants’ fears, though, he
+                    nevertheless does in both of these letters equate heresy with a form of ritual
+                    impurity, in this case from contact with a corpse rather than from menstruation
+                    or the like. While Severus is willing to negotiate the degree of the threat that
+                    heresy posed in a sea of orthodoxy, in <hi rend="italic">Epistle</hi> 45 he
+                    nevertheless maintains that it poses a significant risk when the proportions are
+                    reversed. Severus wrote, “when certain people who are by themselves, in a church
+                    for instance, or in one city or in monasteries perhaps make mention of the names
+                    of those who are under suspicion and of dead men, like the similarly small
+                    amount of water contained in a vessel they are polluted by the mention, as if
+                    something dead had fallen in.”<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text"> Severus, <hi rend="italic">Ep</hi>. 45 (PO
+                            12.314-5). </p></note> While the contamination that Severus describes
+                    happens aurally through hearing a heretic’s name as part of the liturgy, the
+                    fact that he compares it to the ritual pollution of corpse impurity suggests
+                    both that it could cause a person to be separated from the orthodox altar and
+                    that its effects were independent of the hearer’s consent. Both factors would
+                    have raised the stakes for orthodox Christians to take responsibility for
+                    keeping themselves far from any manifestation of heresy on account of the risks
+                    it could pose.</p>
+                <p xml:lang="en">John of Tella’s implied comparison of menstruating bodies and heretics is made
+                    explicit in Severus’s letters and his congregants’ expectation that heresy could
+                    contaminate the liturgy and its participants. John’s fervent interest in
+                    increasing anti-Chalcedonian Christians’ vigilance in performing a sharp
+                    distinction and separation between the bodies, rituals, and other material
+                    manifestations of orthodoxy and heresy would have been magnified during his
+                    exile during the hostile reign of Justin I. Unlike John of Tella, Severus
+                    addressed the relation of heresy and pollution from his powerful see of Antioch
+                    where the reign of Anastasius buoyed his belief that anti-Chalcedonian
+                    Christianity represented the one universal church. In this more favorable
+                    context, Severus took pains to reassure his nervous audience that any pollution
+                    that might come through hearing a heretic’s name in the liturgy would be diluted
+                    to safe levels by the flood of orthodoxy represented in his church, even if they
+                    should still remain vigilant in less favorable circumstances. Severus’s writings
+                    thus concurrently suggest the anxiety that associating heresy with the
+                    contact-contagion of ritual pollution could inspire as well as his pastoral
+                    decision to try to alleviate rather than foster his congregants’ fear.</p>
+            </div>
+            <div xml:id="hv24n1shepardson.4" xml:lang="en">
+                <head>Conclusion</head>
+                <p xml:lang="en">John of Tella is interesting not only for his sixth-century teachings about
+                    menstruating bodies and other bodily discharges, but especially for how those
+                    ideas interact with his understanding of the dangers of Christian heresy.
+                    Rhetoric about ritual pollution and concerns about contamination were familiar
+                    to these late antique Christians, particularly through the continuing
+                    conversations about bodily purity and the Eucharist. John of Tella instructed
+                    that orthodox Christians must not use the contaminated altars or oblations of
+                    the heretics in their own rituals, that menstruating bodies should be separated
+                    from the divine until they had been cleansed, and that orthodox bodies should
+                    avoid heretics at meals, greetings, or burials, all of which his audience might
+                    well have heard with concerns of pollution in mind. John’s teachings about
+                    heretics parallel rabbinic teachings that hoped to preserve community identity
+                    by equating Gentile bodies with those with abnormal genital discharges. Although
+                    Severus did not want his congregants to worry about his own church services, he
+                    and his audience both associated heresy with bodily pollution and his letters
+                    reveal that this correlation caused such anxiety that Severus addressed the
+                    issue twice in an effort to allay his congregants’ fears.</p>
+                <p xml:lang="en">The global pandemic of 2020 provides a unique opportunity to grapple with the
+                    effects of sixth-century anti-Chalcedonian warnings that heresy had the
+                    potential to convey pollution to orthodox bodies – the anxiety that such a risk
+                    could produce, and the behavioral responses that it could lead to if Christians
+                    made an effort to avoid contamination. John asked his audience to put physical
+                    distance between orthodox Christians and heretical objects and people. Since the
+                    pollution of heresy shared with COVID-19 the possibility that those who carried
+                    it might sometimes be indistinguishable to the layperson from those who did not,
+                    John urged rigorous zeal in the face of imperial opposition. His rhetoric
+                    encouraged anyone who wanted to be assured of their eternal salvation to
+                    separate themselves physically from Chalcedonian and Church of the East altars
+                    and neighbors. In a context where people of various doctrinal and ritual
+                    commitments intermingled on a regular basis,<note place="foot" xml:id="ftn76"
+                        n="76"><p rend="footnote text"> See, for example, Jack Tannous, <hi
+                                rend="italic">The Making of the Medieval Middle East: Religion,
+                                Society, and Simple Believers</hi> (Princeton: Princeton University
+                            Press, 2018), e.g., 65-7, 105.</p></note> John of Tella strove to
+                    preserve anti-Chalcedonian Christianity in challenging circumstances from his
+                    nearly twenty years in exile. John seems to have hoped that rhetoric about
+                    heresy that echoed concerns about bodily pollution could increase the perceived
+                    risks and potential consequences of socializing with heretics, thereby
+                    increasing his followers’ devoted vigilance to maintaining anti-Chalcedonian
+                    orthodoxy in his absence. </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Allen, Pauline and C.T.R. Hayward. <hi rend="italic"
+                        >Severus of Antioch</hi>. New York: Routledge, 2004.</bibl>
+                <bibl>Balberg, Mira. <hi rend="italic">Purity, Body, and Self in
+                        Early Rabbinic Literature</hi>. Berkeley: University of California Press,
+                    2014.</bibl>
+                <bibl>Barry, Jennifer. “Diagnosing Heresy: Ps.-Martyrius’s <hi
+                        rend="italic">Funerary Speech for John Chrysostom</hi>.” <hi rend="italic"
+                        >JECS</hi> 24.3 (2016): 395-418.</bibl>
+                <bibl>Bitton-Ashkelony, Brouria and Aryeh Kofsky. <hi
+                        rend="italic">The Monastic School of Gaza</hi>. Boston: Brill, 2006.</bibl>
+                <bibl>Brock, Sebastian. “Testament of our Lord Jesus Christ.” In
+                        <hi rend="italic">Gorgias Encyclopedic Dictionary of the Syriac Heritage:
+                        Electronic Edition</hi>. Edited by Sebastian P. Brock, Aaron M. Butts,
+                    George A. Kiraz and Lucas Van Rompay.
+                    https://gedsh.bethmardutho.org/Testament-of-our-Lord-Jesus-Christ.</bibl>
+                <bibl>Brock, Sebastian and Brian Fitzgerald. <hi rend="italic"
+                        >Two Early Lives of Severos, Patriarch of Antioch</hi>. Liverpool: Liverpool
+                    University Press, 2013.</bibl>
+                <bibl>Cuming, G.C. “The Liturgy of Antioch in the Time of Severus
+                    (513-518).” In <hi rend="italic">Time and Community: In Honor of Thomas Julian
+                        Talley</hi>. Ed. J.N. Alexander, 83-103. Washington, D.C.: Pastoral Press,
+                    1980.</bibl>
+                <bibl>D’Alton, John and Youhanna Youssef, eds. <hi rend="italic"
+                        >Severus of Antioch: His Life and Times</hi>. Boston: Brill, 2016.</bibl>
+                <bibl>Debié, Muriel. “Désigner l’adversaire: La guerre des noms
+                    dans les controverses.” In <hi rend="italic">Les controverses religieuses en
+                        syriaque</hi>, ed. Flavia Ruani,
+                    307-48<hi rend="italic">. </hi>Paris: Geuthner, 2016. </bibl>
+                <bibl>Fonrobert, Charlotte Elisheva. <hi rend="italic">Menstrual
+                        Purity: Rabbinic and Christian Reconstructions of Biblical Gender</hi>.
+                    Stanford University Press, 2000.</bibl>
+                <bibl>Ghanem, Joseph R. “The Biography of John of Tella (d. AD
+                    537) by Elias, Translated from the Syriac with a Historical Introduction and
+                    Historical and Linguistic Commentaries.” PhD Dissertation, University of
+                    Wisconsin, 1970.</bibl>
+                <bibl>Hayes, Christine. <hi rend="italic">Gentile Impurities and
+                        Jewish Identities: Intermarriage and Conversion from the Bible to the
+                        Talmud</hi>. Oxford: Oxford University Press, 2002.</bibl>
+                <bibl>Horn, Cornelia. <hi rend="italic">Asceticism and
+                        Christological Controversy in Fifth-Century Palestine</hi>. New York: Oxford
+                    University Press, 2006.</bibl>
+                <bibl>Jouanna, Jacques. “Air, miasma and Contagion in the Time of
+                    Hippocrates and the Survival of Miasmas in Post-Hippocratic Medicine.” In <hi
+                        rend="italic">Greek Medicine from Hippocrates to Galen: Selected
+                    Papers</hi>. Ed. Philip van der Eijk, trans. Neil Allies, 121-36. Boston: Brill,
+                    2012.</bibl>
+                <bibl>Klawans, Jonathan. <hi rend="italic">Impurity and Sin in
+                        Ancient Judaism</hi>. New York: Oxford University Press, 2000). </bibl>
+                <bibl>Kofsky, Aryeh. “Severus of Antioch and Christological
+                    Politics in the Early Sixth Century.” <hi rend="italic">Proche-Orient
+                        Chrétien</hi> 57 (2007): 43-57.</bibl>
+                <bibl>Koltun-Fromm, Naomi. <hi rend="italic">The Hermeneutics of
+                        Holiness: Ancient Jewish and Christian Notions of Sexuality and Religious
+                        Community</hi>. New York: Oxford University Press, 2010.</bibl>
+                <bibl>Kraemer, Ross. <hi rend="italic">Maenads, Martyrs, Matrons,
+                        Monastics: A Sourcebook on Women’s Religions in the Greco-Roman World</hi>.
+                    Philadelphia: Fortress Press, 1988.</bibl>
+                <bibl>Krueger, Derek. <hi rend="italic">Liturgical Subjects:
+                        Christian Ritual, Biblical Narrative, and the Formation of the Self in
+                        Byzantium</hi>. Philadelphia: University of Pennsylvania Press, 2014.</bibl>
+                <bibl>Menze, Volker. <hi rend="italic">Justinian and the Making
+                        of the Syrian Orthodox Church</hi>. New York: Oxford University Press,
+                    2008.</bibl>
+                <bibl>Menze, Volker. “The <hi rend="italic">Regula ad
+                        Diaconos</hi>: John of Tella, his Eucharistic Ecclesiology and the
+                    Establishment of an Ecclesiastical Hierarchy in Exile.” <hi rend="italic">Oriens
+                        Christianus</hi> 90 (2006): 46-8.</bibl>
+                <bibl>Menze, Volker and Kutlu Akalin. <hi rend="italic">John of
+                        Tella’s Profession of Faith: The Legacy of a Sixth-Century Syrian Orthodox
+                        Bishop</hi>. Gorgias Press, 2009.</bibl>
+                <bibl>Millar, Fergus. “The Evolution of the Syrian Orthodox
+                    Church in the Pre-Islamic Period: From Greek to Syriac?” <hi rend="italic"
+                        >JECS</hi> 21.1 (2013): 43-92. </bibl>
+                <bibl>Moss, Yonatan. <hi rend="italic">Incorruptible Bodies:
+                        Christology, Society, and Authority in Late Antiquity</hi>. Berkeley:
+                    University of California Press, 2016.</bibl>
+                <bibl>Nutton, Vivian. “Did the Greeks Have a Word for It?
+                    Contagion and Contagion Theory in Classical Antiquity.” In <hi rend="italic"
+                        >Contagion: Perspectives from Pre-Modern Societies</hi>. Ed. Lawrence Conrad
+                    and Dominik Wujastyk, 137-62. Burlington, Vt: Ashgate, 2000.</bibl>
+                <bibl>Penn, Michael. <hi rend="italic">Kissing Christians: Ritual
+                        and Community in the Late Ancient Church</hi>. Philadelphia: University of
+                    Pennsylvania Press, 2005.</bibl>
+                <bibl>Roux, René. <hi rend="italic">L’Exégèse Biblique dans les
+                        Homélies Cathédrales de Sévère d’Antioche</hi>. Studia Ephemerides
+                    Augustinianum 84. Rome: Institutum Patristicum Augustinianum, 2002.</bibl>
+                <bibl>Steppa, Jan-Eric. “Heresy and Orthodoxy: The
+                    Anti-Chalcedonian Hagiography of John Rufus.” In <hi rend="italic">Christian
+                        Gaza in Late Antiquity</hi>. Ed. Brouria Bitton-Ashkelony and Aryeh Kofsky,
+                    89-106. Boston: Brill, 2004.</bibl>
+                <bibl>Tannous, Jack. <hi rend="italic">The Making of the Medieval
+                        Middle East: Religion, Society, and Simple Believers</hi>. Princeton:
+                    Princeton University Press, 2018.</bibl>
+                <bibl>Torrance, Iaian. <hi rend="italic">Christology after
+                        Chalcedon: Severus of Antioch and Sergius the Monophysite</hi>. Eugene, OR:
+                    Wipf &amp; Stock, 1988.</bibl>
+                <bibl>Van Rompay, Lucas. “Severus, Patriarch of Antioch
+                    (512-538), in the Greek, Syriac, and Coptic Traditions.” <hi rend="italic"
+                        >Journal of the Canadian Society for Syriac Studies</hi> 8 (2008): 3-22.
+                </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Robert J. Phenix Jr. and Cornelia B. Horn, eds. and
+                    trs., <hi rend="italic">The Rabbula Corpus: Comprising the Life of Rabbula,
+                        His Correspondence, a Homily Delivered in Constantinople, Canons and
+                        Hymns with Texts in Syriac and Latin</hi></title>
+                <author>
+                    <name>
+                        <forename>Andrew</forename>
+                        <surname>Palmer</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Zwijndrecht, The Netherlands</orgName>
+                    </affiliation>
+                </author>
+                <sponsor>Beth Mardutho: The Syriac Institute</sponsor>
+                <editor role="general">George A. Kiraz</editor>
+                <editor role="associate">James E. Walters</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person">James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n1prpalmer</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Andrew Palmer</author>
+                        <title level="a">Robert J. Phenix Jr. and Cornelia B. Horn, eds. and
+                            trs., <hi rend="italic">The Rabbula Corpus: Comprising the Life of Rabbula,
+                                His Correspondence, a Homily Delivered in Constantinople, Canons and
+                                Hymns with Texts in Syriac and Latin</hi></title>
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N1PRPalmer.pdf</idno>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="344" to="361">344-361</biblScope>
+                        <biblScope type="order" n="13"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-02-12">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="review">
+        <body>
+            <div>
+                <div type="title" xml:lang="en">
+                    <ab type="review-title">Robert J. Phenix Jr. and Cornelia B. Horn, eds. and
+                        trs., <hi rend="italic">The Rabbula Corpus: Comprising the Life of Rabbula,
+                            His Correspondence, a Homily Delivered in Constantinople, Canons and
+                            Hymns with Texts in Syriac and Latin</hi> (Atlanta: SBL Press, 2017).
+                        Pp. cclviii + 309; $122.</ab>
+                </div>
+                <div xml:lang="en">
+
+                    <p xml:lang="en">Bishop Rabbula of Edessa († 435)
+                        can be compared with John Chrysostom († 407). Both men were born into the
+                        Greek-speaking élite of the most hellenized part of Roman Syria and educated
+                        accordingly, both made it their objective “to suppress abuses and reform
+                        society, so as to bring it into a more faithful observance of the precepts
+                        of the gospel” (A.-M. Malingrey on the latter). But whereas Chrysostom
+                        encountered powerful opposition at Constantinople and ended his life in
+                        exile, Rabbula dominated his city right up to his death. Few bishops have
+                        been such uncompromising advocates of a society in which poverty is honoured
+                        above riches. Rabbula claims the attention of all who suspect that Jesus
+                        aspired to radical social reform and actually said “Blessed are the poor,”
+                        which his more worldly followers later qualified as “Blessed are the poor
+                            <hi rend="italic">in spirit</hi>.”</p>
+                    <p xml:lang="en">Phenix and Horn set out to provide a more or less
+                        comprehensive source-book for the study of Rabbula. They have called it “The
+                        Rabbula Corpus,” which is perhaps a little misleading. There is indeed,
+                        preserved in a sixth-century manuscript, such a body of texts: “The Heroic
+                        Deeds of Bishop Rabbula of Edessa” with its three appendices: Rabbula’s rule
+                        for his clergy, his rule for the monks of his diocese and an anti-Nestorian
+                        homily (in Syriac), which he is alleged to have delivered in the presence of
+                        Nestorius himself at Constantinople. This fifth-century kernel has
+                        snowballed, since the nineteenth century, into the much fuller source-book
+                        under review. Phenix and Horn build on the corpora assembled by Overbeck and
+                        Bickell.</p>
+                    <p xml:lang="en">Overbeck<note place="foot" xml:id="ftn1" n="1"><p
+                                rend="footnote text"> J. J. Overbeck, ed., <hi rend="italic">S.
+                                    Ephraemi Syri, Rabulae episcopi Edesseni, Balaei aliorumque
+                                    opera selecta e codicibus Syriacis manuscriptis in Museo
+                                    Britannico et Bibliotheca Bodleiana asservatis</hi> (Oxford
+                                1865).</p></note> expands the sixth-century corpus by the addition
+                        of further canons and correspondence before the “Homily” and, after it, of
+                        “supplications” (texts to be sung at prayer) attributed to Rabbula.<note
+                            place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> The author of
+                                “The Heroic Deeds of Bishop Rabbula” tells his reader, in §47, that
+                                he is already engaged in a project to translate from Greek into
+                                Syriac forty-six letters which Rabbula wrote “to ordained clergy,
+                                crowned heads, powerful men and monks.” This statement probably
+                                inspired Overbeck to include the Syriac texts of correspondence
+                                between Rabbula and three bishops (see No. 6).</p></note> He does
+                        not translate the Syriac texts. Bickell rolls the snowball further, picking
+                        up the passage on Rabbula’s conversion from the <hi rend="italic">Life</hi>
+                        of Alexander Akoimetes; but his German translations are printed without the
+                        Syriac and Greek originals.<note place="foot" xml:id="ftn3" n="3"><p
+                                rend="footnote text"> Bickell’s translation deserves to be reprinted
+                                in Latin type, observing present-day orthographical and grammatical
+                                norms.</p></note>
+                        <hi rend="italic">The Rabbula Corpus</hi> represents a further accumulation.
+                        Phenix and Horn alter the order as follows: </p>
+                    <p rend="H BR List indented">1) “The Heroic Deeds of Bishop Rabbula” (in
+                            Syriac);<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">
+                                <hi rend="italic">The Rabbula Corpus</hi> refers to “The Heroic
+                                Deeds of My Lord Rabbula, Bishop of Edessa, the Blessed City,” as
+                                “The Life of Rabbula” or “the encomium” (this specific term is even
+                                substituted for the general word “speech” ܡܐܡܪܐ in the translation)
+                                and to its author as “the encomiast.”</p></note></p>
+                    <p rend="H BR List indented">2) Rabbula’s alleged Constantinopolitan homily (in
+                        Syriac); </p>
+                    <p rend="H BR List indented">3) Rabbula’s rule for monks (in Syriac); </p>
+                    <p rend="H BR List indented">4) Rabbula’s rule for the clergy and the <hi
+                            rend="italic">qyāmâ</hi> (in Syriac); </p>
+                    <p rend="H BR List indented">5) Another rule for monks, falsely attributed to
+                        Rabbula (in Syriac);<note place="foot" xml:id="ftn5" n="5"><p
+                                rend="footnote text"> Texts II and III of A. Vööbus, <hi
+                                    rend="italic">Syriac and Arabic Documents Regarding Legislation
+                                    Relative to Syrian Asceticism</hi> (Stockholm 1960) are the
+                                first two appendices of “The Heroic Deeds of Bishop Rabbula,” in
+                                reverse order, as in Overbeck’s edition; text IX contains more
+                                “Rules attributed to Rabbula,” the first six of which are thought to
+                                be genuine, though this should probably be seen as a later revision
+                                of his rule, incorporating some original material.</p></note></p>
+                    <p rend="H BR List indented">6) Rabbula’s correspondence with Cyril, Andrew and
+                        Gemellinus (in Syriac);<note place="foot" xml:id="ftn6" n="6"><p
+                                rend="footnote text"> Pseudo-Zacharias Rhetor gives a longer version
+                                of this letter. It is this which is included in <hi rend="italic"
+                                    >The Rabbula Corpus</hi>.</p></note>
+                    </p>
+                    <p rend="H BR List indented">7) John of Antioch’s letter to the bishops of
+                        Osrhoene and other letters (in Latin);<note place="foot" xml:id="ftn7"
+                            n="7"><p rend="footnote text"> In the correspondence of Rabbula are
+                                included several letters preserved from the Latin <hi rend="italic"
+                                    >Collectio Casinensis</hi>, as edited by Eduard Schwartz in the
+                                    <hi rend="italic">Acta Conciliorum
+                            Oecumenicorum</hi>.</p></note>
+                    </p>
+                    <p rend="H BR List indented">8) The tract <hi rend="italic">De recta fide</hi>,
+                        dubiously attributed to Cyril (in a Syriac translation); </p>
+                    <p rend="H BR List indented">9) A larger number of hymns attributed to Rabbula
+                        (in Syriac). </p>
+                    <p xml:lang="en">The bibliography (primary sources and translations pp.
+                        419–440; secondary literature pp. 440–474) and the comprehensive index (pp.
+                        475–509) will make the book very useful to specialists, though the latter is
+                        marred by the occasional omission of spaces between the page-numbers.<note
+                            place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> The index
+                                would have been even more useful if an entry such as “church,”
+                                referring to 171 of the 757 pages, had been subdivided, separating
+                                references to the church as an institution from those to the
+                                church-building and breaking these up further, in order to save the
+                                reader time.</p></note>
+                    </p>
+                    <p xml:lang="en">Phenix and Horn do not intend their introduction to
+                        replace G. G. Blum’s <hi rend="italic"
+                            >Rabbula von Edessa: Der Christ, der Bischof, der Theologe</hi> (1969),
+                        “the only monograph on Rabbula”; but they do claim to bring that book up to
+                        date (p. xxiv). They do so, perhaps, where monasticism and the <hi
+                            rend="italic">qyāmâ</hi> are concerned. But on the problem of Rabbula’s
+                        famous U-turn, when he switched his allegiance from Antioch to Alexandria,
+                        Phenix and Horn disappoint. They simply subscribe to Blum’s opinion,
+                        ignoring H. J. W. Drijvers,<note place="foot" xml:id="ftn9" n="9"><p
+                                rend="footnote text"> H. J. W. Drijvers, “Rabbula, Bishop of Edessa:
+                                Spiritual Authority and Secular Power,” in: J. W. Drijvers and J. W.
+                                Watt, eds., <hi rend="italic">Portraits of Spiritual Authority:
+                                    Religious Power in Early Christianity, Byzantium and the
+                                    Christian Orient</hi> (Leiden 1999), 139–154. This important
+                                article is listed in the biblio-graphy of <hi rend="italic">The
+                                    Rabbula Corpus</hi>, but it is referred to only once, in a
+                                general way, on p. xxiii.</p></note> who argues that Rabbula’s
+                        formation as a theologian must have been Antiochene, because his masters
+                        were Eusebius of Chalcis and Acacius of Aleppo, the latter a close associate
+                        of Theodoret. Ibas’ claim that Rabbula was once an avid reader of Theodore
+                        of Mopsuestia is therefore plausible. It does not occur to either Blum or
+                        Phenix and Horn that the Syriac “translation” of the homily (not extant in
+                        Greek) allegedly delivered at Constantinople, which takes a bold
+                        anti-Nestorian stance, is an answer to the charge that Rabbula must once
+                        have been a supporter of Nestorius. Indeed, who else but Nestorius can have
+                        invited him to preach in Haghia Sophia during that patriarch’s reign? At
+                        Ephesus in 431, Rabbula set his signature to the deposition of Cyril; only
+                        afterwards, when the emperor’s support for Cyril became known, did Rabbula
+                        “distance (<hi rend="italic">separavit</hi>) himself from the Oriental
+                        synod” and become, overnight, an ardent supporter of Cyril and a slanderer
+                        of the great exegete Theodore and his disciple, Nestorius, thereby avoiding
+                        the fate of Chrysostom. Drijvers does justice to all the sources; yet his
+                        arguments are passed over in silence. Blum argues that Rabbula’s signatures
+                        at Ephesus were forged and that he must have stayed at home. This unlikely
+                        theory, supported by no good evidence, becomes, for Phenix and Horn, “the
+                            <hi rend="italic">fact</hi> that Rabbula was not present at the Council
+                        of Ephesus” (p. clxxi, reviewer’s emphasis).</p>
+                    <p xml:lang="en">The authors speak of “the stunning silences in the <hi
+                            rend="italic">Life of Rabbula</hi>” (p. xviii). They do not appreciate
+                        the full significance of the encomiast’s silence about Rabbula’s role at
+                        Ephesus in 431. If he never put his name to the deposition of Cyril, the
+                        record ought to have been set straight by his apologist. Instead, the
+                        ecumenical council, like other awkward subjects, is avoided altogether. Much
+                        of his praise for Rabbula can be read as indirect criticism of his
+                        successor, Ibas, under whom the encomiast probably wrote. The famous schools
+                        of the city, including that of the Christians from Persia, of which Ibas was
+                        the head, are only mentioned in passing; indeed, Phenix and Horn mistake the
+                        word ܡܟ̈ܬܒܐ (Overbeck, p. 190, line 7), which is probably to be translated
+                        as “schools” (though Doran, p. 89, penult., has “those inscribed on the
+                        welfare rolls”), for ܡ̈ܟܬܒܢܐ “scribes,” so even this passing reference is
+                        missed.</p>
+                    <p xml:lang="en">The encomiast denies (§38) that Rabbula “built anything
+                        in the earth,” apart from his hospital for women<note place="foot"
+                            xml:id="ftn10" n="10"><p rend="footnote text"> The stone for this was
+                                obtained by the demolition of four temples of idols, so how can
+                                Phenix and Horn maintain (pp. cxlvii–cxlviii) that “no specific
+                                action that Rabbula took against [the pagans]” is
+                            recorded?</p></note> and minimal repairs to the nave-wall of the
+                        cathedral church, which had suffered ܢܟܝܢܐ “damage.”<note place="foot"
+                            xml:id="ftn11" n="11"><p rend="footnote text"> If he does not mention
+                                the probable cause of this damage, a flood which brought down the
+                                city-wall on Tuesday, 18th March, 413, that is probably because the
+                                fact of this flood had been used against Rabbula by opponents, who
+                                would have claimed it as proof of God’s dissatisfaction with the new
+                                bishop of the “Blessed City.” The flood of 525 was certainly cited
+                                as evidence that God disapproved of the actions of the then bishop
+                                of Edessa.</p></note> The devious wording of this denial conceals
+                        the fact, reported in the <hi rend="italic">Chronicle of Edessa</hi>,<note
+                            place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> The <hi
+                                    rend="italic">Chronicle of Edessa</hi> is also the source for
+                                two reports of the flood of 413, one in its proper place and one in
+                                the conclusion.</p></note> that, already before the flood of 413,
+                        Rabbula had converted the synagogue of the Jews into the church of St
+                        Stephen. (He did not need to replace the foundations, so built nothing “<hi
+                            rend="italic">in</hi> the earth”!) Far from acknowledging this, the
+                        encomiast is at pains to say how well Rabbula got on with the Jews of his
+                        city and how bitterly these outsiders – more honestly characterized in §42
+                        as “the obstinate Israelite people” – mourned the dead bishop. Phenix and
+                        Horn (following Hallier, Blum and Doran) take this at face value. But the
+                        church-leaders of Syria are not to be trusted when they claim to have the
+                        best interests of the Jews at heart. One only has to remember Rabbula’s
+                        fourth-century models: the bishop who orchestrated (with impunity) the
+                        destruction of the synagogue of Callinicus, Chrysostom and (not least)
+                        Ephrem. Rabbula’s contemporary, Barṣauma of Samosata, was not the only one
+                        to intimidate judges and even royalty when they dared defend the downtrodden
+                            Jews.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text">
+                                See now <hi rend="italic">The Life of the Syrian Saint Barsauma:
+                                    Eulogy of a Hero of the Resistance to the Council of
+                                    Chalcedon</hi>, translated by A. N. Palmer (Oakland, California
+                                2020), esp. sect. 38–45, 91–97.</p></note> The reign of Theodosius
+                        II saw a rise in legislative discrimination against the Jewish community.
+                        There is no good reason, then, to doubt the report that Rabbula, in
+                        confiscating a synagogue, was acting in accordance with an imperial edict.
+                        Yet Blum accepts Ludwig Hallier’s far-fetched emendation of “Jews” to
+                        “Audians”; and Phenix and Horn join this chorus of denial that injustice was
+                        ever done to the Jews of Edessa!</p>
+                    <p xml:lang="en">It might have been better to leave the sixth-century
+                        corpus in its original sequence, not to re-order its parts. But the idea of
+                        making a source-book containing all the relevant texts in the original and
+                        in English translation was a very good one;<note place="foot" xml:id="ftn14"
+                            n="14"><p rend="footnote text"> The tract <hi rend="italic">De recta
+                                    fide</hi> would not really be missed, if it were omitted,
+                                whereas the Letter to Mari by Ibas of Edessa is a candidate for
+                                admission, since it contains controversial statements about Rabbula.
+                                As for the hymns, historians will gain little from reading them and
+                                lovers of florid liturgical poetry may not be interested in history,
+                                so why not put the hymns in a separate book?</p></note> and if this
+                        comprehensive “historical source-book for the study of Rabbula” can be
+                        revised, corrected and reissued with a shorter introduction,<note
+                            place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> The present
+                                introduction is 241 pages long; as if this were not intimidating
+                                enough, these pages are numbered, in Roman numerals,
+                                xvii–cclviii!</p></note> it will be an extremely valuable resource.
+                        The criticisms in this review should therefore be seen by the authors as
+                        constructive, intended to help them improve on their work in a second
+                        edition which will combine the best of Overbeck’s, Bickell’s, Vööbus’s and
+                        Doran’s work.<note place="foot" xml:id="ftn16" n="16"><p
+                                rend="footnote text"> R. Doran, <hi rend="italic">Stewards of the
+                                    Poor: The Man of God, Rabbula, and Hiba in Fifth-century
+                                    Edessa</hi> (Kalamazoo 2006).</p></note></p>
+                    <p xml:lang="en">Phenix and Horn disclaim the ambition to replace Blum’s
+                        study of Rabbula.<note place="foot" xml:id="ftn17" n="17"><p
+                                rend="footnote text"> G. G. Blum, <hi rend="italic">Rabbula von
+                                    Edessa: Der Christ, der Bischof, der Theologe</hi>, CSCO 300 /
+                                Subsidia 34 (Leuven 1969).</p></note> Perhaps, then, they should
+                        issue an updated translation of Blum, incorporating much of the material
+                        which overburdens the present introduction, of which pp. xvii–xlvi seem the
+                        most necessary. This last applies particularly to the section on
+                        “Persuasion, encomium and biography in the <hi rend="italic">Life of
+                            Rabbula</hi> (= The Heroic Deeds of Bishop Rabbula),” which shows an
+                        admirable command of scholarship concerning the various biographical genres.
+                        As Phenix and Horn write on p. xlv:</p>
+                    <p rend="H Quote Block">The author’s fealty to classical literary convention may
+                        be far greater than previously imagined, and if so, this will impact the use
+                        of the <hi rend="italic">Life of Rabbula</hi> for the reconstruction of
+                        history in Edessa.</p>
+                    <p xml:lang="en">Once the section on the <hi rend="italic">Sitz im
+                            Leben</hi> of the <hi rend="italic">Life</hi> (pp. lxx–cxiii) has been
+                        abridged and corrected (p. lxxii, on Rabbula’s dates, is misleading),<note
+                            place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> “In the year
+                                746 Rabbula, the bishop of Edessa, departed from this world on 8th
+                                August” (Chronicle of Edessa, A.D. 540, confirmed by Jacob of Edessa
+                                apud Elijah of Nisibis), that is 435, pace Phenix and Horn, <hi
+                                    rend="italic">RC</hi>, pp. xviii and lxxiii, n. 193, where
+                                Rabbula’s death is dated to the year 436). The obituary (§53) tells
+                                us Rabbula fell ill 24 years and 3 months after becoming bishop and
+                                died the following month, so his reign started on 1st April 411. The
+                                official date, however, was 1st October of the same year: “In the
+                                year 723 Rabbula became bishop in Edessa” (<hi rend="italic"
+                                    >Chronicle of Edessa</hi>). As with the regnal dates of kings,
+                                the first full calendar year of each bishop is counted as his first
+                                year.</p></note> it will be truly useful. The other texts included
+                        in the source-book should, in the reviewer’s opinion, be introduced at the
+                        appropriate points in the book. Here, too, brevity is needed – and greater
+                        accuracy, too.<note place="foot" xml:id="ftn19" n="19"><p
+                                rend="footnote text"> BL Add. 14,526 is a witness to the shorter of
+                                the two recensions of Rabbula’s monastic rule, and Overbeck
+                                identified only two MSS of the longer (not three, as stated on p.
+                                ccxxii); the second sentence on the “Commandments and Admonitions
+                                for the Priests and the Children of the Covenant” seems to
+                                contradict the first (p. ccxxiv); the Syriac on pp. ccxlvi and
+                                ccxlvii is riddled with errors; and the Seleucid year 737 is A. D.
+                                425/6 (not 424/5, as stated on p. ccl). </p></note></p>
+                    <p xml:lang="en">The Syriac texts need to be corrected from the
+                            manuscripts.<note place="foot" xml:id="ftn20" n="20"><p
+                                rend="footnote text"> Vat. Borg. cod. syr. 10 is online and from it
+                                I have made many corrections to the “Canons for the Monks,”
+                                attributed to Rabbula, the translation of which by Phenix and Horn
+                                is particularly unreliable.</p></note> In an appendix to this
+                        review, a step is already taken in this direction by listing corrigenda to
+                        the fifth-century corpus from MS BL Add. 14,652 (Wright, <hi rend="italic"
+                            >Catalogue</hi>, p. 651f., no. 732).<note place="foot" xml:id="ftn21"
+                            n="21"><p rend="footnote text"> The reviewer thanks the British Library
+                                for allowing him to photograph this codex in its entirety, free of
+                                charge.</p></note>
+                    </p>
+                    <p xml:lang="en">As for the English translations, these would benefit
+                        from a comparison with Bickell’s German translations, which are generally
+                        better, as the following passage from the hymns on p. 290f. of <hi
+                            rend="italic">The Rabbula Corpus</hi> shows:</p>
+                    <p rend="H BR Quote Block Smaller Font">Gustav Bickell, <hi rend="italic"
+                            >Ausgewählte Schriften aus syrischen Kirchenvätern</hi>, BKV (Kempten
+                        1874), p. 262: Als die Heiligen kamen und sich niederlegten zum Gastmahl des
+                        Leidens, da tranken sie alle von jenem Most, welchen das Judenvolk auf
+                        Golgotha gekeltert hatte, und erlernten die verborgenen Geheimnisse des
+                        Hauses Gottes. Deshalb sagen wir lobsingend: Gelobt sei Christus, welcher
+                        die heiligen Märtyrer durch das Blut aus seiner Seite trunken gemacht
+                        hat!</p>
+                    <p rend="H BR Quote Block Smaller Font">Phenix and Horn: When the saints went up
+                        and rested (Syr. ܥܠܼܘ ܘܓܢܼܘ “came in and reclined”) on the couch of their
+                        sufferings (Syr. ܒܣܡ̇ܟܐ ܕܚܫ̈ܐ “at the feast of sufferings” = “zum Gastmahl
+                        des Leidens” – the possessive pronoun is not in the Syr.), from that juice
+                        that the people trampled out (this ought to be: “that must which the
+                        [Jewish] people trod”) on Golgotha all of them drank and learned the secret
+                        mysteries (correct ܐܖ̈ܙܐ ܟܗ̈ܝܐ to ܟܣ̈ܝܐ ܐܖ̈ܙܐ = Overbeck) of the house of
+                        God. Wherefore (“and for that reason” – the archaic “wherefore” seems out of
+                        place) we sing with praises (“we sing praises” is better English) and say,
+                        blessed is the Messiah (this should be “Blessed is Christ”) who intoxicated
+                        the holy martyrs with the blood (“made the holy martyrs drunk on the blood”
+                        – the word “intoxicated” is taken from the wrong register) from his
+                        side.</p>
+                    <p xml:lang="en">The English translations by Phenix and Horn, as
+                        published, are neither felicitous, nor accurate. For a revised edition they
+                        need to be thoroughly overhauled. An example will be given here from the
+                        most important source, “The Heroic Deeds of Bishop Rabbula.” In §46 the
+                        anonymous encomiast refers his reader to the Syriac translation of the
+                        homily delivered in Constantinople. This reference will be quoted here,
+                        first in Syriac (fol. 115v, Overbeck, p. 198f., Phenix and Horn, p. 68),
+                        then in Bickell’s German translation, then in Robert Doran’s English
+                        translation, and finally in the translation given in <hi rend="italic">The
+                            Rabbula Corpus</hi>, so as to allow readers of this review to judge for
+                        themselves which is the best of the English translations.</p>
+                    <p xml:lang="syr">ܥܬܝܕܝܢ ܚܢܢ ܕܝܢ ܡܛܠ ܦܝܣܐ ܕܣ̈ܓܝܐܐ ܘܡܛܠ ܥܘܕܪܢܐ ܕܟܠܢܫܼ. ܐܦ
+                        ܕܢܟܬܒܝܘܗܝ ܡܢ ܒܬܪ ܡܐܡܪܢ ܕܥܠܘܗܝ̇. ܫܪܒܐ ܗܘ̇ ܕܡܠܠ ܛܘܒܢܐ ܒܐ̈ܕܢܘܗܝ ܕܛܪܘܢܐ ܒܥܕܬܐ
+                        ܪܒܬܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ. ܐܝܟ ܕܬܬܼܚܙܐ ܒܓܠܝܐ ܠܟܠܢܫ ܘܬܬܗܝܡܼܢ. ܕܐܝܕܐ ܦܪܗܣܝܐ ܪܒܬܐ
+                        ܩܢܼܝܐ ܗܘܬ ܡܠܬܗ ܡܫܠܛܐܝܬ̇. ܡܢ ܣܗܕܘܬܐ ܪܒܬܐ ܕܬܐܪܬܗ ܕܟܝܬܐ.</p>
+                    <cit>
+                        <quote>Bickell, p. 202: Wir werden übrigens zur Zurechtweisung vieler und
+                            zum Nutzen aller nach unserer Lebensbeschreibung des seligen Rabbulas
+                            auch diese Rede mitteilen, welche er vor dem Tyrannen in der großen
+                            Kirche von Konstantinopel gehalten hat, damit jeder deutlich einsehe und
+                            sich davon überzeuge, welche große Zuversicht sein gewaltiges Wort durch
+                            das mächtige Zeugnis seines reinen Gewissens erhielt.</quote>
+                    </cit>
+                    <cit>
+                        <quote>Doran, p. 97: Now, after we have written his life, we will set down –
+                            for the persuasion of many and for the benefit of everyone – that
+                            discourse which the blessed one spoke in the tyrant’s ears in the great
+                            church in Constantinople so that it may be seen openly by everyone and
+                            how his discourse, spoken from the robust witness of his pure
+                            conscience, gave great confidence.</quote>
+                    </cit>
+                    <cit>
+                        <quote>Phenix and Horn, p. 69: We shall, for the sake of persuading many and
+                            for the sake of helping everyone, write down following our encomium
+                            about him that discourse that the blessed one spoke into the ears of the
+                            [imperial] throne in the great church of Constantinople, so that it
+                            appear openly to all people and be believed that his word possessed
+                            authoritatively this great boldness of speech. On account of the great
+                            witness of his pure conscience …</quote>
+                    </cit>
+                    <p xml:lang="en">In this last, the Greek loan-word τύραννος is translated as if
+                        it were θρόνος and the sentence ends too soon. The German translation is
+                        certainly the best of the three.</p>
+                    <p xml:lang="en">The list of corrigenda which follows this review makes
+                        Phenix and Horn’s text of the sixth-century corpus preferable to Overbeck’s,
+                        partly because it includes corrigenda to this earlier edition and partly
+                        because Phenix and Horn annotate the text copiously and divide it into
+                        numbered sections for ease of reference.<note place="foot" xml:id="ftn22"
+                            n="22"><p rend="footnote text"> Slight adjustments are needed, however:
+                                The last nine words of sect. 17 belong to sect. 18, the first six
+                                words of sect. 22 belong to sect. 21 and the first six words of
+                                sect. 37 belong to sect. 36.</p></note></p>
+                </div>
+                <div>
+                    <head>Appendix: Corrigenda to the Syriac text <lb/>of the sixth-century “Rabbula
+                        Corpus”</head>
+                    <p xml:lang="en">N. B. Bold type is used to highlight the differences between
+                        the printed text and the manuscript, where a longer passage is quoted.</p>
+                    <p xml:lang="en">Apart from an unnecessary “emendation” on p. 4 and the fact
+                        that “[85v]” is placed after, not before, the word with which that folio
+                        begins on p. 8, the only differences between the manuscript and the text
+                        printed on pp. 2–10 are points omitted and punctuation-marks altered. Such
+                        minor infidelities will be passed over here. On pages 12–20, 24–44 and
+                        52–82, however, more serious errors have been introduced, sometimes (as on
+                        p. 4) through an attempt to emend the text. </p>
+                    <div>
+                        <head>The Heroic Deeds of Mar Rabbula, Bishop of the <lb/>Blessed City of
+                            Edessa</head>
+
+                        <p>(BL Add. 14,652, fols. 83r–125r; Overbeck, pp. 159–209; Phenix and Horn,
+                            pp. 2–83)</p>
+                        <p>12<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܘܓܠܘ ܖ̈ܚܡܘܗܝ ܕܪܒܘܠܐ</foreign> (MS <foreign
+                                xml:lang="syr">ܘܓܼܠܘ ܖ̈ܚܼܡܘܗܝ ܥܠܘܗܝ ܕܪܒܘܠܐ</foreign>). </p>
+                        <p>12<hi rend="superscript">1–2</hi><foreign xml:lang="syr">ܠܐ ܡܫܟܚ ܐܢܬ
+                                ܠܡܣ̇ܬܟܠܘ ܚܝܠܐ ܕܥܠ ܫܪܪܐ ܕܫܪܪܐ ܗܘ</foreign> (MS <foreign
+                                xml:lang="syr">ܠܐ ܡܫܟܚ ܐܢܬ ܠܡܣ̇ܬܟܠܘ ܚܝܠ ܫܪܪܐ ܕܫܪܪܐ ܗܘ</foreign>). </p>
+                        <p>12<hi rend="superscript">15</hi>
+                            <foreign xml:lang="syr">ܢܚܙܝܢܝܗ</foreign> (MS <foreign xml:lang="syr"
+                                >ܢܚܙܝܢܝܗܝ</foreign> – the object is Jesus). </p>
+                        <p>14<hi rend="superscript">6</hi>
+                            <foreign xml:lang="syr">ܒܡܗܝܡܢܘܬܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܗܝܡܢܘܬܗ</foreign> – meaning Rabbula’s faith). </p>
+                        <p>14<hi rend="superscript">12</hi>
+                            <foreign xml:lang="syr">ܐܦܩ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܩܦ</foreign>).</p>
+                        <p>16<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܪܒ̇ܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܪܡ̇ܐܼ</foreign>). </p>
+                        <p>16<hi rend="superscript">7</hi>
+                            <foreign xml:lang="syr">ܠܡܕܝܢܬܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܠܡܕܝܢܬܗ</foreign>). </p>
+                        <p>16<hi rend="superscript">9</hi>
+                            <foreign xml:lang="syr">ܕܥܡܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܥܡܼܕ</foreign>). </p>
+                        <p>18<hi rend="superscript">4</hi>
+                            <foreign xml:lang="syr">ܙܗܝܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܙܗܝܪܐ</foreign>). </p>
+                        <p>18<hi rend="superscript">14</hi>
+                            <foreign xml:lang="syr">ܒܫܡܠܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܫܠܡܐ</foreign>). </p>
+                        <p>20<hi rend="superscript">3</hi>
+                            <foreign xml:lang="syr">ܢܩܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܢܩܢܐ</foreign>). </p>
+                        <p>24<hi rend="superscript">9</hi> Fol. 92r begins after the second <foreign
+                                xml:lang="syr">ܙܘ̈ܥܝܢ</foreign>, not after the first. </p>
+                        <p>26<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܕܐܡܝܬܘ ܠܗܘܢ</foreign> (MS <foreign
+                                xml:lang="syr">ܕܡܝܬܘ ܠܗܘܢ </foreign>which Phenix and Horn seem to
+                            think needs emendation). </p>
+                        <p>28<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܐܘܠܝܨ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܠܝܨ</foreign>). </p>
+                        <p>30<hi rend="superscript">ult</hi> (two errors) <foreign xml:lang="syr"
+                                >ܣܗ̈ܕܐ ܠܚܙܝܝܢ ܕܣܪܝܪ ܡܘܠܟܢܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܣܗ̈ܕܐ ܠܚ̈ܙܝܝܢ ܕܫܪܝܪ ܡܘܠܟܢܢ</foreign>). </p>
+                        <p>32<hi rend="superscript">3</hi> (two errors) <foreign xml:lang="syr">ܐܠܦܐ
+                                ܐܡܗ ܘܚܬܗ. ܕܦܐܐ ܠܢܩܕܘܬܐ</foreign> (MS <foreign xml:lang="syr">ܐܦܠܐ
+                                ܐܡܗ ܘܚܬܗ. ܐܝܟ ܕܦܐܼܐ ܠܢܩܕܘܬܐ</foreign>). </p>
+                        <p>32<hi rend="superscript">15</hi>
+                            <foreign xml:lang="syr">ܠܦܫܗ</foreign> (MS <foreign xml:lang="syr"
+                                >ܢܦܫܗܼ</foreign>). </p>
+                        <p>32<hi rend="superscript">18</hi>
+                            <foreign xml:lang="syr">ܕܥܕܬܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܥܕܬܗ</foreign>). </p>
+                        <p>34<hi rend="superscript">3–4</hi><foreign xml:lang="syr">ܐܢ ܕܝܢ ܟܠܗܘܢ. ܠܐ
+                                ... ܘܠܥܝܢ ܥܠܡ̈ܐ</foreign> (MS <foreign xml:lang="syr">ܐܢ ܕܝܢ ܠܐ ...
+                                ܘܠܥܝܢ ܥܠܡ̈ܐ ܟܠܗܘܢ</foreign>.). </p>
+                        <p>34<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܛܥܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܛܥܢܗ</foreign>). </p>
+                        <p>34<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr">ܫܪܝܪܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܫܖ̈ܝܪܐ</foreign>). </p>
+                        <p>34<hi rend="superscript">16</hi>
+                            <foreign xml:lang="syr">ܓܒ̇ܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܓܡܪ</foreign>). </p>
+                        <p>34<hi rend="superscript">18</hi>
+                            <foreign xml:lang="syr">ܢܘܟܖ̈ܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܢܘܟܖ̈ܝܐ</foreign>). </p>
+                        <p>34<hi rend="superscript">20</hi>
+                            <foreign xml:lang="syr">ܫܡ̈ܝܗܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܫܡ̈ܗܝܗܘܢ</foreign>). </p>
+                        <p>36<hi rend="superscript">7</hi>
+                            <foreign xml:lang="syr">ܕܢܬܟܪܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܢܬܢܟܪܘܢ</foreign>). </p>
+                        <p>36<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܕܠܚܒܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܢܚܒܘܢ</foreign>). </p>
+                        <p>38<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܛܥܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܛܥܢܗ</foreign>). </p>
+                        <p>38<hi rend="superscript">10</hi>
+                            <foreign xml:lang="syr">ܡܫܟܚ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܫܟܚܐ</foreign>). </p>
+                        <p>40<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܡܬܠܦܝܣ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܬܛܦܝܣ</foreign>). </p>
+                        <p>42<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܒܚܒܖ̈ܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܚܒܖ̈ܬܐ</foreign>). </p>
+                        <p>42<hi rend="superscript">ult</hi>
+                            <foreign xml:lang="syr">ܕܡܣܗܪܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܡܣܗ̇ܕܐ</foreign>). </p>
+                        <p>44<hi rend="superscript">19</hi>
+                            <foreign xml:lang="syr">ܡܬܩܖ̈ܝܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܬܩ̇ܖ̈ܒܢ</foreign>). </p>
+                        <p>52<hi rend="superscript">6</hi>
+                            <foreign xml:lang="syr">ܡܬܒܪܝܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܬܕܒܪܝܢ</foreign>). </p>
+                        <p>52<hi rend="superscript">18</hi>
+                            <foreign xml:lang="syr">ܒܚܕܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܚܕܐ</foreign>). </p>
+                        <p>52<hi rend="superscript">25</hi>
+                            <foreign xml:lang="syr">ܒܣܬܕܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܣܬ̇ܪܗܘܢ</foreign>). </p>
+                        <p>52<hi rend="superscript">ult</hi>
+                            <foreign xml:lang="syr">ܐܣܛܪܛܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܣܛܪܛܝܐ</foreign>). </p>
+                        <p>52f. Overbeck uses asterisks to fill the place of illegible letters,
+                            which is better than using the Syriac punctuation-mark ܀, as the editors
+                            of RC do here. </p>
+                        <p>54<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܡܫܝܚܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܫܝܚܝܐ</foreign>). </p>
+                        <p>54<hi rend="superscript">7</hi>
+                            <foreign xml:lang="syr">ܐܚ̈ܝܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܚ̈ܘܢ</foreign>). </p>
+                        <p>54<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr">ܐܠܗܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܠܗܝܐ</foreign>). </p>
+                        <p>54<hi rend="superscript">19</hi>
+                            <foreign xml:lang="syr">ܕܢܒܣܘܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܢܒܣܘܪ ܗܘܐ</foreign>). </p>
+                        <p>54<hi rend="superscript">23</hi>
+                            <foreign xml:lang="syr">ܝܥܐܝܬ</foreign> (MS <foreign xml:lang="syr"
+                                >ܝܥܢܐܝܬ</foreign>). </p>
+                        <p>54<hi rend="superscript">ult</hi>
+                            <foreign xml:lang="syr">ܒܢ̈ܝ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܒܢ̈ܝ</foreign>). </p>
+                        <p>56<hi rend="superscript">10</hi>
+                            <foreign xml:lang="syr">ܗ̇ܘ</foreign> (MS <foreign xml:lang="syr"
+                                >ܗܘ</foreign>). </p>
+                        <p>58<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr">ܒܗ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܗ̇</foreign>). </p>
+                        <p>58<hi rend="superscript">18</hi> (two errors) <foreign xml:lang="syr"
+                                >ܐܖ̈ܥܐ ܕܠܒܐ܆ ܠܘ ܕܢܥܘܪ</foreign> (MS <foreign xml:lang="syr">ܐܖ̈ܥܬܐ
+                                ܕܠܒܐܼ. ܠܘ ܕܢܥ̇ܘܕ</foreign>). </p>
+                        <p>60<hi rend="superscript">4</hi>
+                            <foreign xml:lang="syr">ܫܪܪܗ</foreign> (MS <foreign xml:lang="syr">ܫܪܪܗ
+                                ܫܪܝܪܐ</foreign>). </p>
+                        <p>60<hi rend="superscript">10</hi> Fol. 111v begins after <foreign
+                                xml:lang="syr">ܟܕ</foreign> and before <foreign xml:lang="syr"
+                                >ܝܗܒܝܢܢ</foreign>. </p>
+                        <p>60<hi rend="superscript">17</hi>
+                            <foreign xml:lang="syr">ܕܐܠܗܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܠܗܝܬܐ</foreign>). </p>
+                        <p>60<hi rend="superscript">20</hi>
+                            <foreign xml:lang="syr">ܫ̇ܪܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܫ̇ܕܐ</foreign>). </p>
+                        <p>62<hi rend="superscript">20</hi>
+                            <foreign xml:lang="syr">ܘܥܡܕܗ̇</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܥܒܕܗ̇</foreign>). </p>
+                        <p>62<hi rend="superscript">25</hi>
+                            <foreign xml:lang="syr">ܘܗܘ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܗܘܼ</foreign>). </p>
+                        <p>64<hi rend="superscript">12</hi>
+                            <foreign xml:lang="syr">ܝܠܕܗ</foreign> (MS <foreign xml:lang="syr"
+                                >ܝܠܕܬܗ</foreign>). </p>
+                        <p>64<hi rend="superscript">14</hi>
+                            <foreign xml:lang="syr">ܐܠܫܒܥܼ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܠܝܫܒܥܼ</foreign>). </p>
+                        <p>66<hi rend="superscript">7</hi>
+                            <foreign xml:lang="syr">ܘܢܩܪܐܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܢܩܪܘܢ</foreign>). </p>
+                        <p>66<hi rend="superscript">12</hi>
+                            <foreign xml:lang="syr">ܫܘܒܚܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܫܘܒܚܗܼ</foreign>). </p>
+                        <p>68<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܟܐܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܟܐܒܐ</foreign>). </p>
+                        <p>68<hi rend="superscript">16</hi>
+                            <foreign xml:lang="syr">ܡܠܐ̈ܟܐ</foreign> plural (MS <foreign
+                                xml:lang="syr">ܡܠܐܟܐ</foreign> singular). </p>
+                        <p>68<hi rend="superscript">16</hi>
+                            <foreign xml:lang="syr">ܫܠܝ̈ܚܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܫܠܝ̈ܚܐܼ</foreign>.). </p>
+                        <p>70<hi rend="superscript">6</hi>
+                            <foreign xml:lang="syr">ܥܕܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܥ̇ܕܪ</foreign>). </p>
+                        <p>70<hi rend="superscript">7</hi>
+                            <foreign xml:lang="syr">ܕܥܒܕ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܥܒܼܪ</foreign>). </p>
+                        <p>70<hi rend="superscript">14</hi>
+                            <foreign xml:lang="syr">ܐܒܪܩ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܒ̇ܕܩ</foreign>). </p>
+                        <p>70<hi rend="superscript">17</hi>
+                            <foreign xml:lang="syr">ܗܼܢܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܗܼܢܝܢ</foreign>). </p>
+                        <p>70<hi rend="superscript">18</hi>
+                            <foreign xml:lang="syr">ܝܩܪ</foreign> (MS <foreign xml:lang="syr"
+                                >ܝܩܕ</foreign>). </p>
+                        <p>72<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܩܒܠܘ</foreign> (MS <foreign xml:lang="syr"
+                                >ܩܒܠܗ</foreign>). </p>
+                        <p>72<hi rend="superscript">11</hi> (three errors) <foreign xml:lang="syr"
+                                >ܟܕ ܗܟܠ ܣܓܝܐܝܢ ܗܘܘ ܩܘܖ̈ܒܢܐ ܕܙܕܩ̈ܬܐ</foreign> (MS <foreign
+                                xml:lang="syr">ܕܟܕ ܗܟܝܠ ܣܓܝܐܝܢ ܗܘܘ ܩܘܖ̈ܒܢܐ ܕܙܕܩ̈ܬܗ</foreign>). </p>
+                        <p>72<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr">ܕܠܘܬ ܟܠܢܫ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܠܘܬ ܐܠܗܐ ܘܠܘܬ ܟܠܢܫ</foreign>). </p>
+                        <p>72<hi rend="superscript">16</hi>
+                            <foreign xml:lang="syr">ܢܬܦܪܣܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܢܬܦܪܢܣܘܢ</foreign>). </p>
+                        <p>72<hi rend="superscript">22</hi>
+                            <foreign xml:lang="syr">ܝܗܒܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܝܗܘܒܐ</foreign>). </p>
+                        <p>72<hi rend="superscript">25</hi>
+                            <foreign xml:lang="syr">ܡܣܟܝ̈ܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܣܟ̈ܢܐ</foreign>). </p>
+                        <p>74<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܝܕܥ̈ܬܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܝܕܝܥ̈ܬܐ</foreign>). </p>
+                        <p>74<hi rend="superscript">6</hi>
+                            <foreign xml:lang="syr">ܡܫܠܚ̈ܦܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܡܫܚ̈ܠܦܐ</foreign>). </p>
+                        <p>74<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܘܠܚܫܚܬܗܘܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܠܚܫܚܬܐ</foreign>). </p>
+                        <p>74<hi rend="superscript">14</hi>
+                            <foreign xml:lang="syr">ܐܝܬܝܗ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܝܬܝܗ̇</foreign>). </p>
+                        <p>76<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܕܗ̇ܢܘ</foreign> = Overbeck (MS <foreign
+                                xml:lang="syr">ܕܗ̇ܢܐ</foreign>). </p>
+                        <p>76<hi rend="superscript">ult</hi> (two errors) <foreign xml:lang="syr"
+                                >ܐܣܬܪܗܒ ܦܪܢܣܗ ܩܠܝܠܐܝܬ ... ܙܕܩ̈ܬܐ</foreign> (MS <foreign
+                                xml:lang="syr">ܐܣܬܪܗܒ ܦܪܢܣܗ̇ ܩܠܝܠܐܝܬ ... ܙܕܩ̈ܬܗ</foreign>). </p>
+                        <p>76, n. 1 The MS has <foreign xml:lang="syr">ܢܚܬܐ</foreign>, as correctly
+                            printed in the text, not <foreign xml:lang="syr">ܚܝܬܐ</foreign>, as in
+                            Overbeck’s edition. </p>
+                        <p>78<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr">ܘܥܘ̈ܟܘܗܝ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܥܘ̈ܘܟܘܗܝ</foreign>). </p>
+                        <p>78<hi rend="superscript">19</hi>
+                            <foreign xml:lang="syr">ܘܐܝܠܝܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܠܐܝܠܝܢ</foreign>). </p>
+                        <p>80<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܡܢ ܡܣܟ̈ܢܝܢ</foreign> unnecessary “emendation”
+                            (MS <foreign xml:lang="syr">ܡܢ ܣܟܼܢ</foreign>). </p>
+                        <p>80<hi rend="superscript">14</hi>
+                            <foreign xml:lang="syr">ܩܢܘ̈ܡܝܘܗܝ</foreign> (MS <foreign xml:lang="syr"
+                                >ܩܢܘ̈ܡܝܗܘܢ</foreign>). </p>
+                        <p>82<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܗܘܐ</foreign> (MS <foreign xml:lang="syr">ܗܘܐ
+                                ܗܼܘ</foreign>). </p>
+                        <p>82<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܐܦܣܩܦܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܦܣܩܘܦܐ</foreign>).</p>
+
+                    </div>
+                    <div>
+                        <head>Commands and Cautions Addressed to the Ordained Clergy and to the Bnay
+                            Qyāmâ in the Villages<note place="foot" xml:id="ftn23" n="23"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">The Rabbula Corpus</hi>: “The Commandments and
+                                    Admonitions for the Priests and for the Children of the Covenant
+                                    of My Lord Rabbula, Bishop of Edessa.” Note 9 tells the reader
+                                    that “One manuscript” adds <hi rend="italic">dabqūrāyê</hi>,
+                                    “who are in the villages.” The correct vocalisation is <hi
+                                        rend="italic">da-b-qūryâ</hi> and the MS in question is Add.
+                                    14,652. Wright (<hi rend="italic">Catalogue</hi>, p. 651b)
+                                    translates “in the country.” </p></note></head>
+                        <p xml:lang="en">(Add. 14,652 = MS, foll. 125r–131r; Overbeck, pp. 215–221;
+                            Vööbus 1960, pp. 36–50; Phenix and Horn, pp. 102–117)<note place="foot"
+                                xml:id="ftn24" n="24"><p rend="footnote text"> These corrigenda
+                                    disregard the later MSS collated by Vööbus, whose edition is not
+                                    superseded by <hi rend="italic">The Rabbula
+                                Corpus</hi>.</p></note></p>
+                        <p>102, n. 2 ܕܒܩ̈ܖܝܐ (MS ܕܒܩܘܖ̈ܝܐ). </p>
+                        <p>102, n. 8 is oddly phrased: Overbeck prints the text of BL Add. 14,652,
+                            the oldest and the best MS. </p>
+                        <p>104, n. 1 For “Overbeck,” read Add. 14,652. </p>
+                        <p>104<hi rend="superscript">2</hi>
+                            <foreign xml:lang="syr">ܐܢ [ܗܘ ܡܢ ܕܐܝܬ] ܒܥܕܬܐ</foreign> (MS <foreign
+                                xml:lang="syr">ܐܢ ܒܥܕܬܐ</foreign>, which Vööbus rightly allows to
+                            stand. the supplement, which should end with <foreign xml:lang="syr"
+                                >ܒܗ̇</foreign>, printed in n. 3 as <foreign xml:lang="syr"
+                                >ܒ̇ܗ</foreign>, comes from a C9 MS, supported only by very late
+                            apographa)</p>
+                        <p>104<hi rend="superscript">3</hi>
+                            <foreign xml:lang="syr">ܠܐ</foreign> [<foreign xml:lang="syr"
+                                >ܢܬܠܘܢ</foreign>] (MS <foreign xml:lang="syr">ܠـ[ـܐ]
+                            ܢܬܠܘܢ</foreign>). </p>
+                        <p>104<hi rend="superscript">9</hi>
+                            <foreign xml:lang="syr" rend="bold">ܥ</foreign>
+                            <foreign xml:lang="syr">ܐܢܫ̈ܝܗܘܢ ܒܠܚܘܕ ܐܘ</foreign>
+                            <foreign xml:lang="syr" rend="bold">ܥ</foreign>
+                            <foreign xml:lang="syr">ܚ̈ܕܕܐ</foreign> (MS
+                            <foreign xml:lang="syr" rend="bold">ܥܡ </foreign>ܐܢܫ̈ܝܗܘܢ
+                            ܒܠܚܘܕܼ <foreign xml:lang="syr">ܐܘ</foreign>
+                            <foreign xml:lang="syr" rend="bold">ܥܡ</foreign>
+                            <foreign xml:lang="syr">ܚ̈ܕܕܐ</foreign>). </p>
+                        <p>106<hi rend="superscript">3</hi>
+                            <foreign xml:lang="syr">ܕܕܝܖ̈ܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܕܕܝܖ̈ܝܐ</foreign>). </p>
+                        <p>106<hi rend="superscript">5</hi>
+                            <foreign xml:lang="syr">ܘܠܐܢ</foreign> (MS <foreign xml:lang="syr"
+                                >ܘܠܐ</foreign>). </p>
+                        <p>106<hi rend="superscript">13</hi>
+                            <foreign xml:lang="syr" rend="bold">ܥ</foreign>
+                            <foreign xml:lang="syr">ܚ̈ܕܕܐ</foreign> (MS <foreign xml:lang="syr"
+                                rend="bold">ܥܡ</foreign>
+                            <foreign xml:lang="syr">ܚ̈ܕܕܐ</foreign>). </p>
+                        <p>108, n. 1 omits to say that Add. 14,652 is one of the MSS which has the
+                            reading <foreign xml:lang="syr">ܡܫܖ̈ܝܢܐ</foreign>, which ought to have
+                            been retained in the text.</p>
+                        <p>110<hi rend="superscript">8</hi>
+                            <foreign xml:lang="syr">ܒܢܝܗ̇</foreign> (= MS; but this should be
+                            printed as <foreign xml:lang="syr">ܒ̈ܢܝܗ̇</foreign> and the reader needs
+                            to know this reading comes from Add. 14,652). </p>
+                        <p>112<hi rend="superscript">12–13</hi> None of the three supplements is
+                            necessary, indeed, the last is a diplography.</p>
+                        <p>112<hi rend="superscript">18</hi>
+                            <foreign xml:lang="syr">ܠܐܢܫ</foreign> [<foreign xml:lang="syr"
+                                >ܐܓܪܬܐ</foreign>
+                            <foreign xml:lang="syr">ܦܠܣܘܢ</foreign>.] (MS <foreign xml:lang="syr"
+                                >ܠܐܢܫ</foreign>
+                            <foreign xml:lang="syr" rend="bold">ܡܢ</foreign>
+                            <foreign xml:lang="syr">ܐܓܪܬܐ ܦܠܣܘܢ̇</foreign>.).</p>
+                        <p>114<hi rend="superscript">2</hi> Delete brackets.</p>
+                        <p>114, n. 1 For <foreign xml:lang="syr">ܕܝܪܐ</foreign>, read <foreign
+                                xml:lang="syr">ܠܕܝܪܐ</foreign>. </p>
+                        <p>114<hi rend="superscript">4</hi>
+                            <foreign xml:lang="syr">ܐܝܬܘ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܝܬ[ܘ]</foreign>). </p>
+                        <p>114<hi rend="superscript">12</hi>
+                            <foreign xml:lang="syr">ܐܝܟܢܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܝܟܐ</foreign>). </p>
+                        <p>114<hi rend="superscript">17</hi>
+                            <foreign xml:lang="syr">ܓܒܪܗ̇</foreign> (MS <foreign xml:lang="syr"
+                                >ܠـ[ـܓܒܪ]ܗ̇</foreign>).<note place="foot" xml:id="ftn25" n="25"><p
+                                    rend="footnote text"> The editors use square brackets to group a
+                                    number of words under one note. This should be done with a
+                                    single upper half-bracket. The convention is that square
+                                    brackets are placed around illegible text, which the editor has
+                                    attempted to restore.</p></note></p>
+                    </div>
+                    <div>
+                        <head>Item, “Cautions for Monks,” by the Same, <lb/>Mar Rabbula, Bishop of
+                                Edessa<hi rend="Style_Footnote_Reference_+"><note place="foot"
+                                    xml:id="ftn26" n="26"><p rend="footnote text">
+                                        <hi rend="italic">The Rabbula Corpus</hi>: “Admonitions for
+                                        the Monks of My Lord Rabbula, Bishop of Edessa.” The editors
+                                        place this text before the “Commands and cautions for the
+                                        ordained clergy and <hi rend="italic">qyāmâ</hi>-members in
+                                        the villages,” although the heading is designed to follow
+                                        this. Vööbus’ sigla are logically assigned, A to the 6<hi
+                                            rend="superscript">th</hi>-century MS Add. 14,652, B to
+                                        the 7<hi rend="superscript">th</hi>-century MS Add. 14,526,
+                                        C to the 8<hi rend="superscript">th</hi>-century MS Add.
+                                        14,577. Phenix and Horn, following Overbeck, assign A to the
+                                        last, B to the first and C to the second, so it is not the
+                                        case that “Vööbus adopted Overbeck’s sigla in his edition”
+                                        (p. ccxxii).</p></note></hi></head>
+                        <p xml:lang="en">(Add. 14,652 = MS, foll. 131r–133v; Overbeck, pp. 212–214;
+                            Vööbus 1960, pp. 27–33; Phenix and Horn, pp. 94–101)<note place="foot"
+                                xml:id="ftn27" n="27"><p rend="footnote text"> These corrigenda
+                                    disregard the later MSS collated by Vööbus.</p></note></p>
+                        <p>94<hi rend="superscript">1</hi>
+                            <foreign xml:lang="syr">ܙܘܗܖ̈ܐ</foreign> (MS B = Add. 14,652 <foreign
+                                xml:lang="syr">ܬܘܒ ܙܘܗܖ̈ܐ</foreign>). </p>
+                        <p>94, n. 1 seems to say there are only three MSS, whereas Vööbus uses nine. </p>
+                        <p>94, n. 3 <foreign xml:lang="syr">ܒܝܬ ܒ̈ܬܐ</foreign> is the reading of
+                            Add. 14,652 and is preferable to the reading adopted in the text. </p>
+                        <p>94, n. 4 “Reading [<foreign xml:lang="syr">ܝܗܒ</foreign>] with many
+                            manuscripts. MS A and other manuscripts: <foreign xml:lang="syr"
+                                >ܥ̇ܒܕ</foreign>.” Add. 14,652 (Vööbus’ “MS A”) has the reading
+                                <foreign xml:lang="syr">ܥ̇ܒܕ</foreign>, which therefore ought not to
+                            be changed. </p>
+                        <p>96, n. 3 <foreign xml:lang="syr">ܚܡܖ̈ܐ ܒܠܚܕ</foreign> (ḥ<hi
+                                rend="superscript">e</hi>mārê balḥād) should be <foreign
+                                xml:lang="syr">ܚܡܖ̈ܐ ܒܠܚܘܕ</foreign> (ḥ<hi rend="superscript"
+                            >e</hi>mārê balḥūd). </p>
+                        <p>98<hi rend="superscript">3</hi> Add. 14,652 has <foreign xml:lang="syr"
+                                >ܝܚܕܐܝܬ̇</foreign>., one of the few errors left uncorrected by this
+                            scribe. </p>
+                        <p>98<hi rend="superscript">6</hi>
+                            <foreign xml:lang="syr">ܐܝܬܗܘܝ</foreign> (MS <foreign xml:lang="syr"
+                                >ܐܝܬܘܗܝ</foreign>). </p>
+                        <p>98<hi rend="superscript">11</hi>
+                            <foreign xml:lang="syr">ܒܕܝܖ̈ܝܐ</foreign> (MS <foreign xml:lang="syr"
+                                >ܒܕܝܖ̈ܬܐ</foreign>). </p>
+                        <p>100<hi rend="superscript">4, 11</hi> delete brackets. </p>
+                        <p>100<hi rend="superscript">6–10</hi> these doublets should be excised from
+                            the text – they are not in Add. 14,652. </p>
+                        <p>100, nn. 8, 20 <foreign xml:lang="syr">ܡܦܢܘܬܐ</foreign>
+                            <hi rend="italic">mapānūtā</hi>, i.e., “with the permission,” is a
+                            copying error, compounded by a faithful transcription of the same and a
+                            wrong translation, for <foreign xml:lang="syr">ܒܠܥܕ ܡܢ ܡܦܣܢܘܬܐ</foreign>
+                            <hi rend="italic">bel</hi><hi rend="italic superscript">c</hi><hi
+                                rend="italic">ād men mapsānōtâ</hi> “without the permission.”</p>
+                    </div>
+                    <div>
+                        <head>The Homily Which My Lord Rabbula, Bishop
+                            of Edessa, Pronounced in the Church of Constantinople <lb/>in Front of
+                            the Whole People<note place="foot" xml:id="ftn28" n="28"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">The Rabbula Corpus</hi>: “The Homily that My
+                                    Lord, Bishop Rabbula, Spoke in the Church of Constantinople
+                                    before All the People.” The editors place this directly after
+                                    the <hi rend="italic">Life</hi> and before the “Cautions for
+                                    monks.”</p></note>
+                        </head>
+                        <p xml:lang="en">(Add. 14,652 = MS, foll. 133v–138v; Overbeck, pp. 239–244;
+                            Phenix and Horn, pp. 84–93) </p>
+                        <p>84, n. 2 ܘܡܙ̇ܡܪ (<hi rend="italic">w-mazmar</hi>) the reading of the MS
+                            is to be preferred: “For the grace by which our Lord (Jesus) used to
+                            teach his Church and move it to song is the source of all learning.” The
+                            editors’ emendation <foreign xml:lang="syr">ܘܡܥܡܕ</foreign> (<hi
+                                rend="italic">w-ma</hi><hi rend="italic superscript">c</hi><hi
+                                rend="italic">med</hi>) does not make sense in the past tense (the
+                            auxiliary in the phrase <foreign xml:lang="syr">ܡ̇ܠܦ ܗܘܐ
+                                ܘܡܙ̇ܡܪ</foreign> belongs to both verbs), so they translate it in the
+                            present: “For grace is the fountain of all teaching, by which our Lord
+                            instructed his church and baptizes.” </p>
+                        <p>86<hi rend="superscript">19</hi> Fol. 135v begins after <foreign
+                                xml:lang="syr">ܠܢ</foreign>, not before it, and the information
+                            given in n. 1 is usually conveyed by printing <foreign xml:lang="syr"
+                                >ܒـ[ـܝܕܥـ]ـܬܐ</foreign> in the text, not “Reading for <foreign
+                                xml:lang="syr">ܬܐ***ܒ</foreign>” in a note. </p>
+                        <p>88<hi rend="superscript">ult</hi> After ܗܘܼܬ and before <foreign
+                                xml:lang="syr">ܒܫܡܝܐ</foreign> belong the words:<foreign
+                                xml:lang="syr"> ܠܗ̇ ܓܝܪ ܒܐܪܥܐ ܐܡܐ ܠܐܠܗܐ ܡܠܬܐ ܒܨܒܝܢܗ. ܠܗ ܕܟܝܢܐܝܬ
+                                ܐܡܐ,</foreign> correctly transcribed by the editors, but
+                            unintentionally transported to 90, line 1f. </p>
+                        <p>90<hi rend="superscript">2</hi> After <foreign xml:lang="syr"
+                                >ܕܟܝܢܐܝܬ</foreign> and before <foreign xml:lang="syr">ܡܘܕܐ</foreign>
+                            belong the words: <foreign xml:lang="syr">ܝܠܼܕܬ ܠܐܠܗܐ ܡܠܬܐܼ. ܠܘ ܒܠܚܘܕ
+                                ܕܫܦܝܪ ܠܐ</foreign>
+                            <foreign xml:lang="syr">ܐ̇ܡܪܼ. ܐܠܐܼ ܕܐܦ ܒܝܫܐܝܬ</foreign>, correctly
+                            transcribed by the editors, except for the omission of the diacritical
+                            point under <foreign xml:lang="syr">ܝܠܼܕܬ</foreign> and the mark of
+                            emphasis under the last letter of <foreign xml:lang="syr"
+                            >ܐܠܐܼ</foreign>, but unintentionally transported to line 3f. of the same
+                            page. </p>
+                        <p>90<hi rend="superscript">9,10</hi> The first letter of <foreign
+                                xml:lang="syr">ܕܝܘܚܢܢ</foreign> and the last of <foreign
+                                xml:lang="syr">ܖ̈ܚܡܼܘܗܝ</foreign> are illegible in Add. 14,652 and
+                            so should be placed between square brackets. </p>
+                        <p>92<hi rend="superscript">2</hi> Fol. 138v begins before <foreign
+                                xml:lang="syr">ܡܢ ܟܝܢܗ ܕܐܒܐ</foreign>, not after this phrase. </p>
+                        <p>92<hi rend="superscript">6</hi> The editors print <foreign xml:lang="syr"
+                                >ܒܨܝܪܘܬܗ</foreign>, but the MS has <foreign xml:lang="syr"
+                                >ܒܨܝܪܘܬܐ</foreign>. </p>
+                        <p>92<hi rend="superscript">7</hi> The editors print <foreign xml:lang="syr"
+                                >ܦܓܪܗ</foreign> and fail to note that this has been corrected,
+                            perhaps by a later hand, to <foreign xml:lang="syr">ܒܦܓܪܗ</foreign> in
+                            the MS. </p>
+                        <p>92<hi rend="superscript">8</hi> The last word in this line with the
+                            punctuation-mark which follows it (<foreign xml:lang="syr"
+                                >ܓܠܝܢ</foreign>܆) must be deleted. </p>
+                        <p>92<hi rend="superscript">ult</hi> The first letter of <foreign
+                                xml:lang="syr">ܣܛܢܐ</foreign> should be placed between square
+                            brackets. Instead of printing ܀ thirteen times at the end of this line
+                            to indicate letters missing, asterisks ought to have been used.</p>
+                        <p xml:lang="en">Phenix and Horn do not mention that a later reader
+                            interpreted the now illegible traces in the last line of fol. 138v as
+                            ܘܩܡ ܘܣܠܩ.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
