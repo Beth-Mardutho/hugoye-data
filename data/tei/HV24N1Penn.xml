@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A New Tool for Computer Assisted Paleography: The Digital
+                    Analysis of Syriac Handwriting Project</title>
+
+
+                <author>
+                    <name><forename>Michael</forename>
+                        <surname>Penn</surname></name>
+                    <affiliation><orgName>Department Religious Studies, Stanford
+                            University</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Vijoy</forename>
+                        <surname>Abraham</surname></name>
+                    <affiliation><orgName>CIDR Development Team, Stanford University
+                            Library</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Scott</forename>
+                        <surname>Bailey</surname></name>
+                    <affiliation><orgName>North Carolina State University
+                        Libraries</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Peter</forename>
+                        <surname>Broadwell</surname></name>
+                    <affiliation><orgName>CIDR Development Team, Stanford University
+                            Library</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>R. Jordan</forename>
+                        <surname>Crouser</surname></name>
+                    <affiliation><orgName>Department of Computer Science, Smith
+                        College</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Javier</forename>
+                        <surname>de la Rosa</surname></name>
+                    <affiliation><orgName>Digital Humanities Innovation Lab, UNED
+                            University</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Nicholas</forename>
+                        <surname>Howe</surname></name>
+                    <affiliation><orgName>Department of <surname>Computer</surname> Science, Smith
+                            College</orgName></affiliation>
+                </author>
+                <author>
+                    <name><forename>Simon</forename> Wiles</name>
+                    <affiliation><orgName>CIDR Development Team, Stanford University
+                            Library</orgName></affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n1penn</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Michael Penn</author>
+                        <author>Vijoy Abraham</author>
+                        <author>Scott Bailey</author>
+                        <author>Peter Broadwell</author>
+                        <author>R. Jordan Crouser</author>
+                        <author>Javier de la Rosa</author>
+                        <author>Nicholas Howe</author>
+                        <author>Simon Wiles</author>
+                        <title level="a">A New Tool for Computer Assisted Paleography: The Digital
+                            Analysis of Syriac Handwriting Project</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N1Penn.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="35" to="52">35-52</biblScope>
+                        <biblScope type="order" n="2"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Manuscripts</term>
+                    <term>Paleography</term>
+                    <term>Computer Assisted</term>
+                    <term>Digital Humanities</term>
+                    <term>Handwriting</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-02-12">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">Over the last nine years, a forty-seven-person digital humanities
+                    project has explored the feasibility of computer assisted paleography for Syriac.
+                    That is, could one use big data, visual analytics, and recent advances in the
+                    digital analysis of handwriting to better understand Syriac manuscripts and Syriac
+                    manuscript culture? Last June we launched the public-facing part of our project
+                    titled the “Digital Analysis of Syriac Handwriting” or DASH (<ref
+                        target="http://dash.Stanford.edu">dash.Stanford.edu</ref>). DASH consists of
+                    digital page images from 90% of the world’s surviving Syriac manuscripts securely
+                    dated to before the twelfth century, as well as 90,000 individually trimmed letters
+                    from these manuscripts. In addition to introducing this tool to scholars of Syriac,
+                    this article presents a series of novel visualization tools that can also serve as a
+                    starting point for digital paleography projects in other linguistic traditions.</p>
+            </div>
+        </front>
+        <body>
+
+            <p xml:lang="en">Thanks in large part to the libraries of Deir al-Surian and
+                Saint Catherine’s monasteries, Syriac has a surprisingly high number of very early
+                manuscripts. Syriac scribes also included dated colophons in their works much more
+                frequently than scribes from other traditions.<note place="foot" xml:id="ftn1" n="1"
+                        ><p xml:lang="en"> Sebastian Brock, "Without Mushê of Nisibis, Where Would
+                        We Be?" <hi rend="italic">Journal of Eastern Christian Studies</hi> 56
+                        (2004): 15-24.</p></note> As a result, there is a truly impressive set of
+                early, securely dated Syriac manuscripts.<note place="foot" xml:id="ftn2" n="2"><p
+                        xml:lang="en"> For example, 14% of the 615 British Library manuscripts
+                        thought to have been written in the first millennium include a securely
+                        dated colophon. When extended to all fifth- through nineteenth-century
+                        Syriac manuscripts, the proportion of those with securely dated colophons
+                        increases to approximately 30% (Sebastian P Brock and David G.K. Taylor, <hi
+                            rend="italic">The Hidden Pearl: The Syrian Orthodox Church and Its
+                            Ancient Aramaic Heritage</hi>, v.2. [Rome: Trans World Film Italia,
+                        2001], 245). By comparison, among Hebrew manuscripts the percentage with
+                        dated colophons is just 3.4%, that is almost ten times less frequent than in
+                        Syriac manuscripts (Malachi Beit-Arié, <hi rend="italic">Hebrew Codicology:
+                            Historical and Comparative Typology of Hebrew Medieval Codices Based on
+                            the Documentation of the Extant Dated Manuscripts from a Quantitative
+                            Approach Pre-Publication, Internet Version 0.1</hi>, 2012). The
+                        comparative frequency by which Syriac works include a dated colophon results
+                        in a total of 148 extant Syriac codices having a secure date before 1001. In
+                        comparison, Armenian—although with a total manuscript corpus about 50%
+                        larger than Syriac—has just fifteen manuscripts securely dated to the first
+                        millennium (Michael E. Stone, Dickran Kouymjian, and Henning Lehmann. <hi
+                            rend="italic">Album of Armenian Paleography</hi> [Aarhus, Denmark:
+                        Aarhus University Press, 2002], 512). Hebrew with a total corpus
+                        approximately five times larger than Syriac has eleven (Colette Sirat and N.
+                        R. M. De Lange. <hi rend="italic">Hebrew Manuscripts of the Middle Ages</hi>
+                        [Cambridge: Cambridge University Press, 2002] 11).</p></note> But in Syriac
+                Studies there remains a disconnect between this plethora of early manuscripts and
+                the lack of paleographic resources to help modern scholars analyze them. Several
+                recent articles and an unpublished dissertation have addressed some aspects of
+                Syriac script.<note place="foot" xml:id="ftn3" n="3"><p xml:lang="en"> E.g. <hi
+                            rend="citation_text15">Ayda Kaplan, "The Shape of the Letters and the
+                            Dynamics of Composition in Syriac Manuscripts (Fifth to Tenth Century),"
+                            in D. Stutzmann, S. Barret, and G. Vogeler (eds.), <hi rend="italic"
+                                >Ruling the Script in the Middle Ages: Formal Aspects of Written
+                                Communication (Books, Charters, and Inscriptions)</hi> (Turnhout:
+                            Brepols, 2016) pp. 379-98; idem, "La Paléographie Syriaque: Proposition
+                            d'une Méthode d'expertise," in Fraçoise Briquel Chatonnet and Muriel
+                            Debié (eds.), <hi rend="italic">Manuscripta Syriaca: Des Sources de
+                                Première Main</hi> (Paris: Geuthner, 2015) pp. 307-19; idem, “Syriac
+                            Paleography: The Development of a Method of Expertise on the Basis of
+                            the Syriac Manuscripts of the British Library (Vth–Xth C.)” (PhD Diss.,
+                            Université Catholique de Louvain, Louvain-La-Nueve, 2008); Andrew
+                            Palmer, "The Syriac Letter-Forms of Tūr Abdīn and Environs," <hi
+                                rend="italic">Oriens Christianus</hi> 73 (1989), pp. 68-89;
+                            Sebastian Brock and Lucas Van Rompay, <hi rend="italic">Catalogue of the
+                                Syriac Manuscripts and Fragments in the Library of Deir-Al Surian,
+                                Wadi Al-Natrun (Egypt)</hi> (Leuven: Peeters, 2014) pp.
+                            XXI-XXII.</hi></p></note> So, too, the Hill Museum and Manuscript
+                Library at Saint John’s University has produced an on-line tutorial of various
+                Syriac scripts and their proper transcription.<note place="foot" xml:id="ftn4" n="4"
+                        ><p xml:lang="en"> See, www.vhmmlschool.org/syriac.</p></note> Nevertheless,
+                the only published, book-length resource for Syriac paleography remains William
+                Hatch’s 1946 <hi rend="italic">Album of Dated Syriac Manuscripts</hi>.<note
+                    place="foot" xml:id="ftn5" n="5"><p xml:lang="en"> William Henry Paine Hatch,
+                            <hi rend="italic">An Album of Dated Syriac Manuscripts</hi> (Boston: The
+                        American Academy of Arts and Sciences, 1946).</p></note> Hatch’s <hi
+                    rend="italic">Album</hi> reproduces a black and white photograph of a single
+                page from each of 200 Syriac manuscripts securely dated between 411 and 1586 CE.</p>
+            <p xml:lang="en">Given the difficulties of obtaining manuscript photographs in the 1930s and 1940s,
+                Hatch's <hi rend="italic">Album</hi> is a marvel. But it contains only 116 or 63% of
+                the 183 extant Syriac manuscripts that are securely dated to before the twelfth
+                century and its coverage of later manuscripts is much, much spottier.<note
+                    place="foot" xml:id="ftn6" n="6"><p xml:lang="en"> For an invaluable check list
+                        of early, securely dated Syriac manuscripts see Sebastian Brock, “A
+                        Tentative Checklist of Dated Syriac Manuscripts up to 1300,” <hi
+                            rend="italic">Hugoye: Journal of Syriac Studies</hi> 15,1 (2012): 21-48.
+                        Our own figures are based on a slight modification of Brock’s list and
+                        include the following emendations: Added: <hi rend="italic">Saint Marks</hi>
+                        7; <hi rend="italic">Sinai Syriac</hi> M51N. Because in CPA script removed
+                            <hi rend="italic">Vatican Syriac</hi> 19. In an abundance of caution,
+                        removed those manuscripts that had either a pre- or circa date (i.e. <hi
+                            rend="italic">British Library Additional</hi> 14,526; <hi rend="italic"
+                            >British Library Additional</hi> 14,567; <hi rend="italic">British
+                            Library Additional</hi> 14,605; <hi rend="italic">Damascus
+                            Patriarch</hi> 12/25) or a missing number in the colophon (i.e. <hi
+                            rend="italic">British Library Additional </hi>7158; <hi rend="italic"
+                            >Dolabani</hi> 145). Removed <hi rend="italic">British Library
+                            Additional</hi> 14,645 as the colophon date refers to when the text was
+                        translated not when it was produced. Removed manuscripts that others have
+                        identified as having an incorrect date in their colophon (i.e. <hi
+                            rend="italic">Chester Beatty</hi> 701; <hi rend="italic">Harvard Syriac
+                        </hi>176; <hi rend="italic">Paris Syriac</hi> 169). Removed <hi
+                            rend="italic">St. Petersburg N/S</hi> 24 as the folio is too damaged to
+                        ensure that the date that appears without much context in the colophon is a
+                        composition date. Removed <hi rend="italic">Mingana Syriac</hi> 106G as the
+                        stray leaves Mingana identified are no longer locatable in the University of
+                        Birmingham collection.</p></note> Even more limiting, however, is the very
+                format of an album. When modern scholars use Hatch's book, they are constrained to
+                the unit of an individual manuscript page. For example, when confronted with the
+                task of estimating the composition date for a manuscript of interest, one often
+                flips through Hatch's <hi rend="italic">Album</hi> searching for a similar looking
+                manuscript page among Hatch's samples. But, often the desired unit of comparison is
+                not an entire manuscript page, rather individual letter forms. In essence, to use
+                Hatch's <hi rend="italic">Album</hi> one has to compare the <hi rend="italic"
+                    >olaphs</hi> in each manuscript with those of the document in question. Then it
+                is time for the <hi rend="italic">beths</hi>, at which point one forgets most of the
+                    <hi rend="italic">olaphs</hi>, and so on. Even if one successfully determines
+                the most analogous page, the same procedure needs repeating as soon as one is
+                interested in a different manuscript. </p>
+            <p xml:lang="en">The field of Syriac Studies has advanced greatly in the last seventy-five years. It
+                makes little sense for our knowledge of Syriac paleography to remain almost entirely
+                dependent on Hatch’s 1946 <hi rend="italic">Album</hi> or—given the inherent
+                limitations—any print publication. Thanks to support from the Andrew Mellon
+                Foundation, the American Council of Learned Societies, and the Stanford University
+                Library, we assembled a team of Syriac scholars, paleographers, computer scientists,
+                software developers, and dozens of research assistants to help address this issue
+                through the creation of an on-line tool we entitled the Digital Analysis of Syriac
+                Handwriting or DASH.</p>
+            <p xml:lang="en">We began the DASH project by compiling the world’s largest image collection of
+                securely dated Syriac manuscripts. Currently, DASH contains digital images from 156
+                of the 183 extant Syriac manuscripts securely dated to before 1101 (that is 85%),
+                along with permissions for their public display.<note place="foot" xml:id="ftn7"
+                    n="7"><p xml:lang="en"> One can supplement these digital images with published
+                        images for which we were not able to obtain image permissions to produce a
+                        collection representing 96% of early securely dated Syriac manuscripts. Most
+                        of these remaining images can be found in <hi rend="citation_text15"
+                            >Sebastian Brock and Lucas Van Rompay, <hi rend="italic">Catalogue of
+                                the Syriac Manuscripts and Fragments in the Library of Deir-Al
+                                Surian, Wadi Al-Natrun (Egypt)</hi> (Leuven: Peeters, 2014)</hi>and
+                        Philothée du Sinaï’s <hi rend="italic">Nouveaux Manuscrits Syriaques du
+                            Sinaï</hi> (Athènes: Foundation du Mont Sinaï: 2008). </p></note> We
+                then created a back- and a front-end interface to help visualize this data. The
+                public facing, front-end interface—along with its collection of manuscript and
+                letter images—is freely accessible at dash.Stanford.edu. Those interested in the
+                source code for the entire project can find it in Github at <ref
+                    target="https://github.com/sul-cidr/scriptchart-backend">https://github.com/
+                    sul-cidr/scriptchart-backend</ref> and <ref
+                    target="https://github.com/sul-cidr/scriptchart/">https://github.com/sul-cidr/
+                    scriptchart/</ref>. </p>
+            <div>
+                <head>The Back-End Interface: Identifying Individual Syriac Letters</head>
+                <p xml:lang="en">Paleographers are often interested not simply in entire manuscript pages but also
+                    individual letters. When designing DASH, we found it essential—unlike in Hatch’s
+                        <hi rend="italic">Album</hi>—to include images not only of entire manuscript
+                    pages but also of individual letters. Despite recent advances in the optical
+                    character recognition of Syriac, especially of printed text, the OCR of Syriac
+                    manuscript handwriting is still in its infancy. As a result, our collection of
+                    individual Syriac letter images stems from manual identification. To compile
+                    this dataset, our team created in Python a “behind the scenes” back-end DASH
+                    interface that allows research assistants to rapidly identify multiple examples
+                    of a given Syriac letter.</p>
+                <p xml:lang="en">As shown in <hi rend="italic">Figure 1</hi>, a research assistant uses a
+                    pull-down menu to select a specific manuscript page. They then choose a given
+                    letter to identify. They next drag selection boxes around examples of that
+                    letter. As they do this, the system records the coordinates of each selection
+                    box along with appropriate metadata into a myseql database. After the research
+                    assistant has identified several examples, they move on to another letter form,
+                    another page, or another manuscript. </p>
+                <p xml:lang="en">In our case, we hired almost two dozen research assistants who used the back-end
+                    interface to place selection boxes around 132,476 Syriac letters. Employing the
+                    boxes’ coordinates, the system later extracted each letter. Then, using custom
+                    designed algorithms, one of our computer scientists binarized the images.<note
+                        place="foot" xml:id="ftn8" n="8"><p xml:lang="en"> Nicholas Howe, Minyue
+                            Dai, and Michael Penn, “Isolated Character Forms from Dated Syriac
+                            Manuscripts,” <hi rend="italic">Proceedings of Historical Image
+                                Processing </hi>(November, 2017): 7-12. </p></note> That is, he
+                    converted them into a black-and-white version particularly easy for humans and
+                    computers to read. In order to produce a particularly clear letter image,
+                    research assistants then used a simple graphics editor (GIMP) to remove any
+                    remnants of adjacent letters or other stray marks. They then loaded the
+                    single-letter image back into the database. Finally, scholars of Syriac proofed
+                    these letter images—multiple times—eliminating misidentifications, mistrimmings,
+                    or any images that were poorly binarized. The result was a particularly clean
+                    dataset of 88,075 usable letter images. </p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image1.png"
+                    />
+                </p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image2.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 1. The DASH Interface Back-End:
+                        Letter Identifier (above) and Letter Database (below).</hi> A back-end
+                    interface accessible to team members allows research assistants to rapidly
+                    identify multiple examples of Syriac letters. After the research assistant uses
+                    a selection box to identify a given letter, the letter coordinates and
+                    associated metadata are stored in a myseql database (below). © The British
+                    Library Board.</p>
+            </div>
+            <div>
+                <head>The Front-End Interface: Visualizing Securely Dated Manuscript and Letter
+                    Images</head>
+                <p xml:lang="en">As part of a larger digital paleography endeavor, our team collected letter data
+                    from over a thousand Syriac codices. For the publicly facing side of the
+                    project, however, we prioritized images coming from those manuscripts securely
+                    dated before the twelfth century. Even this smaller sample is a large set of
+                    visual data and raised the question how best to display these images for
+                    researchers. We designed DASH primarily for scholars of Syriac. However, we also
+                    wanted to create an interface that could serve as a model for digital
+                    paleography in other linguistic traditions. As a result, when building the
+                    front-end interface we kept several design goals in mind. </p>
+                <p xml:lang="en">When a human expert examines a physical manuscript, they do so at different
+                    levels. For example, at times a paleographer concentrates on the level of one or
+                    more complete manuscript pages. At other times they go to the level of a single
+                    example of a given letter. Often, they focus on intermediate levels, such as how
+                    two individual letters connect to each other or the slight differences between
+                    multiple samples of a scribe writing the same letter form. Taking this as our
+                    model, we desired an interface that would allow the digital scholar to
+                    relatively seamlessly navigate between various levels of analysis ranging from
+                    the macro (e.g. looking at multiple manuscript pages), to the micro (e.g. a
+                    single letter image), to several levels in between. We also wanted to give the
+                    researcher control over the complexity of the visualization, enabling them to at
+                    first view particularly easy-to-see images and then to add greater context, or
+                    to move in the other direction from complexity to simplicity. In data
+                    visualization research, this paradigm is known as the Shneiderman Mantra:
+                    “Overview First / Zoom &amp;amp; Filter /Details-on-Demand.”<note place="foot"
+                        xml:id="ftn9" n="9"><p xml:lang="en"> Ben Shneiderman, “The Eyes Have It: A
+                            Task by Data Type Taxonomy for Information Visualizations,” <hi
+                                rend="italic">Proceedings 1996 IEEE Symposium on Visual
+                                Languages</hi> (IEEE, 1996).</p></note></p>
+                <p xml:lang="en">Our interface design also emphasized the comparative. At whatever level the
+                    scholar was viewing the data, they should be able to compare what they were
+                    seeing with other data. That is, if they were viewing a specific manuscript
+                    page, we wanted the scholar to be able to simultaneously see pages from other
+                    manuscripts. If viewing an individual letter form, we wanted the scholar to be
+                    able to view multiple examples of that letter or to view letters from different
+                    manuscripts next to each other. So, too, the interface should facilitate
+                    explorations of how a given letter or set of letters developed over time.</p>
+                <p xml:lang="en">Finally, we wanted an interface that was easy-to-use. It was to have an
+                    intuitive, compact design. It ought to work not only on desktop machines and
+                    laptops but also on tablets and phones. It needed to have basic help features
+                    and to follow best principals of accessibility. It should have options allowing
+                    one to easily share their discoveries with other researchers or embed them in a
+                    publication.</p>
+                <p xml:lang="en">At times these goals competed with each other. For example, keeping the interface
+                    simple meant limiting some of the display options. At other times, budget
+                    constraints meant the interface still has areas that could be expanded. As one
+                    example, currently the interface provides very little metadata about a given
+                    manuscript and the scholar instead has to consult the standard manuscript
+                    catalogs. In the future we would like to link our project to others such as
+                    syriaca.org’s forthcoming digital version of William Wright’s catalog of the
+                    British Library’s Syriac manuscripts. Most of all, we want to revise the
+                    interface in accord with suggestions scholars have sent us using the DASH
+                    website’s contact form. Despite such limitations, it still felt appropriate to
+                    publicize the project, both to enable researchers to begin using this on-line
+                    tool and to solicit additional recommendations for its improvement.</p>
+            </div>
+            <div>
+                <head>A Tour of the Digital Analysis of Syriac Handwriting Project</head>
+                <p xml:lang="en">The most effective way to explore DASH is, of course, on one’s own. But a quick
+                    tour limited to still images may help motivate direct exploration of the site.
+                    Typing DASH.Stanford.edu into a browser brings up the landing page. This
+                    provides basic information about the project, a list of project publications, a
+                    user guide, and—most importantly—the means to provide feedback about the
+                    project. Most, however, will begin simply by clicking on the big “Get Started”
+                    button.</p>
+                <p xml:lang="en">Now one sees the publicly accessible interface with options on a collapsible
+                    palette to the left and a tab on the right allowing one to move between the view
+                    at the level of manuscript page or at the level of individual letters. As a
+                    small case study, one can explore <hi rend="italic">British Library
+                        Additional</hi> 12,149 which is a liturgical manuscript copied in 1006 CE by
+                    the scribe Yeshua son of Andrew. After selecting the manuscript shelfmark on the
+                    left palette and choosing to view the manuscript from the right tab, <hi
+                        rend="italic">British Library Additional</hi> 12,149 opens in a Stanford
+                    developed manuscript viewer called Mirador (<hi rend="italic">Figure 2</hi>).
+                    Here one can toggle to full screen, zoom in and out of the manuscript image,
+                    move around the manuscript page by simply dragging or using control arrows. One
+                    can also open up a series of basic image tools to adjust brightness, contrast,
+                    or color saturation, switch to greyscale, invert the color, or revert to the
+                    original image. If a library has publicly accessible images in the IIIF format
+                    that is becoming the worldwide standard for manuscript display (e.g. most
+                    Vatican Library manuscripts), one can see all its pages. For the remainder, we
+                    have permissions to display a few pages; that is one cannot read the book cover
+                    to cover but will certainly have enough pages for paleographic analysis. </p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image3.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 2. </hi><hi rend="bold">British
+                        Library Additional</hi><hi rend="italic bold"> 12,149 in the MIRADOR
+                        Manuscript Viewer</hi><hi rend="bold">.</hi> Scholars can view each of the
+                    project’s 156 manuscripts securely dated to before 1101 CE in a Stanford
+                    designed manuscript viewer. This enables them to zoom in and out, to flip
+                    between manuscript pages, and to adjust brightness, contrast, and color. In
+                    addition to seeing the manuscript in the context of the larger interface,
+                    scholars can also choose to view the manuscript in a full-screen mode. © The
+                    British Library Board.</p>
+                <p xml:lang="en">Up to this point, the project seems to be a glorified, digital version of Hatch’s
+                        <hi rend="italic">Album</hi>, albeit with almost 50% more manuscripts,
+                    multiple pages, better images, and the ability to zoom and modify the images.
+                    Nevertheless, the overarching focus on a manuscript page remains. But if one
+                    instead chooses the “script chart” tab the perspective quickly changes. As shown
+                    in <hi rend="italic">Figure 3</hi>, the project instantly makes a custom
+                    designed script chart. Here one can specify which letters to show, how many
+                    examples, and the size of the resulting image. At first, one might view the
+                    trimmed, binarized images as these make for a very clean chart. But, at the same
+                    time, this very simplicity excludes information. As shown in <hi rend="italic"
+                        >Figure 4</hi>, to help regain information one can also include the original
+                    letter images prior to trimming and binarization. This gives more detail and is
+                    still fairly clean. But it does not yet have much context. But, as <hi
+                        rend="italic">Figure 5</hi> illustrates, hovering over any letter in the
+                    chart allows one to see that same letter example, clearly marked in fluorescent
+                    green. But now the letter includes the letters and lines that originally
+                    surrounded that letter. If one wants more context, one can always go back to
+                    viewing the entire manuscript page by clicking on the manuscripts tab. </p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image4.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 3. Script Chart of </hi><hi
+                        rend="bold">British Library Additional</hi><hi rend="italic bold"> 12,149.
+                        The project automatically generates custom designed script charts.
+                    </hi>Scholars control variables such as manuscripts, letters, the number of
+                    examples, and image size. They can also adjust charts “on the fly” by adding or
+                    deleting letter rows or manuscript columns. Scholars can also drag rows and
+                    columns to change their order. © The British Library Board.</p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image5.tiff"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 4. Script Chart of </hi><hi
+                        rend="bold">British Library Additional</hi><hi rend="italic bold"> 12,149
+                        Including Untrimmed Images.</hi> In addition to displaying binarized images,
+                    the interface can also show the letter images in the form they were when first
+                    identified by a research assistant. Although not as clean-cut as the binarized
+                    images, these untrimmed images are generally of higher resolution. They can also
+                    help the scholar verify finer details in a specific letter image and identify
+                    any artifacts created by the binarization process. © The British Library
+                    Board.</p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image6.tiff"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 5. Script Chart of </hi><hi
+                        rend="bold">British Library Additional</hi><hi rend="italic bold"> 12,149
+                        Showing a Letter in Context.</hi> Although a collection of single letters
+                    creates a very clear script chart, it also eliminates many of the details that
+                    are most important for paleographers. Hovering the cursor over any letter in the
+                    script chart shows that specific letter example (which the interface highlights
+                    in green) in a larger context. The scholar can help specify how large an area
+                    surrounding the letter is displayed. This allows researchers to investigate
+                    traits, such as how letters connect to each other, which would be hidden in a
+                    single-letter script chart.</p>
+                <p xml:lang="en">It turns out that a year before Yeshua wrote <hi rend="italic">British Library
+                        Additional</hi> 12,149 he copied <hi rend="italic">British Library
+                        Additional</hi> 12,148. This provides a rare opportunity to examine how
+                    similar a given scribe’s handwriting is across manuscripts. <hi rend="italic"
+                        >Figure 6</hi> shows what happens when one adds <hi rend="italic">British
+                        Library Additional</hi> 12,148 to the display options. Now Yeshua bar
+                    Andrew’s two works appear in the manuscript viewer next to each other. If one
+                    returns to the script chart, it now shows letter examples from both manuscripts,
+                    allowing one to see how similar the individual letter forms actually are. But it
+                    turns out that in the early eleventh century Joshua was actually quite busy and
+                    he copied two additional manuscripts. By selecting all four shelf-marks one can
+                    see, as in <hi rend="italic">Figure </hi>7, all four of Yeshua’s manuscripts at
+                    one time. A return to the script chart (<hi rend="italic">Figure 8</hi>) shows
+                    how similar all of these letters are to each other. </p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image7.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 6.</hi>
+                    <hi rend="bold">British Library Additional</hi>
+                    <hi rend="italic bold">12,148 and 12,149 in the MIRADOR Manuscript
+                        Viewer</hi><hi rend="bold">.</hi> Scholars can simultaneously view multiple
+                    manuscripts. <hi rend="italic">British Library Additional</hi> 12,148 and 12,149
+                    were both written by an early eleventh-century scribe named Yeshua, son of
+                    Andrew. Displaying these two manuscripts next to each other illustrates how
+                    little Yeshua’s handwriting varied across documents. © The British Library
+                    Board.</p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image8.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 7.</hi><hi rend="bold"> British
+                        Library Additional </hi><hi rend="italic bold">12,146, 12,147, 12,148, and
+                        12,149 in the MIRADOR Manuscript Viewer</hi><hi rend="bold">. </hi>The
+                    front-end interface allows scholars to view up to four manuscripts
+                    simultaneously. In this case, all four were written by the same scribe. © The
+                    British Library Board.</p>
+                <p xml:lang="en">
+                    <graphic
+                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N1Penn_image9.png"
+                    />
+                </p>
+                <p xml:lang="en"><hi rend="italic bold">Figure 8. Script Chart of </hi><hi
+                        rend="bold">British Library Additional </hi><hi rend="italic bold">12,146,
+                        12,147, 12,148, and 12,149.</hi> Charts of letters from multiple manuscripts
+                    allow for easy comparison. In this case, all four manuscripts come from Yeshua
+                    son of Andrew and show how little the scribe varied his handwriting between
+                    documents. Alternatively, one can choose a given letter or series of letters and
+                    display all securely dated examples of that form chronologically, essentially
+                    creating a timeline for the development of Syriac script. © The British Library
+                    Board.</p>
+                <p xml:lang="en">DASH also helps trace the chronological development of Syriac script. Instead of
+                    specifying a single or small group of manuscripts, one can instead choose a
+                    single letter and view how that letter form changes across all securely dated
+                    manuscripts. Alternatively, one can view the development of multiple letter
+                    forms in relationship to each other. As with other script charts, chronological
+                    charts such as these retain the option of viewing any given letter example in
+                    context or toggling to a full manuscript page.</p>
+                <p xml:lang="en">If one wants to share such discoveries, a quick click pastes a URL onto the
+                    clipboard that can be sent to a colleague by e-mail or even by a text message.
+                    With a single click they will see the exact same visualization. Alternatively,
+                    one can paste the URL into an article footnote (or use a Tiny URL to shrink it).
+                    If in an on-line article or a PDF, the article’s reader can click on the note
+                    and it will immediately open exactly the same visualization on the DASH site or
+                    a print reader can type the URL into a browser to access the visualization. </p>
+                <p style="text-align:center;">• • •</p>
+                <p xml:lang="en">In terms of Syriac Studies, DASH has had two overarching goals. First, the
+                    project provides access to a much greater number of securely dated manuscript
+                    pages than previously available. In this sense, it is an expansion of Hatch’s
+                        <hi rend="italic">Album of Dated Syriac Manuscripts</hi>. The second,
+                    field-specific goal can also be seen as an extension of Hatch’s book. Like
+                    Hatch’s work almost seventy-five years ago, DASH is a designed to support other
+                    scholars as they develop and implement their own studies of specific manuscripts
+                    or of Syriac script more generally. </p>
+                <p xml:lang="en">The project, however, also aspires to be of help outside of the field of Syriac
+                    Studies. It uses Syriac manuscripts as an extended case study for exploring how
+                    a wide range of visualization techniques might assist manuscript studies as a
+                    whole. DASH thus illustrates a conceptual model for thinking beyond the
+                    tradition of a printed manuscript album as the primary paleographic resource. As
+                    an open source project, it also provides code that those in other subfields can
+                    adopt and adapt for their own digital endeavors. </p>
+                <p xml:lang="en">Scholars of Syriac are lucky to have a relatively large corpus of very early,
+                    securely dated manuscripts. This not only facilitates the creation of
+                    paleographic tools, it also makes their development that much more imperative.
+                    We certainly would like the Digital Analysis of Syriac Handwriting project to be
+                    of use to individual scholars and their research. Our greatest hope, however, is
+                    that both for those who focus on Syriac manuscripts and for those who work in
+                    other linguistic traditions, it might inspire additional projects in computer
+                    assisted paleography. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
