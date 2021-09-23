@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">How to edit Aristotle in Syriac</title>
+                <title type="sub">Response to Arzhanov</title>
+                <author>
+                    <name><forename>Daniel</forename>
+                        <surname>King</surname></name>
+                    <affiliation>
+                        <orgName>Cardiff University</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n2king</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Daniel King</author>
+                        <title level="a">How to edit Aristotle in Syriac: Response to Arzhanov</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N2King.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="519" to="536">519-536</biblScope>
+                        <biblScope type="order" n="8"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Editing</term>
+                    <term>Critical edition</term>
+                    <term>Text criticism</term>
+                    <term>Aristotle</term>
+                    <term>Categories</term>
+                    <term>Translation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-09-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <body>
+            
+            <div xml:id="hv24n2king.0" xml:lang="en">
+            <p xml:lang="en">The history of textual criticism is full of sometimes
+                surprisingly tortured debates over matters both of principle and of detail. Since
+                textual criticism aims at a point closer to pure science than does most research in
+                the humanities, opposing notions of what is the “right” analysis and what the
+                “wrong” may from time to time achieve a certain pointedness that other, greyer,
+                areas of research do not. Even textual criticism is not a pure science; an element
+                of creative judgement is <hi rend="italic">sine qua non</hi> in the application of
+                its principles, yet its principles are based on sound logic, and false applications
+                of them can feasibly be detected and unmasked.</p>
+            <p xml:lang="en">As early modern readers of Horace discovered to their cost, to reconstruct an
+                autograph out of a tradition that is already corrupt at its outset, is at the very
+                least an exercise in searching out tracks in a wilderness. The oasis is there
+                somewhere, but the tracks have been so far obscured by the sands as to be
+                discoverable only by the most tortuous methods. Those methods, however, are not
+                unknown–they are the basis of the criticism of textual traditions and the descent of
+                manuscript readings, and so the trackless waste is not a hopeless place. Good
+                principles must be followed, and the evidence permitted to draw us where it will.
+                Moreover, most textual critics are a good deal terser in expression than is the norm
+                in the meandering ways of the more discursive branches of humanities. All the data
+                is presented; but the reader must be willing to expend the effort to interpret it
+                aright.</p>
+            <p xml:lang="en">Some Syriac texts, especially the more technical philos-ophical translations from
+                Greek originals, are so muddled that it is hard for the reader to judge whether an
+                obviously faulty text should be ascribed to the incomprehension of an over-ambitious
+                translator, the forgivable mis-readings of a confused scribe, or even the
+                well-meaning but quite hopeless attempts at “correction” by the next tradent in the
+                succession. In any case, the modern editor will be faced with some fundamental
+                questions to which (s)he must offer some semblance of an answer, in order to produce
+                something serviceable for future students. The only other option is simply to
+                reproduce manuscripts, add a few remarks, and let readers make of the corrupt text
+                what they will.</p>
+            <p style="text-align: center;">*</p>
+            <p xml:lang="en">I am wholeheartedly thankful to Yury Arzhanov for the comments and observations that
+                he offers in the article preceding the present. To tell the truth, it is only when
+                editing a text for publication that one comes squarely face-to-face with its
+                problems and failings, and at this point the editor cannot avoid proposing solutions
+                to these problems unless (s)he would prefer to go and do something else instead.
+                This is why Arzhanov is especially well-suited to writing the article in question,
+                since it arises not merely from his own reading of my edition of Aristotle’s <hi
+                    rend="italic">Categories</hi>, but out of preparations for his own digital
+                edition. The issues that he raises emerged quite naturally and organically from his
+                task, and for this reason they are to be welcomed. Through such a dialectical
+                process, we may all progress.</p>
+            <p xml:lang="en">It must be stated clearly, however, that Arzhanov’s approach and aim as a textual
+                critic are quite different to my own. He entered upon the business of producing a
+                diplomatic edition of a corrupt ms, I of offering a critical edition. The former may
+                be used with profit by those sifting through the textual traditions of the Syriac
+                and Arabic versions, and by those who have the ability silently on their own to
+                correct the many and egregious corruptions in the text; the latter, however, may be
+                used by those who rely on an editor to make reasonable judgments about what the
+                author actually wrote. The diplomatic text is, in my view, a defunct goal in today’s
+                world of digitised and easily-available manuscripts; the critical reconstruction of
+                a corrupt tradition, by contrast, is the only goal that can offer wider benefits in
+                allied fields of research.</p>
+            <p xml:lang="en">We are dealing then with a fundamental difference of principle. Arzhanov
+                unfortunately often mistakes what are in fact matters of principle for mere issues
+                of detail. He sincerely believes that he is critiquing some matter of detail because
+                he has misconstrued the nature of that fundamental difference of principle that I am
+                talking about. His article contains a number of fruitful corrigenda to my own
+                edition, which I gladly receive and approve. But he too often appears to think that
+                these testify to a failure of principle, or to confusion between different goals,
+                whereas in reality the confusion is on his side of affairs. I shall lay out the
+                evidence for this in the rest of this article, which thus presupposes at all points
+                a close awareness of the issues raised by Arzhanov, and can only be read in close
+                concert with his essay.</p>
+            </div>
+            <div xml:id="hv24n2king.1" xml:lang="en">
+                <head>1. Gutas on the Principles of Textual Criticism</head>
+                <p xml:lang="syr">Let us begin with Arzhanov’s summary of Gutas’s
+                    “principles”–they may not seem especially momentous comments, but their
+                    significance will become apparent. Arzhanov somewhat misrepresents the
+                    complexity of Gutas’s system. What Gutas says<note place="foot" xml:id="ftn1"
+                        n="1"><p rend="footnote text"> D. Gutas, <hi rend="italic">Theophrastus On
+                                First Principles (Known as his Metaphysics)</hi>, Brill, Leiden
+                            &amp; Boston 2010 (Philosophia Antiqua, 119), p.99.</p></note> is that
+                    “non vert Ar” indicates that the editor is sure that the word(s) were present in
+                    the Vorlage and were for some reason not translated; whereas “om Ar” is neutral,
+                    it indicates only word(s) that are not present in Ar–in these cases the editor
+                    does not pretend to know the reason. Hence “om Ar” is a neutral description of a
+                    collation of one text against another. I do not pretend nearly as much as Gutas
+                    to guess the intent of the translator but, in any case, “om A” in my edition is
+                    a similarly neutral expression, indicating that a word is missing in the ms by
+                    comparison with the printed page. This is also how it is used quite normally in
+                    classical text editions. Whenever in a very corrupt tradition an editor needs to
+                    make many conjectural emendations of this type, then naturally many “om” items
+                    will appear in the apparatus. This fact does not prejudge how those errors
+                    arose. </p>
+                <p xml:lang="en">Arzhanov appears on more than one occasion to want rather more from the editor
+                    than I am willing to commit myself to. He always seeks clarity about the <hi
+                        rend="italic">cause</hi> or
+                    <hi rend="italic">source </hi>of a particular textual error
+                    or corruption, whether it be attributable to an otherwise unknown Greek variant,
+                    or to a translation error, or to a scribal error within the Syriac transmission.
+                    For him, it appears to be a failing of the edition not to commit itself to an
+                    explanation.</p>
+                <p xml:lang="en">Yet the simple answer is that, in the vast majority of cases, the precise cause
+                    of corruption is unknowable. The edition lays out the data; editors may offer an
+                    hypothesis as to the precise cause of corruption only when they are reasonably
+                    certain; otherwise they limit themselves to the presentation of the data. That
+                    is what I have done. To have done otherwise would be to go beyond the data. Of
+                    course, future students with greater acuity than I will take this data and
+                    themselves suggest possible causes of variants.</p>
+                <p xml:lang="en">In this connection, two points must be carefully noted and emphasised:</p>
+                <p xml:lang="en">1) that I only make emendations on the basis of <hi rend="italic">extant</hi>
+                    Greek readings <hi rend="italic">known</hi> from Greek mss [i.e. I do not
+                    imagine a Vorlage that is otherwise not extant]. This is a crucial principle.
+                    Just as Gutas pointed out, having a good knowledge of the Greek tradition
+                    <hi rend="italic">does </hi>help in the recon-struction of
+                    the original text of the Syriac translation, because it offers variants which
+                    sometimes allow us to gain insights into the mechanism of error within the
+                    Syriac tradition. Speculating that unknown Greek var-iants might once have
+                    existed as a means of explaining errors in the tradition that are more easily
+                    explained in other ways is fruitless. Examples are offered below.</p>
+                <p xml:lang="en">2) that emendations to the text were made only in cases where I believed it was
+                    clear and obvious what the translator had written, and where the mechanism of
+                    corruption can be plausibly reconstructed. The fact that we have only a single
+                    ms witness to this text does not alter this principle.</p>
+            </div>
+            <div xml:id="hv24n2king.2" xml:lang="en">
+                <head>2. Two Difficult Points</head>
+                <div xml:id="hv24n2king.2.1" xml:lang="en">
+                    <head>i) The A/A* sigla</head>
+                    <p xml:lang="syr">This section of Arzhanov’s article announces its own
+                        superfluity from the outset, for he writes: “…these two points may
+                        poten-tially lead the reader of the book to confusion.” I suppose they may
+                        do so in the case of a reader prone to confusion of principles. But for the
+                        reader who is not easily confused, they will not. And I take it that a
+                        reader who has reached p.257 is probably not to be easily confused.</p>
+                    <p xml:lang="en">But, briefly, for the benefit of the confused: in the general commentary
+                        (pp.170-256) there is no need in principle to distinguish A from A* since
+                        the commentary presupposes the reconstructed form of the text, which can
+                        simply be labelled A. This is what is supposed (by a degree of subjective
+                        editorial emendation) to have come off the translator’s desk. In the textual
+                        notes (p.257-282), A* needs to be used as an additional siglum to indicate
+                        the evident differences between the reconstructed autograph (A) and the
+                        readings of the ms (A*). </p>
+                    <p xml:lang="en">To take briefly one of examples Arzhanov offers (p.498): </p>
+                    <cit><quote>on p. 212 we read: “6b36-7 [80vb] A omits any
+                        equi-valent for δόξει.” Since A remains undifferentiated on these pages, it
+                        is unclear whether the commentary refers to the state of the manuscript
+                        (i.e. A*) or to that of the translator’s copy (i.e. A).</quote></cit>
+                    <p xml:lang="en">It is hard to conceive what could be unclear to him. “A” means only what it
+                        always means, viz. the reconstructed text of Anon as printed in the book.
+                        When I state that A omits any equivalent for δόξει, it means just that, that
+                        there is no equivalent in the edited text. I do not pretend to know the
+                        reason–hence there could be no A/A* distinction here. Because 1) the ms text
+                        makes sense as it is, and because 2) I can see no obvious mechanism of
+                        scribal corruption, there is no call for any conjectural emendation. A
+                        glance at the apparatus will make this much clear. My commentary is a
+                        commentary on the edited text and requires the reader to have the text open.
+                        Of course, a critic is most welcome to disagree with the editor’s judgement,
+                        but to say that “it leads to confusion in the analysis of stage 3” [to use
+                        Gutas’s terminology] will not be true for any reader who follows the
+                        required logic. The principles here in question are sound and in no way
+                        confusing. What I am thankful for is Arzhanov’s discovery of the occasional
+                        error–e.g. that the comment on p.178 relating to 1b8 ought to have been
+                        placed in the textual notes and not in the commentary.</p>
+                    <p xml:lang="en">It is clear enough that much of this arises rather from Arzhanov’s personal
+                        preference for the “security” of a diplomatic edition than from any failure
+                        of principle on the part of my critical edition. The term “om[ittit]” has
+                        throughout a purely functional role. A critical text prints the editor’s
+                        reconstruction. The apparatus offers the wording of the ms collated against
+                        it, hence, e.g., when “horse” must have been part of the translator’s
+                        autograph (1b5), the apparatus must read “om.” since the ms does not read
+                        “horse.” Arzhanov’s edition reads &lt;<foreign xml:lang="syr">ܣܘܣܝܐ</foreign>&gt;,
+                        because that is what a diplomatic edition does. But this approach offers no
+                        benefit over and above just digitising the manuscript, since the emendation
+                        is clear and obvious.</p>
+                </div>
+                <div xml:id="hv24n2king.2.2" xml:lang="en">
+                    <head>ii) The relation of Anon to J and G</head>
+                    <p xml:lang="en">On p.497, Arzhanov asserts that I established a
+                        dependency relation between the three versions. Dependency is a rather
+                        slippery term and is not, in fact, one that I used. I described J and G as
+                        “revisions” of Anon. On p.80 I provide evidence for this, especially some
+                        interesting translational errors which J and G both took from Anon in the
+                        early passages of the text and corrected further on. Of course, there is no
+                        question that J and G are in many ways very different from Anon. Moreover,
+                        it is abundantly clear that they both used Greek copies of
+                        <hi rend="italic">Categories </hi>different from that
+                        which provided Anon with his Vorlage (not being an edition of J or G, this
+                        book does not exhaustively treat the question of the Greek variants
+                        represented in them), and it is equally clear that they used many quite
+                        different expressions and translation equivalents. At the same time, I
+                        believe it well-established that they knew Anon and made use of it. This
+                        permits us to use the expression “revisions” but not “dependency” – it is
+                        not clear to me quite what the latter term would entail in Arzhanov’s
+                        schema.</p>
+                    <p xml:lang="en">What is of far greater moment, however, is that this relationship–whatever
+                        one calls it–does not in the slightest degree imply that J and G have
+                        become, for the editor, “additional witnesses to the textual tradition
+                        represented by Anon that help us to reconstruct the ‘translator’s autograph’
+                        deriving from it” (p.497). How could they possibly have any such role? It
+                        would as absurd as using an incunabulum of Catullus to reconstruct the
+                        archetype of the Verona manuscript. J and G have significance only insofar
+                        as they reveal to us the lines of the reception of Aristotle in the
+                        seventh/eighth century. They in no way contribute to the reconstruction of
+                        Anon’s autograph. They do not have that role in my edition; nor, I think, in
+                        his.</p>
+                    <p xml:lang="en">Arzhanov’s unnecessarily long foray into J and G and their specific
+                        characteristics concludes limply: “What a reader of the book finds is a
+                        combination of the analysis of Anon with that of J and G, which makes an <hi
+                            rend="italic">impression</hi>…that J and G are mere witnesses of the
+                        Syriac text of Anon” (p.501, my italics). It is singularly unfortunate that
+                        Arzhanov falls under such a false impression. In truth, neither J nor G are
+                        anywhere used in any way to assist in the reconstruction of Anon, nor are
+                        they used as a source of “good variants.” To have used them in such a way,
+                        even a little, would have been a manifest transgression of principle, and I
+                        never entertained it for a moment.</p>
+                    <p xml:lang="en">Arzhanov’s own analysis of the nature of the relationship between Anon and JG
+                        is reasonably accurate, and is more-or-less in line with my own conclusions;
+                        the actual (non-)role of JG in my own efforts to reconstruct the text of
+                        Anon is, on the contrary, abundantly clear. Just how my edition “does not
+                        allow the reader to distinguish between their witnesses, both in the
+                        analysis of A/A* and in reconstructing the Greek text behind it” (p.502)
+                        will remain a mystery to any reader willing to follow the logic of the case.
+                        The use of sigla allows the reader to make precisely those distinctions
+                        between witnesses that Arzhanov seems to find so difficult. He can offer no
+                        single example where my reading of JG has affected my conjectural
+                        emendations of the text of Anon. All that is left is his misplaced
+                        “impression.”</p>
+                    <p xml:lang="en">It would be wholly otiose even to embark upon a defence of my using the
+                        Bekker referencing system for a text of Aristotle (p.502) – to have done
+                        otherwise would have been pretentious and unnecessary. In the same
+                        paragraph, he proffers the extraordinary suggestion that “the
+                        commentary…creates a number of difficulties for readers who do not have the
+                        Greek text of the <hi rend="italic">Categories</hi> in front of them.”
+                        Indeed I would be shocked if a reader of the commentary <hi rend="italic"
+                            >without</hi> the Greek text in front of them did not encounter very
+                        many difficulties! Is a reader of a commentary expected now
+                        <hi rend="italic">not </hi>to have access to the text
+                        itself?</p>
+                </div>
+            </div>
+            <div xml:id="hv24n2king.3" xml:lang="en">
+                <head>3. Notes on the Syriac Edition</head>
+                <p xml:lang="syr">In this section, Arzhanov suggests that the “edition
+                    does not always provide sufficient information on ‘what is known’” (p.503).
+                    However, this criticism is otiose–the emendations concerned are minor matters
+                    such as punctuation and syame points – it is quite normal in Syriac editions not
+                    to note in the apparatus these minor editorial interventions. </p>
+                <p xml:lang="en">He further suggests the improvement of using “angle brackets &lt;…&gt; that would
+                    denote additions made to the text of the manuscript” (p.504). In fact, such a
+                    method would be misleading. Angle brackets usually indicate the filling up of an
+                    actual lacuna in the ms (e.g. words that are hard to read or where there is an
+                    illegible part of the page). On the other hand, angle brackets to indicate
+                    conjectural additions would give them a significance over and above other sorts
+                    of conjectural emendation, such as deletions and reordering, which would then
+                    become down-graded as against additions. Arzhanov is again offering nothing more
+                    substantial than a description of the difference between his own preferred
+                    ‘diplomatic’ method and my ‘critical’ method.</p>
+                <p xml:lang="en">The section ends with a list of errors in the apparatus. These are welcome as
+                    corrigenda. They are not, however, errors of principle, as Arzhanov seems to
+                    think, and these errors would still be errors under any other principle of
+                    editing. They are corrigenda pure and simple, and can be corrected in any future
+                    edition.</p>
+            </div>
+            <div xml:id="hv24n2king.4" xml:lang="en">
+                <head>4. Emendations vs Corrections</head>
+                <p xml:lang="syr">Here we come to what may be the clearest evidence of how
+                    Arzhanov and I differ rather substantially in our approach to the critical
+                    treatment of a corrupt tradition. This evidence shows how he is both more
+                    reticent in his editorial method (for he prefers to print the ms rather than to
+                    offer emendations) and yet also more reckless (for he offers as possible causes
+                    of error some extremely improbable suggestions and on this basis retreats into a
+                    thoroughgoing skepticism).</p>
+                <p xml:lang="en">A rather anodyne example will make the general point clearly enough. Arzhanov
+                    writes (p.528):</p>
+                <cit>
+                    <quote>104.26 <foreign xml:lang="syr">ܐܢܐ</foreign> ms : <foreign xml:lang="syr">ܐܢܬ</foreign>
+                    ed. — The editor’s variant is based on the fact that the transmitted Greek text
+                    has 2nd person sg. However, it remains possible that the Syriac translator 1)
+                    had another variant in his Greek copy, or 2) preferred to change it for some
+                    reason.</quote>
+                </cit>
+                <p xml:lang="en">In fact, these two alternative suggestions are barely worth a moment’s
+                    consideration. All known Greek witnesses read ΕΡΕΙΣ (<hi rend="italic">you
+                        say</hi>). Moreover, this is a standard piece of Aristotelian style which
+                    offers the translator normally no difficulty and he elsewhere always translates
+                    it correctly. Arzhanov’s suggestion (1) that the translator had a different
+                    Vorlage is extremely unlikely (ΕΡΕΙΣ &gt; ΕΡΩ is a most unlikely error; and I do
+                    not believe in speculating Greek variants not otherwise attested in the
+                    tradition, although Arzhanov seems happy to posit a new Greek variant for almost
+                    any reason to exculpate the Syriac scribes). The suggestion (2) that it was a
+                    <hi rend="italic">deliberate </hi>alteration on the part of
+                    the translator is even more absurd, since no conceivable reason for this can be
+                    imagined and in no other location does he make any comparable alteration. Hence
+                    any editor would come to the same, rather obvious, conclusion as I did, viz.
+                    that this is most plausibly understood as a scribal error. </p>
+                <p xml:lang="en">What should become at once apparent from this somewhat insignificant, but still
+                    telling, example, is that Arzhanov is much the <hi rend="italic">more</hi>
+                    speculative editor of the two of us. I have opted for the most likely
+                    explanation, viz. scribal error, and emended the text accordingly; he speculates
+                    about unknown Greek variants and deliberate translational alterations, both
+                    without any evidence; and then decides to leave the text as it is on the basis
+                    of the consequent uncertainty regarding the source of the error. In my view,
+                    this is at once to over-speculate about the unknown and to surrender the
+                    responsibility of the careful editor.</p>
+                <p xml:lang="en">Here follow a selection from the other examples that he offers (pp.508-512),
+                    demonstrating in each case the basic soundness of the principles of my edition,
+                    and the superfluity (sometimes absurdity) of his doubts:</p>
+                <p xml:lang="en">104,33 <foreign xml:lang="syr">ܐܘ̈ܣܝܣ</foreign> ms :
+                    <foreign xml:lang="syr">ܕܐܘ̈ܣܝܣ</foreign> ed. The
+                    transmitted text stands in need of correction and the emendation is required for
+                    the grammar. The Gk text here is not in dispute and the mechanism of error is
+                    reasonably clear, viz. the translator, eager to preserve the Gk word order,
+                    translated the genitive τῶν δευτέρων οὐσιῶν at the start of the sentence; a
+                    later scribe had trouble with the resulting unnaturalness and has omitted the
+                    <foreign xml:lang="syr">ܕ</foreign>, thereby
+                    confusing where the “secondary substances” belong, in the foregoing or the
+                    succeeding sentence. Arzhanov’s contention that “the editor’s correction
+                    is…based on the assumption that the Syriac translator was trying to render the
+                    transmitted Greek text in a way that would be close to the Greek” is accurate.
+                    The translator was no fool; in fact I generally proceed on the basis that he was
+                    very good at his job–anyone translating Aristotle would need to be, and this
+                    translator did not knowingly write nonsense. Errors are therefore, <hi
+                        rend="italic">a priori</hi>, far more likely caused by an uncomprehending
+                    scribe than by a translator who certainly
+                    <hi rend="italic">did </hi>understand what he was
+                    translating. Moreover, the
+                    <hi rend="italic">mechanism </hi>of error is clear once one
+                    sees the (not-in-dispute) Vorlage–this is to follow Gutas’s principle of using
+                    our knowledge of the Greek text wisely and critically.</p>
+                <p xml:lang="en">106,10 <foreign xml:lang="syr">ܦܘܪܫܐ</foreign> ms <foreign xml:lang="syr">ܦܘܪܫܢܐ</foreign> ed.
+                    Arzhanov’s objection is superfluous. The translator nowhere else writes <foreign xml:lang="syr">ܦܘܪܫܐ</foreign>, but always
+                    <foreign xml:lang="syr">ܦܘܪܫܢܐ</foreign>. The
+                    evidence is clear and the required emendation obvious, once it is established
+                    that the tradition is anyway corrupt.</p>
+                <p xml:lang="en">106,24 <foreign xml:lang="syr">ܐܘܣܝܐ</foreign> ms <foreign xml:lang="syr">ܡܢ ܐܘܣܝܐ</foreign> ed. Contra
+                    Arzhanov, the grammar cannot stand without the particle. He offers <foreign xml:lang="syr">ܕ</foreign> as an
+                    alternative. Perhaps. Indeed, suggestions for alternative emendations to the
+                    ones I offered are welcome, but one or other is required.</p>
+                <p xml:lang="en">110,11 <foreign xml:lang="syr">ܘܗ</foreign>̣<foreign xml:lang="syr">ܘ</foreign> ms <foreign xml:lang="syr">ܘܗ</foreign>̣<foreign xml:lang="syr">ܘ ܟܕ ܗ</foreign> ̣<foreign xml:lang="syr">ܘ</foreign> ed. Again,
+                    extraordinarily, Arzhanov seems to think that positing a speculative and
+                    imaginary Greek variant would be a
+                    <hi rend="italic">better </hi>explanation for the corrupt
+                    trans-mitted text than inner-Syriac scribal error. He suggests the evidence is
+                    not decisive – that there are other possibilities. Naturally no evidence will be
+                    wholly decisive in the case of a corrupt tradition, but the question at hand is
+                    one of the balance of probabilities. Any critic is more than welcome to differ
+                    in the application of the critical principles–but the principles themselves
+                    remain secure.</p>
+                <p xml:lang="en">116,33 (not 32) <foreign xml:lang="syr">ܗܠܝܢ</foreign>
+                    ms <foreign xml:lang="syr">ܡܢ ܗܠܝܢ</foreign> ed.
+                    Arzhanov is wholly misguided in thinking that I am in any way using JG to emend
+                    Anon. I add “cf. JG” to alert the reader’s notice to a datum (<hi rend="italic"
+                        >confer</hi> simply means “take a look at”) – it in no way implies that I am
+                    using JG as a basis for the emendation. The reason for the emendation is the
+                    same as in all the other cases, viz. that the text is corrupt. The Greek surely
+                    read τούτων δὲ οὐδέν…, and elsewhere this would always, by this translator, be
+                    rendered as <foreign xml:lang="syr">ܡܢ ܗܠܝܢ ܕܝܢ
+                        ܘܠܐ</foreign> .... The mechanism of corruption is more than tolerably apparent.
+                    That “Anon was not consistent and modified the Greek original” (Arzhanov, p.509)
+                    is an absurd speculation based on no comparative evidence. On the con-trary,
+                    without <foreign xml:lang="syr">ܡܢ</foreign> the
+                    Syriac text makes no sense; the intent of the overall sentence is abundantly
+                    clear; there is no possibility of a Greek variant (were one known) explaining
+                    the transmitted Syriac text. In all, only one sensible solution offers itself to
+                    any reader, namely that <foreign xml:lang="syr"
+                        >ܡܢ</foreign> has dropped out in transmission (a ready and likely error for a
+                    scribe not accustomed to the material). The editor’s responsibility to insert
+                    <foreign xml:lang="syr">ܡܢ</foreign> is thus
+                    incontrovertible. </p>
+                <p xml:lang="en">118,14 <foreign xml:lang="syr">ܕܡܢ ܗܕܐ</foreign> ms :
+                    <foreign xml:lang="syr">ܡܕܝܢ</foreign> ed. This
+                    is another instance of the same balance of probabilities. The mechanism of
+                    error, together with awareness of the translator’s style and the Greek Vorlage,
+                    combine to offer the editor a good idea of how the transmitted text has emerged.
+                    Arzhanov’s complaint appears to be that there is less explanation on the
+                    editor’s part than he would like. For each and every textual decision to be
+                    explicated in full would be a task beyond the confines of a single volume.</p>
+                <p xml:lang="en">120,8 <foreign xml:lang="syr">ܠܦܘܬ</foreign> ms <foreign xml:lang="syr">ܠܘܬ</foreign> ed. Being in
+                    possession of the Vorlage allows the editor to perceive readily enough the
+                    mechanism of corruption. But Arzhanov’s predilections have again got the better
+                    of his critical sense, for he writes, “since the Syriac translator is not always
+                    consistent…it seems better to have the ms variant in the main text.” This is a
+                    non sequitur. On Arzhanov’s logic, since no translator is ever consistent and
+                    most are rather the opposite, we should never do anything but reproduce the text
+                    of a ms–why not just make it available online and retire? The translator’s
+                    inconsistency does not at all entail that we surrender the critical task and
+                    just print the ms text–the two things have nothing to do with one another. </p>
+                <p xml:lang="en">140,5 <foreign xml:lang="syr">ܕܒܪܫܥܬܗ ܒܗܘܠܐ</foreign>
+                    ms <foreign xml:lang="syr">ܕܒܪܫܝܬܗ ܒܗܘܝܐ</foreign>
+                    ed. Arzhanov’s suggestion is quite correct here, the emendation should have been
+                    <foreign xml:lang="syr">ܒܪܫܥܬܗ ܗܘܝܐ</foreign> .
+                    He is quite right to emend the transmitted text.</p>
+                <p xml:lang="en">144,6 <foreign xml:lang="syr">ܡܝܬܪܐ</foreign> ms <foreign xml:lang="syr">ܝܬܝܪ</foreign> ed. The
+                    received text is not impossible, but requires us to take a very low view of the
+                    translator’s capacity. Since there is a fault, far more likely that the culprit
+                    be a scribe who knew not the meaning of what he was writing, than the translator
+                    who clearly did.</p>
+                <p xml:lang="en">150,23 <foreign xml:lang="syr">ܒܦܘܣܩܢܐ</foreign> ms
+                    <foreign xml:lang="syr">ܒܐܦܘܦܣܝܣ</foreign> ed.
+                    The ms reading cannot be a translation of ἀπόφασις–it would have quite another
+                    meaning. By contrast, Anon <hi rend="italic">always</hi> uses the loan word for
+                    ἀπόφασις. There is a close visual similarity between text and conjecture, a
+                    clear mechanism of corruption, and the translator’s normal equivalents are
+                    well-established. In my judgement, there is an almost zero chance that the
+                    transmitted text is what the translator wrote.</p>
+                <p xml:lang="en">162,25 <foreign xml:lang="syr">ܥܡ ܟܠ</foreign> ms <foreign xml:lang="syr">ܐܟܚܕܐ</foreign> ed. Arzhanov
+                    admits that the proposed emendation is probably right, yet still refuses it
+                    entry into the critical text because 1) the Gk Vorlage could have been different
+                    from anything attested in the Greek tradition; 2) because the translator might
+                    have interpreted it thus. However, the transmitted text is nonsense and no
+                    translator who could even half understand Aristotle would have written <foreign xml:lang="syr">ܥܡ ܟܠ</foreign> .
+                    <hi rend="italic">Not </hi>to place the emendation in the
+                    text would be a total abdication of editorial responsibility and a retreat to a
+                    quite different principle, namely that of reproducing the ms with only the most
+                    minor alterations, i.e. the diplomatic edition that Arzhanov prefers and which
+                    he prepared for Hunaynnet.</p>
+                <p xml:lang="en">164,2 <foreign xml:lang="syr">ܘܐܚܪܝܐ</foreign> ms <foreign xml:lang="syr">ܐܘ ܐܚܪܢܐ</foreign> ed.
+                    Arzhanov accuses: “it would seem that by changing the Syriac text, the modern
+                    editor is correcting not the errors of textual transmission, but rather the
+                    Syriac translator of the 6th century.” Not in the least. The editor is
+                    correcting what is manifestly a scribal error. Arzhanov’s logic is faulty.
+                    Correcting the scribe is precisely what is being done, for such is the editor’s
+                    task. If Arzhanov would like to ascribe the error to incompetent translation, he
+                    had better find some good evidence first.</p>
+                <p xml:lang="en">The comments about the use of square and angled brackets (p.512) shows a lack of
+                    understanding of how these instru-menta work. Arzhanov expects that angled
+                    brackets would be used to indicate conjectural additions (I have explained above
+                    why this ought not to be the case) and seems to be under the illusion that
+                    square brackets are used to indicate textual conjectural additions as well. In
+                    fact, in line with most English cribs of Syriac texts, square brackets indicate
+                    words added to ease the flow of a translation and have nothing to do with the
+                    critical work on the Syriac text itself. </p>
+                <p xml:lang="en">Throughout these examples, the paradox of Arzhanov’s position is that his
+                    non-emendations require far greater speculation than my own conjectures–for <hi
+                        rend="italic">he</hi> must always be forced either to invent a Greek variant
+                    without attestation to account for a strange Syriac translation, or else he must
+                    posit a translator who had little idea what he was doing and simul-taneously a
+                    scribe or scribes who had a rather better idea. By contrast, I never make
+                    emendations based on imaginary Greek readings, and I emend what may be adjudged
+                    to be scribal errors wherever the mechanism of error can be discerned, minor
+                    errors in transmission being <hi rend="italic">prima facie</hi> more likely than
+                    imagining a translator who knew even less Greek than he did Syriac.</p>
+            </div>
+            <div xml:id="hv24n2king.5" xml:lang="en">
+                <head>5. Context of Anon</head>
+                <p xml:lang="syr">“Anon turns out to be a highly unstable version that
+                    frequently changes its use of terminology and translation technique; its author
+                    (or authors) seems frequently to have had difficulties in grasping the precise
+                    meaning of the Aristotelian text; and it seems to be possibly based on an
+                    imperfect copy of the Greek text” (p.513).</p>
+                <p xml:lang="en">Not at all. There is no evidence that the translator’s Greek copy was any more
+                    defective than any normal ms would have been. Arzhanov offers no evidence to the
+                    contrary. Moreover, as I demonstrated in the book, the translator had a good
+                    understanding of a difficult text. He did not yet have a stable tradition of
+                    Syriac renderings with which to work, and this is the explanation for his
+                    inconsistencies–they are the inconsis-tencies of an experimenter, not those of a
+                    confused tyro. This would suggest that, far from being the product of a
+                    pre-existing pedagogical tradition, this translator was working in something of
+                    a vacuum. He was inventing a field largely <hi rend="italic">de novo</hi>, and
+                    was remarkably successful.</p>
+            </div>
+            <div xml:id="hv24n2king.6" xml:lang="en">
+                <head>6. The Case of J </head>
+                <p xml:lang="syr">Finally, Arzhanov offers a beneficial analysis of the
+                    tradition of Jacob’s translation, something I only touched upon in the book by
+                    way of an appendix. A future analysis needs, however, to check again that the
+                    errors of MV are also found in BP. There are (see p.287) a few shared MV errors;
+                    this “should” mean that these errors are found throughout the tradition back to
+                    [ω] and hence “must” be in BP as well. If BP have any right readings where MV
+                    are in error, then the stemma will need further rethinking. But this is only a
+                    minor suggestion.</p>
+            </div>
+            <div xml:id="hv24n2king.7" xml:lang="en">
+                <head>Summary</head>
+                <p xml:lang="syr">Housman pointed out that “people come upon this field
+                    bringing with them prepossessions and preferences; they are not willing to look
+                    all facts in the face, nor to draw the most probable conclusion unless it is
+                    also the most agreeable conclusion.”<note place="foot" xml:id="ftn2" n="2"><p
+                            rend="footnote text"> A. E. Housman, “The Application of Thought to
+                            Textual Criticism,”
+                            <hi rend="italic">Proceedings of the Classical Association </hi>18
+                            (1921), 67-84, at p.71.</p></note> The easiest way to treat the unicum
+                    ms of the Syriac <hi rend="italic">Categories</hi> would have been always to
+                    assume that the translator was at fault and that the text as transmitted,
+                    barring only the most obvious errors, is in all major particulars the text that
+                    came off the desk of the translator. Were it so, we could confidently
+                    reconstruct his Vorlage and also describe in some detail his technical failings.
+                    However, it was not so. The text was poorly treated in the years between
+                    original translation and extant copy. The translator, albeit that he was an
+                    experimenter and a pioneer, had a strong grip on his task and executed it
+                    remarkably well. This places the onus on any editor to make every effort to
+                    present to the wider reading public, and especially to editors of the Greek
+                    Aristotle, the actual words that the translator most likely wrote, and this
+                    requires more conjectural emendation than is found in many other Syriac texts.
+                    An editor who surrenders that responsibility might as well just publish an
+                    online digital copy of the manuscript.</p>
+                <p xml:lang="en">Nonetheless the presentation of the material does not, in the event, rely upon
+                    this conclusion. The text presented in the edition is, as with any critical
+                    edition, a reconstruction based on editorial judgement. The data needed to
+                    analyse this editorial work is all present in the footnotes, tersely yet clearly
+                    laid out. Where there are errors in the edition, corrigenda are to be welcomed.
+                    They are not errors in the principles being applied. Editors such as myself also
+                    warmly welcome variant judge-ments on individual emendations–indeed this is how
+                    knowledge progresses. </p>
+                <p xml:lang="en">But Arzhanov has mistaken one species of criticism for another. Having found my
+                    <hi rend="italic">critical </hi>edition a difficult
+                    instru-mentum for the realization of his own goal of producing a
+                    <hi rend="italic">diplomatic </hi>edition of the same text,
+                    he has misread both its principles and their application.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
