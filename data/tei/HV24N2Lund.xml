@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Considerations in Rendering <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign>
+                    in a Church Bible</title>
+                <author>
+                    <name><forename>Jerome A.</forename>
+                        <surname>Lund</surname></name>
+                    <affiliation>
+                        <orgName>Independent Scholar</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n2lund</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Jerome A. Lund</author>
+                        <title level="a">Considerations in Rendering <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign>
+                            in a Church Bible</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N2Lund.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="395" to="410">395-410</biblScope>
+                        <biblScope type="order" n="4"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>translation</term>
+                    <term>interpretation</term>
+                    <term>Exodus</term>
+                    <term>Red Sea</term>
+                    <term>Yom suf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-09-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+
+            <front>
+                <div type="abstract" xml:lang="en">
+                    <head>Abstract</head>
+                    <p xml:lang="en">During the revision of the Antioch Bible, the question of how 
+                        <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign>
+                        should be translated arose. Currently, different translators have offered different
+                        solutions. This essay will trace the history of the term from the original
+                        translators of both the Old and New Testaments, through the commentators, and then
+                        through the lexicographers. The essay will offer a solution to the problem going
+                        forward.</p>
+                </div>
+            </front>
+        
+            <body>
+                <div xml:id="hv24n2lund.0" xml:lang="en">
+                <head>0. Introduction </head>
+                <p>In preparing a translation of the Syriac Bible to English for the modern church,
+                    translation issues arise.<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text"> This study arose through reviewing the translation
+                            of the book of Exodus for the Antioch Bible project and discussing the
+                            issue with the larger review committee. In particular, I wish to thank
+                            my co-reviewer Tarsee Li of Oakwood University, Huntsville, Alabama, for
+                            his critique of an earlier draft of this essay. The original translation
+                            of Exodus was done masterfully by Mark R. Meyer, <hi rend="italic"
+                                >Exodus in The Syriac Peshiṭta Bible with English Translation</hi>,
+                            eds. George Anton Kiraz and Andreas Juckel (Piscataway: Gorgias Press,
+                            2017). </p></note> One such issue is how to render the expression <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> “the sea
+                    of Suph,” found in both the Old and New Testaments.<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text"> Exod 10:19; 13:18; 15:4, 22;
+                            23:31; Num 14:25; 21:4; 33:10, 11; Deut 1:40; 2:1; 11:4; Josh 2:10;
+                            4:23; 24:6; Judg 11:16; 1 Kgs 9:26; Ps 106:7, 9, 22; 136:13, 15; Jer
+                            49:21; Judith 5:13; Neh 9:9; 2 Chron 2:15; 1 Chron 4:9; Acts 7:36; Heb
+                            11:29. The cases in the New Testament render <foreign xml:lang="gr">ἐρυθρὰ θάλασσα</foreign> “the Red
+                            Sea,” the translation of the Hebrew <foreign xml:lang="heb">יַם</foreign>־<foreign xml:lang="heb">סוּף</foreign> known from
+                            the Old Greek of Exodus and elsewhere. At times in the Old Greek, the
+                            adjective comes after the noun as <foreign xml:lang="gr">θάλασσα ἐρυθρὰ</foreign>.</p></note> In this
+                    essay, I will examine the problem historically and then offer a solution. The
+                    essay will move from the original translations through the native commentators
+                    to the lexicographers. Roughly speaking, the Peshitta Old Testament was made in
+                    the second century from the Hebrew.<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text"> M. P. Weitzman, <hi rend="italic">The Syriac
+                                Version of the Old Testament</hi>, University of Cambridge Oriental
+                            Publications 56 (Cambridge: Faculty of Oriental Studies, University of
+                            Cambridge, 1999), 258.</p></note> By contrast, the Peshitta New
+                    Testament came into being about the fifth century.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text"> Sebastian P. Brock, <hi
+                                rend="italic">The Bible in the Syriac Tradition</hi>, Second Revised
+                            Edition, Gorgias Handbooks 7 (Piscataway: Gorgias Press, 2006),
+                        17.</p></note> While there was undoubtedly an older Syriac translation of
+                    the New Testament, it is not extant for the relevant books, namely Acts and
+                        Hebrews.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">
+                            Brock, <hi rend="italic">The Bible in the Syriac Tradition</hi>, 17 and
+                            19.</p></note> So, how did native Syriac speakers understand the term at
+                    the translation stage and did this understanding change over time?</p>
+            <div/>
+            <div xml:id="hv24n2lund.1" xml:lang="en">
+                <head>1. The Original Translations</head>
+                <p>The second century translators of the Old Testament did not fully understand the
+                    meaning of <foreign xml:lang="heb">יַם־סוּף</foreign>, the
+                    Hebrew construction consisting of a noun in construct state followed by another
+                    noun in the absolute state. In keeping with other such constructions, they
+                    rendered it as <foreign xml:lang="syr">ܝܡܐ
+                        ܕܣܘܦ</foreign> “the sea of Suph,” understanding <foreign xml:lang="heb">סוּף</foreign> to be a proper noun.
+                    This is in agreement with the rendering of other geographic terms like <foreign xml:lang="heb">גַּן־עֵדֶן</foreign> “the garden of
+                    Eden” rendered as <foreign xml:lang="syr">ܦܪܕܝܣܐ
+                        ܕܥܕܢ</foreign> “the paradise of Eden” (Gen 3:23), <foreign xml:lang="heb">אֶרֶץ־מִדְיָן</foreign> “the land of
+                    Midian” translated as <foreign xml:lang="syr"
+                        >ܐܪܥܐ ܕܡܕܝܢ</foreign> “the land of Midian” (Exod 2:15), <foreign xml:lang="heb">מִדְבַּר־סִין</foreign> “the
+                    wilderness of Sin” expressed as <foreign xml:lang="syr">ܡܕܒܪܐ ܕܣܝܢ</foreign> “the
+                    wilderness of Sin” (Exod 17:1), <foreign xml:lang="heb"
+                        >הַר סִינַי</foreign> “the mountain of Sinai” put as <foreign xml:lang="syr">ܛܘܪܐ ܕܣܝܢܝ</foreign> “the
+                    mountain of Sinai” (Exod 24:16), <foreign xml:lang="heb">נְהַר מִצְרַיִם</foreign> “the river
+                    of Egypt” expressed by <foreign xml:lang="syr"
+                        >ܢܗܪܐ ܕܡܨܪܝܢ</foreign> “the river of Egypt” (Gen 15:18), and <foreign xml:lang="heb">מְקוֹם שְׁכֶם</foreign> “the
+                    vicinity of Shechem” phrased as <foreign xml:lang="syr">ܐܬܪܐ ܕܫܟܝܡ</foreign> “the
+                    vicinity of Shechem” (Gen 12:6).</p>
+                <p>Furthermore, this is in harmony with the renderings of <foreign xml:lang="heb">יָם־כִּנֶּרֶת</foreign> “the Sea of
+                    Kinnereth” and <foreign xml:lang="heb">יָם
+                        כִּנְרוֹת</foreign> “the Sea of Kinneroth” as <foreign xml:lang="syr">ܝܡܐ ܕܟܢܪܬ</foreign> “the Sea
+                    of Kinnereth” (Num 34:11 and Josh 12:3 respectively), and <foreign xml:lang="heb">יָם יַעְזֵר</foreign> “the Sea of
+                    Jazer” as <foreign xml:lang="syr">ܝܡܐ
+                        ܕܝܥܙܝܪ</foreign> “the Sea of Jazer” (Jer 48:32). Although in these cases the noun
+                    <foreign xml:lang="heb">יָם</foreign> is vocalized in
+                    Hebrew with <hi rend="italic">qametz</hi>, allowing for the interpretation of
+                    the collocation as an apposition, the grammarians Takamitsu Muraoka and Paul
+                    Joüon consider the form <foreign xml:lang="heb"
+                        >יָם</foreign> as being in the construct state, noting that the only time that
+                    the form <foreign xml:lang="heb">יַם</foreign> is used in
+                    Hebrew is in the collocation <foreign xml:lang="heb"
+                        >יַם־סוּף</foreign>.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text"> Paul Joüon, S. J., and Takamitsu Muraoka, <hi
+                                rend="italic">A Grammar of Biblical Hebrew</hi> (Rome: Pontifical
+                            Biblical Institute, 2006), § 13c and § 96An. Accordance module:
+                            Jouon–Muraoka Hebrew Grammar, version 2.6.</p></note> Moreover, the
+                    Syriac translator had no problem with the directional
+                    <hi rend="italic">he </hi>intervening between <foreign xml:lang="heb">יָם</foreign> and its
+                    <hi rend="italic">nomen rectum </hi>in <foreign xml:lang="heb">וַיִּתְקָעֵהוּ יָםָּה
+                        סּוּף</foreign> taken over as <foreign xml:lang="syr">ܘܐܪܡܝܬܗ ܒܝܡܐ ܕܣܘܦ</foreign>
+                    “and (the wind) cast it (the locust) into the sea of Suph” (Exod 10:19). Again,
+                    when the <hi rend="italic">nomen rectum </hi>is a common
+                    noun, it comes in the <hi rend="italic">status emphaticus</hi> as in <foreign xml:lang="heb">יָם הַמֶּלַח</foreign> “the sea of
+                    salt” rendered as <foreign xml:lang="syr">ܝܡܐ
+                        ܕܡܠܚܐ</foreign> “the sea of salt” (Gen 14:3).</p>
+                <p>As well, compare: <foreign xml:lang="heb">לְשׁוֹן
+                    יָם־מִצְרַיִם</foreign> “the tongue of the sea of Egypt” encoded as <foreign xml:lang="syr">ܠܫܢ ܝܡܐ ܕܒܡܨܪܝܢ</foreign>
+                    “the tongue of the sea that is in Egypt” (Isa 11:15) and <foreign xml:lang="heb">אֶל־יָם יָפוֹא</foreign> “to the sea
+                    of Joppa” realized as <foreign xml:lang="syr"
+                        >ܠܝܡܐ ܠܝܘܦܐ</foreign> “to the sea, to Joppa” (Ezra 3:7). Here, the translators
+                    demonstrate flexibility in conveying the meaning to the target audience. </p>
+                <p>Apart from the collocation <foreign xml:lang="heb"
+                    >יַם־סוּף</foreign>, the word <foreign xml:lang="heb"
+                        >סוּף</foreign> appears by itself as a geographic designation once (Deut 1:1).
+                    There, the Old Greek offers <foreign xml:lang="gr">πλησίον τῆς
+                        ἐρυθρᾶς</foreign> “near the red” for the Hebrew <foreign xml:lang="heb">מוֹל סוּף</foreign>, apparently
+                    understanding this <foreign xml:lang="heb">סוּף</foreign> to
+                    be a reference to the Red Sea. Thus, NETS translates the phrase as “near the Red
+                    Sea.” Some Greek text witnesses in fact explicitly read <foreign xml:lang="gr">πλησίον τῆς ἐρυθρᾶς θαλάσσης</foreign> “near the
+                    Red Sea.” Targum Onqelos agrees with this interpretation of <foreign xml:lang="heb">סוּף</foreign>, rendering it as <foreign xml:lang="heb">יַם סוּף</foreign> “the Sea of
+                    Suph.” Targum Neofiti, Cairo Geniza manuscript Br, and the Fragment Targums
+                    concur with Targum Onqelos in identifying this <foreign xml:lang="heb">סוּף</foreign> as the sea through
+                    which the children of Israel passed.<note place="foot" xml:id="ftn7" n="7"><p
+                            rend="footnote text"> For the targums, I have used the following
+                            Accordance modules: TARG-T for Onqelos, TARG2-T for Neofiti, TARGG-T for
+                            the Cairo Geniza manuscript, and TARGF-T for the Fragment Targums.
+                        </p></note></p>
+                <p>Knowledge of the Greek rendering
+                    <foreign xml:lang="gr">ἐρυθρὰ θάλασσα </foreign> “the
+                    Red Sea” was not widely known among the Syrians<note place="foot" xml:id="ftn8"
+                        n="8"><p rend="footnote text"> Where it was known was in the translations of
+                            church fathers such as in the Syriac translation of Basil of Caesarea’s
+                            Hexaemeron (Robert W. Thomson, <hi rend="italic">The Syriac Version of
+                                the Hexaemeron by Basil of Caesarea</hi> [CSCO 550, SS 222; Louvain:
+                            Peeters, 1995], 57, l. 12), which translation dates probably to the
+                            fifth century (compare Thomson, <hi rend="italic">The Syriac Version of
+                                the Hexaemeron by Basil of Caesarea</hi>, VI, and Sebastian P.
+                            Brock, “Basil of Caesarea,” <hi rend="italic">Gorgias Encyclopedic
+                                Dictionary of the Syriac Heritage</hi>, ed. Sebastian P. Brock et
+                            al. [Piscataway: Gorgias Press, 2011], 64). I owe this insight to an
+                            unnamed reviewer.</p></note> until the translation of the Greek Old
+                    Testament, known to us as the Syrohexpla. In that translation, made in 616-17 at
+                    the Enaton monastery near Alexandria, Egypt, Paul of Tella used <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                    Sea” as the reflex of <foreign xml:lang="gr">θάλασσα ἐρυθρὰ</foreign> “the
+                    Red Sea.” In Deut 1:1, Paul renders <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                        Sea,”<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"> Arthur
+                            Vööbus, <hi rend="italic">The Pentateuch in the Version of the
+                                Syro-Hexapla, A fac-simile Edition of a Midyat MS. discovered
+                                1964</hi>, CSCO 369, Subsidia 45 (Louvain: Secrétariat du CorpusSCO,
+                            1975), fol. 152r.</p></note> supporting the Greek variant <foreign xml:lang="gr">τῆς ἐρυθρᾶς θαλάσσης</foreign> “(near) the Red
+                    Sea.”</p>
+                <p>Now, there are three or possible four places in the Old Testament where Hebrew
+                    <foreign xml:lang="heb">סוּף</foreign> indicates a water
+                    plant. Richard D. Patterson has called attention to these passages, stating that
+                    <foreign xml:lang="heb">סוּף</foreign> is “a general
+                    term for marshplants.”<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text"> Richard D. Patterson, <foreign xml:lang="heb">סוּף</foreign>, entry 1479
+                            in <hi rend="italic">Theological Wordbook of the Old Testament</hi>,
+                            eds. R. Laird Harrison, Gleason L. Archer, and Bruce K. Waltke (Chicago:
+                            Moody Bible Institute, 1980). Accordance module TWOT.</p></note> In Exod
+                    2:3 and 5, Patterson glosses it as “marsh reeds,” in Isa 19:6 as “rushes,” and
+                    in Jonah 2:6 as “seaweed.” He also renders the Hebrew collocation <foreign xml:lang="heb">יַם סוּף</foreign> as “sea of
+                    reeds.” What is interesting for this study is that the Peshitta finds
+                    appropriate words to translate these passages, never using the word <foreign xml:lang="syr">ܣܘܦ</foreign>. In Exodus, the
+                    Peshitta uses the word <foreign xml:lang="syr"
+                        >ܪܩܩܐ</foreign> “a shallow,” in Isaiah the word <foreign xml:lang="syr">ܦܦܝܪܘܢ</foreign> “papyrus,”
+                    and in Jonah the phrase <foreign xml:lang="syr"
+                        >ܒܐܫܬܗ ܕܝܡܐ</foreign> “at the bottom of the sea.” There is, therefore, no
+                    indication that the translator of Peshitta Exodus understood the <foreign xml:lang="heb">סוּף</foreign> of <foreign xml:lang="heb">יַם־סוּף</foreign> as a water plant.
+                    One could say the same for Onqelos and its twin Targum Jonathan to the Prophets.
+                    In Exodus, Onqelos translates the <foreign xml:lang="heb">סוּף</foreign> of Exodus 2 as <foreign xml:lang="heb">יַעְרָא</foreign> “rushes.” Jonathan
+                    renders it as <foreign xml:lang="heb">גוֹמַא</foreign>
+                        “papyrus reed” in Isaiah, but understands the <foreign xml:lang="heb">סוּף</foreign> of Jonah 2:6 to be a
+                    reference to the Sea of Suph (<foreign xml:lang="heb"
+                        >יַמָא דְסוּף</foreign> ). Similarly, the Palestinian targums Neofiti and the
+                    Fragment Targums rendered <foreign xml:lang="heb"
+                        >סוּף</foreign> of Exodus 2 as <foreign xml:lang="heb"
+                            >אפרה</foreign> “grassy area.”<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text"> See the discussion of Jerome A. Lund, “2.4.5
+                            Peshitta,” in The Hebrew Bible, Vol. 1B: Pentateuch, Former and Latter
+                            Prophets, eds. Armin Lange and Emanuel Tov, in <hi rend="italic">Textual
+                                History of the Hebrew Bible</hi>, ed. Armin Lange et al. (Leiden:
+                            Brill, 2017), 178.</p></note></p>
+                <p>The early fifth century translators of the Peshitta New Testament at Acts 7:36
+                    and Heb 11:29 substituted the Old Testament expression <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> “the sea
+                    of Suph” for the Greek
+                    <foreign xml:lang="gr">ἐρυθρὰ θάλασσα </foreign> “the
+                    Red Sea,” rather than translate it as <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                    Sea.” The reference to the Exodus in both of these verses is patently clear.
+                    Their translation strategy of substitution, that is, using the expression that
+                    appears in their Old Testament, removed any apparent discrepancy with the
+                    Peshitta Old Testament. It was not until the translation of Thomas of Harkl,
+                    made at the same time and in the same place as the Old Testament translation of
+                    Paul of Tella, that the reading <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                    Sea” entered the Syriac New Testament. Thomas rendered <foreign xml:lang="gr">ποιήσας τέρατα καὶ σημεῖα ἐν γῇ Αἰγύπτῳ καὶ ἐν
+                        ἐρυθρᾷ θαλάσσῃ</foreign> “doing wonders and signs in the land of Egypt and at the
+                    Red Sea” as <foreign xml:lang="syr">ܟܕ ܥܒ̣ܕ
+                        ܐܬܘ̈ܬܐ ܘܬܕܡܪ̈ܬܐ ܒܐܪܥܐ ܕܡܨܪܝܢ ܘܒܝܡܐ ܣܘܡܩܐ</foreign> “doing signs and wonders in
+                    the land of Egypt and at the Red Sea” (Acts 7:36). From his translation, Thomas
+                    could have had
+                    <foreign xml:lang="gr">σημεῖα καὶ τέρατα </foreign>“signs
+                    and wonders” in his Vorlage rather than
+                    <foreign xml:lang="gr">τέρατα καὶ σημεῖα </foreign>“wonders
+                    and signs.” His rendering <foreign xml:lang="syr">ܒܗܝܡܢܘܬܐ ܥܒܪܘ ܒܢܝ̈ܐ
+                        ܕܐܝܣܪܐܝܠ ܠܝܡܐ ܣܘܡܩܐ</foreign> “By faith the children of Israel crossed the Red
+                    Sea” (Heb 11:29) apparently goes back to the Greek
+                    <foreign xml:lang="gr">πίστει διέβησαν οἱ υἱοὶ Ισραηλ τὴν ἐρυθρὰν θάλασσαν </foreign>
+                    “By faith the children of Israel crossed the Red Sea.”<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text"> I wish to thank Andreas
+                            Juckel of the University of Muenster for providing me with these texts
+                            from the Harklean version. As well, Dr. Juckel was kind enough to
+                            critique a draft of this essay, offering concrete suggestions for its
+                            improvement.</p></note> In his edition of the Greek New Testament,
+                    Hermann Freiherr von Soden records this plus of the expressed subject <foreign xml:lang="gr">οἱ υἱοὶ Ισραηλ</foreign> as appearing in one
+                    thirteenth century miniscule.<note place="foot" xml:id="ftn13" n="13"><p
+                            rend="footnote text"> Hermann Freiherr von Soden, <hi rend="italic">Die
+                                Schriften des Neuen Testaments</hi>, vol. 2 (Göttingen: Vanderhoeck
+                            und Ruprecht, 1913), 819.</p></note></p>
+            </div>
+            <div xml:id="hv24n2lund.2" xml:lang="en">
+                <head>2. The Commentators</head>
+                <p>The ninth century Ishodad of Merv dealt with the understanding of the term <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> in his
+                    commentary on Exod 15:4. It is clear that he had no straightforward answer to
+                    what the word <foreign xml:lang="syr">ܣܘܦ</foreign>
+                    meant. He states that the sea in question had two names, one <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                    Sea” ala the Greek and the other <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> “the sea
+                    of Suph” as found in the Peshitta. Some, he says, do not give any special
+                    meaning to the terms — the place was just called that. Others explain that the
+                    sea was called <foreign xml:lang="syr">ܕܣܘܦ</foreign>
+                    because Pharaoh and his forces came to an end (<foreign xml:lang="syr">ܣܦܘ</foreign>) there, similar
+                    to ‏<foreign xml:lang="syr">ܢܬܩܪܐ ܢܚܠܐ ܕܣܘܦܢܗ
+                        ܕܓܘܓ</foreign> “It will be called the valley of the destruction of Gog” (Ezek
+                    39:11). And these same exegetes would say that the sea was called <foreign xml:lang="syr">ܣܘܡܩܐ</foreign> “red” because
+                    of the blood of those of the house of Pharaoh who perished in it. Their
+                    interpretation of <foreign xml:lang="syr"
+                        >ܣܘܦ</foreign> is rooted in etymology, deriving the term from <foreign xml:lang="syr">ܣܘܦ</foreign> “come to an
+                    end”; their interpretation of <foreign xml:lang="syr">ܣܘܡܩܐ</foreign> “red” stems
+                    from association with blood. Still others had another interpretation of <foreign xml:lang="syr">ܣܘܦ</foreign>, also rooted in
+                    etymology via the root <foreign xml:lang="syr"
+                        >ܣܘܦ</foreign> “come to an end.” At that place, they say, the tongue of the sea
+                    of the Indians comes to an end (<foreign xml:lang="syr">ܫܿܠܡ ܘܣܿܐܦ</foreign>). Yet
+                    others, using the same etymology, assert that nothing moves in it, but when they
+                    come to that tongue they turn back, whether fish or anything else. In his
+                    comments, Ishodad does not mention any connection with flora that grows in
+                    wetlands.</p>
+                <p>In his commentary on Deut 1:1, Ishodad brings the view of a certain Michael on
+                    the meaning of <foreign xml:lang="syr">ܠܘܩܒܠ
+                        ܣܘܦ</foreign> “opposite Suph.” Michael explains that <foreign xml:lang="syr">ܣܘܦ</foreign> means <foreign xml:lang="syr">ܝܡܐ ܕܡܠܚܐ</foreign> “the Salt
+                    Sea.” In the margin of Ishodad’s commentary, someone added the following: <foreign xml:lang="syr">ܝܘܢܝܐ ... ܚܠܦ ܟܠ ܝܡܐ
+                        ܕܣܘܦ. ܝܡܐ ܣܘܡܩܐ ܐܿܡܪ</foreign> “The Greek reads ‘the Red Sea’ in every instance
+                    of ‘the Sea of Suph’.” In her translation of this verse, Carmel McCarthy renders
+                    <foreign xml:lang="syr">ܠܘܩܒܠ ܣܘܦ</foreign> as
+                    “opposite Suph.”<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"
+                            > Carmel McCarthy, <hi rend="italic">Deuteronomy in The Syriac Peshiṭta
+                                Bible with English Translation</hi>, eds. George Anton Kiraz and
+                            Andreas Juckel (Piscataway: Gorgias Press, 2013). </p></note></p>
+                <p>The thirteenth century polymath Barhebraeus discusses the term <foreign xml:lang="syr">ܣܘܦ</foreign> in his
+                    commentary on Exod 15:4.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text"> Martin Sprengling and William Creighton Graham,
+                            eds., <hi rend="italic">Barhebraeus’ Scholia on the Old Testament, Part
+                                I: Genesis–II Samuel</hi> (Chicago: University of Chicago Press,
+                            1931), 120–21.</p></note> He comments as follows: <foreign xml:lang="syr">ܒܝܡܐ ܕܣܘܦ ܝܘ̄ ܒܝܡܐ ܣܘܡܩܐ
+                        ܗ̄ ܕܣܘܦ ܐܬܩܼܪܝ. ܒܕܣܘܦܐ ܗܘ ܕܝܡܐ ܣܘܡܩܐ ܕܒܬܝܡܢ ܥܡܪܬܐ. ܘܐܝܟ ܠܫܢܐ ܡܿܬܚ ܠܐܦ̈ܝ
+                        ܡܨܪܝܢ ܘܡܣܬܝܟ ܟܪ ܕܥܒܪܘ ܥܒܪ̈ܝܐ. ܐܝܟܐ ܕܡ̈ܐܬܝܢ ܡ̈ܝܠܐ ܗܘ ܦܬܝܗ</foreign> “<hi
+                        rend="italic">In the sea of Suph</hi>. The Greek: <hi rend="italic">In the
+                        Red Sea</hi>. It was called Suph because it was the end of the Red Sea that
+                    is in the south of the inhabited area, and like a tongue it stretches towards
+                    Egypt and ends where the Hebrews crossed, where its breadth is two hundred
+                    miles.” So, for Barhebraeus, <foreign xml:lang="syr">ܣܘܦ</foreign> was a
+                    geographic term derived etymologically from the root “to end,” due to the fact
+                    that it was the end of the sea as it jutted into Egypt. It coincided with what
+                    the Greeks termed “the Red Sea.”</p>
+            </div>
+            <div xml:id="hv24n2lund.3" xml:lang="en">
+                <head>3. Lexicography</head>
+                <div xml:id="hv24n2lund.3.1" xml:lang="en">
+                    <head>3.1 A Classical Lexicon</head>
+                    <p>Writing in the tenth century, Hassan bar Bahlul states the following: <foreign xml:lang="syr">ܕܣܘܦ ܕܝܢ ܐܬܩܼܪܝ. ܡܛܠ
+                        ܕܒܗ ܣܦܘ ܡܨܪ̈ܝܐ. ܘܡܬܼܐܡܪ ܕܝܢ ܝܡܐ ܣܘܡܩܐ ܡܛܠ ܕܒܗ ܐܬܛܠܩ ܕܡܗܘܢ</foreign> (The sea)
+                        “was called” (the sea) “of Suph because the Egyptians came to an end in it,
+                        and it is termed the Red Sea because their blood vanished in it.”<note
+                            place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Rubens
+                                Duval, ed., <hi rend="italic">Lexicon Syriacum Auctore Hassano bar
+                                    Bahlule e Pluribus Codicibus Edidit et Notulis Instruxit</hi>
+                                (Paris, 1901), col. 1319.</p></note> Bar Bahlul echoes the same
+                        understandings recorded by Ishodad. </p>
+                </div>
+                <div xml:id="hv24n2lund.3.2" xml:lang="en">
+                    <head>3.2 Modern Lexica</head>
+                    <p>A survey of the modern lexica reveals two views of understanding the term <foreign xml:lang="syr">ܣܘܦ</foreign>. On the one
+                        hand, some explain the term as representing the Egyptian word for papyrus.
+                        On the other hand, there are those who regard it as a proper noun.</p>
+                    <p>Influenced by an essay of Frederic Charles Cook, Robert Payne Smith calls <foreign xml:lang="syr">ܣܘܦ</foreign> an Egyptian
+                        word meaning “papyrus.”<note place="foot" xml:id="ftn17" n="17"><p
+                                rend="footnote text"> Robert Payne Smith, <hi rend="italic"
+                                    >Thesaurus Syriacus</hi> (Oxford: Clarendon Press, 1879-1901),
+                                2577. Payne Smith based this on the essay of Frederic Charles Cook,
+                                “On Egyptian Words in the Pentateuch,” pages 476-492 in <hi
+                                    rend="italic">The Holy Bible according to the Authorized Version
+                                    (A.D. 1611), with an Explanatory and Critical Commentary and A
+                                    Division of the Translation by Bishops and Other Clergy of the
+                                    Anglican Church, Vol. I – Part I: Genesis–Exodus</hi>, ed.
+                                Frederic Charles Cook (New York: Scribner, Armstrong &amp; Co.,
+                                1873), 484. The authoritative source standing behind the essay of
+                                Cook was the Egyptologist Charles Wycliffe Goodwin.</p></note> It is
+                        no wonder then that his daughter Jayne Payne Smith describes <foreign xml:lang="syr">ܣܘܦ</foreign> as “from
+                        the Egyptian word for papyrus,” glossing <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as
+                        “<hi rend="italic">the reedy sea </hi>i.e. the Red
+                            Sea.”<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">
+                                Jayne Payne Smith, <hi rend="italic">A Compendious Syriac
+                                    Dictionary</hi> (Oxford: Clarendon Press, 1903), 369.</p></note>
+                        Also within the British tradition, William Jennings in his New Testament
+                        dictionary defines <foreign xml:lang="syr"
+                            >ܣܘܦ</foreign> as “reeds,” connecting it to the Egyptian word <hi
+                                rend="italic">twfi</hi> “reeds, papyrus,” and glosses the phrase <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as
+                        “lit. <hi rend="italic">the reedy sea</hi>, <hi rend="italic">the Red
+                            Sea</hi>.”<note place="foot" xml:id="ftn19" n="19"><p
+                                rend="footnote text"> William Jennings, <hi rend="italic">Lexicon to
+                                    the Syriac New Testament</hi>, revised Ulric Gantillon (Oxford:
+                                Clarendon Press, 1926), 149.</p></note> This view found favor in the
+                        eyes of the native lexicographers Toma Audo and Jacques-Eugene Manna. Audo
+                        states the following: <foreign xml:lang="syr">ܣܘܦ: ܒܪܬ ܩܠܐ ܗܝ
+                            ܡܨܪܝܬܐ. ܗ̄. ܕ̄. ܦܦܪܘܢ . ܝܡܐ ܕܣܘܦ . ܗ̄. ܕ̄. ܕܗܘܐ ܒܗ ܦܦܪܘܢ ܘܐܪܒܢܐ. ܡܢ ܕܝܠܢ
+                            ܐܢܫܝ̈ܢ ܡܦܪܫܝܢ ܠܗܿ . ܝܡܐ ܣܘܡܩܐ</foreign> “The term <foreign xml:lang="syr">ܣܘܦ</foreign> is an
+                        Egyptian expression meaning ‘papyrus’; the sea of ‘suph’ means that there
+                        were papyrus and rushes in it. Some of our people interpret the collocation
+                        as ‘the Red Sea’.”<note place="foot" xml:id="ftn20" n="20"><p
+                                rend="footnote text"> Toma Audo, <hi rend="italic">Treasure of the
+                                    Syriac Language (Simtā d-leššānā suryāyā)</hi>, 2 vols. (Mosul:
+                                Dominican Press, 1897), 134. The second volume was published in 1901
+                                but bears the date of the first, to wit, 1897. See George A. Kiraz,
+                                “Introduction,” in Thomas Audo, Treasure of the Syriac Language,
+                                vol. 1 (Piscataway: Gorgias Press, 2008), 3*.</p></note> Manna
+                        defines <foreign xml:lang="syr">ܣܘܦ</foreign> as
+                        <foreign xml:lang="syr">ܝܒܠܐ ܕܝܡܐ</foreign>
+                        “sea squill” or “rush.”<note place="foot" xml:id="ftn21" n="21"><p
+                                rend="footnote text"> Jacques-Eugene Manna, <hi rend="italic"
+                                    >Chaldean – Arabic Dictionary</hi> (Mosul, 1900; reprinted
+                                Beirut: Babel Center Publications, 1975), 486.</p></note>
+                    </p>
+                    <p>Carl Brockelmann, on the other hand, does not include it in his <hi
+                            rend="italic">Lexicon Syriacum</hi>.<note place="foot" xml:id="ftn22"
+                            n="22"><p rend="footnote text"> Carl Brockelmann, <hi rend="italic"
+                                    >Lexicon Syriacum</hi>, Second Edition (Halle: Niemeyer,
+                                1928).</p></note> He must have done so because he regarded <foreign xml:lang="syr">ܣܘܦ</foreign> in this
+                        collocation as a proper noun. In this, he was followed by Michael Sokoloff,
+                        who likewise fails to record it.<note place="foot" xml:id="ftn23" n="23"><p
+                                rend="footnote text"> Michael Sokoloff,
+                                <hi rend="italic">A Syriac Lexicon </hi>(Winona
+                                Lake: Eisenbrauns and Piscataway: Gorgias Press,
+                        2009).</p></note></p>
+                </div>
+            </div>
+            <div xml:id="hv24n2lund.4" xml:lang="en">
+                <head>4. Antioch Bible Contributors’ Renderings of ܝܡܐ ܕܣܘܦ</head>
+                <p>Translators of different books of the Bible handled the expression <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> in
+                    different ways. For Exodus, Mark R. Meyer consistently renders the expression as
+                    “the Sea of Suph” (Exod 10:19; 13:18; 15:4, 22; 23:31).<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text"> Mark R. Meyer, <hi
+                                rend="italic">Exodus</hi>.</p></note> By contrast, for Numbers,
+                    Edward M. Cook translates <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as “the
+                    Reed Sea” (Num 14:25) and “the Sea of Reeds” (Num 21:4; 33:10-11).<note
+                        place="foot" xml:id="ftn25" n="25"><p rend="footnote text"> Edward M. Cook,
+                                <hi rend="italic">Numbers in The Syriac Peshiṭta Bible with English
+                                Translation</hi>, eds. George Anton Kiraz and Andreas Juckel
+                            (Piscataway: Gorgias Press, 2015). </p></note> Similarly in Deuteronomy,
+                    Carmel McCarthy phrases it as “the Sea of Reeds” (Deut 1:40; 2:1; 11:4).<note
+                        place="foot" xml:id="ftn26" n="26"><p rend="footnote text"> McCarthy, <hi
+                                rend="italic">Deuteronomy</hi>.</p></note> Gillian Greenberg and
+                    Donald M. Walter consistently render <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as “the
+                    Sea of Suph” in Joshua (Josh 2:10; 4:23; 24:6),<note place="foot" xml:id="ftn27"
+                        n="27"><p rend="footnote text"> Gillian Greenberg and Donald M. Walter, <hi
+                                rend="italic">Joshua in The Syriac Peshiṭta Bible with English
+                                Translation</hi>, eds. George Anton Kiraz and Andreas Juckel
+                            (Piscataway: Gorgias Press, 2015).</p></note> as “the sea of Suph” in
+                    Judges (Jud 11:16)<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text"> Donald M. Walter and Gillian Greenberg, <hi
+                                rend="italic">Judges in The Syriac Peshiṭta Bible with English
+                                Translation</hi>, eds. George Anton Kiraz and Andreas Juckel
+                            (Piscataway: Gorgias Press, 2015).</p></note>, and again as “the Sea of
+                    Suph” in 1 Kings.<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text"> Donald M. Walter and Gillian Greenberg, <hi
+                                rend="italic">Kings in The Syriac Peshiṭta Bible with English
+                                Translation</hi>, eds. George Anton Kiraz and Andreas Juckel
+                            (Piscataway: Gorgias Press, 2018).</p></note> For Psalms, Richard A.
+                    Taylor uses “the Sea of Reeds” as his slot translation (Ps 106:7, 9, 22; 135[MT
+                    136]:13, 15). In Jdt 5:13, Walter, Greenberg, and Eric Tully use “the Sea of
+                    Suph” as their translation.<note place="foot" xml:id="ftn30" n="30"><p
+                            rend="footnote text"> Donald M. Walter, Gillian Greenberg, and Eric
+                            Tully, <hi rend="italic">The Book of Women: Ruth, Susanna, Esther, and
+                                Judith in The Syriac Peshiṭta Bible with English Translation</hi>,
+                            eds. George Anton Kiraz and Andreas Juckel (Piscataway: Gorgias Press,
+                            2020).</p></note> In sum, the most prominent translations in the Old
+                    Testament are “the Sea of Suph” and “the Sea of Reeds.”</p>
+                <p>While an early error entered the Syriac text tradition at 2 Chron 2:16 (MT 15) as
+                    <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> “the
+                    Sea of Suph” as attested by the only reading found in the Leiden edition,<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text"> R. P. Gordon in
+                            collaboration with P. B. Dirksen (eds.), <hi rend="italic">Chronicles,
+                                Part IV.2 of The Old Testament in Syriac according to the Peshiṭta
+                                Version</hi> (Leiden: Brill, 1998).</p></note> the Antioch Bible
+                    correctly reads <foreign xml:lang="syr">ܝܡܐ
+                        ܕܝܘܦܐ</foreign> “the sea of Joppa,” a reading confirmed by the Hebrew <foreign xml:lang="heb">יָם יָפוֹ</foreign> “the sea of
+                        Joppa.”<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text">
+                            Robert P. Gordon, <hi rend="italic">Chronicles in The Syriac Peshiṭta
+                                Bible with English Translation</hi>, eds. George Anton Kiraz and
+                            Andreas Juckel (Piscataway: Gorgias Press, 2019). </p></note> The
+                    translations of Neh 9:9 and 1 Macc 4:9 have yet to appear in print.</p>
+                <p>Turning to the New Testament, Robert Kitchen offers the rendition “the Red Sea”
+                    for <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> in the
+                    text, but adds a footnote stating that it literally means “sea of reeds.”<note
+                        place="foot" xml:id="ftn33" n="33"><p rend="footnote text"> Robert Kitchen,
+                                <hi rend="italic">Acts in The Syriac Peshiṭta Bible with English
+                                Translation</hi>, eds. George Anton Kiraz and Andreas Juckel
+                            (Piscataway: Gorgias Press, 2014), 47.</p></note> In Heb 11:29, Daniel
+                    King and J. Edward Walters render <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as “the
+                    Red Sea” without any footnote.<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text"> Daniel King and J. Edward Walters, <hi
+                                rend="italic">Hebrews and the General Catholic Epistles in The
+                                Syriac Peshiṭta Bible with English Translation</hi>, eds. George
+                            Anton Kiraz and Andreas Juckel (Piscataway: Gorgias Press, 2016),
+                            123.</p></note> These renderings ignore the Syriac and slot in a
+                    contemporary traditional translation based on the Greek.</p>
+            </div>
+            <div xml:id="hv24n2lund.5" xml:lang="en">
+                <head>5. Conclusion</head>
+                <p>Historically speaking, the translators of the Peshitta Bible understood the word
+                    <foreign xml:lang="syr">ܣܘܦ</foreign> in the
+                    collocation <foreign xml:lang="syr">ܝܡܐ
+                        ܕܣܘܦ</foreign> to be a proper noun, that is, “The Sea of Suph.” The translators
+                    of the New Testament borrowed the Old Testament term <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> “the Sea
+                    of Suph” to bring harmony to the text of Scripture, rather than translating the
+                    Greek
+                    <foreign xml:lang="gr">ἐρυθρὰ θάλασσα </foreign> “the
+                    Red Sea,” as <foreign xml:lang="syr">ܝܡܐ
+                        ܣܘܡܩܐ</foreign> “the Red Sea.” It was not until the translations of Paul of Tella
+                    and Thomas of Harkl that the term <foreign xml:lang="syr">ܝܡܐ ܣܘܡܩܐ</foreign> “the Red
+                    Sea” entered Syriac literature. Later interpreters tried to add meaning to the
+                    text by explaining the term <foreign xml:lang="syr">ܣܘܦ</foreign> etymologically,
+                    connecting it to the root <foreign xml:lang="syr">ܣܘܦ</foreign> “come to an
+                    end.” For some, it was where the Egyptian hordes came to an end. For others, it
+                    was where the sea came to an end as its tongue extended into Egypt. No one
+                    connected it to river fauna. Only in modern times have native speakers of Syriac
+                    followed the view that <foreign xml:lang="syr"
+                        >ܣܘܦ</foreign> is equivalent to an Egyptian word meaning “papyus,” a water plant.
+                    While British scholars quickly embraced the suggestion, Carl Brockelmann did
+                    not. But since both Toma Audo and Jacques-Eugene Manna accept the view that <foreign xml:lang="syr">ܣܘܦ</foreign> means
+                    “papyrus,” it is permissible to translate <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as “the
+                    Reed Sea” or the like in a modern church Bible, even though the ancient
+                    translators and interpreters of the Bible did not recognize it as such. My
+                    personal preference would be to render <foreign xml:lang="syr">ܝܡܐ ܕܣܘܦ</foreign> as “the
+                    Sea of Suph” in the Antioch Bible, adding the modern understanding in a
+                    footnote. For the New Testament, the note should read that the New Testament
+                    translators substituted the Old Testament expression “the Sea of Suph” rather
+                    than translated the Greek “the Red Sea.”</p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Accordance Bible Software. Targumic modules: TARG-T for Onqelos, TARG2-T for
+                    Neofiti, TARGG-T for the Cairo Geniza manuscript, and TARGF-T for the Fragment
+                    Targums. </bibl>
+                <bibl>Audo, Toma.
+                        <hi rend="italic">Treasure of the Syriac Language </hi>(<hi
+                        rend="italic">Simtā d-leššānā suryāyā</hi>), 2 vols. Mosul: Dominican Press,
+                    1897.</bibl>
+                <bibl>Brock, Sebastian P. <hi rend="italic">The Bible in the Syriac Tradition</hi>.
+                    Second Revised Edition. Gorgias Handbooks 7. Piscataway: Gorgias Press,
+                    2006.</bibl>
+                <bibl>Brockelmann, Carl. <hi rend="italic">Lexicon Syriacum</hi>. Second Edition.
+                    Halle: Niemeyer, 1928.</bibl>
+                <bibl>Cook, Edward M. <hi rend="italic">Numbers. The Syriac Peshiṭta Bible with English
+                        Translation</hi>, eds. George Anton Kiraz and Andreas Juckel. Piscataway:
+                    Gorgias Press, 2015. </bibl>
+                <bibl>Cook, Frederic Charles. “<hi rend="italic">On Egyptian Words in the
+                        Pentateuch</hi>.” Pages 476-492 in
+                    <hi rend="italic">The Holy Bible according to the Authorized Version (A.D. 1611), with an Explanatory and Critical Commentary and A Division of the Translation by Bishops and Other Clergy of the Anglican Church, Vol. I – Part I: Genesis–Exodus, ed. </hi>Frederic
+                    Charles Cook<hi rend="italic">. </hi>New York: Scribner,
+                    Armstrong &amp; Co., 1873.</bibl>
+                <bibl>Duval, Rubens, ed.
+                    <hi rend="italic">Lexicon Syriacum Auctore Hassano bar Bahlule e Pluribus Codicibus Edidit et Notulis Instruxit. </hi>Paris,
+                    1901.</bibl>
+                <bibl>Greenberg, Gillian, and Donald M. Walter. <hi rend="italic">Kings. The Syriac
+                        Peshiṭta Bible with English Translation</hi>, eds. George Anton Kiraz and
+                    Andreas Juckel. Piscataway: Gorgias Press, 2018.</bibl>
+                <bibl>Greenberg, Gillian, and Donald M. Walter. <hi rend="italic">Joshua. The Syriac
+                        Peshiṭta Bible with English Translation</hi>, eds. George Anton Kiraz and
+                    Andreas Juckel. Piscataway: Gorgias Press, 2015.</bibl>
+                <bibl>Gordon, R. P., in collaboration with P. B. Dirksen (eds.). <hi rend="italic"
+                        >Chronicles</hi>. Part IV.2 of <hi rend="italic">The Old Testament in Syriac
+                        according to the Peshiṭta Version</hi>. Leiden: Brill, 1998.</bibl>
+                <bibl>Gordon, Robert P. <hi rend="italic">Chronicles</hi>. <hi rend="italic">The Syriac
+                        Peshiṭta Bible with English Translation</hi>, eds. George Anton Kiraz and
+                    Andreas Juckel. Piscataway: Gorgias Press, 2019.</bibl>
+                <bibl>Jennings, William. <hi rend="italic">Lexicon to the Syriac New Testament</hi>.
+                    Revised Ulric Gantillon. Oxford: Clarendon Press, 1926.</bibl>
+                <bibl>Joüon, Paul, S. J., and Takamitsu Muraoka,
+                    <hi rend="italic">A Grammar of Biblical Hebrew. </hi>Rome:
+                    Pontifical Biblical Institute, 2006.</bibl>
+                <bibl>King, Daniel, and J. Edward Walters. <hi rend="italic">Hebrews and the General
+                        Catholic Epistles. The Syriac Peshiṭta Bible with English Translation</hi>,
+                    eds. George Anton Kiraz and Andreas Juckel. Piscataway: Gorgias Press, 2016.</bibl>
+                <bibl>Kiraz, George A. “Introduction.” In Thomas Audo, <hi rend="italic">Treasure of
+                        the Syriac Language</hi>, vol. 1. Piscataway: Gorgias Press, 2008.</bibl>
+                <bibl>Kitchen, Robert. <hi rend="italic">Acts. The Syriac Peshiṭta Bible with English
+                        Translation</hi>, eds. George Anton Kiraz and Andreas Juckel. Piscataway:
+                    Gorgias Press, 2014.</bibl>
+                <bibl>Lund, Jerome A. “2.4.5 Peshitta.” Pages 173–80 in <hi rend="italic">The Hebrew
+                        Bible</hi>, Vol. 1B: <hi rend="italic">Pentateuch, Former and Latter
+                        Prophets</hi>, eds. Armin Lange and Emanuel Tov, in <hi rend="italic"
+                        >Textual History of the Hebrew Bible</hi>, ed. Armin Lange et al. Leiden:
+                    Brill, 2017.</bibl>
+                <bibl>Manna, Jacques-Eugene.
+                    <hi rend="italic">Chaldean – Arabic Dictionary. </hi>Mosul,
+                    1900; reprinted Beirut: Babel Center Publications, 1975. </bibl>
+                <bibl>McCarthy, Carmel. <hi rend="italic">Deuteronomy. The Syriac Peshiṭta Bible with
+                        English Translation</hi>, eds. George Anton Kiraz and Andreas Juckel.
+                    Piscataway: Gorgias Press, 2013. </bibl>
+                <bibl>Meyer, Mark R. <hi rend="italic">Exodus. The Syriac Peshiṭta Bible with English
+                        Translation</hi>, eds. George Anton Kiraz and Andreas Juckel. Piscataway:
+                    Gorgias Press, 2017. </bibl>
+                <bibl>Patterson, Richard D. סוּף. Entry 1479 in <hi rend="italic">Theological Wordbook
+                        of the Old Testament</hi>, eds. R. Laird Harrison, Gleason L. Archer, and
+                    Bruce K. Waltke. Chicago: Moody Bible Institute, 1980. Accordance module
+                    TWOT.</bibl>
+                <bibl>Payne Smith, Jayne.
+                    <hi rend="italic">A Compendious Syriac Dictionary. </hi>Oxford:
+                    Clarendon Press, 1903.</bibl>
+                <bibl>Payne Smith, Robert.
+                    <hi rend="italic">Thesaurus Syriacus. </hi>Oxford:
+                    Clarendon Press, 1879-1901). </bibl>
+                <bibl>Sokoloff, Michael.
+                    <hi rend="italic">A Syriac Lexicon. </hi>Winona Lake:
+                    Eisenbrauns and Piscataway: Gorgias Press, 2009.</bibl>
+                <bibl>Sprengling, Martin, and William Creighton Graham, eds. <hi rend="italic"
+                        >Barhebraeus’ Scholia on the Old Testament</hi>, Part I: <hi rend="italic"
+                        >Genesis–II Samuel</hi>. Chicago: University of Chicago Press, 1931.</bibl>
+                <bibl>Vööbus, Arthur.
+                    <hi rend="italic">The Pentateuch in the Version of the Syro-Hexapla, A facsimile Edition of a Midyat MS. discovered 1964. </hi>CSCO
+                    369, Subsidia 45. Louvain: Secrétariat du CorpusSCO, 1975.</bibl>
+                <bibl>Walter, Donald M., and Gillian Greenberg. <hi rend="italic">Judges. The Syriac
+                        Peshiṭta Bible with English Translation</hi>, eds. George Anton Kiraz and
+                    Andreas Juckel. Piscataway: Gorgias Press, 2015.</bibl>
+                <bibl>Walter, Donald M., Gillian Greenberg, and Eric Tully. <hi rend="italic">The Book
+                        of Women: Ruth, Susanna, Esther, and Judith</hi>. <hi rend="italic">The
+                        Syriac Peshiṭta Bible with English Translation</hi>, eds. George Anton Kiraz
+                    and Andreas Juckel. Piscataway: Gorgias Press, 2020.</bibl>
+                <bibl>Weitzman, M. P. <hi rend="italic">The Syriac Version of the Old Testament</hi>.
+                    University of Cambridge Oriental Publications 56. Cambridge: Faculty of Oriental
+                    Studies, University of Cambridge, 1999.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

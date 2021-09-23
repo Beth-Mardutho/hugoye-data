@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Manichaeism and the <hi rend="italic">Revelation of the Magi</hi></title>
+                <title type="sub">Syriac "Christianities" in Late Antique Mesopotamia</title>
+                <author>
+                    <name><forename>Timothy</forename>
+                        <surname>Pettipiece</surname></name>
+                    <affiliation>
+                        <orgName>Carleton University (Ottawa)</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n2pettipiece</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Timothy Pettipiece</author>
+                        <title level="a">Manichaeism and the <hi rend="italic">Revelation of the Magi</hi>: Syriac "Christianities" in Late Antique Mesopotamia</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N2Pettipiece.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="411" to="452">411-452</biblScope>
+                        <biblScope type="order" n="5"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Manichaeism</term>
+                    <term>Mani</term>
+                    <term>Apocrypha</term>
+                    <term>Early Christianity</term>
+                    <term>Sassanian Empire</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-09-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        
+            <front>
+                <div type="abstract" xml:lang="en">
+            <head>Abstract:</head>
+            <p xml:lang="en">The recently published Syriac Revelation of the Magi has proven to
+                be a remarkable addition to the corpus of early Christian apocryphal literature.
+                This unique amplification of the traditional Nativity narrative recounts the Magi’s
+                encounter with a “star-child” who leads them from their homeland in the far east to
+                the birth of Jesus at Nazareth, where the polymorphic nature of Christ is revealed
+                along with his message of universal salvation. Interestingly, the Revelation of the
+                Magi contains several important points of contact with early Manichaean texts. This
+                paper will examine what those shared motifs might tell us about the common milieu
+                out of which both Manichaeism and the Revelation of the Magi might have emerged. </p>
+                </div>
+            </front>
+        <body>
+            <div xml:id="hv24n2pettipiece.1" xml:lang="en">
+                <head>INTRODUCTION</head>
+                <p rend="H Normal First">Over-familiarity with the biblical narrative often obscures
+                    the strangeness of the tradition, attested by the <hi rend="italic">Gospel of
+                        Matthew</hi>, that the infant Jesus was visited by a group of Persian
+                    priests. Stranger still, if the term <hi rend="italic">magos</hi> is interpreted
+                    as “sorcerer.” Either way, the idea that the birth of Jesus was attended by a
+                    group of travelling magicians or Zoroastrian clergy is an odd detail to be
+                    included in the Christian foundation narrative. Unfortunately, Matthew’s account
+                    is short on specifics, other than that they were led to Bethlehem from “the
+                    east” by some astral event—an equally exotic motif—and that they brought with
+                    them some rather impractical gifts. Over time, however, Christian tradition has
+                    tried to fill in the blanks. Centuries of commentary and apocryphal mythmaking
+                    have transformed the <hi rend="italic">magoi</hi> of the gospel account into the
+                    “Three Wise Men” (or “Kings”) prominently featured in nativity scenes and
+                    Christmas carols throughout many parts of the Christian world.</p>
+                <p>In fact, the tradition of the magi developed in two divergent directions. Whereas
+                    western Christian tradition saw them fashioned into Balthazar, Melchior, and
+                    Gaspar—kings from Arabia, Persia, and India respectively—eastern Christians
+                    identified twelve kings from “beyond the land of Nod.” One of the
+                        “apocryphal”<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text">
+                            While the utility of this term has been contested, it continues to be
+                            used (albeit reluctantly) by various scholars as a way to demarcate an
+                            important body of early Christian literature. For an extensive
+                            discussion see <hi rend="italic">New Testament Apocrypha: More Canonical
+                                Scriptures, Volume I</hi>, ed. Tony Burke and Brent Landau (Grand
+                            Rapids, MI: Eerdmans, 2016), xxii-xxiii.</p></note> texts that attests
+                    to this eastern tradition is the Syriac <hi rend="italic">Revelation of the
+                        Magi</hi>.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">
+                            Brent Landau has done a great service to the field of Early Christian
+                            Studies by bringing increased attention to this hitherto practically
+                            unknown Syriac text. Landau’s Harvard doctoral dissertation, under the
+                            supervision of François Bovon, “The Sages and the Star-Child:An
+                            Introduction to the Revelation of the Magi, An Ancient Christian
+                            Apocryphon” (PhD diss., Harvard University, 2008) contains a re-edited
+                            Syriac text along with English translation and contextual commentary. A
+                            “popular” translation was published in 2010 by HarperCollins, <hi
+                                rend="italic">Revelation of the Magi: The Lost Tale of the Wise
+                                Men’s Journey to Bethlehem</hi>, while a summary of the text has
+                            appeared in <hi rend="italic">New Testament Apocrypha: More Canonical
+                                Scriptures, Volume I</hi>, 19-38. </p></note> Although
+                    conventionally dated to sometime between the late 2<hi rend="superscript"
+                        >nd</hi> and early 4<hi rend="superscript">th</hi> century CE<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> The text appears
+                            to have undergone several redactional stages, such as the possible later
+                            addition of the Judas Thomas epilogue (<hi rend="italic">New Testament
+                                Apocrypha I</hi>, 20-23). A much shorter version of the story is
+                            found in a 5<hi rend="superscript">th</hi>-century Latin commentary on
+                            Matthew, known as the <hi rend="italic">Opus Imperfectum</hi>. While
+                            some scholars, such as Duchesne-Guillemin, believed that both works drew
+                            on a common source (<anchor xml:id="Hlk71635124"/><hi rend="italic"
+                                >“</hi>Die Magier in Bethlehem und Mithras als Erlöser?”
+                            <hi rend="italic">Zeitschrift der Deutschen Morganländischen Gesellschaft </hi>111,
+                            no. 2 (1961): 472), Landau has argued that the <hi rend="italic">Opus
+                                Imperfectum</hi> is an abbreviation of a 4<hi rend="superscript"
+                                >th</hi>-century Greek version of the <hi rend="italic">Revelation
+                                of the Magi</hi>, with the original Syriac version dated even
+                            earlier to the 3<hi rend="superscript">rd</hi> or 2<hi
+                                rend="superscript">nd</hi> century CE (<hi rend="italic">New
+                                Testament Apocrypha I</hi>, 21-22). Moreover, thematic affinities
+                            with other early Christian apocrypha texts also point to a 2<hi
+                                rend="superscript">nd</hi>-3<hi rend="superscript">rd</hi> century
+                            context
+                            (<hi rend="italic">New Testament Apocrypha I, </hi>22).
+                        </p></note> and associated with the city of Edessa,<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text"> Landau has asserted a partial
+                            Edessene association for the text
+                            (<hi rend="italic">New Testament Apocrypha I, </hi>23),
+                            but this is conjectural. It has become customary in scholarship to
+                            highlight the role of Edessa in the emergence of Christianity in
+                            Mesopotamia, largely due to the success of the Abgar legend, and to
+                            associate early Syriac literary traditions with that locale. This view,
+                            however, has been problematized by <anchor xml:id="Hlk71635234"/>David
+                            Taylor (“The Coming of Christianity to Mesopotamia,” in
+                            <hi rend="italic">The Syriac World, </hi>ed. Daniel
+                            King [New York: Routledge, 2019], 68-87), who highlights the historical
+                            unreliability of the traditional apostolic origin stories and advocates
+                            for a more nuanced reconstruction of the origins of Syriac Christianity.
+                            As for the <hi rend="italic">Revelation of the Magi</hi>, there is no
+                            internal evidence that specifically links its origins to Edessa, other
+                            than the emphasis on Thomas, which itself appears to be a later
+                            addition. </p></note> the origins of the
+                    <hi rend="italic">Revelation of the Magi </hi>remain
+                    largely obscure. We find it preserved in the 8<hi rend="superscript"
+                    >th</hi>-century Syriac <hi rend="italic">Chronicle of Zuqnin</hi>,<note
+                        place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> The text was
+                            inserted into the world-chronicle by the author/compiler with no
+                            commentary (Landau, <hi rend="italic">Sages and the Star-Child</hi>,
+                            3-5). </p></note> as part of a world history. This text is remarkable in
+                    several ways, not only does it offer an extensive and compelling amplification
+                    of a key part of the Nativity story, but it also presents a decidedly
+                    pluralistic concept of revelation, prophecy, and divine truth. </p>
+                <p>According to the <hi rend="italic">Revelation</hi>’s account, the magi form part
+                    of a long lineage of initiates from “land of Shir” (2.4) in the far east,<note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> For perceptions of
+                            the far east in late antique literature, including the <hi rend="italic"
+                                >Revelation of the Magi</hi>, see Annette Yoshiko Reed, “Beyond the
+                            Land of Nod: Syriac Images of Asia and the Historiography of ‘The
+                            West’,” <hi rend="italic">History of Religions</hi> 49, no. 1 (August
+                            2009): 48-87.</p></note> who have preserved primordial revelations from
+                    Adam and Seth in a remote mountain retreat. Praying in silence, they await the
+                    appearance of a brilliant star that will outshine the heavens and lead them to
+                    further divine knowledge. When the star finally appears after many generations,
+                    it reveals itself as a polymorphic saviour and leads the magi on a fantastic
+                    journey westward to Bethlehem just in time for the birth of Jesus.<note
+                        place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> Early Christians
+                            have put forward a variety of explanations for the appearance of a star
+                            at the birth of Jesus (see Nicola Denzey, “A New Star on the Horizon:
+                            Astral Christologies and Stellar Debates in Early Christian Discourse,”
+                            in <hi rend="italic">Prayer, Magic, and the Stars in the Ancient and
+                                Late Antique World,</hi> ed. Scott Noegel et al [Pennsylvania:
+                            Pennsylvania State University Press, 2003], 207-221), although none are
+                            as theologically developed as what is presented in the <hi rend="italic"
+                                >Revelation of the Magi</hi>. </p></note> After their return home,
+                    the apostle Judas Thomas arrives and explains to them the true Christological
+                    meaning of their experience. The magi are then baptized and given an apostolic
+                    commission of their own.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"> See Landau’s full translation in <hi rend="italic"
+                                >Revelation of the Magi</hi> and summary in
+                            <hi rend="italic">New Testament Apocrypha </hi>30-38.</p></note>
+                </p>
+                <p>In-depth study of the <hi rend="italic">Revelation of the Magi</hi> has only just
+                    begun and its relationship with other late antique religious traditions has yet
+                    to be fully explored. Who wrote it and for what sort of audience or community
+                    are questions that remain unanswered. As a starting point for further
+                    contextualization, it should be noted that there are a number of passages in the
+                    text that resonate with terminological and theological motifs found in the
+                    surviving corpus of Manichaean literature. As such, this article will argue that
+                    several key elements found in both the <hi rend="italic">Revelation of the
+                        Magi</hi> and Manichaean discourse are indicators of their emergence from a
+                    shared historical and religious milieu within early Syriac Christianity. </p>
+            </div>
+            <div xml:id="hv24n2pettipiece.2" xml:lang="en">
+                <head>The Magi in Manichaean Literature</head>
+                <p rend="H Normal First">Even though the figure of Zoroaster (Zarathustra) is
+                    considered to be an important part of the Manichaean prophetic lineage—along
+                    with the Buddha and Jesus—and Mani is sometimes presented as debating
+                    Zoroastrian doctrines,<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text"> See Paul Dilley, “Also Schrieb Zarathustra? Mani
+                            As Interpreter of the ‘Law of Zarades’” in Iain Gardner, Jason BeDuhn,
+                            and Paul Dilley, <hi rend="italic">Mani at the Court of the Persian
+                                Kings: Studies on the Chester Beatty "Kephalaia" Codex</hi> (Leiden:
+                            Brill, 2015), 101-135.</p></note> the figure of the <hi rend="italic"
+                        >magus</hi> is generally despised in early Manichaean texts due to the role
+                    played by members of the Zoroastrian priesthood in the execution of Mani<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> See W. B.
+                            Henning, “Mani’s Last Journey,” <hi rend="italic">Bulletin of the School
+                                of Oriental and African Studies</hi> 10, no.4 (1942): 941-953; see
+                            also Iain Gardner, “Mani’s Last Days,” in Gardner, BeDuhn, and Dilley,
+                                <hi rend="italic">Mani at the Court of the Persian Kings</hi>,
+                            159-208.</p></note> and the persecution of his early movement. According
+                    to the <hi rend="italic">Narrative of the Crucifixion</hi>, from the Manichaean
+                        <hi rend="italic">Homilies</hi> codex:</p>
+                <p rend="H Quote Block">When the Magi noticed how (people) asked: ‘Who, indeed, is
+                    this person who has entered (the city)?,’ [(and how others) answered] them: ‘It
+                    is Manichaios,”—when they heard [these (words), they shook] and were filled with
+                    wrath. They went and accused [him] before Kardel (<foreign xml:lang="cop">ⲕⲁⲣⲇⲉⲗ</foreign>). Kardel himself told it to the
+                    assessor (<foreign xml:lang="cop">ⲥⲩⲛⲕⲁⲑⲉⲇⲣⲟⲥ</foreign>). Then Kardel and
+                    the assessor went [and proclaimed] the accusations to the counsellor (<foreign xml:lang="cop">ⲙⲁⲅⲓⲥⲧⲱⲣ</foreign>). The counsellor himself told it
+                    to the king. When he heard these (words), … Then he sent and called for my lord.
+                    On the lord’s day (<foreign xml:lang="cop">ⲕⲩⲣⲓⲁⲕⲏ</foreign>) he entered
+                    Belapat (<foreign xml:lang="cop">ⲃⲏⲗⲁⲡⲁⲧ</foreign>)” (<hi rend="italic"
+                        >Homilies</hi> 45.11-20).<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text"> Nils Arne Pedersen, <hi rend="italic">Manichaean
+                                Homilies</hi>, Corpus Fontium Manichae-orum, Series Coptica II
+                            (Turnhout: Brepols, 2006).</p></note></p>
+                <p>The “Kardel” mentioned in this Coptic text is none other than the (im)famous
+                    Zoroastrian high priest Kartir, who boasted about his persecution of various
+                    religious communities in the Sassanian Empire in Middle Persian inscriptions
+                    from the 3<hi rend="superscript">rd </hi>century CE,
+                    including the Manichaeans themselves.<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text"> D. N. MacKenzie, “A Zoroastrian Master of
+                            Ceremonies,” in <hi rend="italic">W.B. Henning Memorial Volume</hi>, ed.
+                            Mary Boyce, and Ilya Gershevitch (London: Lund Humphries,
+                        1970).</p></note></p>
+                <p>As a result, the Zoroastrian priestly class is subsequently portrayed in an
+                    extremely negative light by Manichaean authors, particularly those writing in
+                    the late 3<hi rend="superscript">rd</hi> and early 4<hi rend="superscript"
+                        >th</hi> century CE Mesopotamian context, for whom the traumas of
+                    persecution were still deeply felt. For instance, in the Manichaean <hi
+                        rend="italic">Sermon on the Great War</hi>, also from the Coptic <hi
+                        rend="italic">Homilies</hi> codex, the biblical figure of Babylon is
+                    presented as the personification of Evil and as the enemy of righteousness in
+                    the world. Specifically, we are told, she has “reigned in the fire [of the]
+                    magi” (<foreign xml:lang="cop">ⲁⲥⲣ̅ ⲣ̅ⲣⲟ ϩⲛ̅ ⲧⲥⲉⲧⲉ ϩⲛ [ⲛ̅ⲧⲉ
+                        ⲙ̅]ⲙⲁⲅⲟⲩⲥⲁⲓⲟⲥ</foreign>)
+                        (<hi rend="italic">Homilies </hi>11.17-18),<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> Pedersen, <hi
+                                rend="italic">Manichaean Homilies</hi>. </p></note> who are also
+                    referred to as “rulers in the world” (<foreign xml:lang="cop">ⲛ̅ⲣ̅ⲣⲟ
+                        ϩⲙ̅ ⲡⲕⲟⲥⲙⲟⲥ</foreign>) (<hi rend="italic">Homilies</hi> 26.2) in the text’s
+                    originally Sassanian context. Similarly, in the Coptic Manichaean <hi
+                        rend="italic">Psalm-Book</hi>, the magi (<foreign xml:lang="cop"
+                            >ⲙ̅ⲙⲁⲅⲟⲩⲥⲁⲓⲟⲥ</foreign>) are classed among the “lawless sects” (<foreign xml:lang="cop">ⲛ̅ⲇⲟⲅⲙⲁ ⲛ̅ⲁⲛⲟⲙⲟⲥ</foreign>) (<hi rend="italic"
+                                >Psalm-Book</hi> 15.7) and are called “impious men, mad and godless” (<foreign xml:lang="cop">ⲛ̅ⲁⲥⲉⲃⲏⲥ ⲉⲧⲗⲁⲃⲉ ⲛ̅ⲁⲧⲛⲟⲩⲧⲉ</foreign>)
+                        (<hi rend="italic">Psalm-Book </hi>15.11).<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text"> The
+                            <hi rend="italic">Psalm-Book </hi>further castes
+                            them as “brothers of the Jews, the murderers of Christ” (<hi
+                                rend="italic">Psalm-Book</hi> 15.11-12) in an effort to make the
+                            death of Mani more closely resemble that of Jesus. </p></note></p>
+                <p>Moreover, on a more scriptural level, Manichaeans had little to no interest in
+                    the Nativity story, since they generally denied the physical birth of Jesus. In
+                    the 4<hi rend="superscript">th</hi> century CE anti-Manichaean disputation known
+                    as the <hi rend="italic">Acts of Archelaus</hi>, Mani is presented as writing to
+                    a pious Mesopotamian man named Marcellus in order to win him as a convert to his
+                    new religion, saying: </p>
+                <p rend="H Quote Block">I am completely amazed at how they can dare to call God the
+                    maker and creator of Satan and his evil deeds. Would that their vacuity had
+                    reached only this far and they did not say that the only-begotten Christ, ‘who
+                    descended from the Father’s bosom,’ was the son of a woman called Mary, and was
+                    born of flesh and blood and all the other pollutions of women” (<hi
+                        rend="italic">Acts of Archelaus</hi> V).<note place="foot" xml:id="ftn15"
+                        n="15"><p rend="footnote text"> Hegemonius, <hi rend="italic">Acta Archelai
+                                (The Acts of Archelaus)</hi>, trans. Mark Vermes (Louvain: Brepols,
+                            2001), 42; Hegemonius, <hi rend="italic">Acta Archelai</hi>, GCS 16
+                            (Leipzig: J.C. Hinrichs, 1906).</p></note></p>
+                <p>This position is also affirmed by the “Psalms to Jesus” from the Manichaean <hi
+                        rend="italic">Psalm-Book</hi>, which state that Jesus “was not born in a
+                    womb corrupted” (<hi rend="italic">Psalm-Book</hi> 53.23).<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text"> C.R.C. Allberry, <hi
+                                rend="italic">A Manichaean Psalm-Book, Part II</hi> (Stuttgart:
+                            Kohlhammer, 1938). </p></note> As such, in surviving sources, Manichaean
+                    authors display no real interest in the magi as playing a role in the story of
+                    birth of Jesus,<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text">
+                            On the origins of Jesus in the Manichaean myth see Majella Franzmann,
+                            <hi rend="italic">Jesus in the Manichaean Writings </hi>(London:
+                            T&amp;T Clark, 2003), 51-59.</p></note> other than for polemical
+                    purposes. For them, Jesus has a much larger function in their cosmogonic myth as
+                    an avatar of the ruler of the light realm and his chosen champion against the
+                    powers of darkness. Augustine, in fact, in his dispute with the North African
+                    Manichaean Bishop Faustus, referenced the Magi as he mocked this Manichaean
+                    notion of the cosmic Christ:</p>
+                <p rend="H Quote Block">You are not ashamed, however, to speak ill of the star by
+                    which the Magi were led to adore the infant Christ. And yet you do not locate
+                    your false Christ, the son of your false first man, under a star that bears
+                    witness to him, but you say that he is imprisoned in all the stars. For you
+                    believe that he was mingled with the princes of darkness in that war by which
+                    that first man of yours fought against the nation of darkness, with the result
+                    that the world was fashioned out of the very princes of darkness who were
+                    captured in such a mingling. Hence, these sacrilegious ravings also force you to
+                    say that Christ—no longer your savior but someone for you to save when you eat
+                    those things and belch—is confined and imprisoned not only in heaven and in all
+                    the stars but also in the earth and in all the things that are born from it (<hi
+                        rend="italic">Contra Faustum</hi>, 2.5).<note place="foot" xml:id="ftn18"
+                        n="18"><p rend="footnote text"> Augustine, <hi rend="italic">Answer to
+                                Faustus, a Manichean</hi>, trans. Roland Teske, <hi rend="italic"
+                                >The Works of Saint Augustine: A Translation for the 21</hi><hi
+                                rend="italic superscript"
+                            >st</hi><hi rend="italic"> Century</hi> (NY: New
+                            City Press, 2007), 73-74;
+                            <hi rend="italic">Sancti Aureli Augustini, </hi>ed.
+                            Zycha, CSEL 25.1 (Vienna, 1891), 258.</p></note></p>
+                <p>Unbeknownst to Augustine, the astral messiah he ridicules here is not entirely
+                    dissimilar to the saviour figure portrayed in the <hi rend="italic">Revelation
+                        of the Magi</hi>. </p>
+            </div>
+            <div xml:id="hv24n2pettipiece.3" xml:lang="en">
+                <head>MANICHAEAN MOTIFS IN THE <hi rend="italic">REVELATION OF THE MAGI</hi></head>
+                <p rend="H Normal First">Given the apparent lack of interest that Manichaeans would
+                    have had in the Nativity story generally and the “magi” specifically, it seems
+                    surprising that a text such as the
+                    <hi rend="italic">Revelation of the Magi </hi>which seeks
+                    to amplify and expand upon their story should contain elements that appear to
+                    resonate strongly with several important concepts<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text"> This comparative exercise is
+                            based on the fact that both the
+                            <hi rend="italic">Revelation of the Magi </hi>and
+                            early Manichaean texts derive from the same geographic and linguistic
+                            milieu, as well as being more or less contemporaneous with each other.
+                            As mentioned above, the <hi rend="italic">Revelation of the Magi</hi> is
+                            thought to have been composed originally in Syriac sometime during the
+                                3<hi rend="superscript">rd</hi>-4<hi rend="superscript">th</hi>
+                            centuries CE, whereas the earliest expressions of Manichaean theological
+                            discourse would have been in Syriac (the language of Mani himself)
+                            during that same period. Some of the earliest surviving Manichaean
+                            literature in Greek and Coptic shows significant traces of this Syriac
+                            substratum (particularly the “Psalms of Thomas” and the <hi
+                                rend="italic">Cologne Mani Codex</hi>, see below). In fact, the
+                            Manichaean material from Kellis contains multilingual texts including
+                            Coptic-Syriac glossaries (Iain Gardner,
+                            <hi rend="italic">Kellis Literary Texts, Vol. I </hi>[Oxford:
+                            Oxbow, 1996], 101-131). For these reasons, as well as the limits of the
+                            author’s linguistic abilities, this study is restricted primarily to
+                            Manichaean texts in Coptic and Greek. Further work would be needed to
+                            trance these elements further afield in Manichaean literature from
+                            Central Asia. </p></note> from Manichaean tradition.<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text"> It should be noted, also,
+                            that this study seeks to compare a single text (<hi rend="italic"
+                                >Revelation of the Magi</hi>) to a parallel religious “discourse”
+                            attested by multiple (often fragmentary) sources. Even thought Mani went
+                            to great lengths to record his teachings in writing, this “canonical”
+                            tradition has been mostly lost. The theological framework articulated by
+                            Mani must be pieced together from a variety of sources, some of which
+                            show significant evidence of redaction and development by later
+                            Manichaean interpreters (see Timothy Pettipiece, <hi rend="italic"
+                                >Pentadic Redaction in the Manichaean Kephalaia</hi> [Leiden: Brill,
+                            2009]), as well as a degree of regional variation (see Jason BeDuhn,
+                            <hi rend="italic">The Manichaean Body in Discipline and Ritual </hi>[Baltimore:
+                            John Hopkins University Press, 2000], 1-24). At most we can speak of
+                            early Manichaean tradition(s), as opposed to what Mani himself may or
+                            may not have specifically taught. Still the proximity of these sources
+                            to one another warrants juxtaposition. </p></note>
+                </p>
+                <div xml:id="hv24n2pettipiece.3.1" xml:lang="en">
+                    <head>1. Father of Greatness</head>
+                    <p>The first element that stands out is the terminology used by the author of
+                        the <hi rend="italic">Revelation of the Magi</hi> to describe God. According
+                        to the text, as the magi reflected upon their ancient ritual tradition, they
+                        knelt before the “Cave of Treasures of Hidden Mysteries” <foreign xml:lang="syr">ܡܥܪܬ ܓܙܐ ܕܐܪܙܐ
+                            ܟܣܝܐ</foreign>) and “prayed and worshiped in silence, without a sound, to the <hi
+                            rend="italic">Father of that heavenly majesty</hi> that is ineffable and
+                        infinite forever” (<hi rend="italic">Revelation of the Magi</hi> 5.7).<note
+                            place="foot" xml:id="ftn21" n="21"><p rend="footnote text"> Landau, <hi
+                                    rend="italic">Revelation of the Magi</hi>, 43.</p></note> Aside
+                        from the (likely incidental) fact that Mani is said to have composed
+                        scriptural texts known as the
+                        <hi rend="italic">Treasure of Life </hi>and the <hi
+                            rend="italic">Mysteries</hi>,<note place="foot" xml:id="ftn22" n="22"><p
+                                rend="footnote text"> According to John C. Reeves, terms like
+                                <hi rend="italic">treasury </hi>and
+                                <hi rend="italic">treasure of life </hi>“pepper
+                                the lexicon of Syro-Mesopotamian gnosis” (“Reconsidering the
+                                ‘Prophecy of Zardūšt’,” in <hi rend="italic">A Multiform Heritage:
+                                    Studies in Early Judaism and Christianity in Honor of Robert A.
+                                    Kraft</hi>, ed. Benjamin G. Wright (Atlanta: Scholars Press,
+                                1999), 167-182) as commonly shared motifs. </p></note> the Syriac
+                        phrase translated by Landau as “Father of Heavenly Majesty”<note
+                            place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> A slight
+                                variant occurs at
+                                <hi rend="italic">Revelation of the Magi </hi>3.5:
+                                “Greatness of the Father” (<foreign xml:lang="syr">ܪܒܘܬܗ ܕܐܒܐ</foreign>).</p></note> can also be
+                        rendered as “Father of Greatness” (<foreign xml:lang="syr">ܐܒܐ ܕܪܒܘܬܐ</foreign>) (<hi rend="italic">Revelation
+                            of the Magi</hi> 5.7). As it happens, the “Father of Greatness” is the
+                        primary name for the ruler of the Manichaean light-realm used in Syriac,
+                        Greek, and Coptic Manichaean texts.<note place="foot" xml:id="ftn24" n="24"
+                                ><p rend="footnote text"> Sebastian Brock has already signaled the
+                                importance of this association in 2006 (“An Archaic Syriac Prayer
+                                over Baptismal Oil,”
+                                <hi rend="italic">Studia Patristica </hi>41
+                                [2006]: 12), although without further comment. See Theodore bar
+                                Khonai’s Syriac account of the Manichaean cosmogony in <hi
+                                    rend="italic">Book of Scholia</hi>
+                                (<hi rend="italic">Liber scholiorum, </hi>ed.
+                                Addai Scher; CSCO 69; [Louvain: Imprimerie orientaliste L. Durbecq,
+                                1954], 313.15). Also attested in Greek as ὁ πατἠρ τοῦ μεγέθους in
+                                the
+                                <hi rend="italic">Seven Chapters Against Manichaeans </hi>3
+                                (see Lieu, Fox, and Sheldon <hi rend="italic">Greek and Latin
+                                    Sources on Manichaean Cosmogony and Ethics</hi>, Corpus Fontium
+                                Manichaeorum, Series Subsidia VI [Turnhout: Brepols, 2010], 119),
+                                and as
+                                    <foreign xml:lang="cop">ⲡⲓⲱⲧ ⲛⲧⲉ ⲧⲙⲛⲧⲛⲁϩ </foreign>in
+                                Coptic sources, including the (as yet) unpublished portions of
+                                Mani’s
+                                <hi rend="italic">Living Gospel </hi>from the
+                                    <hi rend="italic">Synaxeis</hi> codex (Wolf-Peter Funk, <hi
+                                    rend="italic">personal communication</hi>). See Aloïs van
+                                Tongerloo, “The Father of Greatness,” in
+                                <hi rend="italic">Gnosisforschung und Religionsgeschichte. Festschrift fūr Kurt Rudolph zum 65. Geburtstag, </hi>ed.
+                                Holger Preißler und Hubert Seiwert (Marburg: diagonal-Verlag, 1994),
+                                329-342 and Paul Van Lindt, <hi rend="italic">The Names of
+                                    Manichaean Mythological Figures: A Comparative Study on
+                                    Terminology in the Coptic Sources</hi> (Wiesbaden: Otto
+                                Harrassowitz, 1992), 3-16.</p></note> A similar figure, the “Lord of
+                        Greatness,” (<hi rend="italic">mara d-rabuta</hi>) is also mentioned in
+                        Mandaean texts,<note place="foot" xml:id="ftn25" n="25"><p
+                                rend="footnote text"> See Mandaean <hi rend="italic">Book of
+                                    John</hi> 66.13; 67.41 (Charles G. Häberl and James F. McGrath,
+                                eds., <hi rend="italic">The Mandaean Book of John: Text and
+                                    Translation</hi> [Berlin: De Gruyter, 2020]).</p></note> and as
+                        there is a close relationship between Manichaean and Mandaean literature,
+                        Geo Widengren suggested that there must be some link between the
+                        <hi rend="italic">Revelation of the Magi </hi>and those
+                            traditions.<note place="foot" xml:id="ftn26" n="26"><p
+                                rend="footnote text">
+                                <hi rend="italic">Iranisch-semitische Kulturbegegnung in parthischer Zeit </hi>(Köln:
+                                Westdeut-scher Verlag, 1960), 74.</p></note>
+                    </p>
+                    <p>While the use of the title “Father of Greatness” is most often associated
+                        with Manichaeism, it is not unthinkable that such an epithet formed part of
+                        a shared Aramaic religious vocabulary in late antique Mesopotamia, as it is
+                        also attested in a handful of post-Manichaean sectarian theologies.<note
+                            place="foot" xml:id="ftn27" n="27"><p rend="footnote text"> Theodore bar
+                                Khonai describes the teaching of a certain John of Apamea (not the
+                                influential monastic spiritual author), in which the sole God is
+                                referred to as the “Father of Greatness” (<hi rend="italic">Book of
+                                    Scholia</hi> 11.76)
+                                (<hi rend="italic">Théodore bar Koni: Livre des scholies (recension de Séert) I. Mimrè I-V, </hi>trans.
+                                Robert Hespel and René Draguet, CSCO, Scriptores syri 187 (Louvain:
+                                Peeters, 1981), 248. He also presents the doctrine of the (5<hi
+                                    rend="superscript">th</hi> cent CE?) sectarian leader Batai, who
+                                promoted a kind of modified dualism whereby Good and Evil were
+                                derived from the “Father of Greatness” (<hi rend="italic">Book of
+                                    Scholia</hi> 11.85 (<hi rend="italic">Théodore bar Koni</hi>,
+                                256-257).</p></note> Still, given the title’s close association with
+                        Manichaean discourse it is difficult to imagine it being used by an author
+                        who wasn’t sympathetic to Mani’s ideas or seeking to appeal to them in some
+                        way. </p>
+                    <p>Similarly, the <hi rend="italic">Revelation of the Magi</hi> also refers to
+                        God as the “Lord of All” (<foreign xml:lang="syr">ܡܪܐ ܟܠ</foreign> )
+                        (32.3), a title which is found is found in Manichaean sources (“Lord of All”
+                        (<foreign xml:lang="cop">[ⲡϫⲁⲓ̈ⲥ] ⲙ̅ⲡⲧϩⲏⲣϥ) </foreign>as
+                        an alternate name for the “Father of Greatness” (<hi rend="italic"
+                            >Homilies</hi> 47.13-14; <hi rend="italic">Kephalaia</hi> 40.10; 156.6).
+                        Once again, it is difficult to determine if this reflects a distinctively
+                        Manichaean usage or is derived from a common theological lexicon.</p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.2" xml:lang="en">
+                    <head>2. Revealed Books and Primordial Prophets</head>
+                    <p>The <hi rend="italic">Revelation of the Magi</hi> also puts an important
+                        emphasis on revealed knowledge being recorded in books. Seth, we are told,
+                        set his wisdom “down in a book” and, in fact, “from him a book appeared in
+                        the world for the first time” (3.2-3). Noah, in turn, preserved the “books
+                        of Seth about the majesty (i.e. greatness) of the Father” (3.5 <foreign xml:lang="syr">ܐܒܐ ܕܪܒܘܬܐ</foreign>)
+                        and took them into the Ark. These books were then subsequently preserved in
+                        the ancient tradition of the magi (3.6). </p>
+                    <p>With this idea, too, we find parallels in Manichaean tradition. Whereas Mani
+                        is said to have included Buddha, Zoroaster, and Jesus in his list of
+                        prophetic predecessors, some early Manichaean texts also insert a
+                        pre-Noachid lineage going back to the biblical figure of Seth(el).<note
+                            place="foot" xml:id="ftn28" n="28"><p rend="footnote text"> This sort of
+                                biblical lineage is found in a wide array of Manichaean and
+                                anti-Manichaean sources, see Michel Tardieu, <hi rend="italic">Le
+                                    manichéisme</hi> (Paris: Presses universitaires de France,
+                                1981), 20-22. Moreover, the idea of “Sethian” <hi rend="italic"
+                                    >gnosis</hi> is a well-established trope in apocryphal
+                                literature, see A. F. J. Klijn, <hi rend="italic">Seth in Jewish,
+                                    Christian, and Gnostic Traditions</hi> (Leiden: Brill, 1977). A
+                                discussion of a so-called “Prayer of Sethel” forms the basis of
+                                <hi rend="italic">Kephalaia </hi>chapter 10
+                                (42.24-43.21). This connection to Seth is particularly notable in
+                                light of the fact that the “abbreviated” version of the
+                                <hi rend="italic">Revelation of the Magi </hi>story,
+                                found in the <hi rend="italic">Opus Imperfectum</hi>, is said to be
+                                derived from an “apocryphal book in the name of Seth” <anchor
+                                    xml:id="Hlk71719073"/>(Alexander Toepel, “The Apocryphon of
+                                Seth,” in <hi rend="italic">Old Testament Pseudepigrapha: More
+                                    Noncanonical Scriptures</hi>, vol. 1, ed. Bauckham, Davila, and
+                                Panayotov [Grand Rapids: Eerdmans, 2013], 33-39).</p></note> For
+                        example, in <hi rend="italic">Kephalaia</hi> Chapter 1 “On the Coming of the
+                        Apostle” Mani is presented as articulating a sequence of apostolic
+                        predecessors “from Sethel [the first] born son of Adam up to Enosh, along
+                        with [Enoch]; [from] Enoch [up] to Sem [the] son of [Noah …” (<hi
+                            rend="italic">Kephalaia</hi> 12.10-12).<note place="foot" xml:id="ftn29"
+                            n="29"><p rend="footnote text"> Polotsky, H.-J. and A. Böhlig, <hi
+                                    rend="italic">Kephalaia (I): 1. Hälfte [Lieferung 1-10]</hi>.
+                                Stuttgart: Kohlhammer, 1940. See also the litany from
+                                <hi rend="italic">Psalm-Book </hi>179.</p></note>
+                        Seth is also listed in the Manichaean
+                        <hi rend="italic">Psalm-Book </hi>as part of a litany
+                        of biblical and apostolic figures embodying the ideal of “endurance” (<foreign xml:lang="cop">ϩⲩⲡⲟⲙⲟⲛⲏ</foreign>) (142.4), and there is even a
+                        passage from a so-called Sethian book quoted in the hagiographical account
+                        of Mani’s life preserved in the Greek <hi rend="italic">Cologne Mani
+                            Codex</hi>, where Seth(el) recounts a vision of a luminous entity: “I
+                        opened my eyes and I saw before my face an [angel] whose [brightness] I
+                        could not describe [for he was] nothing other than lightning” (CMC 50).<note
+                            place="foot" xml:id="ftn30" n="30"><p rend="footnote text"> Iain Gardner
+                                and Samuel Lieu, <hi rend="italic">Manichaean Texts from the Roman
+                                    Empire</hi> (Cambridge: Cambridge University Press, 2004), 55;
+                                Albert Henrichs and Ludwig Koenen,
+                                <hi rend="italic">Der Kölner Mani-Kodex: Über das Werden seines Liebes </hi>(Opladen:
+                                Westdeutscher Verlag, 1988), 32-33.</p></note> Earlier in the same
+                        text Adam is quoted as receiving a command from “Balsamos, the greatest
+                        Angel of Light” to “receive from me and write these things I reveal to you
+                        on the purest papyrus which is not perishable or liable to worms” (CMC 49).
+                        A similar episode occurs in the <hi rend="italic">Revelation of the
+                            Magi</hi>, where we are told:</p>
+                    <p rend="H Quote Block">Adam instructed Seth his son about … [and about the
+                        revelation] of the light of the star and about its glory, because he [saw]
+                        it in the Garden of Eden when it descended and came to rest over the Tree of
+                        Life; and it illuminated the entire (garden) before Adam transgressed
+                        against the commandment of the Father of heavenly majesty (i.e. greatness)
+                        (<foreign xml:lang="syr">ܐܒܐ ܕܪܐܒܘܬܐ ܥܠܝܬܐ</foreign>)” (6.2). </p>
+                    <p>As such, in both the <hi rend="italic">Cologne Mani Codex</hi> and the <hi
+                            rend="italic">Revelation of the Magi</hi> we have accounts of revelatory
+                        encounters with luminous beings in the Garden of Eden which are then
+                        recorded in primordial holy books. In both contexts these episodes are used
+                        as a means to establish their protagonists’ divine authority as part of a
+                        chain of true prophecy traced back to the biblical forefathers Adam and
+                            Seth.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                                Nicholas Baker-Brian, <hi rend="italic">Manichaeism: An Ancient
+                                    Faith Rediscovered</hi> (London: T&amp;T Clark, 2011),
+                                50-51.</p></note>
+                    </p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.3" xml:lang="en">
+                    <head>3. Polymorph Messiah</head>
+                    <p rend="H Normal First">Mani’s notion of prophetic succession was also linked
+                        to the periodic appearance of an entity he called the “Light-Mind”
+                        (essentially a sort of Manichaean Logos) via “apostles of light” in various
+                        times and places. Most notably, Mani is quoted as stating in a discourse
+                        given to Sassanian King Shapur I that “Apostles of God have constantly
+                        brought wisdom and deeds in successive times.”<note place="foot"
+                            xml:id="ftn32" n="32"><p rend="footnote text"> As quoted by 11<hi
+                                    rend="superscript">th</hi> century Islamic scholar al-Biruni in
+                                his <hi rend="italic">Chronology of Ancient Nations</hi> (see John
+                                C. Reeves, <hi rend="italic">Prolegomena to a History of Islamicate
+                                    Manichaeism</hi> (Sheffield: Equinox, 2011), 102.</p></note>
+                        Similarly, the Manichaean <hi rend="italic">Kephalaia</hi> equates “all the
+                        apostles who are on occasion sent to the world” to farmers” (9.24-25),
+                        comparing their periodic appearance with the agricultural cycle of sowing
+                        and reaping. According to John C. Reeves, Mani would have likely inherited
+                        this idea of a cyclical apostolate from the Elchasaites, a Mesopotamian sect
+                        among whom he is reported to have spent his early life.<note place="foot"
+                            xml:id="ftn33" n="33"><p rend="footnote text"> Tardieu, <hi
+                                    rend="italic">Le manichéisme</hi>, 9-12; Baker-Brian, <hi
+                                    rend="italic">Manichaeism</hi>, 47-48; Samuel N. C. Lieu, <hi
+                                    rend="italic">Manichaeism in the Later Roman Empire and Medieval
+                                    China</hi> (Tübingen: Mohr Siebeck, 1992), 35-50.</p></note>
+                        According to the 3<hi rend="superscript">rd</hi>-century CE Christian
+                        heresiological treatise attributed to Hippolytus,<note place="foot"
+                            xml:id="ftn34" n="34"><p rend="footnote text"> Hippolytus’ authorship is
+                                disputed. See <hi rend="italic">Refutation of All Heresies</hi>,
+                                trans. M. David Litwa, <hi rend="italic">Writings from the
+                                    Greco-Roman World 40</hi> (Atlanta: SBL Press, 2016),
+                                xxxiii-xlii.</p></note> certain devotees of a <hi rend="italic">Book
+                            of Elchasai</hi>: </p>
+                    <p rend="H Quote Block">do not confess one Christ. Rather, they believe in a
+                        single Christ above who transmigrates numerous times into numerous bodies
+                        and was recently incarnated in Jesus. Likewise, he is sometimes born from
+                        God, while at other times he becomes spirit. Sometimes he is born from a
+                        virgin, at other times not. Later on, he continues his never-ending
+                        transmigration into bodies and is manifested in many different bodies at
+                        various times. They also use incantations and baptisms in addition to their
+                        confession by the elements. They plume themselves on their knowledge of
+                        astronomy, astrology, and magic; and they call themselves “knowers of the
+                        future” (<hi rend="italic">Refutation of All Heresies</hi> 10.29.2).<note
+                            place="foot" xml:id="ftn35" n="35"><p rend="footnote text">
+                                <hi rend="italic">Refutation of All Heresies</hi>, 739. See John C.
+                                Reeves,
+                                <hi rend="italic">Heralds of That Good Realm: Syro-Mesopotamian Gnosis and Jewish Traditions </hi>(Leiden:
+                                Brill, 1996), 8; A. F. J. Klijn and G. J. Reinink,
+                                <hi rend="italic">Patristic Evidence for Jewish-Christian Sects </hi>(Leiden:
+                                Brill, 1973), 122-123</p></note></p>
+                    <p>In the 4<hi rend="superscript">th</hi> cent. CE, Epiphanius similarly stated
+                        that the Elchasaites believed Christ “was created and that he appears time
+                        and again…he was formed for the first time in Adam and he puts off the body
+                        of Adam and assumes it again whenever he wished” (<hi rend="italic"
+                            >Panarion</hi> 53.1.8).<note place="foot" xml:id="ftn36" n="36"><p
+                                rend="footnote text"> Reeves, <hi rend="italic">Heralds of That Good
+                                    Realm</hi>, 8; Klijn and Reinink, <hi rend="italic">Patristic
+                                    Evidence</hi>, 196-197.</p></note> The same idea is also found
+                        in the Pseudo-Clementine <hi rend="italic">Homilies,</hi> which state that
+                        Christ “changed his forms along with his names from age to age” (<foreign xml:lang="gr">ἀπ’ ἀρχῆς
+                        αἰῶνος ἅμα τοῖς ὀνόμασιν μορφὰς ἀλλάσσων τὸν αἰῶνα</foreign>) (3.20),<note
+                            place="foot" xml:id="ftn37" n="37"><p rend="footnote text"> Rehm,
+                                    ed. <hi rend="italic">Die Pseudoklementinen I: Homilien</hi>
+                                (Berlin: Akademie, 1992), 64. </p></note> and where the idea of the
+                        polymorphic “True Prophet” is traced back to what some scholars have
+                        described as a “Jewish-Christian” source document from the 3<hi
+                            rend="superscript">rd</hi> century CE.<note place="foot" xml:id="ftn38"
+                            n="38"><p rend="footnote text"> See
+                                <hi rend="italic">New Testament Apocrypha, Vol. 2, </hi>ed.
+                                Schneemelcher, (Louisville: WJK Press, 2003), 488-492, where the
+                                resonances with Manichaean and Mandaean tradition are
+                            noted.</p></note>
+                    </p>
+                    <p>The idea that the saviour has appeared periodically in many forms<note
+                            place="foot" xml:id="ftn39" n="39"><p rend="footnote text"> Landau
+                                discusses the topic of the polymorphic Christ and universal
+                                reve-lation in his dissertation on the <hi rend="italic">Revelation
+                                    of the Magi</hi>, but only engages with a small sample of
+                                possible cognate traditions (mostly biblical) (“Sages and the
+                                Star-Child,” 249-255). A survey of (the fairly extensive) evidence
+                                from both canonical and non-canonical sources is provided by Paul
+                                Foster, “Polymorphic Christology: Its Origins and Development in
+                                Early Christianity,” <hi rend="italic">Journal of Theological
+                                    Studies</hi> 58 (2007): 66-99. </p></note> also fits well with
+                        what we find in the <hi rend="italic">Revelation of the Magi</hi>, which
+                        states that Christ (the “star-child”) has appeared “in the world in a body,
+                        and the forms with him are seen in every land, because he has been sent by
+                        his majesty (i.e. greatness) (<foreign xml:lang="syr">ܪܒܘܬܗ</foreign>) for the salvation and redemption of
+                        every human being” (23.4). The “star-child” himself states “I am everywhere,
+                        and there is no land in which I am not” (26.3). At the end of the text, when
+                        Judas Thomas has brought the gospel back to the homeland of the magi,<note
+                            place="foot" xml:id="ftn40" n="40"><p rend="footnote text"> Thomas was
+                                traditionally considered to have been an apostle to the east.
+                                Eusebius mentions him going to Parthia in particular
+                                (<hi rend="italic">History of the Church </hi>3.1).</p></note>
+                        the apostle proclaims:</p>
+                    <p rend="H Quote Block">We glorify your sweet majesty (i.e greatness) (<foreign xml:lang="syr">ܪܒܘܬܟ</foreign>),
+                        your singularity in many personifications (<foreign xml:lang="syr">ܦܪܨܘܦܐ</foreign>),<note place="foot"
+                            xml:id="ftn41" n="41"><p rend="footnote text"> <foreign xml:lang="gr">πρόσωπον</foreign> in a
+                                Christological sense, but also “<hi rend="italic">appearance,
+                                    likeness</hi>” (R. Payne Smith, <hi rend="italic">A Compendious
+                                    Syriac Dictionary</hi> [Oxford: Oxford University Press, 1903],
+                                464a).</p></note> your glorious images (<foreign xml:lang="syr">ܝܘܩܢܝܟ</foreign>)<note place="foot"
+                            xml:id="ftn42" n="42"><p rend="footnote text"> From Greek εἰκών.
+                            </p></note> that you have shown us, and the clothes that you have put on
+                        for our sake, that we may be clothed in your powerful majesty. And by as
+                        many names as you have been called, you are not in any one of them, for you
+                        alone have known your great name and your majesty, and your exalted Father,
+                        and no one else. And all these forms in which you were clothed and appeared
+                        for our sake (<foreign xml:lang="syr">ܘܗܠܝܢ ܟܠܗܘܢ ܐܣܟܝܡܐ ܕܠܒܫܬ ܘܐܬܚܙܝܬ ܡܛܠܬܢ</foreign>), that we might know
+                        you, were because you loved us with your great mercy (<hi rend="italic"
+                            >Revelation of the Magi</hi> 31.4-6). </p>
+                    <p>This passage presents a remarkably open-ended Christology, even employing the
+                        term πρόσωπον for the savior’s many manifestations and appearances. Such
+                        radical inclusivism has startled modern readers and has been used to market
+                        the text to the religiously interested reading public.<note place="foot"
+                            xml:id="ftn43" n="43"><p rend="footnote text"> The back of the
+                                dust-jacket to the mass-market edition published by HarperCollins
+                                includes quotations from well-known scholars of early Christianity
+                                such as Marvin Meyer and John Dominic Crossan about the
+                                “astonishing,” “theologically sophisticated,” “unique,” and “radical
+                                depth” of the text. The work no doubt appeals to those seeking
+                                ancient precedent for an inclusivist and pluralist approach to
+                                Christianity in a modern context. </p></note> Yet is such a
+                        perspective really that unique or was it part of the text’s original
+                        environment?</p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.4" xml:lang="en">
+                    <head>4. Thomas Twins </head>
+                    <p rend="H Normal First">The apostle Thomas, it should be noted, is already
+                        well-known for his many Manichaean associations,<note place="foot"
+                            xml:id="ftn44" n="44"><p rend="footnote text"> Not only are there
+                                “Thomas Psalms” in the Manichaean <hi rend="italic">Psalm-Book</hi>,
+                                but strong associations with both the <hi rend="italic">Gospel of
+                                    Thomas</hi> (Wolf-Peter Funk, “Einer aus Tausend, zwei aus
+                                Zehntausend: Zitate aus dem Thomasevangelium in den koptischen
+                                Manichaica,” in <hi rend="italic">For the Children, Perfect
+                                    Instruction: Studies in Honor of Hans-Martin Schenke</hi>, ed.
+                                Bethge et al. [Leiden: Brill, 2002], 67-94; J. Kevin Coyle, “The
+                                Gospel of Thomas in Manichaeism?” in <hi rend="italic">Colloque
+                                    international L’Évangile selon Thomas et les textes de Nag
+                                    Hammadi, Québec, 29-31 mai 2003</hi>, ed. Louis Painchaud and
+                                Paul-Hubert Poirier [Québec : Les Presses de l’Université Laval /
+                                Louvain : Éditions Peeters, 2007], 75-91; Paul Allan Mirecki,
+                                “Coptic Manichaean Psalm 278 and the Gospel of Thomas 37,” in <hi
+                                    rend="italic">Manichaica selecta</hi>, ed. A. van Tongerloo and
+                                S. Giversen [Louvain, 1991], 243-262) and the
+                                <hi rend="italic">Acts of Thomas </hi>(A. F. J.
+                                Klijn, “The So-Called Hymn of the Pearl [Acts of Thomas ch.
+                                108-113],” <hi rend="italic">Vigiliae Christianae</hi> 14, no. 3
+                                [1960]: 154-164).</p></note> and the polymorphic Christ<note
+                            place="foot" xml:id="ftn45" n="45"><p rend="footnote text"> A list of
+                                sources for the polymorphic Christ is provided by Henri-Charles
+                                Puech, <hi rend="italic">EPHE Annuaire</hi> 73 (1964): 122-125. See
+                                also Gedaliahu G. Stroumsa, “Polymorphie divine et transformations
+                                d’un mythologème : L’Apocryphon de Jean et ses sources,” <hi
+                                    rend="italic">Vigiliae Christianae</hi> 35, no. 4 (1981) :
+                                412-434.</p></note> is explicitly attested in Manichaean tradition.
+                        For example, the Manichaean <hi rend="italic">Psalm-Book</hi> states: “You
+                        assumed different forms until you had visited all races” (42.31). In this
+                        context, Mani himself is understood as being the last of those many forms,
+                        since the psalmist refers to Christ as Mani’s “light-twin”
+                        (<foreign xml:lang="cop">ⲡⲥⲁⲓ̈ϣ ⲛ̅ⲟⲩⲁⲓ̈ⲛⲉ) </foreign>(<hi
+                            rend="italic">Psalm-Book</hi> 42.22). The concept of the celestial
+                        “twin” is central to Mani’s own prophetic and revelatory authority, as it is
+                        for all of his alleged predecessors.<note place="foot" xml:id="ftn46" n="46"
+                                ><p rend="footnote text"> For a discussion of the widely attested
+                                tradition of divine twinship in Late Antiquity see <anchor
+                                    xml:id="Hlk72240148"/>Charles M. Stang,
+                                <hi rend="italic">Our Divine Double </hi>(Cambridge,
+                                MA: Harvard University Press, 2016).</p></note> Not surprisingly,
+                        the notion of divine twinship is also invoked in the hymn at the end of the
+                            <hi rend="italic">Revelation of the Magi</hi>, where Judas Thomas
+                        describes Christ as “twinned (ܡܬܐܡܬ) with the Spirit” (30.5) and as soaring
+                        over the water “like your twin (<foreign xml:lang="syr"
+                            >ܒܪܬ ܙܘܓܗ</foreign> ) the Holy Spirit” (30.6).<note place="foot"
+                            xml:id="ftn47" n="47"><p rend="footnote text"> Brock has pointed out the
+                                early Syriac usage of the grammatical feminine for the Holy Spirit
+                                (“An Archaic Syriac Prayer over Baptismal Oil,”
+                                <hi rend="italic">Studia Patristica </hi>41
+                                [2006]: 9). See also Susan Ashbrook Harvey, “Feminine Imagery for
+                                the Divine: The Holy Spirit, the Odes of Solomon, and Early Syriac
+                                Tradition,”
+                                <hi rend="italic">St. Vladimir’s Theological Quarterly </hi>37
+                                (2004): 1-29.</p></note>
+                    </p>
+                    <p>Paul-Hubert Poirier has argued that the “Thomas” to whom the “Psalms of
+                        Thomas” (<foreign xml:lang="cop">ⲛⲯⲁⲗⲙⲟⲥ ⲛⲑⲱⲙ</foreign>) are attributed
+                        in the Manichaean
+                        <hi rend="italic">Psalm-Book </hi>could be based on a
+                        word-play involving the Aramaic/Syriac term for twin (<foreign xml:lang="syr">ܬܐܡܐ</foreign>),<note
+                            place="foot" xml:id="ftn48" n="48"><p rend="footnote text"> Paul-Hubert
+                                Poirier, “Une nouvelle hypothèse sur le titre des Psaumes manichéens
+                                dits de Thomas”
+                                <hi rend="italic">Apocrypha </hi>12 (2001) :
+                                9-27. According to the 10<hi rend="superscript">th</hi>-century
+                                Islamic scholar al-Nadim, when Mani was twenty-four years old, he
+                                was visited by an angel named <hi rend="italic">“the Tawm</hi>,
+                                which is a Nabatean word meaning ‘Companion’” (Bayard Dodge, ed.,
+                                    <hi rend="italic">The Fihrist of al-Nadim</hi>, Vol 2 [New York:
+                                Columbia University Press, 1970], 774).</p></note> which is cognate
+                        with the verb “twinned” used in the final hymn from the
+                        <hi rend="italic">Revelation of the Magi </hi>(30.5).
+                        Similarly, the Greek term σύζυγος, used as a loan-word in the same passage
+                        (30.6), is used of Mani’s celestial twin throughout the Greek <hi
+                            rend="italic">Cologne Mani Codex</hi>. Moreover, of all the liturgical
+                        texts collected in the Manichaean <hi rend="italic">Psalm-Book</hi>, the
+                        “Psalms of Thomas/Thōm” are the ones that most clearly reveal traces of an
+                        Aramaic <hi rend="italic">Vorlage</hi>,<note place="foot" xml:id="ftn49"
+                            n="49"><p rend="footnote text"> Peter Nagel,
+                                <hi rend="italic">Die Thomaspsalmen des koptisch-manichäischen Psalmbuches </hi>(Berlin,
+                                1980).</p></note> and display striking thematic and compositional
+                        parallels with Mandaean liturgical texts.<note place="foot" xml:id="ftn50"
+                            n="50"><p rend="footnote text"> For example, “Psalm of Thomas 13” (T.
+                                Säve-Söderbergh, <hi rend="italic">Studies in the Coptic Manichaean
+                                    Psalm-Book</hi> [Uppsala, 1949] 119-120). The relationship
+                                between Manichaean and Mandaean traditions is complex, as there are
+                                multiple points of context between both textual corpora.
+                                Säve-Söderbergh ultimately argued that the Manichaean “Psalms of
+                                Thomas” were based on Mandaean prototypes (161). </p></note>
+                        Therefore, it is not surprising that we might observe various points of
+                        contact between the Manichaean Thomas-psalms and the <hi rend="italic"
+                            >Revelation of the Magi</hi>. </p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.5" xml:lang="en">
+                    <head>5. Little Child of Light</head>
+                    <p rend="H Normal First">The <hi rend="italic">Revelation of the Magi</hi> also
+                        presents an episode that is strangely evocative of Steven Spielberg’s <hi
+                            rend="italic">Close Encounters of the Third Kind</hi>. When the magi
+                        have their epiphany in the Cave of Treasures, they see “(something) like the
+                        hand of a small person draw near from the pillar and the star,” (12.3) and a
+                        light-being “that appeared to us in the bodily form of a small and humble
+                        human, and he said to us: ‘Peace to you’” (13.1). Surprised by this luminous
+                        appearance, the light-being reassures the sages: “(do not doubt that)… it
+                        appeared to you in the form of a small, humble, and unworthy human, because
+                        indeed, the inhabitants of the world cannot bear to see the glory of the
+                        only Son of the Father of majesty (i.e. greatness) (<foreign xml:lang="syr">ܐܒܐ ܕܪܐܒܘܬܐ</foreign>)” (13.2). </p>
+                    <p>Once again, the Manichaean “Psalms of Thomas” provide an important parallel.
+                        There, the cosmic avatar of the heavenly father is described as the “the
+                        Little One” (<foreign xml:lang="cop">ⲡⲕⲟⲩⲓ</foreign>) who leaps into the
+                        abyss to do battle with the powers of darkness (<hi rend="italic"
+                            >Psalm-Book</hi> 204.22-27), and describe him as appearing as an “image
+                        of light” (<foreign xml:lang="cop">ⲁⲩϩⲓⲕⲱⲛ ⲛ̅ⲟⲩⲁⲓⲛⲉ</foreign>)<note
+                            place="foot" xml:id="ftn51" n="51"><p rend="footnote text"> See <hi
+                                    rend="italic">Revelation of the Magi</hi> 31.4 mentioned above.
+                            </p></note> to the powers of the world
+                        (<hi rend="italic">Psalm-Book </hi>214.1-12) who are
+                        driven mad by its brightness. In reverence, the powers then proclaim: “You
+                        have come in peace, O Child of Brightness, that you shall be the illuminator
+                        of our worlds” (<hi rend="italic">Psalm-Book</hi> 214.12-14). In fact,
+                        “Jesus the Child” features prominently in the “Psalms of Thomas” as one
+                        important aspect of the polymorphic Manichaean Christ.</p>
+                    <p>As might be expected, a similar motif is also found in the Mandaean <hi
+                            rend="italic">Book of John</hi>, although with a somewhat different
+                        prophetological focus: </p>
+                    <table rend="rules">
+                        <row>
+                            <cell style="text-align: left;"><p>A child was transplanted from on
+                                    high</p><p>The priests had dreams.</p><p>An utter silence fell
+                                    upon the Eulaeus,</p><p>He opened his mouth for evil,</p><p>He
+                                    opened his mouth for evil, </p><p>“I saw in my night
+                                    visions,</p><p><hi rend="italic">I didn’t sleep, rest or lie
+                                        down,</hi>
+                                </p><p><hi rend="italic">I didn’t sleep and I didn’t rest</hi>—
+                                    </p><p>a fire rose, burning over elder</p><p>three lamps
+                                    appeared, </p><p>… … …</p><p>A shooting star burst over
+                                    Judaea,</p><p>The sun appeared at night,</p></cell>
+                            <cell style="text-align: left;"><p>a secret was revealed in
+                                    Jerusalem.</p><p>an utter silence fell upon Jerusalem.</p><p>and
+                                    his lying lips.</p><p>saying to all the priests,</p><p>in my
+                                    vision when I lay down—</p><p><hi rend="italic">and sleep did
+                                        not overtake me in the night.</hi></p><p>that a star came to
+                                    Elizabeth,</p><p>father Zechariah,</p><p>the sun set and the
+                                    lamps shined forth.</p><p>a shooting star burst over
+                                    Jerusalem.</p><p>and the moon shined forth during the day.”<note
+                                        place="foot" xml:id="ftn52" n="52"><p rend="footnote text">
+                                            <hi rend="italic">Book of John</hi>,
+                                    18.1-15.</p></note></p></cell>
+                        </row>
+                    </table>
+                    <p>In this passage a divine child is reveled from the heavenly realm, holy
+                        silence is observed, just as the sages pray silently in the <hi
+                            rend="italic">Revelation of the Magi</hi>, while a star appears, as well
+                        as light in multiple forms. Even though the focus may be different, the
+                        general contours remain the same.<note place="foot" xml:id="ftn53" n="53"><p
+                                rend="footnote text"> Interestingly, the Mandaean <hi rend="italic"
+                                    >Book of John</hi> presents Christ’s polymorphy as a sign of his
+                                duplicity and untrustworthiness (Chapter 76) as one who “changes his
+                                appearance.” See James McGrath, “Polemic, Redaction, and History in
+                                the Mandaean Book of John: The Case of the Lightworld Visitors to
+                                Jerusalem,” <hi rend="italic">Aram </hi>25
+                                (2013): 378-379.</p></note>
+                    </p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.6" xml:lang="en">
+                    <head>6. Darkness and Error</head>
+                    <p>The theological hallmark of Manichaeism is its dualistic cosmological
+                        framework in which Light is radically opposed to Darkness as two
+                        pre-existent cosmic principles. This doctrine, more than any other aspect of
+                        Manichaean teaching, was the focus of fierce polemical backlash from a
+                        variety of quarters. Although not nearly as pronounced, traces of this sort
+                        of dualistic imagery can also be discerned in the <hi rend="italic"
+                            >Revelation of the Magi</hi>. For example, when the magi encounter Mary
+                        and Joseph in Bethlehem, Mary is said to a have become “a gate for the great
+                        light (<foreign xml:lang="syr">ܢܘܗܪܐ</foreign>) that entered the world in grace to banish the darkness
+                        (<foreign xml:lang="syr">ܚܫܘܟܐ</foreign>)” (22.2). Later, in the Thomas hymn, the apostle asks Christ to
+                        “enlighten us and drive away darkness and error” (30.4 <foreign xml:lang="syr">ܚܫܘܟܐ ܘܠܛܘܝܝ</foreign>).<note
+                            place="foot" xml:id="ftn54" n="54"><p rend="footnote text"> Sebastian
+                                Brock has suggested that this may indicated the influence of
+                                “Zoroastrian terminology” (“An Archaic Syriac Prayer over Baptismal
+                                Oil,”
+                                <hi rend="italic">Studia Patristica </hi>41
+                                [2006]: 8), whereas Geo Widengren perceived an Iranian background
+                                behind the text as a whole
+                                (<hi rend="italic">Iranisch-semitische Kulturbegegnung in parthischer Zeit </hi>[Köln:
+                                Westdeutscher Verlag, 1960], 71-72). Hultgård, however, acknowledged
+                                criticisms of Widengren’s interpretation, but nonetheless asserts
+                                that Iranian traditions were at play (Anders Hultgård, “The Magi and
+                                the Star—the Persian Background in Text and Iconography,” in
+                                <hi rend="italic">“Being Religious and Living Through the Eyes”: Studies in Religious Iconography </hi>[Uppsala,
+                                1998], 223). </p></note> In Coptic Manichaean texts, “error” (<foreign xml:lang="cop">ⲡⲗⲁⲛⲏ</foreign>) is practically synonymous with
+                        the power of Darkness and evil in the world.<note place="foot"
+                            xml:id="ftn55" n="55"><p rend="footnote text"> See <hi rend="italic"
+                                    >Kephalaia</hi> 21.18; 28.31; 31.30; 33.24,30; 48.34; 90.20,
+                                etc.; <hi rend="italic">Psalm-Book </hi>4.22;
+                                8.8,24; 52.31, etc. </p></note> For instance, the Manichaean
+                        <hi rend="italic">Psalm-Book </hi>states: “Let us bless
+                        our Lord Jesus who has sent us the Spirit of Truth. He came and separated us
+                        from the Error (<foreign xml:lang="cop">ⲧⲡⲗⲁⲛⲏ</foreign>)” (9.4-5). This
+                        “Error” is most often associated with the various sects to which Manichaeans
+                        were opposed, whereas the light-child in the <hi rend="italic">Revelation of
+                            the Magi</hi> explains how “error has reigned in deceit over your
+                        generations” (21.9) and that only those who possess true knowledge belong to
+                        the “race of light” (21.9 <foreign xml:lang="syr">ܡܢ ܛܘܗܡܐ ܐܢܬܘܢ ܕܢܗܘܪܐ</foreign>). As we might expect, this
+                        last motif (“race of light”) is also present in Manichaean <hi rend="italic"
+                            >Psalm-Book</hi> in a passage denouncing the “sects of Error” (<foreign xml:lang="cop">ⲛ̅ⲇⲟⲅⲙⲁ ⲛ̅ⲧⲡⲗⲁⲛⲏ</foreign>) (86.14).</p>
+                    <p>The use of imagery contrasting light and darkness is certainly not unique to
+                        Manichaean discourse, as it appears to have been widespread in Mesopotamia.
+                        Not only were dualistic concepts important to various forms of Zoroastrian
+                        theology, but also to the teachings of Marcion and Bardaisan, each of whom
+                        were closely associated with Mani in early Syriac tradition.<note
+                            place="foot" xml:id="ftn56" n="56"><p rend="footnote text"> François De
+                                Blois, “Dualism in Iranian and Christian Traditions,”
+                                <hi rend="italic">Journal of the Royal Asiatic Society </hi>10,
+                                no. 1 (2000): 1-19.</p></note> Moreover, the Mandaeans too made
+                        extensive use of it in their own literature, which as we have already seen
+                        has some relationship with early Manichaean texts. It is not surprising,
+                        then, that the <hi rend="italic">Revelation of the Magi</hi> should display
+                        at least some dualistic tendencies. </p>
+                </div>
+                <div xml:id="hv24n2pettipiece.3.7" xml:lang="en">
+                    <head>7. Final Fire</head>
+                    <p rend="H Normal First">Fittingly, the final point that ought to be highlighted
+                        in this study is how the
+                        <hi rend="italic">Revelation of the Magi </hi>imagines
+                        the end of cosmic history. As much as the text is focused on the beginning
+                        of the Christian narrative, by highlighting the birth of Jesus, it closes
+                        with a (dualistic) vision of the end-time and an eschatological exhortation
+                        from the magi:</p>
+                    <p rend="H Quote Block">Flee from the
+                        <hi rend="italic">darkness </hi>(<foreign xml:lang="syr">ܚܫܘܟܐ</foreign>) and come to the
+                            <hi rend="italic">light</hi> (ܢܘܗܪܐ) that does not pass away, so that
+                        you may live and have refuge under the wings of our Lord Jesus, our saviour
+                        and our great refuge on the last day, from the fearsome judgement of <hi
+                            rend="italic">fire</hi> that will come suddenly to purify the entire
+                        earth from <hi rend="italic">error</hi>, which has ruled over it in its
+                        deceit. And you shall be delivered by faith from the heat of the fire and
+                        shall enter that <hi rend="italic">rest</hi> that is prepared for all the
+                            <hi rend="italic">chosen</hi> and the believers who have believed in the
+                            <hi rend="italic">child of perfect light</hi> (<foreign xml:lang="syr">ܒܝܠܕܗ ܕܢܘܗܪܐ ܓܡܝܪܐ</foreign>), and
+                        in eternal life, in the kingdom of my Lord Jesus Christ, the Son of the <hi
+                            rend="italic">Lord of all</hi> (<foreign xml:lang="syr">ܡܪܐ ܟܠ</foreign>), in his heavenly <hi
+                            rend="italic">majesty</hi> (i.e. greatness) (<foreign xml:lang="syr">ܪܒܘܬܗ</foreign>), in his <hi
+                            rend="italic">new world</hi> (<foreign xml:lang="syr">ܥܠܡܗ ܚܕܬܐ</foreign>), and in his heavenly and great
+                        and never-passing away light, and in his glorious rest (32.2-3 <hi
+                            rend="italic">emphasis added</hi>). </p>
+                    <p>Once again, we can observe numerous resemblances to Manichaean religious
+                        discourse. For its part, the Manichaean vision of the end times foresees the
+                        final appearance of Jesus the Splendor, avatar of the “Lord of All” (see
+                        above) who will vanquish the powers of darkness and purify the world by
+                        means of a “Great Fire.” The chosen “Elect” will then be rewarded in a “New
+                        Aeon” of eternal light and rest.<note place="foot" xml:id="ftn57" n="57"><p
+                                rend="footnote text"> Baker-Brian, <hi rend="italic"
+                                    >Manichaeism</hi>, 116-118; Timothy Pettipiece, “Burn the World
+                                Down: Manichaean Apocalyptic in Comparative Perspective,” in
+                                <hi rend="italic">The Armenian Apocalyptic Tradition: A Comparative Perspective, </hi>ed.
+                                Kevork Bardakjian and Sergio La Porta (Leiden: Brill, 2014),
+                                657-666.</p></note> As one Middle Persian fragment from Mani’s <hi
+                            rend="italic">Book of Giants</hi><note place="foot" xml:id="ftn58"
+                            n="58"><p rend="footnote text"> Counted among Mani’s canonical
+                                scriptures, this work contains many points of contact with other
+                                apocryphal texts from an Aramaic background (see John C. Reeves,
+                                <hi rend="italic">Jewish Lore in Manichaean Cosmogony: Studies in the </hi>Book
+                                of
+                                Giants<hi rend="italic"> Traditions </hi>[Cincinatti,
+                                1992]).</p></note> suggests:</p>
+                    <p rend="H Quote Block">…on brilliant wings they (the righteous ones) shall fly
+                        and soar further beyond and above that Fire, and shall gaze into its depth
+                        and height. And those righteous ones that will stand around it, outside and
+                        above, they shall have power over the Great Fire, and over everything in it
+                        … they are purer and stronger [than the] Great Fire of Ruin that sets the
+                        worlds ablaze.<note place="foot" xml:id="ftn59" n="59"><p
+                                rend="footnote text"> T ii D ii 164 (trans. Hans-Joachim Klimkeit,
+                                    <hi rend="italic">Gnosis on the Silk Road</hi> [San Francisco:
+                                HarperCollins, 1993], 247); <anchor xml:id="Hlk61269759"/>W. B.
+                                Henning, “The Book of Giants,” BSOAS 11 (1943): 68.</p></note></p>
+                </div>
+            </div>
+            <div xml:id="hv24n2pettipiece.4" xml:lang="en">
+                <head>CONCLUSIONS AND IMPLICATIONS</head>
+                <p rend="H Normal First">What, then, are we to make of all the apparent similarities
+                    between the <hi rend="italic">Revelation of the Magi</hi> and Manichaean
+                    theological language? While some resemblances are perhaps more on the surface
+                    level, such as imagining God and the divine realm in terms of
+                    <hi rend="italic">life, light, treasure, splendor, </hi>and<hi rend="italic"> greatness—</hi>all
+                    of which seem to have been part of a shared Aramaic religious vocabulary—others
+                    emerge as more deeply rooted themes. Most notably:</p>
+                <p><hi rend="italic">i) identifying God as the “Father of Greatness”</hi></p>
+                <p><hi rend="italic">ii) a chain of True Prophets traced back to Adam and
+                    Seth</hi></p>
+                <p><hi rend="italic">iii) a polymorphic messiah-figure who appears to all
+                        humanity</hi></p>
+                <p><hi rend="italic">iv) revelatory authority granted through divine
+                    twinship</hi></p>
+                <p><hi rend="italic">v) emphasis on Thomas traditions</hi></p>
+                <p><hi rend="italic">vi) opposition between Light and Darkness / Truth and
+                        Error</hi></p>
+                <p><hi rend="italic">vii) eschatological fire and rest</hi></p>
+                <p>As such, both the <hi rend="italic">Revelation of the Magi</hi> and Manichaean
+                    literature construct the same basic soteriological storyline. Namely, that the
+                        <hi rend="italic">Father of Greatness</hi> reveals himself through a chain
+                    of <hi rend="italic">true prophets</hi> extending back to <hi rend="italic">Adam
+                        and Seth</hi> that have appeared in many times and places as manifestations
+                    of <hi rend="italic">divine twinship</hi>. The message that these prophets
+                    deliver periodically to all humanity emphasizes the opposition between <hi
+                        rend="italic">light and darkness</hi> and the
+                    <hi rend="italic">error </hi>manifest in sectarian
+                    divisions. The forces of darkness and evil, however, will ultimately be defeated
+                    when Jesus returns in glory to set
+                    <hi rend="italic">fire </hi>to the world and grant eternal
+                    <hi rend="italic">rest </hi>to the <hi rend="italic"
+                        >children of light</hi>. </p>
+                <p>Does this mean that the
+                    <hi rend="italic">Revelation of the Magi </hi>is a
+                    Manichaean text? I am not ready to go that far. Notably absent are a
+                    multiplicity of technical terms for the many well-defined figures from the
+                    Manichaean cosmogonic myth, other than the “Father of Greatness.”<note
+                        place="foot" xml:id="ftn60" n="60"><p rend="footnote text"> This in itself
+                            does not necessarily discount the idea of the
+                            <hi rend="italic">Revelation of the Magi </hi>being
+                            a Manichaean text, as the specific technical language of the cosmogony
+                            appears to have been largely unknown to outsiders, with a few notable
+                            exceptions such as Theodore bar Khonai. Most polemical descriptions of
+                            the Manichaean myth make use of a generic template focused on its
+                            dualistic basis rather than a detailed narrative. </p></note> Nor is
+                    there any direct or implied references to Mani himself.<note place="foot"
+                        xml:id="ftn61" n="61"><p rend="footnote text"> There is a somewhat oblique
+                            reference to the “Paraclete Spirit” (14.8) in the text, although this
+                            does not appear to connect with the Manichaean notion of Mani as the
+                            Paraclete promised by Jesus. </p></note> Even though Manichaean scribal
+                    activity has been observed in other pieces of Christian apocryphal literature,
+                    that does not appear to be happening here.<note place="foot" xml:id="ftn62"
+                        n="62"><p rend="footnote text"> See Timothy Pettipiece, “Manichaean
+                            Redaction of the <hi rend="italic">Secret Book of John</hi>,” in <hi
+                                rend="italic">Fakes, Forgeries, and Fictions: Writing Ancient and
+                                Modern Christian Apocrypha: Proceedings from the 2015 York Christian
+                                Apocrypha Symposium</hi>, ed. Tony Burke (Eugene, Oregon: Cascade
+                            Books, 2017).</p></note> Moreover, as mentioned above, the magi and the
+                    Nativity story were of little intrinsic interest to Manichaean authors, who
+                    found the idea of an incarnated Jesus theologically offensive. It seems more
+                    likely that the presence of common thematic elements points to a common milieu
+                    out of which both the
+                    <hi rend="italic">Revelation of the Magi </hi>and
+                    Manichaeism emerged. More specifically, I would argue that both are building on
+                    a pre-existing soteriological narrative that appears to have been rooted in <hi
+                        rend="italic">variant</hi><note place="foot" xml:id="ftn63" n="63"><p
+                            rend="footnote text"> By <hi rend="italic">variant</hi> I mean streams
+                            of early Christian tradition that diverge considerably from emerging
+                            orthodoxy. </p></note> forms of Christianity that developed in
+                    Aramaic/Syriac speaking Mesopotamia.<note place="foot" xml:id="ftn64" n="64"><p
+                            rend="footnote text"> This geographic area has been described as a
+                            “crucible of cultural creativity for Jews no less than Platonists,
+                            Christians, and Manichaeans in the first three centuries of the Common
+                            Era” (Han and Reed, “Reorienting Ancient Judaism,” 148).</p></note> The
+                    exact origins of this narrative, however, remain difficult to define, as they
+                    appear tied to the notoriously complex and contested issue of “Jewish
+                    Christianity.” <note place="foot" xml:id="ftn65" n="65"><p rend="footnote text">
+                            The notoriously difficult puzzle of “Jewish Christianity” has been the
+                            subject of much debate and controversy. See Annette Yoshiko Reed,
+                            “Historicizing ‘Jewish-Christianity’,” in <hi rend="italic"
+                                >Jewish-Christianity and the History of Judaism: Collected
+                                Essays</hi> (Tübingen: Mohr Siebeck, 2018), xv-xxx. Typically, this
+                            hybrid term has been used to describe either an imagined segment of
+                            Jesus’ earliest followers, or in reference to certain sectarian groups
+                            identified by patristic heresiologists as outliers. In spite of the term
+                            being “anachronistic, clumsy, fraught, and contested,” (as Reed admits),
+                            it nonetheless points to a liminal historical, discursive, and even
+                            geographical space in which certain discernable expressions of late
+                            antique religious tradition and community connect themselves in
+                            important ways to both
+                            <hi rend="italic">Christianity </hi>and <hi
+                                rend="italic">Judaism</hi> while at the same time resisting those
+                            categorical constructs as they have come to be defined. As problematic
+                            as the term is, it nonetheless points to something that needs to be
+                            further explored and better understood.</p></note>
+                </p>
+                <p>As mentioned earlier, the <hi rend="italic">Revelation of the Magi</hi> was
+                    likely composed in Syriac, possibly near Edessa in the 3<hi rend="superscript"
+                        >rd</hi> or 4<hi rend="superscript">th</hi> century CE,<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text"> See note 4.</p></note> which
+                    was an important center of early Christian activity in Mesopotamia. We also know
+                    that Mani and his early disciples wrote and preached in Syriac in the same
+                    region around the same time. Mandaic, for its part, is an Aramaic dialect, and
+                    communities of Mandaeans, or their predecessors, have in some form been (until
+                    recently) historically present long the Tigris and Euphrates since at least the
+                        3<hi rend="superscript">rd</hi> cent. CE.<note place="foot" xml:id="ftn67"
+                        n="67"><p rend="footnote text"> The recent re-assessment by Kevin van Bladel
+                            suggests that a distinctive “Mandaean” identity only emerged in the 5<hi
+                                rend="superscript">th</hi> century CE out of competition among other
+                            “Syro-Mesopotamia” religious groups (<hi rend="italic">From Sasanian
+                                Mandaeans to Ṣābians of the Marshes</hi> [Leiden: Brill,
+                        2017]).</p></note> It is therefore not surprising that religious traditions
+                    emanating from the same time-period and geographical area would demonstrate some
+                    common characteristics and thematic concerns. In fact, as recent studies
+                    continue to demonstrate, Jewish, Christian, Zoroastrian, and Manichaean
+                    traditions regularly engaged one another in late antique Mesopotamia and display
+                    significant degrees of overlap.<note place="foot" xml:id="ftn68" n="68"><p
+                            rend="footnote text"> See, for example, Adam H. Becker, “The Comparative
+                            Study of ‘Scholas-ticism’ in Late Antique Mesopotamia: Rabbis and East
+                            Syrians,” <hi rend="italic">AJS Review </hi>34 no.
+                            1 (2010): 91-113; Yishai Kiel, “Study Versus Sustenance: A Rabbinic
+                            Dilemma in Its Zoroastrian and Manichaean Context,”
+                            <hi rend="italic">AJS Review </hi>38 no. 2 (2014):
+                            275-302; Yishai Kiel, “Reimagining Enoch in Sassanian Babylonia in Light
+                            of Zoroastrian and Manichaean Traditions,” <hi rend="italic">AJS
+                                Review</hi> 39 no.2 (2015): 407-432 to name but a few. </p></note>
+                </p>
+                <p>Unfortunately, the story of early Christianity beyond the eastern borders of the
+                    Roman Empire is not one that is well-known or well-understood outside of
+                    specialized circles.<note place="foot" xml:id="ftn69" n="69"><p
+                            rend="footnote text"> As Sebastian Brock has pointed out, the Eusebian
+                            model of early Christian history has linked that narrative so closely
+                            with the Roman Empire, that the development of Christianity in Persia is
+                            either omitted from that story or minimized (see Sebastian Brock,
+                            “Christians in the Sasanian Empire: A Case of Divided Loyalties,” in <hi
+                                rend="italic">Syriac Perspectives on Late Antiquity</hi>,
+                        2-3).</p></note> Thus modern readers’ surprise at a text such as the <hi
+                        rend="italic">Revelation of the Magi</hi>. While early missionaries would
+                    have arrived by the 2<hi rend="superscript">nd</hi> century CE, there was also a
+                    significant influx of Christians due to the forced deportation of hundreds of
+                    thousands of captives from the Roman Empire by Persian King Shapur I in the 3<hi
+                        rend="superscript">rd</hi> century CE.<note place="foot" xml:id="ftn70"
+                        n="70"><p rend="footnote text"> Josef Wiesehöfer, <hi rend="italic">Ancient
+                                Persia from 550 BC to 650 AD</hi> (New York: I. B. Tauris, 1998),
+                            201.</p></note> Notably, an inscription by the Sasanian high-priest
+                    Kartir (mentioned above) points to an official differentiation between two
+                    groups known in Middle Persian as <hi rend="italic">nāsrāy</hi> and <hi
+                        rend="italic">kristiyān</hi>.<note place="foot" xml:id="ftn71" n="71"><p
+                            rend="footnote text"> It is difficult to imagine that Kartir would use
+                            these terms in an official inscription without understanding that they
+                            implied some important distinction. </p></note> It has been suggested
+                    that the former group, the “Nazoreans”<note place="foot" xml:id="ftn72" n="72"
+                            ><p rend="footnote text"> Based on what we know from early Christian
+                            heresiological sources, the term “Nazorean” is used as a kind of
+                            catch-all to connect a cluster of sectarian groups that were all thought
+                            to derive from the so-called “Jewish-Christian” stream of early
+                            Christianity, such as Cerninthians, Elchasaites, and Ebionites.
+                            “Nazorean” is also attested as a term of self-designation found in
+                            Mandaean writings, although in a somewhat ambivalent sense, and is
+                            applied to Christians pejoratively in the Talmud (see François De Blois,
+                            “Naṣrānī [Ναζωραȋος] and ḥanīf [ἐθνικός]: Studies on the Religious
+                            Vocabulary of Christianity and of Islam”
+                            <hi rend="italic">Bulletin of the School of Oriental and African Studies </hi>65,
+                            no. 1 [2002]: 4).</p></note> represents local Aramaic-speaking
+                    Christians, many of whom were still strongly connected to non-rabbinic Jewish
+                    traditions, while the latter refers to relocated “western” Christians who had
+                    more in common with the Roman church.<note place="foot" xml:id="ftn73" n="73"><p
+                            rend="footnote text"> Sebastian Brock, “Christians in the Sasanian Empire: A Case of Divided Loyalties,” <hi
+                                rend="italic">Syriac Perspectives on Late Antiquity</hi>,
+                        3-6.</p></note> Similarly, Persian authorities in Syriac martyr acts from
+                    the Sasanian period seem to make the same terminological differentiation when
+                    discussing interactions with Christian communities under their
+                        jurisdiction.<note place="foot" xml:id="ftn74" n="74"><p
+                            rend="footnote text"> De Blois, “Naṣrānī [<foreign xml:lang="gr">Ναζωραȋος</foreign>] and ḥanīf
+                            [ἐθνικός], 8. </p></note></p>
+                <p>While a more concrete history of the churches of Persia begins to take shape in
+                    the 4<hi rend="superscript">th</hi> century CE, prior to that, particularly in
+                    the 2<hi rend="superscript">nd</hi> and 3<hi rend="superscript">rd</hi>
+                    centuries, Iranian territories appear to have been home to an eclectic mix of
+                    doctrines and sects associated with early Christian teachers such as Marcion,
+                    Bardaisan, and Elchasai,<note place="foot" xml:id="ftn75" n="75"><p
+                            rend="footnote text"> Wiesehöfer, <hi rend="italic">Ancient Persia</hi>,
+                            205. Later, Mani himself will be added to this list of founding figures.
+                        </p></note> all of whom where later deemed “heretical” by proto-orthodox
+                    authorities, but whose doctrines were considered authoritative and foundational
+                    for the earliest forms of Aramaic/Syriac Christianity<note place="foot"
+                        xml:id="ftn76" n="76"><p rend="footnote text"> The work of Stanley Jones has
+                            helped further refine this understanding of early Christianity in
+                            Syro-Mesopotamia (see F.S. Jones,
+                            <hi rend="italic">Pseudoclementia Elchasaiticaque inter Judaeochristiana: Collected Studies </hi>[Leuven:
+                            Peeters, 2012]).</p></note> in the region. As we saw above, several of
+                    the central themes and motifs common to both the <hi rend="italic">Revelation of
+                        the Magi</hi> and Manichaean discourse, such as the chain of True Prophets
+                    and the polymorphic Christ, point back to such “Elchasaite” or “Nazorean”
+                        prototypes.<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">
+                            <anchor xml:id="Hlk62205521"/>Cirillo, Luigi, ''From the Elchasaite
+                            Christology to the Manichaean Apostle of Light,” in <hi rend="italic">Il
+                                Manicheismo: Nuove Prospettive della Richerca. Atti del Quinto
+                                Congresso Internazionale di Studi sul Manicheismo (Dipartimento di
+                                Studi Asiatici, Università degli Studi di Napoli “L’Orientale”;
+                                Napoli, 2-8 Settembre 2001)</hi>, ed. van Tongerloo, Aloïs and
+                            Cirillo, Luigi. Manichaean Studies 5. Turnhout: Brepols, 2005), 47-54.
+                            Gerard P. Luttikhuizen has referred to this idea as a distinctly “Syrian
+                            Christology” (see “The Baptists of Mani’s Youth and the Elchasaites,”
+                                in <hi rend="italic">Gnostic Revisions of Genesis Stories and Early
+                                Jesus Traditions</hi>, NHMS 58 [Leiden: Brill, 2006],
+                        178-179).</p></note>
+                </p>
+                <p>The current model of the historical development of early Christianity has long
+                    had its own version of a “dark matter” problem. There are strong indicators of
+                    an important stream of early Christian tradition that exerted considerable
+                    influence on other contemporary trajectories and against which proto-orthodoxy
+                    defined itself, but whose exact nature remains obscure, since evidence of it has
+                    been almost totally erased.<note place="foot" xml:id="ftn78" n="78"><p
+                            rend="footnote text"> Nearly a century ago, Walter Bauer argued that the
+                            prevailing forms of “orthodox” Christianity that developed during Late
+                            Antiquity were often built against a pre-existing background of
+                            traditions later deemed “heretical.” A key example of this phenomenon
+                            relates to the story of King Abgar and the introduction of Christianity
+                            to the city of Edessa (<hi rend="italic">Rechtgläubigkeit und Ketzerei
+                                im ältesten Christentum</hi> [Tübingen: Mohr, 1934]).</p></note>
+                    This tradition can only be vaguely decerned as a palimpsest read against the
+                    background of preserved early Christian discourse and is partly visible through
+                    heresiological labels such as Gnostic, Ebionite, Elchasaite, and Nazorean, as
+                    well as surviving early Christian and Jewish apocrypha traditions.<note
+                        place="foot" xml:id="ftn79" n="79"><p rend="footnote text"> Geo Widengren
+                            identified this as a form of “jüdisch-iranischen Gnosis” in specific
+                            reference to the
+                            <hi rend="italic">Revelation of the Magi </hi>(<hi rend="italic">Mani und der Manichäismus </hi>[Stuttgart:
+                            Kohlhammer, 1961], 29).</p></note> This evidence suggests that a
+                    well-developed and widespread <hi rend="italic">parallel</hi> Christian
+                    tradition (or cluster of traditions) developed early on and largely
+                    independently in Aramaic-speaking Mesopotamia that presented a much different
+                    theological focus than what developed later into Nicene orthodoxy and therefore
+                    looks alien to ancient and modern commentators for whom Christianity in the
+                    Roman Empire is the primary point of reference. In particular, in these
+                    alternate traditions, a much stronger emphasis is placed on Christ’s appearance
+                    (or rather appearances) in the world and his role as a revealer rather than the
+                    redemptive value of his embodiment, death, and resurrection, which were viewed
+                    as illusory. It is also differentiated by its assertion of an alternative
+                    Trinity emphasizing the femininity of the Spirit,<note place="foot"
+                        xml:id="ftn80" n="80"><p rend="footnote text"> This too was a reflection of
+                            its Aramaic context, in which the word for “spirit” is grammatically
+                            feminine. See Timothy Pettipiece, “Many Faced Gods: Triadic
+                            (Proto-)Structure and Divine Androgyny in Early Manichaean Cosmogony,”
+                                <hi rend="italic">Open Theology</hi> (2015) 1: 245–254, where it is
+                            argued that the entirety of the early Manichaean cosmogonic myth is
+                            rooted in this alternate trinitarian framework of Father-Mother-Child.
+                            François De Blois has suggested that this type of trinity tradition was
+                            “widespread” on the periphery of the late-antique world, and in fact
+                            represents the form of Christianity likely engaged with by Muhammed and
+                            the early Muslims, adding to its historical importance (“Naṣrānī
+                            [Ναζωραȋος] and ḥanīf [ἐθνικός],” 27).</p></note> and a chain of “true
+                    prophets” periodically sent to humanity. I am suggesting, here, that the <hi
+                        rend="italic">Revelation of the Magi</hi> and the teaching of Mani represent
+                    two closely related theological trajectories derived from this stream of early
+                    Mesopotamian Christianity. </p>
+                <p>What accounts for such theological differences? The fact that these alternate
+                    Christian traditions developed in Iranian territory, during the late Parthian
+                    and early Sassanian periods, is certainly key. Sebastian Brock has suggested
+                    that the <hi rend="italic">Revelation of the Magi</hi> may have, at least in
+                    part, sought to provide “a foundation legend for the Iranian Christian
+                        community.”<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text">
+                            Sebastian Brock, “An Archaic Syriac Prayer over Baptismal Oil,”
+                        5.</p></note>Although, if we imagine the considerable religious diversity
+                    <hi rend="italic">on the ground </hi>in the early Sasanian
+                    Empire, as evidenced by the inscription of Kartir, which mentions Jews (<hi
+                        rend="italic">yahūd</hi>), Buddhists (<hi rend="italic">šaman</hi>),
+                    Brahmans (<hi rend="italic">brāman</hi>), and “baptisers” (<hi rend="italic"
+                        >makdag</hi>) as objects of his derision,<note place="foot" xml:id="ftn82"
+                        n="82"><p rend="footnote text"> Wiesehöfer, <hi rend="italic">Ancient
+                                Persia</hi>, 199. </p></note> then it is possible that the
+                    <hi rend="italic">Revelation of the Magi </hi>(and the
+                    teachings of Mani for that matter) could be viewed as an attempt to bridge the
+                    gap between a diversity of communities and establish a unified soteriological
+                    framework. It is worth noting, however, that the <hi rend="italic">Revelation of
+                        the Magi</hi> contains almost no overtly polemical elements, and its author
+                    does not seem interested in attacking other religious perspectives directly.
+                    Instead, a story is told of a saviour from the light-realm that appears in
+                    multiple forms throughout the ages to all people in an on-going effort to
+                    achieve universal salvation. Tellingly, at the end of the star-child’s discourse
+                    to the magi a voice is heard saying: “Amen! The will of complete salvation, joy
+                    and peace to all the worlds!” (<hi rend="italic">Revelation of the Magi</hi>
+                    21.12). One has to wonder if the very focus placed on the magi as bearing
+                    witness to the appearance of Jesus is in some sense an attempt to appeal to the
+                    imperial Zoroastrian tradition and to validate Christianity’s status as a
+                    religious minority in the Sasanian Empire.<note place="foot" xml:id="ftn83"
+                        n="83"><p rend="footnote text"> See Hultgård, “The Magi and the Star—the
+                            Persian Background in Text and Iconography,” 225. A similar point is
+                            made by Sergey Minov in relation to representations of the magi in the
+                            Syriac <hi rend="italic">Cave of Treasures</hi>, which are said to
+                            “reflect the values and aspirations of a Christian minority group
+                            seeking to engage actively the dominant culture of the Sassanian empire”
+                            (“Dynamics of Christian Acculturation in the Sassanian Empire: Some
+                            Iranian Motifs in the <hi rend="italic">Cave of Treasures</hi>,” in <hi
+                                rend="italic">Jews, Christians and Zoroastrians: Religious Dynamics
+                                in a Sasanian Context</hi>, ed. G. Herman, <hi rend="italic">Judaism
+                                in Context 17</hi> (Piscataway, New Jersey: Gorgias Press, 2014),
+                            200). Even the names of the Magi, such as Hormizd, Atrahšišat, Merodak,
+                            appear designed to make allusion to figures from prior Iranian and
+                            Mesopotamian traditions
+                            (<hi rend="italic">Revelation of the Magi </hi>2.3).</p></note>
+                    Moreover, if indeed the author of the text was attempting to build a bridge
+                    between various neighboring religious communities, then perhaps the use of the
+                    title “Father of Greatness” itself could similarly be seen as a deliberate
+                    theological overture to Manichaean sensibilities. </p>
+                <p>As Sebastian Brock has also pointed out, the history of early Christianity is
+                    often distorted by the overriding emphasis placed on the Roman context, which is
+                    seen as somehow essential to its early development. From this perspective, the
+                    experience of Christians has often been stereotyped as either persecuted
+                    minority or supremacist majority.<note place="foot" xml:id="ftn84" n="84"><p
+                            rend="footnote text"> Sebastian Brock, “Christians in the Sasanian
+                            Empire: A Case of Divided Loyalties,” 1-2. A similar issue has affected
+                            scholarly discussions of ancient Judaism, which until recently have
+                            placed emphasis on Graeco-Roman contexts as opposed to Parthian and
+                            Sassanian (see Jae Hee Han and Annette Yoshiko Reed, “Reorienting
+                            Ancient Judaism: Syrian, Mesopotamian, and Persian Perspectives,” <hi
+                                rend="italic">Journal of Ancient Judaism</hi> 9 no. 2 (2018):
+                            145-146).</p></note> Imperial Roman Christianity, as reflected by
+                    post-Nicene orthodoxy, could afford to be supremacist and exclusive in
+                    orientation, as it had the full-force of the emperors to assert its theological
+                    and ideological agendas. But what about Christianity in other contexts? For the
+                    most part, Christians in Persian territory were tolerated as a recognized
+                    religious minority. Whereas Mani, in the 3<hi rend="superscript">rd</hi>
+                    century, sought to replace all existing religious traditions with his own
+                    universal church, his highly polemical efforts generated enormous hostility and
+                    resulted in his execution by the state. The <hi rend="italic">Revelation of the
+                        Magi</hi>, however, appears to take an equally inclusivist approach, but a
+                    more conciliatory tone, in that it avoids overt attempts to antagonize other
+                    religious communities, while seeking to integrate them into a discourse of
+                    universal salvation. Such a universalizing soteriology might appear surprising
+                    and appealing to modern readers, but when viewed in its historical context and
+                    against a broader background of other related, early Christian traditions, it is
+                    perhaps not all that original. It is simply unfamiliar. </p>
+                <p>While enigmatic and exotic on the surface, the
+                    <hi rend="italic">Revelation of the Magi </hi>and its
+                    Manichaean parallels appear to have inherited and integrated significant
+                    elements from a pre-existing tradition we know largely from fragments and
+                    hostile testimonies. Not only is it theologically compelling, but it also
+                    provides another important piece to the still incomplete puzzle of “early
+                        Christianities”<note place="foot" xml:id="ftn85" n="85"><p
+                            rend="footnote text"> I am not particularly fond of the plural coinage
+                            “Christianities.” However, in the case of the earliest forms of the
+                            Christian movement in Syriac-speaking Mesopotamia it does seem as though
+                            we are faced with some fairly independent trajectories of development
+                            with unique characteristics. </p></note> outside the Roman Empire. </p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>BIBLIOGRAPHY</head>
+                <listBibl>
+                <bibl>Allberry, C.R.C., <hi
+                        rend="italic">A Manichaean Psalm-Book, Part
+                    II</hi> (Stuttgart: Kohlhammer, 1938).</bibl>
+                <bibl>Ashbrook Harvey, Susan, “Feminine Imagery for the Divine: The Holy Spirit, the Odes of Solomon, and Early Syriac Tradition,” <hi rend="italic">St. Vladimir’s Theological Quarterly </hi>37 (2004): 1-29.</bibl>
+                <bibl>Augustine, <hi
+                        rend="italic">Answer to Faustus, a
+                        Manichean</hi>, trans. Roland Teske, <hi
+                        rend="italic">The Works of Saint Augustine: A
+                        Translation for the 21</hi><hi rend="italic superscript"
+                       
+                    >st</hi><hi rend="italic"> Century</hi> (NY: New City Press, 2007),</bibl>
+                <bibl>Augustine, <hi rend="italic">Sancti Aureli Augustini, </hi>ed. Zycha, CSEL 25.1 (Vienna, 1891).</bibl>
+                <bibl>Baker-Brian, Nicholas <hi
+                        rend="italic">Manichaeism: An Ancient Faith
+                        Rediscovered</hi> (London: T&amp;T Clark, 2011).</bibl>
+                <bibl>Bauer, Walter, <hi
+                        rend="italic">Rechtgläubigkeit und Ketzerei im
+                        ältesten
+                    Christentum</hi> (Tübingen: Mohr, 1934).</bibl>
+                <bibl>Becker, Adam H., “The Comparative Study of ‘Scholasticism’ in Late Antique Mesopotamia: Rabbis and East Syrians,” <hi rend="italic">AJS Review </hi>
+                       34 no. 1 (2010): 91-113</bibl>
+                <bibl>BeDuhn, Jason, <hi rend="italic">The Manichaean Body in Discipline and Ritual </hi>(Baltimore: John Hopkins University Press,
+                        2000).</bibl>
+                <bibl>Brock, Sebastian, “An Archaic Syriac Prayer over Baptismal Oil,” <hi rend="italic">Studia Patristica </hi>41 (2006): 2-12.</bibl>
+                <bibl>Brock, Sebastian, “Christians in the Sasanian Empire: A Case of Divided Loyalties,” in <hi
+                        rend="italic">Syriac Perspectives on Late
+                        Antiquity</hi> (London: Variorum Reprints, 1984), IV.1-19.</bibl>
+                <bibl>Coyle, J. Kevin, “The Gospel of Thomas in Manichaeism?” in <hi
+                        rend="italic">Colloque international L’Évangile selon
+                        Thomas et les textes de Nag Hammadi, Québec, 29-31 mai
+                    2003</hi>, ed. Louis Painchaud and Paul-Hubert Poirier (Québec: Les Presses de l’Université Laval / Louvain: Éditions Peeters, 2007), 75-91. </bibl>
+                <bibl>Cirillo, Luigi, ''From the
+                        Elchasaite Christology to the Manichaean Apostle of Light,” in <hi
+                        rend="italic">Il Manicheismo: Nuove Prospettive della
+                        Richerca. Atti del Quinto Congresso Internazionale di Studi sul Manicheismo
+                        (Dipartimento di Studi Asiatici, Università degli Studi di Napoli
+                        “L’Orientale”; Napoli, 2-8 Settembre 2001)</hi>,
+                        ed. van Tongerloo, Aloïs and Cirillo, Luigi. Manichaean Studies 5. Turnhout:
+                        Brepols, 2005), 47-54.</bibl>
+                <bibl>De Blois, François, “Dualism in Iranian and Christian Traditions,” <hi rend="italic">Journal of the Royal Asiatic Society </hi>10, no. 1 (2000): 1-19.</bibl>
+                <bibl>De Blois, François, “Naṣrānī [Ναζωραȋος] and ḥanīf [ἐθνικός]: Studies on the Religious Vocabulary of Christianity and of Islam” <hi rend="italic">Bulletin of the School of Oriental and African Studies </hi>65, no. 1 (2002): 4.</bibl>
+                <bibl>Denzey, Nicola “A New Star on the Horizon: Astral Christologies and Stellar Debates in Early Christian Discourse,” in <hi
+                        rend="italic">Prayer, Magic, and the Stars in the
+                        Ancient and Late Antique
+                    World,</hi> ed. Scott Noegel et al. (Pennsylvania: Pennsylvania State University Press, 2003).</bibl>
+                <bibl>Dilley, Paul, “Also Schrieb Zarathustra? Mani As Interpreter of the ‘Law of Zarades’” in Iain Gardner, Jason BeDuhn, and Paul Dilley, <hi rend="italic">Mani at the Court of the Persian Kings: Studies on the Chester Beatty "Kephalaia" Codex </hi>(Leiden: Brill, 2015), 101-135.</bibl>
+                <bibl>Dodge, Bayard, ed., <hi
+                        rend="italic">The Fihrist of al-Nadim</hi>, Vol 2 (New York: Columbia University Press,
+                        1970).</bibl>
+                <bibl>Duchesne-Guillemin, Jacques, <hi
+                        rend="italic"
+                        >“</hi>Die Magier in Bethlehem und Mithras als Erlöser?” <hi rend="italic">Zeitschrift der Deutschen Morganländischen Gesellschaft </hi>111, no. 2 (1961): 469-475.</bibl>
+                <bibl>Foster, Paul, “Polymorphic Christology: Its Origins and Development in Early Christianity,” <hi
+                        rend="italic">Journal of Theological
+                    Studies</hi> 58 (2007): 66-99. </bibl>
+                <bibl>Franzmann, Majella, <hi rend="italic">Jesus in the Manichaean Writings </hi>(London: T&amp;T Clark, 2003).</bibl>
+                <bibl>Funk, Wolf-Peter, “Einer aus Tausend, zwei aus Zehntausend: Zitate aus dem Thomasevangelium in den koptischen Manichaica,” in <hi
+                        rend="italic">For the Children, Perfect Instruction:
+                        Studies in Honor of Hans-Martin Schenke</hi>, ed.
+                        Bethge et al. (Leiden: Brill, 2002), 67-94.</bibl>
+                <bibl>Gardner, Iain, “Mani’s Last Days,” in Gardner, BeDuhn, and Dilley, <hi rend="italic">Mani at the Court of the Persian Kings: Studies on the Chester Beatty "Kephalaia" Codex </hi>(Leiden: Brill, 2015), 159-208.</bibl>
+                <bibl>Gardner, Iain and Samuel Lieu, <hi
+                        rend="italic">Manichaean Texts from the Roman
+                        Empire</hi> (Cambridge: Cambridge University Press, 2004).</bibl>
+                <bibl>Häberl, Charles G. and James F. McGrath, eds., <hi
+                        rend="italic">The Mandaean Book of John: Text and
+                        Translation</hi> (Berlin: De Gruyter, 2020).</bibl>
+                <bibl>Han, Jae Hee and Annette Yoshiko Reed, “Reorienting Ancient Judaism: Syrian,
+                    Mesopotamian, and Persian Perspectives,” <hi rend="italic">Journal of Ancient
+                        Judaism</hi> 9 no. 2 (2018): 144-154.</bibl>
+                <bibl>Hegemonius, <hi
+                        rend="italic">Acta Archelai (The Acts of
+                        Archelaus)</hi>, trans. Mark Vermes (Louvain:
+                        Brepols, 2001).</bibl>
+                <bibl>Hegemonius, <hi
+                        rend="italic">Acta Archelai</hi>, GCS 16 (Leipzig: J.C. Hinrichs, 1906).</bibl>
+                <bibl>Henrichs, Albert and Ludwig Koenen, <hi rend="italic">Der Kölner Mani-Kodex: Über das Werden seines Liebes </hi>(Opladen: Westdeutscher Verlag, 1988).</bibl>
+                <bibl>Henning, W. B., “Mani’s Last Journey,” <hi
+                        rend="italic">Bulletin of the School of Oriental and
+                        African
+                    Studies</hi> 10, no.4 (1942): 941-953. </bibl>
+                <bibl>Henning, W. B., “The Book of Giants,” <hi
+                        rend="italic">Bulletin of the School of Oriental and
+                        African
+                    Studies</hi> 11 (1943): 52-74.</bibl>
+                <bibl>(Hippolytus), <hi
+                        rend="italic">Refutation of All
+                        Heresies</hi>, trans. M. David Litwa, <hi
+                        rend="italic">Writings from the Greco-Roman World
+                        40</hi> (Atlanta: SBL Press, 2016),</bibl>
+                <bibl>Hultgård, Anders, “The Magi and the Star—the Persian Background in Text and Iconography,” in <hi rend="italic">“Being Religious and Living Through the Eyes”: Studies in Religious Iconography </hi>(Uppsala, 1998), 215-225. </bibl>
+                <bibl>Jones, F. S. <hi rend="italic">Pseudoclementia Elchasaiticaque inter Judaeo-christiana: Collected Studies </hi>(Leuven: Peeters, 2012).</bibl>
+                <bibl>Kiel, Yishai, “Reimagining Enoch in Sassanian Babylonia in Light of Zoroastrian and Manichaean Traditions,” <hi
+                        rend="italic">AJS
+                    Review</hi> 39 no.2 (2015): 407-432.</bibl>
+                <bibl>Kiel, Yishai, “Study Versus Sustenance: A Rabbinic Dilemma in Its Zoroastrian and Manichaean Context,” <hi rend="italic">AJS Review </hi>38 no. 2 (2014): 275-302.</bibl>
+                <bibl>Klijn, A. F. J., <hi
+                        rend="italic">Seth in Jewish, Christian, and Gnostic
+                        Traditions</hi> (Leiden: Brill, 1977). </bibl>
+                <bibl>Klijn, A. F. J. “The So-Called Hymn of the Pearl (Acts of Thomas ch. 108-113),” <hi
+                        rend="italic">Vigiliae
+                    Christianae</hi> 14, no. 3 (1960): 154-164.</bibl>
+                <bibl>Klijn, A. F. J., and G. J. Reinink, <hi rend="italic">Patristic Evidence for Jewish-Christian Sects </hi>(Leiden: Brill, 1973).</bibl>
+                <bibl>Klimkeit, Hans-Joachim, <hi
+                        rend="italic">Gnosis on the Silk
+                    Road</hi> (San Francisco: HarperCollins, 1993).</bibl>
+                <bibl>Lieu, Samuel N. C., <hi
+                        rend="italic">Manichaeism in the Later Roman Empire
+                        and Medieval
+                    China</hi> (Tübingen: Mohr Siebeck, 1992).</bibl>
+                <bibl>Lieu, Samuel N. C., Gregory Fox, and John Sheldon, <hi
+                        rend="italic">Greek and Latin Sources on Manichaean
+                        Cosmogony and Ethics</hi>, Corpus Fontium
+                        Manichaeorum, Series Subsidia VI (Turnhout: Brepols, 2010).</bibl>
+                <bibl>Landau, Brent, “The Sages and the Star-Child:An Introduction to the Revelation of the Magi, An Ancient Christian Apocryphon” (PhD diss., Harvard University, 2008). </bibl>
+                <bibl>Landau, Brent, <hi rend="italic">Revelation of the Magi: The Lost Tale of the Wise Men’s Journey to Bethlehem </hi>(HarperCollins, 2010).</bibl>
+                <bibl>Luttikhuizen, Gerard P., “The Baptists of Mani’s Youth and the Elchasaites,”
+                        in <hi rend="italic">Gnostic Revisions of Genesis Stories and Early Jesus
+                        Traditions,</hi> Nag Hammadi and Manichaean Studies 58 (Leiden: Brill,
+                    2006), 170-184.</bibl>
+                <bibl>MacKenzie, D. N., “A Zoroastrian Master of Ceremonies,” in <hi
+                        rend="italic">W.B. Henning Memorial Volume</hi>, ed. Mary Boyce, and Ilya Gershevitch (London: Lund
+                        Humphries, 1970), 264-71.</bibl>
+                <bibl>McGrath, James, “Polemic, Redaction, and History in the Mandaean Book of John: The Case of the Lightworld Visitors to Jerusalem,” <hi rend="italic">Aram </hi>25 (2013): 375-382.</bibl>
+                <bibl>Minov, Sergey, “Dynamics of Christian Acculturation in the Sassanian Empire: Some Iranian Motifs in the <hi
+                        rend="italic">Cave of
+                        Treasures</hi>,” in <hi
+                        rend="italic">Jews, Christians and Zoroastrians:
+                        Religious Dynamics in a Sasanian
+                        Context</hi>, ed. G. Herman, <hi
+                        rend="italic">Judaism in Context
+                    17</hi> (Piscataway, New Jersey: Gorgias Press, 2014), 149-201.</bibl>
+                <bibl>Mirecki, Paul Allan, “Coptic Manichaean Psalm 278 and the Gospel of Thomas 37,” in <hi
+                        rend="italic">Manichaica Selecta</hi>, ed. A. van Tongerloo and S. Giversen (Louvain,
+                        1991), 243-262.</bibl>
+                <bibl>Nagel, Peter, <hi rend="italic">Die Thomaspsalmen des koptisch-manichäischen Psalmbuches </hi>(Berlin, 1980).</bibl>
+                <bibl><hi rend="italic">New Testament Apocrypha, Vol. 2, </hi>ed. Schneemelcher, (Louisville: WJK Press,
+                    2003)</bibl>
+                <bibl><hi rend="italic">New Testament
+                        Apocrypha: More Canonical Scriptures, Volume I</hi>, ed. Tony Burke and Brent Landau (Grand Rapids, MI:
+                        Eerdmans, 2016).</bibl>
+                <bibl>Payne Smith, R., <hi
+                        rend="italic">A Compendious Syriac
+                    Dictionary</hi> (Oxford: Oxford University Press, 1903).</bibl>
+                <bibl>Pedersen, Nils Arne, <hi
+                        rend="italic">Manichaean Homilies</hi>, Corpus Fontium Manichaeorum, Series Coptica II
+                        (Turnhout: Brepols, 2006).</bibl>
+                <bibl>Pettipiece, Timothy, “Burn the World Down: Manichaean Apocalyptic in Comparative Perspective,” in <hi rend="italic">The Armenian Apocalyptic Tradition: A Comparative Perspective, </hi>ed. Kevork Bardakjian and Sergio La Porta (Leiden:
+                        Brill, 2014), 657-666.</bibl>
+                <bibl>Pettipiece, Timothy, “Manichaean Redaction of the <hi
+                        rend="italic">Secret Book of
+                        John</hi>,” in <hi
+                        rend="italic">Fakes, Forgeries, and Fictions: Writing
+                        Ancient and Modern Christian Apocrypha: Proceedings from the 2015 York
+                        Christian Apocrypha Symposium</hi>, ed. Tony
+                        Burke (Eugene, Oregon: Cascade Books, 2017), 194-206.</bibl>
+                <bibl>Pettipiece, Timothy, “Many Faced Gods: Triadic (Proto-)Structure and Divine Androgyny in Early Manichaean Cosmogony,” <hi
+                        rend="italic">Open
+                    Theology</hi> (2015) 1: 245–254.</bibl>
+                <bibl>Pettipiece, Timothy, <hi
+                        rend="italic">Pentadic Redaction in the Manichaean
+                        Kephalaia</hi> (Leiden: Brill, 2009).</bibl>
+                <bibl>Polotsky, H.-J. and A. Böhlig, <hi rend="italic">Kephalaia (I): 1. Hälfte
+                        [Lieferung 1-10]</hi> (Stuttgart: Kohlhammer, 1940).</bibl>
+                <bibl>Poirier, Paul-Hubert, “Une nouvelle hypothèse sur le titre des Psaumes manichéens dits de Thomas” <hi rend="italic">Apocrypha </hi>12 (2001) : 9-27. </bibl>
+                <bibl>Puech, Henri-Charles, <hi
+                        rend="italic">EPHE
+                    Annuaire</hi> 73 (1964): 122-125. </bibl>
+                <bibl>Reed, Annette Yoshiko, “Beyond the Land of Nod: Syriac Images of Asia and the Historiography of ‘The West’,” <hi
+                        rend="italic">History of
+                    Religions</hi> 49, no. 1 (August 2009): 48-87.</bibl>
+                <bibl>Reed, Annette Yoshiko, “Historicizing ‘Jewish-Christianity’,” in <hi
+                        rend="italic">Jewish-Christianity and the History of
+                        Judaism: Collected
+                    Essays</hi> (Tübingen: Mohr Siebeck, 2018), xv-xxx. </bibl>
+                <bibl>Reeves, John C., <hi rend="italic">Heralds of That Good Realm: Syro-Mesopotamian Gnosis and Jewish Traditions </hi>(Leiden: Brill, 1996).</bibl>
+                <bibl>Reeves, John C., <hi rend="italic">Jewish Lore in Manichaean Cosmogony: Studies in the </hi>Book of
+                        Giants<hi rend="italic"> Traditions </hi>(Cincinnati, 1992).</bibl>
+                <bibl>Reeves, John C., <hi
+                        rend="italic">Prolegomena to a History of Islamicate
+                        Manichaeism</hi> (Sheffield: Equinox, 2011).</bibl>
+                <bibl>Reeves, John C., “Reconsidering the ‘Prophecy of Zardūšt’,” in <hi
+                        rend="italic">A Multiform Heritage: Studies in Early
+                        Judaism and Christianity in Honor of Robert A. Kraft</hi>, ed. Benjamin G. Wright (Atlanta: Scholars Press,
+                        1999), 167-182.</bibl>
+                <bibl>Rehm, Bernhard, ed, <hi
+                        rend="italic">Die Pseudoklementinen I:
+                        Homilien</hi>, GCS 42 (Berlin: Akademie,
+                        1992). </bibl>
+                <bibl>Säve-Söderbergh, T. <hi
+                        rend="italic">Studies in the Coptic Manichaean
+                        Psalm-Book</hi> (Uppsala, 1949). </bibl>
+                <bibl>Stang, Charles M., <hi rend="italic">Our Divine Double </hi>(Cambridge, MA: Harvard University Press,
+                    2016).</bibl>
+                <bibl>Stroumsa, Gedaliahu G., “Polymorphie divine et transformations d’un mythologème : L’Apocryphon de Jean et ses sources,” <hi
+                        rend="italic">Vigiliae
+                    Christianae</hi> 35, no. 4 (1981) : 412-434.</bibl>
+                <bibl>Tardieu, Michel, <hi
+                        rend="italic">Le
+                    manichéisme</hi> (Paris: Presses universitaires de France, 1981)</bibl>
+                <bibl>Taylor, David, “The Coming of Christianity to Mesopotamia,” in <hi rend="italic">The Syriac World, </hi>ed. Daniel King (New York: Routledge, 2019),
+                        68-87)</bibl>
+                <bibl>Theodore bar Khonai, <hi
+                        rend="italic">Book of
+                    Scholia</hi> (<hi rend="italic">Liber scholiorum, </hi>ed. Addai Scher; CSCO 69; (Louvain: Imprimerie orientaliste L. Durbecq, 1954). </bibl>
+                <bibl><hi rend="italic">Théodore bar Koni: Livre des scholies (recension de Séert) I. Mimrè I-V, </hi>trans. Robert Hespel and René Draguet, CSCO,
+                        Scriptores syri 187 (Louvain: Peeters, 1981).</bibl>
+                <bibl>Toepel, Alexander, “The Apocryphon of Seth,” in <hi
+                        rend="italic">Old Testament Pseudepigrapha: More
+                        Noncanonical Scriptures</hi>, vol. 1, ed. Richard
+                        Bauckham, James Davila, and Alexander Panayotov (Grand Rapids: Eerdmans,
+                        2013), 33-39.</bibl>
+                <bibl>van Bladel, Kevin, <hi
+                        rend="italic">From Sasanian Mandaeans to Ṣābians of
+                        the
+                    Marshes</hi> (Leiden: Brill, 2017).</bibl>
+                <bibl>Van Lindt, Paul, <hi
+                        rend="italic">The Names of Manichaean Mythological
+                        Figures: A Comparative Study on Terminology in the Coptic
+                    Sources</hi> (Wiesbaden: Otto Harrassowitz, 1992).</bibl>
+                <bibl>van Tongerloo, Aloïs, “The Father of Greatness,” in <hi rend="italic">Gnosisforschung und Religionsgeschichte. Festschrift fūr Kurt Rudolph zum 65. Geburtstag, </hi>ed. Holger Preißler und Hubert Seiwert (Marburg:
+                        diagonal-Verlag, 1994), 329-342.</bibl>
+                <bibl>Widengren, Geo <hi rend="italic">Iranisch-semitische Kulturbegegnung in parthischer Zeit </hi>(Köln: Westdeutscher Verlag, 1960).</bibl>
+                <bibl>Widengren, Geo, <hi rend="italic">Mani und der Manichäismus </hi>(Stuttgart: Kohlhammer, 1961).</bibl>
+                <bibl>Wiesehöfer, Josef, <hi
+                        rend="italic">Ancient Persia from 550 BC to 650
+                        AD</hi> (New York: I. B. Tauris, 1998).</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

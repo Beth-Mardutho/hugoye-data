@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Publishing Syriac Aristotle</title>
+                <title type="sub">Some Notes on D. King’s Edition of <hi rend="italic"
+                    >Categories</hi></title>
+                <author>
+                    <name><forename>Yury</forename>
+                        <surname>Arzhanov</surname></name>
+                    <affiliation>
+                        <orgName>Austrian Academy of Sciences</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2021</date>
+                <idno>Volume 24.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv24n2arzhanov</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Yury Arzhanov</author>
+                        <title level="a">Publishing Syriac Aristotle: Some Notes on D. King’s Edition of <hi rend="italic"
+                            >Categories</hi></title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol24/HV24N2Arzhanov.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="24">24</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="491" to="517">491-517</biblScope>
+                        <biblScope type="order" n="7"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Editing</term>
+                    <term>Critical edition</term>
+                    <term>Text criticism</term>
+                    <term>Aristotle</term>
+                    <term>Categories</term>
+                    <term>Translation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2021-09-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract" xml:lang="en">
+                <head>Abstract</head>
+                <p xml:lang="en">Daniel King’s book The Earliest Syriac Translation of Aristotle’s
+                    Categories may be considered the first critical edition of a Syriac translation of
+                    Aristotle’s works. Thus, it raises a number of questions of textual criticism that
+                    may be discussed against the background of D. Gutas’ research in the field of
+                    Graeco-Arabic studies. This article provides a critical review of the book and a
+                    description of the new online publication of the anonymous Syriac translation of
+                    Aristotle’s Categories in the HUNAYNNET database.</p>
+            </div>
+            <div type="acknowledgments">
+                <head>Acknowledgements</head>
+                <p xml:lang="en"> The research is being supported by the <hi
+                    rend="italic">European Research Council</hi> under Grant Agreement no.
+                    679083 (ERC Starting Grant 2016–2021).</p>
+            </div>
+        </front>
+        <body>
+<div xml:id="hv24n2arzhanov.1" xml:lang="en">            
+                        <p xml:lang="en">Daniel King’s book
+                <hi rend="italic">The Earliest Syriac Translation of Aristotle’s Categories </hi>is
+                an important contribution to the history of the Syriac reception of Aristotle’s
+                logic that far exceeds its title.<note place="foot" xml:id="ftn2" n="2"><p
+                        rend="footnote text"> D. King, <hi rend="italic">The Earliest Syriac
+                            Translation of Aristotle’s Categories: Text, Translation and
+                            Commentary</hi>, Brill, Leiden &amp; Boston 2010 (Aristoteles
+                        Semitico-Latinus, 21). Cf. two very positive reviews of the book: Lloyd D.
+                        Newton in <hi rend="italic">American Catholic Philosophical Quarterly</hi>,
+                        vol. 86, no. 4 (2012), pp. 732–734; Dana Miller in <hi rend="italic">History
+                            and Philosophy of Logic</hi> 33.1 (2012), pp. 104–106.</p></note> It is
+                not merely an edition of the earliest Syriac translation of the <hi rend="italic"
+                    >Categories</hi> (dating from the first half of the sixth century) supplied with
+                an extensive commentary and glossaries. Given that the later versions of Jacob of
+                Edessa and Georg of the Arabs were familiar with the anonymous translation, King’s
+                analysis of all three versions resulted in a study of the transmission, revision,
+                and reception of this part of Arisotle’s <hi rend="italic">Organon</hi> in the
+                Syrian Orient. Apart from considering the afterlife of the published text, King drew
+                on the large number of Syriac translations of Greek philosophical works made during
+                the 5th and the 6th centuries, thus providing historical and scholarly background
+                for the published text. All this makes his book a profound study of the reception of
+                Aristotelian logic by Syriac scholars from the 5th to the 8th century.</p>
+            <p xml:lang="en">More than that, King’s book turned out to be the first attempt at a critical edition
+                of a Syriac version of Aristotle’s logical texts. All previous editions of this kind
+                were mostly faithful reproductions of a particular manuscript that were mainly based
+                on the “Bedierian” editorial principles,<note place="foot" xml:id="ftn3" n="3"><p
+                        rend="footnote text"> For various editorial principles relating to editions
+                        of Syriac texts, cf. K.S. Heal, “Five Kinds of Rewriting: Appropriation,
+                        Influence and the Manuscript History of Early Syriac Literature”, <hi
+                            rend="italic">Journal of the Canadian Society for Syriac Studies</hi> 15
+                        (2015), pp. 51–65.</p></note> see, for example, G. Hoffmann’s publication of
+                what he considered to be the Proba’s translation of the <hi rend="italic">De
+                    Interpretatione</hi>,<note place="foot" xml:id="ftn4" n="4"><p
+                        rend="footnote text"> J.G.E. Hoffmann, <hi rend="italic">De Hermeneuticis
+                            apud Syros Aristoteleis</hi>, Lipsiae 1873. Cf. A. Baumstark,
+                        "Aristoteles Peri Hermeneias 23b6 ff. Syrisch", <hi rend="italic"
+                            >Zeitschrift für Assyriologie</hi> 13 (1898/99), pp. 117–8; G. Furlani,
+                        “Aristoteles de Interpr. 16a6–7 nach einem syrisch erhaltenen Kommentar“,
+                            <hi rend="italic">Zeitschrift für Semitistik</hi> 1 (1922), pp.
+                        34–7.</p></note> and G. Furlani’s editions of the <hi rend="italic"
+                    >Categories</hi>, <hi rend="italic">De Interpretatione</hi><note place="foot"
+                    xml:id="ftn5" n="5"><p rend="footnote text"> G. Furlani,“Le Categorie e gli
+                        Ermeneutici di Aristotele nelle versione siriaca di Giorgio delle Nazioni”,
+                            <hi rend="italic">Atti dell’Academia Nationale dei Lincei</hi>, <hi
+                            rend="italic">Memorie</hi> 6.5.1 (1933), pp. 1–68.</p></note>, and <hi
+                    rend="italic">Analytica Priora</hi> in the translation of George of the
+                    Arabs.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> G.
+                        Furlani,“Il promo libro dei Primi Analitici di Aristotele nella versione
+                        siriaca di Giorgio delle Nazioni”, <hi rend="italic">Atti dell’Academia
+                            Nationale dei Lincei, Classe di Scienze morali storice e filologiche,
+                            Memorie</hi> 6.5.3 (1935), pp. 143–230; G. Furlani,“Il secondo libro dei
+                        Primi Analitici di Aristotele nella versione siriaca di Giorgio delle
+                        Nazioni”, <hi rend="italic">Atti dell’Academia Nationale dei Lincei, Classe
+                            di Scienze morali storice e filologiche, Memorie</hi> 6.5.3 (1937), pp.
+                        233–87.</p></note> Kh. Georr’s publication of the <hi rend="italic"
+                    >Categories</hi> in the translation of Jacob of Edessa,<note place="foot"
+                    xml:id="ftn7" n="7"><p rend="footnote text"> Kh. Georr, <hi rend="italic">Les
+                            Catégories d’Aristote dans leurs versions syro-arabes</hi>, Beirut 1948.
+                        Cf. King, <hi rend="italic">The Earliest Syriac Translation</hi> (above, n.
+                        1), pp. 283–296. While preparing the online edition of the text in the
+                        HUNAYNNET, I greatly profited from the appendix of King’s book.</p></note>
+                which based on two manuscripts, may not be considered a proper critical edition
+                since the result of his text-critical analysis was rather disappointing. Unlike his
+                predecessors, King decided not simply to reproduce the only surviving witness of the
+                anonymous translation of the <hi rend="italic">Categories</hi>, but to make an
+                attempt at the reconstruction of the original version of this translation. By doing
+                this, King lent impulse to discussion of the principles for publishing Syriac
+                Aristotle, i.e. for the critical assessment of Syriac manuscript witnesses and their
+                relation to the transmitted Greek texts and to their historical and cultural
+                background.</p>
+            <p xml:lang="en">In 2016, the team of the HUNAYNNET research project, which included the present
+                author, started to prepare a set of digital editions of Syriac and Arabic
+                translations from the Greek.<note place="foot" xml:id="ftn8" n="8"><p
+                        rend="footnote text"> URL: https://hunaynnet.oeaw.ac.at/. For a description
+                        of the project, see R. Arnzen, Y. Arzhanov, N. Bamballi, S. Čéplö, and G.
+                        Kessel, “Coding and Encoding: Towards a New Approach to the Study of Syriac
+                        and Arabic Translations of Greek Scientific and Philosophical Texts”, <hi
+                            rend="italic">Comparative Oriental Manuscript Studies Bulletin</hi> 4/2
+                        (Autumn 2018), pp. 205–213 (URL:
+                        https://www.aai.uni-hamburg.de/en/comst/pdf/bulletin4-2/205-214.pdf).</p></note>
+                At this point in time, the database also contains the anonymous Syriac translation
+                of the <hi rend="italic">Categories</hi>. The original idea of representing King’s
+                edition in digital form has been superseded by the decision to publish the text on
+                the basis of the codex, in which it has been preserved. In what follows, I will try
+                to explain to what extent and why the HUNAYNNET online version differs from the
+                version of King. </p>
+</div>
+            <div xml:id="hv24n2arzhanov.2" xml:lang="en">
+                <head>1. D. Gutas on the Principles of Textual Criticism</head>
+                <p xml:lang="en">In his 2010 edition of the Greek and Arabic versions of
+                    Theophrastus’ <hi rend="italic">On First Principles</hi> (or <hi rend="italic"
+                        >Metaphysics</hi>), Dimitri Gutas included an excursus on the “principles of
+                    Graeco-Arabic textual criticism and editorial technique”.<note place="foot"
+                        xml:id="ftn9" n="9"><p rend="footnote text"> D. Gutas, <hi rend="italic"
+                                >Theophrastus On First Principles (Known as his Metaphysics)</hi>,
+                            Brill, Leiden &amp; Boston 2010 (Philosophia Antiqua, 119), pp. 93–101.
+                            Cf. also the chapters on the Syro-Arabic tradition of the <hi
+                                rend="italic">Poetics</hi> and on the editorial principles in L.
+                            Tarán &amp; D. Gutas,
+                            <hi rend="italic">Aristotle, Poetics: Editio Maior of the Greek Text with Historical Introductions and Philological Commentaries, </hi>Brill,
+                            Leiden &amp; Boston 2012 (Mnemosyne, Supplements, 338), pp.
+                        77–159.</p></note> For the evaluation of an Arabic translation from the
+                    Greek, Gutas suggested differentiating three stages of transmission: (1) The
+                    preserved manuscripts containing the Arabic text that go back to (2) the
+                    “translator’s autograph or clean copy”, which is itself based on (3) a certain
+                    Greek exemplar of the text.</p>
+                <p xml:lang="en">While (1) is the preserved witness that may serve as the basis of the edition,
+                    (2) and (3) are usually no longer extant. Thus, the purpose of the scholar is to
+                    take his edition as closely as possible to (2) and, further, to use (2) to
+                    establish the tenor of (3). In proceeding from (1) to (2), the editor can draw
+                    not only on the extant copies of the Arabic translation, but also on the
+                    received Greek text, which in many cases may serve as an important witness in
+                    establishing the original readings in Arabic.</p>
+                <p xml:lang="en">The analysis of the Arabic translation aims not only at detecting the Greek text
+                    behind it (for which Gutas uses the siglum Ψ),<note place="foot" xml:id="ftn10"
+                        n="10"><p rend="footnote text"> And Ψ* for the corrections to the Greek text
+                            in Ψ suggested by the corrections to the Arabic text made by the
+                            editors. See Gutas, <hi rend="italic">Theophrastus</hi> (above, n. 8),
+                            p. 95.</p></note> but also at disclosing the way in which the translator
+                    had read, understood, and rendered the Greek exemplar at his disposal when there
+                    are disparities between the Arabic and the received Greek text. These
+                    disparities may serve as evidence for Ψ, if their cause is determinable.<note
+                        place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> Gutas, <hi
+                                rend="italic">Theophrastus</hi> (above, n. 8), p. 95.</p></note>
+                    Thus, all “relevant readings”<note place="foot" xml:id="ftn12" n="12"><p
+                            rend="footnote text"> “By ‘relevant’ is meant those readings that bear
+                            upon the establishment of the Greek text. In essence, what is recorded
+                            is all instances of departure by the Arabic translation from the
+                            transmitted Greek text which are not clearly due to corruption strictly
+                            within the Arabic tradition — i.e. corruption of a text, which, though
+                            correctly translated and reflecting the Greek text we have, was
+                            manifestly due to the vicissitudes of transmission from one Arabic
+                            manuscript to the other” (Gutas, <hi rend="italic">Theophrastus</hi>
+                            (above, n. 8), p. 67).</p></note> of Ψ form an important part of the
+                    Graeco-Arabic apparatus. However, in many cases the cause of disparities between
+                    the Arabic and Greek versions remains indeterminable; but because they may be of
+                    possible interest to the editor of the Greek text if they reflect a variant
+                    Greek text, they are noted in the Greek apparatus with the abbreviation “Ar.” or
+                    “Arab.” for the editor to evaluating. In other cases, some disparities may be
+                    understood as products of the reception and interpretation of the Greek text
+                    within the context of the Arabic tradition, in which cases Gutas suggests the
+                    characteristic “ut intell. Arab.” (as understood by the translator) and “ut.
+                    interpr. Arab.” (as interpreted by the translator).<note place="foot"
+                        xml:id="ftn13" n="13"><p rend="footnote text"> Gutas, <hi rend="italic"
+                                >Theophrastus</hi> (above, n. 8), pp. 97–98, 109.</p></note> In
+                    cases of omissions a distinction has to be made between those that could
+                    potentially go back to any of the three stages of transmission listed above, and
+                    those that are due to the translator either because he did not understand the
+                    word(s) in question, could not read them, or thought them insignificant in
+                    context. In the latter case this is registered in the appararus with the
+                    notation “non vertit Arab.”, and in the former with “om. Arab.”<note
+                        place="foot" xml:id="ftn14" n="14"><p rend="footnote text"> Gutas, <hi
+                                rend="italic">Theophrastus</hi> (above, n. 8), pp. 95–6. Cf. Tarán
+                            &amp; Gutas, <hi rend="italic">Aristotle Poetics</hi> (above, n. 8), pp.
+                            307–8.</p></note></p>
+                <p xml:lang="en">These principles set by Gutas for Graeco-Arabic studies, could equally apply to
+                    editions of Syriac translations from the Greek. King’s publication of the
+                    anonymous Syriac version of Aristotle’s <hi rend="italic">Categories</hi>
+                    (hereafter “Anon”) may be considered an attempt to apply them to Syriac
+                    material. Though King was not familiar with Gutas’ edition of Theophrastus (both
+                    books appeared in the same year 2010), he seems to have had the same aim in
+                    mind. In the short note on “principles of the present edition”, the editor
+                    writes: “Within the limits of the possible, I have tried to give the text as it
+                    came off the desk of the translator himself, retaining all his own errors while
+                    emending all errors that are clearly attributable to a later copyist within the
+                    Syriac tradition”.<note place="foot" xml:id="ftn15" n="15"><p
+                            rend="footnote text"> King, <hi rend="italic">The Earliest Syriac
+                                Translation</hi> (above, n. 1), p. 94.</p></note></p>
+                <p xml:lang="en">Thus, King suggested to differentiate the three stages of the transmission
+                    process, trying (a) by making conjectural emendations of the existing witnesses
+                    to come as close as possible to (b) the translator’s autograph and on the basis
+                    of the latter to analyze (c) the Greek version behind it. In the case of Anon,
+                    we have only one extant manuscript, the famous BL Add. 14658.<note place="foot"
+                        xml:id="ftn16" n="16"><p rend="footnote text"> For this manuscript, see W.
+                            Wright, <hi rend="italic">Catalogue of Syriac Manuscripts in the British
+                                Museum, acquired since the Year 1838</hi>, vol. 3, London 1872, pp.
+                            1154–1160.</p></note> Additionally, as King has established, the
+                    versions of Jacob of Edessa (hereafter “J”) and George of the Arabs (hereafter
+                    “G”) turn out to be dependent on Anon.<note place="foot" xml:id="ftn17" n="17"
+                            ><p rend="footnote text"> King, <hi rend="italic">The Earliest Syriac
+                                Translation</hi> (above, n. 1), pp. 80–85.</p></note> The nature and
+                    character of this dependence remains unclear, for in spite of numerous
+                    similarities between the three versions there are a number of characteristics in
+                    J and G that make them different from Anon. King, nevertheless, calls J and G
+                    “revisions” of Anon,<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> See, e.g., King, <hi rend="italic">The Earliest
+                                Syriac Translation</hi> (above, n. 1), p. 80: “J and G are both
+                            ultimately based on A as revisions of the latter”.</p></note> thus
+                    making them additional witnesses to the textual tradition represented by Anon
+                    that help us to reconstruct the “translator’s autograph” deriving from it, which
+                    was corrupted by later transmission.</p>
+            </div>
+            <div xml:id="hv24n2arzhanov.3" xml:lang="en">
+                <head>2. Two Difficult Points: A/A* and the Relation of Anon to J and G</head>
+                <p xml:lang="en">Two questions seem to remain not quite clarified in King’s
+                    analysis and these two points may potentially lead the reader of the book to
+                    confusion — first, in the reconstruction of the translator’s autograph, and,
+                    following from this, in the analysis of the supposed Greek exemplar used by the
+                    translator:</p>
+                <p xml:lang="en">1) The relation of the preserved textual evidence of the translation (as it
+                    stands in the manuscript) to the translator’s autograph, i.e. the relation
+                    between Stages 1 and 2 by Gutas.</p>
+                <p xml:lang="en">2) The relation between Anon, on the one hand, and J and G, on the other, that
+                    may cause a misreading of the transition from Stage 2 to Stage 3 by Gutas, i.e.
+                    in establishing the Greek variants behind Anon.</p>
+                <p xml:lang="en">The first problem appears at the formal level. King uses two sigla to refer to
+                    Anon: “A” referring to the translator’s assumed original (cf. p. 170: “anonymous
+                    version as printed in this volume”; p. 257: “assumed original”), and “A*”
+                    referring to the manuscript (cf. p. 257: “as extant in BL Add. 14658”). The
+                    siglum A*, however, is only introduced for the first time on p. 257, so that up
+                    to this point it is siglum A that combines both meanings. For example, on p.
+                    178, King notes that “A has <foreign xml:lang="syr">ܠܐ ܡܫܟܚܐ</foreign> ”, and
+                    this is the variant found in the manuscript (i.e. in A*), while King amends it
+                    to <foreign xml:lang="syr">ܡܕܡ ܟܠܐ</foreign> , the
+                    variant that should properly be designated as A. Later on, on p. 259, King
+                    comments on the same passage, attributing this time the reading <foreign xml:lang="syr">ܠܐ ܡܫܟܚܐ</foreign> to A*. But
+                    since before p. 257 King does not distinguish the two sigla, A is made to stand
+                    for both, and this lack of clarity between (Gutas’) Stages 1 and 2 may lead a
+                    reader to confusion in the analysis of Stage 3, i.e. of the presumed Greek
+                    original. E.g., on p. 212 we read: “6b36-7 [80vb] A omits any equivalent for
+                    δόξει.” Since A remains undifferentiated on these pages, it is unclear whether
+                    the commentary refers to the state of the manuscript (i.e. A*) or to that of the
+                    translator’s copy (i.e. A).</p>
+                <p xml:lang="en">The second problem stems from the assumption that J and G were not only familiar
+                    with the version of Anon, but should be considered “revisions” of it. On the one
+                    hand, this conclusion could provide further help with reconstructing the
+                    translator’s version of Anon. On the other hand, the use of J and G in the
+                    analysis of the characteristics of Anon and of the Greek text behind it conceals
+                    the danger to assess J and G as mere witnesses of the text of Anon, rather than
+                    as versions of their own.</p>
+                <p xml:lang="en">In several instances, King demonstrates close similarity between the three
+                    versions (though there are small details that still make them different), which
+                    he interprets as proof of the “influence” of Anon on J and G, and of “an evident
+                    line of continuity among the versions”<note place="foot" xml:id="ftn19" n="19"
+                            ><p rend="footnote text"> See, e.g., pp. 181–182 (comm. on 2a14-15), pp.
+                            187–188 (comm. on 3a29), p. 192 (comm. on 4a18), etc.</p></note>.
+                    However, what is the character of this influence and what is the nature of this
+                    continuity? In other words, what was the purpose of both Jacob and George in
+                    “revising” the text of Anon?</p>
+                <p xml:lang="en">In his analysis of the relation between Anon, J and G, King does not dwell on the
+                    question of the Greek <hi rend="italic">Vorlage</hi> behind J and G, although
+                    this question seems to be of crucial importance for our understanding of the
+                    relation between the versions. If we consider J and G to be the “revisions” of
+                    Anon, this brings us to the question whether they ultimately go back to the same
+                    Greek text as Anon or do they reflect work carried out on Greek manuscripts
+                    other than the supposed basis of Anon?</p>
+                <p xml:lang="en">On p. 84, King remarks that “G must have had his own Greek ms.”,<note
+                        place="foot" xml:id="ftn20" n="20"><p rend="footnote text"> Cf. also a brief
+                            note on J in King, <hi rend="italic">The Earliest Syriac
+                                Translation</hi> (above, n. 1), p. 92.</p></note> and the comparison
+                    between the three versions in the commentary to the text corroborates this
+                    thesis. However, given that Anon, J and G go back to different Greek mss, but at
+                    the same time J and G demonstrate familiarity with Anon, should not Anon rather
+                    be considered as simply <hi rend="italic">one of</hi> the reference tools used
+                    by J and G along with other Greek mss?</p>
+                <p xml:lang="en">The similarities and differences between the three Syriac versions become evident
+                    already in the opening part of the <hi rend="italic">Categories</hi>
+                    (1a1–1a6):</p>
+                <table rend="rules">
+                    <row>
+                        <cell><hi rend="bold">Greek</hi></cell>
+                        <cell><hi rend="bold">Anon</hi><note place="foot"
+                                xml:id="ftn21" n="21"><p rend="footnote text"> The text is based on
+                                    HUNAYNNET edition, cf. 96.6–11 King.</p></note></cell>
+                        <cell><hi rend="bold">J</hi><note place="foot"
+                                xml:id="ftn22" n="22"><p rend="footnote text"> The text is based on
+                                    HUNAYNNET edition, cf. 253.3–12 Georr.</p></note></cell>
+                        <cell><hi rend="bold">G</hi><note place="foot"
+                                xml:id="ftn23" n="23"><p rend="footnote text"> The text is based on
+                                    HUNAYNNET edition, cf. 9.2–6 Furlani.</p></note></cell>
+                    </row>
+                    <row>
+                        <cell><foreign xml:lang="gr">Ὁμώνυμα λέγεται ὧν ὄνομα μόνον κοινόν, ὁ δὲ
+                            κατὰ τοὔνομα λόγος τῆς οὐσίας ἕτερος, οἷον ζῷον ὅ τε ἄνθρωπος καὶ τὸ
+                            γεγραμμένον· τούτων γὰρ ὄνομα μόνον κοινόν, ὁ δὲ κατὰ τοὔνομα λόγος τῆς
+                            οὐσίας ἕτερος· ἐὰν γὰρ ἀποδιδῷ τις τί ἐστιν αὐτῶν ἑκατέρῳ τὸ ζῴῳ εἶναι,
+                            ἴδιον ἑκατέρου λόγον ἀποδώσει.</foreign></cell>
+                        <cell><foreign xml:lang="syr">ܐܘܡ̈ܘܢܘܡܘ܉ ܗܢܘ
+                                ܕܝܢ ܫܘ̈ܝܝ ܫܡܐ ܡܬܐܡܪܝܢ ܗ̇ܢܘܢ ܕܫܡܐ ܕܓܘܐ ܗܘ܂ ܡܠܬܐ ܕܝܢ ܕܐܘܣܝܐ ܐܚܪܬܐ ܗܝ܂
+                                ܐܟܙܢܐ ܕܚܝܘܬܐ ܒܪܢܫܐ ܐܦ ܗ̇ܘ ܕܨܝܪ܂ ܕܗܠܝܢ ܓܝܪ ܫܡܐ ܒܠܚܘܕ ܕܓܘܐ ܗܘ܂ ܡܠܬܐ
+                                ܕܝܢ ܕܐܘܣܝܐ ܐܚܪܬܐ ܗܝ܂ ܐܢ ܓܝܪ ܬܫ̇ܠܡ ܕܡܢܘ ܡܢ ܬܪ̈ܝܢ ܡܢ ܗܠܝܢ ܡܫ̇ܠܡ ܐܢܬ
+                                ܕܚܝܘܬܐ ܐܝܬܘܗܝ܉ ܕܝܠܢܝܐ ܡܢ ܬܪ̈ܝܢ ܡܢ ܗܠܝܢ܂</foreign>
+                        </cell>
+                        <cell><foreign xml:lang="syr">ܐܡܘ̈ܢܡܐ ܐܘܟܝܬ
+                                ܫܘ̈ܝܝ ܫܡܐ ܡܬܐܡܪܝܢ ܕܗ̇ܢܘܢ ܕܫܡܐ ܒܠܚܘܕ ܕܓܘܐ܉ ܡܠܬܐ ܕܝܢ ܕܐܘܣܝܐ ܗ̇ܝ ܕܒܗ
+                                ܒܫܡܐ ܐܚܪܬܐ ܗܝ܂ ܕܐܝܟ ܐܝܟܢ ܚܝܘܬܐ܂ ܒܪܢܫܐ ܟܝܬ ܘܗ̇ܝ ܕܨܝܪܐ܂ ܕܗܠܝܢ ܓܝܪ ܫܡܐ
+                                ܒܠܚܘܕ ܓܘܢܝܐ܂ ܡܠܬܐ ܕܝܢ ܕܐܘܣܝܐ ܗ̇ܝ ܕܒܗ ܒܫܡܐ ܐܚܪܬܐ ܗܝ܂ ܐܢܓܝܪ ܢܬܠ ܐܢܫ
+                                ܟܠܚܕܐ ܚܝܘܬܐ ܡܢܗܝܢ ܕܡܢܐ ܐܝܬܝܗ̇ ܗ̇ܝ ܕܐܝܬܝܗ̇ ܡܠܬܐ ܕܝܠܝܢܝܬܐ ܕܟܠ ܚܕܐ
+                                ܝܗ̇ܒ܂</foreign>
+                        </cell>
+                        <cell><foreign xml:lang="syr">ܫ̈ܘܝܝ ܫܡܐ
+                                ܡܬܐܡܪܝܢ܉ ܕܕܝܠܗܘܢ ܫܡܐ ܒܠܚܘܕ ܕܓܘܐ܉ ܡܠܬܐ ܕܝܢ ܕܐܘܣܝܐ ܗ̇ܝ ܕܐܝܟ ܫܡܐ ܐܚܪܬܐ܂
+                                ܕܐܝܟ ܐܝܟܢ܂ ܚܝܘܬܐ ܒܪܢܫܐ ܘܗ̇ܘ ܕܨܝܪ܂ ܕܗܠܝܢ ܓܝܪ ܫܡܐ ܒܠܚܘܕ ܕܓܘܐ܉ ܡܠܬܐ ܕܝܢ
+                                ܕܐܘܣܝܐ ܗ̇ܝ ܕܐܝܟ ܫܡܐ ܐܚܪܬܐ ܗ</foreign> ̣<foreign xml:lang="syr">ܝ܂ ܐܢ ܗ</foreign>
+                                ̣<foreign xml:lang="syr">ܘ ܓܝܪ ܕܝܗ̇ܒ
+                                ܐܢܫ܃ ܕܡܘܢ ܐܝܬܝܗ̇ ܠܟܠ ܚܕ ܚܕ ܡܢܗܘܢ ܒܗ̇ܝ ܕܚܝܘܬܐ ܐܝܬܘܗܝ܉ ܡܠܬܐ ܕܝܠܢܝܬܐ
+                                ܕܟܠ ܚܕ ܝܗ̇ܒ܂</foreign>
+                        </cell>
+                    </row>
+                </table>
+                <p xml:lang="en">Anon, J, and G suggest different approaches to the Greek text that reflect
+                    different translation strategies. In rendering the Greek term ὁμώνυμα, the three
+                    versions share the same term <foreign xml:lang="syr">ܫܘ̈ܝܝ ܫܡܐ</foreign> . But,
+                    while Anon and J first transliterate it (J’s form <foreign xml:lang="syr">ܐܡܘ̈ܢܡܐ</foreign> seems to be
+                    closer to the Greek) and then further explain its meaning, G prefers to adhere
+                    to the received Greek text. The adverb μόνον in the same phrase remains
+                    untranslated in Anon, but it is present in both J and G. The word τὸ γεγραμμένον
+                    is rendered as <foreign xml:lang="syr">ܗ̇ܘ
+                        ܕܨܝܪ</foreign> in both Anon and G, while J prefers to use the feminine form <foreign xml:lang="syr">ܗ̇ܝ ܕܨܝܪܐ</foreign> to
+                    reflect the neuter. Both Anon and J seem to have difficulties in understanding
+                    the position and meaning of the phrase τὸ <foreign xml:lang="gr">ζῴῳ</foreign> εἶναι in the last sentence, but G
+                    suggests a translation that is close to the received Greek text.</p>
+                <p xml:lang="en">To sum up, J and G are not <hi rend="italic">based</hi> on Anon as on their main
+                    source, but rather should be considered independent translations of the Greek
+                    that <hi rend="italic">were familiar</hi> with Anon and <hi rend="italic">made
+                        use</hi> of it as of an additional tool in understanding the Aristotelian
+                    text. If this notion is correct, then J and G should be used with great caution
+                    in understanding the transition from (Gutas’) Stage 1 to Stage 2, i.e. in
+                    reconstructing the translator’s autograph, and subsequently, in moving to Stage
+                    3, i.e. in establishing the Greek text behind Anon. Strictly speaking, we have
+                    no criteria for establishing whether a supposedly “good” variant reading
+                    preserved in J and G goes back to Anon and not to the translation activity of
+                    Jacob and George.</p>
+                <p xml:lang="en">It seems that this differentiation between the Greek <hi rend="italic"
+                        >Vorlage</hi> of Anon on the one hand and the Greek text behind J and G on
+                    the other is not clear, although the editor himself seems to be well aware of
+                        it.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> Cf.
+                            note 21 above.</p></note> What a reader of the book finds is a
+                    combination of the analysis of Anon with that of J and G, which makes an
+                    impression (most likely not intended by the editor of the book) that J and G are
+                    mere witnesses of the Syriac text of Anon together with the codex that has
+                    preserved Anon for us.</p>
+                <p xml:lang="en">King offers two kinds of explanations to the published text: first, the
+                    “Commentary” on his Syriac edition, and second, the “Textual Notes” that contain
+                    the Syriac-Greek critical apparatus. J and G appear as important evidence both
+                    in the “Commentary” and in the “Notes”. The “Notes” have a subtitle: “Commentary
+                    on the anonymous version of the <hi rend="italic">Categories</hi> together with
+                    comparative notes on the versions of Jacob of Edessa and George of the Arabs”.
+                    The subtitle shows that the editor was eager to make a distinction between Anon
+                    and J &amp; G, so that the latter versions were originally consulted for the
+                    purpose of comparison. Whatever the original intention of the editor was, it
+                    seems that the outcome of his analysis was such close association between the
+                    three versions, which does not allow for the reader to distinguish between their
+                    witnesses both in the analysis of A/A* and in reconstructing the Greek text
+                    behind it.</p>
+                <p xml:lang="en">In the “Textual Notes”, this distinction seems to disappear even more. Here, the
+                    editor states that his goal would be to discuss not only “textual matters
+                    relating to the Greek <hi rend="italic">Vorlage</hi> of A” (i.e. Anon), but also
+                    “a variety of other issues relating to the corruption of the present text of A
+                    as we have it, and its relationship to J and G”.<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text"> King, <hi rend="italic">The
+                                Earliest Syriac Translation</hi> (above, n. 1), p. 257.</p></note>
+                    Though these two points are proclaimed as different objectives, they turn out to
+                    be so closely connected in the following notes that the reader has little chance
+                    to differentiate them. As a result, one easily gains an impression (which was
+                    obviously not envisioned as such by the editor of the book) that J and G were
+                    used to reconstruct the “translator’s autograph” in the “Commentary” and that
+                    later on, the comparison between the “reconstructed” Anon, J and G turns out to
+                    be much more dependent on the evidence of J and G, than to reflect the text of
+                    Anon.</p>
+                <p xml:lang="en">Additional difficulty in the commentary part of the book (i.e. both in the
+                    “Commentary” and the “Textual Notes”) comes in the system of references. The
+                    commentaries refer to the Bekker numbers and not to the page and line numbers of
+                    the Syriac edition. This makes the localization of a particular passage
+                    sometimes a difficult task for the reader, given that only every fifth Bekker
+                    number appears in the margins of the Syriac text. This principle of organization
+                    applied to the commentary part by King creates a number of difficulties for
+                    readers who do not have the Greek text of the <hi rend="italic">Categories</hi>
+                    in front of them, and it seems to reflect the editor’s intention to provide
+                    access to the Syriac version for a specialist of the Greek text of the <hi
+                        rend="italic">Categories</hi>.</p>
+                <p xml:lang="en">It is also an interesting coincidence that the structure of the English
+                    translation of the Syriac text matches nearly completely with the structure of
+                    Ackrill’s English translation of the <hi rend="italic">Categories</hi> from the
+                    Greek and thus does not reflect any elements of the internal organization of the
+                    Syriac version. Rather, it makes an impression that the primary goal of the
+                    English translation of the Syriac text of Anon would be to serve as an appendix
+                    for the Greek text.</p>
+            </div>
+            <div xml:id="hv24n2arzhanov.4" xml:lang="en">
+                <head>3. Notes on the Syriac Edition</head>
+                <p xml:lang="en">For the analysis of a translation from the Greek, Gutas
+                    suggested “starting with the known and proceeding to the unknown”, i.e.
+                    proceeding from the extant witnesses to the reconstructed translator’s version,
+                    and then further to the Greek text used by the translator.<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text"> Gutas, <hi rend="italic"
+                                >Theophrastus</hi> (above, n. 8), pp. 93–4.</p></note> However,
+                    King’s edition does not always provide sufficient information on “what is
+                    known”. This turned out to be the main reason why the online edition of the Anon
+                    in the HUNAYNNET is not based on King’s edition, but rather on the BL codex,
+                    containing it.</p>
+                <p xml:lang="en">According to the King’s commentary: “The orthography of the ms has been corrected
+                    whenever possible to yield sense. Emendations of this type are not noted in the
+                    apparatus, save where the error seems truly to belong to the translator rather
+                    than to a copyist”.<note place="foot" xml:id="ftn27" n="27"><p
+                            rend="footnote text"> King, <hi rend="italic">The Earliest Syriac
+                                Translation</hi> (above, n. 1), p. 94.</p></note> As in many cases
+                    it is not quite clear whether a seemingly erroneous variant in the text is
+                    really an error or an extravagant variant of translation, it seems that a more
+                    secure way of dealing with this question would have been carefully to have
+                    recorded all the changes to the text and to allow the reader to analyze these, a
+                    principle that is maintained in the HUNAYNNET online edition of the text.</p>
+                <p xml:lang="en">There is one element, which is missing in King’s edition (hereafter: “ed.”) and
+                    which, as it seems could provide considerable help in understanding of “what is
+                    known” about Anon. I mean the absence of angle brackets &lt;…&gt; that would
+                    denote the additions made to the text of the manuscript (hereafter: “ms”). The
+                    supplementary elements have simply been inserted into the main text of the
+                    edition, and in some cases their presence is explained in the critical apparatus
+                    (hereafter: “app. crit.”) with a note “om. ms”, and in some cases not. The two
+                    commentaries after the text are also not always helpful in such cases.</p>
+                <p xml:lang="en">There are a number of changes to the manuscript text that are not clearly
+                    recorded in the app. crit.:<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text"> The numbers refer to the page and line of the
+                            edition of King.</p></note></p>
+                <p xml:lang="en">96.17 <foreign xml:lang="syr">ܕܦܪܫ</foreign> ms : <foreign xml:lang="syr">ܕܦܪܝܫ</foreign> ed.</p>
+                <p xml:lang="en">98.15 <foreign xml:lang="syr">ܡ̇ܢ</foreign> ms : <foreign xml:lang="syr">ܥܠ</foreign> ed.</p>
+                <p xml:lang="en">100.32 <foreign xml:lang="syr">ܡ̇ܢ</foreign> ms : om.
+                    ed.</p>
+                <p xml:lang="en">106.11 <foreign xml:lang="syr">ܘܕܬܪ̈ܬܝܢ</foreign> ms :
+                        <foreign xml:lang="syr">ܘܬܪ̈ܬܝܢ</foreign> ed. </p>
+                <p xml:lang="en">108.25 <foreign xml:lang="syr">ܡܣܬܒܪܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܡܣܬܒܪ</foreign> ed.</p>
+                <p xml:lang="en">116.21 <foreign xml:lang="syr">ܐܢܫ</foreign> ms : om.
+                    ed.</p>
+                <p xml:lang="en">126.20 <foreign xml:lang="syr">ܐܝܬܝܗܘܢ</foreign> ms :
+                        <foreign xml:lang="syr">ܐܝܬܝܗܝܢ</foreign> ed.</p>
+                <p xml:lang="en">128.13 <foreign xml:lang="syr">ܥܦܐ</foreign> ms : <foreign xml:lang="syr">ܥܐܦܐ</foreign> ed.</p>
+                <p xml:lang="en">132.32 <foreign xml:lang="syr">ܐܝܠܝܢ ܕܕܐܝܟ
+                        ܗܠܝܢ</foreign> ms : om. ed.</p>
+                <p xml:lang="en">136.23 <foreign xml:lang="syr">ܒܕܡܘܬܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܒܕܡܘܬ</foreign> ed.</p>
+                <p xml:lang="en">136.32 <foreign xml:lang="syr">ܚܠܝܐ</foreign> ms : <foreign xml:lang="syr">ܚܝܠܐ</foreign> ed.</p>
+                <p xml:lang="en">140.4 <foreign xml:lang="syr">ܙܢ̈ܝܐ</foreign> ms : <foreign xml:lang="syr">ܙܢ̈ܝܐ ܚܫ̈ܐ</foreign> ed.</p>
+                <p xml:lang="en">140.17 <foreign xml:lang="syr">ܘܟܦܝܦܘܬܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܟܦܝܦܘܬܐ</foreign> ed.</p>
+                <p xml:lang="en">142.10,13 <foreign xml:lang="syr">ܣܝܡ̈ܝܢ</foreign> ms
+                    : <foreign xml:lang="syr">ܣܝܡ̈ܢ</foreign> ed.</p>
+                <p xml:lang="en">154.23 <foreign xml:lang="syr">ܐܝܟܢܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܐܟܙܢܐ</foreign> ed.</p>
+                <p xml:lang="en">154.28 <foreign xml:lang="syr">ܕܚܕܐ</foreign> ms : <foreign xml:lang="syr">ܕܚܕ</foreign> ed.</p>
+                <p xml:lang="en">156.10 <foreign xml:lang="syr">ܐܬܥܢܝܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܐܬܟܢܝܐ</foreign> ed.</p>
+                <p xml:lang="en">156.25 <foreign xml:lang="syr">ܕܚܕܐ</foreign> ms : <foreign xml:lang="syr">ܕܚܕ</foreign> ed.</p>
+                <p xml:lang="en">156.26 <foreign xml:lang="syr">ܘܚܕܐ</foreign> ms : <foreign xml:lang="syr">ܘܚܕ</foreign> ed.</p>
+                <p xml:lang="en">158.4 <foreign xml:lang="syr">ܢܣܬܒܪ</foreign> ms : <foreign xml:lang="syr">ܢܣܬܒܪܐ</foreign> ed.</p>
+                <p xml:lang="en">158.10 <foreign xml:lang="syr">ܠܡܬܟܪܗܘ</foreign> ms :
+                        <foreign xml:lang="syr">ܠܟܪܗܘ</foreign> ed.</p>
+                <p xml:lang="en">158.15 <foreign xml:lang="syr">ܕܓܠܬܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܕܓܠܐ</foreign> ed.</p>
+                <p xml:lang="en">162.5 <foreign xml:lang="syr">ܝܩܝܪܝܢ</foreign> ms :
+                        <foreign xml:lang="syr">ܢܩܝܪܝܢ</foreign> ed.</p>
+                <p xml:lang="en">164.5 <foreign xml:lang="syr">ܐܟܚܕ</foreign> ms : <foreign xml:lang="syr">ܐܟܚܕܐ</foreign> ed.</p>
+                <p xml:lang="en">164.6 <foreign xml:lang="syr">ܒܓܢܣܐ</foreign> ms : <foreign xml:lang="syr">ܕܓܢܣܐ</foreign> ed.</p>
+                <p xml:lang="en">Besides these, the app. crit. contains some errors as follows:</p>
+                <p xml:lang="en">114.27,29 The codex in both cases has <foreign xml:lang="syr">ܐܦܝܦܕܐ</foreign> (first with
+                    the prefix <foreign xml:lang="syr">ܒ</foreign> and
+                    then with <foreign xml:lang="syr">ܕ</foreign>) and
+                    not <foreign xml:lang="syr">ܐܦܝܦܢܕܐ</foreign> as
+                    indicated by King. The commentary on p. 265 is misleading.</p>
+                <p xml:lang="en">126.27 Ms has <foreign xml:lang="syr"
+                        >ܐܚܪܢܐܝܬ</foreign> and not <foreign xml:lang="syr">ܐܚܪ̈ܢܝܬܐ</foreign> as in the
+                    app. crit.</p>
+                <p xml:lang="en">138.24 Ms has <foreign xml:lang="syr">ܚܘܡܐ</foreign>
+                    and not <foreign xml:lang="syr">ܚܘܪܐ</foreign> as in
+                    the app. crit.</p>
+                <p xml:lang="en">160.20 Ms has <foreign xml:lang="syr"
+                        >ܘܐܚܪܝܘܬܐ</foreign> and not <foreign xml:lang="syr">ܐܚܪܝܘܬܐ</foreign> as in the
+                    app. crit.</p>
+                <p xml:lang="en">162.26 Ms has <foreign xml:lang="syr">ܟܕ</foreign> and
+                    not <foreign xml:lang="syr">ܟܠ</foreign> as in the
+                    app. crit. (the commentary on p. 247 is thus misleading).</p>
+                <p xml:lang="en">Two portions of the text are missing in the edition:</p>
+                <p xml:lang="en">114.1 A large portion of text (<foreign xml:lang="syr">ܢܩܝܦܝܢ ܚ̈ܡܫܐ ܘܚܡܫܐ ܐܠܐ
+                        ܦܪ̈ܝܫܝܢ ܐܦܠܐ ܬܠܬܐ ܘܫܒܥܐ ܢܩܝܦܝܢ ܠܘܬ ܬܚܘܡܐ ܓܘܢܝܐ</foreign> ) is absent. The
+                    commentary on p. 264 suggests that there is a lacuna in A. The lacuna is in fact
+                    in the edition itself and it is probably due to the homoeoteleuton in the ms
+                    text (<foreign xml:lang="syr">ܓܘܢܝܐ</foreign> ... <foreign xml:lang="syr">ܓܘܢܝܐ</foreign>).</p>
+                <p xml:lang="en">156.14 One line is missing (<foreign xml:lang="syr">ܣܓܝ ܢܫܬܘܫܛ ܘܐܦ</foreign> )
+                    probably due to homoeoteleuton (<foreign xml:lang="syr">ܕܐܦ</foreign> ... <foreign xml:lang="syr">ܘܐܦ</foreign>). The
+                    commentary on p. 279 (“καὶ πλείω … λαμβάνειν om. A (homoe. καί / <foreign xml:lang="syr">ܐܦ</foreign>)”) is wrong, as
+                    the victim of the homoeoteleuton is the edition and not the ms.</p>
+            </div>
+            <div xml:id="hv24n2arzhanov.5" xml:lang="en">
+                <head>4. Emendations vs. Corrections of the Translator</head>
+                <p xml:lang="en">The text of BL Add. 14658 is not very reliable. Thus,
+                    multiple corrections suggested by King seem to be necessary, and they are
+                    maintained in the HUNAYNNET edition. For example:</p>
+                <p xml:lang="en">98.8 The addition of <foreign xml:lang="syr"
+                        >ܣܘܣܝܐ</foreign> is necessary because the preserved Syriac text is otherwise not
+                    comprehensible.</p>
+                <p xml:lang="en">108.12 The correction of <foreign xml:lang="syr"
+                        >ܦܠܚܬ</foreign> to <foreign xml:lang="syr"
+                        >ܦܠܢܝܬ</foreign> is a good solution, since it makes a minor correction to the
+                    transmitted text and takes it closer to the Greek.</p>
+                <p xml:lang="en">110.11 The correction <foreign xml:lang="syr"
+                        >ܕܓܘܐ</foreign> to <foreign xml:lang="syr"
+                        >ܕܓܘܢܐ</foreign> is necessary and it better reflects the Greek.</p>
+                <p xml:lang="en">110.26 The same stands for the correction of <foreign xml:lang="syr">ܒܙܒܢܐ</foreign> to <foreign xml:lang="syr">ܒܙܢܐ</foreign>. The variant
+                    in the ms can easily be explained as a scribal error and the emendation brings
+                    the text closer to the Greek.</p>
+                <p xml:lang="en">112.10 The correction <foreign xml:lang="syr"
+                        >ܕܒܚܫܐ</foreign> takes the text closer to the Greek, and the form <foreign xml:lang="syr">ܒܢܝܫܐ</foreign> is a clear
+                    scribal error.</p>
+                <p xml:lang="en">116.21 The word <foreign xml:lang="syr"
+                        >ܒܝܫܬܐ</foreign> makes no sense in the sentence and its correction to <foreign xml:lang="syr">ܒܫܢܬܐ</foreign> is obviously
+                    necessary.</p>
+                <p xml:lang="en">126.10 The negative particle <foreign xml:lang="syr">ܠܘ</foreign> may not be the
+                    original reading and a simple correction to <foreign xml:lang="syr">ܠܘܬ</foreign> makes better
+                    sense.</p>
+                <p xml:lang="en">126.25 The correction of <foreign xml:lang="syr"
+                        >ܐܝܬ</foreign> to <foreign xml:lang="syr">ܐܢ</foreign>
+                    here suggests a better reading.</p>
+                <p xml:lang="en">158.19 The correction of <foreign xml:lang="syr"
+                        >ܐܘ ܚܙܬܐ</foreign> to <foreign xml:lang="syr"
+                        >ܐܚܪܬܐ</foreign> seems to be necessary, for otherwise the Syriac text remains
+                    incomprehensible. The second correction (<foreign xml:lang="syr">ܗܟܢܐ</foreign> to <foreign xml:lang="syr">ܚܕܐ</foreign>) looks more
+                    problematic, for in the preserved form the Syriac makes sense and could simply
+                    reflect the translators’ method of rendering the Greek.</p>
+                <p xml:lang="en">To sum up, the listed corrections are necessary and were inserted into the main
+                    text of the HUNAYNNET edition because:</p>
+                <p xml:lang="en">1) the Syriac text makes no sense in its present state in the ms;</p>
+                <p xml:lang="en">2) the correction requires a minimal change of Syriac, and it can be explained by
+                    an error in the transmission of the Syriac text;</p>
+                <p xml:lang="en">3) it is mostly based on the transmitted Greek text.</p>
+                <p xml:lang="en">However, not all the editor’s corrections introduced into the main text of the
+                    edition find sufficient support among the extant witnesses. As noted above, in
+                    his reconstruction of the translator’s autograph, King seemingly makes active
+                    use of J and G, though they may not be considered as “improved” copies of Anon,
+                    but rather as independent translations.</p>
+                <p xml:lang="en">A number of conjunctions seem to be rather far-fetched, and the reason for them
+                    turns out to be the idea that the translator should have faithfully rendered the
+                    received Greek text. However, Anon remains generally unstable in its use of
+                    terminology and translation technique (cf. below, §4). As King stresses on p.
+                    33, Anon “experiments extensively, makes frequent errors, and often
+                    misunderstands the original…” Cf. p. 198: the translation technique of Anon is
+                    “changing within a single passage”. These characteristics make the analysis of
+                    Anon extremely complex, for a variant that looks like an error may in fact be
+                    attributable to this changing technique.</p>
+                <p xml:lang="en">In many cases, the corrections of the received Syriac text seem to be based on an
+                    idea of how the Syriac translator <hi rend="italic">should have translated</hi>
+                    the Greek original. This “should” reflects a modern concept of an editor who
+                    thus reconstructs the text of the translation, but in many cases does not make
+                    apparent the reasons for his choice. Many such corrections intending to improve
+                    the work of the Syriac translator are not based on any clear evidence. For
+                    example:</p>
+                <p xml:lang="en">98.11 <foreign xml:lang="syr">ܡܫܟܚܐ</foreign> ms : <foreign xml:lang="syr">ܡܕܡ ܟܠܐ</foreign> ed. — On p.
+                    178, the editor explains his conjunction by stating that “A’s text reverses
+                    Aristotle’s meaning”. This statement suggests implicitly that the preserved
+                    Syriac version contains a certain interpretation that does not match with the
+                    transmitted Greek text.</p>
+                <p xml:lang="en">104.26 <foreign xml:lang="syr">ܐܢܐ</foreign> ms : <foreign xml:lang="syr">ܐܢܬ</foreign> ed. — The
+                    editor’s variant is based on the fact that the transmitted Greek text has 2nd
+                    person sg. However, it remains possible that the Syriac translator 1) had
+                    another variant in his Greek copy, or 2) preferred to change it for some
+                    reason.</p>
+                <p xml:lang="en">104.33 <foreign xml:lang="syr">ܐܘ̈ܣܝܣ</foreign> ms :
+                        <foreign xml:lang="syr">ܕܐܘ̈ܣܝܣ</foreign> ed. —
+                    The editor’s correction is again based on the assumption that the Syriac
+                    translator was trying to render the transmitted Greek text in a way that would
+                    be close to the Greek. In the commentary on p. 186, King suggests that Anon
+                    renders the Greek in a different way to J and G. This note does not make clear
+                    why the main text of the edition contains the emendation and not the original
+                    reading of the ms, which also makes sense although it departs from the
+                    transmitted Greek version.</p>
+                <p xml:lang="en">106.10 <foreign xml:lang="syr">ܦܘܪܫܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܦܘܪܫܢܐ</foreign> ed. —
+                    The editor doesn’t explain his emendation, but one may suppose that it is due to
+                    the fact that the term <foreign xml:lang="syr"
+                        >ܦܘܪܫܢܐ</foreign> is used more frequently in Anon. However, given that Anon is
+                    not consistent in its terminology, the possibility that another term was applied
+                    here should not be excluded.</p>
+                <p xml:lang="en">106.24 The insertion of <foreign xml:lang="syr"
+                        >ܡܢ</foreign> before <foreign xml:lang="syr"
+                        >ܐܘܣܝܐ</foreign> is clearly following the Greek text (cf. the commentary on p.
+                    188), though the sentence would make sense without it. It is not unusual for
+                    Syriac to stress a term by putting it in front position in a sentence. Cf. a
+                    similar case in 106.26, where the particle <foreign xml:lang="syr">ܕ</foreign> is attached. Both
+                    instances coming in close proximity speaks rather in favor of a particular style
+                    of translation rather than a series of errors.</p>
+                <p xml:lang="en">110.11 The change from the simple <foreign xml:lang="syr">ܗܘ</foreign> to <foreign xml:lang="syr">ܗܘ ܟܕ ܗܘ</foreign> in
+                    rendering the Greek ταὐτόν is based on two assumptions: (1) “a later copyist has
+                    omitted <foreign xml:lang="syr">ܗܘ ܟܕ ܗܘ</foreign>
+                    through homoeoteleuton” (p. 192), and (2) “as the translator has by this point
+                    learnt how to render this expression [i.e. <foreign xml:lang="syr">ܗܘ ܟܕ ܗܘ</foreign> for ταὐτόν
+                    — <hi rend="italic">Y.A</hi>.] effectively, the error can be assumed to be a
+                    copyist’s”. Yet on closer examination, neither of these arguments seems to be
+                    decisive in a way that would necessitate a change in the main text of the
+                    edition. Especially, the second argument about the skills of the translator in
+                    following the pattern most common in Syriac translations is not decisive, as is
+                    made clear by the note on p. 33 (see above). Thus, it remains a possibility that
+                    (1) the singular <foreign xml:lang="syr">ܗܘ</foreign>
+                    is the original variant used by the translator to translate the Greek ταὐτόν,
+                    and (2) there was some other Greek word in the copy which the Syriac translator
+                    made use of.</p>
+                <p xml:lang="en">116.32 The insertion of <foreign xml:lang="syr"
+                        >ܡܢ</foreign> into the main text (the variant of ms is indicated as “om.”) aims
+                    at a better rendering of the Greek genitive. Cf. the commentary on p. 266:
+                    “Required for sense, cf. JG”. As in many other cases, the editor seems to have
+                    used the evidence of J and G as witnesses to the original version of Anon,
+                    though both Jacob and George could have corrected Anon for the same reason as
+                    King, and it remains a possibility that Anon was not consistent and modified the
+                    Greek original. Without <foreign xml:lang="syr"
+                        >ܡܢ</foreign>, the Syriac text would be an instance of <hi rend="italic"
+                        >apposition</hi> (see Nöldeke, §212), which would render the expression
+                    <foreign xml:lang="gr">τούτων δὲ</foreign> without using some equivalent for the genitive.</p>
+                <p xml:lang="en">118.6 Here the editor makes a series of corrections, and one becomes the
+                    justification for another. The ms runs as follows: <foreign xml:lang="syr">ܠܘܬ ܝܬܗ ܕܝܢ ܪܒܐ ܘܙܥܘܪܐ
+                        ܠܐ ܡܬܐܡܪ ܠܓܡܪ</foreign> , which could be translated: “By themselves, small and
+                    large are not said” (see p. 204). This is not in line with the argument of
+                    Aristotle as transmitted in the Greek text. This seems to be the only reason for
+                    the editor’s change to the Syriac text, first by eliminating the negative
+                    particle <foreign xml:lang="syr">ܠܐ</foreign> and
+                    then by introducing <foreign xml:lang="syr"
+                        >ܐܢ</foreign> at the beginning of the clause. However, the transmitted Syriac
+                    text may reflect the original variant of the translator.</p>
+                <p xml:lang="en">118.14 <foreign xml:lang="syr">ܕܡܢ ܗܕܐ</foreign> ms :
+                        <foreign xml:lang="syr">ܡܕܝܢ</foreign> ed. —
+                    Commenting on this passage on p. 204, King notes that “<foreign xml:lang="gr">ὥστε</foreign> in A is usually <foreign xml:lang="syr">ܐܝܟܢܐ</foreign> or <foreign xml:lang="syr">ܡܕܝܢ</foreign>, but here the
+                    more idiomatic <foreign xml:lang="syr">ܡܢ
+                        ܗܕܐ</foreign> ”. Apart from the ambiguous meaning of “A” (does it designate the
+                    translator or the manuscript version?), it remains unclear why this unique “more
+                    idiomatic” use of <foreign xml:lang="syr">ܡܢ
+                        ܗܕܐ</foreign> should be corrected in the main text and not in the critical
+                    apparatus.</p>
+                <p xml:lang="en">120.8 The change of <foreign xml:lang="syr"
+                        >ܠܦܘܬ</foreign> to <foreign xml:lang="syr"
+                        >ܠܘܬ</foreign> remains unexplained by the editor, and it seems to be based on the
+                    assumption that the Greek πρός should be translated only by <foreign xml:lang="syr">ܠܘܬ</foreign>. But since the
+                    Syriac translator is not always consistent, the unique use of <foreign xml:lang="syr">ܠܦܘܬ</foreign> as an
+                    equivalent to πρός is not completely impossible, and it seems better to have the
+                    ms variant in the main text.</p>
+                <p xml:lang="en">120.7 The transmitted Syriac text, i.e. without the conjunction, is a possible
+                    rendering of the Greek. The editor admits this on p. 268, noting that the
+                    version preserved in the ms “is not a very successful translation”. Such an
+                    evaluation does not necessarily demand a conjunction that is based on J and
+                    G.</p>
+                <p xml:lang="en">124.30 The editor corrects the form <foreign xml:lang="syr">ܐܘ</foreign> to <foreign xml:lang="syr">ܐܢ</foreign>, commenting on
+                    p. 213 that this is a transliteration of ἄν, and he considers the same case to
+                    be present at 164.3, which would refer to 15a1. It seems that in both cases such
+                    an explanation is far-fetched. In the latter, <foreign xml:lang="syr">ܐܢ</foreign> may just express
+                    both the optative and the particle ἄν. And in the former, the conjunction <foreign xml:lang="syr">ܐܘ</foreign> would also be
+                    possible.</p>
+                <p xml:lang="en">140.5 King has good reason to consider corrupt the expression <foreign xml:lang="syr">ܒܪܫܥܬܗ ܒܗܘܠܐ</foreign> that
+                    appears in the ms. As the second word supposedly renders the Greek γένεσις, the
+                    correction to <foreign xml:lang="syr">ܗܘܝܐ</foreign>
+                    is evidently a good solution. Much less understandable is the correction of the
+                    first word <foreign xml:lang="syr">ܒܪܫܥܬܗ</foreign>
+                    “immediately” (ed.: <foreign xml:lang="syr"
+                        >ܒܪܫܝܬܗ</foreign>), which looks like a good rendering of the Greek εὐθύς. King
+                    understands it as “through the wickedness (of matter)”, which he considers as
+                    “evidence for the religious mentality of the scribe, who sees what he expects in
+                    the text before him rather than what is written”. This judgment seems to be
+                    rather harsh given that the text remains on the whole quite close to the
+                    Greek.</p>
+                <p xml:lang="en">144.6 The change of <foreign xml:lang="syr"
+                        >ܡܝܬܪܐ</foreign> (ms) to <foreign xml:lang="syr"
+                        >ܝܬܝܪ</foreign> remains unexplained, and we may assume that the latter form would
+                    be more suitable for rendering the Greek μᾶλλον, but neither is the form
+                    preserved in the ms completely impossible.</p>
+                <p xml:lang="en">150.23 The ms form <foreign xml:lang="syr"
+                        >ܒܦܘܣܩܢܐ</foreign> would be an unusual rendering of the Greek ἀποφάσει, which is
+                    traditionally transliterated as <foreign xml:lang="syr">ܐܦܘܦܣܝܣ</foreign>. However,
+                    the term <foreign xml:lang="syr">ܦܘܣܩܢܐ</foreign>
+                    would be a possible equivalent, and there are no grounds for changing the main
+                    text to <foreign xml:lang="syr">ܒܐܦܘܦܣܝܣ</foreign> as
+                    has been done in the edition.</p>
+                <p xml:lang="en">162.25 The ms has <foreign xml:lang="syr">ܥܡ
+                        ܟܠ</foreign> , which the editor considers to be a corruption of <foreign xml:lang="syr">ܐܟܚܕܐ</foreign>. No reason
+                    for this emendation is suggested in the commentary. The expression that appears
+                    in the ms apparently renders the Greek term ἅμα, which is the main focus of this
+                    chapter of the <hi rend="italic">Categories</hi>. The proposed emendation <foreign xml:lang="syr">ܐܟܚܕܐ</foreign> would indeed
+                    be a better solution, and it would be consistent with the rest of the chapter.
+                    However, two theoretical possibilities speak in favor of preserving the original
+                    ms reading in the main text (and suggest an emendation rather in the app. crit.
+                    or in the commentary): the possibility that (1) the preserved form reflects a
+                    Greek form different from the transmitted text; and (2) it contains the
+                    interpretation of the transmitted Greek by the Syriac translator.</p>
+                <p xml:lang="en">164.2 The correction of the preserved form <foreign xml:lang="syr">ܘܐܚܪܝܐ</foreign> to <foreign xml:lang="syr">ܐܘ ܐܚܪܢܐ</foreign> by the
+                    editor is explained neither in the “Commentary” nor in the “Textual Notes”. It
+                    is likely based on the fact that the Greek has <foreign xml:lang="gr">ἢ ὕστερόν</foreign>, and a more correct
+                    rendering of it by the translator <hi rend="italic">should be</hi> the form
+                    proposed by the editor. However, it would seem that by changing the Syriac text,
+                    the modern editor is correcting not the errors of textual transmission, but
+                    rather the Syriac translator of the 6th century.</p>
+                <p xml:lang="en">These and some additional editorial interventions in the text appear not in the
+                    critical apparatus or in the commentaries coming after the text, but in the
+                    published text itself. Most of these emendations and changes appear without any
+                    marker in the parallel English translation (and they further serve as a basis
+                    for the reconstruction of the Greek exemplar used by the Syriac translator). For
+                    example, on p. 139 the words “honey is” are included in square brackets in the
+                    English translation, which is correct, as they have indeed been added to the
+                    text. However, the beginning of the next sentence, “in the same way”, is also an
+                    addition, but it is not marked as such by means of brackets. Later on, in the
+                    last paragraph on the same page, the first sentence also includes an addition,
+                    “(difficult) to move”, which is also not marked as such, so that a reader could
+                    have an impression that these words are present in the Syriac text.</p>
+                <p xml:lang="en">The parallel English translation of the published Syriac text thus includes most
+                    of the editor’s conjectures, most of which have not been marked by means of
+                    &lt;…&gt; (see, e.g., the insertion of <foreign xml:lang="syr">ܡܩܒܠܐ</foreign> in 118.20).
+                    Instead, the additions appear in the main text, while the critical apparatus
+                    informs us that the added elements are “omitted” by Anon. In many cases, it
+                    remains unclear whether such “omissions” derive from the Greek exemplar, the
+                    work of the Syriac translator, or the transmission of the Syriac text.</p>
+            </div>
+            <div xml:id="hv24n2arzhanov.6" xml:lang="en">
+                <head>5. The Context of Anon</head>
+                <p xml:lang="en">There is a certain paradox connected with the anonymous
+                    Syriac version of Aristotle’s <hi rend="italic">Categories</hi> that becomes
+                    apparent from the book of King. On the one hand, Anon turns out to be a highly
+                    unstable version that frequently changes its use of terminology and translation
+                    technique; its author (or authors) seems frequently to have had difficulties in
+                    grasping the precise meaning of the Aristotelian text; and it seems to be
+                    possibly based on an imperfect copy of the Greek text. On the other hand, this
+                    version must have had a great impact on the Syriac philosophical tradition, for
+                    such experts in the Greek language and in Aristotelian philosophy as Jacob of
+                    Edessa and George Bishop of the Arabs found it necessary to take Anon into
+                    account and to use the terminology coined by this version.</p>
+                <p xml:lang="en">It would, thus, be natural to deduce that the authority of Anon lay not in the
+                    authority of the person or persons who produced it, but rather in the
+                    authoritative <hi rend="italic">tradition</hi>, part of which and a product of
+                    which this translation was. It seems to reflect the continuous pedagogical
+                    tradition of study, translation, and commentary of the first and most important
+                    part of the Aristotelian <hi rend="italic">Organon</hi> in Syriac schools in the
+                    period before that, in which the teachers of Qenneshre, Jacob of Edessa and
+                    George of the Arabs, replaced it with other, more precise translations. In doing
+                    this, however, they saw it necessary to preserve as much as possible of Anon and
+                    its terminology.</p>
+                <p xml:lang="en">The educational background of Anon seems to infiltrate the text in the passage
+                    that renders <hi rend="italic">Cat</hi>. 13a23-25: <foreign xml:lang="gr">ὁ γὰρ φαῦλος εἰς βελτίους
+                    διατριβὰς ἀγόμενος καὶ λόγους κἂν μικρόν γέ τι ἐπιδοίη εἰς τὸ βελτίω εἶναι</foreign>. Anon
+                    proposes the following translation: <foreign xml:lang="syr">ܒܝܫܐ ܓܝܪ ܟܕ ܒܡ̈ܠܐ
+                        ܫܦܝܪ̈ܬܐ ܡܬܥܢܝܐ ܐܦܢ ܩܠܝܠ ܡܕܡ ܡܫܬܘܫܛ ܕܢܗܘܐ ܡܝܬܪ</foreign> — “For the evil man, when
+                    he is answered in good words, even if only a little, progresses towards being
+                    good.” The Syriac translator preferred to render the text in a more moral way,
+                    having probably in mind numerous apophthegms about Greek sages who preferred to
+                    answer evil deeds with good words, apophthegms that formed part of the
+                    elementary education of the young.<note place="foot" xml:id="ftn29" n="29"><p
+                            rend="footnote text"> Cf. Arzhanov, <hi rend="italic">Syriac
+                                Sayings</hi> (above, n. 16).</p></note> The J version further
+                    elaborated on this topic: <foreign xml:lang="syr">ܒܝܫܐ ܓܝܪ ܟܕ ܠܕܘܝܪܐ
+                        ܡܝܬܪ̈ܐ ܘܡ̈ܠܐ ܡܬܬܝܬܐ ܐܦܢ ܩܠܝܠ ܟܝܬ ܡܕܡ ܢܫܬ</foreign> ̣<foreign xml:lang="syr">ܫܛ ܠܗ̇ܝ</foreign> — “For the
+                    evil person, when he turns to (a good) way of life…”, and the term <foreign xml:lang="syr">ܕܘܝܪܐ</foreign> here
+                    certainly sounds like the monastic way of life.<note place="foot" xml:id="ftn30"
+                        n="30"><p rend="footnote text"> King correctly stresses this aspect of J:
+                            King, <hi rend="italic">The Earliest Syriac Translation</hi> (above, n.
+                            1), p. 244.</p></note> These details reveal for us the cultural
+                    background of Anon, which turns out to be the outcome of the pedagogical
+                    tradition in Syriac monastic schools, rather than the effect of one
+                    translator.</p>
+                <p xml:lang="en">The appearance of glosses and additions to the Aristotelian text (cf. a large
+                    gloss in 134.11–15 as an addition to the Greek text of 8b25<note place="foot"
+                        xml:id="ftn31" n="31"><p rend="footnote text"> Cf. the commentary on pp.
+                            220–221.</p></note>) further corroborate the conclusion that Anon
+                    emerged from a long pedagogical tradition that included oral instruction and the
+                    use of commentaries and scholia rather than representing a purely individual
+                    attempt at translation. However, more accurate translations of Jacob of Edessa
+                    and of George of the Arabs later replaced the earlier version, so that it is not
+                    surprising that only this one textual witness has come down to us.</p>
+            </div>
+            <div xml:id="hv24n2arzhanov.7" xml:lang="en">
+                <head>6. The Case of J</head>
+                <p xml:lang="en">On pp. 283–296, King’s book contains an excursus on “the
+                    manuscript tradition of Jacob of Edessa’s version”, which not only provides a
+                    digest of the information on this translation known from Georr’s edition, but
+                    also offers valuable new data. For his edition of Anon, King has made a new
+                    collation of the mss of this version that were available to him and published an
+                    extensive critical apparatus. King made use of the following mss: Vat. Syr. 158
+                    and 586, Paris Syr. 248 and 354, and Mingana Syr. 606.</p>
+                <p xml:lang="en">King’s analysis has provided an important supplement to Georr’s edition and a
+                    helpful resource for the new online edition of J in the HUNAYNNET database.
+                    However, the preparation of the HUNAYNNET edition has brought new insights to
+                    the understanding of the transmission history of J. The following six mss have
+                    been used in the preparation of the new edition:</p>
+                <p xml:lang="en">B Baghdad, Chaldean Patriarchate 223, <hi rend="italic">olim</hi> Mosul 35<note
+                        place="foot" xml:id="ftn32" n="32"><p rend="footnote text"> For this codex,
+                            see G. Kessel &amp; N. Bamballi, “Field Notes on Syriac Manuscripts II:
+                            A Philosophical Manuscript Olim Mosul 35 Rediscovered”, <hi
+                                rend="italic">Hugoye: Journal of Syriac Studies</hi> 21.1 (2018),
+                            pp. 21–42.</p></note>; </p>
+                <p xml:lang="en">C Vatican Syriac 586;</p>
+                <p xml:lang="en">M Birmingham, Mingana, Syriac 606;</p>
+                <p xml:lang="en">P Paris, BnF, Syriac 354;</p>
+                <p xml:lang="en">V Vatican, Syriac 158;</p>
+                <p xml:lang="en">W Paris, BnF, Syriac 248.</p>
+                <p xml:lang="en">As a result of the new collation, the following <hi rend="italic">stemma
+                        codicum</hi> has been drawn:</p>
+                
+                <p xml:lang="en">
+                    <graphic url="https://hugoye.bethmardutho.org/resources/images/articles/HV24N2Arzhanov-image1.png" rend="center"/>
+                </p>
+                
+                <p xml:lang="en">Commentary:</p>
+                <p xml:lang="en">1) Mss M, B, and P belong to the same branch of transmission, as they share a
+                    large number of errors and textual variants not present in V and C.
+                    Additionally, B and P share a number of errors not present in M, and must thus
+                    go back to a common intermediary copy.</p>
+                <p xml:lang="en">2) Ms M is a direct copy of ms Baghdad, Chaldean Monastery 169, <hi rend="italic"
+                        >olim</hi> Notre Dome des Semences 51, which was inaccessible to me but
+                    could replace M in the stemma.</p>
+                <p xml:lang="en">3) Two other mss from the same collection were not available to me: Baghdad,
+                    Chaldean Monastery 171, <hi rend="italic">olim</hi> Notre Dame des Semences 52,
+                    and Notre Dame des Semences 53. Their place in the stemma should be clarified in
+                    the future.</p>
+                <p xml:lang="en">4) W, in being a direct copy of V, may be excluded from the critical apparatus.
+                    Three apographs of V are known: Paris, BnF, Syriac 248 (W), Escorial Or. 652,
+                    and Florence, Palat. Med. Or. 176. Among this group of manuscripts, W holds a
+                    special position, and variants from this codex appear in the critical apparatus
+                    of the HUNAYNNET edition due to two characteristics. First, Georr used it in his
+                    edition of Jacob of Edessa’s version of the <hi rend="italic">Categories</hi>,
+                    and analysis of the variants from W make clear, which of Georr’s readings derive
+                    from W and which are due to the editor. And secondly, W emerges not as a
+                    mechanical copy of V. On fol. 49v, line 5, V omits a large portion of text
+                    corresponding to 285.12–14 in Georr’s edition. However, this text is present in
+                    W, and it is not the only example of this kind<note place="foot" xml:id="ftn33"
+                        n="33"><p rend="footnote text"> V omits a large portion of text of
+                            Porphyry’s <hi rend="italic">Eisagoge</hi> on fol. 3v, lines 22–23, that
+                            is present in W.</p></note>. Just before this, a large passage is absent
+                    from W (= 284.2 <foreign xml:lang="syr"
+                        >ܗܟܢܐ</foreign> — 285.11 <foreign xml:lang="syr"
+                            >ܡܬܐܡܪܝܢ</foreign> Georr), and the lacuna comprises precisely two pages of text
+                    in V (fols. 48v–49r), i.e. the scribe of W seemingly turned one additional page
+                    without noticing it. Given this evidence, there remains little doubt that W was
+                    copied from V, however the presence of the text in W missing from V permits us
+                    to suppose that the scribe of W used additional sources for his work (a possible
+                    candidate for which may be P).</p>
+                <p xml:lang="en">5) Ms C is a collection of scholia on the <hi rend="italic">Categories</hi> in
+                    the form of questions and answers<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text"> For the description, see A. van Lantschoot<hi
+                                rend="italic">, Inventaire des manuscrits syriaques des fonds
+                                Vatican (490–631), Barberini oriental et Neofiti</hi>, Biblioteca
+                            Apostolica Vaticana, Città del Vaticano 1965 (Studi e Testi 243), p.
+                            113. Published in Sami Aydin, “The Remnant of a Questions and Answers
+                            Commentary on Aristotle’s Categories in Syriac (Vat. Syr. 586)”, <hi
+                                rend="italic">Studia Graeco-Arabica</hi> 9 (2019), pp.
+                        69–106.</p></note>. The questions of a disciple (<foreign xml:lang="syr">ܬܠܡܝܕܐ</foreign>) contain
+                    lemmata from the text of the <hi rend="italic">Categories</hi> in Jacob of
+                    Edessa’s version, which comprise <hi rend="italic">Cat.</hi> 6a17–7a4. The
+                    Aristotelian text between these passages is quoted inconsistently, and certain
+                    portions of it are omitted. On the basis of the quoted passages, it remains
+                    difficult to assign C to a place in the stemma. However, King’s notion that C
+                    shares an error with V (in the passage corresponding to 272.20 Georr) is not
+                    correct, since V in fact does not contain the form that King is quoting. On the
+                    contrary, in one passage (273.10–11 Georr, see fol. 6v in C) C contains the
+                    variant reading (<foreign xml:lang="syr"
+                        >ܕܡܬܪܓܫܢܐ</foreign>), which is found in mss BMP, but not in V. However, this
+                    seems to be insufficient grounds for placing C within the BMP line, and thus C
+                    assumes a special place in the stemma.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
