@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Memra of Patriarch Mar ’Īšō‘yahb I of
+                    Arzōn (581-595): The Cause of the ‘Holy God’</title>
+                <author>
+                    <name>Mar Awa III</name>
+                    <affiliation>
+                        <orgName>Catholicos-Patriarch, Assyrian Church of the East</orgName>
+                    </affiliation>
+                </author>
+                
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2022</date>
+                <idno>Volume 25.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">For this publication, a Creative Commons Attribution 4.0
+                            International license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv25n1awa</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Mar Awa III</author>
+                        <title level="a">The Memra of Patriarch Mar ’Īšō‘yahb I of
+                            Arzōn (581-595): The Cause of the ‘Holy God’</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol25/HV25N1Awa.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2021</date>
+                        </imprint>
+                        <biblScope type="vol" n="25">25</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="85" to="136">85-136</biblScope>
+                        <biblScope type="order" n="4"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">Hugoye: Journal of Syriac Studies is an electronic journal
+                    dedicated to the study of the Syriac tradition, published semi-annually (in
+                    January and July) by Beth Mardutho: The Syriac Institute. Published since 1998,
+                    Hugoye seeks to offer the best scholarship available in the field of Syriac
+                    studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2022-03-04">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <head>Abstract</head>
+            <div type="abstract" xml:lang="en">
+                <p xml:lang="syr">In 1917, Guiseppe Furlani introduced the Syriac world to an
+                    otherwise unknown sixth century document composed by Mar ’Īšō‘yahb I the Arzōnite,
+                    catholicos-patriarch of the Assyrian Church of the East from 581 to 595. Furlani
+                    provided the Syriac text of the memrā of ’Īšō‘yahb I, which was an apology for the
+                    liturgical and theological use of the Trisagion by the Church of the East. It was
+                    accompanied by a study of the text and the sole manuscript which contains it. The
+                    importance of this document is manifold. First, it is not mentioned by Mar ‘Abdīšō‘
+                    of Nisibis in his famous ‘Catalogue’, and therefore seems to be an anomaly. Second,
+                    this memrā gives us the terminus ante quem for the insertion of the Trisagion in the
+                    rite of the Church of the East in the greater framework of the development of this
+                    rite. Third, and of great import, the memrā provides a springboard for the author to
+                    express and defend the christological position of the School of Nisibis, his alma
+                    mater and the center of Church of the East orthodoxy in the mid-sixth century. The
+                    English translation of this important memrā is offered here for the first time,
+                    along with a study of the historical and theological contexts of the tractate at the
+                    time of its composition sometime in the latter half of the sixth century. </p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="hv25n1awa.0" xml:lang="en">
+                <head>Introduction</head>
+                <p xml:lang="syr">It was in his 1917 research article “Il Trattato di
+                    Yešō‘yahb d’Ārzōn sul ΤΡΙΣΑΓΙΟΝ,” that the Semitic philologist and Assyriologist
+                    Giuseppe Furlani first introduced us to the text of this important memrā of Mar
+                    ’Īšō‘yahb I (patriarch, 581-596).<note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text"> See G. Furlani, “Il Tratto di Yešō‘yahb d’Ārzōn
+                            sul ΤΡΙΣΑΓΙΟΝ,” (<hi rend="italic">Rivista degli Studi Orientali</hi> 7
+                            [1917]), 687-715. For more concerning the biography and works of G.
+                            Furlani, see: R. Contini, “Furlani, Giuseppe,” in <hi rend="Emphasis"
+                                >Gorgias Encyclopedic Dictionary of the Syriac Heritage: Electronic
+                                Edition</hi>, edited by Sebastian P. Brock, Aaron M. Butts, George
+                            A. Kiraz and Lucas Van Rompay (Gorgias Press, 2011; online ed. Beth
+                            Mardutho, 2018), <ref
+                                target="https://gedsh.bethmardutho.org/Furlani-Giuseppe"
+                                >https://gedsh.bethmardutho.org/Furlani-Giuseppe</ref>; S. Furlani,
+                            “Bibliografia degli scritti di Giuseppe Furlani dal 1914 fino a tutto il
+                                1956” (<hi rend="italic">Rivista degli Studi Orientali</hi><hi
+                                rend="title-italic"> </hi>32 [1957]),
+                            xiii-xxxvii (with updating to 1962, in <hi rend="italic">Rivista degli
+                                Studi Orientali</hi><hi rend="title-italic"> </hi>38 [1963], 70–71); P. Taviani, ‘Furlani, Giuseppe,’
+                            in <hi rend="title-italic">Dizionario Biografico
+                                    degli Italiani</hi>, Vol. 50, ed. Francesco I. Sforza
+                            (Gabbi, Italy: n.p. 1998), 776-779. </p></note> The importance of
+                    Furlani’s article lay in the fact that he reproduced, for the very first time,
+                    the Syriac text of this memrā, or ‘tractate,’ as Furlani names it, of a
+                    patriarch whose other works (primarily canonical) are extant. The import lies in
+                    the fact that it is not mentioned by <hi style="font-size:11pt">‘Abdīšō‘</hi> of
+                    Nisibis in his <hi rend="italic">Catalogue of Syrian Authors</hi>. Further, it
+                    is contained in only one known manuscript, which we shall survey further
+                    below.</p>
+                <p xml:lang="syr">’Īšō‘yahb’s memrā is concerned with a hymn that had only been introduced into the
+                    liturgy of the Assyrian Church of the East during his own lifetime. I have
+                    previously discussed the hymn ‘Holy God, Holy Mighty, Holy Immortal, have mercy
+                    on us’—more commonly known as the ‘Trisagion’, after its Greek appellation.<note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> See D. Royel,
+                            “East Meets East: Byzantine Liturgical Influences on the Rite of the
+                            Church of the East”
+                            (<hi rend="italic">Journal of the Canadian Society for Syriac Studies </hi>8
+                            [2008]), 44-59, particularly 50ff. </p></note> This hymn, often called
+                    the ‘liturgical Sanctus’ is inspired by the glorification of the seraphim in the
+                    Vision of Isaiah (Isaiah 6:3). However, ’Īšō‘yahb’s concern is not merely
+                    liturgical, but rather dogmatic—or more precise, christological.</p>
+            </div>
+            <div xml:id="hv25n1awa.1" xml:lang="en">
+                <head>The Author</head>
+                <p xml:lang="syr">One of the main sources of the life and works of Mar
+                    ’Īšō‘yahb is the anonymous <hi rend="italic">Chronicle of Seert</hi>.<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> A. Scher (ed.),
+                                <hi rend="italic">Histoire nestorienne (Chronique de Séert)</hi>,
+                            Parts I-II. Patrologia Orientalis II:3 (Paris: Firmin-Didot, 1908),
+                            438-442.</p></note> We are told that ’Īšō‘yahb hailed from the region of
+                    Mesopotamia known as Beth ‘Arbāye.<note place="foot" xml:id="ftn4" n="4"><p
+                            rend="footnote text"> A. Baumstark, Geschichte der syrischen Literatur
+                            mit Ausschluß der christlich-palästinensischen Texte (Bonn: A. Marcus
+                            und E. Weber, 1922), 126. Cf. L. Sako, Le Rôle de la Hiérarchie Syriaque
+                            orientale dans les Rapports diplomatiques entre la Perse et Byzance aux
+                                V<hi rend="superscript">è</hi>-VII<hi rend="superscript">è</hi>
+                            siècles (Paris: n.p., 1986), 101.</p></note> This area essentially
+                    constituted the hinterlands of Nisibis, comprising the land between Mosul, the
+                    Tigris and the Khabur Rivers, including the hill country to the northeast of
+                        Arzōn.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> See:
+                            https://en.wikipedia.org/wiki/Dioceses_of_the_Church_of_the_East_
+                            to_1318#Province_of_Beth_Garma%C3%AF, accessed on August 11, 2020.
+                        </p></note> This region, and basically all of the territory of Nisibis, was
+                    ceded by the Romans under Jovian to the Persians in 363. Thus, it came to be
+                    known as the ‘Arzōn of the Persians’ distinguishing it from ‘Arzōn of the
+                    Greeks’—more widely known as the city of ‘Erzerum.’<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text"> For more on the topographical
+                            and ecclesiastical description of the region of Arzōn see: J.-M. Fiey,
+                                <hi rend="italic">Pour un Oriens Christianus Novus. Repertoire des
+                                Dioceses Syriaques Orientaux et Occidentaux</hi>, Beiruter Texte und
+                            Studien 49, (Beirut: Franz Steiner Verlag, 1993) 53-54. </p></note> As
+                    such, Nisibis soon was amalgamated not only into the Persian territory, but into
+                    the jurisdiction of the Church of the East. Already in the Synod of Catholicos
+                    Isaac (410), Nisibis became a major provincial (metropolitan) see, second only
+                    to Elam, and numbered among the five primatial provinces of the Church in
+                    Persia. We read in the <hi rend="italic">acta </hi>of the
+                    synod of 410: “Immediately comes the see of Nisibis [after the see of Beth
+                    Lāpat, who is the metropolitan of Beth Hūzāye): the bishop who occupies [this
+                    see] is the metropolitan of Arzōn, of Qardū, of Beth Zabdai, of Beth Rahīmai, of
+                    Beth Moksāye and the bishops who are found there…”<note place="foot"
+                        xml:id="ftn7" n="7"><p rend="footnote text"> J.-B. Chabot, ed. &amp; French
+                            trans.,
+                            <hi rend="italic">Synodicon orientale, ou Recuil de Synodes Nestoriens </hi>(Paris:
+                            Imprimerie Nationale, 1902), 272. For the complete
+                            <hi rend="italic">acta </hi>of the Synod of Isaac,
+                            see <hi rend="italic">Ibid.</hi>, 17-36 [Syriac]/253-275 [French
+                            trans.].</p></note></p>
+                <p xml:lang="syr">According to the <hi rend="italic">Chronicle of Séert</hi>, ’Īšō‘yahb was a
+                    student at the famed School of Nisibis under Abraham the Interpreter d-Beth
+                    Rabban, the nephew of Mar Narsai (d. 503). Sometime between 569 and 571, he was
+                    a lecturer at the same school, actually succeeding Abraham as the director of
+                    the school. He was then made bishop of Arzōn in 579, during the reign of the
+                    Persian emperor Khusrōw I Ānūšīrāvān (r. 531-579).<note place="foot"
+                        xml:id="ftn8" n="8"><p rend="footnote text"> Baumstark, Geschichte, 126; H.
+                            Gismondi, ed. &amp; Latin trans., Maris, Amri et Slibae: De Patriarchis
+                            Nestorianorum Commentaria. Pars Altera: Amri et Slibae Textus Arabicus
+                            (Rome: F. De Luigi, 1896), 44; J.-M. Fiey, Oriens Christianus,
+                        53.</p></note> As noted above, Arzōn was a diocese suffragan to the
+                    metropolitan see of Nisibis, and was recognized as such already in the first
+                    recorded synod of the Assyrian Church of the East, held under Catholicos Isaac
+                    at Seleucia-Ctesiphon in 410.<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text"> J.-B. Chabot, <hi rend="italic">Synodicon</hi>,
+                            272-273.</p></note></p>
+                <p xml:lang="syr">We have an important historical reference from the
+                        <hi rend="italic">Cause of the Founding of the Schools </hi>(<foreign xml:lang="syr">ܥܠܬܐ
+                        ܕܣܝܡ ܡܘܬܒܼܐ ܕܐܣܟܘ̈ܠܐ</foreign>), by Bar Hadbšabbā ‘Arbāyā, the bishop of Halwan,
+                    regarding the scholastic tenure of ‘Īšō‘yahb at the school of Nisibis. Bar
+                    Hadbšabbā indicates that Abraham d-Beth Rabban was immediately succeeded by
+                    ’Īšō‘yahb as the master ‘Interpreter’ (<foreign xml:lang="syr"
+                        >ܡܦܫܩܢܐ</foreign>) of the school: “But after this holy man, the blessed father,
+                    was gathered to the storehouse of heavenly life as the ‘piling of sheaves in its
+                    season,’ Mar ’Īšō‘yahb the Arzōnite received his occupation, and labored in it
+                    valiantly for two years. Then he became weary of it and went and became the
+                    bishop in Arzan [<hi rend="italic">sic</hi>], and afterwards he was elected to
+                    the patriarchate.”<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text"> A. Scher, ed. &amp; French trans., <hi
+                                rend="italic">Mar Barhadbšbba ‘Arbaya, évêque de Halwan (VI</hi><hi
+                                rend="italic superscript"
+                            >e</hi><hi rend="italic"> siècle). Cause de la Fondation des Écoles, </hi>Patrologia
+                            Orientalis 4 (Rome: Brepols, 1908), 389-390. <foreign xml:lang="syr">ܡ̣ܢ ܕܝܢ ܕܐܦ ܗܢܐ
+                            ܩܕܝܫܐ ܐܒܼܐ ܒܪܝܟܼܐ ܐܬܼܟܢܫ ܠܐܘܨܪ ܚܝ̈ܐ ܫܡܝܢ̈ܐ؛ ܐܝܟܼ ܡܣܩ ܓܕܝܫܐ ܒܙܒܼܢܗ؛ ܩܒܿܠܗ
+                            ܠܣܘܥܪܢܗ ܡܪܝ ܝܫܘܥܝܗܒܼ ܐܪܙܘܢܝܐ ܘܦܠܚ ܒܗ ܓܢَܒܪܐܝܬ ܬܪܬܝܢ ܫܢ̈ܝܢ. ܘܗܝܕܝܢ ܐܫܦܠ
+                            ܡܢܗ ܘܐܙܠ̣ ܗܘ̤ܐ ܐܦܣܩܘܦܐ ܒܐܪܙܢ. ܘܡ̣ܢ ܒܬܪܟܢ ܐܬܼܓܒܼܝ ܠܥܒܼܕܐ ܕܦܛܪܝܪܟܘܬܐ.</foreign>
+                    </p></note>
+                </p>
+                <p xml:lang="syr">When the catholicos Ezekiel died in 581, there were two contenders to the
+                    patriarchal throne: Job of Nisibis (a relative of the famed doctor of that
+                    school, Mar Narsai) and ’Īšō‘yahb the bishop of Arzōn. Job was one of the
+                    teachers at the School of Seleucia, founded by Mar Ābā I in 540, and had the
+                    position of Interpreter (<foreign xml:lang="syr">ܡܦܫܩܢܐ</foreign>).<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text"> Cf. Scher, <hi rend="italic">Chronique de
+                                Séert</hi>, II.2, 438.</p></note> While both candidates had their
+                    own party of supporters, ’Īšō‘yahb was a personal friend of the Persian emperor
+                    Hormizd IV (579-590). The reason for the friendship was that for some time while
+                    ‘Īšō‘yahb was bishop of Arzōn, he had been informing the Persian shah concerning
+                    the movements of the Greek (Roman) army in his diocese and at the Persian
+                        border.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                            J.-M. Fiey, <hi rend="italic">Jalons pour une Histoire de l’Église en
+                                Iraq</hi>, CSCO 310, Subs. 36 (Louvain: Peeters Louvain, 1970),
+                            97.</p></note> Thus, ’Īšō‘yahb was elected catholicos-patriarch of
+                    Seleucia-Ctesiphon at the insistence and command of Hormizd IV (579/80-590) in
+                    581—the first year of the reign of Hormizd (892 of the Greeks).<note
+                        place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> See H. Gismondi,
+                            <hi rend="italic">De Patriarchis Nestorianorum, </hi>44-49;
+                            cf. A. Scher, <hi rend="italic">Chronique de Séert</hi>, II.2, 438,
+                            footnote 5.</p></note> According to Mārī ibn Sulaimān’s history of the
+                    Nestorian patriarchs, (<foreign xml:lang="ar">اخبار فطاركة
+                        كرسي المشرق</foreign>), ’Īšō‘yahb was consecrated at Al-Madā’in and invested with
+                    a violet-colored bīrōnā.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text"> H. Gismondi,
+                            <hi rend="italic">De Patriarchis Nestorianorum, </hi>44.
+                            The <hi rend="italic">bīrōnā </hi>is the main
+                            episcopal liturgical headdress of the Church of the East, which denotes
+                            the shepherd’s hood. </p></note> The new catholicos’ relationship with
+                    the Persian emperor would prove for a fruitful patriarchal administration and a
+                    period of quiet at the Romano-Persian border, especially as Hormizd himself is
+                    said to have married Maria, the daughter of the Byzantine emperor Maurice
+                        (582-602).<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">
+                            G.D. Malech,
+                            <hi rend="italic">History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East, From Remote Antiquity to the Present Time </hi>(Minneapolis:
+                            n.p., 1910), 196-197. However, Maria’s name does not appear in the list
+                            of names of the Byzantine emperor’s issue in any of the Greek
+                            chroniclers.</p></note>
+                </p>
+                <p xml:lang="syr">’Īšō‘yahb’s patriarchate was an active one, and two important events in the life
+                    of the Church of the East took place at that time. First, ’Īšō‘yahb was sent by
+                    Hormizd IV at the head of an embassy to the Byzantine Empire, in order to meet
+                    with Emperor Maurice. The patriarch and the emperor met at Aleppo, were the
+                    shah’s gifts were received by Maurice with great rejoicing. The patriarchal
+                    chronicle of Mārī ibn Sulaimān records the fact that at Aleppo, the emperor was
+                    happy to meet with the patriarch of the Church of Persia, for contacts had been
+                    cut-off for a long period of time. As a consequence, the emperor asked ’Īšō‘yahb
+                    to present his Church’s creed in written form. It was penned in Greek first,
+                    then translated into Arabic and subsequently into Syriac—according to the
+                        chronicle.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text">
+                            H. Gismondi, De Patriarchis Nestorianorum, 45.</p></note> This credal
+                    statement of ’Īšō‘yahb was received by Maurice, and sent by him to ‘Cyriac the
+                    patriarch of Constantinople’ and ‘Gregory the patriarch of Antioch’ for scrutiny
+                    as to its orthodoxy. According to the chronicle, Maurice declared after seeing
+                    the credal statement of ’Īšō‘yahb that it was entirely orthodox, and as a
+                    result, they celebrated the Eucharist together. The chronicle notes that both
+                    Maurice the emperor and Cyriac the patriarch of Constantinople communed from the
+                    hands of ’Īšō‘yahb, and on the last day of the embassy, ’Īšō‘yahb communed from
+                    Cyriac who had celebrated the liturgy in Aleppo.<note place="foot"
+                        xml:id="ftn17" n="17"><p rend="footnote text"> H. Gismondi, De Patriarchis
+                            Nestorianorum, 47.</p></note> Furthermore, the emperor had reportedly
+                    declared that if this was what Nestorius had in fact confessed, then he too must
+                    have been orthodox! These two hierarchs mentioned in the chronicle must be
+                    Cyriac II, who reigned as patriarch of Constantinople from 595-606, and Gregory
+                    I, who ruled as patriarch of Antioch from 571-593/94. It is said that this
+                    embassy took place sometime in the winter of 586-587. </p>
+                <p xml:lang="syr">The second important event during the patriarch of ’Īšō‘yahb was his synod, held
+                    at Seleucia-Ctesiphon in 585—just four years after acceding to the patriarchal
+                    throne and two years before the famous delegation to Aleppo. The preamble of
+                    this synod’s <hi rend="italic">acta</hi> indicate the amicable relationship
+                    enjoyed between the Persian shah Hormizd and the Christian community in
+                    Persia:</p>
+                <p rend="H Quote Block">It was pleasing to him [God] in his lovingkindeness, then,
+                    to turn toward us in his mercifulness, in that he provided for the land in our
+                    days, in a failing time, for he raised up from a renowned family of the glorious
+                    kingdom a good, mighty, victorious, and peace-loving lord, the philanthropic
+                    lord forever, Hormizd, the King of Kings, as it were for the tranquility of the
+                    entire habitable world and for the happiness of the inhabitants of the earth. By
+                    his hands, and by his authoritative, good, and wise commands, he revealed the
+                    riches of his immense compassion…Even more, he revealed the abundance of his
+                    mercifulness and the multitude of his love toward our Christian people, the
+                    servants and subjects of his lordship, who, all of us, with a steadfast mind
+                    which has no guile or spot in it, and as venerators and debtors of his lordship,
+                    intercede for his lordship by night and day, that he might hold his dominion
+                    forever, and that the Inhabitant of Heaven, the Lord of Kings, might be with him
+                    in everything forever, and the inhabitants of the earth and dwellers in the
+                    world might be subject to his lordship forever, according to the will of the
+                        Lord.<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text">
+                            Quoted from the English translation of the <hi rend="italic">Synodicon
+                                Orientale</hi>. See M.J. Birnie, trans., <hi rend="italic">The
+                                Eastern Synods (Synodicon Orientale)</hi>, (Seattle: n.p., 1999),
+                            88.</p></note></p>
+                <p xml:lang="syr">This synodal statement should not be taken at face value, but rather as a fine
+                    example of the typical flowery oriental style of flattery—particularly to a
+                    monarch. Rather, it is actually representative of a shift that has taken place
+                    after the cessation of the persecutions of the Christians in the Persian Empire,
+                    and a continuation of the policy of toleration and the freedom of cult which was
+                    accorded the Christian population in Persia since the reign of Yazdgerd I in
+                        420.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"> In
+                            many Syriac historiographical works, Yazdgerd was seen as a ‘second
+                            Constantine,’ as it was during his reign that the Great Persecution of
+                            the east (339-379) ended, and he allowed the bishops of the Assyrian
+                            Church of the East to summon the first synod under the catholicos in
+                            Seleucia-Ctesiphon. For more on this, see: S. McDonough, “A Second
+                            Constantine? The Sasanian King Yazdgerd in Christian History and
+                            Historiography,”
+                            (<hi rend="italic">Journal of Late Antiquity </hi>1:1
+                            [2008]), 127-141.</p></note> This
+                    <hi rend="italic">Pax Persiana </hi>ushered in a period of
+                    growth for the Church, although there were sporadic periods of harsh treatment
+                    of the Christians under the Persians.</p>
+                <p xml:lang="syr">In 589, Hormizd was succeed by his son Khosrōw II Parvīz (591-628), in a coup
+                    which was supported by Hormizd’s disgraced general Bahram. In 590, Hormizd
+                    accepted defeat, and was succeeded by his son Khosrōw, who was suspected of
+                    putting his father to death. ‘Īšō‘yahb was on very good terms with Khusrōw, and
+                    the Persian shah was very favorable towards the Christians throughout his
+                    18-year reign. ’Īšō‘yahb I had served as patriarch for a period of 15 years,
+                    according to Bar Hebraeus, and died during the reign of Khosrōw in 907 <hi
+                        rend="italic">Anno Graecorum</hi>, or 596 AD.<note place="foot"
+                        xml:id="ftn20" n="20"><p rend="footnote text"> H. Gismondi, <hi
+                                rend="italic">De Patriarchis Nestorianorum</hi>, 49.</p></note> He
+                    was interred at the monastery which was founded by Hind, the daughter of Nū‘mān
+                    the Christian king of Al-Hīrā, or Hīrtā (<foreign xml:lang="syr">ܚܝܪܬܐ</foreign>) according to the Syriac appellation.<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text"> See the Syriac text in: J.-B.
+                            Abbeloos and T.J. Lamy, eds., <hi rend="italic">Gregorii Barhebraei,
+                                Chronicon Ecclesiasticum</hi>. Vol. 3 (Paris-Louvain:
+                            Maisonneuve-Peeters, 1877), 105/107. For the English translation see: D.
+                            Wilmshurst, <hi rend="italic">Bar Hebraeus, The Ecclesiastical
+                                Chronicle: An English Translation</hi>, Gorgias Eastern Christian
+                            Studies 40 (Piscataway, New Jersey: Gorgias Press, 2016), 340/341. H.
+                            Gismondi,
+                            <hi rend="italic">De Patriarchis Nestorianorum, </hi>49.</p></note>
+                    His tomb was placed in the bema, in the middle of the nave.<note place="foot"
+                        xml:id="ftn22" n="22"><p rend="footnote text"> A. Scher, <hi rend="italic"
+                                >Chronique de Séert</hi>, II.2, 442.</p></note> After his death,
+                    ’Īšō‘yahb was succeeded on the patriarchal throne by Mar Sabrīšō‘ I (596-604) of
+                    the village of Pīrōzābād.</p>
+            </div>
+            <div xml:id="hv25n1awa.2" xml:lang="en">
+                <head>Known Works of ’Īšō‘yahb I</head>
+                <p xml:lang="syr">The author of this <hi rend="italic">memrā</hi> is a
+                    patriarch of the Church of the East who lived during a period of intense
+                    theological exchange, which came about as a direct result of the christological
+                    controversies of the fifth century.<note place="foot" xml:id="ftn23" n="23"><p
+                            rend="footnote text"> For more on the role of ’Īšō‘yahb during this
+                            period, especially as enshrined in the Church of the East
+                            historiographies, see: P. Wood, <hi rend="italic">The Chronicle of
+                                Seert. Christian Historical Imagination in Late Antique Iraq</hi>
+                            (Oxford: Oxford University Press, 2013), 128-131.</p></note>
+                    Consequently, much material was produced by the scholars of the School of
+                    Nisibis, with which ’Īšō‘yahb was tightly associated, in the form of treatises
+                    and in the canonical literature of the Church of the East, as well. What’s more
+                    it was time when the Zoroastrian Persians were friendly to the Christians,
+                    particularly the two shahs during whose reign ’Īšō‘yahb ruled as patriarch. </p>
+                <p xml:lang="syr">In his <hi rend="italic">Catalogue</hi>, ‘Abdīšō‘ bar Brīkhā of Nisibis, the
+                    metropolitan of Nisibis and Armenia (d. 1318), states the following regarding
+                    our author: “He composed against Eunomius, and against a certain heretical
+                    bishop he made a disputation; and twenty-two questions on the mysteries (<foreign xml:lang="syr">ܐَܪ̈ܙܐ</foreign>) of the Church, and an apology and epistles, and synodical
+                        canons.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> See
+                            J.S. Assemani, ed. &amp; Latin trans., <hi rend="italic">Bibliotheca
+                                Orientalis Clementino-Vaticana</hi>, Vol. III/Part 1 (Rome: Typis
+                            Sacrae Congregatione de Propaganda Fide, 1728), 108-111.</p></note>
+                    ‘Īšō‘yahb’s tractate against ‘a certain heretical bishop’ is not extant, nor is
+                    it known to which bishop he was reacting. However, there is an extended
+                    commentary on the Niceno-Constantinopolitan Creed at the beginning of the
+                    <hi rend="italic">acta </hi>of ‘Īšō‘yahb’s synod which
+                    addressed the heresies of the Arminians, Eunomians (also called ‘Anomoeans’) and
+                    the semi-Arian Macedonians.<note place="foot" xml:id="ftn25" n="25"><p
+                            rend="footnote text"> Cf. M.J. Birnie, <hi rend="italic">Eastern
+                                Synods</hi>, 90-93.</p></note> His twenty-two questions on the
+                    mysteries have been included in the <hi rend="italic">Synodicon Orientale</hi>
+                    (or, the collection of eastern synods) in the form of a synodical letter
+                    addressed to Mar Jacob, the bishop of Darai.<note place="foot" xml:id="ftn26"
+                        n="26"><p rend="footnote text"> For the Syriac see: J.-B. Chabot,
+                            <hi rend="italic">Synodicon Orientale, </hi>165-192;
+                            for the English see: M.J. Birnie, <hi rend="italic">Eastern Synods</hi>,
+                            115-135.</p></note> However, there are only twenty questions which are
+                    contained in the letter, and not all are of a liturgical nature. We must assume,
+                    therefore, that of the original twenty-two mentioned by ‘Abdīšō‘, only a few
+                    actually remain. As far as the ‘apology’ (<foreign xml:lang="syr">ܡܦܩܒܪܘܚܐ</foreign>) is concerned, Assemani had conjectured that it could have
+                    been the <hi rend="italic">professio fidei </hi>of
+                    ‘Īšō‘yahb presented to the Roman Emperor Maurice. However, however its precise
+                    identification is uncertain. Could it, in fact, be the present tractate under
+                    study, as it most certainly is an apology for the use of the Trisagion in the
+                    rite of the Church of the East. </p>
+                <p xml:lang="syr">The second statement of faith by the patriarch is to be found at the end of the
+                    <hi rend="italic">acta </hi>of ‘Īšō‘yahb’s synod, referred
+                    to as the “…creed composed by Mar ‘Īšō‘yahb’.” This consists of credal
+                    statements concerning the divine
+                    <hi rend="italic">qnōme </hi>of the Father and the
+                    Son—addressing the heresies attacking each—but nothing is said concerning the
+                    Holy Spirit.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">
+                            See M.J. Birnie, <hi rend="italic">Eastern Synods</hi>,
+                        136-138.</p></note> Ž. Paša has concluded that the Syriac recension of the
+                    credal statement found in the
+                    <hi rend="italic">Synodicon Orientale </hi>(at the end of
+                    the <hi rend="italic">acta</hi> of ‘Īšō‘yahb’s synod) is in actuality the Syriac
+                    version of the original Arabic, which is found in the <hi rend="italic">Asfār
+                        al-Asrār</hi> of Salība ibn Yūhannā al-Mawsilī.<note place="foot"
+                        xml:id="ftn28" n="28"><p rend="footnote text"> Ž. Paša, “Īšū‘yāb Al-Arzunī
+                            and Confession of the Faith: Critical Edition and Translation”
+                            (<hi rend="italic">Parole de l’Orient </hi>44
+                            [2018]), 361. See the Arabic text in: H. Gismondi,
+                            <hi rend="italic">De Patriarchis Nestorianorum, </hi>44-47
+                            [Arabic]; 26-28 [Latin]. </p></note> The Arabic text, shorter than the
+                        <hi rend="italic">confessio fidei</hi> found in the Syriac recension, seems
+                    to resemble the Creed of the Synod of Bishops of 612.<note place="foot"
+                        xml:id="ftn29" n="29"><p rend="footnote text"> See Paša, “Īšū‘yāb
+                            Al-Arzunī,” 361. For the Syriac text of the credal statement of 612 see:
+                            J.-B. Chabot, <hi rend="italic">Synodicon Orientale</hi>,
+                        564-567.</p></note>
+                </p>
+                <p xml:lang="syr">The book <hi rend="italic">Kitāb al-Mağdal </hi>of Mārī ibn
+                    Sulaymān recounts the embassy of the Persian shah Hormizd, headed by Patriarch
+                    ‘Īšō‘yahb’ I, to the Byzantine Emperor Maurice, which met in Aleppo in 586,
+                    discussed earlier. During this encounter, the patriarch gave the emperor—at the
+                    latter’s request—a confession of faith of the Church of the East, which the
+                    emperor found to be entirely orthodox. Nonetheless, it is not altogether clear
+                    whether the Syriac credal statement found in the
+                    <hi rend="italic">acta </hi>of ‘Īšō‘yahb’s synod of 585, or
+                    the Arabic text found in the <hi rend="italic">Asfār al-Asrār</hi>, is in fact
+                    the confession of faith submitted by ‘Īšō‘yahb’ to Maurice in 586.<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text"> See Paša,
+                            “Īšū‘yāb Al-Arzunī,” 362.</p></note> In any case, scholars note that
+                    this second credal statement of ’Īšō‘yahb is more ‘Chalcedonian’ in it language
+                    than Theodorian, and it speaks about the Godhead being confessed to exist in
+                    three particular <hi rend="italic">qnōme</hi>, but in one nature.<note
+                        place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                            Metselaar-Jongens, Marijke. <hi rend="italic">Defining Christ. The
+                                Church of the East and Nascent Islam</hi>, Ph.D. dissertation,
+                            (Amsterdam: Vrije Universiteit Amsterdam, 2016), 93. </p></note> The
+                    statement speaks concerning the incarnation of the Word of God in terms of
+                    ‘becoming’ man by ‘assuming’ our humanity while “…remaining without change or
+                    addition” as to the essence of the Word’s divinity.<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text"> Metselaar-Jongens, <hi
+                                rend="italic">Defining Christ</hi>, 92.</p></note> The standard
+                    formula for the union of the two natures as being a ‘<hi rend="italic"
+                        >parsopic</hi>’ union is also emphatically confirmed in this credal
+                    statement.</p>
+            </div>
+            <div xml:id="hv25n1awa.3" xml:lang="en">
+                <head>Historical Context of the Treatise</head>
+                <p xml:lang="syr">In addition to its theological significance, the
+                    tractate of ’Īšō‘yahb also bears considerable historical importance in regards
+                    to the ongoing christological controversies in the east and their aftermath. In
+                    this regard, we know that ’Īšō‘yahb was part of another important embassy to the
+                    Byzantine Empire. This embassy had been previously dated by scholars to many
+                    years before the Second Council of Constantinople, or around 533.<note
+                        place="foot" xml:id="ftn33" n="33"><p rend="footnote text"> A. Guillaumont,
+                            “Justinien et l”Église Perse” (<hi rend="italic">Dumbarton Oaks
+                                Papers</hi> 23-24 [1969-1970]), 51. See also: A. Scher, <hi
+                                rend="italic">Chronique de Séert</hi>, 187; A. Vööbus, <hi
+                                rend="italic">History of the School of Nisibis</hi>, CSCO 266, Subs.
+                            26 (Louvain: Secrétariat du CorpusSCO, 1965), 153.</p></note> However,
+                    L. Sako has argued that it took place sometime in 546-547,<note place="foot"
+                        xml:id="ftn34" n="34"><p rend="footnote text"> Though others have disputed
+                            this dating and suggested alternatives. See, for example A. Grillmeier,
+                                <hi rend="italic">Christ in the Christian Tradition II.2: The Church
+                                of Constantinople in the Sixth Century</hi> (Louisville: Westminster
+                            John Knox Press, 1995), 466.</p></note> when Mar ’Īšō‘yahb joined Paul
+                    the metropolitan of Nisibis on an embassy to the Roman emperor Justinian. The
+                    bishop of Arzōn was sent by the Persian shah Khosrōw Ānūšīrāvān to the Roman
+                    territory. This embassy had an important dialogue with Justinian and the major
+                    proponents of Chalcedonian orthodox christology at the time.<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text"> C. Ş. Popa, “East Syriac
+                            Theological Instruction and Anti-Chalcedonian Identity in Nisibis in
+                            Late Antiquity”
+                            (<hi rend="italic">Review of Ecumenical Studies </hi>11:3
+                            [2019]), 435.</p></note> A dialogue in prose form is attributed to Paul
+                    of Nisibis, titled <hi rend="italic">Argument Against Caesar</hi> (<foreign xml:lang="syr">ܕܪܫܐ
+                        ܕܠܘܩܒܼܠ ܩܝܣܪ</foreign>), which contains almost a verbatim transcript of the
+                    theological discussion between Paul and Justinian.<note place="foot"
+                        xml:id="ftn36" n="36"><p rend="footnote text"> Popa, “East Syriac
+                            Theological Instruction,” 435. For fragments of this text in French
+                            translation, see: A. Guillaumont, “Justinien et L’église de Perse,”
+                            62-66. </p></note> Notwithstanding the intense debate, Paul of Nisibis
+                    and his delegation defended the christological position of the Church of the
+                    East, stating: “Christ has two kyānē and two qnōmē; this is the doctrine of my
+                    fathers, my predecessors and my guides, the 318.”<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text"> A. Scher, <hi rend="italic"
+                                >Chronique de Séert</hi>, 568 [248]; quoted in Popa, “East Syrian
+                            Theological Instruction,” 435.</p></note></p>
+                <p xml:lang="syr">Paul was accompanied by three of his suffragan bishops: Marī of Balad, Barsawmā
+                    of Qardū and Babai of Šīgār. In addition, two doctors of the major schools of
+                    the Church of the East also took part in the delegation: ’Īšai the Interpreter
+                    at Seleucia-Ctesiphon and ’Īšō‘yahb I.<note place="foot" xml:id="ftn38" n="38"
+                            ><p rend="footnote text"> See A. Scher, <hi rend="italic">Chronique de
+                                Séert</hi>, 187; cf. A. Guillaumont, “Justinien et l’Église de
+                            Perse,” 50; L. Sako, <hi rend="italic">Le Rôle de la Hiérarchie
+                                Syriaque</hi>, 108.</p></note> Although ’Īšō‘yahb is referred to by
+                    the author of the <hi rend="italic">Chronicle of Séert</hi> as the “…bishop of
+                    Arzōn, who later became the Catholicos of the East”, nonetheless the embassy
+                    took place before he became the bishop of this diocese, most likely while he was
+                    still a lecturer at the School of Nisibis. The embassy was highly honored by
+                    Justinian, and the theological discussions are said to have lasted for three
+                    days.</p>
+                <p xml:lang="syr">The delegation is supposed to have visited with Justinian and discussed the
+                    matter of the Three Chapters, who were later condemned at the Second Council of
+                    Constantinople in 553. At the outset, the emperor seemed favorable to the
+                    christological position of Theodore of Mopsuestia and Diodore of Tarsus; Ibas of
+                    Edessa is not mentioned in this narrative. However, his position changed shortly
+                    thereafter, and by the time of the council of 553, the ‘neo-Chalcedonian’
+                    position was already championed by Justinian as a compromise position. In
+                    appearing before the Byzantine emperor, the embassy itself aimed at justifying
+                    the christological position of the Church of the East, that is, the teaching of
+                    the doctors of the School of Nisibis. For his part, Justinian had desired to
+                    reconcile the Christians in the Persian Empire, thereby unifying all of the
+                    Christians of the East under his patronage and protection—to be further served
+                    by a theological agreement and reconciliation—and thus serve the interests of
+                    the Byzantine Empire.<note place="foot" xml:id="ftn39" n="39"><p
+                            rend="footnote text"> Cf. L. Sako, Le Rôle de la Hiérarchie Syriaque,
+                            95.</p></note> However, the condemnation of the Three Chapters, strongly
+                    venerated by the Christians of the Persian Empire, remained a stumbling block
+                    for this desired ecclesiastical reconciliation, and the embassy ultimately
+                    proved fruitless. </p>
+                <p xml:lang="syr">Later, ’Īšō‘yahb would ‘canonize’ the christological teaching of the doctors of
+                    Nisibis, and especially the place of Theodore, in his synod held in 585
+                    discussed above. Notably, it was the first time since the synod of ‘Āqaq of 486
+                    that <hi rend="italic">parsōpā</hi> was used in the christological discussion in
+                    order to explain the union of the Godhead and the humanity of Christ.<note
+                        place="foot" xml:id="ftn40" n="40"><p rend="footnote text">
+                            Metselaar-Jongens, <hi rend="italic">Defining Christ</hi>,
+                        89.</p></note> ’Īšō‘yahb further describes the union of the two natures
+                        <hi rend="italic">economically </hi>(<foreign xml:lang="syr">ܡܕܒܪܢܐܝܬ</foreign>) as opposed to <hi rend="italic">naturally</hi>—possibly
+                    being the first official statement of the Church of the East against the
+                    christological teaching of Constantinople II (553).<note place="foot"
+                        xml:id="ftn41" n="41"><p rend="footnote text"> Metselaar-Jongens, <hi
+                                rend="italic">Defining Christ</hi>, 89. Cf. A. Guillaumont,
+                            “Justinien et l’Église de Perse,” 55.</p></note> ’Īšō‘yahb’s synod also
+                    canonized the theological authority and person of Theodore of Mopsuestia, and
+                    condemned those who in turn condemned him, which we know took place at
+                    Constantinople II.<note place="foot" xml:id="ftn42" n="42"><p
+                            rend="footnote text"> A. Guillaumont, “Justinien et l’Église de Perse,”
+                            55.</p></note> Thus, one could conclude that at the time of this synod,
+                    and under ’Īšō‘yahb’s direct influence, the Church of the East became decisively
+                    and formally ‘Theodorian’ in her christology, as evidenced further by this
+                    synod’s stance against the miaphysite position, and also that of Hnānā of
+                    Adiabene (albeit indirectly)—formerly a doctor at the School of Nisibis and
+                    considered the greatest traitor of the school’s christological position.</p>
+                <p xml:lang="syr">The next embassy that ’Īšō‘yahb took part in was to the court of the Byzantine
+                    emperor Maurice, sometime in 587, when ’Īšō‘yahb was sent by the Persian Shah
+                    Hormizd to broker a peace treaty with the Byzantines. The patriarch and the
+                    emperor met in the city of Aleppo, according to the
+                    <hi rend="italic">De Patriarchis Nestorianorum </hi>of ‘Amr
+                    bin Mattai, and ’Īšō‘yahb presented Maurice with a number of precious gifts from
+                    the Persian shah as a token of good will. The emperor is reported to have
+                    remarked to the patriarch: “Since the Council of Chalcedon, we have not received
+                    any letters from you, as it once was the custom. Now, I would love to know the
+                    truth of your faith and the symbol [creed] which you recite. Write it down so
+                    that I may examine it.”<note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text"> H. Gismondi, De Patriarchis Nestorianorum,
+                            45-57/26-27; L. Sako, Le Rôle de la Hiérarchie Syriaque, 105.</p></note>
+                </p>
+                <p xml:lang="syr">An account of the same event is also found in Mārī ibn Sulaymān’s <hi
+                        rend="italic">Kitāb al-Mağdal</hi>, who narrates: </p>
+                <p rend="H Quote Block">The king of the Persians sent ’Īšō‘yahb to Maurice the
+                    Byzantine emperor, with presents, letters and votives. The presents were
+                    agreeable and the emperor greatly honored ’Īšō‘yahb, saying to him: ‘Since the
+                    council which took place at Chalcedon, there has not been between you and us any
+                    correspondence. We do not know if your profession of faith has remained the
+                    same, or if you have changed it. I would love for you to write it down, so that
+                    I may read it and meditate upon it.<note place="foot" xml:id="ftn44" n="44"><p
+                            rend="footnote text"> H. Gismondi, De Patriarchis Nestorianorum,
+                            56/49-50. Cf. L. Sako, Le Rôle de la Hiérarchie Syriaque, 105, footnote
+                            62.</p></note>
+                </p>
+                <p xml:lang="syr">The same event is also recorded by the West Syrian chronicler Michael the Great,
+                    in his <hi rend="italic">Chronicle</hi>.<note place="foot" xml:id="ftn45" n="45"
+                            ><p rend="footnote text"> J.-B. Chabot. ed. &amp; French trans., <hi
+                                rend="italic">Chronique de Michel le Syrien, patriarche jacobite
+                                d’Antioche, 1166-1199</hi>. Volumes 3 &amp; 4 (Paris: Ernest Leroux,
+                            1905, 1963), [III] 521; [IV] 776. Cf. L. Sako, <hi rend="italic">Le Rôle
+                                de la Hiérarchie Syriaque</hi>, 105, footnote 62.</p></note> Then,
+                    the catholicos celebrated the Eucharistic liturgy according to the rite of the
+                    Church of the East, and communed Maurice, the patriarch of Constantinople and
+                    the patricians of the Byzantine empire. After that, ’Īšō‘yahb himself partook of
+                    the Eucharist celebrated by Cyriac the patriarch of Antioch, in the presence of
+                    the emperor.<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"> L.
+                            Sako, Le Rôle de la Hiérarchie Syriaque, 106. Cf. H. Gismondi, De
+                            Patriarchis Nestorianorum, 47/27. </p></note>
+                </p>
+                <p xml:lang="syr">Needless to say, although both these embassies in which ’Īšō‘yahb was involved
+                    were <hi rend="italic">prima facie </hi>political embassies
+                    on behalf of the Persian shah, nevertheless they proved to be important
+                    opportunities for ecumenical contact and theological discussion between
+                    hierarchs of the Church of the East and those of the Byzantine Empire. Because
+                    ’Īšō‘yahb was both a student and doctor of the School of Nisibis, it was the
+                    christological teaching of this school which the patriarch sought to defend and
+                    propose in his discussions abroad. He was both faithful to the teachings of this
+                    school and the masters who preceded him there. In this regard, the theological
+                    legacy of Theodore of Mopsuestia and Narsai was indispensable for both ’Īšō‘yahb
+                    and the School of Nisibis as a whole, as was the christological position of his
+                    predecessor in the see of Seleucia-Ctesiphon, namely Mar Ābā the Great. Thus,
+                    ’Īšō‘yahb did not capitulate to the Chalcedonian orthodoxy of his day in either
+                    of his embassies, but proved a bastion of what one might call ‘Nisibene
+                        orthodoxy,’<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">
+                            Cf. Popa, “East Syriac Theological Instruction,” 437. </p></note>
+                    demonstrating his unwavering fidelity to the anti-Chalcedonian dogmatic position
+                    of the School of Nisibis and its most famous doctors. </p>
+            </div>
+            <div xml:id="hv25n1awa.4" xml:lang="en">
+                <head>The Manuscript</head>
+                <p xml:lang="syr">The memrā of Mar ’Īšō‘yahb—which Furlani published the
+                    Syriac text in Sertō script—is found in the manuscript India Office Syriac 9,
+                    housed in London, and is contained in folios 426v to 432v. <note place="foot"
+                        xml:id="ftn48" n="48"><p rend="footnote text"> The India Office of London
+                            possesses only one Syriac manuscript, number 9, catalogued in: G.
+                            Furlani, “Il manoscritto siriaco 9 dell’India Office
+                            (<hi rend="italic">Rivisita degli Studi Orientali </hi>10
+                            [1924]), 315. The collection is now housed in the British Library at
+                            London. At the time that G. Furlani catalogued this manuscript in 1915,
+                            it was still housed at the British Museum, as were all of the other
+                            Syriac manuscript collections.</p></note> The manuscript is written is
+                    Nestorian (i.e. eastern Syriac characters), and was written by two different
+                    hands. As the colophon is lacking, the manuscript has not been dated by Furlani.
+                    The codex is bound in leather and is in octavo, with 444 numbered pages, with
+                    some lacunae after f. 40v. </p>
+                <p xml:lang="syr">The codex seems to be an anthology of mostly Church of the East writers, with
+                    about 84 different contents. Some of the well-noted theologians of the Church of
+                    the East whose partial works are contained in this anthology include: Elia bar
+                    Šīnāye, Gabriel called ‘Qamsā’ metropolitan of Mosul, Yāhannan bar Zō‘bī, St.
+                    Ephrem, Theodore bar Kōnī, ‘Īšō‘bōkht of Rewardāšīr, Michael Bādōqā (the
+                    ‘Interpreter’), ‘Abdīšō‘ of Gazartā, Hūnain, ‘Enānīšō‘, Dawīd bar Paolōs, Šem‘ōn
+                    of Šanqalābād, ’Īšō‘ bar Nūn the Catholicos and ‘Abdīšō‘ of Nisibis. In
+                    addition, Bar Hebraeus and Epiphanius of Cyprus are also quoted in a few brief
+                    selections.</p>
+                <p xml:lang="syr"> Our memrā is numbered as the 78<hi rend="superscript">th</hi> item in the
+                    collection, and it follows the ‘Discourse of Michael the Interpreter ‘On Man as
+                    Microcosm’ (ff. 421r-426r), and precedes a brief discourse titled ‘Commentary on
+                    the Creed which the Fathers of Nicea Posited’ (ff. 432v-440r).<note place="foot"
+                        xml:id="ftn49" n="49"><p rend="footnote text"> See G. Furlani, “Il
+                            manoscritto siriaco,” 320.</p></note> The latter is believed to be
+                    authored by Mar ’Īšō‘yahb I, and is found in the
+                    <hi rend="italic">Synodicon </hi>of the Church of the East.
+                    The fact that the last portion of the codex, in which our memrā is found,
+                    contains works by the fathers of the Nisibene school and other dogmatic Church
+                    of the East materials—such as explanations of the fashion of the Union—seem to
+                    indicate a common source for this material, possibly taken from a <hi
+                        rend="italic">florilegium</hi> of broader ‘Nestorian’ christological
+                    materials. However, it is worth noting that Furlani is the only scholar to have
+                    discovered and produced the Syriac text of ’Īšō‘yahb’s memrā, though he only
+                    briefly summarized the contents. Thus, it is translated into English for the
+                    first time in this present article.</p>
+            </div>
+            <div xml:id="hv25n1awa.5" xml:lang="en">
+                <head>The Tractate ‘The Cause of the <hi rend="italic">Holy God</hi>’</head>
+                <p xml:lang="syr">The tractate, or memrā, of ’Īšō‘yahb is formally titled
+                    as the <hi rend="italic">‘elthā</hi> (<foreign xml:lang="syr">ܥܠܬܼܐ</foreign>) of the
+                    Trisagion. This type of literature is particular to the doctors of the School of
+                    Nisibis, who produced a number of theological treatises in this format, most
+                    especially between 500 and 700 AD. An <hi rend="italic">‘elthā</hi> composition
+                    entails the giving of both an historical
+                    <hi rend="italic">and </hi>theological explanation for a
+                    certain doctrine, as observed in a liturgical celebration or feast.<note
+                        place="foot" xml:id="ftn50" n="50"><p rend="footnote text"> P. Bettiolo,
+                            “Syriac Literature,” in <hi rend="italic">Patrology. The Eastern Fathers
+                                from the Council of Chalcedon (451) to John of Damascus (†751)</hi>,
+                            ed. A. Di Bernardino and A. Walford (Cambridge: James Clarke &amp; Co.
+                            [2006]), 469-470.</p></note> One might think of them as the ‘lecture
+                    notes’ of the professors of the school, which were delivered orally by the
+                    doctors of Nisibis, being copied down by the students and often times committed
+                    to memory.<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text"> W.
+                            Macomber, Six Explanations of the Liturgical Feasts by Cyrus of Edessa,
+                            An East Syrian Theologian of the Mid-Sixth Century, CSCO 356, Syr. 156
+                            (Louvain: Secrétariat du CorpusSCO, 1974), vi.</p></note> They are
+                    closely associated with the feasts and commemorations of the liturgical year,
+                    essentially giving a basis for the mystery that is celebrated on these
+                    liturgical days. As such, these ‘causes’ were collected over time into one
+                    volume and named the
+                    <hi rend="italic">Causes of the Feasts of the Economy </hi>(<foreign xml:lang="syr">ܥܠܠܬܼ̈ܐ ܕܥܐܕ̈ܐ
+                        ܕܡܕܒܪܢܘܬܼܐ</foreign>).<note place="foot" xml:id="ftn52" n="52"><p
+                            rend="footnote text"> There are 13 tractates which are collected
+                            together in this volume. The oldest known manuscript was that of Siirt
+                            82 (belonging to the library of the Chaldean Archbishop of Siirt, Mar
+                            Addai Scher), and was written sometime in the 16<hi rend="superscript"
+                                >th</hi> century; cf. W. Macomber, <hi rend="italic">Liturgical
+                                Feasts</hi>, v.</p></note> At the end of the composition, each
+                    ‘cause’ would contain a conclusion that was an exhortation to moral living and
+                    virtuous conduct, which basically called the reader (the student at the school?)
+                    to live out the meaning of the feast under discussion as a moral imperative. </p>
+                <p xml:lang="syr">Mar Narsai of Nisibis (399-503), the great doctor of that school, would be the
+                    first of Nisibis’ teachers to have written prose compositions following this
+                    genre of the ‘Cause’ literature, however, none are attributed to him by ‘Abdīšō‘
+                    in his <hi rend="italic">Catalogue.</hi> This type of literature was first
+                    published and made known to the western world with the publication of the Syriac
+                    text and Latin translation of Thomas of Edessa’s <hi rend="italic">Cause of the
+                        Nativity of our Lord</hi>, published by Simon Joseph Carr in 1898.<note
+                        place="foot" xml:id="ftn53" n="53"><p rend="footnote text"> See S. Carr,
+                            Latin trans., Thomae Edesseni Tractatus de nativitate Domini Nostri
+                            Christi: textum syriacum edidit, notis illustravit Latine reddidit,
+                            Rome: Typis R. Academiae Lynceorum, 1898; reprinted as: Thomas of Edessa
+                            on the Nativity of the Lord. Syriac Studies Library 79. Piscataway, New
+                            Jersey: Gorgias Press, 2012.</p></note> Shortly thereafter, three other
+                    ‘causes’ of two well-known doctors of Nisibis were published: the <hi
+                        rend="italic">Cause of the Martyrs</hi> by ’Īšai the Presbyter and
+                    Interpreter, and Hnānā of Adiabene’s
+                    <hi rend="italic">Cause of the Friday of Gold </hi>and the
+                        <hi rend="italic">Cause of the Rogation</hi>; these were published by the
+                    famous martyr-bishop Mar Addai Scher in 1911.<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text"> A. Scher, French trans., “Traités d’Isaï le
+                            Docteur et de Hnana d’Adiabène sur les Martyrs, le Vendredi d’Or et les
+                            Rogations, et Confession de Foi a Rèciter par les èvèques nestoriens
+                            avant l’Ordination,” Patrologia Orientalis, vol. 7, ed. R. Graffin and
+                            F. Nau, (Paris: Firmin-Didot, 1911), 3-87.</p></note> The most
+                    well-known of the ‘Cause’ compositions are those which were introduced and made
+                    available for the first time in English translation by William Macomber. The
+                    collection of six ‘causes’ or liturgical explanations were published by Macomber
+                    in 1974, and they consisted of the extant works of one of the most famous of the
+                    doctors of Nisibis, Cyrus of Edessa.<note place="foot" xml:id="ftn55" n="55"><p
+                            rend="footnote text"> See W. Macomber, <hi rend="italic">Liturgical
+                                Feasts</hi>. Cyrus of Edessa, or Qīyōre, studied at Nisibis under
+                            Mar Ābā the Great sometime in 533 to 538. For more on his biography see:
+                            S.P. Brock, “Qiyore of Edessa,” in <hi rend="italic">Gorgias
+                                Encyclopedic Dictionary of the Syriac Heritage: Electronic
+                                Edition</hi>, S.P. Brock, et. al., eds. Beth Mardutho, print Gorgias
+                                Press<hi rend="reference-accessdate">. Retrieved </hi><hi
+                                rend="nowrap">20 August</hi><hi rend="reference-accessdate"
+                                > 2020</hi>; Ute Possekel, “Cyrus of Edessa,” <hi rend="italic">The
+                                Oxford Dictionary of Late Antiquity</hi>. Vol. 1, ed. O. Nicholson
+                            (Oxford: Oxford University Press, 2018), 447.</p></note> The six feasts
+                    explained by Cyrus, and published by Macomber in translation, were: The
+                    Explanation of the Fast, of the Pasch, of the Passion, of the Resurrection, of
+                    the Ascension, and of Pentecost Sunday.<note place="foot" xml:id="ftn56" n="56"
+                            ><p rend="footnote text"> For more on the life and works of these
+                            afore-mentioned doctors of the Nisibene school, see: P. Bettiolo,
+                            “Syriac Literature,” 469-472.</p></note>
+                </p>
+                <p xml:lang="syr">Thus, the memrā of Mar ’Īšō‘yahb under study seems to fall under this type of
+                    theological literature produced by the professors, or doctors, of the famed
+                    School of Nisibis. Albeit, it is not the ‘cause’ of a liturgical feast but of a
+                    liturgical hymn of great importance. Taking into consideration the fact that
+                    ’Īšō‘yahb’s tenure as an ‘interpreter’ at the School of Nisibis lasted roughly
+                    from 569 to 571, it was mostly likely during this period that he authored the
+                    ‘Cause of the <hi rend="italic">Holy God</hi>,’ almost certainly before he
+                    became bishop of Arzōn after 571. However, the unresolved question as of yet is
+                    why his tractate did not make it into the collection of the <hi rend="italic"
+                        >Causes of the Feasts</hi>,<note place="foot" xml:id="ftn57" n="57"><p
+                            rend="footnote text"> For more on this literature, see the seminal study
+                            on this collection of the explanation of the feasts of the Church of the
+                            East in: A. Baumstark, “Die nestorianischen Schriften ‘de causis
+                            festorum,’”
+                            (<hi rend="italic">Oriens Christianus </hi>1
+                            [1901]), 320-342.</p></note> a large portion of which were later
+                    published as noted above. One would expect the tractate of ’Īšō‘yahb to have
+                    been preserved, somehow, especially since it would have been part of the
+                    curriculum of the school. However, the fact that this work is also not mentioned
+                    in ‘Abd’īšō‘ of Nisibis’ <hi rend="italic">Catalogue</hi> is noteworthy, and
+                    seems to indicate that for very many centuries this work of ’Īšō‘yahb was
+                    practically unknown in the Church. Thus, the existence of this tractate of
+                    ’Īšō‘yahb in the unique India Office Syriac 9 manuscript is a precious work,
+                    which providentially managed to survive the vicissitudes of theological history
+                    down through the centuries in this singular manuscript. </p>
+                <p xml:lang="syr">’Īšō‘yahb addresses his text to a certain ‘Mar Abraham of Deir Gāzartā’, who
+                    solicited the patriarch’s explanation of the Trisagion. Reference is made to the
+                    doctors or <hi rend="italic">malpāne</hi> in the introduction of the tractate,
+                    which seems to indicate that it was intended to be read by those in scholastic
+                    circles, quite possibly by the students of the School of Nisibis, or that of
+                    Seleucia-Ctesiphon. Be that as it may, the recipient of our author’s tractate,
+                    Mar Abraham, was most likely the head of the ecclesiastical community at <hi
+                        rend="italic">Deir Gāzartā</hi>, an otherwise practically unknown
+                        locality.<note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">
+                            Sadly, the present writer has been unsuccessful in identifying the
+                            locale of Deir Gāzartā.</p></note>
+                </p>
+                <p xml:lang="syr">The relevance of ’Īšō‘yahb’s memrā on the cause of the Trisagion is to be seen
+                    not with regard to its liturgical aspect, but rather with regard to its
+                    theological import. In essence, it is none other—in Furlani’s estimation—than a
+                    ‘definition’ of God restricted to brief words.<note place="foot" xml:id="ftn59"
+                        n="59"><p rend="footnote text"> G. Furlani, “Il trattato di Yešō‘yabh,” 712.
+                        </p></note> Essentially, the tractate aims at expressing: 1) the nature (<foreign xml:lang="syr">ܟܝܢܐ</foreign>) of God; 2) the natural or
+                    essential qualities of God (<foreign xml:lang="syr">ܐܝܠܝܢ
+                        ܕܕܟܝܢܐ</foreign>); and 3) the qualities which God does not possess (<foreign xml:lang="syr">ܐܝܠܝܢ ܕܠܝܬ ܠܗ</foreign>)—what we would call
+                    ‘apophatic’ theology nowadays. The uniqueness of such an interpretation of the
+                    Trisagion, by a doctor of the Church of the East, is unparalleled and not found
+                    in the other eastern Christian traditions. It stems from the philosophical
+                    foundation of the School of Nisibis in making faithful use of Aristotelian logic
+                    when dealing with theological matters and discussions. This unique methodology
+                    based on Aristotelian philosophy is especially seen in the interpretation of the
+                    union of the two natures, and the polemical discussions on christology in
+                    general; this is the hallmark and genius of the Nisibene school and its doctors,
+                    as well as its alumni. Finally, the latter part of ’Īšō‘yahb’s memrā which deals
+                    with the addition to the Trisagion (‘Who was crucified for us’), is a rebuttal
+                    to the ‘theopaschite’ stance in the christological controversies. Again, he
+                    vehemently does not allow for this insertion because it is seen by ’Īšō‘yahb as
+                    a contradiction of terms, and negates the very essence of the theological
+                    declaration on the nature of God made in the Trisagion.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text"> G. Furlani, “Il trattato di
+                            Yešō‘yabh,” 712-713.</p></note> This tractate serves, therefore, as a
+                    formal rebuttal to the theological and christological position of the
+                    Miaphysites at the time, based on the unique philosophical basis of the
+                    ‘Nestorian’ doctors and expounders of the School of Nisibis. </p>
+                <p rend="title1" style="text-align: center; ">The Trisagion in the Liturgical
+                    Tradition of the Church of the East</p>
+                <p xml:lang="syr">I have elsewhere dealt with the issue of the history of
+                    the Trisagion, and the various Syriac and Byzantine accounts of its
+                        origins.<note place="foot" xml:id="ftn61" n="61"><p rend="footnote text">
+                            See: D. Royel, “East Meets East,” 50-51. For the legend concerning its
+                            adoption of the angelic hymn, see: A. Karim. “The Meaning of the
+                            Trisagion in East and West.” In <hi rend="italic">Chant and Culture:
+                                Proceedings of the Conference of the Gregorian Institute of Canada,
+                                August 6-9, 2013</hi>, ed. A. Karim and B. Swanson. (Lions Bay,
+                            British Columbia: Institute of Mediaeval Music, 2014), 30; especially
+                            footnote 24.</p></note> This hymn, it is believed, originated during the
+                    time of Proclus, the patriarch of Constantinople from 434 to 446. It was first
+                    exclaimed by the fathers in the first session of the Council of Chalcedon, on
+                    October 8, 451. Sometime afterward, it entered the liturgy of Constantinople,
+                    Gaul and other parts of the Roman west. In a homily of 518, Severus of Antioch
+                    states that the hymn was recently added to the liturgy in all of the Roman
+                        Empire.<note place="foot" xml:id="ftn62" n="62"><p rend="footnote text">
+                            Severus, Homily 125. K. Ginter, “The Trisagion Riots (512) as an Example
+                            of Interaction between Politics and Liturgy,”
+                            (<hi rend="italic">Studia Ceranea </hi>7 [2017]),
+                            47. </p></note> The addition to the Trisagion, ‘Who was crucified for
+                        us’<note place="foot" xml:id="ftn63" n="63"><p rend="footnote text"> ὁ
+                            σταυρωθεὶς δι᾽ ἡμᾶς, or in Syriac <foreign xml:lang="syr">ܗ݁ܘ ܕܐܨܛܠܒܼܬܿ
+                                ܚܠܦܝܢ</foreign>.</p></note> was added—according to tradition—by Peter the
+                    Fuller, the non-Chalcedonian patriarch of Antioch (468-488), around the year
+                    480. This is corroborated by Dionysius bar Salībī, who mentions in his
+                    exposition of the eucharistic liturgy, that the addition was inserted after the
+                    deposition of Nestorius as patriarch of Constantinople in 431.<note place="foot"
+                        xml:id="ftn64" n="64"><p rend="footnote text"> G. Furlani, “Il trattato di
+                            Yešō‘yabh,” 702, footnote 1. According to Bar Salībī: <foreign xml:lang="syr">ܕܒܬܪ ܠܡ
+                                ܕܐܫܬܕܝ ܢܣܛܘܪܝܘܣ ܡ̣ܢ ܥܕܬܐ ܥܠܬ̤ ܗ݁ܝ ܕܐܨܛܠܒܼܬܿ ܚܠܦܝܢ؛ ܒܩܕܝܫܬܿ ܐܠܗܐ ܘܕܠܘ
+                                ܣܓܝ ܥܬܝܩܐ.</foreign> See: J. Labourt, ed., <hi rend="italic">Dionysius
+                                Bar Salībī, Expositio Liturgiae</hi>, CSCO, Syr. II, 93 (Paris:
+                            Peeters, 1903), 17. </p></note>
+                </p>
+                <p xml:lang="syr">During the reign of the Byzantine emperor Anastasius I (491-518), the addition to
+                    the Trisagion was introduced into the Constantinopolitan liturgy, however, not
+                    without great opposition. In fact, in 512 a great riot broke out in the capital
+                    city of Constantinople against the Emperor Anastasius on account of his forced
+                    insertion into the Trisagion the words ‘Who was crucified for us.’<note
+                        place="foot" xml:id="ftn65" n="65"><p rend="footnote text"> W. Witakowski,
+                                <hi rend="italic">Pseudo-Dionysius of Tel-Mahre (Known Also as the
+                                Chronicle of Zuqnin): Chronicle, Part III</hi> (Liverpool: Liverpool
+                            University Press, 1996), 7ff. Cf. A. Karim. “The Meaning of the
+                            Trisagion in East and
+                            West<hi rend="color(333333)">,” </hi>28. For an
+                            account of this riot, see: M. Whitby, trans., <hi rend="italic">The
+                                Ecclesiastical History of Evagrius Scholasticus</hi> (Liverpool:
+                            Liverpool University Press, 2000), 195-196.</p></note> In his tractate,
+                    ’Īšō‘yahb very explicitly refers to the forced attempts of Anastasius at
+                    inserting the clause ‘Who was crucified for us’ (sections 13-16), referring
+                    specifically to the ‘edicts’ by the emperor to this effect (section 14). Such an
+                    imperial edict on the part of Anastasius is recorded by Evagrius Scholasticus,
+                    who mentions in his <hi rend="italic">Ecclesiastical History</hi> 3 the
+                    following note: “…at Byzantium, when the emperor wished to make an addition to
+                    the Trisagion of the phrase, ‘Who was crucified for us’, a very great
+                    disturbance occurred on the grounds that the Christian worship was being utterly
+                        nullified.”<note place="foot" xml:id="ftn66" n="66"><p rend="footnote text">
+                            Quoted from: M. Whitby, <hi rend="italic">The Ecclesiastical History of
+                                Evagrius Scholasticus</hi>, 195. Cf. K. Ginter, “The Trisagion
+                            Riots,” 52ff. </p></note> Further riots and discord erupted in the
+                    empire’s capital due to the addition inserted into the Trisagion ‘of Proclus,’
+                    to the extent that Anastasius almost lost his crown at the behest of the
+                    frenzied rioters. It wasn’t only until the death of Anastasius in 518 that the
+                    conflict was quelled, especially as he was succeeded by the pro-Chalcedonian
+                    emperor Justin I. With his succession as Byzantine emperor in 518, the Trisagion
+                    according to the usage of Patriarch Proclus was fully restored. Severus the
+                    patriarch of Antioch was deposed from his see, and a feast was established
+                    commemorating the Council of Chalcedon on July 16<hi rend="superscript">th</hi>.
+                    It was at this time that the Trisagion was formally inserted into the Byzantine
+                    liturgy, functioning as the ancient hymn of entry.<note place="foot"
+                        xml:id="ftn67" n="67"><p rend="footnote text"> K. Ginter, “The Trisagion
+                            Riots,” 53. Cf. S. Janeras, “Le Trisagion: un formule brève en liturgie
+                            compareé,” in R. F. Taft &amp; Gabriella Winkler (eds.), <hi
+                                rend="italic">Acts of International Congress: Comparative
+                                Liturgy Fifty Years After Anton Baumstark (1872-1948) Rome, 25-29 Sept. 1998</hi>, Orientalia
+                            Christiana Analecta 265, ed. R.F. Taft and G. Winkler (Rome: Pontifical
+                            Oriental Institute, 2001), 496-498.</p></note></p>
+                <p xml:lang="syr">In the liturgy of the Church of the East, the eucharistic celebration begins with
+                    the ancient hymn <hi rend="italic">Lākhū Mārā</hi>, which according to tradition
+                    goes back to the patriarch-martyr Mar Šem‘ōn bar Sabbā‘e (d. ca. 344).<note
+                        place="foot" xml:id="ftn68" n="68"><p rend="footnote text"> For more on the
+                            life and martyrdom of this patriarch, see: R. Kosiński, “The Date of the
+                            Martyrdom of Simeon bar Sabba’e and the Persecution of Christians in
+                            Persia under Shapur II” (<hi rend="italic">Zeitshcrift für Antikes
+                                Christentum</hi> 21:3 [2017]), 496-519.</p></note> It functioned as
+                    the hymn indicating the opening of the public service of the liturgy. Later, the
+                    Trisagion was added, sometime between the patriarchates of Mar Ābā I (540-552)
+                    and Mar ’Īšō‘yahb I—thus sometime between 540 and 596. The first formal tractate
+                    on this hymn, no doubt, is that of ’Īšō‘yahb who is explaining a tradition that
+                    had already existed in the Church for at least a generation. All evidence points
+                    to Mar Ābā I as the one who imported the Trisagion from Constantinople into the
+                    liturgy of the Church of the East. We know that Mar Ābā sojourned in Byzantine
+                    capital, along with Mar Thomas of Edessa, between 525 and 533.<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text"> D. Wilmshurst,
+                            <hi rend="italic">The Martyred Church: A History of the Church of the East </hi>(London:
+                            East and West Publishing, 2011), 56–57.</p></note> It is almost certain
+                    that it was during his stay in Constantinople during these years that he picked
+                    up the Trisagion, and also imported the two anaphorae which he named in honor of
+                    Theodore and Nestorius. </p>
+                <p xml:lang="syr">Another important clue as to the use of the Trisagion in the liturgy of the
+                    Church of the East is that ’Īšō‘yahb refers to it as a
+                        <hi rend="italic">qānōnā </hi>(<foreign xml:lang="syr">ܩܢܘܢܐ</foreign>), particularly in sections 1, 2, 3, 7, 8, 13, 15, 16. The
+                    <hi rend="italic">qānōnā </hi>is a very technical term that
+                    refers to a liturgical piece with an intercalated refrain, and generally ending
+                    in a <hi rend="italic">Gloria Patri</hi> and an
+                    <hi rend="italic">A saeculo </hi>doxology. We know that the
+                    liturgical psalter was redacted by Mar Ābā I, who not only made the final
+                    revision of the Peshiṭtā text of the Psalms, but also fixed them for antiphonal
+                    recitation in the divine office.<note place="foot" xml:id="ftn70" n="70"><p
+                            rend="footnote text"> See A. Baumstark, <hi rend="italic"
+                                >Geschichte</hi>, 120; J. Assemani, <hi rend="italic">Bibliotheca
+                                Orientalis</hi>, Vol. III/Part 1, 76; P. Yousif, <hi rend="italic"
+                                >Appunti sulla preghiera liturgical del rito caldeo (commune)</hi>,
+                            unpublished manuscript (Rome: Pontifical Oriental Institute, 1982-1983),
+                            5. The English translation of the Psalm refrains composed by Mar Ābā can
+                            be found in: A.J. Maclean, <hi rend="italic">East Syrian Daily Offices.
+                                Translated from the Syriac with Introduction, Notes and Indices and
+                                an Appendix Containing the Lectionary and Glossary</hi> (London:
+                            Rivington Percival &amp; Co., 1894), 236-248.</p></note> In the
+                    liturgical psalter of the Assyrian Church of the East, each psalm is given a
+                    refrain, which is sung after the first two verses of the psalm. Historically, in
+                    the recitation of the psalter these refrains or
+                    <hi rend="italic">qānōne </hi>were used commonly, whereas
+                    nowadays they are relegated only to major feasts of our Lord and commemorations
+                    of the saints. Mar Ābā himself is the author of these refrains of the psalms,
+                    and it is he who divided the psalter into
+                    <hi rend="italic">maremyāthā </hi>(a grouping of three
+                    psalms) and <hi rend="italic">hūlāle </hi>(a grouping of
+                    three <hi rend="italic">maremyāthā</hi>). Since the Trisagion is always recited
+                    in the various offices and liturgy of the Church of the East with the
+                    intercalated doxologies between the three repeated verses, it follows the same
+                    liturgical system invented by Mar Ābā for the liturgical psalter. Hence, Mar
+                    ’Īšō‘yahb’s reference to this hymn as a
+                    <hi rend="italic">qānōnā </hi>most likely points to its
+                    being structured liturgically as such by none other than Mar Ābā himself. </p>
+                <p xml:lang="syr">In the Church of the East, the Trisagion is one of the most important (and
+                    ancient) liturgical hymns after the
+                    <hi rend="italic">Lākhū Mārā </hi>(<foreign xml:lang="syr">ܠܟܼܘ
+                        ܡܪܐ</foreign>)—which entered the rite of the Church of the East most likely
+                    during the patriarchate of Mar Šem‘ōn bar Sabā‘e. <note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text"> For more on this ancient
+                            <hi rend="italic">introit </hi>hymn of the Church
+                            of the East see: Joseph Alencherry, <hi rend="italic">The Rite of
+                                Lakhumara According to the Commentary of Gabriel of Qatar (VII
+                                Century)</hi>, Academia, August 20, 2020.
+                            https://www.academia.edu/31403003/The_Rite_of_Lakhumara_according_to_the_Commentary_of_Gabriel_of_Qatar_VII_Century_in_Christian_Orient.
+                            Cf. S. Janeras, “Le Trisagion,” 498.</p></note> In his tractate,
+                    ’Īšō‘yahb informs us that the whole Church worldwide recites the Trisagion both
+                    in the morning/matins (<foreign xml:lang="syr">ܒܨܦܪܐ</foreign>) and in the evening/vespers (<foreign xml:lang="syr">ܒܪܡܫܐ</foreign>), at the end of the divine office (sections 1, 17).<note
+                        place="foot" xml:id="ftn72" n="72"><p rend="footnote text"> Cf. S. Janeras,
+                            “Le Trisagion,” 503.</p></note> It is considered an essential and
+                    indispensable part of the ‘sealing’ (<foreign xml:lang="syr">ܚܘܬܡܐ</foreign>) of the divine office.<note place="foot" xml:id="ftn73" n="73"
+                            ><p rend="footnote text"> According to Pseudo-George of Arbel; see R. H.
+                            Connolly, ed. &amp; Latin trans., <hi rend="italic">Anonymi Auctoris.
+                                Expositio Officiorum Ecclesiae, Georgio Arbelensi Vulgo
+                                Adscripta</hi>. Vol. 1., CSCO 64, Syri. 25, (Louvain: Peeters,
+                                1961), 217: <foreign xml:lang="syr">ܩܢܘܢܐ ܕܩܕܝܫܐ؛ ܚܘܬܡ ܬܫܡܫܬܐ ܐܝܬܼܘܗܝ</foreign> Cf. Janeras, “Le
+                            Trisagion,” 503. </p></note> Another source that corroborates the
+                    witness of ’Īšō‘yahb is Dādīšō‘ Qatrāyā (ca. late 7<hi rend="superscript"
+                        >th</hi> century). In his <hi rend="italic">Commentary on the Asceticon of
+                        Abba Isaiah</hi>, Dādīšō‘ mentions the liturgical usage of the novice monks
+                    under the training of Mar Bābai the Great (ca. 551-628). Dādīšō‘ points out the
+                    fact that Bābai had instructed in the volume he composed for the formation of
+                    novices, that in the office of complines they were to “…recite ten <hi
+                        rend="italic">maremyāthā</hi> or more, and one hymn (<hi rend="italic"
+                        >teshbōhtā</hi>) and the Trisagion; at nocturns (<hi rend="italic"
+                        >lelyā</hi>) they recite ten
+                    <hi rend="italic">maremyāthā </hi>or more, and one hymn
+                        (<hi rend="italic">teshbōhtā</hi>) and the Trisagion…”<note place="foot"
+                        xml:id="ftn74" n="74"><p rend="footnote text"> Quoted in the fragmentary
+                                13<hi rend="superscript">th</hi>
+                            <hi rend="italic">memrā</hi> of this work, found in the ms. Vatican
+                            Syriac 496, ff. 154v-157v; see J. Mateos, <hi rend="italic">Lelya-Şapra.
+                                Les offices chaldéens de la nuit et du matin</hi>, Orientalia
+                            Christiana Analecta 156 (Rome: Pontifical Oriental Institute, 1972),
+                            473. This lost work of Bābai was composed after the death of Mar Abraham
+                            the Great, of Kaškar in 588. Bābai succeeded Abraham as abbot of the
+                            monastery of Mt. Izla in Nisibis, until his death in 628. </p></note>
+                </p>
+                <p xml:lang="syr">By the beginning of the seventh century, we know that already the Trisagion ended
+                    both the offices of vespers and matins. Gabriel of Qatar (who flourished ca
+                        615)<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text"> For
+                            more on the life and works of Gabriel of Qatar see: S. P. Brock,
+                            “Gabriel of Beth Qatraye as a Witness to Syriac Intellectual Life c. 600
+                            CE,” in <hi rend="italic">The Syriac Writers of Qatar in the Seventh
+                                Century</hi>, Gorgias Eastern Christian Studies 38, ed. M. Kozah,
+                            et. al. (Piscataway, New Jersey: Gorgias Press, 2014), 155-167; see also
+                            S. P.Brock. “The origins of the qanona ‘Holy God,…’ according to Gabriel
+                            of Qatar,” <hi rend="italic">The Harp</hi> 21 (2006) 173-185</p></note>
+                    mentions this fact very clearly in his <hi rend="italic">Interpretatio
+                        Officiorum</hi>: </p>
+                <p rend="H Quote Block">For, the service of vespers is completed with the <hi
+                        rend="italic">qānōnā</hi> of ‘Holy.’ However, we add an antiphon and a
+                    section from the (Letter Psalms). We are obliged, therefore, to demonstrate the
+                    cause for this addition. That the service of vespers as well as matins ends with
+                    the <hi rend="italic">qānōnā </hi>of ‘Holy’—this is clear,
+                    not merely because of the fact that that the priest recites the [prayer of]
+                    imposition of hands and blesses the people, but also from the [fact] that we
+                    draw closed the veil in the face of the people once the service has reached its
+                        conclusion.<note place="foot" xml:id="ftn76" n="76"><p rend="footnote text">
+                            See ms. British Museum Oriental 3336, ff. 26v-27r. The English
+                            translation of this section is that of the present writer. </p></note>
+                </p>
+                <p xml:lang="syr">The liturgical explanation of Gabriel corroborates the statement of ’Īšō‘yahb
+                    that the two major offices end officially with the Trisagion. </p>
+                <p xml:lang="syr">A senior contemporary of Gabriel is Mar Bābai the Great (ca. 550-628). In his
+                    famous <hi rend="italic">Book of Union</hi>, he mentions the Trisagion during a
+                    lengthy discussion on the nature of God, at the outset of his work. He states
+                    concerning the hymn in Memrā I, Chapter V: “In like manner the Church also
+                    sanctifies: ‘One holy Father, one holy Son, one Holy Spirit,’ with one hymn of
+                    praise: ‘Holy God, Holy Mighty, Holy Immortal, have mercy on us.’ It was heard
+                    from the angels and is held to by the Church, and she glorifies without
+                        division.”<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text">
+                            <foreign xml:lang="syr"
+                                >ܗܟܼܢܐ ܐܦ ܥܕܬܐ ܡܩܕܫܐ ܚܕ ܐܒܼܐ ܩܕܝܫܐ. ܚܕ ܒܪܐ ܩܕܝܫܐ. ܚܕ ܪܘܚܐ ܩܕܝܫܐ.
+                                ܒܚܕܐ ܬܫܒܘܚܬܐ: ܩܕܝܫܐ ܐܠܗܐ: ܩܕܝܫܐ ܚܝܠܬܢܐ: ܩܕܝܫܐ ܠܐ ܡܝܘܬܐ ܐܬܪܚܡ ܥܠܝܢ.
+                                ܐܫܬܡܥ ܡ̣ܢ ܡܠܐܟܼ̈ܐ ܘܐܚܝܕܐ ܥܕܬܐ ܘܡܫܒܚܐ ܕܠܐ ܦܘܠܓܼ.</foreign> See A.
+                            Vaschalde, ed. &amp; Latin trans., <hi rend="italic">Babai Magni. Liber
+                                de Unione</hi>. CSCO, Syr. II 61 (Paris: Typographeo Reipublicae,
+                            1915), 34 [Syriac text].</p></note> According to a much later source,
+                    the <hi rend="italic">Expositio Officiorum Ecclesiae</hi> of Pseudo-George of
+                    Arbel, it was the reforming patriarch Mar ’Īšō‘yahb III (648/9-658/9) who
+                    inserted the Trisagion at the end of the service. Pseudo-George of Arbel
+                    comments: “But as soon as this <hi rend="italic">qānōnā</hi> is recited, the
+                    service of vespers is also completed; for up to this point, it is called
+                    ‘vespers’ (<foreign xml:lang="syr">ܪܡܫܐ</foreign>).”<note place="foot" xml:id="ftn78" n="78"><p
+                            rend="footnote text"> See R. H. Connolly (Syriac ed. &amp; Latin
+                            trans.), <hi rend="italic">Anonymi Auctoris. Expositio Officiorum
+                                Ecclesiae, Georgio Arbelensi Vulgo Adscripta</hi>, vol. I. CSCO 64,
+                            Syr. 25 (Peeters: Louvain, 1961), 188 [Syriac text]. The English
+                            translation is that of the present writer.</p></note></p>
+                <p xml:lang="syr">Interestingly, ’Īšō‘yahb I is utterly silent about the use of the Trisagion in
+                    the eucharistic liturgy. The reason for this might very well be because this
+                    hymn had not yet entered the eucharistic liturgy of the Assyrian Church,
+                    although it was strictly observed in the morning and evening offices. The
+                    earliest patristic witness for the presence of the Trisagion in the eucharistic
+                    celebration of the Church of the East is the
+                    <hi rend="italic">Interpretatio Officiorum </hi>of Gabriel
+                    Qatrāyā, whom we have mentioned above. In all likelihood, Gabriel is writing his
+                    commentary before the liturgical reforms enacted by the patriarch Mar ’Īšō‘yahb
+                    III, sometime around 650. In fact, Gabriel refers to the fact that the
+                    monasteries of Mt. Izla in Nisibis (referred to by him as the ‘Great
+                    Monastery’), that of Rabban Šāpūr (in Khūzestan) and all the monasteries in the
+                    territory of the Persians had preserved the older liturgical usages without
+                    change and innovation.<note place="foot" xml:id="ftn79" n="79"><p
+                            rend="footnote text"> R. H. Connolly, Expositio Officiorum Ecclesiae,
+                            158.</p></note> Thus, we can conclude that the Trisagion was inserted
+                    into the eucharistic liturgy of the Church of the East after the patriarchate of
+                    ’Īšō‘yahb I, or 596, but before the time of the writing of Gabriel’s commentary,
+                    ca. 615.<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text"> With
+                            respect to the meaning of the Trisagion in the eucharistic celebration,
+                            Gabriel comments: “The <hi rend="italic">qanona</hi> ‘<hi rend="italic"
+                                >Holy</hi>...’ <hi rend="italic">is a symbol of the
+                                sanctification</hi> (of Christ) <hi rend="italic">by the
+                            angels</hi> who accompanied him during his entire dispensation, just as
+                            the blessed Matthew said, ‘The angels approached and were ministering to
+                            him’ (Matt. 4:11).” See S.P. Brock, “The Commentary of Gabriel of Qatar
+                            on the Liturgy” (<hi rend="italic">Hugoye </hi>6:2
+                            [2003]), 12; online version:
+                            https://hugoye.bethmardutho.org/article/hv6n2brock, accessed 3 September
+                            2020.</p></note> Possible authorities for the insertion of the Trisagion
+                    in the eucharist could be either Patriarch Sabrīšō‘ I, who succeeded ’Īšō‘yahb I
+                    in 596, or Mar Bābai the Great who ruled the Great Monastery of Izla (588 to
+                    628), and who also administered the vacant patriarchal see during the
+                    interregnum of 607/8-628.</p>
+                <p xml:lang="syr">The Trisagion is generally recited antiphonally, between the two choirs, and
+                    there is an invitatorial exclamation on the part of the deacon initiating its
+                    recitation: ‘Lift up your voice, all ye people, and glorify ye the living God.’
+                    The three strophes of the Trisagion are intercalated with the
+                    <hi rend="italic">Gloria Patri </hi>and the <hi
+                        rend="italic">A saeculo</hi>, respectively.<note place="foot" xml:id="ftn81"
+                        n="81"><p rend="footnote text"> See J. Mateos, <hi rend="italic"
+                                >Lelya-Şapra</hi>, 78.</p></note> The reason for the deacon’s
+                    invitation to recite the Trisagion might come from the fact that it was an
+                    angel, according to ’Īšō‘yahb, who taught the hymn to one of the holy presbyters
+                    of Constantinople. The reason for the invitatorial exclamation is because the
+                    deacon fulfills the type and role of the angels in the liturgy. According to
+                    Pseudo-George: “And that the deacon commands, ‘Lift up your voice and glorify
+                    ye, all the people…’ is because this very
+                    <hi rend="italic">qānōnā </hi>itself was heard from the
+                    angels, and in the same manner this fleshly angel [i.e. deacon] at every season
+                    awakens and commands the people (concerning) everything that is done.”<note
+                        place="foot" xml:id="ftn82" n="82"><p rend="footnote text"> R. H. Connolly,
+                            Expositio Officiorum Ecclesiae, 188.</p></note> Subsequentially, the
+                    Trisagion was included in all of the liturgies and offices of the Assyrian
+                    Church of the East, after it had been inserted first in the matutinal and
+                    vespertine offices, then in the eucharistic liturgy. </p>
+            </div>
+            <div xml:id="hv25n1awa.6" xml:lang="en">
+                <head>The Syriac Text of The Cause of the ‘Holy God’</head>
+                <p xml:lang="syr">Sadly, I have not been able to consult the actual
+                    manuscript in which this tractate is found. Therefore, I rely on and reproduce
+                    here the Syriac text as published by Furlani, but making use of the eastern
+                    Syriac script as opposed to the Serto used in the published text. Very limited
+                    vocalization and spirantization has been added to the present Syriac text,
+                    simply for further clarification, along with diacritical marks to distinguish
+                    between homographs. I have divided the tractate into 17 sections in order to
+                    facilitate the reading of the Syriac text, although there is no formal, internal
+                    division in the original text itself.</p>
+                <p xml:lang="syr">
+                    
+                    <foreign xml:lang="syr">ܥܠ ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡܫܪܝܢܢ ܠܡܟܼܬܒܼ
+                        ܥܠܬܐ ܕܩܕܝܫܐ ܐܠܗܐ ܕܥܒܼܝܕܐ ܠܡܪܝ ܝܫܘܥܝܗܒܼ ܩܬܼܘܠܝܩܐ ܐܪܙܘܢܝܐ. ܡܪܢ ܣܝܥ ܠܡܚܝܠܘܬܼܝ
+                        ܒܪ̈ܚܡܝܟ ܐܡܝܢ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[1] ܗܠܝܢ ܒܟܪ̈ܝܬܐ ܪܫ̇ܡ ܐَܢܐ ܡܛܠ ܚܘܒܟܼ
+                        ܐܝܟܼ ܦܝܣܟܼ ܐܘ ܡܝܬܪܐ ܘܪܚܝܡܐ ܡܪܝ ܐܒܼܪܗܡ ܕܕܝܪ ܓܙܪܬܐ ܕܢܗܘܝ̈ܢ ܠܟܼ ܠܢܝܚܐ ܘܠܝ
+                        ܠܥܘܗܕܢܐ ܘܐܢ ܡܨܝܐ ܘܐܦ ܠܝܘܬܿܪܢܐ ܕܐَܚܪ̈ܢܐ. ܠܟܢܘܫܬܗ ܕܐܠܗܐ ܕܗܫܐ ܨܒܼܬ̤ ܠܒܝܬܗ ܕܐܠܗܐ
+                        ܙܕ̇ܩ ܠܗܘܢ ܠܡܫܡܥ ܚܦܝܛܐܝܬ ܡ̣ܢ ܟܬܒܼ̈ܐ ܩܕܝܫ̈ܐ ܘܡ̣ܢ ܡܠܦܢ̈ܐ ܕܥܕܬܐ ܝܘܠܦܢ̈ܘܗܝ ܡܚܝܢ̈ܐ
+                        ܕܪܘܚܐ ܕܩܘܕܫܐ. ܐܦܚܢܢ ܡܚܝ̈ܠܐ ܬܠܡܝܕ̈ܐ ܕܫܠܝ̈ܚܐ ܘܕܐܒܼܗ̈ܬܐ ܘܥܒܼܕܘ̈ܗܝ ܕܡܪܝܐ ܡܪܟܿܠ
+                        ܡܫܝܚܐ܆ ܩܡ̣ܢܢ ܝܘܡܢܐ ܒܬܘܟܼܠܢܐ ܘܒܥܘܕܪܢܐ ܕܥܠ ܚܝܠܗ ܕܡܫܝܚܐ ܕܢܡܠܠ ܥܡ ܥܢ̈ܗ ܕܦܪܘܩܢ
+                        ܬܫܥܝܬܗ ܕܗ̇ܘ ܩܢܘܢܐ ܕܩܕܝܫܐ ܐܠܗܐ ܕܒܪܡܫܐ ܘܒܨܦܪܐ ܐܡ̇ܪܐ ܠܗ ܥܕܬܗ ܕܐܠܗܐ ܒܟܠ ܦܢܝ̈ܢ
+                        ܕܬܚܝܬ ܫܡܝ̈ܐ܆ ܕܟܕ ܒܪܥܝܢܐ ܥܝܪܐ ܘܚܦܝܛܐ ܬܫܡِܥܘܢ ܥܠܬܗ ܘܬܫܥܝܬܗ ܘܐܟܼܚܕܐ ܐܦ ܦܘܫܩܗ
+                        (ܕ)ܬܗܘܘܢ ܚܦܝܛܝܢ ܐܦ ܐܢَܬܿܘܢ ܟܠܝܘܡ ܒܪܡܫܐ ܘܒܨܦܪܐ ܬܫܒܿܚܘܢ ܒܗ ܠܬܠܝܬܼܝܘܬܼܐ ܩܕܝܫܬܐ܆
+                        ܡܠܦܢܘܬܐ ܕܗܘܝܐ ܕܪܘܚܐ ܕܩܘܕܫܐ ܒܟܠ ܕܪ ܘܒܟܠ ܥܡ. ܐܠܗܐ ܒܛܝܒܿܘܬܗ ܐܘܫܛ ܠܓܢܣܐ
+                        ܕܒܢܝ̈ܢܫܐ. ܕܟܕ ܗܟܼܢܐ ܒܗܢܐ ܦܘܪܣܐ ܡܘܬܪܢܐ ܝܘܬܪܢܗܘܢ ܕܒܢܝ̈ܢܫܐ ܢܗܘܐ ܩܪܝܚ ܘܓܼܠܐ܆ ܐܦ
+                        ܪ̈ܚܡܘܗܝ ܝܬܝܪܐܝܬ ܢܬܝܕܥܘܢ ܘܒܛܝܠܘܬܗ ܬܬܼܟܪܙ ܠܘܬܼ ܟܠܢܫ ܕܟܕ ܒܥܝ̇ܢ ܘܡܥܩ̇ܒܼܝܢ ܥܠ
+                        ܐܠܗܐ ܡܫܟܿܚܝܢ ܠܗ ܡ̣ܢ ܒܪ̈ܝܬܗ ܘܐܦ ܡ̣ܢ ܡܠܬܗ ܚܝܬܐ ܗ̇ܝ ܕܒܝܕ ܩܕܝܫ̈ܐ ܠܒܼܝܫܝ̈ ܪܘܚܐ
+                        ܡܬܼܡܠܠܐ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[2] ܚܕ ܓܝܪ ܡ̣ܢ ܝܘܠܦܢܘ̈ܗܝ ܡܚܝ̈ܢܐ ܕܪܘܚܐ ܕܩܘܕܫܐ ܐܝܬܼܘܗܝ ܘܐܦ ܩܢܘܢܐ ܕܩܕܝܫܐ ܐܠܗܐ. ܘܗܕܐ ܒܪܬܼ ܩܠܐ ܫܘܒܿܚܐ ܐܝܬܝܗ̇ ܕܗ̇ܘ ܟܝܢܐ ܛܘܒܼܬܢܐ ܘܐܠܗܝܐ ܕܐܝܬܘܬܗ ܠܐ ܡܬܿܕܪܟܿܐ ܘܐܝܬܼܘܗܝ ܐܝܟܼ ܕܐܝܬܼܘܗܝ ܘܩܢܘܡܘ̈ܗܝ ܠܐ ܡܬܼܒܿܨܝܢ ܘܓܢܝܙܝܢ ܐܝܟܼ ܕܓܢܝܙܝܢ. ܒܗ ܓܝܪ ܒܥܝܕܗܘܢ ܠܐ ܡܬܼܚܝܒܼܢܐܝܬܼ ܘܠܐ ܡܫܬܐܠܢܐܝܬܼ ܨܒܼܢܝܢܐܝܬ ܡܠܐܟܼ̈ܐ ܪ̈ܘܚܢܐ ܥܡ ܒܢܝ̈ܢܫܐ ܩܕܝܫ̈ܐ ܒܥܬܝܩܬܐ ܘܒܚܕܬܐ ܙܡܝܪ̈ܬܐ ܕܪܘܚܐ ܠܐܠܗܐ ܕܥܠ ܟܠ ܡܣܩܝܢ ܘܡܘܕܝܢ ܘܡܙܡܪܝܢ ܘܡܫܒܿܚܝܢ ܥܠ ܐܦܝ̈ ܢܦ̮ܫܗܘܢ ܘܥܠ ܐܦܝ̈ ܬܘܩܢܗ ܕܥܠܡܐ ܘܫܘܦܪܐ ܕܒܪ̈ܝܬܗ܆ ܗܟܼܢܐ ܕܐܦ ܟܕ ܚܛ̣ܘ ܘܐܪܓܿܙܘ ܝܬܼܒܝ̈ܗ̇ ܕܐܪܥܐ ܡܫܪِ̈ܝܬܼܐ ܕܪ̈ܘܚܢܐ ܐܬܿܬܿܥܝܩܘ ܘܟܕ ܒܠܥܘ ܥܡܘܪ̈ܝܗ̇ ܒܡܣܡ ܒܪܫܐ ܨܒܼܝܢܐܝܬ ܥܡܗܘܢ ܚܐ̇ܫܝܢ ܗَ̣ܘܘ. ܘܟܕ ܐܫܬܿܪܝܘ ܓܙܪ̈ܝ ܕܝܢ̈ܐ ܘܗܘ̤ܘ ܒܫܝܢܐ ܚܕܝܘ ܘܥܠ ܐܦܝ̈ ܬܪܬܝܗܝܢ ܬܫܒܿܘܚܬܐ ܕܠܚܡܐ ܡܣܩܝܢ ܗَܘ̣ܘ ܠܐܠܗܐ ܕܥܠ ܟܠ. ܟܕ ܡܙܕܩܝܢ ܘܡܘܪِܒܼܝܢ ܠܟܐܢܘܬܐ ܕܬܪܝܨܐܝܬܼ ܡܘܬܪܢܐܝܬܼ ܪܕܝܐ ܘܠܛܝܒܿܘܬܐ ܕܫܦܝܥܐܝܬ ܘܒܣܝܡܐܝܬ ܚܐܢܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[3] ܒܗ̇ܘ ܓܝܪ ܙܒܼܢܐ ܟܕ ܕܘܒܪܐ ܕܥܬܝܩܬܐ ܐܚܝܕ ܗَܘ̣ܐ ܘܢܡܘܣܐ ܕܒܝܬ ܡܘܫܐ ܫܠܝܛ ܗَܘ̣ܐ ܙܒܼܢ̈ܬܐ ܣܓܝ̈ܐܬܼܐ ܐܬܼܚܙܝܘ ܡܫܚܠ̱ܦܐܝܬ ܒܙܒܼܢ ܛܢܢܐܝܬ ܡܛܠ ܝܘܬܪܢܐ ܟܕ ܡܚ̇ܝܢ ܘܪܕܝܢ ܘܒܙܒܼܢ ܚܝܘܣܬܢܐܝܬ ܟܕ ܩܦܠܝܢ ܠܡܪܕܘܬܐ ܘܡܝܬܿܝܢ ܒܘܣܡܐ. ܘܐܦ ܒܝܘܡܝ̈ ܐܫܥܝܐ ܠܐܠܗܐ ܡܫܒܿܚܝܢ ܗَܘ̣ܘ ܒܓܠܝܢܐ ܐܠܗܝܐ ܗ̇ܘ ܕܐܬܼܚܙܝ ܒܗܝܟܿܠܐ. ܩܕܝܫ ܩܕܝܫ ܠܡ ܡܪܝܐ ܩܕܝܫ ܡܪܝܐ ܚܝܠِܬܼܢܐ ܕܡܠܝ݁ܢ ܫܡܝܐ ܘܐܪܥܐ ܬܫܒܿܚ̈ܬܗ. ܡܠܬܼܐ ܕܛܥܝܢܐ ܪܡܙܐ ܕܬܼܠܝܬܼܝܘܬܼܐ. ܡܠܬܼܐ ܝܚܝܕܝܬܐ ܘܡܚܝܕܬܐ. ܚܕ ܡܪܝܐ ܝܚܕܝܘܬܼ ܟܝܢܐ ܠܝܚܝܕܝܘܬܼ ܐܝܬܼܘܬܼܐ. ܬܠܬܼ ܙܒܼܢܝ̈ܢ ܐܡܪܘܗ̇ ܗَܘ̣ܘ ܩܕܝܫ. ܡܚܝܕܘܬܼܐ ܕܩܢܘܡ̈ܐ ܡܚܘܝܢ ܒܟܠ ܡܕܿܡ ܣܛܪ ܡ̣ܢ ܕܝܠܝ̈ܬܼܗܘܢ. ܐܦ ܓܝܪ ܗܢܘ ܥܝܕܐ ܕܡܠܐܟܼ̈ܐ ܩܕܝܫ̈ܐ ܕܒܼܟܼܠܙܒܼܢ ܢܩܕܡܘܢ ܢܪܡܙܘܢ ܐܝܟܼ ܦܘܩܕܢܐ ܐܠܗܝܐ ܥܠ ܥܬܼܝܕ̈ܬܼܐ. ܗܟܼܢܐ ܐܦ ܒܕܝܬܼܩܐ ܚܕܬܐ ܚܦܝܛܐܝܬܼ ܪܗܛܝܢ ܕܢܓܡܪܘܢ ܦܘܩܕܢܗ ܕܦܪܘܩܢ. ܐܝܟܢܐ ܕܐܦ ܗܫܐ ܒܫܟܼܚܬܗ ܕܗܢܐ ܩܢܘܢܐ ܕܩܕܝܫܐ ܐܠܗܐ ܕܡܬܐِܡܪ ܒܪܡܫܐ ܘܒܨܦܪܐ ܒܟܼܠܗ̇ ܥܕܬܗ ܕܐܠܗܐ ܗܢܘܢ ܡܠܐܟܼ̈ܐ ܩܕܝܫ̈ܐ ܗܘ̤ܘ ܡܨܥܝ̈ܐ ܘܡܫܡܫܢ̈ܐ. ܡܠܬܐ ܡܬܼܡܠܠܐ ܘܫܪܝܪܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[4] ܟܕ ܓܝܪ ܚܛܗ̈ܐ ܘܥܘ̣̈ܠܐ ܕܙܢܝ̈ܢ ܙܢܝ̈ܢ ܣܥ̣ܪܘ ܥܡܘܪ̈ܝܗ̇ ܕܡܕܝܢَܬܐ ܪܒܬܐ ܩܘܣܛܢܛܝܢܦܘܠܝܣ ܕܘܟܿܬܼܐ ܕܡܠܟܿܘܬܼܐ ܡܥܪِܒܼܝܬܐ ܘܟܕ ܡܚܡܣܢܝܢ ܒܚܛܗܝ̈ܗܘܢ ܠܐ ܐܬܼܪܟܿܟܼܘ ܕܢܨܘܬܿܘܢ ܡܪܬܿܝܢܘܬܐ ܕܟܬܒܼ̈ܐ ܩܕܝܫ̈ܐ ܘܢܬܼܓܘܣܘܢ ܒܬܝܒܼܘܬܼܐ، ܗ̇ܘ ܡܕܒܪܢܐ ܕܛܒܼ̈ܬܢ ܘܝܨܘܦܐ ܕܢܦ̮ܫ̈ܬܢ܆ ܪܚ̇ܡ ܐَܢܫܐ ܐܠܗܐ ܕܥܠ ܟܠ ܚܠܦ ܕܐܙܝܥܘ ܬܩܢ̈ܬܼܐ ܒܣܪ̈ܝܚܬܼܗܘܢ ܐܝܙܥܗ̇ ܠܐܪܥܐ ܬܚܘܬܝܗܘܢ ܒܟܐܢܘܬܐ ܘܚܠܦ ܕܐܪܥܠܘ ܒܐܪܥܐ ܪܫܝܥܐܝܬ ܢܡܘܣܘ̈ܗܝ ܕܥܡܘܪܐ ܕܫܡܝܐ ܐܪܥܠܗ̇ ܬܪܝܨܐܝܬܼ ܠܐܡܐ ܕܡܕܝܢ̈ܬܼܗܘܢ، ܘܐܪܒܥܝܢ ܝܘܡܝ̈ܢ ܠܠܝ ܐܝܡܡ ܒܗܢܐ ܢܓܕܐ ܕܚܝܠܐ ܘܚܣܝܢܐ ܡܫܬܢܩܝܢ ܗَܘ̣ܘ ܥܕܡܐ ܕܫܒܼܩܘ ܡܕܝܢَܬܗܘܢ ܘܠܒܼܪ ܒܐܦܝ̈ ܕܒܼܪܐ ܡܕܝܪܝܢ ܗَܘ̣ܘ ܒܡܫܟܢ̈ܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[5] ܘܟܕ ܗܟܼܢܐ ܡܬܢܘܠܝܢ ܗَܘ̣ܘ ܘܡܬܿܕܝܒܼܝܢ
+                        ܠܘܩܒܼܠ ܥܘܡܪ̈ܝܗܘܢ ܘܩܢܝܢܝ̈ܗܘܢ ܘܐܒܼܕܢܗܘܢ ܘܚܘܒܿܠܗܘܢ ܩܕܡ ܥܝܢܝ̈ܗܘܢ ܣܝܡ ܗَܘ̣ܐ ܒܟܼܠ
+                        ܥܕܢ ܪܡܫ ܨܦܪ ܘܒܡܕܢ̈ܚܘܗܝ ܕܫܡܫܐ ܠܡܥܪ̈ܒܼܘܗܝ ܠܐ ܡܣܒܿܪܝܢ ܗَܘ̣ܘ ܕܚܐ݁ܝܢ ܗَܘ̣ܘ܆ ܗܝܕܝܢ
+                        ܥܬܿܝܪ ܒܪ̈ܚܡܐ ܐܠܗܐ ܕܫܠܝܛ ܒܟܼܠ ܘܟܐ݁ܝܢ ܒܟܼܠ ܒܛܝܒܿܘܬܗ ܐܕܢܚ ܠܗܘܢ ܘܐܝܕܐ ܕܪ̈ܚܡܐ
+                        ܐܘܫ̣ܛ ܠܗܘܢ. ܚܕ ܓܝܪ ܡ̣ܢ ܡܠܐܟܼ̈ܐ ܩܕܝܫ̈ܐ ܐܬܼܓܿܠܝ ܒܚܠܡܐ ܠܚܕ ܡ̣ܢ ܩܫܝܫ̈ܐ ܕܥܕܬܐ
+                        ܪܒܿܬܐ ܓܒܼܪܐ ܕܛܒܼ ܣܗܝܕ ܗَܘ̣ܐ ܒܟܐܢܘܬܐ ܘܐܡ̣ܪ ܠܗ. ܩܘܡ ܠܟܼ ܩܠܝܠܐܝܬ ܘܥܘܠ ܠܥܕܬܐ
+                        ܪܒܿܬܐ. ̇ܬ̇ܡܢ ܒܪܒܿܬܼ ܩܠܐ ܕܐܝܟܼ ܗܕܐ ܫܒܿܚ ܠܐܠܗܐ ܕܥܠ ܟܠ܆ ܩܕܝܫܐ ܐܠܗܐ܆ ܩܕܝܫܐ
+                        ܚܝܠِܬܼܢܐ܆ ܩܕܝܫܐ ܠܐ ܡܝܘܬܼܐ܆ ܐܬܼܪܚܡ ܥܠܝܢ܆ ܘܡܚܕܐ ܙܘܥܐ ܫܠ݁ܐ ܘܢܝܚܐ ܪܒܐ ܒܪ̈ܚܡܐ
+                        ܗܘ݁ܐ ܠܟܼܠܗ ܓܘܐ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[6] ܟܕ ܕܝܢ ܩ̣ܡ ܩܫܝܫܐ ܗ̇ܘ ܘܗܠܝܢ ܐܫܬܥܝ
+                        ܠܐَܢܫܝ̈ܢ ܛܘܥܝܝ ܐܣܬܿܒܿܪ ܚܠܡܐ ܘܠܐ ܗܝܡܢܘܗܝ. ܘܗܟܼܢܐ ܒܠܠܝܐ ܐَܚܪܢܐ ܐܬܼܚܙܝ ܘܗܢܝܢ
+                        ܗܠܝܢ ܡܠ̣ܠ ܥܡܗ. ܘܟܕ ܐܦܠܐ ܗܟܼܢܐ ܡ̣ܢ ܕܚܠِܬܼܐ ܕܙܘܥܐ ܕܢܗ݁ܡ ܗَܘ̣ܐ ܒܫܘܩܝ̈ ܡܕܝܢَܬܐ
+                        ܐܫܟܿܚܘ ܕܢܥܠܘܢ ܠܠܠܝܐ ܕܬܼܠܬܼܐ ܐܬܼܚܙܝ ܠܗ ܘܐܡ̣ܪ܆ ܐܘܿ ܓܒܼܪܐ ܗܝܡܢܝܢܝ ܡܛܠ ܕܚܕ ܡ̣ܢ
+                        ܐܝܠܝܢ ܕܩܝ̇ܡܝܢ ܩܕܡ ܡܪܝܐ ܡܪܐ ܕܟܼܠ ܐܝܬܼܝ ܘܐܫ̇ܬܕܪܬܼ ܕܐܣܒܿܪ ܥܠ ܦܪܘܩܢܗܘܢ. ܠܐ ܗܟܼܝܠ
+                        ܬܕܚܠܘܢ ܠܡܥܠ ܠܡܕܝܢَܬܐ ܡܛܠ ܕܡܪܝܐ ܩܪܝܒܼ ܘܡܛܝܒܼ ܘܢܫܟܿܢ ܠܟܼܘܢ ܛܝܒܿܘܬܼܐ. ܗܐ ܓܝܪ ܟܕ
+                        ܥܐܠ ܐܢَܬܿ ܠܥܕܬܐ܆ ܠܝ ܩܕܡܝܟ ܡܫܟܿܚ ܐܢَܬܿ ܘܐܝܟܼ ܕܫܡ̇ܥ ܐܢَܬܿ ܠܝ ܕܐܡ̇ܪ ܐَܢܐ܆ ܐܡܪ
+                        ܐܦ ܐܢَܬܿ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[7] ܗܝܕܝܢ ܐܬܼܚܝܠ ܗ̇ܘ ܛܘܒܼܢܐ ܩܫܝܫܐ ܘܥܠ
+                        ܠܡܕܝܢَܬܐ ܕܠܝܠ̈ܐ ܥܡܗ ܘܐܫܟܿܚܘܗܝ ܠܡܠܐܟܼܐ ܟܕ ܩܐ݁ܡ ܩܕܡ ܡܕܒܿܚܐ ܘܡܫܒܿܚ ܒܩܠܐ ܪܡܐ
+                        ܠܐܠܗܐ ܟܕ ܐܡ̇ܪ܆ ܩܕܝܫܐ ܐܠܗܐ܆ ܩܕܝܫܐ ܚܝܠِܬܼܢܐ܆ ܩܕܝܫܐ ܠܐ ܡܝܘܬܼܐ܆ ܐܬܼܪܚܡ ܥܠܝܢ.
+                        ܘܗܝܕܝܢ ܗܢ̣ܘܢ ܗܢ݁ܘܢ ܫܪܝܘ. ܘܟܕ ܬܠܬܼ ܙܒܼܢܝ̈ܢ ܐܡܪܘܗܝ ܠܗܢܐ ܩܢܘܢܐ: ܗܘ̤ܐ ܫܠܝܐ ܪܒܐ
+                        ܘܒܛ̣ܠ ܙܘܥܐ ܓܡܝܪܐܝܬ ܘܫܠ̣ܐ ܡܣܡ ܒܪܫܐ ܕܠܚܝܡ ܗَܘ̣ܐ ܕܢܗܦܟܿܝܗ݁ ܘܢܗܓܡܝܗ̇ ܠܡܕܝܢَܬܐ.
+                        ܘܫܐܬܿܟܼܚܘ ܗܢܐ ܩܢܘܢܐ ܘܗܕܐ ܬܫܒܿܘܚܬܐ ܕܐܝܬܿܝܗ̇ ܠܗܘܢ ܥܠܬܼܐ ܕܦܘܪܩܢܐ ܘܝܗܘܒܼܬܐ
+                        ܕܚܝܝ̈ܗܘܢ. ܡܛܠ ܡܠܬܼܐ ܕܚܝܠܐ ܕܛܝܒܿܘܬܐ ܘܣܝ̇ܡܐ ܕܡܠܐܟܼ̈ܐ ܪ̈ܘܚܢܐ ܥܕܡܐ ܠܗܪܟܐ܆ ܬܫܥܝܬܐ
+                        ܕܣܝ݁ܡܗ̇ ܘܕܫܒܿܚܬܗ̇ ܐܡܪܢܢ܀</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[8] ܢܐܡܪ ܕܝܢ ܡܟܿܝܠ ܐܦ ܚܝܠܐ ܘܦܘܫܩܐ ܕܝܠܗ ܕܩܕܝܫܐ ܐܠܗܐ. ܘܐܦ ܓܝܪ ܙܕ̇ܩ ܕܢܬܼܝܕܥ ܪܥܝܢܗ ܠܐܝܠܝܢ ܕܗܪܓܿܝܢ ܒܗ. ܫܡܥܘ ܡܟܿܝܠ ܦܘܫܩܗ ܕܩܢܘܢܐ ܕܩܕܝܫܐ ܐܠܗܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[9] ܫܡܐ ܓܝܪ ܕܩܕܝܫܘܬܐ ܐܝܟܼ ܕܡ̣ܢ ܚܬܝܬܘܬܐ
+                        ܕܐܠܗܐ ܒܠܚܘܕ ܐܝܬܼܘܗܝ. ܐܝܟܼ ܕܐܡܝܪ ܒܢܒܼܝܐ ܝܑܡܐ ܡܪܝܐ ܡܪܐ ܡܪ̈ܘܬܐ ܒܩܕܝܫܘܬܗ. ܗܢܘ
+                        ܕܝܢ ܝܑܡܐ ܒܠܐ ܡܫܬܚܠِܦܢܘܬܐ ܕܟܼܝܢܗ. ܘܠܗ̇ ܠܗܕܐ ܡܠܦ ܛܘܒܼܢܐ ܫܠܝܚܐ: ܐܠܗܐ ܠܡ ܠܥܘܕܪܢܢ
+                        ܕܢܫܬܿܘܬܿܦ ܠܩܕܝܫܘܬܗ. ܗܢܘ ܕܝܢ ܟܠܗܝܢ ܠܥܘܕܪܢܢ ܣܥ̇ܪ ܒܪ̈ܚܡܐ ܥܕܡܐ ܕܡܫܘܐ ܠܢ ܠܡܘܗܒܼܬܐ
+                        ܕܠܐ ܡܫܬܚܠِܦܢܘܬܐ ܕܡܢܗ. ܘܠܗܕܐ ܕܡ̇ܝܐ ܘܐܦ ܗ̇ܝ ܕܪܘܚܐ ܩܕܝܫܐ ܐܡ̇ܪ ܗَܘ̣ܐ ܠܛܘܒܼܢܝܬܐ
+                        ܡܪܝܡ ܒܬܘܠܬܼܐ ܟܕ ܡܣܒܿܪ ܗَܘ̣ܐ ܠܗ̇ ܥܠ ܪܒܿܘܬܗ ܕܦܪܘܩܢ܆ ܗ̇ܘ ܠܡ ܕܡܬܼܝܠܕ ܡܢܟܼܝ ܩܕܝܫܐ
+                        ܗَܘ̣ ܘܒܼܪܗ ܕܥܠܝܐ ܢܬܼܩܪܐ. ܒܗ̇ܝ ܕܩܕܝܫܐ ܗَܘ̣ ܥܠ ܠܐ ܡܫܬܚܠِܦܢܘܬܗ ܒܕܩ̣: ܘܒܼܗ݁ܝ
+                        ܕܒܪܗ ܕܥܠܝܐ ܥܠ ܠܐ ܡܝܘܬܼܘܬܼܗ ܪܡ̇ܙ. ܘܛܒܼ ܠܚܝܡܐܝܬ ܐܬܼܚܫܚ ܒܬܼܪܝܗܝܢ. ܦܐܝܐ ܗَܝ̣ ܓܝܪ
+                        ܠܩܕܝܫܐ ܘܠܒܼܪ ܐܠܗܐ ܕܢܗܘܐ ܡܪܝܼܡ ܡ̣ܢ ܡܘܬܐ ܘܫܘܚܠܦܐ. ܘܡܛܠܗܢܐ ܩܕܝܫܐ ܐܠܗܐ ܐܡ̣ܪܘ
+                        ܪ̈ܘܚܢܐ. ܗܢܘ ܕܝܢ ܠܐܠܗܐ ܙܕ̇ܩ ܕܢܩܕܫ ܟܠ ܫܥ܆ ܘܠܗ ܦܐܝܐ ܬܫܒܿܘܚܬܐ ܕܩܕܝܫܘܬܐ ܡܛܠ
+                        ܕܟܠܗܝܢ ܕܝܠܗ ܕܠܐ ܫܘܚܠܦܐ ܐܝܬܼܝܗܝܢ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[10] ܗܟܼܢܐ ܘܐܦ ܫܡܐ ܕܐܠܗܐ ܡܫܘܕܥܢܐ ܗَ̣ܘ
+                        ܕܟܝܢܐ. ܘܠܦܘܬ ܚܫܚܬܐ ܕܥܒܼܪ̈ܝܐ ܫܡܐ ܕܐܠܗܐ ܕܝܢܐ ܡܬܦܫܩ. ܐَܚܪ̈ܢܐ ܐܡ̇ܪܝܢ ܥܒܼܘܕܐ.
+                        ܘܠܦܘܬ ܢܝܫܐ ܕܝܘ̈ܢܝܐ ܥܠܬܐ ܕܟܠ ܡܬܦܫܩ. ܘܐܝܟܼ ܕܡ̣ܢ ܚܬܝܬܘܬܐ ܠܟܝܢܐ ܡܬܼܘܡܝܐ ܠܚ̇ܡ ܫܡܐ
+                        ܕܐܠܗܐ. ܡܛܠ ܓܝܪ ܕܐܬܼܚܫܚ ܡܠܐܟܼܐ ܩܕܝܫܐ ܒܫܡܐ ܕܟܝܢܐ ܕܠܐܝܬܘܬܐ ܠܚ̇ܡ܆ ܟܕ ܐܩ̣ܦ ܗ̇ܝ
+                        ܕܩܕܝܫܐ܆ ܨܒܼܐ ܡܟܿܝܠ ܕܐܝܟܼ ܕܩܕܫ̣ ܠܟܝܢܐ ܡܫܒܿܚܐ ܕܐܠܗܘܬܐ܆ ܢܩܕܫ ܘܢܫܒܿܚ ܘܐܦ ܠܐܝܠܝܢ
+                        ܕܐܝܬ ܠܟܝܢܐ ܟܝܢܐܝܬ. ܘܒܝܕ ܚܕܐ ܡ̣ܢ ܟܠܗܝ ܥܠ ܟܠܗܝܢ ܒܕܩ̣. ܠܗܕܐ ܓܝܪ ܕܚܕܐ ܡ̣ܢ
+                        ܣܓܿܝ̈ܐܬܐ ܐܬܼܐِܠܨ ܕܢܐܡܪ: ܡܛܠ ܕܛܒܼ ܒܦܣܝ̈ܩܬܐ ܥܒܼܕܗ̇ ܠܡܠܬܗ: ܟܕ ܐܘܣܦ ܩܕܝܫܐ
+                        ܚܝܠِܬܼܢܐ. ܘܟܕ ܛܒܼܐ ܡܨܹܐ ܗَܘ̣ܐ ܕܒܦܣܝ̈ܩܬܐ ܣܓܿܝ̈ܐܬܼܐ ܢܐܡܪ ܥܠ ܟܝܢܐ ܘܐܦ ܥܠ ܐܝܠܝܢ
+                        ܕܟܝܢܐ ܐܢܝܢ. ܐܠܐ ܒܟܪ̈ܝܬܐ ܫܦܝܪ ܥܒܼܕܗ̇ ܠܗܕܐ ܥܠ ܟܝܢܐ. ܐܝܟܼ ܗ̇ܝ ܕܐܝܬܼܝܐ ܚܝܐ ܪܘܚܢܐ
+                        ܓܢܝܙܐ ܠܐ ܡܣܝܟܼܐ ܘܐܝܠܝܢ ܕܐܝܟܼ ܗܠܝܢ. ܐܠܐ ܠܗܠܝܢ ܟܠܗܝܢ ܚܒܼ̇ܫ ܒܗ̇ܝ ܕܩܕܝܫܐ ܐܠܗܐ.
+                        ܥܠ ܟܝܢܝ̈ܬܐ ܡܨܹܐ ܗَܘ̣ܐ ܕܢܐܡܪ ܚܟܿܝܡܐ ܛܒܼܐ ܡܩܕܡ ܝܕ̇ܥ ܘܐܝܠܝܢ ܕܐܝܟܼ ܗܠܝܢ. ܐܠܐ ܐܦ
+                        ܠܗܠܝܢ ܟܠܗܝܢ ܚܒܼ̇ܫ ܒܗ̇ܝ ܕܐܡ̣ܪ ܩܕܝܫܐ ܚܝܠِܬܼܢܐ. ܘܠܟܠܗܝܢ ܫܒܼܝܚ̈ܬܐ ܣܝܼܡ ܒܫܡܐ
+                        ܕܚܝܠِܬܼܢܘܬܐ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[11] ܡ̣ܢ ܒܬܪ ܕܝܢ ܕܗܟܼܢܐ ܒܟܪ̈ܝܬܐ
+                        ܚܟܿܝܡܐܝܬ ܡܠ̣ܠ ܥܠ ܟܝܢܐ ܘܥܠ ܐܝܠܝܢ ܕܕܟܝܢܐ ܐܢܝܢ܆ ܐܘܣܦ ܐَܚܪܬܐ ܕܠܘ ܠܟܝܢܐ ܡܘܕܥܐ
+                        ܕܡܢܐ ܘܐܝܟܿܢ ܐܝܬܼܘܗܝ ܘܐܦܠܐ ܠܟܝܢܝ̈ܬܐ܆ ܐܠܐ ܡܘܕܥܐ ܕܐܝܠܝܢ ܐܢܝܢ ܕܠܝܬ ܠܐܠܗܐ. ܥܠ ܗܕܐ
+                        ܡܘܣܦ ܥܠ ܡܩܕܫܘܬܐ ܕܡܠܬܗ܆ ܩܕܝܫܐ ܠܐ ܡܝܘܬܐ. ܘܒܗܕܐ ܛܒܼ ܒܟܪ̈ܝܬܐ ܐܬܼܚܫܚ ܘܡ̣ܢ
+                        ܣܓܿܝ̈ܐܬܐ ܚܕܐ ܡܢܗܝܢ ܣ̣ܡ. ܡܨܹܐ ܗَܘ̣ܐ ܓܝܪ ܕܢܐܡܪ ܠܐ ܡܬܚܒܠܢܘܬܐ ܠܐ ܡܫܬܓܼܢܝܢܘܬܐ ܠܐ
+                        ܡܕܘܕܘܬܐ ܠܐ ܡܨܛܠܝܢܘܬܐ ܘܐܝܠܝܢ ܕܕܐܝܟܼ ܗܠܝܢ. ܐܠܐ ܒܗ̇ܝ ܕܠܐ ܡܝܘܬܘܬܐ ܚܒ̣ܫ ܐܢܝܢ
+                        ܠܟܠܗܝܢ. ܘܠܐ ܕܡܢܐ ܐܝܬܼܘܗܝ ܐܠܗܐ ܚ̣ܘܝ ܒܗ̇ܝ ܕܐܦ ܗܢܝܢ ܕܡ̣ܢ ܩܕܡܝܗ̇܆ ܕܠܐ ܕܡܢܐ
+                        ܠܝܬܘܗܝ ܐܠܗܐ. ܐܠܐ ܚܠܦ ܕܢܐܡܪ ܕܡܝܘܬܘܬܐ ܠܝܬ ܠܐܠܗܐ܆ ܗܢܘ ܕܝܢ ܚܝܐ ܐܝܬܼܘܗܝ ܕܠܐ ܫܘܪܝ
+                        ܘܕܠܐ ܫܘܠܡ ܘܠܚܝ̈ܐ ܕܐܝܬܘܬܗ ܡܘܬܐ ܠܐ ܩ̇ܛܥ ܘܫܘܚܠܦܐ ܠܐ ܩ݁ܪܒܼ. ܐܝܟܼ ܗ݁ܝ ܕܐܠܗܐ ܛܒܼܐ
+                        ܐܝܬܘܗܝ ܘܠܘ ܒܝܫܐ ܗَܘ̣. ܒܗ̇ܝ ܕܛܒܼܐ ܗَܘ̣ ܕܡܢܐ ܐܝܬܼܘܗܝ ܐܡ̇ܪ ܘܒܗ̇ܝ ܕܠܘ ܒܝܫܐ ܗَܘ̣
+                        ܕܡܢܐ ܠܝܬܿܘܗܝ. ܗ̤ܝ ܟܕ ܗ̤ܝ ܡܠܬܐ ܒܬܪܝܢ ܫܘܚܠܦ̈ܐ. ܡܐ ܓܝܪ ܕܣܡܬܿ ܗ̇ܝ ܕܛܒܼܐ ܚܘܝܬܿ
+                        ܕܡܢܐ ܐܝܬ ܠܗ ܘܪܡ̇ܙܐ ܐܦ ܥܠ ܐܝܠܝܢ ܕܠܝܬܿ ܠܗ. ܘܡܐ ܕܣܡܬܿ ܗ̇ܝ ܕܠܐ ܒܝܫܐ ܚܘܝܬܿ ܡܢܐ
+                        ܠܝܬܿ ܠܗ ܘܐܘܕܥܬܿ ܘܐܦ ܕܡܢܐ ܐܝܬ ܠܗ. ܗܟܼܢܐ ܘܐܦ ܗ̇ܝ ܕܠܐ ܡܝܘܬܐ ܕܣ̣ܡ ܪܘܚܢܐ ܚܠܦ
+                        ܕܢܐܡܪ ܚܝܐ ܕܚܝ̈ܘܗܝ ܠܝܬܿ ܐܡܬܼܝ ܕܠܝܬܿ ܐܢܘܢ. ܘܠܗܠܝܢ ܟܠܗܝܢ ܐܩ̣ܦ ܠܚܡܐܝܬ ܐܬܼܪܚܡ
+                        ܥܠܝܢ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[12] ܗ̇ܘ ܠܡ ܟܝܢܐ ܕܥܠܬܼ ܟܠ ܐܝܬܼܘܗܝ ܟܕ ܠܗ
+                        ܥܠܬܼܐ ܠܝܬ ܘܐܝܬܼܘܗܝ ܚܝܠِܬܼܢ ܒܟܠ ܘܚܣܝܢ ܒܟܠ ܘܡܡܬܼܘܡ ܠܐ ܐܙܕܟܼܝ ܘܠܐ ܡܙܕܟܼܐ ܘܠܗ
+                        ܐܝܬܼ ܟܝܢܐܝܬ ܐܝܬܼܝܐܝܬ ܚܝ̈ܐ ܕܡܥܠܝܢ ܡ̣ܢ ܟܝܠܐ ܘܡܫܘܚܬܐ ܘܐܦ ܡ̣ܢ ܩܢܛܐ: ܗ̤ܘܝܘ ܐܦ
+                        ܡܪܚܡܢܐ ܘܨܒܼ݁ܐ ܒܛܒܼ̈ܬܢ؛ ܡܢܗ ܢܫܐܠ ܕܢܬܦܢܐ ܥܠܝܢ ܒܪ̈ܚܡܐ. ܘܐܝܟܼ ܕܒܦܣܝ̈ܬܐ ܫܡ̣ܥܘ.
+                        ܩܕܝܫܐ ܐܠܗܐ ܩܕܝܫܐ ܚܝܠِܬܼܢܐ ܩܕܝܫܐ ܠܐ ܡܝܘܬܼܐ ܐܬܼܪܚܡ ܥܠܝܢ. ܗܢܘ ܕܝܢ ܩܕܝܫ ܒܟܠ ܥܠܬܼ
+                        ܟܠ ܚܝܠِܬܼܢ ܒܟܠ ܕܡ̣ܢ ܡܕܡ ܠܐ ܡܬܥܘܟܼ ܐܬܼܦܢ ܥܠܝܢ ܒܪ̈ܚܡܝܟ ܘܚܘܢܝܗ̇ ܠܡܚܝܠܘܬܢ ܘܣܡܘܟܼ
+                        ܒܚܢܢܟܼ ܚܝܒܼܘܬܢ. ܒܗ̇ܝ ܓܝܪ ܕܬܲܠܬܼܵܗ̇ ܠܡܠܬܗ ܘܠܐ ܪܒܿܥܗ݁ ܥܠ ܬܠܝܬܼܝܘܬܐ ܪܡ̇ܙ ܠܗܘܢ܆
+                        ܠܘ ܟܕ ܡܦܠܓܼ ܝܗ̇ܒܼ ܠܩܢܘܡ̈ܐ ܠܚܕ ܐܠܗܘܬܐ ܘܠܚܕ ܚܝܠِܬܼܢܘܬܐ ܘܠܚܕ ܠܐ ܡܝܘܬܘܬܐ܆ ܐܠܐ
+                        ܕܒܬܠܝܬܝܘܬܐ ܬܫܒܘܚܬܗ ܢܥܝܪ ܘܢܚܦܛ ܐܢܘܢ ܠܡܫܒܿܚܘ ܕܠܐ ܫܠܘܐ ܠܟܝܢܐ ܐܠܗܝܐ ܚܝܠِܬܼܢܐ ܘܠܐ
+                        ܡܝܘܬܐ܆ ܐܒܼܐ ܘܒܼܪܐ ܘܪܘܚܐ ܕܩܘܕܫܐ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[13] ܠܗܢܐ ܩܢܘܢܐ ܕܥܠ ܠܐ ܡܫܬܚܠِܦܢܘܬܐ ܕܐܠܗܐ ܡܪܟܠ (ܕ)ܐܡܪܗ ܡܠܐܟܼܐ܆ ܨܒ̣ܐ ܕܢܙܥܙܥܝܘܗܝ ܐܢܣܛܣ ܩܣܪ ܓܒܼܪܐ ܟܪܝܗ ܪܥܝܢܐ ܕܐܪܡܝܼ ܠܗ ܡܨܘܬܐ ܥܡ ܫܪܪܐ. ܐܡ̣ܪ ܓܝܪ ܒܡܕܘܕܘܬܗ ܘܠܐ ܡܣܬܿܬܿܘܬܗ ܕܗܟܼܢܐ ܢܐܡܪܘܢ ܟܠܗܘܢ ܐܝܠܝܢ ܕܬܚܝܬ ܡܠܟܘܬܗ ܕܝܠܗ ܐܝܬܼܝܗܘܢ: ܩܕܝܫܐ ܠܐ ܡܝܘܬܼܐ ܕܐܨܛܠܒܼ ܚܠܦܝܢ ܐܬܼܪܚܡ ܥܠܝܢ. ܐܬܼܒܩܘ ܒܡܕܘܕܘܬܗ̇ ܕܡܠܬܐ ܕܢܨܝܐ ܗܝ̤ ܥܡܗ̇ ܘܣܬܪܐ ܗ̤ܝ ܟܕ ܗ̤ܝ ܠܐܝܠܝܢ ܕܩܢܝܐ ܘܒܼܣܩܘܒܼܠܝܘܬܗ̇ ܡܚܘܝܐ ܠܠܐ ܫܪܝܪܘܬܗ̇܆ ܐܝܟܼ ܗ̇ܝ ܕܐܝܢ ܘܠܐ. ܠܐ ܓܝܪ ܡܨܝܐ ܕܐܝܢ ܘܠܐ ܒܚܕܐ ܨܒܼܘ ܒܗ̇ ܟܕ ܒܗ̇ ܒܡܠܬܐ ܬܗܘܐ. ܘܗܕܐ ܦܫܝܩܐ ܠܡܩܝܡܘܬܗ̇ ܡ̣ܢ ܡܠܬܗ ܕܦܪܘܩܢ ܡܫܝܚܐ. ܬܗܘܐ ܠܡ ܡܠܬܟܼܘܢ ܐܝܢ ܐܝܢ ܘܠܐ ܠܐ܆ ܡܛܠ ܕܠܐ ܡܨܝܐ ܕܐܝܢ ܘܠܐ ܒܗ̇ ܟܕ ܒܗ̇ ܒܡܠܬܐ ܬܗܘܐ. ܐܝܟܼ ܕܐܦ ܡܠܦܢܐ ܕܥܕܬܐ ܫܠܝܚܐ ܐܡ̣ܪ. ܡܗܝܡܢ ܗَܘ̣ ܠܡ ܐܠܗܐ ܕܠܐ ܗܘܬ̤ ܡܠܬܢ ܕܠܘܬܟܼܘܢ ܐܝܢ ܘܠܐ܆ ܐܠܐ ܒܗ ܒܡܫܝܚܐ ܐܝܢ ܗܘ̣ܐ. ܗ̇ܝ ܓܝܪ ܕܐܝܢ ܣܬܪܐ ܠܗ݁ܝ ܕܠܐ ܘܗ̇ܝ ܕܠܐ ܣܬܪܐ ܠܗ݁ܝ ܕܐܝܢ. ܗܟܼܢܐ ܐܢ ܠܐ ܡܝܘܬܐ ܬܐܡܪ ܐܙܕܗܪ ܡ̣ܢ ܗ̇ܝ ܕܐܨܛܠܒܼ. ܐܢܕܝܢ ܬܬܚܫܚ ܒܗ݁ܝ ܕܐܨܛܠܒܼ ܥܛܝ ܗ̇ܝ ܕܠܐ ܡܝܘܬܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[14] ܐܠܐ ܗ݁ܘ ܡܪܘܕܐ ܘܗܪܛܝܩܐ ܩܣܪ ܟܕ ܒܣܩܘܒܼܠܝܘܬܐ ܘܒܚܣܝܪܘܬ ܗܘܢܐ ܕܡܠܬܐ ܠܐ ܚ̣ܪ: ܘܐܦܠܐ ܠܣܝ݁ܡܐ ܪܚܝܡܐ ܕܪܘܚܢܐ ܝܩ̣ܪ ܘܫܠ̣ܡ ܘܠܐ ܡ̣ܢ ܕܝܢܗ ܡܛܝܒܼܐ ܘܢܛܝܪܐ ܕܐܠܗܐ ܕܚ̣ܠ܆ ܐܠܐ ܟܕ ܠܟܠ ܡܕܡ ܕܫ̣ ܘܗ̣ܦܟܼ܆ ܦܩ̣ܕ ܕܩܕܝܫܐ ܠܐ ܡܝܘܬܐ ܕܐܨܛܠܒܼ ܚܠܦܝܢ ܢܐܡܪܘܢ ܘܒܣܩܪ̈ܐ ܘܒܠܘܼܚܡ̈ܐ ܘܒܫܘ̈ܘܕܝܐ ܡܚܦܛ ܗَܘ̣ܐ ܕܬܩܝܡ ܗܕܐ ܗܪܛܝܩܘܬܐ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[15] ܘܟܕ ܣܓܝ̈ܐܐ ܒܫܘܦܪܢܘܬܐ ܕܠܘܬܗ ܐܬܕܢܝܘ ܕܢܩܒܠܘܢ܆ ܐَܚܪ̈ܢܐ ܕܝܢ ܡܛܠ ܟܘܪܗܢܐ ܕܗܪܛܝܩܘܬܐ ܕܒܢܦ̮ܫܗܘܢ ܝܠܝܼܕ ܗَܘ̣ܐ܆ ܐَܚܪ̈ܢܐ ܕܝܢ ܡܛܠ ܣܒܼܪܐ ܕܫܘܘ̈ܕܝܐ ܣܪ̈ܝܩܐ ܘܚܪ̈ܘܒܼܐ. ܗܟܼܢܐ ܩܒܿܠ̣ܘ ܘܫܠܡ̣ܘ ܠܡܠܬܗ܆ ܐܝܟܼ ܕܠܬܒܼܥܬܐ ܘܚܘܣܪܢܐ ܕܩܢܘܡܗܘܢ. ܡܕܝܢَܬܐ ܕܝܢ ܗ̇ܝ ܕܒܗ̇ ܗܘܬ̤ ܡܫܠِܡܢܘܬܼܗ ܕܩܢܘܢܐ ܗܢܐ ܡ̣ܢ ܪܘܚܐ ܕܩܘܕܫܐ ܠܐ ܐܬܿܛܦܝܣܬ̤ ܠܡܩܒܿܠܘ ܡܛܠ ܬܪܬܝܢ. ܐܡܪܝܢ ܓܝܪ ܥܡܘܪ̈ܝܗ̇ ܕܚܢܢ ܗܢܘ ܕܝܢ ܐܒܼܗܝ̈ܢ ܗَܘ̤ܘ ܡܩܒܿܠܢ̈ܘܗܝ ܕܩܢܘܢܐ ܡܠܐܟܼܝܐ. ܣܓܿܝ ܓܝܪ ܣܟܼܠܐ ܘܐܦ ܪܫܝܥܐ ܟܕ ܐܒܼܗܝ̈ܢ ܩܒܿܠ̣ܘ ܡܫܠِܡܢܘܬܼܐ ܛܒܼܬܐ ܡ̣ܢ ܫܡܝܐ ܘܒܗ̇ ܐܬܦܨܝܘ ܡ̣ܢ ܥܙܝܙܘܬܼ ܢܓܼܕܐ ܕܥܛ݁ܐ ܡ̣ܢ ܚܝ̈ܐ܆ ܕܚܢܢ ܢܗܦܘܟܼ ܘܢܫܚܠܦ ܡܫܠِܡܢܘܬܼܐ ܫܡܝܢܝܬܐ ܒܡܠܬܐ ܕܒܪܢܫܐ ܥܦܪܢܐ܆ ܟܕ ܛܒܼ ܣܟܼܠܘܬܗ̇ ܕܡܠܬܐ ܘܣܩܘܒܼܠܝܘܬܗ̇ ܠܐ ܫܒܼܩܐ ܠܦܪ̈ܘܫܐ ܕܢܫܠܡܘܢ ܠܗ̇. ܘܡܛܠ ܕܚܢܢ ܡܕܝܢَܬܐ ܚܢܢ ܕܡܠܟܘܬܐ ܘܒܐܡܐ ܕܡܕܝܢܬ̈ܐ ܝܬܒܝܢܢ ܘܪܫܐ ܐܝܬܼܝܗ̇ ܡܕܝܢَܬܢ ܠܡܥܪِܒܼܐ ܟܠܗ̇܆ ܠܐ ܙܕ݁ܩ ܕܢܩܢܛ ܘܢܕܚܠ ܡ̣ܢ ܡܠܬܐ ܕܚܕ ܡܠܟܐ ܕܝܘܡܢܐ ܐܝܬܼܘܗܝ ܘܡܚܪ ܠܝܬܿܘܗܝ. ܘܗܐ ܥܕܡܐ ܠܝܘܡܢܐ ܐܚܝܕܐ ܠܗ ܠܩܢܘܢܐ ܗܢܐ ܗܝ̤ ܡܕܝܢَܬܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ ܘܡܩܕܫܐ ܘܡܫܒܿܚܐ ܒܗ ܠܐܠܗܐ ܐܝܟܼ ܕܩܲܒܿܠܵܬܹܗ ܡ̣ܢ ܪܘܚܢܐ. ܗܟܼܢܐ ܘܐܦܠܐ ܡܕܝܢَܬܐ ܩܕܝܫܬܐ ܐܘܪܫܠܡ ܐܬܿܕܢܝܬ̤ ܠܡܫܚܠܦܘ ܒܗ ܡܕܿܡ. </foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[16] ܐܠܐ ܗܟܼܢܐ ܡܠܠ̣ܘ ܥܡܘܪ̈ܝܗ̇ ܠܘܩܒܼܠ
+                        ܛܪܘܢܘܬܗ ܕܐܢܣܛܣ ܡܪܘܕܐ܆ ܕܚܢܢ ܠܡ ܡܕܝܢَܬܐ ܐܝܬܼܝܢ ܕܐܠܗܐ ܘܗܪܟܐ ܡܕܒܪܢܘܬܐ ܕܕܝܬܩܐ
+                        ܥܬܝܩܬܐ ܐܫܬܿܠܡܬ̤ ܘܐܦ ܗܕܐ ܕܝܬܩܐ ܚܕܬܐ ܬܢܢ ܐܬܼܓܡܪܬ̤܆ ܠܘܬܢ ܘܒܝܬܢ ܡܥܪܬܗ ܕܡܪܢ ܩܒܼܪܗ
+                        ܩܕܝܫܐ ܓܓܼܘܠܬܐ ܕܨܠܝܒܼܘܬܗ ܩܝܣܐ ܡܪܢܝܐ ܕܦܘܪܩܢܢ ܕܘܟܬܐ ܕܡܣܩܬܗ ܠܫܡܝܐ ܥܠܝܬܐ ܬܡܝܗܬܐ
+                        ܕܒܗ̇ ܗܘܬ̤ ܡܫܠِܡܢܘܬܼܐ ܕܐَܪ̈ܙܐ ܡܚܝ̈ܢܐ ܡܚܬܿܬܼܐ ܕܪܘܚܐ ܕܥܠ ܫܠܝ̈ܚܐ ܩܕܝܫ̈ܐ
+                        ܘܛܘܒܼܢ̈ܐ. ܠܐ ܕܚܠܝܢܢ ܡ̣ܢ ܠܘܚܡ̈ܐ ܛܪ̈ܘܢܝܐ ܘܠܐ ܡܫܬܿܕܠܝܢ ܚܢܢ ܒܫܘܘܕܝ̈ܐ ܣܪ̈ܝܩܐ.
+                        ܡܩܒܿܠܝܢ ܚܢܢ ܟܠ ܢܓܼܕܟܼ ܘܡܫܠِܡܢܘܬܼܐ ܫܡܝܢܝܬܐ ܕܩܒܿܠܢ̣ܢ ܒܝܘܒܠܐ ܡ̣ܢ ܐܒܼܗܝ̈ܢ ܠܐ
+                        ܡܬܿܕܢܝܢܢ ܒܗ̇ ܡܕܿܡ܆ ܡܛܠ ܕܝܕܥܝܢܢ ܕܫܪܪܗ̇ ܓܠܹܐ ܘܗܡܝܡܢ. ܘܗ̇ܝ ܕܠܐ ܡܝܘܬܼܐ ܕܐܨܛܠܒܼ
+                        ܚܠܦܝܢ ܐܝܬܼܝܗ̇ ܟܠܗ̇ ܣܟܼܠܘܬܐ ܘܪܫܝܥܘܬܐ. ܘܗܐ ܘܐܦ ܗ̤ܝ ܡܕܝܢَܬܐ ܐܘܪܫܠܡ ܥܡ ܟܠܗ
+                        ܫܘܠܛܢܗ̇ ܗܟܼܢܐ ܡܩܕܫܐ ܘܡܫܒܿܚܐ ܠܐܠܗܐ ܒܗܢܐ ܩܢܘܢܐ ܐܝܟܼ ܕܐܫܠِܡܗ ܡܠܐܟܼܐ ܩܕܝܫܐ ܗ̇ܘ
+                        ܕܠܡܥܕܪܘ ܘܠܡܦܪܩ ܠܐܠܝܨ̈ܐ ܡ̣ܢ ܐܘܠܨܢܝ̈ܗܘܢ ܐܫܬܿܕܪ ܡ̣ܢ ܦܘܩܕܢܗ ܕܐܠܗܐ ܡܪܚܡܢܐ. ܗܟܼܢܐ
+                        ܐܦ ܐܬܼܪ̈ܘܬܼܐ ܡܥܪِ̈ܒܼܝܐ ܕܠܗܠ ܡ̣ܢ ܩܘܣܛܢܛܝܢܦܘܠܝܣ ܗܢ݁ܘܢ ܕܚܕܝܪܝܢ ܠܪ̈ܗܘܡܐ ܡܕܝܢَܬܐ
+                        ܪܒܿܬܼܐ ܕܬܚܝܬܼ ܫܘܠܛܢܐ ܕܦܛܪܝܪܟܝܣ ܩܬܼܘܠܝܩܐ ܐܝܬܼܝܗܘܢ܆ ܘܐܦ ܗ̤ܝ ܡܕܝܢَܬܐ ܪܒܿܬܼܐ
+                        ܪ̈ܗܘܡܐ ܗܟܼܢܐ ܡܫܒܿܚܝܢ ܒܗܢܐ ܩܢܘܢܐ ܐܝܟܼ ܕܚܢܢ ܐܡܪܝܢܢ܆ ܗܢܘ ܕܝܢ ܐܝܟܼ ܕܐܫܠِܡܗ
+                        ܫܡܝܢܐ.</foreign>
+                </p>
+                <p xml:lang="syr">
+                    <foreign xml:lang="syr">[17] ܢܬܿܬܿܥܝܪ ܗܟܼܝܠ ܚܒܿܝܒܼܝ̈ܢ ܐܦ ܚܢܢ ܘܢܫܒܿܚ ܥܡܗܘܢ ܕܚܝܠܘ̈ܬܐ ܫܡܝ̈ܢܐ ܒܪ̈ܡܫܐ ܘܒܨܦܪ̈ܐ ܘܒܟܠ ܥܕܢ ܠܐܠܗܐ ܕܥܠ ܟܠ. ܘܟܠܢܫ ܡܢܢ ܒܪܡܫܐ ܢܫܒܚ ܘܢܩܕܫ ܒܗܢܐ ܩܢܘܢܐ ܠܐܠܗܐ ܘܟܢ ܢܬܿܬܿܢܝܚ. ܘܒܨܦܪܐ ܢܩܕܡ ܘܢܫܒܚ ܒܗ ܘܟܢ ܢܦܘܩ ܠܥܒܼܕܐ. ܕܟܕ ܗܟܼܢܐ ܥܒܼܕܝܢܢ ܢܐܬܘܢ ܠܢ ܙܒܼܢ̈ܐ ܦܨܝ̈ܚܐ ܕܛܥܝܢܝܢ ܝܘܬܪ̈ܢܐ ܕܪܘܚ ܘܦܓܼܪ ܡ̣ܢ ܡܘܗܒܼܬܗ ܕܡܪܝܐ ܘܢܬܝܗܒܘܢ ܠܢ ܠܝܠܘܬ̈ܐ ܒܗܝ̈ܠܐ ܘܢܝ̈ܚܐ ܘܐܝܡܡ̈ܐ ܘܡܠܝ̈ܢ ܫܝܢܐ ܘܝܘܬܪܢܐ. ܘܟܠܢ ܐܟܼܚܕ ܒܚܕ ܚܘܒܐ ܫܦܝܥܐ ܘܡܫܪܪܐ ܘܒܚܕܐ ܐܘܝܘܬܐ ܕܠܐ ܡܣܬܿܕܩܐ ܘܠܐ ܡܬܿܬܿܙܝܥܐ ܢܐܡܪ ܥܡ ܣܕܪ̈ܝܗܘܢ ܘܓܘܕܝ̈ܗܘܢ ܕܪ̈ܘܚܢܐ܆ ܩܕܝܫܐ ܐܠܗܐ ܩܕܝܫܐ ܚܝܠِܬܼܢܐ ܩܕܝܫܐ ܠܐ ܡܝܘܬܼܐ ܐܬܼܪܚܡ ܥܠܝܢ. ܕܠܗ ܫܘܒܼܚܐ ܘܠܝ ܚܘܣܝܐ ܘܪ̈ܚܡܘܗܝ ܥܠ ܥܕܬܗ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. </foreign>
+                </p>
+                <p style="text-align: center;">
+                    <foreign xml:lang="syr">ܫܠܡܬ̤ ܥܠܬܐ ܕܩܕܝܫܐ ܐܠܗܐ. ܘܠܐܠܗܐ ܫܘܒܼܚܐ
+                        ܐܡܝܢ.</foreign>
+                </p>
+            </div>
+            <div xml:id="hv25n1awa.7" xml:lang="en">
+                <head>The English Translation of The Cause of the ‘Holy God’</head>
+                <p xml:lang="syr">In the strength of our Lord Jesus Christ we begin to write the Cause of the ‘Holy
+                    God’ which is composed by Mar ’Īšō‘yahb of Arzōn, the Catholicos. O our Lord
+                    help my feebleness in your mercies, Amen. </p>
+                <p xml:lang="syr">[1] I am indicating these things with brevity, for your love, according to your
+                    request, O virtuous and beloved Mar Abraham of Deir Gāzartā, that they might be
+                    for your rest and for my memorial, and if possible, for the benefit of others as
+                    well. To the company of God which has now reached the house of God, it befits
+                    them to hear diligently the life-giving doctrines of the Holy Spirit from the
+                    Sacred Scriptures and from the doctors of the Church. We feeble ones also—the
+                    disciples of the apostles, doctors and servants of Christ, the Lord of all—have
+                    risen up today, with hope and in the strength of the power of Christ, to speak
+                    with the flock of our Savior the history of the canon the ‘Holy God’, which the
+                    Church of God recites at vespers and at matins in every region under the
+                    heavens. So that, with a sober and diligent mind you may hear the cause and the
+                    history, together with its interpretation, so that you too might be diligent to
+                    glorify the Holy Trinity by it every day, at vespers and at matins so that it
+                    might be the doctrine of the Holy Spirit in every generation and in every
+                    nation. In his goodness, God extended to the race of men that in such a manner
+                    by this profitable opportunity, the benefit of men might be obvious and
+                    revealed, and also so that his mercies might be further made known, and his care
+                    proclaimed to all men, as well as from his living word which is spoken by the
+                    holy ones and those who have put on the Spirit.</p>
+                <p xml:lang="syr">[2] One of the life-giving doctrines of the Holy Spirit is also the canon of the
+                    ‘Holy God.’ This exclamation is the glorification of that blessed and divine
+                    nature whose essence is incomprehensible, and who exists as it exists, and its
+                        <hi rend="italic">qnōme</hi> are inscrutable, and are hidden (just as) they
+                    are hidden. For, according to their custom, the spiritual angels and holy men of
+                    the Old [Covenant] and the New [Covenant], without condemnation and without
+                    eschewal, willfully, ascribe and confess songs of the spirit to God who is over
+                    all, while singing and praising on behalf of their selves an on behalf of the
+                    fashioning of the world and the beauty of His creations. Thus, even though the
+                    inhabitants of the earth sinned and provoked to anger, the companies of angels
+                    grieved. And as they smote the inhabitants [of the earth] with judgement, they
+                    willfully suffered with them. And when the sentences were dissolved, and they
+                    became tranquil, [the angels] rejoiced, and on behalf of them both they ascribed
+                    a befitting praise to God who is over all, while justifying and extoling the
+                    justice which disciplines rightly and beneficially, and the grace which shows
+                    compassion abundantly and pleasantly.</p>
+                <p xml:lang="syr">[3] For, at that time when the way of life of the Old [Covenant] held sway, and
+                    the law of the house of Moses was dominant, they [i.e. angels] were seen on many
+                    occasions in divers manners—at times with zeal, for the sake of benefit, while
+                    striking and disciplining; and at other times by taking pity, removing away
+                    chastisement and bringing healing. And even in the days of Isaiah [the prophet],
+                    they praised God in that divine revelation which was seen in the temple [Isaiah
+                    6:1ff]: ‘Holy, holy, holy Lord of hosts, for the heavens and the earth are
+                    filled with His praises.’ [Behold] the word which bears the symbol of the
+                    Trinity; the unique and united word. The one ‘Lord’ [indicates] the oneness of
+                    the nature pertaining to the oneness of the essence. The three times which they
+                    said ‘holy’, they demonstrate the unity of the
+                    <hi rend="italic">qnōme </hi>in all things, save for their
+                    attributes. For, this also is the custom of the holy angels that in all seasons
+                    they symbolize ahead of time according to the divine command concerning things
+                    to come about, just as also in the New Covenant they diligently run to fulfill
+                    the command of our Savior. In like manner, even here in the invention this canon
+                    of the ‘Holy God’ which is recited at vespers and matins in the entire Church of
+                    God, those holy angels become mediators and ministers—a word which is [both]
+                    spoken and confirmed.</p>
+                <p xml:lang="syr">[4] But when the sins and iniquities of various kinds were committed by the
+                    inhabitants of the great city of Constantinople, the center of the western
+                    realm, while they yet tarried in their sins they were not humbled to hearken the
+                    exhortation of the Holy Scriptures and take refuge in repentance. God who is
+                    over all, the lover of mankind, who is the governor of our good things and the
+                    caretaker of our souls, because they disturbed the excellent virtues by their
+                    offences, He stirred up the ground from under them in justice. Since they
+                    blasphemously shook the statues on the earth of the Inhabitant of heaven, He
+                    [too] justly caused the metropolis to shake, and for forty days, day and night,
+                    they were tortured by this fearful and severe punishment, to the point that they
+                    abandoned their city and they dwelt in tents outside near the wilderness. </p>
+                <p xml:lang="syr">[5] And while they were thus tormented and wasted away in regards to their
+                    dwellings and possessions, their perdition and corruption were present at every
+                    hour, evening and morning and at the rising of the sun and its setting, they
+                    were not hopeful of living. Then, God who is abundant in mercy and who rules
+                    over all and is upright in all things, in His goodness He shone upon them and
+                    extended to them the hand of mercy. For, one of the holy angels was revealed in
+                    a dream to one of the presbyters of the Great Church,<note place="foot"
+                        xml:id="ftn83" n="83"><p rend="footnote text"> Referring most likely to the
+                            cathedral of Hagia Sophia.</p></note> a man exceedingly proven in
+                    justice, and he said to him: ‘Get up quickly and enter the Great Church. There,
+                    praise God who is over all by a resounding voice just as this: <hi rend="italic"
+                        >Holy God, Holy Mighty, Holy Immortal, Have mercy on us</hi>, and
+                    straightway the quaking shall cease, and with a great calm shall be to the whole
+                    community.’</p>
+                <p xml:lang="syr">[6] And when the presbyter rose up and recounted these things to people, the
+                    dream was regarded as false, and they did not believe him. In the same way he
+                    saw [the dream] the following night, and he spoke these same things to him. And
+                    while they could not enter the third night, on account of the fear of the
+                    shaking which roared throughout the markets of the city, he appeared to him
+                    [again] and said: ‘O man, believe me, for I am one of those who stand before the
+                    Lord, the Lord of all, and I have been sent to proclaim their deliverance.
+                    Therefore, do not be afraid to enter the city, for the Lord is near, present and
+                    will grant you grace. For, when you enter the church, you will find me before
+                    you, [and] as you hear me saying, you say also.’</p>
+                <p xml:lang="syr">[7] Then, that blessed presbyter was strengthened and a few entered the city with
+                    him. He found the angel standing before the altar and praising God with a loud
+                    voice, while saying: ‘Holy God, Holy Mighty, Holy Immortal, Have mercy on us.’
+                    Then, they began to recite [it]. And when they had recited this canon for the
+                    third time, a great calm occurred, and the quaking ceased completely, and the
+                    sentence (judgement) which had threatened to destroy and topple the city had
+                    quieted. And they found that this canon and this hymn was for them the cause of
+                    deliverance and the grantor of their lives. Up to now, we have stated concerning
+                    the word of strength of grace and the composition of the spiritual angels, the
+                    history of its composition and its glorification.</p>
+                <p xml:lang="syr">[8] Therefore, from henceforth let us state the power and interpretation of the
+                    ‘Holy God.’ For, it is also fitting that its intention is made known to those
+                    who think upon it. Hearken, therefore, the interpretation of the ‘Holy God.’ </p>
+                <p xml:lang="syr">[9] The name, therefore, of ‘holiness’, most assuredly, belongs only to God. As
+                    it is said in the prophet: ‘The Lord, the Lord of lords, has sworn by His
+                    holiness’ [Amos 4:2], that is, He swore by the immutability of His nature. And
+                    the blessed apostle teaches this very thing, saying: ‘…for our help, that we
+                    might participate in His holiness’ [Hebrews 12:10]. That is, He brings about all
+                    things in mercy, in order to make us worthy of the gift of the immutability
+                    which is from Him. And that which the Holy Spirit spoke to the Blessed Mary the
+                    Virgin also resembles this, as He announced to her concerning the majesty of our
+                    Savior, saying: ‘He who is born from you is holy, and shall be called the Son of
+                    the Most High’ [Luke 1:32]. In that He is ‘holy,’ it demonstrates concerning His
+                    immutability, and that [He is] ‘the Son of the Most High’ symbolizes His
+                    immortality. In a greatly fitting manner he made use of both, for it befits the
+                    Holy One and the Son of God to be above death and change. For this reason, the
+                    spiritual ones said ‘Holy God,’ that is, it is meet to sanctify God at every
+                    hour, and the praise of holiness befits Him, for all those things that pertain
+                    to Him are without change.</p>
+                <p xml:lang="syr">[10] In the same way, the name ‘God’ is an indicator of the nature. According to
+                    the usage of the Hebrews, the name ‘God’ is interpreted as ‘Judge,’ others say
+                    [it means] ‘Creator,’ and according to the meaning of the Greeks, it is
+                    interpreted as ‘the Cause of all things,’ and most assuredly, the name ‘God’
+                    befits the eternal nature. For, the holy angel made use of the name of the
+                    nature which befits the essence, while by attaching the [word] ‘holy’ he desired
+                    to sanctify and glorify those [things] which pertain naturally to the nature,
+                    even as he had sanctified the glorious nature of the godhead. And by one
+                    [attribute] from among all of them he shows concerning all of them. For, he was
+                    constrained to say this [as] one from many, for he greatly abbreviated his
+                    statement, by adding ‘Holy Mighty.’ And as he could have in an abbreviated
+                    manner stated many thing concerning the nature and also concerning those
+                    [attributes] which pertain to the nature, rather by brief statements he
+                    (fittingly) stated this one concerning the nature, such as: the living Essence,
+                    the Spiritual One, the Hidden One, the Uncircumspect One, and other [terms] such
+                    as these. However, he includes all of these by that [statement] ‘Holy God.’
+                    Concerning the [attributes] of the nature, he could have stated: wise, good,
+                    foreknowing, and [all] those which resemble these. But even all of these are
+                    included in that which he stated, ‘Holy Mighty,’ and all of the glorious
+                    [attributes] are posited in the name of ‘Mighty.’</p>
+                <p xml:lang="syr">[11] But after thus speaking briefly, he wisely spoke concerning the nature and
+                    concerning those things which pertain to the nature. He added another [term]
+                    which does not indicate what or how the nature is, and neither those natural
+                    [attributes], but rather makes known those things which do not exist in God. For
+                    this reason he added to the sanctification of his statement: ‘Holy Immortal.’
+                    And by this he made use of great brevity, and from [among] many [attributes] he
+                    posited (only) one. For he could have said ‘incorruptible,’ ‘immutable,’
+                    ‘immovable,’ ‘unswerving,’ and others like unto these. But, that by immortality
+                    he included all of them, and demonstrated not that which God <hi rend="italic"
+                        >is</hi>, even by those [terms] which are before it, (but rather) what God
+                        <hi rend="italic">is not</hi>. Rather, instead of saying that there is no
+                    mortality to God, i.e. that He is living and without beginning and without end,
+                    and death does not cut off the life of His essence, and neither does change draw
+                    near. Just as saying that ‘God is good and is not evil,’ for by saying that He
+                    is good, one says that which God is, and by saying He is not evil [one states]
+                    that which He is not—it is the very same statement (but) in two variations. For
+                    when you posit ‘good,’ you have shown that which He possesses, and it points to
+                    that which He does not possess. In like manner, so the statement ‘immortal’
+                    which the spiritual one posited [is] instead of saying ‘the Living One, whose
+                    life does not possess a time when it does not exist.’ And to all of these
+                    [foregoing statements], he added very fittingly ‘Have mercy on us.’</p>
+                <p xml:lang="syr">[12] For that nature is the cause of all things, while itself not having a cause,
+                    and it is omnipotent and almighty, and from everlasting was not overcome and is
+                    not overcome, and He naturally possesses essential life which are above amount
+                    and measure, and also fear. He is himself also the Merciful One, who desires our
+                    good—from Him let us request that He might turn towards us in mercy. And as by
+                    brevity (of speech) here this: ‘Holy God, holy Mighty, holy Immortal, have mercy
+                    on us.’ That is: All holy, Cause of all, Omnipotent, who is unhindered by
+                    anything, turn towards us in Your mercy and have pity on our feebleness, and
+                    support by Your compassion our guiltiness. That he [i.e. the angel] tripled his
+                    word and did not quadruple it, he is demonstrating to them concerning the
+                    Trinity. He does not ascribe the
+                    <hi rend="italic">qnōme </hi>to the one Godhead, to the one
+                    Mightiness, and to the one Immortality by dividing them. Rather, so that by a
+                    three-fold [recitation] his hymn might awake and encourage them to glorify
+                    without ceasing the divine Nature—the Almighty and the Immortal—the Father and
+                    Son and Holy Spirit.</p>
+                <p xml:lang="syr">[13] The weak-minded man Caesar Anastasius desired to disturb this canon
+                    concerned with the immutability of God the Lord of all, which the angel had
+                    recited, for he set up with contention against the truth. For, he had said in
+                    his confusion and instability that all those who are in his realm should say in
+                    this manner: ‘Holy Immortal who was crucified for us, have mercy on us.’ Observe
+                    the confusion of the statement which disputes itself, and itself throws down
+                    those whom it convinces, and by its paradox demonstrates its falsehood, just as
+                    ‘yes’ and ‘no.’ For, it is not possible that ‘yes’ and ‘no’ exist in a single
+                    matter in the same statement. And it easy to establish this by the word of
+                    Christ our Savior: ‘Let your word be yes and no’ [Matthew 5:37], ‘yes’ and ‘no’
+                    cannot exist in the very same word. Even as the apostle, the doctor of the
+                    Church, said: ‘God is true, that our word to you was not yes and no, but it was
+                    yes in Christ’ [2 Corinthians 1:18, 19]. For, the ‘yes’ obscures the ‘no’, and
+                    the ‘no’ obscures the ‘yes.’ Therefore, if you say ‘Immortal’, be cautious of
+                    that [statement] ‘Who was crucified for us.’ But if you make use of [the
+                    statement] ‘Who was crucified’ (then) delete that of ‘Immortal.’</p>
+                <p xml:lang="syr">[14] But that rebellious and heretical caesar did not consider the contradiction
+                    and stupidity of the statement neither did he honor or submit to the beloved
+                    composition of the spiritual one, nor did he fear the ready and reserved
+                    judgment of God. Rather, while having trampled upon and destroyed everything, he
+                    ordered that they should ‘Holy Immortal, who was crucified for us,’ and he
+                    encouraged the establishment of this heresy by decrees, warnings and
+                    promises.</p>
+                <p xml:lang="syr">[15] And while a great many by way of flattery towards him assented to allow
+                    [it], and others because the sickness of heresy were born in their soul, and
+                    still others because of the hope in vain promises and husks, thus they gave way
+                    to and obeyed his word—unto the punishment and perdition of their <hi
+                        rend="italic">qnōmā</hi>. But that city in which the tradition of this canon
+                    took place by the Holy Spirit were not persuaded to allow (it), for two reasons:
+                    for the its inhabitants say ‘We, that is our forefathers, were the recipients of
+                    this angelic canon, for it is exceedingly foolish and even iniquitous that while
+                    our forefathers received this good tradition from heaven and by it were
+                    delivered from the powerful scourge which wipes out from life we should turn
+                    back and change the heavenly tradition by the [mere] word of an earthy man, and
+                    even the foolishness of the statement and its contradiction does not allow the
+                    discerning ones to submit to it. And since we are the royal city, and we reside
+                    in the mother of cities [i.e. metropolis] and our city is the head of the whole
+                    West, it is not fitting that we should shrink from and fear the word of a king
+                    who exists today and does not exist tomorrow. Behold, up to this very day the
+                    very city of Constantinople holds to this canon, and sanctifies and praises God
+                    by it, even as she received it from the spiritual one. In the same way, neither
+                    has the holy city of Jerusalem assented to change anything in it.’</p>
+                <p xml:lang="syr">[16] But thus spoke the inhabitants of her [Jerusalem] in opposition to the
+                    tyranny of Anastasius the rebel, saying ‘We are the city of God and here (it
+                    was) that the dispensation of Old Covenant was completed, and also that of the
+                    New Covenant was perfected here. With us and among us is the cave of the holy
+                    tomb of our Lord, the Golgotha of the crucifixion, the dominical Wood of our
+                    salvation, the place of His ascension to heaven, the wonderful Upper Room in
+                    which took place the handing-over of the life-giving Mysteries (and) the descent
+                    of the Spirit upon the holy and blessed apostles. We do not fear tyrannical
+                    threats, and we are not enticed by vain promises, for we shall accept every
+                    torment of yours, but we shall not assent (to change) anything to the heavenly
+                    tradition which we received by succession from our forefathers, for we know that
+                    its truth is obvious and trustworthy. And regarding ‘Holy Immortal, Who was
+                    crucified for us,’ it is utterly foolishness and iniquity. And behold, even the
+                    very city of Jerusalem with all of its authority sanctifies and praises God in
+                    this manner, by this canon (just as) the holy angel who was sent by the
+                    commandment of the merciful God in order to give aid and save the afflicted from
+                    their afflictions had delivered it. And even the western lands beyond
+                    Constantinople, those which surround the great city of Rome which is under the
+                    authority of the catholicos-patriarch. Even the great city of Rome itself
+                    ascribes praise with this canon in this manner, (just as) we say it, that is, as
+                    the spiritual one delivered it.</p>
+                <p xml:lang="syr">[17] Let us, therefore, be wakeful my beloved, and praise God with the heavenly
+                    hosts at [the times of] matins and vespers, and at every hour. Let every one of
+                    us at vespers praise and sanctify God by this canon, and then (go to) rest. And
+                    at matins let us get up and glorify by it, and then go out to work. That by
+                    doing this, joyful seasons may come to us, which bring benefits of the spirit
+                    and body, from the gift of the Lord, and quiet and restful nights and the times
+                    of day which are full of tranquility and profit. And let us all equally, in
+                    overflowing and firm love, and with one undivided and unshakable accord let us
+                    say with the ranks and choirs of the spiritual ones: ‘Holy God, holy Mighty,
+                    holy Immortal, have mercy on us’—to whom be the praise, and to unto me
+                    absolution, and His mercy upon His Church unto the ages of ages, amen. </p>
+                <p style="text-align: center;">The Cause of the ‘Holy God’ is ended, and unto God be
+                    the praise; amen.</p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Assemani, J.S. <hi rend="italic">Bibliotheca Orientalis
+                        Clementino-Vaticana</hi>. 3 vols. Rome: Typis Sacrae Congregatione de
+                    Propaganda Fide, 1719-1728. </bibl>
+                <bibl>Bettiolo, P. “Syriac Literature.” In <hi rend="italic"
+                        >Patrology. The Eastern Fathers from the Council of Chalcedon (451) to John
+                        of Damascus (†751)</hi>, ed. A. di Bernardino and A. Walford, 407-490.
+                    Cambridge: James Clarke &amp; Co., 2006. </bibl>
+                <bibl>Baumstark, A. Geschichte der syrischen Literatur mit
+                    Ausschluß der christlich-palästinensischen Texte. Bonn: A. Marcus und E. Weber,
+                    1922.</bibl>
+                <bibl>Birnie, M.J. <hi rend="italic">The Eastern Synods
+                        (Synodicon Orientale)</hi>. Seattle: [no publisher] 1999.</bibl>
+                <bibl>Brock, S.P. “Gabriel of Beth Qatraye as a Witness to Syriac
+                    Intellectual Life c. 600 CE.” In <hi rend="italic">The Syriac Writers of Qatar
+                        in the Seventh Century</hi>, ed. M. Kozah. Gorgias Eastern Christian Studies
+                    38, 155-167. Piscataway: Gorgias Press, 2014. </bibl>
+                <bibl>Brock, S. et. al. (eds.), <hi rend="italic">Gorgias
+                        Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</hi>, ed.
+                    S. Brock. Piscataway: Beth Mardutho [print: Piscataway: Gorgias Press, 2011].</bibl>
+                <bibl>Carr, T. Thomae Edesseni Tractatus de nativitate Domini
+                    Nostri Christi: textum syriacum edidit, notis illustravit Latine reddidit. Roma:
+                    Typis R. Academiae Lynceorum, 1898.</bibl>
+                <bibl>Chabot, Jean-Baptiste. <hi rend="italic">Synodicon
+                        orientale, ou Recuil de Synodes nestoriens</hi>. Paris: Imprimerie
+                    Nationale, 1902.</bibl>
+                <bibl>Connolly, R.H. (ed. and trans.), <hi rend="italic">Anonymi
+                        Auctoris. Expositio Officiorum Ecclesiae, Georgio Arbelensi Vulgo
+                        Adscripta</hi>. Vol. I. CSCO 64, Syr. 25. Louvain: Peeters, 1961.</bibl>
+                <bibl>Fiey, J.-M. <hi rend="italic">Jalons pour une Histoire de
+                        l’Église en Iraq</hi>. Corpus Scriptorum Christianorum Orientalium 310 =
+                    Subsidia 36. Louvain: Peeters, 1970.</bibl>
+                <bibl>Fiey, Jean-Mauric. Pour un Oriens Christianus Novus.
+                    Repertoire des Dioceses Syriaques Orientaux et Occidentaux. Beiruter Texte und
+                    Studien 49. Beirut: Hans Steiner Verlag, 1993.</bibl>
+                <bibl>Furlani, G. “Il manoscritto siriaco 9 dell’India Office.”
+                    <hi rend="italic">Rivisita degli Studi Orientali </hi>10
+                    (1924): 315-320.</bibl>
+                <bibl>Furlani, G. “Il Tratto di Yešō‘yahb d’Ārzōn sul ΤΡΙΣΑΓΙΟΝ.”
+                        <hi rend="italic">Rivista degli Studi Orientali</hi> 7 (1917): 687-715.</bibl>
+                <bibl>Ginter, K. “The Trisagion Riots (512) as an Example of
+                    Interaction between Politics and Liturgy.”
+                    <hi rend="italic">Studia Ceranea </hi>7 (2017): 41-57.</bibl>
+                <bibl>Gismondi, H. Maris, Amri et Slibae: De Patriarchis
+                    Nestorianorum Commentaria. Pars Altera: Amri et Slibae Textus Arabicus. Rome: F.
+                    De Luigi, 1896.</bibl>
+                <bibl>Guillaumont, A. “Justinien et l’Église de Perse.” <hi
+                        rend="italic">Dumbarton Oaks Papers</hi> 23-24 (1969-1970): 39-66.</bibl>
+                <bibl>Janeras, S. “Le Trisagion: un formule brève en liturgie
+                    compareé.” In <hi rend="italic">Acts of International Congress: Comparative
+                        Liturgy Fifty Years After Anton Baumstark (1872-1948) Rome, 25-29 Sept.
+                        1998</hi>, ed. R. F. Taft and G. Winkler. Orientalia Christiana Analecta
+                    265, 496-498. Roma: Pontifical Oriental Institute, 2001.</bibl>
+                <bibl>Karim, A. “The Meaning of the Trisagion in East and West.”
+                    In <hi rend="italic">Chant and Culture: Proceedings of the Conference of the
+                        Gregorian Institute of Canada, August 6-9, 2013</hi>, ed. by A. Karim and B.
+                    Swanson, 23-39. Lions Bay, British Columbia: Institute of Mediaeval Music,
+                    2014.</bibl>
+                <bibl>Labourt, J. (trans.), <hi rend="italic">Dionysius Bar
+                        Salībī, Expositio Liturgiae</hi>. CSCO, Syr. 14 [Syr. II, 93]. Second
+                    series. Louvain: Peeters Publishers, 1903. </bibl>
+                <bibl>Macomber, W. Six Explanations of the Liturgical Feasts by
+                    Cyrus of Edessa, An East Syrian Theologian of the Mid-Sixth Century. CSCO 356,
+                    Syr. 165. Louvain: Secrétariat du CorpusSCO, 1974. </bibl>
+                <bibl>Malech, G.D. History of the Syrian Nation and the Old
+                    Evangelical-Apostolic Church of the East, From Remote Antiquity to the Present
+                    Time. Minneapolis: n.p., 1910.</bibl>
+                <bibl>Mateos, J.
+                    <hi rend="italic"> Lelya-Şapra. Les offices chaldéens de la nuit et du matin</hi>.
+                    Orientalia Christiana Analecta 156. Roma: Pontifical Oriental Institute, 1972. </bibl>
+                <bibl>McDonough, S. “A Second Constantine? The Sasanian King
+                    Yazdgerd in Christian History and Historiography.”
+                    <hi rend="italic">Journal of Late Antiquity </hi>1:1
+                    (2008): 127-141.</bibl>
+                <bibl>Metselaar-Jongens, Marijke. <hi rend="italic">Defining
+                        Christ. The Church of the East and Nascent Islam</hi> (Ph.D. dissertation;
+                    Vrije Universiteit Amsterdam, 2016).</bibl>
+                <bibl>Nicholson, O. (ed.), <hi rend="italic">The Oxford
+                        Dictionary of Late Antiquity</hi>. Vol. 1. Oxford: Oxford University Press,
+                    2018.</bibl>
+                <bibl>Paša, Ž. “Īšū‘yāb Al-Arzunī and Confession of the Faith:
+                    Critical Edition and Translation.”
+                    <hi rend="italic">Parole de l’Orient </hi>44 (2018):
+                    358-385. </bibl>
+                <bibl>Popa, C.- Ş. “East Syriac Theological Instruction and
+                    Anti-Chalcedonian Identity in Nisibis in Late Antiquity.”
+                    <hi rend="italic">Review of Ecumenical Studies </hi>11:3
+                    (2019): 424-438.</bibl>
+                <bibl>Royel, D. “East Meets East: Byzantine Liturgical Influences
+                    on the Rite of the Church of the East.”
+                    <hi rend="italic">Journal of the Canadian Society for Syriac Studies </hi>8
+                    (2008): 44-59.</bibl>
+                <bibl>Sako, L. Le Rôle de la Hiérarchie Syriaque orientale dans
+                    les Rapports diplomatiques entre la Perse et Byzance aux V<hi rend="superscript"
+                        >è</hi>-VII<hi rend="superscript">è</hi> siècles. Textes et études sur
+                    l'Orient chrétien 2. Paris [no publisher], 1986.</bibl>
+                <bibl>Scher, A. <hi rend="italic">Histoire nestorienne inédite
+                        (Chronique de Séert)</hi>. Patrologia Orientalis 4.3 [17], 5.2 [22], 7.2
+                    [32], 13.4 [65]. 4 vols. Paris: Firmin-Didot, 1908, 1909, 1910, 1918. </bibl>
+                <bibl>Scher, A. Mar Barhadbšbba ‘Arbaya, évêque de Halwan (VI<hi
+                        rend="superscript">e</hi> siècle): Cause de la Fondation des Écoles.
+                    Patrologia Orientalis 4. Rome: Brepols, 1908. </bibl>
+                <bibl>Scher, A. Traités d’Isaï le Docteur et de Hnana d’Adiabène
+                    sur les Martyrs, le Vendredi d’Or et les Rogations, et Confession de Foi a
+                    Rèciter par les èvèques nestoriens avant l’Ordination. Patrologia Orientalis 7.
+                    Paris: Firmin-Didot, 1911. </bibl>
+                <bibl>Vaschalde, A. ed., <hi rend="italic">Babai Magni. Liber de
+                        Unione</hi>. CSCO, Syr. 61 [second series]. Paris: Typographeo Reipublicae,
+                    1915. </bibl>
+                <bibl>Vööbus, A. <hi rend="italic">History of the School of
+                        Nisibis</hi>. CSCO 266, Subs. 26. Louvain: Secrétariat du CorpusSCO,
+                    1965.</bibl>
+                <bibl>Whitby, M. (trans.), <hi rend="italic">The Ecclesiastical
+                        History of Evagrius Scholasticus</hi>. Liverpool University Press:
+                    Liverpool, 2000.</bibl>
+                <bibl>Wilmshurst, D.
+                    <hi rend="italic">Bar Hebraeus, The Ecclesiastical Chronicle: An English Translation. </hi>Gorgias
+                    Eastern Christian Studies 40. Piscataway, New Jersey: Gorgias Press, 2016.</bibl>
+                <bibl>Wilmshurst, D. The Martyred Church: A History of the Church
+                    of the East. London: East and West Publishing, 2011.</bibl>
+                <bibl>Witakowski, W. (trans.), Pseudo-Dionysius of Tel-Mahre
+                    (Known Also as the Chronicle of Zuqnin): Chronicle, Part III. Liverpool:
+                    Liverpool University Press, 1996.</bibl>
+                <bibl>Wood, P. The Chronicle of Seert. Christian Historical
+                    Imagination in Late Antique Iraq. Oxford: Oxford University Press, 2013.</bibl>
+                <bibl>Yousif, P. <hi rend="italic">Appunti sulla preghiera
+                        liturgical del rito caldeo (commune)</hi>. Unpublished lecture notes. Roma:
+                    Pontifical Oriental Institute, 1982-1983.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
