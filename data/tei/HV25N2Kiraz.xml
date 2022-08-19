@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Schema of the Syriac Šḥimo</title>
+                <author>
+                    <name>
+                        <forename>George A.</forename>
+                        <surname>Kiraz</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Institute for Advanced Study, Princeton / Beth Mardutho: The Syriac
+                            Institute</orgName>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2022</date>
+                <idno>Volume 25.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv25n2kiraz</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>George A. Kiraz</author>
+                        <title level="a">Schema of the Syriac Šḥimo</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol25/HV25N2Kiraz.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2022</date>
+                        </imprint>
+                        <biblScope type="vol" n="25">25</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="455" to="483">455-483</biblScope>
+                        <biblScope type="order" n="3"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Liturgy</term>
+                    <term>Prayers</term>
+                    <term>Šḥimo</term>
+                    <term>XML</term>
+                    <term>TEI</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2022-08-23">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">The current paper gives a schema of the liturgical book known as
+                    the Book of Šḥimo with some historical remarks. It will be shown that the received
+                    tradition goes back at least to the early modern period (ca. 1500s) and some
+                    elements are attested in the literature in the Syriac renaissance period. At least
+                    in one instance, it is argued that an element assigned to priests and bishops must
+                    have originally been assigned to the deacon. Snippets from an XML-TEI encoding
+                    demonstrate how digital humanities projects can encode liturgical texts.</p>
+            </div>
+        </front>
+        <body>
+            <div  xml:id="h25n2kiraz.1" xml:lang="en">
+                <p>The <hi rend="italic">Book of Šḥimo</hi> [The Book of the
+                Prayers of the Simple (<hi rend="italic">or</hi> Ordinary) Week] contains the
+                Liturgy of the Hours according to the West Syriac rite: the Syriac Orthodox Church
+                in the Patriarchate of Antioch and the <hi rend="Emphasis">Maphrianate</hi> of the
+                East (Mosul, Malankara), the Syriac Catholic Church in the Patriarchate of Antioch,
+                and the Syro-Malankara Catholic Church in India. It is closely related to the
+                tradition of the Maronite Catholic Church in the Patriarchate of Antioch, and
+                perhaps they share a common origin.<note place="foot" xml:id="ftn1" n="1"><p
+                        rend="footnote text"> I presented an earlier version of this paper at The
+                            V<hi rend="superscript">th</hi> (North American) Syriac Symposium at the
+                        University of Toronto, Toronto, Ontario, Canada, June 25–27, 2007. Sebastian
+                        P. Brock and Mor Severus R. Akhrass kindly read the penultimate draft and
+                        gave valuable suggestions.</p></note> This study aims at providing a schema
+                of this text, based on the modern editions of the various rites, with remarks on
+                modern practices from the Syriac Orthodox rite. By schema, I mean an outline of the
+                elements that constitute the liturgical texts, how these elements are organized
+                sequentially, and the attributes (e.g., who is the speaker, what is the melody of a
+                hymn) assigned to these elements.</p>
+            <p>Our earliest manuscripts of the Šḥimo belong to the Early Modern period, but scholars
+                have found a few liturgical fragments from earlier periods. Barsoum notes fragments
+                preserved in the Damascus Museum dating from around the 8<hi rend="superscript"
+                    >th</hi> century.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text">
+                        Barsoum, <hi rend="italic">al-Luʾluʾ al-Manthūr</hi> p. 73-75.</p></note> He
+                claims that their text is similar to the received tradition. Barsoum informs us that
+                some manuscripts credit Jacob of Edessa (d. 708) as the initial compiler. He also
+                tells us that he examined some manuscripts according to the traditions of Edessa.
+                While the literary content varies among manuscripts, the schematic structure remains
+                the same.</p>
+            <p> This study shows that all the main elements of the schema appear in various
+                commentaries dating back to the early second millennium. We can be confident that
+                the structure of the prayers found in the printed editions represents the schema of
+                the text as it stood in the Early Modern period (ca. 15<hi rend="superscript"
+                    >th</hi> or 16<hi rend="superscript">th</hi> century), if not earlier. Indeed,
+                early fragments found in the Cairo Geniza contain texts that a young deacon today
+                might select and chant, though they do not reveal much about structure.<note
+                    place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> G. Kiraz, “Learning
+                        Syriac and Garshuni in Early Modern Egypt: Evidence from the Cairo Genizah”
+                        in Geoffrey Khan, Sabine Schmitdke, and Sarah Stroumsa (eds.), <hi
+                            rend="italic">Studies in Literary Genizot</hi>
+                        (=<hi rend="italic"> Intellectual History of the Islamicate World</hi>
+                        8 (2020): 1–26; G. Kiraz, “A Young Syriac Pupil in the Cairo Genizah:
+                        Or.1081 2.75.30.” <hi rend="italic">Fragment of the Month: Newsletter of the
+                            Cambridge University Library Genizah Unit</hi>. August 2018. <ref
+                            target="https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fotm-2018/fragment-6"
+                            >https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fotm-2018/fragment-6</ref>.</p></note></p>
+            <p>Scholars have not analyzed the structure of the Šḥimo in any detail. The late Robert
+                Taft provides some brief observations on the present living tradition,<note
+                    place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> R.
+                        Taft,<hi rend="italic"> The Liturgy of the Hours in East and West</hi>
+                        (1993) 239–247.</p></note> and Christine Chaillot outlines the main daily
+                offices prepared by Sebastian P. Brock.<note place="foot" xml:id="ftn5" n="5"><p
+                        rend="footnote text"> Christine Chaillot, The Syrian Orthodox Church of
+                        Antioch and All the East, a brief introduction to its life and spirituality
+                        (Geneva: Inter-Orthodox Dialogue, 1998), pp. 99, 156-157.</p></note> Eugene
+                Aydin (aka Mor Poloycarpus) produced an essay in Syriac detailing the sources of the
+                text with a discussion on the differences between the Orthodox, Catholic and
+                Maronite printed editions,<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text"> Eugene Aydin, <foreign xml:lang="syr">ܫܚܝܡܐ: ܟܬܒܐ ܕܨܠܘ̈ܬܐ ܕܫܒܬܐ ܫܚܝܡܬܐ</foreign> in <hi
+                            rend="italic underline">H</hi><hi rend="italic">eto</hi> 3 (2001), no.
+                        5: 46-35.</p></note> and I have relied upon his helpful lists of editions
+                and translations.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> See
+                        also A. Baumstark, “syr-Antioch” in <hi rend="italic">Der Katholik</hi> 82
+                        (401–427, 538–550) &amp; 83 (43–54); A. Baumstark, <hi rend="italic"
+                            >Geschichte der syrischen Literatur</hi> 47, n.4; where he lists mss);
+                        J. Tomajean, “La semaine liturgique dans le rite syrien” in <hi
+                            rend="italic">Parole de l'Orient</hi> (1966) no. 1, 95–114. For the
+                        Maronite Lilyo and Ṣafro, see J. Tabet, <hi rend="italic">L'Office commun
+                            maronite</hi> (Kaslik, 1972).</p></note></p>
+            <p>The text editors also provide us with further information. Barsoum, Konat, Griffith,
+                and Mnayyer introduce the faithful to using the text, with Konat’s introduction
+                being the most extensive. However, they all assume familiarity with the tradition.
+                Having said that, such instructional material is no more valuable than New Jersey’s
+                road signs which are helpful if you already know how to reach your destination. As
+                such, only the trained clergy can perform the prayers. Numerous parts are absent
+                from the printed texts (see, for example, the <hi rend="italic">Sedro</hi> schema
+                below). </p>
+            <p>As far as I know, this article is the first attempt to describe the schema of a west
+                Syriac liturgical rite. Such an analysis is helpful for digital humanities projects
+                seeking to represent or encode the text. I will provide a conceptualization of the
+                main structures and their elements. I will begin with a description of the printed
+                editions upon which the study is based (I), an outline of the canonical hours (II),
+                a schema of the text (III-VI), observations on the thematic structure (VII), and
+                finally concluding remarks (VIII). An appendix gives snippets from an XML-TEI schema
+                for consideration in digital humanities projects.</p>
+            </div>
+            <div  xml:id="h25n2kiraz.2" xml:lang="en">
+                <head>Modern Editions and Translations</head>
+                <p>The Syriac Orthodox editions bear the title
+                        <foreign xml:lang="syr">ܟܬܒܐ ܕܨܠܘ̈ܬܐ ܕܫܒܬܐ </foreign><foreign xml:lang="syr">ܫܚܝܡܬܐ</foreign> “The Book
+                    of the Prayers of the Simple (<hi rend="italic">or</hi> Ordinary) Week,” and the
+                    Syriac Catholic editions bear the title
+                        <foreign xml:lang="syr">ܨܠܘ̈ܬܐ ܕܝܘܡ̈ܬܐ ܫܚܝ̈ܡܐ
+                        ܕܫܒܬܐ</foreign> “The Prayers of the Simple Days of the Week.” One observes that
+                    the adjective <foreign xml:lang="syr"
+                        >ܫܚܝܡܐ</foreign> “simple” is a modifier of <foreign xml:lang="syr">ܫܒܬܐ</foreign> “week” and
+                        <foreign xml:lang="syr">ܝܘܡ̈ܬܐ</foreign>
+                    “days,” not of the prayers themselves. In this terminology, a “simple” day is a
+                    non-feast day and excludes Sundays. (The Konat edition is the exception giving
+                    the title <foreign xml:lang="syr">ܟܬܒܐ ܕܨܠܘܬܐ ܫܚܝܡܬܐ</foreign> “The Book of the Simple Prayer.”) In his
+                    introduction to an Arabic translation of the Šḥimo text, Yousef Mnayyer stresses
+                    this referential property of the title.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"> Mnayyer, <hi rend="italic">al-ʾIšḥīm</hi>
+                            (Damascus, 1994) p. 13.</p></note></p>
+                <p>The Syriac Orthodox church produced its first edition at the Deir al-Zaʿfaran
+                    press in 1890. A second edition by Barsoum was produced at the same press in
+                    1913 based on nine MSS (seven according to his introduction!), one of which is
+                    by a certain monk named David (fl. 15<hi rend="superscript">th</hi>
+                        century).<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">
+                            Šḥimo (Mardin, 1913) p. 6.</p></note> A third edition was produced in
+                    Jerusalem in 1934 and became standard. It has been used in subsequent editions
+                    from Bar Hebraeus Verlag in Holland. The Barsoum text incorporates the western
+                    tradition of the Patriarchate of Antioch and the eastern tradition of the
+                    Maphrianate of Tikrit (now the Mosul and Nineveh Plains tradition).<note
+                        place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> Barsoum, <hi
+                                rend="italic">al-Luʾluʾ al-Manthūr</hi> p. 73-75.</p></note> The
+                    Malankara tradition produced an edition by Matta Konat in 1915. While Konat’s
+                    edition contains many differences in textual renderings, Konat’s structure is
+                    identical to Barsoum’s.</p>
+                <p>There are four Syriac Catholic editions: the 1696 edition produced by Athanasius
+                    Safar ʿAṭṭār of Mardin; the 1787 edition by Elias Amirkhan, itself based on the
+                    1696 edition; the 1835 edition by Patriarch Peter Shabadin through the
+                    Propaganda Fide; the 1902 edition by Aphram Rahmani; and finally, the 1937
+                    edition by Gabriel Tabbouni.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text"> Aydin, p. 41-42.</p></note></p>
+                <p>Although there are more Syriac Christians in the diaspora than in the homeland,
+                    hardly any churches have produced translations of the <hi rend="italic"
+                        >Šḥimo</hi>. In parishes where the tradition is kept, mostly the Syriac
+                    Orthodox of Europe, the Syriac text is used. While prose prayers appear in
+                    translation here and there, poetry is far more difficult to translate for
+                    liturgical purposes, and the musical component is not easy to bridge across
+                    languages. However, a few translations exist. Mnayyer mentions an unpublished
+                    French translation by “brother Kristian who belongs to the young brothers of
+                        Jesus.”<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text">
+                            Mnayyer, p. 19.</p></note> Bede Griffiths produced an English
+                    translation (n.d., reprinted by Gorgias Press in 2005), from which Madey
+                    produced a German translation in 1995.<note place="foot" xml:id="ftn13" n="13"
+                            ><p rend="footnote text"> Johannes Madey, <hi rend="italic">S’himo Oder
+                                Das Stundenlob der Syro-Antiochenischen Kirche an Wochentagen</hi>
+                            (1995).</p></note> Acharya, produced another translation based in
+                    Griffith, but this version contains numerous adaptations.<note place="foot"
+                        xml:id="ftn14" n="14"><p rend="footnote text"> F.
+                            Acharya,<hi rend="italic"> Prayer with the Harp of the Spirit. I, A Weekly Celebration of the Economy of Salvation</hi>
+                            (Kurisumala Ashram, Vagamon, 1983).</p></note> A few translations
+                    appeared in Malayalam, in part or in full, between 1910 and 1998. Mnayyer
+                    produced his Arabic translation in 1994. Finally, in 1969 Heinrich Husmann
+                    produced an edition of musical notations of the main hymns based on recordings
+                    by the late Qurillos Jacob Qas Girgis.<note place="foot" xml:id="ftn15" n="15"
+                            ><p rend="footnote text"> Heinrich Husmann, <hi rend="italic">Die
+                                Melodien der Jakobitischen Kirche, Die Melodien des
+                                Wochenbreviers</hi> (Wien: Hermann Böhlaus Nachf,
+                    1969)</p></note></p>
+            </div>
+            <div  xml:id="h25n2kiraz.3" xml:lang="en">
+                <head>The Canonical Hours</head>
+                <p>The west Syriac canonical hours follow Psalm 118 [MT
+                    119]:164—<foreign xml:lang="syr">ܫܒܰܥ ܒܝܰܘܡܳܐ
+                        ܫܰܒܰܚܬܳܟ</foreign> “Seven (times) a day I praised you” and are hence seven. The
+                    ecclesiastical day begins at sunset, following the Jewish tradition. As such,
+                    <hi rend="bold">(1)</hi><foreign xml:lang="syr">ܪܡܫܐ</foreign> (hereafter,
+                    Ramšo) “evening” is the first of the prayers; it corresponds to Latin vespers.
+                    Ramšo is usually indicated in liturgical texts with <foreign xml:lang="syr">ܢܓܗ</foreign> “dawn”
+                    followed by the day, e.g., <foreign xml:lang="syr">ܢܓܗ ܬܪܝܢ ܒܫܒܐ</foreign> “the
+                    dawn of Monday,” Monday being the day to come. One performs this prayer today on
+                    Sunday evening, i.e., the eve of Monday.</p>
+                <p>The same applies to the next hour, <hi rend="bold">(2)</hi>
+                    <foreign xml:lang="syr">ܣܘܬܪܐ</foreign> (Sutoro)
+                    “covering, protection,” which corresponds to Latin Compline. Its name derives
+                    from Ps 91:1 (<foreign xml:lang="syr">ܝܳܬܶܒ
+                        ܒܣܶܬܳܪܶܗ ܕܰܡܪܰܝܡܳܐ</foreign> “He who sits in the protection of the Most High”).
+                    This Psalm, recited during this hour, is what the faithful associate with this
+                    hour. Yet, its text does not appear in most of the editions considered here and
+                    in none of the manuscripts under consideration, demonstrating the
+                    interconnection between the written modality and orality.</p>
+                <p>The next hour is <hi rend="bold">(3)</hi>
+                    <foreign xml:lang="syr">ܠܠܝܐ</foreign> (Lilyo)
+                    “night,” corresponding to Latin nocturnes. It consists of three <foreign xml:lang="syr">ܩܘ̈ܡܐ</foreign> (<hi
+                        rend="italic">qawme</hi>) or “watches” (literally “standings”); some
+                    manuscripts (e.g., MS<hi rend="superscript">1624</hi> (should this be written MS
+                    1624?) MS, for which see under III) use <foreign xml:lang="syr">ܬܫܡܫܬܐ</foreign>
+                    (Teshmeshto) “service” instead of Qawmo. Then comes <hi rend="bold">(4)</hi>
+                    <foreign xml:lang="syr">ܨܦܪܐ</foreign> (Ṣaphro)
+                    “morning,” which is the apposition of Ramšo; it corresponds to Latin matins.</p>
+                <p>Then, we have <hi rend="bold">(5)</hi>
+                    <foreign xml:lang="syr">ܬܠܳܬܫ̈ܳܥܺܝܢ</foreign> or
+                    the Third Hour, corresponding to Latin terce. The numbering of hours is offset
+                    by sunrise. Hence, the Third Hour—depending on the season—is approximately
+                    around 9:00 AM. Then, <hi rend="bold">(6)</hi>
+                    <foreign xml:lang="syr">ܫܶܬܫ̈ܳܥܺܝܢ</foreign> or the
+                    Sixth Hour, corresponding to Latin sext, approximates our noontime. Finally, <hi
+                        rend="bold">(7)</hi>
+                    <foreign xml:lang="syr">ܬܫܰܥܫ̈ܳܥܺܝܢ</foreign> or
+                    the Ninth Hour corresponds to Latin none, sometimes in the early afternoon. </p>
+                <p>A few Syriac writers cite these hours from the thirteenth and fourteenth
+                    centuries. Jacob of Bartelleh (d. 1241) gives a list of them with additional
+                    commentary in his <hi rend="italic"
+                        >Simotho</hi>.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text"> Mar Severios Yacoub Albartali, <hi rend="italic"
+                                >The Treasures</hi>. Translated into Arabic by Behnam Daniel
+                            al-Bartali (Aleppo: Dar Mardin, 2007). The translation is based on three
+                            mss: the first is in the Syriac Orthodox Bishopric of Mosul dated 1718,
+                            the second belongs to bishop Saliba Shimoun of Mosul dated 1889, and the
+                            third belongs to the translator dated 1912.</p></note> Bar ʿEbroyo (d.
+                    1287), in both his <hi rend="italic">Hudoye</hi> (V, 5) and the <hi
+                        rend="italic">Ethicon</hi> (I, 1, 8), states that the hours did not
+                    initially include Sutoro; it was later added in order to comply with <foreign xml:lang="syr">ܫܒܺܝܥܳܝܽܘܬܳܐ</foreign>
+                    “sevenness.” Ignatius bar Wahib (d. 1333), in a brief unpublished treatise on
+                    liturgical prayers,<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text"> Barsoum, <hi rend="italic">Al-lulu</hi> 545,
+                            citing mss Homs (might be in Damascus now), Berlin Sachaw 151, Cambridge
+                            2887, and Mosul.</p></note> counts the three <hi rend="italic"
+                        >qawme</hi> of Lilyo as individual hours, giving a total of ten canonical
+                    hours. We can be confident that the canonical hours of the Šḥimo go back to at
+                    least the early second millennium.</p>
+                <p>In earlier monastic settings, each hour was probably conducted independently at
+                    its own time. The received tradition, however, groups them into two synaxes (<foreign xml:lang="syr">ܣܽܘܢܰܟܣ̈ܺܝܣ</foreign>). The
+                    first is the evening synaxis, sometimes recited between 3:00 PM and 6:00
+                    PM—depending on local traditions—consists of the Ninth Hour (of the current day
+                    in modern reckoning), followed by Ramšo and Sutoro (of the following day). For
+                    instance, on a Sunday evening, one begins with the Sunday Ninth Hour (the last
+                    hour of Sunday), then moves to the Ramšo and Sutoro of Monday. The second is a
+                    morning synaxis that is sometimes recited between 5:00 AM and 7:00 AM, depending
+                    on local traditions. It consists of Lilyo, Ṣaphro, the Third Hour, and the Sixth
+                    Hour, all of the current day. The following diagram outlines the hours
+                    corresponding to modern times. </p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: center;">7</cell>
+                        <cell style="text-align: center;">1</cell>
+                        <cell style="text-align: center;">2</cell>
+                        <cell style="text-align: center;">3</cell>
+                        <cell style="text-align: center;">4</cell>
+                        <cell style="text-align: center;">5</cell>
+                        <cell style="text-align: center;">6</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;">9<hi
+                                rend="superscript">th</hi>
+                            Hr</cell>
+                        <cell style="text-align: center;"><hi
+                            >Ramšo</hi></cell>
+                        <cell style="text-align: center;"><hi
+                            >Sutoro</hi></cell>
+                        <cell style="text-align: center;"><hi
+                            >Lilyo</hi></cell>
+                        <cell style="text-align: center;"><hi
+                            >Ṣaphro</hi></cell>
+                        <cell style="text-align: center;">3<hi
+                                rend="superscript">rd</hi>
+                            Hr</cell>
+                        <cell style="text-align: center;">6<hi
+                                rend="superscript">th</hi>
+                            Hr</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="3"><hi>Evening
+                                Synaxis</hi></cell>
+                        <cell style="text-align: center;" cols="4"><hi>Morning
+                                Synaxis</hi></cell>
+                    </row>
+                </table>
+                <p>Note that the break of a new ecclesiastical day occurs <hi rend="italic"
+                        >during</hi> the evening synaxis. After the completion of the 9<hi
+                        rend="superscript">th</hi> Hour, which follows the melody set of the current
+                    day, the melody will switch for Ramšo of the newly issued day. This cannot be
+                    more pronounced than on Palm Sunday, which is followed by Passion Week with its
+                    specific prayers and melodies. The faithful gather again on Sunday evening,
+                    after the completion of Palm Sunday festivities, for the service of Nahire that
+                    commemorates the parable of the wise and foolish virgins (Matthew 25:1–13). They
+                    begin with the 9<hi rend="superscript">th</hi> Hour with the festive melodies of
+                    Palm Sunday. Then, the entire atmosphere changes as Ramšo issues a new day,
+                    Monday, the beginning of Passion Week. The melodies become somber. The Trisagion
+                    is replaced by unique passion phraseology. The large Phenqitho volumes of the
+                    Lent season—used for the Liturgy of the Hours instead of the Šḥimo—are put away
+                    and replaced with the Passion Phenqitho.<note place="foot" xml:id="ftn18" n="18"
+                            ><p rend="footnote text"> Phenqithos have the text for the Lent cycle
+                            and for passion week in different volumes. Some modern editions,
+                            however, combine them in one volume.</p></note></p>
+                <p>In some monastic settings, an additional noon synaxis is observed during which
+                    the 3<hi rend="superscript">rd</hi>, 6<hi rend="superscript">th</hi>, and 9<hi
+                        rend="superscript">th</hi> Hours are recited. In such cases, it would be a
+                    repetition of the same hours, albeit using a different text. The first edition
+                    of a noon synaxis was published by Abraham Konat<note place="foot"
+                        xml:id="ftn19" n="19"><p rend="footnote text">
+                            <foreign xml:lang="syr">ܟܬܒܐ ܕܨܠܘܬܐ
+                                ܕܬܝܒܘܬܐ ܠܦܘܬ ܥܝܕܐ ܕܥܕܬܐ ܣܘܪܝܝܬܐ ܐܪܬܘܕܘܟܣܝܝܬܐ ܕܡܝܠܝܒܐܪ</foreign> (Mar
+                            Julius Press, Pampakuda, n.d.).</p></note> (n.d.). Çiçek then produced a
+                    newer edition in 1989.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text">
+                            <foreign xml:lang="syr">ܛܟܣܐ ܕܨܠܘ̈ܬܐ
+                                ܘܒܥܘ̈ܬܐ ܕܬܝܒܘܬܐ ܠܝܘ̈ܡܝ ܫܒܘܥܐ ܕܡܬܐܡܪ̈ܢ ܒܥܕܢ ܛܗܪܐ ܕܟܠܝܘܡ ܐܝܟ ܛܟܣܐ
+                                ܕܥܕܬܐ ܣܘܪܝܝܬܐ ܬܪܝܨܬ ܫܘܒܚܐ ܕܐܢܛܝܘܟܝܐ</foreign> (Holland, 1989). The same
+                            book was published at the same time in two trim sizes, large and
+                            medium.</p></note>
+                </p>
+            </div>
+            <div  xml:id="h25n2kiraz.4" xml:lang="en">
+                <head>Schema of the Hour</head>
+                <p>The following discussion is based on the published texts
+                    of the following editions:</p>
+                <p><hi>C	= Syriac </hi><hi rend="bold"
+                       >C</hi><hi>atholic ed.</hi></p>
+                <p><hi>H	= Husmann, </hi><hi
+                        rend="italic">Die Melodien der Jakobitischen Kirche,
+                        Die Melodien des
+                    Wochenbreviers</hi><hi> (1969)</hi></p>
+                <p>O<hi rend="superscript"
+                        >H</hi>
+                    <hi> =</hi><anchor xml:id="OLE_LINK1"/><anchor
+                        xml:id="OLE_LINK2"
+                        /><hi> Syriac </hi><hi
+                        rend="bold">O</hi><hi>rthodox
+                        Holland ed. &lt; O</hi><hi rend="superscript"
+                    >J</hi></p>
+                <p>O<hi rend="superscript"
+                        >J</hi>
+                    <hi>	= Syriac </hi><hi rend="bold"
+                       >O</hi><hi>rthodox Jerusalem ed.
+                        &lt; O</hi><hi rend="superscript">Z</hi></p>
+                <p>O<hi rend="superscript"
+                        >K</hi>
+                    <hi>	= Syriac </hi><hi rend="bold"
+                       >O</hi><hi>rthodox Konat
+                    ed.</hi></p>
+                <p>O<hi rend="superscript"
+                        >Z</hi>
+                    <hi>	= Syriac </hi><hi rend="bold"
+                       >O</hi><hi>rthodox Zaʿfaran
+                        ed.</hi></p>
+                <p>In addition, when discrepancies are found, the following
+                    MSS were consulted:<note place="foot" xml:id="ftn21" n="21"><p
+                            rend="footnote text"> I did not have access to an important early
+                            manuscript, Charfet 5/1. According to Armalet, it is a Beth Gazo from
+                            the 11<hi rend="superscript">th</hi> century. If true, this could be the
+                            oldest existing Beth Gazo which contains the prayers of Šḥimo (item 9);
+                            see Issac Armalet, <hi rend="italic">Catalogue des Manuscrits de
+                                Charfet</hi> (1937) 85 ff.</p></note></p>
+                <p>MS<hi rend="superscript"
+                        >Osaka</hi><hi>	A Beth Gazo from the Osaka collection, C942369413. Though undated, the first fragmentary portion of the MS, containing the Šḥimo text, is probably one of the earliest surviving Beth Gazo manuscripts. The paleography is from the first half (if not the first quarter) of the second millennium, judging from the squarish </hi><foreign xml:lang="syr">ܡ‍</foreign><hi>, the </hi><foreign xml:lang="syr">ܬ</foreign><hi>, and a good number of Estrangela-like </hi><foreign xml:lang="syr">ܕ</foreign><hi> and </hi><foreign xml:lang="syr">ܪ</foreign><hi
+                       >. I am grateful to Hidemi Takahashi for sharing the
+                        images of this manuscript with me.</hi></p>
+                <p>MS<hi rend="superscript"
+                        >1624</hi><hi> A Beth Gazo in Library of the Syriac
+                        Orthodox Archdiocese of the Eastern United States, Paramus, NJ, originally
+                        from St. Mark’s library, Jerusalem. The scribe began in 1624 and came back
+                        to complete the MS in 1651 (the Šḥimo portion is at the beginning of the
+                        MS).</hi>
+                </p>
+                <p>MS<hi rend="superscript"
+                        >Kiraz</hi><hi> A Šḥimo scribed by Giragos, son of
+                        Daoud (Kiraz), 1900, in the G. A. Kiraz private collection.</hi></p>
+                <p>Two of the canonical hours, Ramšo and Ṣaphro, are set apart by their length, not
+                    only by the textual length of hymns but rather their inclusion of elements
+                    absent in the other hours. I dub Ramšo and Ṣaphro as Major Hours, while all the
+                    others as Minor Hours. The following table gives the elements found in each
+                    type.</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: center;" cols="2"><hi rend="bold">I. Major
+                                Hours<lb/>(Ramšo &amp; Ṣaphro)</hi></cell>
+                        <cell style="text-align: center;" cols="2"><hi rend="bold">II. Minor
+                                Hours<lb/>(Sutoro, Lilyo, 3</hi><hi rend="bold superscript"
+                                >rd</hi><hi rend="bold">, 6</hi><hi rend="bold superscript"
+                                >th</hi><hi rend="bold">, &amp; 9</hi><hi rend="bold superscript"
+                                >th</hi>
+                            <hi rend="bold">Hrs)</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.1</cell>
+                        <cell style="text-align: left;">Opening Prayer</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.2</cell>
+                        <cell style="text-align: left;">Psalms</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.3 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Shubḥo in ʿEqbo</cell>
+                        <cell style="text-align: left;">II.1</cell>
+                        <cell style="text-align: left;">ʿEqbo (Lilyo <hi rend="italic">qawme</hi>
+                            only)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.4</cell>
+                        <cell style="text-align: left;">Ḥusoyo I</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.5 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Qolo of Incense (odd number of
+                            stanzas)</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.6</cell>
+                        <cell style="text-align: left;">Prayer of Incense</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.7 <foreign xml:lang="syr">ܒ</foreign></cell>
+                        <cell style="text-align: left;">Qolo after Incense (odd)</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.8 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Quqalion (even)</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.9 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Shubḥo in ʿEqbo</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.9</cell>
+                        <cell style="text-align: left;">Ḥusoyo II</cell>
+                        <cell style="text-align: left;">II.2</cell>
+                        <cell style="text-align: left;">Ḥusoyo</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.10 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Qolo of Ramšo/Ṣaphro (even)</cell>
+                        <cell style="text-align: left;">II.3</cell>
+                        <cell style="text-align: left;">Qolo (even)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">I.11 <foreign xml:lang="syr">ܐ</foreign></cell>
+                        <cell style="text-align: left;">Boʿutho (even)</cell>
+                        <cell style="text-align: left;">II.4</cell>
+                        <cell style="text-align: left;">Boʿutho (even)</cell>
+                    </row>
+                </table>
+                <p>As can be seen above, the schema of the Minor Hours is basically the tail of the
+                    Major Hours. The relevance of odd/even stanzas and the sigla <foreign xml:lang="syr">ܐ</foreign> and <foreign xml:lang="syr">ܒ</foreign> are discussed
+                    in the appendix. </p>
+                <p><hi rend="bold">I.1</hi> A Major Hour service, i.e., Ramšo or Ṣaphro, commences
+                    with <foreign xml:lang="syr">ܨܠܘܬܐ ܕܫܘܪܝܐ</foreign>
+                    or an opening prayer. The texts of this prayer—or even any indication of its
+                    existence—are absent in O<hi rend="superscript">ZJH</hi>. This is indeed one of
+                    the difficulties of determining the schemas of liturgical prayers without
+                    knowing the practice itself. Texts typically do not indicate fixed aspects of
+                    the liturgy. But we can be sure that the opening prayer is not a Malankara
+                    characteristic (O<hi rend="superscript">K</hi>) or a Catholic addition (C). It
+                    is indeed mentioned by Jacob of Bartelleh (d. 1241) concerning the Ramšo, Lilyo,
+                    and Ṣaphro hours.<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text"> Mar Severios Yacoub Albartali, p.
+                        108-110.</p></note></p>
+                <p><hi rend="bold">I.2</hi> Then follows a recitation of a psalm. It should be
+                    stressed that “a Psalm” does not correspond to our modern Psalm divisions. An
+                    ecclesiastical Psalm usually corresponds to one or more Psalms of the modern
+                    divisions, and not always contiguously.<note place="foot" xml:id="ftn23" n="23"
+                            ><p rend="footnote text"> Ramšo Ps. 140/141, 141/142, 118/119:105–112,
+                            116/117 (simple); Ṣaphro Ps. 51 (simple), 63 (in ʿEnyoyo), and 113/158
+                            (simple).</p></note> A psalm may be recited in two different manners: 1)
+                        <foreign xml:lang="syr">ܦܫܺܝܛܳܐܺܝܬ</foreign>
+                    “simply” where the psalm is recited continuously by one or more deacons, one
+                    “verse” after the next (again, “verse” does not correspond to modern divisions),
+                    or 2) <foreign xml:lang="syr">ܒܥܶܢܝܳܢܳܐ</foreign>
+                    “in response” where a response follows each “verse” of the psalm in the form of
+                    a hymn stanza. There is disagreement with regards to the Ramšo psalm: O<hi
+                        rend="superscript">ZJH</hi> prefixes the actual psalm text with <foreign xml:lang="syr">ܥܶܢܝܳܢܳܐ ܕܪܰܡܫܳܐ</foreign>
+                    , but provides no hymn for the <foreign xml:lang="syr">ܥܶܢܝܳܢܳܐ</foreign>, while C
+                    explicitly states that the psalm is recited <foreign xml:lang="syr">ܦܫܺܝܛܳܐܺܝܬ</foreign>
+                    “simply,” and hence does not require a <foreign xml:lang="syr">ܥܶܢܝܳܢܳܐ</foreign> hymn.
+                        MS<hi rend="superscript">1624</hi> and MS<hi rend="superscript">Kiraz</hi>
+                    agree with O<hi rend="superscript">ZJH</hi>.</p>
+                <p><hi rend="bold">I.3</hi> Then follows a <foreign xml:lang="syr">ܥܶܩܒܳܐ</foreign> (ʿEqbo),
+                    literally “footstep, heel,” metaphorically meaning “to follow.” The ʿEqbo is
+                    always prefixed with a Gloria, <foreign xml:lang="syr">ܫܽܘܒܚܳܐ ܠܰܐܒܳܐ ܘܠܰܒܪܳܐ
+                        ܘܰܠܪܽܘܚܳܐ ܩܰܕܺܝܫܳܐ</foreign> “praise to the Father, the Son, and the Holy
+                    Spirit,” recited by the most senior priest present. Elsewhere, the Mosul
+                    Phenqitho dubs this formula with <foreign xml:lang="syr">ܫܽܘܒܳܚܳܐ</foreign> “i.e.
+                    saying the <foreign xml:lang="syr">ܫܽܘܒܚܳܐ</foreign>.” The Šuboḥo is followed by <foreign xml:lang="syr">ܡܶܢ ܥܳܠܰܡ ܘܰܥܕܰܡܳܐ
+                        ܠܥܳܠܰܡ ܥܠܳܡܺܝܢ ܐܰܡܺܝܢ</foreign> “from now and forever, and ever, Amen,” recited
+                    by the <hi rend="italic">gudo</hi>. The rubric <foreign xml:lang="syr">ܫܘܒ ܘܥܩܒܐ</foreign> denotes
+                    this entire exchange in O<hi rend="superscript">ZJH,</hi> and the rubric <foreign xml:lang="syr">ܫܘܒ ܘܡܢ ܒܥܩܒܐ</foreign> in
+                    C. The three <hi rend="italic">qawme</hi> of Lilyo also begin with a ʿEqbo
+                    (II.1).</p>
+                <p>Parenthetically, we know of (a now humorous) squabble over the Šuboḥo. It took
+                    place in 1771 at the beginning of the Orthodox-Catholic split within the Syriac
+                    Orthodox Church. The Syriac Orthodox Patriarch George IV entered the church in
+                    Aleppo while a local priest, Joseph Hajjār, was already celebrating the liturgy.
+                    It seems that Joseph had just joined the Catholic party. At the time of the
+                    Šuboḥo, Joseph chanted the <foreign xml:lang="syr">ܫܽܘܒܚܳܐ ܠܰܐܒܳܐ</foreign>
+                    phrase even though the Patriarch—the highest-ranking priest—was present. The
+                    Patriarch was quite annoyed and shouted at the priest in Arabic, <foreign xml:lang="ar">ورك انت تعطي
+                        شبح وما تعرف من في واقف</foreign> “Hey! You say the Šuboḥo? Don’t you know who is
+                    standing here?”<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">
+                            MS Sbath 131, f. 48r; I am grateful to Feraz Krimsti for pointing out
+                            this document.</p></note></p>
+                <p><hi rend="bold">I.4</hi> Then follows the first Sedro, whose schema is best
+                    described separately as this genre occurs in other liturgical texts.</p>
+                <p><hi rend="bold">I.5</hi> The Sedro is followed by the First Qolo, or Qolo before
+                    Incense. In MS<hi rend="superscript">1624</hi> and MS<hi rend="superscript"
+                        >Kiraz</hi>, it is called the First Qawmo. The Qolo for the Ramšo of Monday
+                    in the modern editions begins with four introductory stanzas, followed by four
+                    stanzas for the Mother of God, another four for the saints, another four for
+                    repentance, and one (four in O<hi rend="superscript">K</hi>) for the departed.
+                    Other days may have different themes (to be discussed below), but all begin,
+                    after the introductory stanzas, with the Mother of God and end with the
+                    departed. Some stanzas are prefixed with a <foreign xml:lang="syr">ܦܶܬܓܳܡܳܐ</foreign>
+                    (Phethghomo), a portion of a verse from the Psalms. </p>
+                <p><hi rend="bold">I.6</hi> Then follows the Prayer of Incense. This prayer may go
+                    back to the seventh century or even earlier. Bar ʿEbroyo quotes Jacob of Edessa
+                    (d. 708), saying, “even if the time of the morning or evening prayer comes and
+                    there is no incense, perform, O priest, the prayers without incense.” It is
+                    mentioned more explicitly by Jacob of Bartilleh.<note place="foot"
+                        xml:id="ftn25" n="25"><p rend="footnote text"> Mar Severios Yacoub
+                            Albartali, p. 108.</p></note> Prior to this prayer, the deacon chants
+                    the phrase <foreign xml:lang="syr">ܡܳܪܝܳܐ
+                        ܡܪܰܚܡܳܢܳܐ ܪܰܚܶܡ ܥܠܰܝܢ ܘܥܰܕܰܪܰܝܢ</foreign> “Merciful Lord, have mercy upon and us
+                    and help us,” which is only preserved in the oral tradition.</p>
+                <p>As far as I can tell, the entire Prayer of Incense is omitted in all the received
+                    traditions. There is an implicit mention of it in O<hi rend="superscript">K</hi>
+                    as the previous Qolo (I.5) is called the Qolo of Incense, and the following Qolo
+                    (I.7) is called the Qolo after Incense; additionally, the two Qole are separated
+                    by the word <foreign xml:lang="syr">ܡܳܪܝܳܐ</foreign> which starts the oral phrase mentioned above. There is no
+                    indication of the Prayer of Incense in O<hi rend="superscript">ZJH</hi>; the
+                    preceding Qolo is simply called the First Qolo, and the following is the Second
+                    Qolo. MS<hi rend="superscript">Osaka</hi> supports O<hi rend="superscript"
+                        >K</hi>; Both MS<hi rend="superscript">1624</hi> and MS<hi
+                        rend="superscript">Kiraz</hi> are silent on the matter. This prayer is
+                    explicitly mentioned in C, giving the full text of the prayer.</p>
+                <p><hi rend="bold">I.7</hi> Then comes the Second Qolo, or Qolo after Incense. It
+                    has a similar structure as I.5. </p>
+                <p><hi rend="bold">1.8</hi> Then follows the Quqalion. It consists of short Psalm
+                    verses interspersed with Hallelujah. </p>
+                <p><hi rend="bold">1.9</hi> Next comes a second ʿEqbo.</p>
+                <p><hi rend="bold">1.10</hi> A Second Sedro follows. But it is almost always omitted
+                    in the received tradition.</p>
+                <p><hi rend="bold">1.11</hi> Then follows a third Qolo. Depending on the service, it
+                    is called the Qolo of Ramšo or Ṣaphro. It consists in the modern editions of
+                    four stanzas only.</p>
+                <p><hi rend="bold">1.12</hi> The service ends with a Boʿutho. It is always a <hi
+                        rend="italic">mimro</hi> (metrical poem) composed either in the meter of St.
+                    Jacob of Sarug (12 syllables per strophe), St. Ephrem (7 syllables per strophe),
+                    or St. Balai (5-syllables per strophe). The Mimro begins with a <foreign xml:lang="syr">ܫܽܘܪܳܝܳܐ</foreign>
+                    consisting of two strophes, each sung by a <hi rend="italic">gudo</hi>, and ends
+                    in a <foreign xml:lang="syr">ܫܽܘܠܳܡܳܐ</foreign> or
+                        <foreign xml:lang="syr">ܬܒܳܪ̈ܳܬܳܐ</foreign>
+                    which, like the <foreign xml:lang="syr">ܫܽܘܪܳܝܳܐ</foreign>, are two strophes. The main body consists of an even number
+                    of stanzas. A multi-theme Boʿutho is marked as <foreign xml:lang="syr">ܓܰܘܳܢܳܝܳܐ</foreign>
+                    “general” and covers four themes: Mary, the saints, repentance, and the
+                    departed; in such a case, it is chanted in its entirety (i.e., stanzas cannot be
+                    skipped in order not to skip a theme).</p>
+                <p style="text-align: center;">܀</p>
+                <p>Akhrass<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"> Personal
+                            communication, 5/19/2022.</p></note> observed that the schema of the
+                    Major hours could be roughly divided into two <hi rend="italic">qawme</hi>,
+                    duplicating an almost exact structure: the first qawmo consisting of I.2–I.7 and
+                    the second qawmo consisting of I.8–I.11. This point becomes apparent when one
+                    considers that the Quqalion (I.8) consists of Psalm verses (cf. I.2). The ʿEṭro
+                    (I.6) becomes the only element found in the first <hi rend="italic">qawmo</hi>,
+                    but not in the second. Only the first qawmo has an Opening Prayer (I.1). This
+                    general schema of a service (Syriac <foreign xml:lang="syr">ܬܶܫܡܶܫܬܳܐ</foreign>) is
+                    prevalent in all church rites.</p>
+                <p>The Minor Hours simply consist of a Sedro, Qolo, and Boʿutho. C begins the Sutoro
+                    with Ps 4, followed by a fixed ʿEqbo. These are absent in O<hi
+                        rend="superscript">ZJH</hi>, MS<hi rend="superscript">1624,</hi> and MS<hi
+                        rend="superscript">Kiraz</hi>.</p>
+                <p>Before leaving this section, one needs to mention the schema of the <foreign xml:lang="syr">ܡܥܺܝܪܳܢܳܐ</foreign>
+                    (Mʿirono), which precedes the first Qawmo of Lilyo. It begins with the Prayer of
+                    Mʿirono, sometimes called the Opening Prayer, followed by Ps. 133/134,
+                    118/9:169-176, 116/7 recited in ʿEnyono. Then follows the Prayer after Mʿirono,
+                    itself prefixed with Kyrie-eleison three times. Both prayers are attested in
+                        MS<hi rend="superscript">1624</hi>.</p>
+            </div>
+            <div  xml:id="h25n2kiraz.5" xml:lang="en">
+                <head>IV. Ḥusoyo Schema</head>
+                <p><hi rend="bold">I.4</hi> The prayer of Ḥusoyo is
+                    mentioned by Jacob of Barelleh as one of the elements in the Liturgy of the
+                        Hours.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"> Mar
+                            Severios Yacoub Albartali, p. 108.</p></note> The Ḥusoyo is a prose text
+                    that consists of two main parts, a <foreign xml:lang="syr">ܦܪܽܘܡܝܽܘܢ</foreign>
+                    (Promion), a Greek loanword meaning “preface,” and a longer <foreign xml:lang="syr">ܣܶܕܪܳܐ</foreign> (Sedro)
+                    “list, array, items in a specific order.” While manuscripts—and printed
+                    texts—typically give just these two elements, the entire Ḥusoyo consists of more
+                    elements preserved only orally. These are outlined in the schema below.</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;"><hi rend="bold">Part</hi></cell>
+                        <cell style="text-align: center;"><hi rend="bold">Speaker</hi></cell>
+                        <cell style="text-align: center;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ1</cell>
+                        <cell style="text-align: center;">Proclamation</cell>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: center;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ1a</cell>
+                        <cell style="text-align: right;"/>
+                        <cell style="text-align: left;">Deacon:</cell>
+                        <cell style="text-align: left;">Stomen Kalos (Let us stand well)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ1b</cell>
+                        <cell style="text-align: right;"/>
+                        <cell style="text-align: left;">People:</cell>
+                        <cell style="text-align: left;">Kyrie eleison</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ2</cell>
+                        <cell style="text-align: left;">Šuroyo:</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ2a</cell>
+                        <cell style="text-align: right;"/>
+                        <cell style="text-align: left;">Priest:</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܢܨܠܐ ܟܠܢ</foreign> ...</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ2b</cell>
+                        <cell style="text-align: right;"/>
+                        <cell style="text-align: left;">People:</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܡܪܝܐ ܡܪܚܡܢܐ</foreign> ...</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ2c</cell>
+                        <cell style="text-align: right;"/>
+                        <cell style="text-align: left;">Priest:</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܫܒܘܚܬܐ ܘܬܘܕܝܬܐ</foreign> ...</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ3</cell>
+                        <cell style="text-align: left;">Promion</cell>
+                        <cell style="text-align: left;">Priest:</cell>
+                        <cell style="text-align: left;"><hi rend="italic">text</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ4</cell>
+                        <cell style="text-align: left;">Mḥasyono</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi rend="italic">Ḥ4a</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">Bishop (if present):</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܥܠ ܥܛܪܐ ܕܒܣ̈ܡܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi rend="italic">Ḥ4b</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">Priest</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܡܚܣܝܢܐ ܗܟܝܠ ܡܕܟܝܢܐ</foreign> ...</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi rend="italic">Ḥ4c</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">People:</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܐܡܝܢ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ5</cell>
+                        <cell style="text-align: left;">Sedro</cell>
+                        <cell style="text-align: left;">Deacon:</cell>
+                        <cell style="text-align: left;"><hi rend="italic">text</hi> (prefixed with
+                                <foreign xml:lang="syr">ܒܪܟܡܪܝ</foreign>)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ḥ6</cell>
+                        <cell style="text-align: left;">Qubolo</cell>
+                        <cell style="text-align: left;">Priest:</cell>
+                        <cell style="text-align: right;"><foreign xml:lang="syr">ܡܢ ܐܠܗܐ ܢܩܒܠ</foreign> ...</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">People:</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܐܡܝܢ</foreign></cell>
+                    </row>
+                </table>
+                <p><hi rend="bold" style="font-size:10pt">Ḥ1</hi> The entire thing commences with
+                    the deacon proclaiming a Greek loan phrase, <foreign xml:lang="syr">ܣܛܰܘܡܶܢ ܩܰܐܠܳܘܣ</foreign>
+                        (<hi style="font-size:10pt">Ḥ</hi>1a), which corresponds to the Syriac
+                    liturgical phrase <foreign xml:lang="syr">ܢܩܽܘܡ ܫܰܦܺܝܪ</foreign> “let us stand well.” The people are to respond with the
+                    Greek loan <foreign xml:lang="syr">ܩܽܘܪܝܶܠܰܝܣܳܘܢ</foreign>
+                    <hi rend="italic">keyrieleson</hi>
+                    <hi style="font-size:10pt">(Ḥ</hi>1b), which also corresponds to a Syriac
+                    liturgical phrase, <foreign xml:lang="syr">ܡܳܪܰܢ ܐܶܬܪܰܚܰܡ ܥܠܰܝܢ</foreign> . These could have entered Syriac from Greek
+                    during the Byzantine reconquest of Asia Minor in the tenth century. Apart from
+                    the Malankara tradition, <hi style="font-size:10pt">Ḥ</hi>1a and <hi
+                        style="font-size:10pt">Ḥ</hi>1b are collapsed. A single deacon chants them
+                    as one unit. It is not clear when this occurred. M<hi rend="superscript"
+                        >1624</hi> already gives the entire thing without space, <foreign xml:lang="syr">ܣ‍ܛܽܘܡܝܢܩܲܠܘܿܣܩܘܪܝܠܠܝ܏ܣ</foreign>.<note place="foot" xml:id="ftn28" n="28"><p
+                            rend="footnote text"> For further discussion on this phrase, see G.
+                            Kiraz, “A Proclamation Out of Place, ‘Stomen Kalos, Kyrie-Eleison’ and
+                            the Nicene Creed.” In <hi rend="italic">Ktheeboth hago</hi>: <hi
+                                rend="italic">Festschrift in Honour of His Holiness Ignatius Zakka I
+                                Iwas</hi>, ed. Roy Thomas, 417–31. Chicago: St. George Syrian
+                            Orthodox Church of Malankara, 2005.</p></note>
+                </p>
+                <p><hi rend="bold" style="font-size:10pt">Ḥ2</hi> The oral portions continue with
+                    the Šuroyo (I borrow the term from Mushe of Mardin, see below). The priest
+                    proclaims <foreign xml:lang="syr">ܢܨܰܠܶܐ ܟܽܠܰܢ
+                        ܘܪ̈ܰܚܡܶܐ ܘܰܚܢܳܢܳܐ ܡܶܢ ܡܳܪܝܳܐ ܢܶܒܥܶܐ</foreign> “let us all pray and beseech the
+                    Lord for mercy and compassion” (<hi style="font-size:10pt">Ḥ</hi>2a) to which
+                    the faithful respond with <foreign xml:lang="syr">ܡܳܪܝܳܐ ܡܪܰܚܡܳܢܳܐ ܪܰܚܶܡ
+                        ܥܠܰܝܢ ܘܥܰܕܰܪܰܝܢ</foreign> “Merciful Lord, have mercy upon us and help us” (<hi
+                        style="font-size:10pt">Ḥ</hi>2b). The priest then recites (<hi
+                        style="font-size:10pt">Ḥ</hi>2c),</p>
+                
+                <cit>
+                    <quote>
+                        <p xml:lang="syr"><foreign xml:lang="syr">ܬܶܫܒܽܘܚܬܳܐ ܘܬܰܘܕܺܝܬܳܐ ܘܗܶܕܪܳܐ ܘܩܽܘܠܳܣܳܐ
+                        ܘܪܽܘܡܪܳܡܳܐ ܛܳܒܳܐ ܕܠܳܐ ܒܳܛܶܠ ܐܰܡܺܝܢܳܐܺܝܬ ܒܟܽܠܙܒܰܢ ܘܰܒܟܽܠܥܶܕܳܢ ܢܶܫܬܘܶܐ
+                        ܕܢܰܣܶܩ.</foreign></p>
+                <p>May we be worthy to
+                        offer up continually, at all the time and in all seasons, praise,
+                        thanksgiving, glory, adoration, and never-ceasing exaltation.</p>
+                </quote>
+                </cit>
+                
+                <p>In the received tradition, apart from Malankara, the
+                    entirety of <hi style="font-size:10pt">Ḥ</hi>2 is collapsed into one element and
+                    is chanted by the priest alone. If a bishop is present, he recites the entire
+                    thing.</p>
+                <p>But one must pause here and question if the received tradition is a corruption of
+                    an earlier tradition. Is it possible that <hi style="font-size:10pt">Ḥ3</hi> was
+                    initially assigned to the deacon? The use of the jussive, expressed in the
+                    prefixed (imperfect) form <foreign xml:lang="syr">ܢܨܰܠܶܐ</foreign> is typical
+                    in proclamations made by the deacon. It is ubiquitous in the Qurobo, or
+                    Eucharistic, liturgy. Before the reading of the Gospel, the deacon proclaims, in
+                    the jussive, <foreign xml:lang="syr">ܢܨܽܘܬ
+                        ܘܢܶܫܡܰܥ ܠܰܣܒܰܪܬܳܐ ܕܡ̈ܶܠܶܐ ܚܰܝ̈ܳܬܳܐ</foreign> “let us give heed and listen to the
+                    Gospel full of life.” His subsequent proclamation in the pre-Anaphora is the
+                    exact words of <hi style="font-size:10pt">Ḥ</hi>2a, just after he declares to
+                    the faithful that the celebrating priest is placing incense “before the merciful
+                    Lord” (<foreign xml:lang="syr">ܩܕܳܡ ܡܳܪܝܳܐ
+                        ܡܪܰܚܡܳܢܳܐ</foreign> ). Here too, the faithful respond with the exact words of <hi
+                        style="font-size:10pt">Ḥ</hi>2b. The deacon’s subsequent proclamation is
+                    just before the recitation of the creed, again with a jussive, <foreign xml:lang="syr">ܢܩܽܘܡ ܫܰܦܺܝܪ ܟܽܠܰܢ
+                        ܒܰܨܠܽܘܬܳܐ</foreign> “let us all stand well in prayer.” At the beginning of the
+                    Anaphora proper, the deacon instructs the faithful, again in the jussive, <foreign xml:lang="syr">ܢܶܬܶܠ ܫܠܳܡܳܐ
+                        ܠܰܚ̈ܕܳܕܶܐ</foreign> “let us give peace to one another” and right after the giving
+                    of the peace, <foreign xml:lang="syr">ܩܕܳܡ
+                        ܡܳܪܝܳܐ ܡܪܰܚܡܳܢܳܐ ܪ̈ܺܝܫܰܝܢ ܢܰܪܟܶܢ</foreign> “let us bow down our head in front of
+                    the merciful Lord.” The thurifer also uses the jussive when calling upon the
+                    people, <foreign xml:lang="syr">ܢܩܽܘܡ
+                        ܫܰܦܺܝܪ</foreign> “let us stand well.” During the diptychs, deacons instruct the
+                    faithful, <foreign xml:lang="syr">ܢܨܰܠܶܐ
+                        ܘܢܶܬܟܰܫܰܦ</foreign> “let us pray and beseech” and later <foreign xml:lang="syr">ܠܡܳܪܝܳܐ ܢܶܬܟܰܫܰܦ</foreign>
+                    “let us beseech the Lord.” With almost every proclamation, there is a response
+                    by the people. H2a must have once belonged to the deacon rather than the priest,
+                    let alone the bishop.</p>
+                <p>While the Šuroyo never appears in manuscripts or printed editions, we know about
+                    it—and indeed its text—from Mushe of Mardin, the monk who traveled to Europe to
+                    print the New Testament in 1555. After collaborating with Johann Albrecht
+                    Widmanstad (1506–1557) to produce the <hi rend="italic">editio princeps</hi> of
+                    the NT, the two men put together a primer for the Syriac language.<note
+                        place="foot" xml:id="ftn29" n="29"><p rend="footnote text"> Widmanstad [and
+                            Mushe of Mardin], <hi rend="italic">Primo Elementa</hi>
+                        (1555).</p></note> After introducing the alphabet with some exercises, they
+                    published a few prayers for which Mushe must have been the source. A Ḥusoyo is
+                    given with the full text of the Šuroyo. It is most likely that Mushe included
+                    the text of the Šuroyo explicitly, as Europeans would not be familiar with the
+                    oral elements of the liturgy.</p>
+                <p><hi rend="bold" style="font-size:10pt">Ḥ</hi><hi rend="bold">3,5</hi> The Promion
+                        (<hi style="font-size:10pt">Ḥ</hi>3) and the Sedro (<hi
+                        style="font-size:10pt">Ḥ</hi>5) are the only elements known from the written
+                    text. The two elements form a set, the former recited by the priest and the
+                    latter by the deacon. In the case of the Šḥimo, an appendix contains all the
+                    Ḥusoyo texts in the form of Promion-Sedro pairs. One cannot read a Promion of
+                    one Ḥusoyo and follow it with the Sedro of another.</p>
+                <p><hi rend="bold" style="font-size:10pt">Ḥ</hi><hi rend="bold">4</hi> The <foreign xml:lang="syr">ܡܚܰܣܝܳܢܳܐ</foreign>
+                    (Mḥasyono) is interspersed between the Promion and the Sedro only if the deacon
+                    offers incense and is usually omitted in the daily offices. This text is long
+                    and survives orally. Here too, Mushe of Mardin gives us a version of the
+                    text.</p>
+                <p>The Mḥasyono is prefixed with the phrase <foreign xml:lang="syr">ܥܰܠ ܥܶܛܪܳܐ
+                        ܕܒܶܣ̈ܡܶܐ</foreign> “by the fragrance of incense” (<hi style="font-size:10pt"
+                        >Ḥ</hi>4a), chanted by the bishop if present. It is more likely that this
+                    phrase is associated with the action of placing incense in the censor by the
+                    highest-ranking priest, which would explain why the bishop would say this phrase
+                    if present.</p>
+                <p><hi rend="bold" style="font-size:10pt">Ḥ6</hi> After the recitation of the Sedro,
+                    the highest-ranking priest recites the <foreign xml:lang="syr">ܩܽܘܒܳܠܳܐ</foreign>
+                    (Qubolo), the formula being <foreign xml:lang="syr">ܡܶܢ ܐܰܠܳܗܳܐ ܢܩܰܒܶܠ
+                        ܚܽܘܣܳܝܳܐ ܕܚܰܘܒ̈ܶܐ ܘܫܽܘܒܩܳܢܳܐ ܕܰܚܛܳܗ̈ܶܐ ܒܰܬܪ̈ܰܝܗܽܘܢ ܥܳܠ̈ܡܶܐ ܠܥܰܠܰܡ
+                        ܥܳܠܡܺܝܢ</foreign> “May we receive from God remission of debts and forgiveness of
+                    sings in both worlds, forever and ever.” Jacob of Bartilleh mentions the Qubolo
+                    when he refers to the Sedro of the Lilyo hour.<note place="foot" xml:id="ftn30"
+                        n="30"><p rend="footnote text"> Mar Severios Yacoub Albartali, p.
+                        110.</p></note></p>
+                <p>The entirety of the Ḥusoyo is delivered today in three different methods. At Mor
+                    Gabriel Monastery, southeast Turkey, the entire thing is recited <hi
+                        rend="italic">explicitly</hi> in some hours, especially those of Lilyo. In
+                    many of the Tur Abdin parishes, and those in the Diaspora that originate from
+                    Tur Abdin, the Ḥusoyo (Šuroyo + Promion + Sedro) is recited in <hi rend="italic"
+                        >silence</hi> by a priest while the <hi rend="italic">gudo</hi> goes on with
+                    what follows. In most parishes, the entire Sedro is <hi rend="italic"
+                        >omitted</hi>, but the proclamation Ḥ1 is retained as part of chanting the
+                    adjacent hymns.</p>
+            </div>
+            <div  xml:id="h25n2kiraz.6" xml:lang="en">
+                <head>V. Qolo Schema</head>
+                <p>It is worth providing some comments on the structure of the
+                    Qolo. A Qolo is basically a stanzaic poem (kind of a Madrosho) with a specific
+                    metrical structure. The basic unit is the syllable or vowel count, called in
+                    Syriac <foreign xml:lang="syr">ܗܶܓܝܳܢܳܐ</foreign>.
+                    Stress does not play any role in Syriac poetry because Syriac syllables are all
+                    of the same weight (bimoraic) as unstressed short vowels in open syllables
+                    (which would be monomoraic) are absent.</p>
+                <p>The next unit is the poetic phrase denoted by an unmarked caesura, a break or a
+                    pause in a line of verse. The poetic phrase is bound because it cannot stand
+                    alone in a line. Typically, long lines of seven or more syllables have such
+                    caesurae. Syriac does not have a technical term for the poetic phrase, and some
+                    poets are unaware of it. For example, it is commonly known that the <hi
+                        rend="italic">qolo</hi>
+                    <foreign xml:lang="syr">ܥܰܡܳܐ ܘܥܰܡ̱̈ܡܶܐ</foreign>
+                    —used often in dialog poems—consists of lines with seven syllables each. It is
+                    less known that each line consists of two poetic phrases, 4+3 syllables, for the
+                    melody to work smoothly. There is sometimes an intended discourse between the
+                    poetic phrases. The next unit after the line is the stanza itself. This point is
+                    illustrated with the qolo named <foreign xml:lang="syr">ܩܽܘܩܳܝܳܐ</foreign> whose
+                    meter, given from right to left, is:</p>
+                
+                <cit>
+                    <quote>
+                        <p>5+4 5+7 5+7 5+4 5+4 5+7 4+7</p>
+                    </quote>
+                </cit>
+                
+                <p>Here is an actual stanza. I use the punctuation ‘<foreign xml:lang="syr">܇</foreign>’ to denote a
+                    caesura break. A colon denotes a line break. A period denotes the end of a
+                    melodic section (to be discussed next). </p>
+                
+                <cit>
+                    <quote>
+                        <p rend="Quote"><foreign xml:lang="syr">ܫܽܘܪܳܝܳܐ</foreign><foreign xml:lang="syr">: ܟܽܠܳܗ̇ ܐܰܪܥܳܐ
+                        ܕܶܐܦܶܣܳܘܣ܇ ܛܰܠܳܐ ܪܶܣܡܰܬ݂:</foreign> 4+7</p>
+                <p xml:lang="en"
+                    ><foreign xml:lang="syr">	ܟܰܕ݂ ܐܰܝܬܺܝ ܡܳܪܝ̱ ܝܽܘܚܰܢܳܢ܇ ܟܬ݂ܳܒ̈ܶܐ ܕܰܒܬ݂ܽܘܠܬܳܐ. </foreign>
+                    5+7</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܡܶܨܥܳܝܳܐ</foreign><foreign xml:lang="syr">: ܕܰܪܫܺܝܡ ܗ̱ܘܳܐ ܒܗܽܘܢ܇
+                        ܕܢܶܗܘܶܐ ܕܽܘܟ݂ܪܳܢܳܐ:</foreign> 5+4</p>
+                <p xml:lang="en"><foreign xml:lang="syr">
+                        ܕܰܡܒܰܪܰܟ݂ܬܳܐ܇ ܬܠܳܬ݂ ܙܰܒ̈ܢܺܝܢ ܒܫܰܢ̱ܬܳܐ.</foreign> 5+4</p>
+                <p xml:lang="en"><foreign xml:lang="syr">ܫܽܘܠܳܡܳܐ</foreign><foreign xml:lang="syr">: ܒܟܳܢܽܘܢ ܢܶܗܘܶܐ ܥܰܠ
+                        ܙܰܪ̈ܥܶܐ܇ ܘܒܺܐܝܳܪ ܥܰܠ ܫܶܒ̈ܠܶܐ:</foreign> 5+7</p>
+                <p xml:lang="en"><foreign xml:lang="syr"> ܘܒܳܐܒ
+                        ܝܰܪܚܳܐ ܡܶܛܽܠ ܓܽܘ̈ܦܢܶܐ܇ ܕܐ̱ܪܳܙ ܚܰܝ̈ܶܐ ܨܺܝܪ ܒܗܶܝܢ:</foreign> 5+7</p>
+                <p xml:lang="en"> ܗܰܠܶܠܽܘܝܰܗ܇ ܨܠܽܘܬ݂ܳܗ̇ ܬܥܰܕܰܪܝ̱ ܠܰܢ. 5+4</p>
+                    </quote>
+                </cit>                
+                <p>The musical layer adds another complication. Each stanza consists of a <foreign xml:lang="syr">ܫܽܘܪܳܝܳܐ</foreign>
+                    “beginning,” an optional <foreign xml:lang="syr">ܡܶܨܥܳܝܳܐ</foreign>
+                    “middle,” and a <foreign xml:lang="syr">ܫܽܘܠܳܡܳܐ</foreign> “end.” Typically, the poetic (and melodic in the case of
+                    chanting) structure of the <foreign xml:lang="syr">ܫܽܘܪܳܝܳܐ</foreign> and <foreign xml:lang="syr">ܫܽܘܠܳܡܳܐ</foreign> is
+                    either exact or very similar. Notice that each poetic phrase corresponds to a
+                    grammatical phrase in terms of discourse. It is seldom that a grammatical phrase
+                    crosses over poetic phrases. A further melodic subdivision, not shown above,
+                    could split words. For instance, all 7-syllable caesurae are divided <hi
+                        rend="italic">melodically</hi> into 2+5 syllables. The boundary in line 2
+                    occurs in the middle of <foreign xml:lang="syr">ܐܰܝܬܺܝ</foreign><hi
+                        style="font-size:2pt"> </hi>:</p>
+                <cit>
+                    <quote>
+                        <p><foreign xml:lang="syr">ܟܰܕ݂ ܐܰܝـ  ـܬܺܝ ܡܳܪܝ̱ ܝܽܘܚܰܢܳܢ܇ ܟܬ݂ܳܒ̈ܶܐ ܕܰܒܬ݂ܽܘܠܬܳܐ. </foreign>
+                    5+(7 = 5 + 2)</p>
+                    </quote>
+                </cit>
+                <p>The same occurs with <foreign xml:lang="syr">ܝܰܪܚܳܐ</foreign> in line 6:</p>
+                <cit>
+                    <quote>
+                        <p><foreign xml:lang="syr">ܘܒܳܐܒ ܝܰܪ
+                        ܚܳܐ ܡܶܛܽܠ ܓܽܘ̈ܦܢܶܐ܇ ܕܐ̱ܪܳܙ ܚܰܝ̈ܶܐ ܨܺܝܪ ܒܗܶܝܢ:</foreign> 5+(7 = 5 + 2)</p>
+                    </quote>
+                </cit>
+                <p>Such subdivisions could vary across regional musical traditions, a topic that is
+                    beyond the scope of the current paper. </p>
+            </div>
+            <div  xml:id="h25n2kiraz.7" xml:lang="en">
+                <head>VI. Hour Delimiters</head>
+                <p xml:lang="en">As a syntaxis consists of more than one hour, how
+                    does one determine where one hour ends and where the next begins?</p>
+                <p>Thus far, we have encountered elements known from two modalities: written and
+                    oral. A third modality, usually ignored in multimodal frameworks, is at play
+                    here: silence. Long pauses of silence—or what seems to be silence—mark the end
+                    of an hour and the beginning of the next.</p>
+                <p>But here, silence is associated with actions. In silence, the recitation of a
+                    Qawmo is associated with making the sign of the cross a few times. Until quite
+                    recently—around the end of the twentieth century—the silence was sometimes a
+                    form of incoherent mumbling. In the last decade or two, especially during events
+                    when many of the faithful are present, the mumbling turns into full-fledged oral
+                    action.</p>
+                <p>The <hi rend="italic">qawmo</hi> consists of the Trisagion (<foreign xml:lang="syr">ܩܰܕܺܝܫܳܬ ܐܰܠܗܳܐ</foreign>
+                    ...) followed by the Lord’s prayer (<foreign xml:lang="syr">ܐܰܒܽܘܢ ܕܒܰܫܡܰܝܳܐ</foreign>
+                    ...). The Trisagion is audible with specific melodies in some hours, but the
+                    Lord’s Prayer is silent. The only exception is the <hi rend="italic">qawme</hi>
+                    of Lilyo where the entire thing is replaced with <foreign xml:lang="syr">ܒܪܝܟ ܗܘ ܐܝܩܪܗ</foreign>
+                     ...
+                    which is mentioned by Jacob of Bartelleh.<note place="foot" xml:id="ftn31"
+                        n="31"><p rend="footnote text"> Mar Severios Yacoub Albartali, p.
+                        110.</p></note> The full texts of these delimiter prayers are given in
+                    Barsoum’s <hi rend="italic">al-Tuḥfa al-Rūḥiyya</hi>, a guide to the faithful in
+                    Arabic that has been translated into many languages.<note place="foot"
+                        xml:id="ftn32" n="32"><p rend="footnote text"> A. Barsoum, <hi rend="italic"
+                                >al-Tuḥfa al-Rūḥiyya</hi> (Aleppo, 1956, 5<hi rend="superscript"
+                                >th</hi> ed.), with many editions and translations.</p></note></p>
+            </div>
+            <div  xml:id="h25n2kiraz.8" xml:lang="en">
+                <head>VII. Themes</head>
+                <p>Before closing, it is worth noting the thematic
+                    organization of the Šḥimo. Each day/hour has a theme. These themes range from
+                    glorifying Mary (<foreign xml:lang="syr">ܝܳܠܕܰܬ ܐܰܠܳܗܳܐ</foreign> ), calling upon the apostles (<foreign xml:lang="syr">ܫܠܺܝܚ̈ܶܐ</foreign>), and
+                    sometimes the evangelists (<foreign xml:lang="syr">ܐܶܘܰܢܓܶܠܺܣ̈ܛܶܐ</foreign>),
+                    remembering the saints (<foreign xml:lang="syr">ܩܕܝ̈ܫܐ</foreign>)—or one
+                    particular saint (<foreign xml:lang="syr">ܚܰܕ
+                        ܩܢܽܘܡܳܐ</foreign> ), or remembering the martyrs (<foreign xml:lang="syr">ܣܳܗ̈ܕܶܐ</foreign>) and the
+                    departed (<foreign xml:lang="syr">ܥܰܢܺܝ̈ܕܶܐ</foreign>). Another theme is commemorating the cross (<foreign xml:lang="syr">ܨܠܺܝܒܳܐ</foreign>) during
+                    the resurrection season. Repentance (<foreign xml:lang="syr">ܬܝܳܒܽܘܬܳܐ</foreign>) is
+                    another central theme. A multi-theme hymn is called <foreign xml:lang="syr">ܓܰܘܳܢܳܝܬܳܐ</foreign>
+                    “general, common.” The table in Appendix 1 gives the days of the week, the
+                    hours, and the themes assigned to each hour.</p>
+                <p>In order to remember this complex arrangement, the Malphone came up with a poem,
+                    cited by Konat, that spells out the various themes,<note place="foot"
+                        xml:id="ftn33" n="33"><p rend="footnote text"> Konat ed., intro p.
+                        II.</p></note></p>
+                <cit>
+                    <quote xml:lang="syr">
+                        <l><foreign xml:lang="syr">ܝܽܘܡ ܚܰܕ ܒܫܰܒܳܐ ܕܰܩܝܳܡܬܳܐ܆ ܬܪܶܝܢ ܒܫܰܒܳܐ ܕܰܬܝܳܒܽܘܬܳܐ܆</foreign></l>
+                <l><foreign xml:lang="syr">ܘܗܳܟܘܳܬ ܒܰܬܠܳܬܳܐ ܒܫܰܒܳܐ܆ ܐܰܪܒܥܳܐ ܒܫܰܒܳܐ ܕܰܒܬܽܘܠܬܳܐ܀</foreign></l>
+                <l><foreign xml:lang="syr">ܚܰܡܫܳܐ ܒܫܰܒܳܐ ܕܰܫܠܺܝܚ̈ܶܐ܆ ܘܡܰܠ̈ܦܳܢܶܐ ܕܥܺܕܰܬ ܩܽܘܕܫܳܐ܆</foreign></l>
+                <l><foreign xml:lang="syr">ܥܪܽܘܒܬܳܐ ܕܰܨܠܺܝܒܳܐ ܚܰܝܳܐ܆ ܘܣܳܗ̈ܕܶܐ ܓܒ̈ܰܝܳܐ ܘܩܰܕܺܝ̈ܫܶܐ܀</foreign></l>
+                <l><foreign xml:lang="syr">ܝܽܘܡ ܫܰܒܬܳܐ ܕܶܐܬܬܢܺܝܚ ܡܳܪܝܳܐ܆ ܡܶܢ ܟܽܠܗܘܢ ܥܒܳܕܰܘ̈ܗ̱ܝ ܕܰܥܒܰܕ܆</foreign></l>
+                <l><foreign xml:lang="syr">ܕܟܳܗ̈ܢܶܐ ܙܗ̈ܰܝܳܐ ܘܩܰܕܺܝ̈ܫܶܐ܆ ܘܟܽܠܗܘܢ ܥܰܢܺܝ̈ܕܶܐ ܡܗܰܝ̈ܡܢܳܐ܀</foreign></l>
+                </quote>
+                </cit>
+                <cit>
+                    <quote xml:lang="en">
+                        <l>Sunday is for the Resurrection; Monday is for
+                        repentance;</l>
+                <l>Likewise on Tuesday (i.e., repentance); Wednesday for
+                        the Virgin.
+                </l>
+                <l>Thursday for the Apostles and the Doctors of the Holy
+                        Church;</l>
+                <l>Friday for the Living Cross and the chosen martyrs and
+                        the saints.</l>
+                <l>Saturday, during which the Lord rested from all the
+                        deeds that he accomplished, is for the reverend priests and the saints; and
+                        all the faithful departed.
+                </l>
+                    </quote>
+                </cit>
+                <p>This thematic structure also goes back to at least the beginning of the second
+                    millennium. Jacob of Bartelleh mentions that the Qolo of Sutoro is for
+                    repentance, agreeing with the above table.<note place="foot" xml:id="ftn34"
+                        n="34"><p rend="footnote text"> Mar Severios Yacoub Albartali, p.
+                        108</p></note> The themes of the Ramšo <hi rend="italic">Quqalion</hi> and
+                        <hi rend="italic">Boʿutho</hi> seem to represent an earlier thematic
+                    arrangement known from Bar Salibi’s treatise against the Melkites,<note
+                        place="foot" xml:id="ftn35" n="35"><p rend="footnote text"> A. Mingana, <hi
+                                rend="italic">Woodbrook I</hi>, p. 33.</p></note></p>
+                <p rend="Quote"><hi style="font-size:10pt">Sundays are consecrated to the festival
+                        of the Resurrection; Mondays and Tuesdays are devoted to prayers and
+                        repentance; Wednesdays are to the Mother of God, to the martyrs, and the
+                        dead; Thursdays to the Apostles and Doctors, to the Mother of God, to the
+                        martyrs, and to the dead; Fridays to the Cross; and Saturdays to the Mother
+                        of God, to the martyrs, and the dead.</hi></p>
+            </div>
+            <div  xml:id="h25n2kiraz.9" xml:lang="en">
+                <head>VIII. Concluding Remarks</head>
+                <p>This paper argues that the schema of the Šḥimo goes back to
+                    at least the early modern period (ca. 15<hi rend="superscript">th</hi> century)
+                    if not to the first quarter of the 2<hi rend="superscript">nd</hi> millennium,
+                    as many of its elements are mentioned by writers of the Syriac renaissance
+                    period. It has also been shown that a complete understanding of the liturgical
+                    genre requires a close familiarity with the received tradition, where the
+                    written text engages quite intimately with orality, not to mention silence.
+                    Indeed, the written-oral-silence interface has not been addressed by scholarship
+                    to the best of my knowledge.</p>
+                <p>Another remark also argues that “corruption” is part of a living tradition. It
+                    has been proposed, for example, that the Šuroyo of the Ḥusoyo prayer (viz., <foreign xml:lang="syr">ܢܨܠܐ
+                        ܟܠܢ</foreign>) must have belonged once to the deacon on the bases of philological
+                    analogy with the Qurobo liturgy.</p>
+                <p>Digital Humanities projects may find this study helpful in representing
+                    liturgical texts. Some snippets appear below.</p>
+            </div>
+            <div  xml:id="h25n2kiraz.10" xml:lang="en">
+                <head>Appendix: TEI-XML Schema</head>
+                <p>The following are TEI-XML snippets for encoding the text
+                    of Šḥimo. The main <hi rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)"
+                        >TEI</hi><hi rend="color(0000FF)">&gt;</hi> section includes one <hi
+                        rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">text</hi><hi
+                        rend="color(0000FF)">&gt;</hi> element (lines 2–12) and another <hi
+                        rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">body</hi><hi
+                        rend="color(0000FF)">&gt;</hi> element (lines 3–11). The main division
+                    element (<hi rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">div</hi><hi
+                        rend="color(0000FF)">&gt;</hi>, line 4) under the body has two attributes.
+                    The first, <hi rend="color(FF0000)">type</hi>, states that the content is a
+                    book. The second, <hi rend="color(FF0000)">subtype</hi>, defines the genre as
+                        <hi rend="color(0000FF)">šximo</hi>. It is proposed that the rest of the
+                    schema is dependent on this value, <hi rend="color(0000FF)">šximo</hi>. It
+                    determines the schema of the rest of the XML. Other liturgical books would have
+                    other values for <hi rend="color(FF0000)">subtype;</hi> the rest of the XML will
+                    look differently. </p>
+                <p rend="XML" style="text-align: left; "> 1 <anchor xml:id="Hlk103648794"/><hi
+                        rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">TEI</hi><hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 2 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">text</hi>
+                    <hi rend="color(FF0000)">xml:lang</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">syr</hi>"<hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 3 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">body</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 4 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">div</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">book</hi>" <hi rend="color(FF0000)">subtype</hi><hi
+                        rend="color(0000FF)">=</hi>"<anchor xml:id="Hlk103345792"/><hi
+                        rend="color(0000FF)">šximo</hi>"<hi rend="color(0000FF)">&gt;</hi>
+                </p>
+                <p rend="XML" style="text-align: left; "> 5 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">div</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">day</hi>" <hi rend="color(FF0000)">n</hi><hi
+                        rend="color(0000FF)">=</hi>"<hi rend="color(0000FF)">xad bšabo</hi>"<hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 6 <hi rend="color(0000FF)"> &lt;</hi><hi
+                        rend="color(A31515)">div</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">hour</hi>" <hi rend="color(FF0000)">n</hi><hi
+                        rend="color(0000FF)">=</hi>"7<hi rend="color(0000FF)">"&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 7 <hi rend="color(0000FF)"
+                        >&lt;!--</hi><hi rend="color(008000)"> Liturgical elements here </hi><hi
+                        rend="color(0000FF)">--&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 8 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">div</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 9 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">div</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 10 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">div</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 11 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">body</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 12 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">text</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; "> 13 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">TEI</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p>A Qolo, such as <foreign xml:lang="syr">ܩܽܘܩܳܝܳܐ</foreign> mentioned above, can be encoded with the following snippet.
+                    The entire thing is a division of <hi rend="color(FF0000)">type</hi>
+                    <hi rend="color(0000FF)">qolo</hi> (line 1 below). Again, this type determines
+                    the schema that follows. The <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">sp</hi><hi rend="color(0000FF)">&gt;</hi> element (line
+                    2) designates the speaker, which <hi rend="italic">gudo</hi> is to chant the <hi
+                        rend="italic">qolo</hi>. The two <hi rend="italic">gude</hi> are designated
+                    by <foreign xml:lang="syr">ܐ</foreign> and <foreign xml:lang="syr">ܒ</foreign>. The odd number
+                    of stanzas in a <hi rend="italic">qolo</hi> ensures that the <hi rend="italic"
+                        >gude</hi> alternate in starting the hymns.</p>
+                <p>The <hi rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">rubric</hi><hi
+                        rend="color(0000FF)">&gt;</hi> element (lines 3–7) gives the qolo name with
+                    a link to a bethgazo encoding (line 4) and also designates the tune number (line
+                    5).</p>
+                <p>The actual stanza is encoded as a line group (<hi rend="color(0000FF)"
+                        >&lt;</hi><hi rend="color(A31515)">lg</hi><hi rend="color(0000FF)"
+                    >&gt;</hi>, lines 8–22) of <hi rend="color(FF0000)">type</hi>
+                    <hi rend="color(0000FF)">stanza</hi>. Again, the type determines the schema that
+                    follows. The three subdivisions of the stanza (<hi rend="italic">šuroyo</hi>,
+                        <hi rend="italic">meṣʿoyo</hi>, and <hi rend="italic">šulomo</hi>) are each
+                    encoding with a line group as well. Then each line of the stanza is encoded with
+                    a line element (<hi rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)"
+                        >l</hi><hi rend="color(0000FF)">&gt;</hi>).</p>
+                <p rend="XML" style="text-align: left; ">1 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">div</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">qolo</hi>"<hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">2 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">sp</hi><hi rend="color(0000FF)">&gt;&lt;</hi><hi
+                        rend="color(A31515)">speaker</hi><hi rend="color(0000FF)">&gt;</hi>ܓܘܕܐ ܐ<hi
+                        rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)">speaker</hi><hi
+                        rend="color(0000FF)">&gt;&lt;/</hi><hi rend="color(A31515)">sp</hi><hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">3 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">rubric</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">4 <hi style="font-size:11ptdirection:rtl;"
+                        >ܥܠ ܩܠܐ ܕ</hi>
+                    <hi rend="color(0000FF)">&lt;</hi><hi rend="color(A31515)">ref</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">bethgazo</hi>" <hi rend="color(FF0000)">target</hi><hi
+                        rend="color(0000FF)">=</hi>"<hi rend="color(0000FF)">...</hi>"<hi
+                        rend="color(0000FF)">&gt;</hi><hi style="font-size:11ptdirection:rtl;"
+                        >ܩܽܘܩܳܝܳܐ</hi></p>
+                <p rend="XML" style="text-align: left; ">5 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">num</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">tune</hi>" <hi rend="color(FF0000)">value</hi><hi
+                        rend="color(0000FF)">=</hi>"<hi rend="color(0000FF)">1</hi>"<hi
+                        rend="color(0000FF)">&gt;</hi><hi style="font-size:11ptdirection:rtl;"
+                        >ܩܕܡܝܐ</hi><hi rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)"
+                        >num</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">6 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">ref</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">7 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">rubric</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">8 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">lg</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">stanza</hi>"<hi rend="color(0000FF)">&gt;</hi>
+                </p>
+                <p rend="XML" style="text-align: left; ">9 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">lg</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">šuroyo</hi>"<hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">10 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr"> ܟܽܠܳܗ̇ ܐܰܪܥܳܐ ܕܶܐܦܶܣܳܘܣ܇ ܛܰܠܳܐ ܪܶܣܡܰܬ݂:</foreign><hi
+                        rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)">l</hi><hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">11 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr"> ܟܰܕ݂ ܐܰܝܬܺܝ ܡܳܪܝ̱ ܝܽܘܚܰܢܳܢ܇ ܟܬ݂ܳܒ̈ܶܐ ܕܰܒܬ݂ܽܘܠܬܳܐ.</foreign><hi rend="color(0000FF)"> &lt;/</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">12 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">lg</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">13 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">lg</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">meṣʿoyo</hi>"<hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">14 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr"> ܕܰܪܫܺܝܡ ܗ̱ܘܳܐ ܒܗܽܘܢ܇ ܕܢܶܗܘܶܐ ܕܽܘܟ݂ܪܳܢܳܐ:</foreign><hi
+                        rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)">l</hi><hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">15 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr">ܕܰܡܒܰܪܰܟ݂ܬܳܐ܇ ܬܠܳܬ݂ ܙܰܒ̈ܢܺܝܢ
+                        ܒܫܰܢ̱ܬܳܐ.</foreign><hi rend="color(0000FF)"> &lt;/</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">16 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">lg</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">17 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">lg</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">šulomo</hi>"<hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">18 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr">ܒܟܳܢܽܘܢ ܢܶܗܘܶܐ ܥܰܠ ܙܰܪ̈ܥܶܐ܇ ܘܒܺܐܝܳܪ ܥܰܠ
+                        ܫܶܒ̈ܠܶܐ:</foreign><hi rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)"
+                        >l</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">29 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr">ܘܒܳܐܒ ܝܰܪܚܳܐ ܡܶܛܽܠ ܓܽܘ̈ܦܢܶܐ܇ ܕܐ̱ܪܳܙ
+                        ܚܰܝ̈ܶܐ ܨܺܝܪ ܒܗܶܝܢ:</foreign><hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">20 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">l</hi><hi rend="color(0000FF)">&gt;</hi>
+                    <foreign xml:lang="syr">ܗܰܠܶܠܽܘܝܰܗ܇ ܨܠܽܘܬ݂ܳܗ̇ ܬܥܰܕܰܪܝ̱ ܠܰܢ</foreign>
+                    <hi rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)">l</hi><hi
+                        rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">21 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">lg</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">22 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">lg</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">23 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">div</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p>One can, of course, choose to fine-tune this encoding further to encode the
+                    caesura breaks or even the melodic breaks within words that were mentioned
+                    above.</p>
+                <p>Texts that appear elsewhere, or the oral liturgical elements described above, can
+                    be encoded once and referred to with the <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">ref</hi><hi rend="color(0000FF)">&gt;</hi> element.
+                    Here is an example for linking to a <hi rend="italic">ḥusoyo</hi> text.</p>
+                <p rend="XML" style="text-align: left; ">1 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">div</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">ḥusoyo</hi>"<hi rend="color(0000FF)">&gt;</hi>
+                </p>
+                <p rend="XML" style="text-align: left; ">2 <hi rend="color(0000FF)">&lt;</hi><hi
+                        rend="color(A31515)">p</hi><hi rend="color(0000FF)">&gt;&lt;</hi><hi
+                        rend="color(A31515)">ref</hi>
+                    <hi rend="color(FF0000)">type</hi><hi rend="color(0000FF)">=</hi>"<hi
+                        rend="color(0000FF)">ḥusoyo</hi>" <hi rend="color(FF0000)">target</hi><hi
+                        rend="color(0000FF)">=</hi>"..."<hi rend="color(0000FF)">&gt;</hi><foreign xml:lang="syr">ܣܕܪܐ
+                        ܕܥܢܝ̈ܕܐ</foreign><hi rend="color(0000FF)">&lt;/</hi><hi rend="color(A31515)"
+                        >ref</hi><hi rend="color(0000FF)">&gt;&lt;/</hi><hi rend="color(A31515)"
+                        >p</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p rend="XML" style="text-align: left; ">3 <hi rend="color(0000FF)">&lt;/</hi><hi
+                        rend="color(A31515)">div</hi><hi rend="color(0000FF)">&gt;</hi></p>
+                <p>One can explicitly states all of the oral aspects of the liturgy in the XML
+                    encoding.</p>
+                <p style="text-align: left;"><hi rend="color(0000FF)" style="font-size:9.5pt"
+                        >&lt;</hi><hi rend="color(A31515)" style="font-size:9.5pt">colophon</hi><hi
+                        rend="color(0000FF)" style="font-size:9.5pt">&gt;</hi></p>
+                <p style="text-align: left;">
+                    <hi rend="color(0000FF)" style="font-size:9.5pt">&lt;</hi><hi
+                        rend="color(A31515)" style="font-size:9.5pt">p</hi><hi rend="color(0000FF)"
+                        style="font-size:9.5pt">&gt;</hi></p>
+                <p style="text-align: left;"><foreign xml:lang="syr">܀</foreign><foreign xml:lang="syr">ܘܟܕܘ ܗܠܝܢ
+                        ܠܦܪ̈ܘܫܐ</foreign><foreign xml:lang="syr">܀</foreign></p>
+                <p style="text-align: left;">
+                    <hi rend="color(0000FF)" style="font-size:9.5pt">&lt;/</hi><hi
+                        rend="color(A31515)" style="font-size:9.5pt">p</hi><hi rend="color(0000FF)"
+                        style="font-size:9.5pt">&gt;</hi></p>
+                <p style="text-align: left;"><hi rend="color(0000FF)" style="font-size:9.5pt"
+                        >&lt;/</hi><hi rend="color(A31515)" style="font-size:9.5pt">colophon</hi><hi
+                        rend="color(0000FF)" style="font-size:9.5pt">&gt;</hi></p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <p>Acharya, F. <hi rend="italic">Prayer with the Harp of the Spirit. I, A Weekly
+                        Celebration of the Economy of Salvation</hi> (Kurisumala Ashram, Vagamon,
+                    1983).</p>
+                <p>Armalet, I. <hi rend="italic">Catalogue des Manuscrits de Charfet</hi>
+                    (1937).</p>
+                <p rend="footnote text"
+                        ><hi style="font-size:12pt">Aydin, E. </hi><hi
+                        style="font-size:12ptdirection:rtl;">ܫܚܝܡܐ: ܟܬܒܐ ܕܨܠܘ̈ܬܐ ܕܫܒܬܐ
+                        ܫܚܝܡܬܐ</hi><hi style="font-size:12pt"> in </hi><hi
+                        rend="italic underline" style="font-size:12pt">H</hi><hi rend="italic"
+                        style="font-size:12pt"
+                    >eto</hi><hi style="font-size:12pt"> 3 (2001), no. 5: 46-35.</hi></p>
+                <p>Barsoum, A. <hi rend="italic">al-Luʾluʾ al-Manthūr</hi> (Aleppo, 1956 2<hi
+                        rend="superscript">nd</hi> ed.).</p>
+                <p>Barsoum, A. <hi rend="italic">al-Tuḥfa al-Rūḥiyya</hi> (Aleppo, 1956, 5<hi
+                        rend="superscript">th</hi> ed.), with many editions and translations.</p>
+                <p>Baumstark, A. “syr-Antioch” in <hi rend="italic">Der Katholik</hi> 82 (401–427,
+                    538–550) &amp; 83 (43–54).</p>
+                <p>Baumstark, A. <hi rend="italic">Geschichte der syrischen Literatur</hi>
+                    (1922).</p>
+                <p rend="footnote text"
+                        ><hi style="font-size:12pt">Chaillot, C. </hi><hi
+                        rend="italic" style="font-size:12pt">The Syrian Orthodox Church of Antioch
+                        and All the East, a brief introduction to its life and
+                    spirituality</hi><hi style="font-size:12pt"> (Geneva: Inter-Orthodox Dialogue, 1998).</hi></p>
+                <p>Kiraz, G. “A Proclamation Out of Place, ‘Stomen Kalos, Kyrie-Eleison’ and the
+                    Nicene Creed.” In <hi rend="italic">Ktheeboth hago</hi>: <hi rend="italic"
+                        >Festschrift in Honour of His Holiness Ignatius Zakka I Iwas</hi>, ed. Roy
+                    Thomas, 417–31. Chicago: St. George Syrian Orthodox Church of Malankarra,
+                    2005.</p>
+                <p rend="footnote text"
+                        ><hi style="font-size:12pt">Kiraz, G. “A Young Syriac Pupil in the Cairo Genizah: Or.1081 2.75.30.” </hi><hi
+                        rend="italic" style="font-size:12pt">Fragment of the Month: Newsletter of
+                        the Cambridge University Library Genizah
+                        Unit</hi><hi style="font-size:12pt">. August 2018. </hi><ref
+                        target="https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fotm-2018/fragment-6"
+                            ><hi style="font-size:12pt"
+                            >https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/fragment-month/fotm-2018/fragment-6</hi></ref><hi
+                        style="font-size:12pt">.</hi></p>
+                <p rend="footnote text"
+                        ><hi style="font-size:12pt">Kiraz, G. “Learning Syriac and Garshuni in Early Modern Egypt: Evidence from the Cairo Genizah” in Geoffrey Khan, Sabine Schmitdke, and Sarah Stroumsa (eds.), </hi><hi
+                        rend="italic" style="font-size:12pt">Studies in Literary
+                    Genizot</hi><hi style="font-size:12pt"> (=</hi><hi rend="italic" style="font-size:12pt"> Intellectual History of the Islamicate World</hi><hi style="font-size:12pt"> 8 (2020): 1–26.</hi></p>
+                <p rend="footnote text"
+                        ><hi style="font-size:12pt">Mnayyer, Y. </hi><hi
+                        rend="italic" style="font-size:12pt"
+                    >al-ʾIšḥīm</hi><hi style="font-size:12pt"> (Damascus, 1994).</hi></p>
+                <p>Severios Yacoub Albartali. <hi rend="italic">The Treasures</hi>. Translated into
+                    Arabic by Behnam Daniel al-Bartali (Aleppo: Dar Mardin, 2007).</p>
+                <p>Tabet, J. <hi rend="italic">L'Office commun maronite</hi> (Kaslik, 1972).</p>
+                <p rend="footnote text"><hi style="font-size:12pt">Taft, R. </hi>
+                    <hi rend="italic" style="font-size:12pt">The Liturgy of the Hours in East and
+                        West</hi><hi style="font-size:12pt"> (1993).</hi></p>
+                <p>Tomajean, J. “La semaine liturgique dans le rite syrien” in <hi rend="italic"
+                        >Parole de l'Orient</hi> (1966) no. 1, 95–114.</p>
+            </div>
+            <div type="appendix" xml:lang="en">
+                <head>Appendix 1: Table of Daily Prayers</head>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: center;"/>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Su</hi></cell>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Mo</hi></cell>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Tu</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ramšo</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><seg>  </seg><hi
+                                rend="italic">Quqalyon</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܪܡܫܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܪܡܫܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="italic">Bo</hi>ʿ<hi rend="italic">utho</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;">"</cell>
+                        <cell style="text-align: center;">"</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Sutoro</cell>
+                        <cell style="text-align: center;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Lilyo, Q I</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Lilyo Q II</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܩܕܝ̈ܫܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܩܕܝ̈ܫܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Lilyo Q III</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Lilyo Q IV</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܓܘܢܝܬܐ ܘܟܢ ܚܕ ܩܢܘܡܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><seg>   </seg><hi
+                                rend="italic">Boʿutho</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Ṣaphro</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><seg>   </seg><hi
+                                rend="italic">Quqalyon</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܨܦܪܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܨܦܪܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><seg>   </seg><hi
+                                rend="italic">Boʿutho</hi></cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;">"</cell>
+                        <cell style="text-align: center;">"</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">3<hi rend="superscript">rd</hi> Hr</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">6<hi rend="superscript">th</hi> Hr</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">9<hi rend="superscript">th</hi> Hr</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: center;" cols="2">ܥܢܝ̈ܕܐ</cell>
+                    </row>
+                </table>
+                <p style="text-align: left;"><pb/></p>
+            </div>
+            <div type="appendix" xml:lang="en">
+                <p>Appendix 1 : Table of Daily Prayers (cont.)</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: center;"><hi rend="smallcaps">We</hi></cell>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Th</hi></cell>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Fr</hi></cell>
+                        <cell style="text-align: center;"><hi rend="smallcaps">Sa</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܪܡܫܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܣܗ̈ܕܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܥܢܝ̈ܕܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                        <cell style="text-align: center;">"</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                        <cell style="text-align: center;">"</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="2">ܝܠܕܬ ܐܠܗܐ</cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ ܐܘ ܨܠܝܒܐ*</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܩܕܝ̈ܫܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܫܠܝ̈ܚܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܣܗ̈ܕܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܩܕܝ̈ܫܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܥܢܝ̈ܕܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܥܢܝ̈ܕܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܥܢܝ̈ܕܐ/ ܬܝܒܘܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܓܘܢܝܬܐ ܘܟܢ ܚܕ ܩܢܘܡܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܫܠܝ̈ܚܐ ܘܐܘܢܓܠܣ̈ܛܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ ܐܘ ܨܦܪܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܨܠܝܒܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܟܗ̈ܢܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                        <cell style="text-align: center;">"</cell>
+                        <cell style="text-align: center;">"</cell>
+                        <cell style="text-align: center;">"</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܝܠܕܬ ܐܠܗܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܬܝܒܘܬܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܨܠܝܒܐ</foreign></cell>
+                        <cell style="text-align: left;"><foreign xml:lang="syr">ܟܗ̈ܢܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܓܘܢܝܬܐ</foreign></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: center;" cols="4"><foreign xml:lang="syr">ܥܢܝ̈ܕܐ</foreign></cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>
