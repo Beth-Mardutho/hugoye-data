@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Body and Its Senses in Ephrem’s <hi rend="italic">Madrashe
+                        contra haereses</hi> and<hi rend="italic"> Madrashe de fide</hi>: Polemics
+                    and Epistemology</title>
+                <author>
+                    <name>
+                        <forename>Michelle</forename>
+                        <surname>Freeman</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of North Carolina at Chapel Hill</orgName>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2022</date>
+                <idno>Volume 25.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv25n2freeman</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Michelle Freeman</author>
+                        <title level="a">The Body and Its Senses in Ephrem’s <hi rend="italic"
+                                >Madrashe contra haereses</hi> and<hi rend="italic"> Madrashe de
+                                fide</hi>: Polemics and Epistemology</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol25/HV25N2Freeman.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2022</date>
+                        </imprint>
+                        <biblScope type="vol" n="25">25</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="417" to="453">417-453</biblScope>
+                        <biblScope type="order" n="3"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Ephrem</term>
+                    <term>Madrashe</term>
+                    <term>Epistemology</term>
+                    <term>Body</term>
+                    <term>Senses</term>
+                    <term>Perception</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2022-08-23">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">In his vast corpus of madrashe, Ephrem sometimes makes seemingly
+                    inconsistent valuations of the body and its senses, praising them as vehicles
+                    for experiencing God on the one hand and degrading them as foul, lowly, and
+                    incapable of understanding God on the other. This article compares Ephrem’s
+                    different assessments of the body and senses in his <hi rend="italic">Madrashe
+                        contra haereses</hi> 42-44 and <hi rend="italic">Madrashe de fide</hi> 27,
+                    41, 70, and 75. It will offer a twofold solution to understanding their
+                    conflicting views of human corporeality by attending to Ephrem’s polemical
+                    rhetoric and epistemological underpinnings. I argue that, while Ephrem shifts
+                    his valuation of the body and its senses in accordance with his polemical
+                    agenda, his recognition of the body’s centrality in acquiring knowledge remains
+                    consistent. This argument advances our understanding of the perception-centered
+                    epistemologies of many late ancient Christians, who drew from broader Greek and
+                    Syrian philosophical contexts.</p>
+            </div>
+        </front>
+        <body>
+
+            <cit xml:lang="en">
+                <quote>
+                    <l>He divided up and gave. He gave to us the earth</l>
+                    <l>For the feet; he gave to us light</l>
+                    <l>For the eyes; and for the ears</l>
+                    <l>He gave sounds and words. In these things which he gave </l>
+                    <l>He is found trustworthy in everything that he promised. </l>
+                    <l><hi rend="italic">Madrasha contra haereses</hi> 43.24</l>
+                    <l>Look: the senses of the sons of the High One,</l>
+                    <l>Though subtle and spiritual,</l>
+                    <l>Are yet insufficient.</l>
+                    <l>Therefore, cease from discussion,</l>
+                    <l>O dense senses of the fat body,</l>
+                    <l>Causing pus to flow!</l>
+                    <l><hi rend="italic">Madrasha de fide </hi>75.26-27</l>
+                </quote>
+            </cit>
+
+            <div xml:id="h25n2freeman.1" xml:lang="en">
+                <head>Introduction</head>
+                <p xml:lang="en">Ephrem wrote amid intense competition for an orthodox
+                    Christian identity in fourth-century Syria. In over four hundred extant <hi
+                        rend="italic">madrashe</hi> or hymns, he frequently engages in polemics
+                    centered around the human capacity to know God, responding to various
+                    theological opponents: Marcionites, Manichaeans, Bardaisanites, and a slew of
+                    neo-Arian groups. As the above stanzas demonstrate, sometimes Ephrem presents
+                    seemingly contradictory views in his mass of hymnography. In the first, <hi
+                        rend="italic">Madrasha contra haereses</hi> 43, he lauds the human body as a
+                    vehicle for experiencing God’s creation. He claims that humans come to trust in
+                    God’s promises through their senses and the material world perceived through
+                    them. In the second, <hi rend="italic">Madrasha de fide</hi> 75, Ephrem takes a
+                    different tack: he deprecates the body and its senses, which are too limited to
+                    understand God. He associates the body with density, fatness, and pus, conjuring
+                    negative and abject imagery to emphasize its distance from the divine. These
+                    inconsistent perspectives on the body raise questions about Ephrem’s
+                    epistemology: what role does the human body play in knowing God? What are the
+                    body’s limits in understanding the divine? What is God’s relationship to His
+                    material creation, including human corporeality?</p>
+                <p xml:lang="en">This article will compare Ephrem’s assessments of the body and senses in several
+                    madrashe from these two cycles of hymns—the <hi rend="italic">Madrashe contra
+                        haereses</hi> (<hi rend="italic">McH</hi>) and the <hi rend="italic"
+                        >Madrashe de fide</hi> (<hi rend="italic">MdF</hi>). It will offer a twofold
+                    solution to understanding their different attitudes toward human corporeality by
+                    attending to Ephrem’s polemical rhetoric and epistemological underpinnings. I
+                    argue that, while Ephrem shifts his valuation of the body and its senses in
+                    accordance with his polemical agenda, his recognition of the body’s centrality
+                    in acquiring knowledge remains consistent. </p>
+                <p xml:lang="en">Ephrem’s ostensibly divergent views of the body have caused scholars to produce
+                    two different assessments of his epistemology. On the one hand, many readers
+                    have highlighted Ephrem’s emphasis on the limited human capacity for knowing
+                    God, who is separated from creation by a chasm that can only partially be
+                        breached.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> For
+                            the chasm and partial breaching of it, see Ute Possekel, “Ephrem’s
+                            Doctrine of God,” in <hi rend="italic">God in Early Christian Thought:
+                                Essays in Memory of Lloyd G. Patterson</hi>, Supplements to Vigiliae
+                            Christianae 94, ed. Andrew McGowan (Leiden: Brill, 2009), 202–6; Mark J.
+                            Mourachian, "Human Freedom in the Context of the Theological
+                            Anthropology of St. Ephrem the Syrian," (PhD diss., Catholic University
+                            of America, 2012), 106–23; Thomas Kathanar Koonammakkal, "The
+                            Self-Revealing God and Man in Ephrem" (<hi rend="italic">The Harp</hi> 6
+                            [1993]), 233–43; Paul S. Russell, “Ephraem the Syrian on the Utility of
+                            Language and the Place of Silence'' (<hi rend="italic">Journal of Early
+                                Christian Studies</hi> 8 [2000]), 30–37; Sebastian Brock, <hi
+                                rend="italic">The Luminous Eye: The Spiritual World Vision of Saint
+                                Ephrem</hi>, Cistercian Studies 124 (Spencer, MS: Cistercian
+                            Publications, 1992; orig. published Rome: Center for Indian and
+                            Inter-Religious Studies, 1985), 26–9; Jeffrey Wickes, <hi rend="italic"
+                                >Bible and Poetry in Late Antique Mesopotamia: Ephrem’s Hymns on
+                                Faith, </hi>Christianity in Late Antiquity 4 (Berkeley: University
+                            of California Press, 2019), 11–42. For Ephrem’s reference to the chasm,
+                            see <hi rend="italic">MdF </hi>69.11 and <hi rend="italic">MdF
+                            </hi>15.5. English translation of <hi rend="italic">MdF</hi> in Jeffrey
+                            Wickes, trans., <hi rend="italic">St. Ephrem the Syrian: Hymns on
+                                Faith</hi>, Fathers of the Church 130 (Washington, D.C.: Catholic
+                            University of America Press, 2015), and Syriac text in E. Beck, ed and
+                            trans., <hi rend="italic">Des heiligen Ephraem des Syrers Hymnen de
+                                Fide</hi>, CSCO 73 (Louvain: CSCO, 1955). I draw all English
+                            translations of the <hi rend="italic">MdF</hi> from Wickes. </p></note>
+                    According to Ephrem, humans can know God only to the extent that He has revealed
+                    himself through symbols in nature, liturgy, and Scripture,<note place="foot"
+                        xml:id="ftn2" n="2"><p rend="footnote text"> On Ephrem’s notion of symbols
+                            and their partial revelation in Scripture, nature, sacraments, and
+                            Christ, see Predrag Bukovec, “Gotteserkenntnis in Ephraems des Syrers
+                            Hymn de fide” (<hi rend="italic">Saeculum</hi> 60 [2010]), 17–40;
+                            Georges Saber, "La typologie sacramentaire et baptismale de Saint
+                            Ephrem" (<hi rend="italic">ParOr</hi> 4 [1973]), 73–91; Sidney H.
+                            Griffith, “The Image of the Image Maker in the Poetry of Ephrem the
+                            Syrian” (<hi rend="italic">StPatr</hi> 25 [1993]), 258-69; Edmund Beck,
+                                <hi rend="italic">Die Theologie des heiligen Ephrem in seinen Hymnen
+                                über den Glauben</hi>, Studia Anselmiana 21 (Rome: Pontificium
+                            Institutum S. Anselmi, 1949), 23–34; Seeley Joseph Beggiana, “The
+                            Typological Approach of Syriac Sacramental Theology” (<hi rend="italic"
+                                >Theological Studies</hi> 64 [2003]), 543–57; Mourachian, “Human
+                            Freedom,” 108–29; and Koonammakkal, “The Self-Revealing God”; and Brock,
+                                <hi rend="italic">The Luminous Eye</hi>, 53–84. The classic study of
+                            symbols in early Syriac literature, particularly that of Ephrem and
+                            Aphrahat, is Robert Murray, <hi rend="italic">Symbols of Church and
+                                Kingdom: A Study in Early Syriac Tradition</hi> (Cambridge:
+                            Cambridge University Press, 1975).</p></note> which humans can observe
+                    through faith, love, and madrashic paradoxes.<note place="foot" xml:id="ftn3"
+                        n="3"><p rend="footnote text">For emphases on faith and love in Ephrem, see
+                            Sidney Griffith, “Faith Seeking Understanding in the Thought of St.
+                            Ephrem,” in <hi rend="italic">Faith Seeking Understanding: Learning and
+                                the Catholic Tradition: Selected Paper from the Symposium and
+                                Convocation Celebrating the Saint Anselm College Centennial</hi>,
+                            ed. George Charles Berthold (Manchester, NH: Saint Anselm College Press,
+                            1991); Brock, <hi rend="italic">The Luminous Eye</hi>, 43–6 and 67–84;
+                            Charis Vleugels, “The Response to Chasm and Bridge: The Wings of Truth
+                            and Attitude in Ephrem the Syrian’s Hymns on Faith” (<hi rend="italic"
+                                >The Harp</hi> 22 [2007]), 183–92; Mourachian, “Human Freedom,”
+                            129–69. For a classic explanation of Ephrem’s paradoxical approach to
+                            theology, see Brock, <hi rend="italic">The Luminous Eye</hi>, 24–5.
+                        </p></note> These symbols give knowledge of God’s existence but not of the
+                    mode or character of his being. As Jeffrey Wickes states regarding Ephrem’s <hi
+                        rend="italic">MdF</hi>, Ephrem does not take issue with specific theological
+                    doctrines <hi rend="italic">per se</hi> but rather with their mode of inquiry.
+                    To proceed with logical and grammatical methods instead of Scripture and symbols
+                    is to arrogate an intimate knowledge of God’s hidden nature.<note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text"> Wickes, <hi rend="italic">St.
+                                Ephrem the Syrian</hi>, 43–6; David Bundy, “Language and the
+                            Knowledge of God in Ephrem Syrus” (<hi rend="italic">The Patristic and
+                                Byzantine Review</hi> 5 [1986]), 9–103. </p></note> Thus, most
+                    scholars claim that Ephrem thought the limited nature of human knowledge
+                    circumscribes human understanding of God.<note place="foot" xml:id="ftn5" n="5"
+                            ><p rend="footnote text"> See especially E. Beck, <hi rend="italic"
+                                >Ephräms des Syrers Psychologie und Erkenntnislehre</hi> (Louvain:
+                            CSCO, 1980), 135-47. </p></note> This line of interpretation, however,
+                    tends to focus heavily on knowledge as a cognitive, abstract experience. These
+                    scholars refer to limited knowledge, knowledge merely of God’s existence,
+                    faith-based inquiry, and revealed knowledge. They largely fail to engage
+                    Ephrem’s frequent discussion of the body and perception as instruments—albeit
+                    limited ones—of experiencing God.<note place="foot" xml:id="ftn6" n="6"><p
+                            rend="footnote text"> Beck, <hi rend="italic">Die Theologie</hi>, 23–34
+                            attends briefly to Ephrem’s sensory language in the <hi rend="italic"
+                                >MdF</hi>, although with little focus on the importance of
+                            perception in knowledge. </p></note>
+                </p>
+                <p xml:lang="en">On the other hand, Susan Ashbrook Harvey highlights Ephrem’s attention to
+                    corporeality and the senses. Harvey proposes that, “Rather than seeing Creator
+                    and creation separated by an unbreachable chasm, Ephrem delights in exploring
+                    the created universe for its endless capacity to reveal its Maker” and that
+                    “Ephrem is concerned with knowledge that is non-cognitive yet genuinely
+                    revelatory of divine being, truth, and action.”<note place="foot" xml:id="ftn7"
+                        n="7"><p rend="footnote text"> Susan Ashbrook Harvey, “St. Ephrem on the
+                            Scent of Salvation” (<hi rend="italic">Journal of Theological
+                                Studies</hi> 49 [1998]), 109–28.</p></note> In her view, Ephrem,
+                    along with other late ancient Christians, conceives of sensory experience as a
+                    means of directly encountering divine revelation in nature and liturgy.<note
+                        place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> In addition to n.
+                            6, see Susan Ashbrook Harvey, <hi rend="italic">Scenting Salvation:
+                                Ancient Christianity and the Olfactory Imagination</hi>, The
+                            Transformation of the Classical heritage 42 (Berkeley: University of
+                            California Press, 2006). </p></note> Harvey’s work is part of a more
+                    significant scholarly attempt to understand the perceptually based
+                    epistemologies of late ancient Christians. After Christianity was legalized and
+                    adopted by Roman imperial officials, Christians increasingly engaged the
+                    potential of the material world as a point of interaction with the divine. In
+                    particular, scholars have pointed to the body’s senses – sight, touch, smell,
+                    sound, and taste – as mechanisms for knowing and experiencing God.<note
+                        place="foot" xml:id="ftn9" n="9"><p rend="footnote text"> Major analyses
+                            include Patricia Cox Miller, <hi rend="italic">The Corporeal
+                                Imagination: Signifying the Holy in Late Antiquity</hi>,
+                            Divinations: Rereading Late Ancient Religion (Philadelphia: University
+                            of Pennsylvania Press, 2009), which labels this change in late ancient
+                            Christian epistemology the “material turn”; Susan Ashbrook Harvey,
+                            “Locating the Sensing Body: Perception and Religious Identity in Late
+                            Antiquity,” in <hi rend="italic">Religion and the Self in Antiquity,
+                            </hi>ed. David Brakke, Michael L. Satlow, and Steven Weitzman
+                            (Bloomington: Indiana University Press, 2005), 140–62; and Georgia
+                            Frank, <hi rend="italic">The Memory of the Eyes: Pilgrims to Living
+                                Saints in Late Antiquity</hi>, The Transformation of the Classical
+                            Heritage 30 (Berkeley: University of California Press, 2000). For essays
+                            on the various late ancient Christian conceptions of the “spiritual
+                            senses,” which in some cases were transformed or well-trained physical
+                            senses, see Paul L. Gavrilyuk and Sarah Coakley, eds., <hi rend="italic"
+                                >The Spiritual Senses: Perceiving God in Western Christianity</hi>
+                            (Cambridge: Cambridge University Press, 2012).</p></note> Such work is
+                    aided by studies that highlight the physiological basis of ancient perceptual
+                    and cognitive theories.<note place="foot" xml:id="ftn10" n="10"><p
+                            rend="footnote text"> For example, the materialist analysis of
+                            Aristotelian perceptual theory in Deborah K. Modrak, <hi rend="italic"
+                                >Aristotle: The Power of Perception</hi> (Chicago: University of
+                            Chicago Press, 1987); the psycho-somatic emphases in Philip J. Van der
+                            Eijk, <hi rend="italic">Medicine and Philosophy in Classical Antiquity:
+                                Doctors and Philosophers on Nature, Soul, Health, and Disease</hi>
+                            (Cambridge: Cambridge University Press, 2005); the examination of the
+                            materiality of ancient and medieval conceptions of memory in Mary
+                            Carruthers, <hi rend="italic">The Book of Memory: A Study of Memory in
+                                Medieval Culture</hi>, 2<hi rend="superscript">nd</hi> ed.
+                            (Cambridge: Cambridge University Press, 2008); and the analysis of
+                            ancient psycho-somatic dynamics of vision in A. Mark Smith, <hi
+                                rend="italic">From Sight to Light: The Passage from Ancient to
+                                Modern Optics</hi> (Chicago: University of Chicago Press,
+                        2015).</p></note> This line of thinking proposes that many ancient
+                    Christians had epistemologies firmly grounded in perception and corporeality. </p>
+                <p xml:lang="en">Both of these interpretations of Ephrem’s conception of knowing God—limited
+                    cognitive knowledge, yet rich sensory experience of his creation and
+                    revelation—are well-founded, based on the hymns I analyze in this paper. The
+                    varying polemical contexts of Ephrem’s madrashe generate his shifting
+                    epistemological emphases, sometimes making his statements appear discordant. I
+                    will address both his rhetorical situation and epistemological commitments to
+                    analyze Ephrem’s seemingly disparate evaluations of the body introduced above.
+                    As Ute Possekel notes, “Ephrem formulated his doctrine of God to a significant
+                    extent with apologetic purposes in mind.”<note place="foot" xml:id="ftn11"
+                        n="11"><p rend="footnote text"> Possekel, “Ephrem’s Doctrine of God,” 198.
+                        </p></note> Not only apologetic but blatantly polemical are many of his
+                    madrashe, meant to sway listeners toward his brand of Christianity.<note
+                        place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> On Ephrem’s
+                            madrashe as a means of setting the boundaries of Orthodoxy, gaining
+                            adherents for it, and polemicizing heretical doctrines, see Sidney
+                            Griffith, “Setting Right the Church of Syria: Saint Ephrem’s Hymns
+                            against Heresies,” in <hi rend="italic">The Limits of Ancient
+                                Chrsitianity: Essays on Late Antique Thought and Culture in Honor of
+                                R. A. Markus</hi>, ed. William E. Klingshirn and Mark Vessey (Ann
+                            Arbor: University of Michigan Press, 1999), 97–114; "The Marks of the
+                            True Church According to Ephrem's Hymns Against Heresies,” in <hi
+                                rend="italic">After Bardaisan: Studies on Continuity and Change in
+                                Syriac Christianity in Honour of Professir Han J. W. Drijvers</hi>,
+                            eds. G. J. Reinink and Alexander Cornelis Klugkist (Louven: Peeters,
+                            1999), 125–40; and Flavia Ruani, ed. and trans., <hi rend="italic"
+                                >Éphrem de Nisibe: Hymnes contre les hérésies</hi>, Bibliotèque de
+                            L’Orient Chrétien (Paris: Les Belles Lettres, 2018), IX–LVI. For these
+                            hymns as a means of instruction, see Jeffrey Wickes, “Between Liturgy
+                            and School: Reassessing the Performative Context of Ephrem’s <hi
+                                rend="italic">Madrashe</hi>” (<hi rend="italic">Journal of Early
+                                Christian Studies</hi> 26 [2018], 25-51.</p></note> In the <hi
+                        rend="italic">McH</hi> 42-44, the focus of the first part of my analysis,
+                    his adversaries are Marcionites, who disparage the human body as a wicked
+                        vessel;<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> It
+                            should be noted that the <hi rend="italic">McH</hi> is a group of hymns
+                            that attacks a wide range of theological opponents: Marcionites,
+                            Bardaisanites, Manichaeans, Arians, and even Jews. In <hi rend="italic"
+                                >McH</hi> 42–44, however, Ephrem directs most of his attention
+                            against Marcionite ideas. </p></note> and in the <hi rend="italic"
+                        >MdF</hi> 27, 41, 70, 75, which I examine in the second part of my analysis,
+                    he attacks theological “investigators,” who try to discern God’s nature. I have
+                    chosen these particular madrashe for their focus on the body (<foreign
+                        xml:lang="syr">ܦܓܪܐ</foreign>) and the senses (<foreign xml:lang="syr"
+                        >ܪ̈ܓܫܐ</foreign>), as well as for their aforementioned contrasting
+                    perspectives on the body.<note place="foot" xml:id="ftn14" n="14"><p
+                            rend="footnote text"> Notably, the <hi rend="italic">McH</hi> have
+                            received meager scholarly attention to date, and <hi rend="italic"
+                                >McH</hi> 42–44 virtually none. Sustained analyses of the <hi
+                                rend="italic">McH</hi> are Phil J. Botha, "The Poetic Face of
+                            Rhetoric: Ephrem's Polemics against the Jews and Heretics in Contra
+                            Haereses 25" (<hi rend="italic">Acta Patristica et Byzantina</hi> 2
+                            [1991]), 16–36; idem, "The Textual Strategy of Ephrem the Syrian's Hymn
+                            Contra Haereses I" (<hi rend="italic">Acta Patristica et Byzantina</hi>
+                            15 [2004]), 57–75; Griffith, “Setting Right the Church”; idem, “Marks of
+                            the True Church”; idem, "St. Ephrem, Bar Daysan, and the Clash of
+                            Madrashe in Aram: readings in St. Ephrem's Hymni contra Haereses" (<hi
+                                rend="italic">The Harp</hi> 21 [2006]), 447–72; idem,
+                            "'Denominationalism' in Fourth-Century Syria: Readings in Saint
+                            Ephraem's Hymns against Heresies,” in <hi rend="italic">The Garb of
+                                Being: Embodiment and the Pursuit of Holiness in Late Ancient
+                                Christianity, </hi>Orthodox Christianity and Contemporary Thought,
+                            eds. Georgia Frank, Susan Holman, and Andrew S. Jacobs (New York:
+                            Fordham University Press, 2020), 79–100; Christine Shepardson, <hi
+                                rend="italic">Anti-Judaism and Christian Orthodoxy: Ephrem’s Hymns
+                                in Fourth-Century Syria</hi> (Washington, D. C.: Catholic University
+                            of America Press, 2008); and Ruani, <hi rend="italic">Éphrem de
+                                Nisibe</hi>, 2018. </p></note> I will consider the rhetorical
+                    situatedness of each set of hymns, allowing that Ephrem’s emphases may vary in
+                    order to meet the practical needs of his listeners. Nevertheless, I will show
+                    that there is an underlying epistemological assumption in these hymns that gives
+                    their different approaches coherence: Ephrem conceives of all knowledge as
+                    ultimately grounded in the body and perception.<note place="foot" xml:id="ftn15"
+                        n="15"><p rend="footnote text"> In addition to Harvey’s work cited above,
+                            other serious treatments of perception in Ephrem are E. Beck, <hi
+                                rend="italic">Ephräms des Syrers Psychologie, 135-47, </hi>which
+                            discusses Ephrem’s references to corporeal eyes and the eyes of the soul
+                            and his superficial familiarity with Stoic theories of perception and
+                            cognition; Phil J. Botha, “The Significance of the Senses in St.
+                            Ephrem’s Description of Paradise” (<hi rend="italic">Acta Patristica et
+                                Byzantina</hi> 5 [1994]), 28–37, which argues for a metaphorical
+                            interpretation of Ephrem’s sensory language; Ute Possekel, <hi
+                                rend="italic">Evidence of Greek Philosophical Concepts in the
+                                Writings of Ephrem the Syrian </hi>(Louvain: Peeters, 1999),
+                            187–229, which convincingly demonstrates Ephrem’s familiarity with Greek
+                            medico-philosophical theories of perception, particularly that of the
+                            Stoics; and Wickes, <hi rend="italic">Bible and Poetry</hi>, 84-103,
+                            which demonstrates Ephrem’s use of visual imagery and language of sight
+                            to instruct his audiences, rather than relying on education for
+                            theological understanding. </p></note> In his view, which conceives of a
+                    tight unity between body and soul (or mind),<note place="foot" xml:id="ftn16"
+                        n="16"><p rend="footnote text"> For Ephrem’s conception of the tight unity
+                            between body and soul (or mind), see Sebastian P. Brock, “The Dispute
+                            between Body and Soul: An Example of a Long-Lived Mesopotamian Literary
+                            Genre” (<hi rend="italic">ARAM</hi> 1 [1989]), 53–64 and <hi
+                                rend="italic">The Luminous Eye</hi>, 36–8; Susan Ashbrook Harvey,
+                                <hi rend="italic">Asceticism and Society in Crisis: John of Ephesus
+                                and the Lives of the Eastern Saints</hi>, The Transformation of the
+                            Classical Heritage 18 (Berkeley: University of California Press, 1990),
+                            4–13; Jaehyun Kim, “Body and Soul in Ephrem the Syrian” (<hi
+                                rend="italic">Syriac Studies</hi> [2002]), 79–117; and Thomas
+                            Koonammakkal, “Ephrem’s Polemics on the Human Body” (<hi rend="italic"
+                                >StPatr</hi> 35 [2001]), 428–32. </p></note> it is imprudent to
+                    denigrate the body, which is humanity’s means of experiencing God’s activity. It
+                    is also improper, however, to pursue theology to understand the nuances of God’s
+                    being because all knowledge is derived from the body, which is limited in its
+                    capacity to know God.<note place="foot" xml:id="ftn17" n="17"><p
+                            rend="footnote text"> In a recent article, Blake Hartung (“The
+                            Authorship and Dating of the Syriac Corpus of Ephrem of Nisibis: A
+                            Reassessment” [<hi rend="italic color(0A0A0C)">Zeitschrift für Antikes
+                                Christentum</hi> 22 (2018)], 296–321) has described the lack of
+                            consensus regarding the authorship of all the hymns attributed to
+                            Ephrem. Collected in thematic cycles by later editors, scholars
+                            acknowledge that individual hymns and stanzas that Ephrem did not author
+                            were included in these collections. This leaves us to wonder if the
+                            contrasting perspectives of different hymns, such as those I examine
+                            here, indicate multiple authors. This conclusion, I believe, is
+                            unnecessary with regard to the two sets of hymns I analyze, as this
+                            paper will demonstrate. </p></note>
+                </p>
+            </div>
+            <div xml:id="h25n2freeman.2" xml:lang="en">
+                <head>Perceiving God: The Healed Human Body in <hi rend="italic">MCH</hi>
+                    42-44</head>
+                <p xml:lang="en">In Ephrem’s <hi rend="italic">McH</hi> 42-44, praise for the body and its senses
+                    is inseparably intertwined with clever and sarcastic arguments against
+                    Marcionite dualism.<note place="foot" xml:id="ftn18" n="18"><p
+                            rend="footnote text"> Syriac text in E. Beck, ed. and trans, <hi
+                                rend="italic">Des heiligen Ephraem des Syrers Hymnen contra
+                                Haereses</hi>, CSCO 77 (Louven: Peeters, 1957). Syriac text and
+                            French translation, whose numbering I follow here, in Domonique
+                            Cerbelaud, trans., <hi rend="italic">Ephrem de Nisibe: Hymnes contre les
+                                heresies; Hymnes contra Julien</hi>, vol. 2 (Paris: Les editions du
+                            Cerf, 2017). English translations of the <hi rend="italic">McH</hi> have
+                            been produced by myself and two of my colleagues, Nathan Tilley and
+                            Maroun El Houkayem, both of Duke University. While Cerbelaud claims
+                            Ephrem produced these hymns in Nisibis, Blake Hartung, “The Authorship
+                            and Dating” demonstrates that our meager knowledge of the fourth-century
+                            Syrian Christian context does not allow for precise claims about
+                            provenance for most of Ephrem’s hymns. Ruani, <hi rend="italic">Éphrem
+                                de Nisibe</hi>, XXVI–XXVII argues that some of the hymns were
+                            composed in Nisibis and others in Edessa. </p></note> According to
+                    Ephrem, Marcion preached that the god of the Old Testament was the creator of
+                    the physical universe, who fashioned everything out of wicked matter (<hi
+                        style="font-size:14pt">ܗܘܠܐ</hi>, Greek: ὕλη) and who “loves” the material
+                    body; the “Stranger” God, who was present in Christ and who “hates the body,” on
+                    the other hand, came to save humanity from the evil and sin inherent in its
+                        corporeality.<note place="foot" xml:id="ftn19" n="19"><p
+                            rend="footnote text"> For Ephrem’s conception of the Marcionite view,
+                            see Cerbelaud, <hi rend="italic">Ephrem de Nisibe</hi>, 11–3;
+                            Koonammakkal, “Ephrem’s Polemics on the Human Body”; Botha, “The Textual
+                            Strategy”; and David Kiger, “Fire in the Bread, Life in the Body: The
+                            Pneumatology of Ephrem the Syrian,” (PhD diss., Marquette University,
+                            2009), 106–12. Cf. <hi rend="italic">McH</hi> 34.15-16. </p></note> For
+                    Marcion, Christ came to heal the body of its innate lameness; Ephrem agrees that
+                    Christ healed the body, but not, as I will show, because he thinks it was
+                    created wicked, but because it was subsequently wounded by sin. Marcionites, he
+                    claims, disparaged the body to such an extent that they considered it to be of
+                    one nature with demons.<note place="foot" xml:id="ftn20" n="20"><p
+                            rend="footnote text"> See <hi rend="italic">McH</hi> 43.4,17.
+                        </p></note> They denigrate the material body as a wicked and depraved vessel
+                    as opposed to the immaterial soul, which the Stranger loves.<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text"> See <hi rend="italic"
+                                >McH</hi> 42.3–4; This is not necessarily an accurate representation
+                            of Marcionite views, but rather Ephrem’s rhetorical stereotype. My study
+                            is not concerned with historical Marcionites’ beliefs but with how
+                            Ephrem represents them. The extent of the threat that Marcionism posed
+                            in Ephrem’s communities, or in the fourth century in general, is
+                            unclear. </p></note></p>
+                <p xml:lang="en">For Ephrem, Christ healed the body through his Incarnation, but not because he
+                    thought it was created evil and sinful. How can Christ hate the body “even
+                    though he dwells in it?” asks Ephrem.<note place="foot" xml:id="ftn22" n="22"><p
+                            rend="footnote text">
+                            <hi rend="italic">McH</hi> 42.3. For a comprehensive study of Ephrem’s
+                            perspective on the role of healing in salvation history, see Aho
+                            Shemunkasho, <hi rend="italic">Healing in the Theology of Saint
+                                Ephrem</hi>, Gorgias Dissertations: Near Eastern Studies 1
+                            (Piscataway, NJ: Gorgias Press, 2002).</p></note> Indeed, Christ “has as
+                    a temple the body, which he loves” and “desires that it be his habitation.”<note
+                        place="foot" xml:id="ftn23" n="23"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 42.2, 4.</p></note> Ephrem argues that Christ
+                    would not have chosen to become incarnate in a human body if it were created
+                    wicked and he hated it. Furthermore, he says that “With the body he would not
+                    mingle his mysteries, if it were from the Wicked One.”<note place="foot"
+                        xml:id="ftn24" n="24"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.3. </p></note> While he does not conceive
+                    of corporeality as wicked in its origins, he does admit that Christ came to heal
+                    the body and its senses because they were worn out by past generations of humans
+                    and thus in need of restoration to their earlier health:</p>
+                <cit>
+                    <quote>
+                        <l>If it is the case that the body is a detestable instrument</l>
+                        <l>Of the detestable Wicked One: its flutes grew old,</l>
+                        <l>the body’s sense organs (<foreign xml:lang="syr">ܪ̈ܓܫܝ ܓܘܫܡܐ</foreign> ),
+                            and our Lord came </l>
+                        <l>setting them straight. He made firm his harp, </l>
+                        <l>Which he healed; he gave health to the body.<note place="foot"
+                                xml:id="ftn25" n="25"><p rend="footnote text">
+                                    <hi rend="italic">McH</hi> 43.19. </p></note>
+                        </l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Ephrem thus vindicates human corporeality, which was not created wicked and
+                    decrepit by God but is merely wounded and erring.<note place="foot"
+                        xml:id="ftn26" n="26"><p rend="footnote text"> Ruani, <hi rend="italic"
+                                >Éphrem de Nisibe</hi>, LII–LIV also reaches this conclusion.
+                        </p></note></p>
+                <p xml:lang="en">Ephrem also proves the body’s intrinsic goodness by demonstrating that the
+                    creator God of the Old Testament is the same God that sent Christ to heal human
+                    corporeality; they are not distinct entities with opposing views of the body as
+                    the Marcionites claim, but rather they both love the body. He shows this by
+                    paralleling instances of positive, salvific activity toward the body by both the
+                    Old Testament God and Christ. In the Old Testament, God cleanses Miryam and
+                    Nahamon, just as Christ cleanses the ten lepers in the gospel.<note place="foot"
+                        xml:id="ftn27" n="27"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.16.</p></note> God created people with
+                    eyes and hands to do good, just as Christ healed them to do good in
+                        redemption.<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 42.1, <hi rend="italic">passim</hi>.
+                        </p></note> Moreover, just as God had Moses destroy the eyes and ears of the
+                    golden calf to guide Israel away from idolatry, Christ heals the eyes and
+                        ears.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.11. </p></note> Because both God and
+                    Christ positively value the body and its health, Ephrem considers<anchor
+                        xml:id="Hlk94549785"/> it “wicked impiety” if “the Physician is more beloved
+                    / Than the Fashioner, / And the Surgeon more beloved / Than the Creator.”<note
+                        place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.7. </p></note> Rather, these two are the
+                    same God doing the same work: </p>
+                <cit>
+                    <quote>
+                        <l>That is to say, the body is between the Healer</l>
+                        <l>And the Fashioner. The one they have blamed, </l>
+                        <l>And the other they have praised. Their works are one . . . </l>
+                        <l>The work of the carpenter, the carpenter then </l>
+                        <l>Is able to repair. A blacksmith, too, </l>
+                        <l>Can repair the work of a blacksmith. And the Son of the Creator, </l>
+                        <l>can repair the work of the Creator. Because healing, too, </l>
+                        <l>Is a second creation.<note place="foot" xml:id="ftn31" n="31"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">McH</hi> 43.8–9. </p></note>
+                        </l>
+                    </quote>
+                </cit>
+
+                <p xml:lang="en">The body is thus innately good, for God both made and continually guides it in
+                    goodness. </p>
+                <p xml:lang="en">In these three hymns, Christ directs his healing power primarily toward the sense
+                    organs—the eyes, mouth, and ears—thus reorienting the human sensorium so humans
+                    can experience and know God. Although they were worn out, “Our Lord came /
+                    setting them straight. / He made firm his harp, / which he healed; he gave /
+                    health to the body.”<note place="foot" xml:id="ftn32" n="32"><p
+                            rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.19. </p></note> When Christ “found the
+                    body blind” he “gave it light.” He “opened the eyes of the body, and its ears he
+                        restored.”<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.10–11. </p></note> Taunting his opponents,
+                    Ephrem sarcastically claims that “the Stranger / who hates the body, countless
+                    deaf and tongue-tied / he healed.”<note place="foot" xml:id="ftn34" n="34"><p
+                            rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.15. </p></note> It makes no sense to
+                    Ephrem that Christ could heal the body, as he does in the gospel, if he hated
+                    it. This positive restoration of the senses is the same as that performed by God
+                    in the Old Testament, for </p>
+
+                <cit>
+                    <quote>
+                        <l>They do not indeed put new wine</l>
+                        <l>In old wineskins. But he gave the senses (<foreign xml:lang="syr"
+                                >ܪ̈ܓܫܐ</foreign>), </l>
+                        <l>According to the commandments: a new ear</l>
+                        <l>According to the commandment. For by the ear that has grown old</l>
+                        <l>New melodies are not heard. </l>
+                        <l>This is a marvel, that he gave commandments</l>
+                        <l>That are not the old ones, and he gave members (<foreign xml:lang="syr"
+                                >ܗܕ̈ܡܐ</foreign>)<note place="foot" xml:id="ftn35" n="35"><p
+                                    rend="footnote text">Possekel, <hi rend="italic">Evidence of
+                                        Greek Philosophical Concepts</hi>, 188 notes that Ephrem
+                                    often uses “senses (<foreign xml:lang="syr">ܪ̈ܓܫܐ</foreign>)”
+                                    and “limbs (<foreign xml:lang="syr">ܗܕ̈ܡܐ</foreign>)
+                                    synonymously. </p></note></l>
+                        <l>That are not foreign! The senses, which he healed, </l>
+                        <l>Proclaim him. For even if the sounds that he gave</l>
+                        <l>Are new, they are not foreign!<note place="foot" xml:id="ftn36" n="36"><p
+                                    rend="footnote text"><hi rend="italic">McH</hi> 44.6–7.
+                                </p></note></l>
+                    </quote>
+                </cit>
+
+                <p xml:lang="en">In Ephrem’s view, God gave new commandments when Moses destroyed the tablets
+                    inscribed with the Law.<note place="foot" xml:id="ftn37" n="37"><p
+                            rend="footnote text">For this theme more broadly in Ephrem, see
+                            Shemunkasho, <hi rend="italic">Healing in the Theology of Saint
+                                Ephrem</hi>, 109 and 181.</p></note> Along with these new
+                    commandments, he renewed the senses so that humans might improve their
+                    relationship with God and become more familiar with him through their bodies,
+                    which are not “foreign” to him.</p>
+                <p xml:lang="en">That the body is not of the same nature as the demons and Satan—and therefore not
+                    created wicked—Ephrem also demonstrates through Christ’s healing of human bodies
+                    but not demonic ones. His account of Christ’s exorcising of the Gerasene
+                    demoniac reduces the Marcionite argument to absurdity. Recalling how Christ sent
+                    the demons into pigs, he says that Satan “asked for things contrary to himself,”
+                    namely, he asked for a body with legs instead of his “lame” serpentine body.
+                    Christ acquiesced so that the demons “might be disgraced”—sent into swine to
+                    drown—and not, Ephrem mocks, because “Our Lord / who healed the lame, to the
+                    serpent who is lame / in a lame body / he gave feet . . .” That is, if
+                    Marcionites claim that demons and the human body are of the same nature, they
+                    would be forced to give the ridiculous interpretation that Jesus was healing the
+                    demons’ bodies by sending them into pigs. Rather, just as God “crippled the
+                    serpent,” so Christ “drowned in the lake” the pigs possessed by the
+                        demons.”<note place="foot" xml:id="ftn38" n="38"><p xml:lang="en"><hi rend="italic">
+                                McH</hi> 43.1–6.</p></note> Their work is the same, directed not
+                    toward transforming innately wicked bodies, whether human or demonic, but toward
+                    healing the wounded human sensorium alone. Ephrem further highlights the illogic
+                    of the Marcionites’ claim by reasoning, </p>
+
+                <cit>
+                    <quote>
+                        <l>And if, as they have determined, one is the nature </l>
+                        <l>Of the body and the demons, and our Lord healed </l>
+                        <l>Its (the body’s) feet and its hands, its eyes and its ears, </l>
+                        <l>And the rest of its sense organs (<foreign xml:lang="syr"
+                                >ܪ̈ܓܫܘܗܝ</foreign>), then the whole demon</l>
+                        <l>He has put in good order and made it to stand up and act impiously!<note
+                                place="foot" xml:id="ftn39" n="39"><p rend="footnote text">
+                                    <hi rend="italic">McH</hi> 43.17. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Again, Ephrem finds it ridiculous to conclude that Christ healed demons alongside
+                    human bodies due to the supposed likeness between the human body and demons. The
+                    absurdity of this conclusion, he feels, demonstrates the ontological distinction
+                    between the two. </p>
+                <p xml:lang="en">According to these hymns, the body and senses play an instrumental role in God’s
+                    salvific plan. They are the chief means of experiencing and communicating with
+                    God through the sacraments and Scripture. Whereas Christ gave pigs to the
+                    demons, “His bread and blood / he gave to the body. With the body he would not
+                    mingle / his mysteries, if they were from the Wicked One.”<note place="foot"
+                        xml:id="ftn40" n="40"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.3. </p></note> The Eucharistic elements
+                    are consumed by the body, tasted by the mouth, creating a relationship between
+                    Christ and the human recipient. He exclaims, since Jesus did not hate the body
+                    but came to heal it, “Blessed is the one who gave / the hands with which we may
+                    receive his body!”<note place="foot" xml:id="ftn41" n="41"><p
+                            rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.22. </p></note> The salvific power of
+                    Christ’s body and the bodily mechanism, the hands, which God fashioned for
+                    humans to receive it in the Eucharist, exhibit the value of corporeality for
+                    salvation. The ear, too, is “necessary,” and Christ “opened it for his words” so
+                    that people might hear Scripture, the main source of revelation from God in
+                    Ephrem’s view.<note place="foot" xml:id="ftn42" n="42"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 43.20. </p></note> God fashioned and healed
+                    the human sensorium specifically in order to perceive and experience his
+                    salvific power: </p>
+
+                <cit>
+                    <quote>
+                        <l>The mouth that he gave is for his bread </l>
+                        <l>And for his cup; the eyes that he created </l>
+                        <l>Are for his books; and for his church </l>
+                        <l>He also gave the feet. And if to the Stranger</l>
+                        <l>These things are useful, unbelievers are vanquished!<note place="foot"
+                                xml:id="ftn43" n="43"><p rend="footnote text">
+                                    <hi rend="italic">McH</hi> 43.25. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">By God’s design and Christ’s healing, humans have a mouth and taste to partake of
+                    the Eucharistic body and blood; they have eyes so they can see the words written
+                    in Scripture, and they have feet to assemble at church and worship. In sum, the
+                    body is how humans experience God’s activity in the world and attain
+                    salvation.</p>
+                <p xml:lang="en">Just as God modeled the body around the salvific plan, so also he constructed the
+                    world around the human body so that the body and sense perception are, in their
+                    very essence, beneficial for encountering God and his creation. By harmonizing
+                    the world to human corporeality, God demonstrates the love that he and his Son
+                    have for the body: </p>
+
+                <cit>
+                    <quote>
+                        <l>He divided up and gave. He gave to us the earth </l>
+                        <l>For the feet; he gave to us light</l>
+                        <l>For the eyes; for the ears</l>
+                        <l>He gave sounds and words. In these things which he gave </l>
+                        <l>He is found trustworthy in everything that he promised.<note place="foot"
+                                xml:id="ftn44" n="44"><p rend="footnote text">
+                                    <hi rend="italic">McH</hi> 43.24. </p></note></l>
+                    </quote>
+                </cit>
+
+                <p xml:lang="en">Here, Ephrem notably ascribes the source of belief to the body and creation.
+                    Humans come to believe in God's promises by the material world and its objects
+                    of perception—earth, light, and sound—and by the limbs and organs he gave to
+                    experience them. He berates his opponents because, “As much as they alienate
+                    [Him], they come to encounter / our Creator, against whom they have blasphemed,
+                    / although they do not perceive (<foreign xml:lang="syr">ܠܐ ܪ̈ܓܝܫܝܢ</foreign>
+                        ).”<note place="foot" xml:id="ftn45" n="45"><p rend="footnote text">
+                            <hi rend="italic">McH</hi> 44.11. </p></note> In other words, he attacks
+                    Marcionites not for failing to understand some abstract doctrine about God, but
+                    specifically for not correctly interpreting sensory input that demonstrates
+                    God’s beneficent disposition toward human corporeality. Ephrem thus grants an
+                    inescapably positive valuation to the body and senses as a means of experiencing
+                    God’s activity. </p>
+                <p xml:lang="en">It is noteworthy that in <hi rend="italic">McH</hi> 42-44, Ephrem never mentions
+                    abstract, disembodied cognition as a means of knowing God. In one instance, he
+                    derides his opponents for trying to “represent within their minds another light”
+                    that is not the true God, but even this statement relies on ancient theories of
+                    perception in which physical, sensory impressions are transformed into mental
+                        representations.<note place="foot" xml:id="ftn46" n="46"><p
+                            rend="footnote text">
+                            <hi rend="italic">McH</hi> 44. 9. I assume throughout this paper, based
+                            on the evidence provided by previous scholars, that Ephrem is familiar
+                            with certain Greek philosophical theories of perception and cognition.
+                            For the most comprehensive analysis, see Ute Possekel, <hi rend="italic"
+                                >Evidence of Greek Philosophical Concepts</hi>, along with Beck, <hi
+                                rend="italic">Ephräms des Syrers Psychologie</hi>; Wickes, <hi
+                                rend="italic">Bible and Poetry</hi>, 12–14; and Griffith, “Setting
+                            Right the Church of Syria.” </p></note> Otherwise, Ephrem consistently
+                    describes all encounters with God as corporeal, sensory experiences: Christ
+                    inhabits the body, brings light to the eyes, and is consumed in the Eucharistic
+                    elements. That is, embodied humans are capable of experiencing God’s revelation
+                    and activity, but Ephrem does not propose that they can gain a cognitive
+                    understanding of the divine nature. In these hymns, Ephrem’s attack on Marcion’s
+                    disparagement of the body is founded on the notion that bodily perception is the
+                    foremost means of encountering God. </p>
+            </div>
+            <div xml:id="h25n2freeman.3" xml:lang="en">
+                <head>Limited Knowledge of God: The Lowly Body in <hi rend="italic">MDF</hi> 27, 41,
+                    70, and 75</head>
+                <p xml:lang="en">The body and senses also play a central role in <hi rend="italic">Madrashe de
+                        fide 27, 41, 70, and 75</hi>, an aspect to which interpreters have paid
+                    little attention. In the <hi rend="italic">MdF</hi>, Ephrem frequently and
+                    consistently denounces those who “investigate (<foreign xml:lang="syr"
+                        >ܒܨܐ</foreign> and <foreign xml:lang="syr">ܒܥܐ</foreign>)” and “debate
+                        (<foreign xml:lang="syr">ܕܪܫ</foreign>)” about God’s nature. Based on
+                    certain theological positions that Ephrem disputes in these hymns, most scholars
+                    have determined that Ephrem likely aims his polemic at Arians, semi-Arians, or
+                        Aetians.<note place="foot" xml:id="ftn47" n="47"><p rend="footnote text">
+                            Griffith, “Faith Seeking Understanding,” 39–41; Possekel, “Ephrem’s
+                            Doctrine of God,” 198–202; Wickes, <hi rend="italic">Hymns on
+                            Faith</hi>, 19–48. While it is often stated that Ephrem likely wrote
+                            these hymns when he came to Edessa and encountered Greek trinitarian
+                            controversies, Hartung, “The Authorship and Dating” has demonstrated
+                            that we cannot be certain.</p></note> But besides their varied attempts
+                    to determine which trinitarian doctrine he attacks, scholars are more united in
+                    their claim that Ephrem’s <hi rend="italic">MdF</hi> deride “a <hi rend="italic"
+                        >way</hi> of doing theology.”<note place="foot" xml:id="ftn48" n="48"><p
+                            rend="footnote text">Quotation in Wickes, <hi rend="italic">Hymns on
+                                Faith</hi>, 46. See also Paul S. Russel, “A Note on Ephraem the
+                            Syrian and ‘The Poison of the Greeks’ in Hymns on Faith 2” (<hi
+                                rend="italic">The Harp</hi> 10 [1997]), 45–54; Vleugels, “Response
+                            to Chasm and Bridge”; Possekel, “Ephrem’s Doctrine of God”; Francoise
+                            Cassingena-Trevedy, "Le Rationalisme Theologique Comme Mal Radical a
+                            travers Les Hymnes sur La Foi d'Ephrem de Nisibe," in <hi rend="italic"
+                                >Les forces du bien et du mal dans les premiers siecles de l'eglide:
+                                actes du colloque de Tours</hi>, ed. Yves-Marie Blanchard, Berbard
+                            Pouderon, and Madeleine Scopello (Paris: Beauchesne, 2010), 65–75.
+                        </p></note> Wickes argues that, much as Athanasius constructed the category
+                    of “Arian,” Ephrem constructed the category of “investigation,” as opposed to
+                    his own theological position, which argues for humans’ limited capacity to know
+                        God.<note place="foot" xml:id="ftn49" n="49"><p rend="footnote text">
+                            Wickes, <hi rend="italic">St. Ephrem the Syrian</hi>, 46. </p></note>
+                    That is, Ephrem appears to reject, at least to a certain extent, the theological
+                    debate about God’s nature undertaken by fourth-century Greek Christian thinkers. </p>
+                <p xml:lang="en">Unlike in <hi rend="italic">McH</hi> 42-44, these four hymns from the <hi
+                        rend="italic">MdF</hi> refer to the mind and its feeble attempts at
+                    understanding, demonstrating that the target of Ephrem’s invective is abstract
+                    theological pursuit. He complains that the soul “cannot be seen by the mind
+                        (<foreign xml:lang="syr">ܬܪܥܝܬܐ</foreign>)”<note place="foot" xml:id="ftn50"
+                        n="50"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 70.2. </p></note> and that although “minds
+                        (<foreign xml:lang="syr">ܪ̈ܥܝܢܐ</foreign>) gaze” they “see themselves
+                    instead of Him!”<note place="foot" xml:id="ftn51" n="51"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.1. </p></note> The nature of the soul and
+                    God were typical objects of investigation in trinitarian and soteriological
+                    discussions of the fourth century, but Ephrem does not think the human mind can
+                    come to accurate conclusions about them. Indeed, he asserts that “it is
+                    impossible to depict in our heart / the ‘how’ of [God’s] nature that
+                        exists.”<note place="foot" xml:id="ftn52" n="52"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.3. See Beck, <hi rend="italic">Ephräms des
+                                Syrers Psychologie</hi>, 147-59.</p></note> Whereas in his <hi
+                        rend="italic">McH</hi> Ephrem lauded the ability of the body to experience
+                    God’s creation and activity, here he takes issue with theologians’ attempts to
+                    reason about the finer details of God’s being. He explains, “‘Where’ should not
+                    be sought out, ‘how’ not debated, / ‘why’ not mentioned, and ‘when’ not
+                        investigated.”<note place="foot" xml:id="ftn53" n="53"><p
+                            rend="footnote text">
+                            <hi rend="italic">MdF</hi> 41.4.</p></note>
+                </p>
+                <p xml:lang="en">That Ephrem is talking about theology becomes most evident in the two biblical
+                    analogies he provides. In one case, he refers to the account of Balaam and the
+                    talking donkey in Numbers 22, focusing on Balaam’s reaction. He explains that
+                    just like the “investigators” he loathes, “When that donkey unexpectedly spoke,
+                    / Balaam saw the miracle, but completely failed to marvel. / Yet as the donkey’s
+                    mouth was rational (<foreign xml:lang="syr">ܡܠܠܐ</foreign>), / [Balaam] forgot
+                    about himself and was persuaded by his Donkey.”<note place="foot" xml:id="ftn54"
+                        n="54"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 41.7. </p></note> Balaam did not wonder at
+                    the miracle God placed right before his eyes—a talking donkey!—but was more
+                    concerned with the logic of the donkey’s words, just as the “debaters” of his
+                    day miss the mystery of the Trinity for their disputes over its nature.
+                    Likewise, he compares these theologians to the scribes in the Gospels, who
+                    “forsook the marvel [of] the blind [whose eyes] were opened, / And stirred up an
+                    investigation into the Sabbath and the clay.”<note place="foot" xml:id="ftn55"
+                        n="55"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 41.7. See also Christine Shepardson, <hi
+                                rend="italic">Anti-Judaism and Christian Orthodoxy, </hi>118–43 for
+                            a discussion of Ephrem’s comparison of Arians to the Pharisees in the
+                            Gospels. </p></note> Ephrem thus opposes theoretical discourse about God
+                    to revelatory experience.</p>
+                <p xml:lang="en">It is commonly acknowledged that the <hi rend="italic">MdF</hi> polemicize
+                    theological discourse, and interpreters usually highlight Ephrem’s view of the
+                    limited human capacity for knowing God and his faith-based approach. But many
+                    have not recognized that these hymns also degrade the body and the senses as an
+                    extension of this polemic, deploying perceptual language in their attack.
+                    Ephrem’s position might seem counter-intuitive to modern readers, who tend to
+                    distinguish between mental and somatic capacities. If Ephrem despises abstract
+                    mental exercises, what need does he have to disparage the body, which he so
+                    profoundly praises as a vehicle for encountering God in <hi rend="italic"
+                        >McH</hi> 42-44? I argue that it is because Ephrem does not conceive of
+                    cognition as distinct from the body; he thinks that the only way to gain
+                    knowledge is through the body’s senses, just as he assumes in the <hi
+                        rend="italic">McH</hi>. Therefore, to counter excessive theological
+                    conjecture, he laments the limitations of the senses and degrades the body for
+                    its lowliness and inability to access God. </p>
+                <p xml:lang="en">Because Ephrem conceives of all knowledge as derived from perceptual experience,
+                    he uses a range of sensory language in these four hymns to attack theological
+                    discourse. As stated above, Ephrem describes minds and souls as “gazing
+                        (<foreign xml:lang="syr">ܨܕ</foreign>)” and “seeing (<foreign xml:lang="syr"
+                        >ܚܙܐ</foreign>)”;<note place="foot" xml:id="ftn56" n="56"><p
+                            rend="footnote text">
+                            <hi rend="italic">MdF</hi> 70.2, 27.1.</p></note> while this may be a
+                    standard way to describe the action of souls, this visual terminology sets the
+                    stage for Ephrem’s heavy engagement with perceptual language. Ephrem goes on to
+                    lament that “natures think they see (<foreign xml:lang="syr">ܚܙܝܢ</foreign>)
+                    him, whom they have never been able to see.” He believes that humans have erred
+                    if they “think they have seen (<foreign xml:lang="syr">ܚܙܘ</foreign>) him in an
+                        image.”<note place="foot" xml:id="ftn57" n="57"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.3</p></note> In these descriptions,
+                    theology fails to account for the human inability to perceive God visually;
+                    theologians perceive something that they think is God, but in reality, it is not
+                    Him. Ephrem deems the investigators “blind” because they fail to perceive, for
+                    “The blind soul, which itself / cannot see (<foreign xml:lang="syr"
+                        >ܬܚܙܐ</foreign>): how could it gaze (<foreign xml:lang="syr">ܬܨܕ</foreign>)
+                    / upon divinity?”<note place="foot" xml:id="ftn58" n="58"><p
+                            rend="footnote text">
+                            <hi rend="italic">MdF</hi> 70.4. </p></note> In these four hymns, Ephrem
+                    consistently refers to theological investigation as an act of seeing—or rather,
+                    failing to see—God.<note place="foot" xml:id="ftn59" n="59"><p
+                            rend="footnote text"> For the preponderance of vocabulary related to
+                            sight and vision in Ephrem’s <hi rend="italic">MdF</hi>, see Wickes, <hi
+                                rend="italic">Bible and Poetry</hi>, 84-103, especially 85-86.
+                        </p></note>
+                </p>
+                <p xml:lang="en">Ephrem further argues that the investigators mistakenly perceived certain things
+                    as God Himself. “Instead of Him,” he posits, “they have seen (<foreign
+                        xml:lang="syr">ܚܙܝܢ</foreign>) themselves and thought, lo, they had seen
+                        (<foreign xml:lang="syr">ܚܙܐܘܗܝ</foreign>) him,” referring to their use of
+                    human categories and characteristics to define God.<note place="foot"
+                        xml:id="ftn60" n="60"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.2.</p></note> He states that “They have
+                    touched (<foreign xml:lang="syr">ܡܫܘ</foreign>) gold and likened it to light. /
+                    They have handled (<foreign xml:lang="syr">ܓܫܘ</foreign>) jewels, thinking light
+                    was within. / They have touched everything and handled everything, / and look:
+                    fools think they have handled the light.” Ephrem commonly uses “light” to refer
+                    to God, and he thinks that people often perceive one thing to be God, when it is
+                    really not Him. Even though they “stand inside the light,” they “go around
+                    looking for it,” simply failing to perceive God who is present around them.<note
+                        place="foot" xml:id="ftn61" n="61"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.4.</p></note> In this case, theological
+                    reasoning is a misperception because the soul does not correctly interpret the
+                    data about God that it perceives. While one could argue that Ephrem is speaking
+                    metaphorically with this sensory terminology, Syriac views on the unity of body
+                    and soul and Greco-Roman theories of the role of physiological perception in
+                    cognition provide a better context with which to understand Ephrem’s
+                    synonymization of knowing and perceiving.<note place="foot" xml:id="ftn62"
+                        n="62"><p rend="footnote text"> In particular, see Modrak, <hi rend="italic"
+                                >Aristotle: The Power of Perception</hi> and Philip Van der Eijk,
+                                <hi rend="italic">Medicine and Philosophy in Classical
+                            Antiquit</hi>y, 206–37 for Aristotle’s influential theorization of
+                            perception as the basis of cognition. See Beck, <hi rend="italic"
+                                >Ephräms des Syrers Psychologie, </hi>97-105 for Ephrem’s equation
+                            of sensory knowledge and intellectual knowledge, which he thinks
+                            indicates Ephrem’s vague familiarity with Stoic theories of cognition.
+                        </p></note>
+                </p>
+                <p xml:lang="en">Ephrem’s continued engagement with the physiological details of perception
+                    demonstrates his assumption that knowledge derives from the senses.<note
+                        place="foot" xml:id="ftn63" n="63"><p rend="footnote text"> Beck, <hi
+                                rend="italic">Ephräms des Syrers Psychologie, </hi>136 acknowledges
+                            the similarity of Ephrem’s notion that perception is the basis for
+                            knowledge with Stoicism. Whereas Beck engages Stoic theories of
+                            cognition as points of comparison with Ephrem, my argument shows his
+                            general familiarity with a variety of ancient theories of
+                            perception.</p></note> He attacks his opponents by appealing to the
+                    limitations of each sense in relation to their proper sensibles. For example, he
+                    posits that </p>
+
+                <cit>
+                    <quote>
+                        <l>They do not think of how they have</l>
+                        <l>One sense like the light (<foreign xml:lang="syr">ܚܕ ܪܓܫܐ ܐܚܝܢܗ
+                                ܕܢܗܝܪܐ</foreign>
+                            <foreign xml:lang="syr">), </foreign></l>
+                        <l>[While] the other senses are concealed,</l>
+                        <l>And all are foreign to the light.</l>
+                        <l>[The light’s] color is not tasted, its scent not smelled.</l>
+                        <l>Its brightness is inaudible, and its light cannot be touched.</l>
+                        <l>Only seeing is similar (<foreign xml:lang="syr">ܚܙܝܐ ܠܚܘܕ ܒܪ
+                                ܛܘܗܡܐ</foreign> ):</l>
+                        <l>It understands it, as a child its parent.<note place="foot"
+                                xml:id="ftn64" n="64"><p rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 27.5.</p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Ephrem is engaging ancient theories of perception, such as that of Plato,
+                    Aristotle, and Galen, which discuss each sense and its proper object: vision
+                    sees color, audition hears sounds, olfaction smells scents, and so on.<note
+                        place="foot" xml:id="ftn65" n="65"><p rend="footnote text"> Plato, <hi
+                                rend="italic">Timaeus</hi> 61C–68D, LCL 234, ed. and trans. R. G.
+                            Bury (Cambridge: Harvard University Press, 1929), 155-77; Aristotle, <hi
+                                rend="italic">De Anima</hi> 2.6-11 (418a8–424a17) in LCL 288, ed.
+                            and trans. W.S. Hett, <hi rend="italic">On the Soul. Parva Naturalia. On
+                                Breath</hi> (Cambridge: Harvard University Press, 1936), 100-35;
+                            Galen, <hi rend="italic">On the Doctrines of Hippocrates and Plato</hi>
+                            7.5.33, Corpus Medicorum Graecorum 4:1:2, ed. and trans. Phillip De Lacy
+                            (Berlin: Akademie Verlag, 1980), 461. For an extensive engagement with
+                            classical theories of perception in another Syrian author, who wrote in
+                            Greek, see Nemesius, <hi rend="italic">On the Nature of Man</hi>, 6–13,
+                            trans. R. W. Sharples and P. J. van der Eijk (Liverpool: Liverpool
+                            University Press, 2008).</p></note> He argues that humans have only one
+                    sense that accords with light, namely vision; the others cannot perceive light
+                    because it is not their proper sensible, thus demonstrating the limitations of
+                    the human sensorium. He elaborates further on the inability of the other senses
+                    to perceive the light: “The light dwells in the mouth unperceived (<foreign
+                        xml:lang="syr">ܠܐ ܪܓܫ</foreign> ). / Shining, it dwells in the ear without
+                    suffering (<foreign xml:lang="syr">ܠܐ ܚܐܫܐ</foreign> ). / It dwells in the hand,
+                    yet how has [the hand] not felt it? / The nostril has not inhaled what rises up
+                    to it.” Light—that is, God—is all around and within the human body: in the
+                    mouth, ears, and limbs, yet it is unable to be perceived because it is not
+                    proper to the other sense organs. If the senses cannot perceive God, then “the
+                    mind and the heart (<foreign xml:lang="syr">ܡܕܥܐ ܘܠܒܐ</foreign> )—king,
+                    commander— / And assembly of the thoughts (<foreign xml:lang="syr">ܟܢܫܐ
+                        ܕܚܘ̈ܫܒܐ</foreign>)—and the soul (<foreign xml:lang="syr">ܢܦܫܐ</foreign>),
+                    their dwelling, / Have failed to understand the light.”<note place="foot"
+                        xml:id="ftn66" n="66"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.6. </p></note> Many ancient thinkers
+                    considered the heart the seat of cognition, which derived thoughts and knowledge
+                    from sensory impressions made upon the body.<note place="foot" xml:id="ftn67"
+                        n="67"><p rend="footnote text"> John I. Beare, <hi rend="italic">Greek
+                                Theories of Elementary Cognition from Alcmaeon to Aristotle</hi>
+                            (Oxford: Clarendon, 1906), 326–36; Van der Eijk, <hi rend="italic"
+                                >Medicine and Philosophy</hi>, 119–38. For this idea in Ephrem, see
+                            Possekel, <hi rend="italic">Evidence of Greek Philosophical
+                                Concepts</hi>, 193.</p></note> Like these thinkers, Ephrem considers
+                    cognition, which takes place in the mind or soul that resides in the heart, to
+                    be a result of perception. Therefore, if the body’s senses are incapable of
+                    grasping God, then the mind cannot understand Him as theologians think it can. </p>
+                <p xml:lang="en">In <hi rend="italic">MdF 75</hi>, Ephrem further discusses the inabilities of
+                    each of the five senses in light of ancient perceptual theories. He notes that </p>
+
+                <cit>
+                    <quote>
+                        <l>The subtlety of that light</l>
+                        <l>Cannot be touched; it is not concealed</l>
+                        <l>By things that hold it.</l>
+                        <l>The heat from that ray</l>
+                        <l>Cannot be seen by the eyes—</l>
+                        <l>It is [too] fine.</l>
+                        <l>It has conquered the eyes with its heat</l>
+                        <l>And the hands with its subtlety,</l>
+                        <l>For they cannot touch or see [it] . . . </l>
+                        <l>No mouth has ever tasted</l>
+                        <l>That light, nor a nose</l>
+                        <l>Inhaled [its] scent. </l>
+                        <l>Nor has the ear ever heard</l>
+                        <l>The light’s voice, as it moves</l>
+                        <l>Across creation.<note place="foot" xml:id="ftn68" n="68"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 75.3–8. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Even sight, the sense proper to the light, is limited because it cannot perceive
+                    the light’s other aspects, such as its heat and fineness.<note place="foot"
+                        xml:id="ftn69" n="69"><p rend="footnote text"> For Ephrem’s understanding of
+                            the physiology of vision, see Possekel, <hi rend="italic">Evidence of
+                                Greek Philosophical Concepts</hi>, 203-28.</p></note> Each of the
+                    senses is circumscribed in being able to perceive but one sensible aspect, but
+                    even those aspects of God that are proper to each sense organ are too subtle for
+                    them. </p>
+                <p xml:lang="en">There is also the matter of the senses’ unlikeness to God. Although in some cases
+                    Ephrem admits that sight has a likeness with God’s light, in other cases he
+                    denies any particular sense organ’s capacity to be like God. In <hi
+                        rend="italic">MdF</hi> 41, he proclaims, </p>
+
+                <cit>
+                    <quote>
+                        <l>Though scent, color, and taste are truly</l>
+                        <l>Rarefied and subtle, and cannot be felt by the hand,</l>
+                        <l>They can be understood through the senses, their close allies (<foreign
+                                xml:lang="syr">ܐܚ̈ܝܢܝܗܘܢ</foreign>):</l>
+                        <l>One [sense] smells and another tastes.</l>
+                        <l>What sense, though, is like (<foreign xml:lang="syr">ܐܚܝܢܐ</foreign>)
+                            that Greatness?</l>
+                        <l>Through what similar thing (<foreign xml:lang="syr">ܒܪ ܛܘܗܡܗܿ</foreign> )
+                            could we approach to discuss it?</l>
+                        <l>That which is unlike us (<foreign xml:lang="syr">ܠܐ . . .
+                            ܐܚܝܢܢ</foreign>), or our race:</l>
+                        <l>Who can seek it out? Who can investigate it?<note place="foot"
+                                xml:id="ftn70" n="70"><p rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 41.5–6. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Although scent, color, and taste are perceptible to their allied sense organs,
+                    Ephrem here denies that any sense is like God and able to perceive him. Certain
+                    ancient perceptual theories, such as those of Aristotle and Plotinus, posited
+                    that perception occurred because of a likeness or assimilation of qualities
+                    between the percipient body and the perceptible object.<note place="foot"
+                        xml:id="ftn71" n="71"><p rend="footnote text"> See for example,
+                            Theophrastus, <hi rend="italic">On the Senses</hi>, which compares and
+                            contrasts the perceptual theories of those who ascribe sensation to
+                            “likeness (τὸ ὁμοῖον)” and those who ascribe it to “contrast (τὸ
+                            ἐνάντιον)” [George Malcom Stratton, ed. and trans., <hi rend="italic"
+                                >Theophrastus and the Greek Physiological Psychology before
+                                Aristotle</hi> (New York: MacMillan and Co., 1917)]. Aristotle, <hi
+                                rend="italic">DA</hi> 2.5 (418a6-9) in Hett, ed., <hi rend="italic"
+                                >On the Soul</hi>, 100-01 and Plotinus <hi rend="italic">Ennead</hi>
+                            4.4.3, LCL 440, ed. and trans. A.H. Armstrong (Cambridge: Harvard
+                            University Press, 2014), 144-45 also claim that sensation occurs when
+                            the percipient sense organ becomes like to the object of perception.
+                            Beck, <hi rend="italic">Die Theologie</hi>, 24 notes the influence of
+                            the Platonic notion that like perceives like. Possekel, <hi
+                                rend="italic">Evidence of Greek Philosophical Concepts</hi>, 197-203
+                            also shows Ephrem’s familiarity with this aspect of ancient perceptual
+                            theories.</p></note> Thus, Ephrem offers the ontological distinction
+                    between God and humanity to deny human perception of the divine. Theologians are
+                    mistaken if they think that “God is like them (<foreign xml:lang="syr"
+                        >ܠܗܘܢ</foreign>
+                    <foreign xml:lang="syr">ܕܡܐ</foreign>)” such that they can perceive and thus
+                    know Him.<note place="foot" xml:id="ftn72" n="72"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.2. </p></note>
+                </p>
+                <p xml:lang="en">In several other instances, Ephrem denies the ability of the human senses to
+                    perceive God because of this ontological gap. The investigators cannot “see /
+                    that tiny glimmer before them. / Look: it has rubbed itself on them, spread its
+                    color on them, / . . . And although they are well clothed in it, / it is far-off
+                    in the distance, / And the weak have perceived it only by report.”<note
+                        place="foot" xml:id="ftn73" n="73"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 27.7. </p></note> Although God is present in
+                    the world, right before human eyes and interacting with them, people can only
+                    indirectly see Him. In another case, he argues that just as no one can see the
+                    inner workings of miraculous natural phenomena, God is imperceptible to humans
+                    because he exceeds human nature: </p>
+
+                <cit>
+                    <quote>
+                        <l>Who has ever seen a raven mating,</l>
+                        <l>Or a virgin bee consummating a marriage?</l>
+                        <l>The virgin bee gives birth virginally,</l>
+                        <l>And the worm brings forth alone.</l>
+                        <l>A cloud, too, bears lightning gloriously,</l>
+                        <l>And a sprout is manifest within a rock miraculously.<note place="foot"
+                                xml:id="ftn74" n="74"><p rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 41.1.</p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">Ephrem thought all these things were miracles of nature, impossible to
+                    understand. Like God, their nature cannot be perceived by human senses.
+                    Continuing his focus on this ontological distinction in <hi rend="italic"
+                        >MdF</hi> 70, he opens with the question, “With what eye could a thing-made
+                    look / upon the Maker? [The eye] is a creature, / And he is the Creator.”<note
+                        place="foot" xml:id="ftn75" n="75"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 70.1.</p></note> The chasm between Creator
+                    and creation renders the human eye incapable of seeing God. Indeed, humanity is
+                    so inferior to God, that “There cannot be, among creatures, / a vessel so great
+                    that in it is contained / that Greatness. / There cannot be among minds
+                        (<foreign xml:lang="syr">ܪ̈ܥܝܢܐ</foreign>) / a space capable [of containing]
+                    that knowledge of divinity.”<note place="foot" xml:id="ftn76" n="76"><p
+                            rend="footnote text">
+                            <hi rend="italic">MdF</hi> 70.20–1. </p></note> Ephrem’s language of
+                    mental containment likely relies on ancient theories of perception and cognition
+                    wherein the perceiver took on the qualities of the perceptible object in their
+                    bodies, which were then stored as images in the mind.<note place="foot"
+                        xml:id="ftn77" n="77"><p rend="footnote text"> For the influential
+                            Aristotelian theory of perceptual images stored in the mind, see Modrak,
+                                <hi rend="italic">Aristotle</hi>, 81–132. For the ancient tendency
+                            to attribute to memory the material capacity for containment, largely
+                            derived from Aristotle, see Carruthers, <hi rend="italic">The Book of
+                                Memory, </hi>18–55. </p></note> He rejects that the material body
+                    can assimilate and contain the qualities of the divine essence. Ultimately for
+                    Ephrem, although “the senses (<foreign xml:lang="syr">ܪ̈ܓܫܐ</foreign>) of the
+                    sons of the High One / [are] subtle and spiritual,” they “are weaker than the
+                    discussion of divinity” and simply “insufficient” for knowing God fully.<note
+                        place="foot" xml:id="ftn78" n="78"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 75.25–6.</p></note>
+                </p>
+                <p xml:lang="en">But Ephrem does not end his argument against theological exercise by denying the
+                    human capacity to understand God fully through perception; he further disparages
+                    the body more generally, given that Ephrem sees all knowledge as derived from
+                    the body. He exhorts his audience to “Examine and see your lowly body (<foreign
+                        xml:lang="syr">ܦܓܪܟ ܡܫܦܠܐ</foreign> ). / Be ashamed of its intestines, all
+                    of which are filthy (<foreign xml:lang="syr">ܨܐܝܢ</foreign>). / Let its defects
+                        (<foreign xml:lang="syr">ܡܘܡ̈ܘܗܝ</foreign>) be your bridle, [to restrain]
+                    your debating.”<note place="foot" xml:id="ftn79" n="79"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 41.8. </p></note> Ephrem depicts the body as
+                    a shameful, filthy, and broken vessel, starkly contrasting it with the sacred,
+                    exalted God whom it is incapable of understanding. He even conjures imagery of
+                    polluting bodily fluids to show humanity’s unfitness to examine the divine
+                    object, exclaiming, “Cease from discussion, / O dense senses of the fat body
+                        (<foreign xml:lang="syr">ܪ̈ܓܫܐ ܥܓܪ̈ܐ ܕܦܓܪܐ ܥܒܝܐ</foreign>), / causing pus to
+                        flow!”<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 75.27. </p></note> This approach diverges
+                    sharply from his laudation of the healed body that can encounter God in his <hi
+                        rend="italic">McH</hi>. Whereas Ephrem praises the body to attack Marcionite
+                    dualists who disparage it, here Ephrem degrades the body to attack theologians
+                    who attempt to know more than they can because he sees knowledge not as abstract
+                    and disembodied but as derived from the body’s senses. </p>
+                <p xml:lang="en">His rhetoric against the body becomes even harsher when he discusses how “the
+                    mouth, the ears, and the nose, / three senses: they cannot sense / the three,”
+                    speaking about the particular inability of taste, hearing, and smell to help
+                    humans understand the Trinity.<note place="foot" xml:id="ftn81" n="81"><p
+                            rend="footnote text">
+                            <hi rend="italic">MdF</hi> 75.6. </p></note> He calls these three senses
+                    “useless (<foreign xml:lang="syr">ܒ̈ܛܝܠܝܢ</foreign>)” for perceiving the light
+                    that is God, reasoning that if these senses are useless, </p>
+
+                <cit>
+                    <quote>
+                        <l>Then your whole body (<foreign xml:lang="syr">ܟܠܗ ܓܘܫܡܟ</foreign> ) [is
+                            useless], if the senses</l>
+                        <l>Cannot meet the divinity</l>
+                        <l>Hidden from all.</l>
+                        <l>The three useless senses,</l>
+                        <l>Along with the Trinitarian symbols</l>
+                        <l>Within the sun,</l>
+                        <l>Call out that they are alien</l>
+                        <l>To the discussions of the Father, Son,</l>
+                        <l>And Holy Spirit.<note place="foot" xml:id="ftn82" n="82"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 75.9–12. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">As far as theological exercises go, the senses are ineffectual for trying to
+                    understand the relationship of the members of the Trinity. Furthermore, if the
+                    senses cannot understand God, Ephrem reasons, then the entire body—senses,
+                    limbs, and mind—are useless, again a stark divergence from his praise of the
+                    body’s role in encountering God in the <hi rend="italic">McH</hi>. </p>
+                <p xml:lang="en">Another variation in these hymns from the <hi rend="italic">McH</hi> 42-44 is his
+                    association of the body with Satan and demons. In the <hi rend="italic"
+                        >McH,</hi> Ephrem denied the affinity of natures between the human body and
+                    the demons, insisting that even if the body had been an instrument coopted by
+                    Satan for sin, Christ had healed it through his Incarnation. In <hi
+                        rend="italic">MdF</hi> 75, however, Ephrem changes his tune and argues that </p>
+
+                <cit>
+                    <quote>
+                        <l>Your body’s senses can speak to us</l>
+                        <l>About the spiritual senses</l>
+                        <l>Of the stinking demons:</l>
+                        <l>With these nostrils Legion breathes.</l>
+                        <l>With these feet, the Evil One runs</l>
+                        <l>Over all creation.<note place="foot" xml:id="ftn83" n="83"><p
+                                    rend="footnote text">
+                                    <hi rend="italic">MdF</hi> 75.29–30. </p></note></l>
+                    </quote>
+                </cit>
+                <p xml:lang="en">The demons work in and through human bodies and senses, causing theologians to
+                    propagate erroneous doctrines. Demonic entities invade not only bodies, but also
+                    minds, as “the Evil One swarms us with his thinking / . . . His movements and
+                    extensions becoming like our mind / and our understanding.”<note place="foot"
+                        xml:id="ftn84" n="84"><p rend="footnote text">
+                            <hi rend="italic">MdF</hi> 41.9. </p></note> Human beings, body and
+                    mind, are subject to demonic influence and are thus unfit for theological
+                    reasoning.</p>
+                <p xml:lang="en">Overall, Ephrem presents a negative valuation of the human body and senses in the
+                        <hi rend="italic">MdF</hi> 27, 41, 70, and 75. Its senses misperceive, fail
+                    to perceive, and are ultimately incapable of perceiving God’s nature, separated
+                    by an epistemic gap, rendering the body lowly, useless, and demonically
+                    corrupted. What makes these polemics against the body—which offer a striking
+                    contrast to his acclaim for the body in the <hi rend="italic">McH</hi>
+                    42-44—comprehensible is Ephrem’s consistency in ascribing knowledge to bodily
+                    perception. Because he sees perception and cognition as inseparable, he attacks
+                    theological reasoning by noting the limits of the human sensorium. </p>
+            </div>
+            <div xml:id="h25n2freeman.4" xml:lang="en">
+                <head>Conclusion</head>
+                <p xml:lang="en">Ephrem was a prolific poet who composed a vast amount of
+                    poetry and prose in various contexts throughout his career. In his madrashe, he
+                    weaves an intricate web of polemical invective, biblical exegesis, and
+                    philosophical theory to instruct his audiences. Ephrem’s different approaches to
+                    the human body and sensorium examined in these two sets of hymns can be
+                    attributed to their different polemical situations: his contestation of
+                    Marcionite scorn for human corporeality in <hi rend="italic">McH</hi> 42-44 and
+                    his attack on abstract theological investigation in <hi rend="italic">MdF</hi>
+                    27, 41, 70, and 75. Nevertheless, in both cases, he retains a firm commitment to
+                    a perception-centered epistemology, primarily derived from Syrian conceptions of
+                    body-soul unity and Greek theories of perception and cognition. </p>
+                <p xml:lang="en"> According to Ephrem, God created the material world for humans to encounter with
+                    their bodies; he gave them bodies to experience his creation. Christ has healed
+                    the human sensorium, worn out by sin, and thus enabled humans to experience his
+                    activity and symbols placed in nature, Scripture, and the sacraments and thus to
+                    achieve salvation. Yet the body also limits the human capacity to know God
+                    fully. Humans cannot directly see, hear, touch, taste, or smell God, who is
+                    beyond physical perception, and therefore they cannot go on to reason about his
+                    nature. Humans can experience God’s creation and symbolic refractions within it,
+                    but they cannot understand God himself.<note place="foot" xml:id="ftn85" n="85"
+                            ><p rend="footnote text"> See n. 2. </p></note> Ephrem’s approaches to
+                    epistemology betray an underlying assumption that bodily perception is the
+                    source of knowledge. My analysis thus contributes to scholarly efforts to
+                    recognize the positive role of the body and the senses in many ancient Christian
+                    epistemologies of God.</p>
+            </div>
+            <div type="bibliography" xml:lang="en">
+                <head>Bibliography</head>
+                <div xml:lang="en">
+                    <head>Primary Sources: </head>
+                    <listBibl>
+                        <bibl>Aristotle. <hi rend="italic">On the Soul. Parva Naturalia. On
+                                Breath</hi>. Translated by W. S. Hett. LCL 288. Cambridge, MA:
+                            Harvard University Press, 1957. </bibl>
+                        <bibl>E. Beck, ed. and trans. <hi rend="italic">Des heiligen Ephraem des
+                                Syrers Hymnen contra Haereses</hi>. CSCO 77. Leuven: Peeters, 1957. </bibl>
+                        <bibl>E. Beck, ed. and trans.<hi rend="italic"> Des heiligen Ephraem des
+                                Syrers Hymnen de Fide</hi>. CSCO 73. Vol. 1-2. Louvain: Peeters,
+                            1955. </bibl>
+                        <bibl>Cerbelaud, Dominique, trans. <hi rend="italic">Ephrem de Nisibe:
+                                Hymnes contre les heresies; Hymnes contra Julien</hi>. Vol. 2.
+                            Paris: Les editions du cerf, 2017.</bibl>
+                        <bibl>De Lacy, Phillip, ed. and trans. <hi rend="italic">Galen: On the
+                                Doctrines of Hippocrates and Plato</hi>. Corpus Medicorum Graecorum
+                            4:1:2. Berlin: Akademie Verlag, 1980.</bibl>
+                        <bibl>Nemesius. <hi rend="italic">On the Nature of Man</hi>. Translated by
+                            R. W. Sharples and P. J. van der Eijk. Liverpool: Liverpool University
+                            Press, 2008.</bibl>
+                        <bibl>Plato.<hi rend="italic"> Timaeus. </hi>Translated by R. G. Bury. LCL
+                            234. Cambridge, MA: Harvard University Press, 1929. </bibl>
+                        <bibl>Plotinus. <hi rend="italic">Enneads</hi>. Translated by A. H.
+                            Armstrong. LCL 440. 5 volumes. Cambridge: Harvard University Press,
+                            2014.</bibl>
+                        <bibl>Ruani, Flavia, trans. <hi rend="italic">Éphrem de Nisibe: Hymnes
+                                contre les hérésies</hi>. Bibliotèque de L’Orient Chrétien. Paris:
+                            Les Belles Lettres, 2018.</bibl>
+                        <bibl>Wickes, Jeffrey, trans. <hi rend="italic">St. Ephrem the Syrian: Hymns
+                                on Faith</hi>. Washington, D.C.: Catholic University of America
+                            Press, 2015.</bibl>
+                        <bibl>Stratton, George Malcolm, ed. and trans.<hi rend="italic">
+                                Theophrastus and the Greek Physiological Psychology before
+                                Aristotle</hi>. New York: MacMillan and Co., 1917. </bibl>
+                    </listBibl>
+                </div>
+                <div xml:lang="en">
+                    <head>Secondary Sources: </head>
+                    <listBibl>
+                        <bibl>Beare, John I. <hi rend="italic">Greek Theories of Elementary
+                                Cognition from Alcmaeon to Aristotle</hi>. Oxford: Clarendon,
+                            1906.</bibl>
+                        <bibl>Beck, E. <hi rend="italic">Die Theologie des heiligen Ephrem in Seinen
+                                Hymnen über den Glauben</hi>. Rome: Pontifium Institutum S. Anselmi,
+                            1949.</bibl>
+                        <bibl>____. <hi rend="italic">Ephräms des Syrers Psychologie und
+                                Erkenntnislehre</hi>. Louvain: CSCO, 1980.</bibl>
+                        <bibl>Beggiana, Seeley Joseph. “The Typological Approach of Syriac
+                            Sacramental Theology.” <hi rend="italic">Theological Studies</hi> 64
+                            (2003): 543-57.</bibl>
+                        <bibl>Botha, Phil J. “The Poetic Face of Rhetoric: Ephrem’s Polemics against
+                            the Jews and Heretics in <hi rend="italic">Contra Haereses</hi> 25.” <hi
+                                rend="italic">Acta Patristica et Byzantina</hi> 2 (1991):
+                            16-36.</bibl>
+                        <bibl>____. “The Significance of the Senses in St. Ephrem’s Description of
+                            Paradise.” <hi rend="italic">Acta Patristica et Byzantina</hi> 5 (1994):
+                            28-37. </bibl>
+                        <bibl>____ “The Textual Strategy of Ephrem the Syrian’s Hymn Contra Haereses
+                            I.” <hi rend="italic">Acta Patristica et Byzantina</hi> 15 (2004):
+                            57-75.</bibl>
+                        <bibl>Bukovec, Predrag. “Gotteserkenntnis in Ephraems des Syrers <hi
+                                rend="italic">Hymni de fide</hi>.” <hi rend="italic">Saeculum</hi>
+                            60 (2010): 17-40.</bibl>
+                        <bibl>Bundy, David. “Language and the Knowledge of God in Ephrem Syrus.” <hi
+                                rend="italic">The Patristic and Byzantine Review</hi> 5 (1986):
+                            9-103. </bibl>
+                        <bibl>Brock, Sebastian. “The Dispute between Body and Soul: An Example of a
+                            Long-Lived Mesopotamian Literary Genre.” <hi rend="italic">ARAM</hi> 1
+                            (1989): 53-64. </bibl>
+                        <bibl>____<hi rend="italic">. The Luminous Eye: The Spiritual World Vision
+                                of Saint Ephrem.</hi> Cistercian Studies 124. Spencer, MS:
+                            Cistercian Publications, 1992. Originally published Rome: Center for
+                            Indian and Inter-Religious Studies, 1985.</bibl>
+                        <bibl>Carruthers, Mary. <hi rend="italic">The Book of Memory: A Study of
+                                Memory in Medieval Culture</hi>. 2<hi rend="superscript">nd</hi>
+                            edition. Cambridge: Cambridge University Press, 2008.</bibl>
+                        <bibl>Cassingena-Trevedy, Francoise. "Le Rationalisme Theologique Comme Mal
+                            Radical a travers Les Hymnes sur La Foi d'Ephrem de Nisibe.” Pages 65-75
+                            in <hi rend="italic">Les forces du bien et du mal dans les premiers
+                                siecles de l'eglide: actes du colloque de Tours</hi>, ed. Yves-Marie
+                            Blanchard, Bernard Pouderon, and Madeleine Scopello. Paris: Beauchesne,
+                            2010.</bibl>
+                        <bibl>Frank, Georgia. <hi rend="italic">The Memory of the Eyes: Pilgrims to
+                                Living Saints in Late Antiquity</hi>. The Transformation of the
+                            Classical Heritage 30. Berkeley: University of California Press, 2000. </bibl>
+                        <bibl>Gavrilyuk, Paul L. and Sarah Coakley, eds. <hi rend="italic">The
+                                Spiritual Senses: Perceiving God in Western Christianity</hi>.
+                            Cambridge: Cambridge University Press, 2012.</bibl>
+                        <bibl>Griffith, Sidney. “‘Denominationalism’ in Fourth-Century Syria:
+                            Readings in Saint Ephraem’s <hi rend="italic">Hymns against
+                                Heresies</hi>.” Pages 79-100 in <hi rend="italic">The Garb of Being:
+                                Embodiment and the Pursuit of Holiness in Late Ancient
+                                Christianity,</hi> Orthodox Christianity and Contemporary Thought,
+                            ed. Georgia Frank, Susan Holman, and Andrew Jacobs. New York: Fordham
+                            University Press, 2020.</bibl>
+                        <bibl>____. “Faith Seeking Understanding in the Thought of St. Ephraem.”
+                            Pages 35-55 in <hi rend="italic">Faith Seeking Understanding: Learning
+                                and the Catholic Tradition, </hi>ed. George Charles Berthold
+                            Manchester, NH: Saint Anselm College Press, 1991.</bibl>
+                        <bibl>____. “Setting Right the Church of Syria: Saint Ephraem’s <hi
+                                rend="italic">Hymns against Heresies</hi>.” Pages 97-114 in <hi
+                                rend="italic">The Limits of Ancient Christianity: Essays on Late
+                                Antique Thought and Culture in Honor of R. A. Markus, </hi>ed.
+                            William E. Klingshirn and Mark Vessey. Ann Arbor: University of Michigan
+                            Press, 1999. </bibl>
+                        <bibl>____. “The Image of the Image Maker in the Poetry of St. Ephraem the
+                            Syrian.” <hi rend="italic">StPatr</hi> 25 (1993): 258-69. </bibl>
+                        <bibl>____. “The Marks of the True Church According to Ephrem’s <hi
+                                rend="italic">Hymns Against Heresies</hi>.” Pages 125-40 in <hi
+                                rend="italic">After Bardaisan: Studies on Continuity and Change in
+                                Syriac Christianity in Honour of Professir Han J. W. Drijvers</hi>,
+                            ed. G. J. Reinink and Alexander Cornelis Klugkist. Leuven: Peeters,
+                            1999.</bibl>
+                        <bibl>Hartung, Blake. “The Authorship and Dating of the Syriac Corpus
+                            Attributed to Ephrem of Nisibis: A Reassessment.” <hi rend="italic"
+                                >Zeitschrift für Antikes Christentum</hi> 22 (2018): 296-321.</bibl>
+                        <bibl>Harvey, Susan Ashbrook. <hi rend="italic">Asceticism and Society in
+                                Crisis: John of Ephesus and the Lives of the Eastern Saints</hi>.
+                            Berkeley: University of California Press, 1990. </bibl>
+                        <bibl>____. “Locating the Sensing Body: Perception and Religious Identity in
+                            Late Antiquity.” Pages 140-62 in <hi rend="italic">Religion and the Self
+                                in Antiquity</hi>, ed. David Brakke, Michael L. Satlow, and Steven
+                            Weitzman. Bloomington: Indiana University Press, 2005.</bibl>
+                        <bibl>____<hi rend="italic">. Scenting Salvation: Ancient Christianity and
+                                the Olfactory Imagination</hi>. Berkeley: University of California
+                            Press, 2006.</bibl>
+                        <bibl>____. “St. Ephrem on the Scent of Salvation.” <hi rend="italic"
+                                >Journal of Theological Studies</hi> 49 (1998): 109-28. </bibl>
+                        <bibl>Kiger, David. “Fire in the Bread, Life in the Body: The Pneumatology
+                            of Ephrem the Syrian.” Ph.D. diss., Marquette University, 2009.</bibl>
+                        <bibl>Kim, Jaehyun. “Body and Soul in Ephrem the Syrian.” <hi rend="italic"
+                                >Syriac Studies</hi> (2002): 79-117.</bibl>
+                        <bibl>Koonammakkal, Thomas Kathanar. “Ephrem’s Polemics on the Human Body.”
+                                <hi rend="italic">StPatr</hi> 35 (2001): 428-32. </bibl>
+                        <bibl>____. “The Self-Revealing God and Man in Ephrem.” <hi rend="italic"
+                                >The Harp</hi> 6 (1993): 233-48.</bibl>
+                        <bibl>Miller, Patricia Cox. <hi rend="italic">The Corporeal Imagination:
+                                Signifying the Holy in Late Antiquity</hi>. Divinations: Rereading
+                            Late Ancient Religion. Philadelphia: University of Pennsylvania Press,
+                            2009. </bibl>
+                        <bibl>Modrak, Deborah K. <hi rend="italic">Aristotle: The Power of
+                                Perception</hi>. Chicago: University of Chicago Press, 1987.</bibl>
+                        <bibl>Murray, Robert. <hi rend="italic">Symbols of Church and Kingdom: A
+                                Study in Early Syriac Tradition</hi>. Cambridge: Cambridge
+                            University Press, 1975. </bibl>
+                        <bibl>Mourachian, Mark J. “Human Freedom in the Context of the Theological
+                            Anthropology of St. Ephrem the Syrian.” PhD diss., Catholic University
+                            of America, 2012.</bibl>
+                        <bibl>Possekel, Ute. “Ephrem’s Doctrine of God.” Pages 195-237 in <hi
+                                rend="italic">God in Early Christian Thought: Essays in Memory of
+                                Lloyd G. Patterson, </hi>ed. Andrew B. McGowan. Leiden: Brill,
+                            2009.</bibl>
+                        <bibl>____<hi rend="italic">. Evidence of Greek Philosophical Concepts in
+                                the Writings of Ephrem the Syrian. </hi>Louvain: Peeters,
+                            1999.</bibl>
+                        <bibl>Russel, Paul S. “A Note on Ephraem the Syrian and ‘The Poison of the
+                            Greeks’ in Hymns on Faith 2.” <hi rend="italic">The Harp</hi> 10 (1997):
+                            45-54. </bibl>
+                        <bibl>____. “Ephraem the Syrian on the Utility of Language and the Place of
+                                Silence.” <hi rend="italic">Journal of Early Christian
+                            Studies</hi> 8 (2000): 21-37. </bibl>
+                        <bibl>Saber, Georges. "La Typologie Sacramentaire et Baptismale de Saint
+                            Ephrem." <hi rend="italic">ParOr</hi> 4 (1973): 73-91. </bibl>
+                        <bibl>Shemunkasho, Aho. <hi rend="italic">Healing in the Theology of Saint
+                                Ephrem</hi>. Gorgias Dissertations: Near Eastern Studies 1.
+                            Piscataway, NJ: Gorgias Press, 2002.</bibl>
+                        <bibl>Shepardson, Christine. <hi rend="italic">Anti-Judaism and Christian
+                                Orthodoxy: Ephrem’s Hymns in Fourth-Century Syria</hi>. Washington,
+                            D. C.: Catholic University of America Press, 2008.</bibl>
+                        <bibl>Smith, Mark A. <hi rend="italic">From Sight to Light: The Passage from
+                                Ancient to Modern Optics</hi>. Chicago: University of Chicago Press,
+                            2015.</bibl>
+                        <bibl>Van der Eijk, Philip J. <hi rend="italic">Medicine and Philosophy in
+                                Classical Antiquity: Doctors and Philosophers on Nature, Soul,
+                                Health, and Disease</hi>. Cambridge: Cambridge University Press,
+                            2005.</bibl>
+                        <bibl>Vleugels, Charis. “The Response to Chasm and Bridge: The Wings of
+                            Truth and Attitude in Ephrem the Syrian’s Hymns on Faith.” <hi
+                                rend="italic">The Harp</hi> 22 (2007): 183-92. </bibl>
+                        <bibl>Wickes, Jeffrey. “Between Liturgy and School: Reassessing the
+                            Performative Context of Ephrem’s <hi rend="italic">Madrashe</hi>.” <hi
+                                rend="italic">Journal of Early Christian Studies</hi> 26 (2018):
+                            25-51. </bibl>
+                        <bibl>____. <hi rend="italic">Bible and Poetry in Mesopotamia: Ephrem’s
+                                Madrashe on Faith</hi>. Christianity in Late Antiquity 4. Berkeley:
+                            University of California Press, 2019. </bibl>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
