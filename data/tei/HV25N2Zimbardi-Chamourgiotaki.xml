@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Preliminary Survey on Isaac of Nineveh’s
+                    Arabic Collection in the MS <hi rend="italic">Strasbourg 4226</hi> (<hi
+                        rend="italic">Ar. 151</hi>)</title>
+                <author>
+                    <name>
+                        <forename>Vasiliki</forename>
+                        <surname>Chamourgiotaki</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Freie Universität Berlin</orgName>
+                    </affiliation>
+                </author>
+                <author>
+                    <name>
+                        <forename>Emanuele</forename>
+                        <surname>Zimbardi</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Ca’ Foscari Università di Venezia</orgName>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2022</date>
+                <idno>Volume 25.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv25n2chamourgiotaki-zimbardi</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Vasiliki Chamourgiotaki</author>
+                        <author>Emanuele Zimbardi</author>
+                        <title level="a">A Preliminary Survey on Isaac of Nineveh’s
+                            Arabic Collection in the MS <hi rend="italic">Strasbourg 4226</hi> (<hi
+                                rend="italic">Ar. 151</hi>)</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol25/HV25N2Chamourgiotaki-Zimbardi.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2022</date>
+                        </imprint>
+                        <biblScope type="vol" n="25">25</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="365" to="416">365-416</biblScope>
+                        <biblScope type="order" n="2"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Isaac of Nineveh</term>
+                    <term>John of Dalyatha</term>
+                    <term>MS Strasbourg 4226</term>
+                    <term>Isaac Arabus</term>
+                    <term>Arabic translation</term>
+                    <term>Sinai</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2022-08-23">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">The MS Strasbourg 4226 was produced by the Melchite community of
+                    Mar Saba under the commission of Saint Catherine’s monastery on Sinai. Dating as
+                    early as the latter part of the ninth century (885/886), it is a very important
+                    witness to Isaac Arabus. The aim of this paper is to give an exact overview of the
+                    homilies transmitted under the name of Isaac of Nineveh in this manuscript (ff.
+                    81v-148v). Each homily is presented with the following information: title (both in
+                    the general index and in the body of the text), incipit and desinit, and their
+                    textual correspondences with the printed editions of Isaac Syrus by Paul Bedjan and
+                    Isaac Graecus by Marcel Pirard. Moreover, the textual correspondences with extracts
+                    of three homilies of John of Dalyatha, falsely attributed to Isaac of Nineveh, are
+                    indicated with references to the edition of Nadira Khayyat. At the end of the paper
+                    a table of correspondences between the Arabic homilies and the Syriac and Greek
+                    editions is provided.</p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.1" xml:lang="en">
+                <head>Introduction</head><note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> We
+                            would like to thank Sabino Chialà, for his useful insights in the
+                            complex tradition of Isaac and his advice for the structuring of the
+                            central part of this paper, and Professor Arianna D’Ottone Rambach, for
+                            her useful remarks in Arabic palaeography and her kindness in sharing
+                            with us her expertise with Arabic manuscripts. We would also like to
+                            thank the anonymous reviewers for their suggestions and comments.
+                        </p></note>
+                
+                <p xml:lang="en">The Arabic transmission of Isaac of Nineveh’s ascetical
+                    discourses is largely unexplored by scholarship.<note place="foot" xml:id="ftn2"
+                        n="2"><p rend="footnote text"> General accounts on the Isaac Arabus and its
+                            textual transmission can be found in G. Assemani, <hi rend="italic"
+                                >Bibliotheca Orientalis Clementino-Vaticana</hi>, Vol. 1, <hi
+                                rend="italic">De scriptoribus Syris orthodoxis</hi> (Roma: Sacra
+                            Congregatio de Propaganda Fide, 1719), 446-459; G. Assemani and S.
+                            Assemani, <hi rend="italic">Bibliothecae apostolicae Vaticanae codicum
+                                manuscriptorum catalogus</hi>, Vol. 1,3, <hi rend="italic">Reliqui
+                                codices Chaldaici sive Syriaci</hi> (Roma: Ex typographia linguarum
+                            orientalium, 1759), 427-441; J. Chabot, <hi rend="italic">De S. Isaaci
+                                Ninivitae vita, scriptis et doctrina</hi> (Louvain: Lefever F. &amp;
+                            S., 1892), 54-60; G. Graf, <hi rend="italic">Geschichte der christlichen
+                                arabischen Literatur</hi>, Vol. 1, <hi rend="italic">Die
+                                Übersetzungen</hi> (Città del Vaticano: Biblioteca Apostolica
+                            Vaticana, 1944), 436-442; id., <hi rend="italic">Geschichte der
+                                christlichen arabischen Literatur</hi>, Vol.
+                            2<hi rend="italic">, Die Schriftsteller bis zur Mitte des 15. Jahrhunderts </hi>(Città
+                            del Vaticano: Biblioteca Apostolica Vaticana, 1947), 58; 397; id., <hi
+                                rend="italic">Geschichte der christlichen arabischen Literatur</hi>,
+                            Vol. 5<hi rend="italic">, Register </hi>(Città del
+                            Vaticano: Biblioteca Apostolica Vaticana, 1953), 75, s.v. <hi
+                                rend="italic">Isaak der Syrer</hi>; E. Khalifé-Hachem, "Isaac de
+                            Ninive," in <hi rend="italic">Dictionnaire de Spiritualité, ascétique et
+                                mystique, doctrine et histoire</hi>, eds. M. Viller et alii, Vol.
+                            7.2 (Paris: Beauchesne, 1971), 2052; id., "Les versions arabes d’Isaac
+                            de Ninive," in <hi rend="italic">Proceedings of the 28th International
+                                Congress of Orientalists (Canberra, 6-12 January 1971)</hi>, ed. A.
+                            Davis (Wiesbaden: Harrassowitz, 1976), 36–7, M. Pirard (ed.), <hi
+                                rend="italic">Ἀββᾶ Ἰσαὰκ τοῦ Σύρου. Λόγοι ἀσκητικοί. Κριτικὴ
+                                ἔκδοσι</hi> (Ἅγιον Ὄρος: Ἱερὰ Μονὴ Ἰβήρων, 2012), 65-67. For a brief
+                            but comprehensive account of the state of the art on this topic, see S.
+                            Chialà, <hi rend="italic">Dall’ascesi eremitica alla misericordia
+                                infinita. Ricerche su Isacco di Ninive e la sua fortuna</hi>
+                            (Firenze: Leo S. Olschki, 2002), 334-338, with further relevant
+                            bibliography. For the first part of the four-part collection of Isaac
+                            Arabus transmitted by the MS <hi rend="italic">Vat. syr 198</hi> (once
+                                <hi rend="italic">Nitrensis 20</hi>, beginning of the 16<hi
+                                rend="superscript">th</hi> c.), see id., "The Arabic Version of
+                            Saint Isaac the Syrian. A Channel of Transmission of Syriac Literature,"
+                            in <hi rend="italic">Proceedings of the International Patristics
+                                Conference ‘Saint Isaac the Syrian and His Spiritual Legacy’ Held at
+                                the Sts Cyril and Methodius Institute for Postgraduate Studies
+                                (Moscow, October 10-11, 2013)</hi>, ed. H. Alfeyev (Yonkers [NY]: St
+                            Vladimir’s Seminary Press, 2015), 59–67.</p></note> This makes the
+                    recognition of the single texts that are transmitted in the so far identified
+                    manuscripts of Isaac Arabus urgent. This article aims to make a first step
+                    towards this direction: the identification of the single homilies or pieces of
+                    homilies transmitted under the name of Isaac of Nineveh in the MS <hi
+                        rend="italic">Strasbourg 4226</hi>,<note place="foot" xml:id="ftn3" n="3"><p
+                            rend="footnote text"> The manuscript is available at <ref
+                                target="https://www.numistral.fr/ark:/12148/btv1b102352175"
+                                >https://www.numistral.fr/ark:/12148/btv1b102352175</ref>.</p></note>
+                    and the creation of a table of correspondences between this (unedited) Arabic
+                    collection, the edited Syriac source text, and the edited Greek version of
+                        Isaac.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">
+                            Pataridze extended the list with correspondences, which reportedly has
+                            been made by Géhin and Pirard: T. Pataridze, "Les discours ascétiques
+                            d’Isaac de Ninive. Étude de la tradition géorgienne et de ses rapports
+                            avec les autres versions" (<hi rend="italic">Le Muséon</hi> 124:1&amp;2
+                            [2011]), 29, n. 8. Her compilation, though, does not recognize that some
+                            Arabic homilies are in fact the fusion of more than one homily of Isaac
+                            – as the survey in this article aims at showing – and identifies only
+                            one out of three homilies of John of Dalyatha. Based on Pataridze’s
+                            list, Alexander Treiger, when providing the table of contents of the MS
+                                <hi rend="italic">Sinai ar. 549</hi> (10<hi rend="superscript"
+                                >th</hi> c.), in which homilies of Isaac of Nineveh are included,
+                            gives the correspondences between these homilies (or extracts of
+                            homilies) and the MS <hi rend="italic">Strasbourg 4226</hi>: A. Treiger, "Syro-Arabic Translations in
+                            Abbasid Palestine: The Case of John of Apamea’s Letter of Stillness
+                            (Sinai Ar. 549)," in
+                            (<hi rend="italic">Parole de l’Orient </hi>39
+                            [2014]), 111; 113-22.</p></note></p>
+                <p xml:lang="en">The Strasbourg manuscript is a very important witness to the Arabic transmission
+                    of Isaac, for it is the earliest known manuscript that bears Isaac’s homilies in
+                    Arabic (dated to 885/886, s. <hi rend="italic">infra</hi>).<note place="foot"
+                        xml:id="ftn5" n="5"><p rend="footnote text"> Another ancient witness of
+                            Isaac Arabus is a collection of maxims chosen and translated by Ibn
+                            aṣ-Ṣalt (end of 9<hi rend="superscript">th</hi>-beginning of 10<hi
+                                rend="superscript">th</hi> c.). For relevant bibliography see
+                            Chialà,
+                            <hi rend="italic">Dall’ascesi eremitica, </hi>334-35.</p></note>
+                    For this reason and in order to have a solid ground to start off with collations
+                    of the Syriac, Arabic and Greek manuscripts, it is important to know which texts
+                    of Isaac are transmitted in this very ancient witness.<note place="foot"
+                        xml:id="ftn6" n="6"><p rend="footnote text"> The aim of the present article
+                            is not to ascertain whether the Arabic translation was made on the basis
+                            of a Syriac or a Greek <hi rend="italic">Vorlage</hi>. For the last
+                            hypothesis see S. Brock, "Syriac into Greek at Mar Saba: The Translation
+                            of St. Isaac the Syrian," in <hi rend="italic">Sabaite Ηeritage in the
+                                Orthodox Church from the Fifth Century to the Present</hi>, ed. J.
+                            Patrich (Leuven: Peeters, 2001), 207. According to the soundings of
+                            Pataridze, the Arabic translation of the Strasbourg manuscript was made
+                            undoubtedly from a Syriac prototype belonging to the West Syriac
+                            tradition of Isaac: see her remarks, substantiated by many examples, in
+                            T. Pataridze, "Les discours ascétiques," 32-54; ead., "Isaac from the
+                            Monastery of Mar Saba. The History of the Origin of the Multiple
+                            Translations of St Isaac the Syrian’s Work and Their Distribution in the
+                            Holy Lavra," in <hi rend="italic">Proceedings of the International
+                                Patristics Conference ‘Saint Isaac the Syrian and His Spiritual
+                                Legacy’ Held at the Sts Cyril and Methodius Institute for
+                                Postgraduate Studies (Moscow, October 10-11, 2013)</hi>, ed. H.
+                            Alfeyev (Yonkers [NY]: St Vladimir’s Seminary Press, 2015),
+                        42-50.</p></note></p>
+                <p xml:lang="en">The homilies of Isaac in this manuscript are still unedited. The manuscript
+                    became well known as a witness to Isaac Arabus after its first description by
+                    Oestrup in 1897.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text">
+                            Oestrup mentions that the collection of Isaac in this manuscript has
+                            “eine Reihe von grösseren und kleineren Abschnitten, von welchen die
+                            meisten sich in dem von Chabot…gegebenen Verzeichnis der Werke Isaacs
+                            wiederfinden”: J. Oestrup, "Über zwei arabische Codices Sinaitici der
+                            Straßburger Universitäts- und Landesbibliothek" (<hi rend="italic"
+                                >Zeitschrift der Deutschen Morgenländischen Gesellschaft</hi> 51:3
+                            [1897]), 457. The catalogue of the Strasbourg manuscript essentially
+                            relies on Oestrup: E. Wickersheimer, <hi rend="italic">Catalogue général
+                                des manuscrits des bibliothèques publiques de France</hi>, Vol. 47,
+                                <hi rend="italic">Strasbourg</hi> (Paris: Librairie Plon, 1923),
+                            747-8.</p></note> Afterwards, it attracted the attention of several
+                    scholars (s. <hi rend="italic">infra</hi>) but nobody described precisely the
+                    content of Isaac’s works.</p>
+                <p xml:lang="en">The collection of Isaac’s homilies in the manuscript occupies ff. 81v-148v. The
+                    origin of the Arabic translation could be traced back to the Melchite monastery
+                    of Mar Saba, where the manuscript was copied and where a fervid multilingual
+                    interchange and translation movement took place, permitted by the presence of
+                    speakers of Syriac, Greek, Arabic, and Georgian, and by the wide circulation of
+                    manuscripts in these languages.<note place="foot" xml:id="ftn8" n="8"><p
+                            rend="footnote text"> For an instructive account on this <hi
+                                rend="italic">milieu</hi>, see T. Pataridze, "Christian Literature
+                            in Arabic in the Early Islamic Period (8th-10th c.): The Circulation of
+                            Texts and Ideas between the Greek, Syriac, Arabic, and Georgian
+                            Communities," (<hi rend="italic">Le Muséon</hi> 132, 1&amp;2 [2019]),
+                            especially 200-8, with further relevant bibliography. </p></note></p>
+            </div>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.2" xml:lang="en">
+                <head>The Manuscript: Its Provenance, Its Palaeographical Description, and Its
+                    Copyist</head>
+                <p xml:lang="en">According to the MS <hi rend="italic">Strasbourg
+                        4226</hi>’s colophon<note place="foot" xml:id="ftn9" n="9"><p
+                            rend="footnote text">
+                            <hi rend="italic">Pet. Ar. N.S. 263</hi>, fol. 5v. </p></note> (s. <hi
+                        rend="italic">infra</hi>), the manuscript was copied in 885/886 in the
+                    well-known monastery of Mar Saba in Southern Palestine under the commission of
+                    anbā Isḥāq of the monastery of Saint Catherine in Sinai.<note place="foot"
+                        xml:id="ftn10" n="10"><p rend="footnote text">
+                            I. Kračkovskij, "Novozavjetnyj apokrif v
+                            arabskoj rukopisi 885-886 goda po R. Hr." (<hi rend="italic"
+                                >Vizantijskij Vremennik</hi> 14 [1909]), 248. The manuscript can be
+                            traced back to Sinai also due to an indication of its ancient Sinaitic
+                            signature 'βιβλίον λθ' (fol. 2v), and a note of possession by Germanos,
+                            a Sinai’s bishop in the 14<hi rend="superscript">th</hi> cent. (fol.
+                            7v-8v): see A. Binggeli, "Les trois David, copistes arabes de
+                            Palestine," in <hi rend="italic">Manuscripta Graeca et Orientalia.
+                                Mélanges monastiques et patristiques en l'honneur de Paul
+                            Géhin</hi>, Orientalia Lovaniensia Analecta 243, eds. A. Binggeli, A.
+                            Boud'hors and M. Cassin (Leuven: Peeters, 2016), 82.</p></note> The
+                    Strasbourg’s <hi rend="italic">codex</hi> bears the distinctive codicological
+                    and paleographical characteristics which were developed from the 8<hi
+                        rend="superscript">th</hi> c. onwards in the Arabic Christian production
+                    from Palestine to Sinai.<note place="foot" xml:id="ftn11" n="11"><p
+                            rend="footnote text"> See A. D’Ottone, "Arabic Palaeography,” in <hi
+                                rend="italic">Comparative Oriental Manuscript Studies. An
+                                Introduction</hi> (s.l.: s.e., 2015), 271 (with relevant
+                            bibliography).</p></note> Fleischer described its script as totally
+                    corresponding with that of another Christian Arabic manuscript, a palimpsest
+                    formerly written in Greek, the MS <hi rend="italic">Leipzig gr. 2</hi> (once <hi
+                        rend="italic">Codex Rescriptus Tischendorf 2</hi>).<note place="foot"
+                        xml:id="ftn12" n="12"><p rend="footnote text"> H. Fleischer, "Beschreibung
+                            der von Prof. Tischendorf im Jahre 1853 aus dem Morgenlange
+                            zurückgebrachten christlich-arabischen Handschriften" (<hi rend="italic"
+                                >Zeitschrift der Deutschen Morgenländischen Gesellschaft</hi> 8
+                            [1854]), 587. The catalogue reference for this MS is in V. Gardthausen,
+                                <hi rend="italic">Katalog der Handschriften der
+                                Universitäts-Bibliothek zu Leipzig</hi>, Vol. 3, <hi rend="italic"
+                                >Die griechischen Handschriften</hi> (Leipzig: Harrassowitz 1898),
+                            4. On this manuscript see also M. van Esbroeck, "Le codex rescriptus
+                            Tischendorf 2 à Leipzig et Cyrille de Scythopolis en version arabe," in
+                                <hi rend="italic">Actes du deuxième Congrès international d’études
+                                arabes chrétiennes</hi>, ed. S. Khalil Samir (Rome: Pontificium
+                            Institutum Studiorum Orientalium, 1986), 81-91.</p></note> According to
+                    the German scholar, the script is a Naskh with ancient characteristics, very
+                    similar to Kufic, regarding the shape of the individual letters, but also
+                    divergent from it, in regard to the distance between certain letters within the
+                    same word.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> H.
+                            Fleischer, "Über einen griechisch-arabischen Codex rescriptus der
+                            Leipziger Universitäts-Bibliothek" (<hi rend="italic">Zeitschrift der
+                                Deutschen Morgenländischen Gesellschaft</hi> 1 [1847]), 159-160.
+                            This assertion corresponds with the short one in Oestrup, "Über zwei
+                            arabische Codices", 454: "ein altertümliches, noch sehr steifes, aber
+                            ganz reines Neschi".</p></note> A very accurate description of the form
+                    of single letters is given by Heffening,<note place="foot" xml:id="ftn14" n="14"
+                            ><p rend="footnote text"> W. Heffening, "Die griechische
+                            Ephraem-Paraenesis gegen das Lachen in arabischer Übersetzung" (<hi
+                                rend="italic">Oriens christianus</hi> 3:2 [1927]), 97-9. Concerning
+                            the writing, the usage of small diacritical signs underneath the letters
+                            ح, ص, ع is peculiar. According to I. Kračkovskij, "Novozavjetnyj apokrif
+                            v arabskoj rukopisi 885-886 goda po R. Hr." (<hi rend="italic"
+                                >Vizantijskij Vremennik</hi> 14 [1909]), 249 and Heffening, "Die
+                            griechische Ephraem-Paraenesis," 99, they could be small versions of the
+                            same letters, a practice which is confirmed by the comparison with the
+                            Arabic tradition: cf. W. Wright, <hi rend="italic">A Grammar of the
+                                Arabic Language</hi>, Vol. 1 (Beirut: Librairie du Liban, 1974<hi
+                                rend="superscript">3</hi>), 4. In contrast to this, Oestrup observed
+                            that only under ص there is such a small diacritical sign, which he
+                            interpreted as the initial م of the word مهمل: Oestrup, "Über zwei
+                            arabische Codices," 454.</p></note> who avoids systematically the terms
+                        <hi rend="italic">nasḫī</hi> or <hi rend="italic">kūfī</hi>, umbrella terms
+                    which in Arabic paleography does not allow an effective description of
+                        scripts.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text">
+                            For a brief but useful discussion of this issue, see D’Ottone, "Arabic
+                            Palaeography," 273-6. However, in the field of Christian Arabic the
+                            terms 'Naskh' and 'Kufic' (with their sub-variants such as 'pre-' or
+                            'old') have become widespread: see for example A. Atiya, "The monastery
+                            of St. Catherine and the Mount Sinai expedition" (<hi rend="italic"
+                                >Proceedings of the American Philosophy Society</hi> 96 [1952]),
+                            578-586; id., "Codex Arabicus (Sinai Arabic Ms. No. 514)," in <hi
+                                rend="italic">Homage to a Bookman: Essays on Manuscripts, Books and
+                                Printing Written for Hans P. Kraus on his 60th Birthday</hi>, ed. H.
+                            Lehmann-Haupt (Gebr. Mann Verlag: Berlin, 1967), 75-87.</p></note>
+                    Nowadays, the hand of the copyist of the Strasbourg manuscript is well known: it
+                    belongs to a <hi rend="italic">warrāq</hi> of the monastery of Mar Saba, David
+                    Antony of Baghdad.<note place="foot" xml:id="ftn16" n="16"><p
+                            rend="footnote text"> On this copyist and the other known manuscripts
+                            copied by him, see Kračkovskij, "Novozavjetnyj apokrif,", 247, n. 5,
+                            with further reference to A. Mai; Heffening, "Die griechische
+                            Ephraem-Paraenesis," 99-103; S. Griffith, <hi rend="italic">Arabic
+                                Christianity in the Monasteries of Ninth-Century Palestine</hi>
+                            (Aldershot: Ashgate, 1992).</p></note> Recently, Hjälm has described
+                    very carefully the main features of Antony’s script and has proposed the label
+                    'New Style script', a precursor of the cursive script that developed especially
+                    in the 10<hi rend="superscript">th</hi> c.<note place="foot" xml:id="ftn17"
+                        n="17"><p rend="footnote text"> M. Hjälm, "A Paleographical Study of Early
+                            Christian Arabic Manuscripts" (<hi rend="italic">Collectanea Christiana
+                                Orientalia</hi> 17 [2020]), 64-8. A. D’Ottone kindly informed us
+                            that she will publish in 2021 an article on the special features of
+                            Antony’s hand, see A. D’Ottone Rambach, "Sharing the written space:
+                            Contact and Interaction Between Arabic and Other Scripts," in <hi
+                                rend="italic">Proceedings of the International Symposium: Navigating
+                                Language in the Early Islamic World (The Marco Institute for
+                                Medieval and Renaissance Studies, The University of Tennessee,
+                                Knoxville, 6-7 April 2018)</hi>, eds. A. Borrut and A.V. Vacca
+                            (Brepols: Turnhout 2021 [forthcoming]).</p></note></p>
+            </div>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.3" xml:lang="en">
+                <head>The MS <hi rend="italic">Strasbourg 4226</hi> and Its <hi rend="italic"
+                        >Disiecta Membra</hi>: The Story of a Reconstructed Arabic Manuscript</head>
+                <p xml:lang="en">The MS <hi rend="italic">Strasbourg 4226</hi> is
+                    mutilated in its initial and final parts.<note place="foot" xml:id="ftn18"
+                        n="18"><p rend="footnote text"> For the story of its arrival at Strasbourg
+                            in 1895, see Oestrup, "Über zwei arabische Codices," 453, n.
+                        4.</p></note> The first quire, apparently starting at f. 3r, has only 7
+                    leaves - almost all the other quires of the manuscript have 8 - being thus
+                    deprived of the first folio, given that the actual f. 3r clearly does not
+                    present the beginning of a text. As already suggested by Heffening, ff. 1-2 have
+                    been added at the beginning of the manuscript.<note place="foot" xml:id="ftn19"
+                        n="19"><p rend="footnote text"> Heffening, "Die griechische
+                            Ephraem-Paraenesis," 95-6, n. 2.</p></note> The manuscript stops
+                    abruptly at f. 215v. Therefore, in its present form it preserves neither the end
+                    of the last text(s) copied nor a colophon. The first and last leaves pertaining
+                    to this manuscript and completing it have been identified by scholars in the
+                    last century.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"> A
+                            short account of the story of the reconstitution of the manuscript is
+                            given in M. van Esbroeck, "Un feuillet oublié du codex arabe Or. 4226 à
+                            Strasbourg" (<hi rend="italic">Analecta Bollandiana</hi> 96 [1978]), on
+                            whom we rely for some information punctually signalled in the text. Our
+                            intent is to give a comprehensive account of the scholarly efforts that
+                            finally brought to the finding of all the parts of the MS <hi
+                                rend="italic">Strasbourg 4226</hi>.</p></note></p>
+                <p xml:lang="en">In 1927 Heffening, following a suggestion of Baumstark,<note place="foot"
+                        xml:id="ftn21" n="21"><p rend="footnote text"> Baumstark suggested to
+                            Heffening that eight folios found in Hiersemann’s collection should
+                            immediately follow f. 215v, where the manuscript currently ends, see
+                            Heffening, "Die griechische Ephraem-Paraenesis," 94-5.</p></note>
+                    discovered a parchment fragment in the catalogue of Hiersemann,<note
+                        place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> In Hiersemann’s
+                            catalogue nr. 565 (1926), the manuscript is described under the number
+                            411. For further references on this fragment, see Heffening, "Die
+                            griechische Ephraem-Paraenesis," 94, n. 1.</p></note> now preserved in
+                        Birmingham,<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">
+                            Van Esbroeck cites the references for this fragment (Birmingham,
+                            University’s Cadbury Research Library, Mingana collection, MS <hi
+                                rend="italic">Arabicus Christianus 93</hi>: Esbroeck, "Un feuillet
+                            oublié," 383; the Mingana collection has been now relocated from the
+                            Selly Oak College, where it was preserved until 2010, to the University
+                            campus. Van Esbroeck gives also the reference for the catalogue: ibid.,
+                            383, n. 7. Garitte mentioned that Heffening announced in 1936 the
+                            passage of the fragment to the Mingana collection: G. Garitte, "Homélie
+                            d'Ephrem "Sur la Mort et le Diable". Version géorgienne et version
+                            arabe" (<hi rend="italic">Le Muséon</hi> 82 [1969]), 125, n.
+                        6.</p></note> which corresponded to the immediate continuation of the MS <hi
+                        rend="italic">Strasbourg 4226</hi>. He demonstrated with solid
+                    paleographical, codicological and textual arguments that the fragment
+                    constituted the 28<hi rend="superscript">th</hi> quire of the manuscript;
+                    moreover, he recognized that this 28<hi rend="superscript">th</hi> quire was not
+                    the concluding one, which should contain the final part of the text and the
+                        colophon.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text">
+                            Heffening, "Die griechische Ephraem-Paraenesis," 94-5. One of the
+                            arguments is that the number of leaves in the manuscript’s quires is
+                            eight. This is actually true for all the 27 quires of the actual
+                            manuscript (including also the 1<hi rend="superscript">st</hi> one),
+                            except for the 2<hi rend="superscript">nd</hi> and the 6<hi
+                                rend="superscript">th</hi> one, which count 7 leaves, and not 8. The
+                            absence of the last leaf in each quire is indeed strange, also given
+                            that there is apparently no textual caesura between these two quires and
+                            those which immediately precede and follow. For a more precise
+                            codicological description of the whole manuscript, alongside its <hi
+                                rend="italic">disiecta membra</hi>, s. Binggeli, "Les trois David,"
+                            80-1, and n. 6.</p></note> Heffening supposed that this last quire would
+                    be probably less than 8 leaves and assumed that its discovery would have been
+                    very unlikely.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text">
+                            Heffening, "Die griechische Ephraem-Paraenesis," 95, n. 1.</p></note>
+                </p>
+                <p xml:lang="en">In 1853 Tischendorf had brought six parchment leaves from the Orient to Leipzig
+                    with other three manuscripts; the leaves were then bought by the British
+                        Library.<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text">
+                            Fleischer, "Beschreibung," 585, n. 1.</p></note> At the beginning of the
+                    following century they ended up, under unknown circumstances, in the National
+                    Library of Saint Petersburg, where they were examined and edited by
+                        Kračkovskij.<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"
+                            > An extensive study of the fragments is in Kračkovskij, "Novozavjetnyj
+                            apokrif".</p></note> Ff. 1r–5v, which are still preserved in Saint
+                        Petersburg,<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text">
+                            Van Esbroeck cites the references for this fragment (Saint Petersburg,
+                            National Library of Russia,
+                            MS<hi rend="italic"> Arabicus N.S. 263</hi>; the
+                            library was known as “Saltykov-Ščedrin Library” at the time of van
+                            Esbroeck’s writing: Esbroeck, "Un feuillet oublié," 383). Van Esbroeck
+                            does not give any reference for the catalogue.</p></note> contain the
+                    missing final part of the last text of manuscript of Strasbourg and the
+                    colophon. It was only to Garitte’s discovery that this textual portion was
+                    recognized as pertaining to an Ephremian work and was thus connected to the
+                    Hiersemann fragment that Heffening had recognized as containing also an
+                    Ephremian text.<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text">
+                            Garitte, "Homélie d'Ephrem," 126-8. Fleischer identified the fragments
+                            as “Schluss einer Legende vom Siege Christi über Tod und Teufel”, some
+                            details of which were strictly connected with the apocryphal <hi
+                                rend="italic">Gospel of Nicodemus</hi>: Fleischer, "Beschreibung,"
+                            587.</p></note></p>
+                <p xml:lang="en">The sixth folio of the set of leaves which appeared in Saint Petersburg in the
+                    first decades of the 20<hi rend="superscript">th</hi> c. is now preserved in
+                        Birmingham.<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text">
+                            Van Esbroeck cites the references for this
+                            fragment (Birmingham, University’s Cadbury
+                            Research Library, Mingana collection, MS <hi rend="italic">Arabicus
+                                Christianus Additional 136</hi>): Esbroeck, "Un feuillet oublié,"
+                            384. He also gives the reference for the catalogue (ibid., n.
+                        2).</p></note> It is written by the same hand as the other five folios but
+                    presents the beginning of a text about the struggle of some Christians of
+                    Sebaste (in Cilicia) against their bishop Peter in the time of Basil the
+                        Great.<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text">
+                            Fleischer, "Beschreibung," 587.</p></note> The text, which has a rubric
+                    at the top consisting of 11 widely damaged lines, is published in Kračkovskij
+                        1913.<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"> I.
+                            Kračkovskij, "K istorii sevastijskoj eparhii v IV veke" (<hi
+                                rend="italic">Hristianskij Vostok</hi> 2 [1913]),
+                        154-155.</p></note> This textual portion was recognized also by Garitte as
+                    pertaining to the <hi rend="italic">MS Strasbourg 4226</hi>, representing the
+                    first lost folio of the first quire.<note place="foot" xml:id="ftn33" n="33"><p
+                            rend="footnote text"> Garitte, "Homélie d'Ephrem," 126-8.</p></note></p>
+                <p xml:lang="en">Thus, the once complete manuscript is constituted with the following order by: </p>
+                <p xml:lang="en"><hi rend="italic">Ming. Ar. Chr. Add. 136</hi> (1 folio) +
+                    <hi rend="italic">Stras. 4226 </hi>(215 folios) + <hi
+                        rend="italic">Ming. Ar. Chr. 93</hi> (8 folios) + <hi rend="italic">Pet. Ar.
+                        N.S. 263</hi> (5 folios). </p>
+                <p rend="New Normal">Before connecting the Saint Petersburg leaves to the Strasbourg
+                    manuscript, scholars, influenced by a note in f. 1r, dated the manuscript to
+                        950.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text">
+                            Oestrup, "Über zwei arabische Codices," 453-4; Wickersheimer, <hi
+                                rend="italic">Catalogue général</hi>, 747-8.</p></note> This note,
+                    though, was written by a different hand than the rest of the manuscript and
+                    Heffening rightly argued that it was a later forgery.<note place="foot"
+                        xml:id="ftn35" n="35"><p rend="footnote text"> Heffening, "Die griechische
+                            Ephraem-Paraenesis," 96-7.</p></note> The manuscript, according to its
+                    colophon (now preserved in Saint Petersburg, f. 5v), is well dated to
+                    885/886.</p>
+            </div>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.4" xml:lang="en">
+                <head>General Remarks</head>
+                <p xml:lang="en">This paper presents the following parts of the Arabic
+                    collection of Isaac in the MS <hi rend="italic">Strasbourg 4226</hi>: 1) the
+                    initial index of the manuscript where all the titles of Isaac’s homilies are
+                    indicated; 2) a description for each homily, encompassing the following pieces
+                    of information: title of the homily in the index, title of the homily in the
+                    text, incipit and desinit with the relevant correspondences to the Syriac text
+                    of Isaac edited by Bedjan (indicated as B) and the Greek version of Isaac edited
+                    by Pirard (indicated as P), as well as to Khayyat’s edition (indicated as K) for
+                    the pieces of homilies written by John of Dalyatha but falsely attributed to
+                    Isaac of Nineveh.<note place="foot" xml:id="ftn36" n="36"><p
+                            rend="footnote text"> P. Bedjan (ed.), <hi rend="italic">Mar Isaacus
+                                Ninivita. De perfectione religiosa</hi> (Leipzig: Otto Harrassowitz
+                            1909); Pirard, <hi rend="italic">Ἀββᾶ Ἰσαὰκ τοῦ Σύρου</hi>; N. Khayyat
+                            (ed.), <hi rend="italic">Jean de Dalyatha. Les homélies I-XV</hi>
+                            (Antélias: Centre d'Etudes et de Recherches Orientales; Hadath:
+                            Université Antonine, 2007).</p></note> Moreover, at the end of the
+                    paper, there is a table of correspondences between the Arabic homilies and the
+                    Syriac and the Greek editions. Some homilies (nr. 7, 13, 14, 15, 17, 19, 22) are
+                    composed of more than one single homily, and their sub-divisions are precisely
+                    indicated.</p>
+                <p xml:lang="en">A few remarks about the conventions adopted here. The rubrication of the titles
+                    and the first word(s) of each homily is not indicated. Every homily is counted
+                    according to our own system of computing (there is no numbering system in the
+                    manuscript), based on the mere succession of the homilies, each of which has a
+                    distinctive title. Regarding the orthography, we have decided to always indicate
+                    the diacritical dots above <hi rend="italic">tāʾ marbūṭa</hi>, even if they are
+                    never noted in the manuscript. As in the
+                    manuscript,<hi rend="italic"> hamza</hi> is never noted,
+                    and the preposition <hi rend="italic">ʿalā</hi> is written always with final <hi
+                        rend="italic">yāʾ</hi>. Whenever <hi rend="italic">ḍamma</hi> is noted in
+                    the manuscript, this is also reproduced in our edition. The diacritical signs
+                    underneath the letters <hi rend="italic">ʿayn</hi>, <hi rend="italic">ḥāʾ</hi>,
+                    and <hi rend="italic">ṣād</hi> are never reproduced.<note place="foot"
+                        xml:id="ftn37" n="37"><p rend="footnote text"> See n. 14.</p></note> The
+                    orthographic variations of the name of Isaac, some of which could be a result of
+                    orthographic Syriac influence as well as of phonetic realisation, have been
+                    reproduced as they appear. The only form attested in the index is <foreign xml:lang="ar">مار سحق</foreign>, whereas in
+                    the titles of the homilies in the text we find the following forms: <foreign xml:lang="ar">مار اسحق</foreign> (nine times
+                    in hom. 4, 6, 7, 14, 15, 18, 21, 22, 26), <foreign xml:lang="ar">ماري سحق</foreign> (three
+                    times in hom. 1, 3, 16), <foreign xml:lang="ar">مار سحق</foreign> (two times in hom. 12, 13), and <foreign xml:lang="ar">ماري اسحق</foreign> (once in
+                    hom. 18). </p>
+                <p xml:lang="en">Regarding the punctuation, we have decided not to reproduce in every detail the
+                    usage of points and rosettes which distinguish respectively one sentence from
+                    the other, and the titles from the texts. In the description for each homily,
+                    rosettes are never written, while points are present only occasionally.
+                    Corrections of the transmitted text are directly written in the main text, and a
+                    footnote signals the form attested in the manuscript. Regarding the titles in
+                    the index, conjectures of words in a now cut off part of the manuscript’s folio
+                    are indicated with &lt; &gt;, while illegible text is written in [ ]. These
+                    conjectures are made on the basis of the titles in the main text. Some
+                    linguistic observations on specific morpho-syntactical phaenomena are indicated
+                    in the footnotes.</p>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.5" xml:lang="en">
+                    <head>Index (ff. 1v,14–2r,11)</head>
+                    <p xml:lang="ar">من قول مار سحق القديس من الميمرالاول علي الابتعاد<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">ايضا من الميمر الثاني كلام مختار<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا من الميمر الثالث &gt;علي&lt; الحب<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا من الميمر الرابع<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا من الميمر [الخامس]<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا [من] &gt;الميمر&lt; السادس<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا كلام ملتقط من قول مار سحق<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">[وايضا من قول مار سحق امور نافعة]<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وراس ايضا لمار سحق يعلم فيه بماذا ينتفع الانسان في قلبه بتقربه الي الله<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا راس اخر يعلم فيه بماذا تحفظ جمال ]الرهبانية[<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا راس اخر لمار سحق علي انه لا ينبغي لعبد الله الذي قد تمسكن من الدنيا
+                        وخرج في طلبه<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">ومسايل له ايضا وجواباتها<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا لمار سحق كلام مختار<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا من قول مار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">وايضا من قول مار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">وايضا من قول مار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">راس اخر<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">ورسالة له لمار سحق الي اخ كان يحب السُكوت<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وراس لمار سحق يعلم فيه ان التجربة تعلم كل<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وراس اخر ايضا لمار سحق علي الحب<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وراس اخر لمار سحق مختار من قوله<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا من قول مار سحق القديس<foreign xml:lang="syr">܀</foreign></p>
+                    <p xml:lang="ar">وايضا راس اخر لمار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">وايضا راس اخر لمار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">وايضا راس اخر لمار سحق<foreign xml:lang="syr">>܀</foreign></p>
+                    <p xml:lang="ar">وايضاو من قول مار سحق القديس علي الجهتين التي بمعرفة اتعلمت تحقيق الذي ينبغا
+                        لها ان تقرا كل ايام حياتك فيها<foreign xml:lang="syr">܀</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.6" xml:lang="en">
+                    <head>Basmala (f. 81v,4)</head>
+                    <p xml:lang="ar">بسم المسيح منير<note place="foot" xml:id="ftn38" n="38"><p
+                        rend="footnote text"> <foreign xml:lang="ar">متير</foreign> ms.</p></note> <foreign xml:lang="ar">انفسنا ومهدي عقولنا</foreign><foreign xml:lang="syr">܀</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.7" xml:lang="en">
+                    <head>Homily 1 (ff.
+                            81v,4–83r,11)</head>
+                    <p xml:lang="en">It corresponds with
+                        the 1<hi rend="superscript">st</hi> homily in Bedjan’s edition (B 1:1–10)
+                        and in Pirard’s edition (P 1:213–224). The Arabic title is more elaborated
+                        than the Syriac one (B 1:1:7). The beginning of the Arabic text corresponds
+                        with the very beginning of the Syriac and the Greek texts. The end of the
+                        Arabic text does not correspond with the end of the Syriac and the Greek
+                        texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">من قول مار سحق القديس من
+                        الميمر الاول علي الابتعاد</foreign> </p>
+                    <p xml:lang="en">Title of the homily (f. 81v,4–6):<foreign xml:lang="ar"> هذا قول ماري
+                        سحق القديس قاله علي تدبير الرهبانية والابتعاد من العالم كلام مختار من الميمر
+                        الاول</foreign></p>
+                    <p xml:lang="en">Incipit (f. 81v,7): <foreign xml:lang="ar">مخافة الله هي راس الصلاح</foreign> </p>
+                    <p xml:lang="en">B 1:1:8 <foreign xml:lang="syr">ܕܚܠܬ ܐܠܗܐ: ܪܫܐ ܗܝ
+                            ܕܡܝܬܪܘܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 1:213:1 <foreign xml:lang="gr">Ὁ φόβος τοῦ Θεοῦ, ἀρχὴ τῆς ἀρετῆς</foreign></p>
+                    <p xml:lang="en">Desinit (f. 83r,10–11): <foreign xml:lang="ar">هولا الذي بهم دُعيت ليسوع المسيح منجل الاعمال الصالحة</foreign> </p>
+                    <p xml:lang="en">B 1:10:17
+                        <foreign xml:lang="syr">ܗܢܝܢ ܕܒܗܝܢ ܐܬܩܪܝܬ ܒܝܫܘܥܡܫܝܚܐ </foreign>[sic]<foreign xml:lang="syr"> ܠܥܒܕ̈ܐ ܛܒ̈ܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 1:224:228 <foreign xml:lang="gr">ἐν αἷς ἐκλήθης ὑπὸ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ εἰς τὰ ἀγαθὰ
+                        ἔργα</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.8" xml:lang="en">
+                    <head>Homily 2 (ff. 83r,11–84v,11)</head>
+                    <p xml:lang="en">It corresponds with
+                        the 2<hi rend="superscript">nd</hi> homily in Bedjan’s edition (B 2:11–20)
+                        and in Pirard’s edition (P 2:225–236). The Arabic title corresponds with the
+                        Syriac one (B 2:11:1). The beginning of the Arabic text corresponds with the
+                        very beginning of the Syriac and the Greek texts. The end of the Arabic text
+                        does not correspond with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: ايضا من الميمر الثاني كلام
+                        مختار </p>
+                    <p xml:lang="en">Title of the homily (f. 83r,11): <foreign xml:lang="ar">الميمر الثاني</foreign> </p>
+                    <p xml:lang="en">Incipit (f. 83r,12): <foreign xml:lang="ar">شكر الذي ياخذ يحرك للذي يُعطي</foreign> </p>
+                    <p xml:lang="en">B 2:11:1 <foreign xml:lang="syr">ܩܘܒܠܛܝܒܘܬܐ ܕܢܣܘܒܐ ܡܓܪܓ
+                        ܠܝܗܘܒܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 2:225:1 <foreign xml:lang="gr">Ἡ εὐχαριστία τοῦ λαμβάνοντος, ἐρεθίζει τὸν διδόντα</foreign></p>
+                    <p xml:lang="en">Desinit (f. 84v,10–11): <foreign xml:lang="ar">ان كان هادي ·· وهذا مُلتقط من كُتُب كثيرة</foreign> </p>
+                    <p xml:lang="en">B 2:20:6
+                        <foreign xml:lang="syr">ܐܢ ܫܠܐ ܘܦܪܘܫ: ܚܠܦ ܟܬܒ̈ܐ ܣܓܝ̈ܐܐ </foreign>
+                    </p>
+                    <p xml:lang="en">P 2:236:231 <foreign xml:lang="gr">ἐὰν ἡσυχάζῃ καὶ ἔστιν ἀφωρισμένος, ἀντὶ πολλῶν βιβλίων</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.9" xml:lang="en">
+                    <head>Homily 3 (ff. 84v,11–87r,2)</head>
+                    <p xml:lang="en">It corresponds with
+                        the 3<hi rend="superscript">rd</hi> homily in Bedjan’s edition (B 3:20–40)
+                        and in Pirard’s edition (P 3:237–259). The Arabic title almost corresponds
+                        with the Syriac one (B 3:20:12). The beginning of the Arabic text does not
+                        correspond with the very beginning of the Syriac and the Greek texts. The
+                        end of the Arabic text does not correspond with the end of the Syriac and
+                        the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من الميمر الثالث &lt;علي&gt; [الحب]</foreign> </p>
+                    <p xml:lang="en">Title of the homily (f. 84v,11): <foreign xml:lang="ar">الميمر الثالث لماري سحق</foreign> </p>
+                    <p xml:lang="en">Incipit (f. 84v,12): <foreign xml:lang="ar">لا تبدل حب قريبك بحب الاشيا</foreign> </p>
+                    <p xml:lang="en">B 3:30:21 <foreign xml:lang="syr">ܠܐ ܬܚܠܦ ܚܘܒܐ ܕܩܪܝܒܟ ܒܚܘܒܐ
+                        ܕܨܒ̈ܘܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 3:249:246-247 <foreign xml:lang="gr">Μὴ ἀλλάξῃς τὴν ἀγάπην τοῦ ἀδελφοῦ σου ἀγάπῃ τινὸς τῶν
+                        πραγμάτων</foreign></p>
+                    <p xml:lang="en">Desinit (f. 87r,2): <foreign xml:lang="ar">ومنجل ذلك اساميهم مكتوبة في سفر الحياة الي مجي ربنا يسوع
+                        المسيح</foreign> </p>
+                    <p xml:lang="en">B 3:39:3-4 <foreign xml:lang="syr">ܘܗܐ ܩܠܝܠ ܡܢ ܣܓܝ ܪܫܝܡܝܢ
+                        ܫܡܗܝ̈ܗܘܢ ܒܣܦܪܐ ܕܚܝ̈ܐ: ܥܕܡܐ ܠܡܐܬܝܬܗ ܕܡܪܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 3:258:445-446 <foreign xml:lang="gr">ὧν τὰ ὀνόματα γέγραπται ἐν βίβλῳ ζωῆς μέχρι τῆς παρουσίας τοῦ
+                        Κυρίου</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.10" xml:lang="en">
+                    <head>Homily 4 (ff. 87r,3–90v,6-7)</head>
+                    <p xml:lang="en">It corresponds with the 4<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition (B 4:40–60) and in Pirard’s edition
+                        (P 3: 260–281). The Arabic title almost corresponds with the Syriac one (B
+                        4:40:11). The beginning of the Arabic text corresponds with the very
+                        beginning of the Syriac and the Greek texts. The end of the Arabic text
+                        almost corresponds with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من الميمر الرابع</foreign> </p>
+                    <p xml:lang="en">Title of the homily (f. 87r,3): <foreign xml:lang="ar">الميمر الرابع لمار اسحق </foreign></p>
+                    <p xml:lang="en">Incipit (f. 87r,4): <foreign xml:lang="ar">النفس التي تحب الله في الله هو نياحها وحده فقط</foreign> </p>
+                    <p xml:lang="en">B 4:40:12 <foreign xml:lang="syr">ܢܦܫܐ ܕܠܐܠܗܐ ܡܚܒܐ: ܒܐܠܗܐ ܗܘ
+                        ܒܠܚܘܕ ܢܘܚܗ̇</foreign>
+                    </p>
+                    <p xml:lang="en">P 4:260:1-2 <foreign xml:lang="gr">Ἡ ψυχὴ ἡ τὸν Θεὸν ἀγαπῶσα, ἐν τῷ Θεῷ καὶ μόνῳ τὴν ἀνάπαυσιν
+                        κέκτηται</foreign></p>
+                    <p style="text-align: left;">Desinit (f. 90v,6-7):
+                        وينال خير كثير من الله الذي له السُبح والكرامة <lb/>B 4:60:5-7 <foreign xml:lang="syr">ܘܐܕܪܟ
+                            ܠܗܘ ܡܕܡ ܕܡܛܠܬܗ ܐܕܪܟܢ ܡܫܝܚܐ</foreign>
+                        <foreign xml:lang="syr">. </foreign><foreign xml:lang="syr">ܕܠܗ
+                            ܘܠܐܒܘܗܝ ܘܠܪܘܚܐ ܕܩܘܕܫܐ</foreign>
+                        <foreign xml:lang="syr">: </foreign><foreign xml:lang="syr">ܫܘܒܚܐ
+                            ܘܩܘܠܣܐ</foreign>
+                        <lb/>P 4:281:449-451 <foreign xml:lang="gr">καὶ καταλαβόντος ἐκεῖνο τὸ πρᾶγμα δι’ ὃ ἐπεδήμησεν ὁ
+                        Χριστός, ᾧ ἡ δόξα σὺν τῷ Πατρὶ καὶ τῷ ἁγίῳ Πνεύματι</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.11" xml:lang="en">
+                    <head>Homily 5 (ff. 90v,7–92v,14)</head>
+                    <p xml:lang="en">It corresponds with the 5<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition (B 5:60–80) and in Pirard’s edition
+                        (P 5:282–306). The Arabic title corresponds with the Syriac one (B 5
+                        :60:10). The beginning of the Arabic text corresponds with the very
+                        beginning of the Syriac and the Greek texts. The end of the Arabic text does
+                        not correspond with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من الميمر [الخامس]</foreign> </p>
+                    <p xml:lang="en">Title of the homily (f. 90v,7): <foreign xml:lang="ar">الميمر الخامس</foreign></p>
+                    <p xml:lang="en">Incipit (f. 90v,8): <foreign xml:lang="ar">قد اكثر الله الكرامة للانسان بالتعليم المُضعف الذي اعطاه</foreign> </p>
+                    <p xml:lang="en">B 5:60:11-12 <foreign xml:lang="syr">ܐܣܓܝ ܐܠܗܐ ܐܝܩܪܐ ܠܒܪܢܫܐ:
+                        ܒܝܘܠܦܢܐ ܥܦܝܦܐ ܕܝܗܒ ܠܗ</foreign>
+                    </p>
+                    <p xml:lang="en">P 5:282:1-2 <foreign xml:lang="gr">Πολλὴν ὁ Θεὸς δέδωκε τοῖς ἀνθρώποις τὴν τιμὴν τῇ διπλῇ
+                        μαθήσει</foreign></p>
+                    <p xml:lang="en">Desinit (f. 92v,13-14): <foreign xml:lang="ar">وكم تُرا اقدر ان اصف او احصي او اخبر عن حب</foreign><note
+                            place="foot" xml:id="ftn39" n="39"><p rend="footnote text"> Without
+                                diacritical point under <hi rend="italic">bāʾ</hi>.</p></note>
+                        <foreign xml:lang="ar">الملايكة لنا </foreign></p>
+                    <p xml:lang="en">B 5:67:6-7 <foreign xml:lang="syr">ܘܟܡܐ ܐܝܬ ܠܝ ܠܡܡܢܐ: ܥܠ
+                        ܚܘܒܗܘܢ ܕܡܠܐܟ̈ܐ ܩܕܝ̈ܫܐ ܕܠܘܬ ܓܢܣܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 5:290:153-154 <foreign xml:lang="gr">Καὶ τί δεῖ τὰ πολλὰ καταριθμεῖν τὴν πρὸς ἡμᾶς τῶν ἁγίων
+                        ἀγγέλων ἀγάπησιν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.12" xml:lang="en">
+                    <head>Homily 6 (ff. 92v,15–96r,18)</head>
+                    <p xml:lang="en">It corresponds with the 6<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition (B 6:81–99) and in Pirard’s edition
+                        (P 6:307–326). The Arabic title almost corresponds with the Syriac one (B
+                        6:81:1). The beginning of the Arabic text does not correspond with the very
+                        beginning of the Syriac and the Greek texts. The end of the Arabic text
+                        corresponds with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا [من] &lt;الميمر&gt; السادس </foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 92v,15): <foreign xml:lang="ar">الميمر السادس لمار اسحق</foreign></p>
+                    <p xml:lang="en">Incipit (f. 92v,16-17): <foreign xml:lang="ar">في ثلثة</foreign> [sic] <foreign xml:lang="ar">اشكال التي بها تتقرب كل نفس ناطقة الي
+                        الله</foreign> </p>
+                    <p xml:lang="en">B 6:81:7-8 <foreign xml:lang="syr">ܬܠܬܐ ܐܢܘܢ ܐܣܟܡ̈ܐ: ܕܒܗܘܢ
+                        ܡܬܩܪܒܐ ܟܠ ܢܦܫܐ ܡܠܝܠܬܐ ܠܘܬ ܐܠܗܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 6:307:8-9 <foreign xml:lang="gr">Τρεῖς τρόποι εἰσὶ δι’ ὧν πᾶσα λογικὴ ψυχὴ τῷ Θεῷ προσεγγίσαι
+                        δύναται</foreign></p>
+                    <p xml:lang="en">Desinit (f. 96r,17-18): <foreign xml:lang="ar">الذي له القوة والقدرة</foreign><note place="foot"
+                            xml:id="ftn40" n="40"><p rend="footnote text"> Written without the two
+                                diacritical points on <hi rend="italic">qāf</hi> and with a point on
+                                <hi rend="italic">dāl</hi>.</p></note><foreign xml:lang="ar"> والملك والسُبح والكرامة
+                        الي الابد امين</foreign> </p>
+                    <p xml:lang="en">B 6:99:1-3 <foreign xml:lang="syr">ܕܠܗ ܫܘܒܚܐ ܘܐܘܚܕܢܐ ܘܣܓܕܬܐ
+                        ܘܪܘܡܪܡܐ: ܠܥܠܡ ܥܠܡܝܢ. ܐܡܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 6:326:403 <foreign xml:lang="gr">Αὐτῷ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας, ἀμήν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.13" xml:lang="en">
+                    <head>Homily 7 (ff. 96v-102v)</head>
+                    <p xml:lang="en">The Arabic title is not present in the Syriac
+                        original. It hints at a collection of mixed homilies, the most of which are
+                        composed by pieces of several different Syriac sermons by Isaac and John of
+                        Dalyatha. In the Arabic manuscript there is a system of distinction between
+                        different homilies through the usage of separating flowers and of
+                        rubrication of the first word(s) of each homily. We have indicated each
+                        homily of this collection with a letter of the Latin alphabet after the
+                        number 7.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا كلام ملتقط من قول مار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 96v,1): <foreign xml:lang="ar">وايضا كلام ملتقط من قول مار اسحق</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.14" xml:lang="en">
+                    <head>Homily 7a (ff. 96v,2-97v,9)</head>
+                    <p xml:lang="en">7a contains small passages from five different
+                        homilies, which correspond to the following numbers in Bedjan’s and Pirard’s
+                        edition: B 16:130-133 ▬ P 16:365-368; B 17:34-139 ▬ P 17:369-375; B
+                        23:175-177; B 24:177-182; B 53:379-390 ▬ P 44:619-633. Homilies 23 and 24 of
+                        Bedjan are not included in the Greek collection published by Pirard. More
+                        specifically: </p>
+                    <p xml:lang="en"> i. f. 96v,2-7: </p>
+                    <p xml:lang="en"> a) lines 2-3 (<foreign xml:lang="ar">في السكوت…ينبغي للراهب</foreign>) </p>
+                    <p xml:lang="en"> B 16:130:15-17 (<foreign xml:lang="syr">ܒܙܗܝܪܘܬܐ…
+                        ܙܕܩ ܠܗ</foreign>) </p>
+                    <p xml:lang="en"> P 16:365:5-7 (<foreign xml:lang="gr">Δεῖ…τὸν νοῦν αὐτοῦ</foreign>); </p>
+                    <p xml:lang="en">b) lines 3-7 (<foreign xml:lang="ar">الصلاح…كما ان</foreign>) correspond (with omissions) with<lb/>B
+                        16:132:2-11 (<foreign xml:lang="syr">ܕܡܝܬܖ̈ܬܐ…ܫܪܝܪܐܝܬ ܐܚܝ̈</foreign>) </p>
+                    <p xml:lang="en"> P 16:366:31—16:367:42 (<foreign xml:lang="gr">Ἐν ἀληθείᾳ, ἀδελφοί…τῇ τῶν ἀρετῶν χλόῃ</foreign>)</p>
+                    <p xml:lang="en"> ii. f. 96v,7-8 (<foreign xml:lang="ar">سكوت...الاشيا</foreign>) </p>
+                    <p xml:lang="en"> B 17:139:1-2 (<foreign xml:lang="syr">ܫܠܝܐ...
+                            ܨܒ̈ܘܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 17:374:117-17:375:119 (<foreign xml:lang="gr">Ἡ διηνεκὴς ἡσυχία… πραγμάτων</foreign>)</p>
+                    <p xml:lang="en"> iii. f. 96v,8-12 (<foreign xml:lang="ar">ليس صلاة...انت قايم</foreign>) </p>
+                    <p xml:lang="en"> B 23:177:2-7 (<foreign xml:lang="syr">ܠܝܬ ܨܠܘܬܐ...
+                            ܩܐܡ ܐܢܬ</foreign>)</p>
+                    <p xml:lang="en"> iv. f. 96v,12-f. 97r,3 (<foreign xml:lang="ar">فطوبا...علي الرجا</foreign>) </p>
+                    <p xml:lang="en"> B 24:179:15—24:182:14 (<foreign xml:lang="syr"
+                            >ܛܘܒܘܗܝ...ܥܠ
+                        ܣܒܪܐ</foreign>)</p>
+                    <p xml:lang="en"> v. f. 97r,3-f. 97v,9 (<foreign xml:lang="ar">اذا ما رجعت... اي راحة ولذة لا توصف ولد لي من
+                        الصبر</foreign>)</p>
+                    <p xml:lang="en"> B 53:385:4—53:388:20 (<foreign xml:lang="syr">ܐܡܬܝ
+                            ܕܬܦܢܐ...ܐܝܢܐ ܢܝܚܐ ܕܠܐ ܣܟܐ
+                            ܐܘܠܕ</foreign>) </p>
+                    <p xml:lang="en"> P 44:626:150—44:631:2 (<foreign xml:lang="gr">Ὅταν στραφῇς…ποίαν ἀνάπαυσιν ἀπλήρωτον ἐγέννησεν</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.15" xml:lang="en">
+                    <head>Homily 7b (ff. 97v,10-98r,7)</head>
+                    <p xml:lang="en">It corresponds with the 53<hi rend="superscript"
+                            >rd</hi> homily in Bedjan’s edition and the 44<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 53:379-390 ▬ P 44:619-633). The
+                        beginning of the Arabic text does not correspond with the beginning of the
+                        Syriac and the Greek texts. The end of the Arabic text corresponds with the
+                        end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Incipit (f. 97v,10): <foreign xml:lang="ar">كان بعض الابهات ياكُل مرتين في الجمعة</foreign> </p>
+                    <p xml:lang="en">B 53:388:21 <foreign xml:lang="syr">ܐܝܬ ܗܘܐ ܚܕ ܡܢ ܐܒܗ̈ܬܐ:
+                        ܕܐܟܠ ܗܘܐ ܬܪܬܝܢ ܙܒܢ̈ܝܢ ܒܫܒܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 44:631:237 <foreign xml:lang="gr">Ἦν τίς τῶν πατέρων, καὶ ἦν ἐσθίων δεύτερον τῆς ἑβδομάδος</foreign></p>
+                    <p xml:lang="en">Desinit (f. 98r,7): <foreign xml:lang="ar">فشكرت الله علي كثرة نعمته عند الناس والي اي شرف يساوي
+                        للذين يطلبونه </foreign></p>
+                    <p xml:lang="en">B 53:390:2 <foreign xml:lang="syr">ܘܐܘܕܝܬ ܠܐܠܗܐ: ܕܟܡܐ ܫܦܝܥܐ
+                        ܛܝܒܘܬܗ ܠܘܬ ܒܢܝ̈ܢܫܐ: ܘܠܐܝܕܐ ܪܒܘܬܐ ܡܫܘܐ ܠܕܒܥܝܢ ܠܗ</foreign>
+                    </p>
+                    <p xml:lang="en">P 44:633:264 <foreign xml:lang="gr">καὶ ηὐχαρίστησα τῷ Θεῷ ὅτι πόσον ἡ χάρις αὐτοῦ ὑπερεκχεῖται ἐπὶ
+                        τὸν ἄνθρωπον καὶ εἰς ποίαν μεγαλωσύνην ἀξιοῖ τοὺς καταδιώκοντας αὐτόν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.16" xml:lang="en">
+                    <head>Homily 7c (ff. 98r,7-99r,11)</head>
+                    <p xml:lang="en">It corresponds with the 17<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s and Pirard’s edition (B 17:134-139 ▬ P
+                        17:369:375). The beginning of the Arabic text corresponds with the beginning
+                        of the Syriac and the Greek texts. The end of the Arabic text does not
+                        correspond with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Incipit (f. 98r,7): <foreign xml:lang="ar">لا تظن ايه</foreign><note place="foot" xml:id="ftn41" n="41"><p
+                                rend="footnote text"> See J. Blau, <hi rend="italic">A Grammar of
+                                    Christian Arabic. Based mainly on South-Palestinian texts from
+                                    the first millennium</hi>, Vol. 1, Corpus Scriptorum
+                                Christianorum Orientalium 267, Subsidia 27, (Louvain: Secrétariat du
+                                CorpusSCO, 1966), 78.</p></note> <foreign xml:lang="ar">الانسان ان في جميع الاعمال عمل ادفع
+                        وافضل من عمل السهر</foreign> </p>
+                    <p xml:lang="en">B 17:134:4 <foreign xml:lang="syr">ܠܐ ܬܣܒܪ ܠܟ ܐܘ̇ ܒܪܢܫܐ:
+                        ܕܐܝܬ ܒܟܠܗܘܢ ܥܡܠ̈ܐ ܕܥܢܘܝ̈ܐ ܕܘܒܪܐ ܕܪܒ ܘܡܝܬܪ ܡܢ ܥܡܠܐ ܕܫܗܪܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 17:369:1 <foreign xml:lang="gr">Μὴ νομίσῃς, ὦ ἄνθρωπε, ὅτι ἐν πάσῃ τῇ ἐργασίᾳ τῶν μοναχῶν ἔστι
+                        διαγωγὴ μείζων τῆς ἀγρυπνίας τῆς νυκτός</foreign></p>
+                    <p xml:lang="en">Desinit (f.99r,12): فان حرك الانسان نفسه بالسخونة وطرح عنه هولا وكلف نفسه
+                        قليل حينيذ تقترب اليه النعمة وتحل به قوة اخرا </p>
+                    <p xml:lang="en">B 17:138:10 <foreign xml:lang="syr">ܐܢܕܝܢ ܐܙܝܥ ܐܢܫ ܝܬܗ
+                            ܚܡܝܡܐܝܬ ܘܢܦܨ ܫܕܐ ܡܢܗ: ܘܥܨܐ ܩܠܝܠ ܢܦܫܗ: ܡܚܕܐ ܩܪܒܐ ܛܝܒܘܬܐ ܐܝܟ ܕܒܙܒܢ. ܘܐܬܐ
+                            ܠܗ ܚܝܠܐ ܐܚܪܢܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 17:374:102 <foreign xml:lang="gr">Καὶ ἐὰν διεγείρῃ ἑαυτὸν μετὰ θερμότητος καὶ ἐκτινάξῃ ἀφ’ ἑαυτοῦ
+                        ταῦτα καὶ ἀναγκάσῃ ἑαυτὸν μικρόν, τηνικαῦτα πλησιάζει αὐτῷ ἡ χάρις ὥσπερ ἦν.
+                        Καὶ ἔρχεται αὐτῷ ἄλλη δύναμις</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.17" xml:lang="en">
+                    <head>Homily 7d (ff. 99r,12-99v,4)</head>
+                    <p xml:lang="en">The extract contained in homily 7d has been
+                        identified with a part of the 1<hi rend="superscript">st</hi> homily of John
+                        of Dalyatha. This extract is not present in Bedjan’s edition but it is
+                        attested in the MS Sinai, <hi rend="italic">Syr. 24</hi>, which circulated
+                        in the Melchite <hi rend="italic">milieu</hi> of the monastery of Mar Saba,
+                        and could have possibly similarities with the Arabic tradition attested in
+                        the Strasbourg manuscript.<note place="foot" xml:id="ftn42" n="42"><p
+                                rend="footnote text"> On this manuscript, s. G. Kessel, "Sinai syr.
+                                24 as an Important Witness to the Reception History of Some Syriac
+                                Ascetic Texts," in <hi rend="italic">Sur les pas des Araméens
+                                    chrétiens. Mélanges offerts à Alain Desreumaux</hi>, Cahiers
+                                d’études syriaques 1, eds. F. Briquel-Chatonnet and M. Debié (Paris:
+                                Geuthner, 2010), 207-18.</p></note></p>
+                    <p xml:lang="en">Incipit (f. 99r,12): <foreign xml:lang="ar">قال لي انسان انه جرب انه في ايام تخالط الناس انه ياكُل
+                        في اليوم ثلث</foreign> [sic] <foreign xml:lang="ar">خبزات</foreign><note place="foot" xml:id="ftn43" n="43"><p
+                            rend="footnote text"> <foreign xml:lang="ar">حبزات</foreign> ms.</p></note> <foreign xml:lang="ar">واربعة</foreign> </p>
+                    <p xml:lang="en">P Index 1:812:241 <foreign xml:lang="gr">Διηγήσατό μοι τίς ἐξ ὧν ἐδοκίμασεν, ὅτι ἐν αἷς ἡμέραις
+                        συναναστρέφομαι τισίν, ἐσθίω τρία παξαμάτια ἢ τέσσαρα </foreign></p>
+                    <p xml:lang="en">K 1:112:7 <foreign xml:lang="syr">ܐܡܪ ܠܝ ܐܢܫ ܡܢ ܢܣܝܢܐ
+                            ܕܒܩܢܘܡܗ ܗܟܢܐ. ܕܒܝܘ̈ܡܬܐ ܕܗܘܝܐ ܠܝ ܚܠܝܛܘܬܐ ܥܡ ܐܚܖ̈ܢܐ ܐܟܠ ܐܢܐ ܬܠܬܐ ܘܐܪ̈ܒܥܐ
+                            ܩܠܘܖ̈ܐ ܒܝܘܡܐ</foreign><note place="foot" xml:id="ftn44" n="44"><p
+                                rend="footnote text"> The passage corresponds with that attested in
+                                MS <hi rend="italic">Sinai
+                                Syr</hi>.<hi rend="italic"> 24</hi>, f.
+                                168vb,25.</p></note></p>
+                    <p xml:lang="en">Desinit (f. 99v,4): <foreign xml:lang="ar">واكل خُبزه وحده ويكون خلطته</foreign><note place="foot"
+                        xml:id="ftn45" n="45"><p rend="footnote text"> <foreign xml:lang="ar">حلطته</foreign> ms.</p></note> <foreign xml:lang="ar">مع
+                        الله وحده في كل ساعة </foreign></p>
+                    <p xml:lang="en">P Index 1:812:259 <foreign xml:lang="gr">καὶ ἐσθίων μόνος τὸν ἑαυτοῦ ἄρτον, ὅτι διαπαντὸς μετὰ τοῦ
+                        Θεοῦ διαλέγεται</foreign> </p>
+                    <p xml:lang="en">K 1:112:21 <foreign xml:lang="syr">ܘܐܟܠ ܠܚܡܗ ܒܠܚܘܕܘܗܝ. ܕܥܡ
+                        ܚܕ ܟܠܫܥ ܡܬܥܢܐ</foreign><note place="foot" xml:id="ftn46" n="46"><p
+                                rend="footnote text"> The passage corresponds with that attested in
+                                MS <hi rend="italic">Sinai Syr. 24</hi>, f. 169rb,14.</p></note></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.18" xml:lang="en">
+                    <head>Homily 7e (ff. 99v,4-100v,18)</head>
+                    <p xml:lang="en">7e contains small passages from five different
+                        homilies, which correspond to the following numbers in Bedjan’s and Pirard’s
+                        editions: B 24:177-182; B 38:177-182 ▬ P 30:508-514; B 39:182-187 ▬ P
+                        31:515-524; B 46:330-335 ▬ P 38:561-565; B 50:343-359 ▬ P 41:574-594. Homily
+                        24 of Bedjan’s edition is not included in the Greek collection published by
+                        Pirard. More specifically:</p>
+                    <p xml:lang="en"> i. ff. 99v,4-100r,17: It corresponds to the 24<hi rend="superscript">th</hi>
+                        homily of Bedjan’s edition. Although the beginning of the Arabic text
+                        corresponds with the beginning of the Syriac text, the last four Arabic
+                        words may be a paraphrase of the whole or part of the last section of the
+                        Syriac sermon. The textual part from <foreign xml:lang="ar">بشي</foreign> to <foreign xml:lang="ar">المسيح</foreign> does not seem to
+                        correspond exactly to a specific textual string of the Syriac text but the
+                        expression<foreign xml:lang="ar">بشي غريب</foreign> may be a paraphrase of <foreign xml:lang="syr">ܡܛܠ ܕܕܠܐ ܗܘܠ̈ܐ ܗܘ ܥܢܝܢܟ</foreign> at
+                        line 8 and the word <foreign xml:lang="ar">بعون</foreign> may correspond to the word <foreign  xml:lang="syr">ܡܥܕܪܢܐ</foreign> at line 12.</p>
+                    <p xml:lang="en">Incipit (f. 99v,4): <foreign xml:lang="ar">قال مار اسحق عن شيخ من القديسين قال ربما مرار كثيرة في
+                        اعراض النهار لو اُعطي الراهب جميع ملك الارض لم يحب ان يخرج من قليته ولا يكلم
+                        احد</foreign> </p>
+                    <p xml:lang="en">B 24:177:12 <foreign xml:lang="syr">ܙܒ̈ܢܝܢ ܣܓܝ̈ܐܢ ܓܕܫ ܡܨܥܬ
+                            ܫܥ̈ܐ ܕܐܝܡܡܐ: ܕܐܢ ܡܠܟܘܬܐ ܕܐܪܥܐ ܬܬܠ ܠܐܚܐ: ܠܐ ܡܬܛܦܝܣ ܒܫܥܬܐ ܗܝ ܕܢܦܘܩ ܡܢ
+                            ܩܠܝܬܗ: ܘܠܐ ܕܢܩܘܫ ܠܗ ܐܢܫ</foreign></p>
+                    <p xml:lang="en">Desinit (f. 100r,17): <foreign xml:lang="ar">فانه لا يستطيع العدوا</foreign><note place="foot" xml:id="ftn47"
+                            n="47"><p rend="footnote text"> The word must be in plural, but this
+                                form does not correspond to the attested forms for the plural of <hi
+                                    rend="italic">ʿadūw</hi> in vocabularies.</p></note> <foreign xml:lang="ar">يدنوا الي
+                        قلبك بشي غريب بعون المسيح</foreign> </p>
+                    <p xml:lang="en">B 24:182:8: <foreign xml:lang="syr">ܘܡܕܡ ܚܘܫܒܐ ܡܫܟܪܐ: ܠܠܒܟ
+                        ܠܐ ܩܪܒ</foreign></p>
+                    <p xml:lang="en"> ii. ff. 100r,18-100v,1 (<foreign xml:lang="ar">صغر النفس...وقلة الامانة</foreign>) </p>
+                    <p xml:lang="en"> B 38:291:2-5 (<foreign xml:lang="syr">ܙܥܘܪܘܬ
+                        ܢܦܫܐ</foreign>...<foreign xml:lang="syr">ܕܠܐ ܗܝܡܢܘܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 30:508:1-5 (<foreign xml:lang="gr">Σημεῖον ἐστὶ…τῆς ἀπιστίας</foreign>)</p>
+                    <p xml:lang="en"> iii. f. 100v,1-3 (<foreign xml:lang="ar">كل ما اديت...القديسين بالتعب</foreign>) </p>
+                    <p xml:lang="en"> B 39:298:1-3 (<foreign xml:lang="syr">ܕܐܘܪܚܐ
+                        ܕܡܪܕܝܬܟ</foreign>...<foreign xml:lang="syr">ܒܕܘܖ̈ܟܬܐ ܠܐܝ̈ܬܐ
+                            ܕܩܕܝ̈ܫܐ</foreign> ) </p>
+                    <p xml:lang="en"> P 31:517:45-47 (<foreign xml:lang="gr">Ὃταν γὰρ εὕρῃς…ὑπὸ τῶν μοχθηρῶν ποδῶν τῶν ἁγίων</foreign>)</p>
+                    <p xml:lang="en"> iv. f. 100v,3-4 <foreign xml:lang="ar">فان كان احد تقرب الي الله بلا بلايا·· اتشبه به انت</foreign> </p>
+                    <p xml:lang="en"> B 38:291:7-8 <foreign xml:lang="syr">ܐܢ ܐܝܬ ܕܒܠܥܕ ܐܘ̈ܠܨܢܐ
+                        ܐܬܩܪܒ ܠܘܬ ܐܠܗܐ: ܐܦ ܐܢܬ ܐܬܕܡܐ ܒܗ</foreign>
+                    </p>
+                    <p xml:lang="en"> P 30:508:7-8 <foreign xml:lang="ar">Ἐάν τις ἐκτὸς ἀγώνων καὶ κινδύνων καὶ πειρασμῶν τῷ Θεῷ
+                        προσήγγισε, καὶ σὺ αὐτὸν μίμησαι</foreign></p>
+                    <p xml:lang="en"> v. f. 100v,4-10: </p>
+                    <p xml:lang="en"> a) lines 4-6 (<foreign xml:lang="ar">اعلم انك كل ما تقدمت...كُثرت عليك</foreign>) </p>
+                    <p xml:lang="en"> B 39:298:3-6 (<foreign xml:lang="syr">ܟܡܐ ܓܝܪ
+                        ܕܬܫܬܘܫܛ...ܝܬܝܪ ܬܥܘܠ ܠܢܣ̈ܝܘܢܐ</foreign>) </p>
+                    <p xml:lang="en"> P 31:517:47-50 (<foreign xml:lang="gr">Ὅσον γὰρ διαβαίνεις…πληθύνονται κατὰ σοῦ</foreign>)</p>
+                    <p xml:lang="en"> b) lines 6-10 (<foreign xml:lang="ar">لا تطلب...من الوقعة</foreign>) correspond (with omissions) with</p>
+                    <p xml:lang="en"> B 39:297:8-21 (<foreign xml:lang="syr">ܠܐ ܬܒܥܐ...ܡܢ
+                        ܓܘ̈ܢܝܐ</foreign>) </p>
+                    <p xml:lang="en"> P 31:516:26—31:517:44 (<foreign xml:lang="gr">Μὴ ζητήσῃς…καὶ τὰς κατηγορίας</foreign>)</p>
+                    <p xml:lang="en"> vi. f. 100v,10-12 (<foreign xml:lang="ar">الذي هو مريضا...الطريق</foreign>) </p>
+                    <p xml:lang="en"> B 50:344:21—50:345:1 (<foreign xml:lang="syr"
+                        >ܕܟܪܝܗ...ܐܘܪܚܐ</foreign>) </p>
+                    <p xml:lang="en"> P 41:576:43-45 (<foreign xml:lang="ar">Ὁ τῇ ψυχῇ ἀσθενῶν…τὴν ὁδόν</foreign>)</p>
+                    <p xml:lang="en"> vii. f. 100v,12-14: </p>
+                    <p xml:lang="en"> a) lines 12-13 (<foreign xml:lang="ar">اذا كثر... في السر</foreign>) </p>
+                    <p xml:lang="en"> B 46:332:11-12 (<foreign xml:lang="syr">ܐܡܬܝ
+                        ܕܬܣܓܐ...ܒܟܣܝܐ</foreign>) </p>
+                    <p xml:lang="en"> P 38:563:52-53 (<foreign xml:lang="gr">Ὅταν πληθυνθῇ…τὴν χάριν τῆς παρακλήσεως</foreign>)</p>
+                    <p xml:lang="en"> b) lines 13-14 (<foreign xml:lang="ar">ان حفظت لسانك ياخي تُعطا من الله موهبة</foreign>) </p>
+                    <p xml:lang="en"> B 46:334:6 (<foreign xml:lang="syr">ܐܢ ܠܫܢܟ ܬܛܪ ܐܚܝ: ܡܬܝܗܒܐ
+                        ܠܟ ܡܢ ܐܠܗܐ ܡܘܗܒܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 38:564:86-87 (<foreign xml:lang="gr">Ἐὰν φυλάξῃς τὴν γλῶσσαν σου, ὦ ἀδελφέ, δίδοταί σοι παρὰ τοῦ
+                        Θεοῦ ἡ χάρις τῆς κατανύξεως τῆς καρδίας</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.19" xml:lang="en">
+                    <head>Homily 7f (ff. 100v,14-102v,14)</head>
+                    <p xml:lang="en">Unlike the previous homilies, 7f is not separated
+                        from the preceding homily by means of rubrication. Instead only separating
+                        flowers are used. It contains small passages from five different homilies,
+                        which correspond to the following numbers in Bedjan’s and Pirard’s editions:
+                        B 46:330-335 ▬ P 38:561-565; B 50:343-359 ▬ P 41:574-594; B 64:441-442 ▬ P
+                        46:639-641; B 74:507-518 ▬ P 62:735-748. The extracts i and iii actually
+                        belong to parts of the 1<hi rend="superscript">st</hi> and 6<hi
+                            rend="superscript">th</hi> homilies of John of Dalyatha, the first of
+                        which has found its way also into the Greek Isaac (see Pirard, p. 801f.).
+                        The Syriac text is edited by Khayyat 2007. In ii and v, the same text is
+                        translated but with different wording.</p>
+                    <p xml:lang="en"> i. f. 100v,14-16: <foreign xml:lang="ar">قال لي بعض الاخوة اذا ما قابلوا</foreign><note place="foot"
+                            xml:id="ftn48" n="48"><p rend="footnote text">
+                                Without diacritical point under <hi
+                                    rend="italic">bāʾ</hi>.</p></note> <foreign xml:lang="ar">الشياطين انسان يحركوا عليه
+                        الاخوة الذين يطاوعوهم لكيما يكونوا لهم اعوان في القتال</foreign> </p>
+                    <p xml:lang="en"> K 6:184:4-5 <foreign xml:lang="syr">ܘܐܡܪ ܗܘܐ ܬܘܒ. ܕܡܐ
+                            ܕܥܒܕܝܢ ܫ̈ܐܕܐ ܥܡ ܐܢܫ ܐܓܘܢܐ܆ ܡܙܝܥܝܢ ܠܐܚ̈ܐ ܐܝܠܝܢ ܕܡܫܬܡܥܝܢ ܠܗܘܢ ܕܢܗܘܘܢ ܠܗܘܢ
+                            ܥܕܪܐ ܒܬܟܬܘܫܐ</foreign>
+                    </p>
+                    <p xml:lang="en"> ii. ff. 100v,16-101v,1 (<foreign xml:lang="ar">امشي الي اصدقاك...احتفظ من الشبع</foreign>) corresponds (with
+                        omissions) with</p>
+                    <p xml:lang="en"> B 50:346:18—50:351:1 (<foreign xml:lang="syr">ܠܘܬ ܖ̈ܚܡܝܟ:
+                        ܒܐܣܟܡܐ ܗܠܟ...ܛܪ ܐܦܢ ܡܢ ܣܒܥܘܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 41:578:97—41:584:223 (<foreign xml:lang="gr">Πρὸς τοὺς φίλους σου ἐν εὐλαβείᾳ πορεύθητι…κἂν
+                        φύλαξον τοῦ μὴ χορτασθῆναι</foreign>)</p>
+                    <p xml:lang="en"> iii. f. 101v,1-3: <foreign xml:lang="ar">شاب يصاحب شاب يبكوا عليه الصالحين ·· وشيخ يحب يصاحب الشباب
+                        يقتني في نفسه اوجاع نجسة افضل من الشباب النجسين</foreign> </p>
+                    <p xml:lang="en"> K 1:106:12-14 (<foreign xml:lang="syr">ܛܠܝܐ ܕܢܩܝܦ ܠܛܠܝܐ܆
+                            ܢܕܡܥܘܢ ܥܠܝܗܘܢ ܦܖ̈ܘܫܐ. ܘܐܦ ܣܒܐ ܕܪܚܡ ܢܩܦܐ ܕܛ̈ܠܝܐ܆ ܕܥ ܠܟ ܕܢܕܝܕܝܢ ܚܫ̈ܘܗܝ ܡܢ
+                            ܕܛܠ̈ܝܐ ܛܡ̈ܐܐ</foreign>)<note place="foot" xml:id="ftn49" n="49"><p
+                                rend="footnote text"> The passage corresponds with that attested in
+                                MS <hi rend="italic">Sinai Syr. 24</hi>, f. 167va,17-21.</p></note>
+                    </p>
+                    <p xml:lang="en"> P Index 1:808:152-154 <foreign xml:lang="gr">Νέος νεωτέρῳ ἀκολουθῶν, ποιεῖ τοὺς διακριτικοὺς ἐπ’
+                        αὐτοὺς πενθεῖν καὶ κλαίειν. Γέρων δέ, ἀκολουθῶν νεωτέρῳ, δυσωδέστερον τοῦ
+                        τῶν νεωτέρων κέκτηται πάθος</foreign></p>
+                    <p xml:lang="en"> iv. f. 101v,3-14: </p>
+                    <p xml:lang="en"> a) lines 3-10 (<foreign xml:lang="ar">ما احسن وافضل حُب القريب...في النفس التي تسكن فيه كل الشرور</foreign>) </p>
+                    <p xml:lang="en"> B 46:331:3—46:333:20 (<foreign xml:lang="syr">ܫܒܝܚ ܘܡܝܬܪ
+                        ܚܘܒܐ ܕܩܪܝܒܐ...ܟܠ ܒܝ̈ܫܢ ܡܫܡܠܐ ܒܢܦܫܐ</foreign>) </p>
+                    <p xml:lang="en"> P 38:561:13-14—38:564:77 (<foreign xml:lang="gr">Τί ὡραία καὶ ἐπαινετὴ ἡ ἀγάπη τοῦ πλησίον…πᾶσα
+                        κακία τελειοῦται ἐν τῇ ψυχῇ τῇ οἰκούσῃ ἐν αὐτῷ</foreign>) </p>
+                    <p xml:lang="en"> b) lines 10-14 (<foreign xml:lang="ar">انا اقول ان العالم...بلا خلطة الاوجاع</foreign>) </p>
+                    <p xml:lang="en"> B 46:332:6-11 (<foreign xml:lang="syr">ܥܠܡܐ ܩܪܐ ܐܢܐ...ܒܠܥܕ
+                        ܥܢܝܢ ܚܫ̈ܐ</foreign>) </p>
+                    <p xml:lang="en"> P 38:563:46-51 (<foreign xml:lang="gr">Τὸν κόσμον καλῶ…χωρὶς τῆς ὁμιλίας τῶν παθῶν</foreign>)</p>
+                    <p xml:lang="en"> v. ff. 101v,14-102r,13 (<foreign xml:lang="ar">كُل عمل تعمله... ابكي عليه</foreign>) </p>
+                    <p xml:lang="en"> B 50:348:21—50:356:15 (<foreign xml:lang="syr">ܟܠ ܥܒܕ ܕܕܠܐ
+                        ܚܘܫܒ ܬܥܒܕ...ܒܟܝ ܥܠܘܗܝ</foreign>) </p>
+                    <p xml:lang="en"> P 41:581:158—41:590:369 (<foreign xml:lang="gr">Ἕκαστον ἔργον, ὅ, τι ποιεῖς…κλαῦσον ὑπὲρ αὐτοῦ</foreign>)</p>
+                    <p xml:lang="en"> vi. ff. 102r,13-102v,5 (<foreign xml:lang="ar">ليس كُل شهوة حسنة...ان اهوا·· وان افعل</foreign>) </p>
+                    <p xml:lang="en"> B 64:441:15—B 64:442:13 (<foreign xml:lang="syr">ܠܘ ܟܠ ܪܓܬܐ
+                        ܕܫܦܝܪܬܐ...ܐܦ ܠܡܨܒܐ: ܐܦ ܠܡܣܥܪ</foreign> ) </p>
+                    <p xml:lang="en"> P 46:639:7—46:640:26 (<foreign xml:lang="gr">οὐχὶ γὰρ πᾶσα ἐπιθυμία καλὴ…τὸ θέλειν καὶ τὸ
+                        ἐνεργεῖν</foreign>)</p>
+                    <p xml:lang="en"> vii. f. 102v,5-14 (<foreign xml:lang="ar">غاية جميع السعي...وعلي الكُل يريث</foreign>) </p>
+                    <p xml:lang="en"> B 74:507:5-16 (<foreign xml:lang="syr">ܣܟܐ ܕܟܠܗ ܪܗܛܐ...ܘܟܠ
+                        ܕܐܝܬ</foreign>) </p>
+                    <p xml:lang="en"> P 62:735:1—62:736:15 (<foreign xml:lang="gr">Τελειότης παντὸς δρόμου…καὶ ὑπὲρ παντὸς κτίσματος</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.20" xml:lang="en">
+                    <head>Homily 7g (ff. 102v,14-103r,4)</head>
+                    <p xml:lang="en">7g contains small passages from two different
+                        homilies, which correspond to the following numbers in Bedjan’s and Pirard’s
+                        editions: B 74:507-518 ▬ P 62:735-748; B 77:524-536 ▬ P 63:749-762.</p>
+                    <p xml:lang="en"> i. f. 102v,14-17 (<foreign xml:lang="ar">مسلة</foreign><note place="foot" xml:id="ftn50" n="50"><p
+                        rend="footnote text"> Read مسألة.</p></note> <foreign xml:lang="ar">كيف يقتنا الاتضاع...الي
+                        عمل متضع حقير</foreign>) </p>
+                    <p xml:lang="en"> B 74:508:8-11 (<foreign xml:lang="syr">ܐܝܟܢ ܡܬܩܢܝܐ
+                        ܡܟܝܟܘܬܐ...ܠܥܒܕܐ ܨܥܝܪܐ ܘܡܟܐ ܢܪܗܛ</foreign>) </p>
+                    <p xml:lang="en"> P 62:736:32—P 62:737:36 (<foreign xml:lang="gr">Καὶ ἠρωτήθη· Πῶς τις δύναται κτήσασθαι τὴν
+                        ταπείνωσιν…τοῖς ἔργοις τοῖς ἐλαχίστοις καὶ καθυβρισμένοις</foreign>)</p>
+                    <p xml:lang="en"> ii. f. 102v,17-103r,4 (ايه<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text"> See n. 41.</p></note><foreign xml:lang="ar"> الانسان الضعيف...
+                            والاعتجاب</foreign><note place="foot" xml:id="ftn52" n="52"><p
+                                rend="footnote text"> The word is unknown to standard lexica in this
+                                form.</p></note> <foreign xml:lang="ar">يلحقه الابتعاد من الله</foreign>) </p>
+                    <p xml:lang="en"> B 77:524:6-13 (<foreign xml:lang="syr">ܐܘ̇ ܒܪܢܫܐ
+                        ܚܠܫܐ...ܠܡܣܒܖ̈ܢܘܬܐ ܕܝܢ: ܪܚܝܩܘܬܐ ܕܡܢ ܐܠܗܐ</foreign>) </p>
+                    <p xml:lang="en"> P 63:749:1-10 (<foreign xml:lang="gr">Ὦ ἄνθρωπε ἐλάχιστε…τῇ οἰήσει δὲ ἀκολουθεῖ τὸ ἀπέχεσθαι ἀπὸ
+                        τοῦ Θεοῦ</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.21" xml:lang="en">
+                    <head>Homily 8 (ff. 103r,5—104v,3)</head>
+                    <p xml:lang="en">It corresponds with the following homilies in
+                        Bedjan’s and Pirard’s editions: B 43:315-318 ▬ P 35:540-544. The Arabic
+                        title corresponds with the Syriac one. Both the beginning and the end of the
+                        Arabic text correspond with those of the Syriac and Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من قول مار سحق امور نافعة</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 103r,5): <foreign xml:lang="ar">امور نافعة ممتلية حكمة روح القدس</foreign></p>
+                    <p xml:lang="en">Incipit (f. 103r,6): <foreign xml:lang="ar">الامانة هي باب السراير</foreign> </p>
+                    <p xml:lang="en">B 43:315:2 <foreign xml:lang="syr">ܗܝܡܢܘܬܐ ܐܝܬܝܗ̇: ܬܪܥܐ
+                        ܕܐܖ̈ܙܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 35:540:1 <foreign xml:lang="gr">Ἡ πίστις ἐστὶν ἡ θύρα τῶν μυστηρίων</foreign></p>
+                    <p xml:lang="en">Desinit (ff. 104r,18-104v,3): <foreign xml:lang="ar">فاذا نحن بلغنا الي الحب وصلنا الي الله وتمت
+                        طريقنا وجزنا الي الجزيرة التي خارج من العالم حيث الاب والابن وروح القدس</foreign>
+                            اله<note place="foot" xml:id="ftn53" n="53"><p rend="footnote text"> The
+                                word is to be read either <foreign xml:lang="ar">اليه</foreign> or <foreign xml:lang="ar">له</foreign>, both of them having the same
+                                meaning.</p></note> <foreign xml:lang="ar">المجد والقوة ولنا يُساوي لمخافته وحُبه امين</foreign> </p>
+                    <p xml:lang="en">B 43:318:3-7 <foreign xml:lang="syr">ܡܐ ܕܝܢ ܕܡܢܥܢܢ ܠܚܘܒܐ:
+                            ܡܢܥܢ ܠܘܬ ܐܠܗܐ. ܘܫܠܡܬ ܐܘܪܚܢ: ܘܥܒܪܢܢ ܠܓܙܪܬܐ ܕܠܗܠ ܡܢ ܥܠܡܐ: ܠܐܝܟܐ ܕܐܝܬܘܗܝ
+                            ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܕܩܘܕܫܐ. ܕܠܗ ܫܘܒܚܐ ܘܐܘܚܕܢܐ: ܘܠܢ ܢܫܘܐ ܠܕܚܠܬܗ ܘܠܚܘܒܗ.
+                            ܐܡܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 43:544:85-90 <foreign xml:lang="gr">Καὶ ὅτε φθάσομεν τὴν ἀγάπην, ἐφθάσαμεν πρὸς τὸν Θεόν, καὶ ἡ
+                        ὁδὸς ἡμῶν ἐτελειώθη, καὶ διέβημεν πρὸς τὴν νῆσον τὴν ἐκεῖθεν τοῦ κόσμου
+                        οὖσαν, ὅπου ὁ Πατὴρ καὶ ὁ Υἱὸς καὶ τὸ Πνεῦμα τὸ ἅγιον· αὐτῷ ἡ δόξα καὶ τὸ
+                        κράτος, καὶ ἡμᾶς ἀξίους ποιῆσαι τοῦ φόβου αὐτοῦ καὶ τῆς ἀγάπης αὐτοῦ,
+                        ἀμήν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.22" xml:lang="en">
+                    <head>Homily 9 (ff. 104v,4-106v,17)</head>
+                    <p xml:lang="en">It corresponds with the following homilies in
+                        Bedjan’s and Pirard’s editions: B 8:104-110 ▬ P 7:327-333. <anchor
+                            xml:id="Hlk61944026"/>The Arabic title is shorter than the Syriac one.
+                        Both the beginning and the end of the Arabic text correspond with those of
+                        the Syriac and Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وراس ايضا لمار سحق يعلم فيه بماذا ينتفع الانسان في قلبه
+                        بتقربه الي الله</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 104v,4-6): <foreign xml:lang="ar">راس يعلم فيه بماذا ينتفع الانسان في قلبه
+                        بتقربه الي الله وما السبب الذي بالحقيقة يقرب اليه المعونة في السر وايهما
+                        المعنا الذي به يتقرب الانسان الي الاتضاع</foreign></p>
+                    <p xml:lang="en">Incipit (f. 104v,7): <foreign xml:lang="ar">طوبا للانسان الذي يعرف ضعفه</foreign> </p>
+                    <p xml:lang="en">B 8:104:10 <foreign xml:lang="syr">ܛܘܒܘܗܝ ܠܒܪܢܫܐ ܕܝܕܥ
+                        ܡܚܝܠܘܬܗ</foreign>
+                    </p>
+                    <p xml:lang="en">P 7:327:1 <foreign xml:lang="gr">Μακάριος ἄνθρωπος ὁ γινώσκων τὴν ἑαυτοῦ ἀσθένειαν</foreign></p>
+                    <p xml:lang="en">Desinit (f. 106v,16-17): <foreign xml:lang="ar">ليس عند الله منبوع العدل جور حاشا</foreign> </p>
+                    <p xml:lang="en">B 8:110:4-5 <foreign xml:lang="syr">ܠܝܬ ܓܝܪ ܥܘܠܐ ܠܘܬ ܐܠܗܐ:
+                        ܚܣ: ܗܘ̇ ܡܒܘܥܐ ܕܙܕܝܩܘܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 7:333:134-135 <foreign xml:lang="gr">διότι οὐκ ἔστι παρὰ τῷ βρύοντι Θεῷ τὴν δικαιοσύνην ἀδικία· μὴ
+                        γένοιτο</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.23" xml:lang="en">
+                    <head>Homily 10 (ff. 106v,17-107v,16)</head>
+                    <p xml:lang="en">It corresponds with the following homilies in
+                        Bedjan’s and Pirard’s editions: B 11:119-121 ▬ P 10:345-347. The Arabic
+                        title in the index is shorter, but the one at the beginning of the homily
+                        corresponds with the Syriac title. Both the beginning and the end of the
+                        Arabic text correspond with those of the Syriac and Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا راس اخر يعلم فيه بماذا تحفظ جمال الرهبانية</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 106v,17-18): <foreign xml:lang="ar">وايضا راس اخر يعلم فيه بماذا تُحفظ جمال
+                        الرهبانية وكيف يكون سبب تسبحة الله</foreign></p>
+                    <p xml:lang="en">Incipit (f. 107r,1): <foreign xml:lang="ar">ينبغي للراهب ان يكون في جميع ما حاط به منظر منفعة
+                        للناظرين اليه لكيما منجل حسناته الكثيرة التي تحيط به وتبرق منه بمنزلة شعاع
+                        الشمس</foreign> </p>
+                    <p xml:lang="en">B 11:119:7-9 <foreign xml:lang="syr">ܙܕܩ ܠܗ ܠܝܚܝܕܝܐ: ܕܡܢ
+                            ܟܠܗܘܢ ܚܘܕܖ̈ܘܗܝ: ܚܙܬܐ ܕܓܘܪܓܐ ܢܗܘܐ ܠܚܙܝܘ̈ܗܝ. ܐܝܟܢܐ ܕܡܢ ܫܘܦܖ̈ܘܗܝ ܣܓܝ̈ܐܐ:
+                            ܕܐܝܟ ܙܠܝ̈ܩܝ ܫܡܫܐ ܡܒܪܩܝܢ ܡܢ ܟܠ ܚܘܕܖ̈ܘܗܝ</foreign>
+                    </p>
+                    <p xml:lang="en">P 10:345:1-3 <foreign xml:lang="ar">Δεῖ τὸν μοναχὸν εἶναι ἐν πᾶσι τοῖς ἑαυτοῦ πράγμασι τύπον
+                        ὠφελείας τοῖς ὁρῶσιν αὐτὸν, ὅπως ἐκ τῶν πολλῶν ἀρετῶν αὐτοῦ, τῶν
+                        διαλαμπόντων ἀκτινοειδῶς</foreign></p>
+                    <p xml:lang="en">Desinit (f. 107v,15-16): <foreign xml:lang="ar">ومن هاهنا يهيي</foreign><note place="foot" xml:id="ftn54"
+                            n="54"><p rend="footnote text">
+                                Without
+                                diacritical point under the second <hi rend="italic">yāʾ</hi> as in
+                                Classical Arabic. For the metaplasm, cf. Blau, <hi rend="italic">A
+                                    Grammar of Christian Arabic</hi>, Vol. 1, 177-80.</p></note>
+                        <foreign xml:lang="ar">لنفسه موضع للنياحة من قبل خروجه من هذا العالم</foreign> </p>
+                    <p xml:lang="en">B 11:121:11-12 <foreign xml:lang="syr">ܘܡܢ ܗܪܟܐ ܡܛܝܒ ܠܗ̇
+                        ܠܢܦܫܗ ܐܬܪܐ ܕܢܝܚܬܐ: ܡܢ ܩܕܡ ܡܦܩܢܗ ܕܡܢ ܗܢܐ ܥܠܡܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 10:347:44-45 <foreign xml:lang="gr">κἀντεῦθεν ἑτοιμάσει τῇ ψυχῇ αὐτοῦ τόπον ἀνέσεως, πρὸ τοῦ
+                        ἐξελθεῖν αὐτὸν ἐκ τοῦδε τοῦ βίου</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.24" xml:lang="en">
+                    <head>Homily 11 (ff. 107v,17-109r,1)</head>
+                    <p xml:lang="en">It corresponds with the following homilies in
+                        Bedjan’s and Pirard’s editions: B 12:121-123 ▬ P 13:353-355. The Arabic
+                        title almost corresponds to the title of the Syriac and Greek texts. Both
+                        the beginning and the end of the Arabic text correspond with those of the
+                        Syriac and Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا راس اخر لمار سحق علي انه لا ينبغي لعبد الله الذي قد
+                        تمسكن من الدنيا وخرج في طلبه</foreign></p>
+                    <p xml:lang="en">Title of the homily (ff. 107v,17-108r,2): <foreign xml:lang="ar">راس اخر علي انه لا ينبغي لعبد الله
+                        الذي قد تمسكن من الدنيا وخرج في طلبه ومنجل انه لم يبلغ</foreign><note place="foot"
+                            xml:id="ftn55" n="55"><p rend="footnote text"> <foreign xml:lang="ar">يبلع</foreign> ms.</p></note> <foreign xml:lang="ar">ادراك
+                        الحق وفزع من ذلك يدع طلب الحق ويبقا من حمية الحرارة التي تولد من شوق
+                        اللاهيات ومنجل هذا السبب يبقا العقل بطياشة السو وذكر الوجع</foreign></p>
+                    <p xml:lang="en">Incipit (f. 108r,3): <foreign xml:lang="ar">ثلثة</foreign> [sic] <foreign xml:lang="ar">اشكال الذي فيها يتقلب جميع جري الانسان</foreign> </p>
+                    <p xml:lang="en">B 12:121:19-20 <foreign xml:lang="syr">ܬܠܬܐ ܐܢܘܢ ܛܟܣ̈ܐ:
+                        ܕܒܗܘܢ ܡܬܕܪܓ ܟܠܗ ܪܗܛܐ ܕܒܪܢܫܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 13:353:1 <foreign xml:lang="gr">Τρεῖς εἰσι τάξεις ἐν αἷς προκόπτει ὁ ἄνθρωπος</foreign></p>
+                    <p xml:lang="en">Desinit (f. 108v,16-109r, 1): <foreign xml:lang="ar">وتحفظ الفكرة بتذكرة المواعيد العتيدة لكي لا
+                        يسترخى العقل الي تذكرة الاشيا ومنجل ذلك تبرد حرارة الحركات ويقع في الشهوة
+                        باسهل ذلك</foreign> </p>
+                    <p xml:lang="en">B 12:123:16-19 <foreign xml:lang="syr">ܘܢܛܪܝܢ ܠܪܥܝܢܐ
+                            ܒܥܘ̈ܗܕܢܐ ܚܡܝ̈ܡܐ ܕܥܬܝ̈ܕܬܐ: ܕܠܐ ܢܬܐܫܕ ܒܝܕ ܒܛܠܢܐ ܠܥܘ̈ܗܕܢܐ ܕܨܒ̈ܘܬܐ: ܘܡܢ ܗܠܝܢ
+                            ܬܫܬܗܐ ܚܡܝܡܘܬܐ ܕܙܘܥܗ: ܘܢܦܠ ܒܖ̈ܓܝܓܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 13:355:47-51 <foreign xml:lang="gr">καὶ τηρεῖ τὴν διάνοιαν ἐν τῇ μνήμῃ τῶν μελλόντων ἀγαθῶν, ἵνα
+                        μὴ χαυνωθῇ ὁ νοῦς ἐν τῇ ἀμελείᾳ αὐτοῦ εἰς τὴν μνήμην τῶν κοσμικῶν πραγμάτων,
+                        διότι ἐκ τούτων ψυχραίνονται αἱ θερμότητες τῶν κινήσεων αὐτοῦ καὶ ἐμπίπτει
+                        εἰς ἐπιθυμίας</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.25" xml:lang="en">
+                    <head>Homily 12 (ff. 109r,2-121v,1)</head>
+                    <p xml:lang="en">It corresponds with the following homilies in
+                        Bedjan’s and Pirard’s editions: B 35:224-269 ▬ P 27:438-480. The words <foreign xml:lang="ar">مسلة</foreign> and <foreign xml:lang="ar">جواب</foreign> are
+                        rubricated. The beginning corresponds with that of the Syriac and Greek
+                        texts. The desinit of the Arabic homily (although it does not correspond
+                        with those of the Syriac and Greek texts) agrees with the wording of the
+                        corresponding Greek part.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">ومسايل له ايضا وجواباتها</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 109r,2): <foreign xml:lang="ar">من قول مار سحق</foreign></p>
+                    <p xml:lang="en">Incipit (f. 109r,2-3): <foreign xml:lang="ar">مسلة ܀ باي رباط يضبط القلب لكي</foreign><note place="foot"
+                            xml:id="ftn56" n="56"><p rend="footnote text"> Without diacritical
+                                points under <hi rend="italic">yāʾ</hi>.</p></note> <foreign xml:lang="ar">لا يجري الي الشر</foreign> </p>
+                    <p xml:lang="en">B 35:224:15-16 <foreign xml:lang="syr">ܡܢܐ ܐܢܘܢ ܐܣܘܖ̈ܐ
+                        ܠܒܘܟ̈ܐ ܕܪܥܝܢܐ: ܡܢ ܪܗܛܐ ܕܨܝܕ ܒܝ̈ܫܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 27:438:1-2 <foreign xml:lang="gr">Ἐρώτησις. Ποίῳ δεσμῷ συνέχεται ἡ καρδία τοῦ μὴ τρέχειν εἰς τὰ
+                        κακά;</foreign></p>
+                    <p xml:lang="en">Desinit (ff. 121r,18-121v,1): <foreign xml:lang="ar">ولنا يحفظ بالنقاوة ويقدسنا بروح القدس ويهب لنا
+                        ان نمجد اسمه بالنقاوة والذكاوة الي الابد امين </foreign></p>
+                    <p xml:lang="en">B 35:267:14-15 <foreign xml:lang="syr">ܘܠܢ ܢܛܪ ܒܚܣܝܘܬܗ
+                            ܘܢܩܕܫܢ ܒܪܘܚܗ ܠܐܝܩܪܐ ܕܫܡܗ: ܕܢܫܒܚܝܘܗܝ ܙܗܝܐܝܬ ܟܠܗܘܢ ܝܘ̈ܡܬܐ ܕܚܝܝ̈ܢ.
+                            ܐܡܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 27:478:842-845 <foreign xml:lang="gr">καὶ αὐτὸς ἡμᾶς φυλάξαι ἐν τῇ καθαρότητι αὐτοῦ καὶ ἁγιάσαι
+                        ἡμᾶς τῷ ἁγιασμῷ τοῦ ἁγίου αὐτοῦ Πνεύματος εἰς τιμὴν τοῦ ὀνόματος αὐτοῦ, τοῦ
+                        δοξάσαι τὸ ὄνομα αὐτοῦ ἐν καθαρότητι εἰς τοὺς αἰῶνας τῶν αἰώνων, ἀμήν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.26" xml:lang="en">
+                    <head>Homily 13 (ff. 121v,2-123r,15)</head>
+                    <p xml:lang="en">It contains small passages from three different
+                        homilies, which correspond to the following numbers in Bedjan’s and Pirard’s
+                        edition: B 32:216-218 ▬ P 24:429-431; B 53:379-390 ▬ P 44:619-633; B
+                        57:399-406 ▬ P 47:642-646.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا لمار سحق كلام مختار</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 121v,2): <foreign xml:lang="ar">من قول مار سحق ايضا كلام مختار</foreign></p>
+                    <p xml:lang="en"> i. f. 121v,3 – f. 122v,5: </p>
+                    <p xml:lang="en"> a) 121v, lines 3-11 (<foreign xml:lang="ar">الدموع التي تكون في الصلاة...ومن هذا الدموع تُكثر ··
+                            وبالزيادة</foreign><note place="foot" xml:id="ftn57" n="57"><p
+                                rend="footnote text"> Without diacritical point on <hi rend="italic"
+                                    >zāʾ</hi>.</p></note> <foreign xml:lang="ar">تتربا</foreign>) </p>
+                    <p xml:lang="en"> B 53:384:14-53:385:4 (<foreign xml:lang="syr">ܕܡ̈ܥܐ ܐܡܝ̈ܢܬܐ
+                        ܕܒܨܠܘܬܐ...ܘܡܢ ܗܪܟܐ ܬܟ̈ܒܢ ܕܡ̈ܥܐ</foreign>) </p>
+                    <p xml:lang="en"> P 44:626:136-149 (<foreign xml:lang="gr">Τὰ δάκρυα τὰ ἐν τῇ εὐχῇ…καὶ ἐκ τούτων τὰ δάκρυα
+                        πληθύνονται καὶ ἐπὶ πλέον αὐξάνονται</foreign>) </p>
+                    <p xml:lang="en"> b) f. 121v,11 – 122v,5 (<foreign xml:lang="ar">ان انت استاهلت الجلوس في الوحدة...وحينيذ يسلطهم علي
+                        كنوزه الحفية</foreign>) </p>
+                    <p xml:lang="en"> B 53:385:19-53:387:20 (<foreign xml:lang="syr">ܐܢ ܡܡܬܘܡ
+                        ܬܫܬܘܐ ܠܝܚܝܕܝܘܬܐ...ܘܗܝܕܝܢ ܡܫܠܛ ܠܗܘܢ ܥܠ ܣܬܝܖ̈ܬܐ ܕܓܙܘ̈ܗܝ</foreign>) </p>
+                    <p xml:lang="en"> P 44:627:167-44:630:213 (<foreign xml:lang="gr">Ἐάν ποτε εὑρεθῇς ἄξιος τῆς ἀναχωρήσεως…Καὶ τότε
+                        ἐξουσιάσαι αὐτοὺς ποιεῖ τῶν κρυπτῶν θησαυρῶν αὐτοῦ</foreign>)</p>
+                    <p xml:lang="en"> ii. f. 122v,5-9: (<foreign xml:lang="ar">لانه كما يتهاون الانسان بهذا العالم... وبمحبة للناس مثل
+                            الاهوته</foreign><note place="foot" xml:id="ftn58" n="58"><p rend="footnote text">
+                                For this variant form of <hi rend="italic">lāhūt</hi>, see G. Graf,
+                                    <hi rend="italic">Verzeichnis arabischer kirchlicher
+                                    Termini</hi> (Louvain: Imprimerie orientaliste L. Durbecq 1954),
+                                13.</p></note> <foreign xml:lang="ar">يحمله ويخلصه</foreign>) </p>
+                    <p xml:lang="en"> B 57:399:11-16 (<foreign xml:lang="syr">ܟܡܐ ܕܒܣܐ ܒܪܢܫܐ ܒܗܢܐ
+                        ܥܠܡܐ...ܘܛܥܢܐ ܠܗ ܡܪܚܡܢܘܬܐ ܐܠܗܝܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 47:642:1-7 (<foreign xml:lang="ar">Ὅσον καταφρονήσει ἄνθρωπος τοῦ κόσμου τούτου…καὶ βαστάζει
+                        αὐτὸν ἡ φιλανθρωπία τοῦ Θεοῦ</foreign>)</p>
+                    <p xml:lang="en"> iii. ff. 122v,9-123r,15: (اتحفظ<note place="foot" xml:id="ftn59" n="59"><p
+                                rend="footnote text"> For the prothesis of <hi rend="italic"
+                                    >ʾalif</hi> in this verbal form, see Blau, <hi rend="italic">A
+                                        Grammar of Christian Arabic</hi>, Vol. 1, 163-4.</p></note> <foreign xml:lang="ar">من
+                        الاشيا البرانية... الا ان تطرحهم منها مستعجل</foreign>) </p>
+                    <p xml:lang="en"> B 32:216:12-32:218:13 (<foreign xml:lang="syr">ܪܚܝܩܘܬܐ ܕܡܢ
+                        ܨܒ̈ܘܬܐ ܡܙܝܥܢ̈ܝܬܐ...ܐܢ ܠܝܓ ܠܝܓ ܡܢܗܘܢ ܠܐ ܢܫܕܘܢܗ̇</foreign>) </p>
+                    <p xml:lang="en"> P 24:429:8-24:431:44 (<foreign xml:lang="gr">καὶ παραφυλάττου ἐκ τῶν πραγμάτων τῶν ἔξωθεν…ἐὰν μὴ
+                        ῥίψῃς αὐτὰς ἐξ ἑαυτοῦ ταχέως</foreign>) </p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.27" xml:lang="en">
+                    <head>Homily 14 (ff. 123r,15-124v,9)</head>
+                    <p xml:lang="en">It contains small passages from three different
+                        homilies, which correspond to the following numbers in Bedjan’s and Pirard’s
+                        edition: B 38:177-182 ▬ P 30:508-514; B 45:321-330 ▬ P 37:550-560; B
+                        50:343-359 ▬ P 41:574-594.</p>
+                    <p xml:lang="en">Title in the index: <foreign  xml:lang="ar">وايضا من قول مار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 123r,15): <foreign xml:lang="ar">وايضا من قول مار اسحق</foreign></p>
+                    <p xml:lang="en"> i. ff. 123r,16-123v,16: ((<foreign xml:lang="ar">اناس اشتهوا ان يريحوا الجسد...فهو من التدبير
+                        المرتفع مويس كل ايام حياته</foreign> </p>
+                    <p xml:lang="en"> B 50:353:14—50:355:4 (<foreign xml:lang="syr">ܐܢܫܐ: ܐܚܝ̈:
+                            ܕܐܝܟ ܕܠܣܘܡܟܐ ܒܠܚܘܕ ܨܒܝܢ ܕܢܢܝܚܘܢ ܠܦܓܪܐ...ܡܢ ܪܘܡܐ ܕܕܘܒܖ̈ܐ ܠܘܬ ܫܪܝܘܬܐ ܕܚܝ̈ܐ
+                            ܐܫܬܒܝܘ</foreign>) </p>
+                    <p xml:lang="en"> P 41:587:295—41:588:331 (<foreign xml:lang="gr">Εἰσί τινες οἱ ἐρειδόντες τὸ σῶμα καὶ ἐπιθυμοῦντες
+                        ἀναπαῦσαι αὐτὸ…ἐκ τῆς ὑψηλῆς πολιτείας πρὸς λύσιν τῆς ζωῆς
+                        ᾐχμαλωτίσθησαν</foreign>)</p>
+                    <p xml:lang="en"> ii. ff. 123v,16-124v,4: (<foreign xml:lang="ar">اما القتال الذي يكون من علل تخلية الكبرية...كرامته
+                        من الله</foreign>)</p>
+                    <p xml:lang="en"> B 38:294:20—38:296:4 (<foreign xml:lang="syr">ܩܪܒܐ ܕܡܢ
+                        ܡܫܬܒܩܢܘܬܐ ܕܡܢ ܥܠܬ ܡܣܒܪܢܘܬܐ ܗܘܐ...ܐܝܩܖ̈ܘܗܝ ܡܢ ܐܠܗܐ</foreign>)</p>
+                    <p xml:lang="en"> P 30:512:96—30:514:129 (<foreign xml:lang="gr">Τὸν δὲ πόλεμον τὸν ἐκ παραχωρήσεως, τὸν ἐξ αἰτίας
+                        τῆς οἰήσεως ἡμῶν γινόμενον….ἐκ τοῦ Θεοῦ ἡ τιμὴ αὐτοῦ</foreign>)</p>
+                    <p xml:lang="en"> iii. f. 124v,4-9: </p>
+                    <p xml:lang="en"> a) f. 124v,4-5 (<foreign xml:lang="ar">كذلك يمضي خلفه··وكما يكمل الانسان بالله</foreign><note place="foot"
+                            xml:id="ftn60" n="60"><p rend="footnote text"> Without diacritical point
+                                under <hi rend="italic">bāʾ</hi>.</p></note> <foreign xml:lang="ar">ويتم</foreign>) </p>
+                    <p xml:lang="en"> B 45:324:14-15 (<foreign xml:lang="syr">ܟܡܐ ܐܢ ܢܬܓܡܪ ܒܪܢܫܐ
+                        ܠܘܬ ܐܠܗܐ: ܡܐܙܠ ܗܘ ܐܙܠ ܒܬܪܗ</foreign>) </p>
+                    <p xml:lang="en"> P 37:553:67-68 (<foreign xml:lang="gr">Ὅσον γὰρ τελειοῦται ἄνθρωπος πρὸς τὸν Θεὸν, τοσοῦτον ὀπίσω
+                        αὐτοῦ πορεύεται</foreign>) </p>
+                    <p xml:lang="en"> b) f. 124v,5-9: (<foreign xml:lang="ar">فاذا ما اردت ان تدنوا</foreign><note place="foot" xml:id="ftn61"
+                            n="61"><p rend="footnote text"> For the paragoge of <hi rend="italic"
+                                    >ʾalif</hi> in this verbal form, see Blau, <hi rend="italic">A
+                                        Grammar of Christian Arabic</hi>, Vol. 1, 194-5.</p></note> <foreign xml:lang="ar">الي
+                        الله بقلبك... ومن هاهنا الرب يعمل اساس للتمام)</foreign> </p>
+                    <p xml:lang="en"> B 45:329:10-14 (<foreign xml:lang="syr">ܐܡܬܝ ܕܨܒܐ ܐܢܬ
+                        ܕܬܬܩܪܒ ܒܠܒܟ ܠܘܬ ܐܠܗܐ...ܐܦ ܡܪܢ: ܡܢ ܗܪܟܐ ܥܒܕ ܫܬܐܣܬܐ ܠܓܡܝܪܘܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 37:559:183-189 (<foreign xml:lang="ar">Ὅταν θελήσῃς προσεγγίσαι τῷ Θεῷ τῇ καρδίᾳ σου…Καὶ ὁ Κύριος
+                        ἐκτούτου ἐποίησε τὸν θεμέλιον τῆς τελειώσεως</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.28" xml:lang="en">
+                    <head>Homily 15 (ff. 124v,10-125r,8)</head>
+                    <p xml:lang="en">It contains small passages from two different
+                        homilies, which correspond to the 15<hi rend="superscript">th</hi> and 16<hi
+                            rend="superscript">th</hi> homily of Bedjan’s and Pirard’s edition: B
+                        15:127-130 ▬ P 15:362-364; B 16:130-133 ▬ P 16:365-368.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من قول مار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 124v,10): <foreign xml:lang="ar">وايضا من قول مار اسحق القديس</foreign></p>
+                    <p xml:lang="en"> i. f. 124v,11-18: <note place="foot" xml:id="ftn62" n="62"><p
+                                rend="footnote text"> The last four words seem to be an addition of
+                        the Arabic.</p></note>(<foreign xml:lang="ar">من الاعمال...من امور العالم تدنوا</foreign><note
+                            place="foot" xml:id="ftn63" n="63"><p rend="footnote text"> See n.
+                                63.</p></note> <foreign xml:lang="ar">النفس الي الله</foreign>) </p>
+                    <p xml:lang="en"> B 15:127:20-15:128:19 (<foreign xml:lang="syr">ܡܢ
+                        ܥܡ̈ܠܐ...ܕܡܢ ܥܠܡܐ</foreign>) </p>
+                    <p xml:lang="en"> P 15:362:1-15:363:22 (<foreign xml:lang="gr">Ἐκ τῆς ἐργασίας...τοῦ μακρυσμοῦ τῶν βιωτικῶν</foreign>)</p>
+                    <p xml:lang="en"> ii. f. 124v,18-125r,8: (<foreign xml:lang="ar">انسان كثير الاهتمام... ليس تقدر</foreign>) </p>
+                    <p xml:lang="en"> B 16:130:11-16:131:7 (<foreign xml:lang="syr">ܒܪܢܫܐ ܣܓܝ
+                        ܨܦܬܐ...ܠܐ ܡܨܝܐ</foreign>) </p>
+                    <p xml:lang="en"> P 16:365:1-16:366:18 (<foreign xml:lang="gr">Ἄνθρωπος πολυμέριμνος…οὐ δύνασαι</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.29" xml:lang="en">
+                    <head>Homily 16 (ff. 125r,8-125v,5)</head>
+                    <p xml:lang="en">It corresponds with the 13<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 11<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 13: 124-125 ▬ P 11:348-349). Both the
+                        beginning and the end of the Arabic text correspond with those of the Syriac
+                        and the Greek texts. </p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من قول مار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 125r,8): <foreign xml:lang="ar">وايضا قول ماري سحق القديس</foreign></p>
+                    <p xml:lang="en">Incipit (f. 125r,9-11): <foreign xml:lang="ar">الذي قدم في عقله ان يلزم طريق السكوت بطقس مذهبه</foreign><note
+                        place="foot" xml:id="ftn64" n="64"><p rend="footnote text"> <foreign xml:lang="ar">مدهبه</foreign>
+                                ms.</p></note> <foreign xml:lang="ar">واعماله وفي طقس انواع</foreign><note place="foot"
+                            xml:id="ftn65" n="65"><p rend="footnote text"> Without diacritical point
+                                on <hi rend="italic">nūn</hi>.</p></note> <foreign xml:lang="ar">السكوت يجيز</foreign><note
+                                    place="foot" xml:id="ftn66" n="66"><p rend="footnote text"> <foreign xml:lang="ar">يحيز</foreign>
+                                        ms.</p></note> <foreign xml:lang="ar">ايام حياته مثل عادة السكوت الذي اخذ من النعمة الالهية</foreign> </p>
+                    <p xml:lang="en">B 13:124:6-9 <foreign xml:lang="syr">ܐܝܢܐ ܕܝܢ ܕܦܣܩ ܒܪܥܝܢܗ
+                            ܕܒܕܘܝܪܐ ܠܚܘܕܝܐ ܕܥܡ ܢܦܫܗ ܢܛܟܣ ܝܬܗ: ܘܒܦܘܠܚܢܐ ܘܛܘܟܣܐ ܕܙܢܝ̈ ܫܠܝܐ ܢܦܩ ܫܪܟܢܐ
+                            ܕܚܝܘ̈ܗܝ. ܐܡܬܝ ܕܐܝܟ ܥܝܕܐ ܕܒܫܠܝܐ: ܗܘ ܕܡܬܚܡ ܦܩܚܐܝܬ ܠܛܝܒܘܬܐ ܐܠܗܝܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 11:348:1-4 <foreign xml:lang="gr">Ὁ συνελθὼν τῷ νοῒ αὐτοῦ ἐν τῇ ἡσυχίᾳ πολιτεύσασθαι, ῥυθμιζέτω
+                        ἑαυτόν, καὶ ἐν τῇ γεωργίᾳ καὶ τῇ τάξει τῆς ἡσυχίας διεξαγαγέτω τὸ ἐπίλοιπον
+                        τῶν ἡμερῶν αὐτοῦ. Ὅταν συμβῇ σοι, ὡς ἔστι σύνηθες τῇ τάξει τῆς ἡσυχίας, τῇ
+                        ὡρισμένῃ ὑπὸ τῆς θείας χάριτος</foreign></p>
+                    <p xml:lang="en">Desinit (f. 125v,4-5): <foreign xml:lang="ar">لان القراة في كُتب القديسين بالدوام تجدد النفس وتملاها
+                        عجب لا يُدرك وفرح بالله</foreign> </p>
+                    <p xml:lang="en">B 13:125:4-5 <foreign xml:lang="syr">ܗܪܓܐ ܐܡܝܢܐ ܕܒܟܬܒ̈ܐ
+                        ܩܕܝ̈ܫܐ: ܒܐܡܝܢܘ ܬܗܪܐ ܠܐ ܡܬܕܪܟܢܐ ܘܚܕܘܬܐ ܕܒܐܠܗܐ ܡܠ̈ܐ ܠܗ̇ ܠܢܦܫܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 11:349:21-23 <foreign xml:lang="ar">ἡ γὰρ διηνεκὴς μελέτη ἐν ταῖς γραφαῖς τῶν ἁγίων, θαύματος
+                        ἀκαταλήπτου καὶ θείας εὐφροσύνης τὴν ψυχὴν ἐμπίπλησιν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.30" xml:lang="en">
+                    <head>Homily 17 (ff. 125v,5-127r,4)</head>
+                    <p xml:lang="en">It contains passages from two different homilies,
+                        which correspond to the following numbers in Bedjan’s and Pirard’s edition:
+                        B 22:163-175 ▬ P 19:390-401; B 34:221-224 ▬ P 26:434-437.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">راس اخر</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 125v,5): <foreign xml:lang="ar">راس اخر</foreign></p>
+                    <p xml:lang="en"> i. f. 125v,6-16: (<foreign xml:lang="ar">السُبح لذلك الذي يفيض بعطاياه ... وتمنع من الشفتين الصلاة</foreign>) </p>
+                    <p xml:lang="en"> B 22:163:18—22:164:15 (<foreign xml:lang="syr">ܫܘܒܚܐ ܠܗܘ
+                        ܕܫܦܝܥܐ ܡܘܗܒܬܗ...ܘܐܦ ܠܗ̇ ܠܨܠܘܬܐ ܦܣܩܐ ܡܢ ܣܦ̈ܘܬܐ</foreign>) </p>
+                    <p xml:lang="en"> P 19:390:1-19:391:20 (<foreign xml:lang="gr">Δόξα τῷ ἐκχέαντι πλουσίως τὰς ἑαυτοῦ δωρεὰς…καὶ τὴν
+                        προσευχὴν τῶν χειλέων ἐκκόπτει</foreign>)</p>
+                    <p xml:lang="en"> ii. ff. 125v,16-127r,4: (<foreign xml:lang="ar">وايضا الامساك والجهاد هي ام القدوسية... والمعرفة
+                        المُستقيمة تلد من البلايا)</foreign> </p>
+                    <p xml:lang="en"> B 34:221:4—34:224:10 (<foreign xml:lang="syr">ܥܢܘܝܘܬܐ: ܐܡܐ
+                        ܗܝ ܕܩܕܝܫܘܬܐ...ܘܝܕܥܬܐ ܬܪܝܨܬܐ: ܝܠܕܐ ܕܢܣܝ̈ܘܢܐ</foreign>) </p>
+                    <p xml:lang="en"> P 26:434:1—26:437:68 (<foreign xml:lang="gr">Ἡ ἄσκησις, μήτηρ τοῦ ἁγιασμοῦ…καὶ ἡ γνῶσις ἡ ἀληθινὴ
+                        γέννημα τῶν πειρασμῶν</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.31" xml:lang="en">
+                    <head>Homily 18 (ff. 127r,5-129v,2)</head>
+                    <p xml:lang="en">It corresponds with the 41<hi rend="superscript"
+                            >st</hi> homily in Bedjan’s edition and the 33<hi rend="superscript"
+                            >rd</hi> in Pirard’s edition (B 41:307-313 ▬ P 33:531-537). The Arabic
+                        title is shorter than the Syriac one. The beginning corresponds with the
+                        beginning of the Syriac and Greek texts. The end of the Arabic text almost
+                        corresponds with the end of the Syriac and the Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">ورسالة له لمار سحق الي اخ كان يحب السُكوت</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 127r,5): <foreign xml:lang="ar">الي اخ كان يحب السكوت هذه رسالة لماري
+                        اسحق</foreign></p>
+                    <p xml:lang="en">Incipit (f. 127r,6-8): <foreign xml:lang="ar">منجل اني اعرفك تحب السكوت وباسباب كثيرة يعقلك الشيطان
+                        علي وجة الخير لانه يعرف مذهب غرض فكرك لكيما يسجسك من هذه الفضيلة الجامعة
+                        الكثيرة الاجزا يا ايه</foreign><note place="foot" xml:id="ftn67" n="67"><p
+                            rend="footnote text"> See n. 41.</p></note> <foreign xml:lang="ar">الاخ الفاضل·· </foreign></p>
+                    <p xml:lang="en">B 41:307:12-15 <foreign xml:lang="syr">ܡܛܠ ܕܝܕܥܢܐ ܠܟ ܕܪܚܡ
+                            ܫܠܝܐ ܐܢܬ: ܘܒܣܓܝ̈ܐܬܐ ܡܥܪܩܠ ܠܟ ܣܛܢܐ ܒܦܪܨܘܦܐ ܕܡܝܬܪܘܬܐ: ܒܗܝ ܕܝܕܥ ܠܢܝܫܗ
+                            ܕܪܥܝܢܟ: ܐܝܟ ܕܢܦܠܗܕܟ ܡܢ ܡܝܬܪܘܬܐ ܗܕܐ ܚܒܘܫܬܐ ܘܣܓܝܐܬ ܡܢܘ̈ܬܐ: ܐܘ̇ ܐܚܘܢ
+                            ܡܝܬܪܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 33:531:1-5 <foreign xml:lang="gr">Διότι γνωρίζω σε ἀγαπῶντα τὴν ἡσυχίαν, καὶ συμπλέκει σε ὁ
+                        διάβολος ἐν πολλοῖς προφάσει τοῦ ἀγαθοῦ, διότι γνωρίζει τὸ θέλημα τὴς
+                        διανοίας σου, ἕως ἂν διασκεδάσῃ σε καὶ ἐμποδίσῃ ἐκ τῆς ἀρετῆς τῆς
+                        περιεκτικῆς τῶν πολλῶν τρόπων τῶν ἀγαθῶν, ὦ ἀδελφὲ ἀγαθέ</foreign></p>
+                    <p xml:lang="en">Desinit (f. 129v,1-2): <foreign xml:lang="ar">في ايام محدودة تكون تنظر الي وجوههم </foreign></p>
+                    <p xml:lang="en">B 41:313:7-8 <foreign xml:lang="syr">ܒܬܚܘܡ ܝܘ̈ܡܬܐ ܬܚܙܐ
+                        ܦܖ̈ܨܘܦܝܗܘܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 41:537:141 <foreign xml:lang="gr">Ὡρισμέναις ἡμέραις θέασαι τὰς ὄψεις αὐτῶν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.32" xml:lang="en">
+                    <head>Homily 19 (ff. 129v,3-135r,13)</head>
+                    <p xml:lang="en">It contains passages from two different homilies,
+                        which correspond to the following numbers in Bedjan’s and Pirard’s edition:
+                        B 63:437-441 ▬ P 53:673-677; B 65:443-464 ▬ P 54:678-691.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وراس لمار سحق يعلم فيه ان التجربة تعلم كل</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 129v,3): <foreign xml:lang="ar">راس يعلم فيه ان التجربة تعلم كُل</foreign></p>
+                    <p xml:lang="en"> i. ff. 129v,4—131r,3: (<foreign xml:lang="ar">الرب المُبارك وقاره يفتح باب بين يدينا...ومصيرها تنحل
+                        وتتلف</foreign>) </p>
+                    <p xml:lang="en"> B 63:437:18-63:441:7 (<foreign xml:lang="syr">ܒܪܝܟ ܐܝܩܪܗ:
+                        ܗܘ ܢܦܬܚ ܬܪܥܐ ܩܕܡܝܢ...ܘܡܬܚܙܐ ܕܟܠܗܘܢ ܡܫܬܪܝܢ: ܘܐܒܕܝܢ ܠܗܘܢ</foreign>) </p>
+                    <p xml:lang="en"> P 53:673:1-53:677:90 (<foreign xml:lang="gr">Εὐλογημένη ἡ τιμὴ τοῦ Κυρίου τοῦ ἀνοίγοντος θύραν
+                        ἔμπροσθεν ἡμῶν…καὶ ὁρᾶται ὅτι πάντα λύονται καὶ ἀπόλλυνται</foreign>)</p>
+                    <p xml:lang="en"> ii. ff. 131r,3—135r,13: (<foreign xml:lang="ar">اكثر من هولا</foreign><note
+                            place="foot" xml:id="ftn68" n="68"><p rend="footnote text"> These first
+                                three words do not correspond to any textual material in Bedjan’s
+                                text. Nonetheless, they partially correspond with the last words of
+                                the 53<hi rend="superscript">rd</hi> Greek homily: P 53:677:90-91
+                                (τὸ δὲ πλέον τούτων, μέτρον ἐστὶ τῶν λόγων). Interestingly, the
+                                Arabic words which follow immediately after <foreign xml:lang="ar">هولا</foreign> correspond with the
+                                beginning (except from the short title) of the 54<hi
+                                    rend="superscript">th</hi> Greek homily, but not with the
+                                beginning of the 65<hi rend="superscript">th</hi> Syriac homily.
+                                Following Pirard’ s table of correspondences (Pirard, <hi
+                                    rend="italic"><foreign xml:lang="ar">Ἀββᾶ Ἰσαὰκ τοῦ Σύρου</foreign></hi>, 883), in this specific
+                                case the Syriac <hi rend="italic">Vorlage</hi> of both the Arabic
+                                and the Greek texts apparently presented the order of the Syriac
+                                Western tradition.</p></note> <foreign xml:lang="ar">الدوام في الصلاة الذي بلا طياشة·· لا
+                        تحسبها بُطلان منجل تركك المزامير... الي الابد امين</foreign>) </p>
+                    <p xml:lang="en"> B 65:446:11—65:464:18 (<foreign xml:lang="syr">ܠܐ ܬܚܫܘܒ
+                        ܒܛܠܢܐ ܐܘܪܟܐ ܕܨܠܘܬܐ ܟܢܝܫܬܐ: ܡܛܠ ܦܘܫܐ ܕܡܙܡܘܖ̈ܐ...ܠܥܠܡ ܥܠܡܝܢ</foreign>) </p>
+                    <p xml:lang="en"> P 54:678:1—54:691:288 (<foreign xml:lang="gr">Μὴ ψηφίσῃς ἀργίαν τὴν ἔκτασιν τῆς εὐχῆς τῆς
+                        ἀμετεωρίστου καὶ συνηγμένης καὶ μακρᾶς, διὰ τὸ ἀφῆσαι τοὺς ψαλμούς…εἰς τοὺς
+                        αἰῶνας τῶν αἰώνων, ἀμήν</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.33" xml:lang="en">
+                    <head>Homily 20 (ff. 135r,14-136v,2)</head>
+                    <p xml:lang="en">It corresponds with the 61<hi rend="superscript"
+                            >st</hi> homily in Bedjan’s edition and the 51<hi rend="superscript"
+                            >st</hi> in Pirard’s edition (B 61:427-429 ▬ P 51:661-664). Both the
+                        beginning and the end correspond with those of the Syriac and Greek
+                        texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وراس اخر ايضا لمار سحق علي الحب</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 135r,14): <foreign xml:lang="ar">راس اخر ايضا لمار اسحق القديس علي الحُب</foreign></p>
+                    <p xml:lang="en">Incipit (f. 135r,15): <foreign xml:lang="ar">من الحُب الذي يورون</foreign><note place="foot" xml:id="ftn69"
+                            n="69"><p rend="footnote text"> For this form, see Blau, <hi
+                                    rend="italic">A Grammar of Christian Arabic</hi>, Vol. 1,
+                                175-6.</p></note> <foreign xml:lang="ar">القديسين لله</foreign> </p>
+                    <p xml:lang="en">B 61:427:5 <foreign xml:lang="syr">ܡܢ ܚܘܒܐ ܕܡܚܘܝܢ ܩܕܝ̈ܫܐ
+                        ܠܐܠܗܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 51:661:1 <foreign xml:lang="gr">Ἐκ τῆς ἀγάπης, ἧς ἔδειξαν οἱ ἅγιοι πρὸς τὸν Θεόν</foreign></p>
+                    <p xml:lang="en">Desinit (f. 136v,1-2): <foreign xml:lang="ar">ان نحن انحنينا وطلبنا باتضاع وشوق وبدوام لا يبطل كُل
+                        شي ناخذ في كُل حين </foreign></p>
+                    <p xml:lang="en">B 61:429:13-14 <foreign xml:lang="syr">ܐܢ ܢܬܪܟܢ ܠܡܫܐܠ
+                        ܒܡܟܝܟܘܬܐ ܟܕ ܝܐܝܒܝܢܢ ܒܐܟܝܦܘܬܐ ܡܚܡܣܢܢܐܝܬ: ܟܠܡܕܡ ܢܣܒܝܢ ܚܢܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 51:664:63-64 <foreign xml:lang="gr">Ἐὰν ὑποταγῶμεν αἰτούμενοι ἐν ταπεινώσει μετ’ ἐφέσεως
+                        ἀδιαλείπτου ἐν καρτερίᾳ, πάντα λαμβάνομεν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.34" xml:lang="en">
+                    <head>Homily 21 (ff. 136v,3-137v,9)</head>
+                    <p xml:lang="en">It corresponds with the 60<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 50<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 60:419-427 ▬ P 50:656-660). Both the
+                        beginning and the end correspond with those of the Syriac and Greek
+                        texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وراس اخر لمار سحق مختار من قوله</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 136v,3): <foreign xml:lang="ar">راس اخر لمار اسحق القديس مُختار من قوله</foreign></p>
+                    <p xml:lang="en">Incipit (f. 136v,4): <foreign xml:lang="ar">في كُل حين قريب هو الرب بمعونته للقديسين</foreign> </p>
+                    <p xml:lang="en">B 60:419:9-10 <foreign xml:lang="syr">ܟܕ ܒܟܠܙܒܢ ܩܪܝܒܘ ܡܪܝܐ
+                        ܒܝܕ ܥܘܕܖ̈ܢܘܗܝ ܠܘܬ ܩܕܝ̈ܫܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 50:656:1-2 <foreign xml:lang="gr">Ἐν παντὶ καιρῷ ἐν ᾧ ὁ Κύριος ἐγγὺς εἰς ἀντίληψιν τῶν ἁγίων
+                        αὐτοῦ</foreign></p>
+                    <p xml:lang="en">Desinit (f. 137v,9): <foreign xml:lang="ar">هو يظهر فينا قوة حُبه امين</foreign> </p>
+                    <p xml:lang="en">B 60:427:2 <foreign xml:lang="syr">ܗܘ ܢܓܠܐ ܒܢ ܚܝܠܐ ܕܚܘܒܗ.
+                        ܐܡܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 50:660:101-102 <foreign xml:lang="gr">αὐτὸς φανερώσοι ἡμῖν τὴν ἰσχὺν τῆς ἀγάπης αὐτοῦ, ἀμήν</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.35" xml:lang="en">
+                    <head>Homily 22 (ff. 137v,10-139v,6)</head>
+                    <p xml:lang="en">It contains passages from two different homilies,
+                        which correspond to the following numbers in Bedjan’s and Pirard’s edition:
+                        B 58:407-414 ▬ P 48:647:650; B 77:524-536 ▬ P 63:749-762.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا من قول مار سحق القديس</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 137v,10): <foreign xml:lang="ar">وايضا من قول مار اسحق القديس</foreign></p>
+                    <p xml:lang="en"> i. ff. 137v,11—138v,4: (<foreign xml:lang="ar">ماذا تقول ايه</foreign><note place="foot" xml:id="ftn70"
+                        n="70"><p rend="footnote text"> See n. 41.</p></note> <foreign xml:lang="ar">الانسان...ويصيروا
+                            الانسان</foreign><note place="foot" xml:id="ftn71" n="71"><p rend="footnote text">
+                                For the <hi rend="italic">constructio ad sensum</hi> of a verb in
+                                plural referred to a subject in singular denoting a collective
+                                entity, see J. Blau, <hi rend="italic">A Grammar of Christian
+                                    Arabic. Based mainly on South-Palestinian texts from the first
+                                    millennium</hi>, Vol. 2, Corpus Scriptorum Christianorum
+                                Orientalium 268, Subsidia 28, (Louvain: Secrétariat du CorpusSCO,
+                                1967), 278.</p></note> <foreign xml:lang="ar">بلا حزن ولا وجع في شدة العذاب</foreign>) </p>
+                    <p xml:lang="en"> B 77:534:14—77:536:11 (<foreign xml:lang="syr">ܡܢܐ ܐܡܪ ܐܢܬ:
+                        ܐܘ̇ ܓܒܪܐ...ܗܘܝܢ ܠܐ ܚܫܘܫ̈ܐ ܒܥܘܙܐ ܕܚܫܐ ܕܬܫ̈ܢܝܕܐ</foreign>) </p>
+                    <p xml:lang="en"> P 63:760:259—63:762:304 (<foreign xml:lang="ar">Τί λέγεις, ὦ ἄνθρωπε…γίνονται ἀπαθεῖς ἐν τῇ σφοδρᾷ
+                        λύπῃ τῶν βασάνων</foreign>)</p>
+                    <p xml:lang="en"> ii. ff. 138v,4—139v,6: (<foreign xml:lang="ar">ان انت عملت فضيلة... فليس يعرف</foreign> </p>
+                    <p xml:lang="en"> ندامة ) <note place="foot" xml:id="ftn72" n="72"><p rend="footnote text">
+                                After this word there is a reference sign that points to a <hi
+                                    rend="italic">marginalium</hi> written by a posterior hand. It
+                                is a doxology, which does not correspond to any textual material in
+                                Syriac or in Greek: <foreign xml:lang="ar">والله اب كل رحمة يوفقنا للاتضاع المرضي له برحمته
+                                ورافته امين.</foreign></p></note></p>
+                    <p xml:lang="en"> B 58:408:16—B 58:412:3 (<foreign xml:lang="syr">ܐܢ ܦܠܚܬ
+                        ܡܝܬܪܘܬܐ...ܠܐ ܝܕܥ ܕܢܬܬܘܐ</foreign>) </p>
+                    <p xml:lang="en"> P 48:647:12-48:650:81 (<foreign xml:lang="gr">Ἐὰν ποιήσῃς ἀρετὴν…οὐκ οἶδε κατάνυξιν</foreign>)</p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.36" xml:lang="en">
+                    <head>Homily 23 (ff. 139v,7-142r,9)</head>
+                    <p xml:lang="en">It corresponds with the 36<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 28<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 36:269-281 ▬ P 28:481-494). The
+                        beginning corresponds with that of the Syriac and Greek texts. The end does
+                        not correspond with the end of the Syriac and Greek texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا راس اخر لمار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 139v,7): <foreign xml:lang="ar">راس اخر</foreign></p>
+                    <p xml:lang="en">Incipit (f. 139v,8): <foreign xml:lang="ar">لعدونا الشيطان عادات اُخر للذين يدخلون في هذا الجهاد</foreign> </p>
+                    <p xml:lang="en">B 36:269:12-13 <foreign xml:lang="syr">ܐܝܬ ܠܗ ܬܘܒ ܐܦ ܥܝܕ̈ܐ
+                        ܐܚܖ̈ܢܐ ܠܒܥܠܕܪܢ ܣܛܢܐ: ܕܠܐܝܠܝܢ ܕܠܐܓܘܢܐ ܗܢܐ ܢܚܬܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 28:481:1-2 <foreign xml:lang="gr">Ἔχει ἔθος πάλιν ὁ διάβολος, ὁ ἀντίπαλος ἡμῶν, τοῖς ἐν τῷ ἀγῶνι
+                        τούτῳ κατιοῦσι</foreign></p>
+                    <p xml:lang="en">Desinit (f. 142r,8-9): <foreign xml:lang="ar">هولا كلا المذهبين</foreign><note place="foot" xml:id="ftn73"
+                        n="73"><p rend="footnote text"> <foreign xml:lang="ar">المدهبين</foreign> ms.</p></note> <foreign xml:lang="ar">الذي لقتال
+                        الشيطان </foreign></p>
+                    <p xml:lang="en">B 36:275:5-6 <foreign xml:lang="syr">ܗܠܝܢ ܬܪܝܢ ܙܢܝ̈ܐ ܕܬܟܬܘܫܐ
+                        ܕܥܕܡܐ ܠܗܪܟܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 28:487:147-148 <foreign xml:lang="gr">Οὗτοι οἱ δύο τρόποι τῆς πάλης τοῦ διαβόλου ἕως ὧδε</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.37" xml:lang="en">
+                    <head>Homily 24 (ff. 142r,9-143v,7)</head>
+                    <p xml:lang="en">It corresponds with the 47<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 39<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 47:335-338 ▬ P 39:566-570). Both the
+                        beginning and the end correspond with those of the Syriac and Greek
+                        texts.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا راس اخر لمار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 142r,9): <foreign xml:lang="ar">وايضا راس اخر</foreign></p>
+                    <p xml:lang="en">Incipit (f. 142r,10): <foreign xml:lang="ar">النفس الي الحياة الحركة الاولة التي من رحمة الاله
+                        تقع</foreign><note place="foot" xml:id="ftn74" n="74"><p rend="footnote text"> <foreign xml:lang="ar">نقع</foreign>
+                            ms.</p></note> <foreign xml:lang="ar">في الانسان الذي تقود</foreign> </p>
+                    <p xml:lang="en">B 47:335:19-20 <foreign xml:lang="syr">ܙܘܥܐ ܩܕܡܝܐ ܕܡܢ ܖ̈ܚܡܐ
+                        ܐܠܗܝ̈ܐ ܢܦܠ ܒܒܪܢܫܐ: ܕܠܘܬ ܚܝ̈ܐ ܢܓܕ ܠܗ̇ ܠܢܦܫܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 39:566:1-2 <foreign xml:lang="gr">Πρώτη ἔννοια, ἡ ἐκ τῆς φιλανθρωπίας τοῦ Θεοῦ ἐμπίπτουσα ἐν τῷ
+                        ἀνθρώπῳ, ἡ ὁδηγοῦσα τὴν ψυχὴν εἰς τὴν ζωήν</foreign></p>
+                    <p xml:lang="en">Desinit (f. 143v,6-7): <foreign xml:lang="ar">طوبا لمن حفظ لهذه الحركة الفاضلة اذا ما وقعت في نفسه
+                        ورباها ولم يبذرها منه بباطل وطياشة الارضيات</foreign> </p>
+                    <p xml:lang="en">B 47:338:15-17 <foreign xml:lang="syr">ܛܘܒܘܗܝ ܠܡܢ ܕܢܛܪܗ ܠܗܢܐ
+                            ܙܪܥܐ ܛܒܐ ܡܐ ܕܢܦܠ ܒܢܦܫܗ: ܘܪܒܝܗ: ܘܠܐ ܦܠܗܕ ܡܢܗ ܒܣܖ̈ܝܩܬܐ ܘܦܗܝܐ
+                            ܕܥܒܘܖ̈ܝܬܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 39:570:83-86 <foreign xml:lang="gr">Μακάριος ὃς ἐφύλαξε τοῦτον τὸν σπόρον τὸν ἀγαθόν, ὅταν πέσῃ ἐν
+                        τῇ ψυχῇ αὐτοῦ, καὶ ηὔξησεν αὐτὸν καὶ οὐκ ἐσκόρπισεν αὐτὸν ἐξ αὐτοῦ ἐν τοῖς
+                        ματαίοις καὶ ἐν τῷ μετεωρισμῷ τῶν παρερχομένων</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.38" xml:lang="en">
+                    <head>Homily 25 (ff. 143v,8-144v,6)</head>
+                    <p xml:lang="en">It corresponds with the 48<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 40<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 48:339-341 ▬ P 40:571-573). Both the
+                        beginning and the end correspond with those of the Syriac and Greek texts.
+                        In the Arabic text, the title of the homily, in contrast to the Syriac and
+                        Greek texts, is incorporated in the main text of the homily.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضا راس اخر لمار سحق</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 143v,8): <foreign xml:lang="ar">راس اخر</foreign></p>
+                    <p xml:lang="en">Incipit (f. 143v,9): وايضا علي الابتدال الذي تقبل النفس في كُل حين </p>
+                    <p xml:lang="en">B 48:339:1 <foreign xml:lang="syr">ܥܠ ܫܘ̈ܚܠܦܐ ܕܡܩܒܠܐ ܢܦܫܐ
+                        ܒܟܠܥܕܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 40:571:Title <foreign xml:lang="gr">Περὶ τῆς ἀλλοιώσεως τῆς ἐν τῇ ψυχῇ γινομένης ἐν παντὶ
+                        καιρῷ</foreign></p>
+                    <p xml:lang="en">Desinit (f. 144v,5-6): <foreign xml:lang="ar">وهذه الاشيا للذين يريدون يسلكوا في هذه الطريق</foreign> </p>
+                    <p xml:lang="en">B 48:341:4 <foreign xml:lang="syr">ܘܗܠܝܢ: ܠܐܝܠܝܢ ܕܒܐܘܪܚܐ
+                        ܪܕܝܢ</foreign>
+                    </p>
+                    <p xml:lang="en">P 40:573:56 <foreign xml:lang="ar">καὶ ἐν τούτοις εἶναι τοὺς πορευομένους ἐν τῇ ὁδῷ</foreign></p>
+                </div>
+                <div xml:id="h25n2chamourgiotaki-zimbardi.39" xml:lang="en">
+                    <head>Homily 26 (ff. 144v,7-148v,7)</head>
+                    <p xml:lang="en">It corresponds with the 37<hi rend="superscript"
+                            >th</hi> homily in Bedjan’s edition and the 29<hi rend="superscript"
+                            >th</hi> in Pirard’s edition (B 37:281-290 ▬ P 29:495-507). Both the
+                        beginning and the end correspond with those of the Syriac and Greek texts.
+                        The title corresponds only partially with the Syriac and the Greek
+                        title.</p>
+                    <p xml:lang="en">Title in the index: <foreign xml:lang="ar">وايضاو من قول مار سحق القديس علي الجهتين التي بمعرفة
+                        اتعلمت تحقيق الذي ينبغا لها ان تقرا كل ايام حياتك فيها</foreign></p>
+                    <p xml:lang="en">Title of the homily (f. 144v,7-9): <foreign xml:lang="ar">وايضا من قول مار اسحق القديس علي الجهتين
+                        التي بمعرفة اتعلمت</foreign><note place="foot" xml:id="ftn75" n="75"><p
+                                rend="footnote text"> For the prothesis of <hi rend="italic"
+                                    >ʾalif</hi> in this verbal form, see Blau, <hi rend="italic">A
+                                        Grammar of Christian Arabic</hi>, vol. 1, 163.</p></note> <foreign xml:lang="ar">تحقيق
+                        الذي ينبغي لها ان تقرا</foreign><note place="foot" xml:id="ftn76" n="76"><p
+                                rend="footnote text"> With only one diacritical point on the <hi
+                                    rend="italic">tāʾ</hi>.</p></note> <foreign xml:lang="ar">كُل ايام حياتك فيها</foreign></p>
+                    <p style="text-align: right;">Incipit (f. 144v,10): <foreign xml:lang="ar">مرار كثيرة حُربت بامور
+                        اليمين والشمال </foreign></p>
+                    <p xml:lang="en">B 37:281:5 <foreign xml:lang="syr">ܟܕ ܓܝܪ ܙܒ̈ܢܬܐ ܣܓܝ̈ܐܬܐ
+                        ܐܬܢܣܝܬ ܒܕܝܡܝܢܐ ܘܒܕܣܡܠܐ</foreign>
+                    </p>
+                    <p xml:lang="en">P 29:495:1 <foreign xml:lang="gr">Ἐν πολλῷ καιρῷ πειραζόμενος ἐν τοῖς δεξιοῖς καὶ ἀριστεροῖς</foreign></p>
+                    <p xml:lang="en">Desinit (f. 148v,6-7): <foreign xml:lang="ar">وايضا يقول الذي منجلهم تريد ان تعيش منجلهم لا تكسل</foreign>
+                        وتضجر ان تموت </p>
+                    <p xml:lang="en">B 37:290:17-18 <foreign xml:lang="syr">ܐܝܠܝܢ ܕܡܛܠܬܗܝܢ ܨܒܐ
+                        ܐܢܬ ܕܬܚܐ: ܡܛܠܬܗܝܢ ܕܗܠܝܢ ܠܡܡܬ ܠܐ ܬܬܩܛܥ ܠܟ</foreign>
+                    </p>
+                    <p xml:lang="en">P 29:507:233-234 <foreign xml:lang="gr">Ἅπερ δι’ αὐτῶν θέλεις ζῆσαι, μὴ ἀκηδιάσῃς ὑπὲρ αὐτῶν
+                        ἀποθανεῖν</foreign></p>
+                    <p xml:lang="en">Explicit (f. 148v,8-9)</p>
+                    <p xml:lang="en"><foreign xml:lang="ar">تم قول مار اسحق القديس وللمسيح الشكر والسُبح ولابوه</foreign><note place="foot"
+                            xml:id="ftn77" n="77"><p rend="footnote text"> For this form, see Blau,
+                                    <hi rend="italic">A Grammar of Christian Arabic</hi>, vol. 2,
+                                319.</p></note> <foreign xml:lang="ar">وروح قدسه معه من الان والي الابد امين</foreign></p>
+                </div>
+            </div>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.40" xml:lang="en">
+                <head>Table of Correspondences</head>
+                <p xml:lang="en">The following chart gives the corresponding homilies
+                    between the Arabic Isaac of the <hi rend="italic">Ms Strasbourg 4226</hi> and
+                    the editions of the Syriac and Greek Isaac<hi rend="italic">.</hi> For all the
+                    details about the precise pericopes of each Arabic homily and their
+                    correspondences to the Syriac and the Greek editions, see the description of
+                    each one above. For the comparison of the Greek Isaac with the West and East
+                    Syriac traditions of Isaac Syrus see the table of correspondences provided by
+                    Pirard (2012: 881-883).</p>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"><hi rend="bold">Arabic Isaac (</hi><hi
+                                rend="italic bold">Strasbourg 4226</hi><hi rend="bold">)</hi></cell>
+                        <cell style="text-align: left;"><hi rend="bold">Syriac Isaac
+                                (Bedjan)</hi><note place="foot" xml:id="ftn78" n="78"><p
+                                    rend="footnote text"> The passages which are actually from the
+                                    Syriac John of Dalyatha will be signalised with the reference to
+                                    the edition of Khayyat, <hi rend="italic">Jean de
+                                    Dalyatha</hi>.</p></note></cell>
+                        <cell style="text-align: left;"><hi rend="bold">Greek Isaac
+                            (Pirard)</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">1</cell>
+                        <cell style="text-align: left;">1</cell>
+                        <cell style="text-align: left;">1</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">2</cell>
+                        <cell style="text-align: left;">2</cell>
+                        <cell style="text-align: left;">2</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">3</cell>
+                        <cell style="text-align: left;">3</cell>
+                        <cell style="text-align: left;">3</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">4</cell>
+                        <cell style="text-align: left;">4</cell>
+                        <cell style="text-align: left;">4</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">5</cell>
+                        <cell style="text-align: left;">5</cell>
+                        <cell style="text-align: left;">5</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">6</cell>
+                        <cell style="text-align: left;">6</cell>
+                        <cell style="text-align: left;">6</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">7</cell>
+                        <cell style="text-align: left;"
+                                ><p xml:lang="en">16</p><p xml:lang="en">17</p><p xml:lang="en">23</p><p xml:lang="en">24</p><p xml:lang="en">38</p><p xml:lang="en">39</p><p xml:lang="en">46</p><p xml:lang="en">50</p><p xml:lang="en">53</p><p xml:lang="en">64</p><p xml:lang="en">74</p><p xml:lang="en">77</p><p xml:lang="en">Khayyat
+                                1</p><p xml:lang="en">Khayyat 6</p></cell>
+                        <cell style="text-align: left;"
+                                ><p xml:lang="en">16</p><p xml:lang="en">17</p><p xml:lang="en">-</p><p xml:lang="en">-</p><p xml:lang="en">30</p><p xml:lang="en">31</p><p xml:lang="en">38</p><p xml:lang="en">41</p><p xml:lang="en">44</p><p xml:lang="en">46</p><p xml:lang="en">62</p><p xml:lang="en">63</p><p xml:lang="en">Index
+                                1</p><p xml:lang="en">-</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">8</cell>
+                        <cell style="text-align: left;">43</cell>
+                        <cell style="text-align: left;">35</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">9</cell>
+                        <cell style="text-align: left;">8</cell>
+                        <cell style="text-align: left;">7</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">10</cell>
+                        <cell style="text-align: left;">11</cell>
+                        <cell style="text-align: left;">10</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">11</cell>
+                        <cell style="text-align: left;">12</cell>
+                        <cell style="text-align: left;">13</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">12</cell>
+                        <cell style="text-align: left;">35</cell>
+                        <cell style="text-align: left;">27</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">13</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">32</p><p xml:lang="en">53</p><p xml:lang="en">57</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">24</p><p xml:lang="en">44</p><p xml:lang="en">47</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">14</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">38</p><p xml:lang="en">45</p><p xml:lang="en">50</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">30</p><p xml:lang="en">37</p><p xml:lang="en">41</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">15</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">15</p><p xml:lang="en">16</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">15</p><p xml:lang="en">16</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">16</cell>
+                        <cell style="text-align: left;">13</cell>
+                        <cell style="text-align: left;">11</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">17</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">22</p><p xml:lang="en">34</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">19</p><p xml:lang="en">26</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">18</cell>
+                        <cell style="text-align: left;">41</cell>
+                        <cell style="text-align: left;">33</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">19</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">63</p><p xml:lang="en">65</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">53</p><p xml:lang="en">54</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">20</cell>
+                        <cell style="text-align: left;">61</cell>
+                        <cell style="text-align: left;">51</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">21</cell>
+                        <cell style="text-align: left;">60</cell>
+                        <cell style="text-align: left;">50</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">22</cell>
+                        <cell style="text-align: left;"><p xml:lang="en">58</p><p xml:lang="en">77</p></cell>
+                        <cell style="text-align: left;"><p xml:lang="en">48</p><p xml:lang="en">63</p></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">23</cell>
+                        <cell style="text-align: left;">36</cell>
+                        <cell style="text-align: left;">28</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">24</cell>
+                        <cell style="text-align: left;">47</cell>
+                        <cell style="text-align: left;">39</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">25</cell>
+                        <cell style="text-align: left;">48</cell>
+                        <cell style="text-align: left;">40</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">26</cell>
+                        <cell style="text-align: left;">37</cell>
+                        <cell style="text-align: left;">29</cell>
+                    </row>
+                </table>
+            </div>
+            <div xml:id="h25n2chamourgiotaki-zimbardi.41" xml:lang="en">
+                <head>Final remarks</head>
+                <p xml:lang="en">The results of this first survey of the texts
+                    transmitted under the name of Isaac the Syrian in the Arabic MS <hi
+                        rend="italic">Strasbourg 4226</hi> are the following:</p>
+                <list rend="numbered">
+                    <item>The texts gathered in this manuscript form a collection of selected works
+                        transmitted under the name of Isaac the Syrian. It is hard to determine
+                        whether this collection was based on a pre-existing, possibly more expanded,
+                        Arabic translation or if it derived directly from a Syriac prototype already
+                        formed as a collection of selected texts of the Isaac Syrus.</item>
+                    <item>The collection presents both single sermons of Isaac (homilies 1-6, 8-12,
+                        16, 18, 20-21, 23-26) and pieces of different homilies put together in one
+                        single unit (homilies 7 [which has moreover englobed pieces from John of
+                        Dalyatha], 13-15, 17, 19, 22).</item>
+                    <item>The information that we gain from the titles (either in the index of the
+                        ms. or at the beginning of the homily, or in both) include mostly the name
+                        of Mār Isḥaq, the topic, and an identification tag. These tags, present in
+                        all homilies, transmit to us the type of text which is to follow. Thus, we
+                        have: a) <hi rend="italic">mīmar</hi> 'sermon' (homilies 1-6), b) <hi
+                            rend="italic">qaul</hi> 'saying', almost always preceded by the
+                        preposition <hi rend="italic">min</hi> (homilies 1, 7-8, 12-16, 22, 26), c)
+                            <hi rend="italic">masāʾil wa-ǧawābāt</hi> 'erotapokriseis' (homily 12),
+                        d) <hi rend="italic">risāla</hi> 'letter' (homily 18), and e) <hi
+                            rend="italic">raʾs</hi> 'chapter' (homilies 9, 10-11, 17, 19, 20, 21,
+                            23-25).<note place="foot" xml:id="ftn79" n="79"><p xml:lang="en">
+                                <hi>Two homilies preserve more than one identification tags, i.e. homily 1 is characterized both as </hi><hi
+                                    rend="italic"
+                                    >mīmar</hi><hi> and </hi><hi
+                                    rend="italic"
+                                    >qaul</hi><hi>, and homily 12 is characterized as </hi><hi
+                                    rend="italic"
+                                    >qaul</hi><hi> at the beginning of the homily and as </hi><hi
+                                    rend="italic">masāʾil
+                                    wa-ǧawābāt</hi><hi> in the index. The identification tag of homily 8 is given only in the index. These discrepancies could be the result of a copyist’s inaccuracy in case the titles already existed and are not the product of the copyist of MS </hi><hi
+                                    rend="italic"
+                                >Strasbourg</hi><hi> 4226.</hi></p></note>
+                        In some cases, it is explicitly mentioned in the title (either in the index
+                        or in the homily or in both) that the text is <hi rend="italic">muḫtār</hi>
+                        'selected' (homilies 1, 2, 13, 21) or <hi rend="italic">multaqat</hi>
+                        'gathered' (homily 7). In some cases, the topic of the homily is explicitly
+                        mentioned, namely in the homilies 1, 3 (only in the index), 8-11, 18-20 and
+                        26. All the titles of these homilies correspond partially or completely to
+                        the titles of the Syriac and/or Greek edited texts, except for one, which
+                        does not correspond at all (homily 19). In both the Arabic and edited Syriac
+                        and Greek texts, the titles of the homilies 2 and 4-6 do not present the
+                        topic but only the number of the homily (second, fourth, etc.).</item>
+                </list>
+                <p xml:lang="en">Any further consideration about the textual transmission concerning both the
+                    titles and the texts must be done only after the collation with other manuscript
+                    witnesses which bear the translation(s) of Isaac collections into Arabic before
+                    Ibn al-Faḍl. This paper aimed at presenting an exact overview of the
+                    correspondences between the textual portions transmitted in the Strasbourg
+                    manuscript and the available printed editions of the Syriac and Greek Isaac,
+                    with the intent to facilitate every future inspection of the Arabic tradition of
+                    Isaac.</p>
+            </div>
+            <div type="bibliography">
+                <head>Works cited</head>
+                <listBibl>
+                    <bibl>Assemani G.,
+                    <hi rend="italic">Bibliotheca Orientalis Clementino-Vaticana, </hi>Vol.
+                    1, <hi rend="italic">De scriptoribus Syris orthodoxis</hi> (Roma: Sacra
+                    Congregatio de Propaganda Fide, 1719).</bibl>
+                <bibl>Assemani G. and Assemani S., <hi rend="italic">Bibliothecae apostolicae Vaticanae
+                        codicum manuscriptorum catalogus</hi>, Vol. 1,3, <hi rend="italic">Reliqui
+                        codices Chaldaici sive Syriaci</hi> (Roma: Ex typographia linguarum
+                    orientalium, 1759).</bibl>
+                <bibl>Atiya A., "The monastery of St. Catherine and the Mount Sinai expedition" (<hi
+                        rend="italic">Proceedings of the American Philosophy Society</hi> 96
+                    [1952]), 578-86.</bibl>
+                <bibl>Atiya A., "Codex Arabicus (Sinai Arabic Ms. No.
+                    514)," in <hi rend="italic">Homage to a Bookman: Essays on Manuscripts, Books
+                        and Printing Written for Hans P. Kraus on his 60th Birthday</hi>, ed. H.
+                    Lehmann-Haupt (Gebr. Mann Verlag: Berlin, 1967), 75-87.</bibl>
+                <bibl>Bedjan P. (ed.), <hi rend="italic">Mar Isaacus Ninivita. De perfectione
+                        religiosa</hi> (Leipzig: Otto Harrassowitz 1909).</bibl>
+                <bibl>Binggeli A., "Les trois David, copistes arabes de
+                    Palestine," in <hi rend="italic">Manuscripta Graeca et Orientalia. Mélanges
+                        monastiques et patristiques en l'honneur de Paul Géhin</hi>, Orientalia
+                    Lovaniensia Analecta 243, eds. A. Binggeli, A. Boud'hors and M. Cassin (Leuven:
+                    Peeters, 2016), 79-117.</bibl>
+                <bibl>Blau J., <hi rend="italic">A Grammar of Christian Arabic. Based mainly on
+                        South-Palestinian texts from the first millennium</hi>, Vol. 1, Corpus
+                    Scriptorum Christianorum Orientalium 267, Subsidia 27, (Louvain: Secrétariat du
+                    CorpusSCO, 1966).</bibl>
+                <bibl>Blau J., <hi rend="italic">A Grammar of Christian Arabic. Based mainly on
+                        South-Palestinian texts from the first millennium</hi>, Vol. 2, Corpus
+                    Scriptorum Christianorum Orientalium 268, Subsidia 28, (Louvain: Secrétariat du
+                    CorpusSCO, 1967).</bibl>
+                <bibl>Brock S., "Syriac into Greek at Mar Saba: The Translation of St. Isaac the
+                    Syrian," in <hi rend="italic">Sabaite Ηeritage in the Orthodox Church from the
+                        Fifth Century to the Present</hi>, ed. J. Patrich (Leuven: Peeters, 2001),
+                    201-8.</bibl>
+                <bibl>Chabot J., <hi rend="italic">De S. Isaaci Ninivitae vita, scriptis et
+                        doctrina</hi> (Louvain: Lefever F. &amp; S., 1892).</bibl>
+                <bibl>Chialà S., <hi rend="italic">Dall’ascesi eremitica alla misericordia infinita.
+                        Ricerche su Isacco di Ninive e la sua fortuna</hi> (Firenze: Leo S. Olschki,
+                    2002).</bibl>
+                <bibl>Chialà S., "The Arabic Version of Saint Isaac the Syrian. A Channel of
+                    Transmission of Syriac Literature," in <hi rend="italic">Proceedings of the
+                        International Patristics Conference ‘Saint Isaac the Syrian and His
+                        Spiritual Legacy’ Held at the Sts Cyril and Methodius Institute for
+                        Postgraduate Studies (Moscow, October 10-11, 2013)</hi>, ed. H. Alfeyev
+                    (Yonkers [NY]: St Vladimir’s Seminary Press, 2015), 59-67.</bibl>
+                <bibl>D’Ottone A., "Arabic Palaeography," in <hi rend="italic">Comparative Oriental
+                        Manuscript Studies. An Introduction</hi> (s.l.: s.e., 2015), 271-6.</bibl>
+                <bibl>D’Ottone Rambach A., "Sharing the written space: Contact and Interaction Between
+                    Arabic and Other Scripts," in <hi rend="italic">Proceedings of the International
+                        Symposium: Navigating Language in the Early Islamic World (The Marco
+                        Institute for Medieval and Renaissance Studies, The University of Tennessee,
+                        Knoxville, 6-7 April 2018)</hi>, eds. A. Borrut and A.V. Vacca (Brepols:
+                    Turnhout 2021 [forthcoming]).</bibl>
+                <bibl>Esbroeck M. van, "Un feuillet oublié du codex arabe Or. 4226 à Strasbourg" (<hi
+                        rend="italic">Analecta Bollandiana</hi> 96 [1978]) p. 383-4.</bibl>
+                <bibl>Esbroeck M. van, "Le codex rescriptus Tischendorf 2 à Leipzig et Cyrille de
+                    Scythopolis en version arabe," in <hi rend="italic">Actes du deuxième Congrès
+                        international d’études arabes chrétiennes</hi>, ed. S. Khalil Samir (Rome:
+                    Pontificium Institutum Studiorum Orientalium, 1986) 81-91.</bibl>
+                <bibl>Fleischer H., "<hi rend="Emphasis">Über einen
+                        griechisch-arabischen Codex rescriptus der Leipziger
+                        Universitäts-Bibliothek</hi>" (<hi rend="italic">Zeitschrift der Deutschen
+                        Morgenländischen Gesellschaft</hi> 1 [1847]), 148-60.</bibl>
+                <bibl><hi rend="Strong"><seg rend="normalweight">Fleischer</seg></hi> H., "<hi
+                        rend="Emphasis">Beschreibung der von Prof. Tischendorf im Jahre 1853 aus dem
+                        Morgenlange zurückgebrachten christlich-arabischen Handschriften</hi>" (<hi
+                        rend="italic">Zeitschrift der Deutschen Morgenländischen Gesellschaft</hi> 8
+                    [1854]), 584-7.</bibl>
+                <bibl>Gardthausen V., <hi rend="italic">Katalog der Handschriften der
+                        Universitäts-Bibliothek zu Leipzig</hi>, Vol. 3, <hi rend="italic">Die
+                        griechischen Handschriften</hi> (Leipzig: Harrassowitz 1898).</bibl>
+                <bibl>Garitte G., "Homélie d'Ephrem "Sur la Mort et le Diable". Version géorgienne et
+                    version arabe" (<hi rend="italic">Le Muséon</hi> 82 [1969]), 123-63.</bibl>
+                <bibl>Graf G., <hi rend="italic">Geschichte der christlichen arabischen Literatur</hi>,
+                    Vol. 1,<hi rend="italic"> Die Übersetzungen </hi>(Città del
+                    Vaticano: Biblioteca Apostolica Vaticana, 1944).</bibl>
+                <bibl>Graf G., <hi rend="italic">Geschichte der
+                        christlichen arabischen Literatur</hi>, Vol.
+                    2<hi rend="italic">, Die Schriftsteller bis zur Mitte des 15. Jahrhunderts </hi>(Città
+                    del Vaticano: Biblioteca Apostolica Vaticana, 1947).</bibl>
+                <bibl>Graf G., <hi rend="italic">Geschichte der christlichen arabischen Literatur</hi>,
+                    Vol. 5<hi rend="italic">, Register </hi>(Città del
+                    Vaticano: Biblioteca Apostolica Vaticana, 1953).</bibl>
+                <bibl>G. Graf, <hi rend="italic">Verzeichnis arabischer kirchlicher Termini</hi>
+                    (Louvain: Imprimerie orientaliste L. Durbecq 1954).</bibl>
+                <bibl>Griffith S., <hi rend="italic">Arabic Christianity in the Monasteries of
+                        Ninth-Century Palestine</hi> (Aldershot: Ashgate, 1992).</bibl>
+                <bibl>Heffening W., "Die griechische Ephraem-Paraenesis
+                    gegen das Lachen in arabischer Übersetzung" (<hi rend="italic">Oriens
+                        christianus</hi> 3:2 [1927]), 94-119.</bibl>
+                <bibl>Hjälm M., "A Paleographical Study of Early Christian Arabic Manuscripts" (<hi
+                        rend="italic">Collectanea Christiana Orientalia</hi> 17 [2020]), 37-77.</bibl>
+                <bibl>Kessel G., "Sinai syr. 24 as an Important Witness to the Reception History of
+                    Some Syriac Ascetic Texts," in <hi rend="italic">Sur les pas des Araméens
+                        chrétiens. Mélanges offerts à Alain Desreumaux</hi>, Cahiers d’études
+                    syriaques 1, eds. F. Briquel-Chatonnet and M. Debié (Paris: Geuthner, 2010),
+                    207-18.</bibl>
+                <bibl>Khalifé-Hachem E., "Isaac de Ninive," in <hi rend="italic">Dictionnaire de
+                        Spiritualité</hi>, <hi rend="italic">ascétique et mystique, doctrine et
+                        histoire</hi>, eds. M. Viller <hi rend="italic">et alii</hi>, Vol. 7.2
+                    (Paris: Beauchesne, 1971), 2041-54.</bibl>
+                <bibl>Khalifé-Hachem E., "Les versions arabes d’Isaac de Ninive," in <hi rend="italic"
+                        >Proceedings of the 28th International Congress of Orientalists (Canberra,
+                        6-12 January 1971)</hi>, ed. A. Davis (Wiesbaden: Harrassowitz, 1976),
+                    36-7.</bibl>
+                <bibl>Khayyat N. (ed.), <hi rend="italic">Jean de Dalyatha. Les homélies I-XV</hi>
+                    (Antélias: Centre d'Etudes et de Recherches Orientales; Hadath: Université
+                    Antonine, 2007).</bibl>
+                <bibl>Kračkovskij I., "Novozavjetnyj apokrif v arabskoj
+                    rukopisi 885-886 goda po R. Hr." (<hi rend="italic">Vizantijskij Vremennik</hi>
+                    14 [1909]), 246-75.</bibl>
+                <bibl>Kračkovskij I., "K istorii sevastijskoj eparhii v IV veke" (<hi rend="italic"
+                        >Hristianskij Vostok</hi> 2 [1913]), 154-5.</bibl>
+                <bibl>Oestrup J., "Über zwei arabische Codices Sinaitici der Straßburger Universitäts-
+                    und Landesbibliothek" (<hi rend="italic">Zeitschrift der Deutschen
+                        Morgenländischen Gesellschaft</hi> 51:3 [1897]), 453-71.</bibl>
+                <bibl>Pataridze T., "Les discours ascétiques d’Isaac de Ninive. Étude de la tradition
+                    géorgienne et de ses rapports avec les autres versions" (<hi rend="italic">Le
+                        Muséon</hi> 124:1&amp;2 [2011]), 27-58.</bibl>
+                <bibl>Pataridze T., "Isaac from the Monastery of Mar Saba. The History of the Origin of
+                    the Multiple Translations of St Isaac the Syrian’s Work and Their Distribution
+                    in the Holy Lavra," in <hi rend="italic">Proceedings of the International
+                        Patristics Conference ‘Saint Isaac the Syrian and His Spiritual Legacy’ Held
+                        at the Sts Cyril and Methodius Institute for Postgraduate Studies (Moscow,
+                        October 10-11, 2013)</hi>, ed. H. Alfeyev (Yonkers [NY]: St Vladimir’s
+                    Seminary Press, 2015), 39-50. </bibl>
+                <bibl>Pataridze T., "Christian Literature in Arabic in
+                    the Early Islamic Period (8th-10th c.): The Circulation of Texts and Ideas
+                    between the Greek, Syriac, Arabic, and Georgian Communities," (<hi rend="italic"
+                        >Le Muséon</hi> 132, 1&amp;2 [2019]), 199-222.</bibl>
+                <bibl>Pirard M. (ed.), <hi rend="italic">Ἀββᾶ Ἰσαὰκ τοῦ Σύρου. Λόγοι ἀσκητικοί. Κριτικὴ
+                        ἔκδοσι</hi> (Ἅγιον Ὄρος: Ἱερὰ Μονὴ Ἰβήρων, 2012).</bibl>
+                <bibl>Treiger A., "Syro-Arabic Translations in Abbasid Palestine: The Case of John of
+                    Apamea’s Letter of Stillness (Sinai Ar. 549)," (<hi rend="italic">Parole de
+                        l’Orient</hi> 39 [2014]), 79-131.</bibl>
+                <bibl>Wickersheimer E., <hi rend="italic">Catalogue général des manuscrits des
+                        bibliothèques publiques de France</hi>, Vol. 47, <hi rend="italic"
+                        >Strasbourg</hi> (Paris: Librairie Plon, 1923).</bibl>
+                <bibl>Wright W., <hi rend="italic">A Grammar of the Arabic Language</hi>, Vol. 1
+                    (Beirut: Librairie du Liban, 1974<hi rend="superscript">3</hi>).</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
