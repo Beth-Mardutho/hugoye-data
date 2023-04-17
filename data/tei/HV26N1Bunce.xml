@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Flawed Forensics: Miaphysites on Trial in the Courts of Justin
+                    II</title>
+                <author>
+                    <name>
+                        <forename>William</forename>
+                        <surname>Bunce</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Wadham College, University of Oxford</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>s
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2023</date>
+                <idno>Volume 26.1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv26n1bunce</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>William Bunce</author>
+                        <title level="a">Flawed Forensics: Miaphysites on Trial in the Courts of
+                            Justin II</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol26/HV26N1Bunce.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2022</date>
+                        </imprint>
+                        <biblScope type="vol" n="26">26</biblScope>
+                        <biblScope type="issue" n="1">1</biblScope>
+                        <biblScope type="pp" from="47" to="95">47-95</biblScope>
+                        <biblScope type="order" n="3"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term/>
+                    <term/>
+                    <term/>
+                    <term/>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2023-05-13">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="abstract">
+                <head>Abstract</head>
+                <p xml:lang="en">John of Ephesus did not merely catalog events but employed
+                    stylistic and organizational techniques to contextualize and direct his
+                    narrative. This is made apparent by the presentation of a series of clerical
+                    trials in the first book of his <hi rend="italic">Ecclesiastical History.
+                    </hi>The <hi rend="italic">Ecclesiastical History</hi> should be understood as
+                    playing a complementary role to his <hi rend="italic">Lives of the Eastern
+                        Saints</hi>. Where the latter work presented the charismatic credentials of
+                    miracle-working saint-ascetics, the former showed the institutional soundness of
+                    the miaphysite hierarchy. He demonstrated this negatively through a chaotic
+                    account of the legal practices of the Chalcedonians. </p>
+            </div>
+        </front>
+        <body>
+            <div xml:lang="en" xml:id="h26n1bunce.0">
+                <p xml:lang="en">In the legal-ecclesiastical environment of the 6<hi
+                        rend="superscript">th</hi> century, a demonstration of flawed legal
+                    proceedings was an attack on the institutional legitimacy of the Chalcedonian
+                    church. It was the most viable challenge to Chalcedonian patriarchs John
+                    Scholasticus and Eutychius and their imperially sanctioned enforcement of union.
+                    By contrast, it strengthened the legitimacy of the embattled miaphysites. John
+                    of Ephesus sought to expose fraud, lawlessness, and wilfulness in the
+                    Chalcedonians' legal process, thereby systematically undermining the intention,
+                    process, and outcome of legal proceedings against the miaphysites.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.1">
+                <head>Introduction</head>
+                <p xml:lang="en">“How do you sit there like a Christian but judge the servants of
+                    God like a pagan?” (<foreign xml:lang="syr">ܡܢܐ ܝܬ̇ܒ ܐܢܬ ܐܝܟ ܟܪܣܛܝܢܐ̇
+                        ܘܠܥܒ̈ܕܘܗܝ</foreign><lb/><foreign xml:lang="syr">ܕܐܠܗܐ ܕܐ̇ܢ ܐܢܬ
+                        ܚܢܦܐܝܬ</foreign>).<note place="foot" xml:id="ftn2" n="1"><p
+                           >
+                            <hi>William Cureton, ed. </hi><hi rend="italic">The Third Part of the
+                                Ecclesiastical History of John, Bishop of Ephesus</hi><hi> (Oxford:
+                                Oxford University Press, 1853), 6. Book 1, Chapter 9; 8. John of
+                                Ephesus, </hi><hi rend="italic">Historiae Ecclesiasticae Pars Tertia
+                                - Textus</hi><hi>, CSCO (Paris: Typographeus Reipublicae, 1935), 8.
+                                (Henceforth, references to the text will take the form: </hi><hi
+                                rend="italic">HEPT</hi><hi>, book, chapter; page number in Brooks’
+                                edition.) All translations my own unless otherwise
+                        stated.</hi></p></note> Thus John, the Severan bishop of Ephesus, recorded
+                    Stephen the presbyter’s protestation before an unnamed Roman prefect.<note
+                        place="foot" xml:id="ftn3" n="2"><p><hi> The
+                                focus of the following argument is the relationship of the
+                                Chalcedonian faction represented in Constantinople by patriarchs
+                                John Scholasticus and Eutychius, and the Severan faction represented
+                                by John of Ephesus, Paul of Antioch, and various other bishops and
+                                presbyters who will be mentioned throughout the article. Despite an
+                                arguable lack of precision, I shall very commonly refer to the two
+                                groups as Chalcedonians and miaphysites. For accounts of the
+                                diversity and its significance, especially in the latter position
+                                see: Philip Booth, "Towards the Coptic Church: The Making of the
+                                Severan Episcopate" (</hi><hi rend="italic">Millennium</hi><hi> 14
+                                [2018]), and Volker L. Menze, </hi><hi rend="italic">Justinian and
+                                the Making of the Syrian Orthodox Church</hi><hi>, Oxford Early
+                                Christian Studies (Oxford: Oxford University Press,
+                        2008).</hi></p></note> John’s account of recent events, the third book of
+                    his <hi rend="italic">Ecclesiastical History</hi>, almost begins with this
+                    passion narrative; a crowd dragged the cleric before an official. After a brief
+                    exchange, Stephen’s case was transferred to the “Synodite” (Chalcedonian)
+                    bishop, who confined Stephen in such poor conditions that he died in squalor.
+                    The Severans who buried him treated his body as that of a martyr, and by this
+                    treatment, made clear that they at least did not believe he had died of natural
+                    causes. With this opener, John of Ephesus directly confronted the perceived
+                    paradox of Christian persecution in a Christian empire.</p>
+                <p xml:lang="en">The increasing symbiosis of the church and the law between the 4<hi
+                        rend="superscript">th</hi> and 6<hi rend="superscript">th</hi> centuries has
+                    been well documented in dedicated works such as Caroline Humfress’ <hi
+                        rend="italic">Orthodoxy and the Courts in Late Antiquity</hi> and, more
+                    recently, Mary Farag’s <hi rend="italic">What Makes a Church Sacred?</hi>.<note
+                        place="foot" xml:id="ftn4" n="3"><p rend="footnote text"
+                           > Caroline Humfress, <hi rend="italic"
+                                >Orthodoxy and the Courts in Late Antiquity,</hi> (Oxford: Oxford
+                            University Press, 2007). Mary K. Farag, <hi rend="italic">What Makes a
+                                Church Sacred?: Legal and Ritual Perspectives from Late
+                                Antiquity</hi> (University of California Press, 2021).</p></note>
+                    Humfress states, for example, that the legal framing of heresy and orthodoxy
+                    “necessitated the legal categorization and systematization of religious belief
+                        itself.”<note place="foot" xml:id="ftn5" n="4"><p rend="footnote text"
+                           > Humfress, <hi rend="italic">Orthodoxy and
+                                the Courts in Late Antiquity</hi>, 268.</p></note> Laws and legal
+                    thinking were not only impositions of state power as a means of church
+                    governance. Instead, they came also to be recognized internally as valid methods
+                    of a doctrinal definition. Beyond doctrine, the church adopted the systems and
+                    definitions of Roman law for its everyday functions. For example, Farag
+                    discusses the complicated history of the church’s use of the classical juristic
+                    conception of <hi rend="italic">res sacra</hi>. Despite some to-and-fro on the
+                    subject, the simultaneous processes of adoption by the church and imposition by
+                    imperial legislation of significant elements of an idea first formulated to
+                    govern the property of pre-Christian temples show the draw and influence of
+                    Roman law on the church.<note place="foot" xml:id="ftn6" n="5"><p
+                            rend="footnote text"> Farag, <hi
+                                rend="italic">What Makes a Church Sacred? : Legal and Ritual
+                                Perspectives from Late Antiquity</hi>, 46, 51.</p></note> Such
+                    indeed was the closeness of the two institutions that it is rare for a work on
+                    one not to refer to the other.<note place="foot" xml:id="ftn7" n="6"><p
+                           ><hi> See, for example, the second section
+                                (of three) in Jill Harries and I. N. Wood, </hi><hi rend="italic"
+                                >The Theodosian Code: Studies in the Imperial Law of Late
+                                Antiquity</hi><hi>, 2</hi><hi rend="superscript">nd</hi><hi> ed.,
+                                Bristol Classical Paperbacks (London: Bristol Classical Press,
+                                2010).</hi></p></note> The impact of imperial legislation upon the
+                    church should be and has been recognized as definitive in ecclesial-imperial
+                        relations.<note place="foot" xml:id="ftn8" n="7"><p
+                           ><hi> For an example of the importance of
+                                imperial intervention in general to orthodoxy, see: Philip Wood,
+                                </hi><hi rend="italic">'We Have No King but Christ' : Christian
+                                Political Thought in Greater Syria on the Eve of the Arab Conquest
+                                (C.400-585)</hi><hi>, Oxford Studies in Byzantium (Oxford: Oxford
+                                University Press, 2010), 21.</hi></p></note> However, the church was
+                    not only subject to legislation but also became a significant author of its own
+                    law. The creation of canons provided forensic blueprints against which orthodoxy
+                    and heterodoxy could be tested. It was increasingly a model of orthodoxy
+                    generated by legal means that individuals conformed to or fell short of. One
+                    example of this can be seen in the excommunication of Nestorius at the Council
+                    of Ephesus in 431. While the issues at stake were theological, the method, at
+                    least according to Nestorius, was forensic but flawed: “I was summoned by Cyril,
+                    who had assembled the Council […]. Who was judge? Cyril. Who was the accuser?
+                        Cyril.”<note place="foot" xml:id="ftn9" n="8"><p
+                           >
+                            <hi>Nestorius, “The Bazaar of Heracleides,” ed. G. R. Driver and Leonard
+                                Hodgson (Oxford: Clarendon Press, 1925), 132.</hi>
+                        </p></note> Thomas Graumann rightly points out that Nestorius “expects his
+                    audience to recognize [that proper procedure had been violated] and share his
+                    expectations of due process.”<note place="foot" xml:id="ftn10" n="9"><p
+                           >
+                            <hi>Thomas Graumann, "Council Proceedings and Juridical Process: The
+                                Cases of Aquileia (Ad 381) and Ephesus (Ad 431)" (</hi><hi
+                                rend="italic">Studies in church history</hi><hi> 43 [2007]),
+                                100.</hi></p></note></p>
+                <p xml:lang="en">At the risk of generalization, the focus on formally necessary
+                    elements, determined by a legal intellectual context and shored up by knowledge
+                    of Roman law, was a regular feature of contested theology in Late Antiquity.
+                    However, as we shall encounter in John of Ephesus’ account, most concerns with
+                    this method were found not in the forensic form but in its misuse. </p>
+                <p xml:lang="en">As they were contestable, trials were considered final only in a
+                    limited manner. The Council of Chalcedon of 451 ended neither the Christological
+                    debate, nor the existence of miaphysite clergy and their congregations. Indeed,
+                    John of Ephesus’ <hi rend="italic">Ecclesiastical History</hi> was composed
+                    between 571 and 585, over one hundred years after the council. Of course, this
+                    is by no means the most enduring result of Chalcedon, but it does affirm the
+                    continuation of the dispute to some degree among bishops in the Roman Empire.
+                    Given the circumstance of this theological dispute, the <hi rend="italic"
+                        >Ecclesiastical History</hi> is partially an apologetic, which wrestles with
+                    the implications of being ruled outside the Chalcedonian church. Like Nestorius,
+                    John questioned the formal validity of the processes that confirmed the ruling
+                    against him and his fellow miaphysites, thereby questioning the legitimacy of
+                    the ruling itself. John’s interest in the formal aspects of legal definitions of
+                    orthodoxy and communion, from the exact procedures <hi rend="italic">of</hi> and
+                    the necessary individuals <hi rend="italic">for </hi>rulings of orthodoxy to the
+                    precise words to be used <hi rend="italic">in</hi> ecclesiastical government,
+                    will be a central theme of this article.</p>
+                <p xml:lang="en">However, John’s focus on the above elements is not told to us
+                    explicitly but is rather a point made apparent by literary means. John has
+                    particularly shaped the first book of his history as an ever more outrageous
+                    catalog of abuses by Chalcedonian enforcers against miaphysite clerics. The
+                    effect is that the legal process and its misuse are brought to the reader’s
+                    attention both by a statement of fact and by the manner of presentation. Thus,
+                    not merely by the cataloguing of the events themselves but also by the form of
+                    expression, we are encouraged to agree with John’s assessment of the
+                    institutional validity of his church and fellow bishops and the corresponding
+                    invalidity of the Chalcedonians. Muriel Debié has encouraged the reading of
+                    Syriac historians as literary agents, but the focus of this agency has perhaps
+                    been too narrowly on their purposes in developing a cultural identity.<note
+                        place="foot" xml:id="ftn11" n="10"><p rend="footnote text"
+                           > Muriel Debié, <hi rend="italic">L'écriture
+                                De L'histoire En Syriaque : Transmissions Interculturelles Et
+                                Constructions Identitaires Entre Hellénisme Et Islam : Avec Des
+                                Répertoires Des Textes Historiographiques En Annexe</hi>, Late
+                            Antique History and Religion ; Volume 12 (Leuven: Peeters, 2015).
+                            "Syriac Historiography and Identity Formation" (<hi rend="italic"
+                                >CHRC</hi> 89:1 [2009]), 94.</p></note> Besides questions of
+                    identity, if we are to properly appreciate the full range of purposes that
+                    motivated these authors, it remains undoubtedly important to consider the
+                    immediate practical purposes of Syriac historians. For this task, it is
+                    essential that we bear in mind their literary methods. An assessment of Tacitus’
+                        <hi rend="italic">Annals </hi>that ignored his authorial decision to focus
+                    on legionary rebellions in the first book would not be able to explain the
+                    purpose of his text fully.<note place="foot" xml:id="ftn12" n="11"><p
+                            rend="footnote text"> See e.g. F. R. D.
+                            Goodyear, <hi rend="italic">The Annals of Tacitus</hi>, Cambridge
+                            Classical Texts and Commentaries 15, 23 (Cambridge: Cambridge University
+                            Press, 1972), 30. A. J. Woodman, "Mutiny and Madness: Tacitus "Annals"
+                            1.16-49" (<hi rend="italic">Arethusa</hi> 39:2 [2006]).</p></note> It
+                    would preclude any assessment of a potential disparity between his extensive
+                    treatment of the issue and the significance of the events. Thus, by failing to
+                    analyse his method, we would be in a weaker position to determine his purpose.
+                    Matters of literary form are undoubtedly crucial in an account of the literary
+                    agency of Tacitus as a historian. Attention to the structure of John’s work in
+                    this essay seeks to continue the process of affording the same fulness of agency
+                    to Syriac historians.</p>
+                <p xml:lang="en">The increasing entanglement of Roman legal and intra-ecclesial
+                    conflict resolution is typified in Justinian’s novels, which frequently deal
+                    with matters of church government. While relying on canons as a source of
+                    evidence for right practice in ecclesiastical matters, they nevertheless produce
+                    their own normative statements in support of the canons’ contents and the
+                    authority of canons as legally binding in ecclesiastical matters.<note
+                        place="foot" xml:id="ftn13" n="12"><p><hi> The
+                                following three examples show three different relationships: 1) the
+                                regulation of clerics in a civic context, 2) the regulation of
+                                monastic rules themselves by the imperial government and 3) imperial
+                                support of internal canonical regulation. N. 3 (535) limits the
+                                number of clergy in the principal church of the city to 420. N. 5
+                                (535) provides monastic regulation. N. 6 (535) states that the
+                                canonical regulation of ordination has the force of secular
+                                law.</hi></p></note> Altogether, the approach is not so much merely
+                    belt and braces, but indeed belt <hi rend="italic">as </hi>braces and vice
+                    versa; canon law and secular law regulate the same things, and often refer to
+                    the authority of the other source in defence of their stipulations. Therefore,
+                    it is unsurprising that John of Ephesus was keen to document the ongoing legal
+                    and semi-legal processes that established orthodoxy in the
+                    Chalcedonian-miaphysite dispute. In such a context, the validity of either
+                    side’s position was highly dependent on correct process.</p>
+                <p xml:lang="en">John of Ephesus was not a disinterested third party in these
+                    proceedings but was personally involved in the trials, mediations, and reported
+                    injustices of the persecutions under Justin II and his successor Tiberius II.
+                    Raised in Amida’s “eastern miaphysite monasticism,” John claims that he led
+                    imperial missionary appointments in 542 under Justinian, which earned him the
+                    title “who is over the heathen” (<foreign xml:lang="syr">ܕܥܠ ܚܢ̈ܦܐ</foreign>)
+                    and “idol breaker” (<foreign xml:lang="syr">ܡܬܒܪ ܦܬܟܪ̈ܐ</foreign> ), and was
+                    consecrated bishop of Ephesus in 558 by Jacob Baradaeus.<note place="foot"
+                        xml:id="ftn14" n="13"><p>
+                            <hi>Alexander Petrovich Dyakonov, </hi><hi rend="italic">John of Ephesus
+                                and His Ecclesiastical-Historical Works</hi><hi> (Saint Petersburg:
+                                V. F. Kirschbaum, 1908), 5. For further background on John of
+                                Ephesus see Jeanne-Nicole Mellon Saint-Laurent, </hi>
+                            <hi rend="italic">Missionary Stories and the Formation of the Syriac
+                                Churches</hi><hi>, Transformation of the Classical Heritage 55
+                                (Oakland, California: University of California Press, 2015),
+                                72-79.</hi>
+                            <hi rend="italic">HEPT, </hi><hi>book 2, chapter 4; 58.</hi></p></note>
+                    His two surviving works are his <hi rend="italic">Lives of the Eastern
+                        Saints</hi> and the third part of his <hi rend="italic">Ecclesiastical
+                        History</hi>. The former deals almost exclusively with the activities of
+                    miaphysite saints in the East, while the latter handles the later
+                    marginalization and persecution of the miaphysite hierarchies by Justinian’s
+                    successors. John of Ephesus’ fortune was varied. Under Justinian, he had been an
+                    important agent in the evangelistic mission in Anatolia. Under Justin II, he was
+                    an imprisoned and marginalized prelate whose position as bishop of Ephesus was
+                    now titular in the barest sense of the word.<note place="foot" xml:id="ftn15"
+                        n="14"><p>
+                            <hi rend="italic">HEPT</hi><hi>, Book 1, Chapter 17, 18–19
+                                (</hi><foreign xml:lang="syr">ܘܚܒܫܗ ܒܒܝܬ ܐܦܝܣܩܦܝܘܢ ܕܝܠܗ.
+                                ܘܠܗܠܝܢ</foreign><lb/><foreign xml:lang="syr">ܕܫܪܟܐ. ܚܕ ܒܬܪ ܚܕ ܐܝܬܝ
+                                ܘܚܒܫ ܐܢܘܢ ܠܘܬܗ. ܗ̇ܢܘ ܕܝܢ. ܠܦܘܠܘܣ ܘܠܝܘܚܢܢ ܘܠܐܣܛܦܢܐ ܘܠܐܠܝܫܥ</foreign>
+                            <hi>).</hi></p></note> This change of fortune and his imprisonment
+                    provide context for the composition of his apologetic history.</p>
+                <p xml:lang="en">Despite the repetition of material within the work, and the
+                    author’s admission of haste owing to the adverse conditions of persecution and
+                    imprisonment, John’s handling of legal events and processes, things which had
+                    become the building blocks of orthodoxy, must be acknowledged to be extremely
+                    careful. Brooks’ uncharitable characterization of John as “not a literary
+                    writer” should be reconsidered.<note place="foot" xml:id="ftn16" n="15"><p
+                           ><hi> John of Ephesus, </hi><hi
+                                rend="italic">Lives</hi><hi>, PO 17.1, xii.</hi></p></note> John
+                    structured his history to present increasingly chaotic and informal proceedings
+                    in the reign of Justin II against the miaphysites. Thus, he undermined the
+                    forensic process of orthodoxy and the strong contemporary position of the
+                    Chalcedonians by calling into question the validity of their formally irregular
+                    activities. He thereby sought to justify in his work the refusal of miaphysite
+                    clergy to accept the council of Chalcedon and its enforcement by rendering the
+                    legal practices of its proponents suspect.</p>
+                <p xml:lang="en">However, this aim must be refined a little further. John of
+                    Ephesus’ administrative roles in the 540s and his high degree of education make
+                    it seem certain that he could have written his history in Greek. Debié has
+                    written that, through his appointments and education, John had “un hellénisme
+                    parfaitement assimilé.”<note place="foot" xml:id="ftn17" n="16"><p
+                            rend="footnote text">
+                            Debié, <hi rend="italic">L'écriture De
+                                L'histoire En Syriaque</hi>, 441.</p></note> Given then that he
+                    wrote in Syriac, his purpose could not have been to persuade the Chalcedonian
+                    population of Constantinople of his position. Rather, the work should be seen in
+                    a complementary role to his <hi rend="italic">Lives of the Eastern Saints</hi>.
+                    In that work, he established the credentials of his miaphysite subjects as
+                    conduits of the Holy Spirit, as holy men capable of works of power and with
+                    extraordinary ascetic credentials, all inherited from a long line of Syriac
+                        saint-ascetics.<note place="foot" xml:id="ftn18" n="17"><p
+                           >
+                            <hi>Wood, </hi><hi rend="italic">'We Have No King but Christ'</hi><hi>,
+                                195.</hi></p></note> The <hi rend="italic">Ecclesiastical History
+                    </hi>focuses not on the charismatic power of his church but rather on its
+                    institutional soundness.<note place="foot" xml:id="ftn19" n="18"><p
+                            rend="footnote text"> Hartmut Leppin, "The
+                            Roman Empire in John of Ephesus' Church History: A Romano-Syriac's
+                            Perspective" in <hi rend="italic">Historiography and Space in Late
+                                Antiquity</hi>, ed. Peter van Nuffelen (Cambridge: Cambridge
+                            University Press, 2019). Leppin’s attention to John’s various audiences
+                            for the <hi rend="italic">Lives </hi>and the <hi rend="italic"
+                                >Ecclesiastical History </hi>is certainly a further explanation of
+                            the differences. </p></note> In the challenging conditions of the 570s
+                    and 580s, this companion volume was meant to assure a beleaguered group
+                    further.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.2">
+                <head>The Text</head>
+                <p xml:lang="en">The text used throughout is that of Cureton based on the incomplete
+                    but early, 7<hi rend="superscript">th</hi>-century manuscript numbered 14640 <hi
+                        rend="italic">Additional MSS </hi>in the British Museum. This is dated to
+                    688 by a further manuscript (<hi rend="italic">Additional MSS </hi>No. 14647)
+                    which Cureton identifies as written in the same hand with explicit dating: “This
+                    book was finished in the month of Adar of the year 999 in the Greek era” (i.e.,
+                    Seleucid dating) (<foreign xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ</foreign><lb/><foreign
+                        xml:lang="syr">ܗܢܐ ܒܐܝܪܚ ܐܕܪ ܕܫܢܬ ܬܫܥܡܐܐ ܘܬܫܥܝܢ ܘܬܫܥ ܒܡܢܝܢܐ
+                        ܕܝܘܢܝܐ.</foreign><note place="foot" xml:id="ftn20" n="19"><p
+                           ><hi> Cureton, </hi><hi rend="italic"
+                                >HEPT</hi><hi>, iv.</hi></p></note> Brooks’ edition is more recent
+                    and critical, including both the Vatican manuscript <hi rend="italic"
+                        >Bibliothecae Vaticanae Syr. CXLV </hi>for those sections of the sixth book
+                    it preserves, and makes use of Michael Rabo for lost material, although, as
+                    Brooks admits, “since he abbreviated his source in this part, it offers almost
+                    nothing for the correction of the text.”<note place="foot" xml:id="ftn21" n="20"
+                            ><p rend="footnote text"> Brooks, <hi
+                                rend="italic">HEPT - Textus</hi>, iii.</p></note> This very compact
+                    manuscript tradition justifies the continued use of Cureton’s careful
+                    transcription of the principal manuscript. His greater attention to the dots
+                    assists reading, mainly due to the large number of Greek loanwords in the
+                    text.</p>
+                <p xml:lang="en">The work as a whole was divided into three sections, which were in
+                    turn subdivided into books. Although the first two sections of the text, which
+                    covered all history from Adam to Justinian I, are largely missing, except as
+                    quotation in later chroniclers, the third part in six books, which handles
+                    contemporary events, remains largely intact. Although the text of this third
+                    section is incomplete, John’s structural efforts can still be seen in books one
+                    and two of the extant text. These are marked as a unified production by a
+                    self-conscious restart at the outset of book three. The dating undertaken by
+                    Cureton and presented in the preface to his edition offers <hi rend="italic"
+                        >termini post quos </hi>based on the events of the narrative, which,
+                    although given as dates of composition, by no means preclude the alternative
+                    suggested above, namely that books one and two were composed together before
+                    book 3.<note place="foot" xml:id="ftn22" n="21"><p
+                                ><hi> Ibid., vi.</hi></p></note> The internal dating puts book one
+                    after 581 and book two after 577. Given that the two books seem to have been
+                    composed together but that the first deals with later events, these dates alone,
+                    which demonstrate a non-chronological approach to his subject matter, argue for
+                    John’s deliberate presentation of material. Books 3-6 will be largely excluded,
+                    firstly because they are not the product of the same effort as the first two
+                    books, and secondly because their concern moves away from trial scenes. It would
+                    be unfair to allow the disruptive circumstances of John’s life, which caused his
+                    history to be written piecemeal, to give a falsely disrupted sense of his work.
+                    This would be false in that when circumstances allowed and John wrote
+                    continuously, such as in books 1 and 2, his writing was not marked by “some
+                    confusion in his narrative, some repetitions, and apparent contradictions” but
+                    instead demonstrates structural and thematic coherency.<note place="foot"
+                        xml:id="ftn23" n="22"><p rend="footnote text">
+                            Ibid., vi.</p></note></p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.3">
+                <head>The Miaphysite Church under Justinian</head>
+                <p xml:lang="en">It is worth briefly surveying the legal treatment of miaphysites
+                    under Justinian and Theodora so that the changed circumstances under Justin II
+                    can be better appreciated. Muriel Debié calls John “simultaneously the victim,
+                    the witness, and the whistleblower” of the Justinianic persecution.<note
+                        place="foot" xml:id="ftn24" n="23"><p>
+                            <hi>Muriel Debié, "Du Grec En Syriaque : La Transmission Du Récit De La
+                                Prise D'amid (502) Dans L'historiographie Byzantine" (</hi><hi
+                                rend="italic">Byzantinische Zeitschrift</hi><hi> 96:2 [2004]),
+                                606.</hi></p></note> Van Ginkel writes that the primary
+                    consideration for inclusion in the <hi rend="italic">Lives of the Eastern
+                        Saints</hi> was the demonstration of steadfastness in the face of
+                    Chalcedonian persecution.<note place="foot" xml:id="ftn25" n="24"><p
+                           >
+                            <hi>J. van Ginkel, "John of Ephesus: A Monophysite Historian in
+                                Sixth-Century Byzantium" (Rijksuniversiteit Groningen, 1995), 41,
+                                44.</hi></p></note> Indeed, the reality of the Justinianic
+                    persecution is borne out in Menze’s study of the attack on the heart of the
+                    miaphysite movement in the monasteries and Justinianic legislation against the
+                    ownership and production of miaphysite texts.<note place="foot" xml:id="ftn26"
+                        n="25"><p>
+                            <hi>Menze, </hi><hi rend="italic">Justinian and the Making of the Syrian
+                                Orthodox Church</hi><hi>, 135.</hi></p></note> The “obvious
+                    patronage,” as Alexander Dyakonov put it, of Justinian’s rule seems to have been
+                    received principally by John himself.<note place="foot" xml:id="ftn27" n="26"><p
+                           ><hi> Dyakonov, </hi><hi rend="italic">John
+                                of Ephesus</hi><hi>, 5. “явное покровительство”. For an account of
+                                John’s use of these imperial funds see Debié, L'écriture De
+                                L'histoire En Syriaque, 137.</hi>
+                        </p></note> In his dealings with the miaphysite hierarchy concerning their
+                    Christology, Justinian is unequivocal. As early as 536, Justinian’s Novel 42
+                    declared anathema on Severus of Antioch and other members of his party under the
+                    charge of contravention of the canons of Chalcedon. The punishment demanded was
+                    deposition from their episcopal seats, internal exile, and the repossession of
+                    property: “<hi rend="italic">expellere vero sancimus eos de civitatibus ab eis
+                        turbatis … [constitutiones] et domos ipsas in quibus tale aliquid agitur et
+                        praedia ex quibus alimenta ministrantur sanctissimis ecclesiis
+                        assignant</hi>.”<note place="foot" xml:id="ftn28" n="27"><p
+                           ><hi> N. 42.3 (536) (We declare that they
+                                certainly be expelled from the cities they have troubled … and (our)
+                                constitutions designate to the most holy churches the very houses
+                                themselves in which [the heresies of Severus or Nestorius were
+                                preached] and the farms from which they supplied
+                        food).</hi></p></note> Justinian’s <hi rend="italic">Tractatus contra
+                        Monophysitas</hi> of 542/3 is equally damning. The unity of the church is
+                    described as a requirement of both reason and charity (<foreign xml:lang="gr"
+                        >τοῦ λογισμοῦ καὶ τῆς χάριτος</foreign> ), and, if any doubt remained
+                    concerning who threatened this unity, a series of eleven anathemas were
+                    appended, including “<foreign xml:lang="gr">Εἴ τις οὐχ ὁμολογεῖ δύο φύσεις τῆς
+                        θεότητος καὶ τῆς ἀνθρωπότητος εἰς μίαν ὑπόστασιν συνδραμεῖν ... ἀνάθεμα
+                        ἔστω</foreign> .”<note place="foot" xml:id="ftn29" n="28"><p
+                            rend="footnote text"> PG 86.1, 1103 B;
+                            1143-4 (If anyone does not accept that two natures, of divinity and of
+                            humanity, came together into one person (hypostasis) … let him be
+                            anathema). </p></note> Justinian actively sought both practically and
+                    theologically to undermine the miaphysites for the better part of his reign.
+                    Despite this, John is somewhat ambivalent about Justinian’s emperorship. John
+                    likewise defends Tiberius II as Caesar, documenting his rebuke of the patriarch
+                    John Scholasticus for persecuting the miaphysites upon his admission that “they
+                    are not pagans… neither, my lord, are they heretics” (<foreign xml:lang="syr"
+                        >ܚܢ̈ܦܐ ܠܐ ܐ̣ܝܬܝܗܘܢ </foreign>... <foreign xml:lang="syr">ܘܐܦܠܐ
+                        ܡܪܝ</foreign><lb/><foreign xml:lang="syr">ܗܪ̈ܬܝܩܐ ܐ̣ܝܬܝܗܘܢ</foreign>), a
+                    sentiment later echoed by the emperor Maurice.<note place="foot" xml:id="ftn30"
+                        n="29"><p>
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 37,
+                    47.</hi></p></note></p>
+                <p xml:lang="en">An explanation for John’s even-handedness might be found in the
+                    fact that Justinian’s position is perhaps a little less clear cut than the harsh
+                    measures of Novel 42 suggest. Hamilcar Alivisatos suggested that the strictness
+                    of the measures of Novel 42 might have been necessitated as an indication of
+                    good-will to Rome: “Justinian war aber nicht nur Theologe, sondern auch Kaiser …
+                    Wäre die Synode und das Edikt von 536 nicht gekommen, so wäre gleich nach dem
+                    ersten (acacianischen) Schisma ein zweites mit Rom dagewesen”.<note place="foot"
+                        xml:id="ftn31" n="30"><p rend="footnote text">
+                            Hamilcar Spyridonos Alivisatos, <hi rend="italic">Die Kirchliche
+                                Gesetzgebung Des Kaisers Justinian I</hi>, Neue Studien Zur Gesch.
+                            D. Theol. U. D. Kirche 17 (Berlin: Trowitzsch &amp; Sohn, 1913),
+                        26.</p></note> Michail Grazianskij has more recently divided Justinian’s
+                    religious policy into four distinct phases, and argues that in each instance,
+                    Justinian balanced contemporary political considerations with his theological
+                    intentions. Thus, for example, he has likewise characterized the early period of
+                    Justinian’s reign (532-536) by both a sensitivity to the position of the Roman
+                    church following the Acacian schism and the continued need to reconcile the
+                        miaphysites.<note place="foot" xml:id="ftn32" n="31"><p rend="footnote text"
+                           > Michael V. Grazianskij, "Kaiser Justinian
+                            Und Das Erbe Des Konzils Von Chalkedon" (Franz Steiner Verlag, 2021),
+                            170. A similar account of how the 6<hi rend="superscript">th</hi>
+                            century emperors were attentive to both eastern and western problems can
+                            be found in Averil Cameron, "The Early Religious Policies of Justin II"
+                                (<hi rend="italic">Studies in Church History</hi> 13
+                        [1976]).</p></note> As an example of the complex relationship, Grazianskij
+                    considers the appointment of Anthimus as the patriarch of Constantinople.
+                    Formerly, this appointment has generally been thought of as either an example of
+                    Justinian’s shrewd ecclesiastical politics or the result of Theodora’s
+                    interference. Grazianskij argues that a reassessment of the sources rules out
+                    the latter option.<note place="foot" xml:id="ftn33" n="32"><p
+                            rend="footnote text"> Grazianskij, "Kaiser
+                            Justinian Und Das Erbe Des Konzils Von Chalkedon," 182.</p></note> If we
+                    suppose that Justinian exclusively favoured the Chalcedonians, then Anthimus’
+                    appointment had little to commend it. Anthimus’ translation from Trebizond
+                    rendered his position in Constantinople canonically suspect, and he favoured
+                    compromise over total Chalcedonian victory. He was, therefore, neither legally
+                    nor doctrinally bulletproof from a Chalcedonian perspective. Grazianskij
+                    proposes that this was deliberate. It provided Justinian with the possibility of
+                    the reconciliation of the parties around a mutually agreed position and with an
+                    easy, non-doctrinal reason for his deposition should the negotiations fail.<note
+                        place="foot" xml:id="ftn34" n="33"><p rend="footnote text"
+                           > Ibid., 184.</p></note>
+                </p>
+                <p xml:lang="en">For our current purposes, two conclusions should be drawn from
+                    this. Firstly, it demonstrates the practically-oriented ambivalence of
+                    Justinian’s policy. John may have harboured hope of future favour if the
+                    miaphysites could provide a reasonable path to unity. Secondly, it again
+                    demonstrates the (ab)use of legal mechanisms in the church disputes of the 6<hi
+                        rend="superscript">th</hi> century. </p>
+                <p xml:lang="en">Nevertheless, however justified his position might have seemed
+                    through a practical consideration of recent history, it is still equally correct
+                    to read John’s denial of imperial responsibility as an endorsement of the
+                    imperial system. Indeed, this is a key aspect of John of Ephesus’
+                    historiography. Debié gives John’s account of Zʿura, a Syriac saint-ascetic in
+                    Constantinople, as characteristic of the opinion of both John and the whole
+                    Severan church. Zʿura’s refutation of Justinian’s authority is taken as
+                    indicative of a wholesale move in the Syriac church: “the Syrian Orthodox
+                    transferred their regard to a religious, spiritual, and eschatological
+                        level”.<note place="foot" xml:id="ftn35" n="34"><p
+                           >
+                            <hi>Debié, "Syriac Historiography and Identity Formation"
+                        98.</hi></p></note> However, there are good reasons for interpreting this
+                    otherwise. Firstly, Zʿura’s disavowal is his own and not John’s. As argued by
+                    Philip Wood, “<hi rend="italic">parrhesia</hi>” (<foreign xml:lang="gr"
+                        >παρρησία</foreign>) is a highly significant trait, but it is also quite
+                    peculiar to Zʿura.<note place="foot" xml:id="ftn36" n="35"><p
+                            rend="footnote text"> Philip Wood, "The
+                            Idea of Freedom in the Writings of Non-Chalcedonian Christians in the
+                            Fifth and Sixth Centuries" (<hi rend="italic">History of European
+                                ideas</hi> 44:6 [2018]), 782.</p></note> His frankness before the
+                    emperor is explicitly stated to be of divine origin and extraordinary.<note
+                        place="foot" xml:id="ftn37" n="36"><p rend="footnote text"
+                           > John of Ephesus, <hi rend="italic"
+                                >Lives</hi>, PO 17.1, 23. (ܡܛܠ ܦܪܗܣܝܐ ܐܠܗܝܬܐ ܕܩܢ̇ܐ ܗܘܐ)</p></note>
+                    He should not, therefore, be read as a mouthpiece for John. This leads to the
+                    point that, secondly, Zʿura wields a charismatic authority appropriate to the
+                        <hi rend="italic">Lives of the Eastern Saints</hi> but out of place in the
+                    court politics and institutional wrangling of the <hi rend="italic"
+                        >Ecclesiastical History</hi>. Indeed, Wood points out that his parrhesia’s
+                    purpose was not to win the political dispute but to inspire the population.<note
+                        place="foot" xml:id="ftn38" n="37"><p rend="footnote text"
+                           > Wood, "The Idea of Freedom in the Writings
+                            of Non-Chalcedonian Christians in the Fifth and Sixth Centuries"
+                            782.</p></note> Consequently, this <hi rend="italic">parrhesia</hi> was
+                    not manifested in nuanced argument; characteristically, Zʿura challenged the
+                    ‘synod’ not using argument, but by cursing Justinian: (<foreign xml:lang="syr"
+                        >ܐܬ̇ܐ ܓܝܪ ܠܒܪ ܡܢܟ ܠܐ ܢ̇ܚܘܐ ܠܟ ܡܪܝܐ</foreign>).<note place="foot"
+                        xml:id="ftn39" n="38"><p rend="footnote text">
+                            <hi rend="italic">Lives</hi>, PO 17.1, 24.</p></note> John of Ephesus
+                    tells us that Zʿura’s subsequent curing of Justinian rendered the emperor
+                    amenable to Zʿura on all points but church organization. This account of the
+                    rehabilitation of Justinian from demoniac to the holy man’s awe-filled confidant
+                    suggests that, at this earlier stage in his life, John appears not to have
+                    accepted in every instance the Chalcedonian claim that his church was
+                    acephalous. Still hoping for an imperial change of heart, John's later
+                    articulation of the kingship of Christ within his church was not the only avenue
+                    he pursued.<note place="foot" xml:id="ftn40" n="39"><p
+                           >
+                            <hi>Debié, "Syriac Historiography and Identity Formation"
+                        97.</hi></p></note>
+                </p>
+                <p xml:lang="en">An ideological consideration is necessary, given John’s personal
+                    experience of persecution, imprisonment, and destitution. In other words, given
+                    that John frequently suffered at the hands of the emperors, we must ask why he
+                    was so positive about them. Indeed, when detailing the supposed demonic
+                    possession of Justin II at the beginning of book three, John explicitly stated
+                    that his earlier circumlocution of the issue throughout the second book was out
+                    of loyalty to the imperial office: “So that it not be considered as if for the
+                    shame or disgrace of the high institution of kingship” (<foreign xml:lang="syr"
+                        >ܡܢ ܗ̇ܝ ܕܠܐ ܢܣ̣ܬܒܪ ܕܐܝܟ ܕܠܚ̣ܣܕܐ ܐ̇ܘ ܠܨ̇ܥܪܐ ܕܛܟ̣ܣܐ ܪܡ̇ܐ
+                        ܕܡ̇ܠܟܘܬܐ</foreign>.<note place="foot" xml:id="ftn41" n="40"><p
+                           >
+                            <hi rend="italic">HEPT</hi><hi>, book 3, chapter 1, 120.</hi></p></note>
+                    This is further evidence of John’s hope to preserve the reputation and position
+                    of the earthly king, and suggests that his assessment of the imperial
+                    institution is positive by default. Van Ginkel has argued that the <hi
+                        rend="italic">Ecclesiastical History’</hi>s complex process of composition
+                    can explain John’s sometimes inconsistent approach to his imperial subjects:
+                    “When writing during the life of Justin II, John blamed most of the evil deeds
+                    of his reign on his advisors. But in chapters written after his death, the
+                    emperor is held fully responsible and justly punished (mental derangement) to
+                    save him from a worse fate.”<note place="foot" xml:id="ftn42" n="41"><p
+                            rend="footnote text"> J. van Ginkel, "John
+                            of Ephesus on Emperors: The Perception of the Byzantine Empire by a
+                            Monophysite," (<hi rend="italic">Orientalia Christiana Analecta</hi> 247
+                            [1994]), 330.</p></note>
+                </p>
+                <p xml:lang="en">Even so, his generally positive account of the institution merits
+                    further attention. Following Hartmut Leppin, we might consider the nature of
+                    John’s literary activity. Leppin has described the <hi rend="italic"
+                        >Ecclesiastical History </hi>as “a variant of Greek Christian historiography
+                    as it developed in the late antique Roman Empire.”<note place="foot"
+                        xml:id="ftn43" n="42"><p rend="footnote text">
+                            Leppin, "The Roman Empire in John of Ephesus' Church History: A
+                            Romano-Syriac's Perspective" 131. A similar view is found in van Ginkel,
+                            "John of Ephesus on Emperors: The Perception of the Byzantine Empire by
+                            a Monophysite", 331.</p></note> This is, in a sense, unsurprising. Greek
+                    was the language of ecclesiastical history writing. It seems likely that John’s
+                    adaption of this genre for a Syriac-language work was nevertheless a significant
+                    choice. While considerations of the audience might explain his choice of
+                    language, his choice of genre is remains best described as a product of his
+                    cultural <hi rend="italic">Romanitas</hi>. Leppin’s description of John’s
+                    pro-Roman account as the product of a writer “attached” to the empire is
+                    undoubtedly correct, but it needs further substantiation.<note place="foot"
+                        xml:id="ftn44" n="43"><p rend="footnote text">
+                            Leppin, "The Roman Empire in John of Ephesus' Church History: A
+                            Romano-Syriac's Perspective", 125.</p></note> John’s reliance on the
+                    methods of ‘legal orthodoxy’ is the backdrop to his account of the trial scenes,
+                    which will form the subject of the main argument of this article. Leppin’s
+                    account of John’s Roman viewpoint will be strengthened by showing his investment
+                    in law and the Roman legal system as determiners of orthodoxy.</p>
+                <p xml:lang="en">However, a pro-Roman account does not rule out all criticism of the
+                    regime. Contextualizing the character of John’s <hi rend="italic"
+                        >Kaiserkritik</hi> of Justin and Tiberius, Averil Cameron has noted
+                    especially John’s credentials as a Constantinopolitan and his generally holistic
+                    approach to the emperors and their wives as people rather than characters.<note
+                        place="foot" xml:id="ftn45" n="44"><p>
+                            <hi style="font-size:10ptdirection:rtl;">Averil Cameron, "Early
+                                Byzantine Kaiserkritik: Two Case Histories," (</hi><hi rend="italic"
+                                style="font-size:10ptdirection:rtl;">Byz. mod. Greek stud</hi><hi
+                                style="font-size:10ptdirection:rtl;"> 3:1 [1977]),
+                        11–13.</hi></p></note> Throughout his works, John usually portrayed emperors
+                    and Caesars favourably when uninfluenced by supernatural evil.<note place="foot"
+                        xml:id="ftn46" n="45"><p rend="footnote text">
+                            For John Scholasticus’ influence on Justin II, see Debié, <hi
+                                rend="italic">L'écriture De L'histoire En Syriaque</hi>,
+                        61.</p></note> An explanation for John’s optimistic view of his persecutors
+                    is hinted at in his treatment of the imprisonment of Paul the Black, the
+                    miaphysite patriarch of Antioch in the mid-6<hi rend="superscript">th</hi>
+                    century. Incarcerated, Paul too wrote an account of the doctrinal dispute but
+                    was discovered to have done so by his jailors. Upon his confession of
+                    authorship, the emperor and patriarch threatened him with death, apparently with
+                    added vehemence for his slander of the Roman state: “There were threats of death
+                    against him for this reason: that he had included in [the writing] indictments
+                    of Rome” (<foreign xml:lang="syr">ܠܘ̇ܚ̈ܡܐ ܕܡ̇ܘܬܐ ܗ̣ܘܘ ܥܠܘܗܝ. ܟܕ ܠܗܕܐ ܘܐܦ
+                        ܗ̇ܝ</foreign><lb/><foreign xml:lang="syr">ܕܩ̣ܘܛܪ̈ܓܐ ܕܪܗܘܡܐ ܐ̇ܠܘ̣ܬ ܗܘܐ
+                        ܠܗ</foreign><hi style="font-size:14pt">̇</hi> ).<note place="foot"
+                        xml:id="ftn47" n="46"><p>
+                            <hi rend="italic">HEPT, </hi><hi>book 2, chapter 2; 56.</hi></p></note>
+                    Paul of Antioch was no less a Roman than John, yet this did not preclude this
+                    same criticism of Rome from being absent in John’s work. Although it is not
+                    clear what is meant by “criticism of Rome”, we should certainly differentiate
+                    this from criticism of its inhabitants, imperial or otherwise, for John’s work
+                    certainly did contain the latter. John’s continued hope for the rehabilitation
+                    of the emperor is the explanation for this difference in approach.
+                    Alternatively, we might understand Paul’s antagonism towards Rome as a
+                    particularly unwelcome criticism of the imperial family. In that case, this
+                    could be explained by his complex relations with Athanasius, his opponent in
+                    Alexandria, and a descendant of Empress Theodora.<note place="foot"
+                        xml:id="ftn48" n="47"><p>
+                            <hi>Marianna Mazzola, "Bar ‘Ebroyo’s Ecclesiastical History: Writing
+                                Church History in the 13</hi><hi rend="superscript">th</hi><hi>
+                                Century Middle East" (Université Paris sciences et lettres;
+                                Universiteit Gent, 2018), 241.</hi></p></note></p>
+                <p xml:lang="en">However, John saw emperors as essentially good and interested in
+                    the truth (<foreign xml:lang="syr">ܫܪܪܐ</foreign>). In a passage referenced
+                    above, Tiberius began his interrogation of Patriarch John Scholasticus with “I
+                    want the truth” (<foreign xml:lang="syr">ܨܒ̇ܐ ܐܢܐ ܕܫܪܪܐ</foreign>). Even
+                    concerning events as shocking, and possibly open to hysterical treatment, as an
+                    apparent sacrifice to Zeus uncovered at Edessa in 579 following an investigation
+                    into Paganism at the behest of Tiberius, the emperor established a court to
+                    uncover “the truth of the matter” (<foreign xml:lang="syr">ܫܪܪܗ
+                        ܕܣܘܥܪܢܐ</foreign>), rather than show trials.<note place="foot"
+                        xml:id="ftn49" n="48"><p>
+                            <hi rend="italic">HEPT</hi><hi>, book 3, chapter 30;
+                        159.</hi></p></note> In this instance, the emperor is introduced as the
+                    “merciful emperor” (<foreign xml:lang="syr">ܡ̇ܪܚܡܢܐ ܡ̇ܠܟܐ</foreign> ), but in a
+                    turn of events parallel to John’s own case, the emperor’s negligence of the
+                    affairs of justice led to injustice, corruption, bribery, and finally, a massive
+                        riot.<note place="foot" xml:id="ftn50" n="49"><p
+                           >
+                            <hi rend="italic">HEPT</hi><hi>, book 3, chapter 31; 159–163.
+                        </hi></p></note> Despite the emperor’s ultimate responsibility, the blame is
+                    laid squarely with lower officials, many of whom John believed guilty of
+                    paganism themselves. Although they are not equated explicitly with the
+                    Chalcedonian party, John noted the location of the trial to create a link
+                    between this miscarriage of justice and Chalcedonian theology: “and [the
+                    appointed judges] were sitting and examining the matter in the great palace of
+                    the kingdom that was called Placidia for many days” (<foreign xml:lang="syr"
+                        >ܘܗܘܘ</foreign><lb/><foreign xml:lang="syr">ܝܬ̇ܒܝܢ ܘܡܥ̇ܩܒܝܢ ܥܠܘܗܝ ܕܣ̣ܘܥܪܢܐ
+                        ܒܒܝܬܐ ܪܒܐ ܕܡ̇ܠܟܘܬܐ̇. ܕܡܬ̣ܩܪܐ ܕܦ̇ܠܩܕܝܘܣ ܝܘܡ̈ܬܐ̣ ܣܓ̈ܝܐܐ</foreign> ).<note
+                        place="foot" xml:id="ftn51" n="50"><p>
+                            <hi rend="italic">HEPT</hi><hi>, book 3, chapter 30;
+                        159.</hi></p></note> The Palace of Placidia was the home of the papal
+                    apocrisiarius (at the time, the future pope Gregory the Great). This is a subtle
+                    but definite indication by John of where he saw the problem. </p>
+                <p xml:lang="en">In John’s case, rather than the emperor, it is the Chalcedonian
+                    clergy who are charged explicitly with deceit, perjury, and breaking oaths:
+                    “promises of deceit and oaths of falsehood of those against us; we know that
+                    there is no truth with them” (<foreign xml:lang="syr">ܫܘ̈ܘܕܝܐ ܕܢܟܠ̣ܐ ܘܡ̈ܘܡܬܐ
+                        ܕܕܓܠܘܬܐ ܕܗܠܝܢ ܕܠܩܘܒܠܐ. ܝ̇ܕܥܝܢ ܚܢܢ</foreign>
+                    <lb/><foreign xml:lang="syr">ܕܫܪܪܐ ܠܘܬܗܘܢ ܠܝܬ</foreign>).<note place="foot"
+                        xml:id="ftn52" n="51"><p>
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 22; 29.</hi></p></note>
+                    Therefore, it is unsurprising that earlier ecclesiastical struggles are framed
+                    as created by hostile clerics, not the emperor himself. In the life of Zʿura,
+                    Pope Agapetus (another inhabitant of the Palace of Placidia) bears the brunt of
+                    John’s ill will for his attempted use of force in bringing Zʿura to court.
+                    John’s holy man makes clear that the outrage is twofold, seamlessly joining
+                    canon and private law. Agapetus’ demand cannot be met during their current
+                    observance of a fast, and his forcible removal would involve trespass on private
+                    property donated by Theodora.<note place="foot" xml:id="ftn53" n="52"><p
+                           ><hi> John of Ephesus, </hi><hi
+                                rend="italic">Lives</hi><hi>, </hi><hi rend="italic">PO</hi><hi>
+                                17.1, 27–28.</hi></p></note> This case shows that John saw both the
+                    perpetrators of the persecution and their illicit methods as similar under
+                    Justinian and Justin. He stressed in Zʿura’s life, as he would throughout the
+                        <hi rend="italic">Ecclesiastical History,</hi> the formal irregularities in
+                    the behaviour of the Chalcedonians and their lack of respect for due process.
+                    However, by keeping the focus on truth in his presentation of legal proceedings,
+                    John equally realizes a tension between courts as an accepted instrument for the
+                    discovery of the truth and their frequent failure to do so. In contrast to the
+                    unfavorable view of Chalcedonian clerics, John’s presentation of the imperial
+                    hierarchy is, if not balanced, at least complex.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.4">
+                <head>The Biblical Framework of the <hi rend="italic">Ecclesiastical
+                    History</hi></head>
+                <p xml:lang="en">John presented court cases with dynamism and created a rapidly
+                    developing narrative. This narrative licence is one of the primary indications
+                    that John’s history is best understood less as a chronicle of events and more as
+                    a political <hi rend="italic">apologia</hi>. Below, this will provide the bulk
+                    of the material for analysing John’s use of literary structure to defend his
+                    church. However, it is thematically situated in an overarching biblical and
+                    eschatological structure that frames the court cases.</p>
+                <p xml:lang="en">Although, as mentioned above, the very beginning of the Third Part
+                    of John’s work is no longer extant, the first few lines of the remaining text
+                    set up this biblical framework. The following analysis is an impressionistic
+                    rather than exhaustive demonstration of John’s skill as a literary historian in
+                    that it makes no claims to exhaust his use of scriptural framing. The beginning
+                    of the text, as it remains, is dense with quotations from Matthew’s Gospel,
+                    which are deployed non-sequentially and drawn from across the book. Matthew 4
+                    moves into Mathew 24 before an extended quotation from Matthew 10, which places
+                    the court proceedings documented above explicitly in the Biblical context of
+                    persecution: “Beware of people delivering you to the courts and in their
+                    synagogues you will be beaten and you will be brought before governors and kings
+                    for my sake as a witness for them and the Gentiles.”<note place="foot"
+                        xml:id="ftn54" n="53"><p><hi rend="italic">
+                                HEPT</hi><hi>, book 1, chapter 3; 3 cf. Matt
+                        10:17–18.</hi></p></note> John is clear that this is precisely what is
+                    taking place in his own time by capping the quotation with “We are already
+                    seeing these things clearly.” Equally striking is John’s omission of the end of
+                    verse 22, “but he that endures to the end shall be saved”, choosing to remove
+                    any silver lining from his bleak narrative of earthly persecution.</p>
+                <p xml:lang="en">However, John does not settle for this concluding exegesis and
+                    omission but is prepared to add to the biblical text. His quotation of Matthew
+                    24, which follows Christ’s declaration of the end times and the second coming,
+                    matches the Peshitta except for a final added participle (<foreign
+                        xml:lang="syr">ܗ̈ܘܝܢ</foreign>) which enlivens the quotations to the present
+                    time of writing: “when you see all these things <hi rend="italic">which are
+                    </hi>[now]” (<foreign xml:lang="syr">ܕܡܐ ܠܡ ܕܚܙܝܬܘܢ ܗܠܝܢ
+                        ܟܠܗܝܢ</foreign><lb/><foreign xml:lang="syr">ܕܗ̈ܘܝܢ</foreign>).<note
+                        place="foot" xml:id="ftn55" n="54"><p>
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 3; 3 cf. Matt
+                                24:33.</hi></p></note> Although so much of John’s evidence is
+                    uncorroborated and frequently demands a suspension of disbelief, an awareness of
+                    John’s historiographical framework allows the text to be approached with
+                    specific caution. John not only presented his miaphysite history within the
+                    context of biblical persecution but also employed literary manipulation for
+                    added immediacy. The cases John presented frequently contribute explicitly to
+                    the realization of his biblical eschatology, either by participating
+                    typologically in the biblical narrative or serving simply as evidence of the
+                    present end times. To appreciate the cumulative impact of John’s structural
+                    development, the cases will be handled sequentially, following his order. The
+                    examples are laid out below in tabular form for quick reference. </p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.5">
+                <head>Miaphysites on Trial</head>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;"><hi>Defendant</hi></cell>
+                        <cell style="text-align: left;"><hi>Prosecutor</hi></cell>
+                        <cell style="text-align: left;"><hi>Judge</hi><note place="foot"
+                                xml:id="ftn56" n="55"><p rend="footnote text"
+                                   > Note the lone ecclesiastical
+                                    figure. The lack of named Chalcedonian prelates, the roles of
+                                    lay officials, and the considerable involvement of John
+                                    Scholasticus may be intended to compare unfavorably with the
+                                    trial by gathered peers documented at the ecumenical councils.
+                                    Artur Steinwenter noted the aspirational correspondence of
+                                    ecclesiastical process to the Gospel and Pauline injunctions on
+                                    Christian conflict resolution: Artur Steinwenter, "Der Antike
+                                    Kirchliche Rechtsgang Und Seine Quellen," (<hi rend="italic"
+                                        >Zeitschrift der Savigny-Stiftung für Rechtsgeschichte.
+                                        Kanonistische Abteilung</hi> 23:1 [1934]), 3. Nevertheless,
+                                    the councils (including Ephesus II) displayed a variety of lay
+                                    and ecclesiastic leadership. The emphasis, as will be developed
+                                    later, is rather on John Scholasticus’ particular overreach than
+                                    an error of form in this respect. The erroneous impression is
+                                    certainly given by this list that the miaphysite majority was
+                                    under persecution from a tiny number of influential
+                                    Chalcedonians. For details of presidency and trials at the
+                                    councils see Richard Price, "Presidency and Procedure at the
+                                    Early Ecumenical Councils" (<hi rend="italic">Annuarium
+                                        Historiae Conciliorum</hi> 41:2 [2009]).</p></note></cell>
+                        <cell style="text-align: left;"><hi>Place in work</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi>Stephen the presbyter</hi></cell>
+                        <cell style="text-align: left;"><hi>mob</hi></cell>
+                        <cell style="text-align: left;"><hi>prefect</hi></cell>
+                        <cell style="text-align: left;"><hi>Book 1, chapter 9</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi>Paul of Asia</hi></cell>
+                        <cell style="text-align: left;"><hi>John Scholasticus</hi></cell>
+                        <cell style="text-align: left;"><hi>-</hi></cell>
+                        <cell style="text-align: left;"><hi>Book 1, chapter 14</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi>Elisha of Sardes</hi></cell>
+                        <cell style="text-align: left;"><hi>John Scholasticus</hi></cell>
+                        <cell style="text-align: left;"><hi>-</hi></cell>
+                        <cell style="text-align: left;"><hi>Book 1, chapter 15</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi>Stephan of Cyprus</hi></cell>
+                        <cell style="text-align: left;"><hi>John Scholasticus</hi></cell>
+                        <cell style="text-align: left;"><hi>Justin II</hi></cell>
+                        <cell style="text-align: left;"><hi>Book 1, chapter 16</hi></cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"><hi>John of Ephesus, <lb/>Paul of Antioch,
+                                <lb/>Stephan of Cyprus, <lb/>Elisha of Sardes</hi></cell>
+                        <cell style="text-align: left;"><hi>John Scholasticus</hi></cell>
+                        <cell style="text-align: left;"><hi>John Scholasticus, afterwards the senate
+                                and the quaestor</hi></cell>
+                        <cell style="text-align: left;"><hi>Book 1, chapters 24, 27-29</hi></cell>
+                    </row>
+                </table>
+                <p rend="GP Normal 1st After Table">Trial scenes form much of the first book of John
+                    of Ephesus’ <hi rend="italic">Ecclesiastical History</hi> and invite many
+                    questions about the practicalities of the miaphysite persecution, the nature of
+                    miaphysite interaction with the Roman legal system, and John’s
+                    (mis)representation of these elements. John began his own ‘Acts of the Apostles’
+                    with his own protomartyr, Stephen the presbyter, whose case provided the initial
+                    quotation for this article. He was brought before a prefect (<foreign
+                        xml:lang="syr">ܗܘܦܪܟܐ</foreign> (<foreign xml:lang="gr">ὕπαρχος</foreign>)
+                    by a crowd who, “when they imprisoned him, [Stephen] anathematized them to their
+                    faces and in their wrath they delivered him to the prefect” (<foreign
+                        xml:lang="syr">ܟܕ ܚܒܫܘܗܝ ܣܓܝ ܐܚܪܡ ܐܢܘܢ</foreign><lb/><foreign xml:lang="syr"
+                        >ܒܐܦܝ̈ܗܘܢ ܘܒܚܡܬܗܘܢ ܐܫܠܡܘܗܝ ܠܗܘܦܐܪܟܐ</foreign> ).<note place="foot"
+                        xml:id="ftn57" n="56"><p><hi rend="italic">
+                                HEPT, </hi><hi>book 1, chapter 9; 8 (placed here by Brooks – the
+                                episode is taken from Michael Rabo).</hi></p></note> The trial, as
+                    Stephen declared it by his characterization of the prefect’s actions, “you are
+                    judging” (<foreign xml:lang="syr">ܕܐ̇ܢ ܐܢܬ</foreign> ), was derailed and
+                    transferred by the prefect to the Chalcedonian bishop. Importantly, when
+                    confronted with the proposition that he was, in fact, adjudicating, the prefect
+                    washed his hands of the matter (<foreign xml:lang="syr"
+                        >ܐܝܟܢܐ</foreign><lb/><foreign xml:lang="syr">ܕܟܕ ܗܠܝܢ ܫܡ̣ܥ ܗܘܦܪܟܐ ܘܙ̣ܥ ܡܢ
+                        ܝܘܩܪܐ</foreign>). At this first junction, John shows the secular power
+                    unwilling to condemn the Severans. It is instead the bishop who quarantines
+                    Stephen in Heracleia, denying him access to social interaction with his
+                    coreligionists: “it was not allowed that he should see anyone” (<foreign
+                        xml:lang="syr">ܠܐ ܡܫܬܒܩ ܕܢܚܙܗ ܐܢܫ</foreign> ), and clean clothes. John has
+                    modelled this double trial before the prefect and priest, including the secular
+                    prefect’s unwillingness to condemn Stephen, on the Gospel passion narrative.</p>
+                <p xml:lang="en">In the cases of Paul of Asia, the miaphysite bishop of Aphrodisias,
+                    and Elisha of Sardes, John Scholasticus is the instigator of both prosecutions,
+                    actively seeking the bishops from their monasteries where each “was sat in his
+                    monastery in peace” (<foreign xml:lang="syr">ܒܕܝܪܗ ܒܫܠܝܐ ܝܬ̇ܒ ܗܘܐ</foreign>),
+                    bringing them to Constantinople as the patriarch’s captives, “and he imprisoned
+                    them in the bishop’s own house” (<foreign xml:lang="syr">ܘܚܒܫܗ ܒܒܝܬ ܐܦܝܣܩܦܝܘܢ
+                        ܕܝܠܗ</foreign>), to impose new holy orders on them.<note place="foot"
+                        xml:id="ftn58" n="57"><p rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 14; 14.</p></note> Paul’s
+                    acquiescence under compulsion to the patriarch’s desire to have him ordained a
+                    second time elicits ridicule from his clerics who “were calling him ‘double
+                    dunked’!” (<foreign xml:lang="syr">ܘܩܪܝܢ ܗܘܘ ܠܗ ܩܠܝܪ̈ܝܩܘܗܝ ܨܒܝܥ
+                        ܬܪ̈ܬܝܢ</foreign><lb/><foreign xml:lang="syr">ܙܒ̈ܢܝܢ</foreign>), whereas
+                    Elisha’s resistance is met with exile and monastic relocation.<note place="foot"
+                        xml:id="ftn59" n="58"><p>
+                            <hi>Ibid.</hi></p></note> Neither of these makes any pretense to being a
+                    legally proper action. No judge or charge is specified. Instead, these cases
+                    build momentum concerning the illegal actions and depraved character of John
+                    Scholasticus. </p>
+                <p xml:lang="en">The contrast can be drawn out by a comparison of the events here,
+                    and of Paul (and John’s own) ordination by miaphysite clergy in John’s <hi
+                        rend="italic">Lives of James and Theodore</hi>. Here, the ordinations
+                    described of miaphysite clergy were performed “according to the sense of the
+                    canons” (<foreign xml:lang="syr">ܐܝܟ ܚܝܠܐ ܕܩܢ̈ܘܢܐ</foreign>), and John informs
+                    us that James (Jacob Baradaeus) performed these ordinations “with the rest the
+                    bishops” (<foreign xml:lang="syr">ܥܡ ܫܪܟܐ</foreign><lb/><foreign xml:lang="syr"
+                        >ܕܐܦܝ̈ܣܩܘܦܐ</foreign>).<note place="foot" xml:id="ftn60" n="59"><p
+                            rend="footnote text"> John of Ephesus, <hi
+                                rend="italic">Lives, PO</hi> 19.2, 156, 158.</p></note> However, we
+                    might be able to detect here some of John’s sleight of hand. We are told in the
+                        <hi rend="italic">Lives</hi> that James and Theodore “made bishops for the
+                    countries of Egypt according to the command of the blessed patriarch Theodosius”
+                        (<foreign xml:lang="syr">ܘܠܐܬܪ̈ܘܬܐ ܕܐܓܦܛܘܣ ܒܦܩܘܕܢܗ ܕܛܘܒܢܐ
+                        ܬܐܘܕܣܝܘܣ</foreign><lb/><foreign xml:lang="syr">ܦܛܪܝܪܟܐ ܥܒܕܘܢ
+                        ܐܦܝ̈ܣܩܘܦܐ</foreign>).<note place="foot" xml:id="ftn61" n="60"><p
+                            rend="footnote text"> Ibid.,
+                        157.</p></note> This certainly legitimized their actions in Egypt, but John
+                    is notably silent on their ecclesiastical authorization to ordain in Asia. One
+                    explanation for John’s insistent focus on the canonical legitimacy of his fellow
+                    bishops in the <hi rend="italic">Ecclesiastical History</hi> might therefore be
+                    an awareness that they were particularly vulnerable to accusations in this area.
+                    This might further explain John’s (mis)representation of John Scholasticus’
+                    somewhat unbelievably forceful and capricious approach in these trials.</p>
+                <p xml:lang="en">The significance of Elisha’s relocation is made amply clear by
+                    Justinian’s 5<hi rend="superscript">th</hi> novel, in which it is written that
+                    monks who leave their monasteries either for the outside world or another
+                    monastery must leave all their property with the monastery: “<hi rend="italic"
+                        >substantia maneat et vindicetur a priori monasterio</hi>.”<note
+                        place="foot" xml:id="ftn62" n="61"><p>
+                            <hi>N. 5.7 (535) (Let their property remain and let it be vindicated by
+                                their former monastery).</hi></p></note> This punishment, therefore,
+                    not only disrupted miaphysite networks, but also stripped the miaphysite leaders
+                    of their means. Conversely, the clerical ridicule Paul received for accepting
+                    reordination serves as the <hi rend="italic">vox ecclesiae </hi>protesting
+                    uncanonical measures and alerting the reader to unlawful actions. John
+                    Scholasticus’ two supposed motives are made explicit in the cases of Elisha and
+                    Paul: pecuniary advantage and a sheer desire for outrage.</p>
+                <p xml:lang="en">However, Elisha’s punishment is perhaps not as harsh as John makes
+                    it seem. Elisha was relocated from Beth Dios (<foreign xml:lang="syr"
+                        >ܒܝܬ</foreign><lb/><foreign xml:lang="syr">ܕܝܘܣ</foreign>) to Beth Abraham
+                        (<foreign xml:lang="syr">ܒܝܬ ܐܒܪܗܡ</foreign>). Beth Dios was a monastery of
+                    the pro-Roman and Chalcedonian Acoemetae. By contrast, it seems that Beth
+                    Abraham was possibly founded on premises gifted to John of Ephesus by the
+                    chamberlain Callinicus.<note place="foot" xml:id="ftn63" n="62"><p
+                           ><hi> Susan Ashbrook Harvey, </hi><hi
+                                rend="italic">Asceticism and Society in Crisis: John of Ephesus and
+                                the Lives of the Eastern Saints</hi><hi>, Transformation of the
+                                Classical Heritage (Berkeley: University of California Press, 1990),
+                                29.</hi></p></note> The relocation is, therefore, a case of
+                    miaphysite containment rather than isolation. This calls into question John’s
+                    earlier claim that the bishops were dwelling peacefully in their monasteries and
+                    instead suggests, as in the case of Stephen, that militant miaphysism was being
+                    addressed and contained by the Chalcedonians. Indeed, although an illness
+                    accompanies the relocation, this is not described as the intended consequence,
+                    something John is quite happy to heavily imply in Stephen’s case. The distinct
+                    methods and implications of the persecutions are already apparent. While the
+                    first case of Stephen the presbyter provides a grassroots denunciation working
+                    its way toward the ecclesiastical hierarchy, the second cases show the
+                    far-reaching influence of the Constantinopolitan patriarch in enforcing his
+                    orthodoxy. John thus provides a Caiaphas and a mob to condemn the Christlike
+                    miaphysite clergy. As noted above, the similarity is certainly intentional. Even
+                    in the similar punishments inflicted, the differentiation of the harsh treatment
+                    rendered to presbyters and bishops is striking; the conflict over Stephen the
+                    presbyter’s corpse contrasts somewhat sharply with Elisha’s enforced retirement.
+                    Nevertheless, John’s structure has highlighted two propositions to which these
+                    initial examples should lead us. Firstly, he stresses the possibility of the
+                    misuse of judicial mechanisms, and secondly, he proposes John Scholasticus’
+                    predisposition to engage in such conduct.</p>
+                <p xml:lang="en">The extraordinary presence of the emperor encourages an
+                    extraordinary narrative and outcome in John’s third case. The treatment of
+                    Stephan, bishop of Cyprus, dismisses any idea of episcopal deference. John again
+                    invokes <hi rend="italic">Acts</hi> when he describes Stephan’s Pauline recovery
+                    after the violence of the <hi rend="italic">excubitores</hi> (<foreign
+                        xml:lang="syr">ܣܩܘܒܝܛܘܪ̈ܣ</foreign>): “he revived as if from amongst the
+                    dead” (<foreign xml:lang="syr">ܘܐܝܟ ܕܡܢ ܡܝ̈ܬܐ ܚܝܐ</foreign>).<note place="foot"
+                        xml:id="ftn64" n="63"><p>
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 16; 16 cf. Acts
+                                14:19.</hi>
+                        </p></note> John Scholasticus is recorded as having sent an armed force to
+                    Plataea, where Stephan had been banished, to compel him through violence to
+                    enter communion with the patriarch. Stephan’s speeches to the patriarch and the
+                    emperor in Constantinople concerning proposed reordinations reveal specific
+                    concerns. While his speech to the patriarch focuses on the theological
+                    inconsistency of reperforming sacramental baptism and ordination, his speech to
+                    the emperor relies on persuasion by canonical inaccuracy:</p>
+                <p rend="GP Normal Quote">Woe! Christianity has died, all the statutes of the church
+                    of the Christians are corrupted (<foreign xml:lang="syr"
+                        >ܐܬܚܒܠܘ</foreign><lb/><foreign xml:lang="syr">ܠܗܘܢ ܛܟ̈ܣܝܗ̇ ܕܥܕܬܐ
+                        ܕܟܪ̈ܝܣܛܝܢܐ</foreign> ) all statutes and all canons of the church of God are
+                    confused, muddled and corrupted. What is this unlawful impiety that the
+                    priesthood of Orthodox Christians is abrogated by those who are now in power,
+                    and ordained afresh elsewhere? It has been twenty years since I, though
+                    unworthy, was ordained a bishop by the orthodox in accordance with the canons
+                    under Theodosius of Alexandria.<note place="foot" xml:id="ftn65" n="64"><p
+                           >
+                            <hi>Ibid.</hi></p></note></p>
+                <p xml:lang="en">Canonicity, or as it might be termed, legal orthodoxy, is in fact
+                    consistently a prime concern of the emperor throughout John’s writing. In this
+                    instance, John presented the emperor as utterly convinced by the arguments from
+                    the canons. Similarly, upon Theodosius of Alexandria’s death in 566, and the
+                    subsequent election of both a Chalcedonian and miaphysite successor, John did
+                    not give the emperor a partisan view on his successor, but rather affirmed the
+                    emperor’s desire for unity and canonicity in the selection of one bishop: “It
+                    was written to the king that they ordained orthodox bishops in place of the
+                    blessed Theodosius, not only one bishop, but two, and he was bitterly enraged”
+                        (<foreign xml:lang="syr">ܐܬܟܬ̣ܒ ܠܡ̇ܠܟܐ ܕܐܦܝ̈ܣܩܦܐ ܐܪ̈ܬܕܟܣܘ̣
+                        ܥܒ̣ܕܘ</foreign><lb/><foreign xml:lang="syr">ܚܠܦ ܛ̇ܘܒܢܐ ܬܐܕܘܣܝܘܣ ܠܘ ܒܠܚܘܕ ܚܕ
+                        ܐܦܝܣܩܘܦܐ ܐܠܐ ܬܪ̈ܝܢ ܘܐܬ̇ܚܡܬ ܩܫ̣ܝܐܝܬ</foreign> ).<note place="foot"
+                        xml:id="ftn66" n="65"><p>
+                            <hi rend="italic">HEPT,</hi><hi> book 1, chapter 34;
+                        44–45.</hi></p></note> John wanted his reader to know that the emperor held
+                    canonically correct actions in high regard.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.6">
+                <head>The implications of preliminary cases</head>
+                <p xml:lang="en">John must be allowed some licence in creating a scenario for
+                    Stephan which instantly developed a speech before the patriarch to an audience
+                    with the king. Novel 6 presents a pathway clearly ignored here, by which bishops
+                    could obtain access to the emperor only after traversing various secular and
+                    ecclesiastical bureaucracies.<note place="foot" xml:id="ftn67" n="66"><p
+                           >
+                            <hi>N. 6.3 (535).</hi></p></note> The possibility of elevating an issue
+                    to a higher ‘court of appeal’ is well-established, although John’s presentation
+                    of this as an extremely dynamic process suggests an urgency not permitted by
+                    Justinianic law. Yet, the continued importance of petition to Roman government
+                    is clear. It acted not only as a means of redress for citizens, but also, as
+                    Feissel argues, “<hi rend="italic">On sait que Justinien a ... considéré la
+                        pétition comme une des deux sources de sa législation en general</hi>,” and
+                    he provides Novels 2, 39, and 83 as exempla of reactive legislation.<note
+                        place="foot" xml:id="ftn68" n="67"><p>
+                            <hi>Denis Feissel, "Pétitions Aux Empereurs Et Formes Du Rescrit" in
+                                </hi><hi rend="italic">La Pétition En Byzance</hi><hi>, ed. Jean
+                                Gascou Denis Feissel (Paris: Peeters, 2004), 41.</hi></p></note>
+                    Justin probably continued the model of reactive government, and Stephan’s speech
+                    above, decrying the outrage of uncanonical reordination, was therefore probably
+                    meant to act as a public catalyst for legislation.</p>
+                <p xml:lang="en">Justin sides wholly with the miaphysites in defence of single
+                    ordinations saying of John Scholasticus’ initiatives: “In truth, this is evil
+                    and without law and outside all the canon of the church” (<foreign
+                        xml:lang="syr">ܒܫܪܪܐ ܕܒܝ̣ܫܐܝܬ ܘܕܠܐ ܢܡ̇ܘܣ̣ ܘܠܒܪ ܡܢ ܟܠܗ
+                        ܛܟܣ̣ܐ</foreign><lb/><foreign xml:lang="syr">ܕܥܕܬܐ ܐ̣ܝܬܝܗ̇ ܗܕܐ</foreign><hi
+                        style="font-size:14pt">̇</hi>).<note place="foot" xml:id="ftn69" n="68"><p
+                           >
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 16; 18.</hi></p></note>
+                    We are therefore told that Stephan received a favourable ruling within a context
+                    of <hi rend="italic">persecutio renovata</hi> by appealing to the canonicity of
+                    his holy orders. In his account, John has, for the time being, obscured the
+                    Christological controversy in favour of more technical questions. By temporarily
+                    dividing theological and legal orthodoxy, John enabled a miaphysite victory in
+                    an imperial context. This encourages a more nuanced approach to miaphysism as a
+                    legally defined heresy in Justin’s empire. If, as this example demonstrates,
+                    matters of ecclesiastical organization within canon law could be settled in
+                    favour of a miaphysite and against the patriarch of Constantinople, ‘the
+                    orthodox’ were defined as much in legal rulings on the canonicity of practical
+                    questions of authority and competencies as they were by doctrinal statements.
+                    Stephan had submitted to communion with the “Synodites” before this success.
+                    Nevertheless, his ordination, the matter at stake in the debate, was certainly
+                    performed by miaphysite clergy.<note place="foot" xml:id="ftn70" n="69"><p
+                           >
+                            <hi rend="italic">HEPT, </hi><hi>book 1, chapter 16; 17 (</hi><foreign
+                                xml:lang="syr">ܗܐ ܓܝܪ ܥܣܪ̈ܝܢ ܠܝ ܫ̈ܢܝܢ. ܕܟܕ ܠܐ ܫ̇ܘܐ
+                                ܐܢܐ</foreign><lb/><foreign xml:lang="syr">ܥܒ̣ܝܕ ܐܢܐ ܡܢ ܐܪ̈ܬܕܟܘܣ
+                                ܩܢܘܢܐܝܬ ܐܦܝܣܩܦܐ̇. ܒܦܘܩܕܢܗ ܕܬܐܕܘܣܝܘܣ ܦܛܪܝܪܟܐ ܕܐ̣ܠܟ̣ܣܢܕܪܝܐ</foreign>
+                            <hi>) Given that his ordination was carried out ‘on the command of
+                                Theodosius of Alexandria’.</hi></p></note> Including these
+                    proceedings in the <hi rend="italic">Ecclesiastical History</hi> was expected to
+                    heighten the perceived injustice of a persecution against those whose orthodox
+                    credentials had been attested forensically before the highest court in the land.
+                    This case contrasts with the previous three; with the emperor as judge, and
+                    Stephen able to make his arguments which rely on his knowledge of law (his
+                    concern for statutes (<foreign xml:lang="syr">ܛ̇ܟ̈ܣܝܗ</foreign>) and that his
+                    ordination was carried out canonically (<foreign xml:lang="syr"
+                        >ܩܢܘܢܐܝܬ</foreign>), John is able to claim a reasonable success for the
+                    miaphysite cause.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.7">
+                <head>John’s own trial and the breakdown of due process</head>
+                <p xml:lang="en">With his own trial, John’s treatment of the persecution moves away
+                    from the formal and orderly treatment of miaphysites in the courts. In his case,
+                    we instead see a variety of legal and quasi-legal proceedings, which, whilst
+                    needing increasingly rigorous process as they changed from extra-curial
+                    mediation to formal court proceedings, in fact degenerated in form, taking on
+                    gradually more illicit and irregular processes. It is important to stress that
+                    mediation and arbitration were usual first steps in legal disputes, due to
+                    reticence to engage in expensive court proceedings. More persuasively perhaps
+                    for the present case, extra-curial resolutions also enabled the parties both to
+                    compromise and save face. However, when <hi rend="italic">litis contestatio</hi>
+                    began, correct procedure was of great importance.<note place="foot"
+                        xml:id="ftn71" n="70"><p rend="footnote text">
+                            Whilst this is a concern throughout the whole Digest, book 2, for
+                            example, deals extensively with questions of jurisdiction and process
+                            e.g. D. 2.1.20 “Extra territorium ius dicenti impune non paretur.” (He
+                            may be disobeyed freely who gives judgements outside his
+                            jurisdiction).</p></note> It is the cumulative effect of poor definition
+                    of the case, what John considered to be an incorrect assessment of which issues
+                    were the most serious, and fluid movement between different paradigms of legal
+                    conflict resolution that marks the chaos of his trial.</p>
+                <p xml:lang="en">The framework is however given in advance by John Scholasticus’
+                    behaviour in the above cases, and by his introduction as someone with no respect
+                    for the institutional processes or traditions of the church. In particular, John
+                    of Ephesus first highlights his overreach beyond his authority almost at his
+                    first mention: “and he wrote not only in his city and jurisdiction but also to
+                    foreign places” (<foreign xml:lang="syr">ܘܠܘ ܒܠܚܘܕ
+                        ܕܒܡܕܝܢܬܗ</foreign><lb/><foreign xml:lang="syr">ܘܒܫܘܠܛܢܗ̣ ܐܠܐ ܘܐܦ ܠܐܬܪ̈ܘܬܐ
+                        ܐܚܪ̈ܢܐ ܟܬ̇ܒ ܗܘܐ̇).</foreign><note place="foot" xml:id="ftn72" n="71"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 11; 11.</p></note> Then, he
+                    stresses the outrageous reordination of priests and deacons whose holy orders
+                    John Scholasticus had implicitly accepted beforehand when he celebrated with
+                    them on 36 occasions, we are told: “ and not one time only or twice, but even 36
+                    times in every festival service (<foreign xml:lang="gr">σύναξις</foreign>)”
+                        (<foreign xml:lang="syr">ܠܘ ܚܕܐ ܙܒ̣ܢ ܒܠܚܘܕ ܘܬܪ̈ܬܝܢ</foreign><lb/><foreign
+                        xml:lang="syr">ܐܠܐ ܥܕܡܐ ܠܬܠܬܝܢ ܘܫܬ ܙܒ̈ܢܝܢ ܒܟܠܗܝܢ ܣܘ̈ܢܟܣܝܣ ܕܥܐܕܐ</foreign>
+                        ).<note place="foot" xml:id="ftn73" n="72"><p rend="footnote text"
+                           >
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 12; 12.</p></note> In
+                    short, John Scholasticus does illicit things beyond his sphere of influence,
+                    either of which alone would be cause for concern. Moreover, these errors are
+                    portrayed as both very serious and obvious. This contrasts greatly with what
+                    John of Ephesus presented as nebulous charges brought against the
+                    miaphysites.</p>
+                <p xml:lang="en">Given what I will argue is a deliberately chaotic set of legal
+                    proceedings, it is worth briefly outlining for the sake of clarity the events in
+                    question, and the series of disagreements and the concomitant legal proceedings
+                    to which they led. It also seems prudent to lay out in more detail the normal
+                    legal options open to a plaintiff in the 6<hi rend="superscript">th</hi>
+                    century. After this, we will have the best viewpoint from which to see how John
+                    of Ephesus created his crescendo of flawed forensics. It is worth mentioning
+                    from the outset that the legal methods which will be discussed are those proper
+                    to ‘secular’ law rather than ecclesiastical law. It may therefore seem that
+                    their use here is not appropriate to the nature of the dispute, namely a matter
+                    of church order between the emperor, the patriarch of Constantinople, and a
+                    group of bishops rather than a single defendant. Nevertheless, the conclusion of
+                    the episode in a trial before the senate and a magistrate encourages us to blur
+                    the lines. Furthermore, these will be used as types not of the precise methods
+                    of restitution, but rather of the various processes which were certainly
+                    recognisable to citizens. As Steinwenter noted, there is no reason to doubt
+                    extremely close interactions between “state” and ecclesiastic legal
+                        procedure.<note place="foot" xml:id="ftn74" n="73"><p rend="footnote text"
+                           > Steinwenter, "Der Antike Kirchliche
+                            Rechtsgang Und Seine Quellen" 6.</p></note> John of Ephesus presented
+                    accounts of subverted mediation, arbitration, and adjudication as touchstones of
+                    legal process for his readers.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.8">
+                <head>The narrative of John’s trial</head>
+                <p xml:lang="en">The first part of the dispute between John Scholasticus and the
+                    miaphysite bishops whom he had imprisoned in Constantinople, including John of
+                    Ephesus, took the form of a letter in which the patriarch demanded that the
+                    miaphysite bishops unite themselves to the Chalcedonian church. The patriarch
+                    specified that this union should be like “the unity between Cyril of Alexandria
+                    and John of Antioch”.<note place="foot" xml:id="ftn75" n="74"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 17; 19.</p></note> The
+                    (probably abbreviated) contents of this letter, as John presented them,
+                    correspond in no way to the requirements of a formal summons. This prepares the
+                    reader for two possibilities. If legal proceedings follow, then we are already
+                    aware of the patriarch’s irregular process. Alternatively, if legal proceedings
+                    do not follow, then the patriarch’s letter signalled that dialogue and mediation
+                    were still the appropriate response. The actions of the miaphysite bishops makes
+                    more sense in this latter context. They responded with an argument that was
+                    logical rather than theological, except as a general refutation of the council
+                    of Chalcedon in an (at this point) unspecified way. Their strategy was to point
+                    out the inconsistency of them behaving like Cyril in only the manner of his
+                    communion with John of Antioch. They argued that real emulation would require
+                    them to view the council of Chalcedon as Cyril had viewed Nestorius: “and we
+                    will anathematize and repudiate and throw out the synod of Chalcedon from the
+                    Church of God, just as Cyril did to that lawless Nestorius” (<foreign
+                        xml:lang="syr">ܘܐ̇ܚܪܡܢ ܘܐ̇ܦ̣ܩܢ ܘܫ̣ܕܝܢܗ̇ ܠܒܪ ܡܢ ܥܕܬܗ</foreign><lb/><foreign
+                        xml:lang="syr">ܕܐܠܗܐ ܠܣܘܢܗܕܣ ܕܟܠܩܕܘܢܐ ܐܝܟ ܡܐ ܕܐܦ ܩܘܪܝܠܘܣ ܠܪܫܝ̣ܥܐ
+                        ܢܣܛܘܪܝܘܣ̣</foreign> ).<note place="foot" xml:id="ftn76" n="75"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 17; 19.</p></note> The
+                    initial posture John has the bishops adopt is combative. His presentation
+                    undermines Chalcedon by framing their first engagement not as an act of
+                    enforcement by John Scholasticus, but as a continuation of an unsettled
+                    dispute.</p>
+                <p xml:lang="en">John’s control of the narrative develops in the following chapter.
+                    The bishops’ argument moved from the logically formal to the legalistically
+                    formal. The miaphysites challenged John Scholasticus to provide canonical
+                    support for his alleged practice of re-ordination. Knowing that this was not
+                    canonical, it is fair to say that this record represents John picking battles he
+                    knew he could win. It seems designed to move the debate from church unity or the
+                    authority of the council or patriarch, towards specific violations of church
+                    order. The initiative taken by the miaphysites in this rejoinder is surely an
+                    authorial decision. It seems very unlikely in the first place that the bishops
+                    would have been brought to dispute with John Scholasticus. For the patriarch,
+                    these miaphysite bishops were an issue of church government, not doctrine. It is
+                    impossible to imagine that John was repeating the patriarch’s own words when he
+                    said they were summoned to debate “concerning the faith and about the corruption
+                    of the synod of Chalcedon” (<foreign xml:lang="syr">ܕܥܠ
+                        ܐ̈ܦܝ</foreign><lb/><foreign xml:lang="syr">ܗܝܡܢܘܬܐ ܘܡܛܘܠ ܚܒ̇ܠܐ ܕܣܘܢܗܕܣ
+                        ܕܟܠܩܕܘܢܐ</foreign>).<note place="foot" xml:id="ftn77" n="76"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 18; 19-20.</p></note> It
+                    seems equally unlikely that they would then be allowed to steer the conversation
+                    in whatever direction they should wish. In this sense, the events described have
+                    either been presented very carefully, or, at worst, might have no basis in
+                    historical fact. Nevertheless, the account given by John of Ephesus serves again
+                    to remind the reader that, for the purposes of all that will follow, the
+                    miaphysites sought to demonstrate that they held the stronger legal position,
+                    quite aside from their arguments about the patriarch’s Christological position
+                    and supposed support of a “quaternity” (<foreign
+                        xml:lang="syr">ܪܒܝܥ̣</foreign>ܝ<foreign xml:lang="syr">ܘܬܐ</foreign>).<note
+                        place="foot" xml:id="ftn78" n="77"><p rend="footnote text"
+                           >
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 18; 20. The criticism of a
+                            Chalcedonian doctrine of ‘quaternity’ is also found in John of Tella’s
+                                <hi rend="italic">Profession of Faith</hi>. See Volker L. Menze and
+                            Kutlu Akalin, <hi rend="italic">John of Tella’s "Profession of Faith":
+                                The Legacy of a Sixth-Century Syrian Orthodox Bishop</hi>, Texts
+                            from Christian Late Antiquity (Piscataway, NJ: Gorgias Press, 2009), 49.
+                            That this was a popular criticism is testified to by Justinian’s <hi
+                                rend="italic">Tractatus Contra Monophysitas</hi>: <foreign
+                                xml:lang="gr">“Οὔτε γὰρ τετάρτου προσώπου προσθήκην ἐπιδέχεται ἡ
+                                ἁγία Τριὰς ... καὶ οὐκ ἄλλον τὸν Θεὸν Λόγον καὶ ἄλλον τὸν Χριστὸν
+                                ἐπιστάμεθα, ἀλλ΄ ἕνα καὶ τὸν αὐτὸν Θεὸν Λόγον Κύριον Ἰησοῦν Χριστὸν
+                                ὁμολογοῦμεν.</foreign>” (Nor does the Holy Trinity take on the
+                            addition of a fourth person … and we do not know one “God the Word” and
+                            another Christ, but we accept one and the same God the Word the Lord
+                            Jesus Christ.) PG. 86.1, 1107, C</p></note> This first attempt by the
+                    two parties to settle their differences without a third party was
+                    unsuccessful.</p>
+                <p xml:lang="en">After further descriptions of the lawlessness of the patriarch,
+                    John introduced the emperor’s role in their case for the first time. This takes
+                    the form of Justin submitting to the miaphysite bishops an edict of union,
+                    complete with doctrinal statements, which he apparently encouraged them to edit
+                    as they saw fit to ensure its orthodoxy. The whole episode has the character of
+                    Roman arbitration. We see a third party acting as an interlocutor between two
+                    groups, proposing and counter-proposing solutions which he hopes will satisfy
+                    both parties. Importantly, the Roman arbitrator did not act as a judge, nor were
+                    his suggestions binding, unless oaths were sworn by the two parties agreeing to
+                    the terms.<note place="foot" xml:id="ftn79" n="78"><p
+                           >
+                            <hi>Caroline Humfress, "Law and Legal Practice in the Age of Justinian"
+                                in </hi><hi rend="italic">The Cambridge Companion to the Age of
+                                Justinian</hi><hi>, ed. Michael Maas (Cambridge University Press,
+                                2005), 180. Leanne Bablitz, "Roman Courts and Private Arbitration"
+                                in </hi>
+                            <hi rend="italic">The Oxford Handbook of Roman Law and Society</hi><hi>,
+                                ed. Paul J. du Plessis, Clifford Ando, and Kaius Tuori, Oxford
+                                Handbooks (Oxford: Oxford University Press, 2016),
+                        236.</hi></p></note> Had his intervention been intended as the final word,
+                    it is unlikely that John and the other bishops would have been able to continue
+                    the contest in official channels. Zeno’s <hi rend="italic">Henotikon, </hi>an
+                    earlier example of a joint production of emperor and patriarch, might provide an
+                    example of how the emperor could have acted if this first intervention had been
+                    meant to bind.<note place="foot" xml:id="ftn80" n="79"><p rend="footnote text"
+                           > Henry Chadwick, "Zeno’s Henotikon, Rome’s
+                            Fury, and the Acacian Schism: Dionysius Exiguus," in <hi rend="italic"
+                                >East and West: The Making of a Rift in the Church: From Apostolic
+                                Times until the Council of Florence,</hi> (Oxford University Press,
+                            2003), 50.</p></note> Of course, we are again dealing with John’s
+                    presentation of events. It is possible that Justin and John Scholasticus fully
+                    intended for this proposal of unity to bind the miaphysites. John nevertheless
+                    presented this as part of an ongoing discussion and negotiation.</p>
+                <p xml:lang="en">This point is highly significant. Following the counterproposals of
+                    the Chalcedonian faction, John and his fellow miaphysite bishops were unwilling
+                    to agree to the edict.<note place="foot" xml:id="ftn81" n="80"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 20; 27.</p></note> John
+                    made what he considered the likely duplicity of the Chalcedonians the chief
+                    reason for the miaphysite refusal to agree to the new terms, and in doing so, he
+                    was keen to show that he and the other bishops had not walked away from the
+                    negotiating table.<note place="foot" xml:id="ftn82" n="81"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 22; 29 (The
+                            untrustworthiness of the Chalcedonian party’s oaths was implicitly
+                            contrasted with the oaths of the miaphysite party, which, once given in
+                            good faith, were abused by the patriarch).</p></note> Again, this makes
+                    sense if the episode is understood as an exercise in imperial arbitration. A
+                    willingness to remain in negotiations with ‘Synodites’ is not obviously
+                    desirable for John’s relationship with his audience unless there was something
+                    to be gained from the discussions.</p>
+                <p xml:lang="en">Nevertheless, the bishops’ failure to agree to the edict left them
+                    open to charges by John Scholasticus that they were the obstacle to unity. This
+                    claim was pursued in the patriarchal court on unequal terms<foreign
+                        xml:lang="syr">:</foreign> “They faced off against one another ardently; and
+                    those of the synod held power, whilst those against the synod were imprisoned
+                    apart from them and oppressed bitterly.” (<foreign xml:lang="syr">ܒܗ ܒܕܪܫܐ ܠܘܩܒܠ
+                        ܚ̈ܕܕܐ ܣ̣ܕܝܪ̈ܝܢ ܗܘܘ ܚ̇ܪܝܦܐܝܬ܇</foreign><lb/><foreign xml:lang="syr">ܗܠܝܢ
+                        ܕܣܘܢܗܕܘܣ ܕܐ̇ܚܝ̣ܕܝܢ</foreign> ܫܘܠܛܢܐ<foreign xml:lang="syr">܆ ܘܗܠܝܢ ܕܠܘܩܒܠ
+                        ܣܘܢܗܕܘܣ ܕܚܒܝܫܝܢ ܗܘܘ ܡܢܗܘܢ ܘܐܠܝ̣ܨܝܢ ܡ̇ܪܝܪܐܝܬ</foreign>).<note place="foot"
+                        xml:id="ftn83" n="82"><p rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 23; 29–30.</p></note> This
+                    process was in turn the main reason for the eventual acquiescence of the
+                    miaphysite bishops to communicating with the patriarch. Overall, we can
+                    characterize the first part of John’s own trial, up to the point of his
+                    communicating with John Scholasticus, in two legal frameworks. The first is a
+                    process of negotiation, or arbitration initiated by Justin. Insofar as both
+                    sides agreed to the emperor’s arbitration of the dispute, they were bound to
+                    accept what he decided. The second intrudes irregularly onto the narrative, in
+                    that, rather than following through with the working out the arbitration, the
+                    process was transferred into the court (<foreign xml:lang="gr"
+                        >σέκρετον</foreign>) of John Scholasticus (<foreign xml:lang="syr"
+                        >ܠܣܝ̣ܩܪܝܛܘܢ</foreign><lb/><foreign xml:lang="syr">ܕܦܛܪܝܪܟܐ</foreign>) all
+                    whilst the miaphysite bishops were imprisoned.<note place="foot" xml:id="ftn84"
+                        n="83"><p rend="footnote text"> Ibid;
+                        30.</p></note> This is surely deliberately reminiscent of the trial <hi
+                        rend="italic">in absentia </hi>of Dioscorus at the third session of
+                        Chalcedon.<note place="foot" xml:id="ftn85" n="84"><p rend="footnote text"
+                           > For further discussion of this model “show
+                            trial” for the miaphysites, see Price, "Presidency and Procedure at the
+                            Early Ecumenical Councils," 252–254.</p></note></p>
+                <p xml:lang="en">The second part of John’s trial saw an unexpected return from the
+                    patriarch’s court to the former, extra-curial process highlighted above. A
+                    personal letter from the emperor to the miaphysite bishops in captivity aimed at
+                    reconciling the mutual excommunications created another situation like the Roman
+                    process of mediation. John reported that the emperor wrote that “We think in God
+                    we are doing that which should content you, and putting you in perfect unity”
+                        (<foreign xml:lang="syr">ܡܣ̇ܒܪܝܢܢ ܓܝܪ</foreign><lb/><foreign xml:lang="syr"
+                        >ܒܐܠܗܐ̣ ܕܢܝ̇ܚܟܘܢ ܥ̇ܒܕܝܢ ܚܢ̣ܢ ܘܒܚܕܝܘܬܐ ܡ̇ܫܡ̣ܠܝܬܐ ܡܚ̇ܝܕܝܢܢ ܠܟܘܢ</foreign>
+                        ).<note place="foot" xml:id="ftn86" n="85"><p>
+                            <hi rend="italic">HEPT</hi><hi>, book 1, chapter 26; 36.</hi></p></note>
+                    Nevertheless, more than in the first instance, the tone of the letter suggests
+                    that Justin imagined his input would have been, or at least should have been,
+                    decisive in mending the schism. However, the planned mediation was prevented by
+                    the imperial couple’s month-long retirement to the baths, after which the
+                    Patriarch John “led the counsellors and went out to meet him” (<foreign
+                        xml:lang="syr">ܕܒܪ ܒܢ̈ܝ ܡܠܟ̣ܗ̣ ܘܢܦܩ ܠܘܬܗ</foreign>).<note place="foot"
+                        xml:id="ftn87" n="86"><p>
+                            <hi rend="italic">HEPT</hi><hi>, book 1, chapter 27; 37.</hi></p></note>
+                    The mediation was therefore flawed due to the unequal access of the two parties
+                    to the mediator. John also suggested that a lack of political will could be
+                    blamed for giving the Chalcedonian party free rein over the situation, and an
+                    unequal footing in the proceedings. However, the unexpected return to this more
+                    casual, or at least open-ended discussion between the emperor and the parties
+                    might be a literary creation, intended to make the issue seem rather less
+                    closed. John himself wrote that some may think his account far-fetched.<note
+                        place="foot" xml:id="ftn88" n="87"><p rend="footnote text"
+                           >
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 30; 40.</p></note> Had John
+                    written in Greek, the similarity between Justin’s desire for unity (<foreign
+                        xml:lang="syr">ܚܕܝܘܬܐ</foreign>), and the at least comparably favourable <hi
+                        rend="italic">Henotikon</hi> would be more obvious.</p>
+                <p xml:lang="en">Beyond John’s clear intention in providing the emperor Justin with
+                    a less than pressing prior arrangement at the baths, contrasting sharply with
+                    the plight of the imprisoned bishops, the significance of John’s presentation of
+                    events is twofold. The emperor undermined the process of mediation by proceeding
+                    to act immediately on the advice of only one of the parties which had the
+                    freedom to approach him, and more strikingly, his role in the proceedings
+                    shifted quickly to the distinct position of adjudicator. Justin’s next step in
+                    summoning the two parties before the senate and a magistrate (the quaestor) as
+                        <hi rend="italic">iudices, </hi>(<foreign xml:lang="syr">ܣ̣ܘܢܩܠܝܛܘܣ ܥܡ
+                        ܩ̣ܐܣܛܘܪ</foreign>) marks the beginning of formal litigation after
+                    ineffectual and half-hearted attempts at an extra-curial solution.<note
+                        place="foot" xml:id="ftn89" n="88"><p>
+                            <hi rend="italic">HEPT,</hi><hi> book 1, chapter 29; 39.</hi></p></note>
+                    It is also importantly distinct from John Scholasticus’ ecclesiastical court.
+                    Whereas this second mediation or possible imperial arbitration was a bargaining
+                    process, seeking a compromise between the two parties, adjudication and the
+                    subsequent <hi rend="italic">iudicium</hi> decided unreservedly for either
+                    party. John’s inclusion of the earlier deceit of the Chalcedonians in enticing
+                    the miaphysite bishops to communion aims to demonstrate why prima facie the move
+                    to the public proceedings of the adjudication was preferable. Under the formal
+                        <hi rend="italic">litis contestatio</hi>, the process would be public and
+                    open to scrutiny. The underhanded machinations attributed to the Chalcedonians
+                    by John would not be possible in such circumstances. We have been led to expect
+                    by John’s focus on canonicity that, if properly conducted, formal and thorough
+                    legal proceedings would favour the miaphysites. </p>
+                <p xml:lang="en">Given however that in the present case the senate decided
+                    wholeheartedly against the miaphysites, John sought to undermine this public and
+                    binding <hi rend="italic">iudicium</hi> by recording irregularities in the
+                    process. Not only does John present the legal status of the case in rapid flux
+                    from the earlier arbitration and mediation to adjudication, but the order of the
+                    trial itself is challenged. Firstly, there is no anticipation of an opportunity
+                    for dispute “since they were besought [to comply] as if by command” (<foreign
+                        xml:lang="syr">ܟܕ ܡܬ̇ܬܒܥܝܢ ܐܝܟ ܕܡܢ ܦܘܩܕܢܐ</foreign>). The result of the
+                    trial is the first business announced. This contrasts starkly with Eusebius of
+                    Dorylaeum’s formal indictment of Eutyches before Flavian in 448 which begins
+                    with a clear charge: “Not long ago, I came to your Holiness and brought charges
+                    accusing Eutyches, that he, as presbyter and archimandrite of this city, was
+                    ruining the doctrines of the orthodox church, as much by way of informal
+                    conversations as in his formal catechesis of those who came to him.”<note
+                        place="foot" xml:id="ftn90" n="89"><p> ACO 2.
+                            1. 1, Chalcedon, 238, <foreign xml:lang="gr">“Προσελθὼν τῆι ὑμετέραι
+                                ἁγιωσύνηι λιβέλλους έπιδέδωκα πρώην αἰτιώμενος Εὐτυχῆ τὸν
+                                πρεσβύτερον καὶ άρχιμανδρίτην ταυτησὶ τῆς πόλεως ὡς τὰ ὀρθόδοξα
+                                δόγματα τῆς ἐκκλησίας διαφθείροντα, τοῦτο μὲν ἐν διαλέξεσιν, τοῦτο
+                                δὲ καὶ ἐν κατηχήσεσιν τῶν ἐκεῖ παρατυγχανόντων”.</foreign>
+                        </p></note> John presented his own trial as summarily conducted.</p>
+                <p xml:lang="en">Secondly, John shows that his party came prepared for a real trial,
+                    and thus presented the miaphysite half of a case following due process, making
+                    sure meanwhile to point out the deceitfulness of the opposition: “But [the
+                    miaphysites] arose and contended in disputation (<foreign xml:lang="gr"
+                        >ἀγών</foreign>) forcefully … and without fear they openly accused all of
+                    them of false promises” (<foreign xml:lang="syr">ܗ̇ܝ ܕܝܢ</foreign><lb/><foreign
+                        xml:lang="syr">ܗ̣ܢܘܢ ܩܡ̣ܘ ܘܐܬ̇ܟܬܫܘ ܒܐܓܘܢܐ ܚܝܠܬܢܐܝܬ ... ܘܕܠܐ ܕܚ̣ܠܬܐ ܐ̇ܟܣܘ
+                        ܓܠܝܐܝܬ ܥܠ ܟܠܗܘܢ ܫܘ̈ܘ݁ܕܝܐ ܕܢܟܠܐ</foreign>).<note place="foot" xml:id="ftn91"
+                        n="90"><p rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 1, chapter 29; 39.</p></note> Not only
+                    are their accusations performed openly (<foreign xml:lang="syr"
+                    >ܓܠܝܐܝܬ</foreign>), contrasting with the earlier clandestine activity of the
+                    Chalcedonians, but the forceful manner (<foreign xml:lang="syr"
+                        >ܚܝܠܬܢܐܝܬ</foreign>) of their <hi rend="italic">arguments</hi> contrasts
+                    with the violent removal of the bishops from court: “they ordered that they
+                    should be violently dragged from before them” (<foreign xml:lang="syr"
+                        >ܘܦܩܕܘܢ</foreign><lb/><foreign xml:lang="syr">ܕܒܓܪܪܐ ܢܦ̇ܩܘܢ ܐܢܘܢ ܡܢ
+                        ܩܕܡܝܗܘܢ</foreign>̇). This court room violence provides a third point of
+                    judicial irregularity. The confused legal process and the following show trial
+                    create overwhelming sympathy for the miaphysite position. However, this incident
+                    equally forms part of John’s presentation of eschatology, for the author himself
+                    has been brought before “governors and kings for my sake”.<note place="foot"
+                        xml:id="ftn92" n="91"><p rend="footnote text">
+                            Matt 10:18.</p></note> The clear schematic of imperial judge, miaphysite
+                    defendant, and Chalcedonian prosecutor which was evident in the first three
+                    cases has given way to a foiled mediation, patriarchal machinations, and an
+                    unjust trial. The movement from order to chaos is striking.</p>
+                <p xml:lang="en">The rest of John’s extant history moves away from the specifically
+                    forensic scenes treated above. It is reasonable to suppose that this change of
+                    focus is a deliberate choice as John moves from a Roman and ecclesiastical
+                    context, to first the treatment of lay miaphysites, and then persecution outside
+                    the empire under the Sassanians. With the guise of legality cast off, future
+                    clerical persecutions would make no claims to any kind of legal process. The
+                    cupidity and overreach of John Scholasticus still loom large in the narrative,
+                    but the persecution of the priests Andrew and two Sergii was mob action
+                    undertaken through treachery and violence “in the likeness of Judas” (<foreign
+                        xml:lang="syr">ܒܕܡܘܬܗ ܕܝܗܘܕܐ</foreign>).<note place="foot" xml:id="ftn93"
+                        n="92"><p rend="footnote text">
+                            <hi rend="italic">HEPT, </hi>book 2, chapter 13; 75.</p></note> The
+                    account of the Sassanian persecution which follows is notable because it lays
+                    the blame for the occurrences in Persia directly on the irregular Roman example: </p>
+                <p rend="GP Normal Quote">When the Magians and princes of the Persians learnt that
+                    by the commandment and will of the king of the Romans, all persons, in every
+                    land and city of his dominions, were required to conform themselves and come
+                    over to his faith; and that such as refused and were disobedient to his will and
+                    commandment, were by his orders persecuted and imprisoned, and their goods
+                    spoiled, and finally delivered up even to death; ‘lo!’ said they, ‘in all the
+                    dominions of the Romans these things are now being done, and it is but just for
+                    us also to do the same in all our dominions, and convert to our own religion all
+                    other religions within our realm’.<note place="foot" xml:id="ftn94" n="93"><p
+                            rend="footnote text">
+                            <hi rend="italic">HEPT</hi>, book 2, chapter 18; 80, trans. Robert Payne
+                            Smith (Oxford: Oxford University Press, 1860).</p></note></p>
+                <p xml:lang="en">It is surely an attack on the institutional propriety of the Roman
+                    actions to appose so closely the persecutorial actions of the Persian king.
+                    Roman judges sat like Christians, but in practice had judged the servants of God
+                    in an exemplary manner for Persian pagans. </p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1bunce.9">
+                <head>Conclusion</head>
+                <p xml:lang="en">John’s carefully structured
+                    presentation of trials, law, and lawlessness in the <hi rend="italic"
+                        >Ecclesiastical History</hi> serves principally to undermine the practice of
+                    these once sure determiners of orthodoxy and justify the miaphysite position
+                    outside the legal orthodoxy of the Chalcedonian Church. He employs a Biblical
+                    eschatological decline narrative as special pleading for a group which found
+                    itself on the wrong side of the institutions which had come to hold central
+                    importance in defining orthodoxy. By his
+                    presentation of events in order of their legal irregularity rather than strict
+                    chronology, John causes his reader to focus on the institutional errors of the
+                    Chalcedonian church. He thereby systematically undermined the intention, the
+                    process, and the outcome of the legal proceedings against the miaphysites to
+                    exculpate himself and his co-confessionalists. The glimmer of hope and imperial
+                    indulgence of the earliest trials demonstrate John’s belief that forensic
+                    orthodoxy, if undertaken correctly and pervaded with truth, could deliver for
+                    the miaphysites. In all the above cases, there is a marked absence of
+                    supernatural assistance for the miaphysites. The stress on the institutional
+                    validity of <hi rend="italic">his</hi> miaphysite position (if only by contrast
+                    with the lawlessness of the Chalcedonians) serves to make the <hi rend="italic"
+                        >Ecclesiastical History</hi> a companion volume to the charismatic authority
+                    of holy men in his <hi rend="italic">Lives of the Eastern Saints</hi>. In order
+                    to demonstrate this institutional authority, John of Ephesus was compelled to
+                    demonstrate fraud, lawlessness, and wilfulness in the process of the
+                    Chalcedonians. In the legal-ecclesiastical environment of the 6<hi
+                        rend="superscript">th</hi> century, a demonstration of flawed forensics was
+                    the most viable challenge to John Scholasticus and Eutychius in their imperially
+                    sanctioned enforcement of union.</p>
+            </div>
+            <div xml:lang="en" type="bibliography">
+                <head>Bibliography</head>
+                <div xml:lang="en">
+                <head>Primary Sources</head>
+                <listBibl>
+                    <bibl>Brooks, E. W., ed. <hi rend="italic"
+                       >Lives of the Eastern Saints: John of Ephesus</hi><hi
+                       > Vol. 17, Patrologia Orientalis. Paris: Firmin-Didot,
+                        1923.</hi></bibl>
+                <bibl>――, ed. <hi rend="italic"
+                        >Lives of the Eastern Saints: John of Ephesus</hi><hi
+                        > Vol. 19, Patrologia Orientalis. Paris: Firmin-Didot, 1926.</hi></bibl>
+                <bibl>Cureton, William, ed. <hi rend="italic"
+                       >The Third Part of the Ecclesiastical History of John,
+                        Bishop of Ephesus</hi><hi>. Oxford: University Press,
+                        1853.</hi></bibl>
+                <bibl>John of Ephesus. <hi rend="italic"
+                       >Historiae Ecclesiasticae Pars Tertia -
+                        Textus.</hi><hi> CSCO. Paris: Typographeus
+                        Reipublicae, 1935.</hi></bibl>
+                <bibl><hi
+                       >Justinian. "Corpus Iuris Civilis, Vol.3: Novellae."
+                        edited by R. Schoell and G. Kroll. Dublin: Weidmann, 1972.</hi></bibl>
+                <bibl><hi
+                       >Nestorius. "The Bazaar of Heracleides." edited by G.
+                        R. Driver and Leonard Hodgson. Oxford: Clarendon Press, 1925.</hi></bibl>
+                <bibl>Schwartz, Edward, ed. <hi rend="italic"
+                       >Acta Concilorum Oecumenicorum</hi><hi
+                       > Vol. 1. Berlin: Walter de Gruyter &amp; co.,
+                        1933.</hi></bibl>
+                <bibl><hi
+                       >Payne-Smith, Robert, trans. "The Third Part of the
+                        Ecclesiastical History of John, Bishop of Ephesus." Oxford: Oxford
+                        University Press, 1860.</hi></bibl>
+                </listBibl>
+                </div>
+                <div xml:lang="en">
+                <head>Secondary Sources</head>
+                <listBibl>
+                    <bibl>Alivisatos, Hamilcar Spyridonos. <hi
+                        rend="italic">Die Kirchliche Gesetzgebung Des Kaisers
+                        Justinian I.</hi><hi> Neue Studien Zur Gesch. D.
+                        Theol. U. D. Kirche 17. Berlin: Trowitzsch &amp; Sohn, 1913.</hi></bibl>
+                <bibl>Ashbrook Harvey, Susan. <hi rend="italic"
+                       >Asceticism and Society in Crisis : John of Ephesus
+                        and the Lives of the Eastern Saints.</hi><hi>
+                        Transformation of the Classical Heritage. Berkeley: University of California
+                        Press, 1990.</hi></bibl>
+                <bibl>Bablitz, Leanne. "Roman Courts and Private
+                        Arbitration." In <hi rend="italic">The Oxford
+                        Handbook of Roman Law and Society</hi><hi>, edited by
+                        Paul J. du Plessis, Clifford Ando and Kaius Tuori. Oxford Handbooks. Oxford:
+                        Oxford University Press, 2016.</hi></bibl>
+                <bibl>Booth, Philip. "Towards the Coptic Church: The Making
+                        of the Severan Episcopate." <hi rend="italic"
+                        >Millennium </hi><hi>14 (2018).</hi></bibl>
+                <bibl>Cameron, Averil. "Early Byzantine Kaiserkritik: Two
+                        Case Histories." <hi rend="italic">Byz. mod.
+                        Greek stud </hi><hi>3, no. 1 (1977): 1-17.</hi></bibl>
+                <bibl>――. "The Early Religious Policies of Justin II"
+                        <hi rend="italic">Studies in church history
+                        </hi><hi>13 (1976): 51-67.</hi></bibl>
+                <bibl>Chadwick, Henry. "Zeno’s Henotikon, Rome’s Fury, and
+                        the Acacian Schism: Dionysius Exiguus." In <hi rend="italic"
+                       >East and West: The Making of a Rift in the Church:
+                        From Apostolic Times until the Council of Florence</hi><hi
+                       >, 50-54: Oxford University Press, 2003.</hi></bibl>
+                <bibl>Debié, Muriel. <hi rend="italic"
+                       >L'écriture De L'histoire En Syriaque : Transmissions
+                        Interculturelles Et Constructions Identitaires Entre Hellénisme Et Islam :
+                        Avec Des Répertoires Des Textes Historiographiques En Annexe.</hi><hi
+                       > Late Antique History and Religion ; Volume 12.
+                        Leuven: Peeters, 2015.</hi></bibl>
+                <bibl><hi
+                       >――. "Du Grec En Syriaque : La Transmission Du Récit
+                        De La Prise D'amid (502) Dans L'historiographie Byzantine." </hi><hi
+                        rend="italic">Byzantinische Zeitschrift </hi><hi
+                       >96:2 (2004): 601-22.</hi></bibl>
+                <bibl>――. "Syriac Historiography and Identity Formation."
+                        <hi rend="italic">CHRC </hi><hi
+                       >89:1 (2009): 93-114.</hi></bibl>
+                <bibl>Dyakonov, Alexander Petrovich. <hi rend="italic"
+                       >John of Ephesus and His Ecclesiastical-Historical
+                        Works.</hi><hi> Saint Petersburg: V. F. Kirschbaum,
+                        1908.</hi></bibl>
+                <bibl>Farag, Mary K. <hi rend="italic"
+                       >What Makes a Church Sacred? : Legal and Ritual
+                        Perspectives from Late Antiquity.</hi>
+                    <hi>University of California Press, 2021.</hi></bibl>
+                <bibl>Feissel, Denis. "Pétitions Aux Empereurs Et Formes Du
+                        Rescrit." In <hi rend="italic">La Pétition En
+                        Byzance</hi><hi>, edited by Jean Gascou Denis
+                        Feissel, 33-52. Paris: Peeters, 2004.</hi></bibl>
+                <bibl>Goodyear, F. R. D. <hi rend="italic"
+                       >The Annals of Tacitus</hi><hi
+                        >, Cambridge Classical Texts and Commentaries 15, 23 (Cambridge: Cambridge
+                        University Press, 1972).</hi>
+                </bibl>
+                <bibl>Graumann, Thomas. "Council Proceedings and Juridical
+                        Process: The Cases of Aquileia (Ad 381) and Ephesus (Ad 431)." <hi
+                        rend="italic">Studies in church history </hi><hi
+                       >43 (2007): 100-13.</hi></bibl>
+                <bibl>Grazianskij, Michael V. "Kaiser Justinian Und Das
+                        Erbe Des Konzils Von Chalkedon." Franz Steiner Verlag, 2021.</bibl>
+                <bibl>Harries, Jill, and I. N. Wood. <hi rend="italic"
+                       >The Theodosian Code: Studies in the Imperial Law of
+                        Late Antiquity.</hi><hi> Bristol Classical
+                        Paperbacks. 2nd ed. London: Bristol Classical Press, 2010.</hi></bibl>
+                <bibl>Humfress, Caroline. "Law and Legal Practice in the
+                        Age of Justinian." Chap. 7 In <hi rend="italic"
+                        >The Cambridge Companion to the Age of Justinian</hi><hi
+                       >, edited by Michael Maas, 161-84. Cambridge:
+                        Cambridge University Press, 2005.</hi></bibl>
+                <bibl>――. <hi rend="italic"
+                        >Orthodoxy and the Courts in Late Antiquity.</hi><hi>
+                        Oxford: Oxford University Press, 2007.</hi></bibl>
+                <bibl>Leppin, Hartmut. "The Roman Empire in John of
+                        Ephesus' Church History: A Romano-Syriac's Perspective." In <hi
+                        rend="italic">Historiography and Space in Late
+                        Antiquity</hi><hi>, edited by Peter van Nuffelen.
+                        Cambridge: Cambridge University Press, 2019.</hi></bibl>
+                <bibl><hi
+                       >Mazzola, Marianna. "Bar ‘Ebroyo’s Ecclesiastical
+                        History: Writing Church History in the 13th Century Middle East." Université
+                        Paris sciences et lettres; Universiteit Gent, 2018.</hi></bibl>
+                <bibl>Menze, Volker L. <hi rend="italic"
+                       >Justinian and the Making of the Syrian Orthodox
+                        Church.</hi><hi> Oxford Early Christian Studies.
+                        Oxford: Oxford University Press, 2008.</hi></bibl>
+                <bibl>Menze, Volker L., and Kutlu Akalin. <hi
+                        rend="italic">John of Tella’s "Profession of Faith":
+                        The Legacy of a Sixth-Century Syrian Orthodox Bishop.</hi><hi
+                       > Texts from Christian Late Antiquity. Piscataway, NJ:
+                        Gorgias Press, 2009.</hi></bibl>
+                <bibl>Price, Richard. "Presidency and Procedure at the
+                        Early Ecumenical Councils." <hi rend="italic"
+                        >Annuarium Historiae Conciliorum </hi><hi>41:2
+                        (2009): 241-74.</hi></bibl>
+                <bibl>Saint-Laurent, Jeanne-Nicole Mellon. <hi
+                        rend="italic">Missionary Stories and the Formation of
+                        the Syriac Churches.</hi><hi> Transformation of the
+                        Classical Heritage ; 55. Oakland, California: University of California
+                        Press, 2015.</hi></bibl>
+                <bibl>Steinwenter, Artur. "Der Antike Kirchliche Rechtsgang
+                        Und Seine Quellen." <hi rend="italic"
+                        >Zeitschrift der Savigny-Stiftung für Rechtsgeschichte. Kanonistische
+                        Abteilung </hi><hi>23:1 (1934): 1-116.</hi></bibl>
+                <bibl><hi
+                       >van Ginkel, J. "John of Ephesus : A Monophysite
+                        Historian in Sixth-Century Byzantium." Rijksuniversiteit Groningen,
+                        1995.</hi></bibl>
+                <bibl>――. "John of Ephesus on Emperors: The Perception of
+                        the Byzantine Empire by a Monophysite." <hi rend="italic"
+                       >Orientalia Christiana Analecta </hi><hi
+                       >247 (1994): 323-33.</hi></bibl>
+                <bibl>Wood, Philip. "The Idea of Freedom in the Writings of
+                        Non-Chalcedonian Christians in the Fifth and Sixth Centuries." <hi
+                        rend="italic">History of European ideas </hi><hi
+                       >44:6 (2018): 774-94.</hi></bibl>
+                <bibl>――. <hi rend="italic">'We
+                        Have No King but Christ' : Christian Political Thought in Greater Syria on
+                        the Eve of the Arab Conquest (C.400-585).</hi><hi>
+                        Oxford Studies in Byzantium. Oxford: Oxford University Press, 2010.</hi></bibl>
+                <bibl><hi
+                       >Woodman, A. J. "Mutiny and Madness: Tacitus "Annals"
+                        1.16-49." </hi><hi rend="italic">Arethusa </hi><hi
+                       >39:2 (2006): 303-29.</hi></bibl>
+                </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
