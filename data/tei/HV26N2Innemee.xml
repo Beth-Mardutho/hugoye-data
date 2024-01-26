@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Pages of a Chronicle on the Wall:</title>
+                <title type="sub">Texts, paintings, and chronology in Deir al-Surian</title>
+                <author>
+                    <name>
+                        <forename>Karel</forename>
+                        <surname>Innemée</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of Warsaw; University of Divinity, Melbourne</orgName>
+                    </affiliation>
+                </author>
+                <author>
+                    <name>
+                        <forename>Grzegorz</forename>
+                        <surname>Ochała</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>University of Warsaw</orgName>
+                    </affiliation>
+                </author>
+                <author>
+                    <name>
+                        <forename>Lucas</forename>
+                        <surname>Van Rompay</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Duke University</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2023</date>
+                <idno>Volume 26.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv26n2innemee</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Karel Innemée</author>
+                        <author>Grzegorz Ochała</author>
+                        <author>Lucas Van Rompay</author>
+                        <title level="a">Pages of a Chronicle on the Wall: Texts, paintings, and
+                            chronology in Deir al-Surian</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol26/HV26N2Innemee.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2023</date>
+                        </imprint>
+                        <biblScope type="vol" n="26">26</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="331" to="375">331-375</biblScope>
+                        <biblScope type="order" n="1"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Paintings</term>
+                    <term>Monastery</term>
+                    <term>Deir al-Surian</term>
+                    <term>Archaeology</term>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2024-01-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+            <div type="acknowledgements">
+                <head>Acknowledgements</head>
+                <p xml:lang="en">The research and conservation project of Deir al-Surian was carried
+                    out with financial support of the Polish National Center of Science (NCN, grant
+                    nr. 2015/18/M/HS3/00621) and the Dioraphte Foundation (The Netherlands). At
+                    present the project is funded by the Gerda Henkel Stiftung (Germany).</p>
+            </div>
+        </front>
+        <body>
+
+            <div xml:lang="en" xml:id="h26n1innemee.1">
+                <head>1.Introduction (K.C. Innemée)</head>
+                <p xml:lang="en">Since the beginning of the research and conservation work in the
+                    church of the Holy Virgin in Deir al-Surian, attempts have been made to map the
+                    development of the building’s architecture and decoration (paintings, stucco,
+                    woodwork). At first, only a relative chronology could be sketched, based on the
+                    stratification of layers of plaster and paintings, but gradually, more and more
+                    information came to light that allows scholars to establish a more absolute
+                    chronology. Several important modifications and refurbishments of the church
+                    were done during the abbacy of Moses of Nisibis, in the first half of the tenth
+                    century, and although they cannot all be dated exactly, an increasingly precise
+                    image of the activities commissioned by him is slowly taking shape. The
+                    modification of the place where the most important church relics were kept and
+                    venerated can now be reconstructed based on recently uncovered paintings and a
+                    Coptic dipinto. </p>
+                <p xml:lang="en">An essential factor in establishing a more absolute chronology is
+                    the discovery of several dated inscriptions (dipinti). In some cases, they refer
+                    to events that play a role in the history of the monastery and its community and
+                    thus serve as an essential source of information. On the other hand, such dated
+                    inscriptions can also be used as <hi rend="italic">terminus post quem</hi> for
+                    the layers of (painted) plaster that cover(ed) these inscriptions. </p>
+                <p xml:lang="en"> The present paper presents three recently discovered inscriptions
+                    that are important as documents in the history of the monastic community of Deir
+                    al-Surian and provide evidence for dating the layers in the stratification of
+                    paintings in the church. Based on these inscriptions, an adjusted overview will
+                    be given of the chronology of the phases in the stratification of mural
+                    paintings in the church, with particular attention to the eastern wall of the
+                    northern side-aisle.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n1innemee.2">
+                <head>2. Newly discovered inscriptions</head>
+                <div xml:lang="en" xml:id="h26n1innemee.2.1">
+                    <head>2.1. Funerary inscription of <hi rend="italic">abba</hi> Kuri (G.
+                        Ochała)</head>
+                    <p xml:lang="en">In 2019, a Greek text was found on the first layer of plaster,
+                        just right of the doorway in the northern side-aisle. The text contains an
+                        annual date, a rare case in the epigraphic corpus from the church. Moreover,
+                        the date at the very beginning of the eighth century makes the inscription
+                        the earliest dated text from the church and, as such, is a critical
+                        chronological anchor for its history in general and for the development of
+                        its painted decoration in particular.</p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image1.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 1 The funerary inscription of Abba Kuri</p>
+                    <p xml:lang="en">The inscription was painted in red and enclosed within a
+                        decorative border, also in red (fig. 1). The decoration consists of a zigzag
+                        pattern filled in alternately with single dots and wavy vertical lines. Only
+                        the lower part of the text has survived, preserving the last ten lines and
+                        measuring approximately 22 x 32 cm (together with the border). The border
+                        survives almost completely in the bottom, and a small fragment is visible on
+                        the right, at the height of lines 5–7. The left borderline is entirely lost,
+                        but the text in lines 7–9 appears to be complete; hence, the total width of
+                        the composition can be reconstructed at 38 cm. The preservation of the
+                        surviving text is not perfect, and the paint is obliterated in many places,
+                        especially in the upper and right parts, making the reading very
+                        difficult.</p>
+                    <p xml:lang="en">The script is distinct and executed by a skilled scribe, but
+                        the size of particular letters can differ per line. Palaeographically, the
+                        text represents upright epigraphic majuscule with elements of minuscule
+                        script, most notably the shape of the <hi rend="italic">mu</hi> (ll. 4 and
+                        7) and the <hi rend="italic">alpha</hi> (ll. 4, 5, and 8). Note also the
+                        angular shape of the <hi rend="italic">epsilon</hi> (ll. 3, 5, 6, and 8),
+                        which can get a more lunar look when the script gets smaller (ll. 8 and 9).
+                        The scribe consistently used a supralinear dot to mark the <hi rend="italic"
+                            >upsilon </hi>in the final position.</p>
+                    <p xml:lang="en">In line 2, two thin, slightly slanting strokes are visible
+                        between <foreign xml:lang="gr">δι</foreign> and <foreign xml:lang="gr"
+                            >ου̣</foreign>. They do not seem to be abbreviation marks or
+                        interpunction signs. Instead, they appear to mark off a brake in the text of
+                        this line caused by the unusually tall <hi rend="italic">ksi</hi> from line
+                        1, the tail of which extends to the upper part of the <hi rend="italic"
+                            >kappa</hi> in line 3. The strokes would thus be an <hi rend="italic">ad
+                            hoc</hi> typographic device employed by the scribe to amend the mistake
+                        in the planning of the text.</p>
+                    <p><hi rend="bold">Diplomatic transcription</hi></p>
+                    <p>1 [5–6] ̣[3–4] <foreign xml:lang="gr">̣ξ̣ου̇</foreign> ̣[ ̣ ̣] ̣ ̣[5–6]</p>
+                    <p>2 [3–4] <foreign xml:lang="gr">̣ω̣ρωδι</foreign>/ <hi rend="italic">vac.</hi>
+                            /<foreign xml:lang="gr">ου̣τροφ</foreign> ̣ ̣[3–4]</p>
+                    <p>3 [2–3] <foreign xml:lang="gr">̣ιπιθου̇κετυ̇ϲτ</foreign>[ ̣ ̣ ̣ ̣]ο̣φ̣</p>
+                    <p>4 [2]<foreign xml:lang="gr">ο̣υ̇αμβακ̣υ̣ρ̣ι̣δ̣ι̣α̣</foreign> ̣ ̣ ̣ ̣
+                        ̣[3–4]</p>
+                    <p>5 [ ̣ ̣]<foreign xml:lang="gr">α̣γνω̣ϲ̣του̇κεκαλο̣ν̣ο̣μ̣</foreign> ̣ ̣
+                        ̣ν̣</p>
+                    <p>6 [ ̣ ̣]<foreign xml:lang="gr">κ̣ρ̣ωνλυπωνπεδιωναυ̣τ̣ο̣υ̣</foreign></p>
+                    <p>7 <foreign xml:lang="gr">α̣μην̣ευξαϲ̣τεπε̣ριυ̣μω̣ν̣</foreign></p>
+                    <p>8 <foreign xml:lang="gr">πατερεϲκε̣α̣δελ̣φ̣</foreign>·ε̣γ̣ρ̣α̣</p>
+                    <p>9 <foreign xml:lang="gr">φη μ̣μ̣εχ̣ιρ κα δ</foreign><hi rend="subscript"
+                            >/</hi>
+                        <foreign xml:lang="gr">ι̣α̣ε̣το̣υϲ̣</foreign>[?]</p>
+                    <p>10 [ ̣]<foreign xml:lang="gr">ο̣υ̇κλη̣τ̣ιαν̣ου̣υ̇λ</foreign> α ̣ ̣ ̣ ̣ν[ ̣
+                        ̣]</p>
+                    <p/>
+                    <p><hi rend="bold">Reading text</hi></p>
+                    <p>1 [5–6] ̣[3–4] <foreign xml:lang="gr">̣ξ̣ου</foreign> ̣[ ̣ ̣] ̣ ̣[5–6]</p>
+                    <p>2 [3–4] <foreign xml:lang="gr">̣ω̣ρωδι</foreign>/ <hi rend="italic">vac.
+                            </hi>/<foreign xml:lang="gr">ου̣ τροφ</foreign> ̣ ̣[3–4]</p>
+                    <p>3 [2–3] <foreign xml:lang="gr">̣ιπιθου κὲ τ(ο)ῦ στ[εφαν]ο̣φ</foreign>̣- ̣</p>
+                    <p>4 <foreign xml:lang="gr">[όρ]ο̣υ ἄμβα Κ̣ύ̣ρ̣ι̣ δι̣α</foreign>̣ ̣ ̣ ̣ ̣
+                        ̣[3–4]</p>
+                    <p>5 <foreign xml:lang="gr">[ἀν]α̣γνώστου. κὲ κάλο̣ν̣ ὀ̣μ</foreign>̣ ̣ ̣ ̣ν̣</p>
+                    <p>6 <foreign xml:lang="gr">[μι]κ̣ρ̣ὼν λύπων πεδίων αὐ̣τ̣ο̣ῦ̣</foreign></p>
+                    <p>7 <foreign xml:lang="gr">ἀ̣μήν̣. εὔξασ̣τε πε̣ρὶ ὑ̣μῶ̣ν</foreign>̣</p>
+                    <p>8 <foreign xml:lang="gr">πατέρες κὲ̣ ἀ̣δελ̣φ̣(οί). · ἐ̣γ̣ρ̣α</foreign>̣</p>
+                    <p>9 <foreign xml:lang="gr">φη μ̣(ηνί) Μ̣έχ̣ιρ κ̣α΄ (ἰν)δ(ικτιῶνος) ι̣α̣΄
+                            ἔ̣τ̣ο̣υ̣ς</foreign>̣ [?]</p>
+                    <p>10 <foreign xml:lang="gr">[τ]ο̣ῦ (Διο)κλη̣τ̣ιαν̣οῦ̣ υλ΄ α ̣ ̣ ̣ ̣ν</foreign>[
+                        ̣ ̣]</p>
+                    <p/>
+                    <p>3. l. <foreign xml:lang="gr">καί</foreign> || 4. l. <foreign xml:lang="gr"
+                            >ἄββα</foreign> || 5. l. <foreign xml:lang="gr">καί</foreign> || 6. l.
+                            <foreign xml:lang="gr">[μι]κρὸν λιπὼν παιδίον</foreign> || 7. l.
+                            <foreign xml:lang="gr">εὔξασθε</foreign> | l. <foreign xml:lang="gr"
+                            >ἡμῶν</foreign> || 8. l. <foreign xml:lang="gr">καί</foreign></p>
+                    <p>1 …</p>
+                    <p>2 …</p>
+                    <p>3 …<hi rend="italic"> and crown-</hi></p>
+                    <p>4 <hi rend="italic">bearing abba Kuri, … </hi></p>
+                    <p>5 <hi rend="italic">lector. And beautifully … </hi></p>
+                    <p>6 <hi rend="italic">leaving his small child, </hi></p>
+                    <p>7 <hi rend="italic">amen. Pray for us, </hi></p>
+                    <p>8 <hi rend="italic">O fathers and brothers. (It was) writ-</hi></p>
+                    <p>9 <hi rend="italic">ten in the month of Mechir, (day) 21, in the 11th
+                            indiction, in the year </hi></p>
+                    <p>10 <hi rend="italic">430 from Diocletian. …</hi></p>
+                    <p xml:lang="en">The text is badly damaged in its upper part, but the phrase
+                        “having left his small child”<note place="foot" xml:id="ftn2" n="2"><p> The
+                                anonymous peer-reviewer of our article suggested to interpret the
+                                phrase as <foreign xml:lang="gr">[μι/μα]κρῶν λυπῶν πεδίων (l.
+                                    παιδίων) αὐτοῦ</foreign>, “of small [great] griefs concerning
+                                his [?] children”. While this interpretation has the merit of not
+                                having to accept as many as four phonological alterations in three
+                                words as we propose (twice ω for ο, once υ for ι, and once ε for
+                                αι), it, nevertheless, does not offer a convincing sense for the
+                                whole text. Moreover, all these phonological alterations are very
+                                well attested in late Greek: Gignac 1976, 192–193 (αι/ε
+                                interchange), 267–273 (υ/ι interchange), 275–277 (ο/ω
+                                interchange).</p></note> in line 6 indicates that the inscription
+                        most probably had a funerary/commemorative character. At the beginning of
+                        the dipinto, we find a fragment of the presentation of the commemorated
+                        person (ll. 3–6); the name of the person is in the genitive, which suggests
+                        the use of a formula such as “Remember, O God, the falling asleep of NN”,
+                        “Lord, give rest to the soul of NN”, or “For the commemoration of NN”.<note
+                            place="foot" xml:id="ftn3" n="3"><p> E.g. Lefebvre 1907, no. 15
+                                (Alexandria), ll. 1–2: <foreign xml:lang="gr">μνησθίη ὁ θεὸς τῆσ
+                                    κοιμήσεος</foreign>; no. 62 (Hermopolis Parva), ll. 1–3:
+                                    <foreign xml:lang="gr">κύριε ἀνάπαυσον τὴν ψυχὴν τοῦ δούλου
+                                    σου</foreign>; no. 282 (Akhmim), ll. 1–2: <foreign xml:lang="gr"
+                                    >ὑπὲρ μνήμης</foreign>. For an overview, see Tudor 2011,
+                                146–157.</p></note> The presentation closes with the phrase “And
+                        beautifully … leaving his small child, amen”, which has personal and
+                        emotional character;<note place="foot" xml:id="ftn4" n="4"><p> Starting a
+                                new sentence with <foreign xml:lang="gr">καί</foreign> is nothing
+                                unusual in ancient Greek and is an element of spoken language
+                                (personal communication of Adam Łajtar).</p></note> the last word in
+                        line 5 could be, in our opinion, a verbal form designating the departure of
+                        the commemorated person from this world (i.e. “And he beautifully died/fell
+                        asleep/went to rest etc.”), but we could not find an appropriate form
+                        matching the preserved letters.<note place="foot" xml:id="ftn5" n="5"><p> In
+                                fact, such interpretation allows us to take the form λυπων as the
+                                nominative singular of the aorist active participle of <foreign
+                                    xml:lang="gr">λείπω</foreign>, “to leave”, that is <foreign
+                                    xml:lang="gr">λυπών</foreign> for <foreign xml:lang="gr"
+                                    >λιπών</foreign>, rather than the plural genitive of <foreign
+                                    xml:lang="gr">λυπή</foreign>, “grief”, that is <foreign
+                                    xml:lang="gr">λυπῶν</foreign>; see n. 2 above.</p></note> What
+                        follows is an exhortation to prayer (ll. 7–8), and the dating clause (ll.
+                        8–10). </p>
+                    <p xml:lang="en">Luckily, what survives from the presentation is the deceased’s
+                        name, honorific title, and function. We learn from it that <hi rend="italic"
+                            >abba</hi> Kuri, described with the epithet “crown-bearing”,<note
+                            place="foot" xml:id="ftn6" n="6"><p> The dictionary form of the
+                                adjective is <foreign xml:lang="gr">στεφανηφόρος</foreign>, from
+                                    <foreign xml:lang="gr">στεφανηφορέω</foreign>, but forms with
+                                the <hi rend="italic">omicron are found on occasion in Hellenistic
+                                    and Roman inscriptions (e.g. a list of magistrates from Smyrna,
+                                    </hi><hi rend="italic">CIG 3150, l. 1: ἐπὶ στεφανοφόρου Κόρρης).
+                                    More importantly, the adjective is used in this form with
+                                    reference to a deceased (but, admittedly, a holy deceased) in a
+                                    Coptic papyrus document from Thebes of a date in the 8th
+                                    century, just as our inscription, published in Crum 1912, no.
+                                    15, ll. 32–35: </hi><foreign xml:lang="cop">ⲡⲁⲑⲗⲟⲫⲟⲣⲟⲥ ⲁⲩⲱ
+                                    ⲡⲛⲓⲕⲟⲫⲟⲣⲟⲥ ⲁⲩⲱ ⲥⲧⲉⲫⲁⲛⲟⲫⲟⲣⲟⲥ ⲡⲕⲁⲗⲛⲓⲕⲟⲥ ⲁⲩⲱ ⲡⲙⲁⲣⲧⲩⲣⲟⲥ ⲉⲧⲣ ⲟⲩⲟⲉⲓⲛ
+                                    ⲉⲃⲟⲗ ⲡϩⲁⲅⲓⲟⲥ ⲁⲃⲃⲁ ⲃⲓⲕⲧⲱⲣ</foreign> , “the prize-bearer, victor,
+                                crown-bearer, triumphant, martyr who shines, the holy <hi
+                                    rend="italic">abba Victor”.</hi></p></note> was a lector (<hi
+                            rend="italic">anagnostes</hi>); what was written at the end of line 4
+                        was apparently his other function (probably starting with <hi rend="italic"
+                            >dia-</hi>, but rather not διάκονος). While this is not mentioned (or
+                        not preserved) in the inscription, from the fact that the text was placed on
+                        the wall of the monastic church, we may surmise that Kuri was a monk of Deir
+                        al-Surian or a member of the Church of the Virgin. An exciting feature of
+                        the inscription is a rare reference to the pre-monastic life of the
+                        deceased. Line 6 informs us that Kuri “left a small child”.<note
+                            place="foot" xml:id="ftn7" n="7"><p> For a similar phrase, but in a
+                                woman’s epitaph from Banganarti in Nubia (prob. 853/4), see Łajtar
+                                2007, 135–137, with a correction to the interesting place in
+                                Diethart 2015: κ̣α̣[ταλιποῦ]|σα ἀμήτορα στ̣[ένοντα τέ]|κνα, “having
+                                left motherless weeping children”.</p></note> This can mean that he
+                        either became a monk not long after his child had been born or was not a
+                        monk but only a cleric. </p>
+                    <p xml:lang="en">The next lines of the text (ll. 7–8) address the “fathers and
+                        brothers”, meaning here undoubtedly the most natural readers of the
+                        inscription, the monks of Deir al-Surian.<note place="foot" xml:id="ftn8"
+                            n="8"><p> For an analogous phrase, but with reference to the “holy
+                                fathers”, that is the deceased members of the community who are to
+                                intercede in front of the Lord for the commemorated person, see a
+                                dipinto from Kellia: N. Bosson in Bridel 1999, 445, no. 182, ll.
+                                4–6: ἅγιοι πατέρες | εὔξασθε περ⟨ὶ⟩ τοῦ | ἀδ̣ελφοῦ Ρούφου, “Holy
+                                fathers, pray for brother Rufus”.</p></note> They all are implored
+                        to “pray for us ”,<note place="foot" xml:id="ftn9" n="9"><p>
+                                <foreign xml:lang="gr">ὑμῶν</foreign> for <foreign xml:lang="gr"
+                                    >ἡμῶν</foreign> is a common orthography of late Greek texts due
+                                to iotacism: Gignac 1976, 264. E.g. P. Cherix in Bridel 1994, 2:436,
+                                no. 254, l. 6, or R. Kasser, J. Partyka, and N. Bosson in Bridel
+                                1999, 312, no. 149, l. 5, both <foreign xml:lang="gr">ὑμᾶς</foreign>
+                                for <foreign xml:lang="gr">ἡμᾶς</foreign>.</p></note> which can
+                        refer either more generally to the whole monastic community, struck by the
+                        departure of one of its members, or, more specifically, to Kuri’s widow and
+                        his orphaned child, who ask for prayers in their time of need.</p>
+                    <p xml:lang="en">The two last lines of the inscription contain the most crucial
+                        piece of information from the viewpoint of the present article, namely the
+                        exact date of <hi rend="italic">abba</hi> Kuri’s death. The event is dated
+                        to Mecheir 21 in the year 430 of the Era of Diocletian,<note place="foot"
+                            xml:id="ftn10" n="10"><p> To the best of our knowledge, the form
+                                κλητιανοῦ has so far been unattested in Greek epigraphic and
+                                papyrological sources in the dating formulae according to the Era of
+                                Diocletian, but a Coptic funerary inscription from Antinoe (Hasitzka
+                                1993, no. 768) has <foreign xml:lang="cop">ⲕⲗⲏⲇⲓⲁⲛⲟⲩ</foreign> (l.
+                                11), which renders our reading entirely plausible.</p></note> which
+                        is 15 February 714 in the Julian calendar. One notes that the indiction date
+                        in the eleventh indictional year disagrees with the date according to the
+                        Diocletian Era by one year: year 430 from Diocletian was in fact the twelfth
+                        indiction. Such a discrepancy is not a common phenomenon but is sufficiently
+                        attested in both papyri and inscriptions.<note place="foot" xml:id="ftn11"
+                            n="11"><p> Bagnall and Worp 2004, 64–67</p></note></p>
+                </div>
+                <div xml:lang="en" xml:id="h26n1innemee.2.2">
+                    <head>2.2. Commemorative inscription of <hi rend="italic">papa </hi>Mouses (G.
+                        Ochała)</head>
+                    <p xml:lang="en">In 2018, a composition of paintings and an accompanying text
+                        were uncovered on the eastern wall of the northern side-aisle. The text was
+                        painted in black on two panels enclosed in a red-painted frame, measuring,
+                        respectively, 13 by 32 cm and 17 by 30 cm approximately. These two panels
+                        are located in the middle of the wall, with two military saints, St
+                        Eustathios and St Theodoros Orientalis above and two others, St Jacob the
+                        Persian and St Leontios, below (figs. 2-4). Although the panels do not
+                        include an exact annual date, they provide an important chronological anchor
+                        for dating the painted decoration in the Church of the Virgin. The
+                        paleography of the text, with tall letters of book style decorated with
+                        serifs and a cross-like central part of the <hi rend="italic">omega</hi>,
+                        resembles that of the long inscription running around the central dome of
+                        the <hi rend="italic">khurus</hi>. This is all the more so since both texts
+                        have the same function, commemorating the persons who supposedly were
+                        responsible for decorating both spaces, and they date from the same period
+                        (see below). Unfortunately, the left panel is almost completely obliterated
+                        in its right part, which makes interpreting the text significantly more
+                        difficult. However, considering the inscription’s context, it is possible to
+                        propose a reconstruction.<note place="foot" xml:id="ftn12" n="12"><p> We owe
+                                thanks to Anne Boud’hors and Jacques van der Vliet who agreed to
+                                read the first draft of this edition and suggested a number of
+                                improvements.</p></note> The text bears traits of Nitrian Bohairic
+                            (<foreign xml:lang="cop">ϫⲓ</foreign> for <foreign xml:lang="cop"
+                            >ϭⲓ</foreign> in A, l. 3) and non-literary Bohairic (the conjunctive <hi
+                            style="font-family:Antinoou">ⲧⲉ</hi> in B, l. 3, and the absence of
+                        nasal-labial assimilation in <foreign xml:lang="cop">ⲛⲡⲁⲡⲁ</foreign> in B,
+                        l. 1)</p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image2.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 2 The eastern wall of the northern side-aisle</p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image3.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 3 First part of the inscription</p>
+                    <p>A</p>
+                    <p>1 [†] <foreign xml:lang="cop">ⲛ̣ⲁⲓⲗⲓⲙⲏⲛ ⲉⲧⲁⲛⲉⲣⲍⲱ̣[ⲅⲣ]ⲁ̣ⲫ̣ⲓ̣[ⲛ
+                        ⲙⲙⲱ-]</foreign></p>
+                    <p>2 <foreign xml:lang="cop">ⲟⲩ ⲥⲁⲡϣⲱⲓ ⲛ̇ⲧⲁⲓ̣ⲥ̣ⲁ̣ⲏ̣ⲉ̣ ⲛ̣ϩ̣ⲓ̣ⲕ̣[ⲱⲛ
+                        ⲁⲩ-]</foreign></p>
+                    <p>3 <foreign xml:lang="cop">ϫⲓ ⲙ̣̇ⲙⲉⲗⲟⲥ ⲛⲧⲉ ⲡⲟⲩⲥ̣ⲱ̣[ⲙⲁ ⲉⲑⲟⲩⲁⲃ.]</foreign></p>
+                    <p>4 <foreign xml:lang="cop">ⲗⲓⲡⲟⲛ ⲙⲁ̣ⲣⲉⲛϣⲱⲡ̣ⲓ̣ ϧ̣ⲉ̣ⲛ̣ [ⲟⲩⲧⲱⲙⲧ.]</foreign></p>
+                    <p>1. <foreign xml:lang="gr">ζωγραφεῖν</foreign> || 2. l. <foreign
+                            xml:lang="cop">ⲥⲁⲓⲉ</foreign>; <foreign xml:lang="gr">εἐκών</foreign> ||
+                        3. <foreign xml:lang="gr">μέλος; σῶμα</foreign> || 4. l. <foreign
+                            xml:lang="cop">ⲗⲟⲓⲡⲟⲛ</foreign>, <foreign xml:lang="gr"
+                        >λοιπόν</foreign></p>
+                    <p>1 <hi rend="italic">† These portraits, which we have painted </hi></p>
+                    <p>2 <hi rend="italic">above this beautiful image, have</hi>
+                    </p>
+                    <p>3 <hi rend="italic">received the members of their [holy] body. </hi></p>
+                    <p>4 <hi rend="italic">Hence, let us be [amazed</hi><note place="foot"
+                            xml:id="ftn13" n="13"><p> This reconstruction was proposed to us by
+                                Jacques van der Vliet, who also noted that other words could be
+                                supplemented here as well, e.g. <foreign xml:lang="cop"
+                                    >ϩⲟϯ</foreign>, “fear”, or <foreign xml:lang="cop"
+                                    >ⲥⲑⲱⲧ</foreign><hi>, “trembling”.</hi></p></note><hi
+                            rend="italic"> (?)].</hi></p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image4.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 4 Second part of the inscription</p>
+                    <p>B</p>
+                    <p>1 † <foreign xml:lang="cop">ⲁⲣⲓ ⲫⲙⲉⲩⲓ̣ ⲛⲡⲁⲡⲁ ⲙⲱⲩ̣ⲥⲏⲥ̣</foreign>
+                    </p>
+                    <p>2 <foreign xml:lang="cop">ⲡⲓⲟⲓⲕⲟⲛⲟ̣ⲙⲟⲥ (ⲟⲩⲟϩ) ⲡⲓϩⲩ̇ⲕⲟⲩⲙⲉⲛⲟ(ⲥ)</foreign></p>
+                    <p>3 <foreign xml:lang="cop">ⲛⲧⲉ ⲧⲁⲓⲉ̣ⲕ̣ⲕⲗ(ⲏⲥⲓⲁ). ⲧⲉ ⲡⲟ︦ⲥ ⲥⲙⲟⲩ ⲉ̇ⲣⲟϥ</foreign>
+                    </p>
+                    <p>4 <foreign xml:lang="cop">ϫⲉ ⲛⲑⲟϥ ⲉ[ⲑ]ϥ̣ⲓⲣⲱⲟⲩϣ. ⲁ̇ⲙⲏⲛ. ~</foreign>
+                    </p>
+                    <p>2. inscr. <foreign xml:lang="cop">ⲡⲓⲟⲓⳤ⸌ⲟ⸍ⲛⲟ̣ⲙⲟⲥ</foreign>, <foreign
+                            xml:lang="gr">οἰκόνομος</foreign>; <foreign xml:lang="cop">ⲋ</foreign>;
+                        inscr. <foreign xml:lang="cop">ⲡⲓϩⲩ̇ⲕⲟⲩⲙⲉⲛ⸌ⲟ⸍</foreign>; <foreign
+                            xml:lang="gr">ἡγούμενος</foreign> || 3. inscr. <foreign xml:lang="cop"
+                            >ⲧⲁⲓⲉ̣ⲕ̣ⳤ⸌ⲗ⸍</foreign>, <foreign xml:lang="gr">ἐκκλησία</foreign></p>
+                    <p>1 <hi rend="italic">† Remember papa Mouses, </hi></p>
+                    <p>2 <hi rend="italic">the oikonomos and hegoumenos </hi></p>
+                    <p>3 <hi rend="italic">of this church. May the Lord bless him, </hi></p>
+                    <p>4 <hi rend="italic">for he is the one who provides. Amen.</hi></p>
+                    <p xml:lang="en">As mentioned above, the dipinto is comparable with another text
+                        from the same church, the long inscription running around the central dome.
+                        The latter is regrettably quite lacunary but appears to commemorate the act
+                        of founding the painted decoration of the dome. What is wholly preserved are
+                        the names of several persons seemingly involved in the whole enterprise,
+                        including <hi rend="italic">papa</hi><note place="foot" xml:id="ftn14"
+                            n="14"><p> For the title <hi rend="italic">papa</hi><hi>, occurring also
+                                    in the present text, interpreted as a monastic rather than
+                                    ecclesiastical title, see now the analysis in Laver
+                                2022.</hi></p></note> Aaron, deacon Ioannes, and – most notably in
+                        the present context – <hi rend="italic">papa</hi> Moses, <hi rend="italic"
+                            >oikonomos</hi> and <hi rend="italic">hegoumenos</hi>,<note place="foot"
+                            xml:id="ftn15" n="15"><p> The inscription is unpublished; G.O.’s reading
+                                of the fragment with the names from the photo: <foreign
+                                    xml:lang="cop">ⲡⲁⲡⲁ ⲙⲱⲩⲥⲏⲥ ⲡⲓϩⲓⲕⲟⲩ̣ⲙ̣ⲉ̣ⲛ̣ⲟⲥ
+                                    ⲡⲓ&lt;ⲓ&gt;ⲟⲓⲕⲟ̣ⲛⲟⲙⲟⲥ ⲛⲉⲙ ⲡⲁⲡⲁ ⲁϩⲁⲣⲱⲛ ⲛⲉⲙ̣ ⲡ̣ⲓⲇ̣ⲓⲁ̣ⲕⲟⲛ ⲓⲱⲁⲛⲛⲏⲥ
+                                    ⲁⲙⲏⲛ</foreign> , “<hi rend="italic">papa</hi> Mouses, <hi
+                                    rend="italic">hegoumenos</hi> (and) <hi rend="italic"
+                                    >oikonomos</hi> and <hi rend="italic">papa</hi> Aharon and
+                                deacon Ioannes. Amen".</p></note> without any doubt the same person
+                        as in the present text. In his 2009 article on Coptic epigraphy of Wadi
+                        al-Natrun monasteries, Jacques van der Vliet discusses this inscription and
+                        observes that the three men were representatives of “the monastic
+                        authorities in whose period of office and under whose supervision the dome
+                        above the <hi rend="italic">khurus</hi> was refurbished”. He further notes
+                        that they may have been “sponsors of the operation”, but concludes that –
+                        given the state of preservation of the text – their mention rather functions
+                        as a means of dating of the event during their service in the
+                            monastery.<note place="foot" xml:id="ftn16" n="16"><p> Van der Vliet
+                                2009, 336–37. </p></note> In the present inscription, by contrast,
+                        the reason for commemorating Moses is mentioned explicitly in the last line
+                        of part B as “he is the one who provides”. Admittedly, as the phrase is
+                        apparently in the present tense,<note place="foot" xml:id="ftn17" n="17"><p>
+                                It could also be reconstructed <foreign xml:lang="cop">ⲛⲑⲟϥ
+                                    ⲉ[ϥ]ϥ̣ⲓⲣⲱⲟⲩϣ</foreign> , where <foreign xml:lang="cop"
+                                    >ⲉϥ-</foreign> would be present II in its Nitrian form; the
+                                meaning would be basically the same.</p></note> this can be a
+                        general statement of Moses’s involvement in refurbishing the church,<note
+                            place="foot" xml:id="ftn18" n="18"><p> This includes the present
+                                painting, the decoration of the dome over the <hi rend="italic"
+                                    >khurus</hi>, the rebuilding of the sanctuary, and the two pairs
+                                of wooden doors leading to the <hi rend="italic">haikal and the <hi
+                                        rend="italic">khurus</hi> (the door inscriptions were edited
+                                    and discussed in Leroy 1974, 153–59; Brock 2012,
+                                18–19).</hi></p></note> not only this particular work. However, one
+                        notes that analogous verbs are used in Syriac inscriptions in connection
+                        with Moses’s activity: <hi rend="italic">isep</hi>, “he took care”, and <hi
+                            rend="italic">etḥappaṭ</hi>, “he strove”, with the meaning “he took the
+                            initiative”.<note place="foot" xml:id="ftn19" n="19"><p> E.g. in the
+                                inscription in wood dated 914: <hi rend="italic">isep
+                                    wa-bna</hi><hi>, “he took care and built” (Luk Van Rompay’s
+                                    translation; Leroy 1974, 154 translated “s’est occupé de faire
+                                    batir”; in Brock 2012, 18 one finds “was concerned to
+                                    build”).</hi></p></note> If so, then it is not inconceivable
+                        that his role here was not as a mere “chronological pointer”, but as the
+                        true initiator, founder, and supervisor of the work. The nature of this work
+                        is explicitly presented in part A of the text as “these portraits” (<foreign
+                            xml:lang="cop">ⲛ̣ⲁⲓⲗⲓⲙⲏⲛ</foreign>), most logically the painted
+                        composition adorning the wall, which the inscription accompanies.<note
+                            place="foot" xml:id="ftn20" n="20"><p> The word is often used for
+                                wall-paintings, see Godron 1983, 1-52, and idem 1990, 43-48; see
+                                also the note by Drescher 1976, 3-4. We thank Jacques van der Vliet
+                                for providing these references.</p></note> The unidentified “we”,
+                        repeated in line 4 in the phrase “let us be” (<foreign xml:lang="cop"
+                            >ⲙⲁⲣⲉⲛϣⲱⲡ̣ⲓ̣</foreign>) and thus perhaps meaning the whole monastic
+                        community, executed these paintings “above this beautiful image”. These
+                        portraits “received” – which must mean something like “represented” or
+                            “reproduced”<note place="foot" xml:id="ftn21" n="21"><p> We again thank
+                                Jacques van der Vliet for suggesting this interpretation.</p></note>
+                        – “the members of their [holy] body”. The unnamed “they” undoubtedly refers
+                        to the four military saints identified in the painting. The expression
+                        “members of their body”, although it should naturally be considered a
+                        euphemism for human figures painted on the wall, seems a little bizarre in
+                        the given context. However, there seems to be a plausible explanation for
+                        its use here. As we believe, the wooden reliquary discussed above, adorned
+                        with the figures of the same saints as those represented on the wall, was
+                        most probably originally displayed and venerated in this very space. Thus,
+                        should this be the case, the phrase could be treated literally as a
+                        reference to the actual body parts of the saints enclosed in the box.<note
+                            place="foot" xml:id="ftn22" n="22"><p> This would not be the first time
+                                for an author of an inscription in Deir al-Surian to make use of
+                                such a play on words: see the Coptic funerary inscription of abbot
+                                Makari (Innemée, Ochała, and Van Rompay 2016, 165–71), where the
+                                protagonist is called <foreign xml:lang="cop">ⲡⲓⲛⲁⲓⲁⲧϥ ⲁⲗⲏⲑ̣[ⲱ]ⲥ
+                                    ⲕⲁⲧⲁ ⲧ⸌ⲉ⸍ⲣⲙ̇ⲏⲛ⸌ⲓ⸍ⲁ ⲙ̇ⲡⲉϥⲣⲁⲛ</foreign> , “the truly blessed,
+                                according to the translation of his name”, a clear reference to the
+                                etymology of the name Makari (from the Greek <foreign xml:lang="gr"
+                                    >μακάριος</foreign>, “blessed”).</p></note></p>
+                </div>
+                <div xml:lang="en" xml:id="h26n1innemee.2.3">
+                    <head>2.3. A new Syriac inscription (L. Van Rompay)<note place="foot"
+                            xml:id="ftn23" n="23"><p> I want to acknowledge the helpful discussions
+                                on this inscription with Aaron Butts (University of
+                            Hamburg).</p></note></head>
+                    <p xml:lang="en">This inscription was uncovered in September 2022. It is located
+                        on the right side in the intrados between the nave and the khurus.</p>
+                    <p xml:lang="en">The badly damaged text originally must have filled 11 lines,
+                        justified on both sides. If the traces of ink to the left of the beginning
+                        of the first line belong to the same inscription, they would create an
+                        additional line. It is unlikely, however, that this additional line had the
+                        same amount of writing as the other lines. The only identifiable letter of
+                        this additional line is <hi rend="italic">mim</hi> (<foreign xml:lang="syr"
+                            >ܡ</foreign>), perhaps as part of the phrase <hi rend="italic"
+                            >b-šem</hi> (<foreign xml:lang="syr">ܒܫܡ</foreign>) “in the name of”,
+                        which may be the beginning of an introductory formula.<note place="foot"
+                            xml:id="ftn24" n="24"><p> This introductory piece is not counted as a
+                                separate line in the edition below. </p></note></p>
+                    <p xml:lang="en">The script is early Serto,<note place="foot" xml:id="ftn25"
+                            n="25"><p> For the periodization and the terminology of the Syriac
+                                script, see Brock and Van Rompay 2014, xxi-xxii. </p></note> with
+                        typical Serto forms for <hi rend="italic">waw</hi>, <hi rend="italic"
+                            >alaph</hi>, <hi rend="italic">dalath</hi>, <hi rend="italic">resh</hi>,
+                            <hi rend="italic">taw</hi>, and <hi rend="italic">ṭeth</hi>. The letters
+                            <hi rend="italic">taw</hi> and <hi rend="italic">ṭeth</hi> are joined to
+                        the preceding letter on the top of the letter rather than on the base line.
+                        This way of joining, unknown in Estrangela, is typical of Serto. Only the
+                        angularity of some letters and the form of the letter <hi rend="italic"
+                            >shin</hi> (<foreign xml:lang="syr">ܫ</foreign>) remind one of earlier
+                        Estrangela. The Serto ligature <hi rend="italic">alaph+lamadh</hi> occurs in
+                        line 3 (<foreign xml:lang="syr">ܐܠܦܐ</foreign>) and probably in line 10
+                            (<foreign xml:lang="syr">ܐܠܗܐ</foreign>). The Serto ligature <hi
+                            rend="italic">lamadh+alaph</hi> does not seem to be attested (line 5:
+                            <foreign xml:lang="syr">ܠـܐ</foreign> rather than <foreign
+                            xml:lang="syr">ܠܐ</foreign>). The final <hi rend="italic">lamadh</hi>
+                        probably does not have a second shaft (line 8 – the reading is not certain).
+                        The script would fit in the ninth or the tenth century. Even though it is
+                        not very regular and a bit uneven, it betrays the hand of an experienced
+                        writer, who may have found it more challenging to write on the plaster of a
+                        wall than on parchment. The ink is black and thick. </p>
+                    <p xml:lang="en"> Very little of this inscription can be read. Lines 3 and 8 are
+                        the only ones to offer small portions of coherent text. Only isolated
+                        letters and parts of words can be seen on the remaining lines.<note
+                            place="foot" xml:id="ftn26" n="26"><p> Our reading of the text is based
+                                on two photographs: one was made in September 2022; the other,
+                                enhanced photograph dates from November 2022. Both photographs are
+                                included in this paper. In the edition and translation, square
+                                brackets are used for text that is missing; dots outside the
+                                brackets for traces of letters that cannot be identified; and
+                                underlining for uncertain readings. Text between square brackets is
+                                reconstructed on the basis of context and/or parallel
+                                inscriptions.</p></note>
+                    </p>
+                    <table rend="rules">
+                        <row>
+                            <cell style="text-align: left;">
+                                    
+                                <p xml:lang="en">
+                                    <graphic
+                                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image5.jpg"
+                                    /></p>
+                                <p>Fig. 5 (September
+                                2022)</p></cell>
+                            <cell style="text-align: left;">
+                                <p xml:lang="en">
+                                    <graphic
+                                        url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image6.jpg"
+                                    /></p>
+                                <p>Fig. 5 (Enhanced)</p></cell>
+                        </row>
+                    </table>
+                    <p><hi rend="bold">Syriac text</hi></p>
+
+                    <p><foreign xml:lang="syr">[ܒܫـ]ܡ [ ... ؟ ... ]</foreign></p>
+                    <list rend="numbered">
+                        <item><foreign xml:lang="syr">[ . . . . . . . . . . . . . . . . . .
+                                ]ܐܐ</foreign></item>
+                        <item><foreign xml:lang="syr">[ . . . . . . . . . . . ] ܟܣܝܐ . [. .
+                                ]</foreign></item>
+                        <item><foreign xml:lang="syr">ܒܕܝܪܐ ܗܕܐ ܒܫܢܬ ܐܠܦܐ ܘܡܬ[ܝܢ]</foreign></item>
+                        <item><foreign xml:lang="syr">[ . ] . . [ . . . . . . . . . . ]
+                                ܐܚܪ[ܝ]</foreign></item>
+                        <item><foreign xml:lang="syr">[ . . . ] ܕܝܢ [ . . ]ܗ ܠـܐ [ . . . . .
+                                ]</foreign></item>
+                        <item><foreign xml:lang="syr">[ . . . ] ܥܠܡ ܘܠـ[ . ] ܒܗ[ . . .
+                            ]</foreign></item>
+                        <item><foreign xml:lang="syr">ܖ[ . . ] . ܠܛܒـ[ . . . ] . [ . . . . .
+                                ]</foreign></item>
+                        <item><foreign xml:lang="syr">[.]ܡܪ[ܝ] . . ܠـ ܠܒܝܫ [ܠـܐܠܗ]ܐ [ܘ]ܡܪܝ
+                                [.]ܢܛـ[.]</foreign></item>
+                        <item><foreign xml:lang="syr">ܠـ[.] ܡـ[. . . . . ] . [ . . . . . . .
+                                ]</foreign></item>
+                        <item><foreign xml:lang="syr">[ . . . . . . . . . . . . . . . ]
+                                ܐܠܗ[ܐ]</foreign></item>
+                        <item><foreign xml:lang="syr">[ . . . ]ܐ . . . . [ . . . ] . . . [ . . . ] .
+                            </foreign></item>
+                    </list>
+                    <p/>
+                    <p><hi rend="underline">Translation</hi></p>
+                    <p>[In the na]<hi rend="underline">me of</hi> [ … ? … ]</p>
+                    <list rend="numbered">
+                        <item>[ . . . . . . . . . . . . . . . . . . . . . . . . . . . ] </item>
+                        <item>[ . . . . . . . . . . . . . . . . . . ] <hi rend="underline"
+                            >hidd</hi>en [ . . . ]</item>
+                        <item><hi rend="underline">in</hi> this monastery in the year one thousand
+                            and <hi rend="underline">two</hi> hundred </item>
+                        <item>[ . . . . . . . . . . . . . . . . . . . . . . . . ] second </item>
+                        <item>[ . . . ] <hi rend="underline">however</hi> [ . . . ] <hi
+                                rend="underline">not</hi> [ . . . . . . . . . ] </item>
+                        <item>[ . . . . . . ] <hi rend="underline">eternity</hi> and [ .] in [ . . .
+                            ]</item>
+                        <item>[ . . . ] for the good [ . . . . . . . . . . . . . . . ]</item>
+                        <item>[ . ] <hi rend="underline">Mar</hi> [ . . . ]l the [God-]clad [and]
+                            Mar [.]n<hi rend="underline">at</hi>[ . ]</item>
+                        <item>[ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ]</item>
+                        <item>[ . . . . . . . . . . . . . . . . . . . . . . . . ] <hi
+                                rend="underline">God</hi>
+                        </item>
+                        <item>[ . . . . . . . . . . . . . . . . . . . . . . . . . . . ]</item>
+                    </list>
+                    <p xml:lang="en">Three pieces of information help us understand the general
+                        outline of the message that is being conveyed: 1) it is about “this
+                        monastery” (line 3), i.e., Deir al-Surian; 2) there is a date (line 3 and
+                        possibly 4); 3) the title “God-clad” occurs, which usually is used for
+                        patriarchs; the names of two patriarchs may have been present. Each of these
+                        topics require further explanation. </p>
+                    <p/>
+                    <p><hi rend="bold">“This monastery”</hi>
+                    </p>
+                    <p xml:lang="en">The same expression occurs in other inscriptions in Deir
+                        al-Surian. One example is the inscription reporting on the building of the
+                        monastery in 818/9,<note place="foot" xml:id="ftn27" n="27"><p> Van Rompay
+                                and Innemée, 2020-2022, Inscription A. </p></note> where “this
+                        monastery” (line 9 – the phrase is followed by the official name of the
+                        monastery) is the object of the building activities. Another example is the
+                        inscription reporting on the arrival of the patriarchal envoys in 1166/7,
+                        who “entered into this monastery” (line 2) carrying the synodical letter
+                        from the Syriac-Orthodox patriarch to Egypt.<note place="foot"
+                            xml:id="ftn28" n="28"><p>
+                                <hi rend="italic">Ibid.</hi>, Inscription C. </p></note> These are
+                        official inscriptions created on behalf of the monastic authorities or the
+                        monastic community as a whole. The same official status may perhaps be
+                        attributed to our new inscription, even though it remains unknown whether
+                        reference is made here to some construction activity or to an event of a
+                        different nature. </p>
+                    <p/>
+                    <p><hi rend="bold">The date</hi></p>
+                    <p xml:lang="en">In the second half of line 3, we propose the reading “in the
+                        year one thousand and two hundred”. Following “one thousand,” the letters
+                            <hi rend="italic">waw</hi> and <hi rend="italic">mim</hi> can be read
+                        with confidence. This clarity reduces the options for the hundreds to “one
+                        hundred” (<foreign xml:lang="syr">ܘܡܐܐ</foreign>) and “two hundred”
+                            (<foreign xml:lang="syr">ܘܡܬܝܢ</foreign>),<note place="foot"
+                            xml:id="ftn29" n="29"><p> The standard spelling is <foreign
+                                    xml:lang="syr">ܡܐܬܝܢ</foreign> , but the form <foreign
+                                    xml:lang="syr">ܡܬܝܢ</foreign> is not uncommon, see Payne Smith,
+                                    <hi rend="italic">Thesaurus Syriacus</hi>, col. 1984. With the
+                                construct of “year,” the expression <foreign xml:lang="syr"
+                                    >ܫܢܬ</foreign><foreign xml:lang="syr"
+                                    >ܐܠܦܐ</foreign><foreign xml:lang="syr"
+                                    >ܘܡܬܝܢ</foreign> “the year one thousand and two hundred”
+                                frequently occurs in the <hi rend="italic">Chronicle of Zuqnin</hi>
+                                (see Beth Mardutho, <hi rend="italic">Simtho</hi>). The Maqari
+                                inscription, dated A.Gr. 1200, uses <foreign xml:lang="syr"
+                                    >ܒܫܢܬ</foreign><foreign xml:lang="syr"
+                                    >ܐܠܦ</foreign><foreign xml:lang="syr"
+                                    >ܘܡܬܝܢ</foreign> (line 7), see Innemée, Ochała, Van Rompay 2015,
+                                160 and 188. </p></note> as the higher numbers (three hundred and
+                        higher) require the numeral to precede the hundred (as in English). The
+                        letter following <hi rend="italic">mim</hi> most likely is <hi rend="italic"
+                            >taw</hi>, as the connection between <hi rend="italic">mim</hi> and the
+                        top of <hi rend="italic">taw</hi> is very similar to the way <hi
+                            rend="italic">nun</hi> and <hi rend="italic">taw</hi> are joined
+                        together in <foreign xml:lang="syr">ܒܫܢܬ</foreign> “in the year” on the same line. Additionally, the ink below
+                        (what probably is) <hi rend="italic">taw</hi>, may be part of the final <hi
+                            rend="italic">nun</hi>, thus lending support to the reading <foreign xml:lang="syr">ܘܡܬܝܢ</foreign> “two hundred”. The year 1200 of the Seleucid era (A.Gr.) is
+                        888/9 CE. </p>
+                    <p xml:lang="en"> Whether this is the full date or only part of it remains
+                        uncertain. As a matter of fact, the date may continue on line 4, with the
+                        decade and the single digit. Even though there is residue of ink just above
+                        the damaged spot that covers most of line 4, it is impossible to decide
+                        whether this is the continuation of the date or a subsequent part of the
+                            inscription.<note place="foot" xml:id="ftn30" n="30"><p> One might
+                                speculate that if indeed this is part of the date, the first trace
+                                of writing may be the upper part of <hi rend="italic">alaph</hi> – a
+                                tall letter, extending above the main line – and the second the
+                                upper part of <hi rend="italic">ʿayn</hi><hi>. This would allow us
+                                    to propose the reading</hi>
+                                <foreign xml:lang="syr"><hi rend="underline">ܐ</hi>[ܪܒـ]ܥـ[ܝܢ] </foreign>“forty”(the year 1240 of the Seleucid era is
+                                928/9 CE – the final digit may or may not have been present). There
+                                is, however, no firm ground for this proposal.</p></note>
+                    </p>
+                    <p xml:lang="en">Towards the end of line 4, a few letters are visible, which at first sight may be read as <foreign xml:lang="syr">ܐܝܪ</foreign> , i.e., the month of Iyar, the equivalent of our month of May. Because the <hi rend="italic">yudh</hi> is not clear, however, and there is additional room for a letter or two at the end of the line, it is preferable to read <foreign xml:lang="syr">ܐܚܪ[ܝ] </foreign>  or <foreign xml:lang="syr">ܐܚܪ[ܝܐ]</foreign>   “last, or second” which is used as part of the names of the months of <foreign xml:lang="syr">ܬܫܪܝܢ  ܐܚܪܝ</foreign>  (November)  and <foreign xml:lang="syr">ܟܢܘܢ  ܐܚܪܝ</foreign>   (January). Neither of these two readings can be ruled out.  </p>
+                    <p/>
+                    <p><hi rend="bold">The patriarchs</hi></p>
+                    <p xml:lang="en">Almost nothing can be read in lines 5, 6, and 7. In the middle
+                        of line 8, the participle <foreign xml:lang="syr">ܠܒܝܫ</foreign> “clothed” catches the eye. In the construct state, followed
+                        by <foreign xml:lang="syr">ܠـܐܠܗܐ</foreign>, this is often used as an honorific title for patriarchs,
+                            <foreign xml:lang="syr">ܠܒܝܫ ܠـܐܠܗܐ</foreign> “God-clad”.<note place="foot" xml:id="ftn31" n="31"
+                                ><p> See, e.g., Van Rompay and Innemée, 2020-2022, Inscription A,
+                                line 11. </p></note> Even though in our inscription the participle
+                        is followed by a damaged spot and, as a result, the second component of the
+                        expression cannot be read, the presence of a final <hi rend="italic"
+                            >alaph</hi> lends support to the possibility that the full reading <foreign xml:lang="syr">ܠܒܝܫ [ܠـܐܠܗ]ܐ</foreign> “God-clad” originally was written. This expression
+                        is followed by <foreign xml:lang="syr">ܡܪ<hi rend="underline">ܝ</hi></foreign> , i.e., Mar, “Sir” or “Monsignor,” which is evidence that a
+                        patriarch’s name was once written here. Only an initial or medial <hi
+                            rend="italic">nun</hi> of the name can be seen, followed by an upward
+                        stroke, which may be the beginning of <hi rend="italic">lamadh</hi>, or the
+                        connecting stroke of a <hi rend="italic">ṭeth</hi> or a <hi rend="italic"
+                            >taw</hi>. </p>
+                    <p xml:lang="en"> The possibility cannot be ruled out that another name was
+                        written at the beginning of line 8, where, with some difficulty, the title
+                            <foreign
+                            >ܡܪ[ܝ</foreign>], Mar, may be read, probably followed by a proper name ending
+                        with <hi rend="italic">lamadh</hi>. The presence of the names of two
+                        patriarchs would be in agreement with the common practice, found in
+                        inscriptions and manuscript colophons related to Deir al-Surian, of
+                        mentioning two patriarchs, the Egyptian (“of Egypt” or “of Alexandria”) and
+                        the Syrian (“of Syria” or “of Antioch”), whereby throughout the ninth and
+                        tenth centuries the former usually is mentioned before the latter.<note
+                            place="foot" xml:id="ftn32" n="32"><p> Van Rompay 2004, 62.</p></note>
+                        If there ever was any geographical indication in our inscription, it has
+                        disappeared. </p>
+                    <p xml:lang="en">In the Coptic-Orthodox Church, Michael III (Khael or Khayil)
+                        was patriarch between 880 and 907 CE.<note place="foot" xml:id="ftn33"
+                            n="33"><p> See Atiya, ʿAbd al-Masīḥ, K<hi rend="smallcaps"
+                                >hs</hi>.-Burmester 1948, 103-115. </p></note> He was succeeded by
+                        Patriarch Gabriel (909-920 CE).<note place="foot" xml:id="ftn34" n="34"><p>
+                                <hi rend="italic">Ibid.</hi>, 116-118. </p></note> Neither of them
+                        has left traces in the Syriac historiographical tradition. In the
+                        Christian-Arabic and Ethiopic traditions, however, a synodical letter by the
+                        Syriac-Orthodox Patriarch Theodosios (887-896) to his Coptic counterpart
+                        Michael III is preserved<note place="foot" xml:id="ftn35" n="35"><p> It is
+                                preserved in the Arabic collection known as <hi rend="italic">Kitāb
+                                    iʿtirāf al-ʾabāʾ</hi> “Book of the Confession of the Fathers”;
+                                see Graf 1937, 395; Id. 1944, 443-444. The Arabic collection was
+                                translated into Geʿez (<hi rend="italic">Hāymānota Abaw</hi> “Faith
+                                of the Fathers); see Zotenberg 1877, 120b, no. 37. Both the Arabic
+                                and the Ethiopic text remain unedited.</p></note> (since Theodosios
+                        took office seven years after Michael’s ordination, this cannot have been
+                        sent at the beginning of Michael’s tenure, as would have been the usual
+                        practice). Since both Michael III and Gabriel have names that end in <hi
+                            rend="italic">lamadh</hi> in Syriac, either of them could fill the place
+                        in line 8 of our inscription, where indeed the name of the Coptic patriarch
+                        is expected. </p>
+                    <p xml:lang="en"> In the year 1200 A.Gr. (888/9 CE), Theodosios was the
+                        patriarch of the Syriac-Orthodox Church (887-896).<note place="foot"
+                            xml:id="ftn36" n="36"><p> On Patriarch Theodosios, see Van Rompay 2011,
+                                406-407.</p></note> According to the <hi rend="italic"
+                            >Chronicle</hi> of Michael Rabo, he was ordained in Amid in the month
+                        Shebaṭ of the year 1198, which is February 887 CE. With his ordination there
+                        came an end to a four-year vacancy, during which the bishops had been unable
+                        to agree on a candidate. The vacancy began after the death of Patriarch
+                        Ignatios, whose short tenure covered the period from Ḥeziran of the year
+                        1189 (June 878 CE) to his death in Adar of the year 1194 (March 883
+                            CE).<note place="foot" xml:id="ftn37" n="37"><p> Ed. Ibrahim 2009,
+                                550c-552c; French translation: Chabot 1905/2008, 119-120.
+                            </p></note> We cannot rule out the possibility that the name of the
+                        Syriac patriarch in our inscription is Ignatios (Syriac: [<foreign xml:lang="syr"
+                            >ܐܝܓـ]ܢܛـ[ܝܘܣ</foreign>]).<note
+                            place="foot" xml:id="ftn38" n="38"><p> For the different spellings of
+                                the Syriac name, see Payne Smith, <hi rend="italic">Thesaurus
+                                    Syriacus</hi><hi>, 28-29.</hi></p></note> This name would,
+                        however, create a chronological gap of a bit more than five years between
+                        the death of Ignatios (March 883) and the earliest possible date of our
+                        inscription (October 888). Even though the four-year vacancy would somewhat
+                        justify the continued use of the deceased patriarch’s name beyond his death,
+                        that still would leave us with more than one year since the ordination of
+                        Theodosios (February 887). </p>
+                    <p xml:lang="en"> Whether our predicament can be reduced to a chronological
+                        problem or whether it is due to the scarcity of sources available for this
+                        period remains unknown. Even if we take the most cautious approach, the date
+                        of 1200 A.Gr. (or rather: 12[…]) still stands, allowing a date for our
+                        inscription between 888/889 and 987/988 CE.<note place="foot" xml:id="ftn39"
+                            n="39"><p> The Coptic patriarchs during this period are: Michael III
+                                (880-907), Gabriel (909-920), Cosmas III (921-933), Macarios I
+                                (933-953), Theophanes (953-956), Menas II (956-974), Afraham
+                                (975-978), and Philotheos (979-1003). The Syriac patriarchs are
+                                (following Ignatios): Theodosios (887-896), Dionysios II (896-909),
+                                Yuḥanon IV (910-922), Basilios (923-935), Yuḥanon V (936-953),
+                                Iwannis/Yuḥanon VI (954-957), Dionysios III (958-961), Abrohom
+                                (962-963), Yuḥanon VI (965-986), and Athanasios V
+                            (987-1002/3).</p></note> The script of the inscription would not
+                        militate against a date in the earlier half of this period. </p>
+                </div>
+            </div>
+            <div xml:lang="en" xml:id="h26n1innemee.3">
+                <head>3. Chronology of the building phases and painted decoration (K.C.
+                    Innemée)</head>
+                <div xml:lang="en" xml:id="h26n1innemee.3.1">
+                    <head>3.1. The first phase: the seventh century</head>
+                    <p xml:lang="en">The church must have been built around the middle of the
+                        seventh century, under the patriarchate of Benjamin I.<note place="foot"
+                            xml:id="ftn40" n="40"><p> Grossmann 2002, 501-02</p></note> After the
+                        building was completed, the interior was plastered and whitewashed. Soon
+                        afterward, almost all over the church decorative patterns were applied,
+                        consisting of geometrical decorations and crosses in red, yellow, and
+                        orange, most of them of the so-called Maltese model.<note place="foot"
+                            xml:id="ftn41" n="41"><p> Although no chemical analyses have been done
+                                so far, it is most likely that the pigments used are red and yellow
+                                ochre.</p></note> A plinth zone of approximately 40 cm in height
+                        painted in red was applied throughout the church on the lower parts of the
+                        walls. It is a kind of basic decoration that monks probably made and can
+                        also be found in hermitages in various parts of Egypt. </p>
+                </div>
+                <div xml:lang="en" xml:id="h26n1innemee.3.2">
+                    <head>3.2. The second phase: the eighth and ninth centuries</head>
+                    <p xml:lang="en">The next phase of decoration consisted of a painted dado-zone,
+                        2 meters high, which was applied on almost all walls of the church. Only in
+                        the <hi rend="italic">khurus</hi>, on the narrow strips of the western wall
+                        flanking the doorway to the nave, this dado was apparently absent. The
+                        decoration consists of painted columns supporting an architrave with a
+                        triangular pattern that seems to imitate white marble and red porphyry
+                        inlay. Between the columns, there are painted imitations of white marble
+                        panelling. Such imitations of <hi rend="italic">opus sectile</hi> are quite
+                        common in late antiquity and can be found in house decorations, tombs, and
+                            churches.<note place="foot" xml:id="ftn42" n="42"><p> Rostovtzeff 1919,
+                                pl. VIII; Deichmann 1983, 325-26.</p></note> An example of such
+                        marble imitation in a church not remote in time and space from Deir
+                        al-Surian was found in Karm al-Ahbariya, a sixth-century church just north
+                        of Abu Mena.<note place="foot" xml:id="ftn43" n="43"><p> Witte-Orr 2010,
+                                89-94.</p></note> The interior figurative paintings were gradually
+                        added to this basic decoration in the upper zones. This process must have
+                        covered a period of more than a century. The first paintings of saints were
+                        added in the <hi rend="italic">khurus</hi>, and only afterward, the upper
+                        walls of the nave were decorated. One of the last series of paintings added
+                        on this layer may have been the ones dedicated to the memory of Abbot
+                        Maqari, made in or shortly after 889.<note place="foot" xml:id="ftn44"
+                            n="44"><p> Innemée, Ochała, Van Rompay 2015.</p></note> They occupy the
+                        eastern part of the southern side-aisle, which was turned into what looks
+                        like a commemorative chapel.</p>
+                    <p xml:lang="en">Until recently it was only an estimation that the dado-painting
+                        and the layer of whitewash on which it was applied could date back to around
+                        700. The Greek commemorative inscription dated to 714 now gives a clear
+                        indication. The layer of whitewash on which the text is written is
+                        relatively clean. Given the fact that the inscription is next to the
+                        entrance of the church, a place where one can expect wear, tear, and grime
+                        from the hands of people moving in and out, the conclusion can be drawn that
+                        it was exposed for a relatively short period, after which the dado covered
+                        it. In other words, it seems safe to date the dado to shortly after 714. In
+                        the course of the eighth century the upper parts of the walls would be
+                        gradually decorated with representations of saints painted in the encaustic
+                        technique and finally the Christological/Mariological cycle of paintings
+                        would be painted in the apse and the three semi-domes.<note place="foot"
+                            xml:id="ftn45" n="45"><p> That the paintings in the semi-domes were made
+                                later than certain paintings on the upper walls of the church can be
+                                deduced from the drops of encaustic paint that were found on the
+                                paintings below the Epiphany scene in the northern semi-dome in the
+                                    <hi rend="italic">khurus</hi>.</p></note></p>
+                </div>
+                <div xml:lang="en" xml:id="h26n1innemee.3.3">
+                    <head>3.3. The third phase: renovations in the ninth and tenth centuries</head>
+                    <p xml:lang="en">It is difficult to pinpoint the moment of arrival of the first
+                        Syriac monks in the monastery; the first pieces of evidence date back to the
+                        second decade of the ninth century, when a group of “Brothers of Tikrit”,
+                        who are named as Mattay, Abraham, Yawsep, Theodoros, and Ya῾qub, arrived in
+                        Egypt and are mentioned as being involved in the (re)building of the
+                        monastery. Two inscriptions on the church's walls refer to this restoration:
+                        one by Mattay and Ya῾qub on the northern wall of the northern side-aisle,
+                        and the other by Abraham and Theodoros on the southern wall of the central
+                            nave.<note place="foot" xml:id="ftn46" n="46"><p> Innemée, Van Rompay
+                                1998, 182-83; Van Rompay, Schmidt 2001; Van Rompay, Innemée
+                                2020-2022, 110-19. </p></note> The necessity of restoring and
+                        enlarging the monastery is most likely a result of the raid of Bedouins on
+                        Sketis that must have taken place around 816.<note place="foot"
+                            xml:id="ftn47" n="47"><p> White 1932, 298, 311.</p></note> There is,
+                        however, no evidence of significant damage to the church: the paintings from
+                        the seventh and eighth centuries that have been uncovered bear no traces of
+                        intentional damage or fire. Their state of preservation suggests that there
+                        was no need to launch a renovation of the interior of the church, while in
+                        the course of the ninth century additional paintings were made on the
+                        eighth-century plaster. The best example of this is the paintings
+                        commemorating Abbot Maqari that were made in the southern side-aisle, where
+                        the upper walls were still blank, apart from a few inscriptions by visitors. </p>
+                    <p xml:lang="en">Maqari was succeeded as an abbot by his son Yuḥanon, the
+                        predecessor of Moses of Nisibis, who may have become abbot in or a few years
+                        after 906/7 and who is last mentioned in 943/4 (ms. London, Brit. Libr. Add.
+                        14,525, f. 1v).<note place="foot" xml:id="ftn48" n="48"><p> Brock
+                            2012.</p></note> It was under his abbotship that considerable additions
+                        were made to the iconographical programme of the mural paintings in the
+                        church, and in 914 the sanctuary of the church was completely remodelled
+                        from an apse into a square domed building. The dated inscription on the
+                        precious wooden doors that separate the <hi rend="italic">khurus</hi> from
+                        the sanctuary provides us with this date.<note place="foot" xml:id="ftn49"
+                            n="49"><p> White 1933, 197, Leroy 1974, 154.</p></note> Parts of the
+                        walls that carried only decorative paintings, such as crosses and floral
+                        patterns, were plastered over and paintings were added that formed an
+                        extension of the eighth/ninth century iconographical programme. Such
+                        paintings were added on the upper walls of the <hi rend="italic"
+                        >khurus</hi>, on the upper walls of the central nave, and on the eastern
+                        wall of the northern side-aisle. The assumption that Moses commissioned the
+                        paintings is based on the presence of a Coptic inscription around the dome
+                        over the <hi rend="italic">khurus</hi> that mentions “<hi rend="italic"
+                            >papa</hi> Moses the <hi rend="italic">hegoumenos</hi> and <hi
+                            rend="italic">oikonomos</hi>” and the inscription on the eastern wall of
+                        the northern side-aisle.<note place="foot" xml:id="ftn50" n="50"><p> Innemée
+                                2001, 265. </p></note> Neither of the two is dated precisely, so
+                        nothing more can be said than that the paintings associated with them date
+                        back to the decades between 914 and 944. </p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image7.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 6 Left intrados</p>
+                    <p xml:lang="en">On the eastern wall of the central nave, several additions were
+                        made, probably in the tenth century, by locally overplastering the
+                        seventh/eighth-century layer and adding several figures. In the upper part
+                        of the wall the fragments of the additions that have survived are too
+                        disconnected to identify the figures, but in the lower part, many paintings
+                        could be identified by their captions. Only part of these paintings have
+                        been uncovered so far, so it is too early for final conclusions, but it
+                        seems clear that several Syriac and Coptic patriarchs have been depicted. To
+                        the left of the doorway to the <hi rend="italic">khurus</hi> there is a
+                        painting with the inscription <foreign xml:lang="gr">ἄββα Ἰωσήφ</foreign>.<note place="foot" xml:id="ftn51"
+                            n="51"><p> There was a Syriac-Orthodox patriarch, Joseph who had a very
+                                short tenure: 790-792. But also a Coptic-Orthodox patriarch by that
+                                name: 831-849 (?).</p></note> To the right of this is the
+                        calligraphic text in Syriac that reads “Saintly Cyriacus, Patriarch of
+                            Antioch”.<note place="foot" xml:id="ftn52" n="52"><p> Innemée, Van
+                                Rompay 1998, 184, fig. 7. </p></note> In the left intrados of the
+                        arch between the nave and the <hi rend="italic">khurus</hi>, directly next
+                        to this calligraphy, there is a painting representing ἄββα Ἰάκκωβος (sic)
+                        (fig. 6). </p>
+                    <p xml:lang="en">The inscription, in which the apparently forgotten ω and β were
+                        added in white paint in a somewhat improvised way, is still clearly visible,
+                        while the figure of the father is covered by the wooden doorjamb of the door
+                        that separates the <hi rend="italic">khurus</hi> from the nave. On the
+                        opposite side, in the right intrados, there is a figure that could not yet
+                        be identified and is equally covered by the right doorjamb. To the right,
+                        there is another figure, still covered by a later layer of plaster, but with
+                        an accompanying inscription that reads [ἄ]ββ[α] Δ[ι]ον[ύ]σιος. These three
+                        figures do not have the epithet ἅγιος and do not show a typically monastic
+                        outfit, as far as their costumes are visible, so they likely represent
+                        patriarchs, contemporary or from a recent past. Dionysius of Antioch
+                        (818-845) and Ya῾qub of Alexandria (819-830) are mentioned in the
+                        inscriptions of the Takritan brothers Mattay and Ya῾qub and of Abraham and
+                        Theodoros as those patriarchs who were in office during the restoration work
+                        that is commemorated by the texts.<note place="foot" xml:id="ftn53" n="53"
+                                ><p> Van Rompay, Innemée 2022, 113, 117-18.</p></note> Cyriacus
+                        (793-817) was the predecessor of Dionysius. In all likelihood, we are
+                        dealing not with contemporary representations of these patriarchs but with a
+                        list of portraits created approximately a century later. The difference in
+                        style and technique in these ´portraits´ could mean that they were not made
+                        simultaneously. For instance, the calligraphy of Cyriacus´ name may have
+                        been done at a relatively late moment as a substitute for a figurative
+                        representation for which there was not enough space available. On the second
+                        layer of plaster/whitewash (eighth century), on the right side of the
+                        intrados between nave and khurus, a fragmentary Syriac inscription can be
+                        distinguished, partly covered by the (yet unidentified) figure on the third
+                        layer. </p>
+                    <p xml:lang="en">The succession of phases as visible in this part of the church
+                        would mean that at least two changes in the appearance of the archway
+                        between nave and <hi rend="italic">khurus</hi> took place within a
+                        relatively short period. After 888/9, a commemorative inscription in Syriac
+                        (see 2.3.) was written on the still blank plaster. At an unknown moment, the
+                        lower part of the eastern wall of the nave, including the intrados, was
+                        covered with a layer of whitewash to add paintings. This whitewash may have
+                        happened in the early tenth century, when under Moses of Nisibis, paintings
+                        were added in several parts of the church. In this way, the inscription
+                        disappeared under the painting of a yet unknown figure. This painting, in
+                        turn, disappeared out of sight in 926, when the wooden doors commissioned by
+                        Moses were placed. The <hi rend="italic">terminus post quem</hi> of 888/9
+                        and the <hi rend="italic">terminus ante quem</hi> of 926 between which
+                        apparently the paintings on the eastern wall were made, not only give us a
+                        valuable and reliable means of dating, but also an impression of how, during
+                        the first part of his abbacy, he ordered several embellishments to the
+                        interior of the church within a timespan of a few decades. The monumental
+                        doors to the sanctuary bear the date of 914,<note place="foot"
+                            xml:id="ftn54" n="54"><p> Leroy 1974, 154.</p></note> but the additions
+                        of paintings in several parts of the church may have been done earlier. How
+                        much earlier remains challenging to say. </p>
+                    <p xml:lang="en">Among the other murals in the church commissioned by Moses, the
+                        paintings and the Coptic inscription (nr. 2 above) on the eastern wall of
+                        the northern side-aisle take a special place. They occupy the back wall of a
+                        niche that was until recently covered by an eighteenth-century <hi
+                            rend="italic">maqsura</hi> (relic shrine) that contained the main relics
+                        of the church (fig. 7).<note place="foot" xml:id="ftn55" n="55"><p> The most
+                                important relics are now kept in a modern shrine in the northern
+                                part of the <hi rend="italic">khurus</hi><hi>.</hi></p></note>
+                    </p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image8.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 7 Eastern wall of northern side-aisle with <hi
+                            rend="italic">maqsura</hi></p>
+                    <p xml:lang="en">Until the eighteenth century it must have been the location of
+                        the much older relic shrine that was found by Walter Hauser in the keep and
+                        is now in the museum of the monastery (fig. 8).<note place="foot"
+                            xml:id="ftn56" n="56"><p> White 1933, 194-95. Before this shrine was
+                                placed here, there may have been an even older shrine containing
+                                relics, judging from the number of dipinti of various kinds
+                                (including the inscription of Mattay and Ya῾qub from 816) on the
+                                adjacent wall.</p></note>
+                    </p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image9.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 8 The relic shrine, now in the museum of the
+                        monastery</p>
+                    <p xml:lang="en">This wooden shrine with ivory inlay is most likely to be from
+                        the same workshop in which the doors between <hi rend="italic">khurus</hi>
+                        and sanctuary and between the nave and <hi rend="italic">khurus</hi> were
+                        made and can, therefore, be considered a contemporary work of art
+                        commissioned by Moses of Nisibis as well. It seems pretty likely that this
+                        shrine had its place where, in the eighteenth century, the <hi rend="italic"
+                            >maqsura</hi> was constructed, and evidence for this has recently come
+                        to light. The ivory inlay on the front of the shrine shows seven standing
+                        figures standing in an arcade of seven arches. Although most of the inlay
+                        has disappeared, the contours of the figures are still well recognisable,
+                        and six of the seven are identified by inlaid texts in Greek. In the middle,
+                        there is the Christ Emmanouel (Ἐμμανουήλ), with the Virgin Mary (ἡ ἅγια
+                        Μαρία) on his right side, figures that correspond to those in the central
+                        panels on the doors to the <hi rend="italic">khurus</hi>. To the left of
+                        Christ, there is the figure of St John (ὁ ἅγιος Ἰωάννης; it is not clear
+                        whether it refers to the Baptist or the Evangelist). At the far left of the
+                        front, St Eustathios (Εὐστάθιος) has been depicted, and to his right, St
+                        Theodore (Θεώδορος). The hagiographical traditions concerning the several
+                        military saints with this latter name are complicated and intertwined, and
+                        it is unclear which one is meant here. The figure on the far right remains
+                        anonymous since only the words ὁ ἅγιος have been inlaid, and the name was
+                        omitted for an unknown reason. The contours of the lost ivory, however, show
+                        that it must have been a military saint with an oval shield in his left
+                        hand. Left of him there is a figure called ὁ ἅγιος Ἰάκοβος, also depicted as
+                        a military saint. Four saints are depicted on the wall in the niche where
+                        the shrine is supposed to have stood. In the upper part on the left, St
+                        Eustathios is shown hunting a stag over which a figure of Christ appears in
+                        a tondo or a fragment of a heavenly sphere.<note place="foot" xml:id="ftn57"
+                            n="57"><p> There is no inscription that identifies the horseman, but the
+                                hunting scene with the appearance of Christ identifies the figure as
+                                Eustathios. According to his <hi rend="italic">Vita</hi> he saw an
+                                appearance of Christ while hunting a stag, a legend similar to the
+                                western legend of St Hubert. <hi rend="italic">Bibliotheca
+                                    Hagiographica Graeca</hi> 641, for reference to mss see
+                                    </p><p><hi rend="underline"
+                                    >https://pinakes.irht.cnrs.fr/notices/oeuvre/15538/</hi></p></note>
+                        As his counterpart to the right, a horseman attacks a snake with a human
+                        head curled on the ground below a ladder that leads to the same figure of
+                        Christ in the circle. Although there is no inscription visible that
+                        identifies this horseman, these particular details of the human-headed snake
+                        and the ladder can only point at the <hi rend="italic">Vita</hi> of
+                        Theodoros Orientalis, where a vision of a heavenly ladder and a fight with
+                        Satan in the form of a snake with a human head are described.<note
+                            place="foot" xml:id="ftn58" n="58"><p> Nafroth 2017, 319-329. My thanks
+                                go to Stephen Emmel for this reference.</p></note> In the middle of
+                        the lower part of the wall, there must have been a panel or an icon that is
+                        no longer there, judging from the contours visible in the tenth-century
+                        plaster. On the seventh-century plaster where this panel must have been,
+                        what is visible now is a painting of the Virgin Galaktotrophousa, which
+                        could mean that the now missing panel or icon was also a representation of
+                        the Virgin. The inscription of Moses seems to refer to this now missing
+                        panel in the phrase “these portraits, which we have painted above this
+                        beautiful image”, implying that the icon already existed at the time of
+                        Moses and that it was incorporated into the composition.</p>
+                    <p xml:lang="en">On either side of where the panel used to be, there is a
+                        standing figure of a military saint, depicted standing frontally, in a
+                        military outfit and holding an oval shield. A Coptic inscription identifies
+                        the left one as Jacob the Persian, and the right one (by a Greek or Coptic
+                        inscription) as St Leontios. This Leontios should be Leontios of Tripoli, a
+                        first-century Roman soldier who was martyred for his faith and popular in
+                        the region of Antioch. The contours of the figures and the detail that they
+                        are holding oval shields makes them look similar to the contours of the two
+                        military saints on the far right on the relic chest: ὁ ἅγιος Ἰάκοβος and the
+                        anonymous ὁ ἅγιος. Thus, considering the apparent parallelism of the wall
+                        paintings and the reliquary, it is nearly certain that the former should be
+                        identified with St James the Persian and reasonably probable that the latter
+                        is St Leontios. </p>
+                    
+                    <p xml:lang="en">
+                        <graphic
+                            url="https://hugoye.bethmardutho.org/resources/images/articles/HV26N2Innemee_image10.jpg"
+                        /></p>
+                    <p rend="bold">Fig. 9 Eastern wall of the northern side-aisle,
+                        reconstruction of the original situation.</p>
+                    <p xml:lang="en">The inscription in the two text panels between the paintings
+                        provides a link between the paintings and the reliquary and shows
+                        undisputedly that Moses of Nisibis had a role in commissioning both. The
+                        saints whose relics were kept in the shrine were depicted in both the
+                        paintings and the ivory inlay, and these parallel representations support
+                        their iconographic identification. The sentence “these portraits, which we
+                        have painted above this beautiful image, have received the members of their
+                        [holy] body” alludes to both the relics and the wall paintings. It is,
+                        therefore, possible to make a virtual reconstruction of the situation as it
+                        must have existed in the tenth century (fig. 9). In all likelihood, the
+                        refurbishing of this corner of the church took place in the period before
+                        926/7, after which Moses was absent from the monastery for a considerable
+                            time.<note place="foot" xml:id="ftn59" n="59"><p> Brock 2012,
+                            15.</p></note></p>
+                </div>
+                <div xml:lang="en" xml:id="h26n1innemee.3.4">
+                    <head>3.4. Late paintings</head>
+                    <p xml:lang="en">Approximately three centuries later, the interior of the church
+                        underwent a thorough renovation: the wooden roofs over the side-aisles and
+                        return aisle were replaced by brick vaults, blocked windows that had taken
+                        the shape of niches were now completely walled up, and the total interior
+                        was covered by a fresh layer of plaster that was a few millimetres thick in
+                        some places, but several centimetres in some other. New paintings were made
+                        throughout the church. The exact date of this operation is unknown, and
+                        based on the style of the paintings, an estimation of the first half of the
+                        thirteenth century has been made.<note place="foot" xml:id="ftn60" n="60"
+                                ><p> The paintings are in style comparable to thirteenth-century
+                                paintings, such as in St Anthony’s monastery and Deir al-Baramus,
+                                but also to illustrations in manuscripts from the first half of the
+                                thirteenth century; Hunt 1985. The first half of the thirteenth
+                                century must have been a period of prosperity for the monastery;
+                                White 1932, 390-91; Van Rompay 2008, 748-49.</p></note> So far, no
+                        textual evidence has been found that would support a more precise dating. </p>
+                    <p xml:lang="en">The final refurbishment of the church can be dated in a
+                        relatively precise way. According to a marginal note in a manuscript from
+                        the monastery's library, the church was re-consecrated in 1782,<note
+                            place="foot" xml:id="ftn61" n="61"><p> Oral information from Father
+                                (meanwhile bishop) Martyros.</p></note> and it seems likely that
+                        this was done after a critical renovation had been finished. It appears now
+                        that this renovation was done in two main phases, of which the last phase
+                        was finished in 1782. Before the renovation, all the woodwork in the church
+                        was in bad condition, affected by termites. In addition, in the western part
+                        of the church, a fire must have caused serious damage to the wooden lintels
+                        over the entrance, the columns and piers, and the roof. The charred and
+                        burned remains of these wooden elements have been found under the
+                        eighteenth-century plaster. It seems that the church's restoration project
+                        was interrupted for some time and resumed. These phases are shown by the two
+                        superimposed layers of eighteenth-century plaster, the first one of which
+                        must have been exposed for only a short period<note place="foot"
+                            xml:id="ftn62" n="62"><p> A few dipinti by visitors in Syriac have been
+                                found on this temporarily exposed layer of plaster, indicating that
+                                the church was accessible during the interruption of the restoration
+                                work.</p></note> and may date back to the middle of the eighteenth
+                        century or slightly later. In the meantime, the church was apparently not in
+                        use. The French naturalist Charles Sonnini de Manoncourt visited the
+                        monastery in 1775, and concerning the church he writes:</p>
+                    <cit>
+                        <quote>“The ancient Syrian chapel still remains. It is
+                        tolerably handsome, and adorned with sculptures, and paintings in fresco. On
+                        one of the pillars the names of several Europeans are cut, but those of the
+                        French travellers, Baron and Granger, are the only ones I knew. The Cophts
+                        do not make use of this chapel; but have built another, after their own
+                        fashion, that is, in the form of a cross.”<note place="foot" xml:id="ftn63"
+                            n="63"><p> Sonnini 1799, 181.</p></note></quote>
+                    </cit>
+                    <p xml:lang="en">This Coptic church he mentions is apparently the so-called
+                        Church of the Cave, the second church in the monastery. In his description,
+                        Sonnini mentions the wall paintings in the Syrian church, from which we can
+                        conclude that they were apparently not yet covered with the final layer of
+                        plaster. The graffiti of European travellers that he mentions are not
+                        visible nowadays, but they may be waiting to be uncovered under the plaster
+                        on the masonry piers that are still covered by the final layer of plaster.
+                        All this shows that in 1775, the final layer of plaster had not yet been
+                        applied.</p>
+                </div>
+            </div>
+            <div xml:lang="en" xml:id="h26n1innemee.4">
+                <head>4. Conclusions</head>
+                <p xml:lang="en">The graffiti and dipinti on the walls of the church of the Holy
+                    Virgin in Deir al-Surian (as in so many other monuments), despite their
+                    difference in language and character, have in common that they mark moments in
+                    time that connect persons and events with the building. The reasons and the
+                    occasions for leaving an inscription behind can vary and range from the humble
+                    and personal text of a visitor who commemorates his visit in the form of a
+                    prayer to the announcement or commemoration of events that are deemed of
+                    interest for all who use or visit the church. These texts can be read as a diary
+                    of events connected with the church and its congregation. As in an
+                    archaeological stratigraphy, the layers of plaster and whitewash on the walls of
+                    the church could be compared to the folios of a codex, and ‘reading’ the pages
+                    reveals the history of the building and its community. As in a damaged
+                    manuscript, these pages are not intact anymore, and many of the events recorded
+                    are without a date. The joint efforts of conservators, epigraphists, and art
+                    historians can help put a chronological order in shreds of information that tell
+                    the history of a church building. The recent finds of (dated) inscriptions in
+                    Deir al-Surian have underscored once more the importance of Moses of Nisibis as
+                    a church patron. Furthermore, they have narrowed down the number of intervals
+                    within which artistic additions to the church have been made. </p>
+            </div>
+
+            <div xml:lang="en" type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl>Atiya, A.S., Y. ʿAbd al-Masīḥ, O.H.E. <hi rend="smallcaps">Khs</hi>.-Burmester
+                    1948. <hi rend="italic">History of the Patriarchs of the Egyptian Church</hi>,
+                    III. Part II,<hi rend="italic"> Khaël III – Šenouti II (A.D. 880 – 1066)</hi>.
+                    Publications de la Société d’archéologie copte. Textes et Documents. Cairo.</bibl>
+                <bibl>Bridel, P., ed. 1994. <hi rend="italic">Explorations aux Qouçoûr er-Roubâ’îyât:
+                        rapport des campagnes 1982 et 1983 : avec une étude de vingt-quatre
+                        ermitages mis au jour en 1977 par le Service des Antiquités de l’Égypte,
+                        l’édition des inscriptions qu’ils ont livrées et l’inventaire des peintures
+                        murales documentées</hi>. Vol. 2. EX 8184. Leuven.</bibl>
+                <bibl>——, ed. 1999. <hi rend="italic">Explorations aux Qouçoûr el-Izeila: lors des
+                        campagnes 1981, 1982, 1984, 1985, 1986, 1989 et 1990</hi>. EK 8184 3.
+                    Leuven.</bibl>
+                <bibl>Brock, S.P. 2012. ‘Mushe of Nisibis, Collector of Syriac Manuscripts’ in C.
+                    Baffioni a.o. (eds.), <hi rend="italic">Gli studi orientalistici in Ambrosiana
+                        nella cornice del IV centenario (1609-2009),</hi> Accademia Ambrosiana.
+                    Orientalia Ambrosiana, 1. Milan, 15-32.</bibl>
+                <bibl>Brock, S.P., L. Van Rompay 2014. <hi rend="italic">Catalogue of the Syriac
+                        Manuscripts and Fragments in the Library of Deir al-Surian (Egypt)</hi>,
+                    Orientalia Lovaniensia Analecta, 227; Leuven. </bibl>
+                <bibl>Chabot, J.B. 1905. <hi rend="italic">Chronique de Michel le Syrien, Patriarche
+                        jacobite d’Antioche (1166-1199)</hi>, vol. 3. Paris (reprint Piscataway,
+                    N.J. 2008). </bibl>
+                <bibl>Crum, W.E. 1912. <hi rend="italic">Koptische Rechtsurkunden des achten
+                        Jahrhunderts aus Djême (Theben)</hi>. Leipzig.</bibl>
+                <bibl>Deichmann, F.W. 1983. <hi rend="italic">Einfuhrung in die christliche
+                        Archäologie</hi>, Darmstadt.</bibl>
+                <bibl>Diethart, J. 2015. ‘Die mutterlosen weinenden Kinder: Zu Adam Łajtar in “‘Journal
+                    of Juristic Papyrology’” 37 (2007)’. <hi rend="italic">The Journal of Juristic
+                        Papyrology</hi> 45: 41–43.</bibl>
+                <bibl>Drescher, J. 1976. ‘Graeco-Coptica: postscript’, <hi rend="italic">Le Muséon</hi>
+                    89: 307–321.</bibl>
+                <bibl>Gignac, F.T. 1976. <hi rend="italic">A Grammar of the Greek Papyri of the Roman
+                        and Byzantine Periods</hi>. Vol. 1: <hi rend="italic">Phonology</hi>. Testi
+                    e Documenti per Lo Studio Dell’antichità 55/1. Milan: Istituto editoriale
+                    cisalpino – La Goliardica.</bibl>
+                <bibl>Graf, G. 1937. ‘Zwei dogmatische Florilegien der Kopten, B. Das Bekenntnis der
+                    Väter’, <hi rend="italic">Orientalia Christiana Periodica</hi> 3: 345-402.</bibl>
+                <bibl>——, 1944. <hi rend="italic">Geschichte der christlichen arabischen
+                    Literatur</hi>, I. Studi e Testi 118. Vatican City. </bibl>
+                <bibl>Godron, G. 1983 “limhn’ ‘Portrait' 'image'’, <hi rend="italic">Bulletin de la
+                        Société d´Archeologie Copte </hi>25: 1-50.</bibl>
+                <bibl>——, 1990. ‘À nouveau LIMEN (compléments)’, <hi rend="italic">Bulletin de la
+                        Société d’Archeologie Copte</hi> 29 : 43–48.</bibl>
+                <bibl>Grossmann, P. 2002. <hi rend="italic">Christliche Architektur in Ägypten</hi>,
+                    Handbook of Oriental Studies 62, Leiden, Boston, Köln.</bibl>
+                <bibl>Hasitzka, M.R.M. 1993. <hi rend="italic">Koptisches Sammelbuch I</hi>.
+                    Mitteilungen aus der Papyrussammlung der Österreichischen Nationalbibliothek
+                    23/1. Wien.</bibl>
+                <bibl>Hunt, L.-A. 1985, ‘<ref
+                        target="https://www.academia.edu/34266559/Christian_Muslim_Relations_in_Painting_in_Egypt_of_the_Twelfth_to_mid_Thirteenth_Centuries_Sources_of_Wallpainting_at_Deir_es_Suriani_and_the_illustrations_of_the_New_Testament_MS_Paris_Copte_Arabe_1_Cairo_Bibl_94"
+                            ><hi style="font-family:Brill">Christian-Muslim Relations in Painting in
+                            Egypt of the Twelfth to mid-Thirteenth Centuries: Sources of
+                            Wallpainting at Deir es-Suriani and the illustrations of the New
+                            Testament MS Paris, Copte-Arabe 1/Cairo, Bibl. 94</hi></ref>’ in <hi
+                        rend="italic">Cahiers Archéologiques</hi> 33, 111-55</bibl>
+                <bibl>Ibrahim, G.I. 2009. <hi rend="italic">The Edessa-Aleppo Syriac Codex of the
+                        Chronicle of Michael the Great</hi>. Texts and Translations of the Chronicle
+                    of Michael the Great, 1. Piscataway, N.J. </bibl>
+                <bibl>Innemée, K.C., L. Van Rompay 1998. ‘La présence des Syriens dans le Wadi
+                    al-Natrun (Egypte). A propos des découvertes récentes de peintures et de textes
+                    mureaux dans l’église de la Vierge du Couvent des Syriens’, <hi rend="italic"
+                        >Parole de l’Orient</hi> 23, 167-202.</bibl>
+                <bibl>Innemée, K.C. 2001. ‘Deir al-Surian (Egypt), Conservation Work of Autumn 2000’,
+                        <hi rend="italic">Hugoye. Journal of Syriac Studies</hi> 4 nr. 2,
+                    259-268.</bibl>
+                <bibl>Innemée, K.C., G. Ochała, L. Van Rompay 2015. ‘A Memorial for Abbot Maqari of
+                    Deir al-Surian (Egypt), Wall Paintings and Inscriptions in the Church of the
+                    Virgin Discovered in 2014’, <hi rend="italic">Hugoye. Journal of Syriac
+                        Studies</hi> 18.1, 147-190.</bibl>
+                <bibl>Łajtar, A. 2007. ‘New Finds of Funerary Inscriptions in Banganarti (Christian
+                    Nubia)’, <hi rend="italic">The Journal of Juristic Papyrology</hi> 37:
+                    135–52.</bibl>
+                <bibl>Laver, T. 2022. ‘The Development and Usage of the Greek and Coptic Term <hi
+                        rend="italic">Papa</hi> in Ecclesiastical and Monastic Contexts’, <hi
+                        rend="italic">The Journal of Juristic Papyrology</hi> 52: 55–101.</bibl>
+                <bibl>Lefebvre, G. 1907. <hi rend="italic">Recueil des inscriptions
+                        grecques-chrétiennes d’Égypte</hi>. Cairo.</bibl>
+                <bibl>Leroy, J. 1974. ‘Le décor de l’église du couvent des Syriens au Ouady Natroun
+                    (Égypte)’, <hi rend="italic">Cahiers archéologiques</hi> 23: 151–67.</bibl>
+                <bibl>Nafroth, C. 2017.<hi rend="italic"> Das Wort im Bild. Untersuchungen zu den
+                        Ikonographien von Mönchen und Märtyrern in Ägypten und zu ihren Grundlagen
+                        in der koptischen Hagiographie</hi> (Sprachen und Kulturen des Christlichen
+                    Orients 22) Wiesbaden, 316-334.</bibl>
+                <bibl>Payne Smith, R. 1879-1883. <hi rend="italic">Thesaurus Syriacus</hi>, 2 vol.,
+                    Oxford (reprint Hildesheim – New York, 1981).</bibl>
+                <bibl>Rostovtzeff, M., 1919. ‘Ancient Decorative Wall-Painting’, <hi rend="italic">The
+                        Journal of Hellenic Studies</hi> 39, 144-163.</bibl>
+                <bibl>Sonnini, C.S. 1799. <hi rend="italic">Travels in Upper and Lower Egypt</hi>,
+                    London.</bibl>
+                <bibl>Tudor, B. 2011. <hi rend="italic">Christian Funerary Stelae of the Byzantine and
+                        Arab Periods from Egypt</hi>. Marburg.</bibl>
+                <bibl>Van Rompay, L. 2004. ‘Les inscriptions syriaques du Couvent des Syriens (Wadi
+                    al-Natrun, Égypte)’, in F. Briquel Chatonnet, M. Debié and A. Desreumaux (eds.),
+                        <hi rend="italic">Les inscriptions syriaques</hi>. Études syriaques, 1.
+                    Paris, 55-73 + Pl. III.</bibl>
+                <bibl>——, 2008, ‘A Precious Gift to Deir al-Surian (AD 1211): Ms. Vat. Syr. 13,’ in
+                    G.A. Kiraz (ed.), <hi rend="italic">Malphono w-Rabo d-Malphone. Studies in Honor
+                        of Sebastian P. Brock, </hi>Gorgias Eastern Christian Studies, 3;
+                    Piscataway, 735-750</bibl>
+                <bibl>——, 2011. ‘Theodosios Romanos the physician (d. 896)’, in S.P. Brock, A.M. Butts,
+                    G.A. Kiraz, L. Van Rompay (eds.), <hi rend="italic">Gorgias Encyclopedic
+                        Dictionary of the Syriac Heritage</hi>. Piscataway, N.J.: 406-407. Online:
+                        <hi rend="underline">https://gedsh.bethmardutho.org/Theodosios-patr</hi></bibl>
+                <bibl>Van Rompay, L., A.B. Schmidt 2001, ‘Takritans in the Egyptian Desert: The
+                    Monastery of the Syrians in the Ninth Century’, <hi rend="italic">Journal of the
+                        Canadian Society for Syriac Studies</hi> 1, 41-59.</bibl>
+                <bibl>Van Rompay, L., K.C. Innemée 2020-2022, ‘History and Memory: Three Syriac
+                    Inscriptions in the Syrian Monastery, Egypt’ <hi rend="italic">Eastern Christian
+                        Art</hi> 12 , 109-129</bibl>
+                <bibl>Vliet, J. van der. 2009. ‘History through Inscriptions: Coptic Epigraphy in the
+                    Wadi al Natrun’. <hi rend="italic">Christianity and Monasticism in Wadi
+                        Al-Natrun: Essays from the 2002 International Symposium of the Saint Mark
+                        Foundation and the Saint Shenuda the Archimandrite Coptic Society</hi>,
+                    edited by Maged S. A. Mikhail and Mark Moussa, 329–49. Cairo – New York.</bibl>
+                <bibl>White, H.E. 1932. <hi rend="italic">The Monasteries of the Wâdi ‘n-Natrûn</hi>.
+                    Part II, <hi rend="italic">The History of the Monasteries of Nitria and of
+                        Scetis</hi>. New York.</bibl>
+                <bibl>——, 1933. <hi rend="italic">The Monasteries of the Wâdi ‘n-Natrûn</hi>. Part
+                        III,<hi rend="italic"> The Architecture and Archaeology</hi>. New York.</bibl>
+                <bibl>Witte-Orr, J. 2010. <hi rend="italic">Kirche und Wandmalereien am Karm
+                        Al-Ahbariya</hi>. (Jahrbuch für Antike und Christentum; Ergänzungsband 36),
+                    Münster.</bibl>
+                <bibl>Zotenberg, H. 1877. <hi rend="italic">Catalogue des manuscrits éthiopiens (gheez
+                        et amharique) de la Bibliothèque nationale</hi>. Paris. </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
