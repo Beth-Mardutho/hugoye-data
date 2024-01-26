@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Arabic <hi rend="italic">nuṭfah</hi>
+                    and Syriac <hi rend="italic">nuṭptā</hi> in Avicenna’s and Barhebraeus’s Works:</title>
+                <title type="sub">Substantial Change, Embryology, and Ensoulment</title>
+                <author>
+                    <name>
+                        <forename>Florian U.</forename>
+                        <surname>Jäckel</surname>
+                    </name>
+                    <affiliation>
+                        <orgName>Schloss Dagstuhl LZI</orgName>
+                    </affiliation>
+                </author>
+                <respStmt>
+                    <resp>TEI XML encoding by </resp>
+                    <name>James E. Walters</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                <date>2023</date>
+                <idno>Volume 26.2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>For this publication, a Creative Commons Attribution 4.0 International
+                            license has been granted by the author(s), who retain full
+                            copyright.</p>
+                    </licence>
+                </availability>
+                <idno type="URI">https://hugoye.bethmardutho.org/article/hv26n2jackel</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Florian U. Jäckel</author>
+                        <title level="a">Arabic <hi rend="italic">nuṭfah</hi>
+                            and Syriac <hi rend="italic">nuṭptā</hi> in Avicenna’s and Barhebraeus’s Works:
+                            Substantial Change, Embryology, and Ensoulment</title>
+                        <idno type="URI"/>
+                        <!-- Insert Syriaca bibl URI when available -->
+                        <idno type="PDF"
+                            >https://hugoye.bethmardutho.org/pdf/vol26/HV26N2Jackel.pdf</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Hugoye: Journal of Syriac Studies</title>
+                        <imprint>
+                            <publisher>Beth Mardutho: The Syriac Institute</publisher>
+                            <date>2023</date>
+                        </imprint>
+                        <biblScope type="vol" n="26">26</biblScope>
+                        <biblScope type="issue" n="2">2</biblScope>
+                        <biblScope type="pp" from="377" to="414">377-414</biblScope>
+                        <biblScope type="order" n="2"/>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Hugoye: Journal of Syriac Studies is an electronic journal dedicated to the study
+                    of the Syriac tradition, published semi-annually (in January and July) by Beth
+                    Mardutho: The Syriac Institute. Published since 1998, Hugoye seeks to offer the
+                    best scholarship available in the field of Syriac studies.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Bar Hebraeus</term>
+                    <term>Souls</term>
+                    <term>Ensoulment</term>
+                    <term>Philosophy</term>
+                    <term>Arabic</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="Published">
+            <change when="2024-01-20">File created by James E. Walters</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="article">
+        <front>
+
+            <p rend="ChapterTitle" style="text-align: center; ">Arabic <hi rend="italic">nuṭfah</hi>
+                and Syriac <hi rend="italic">nuṭptā</hi> in Avicenna’s and Barhebraeus’s Works:
+                Substantial Change, Embryology, and Ensoulment</p>
+            <p rend="author">Florian U. Jäckel</p>
+            <p rend="address" style="text-align: center; ">Schloss Dagstuhl LZI</p>
+
+            <div type="abstract" xml:lang="en">
+                <head>Abstract</head>
+                <p xml:lang="en">This article analyzes how the Syriac word for ‘drop,’ <hi
+                        rend="italic">nuṭptā</hi>, was used by Barhebraeus (1226–1286) with the
+                    meaning of ‘drop of semen’ or ‘sperm drop.’ The term appears in Barhebraeus’s
+                    writings within broader exami-nations of substantial change, embryology, and
+                    ensoulment. I argue that Barhebraeus received the term in this sense from
+                    Avicenna (ca. 980–1037), including the latter’s concept of substantial change.
+                    While Barhebraeus’s reception of Avicenna’s philosophy has implications for his
+                    position regarding the time of ensoulment of the unborn, the independence of
+                    Barhebraeus’s embryology will also become apparent. The paper thus contributes
+                    to research on notions of the unborn in both Arabic and especially Syriac
+                    literature and the investigation of Barhebraeus’s creative appropriation of
+                    Avicennan philosophy. These two aspects are connected by analyzing the critical
+                    term <hi rend="italic">nuṭptā</hi>/<hi rend="italic">nuṭfah</hi>.</p>
+            </div>
+        </front>
+        <body>
+            <div xml:lang="en" xml:id="h26n2jackal.1">
+                <p xml:lang="en">Bar ʿEḇrāyā (1226–1286), also known as Barhebraeus, is a
+                    significant representative of the so-called Syriac Renaissance (ca. 1100–1300),
+                    in which new intellectual developments by Muslim authors and thinkers were
+                    integrated into the Syriac learned and literary tradition.<note place="foot"
+                        xml:id="ftn2" n="1"><p rend="footnote text"> See Herman Teule, “The
+                            Interaction of Syriac Christianity and the Muslim World in the Period of
+                            the Syriac Renaissance,” in <hi rend="italic">Syriac Churches
+                                Encountering Islam: Past Experiences and Future Perspectives</hi>,
+                            ed. Dietmar W. Winkler (Piscataway, NJ: Gorgias, 2010). For a
+                            comprehensive overview of Barhebraeus’s works, see Hidemi Takahashi, <hi
+                                rend="italic">Barhebraeus: A Bio-Bibliography </hi>(Piscataway, NJ:
+                            Gorgias, 2013). If not stated otherwise, for most Syriac sources and
+                            their authors mentioned in this paper, a brief overview is openly
+                            accessible in George A. Kiraz, ed., <hi rend="italic">Gorgias
+                                Encyclopedic Dictionary of the Syriac Heritage: Electronic
+                                Edition</hi>, accessed October 20, 2022,
+                            https://gedsh.bethmardutho.org/index.html. For the area of philosophy,
+                            the same holds true for Edward N. Zalta, ed., <hi rend="italic">Stanford
+                                Encyclopedia of Philosophy</hi>, accessed October 20, 2022,
+                            https://plato.stanford.edu/index.html.</p></note> In Barhebraeus’s
+                    reception of Islamic<hi rend="italic"> Vorlagen </hi>and ideas, Ibn Sīnā (ca.
+                    980–1037), also known as Avicenna, looms large.<note place="foot" xml:id="ftn3"
+                        n="2"><p rend="footnote text"> For Barhebraeus’s reception of Islamic
+                            philosophy, see, e.g., Hidemi Takahashi, “The Reception of Ibn Sīnā in
+                            Syriac: The Case of Gregory Barhebraeus,” in <hi rend="italic">Before
+                                and After Avicenna: Proceedings of the First Conference of the
+                                Avicenna Study Group</hi>, ed. David C. Reisman, with the assistance
+                            of Ahmed H. Al‑Rahim (Leiden: Brill, 2003) and id., “Reception of
+                            Islamic Theology among Syriac Christians in the Thirteenth Century: The
+                            Use of Fakhr al-Dīn al-Rāzī in Barhebraeus’ <hi rend="italic"
+                                >Candelabrum of the Sanctuary</hi>,” <hi rend="italic">Intellectual
+                                History of the Islamicate World</hi> 2 (2014): 170–192. For
+                            Avicenna, see Jon McGinnis, <hi rend="italic">Avicenna</hi>, Great
+                            Medieval Thinkers (Oxford: Oxford University Press, 2010) and Dimitri
+                            Gutas, <hi rend="italic">Avicenna and the Aristotelian Tradition:
+                                Introduction to Reading Avicenna’s Philosophical Works</hi>, <hi
+                                rend="italic">Second, Revised and Enlarged Edition, Including an
+                                Inventory of Avicenna’s Authentic Works</hi> (Leiden: Brill,
+                            2014).</p></note> As an example of this reception, I will analyze here
+                    how the Syriac word for ‘drop,’ <hi rend="italic">nuṭptā</hi>, was used by
+                    Barhebraeus with the meaning of ‘drop of semen’ or ‘sperm drop.’ The term
+                    appears in Barhebraeus’s writings within broader examinations of substantial
+                    change, embryology, and ensoulment. I will argue that Barhebraeus received the
+                    term in this sense from Avicenna, including the latter’s concept of substantial
+                    change. While Barhebraeus’s reception of Avicenna’s philosophy has implications
+                    for his position regarding the time of ensoulment of the unborn, the
+                    independence of Barhebraeus’s embryology will also become clear. The paper thus
+                    contributes to research on notions of the unborn in both Arabic and especially
+                    Syriac literature as well as the investigation of Barhebraeus’s creative
+                    appropriation of Avicennan philosophy. These two aspects are connected by
+                    analyzing the key term <hi rend="italic">nuṭptā/nuṭfah</hi>.</p>
+                <p xml:lang="en">The first part of this paper will examine key passages from
+                    Barhebraeus’s works that highlight the major contours of his thoughts in
+                    connection with the Syriac term <hi rend="italic">nuṭptā</hi>. This discussion
+                    will provide a foundation for the second part, in which I will investigate the
+                    correspondence of these passages to sections in Avicenna’s writings, including
+                    key differences between the authors. In the third and last step, I will trace
+                    the development of the term <hi rend="italic">nuṭptā</hi> beginning with
+                    pre-Islamic Syriac literature. As a whole, I will argue that Barhebraeus adapted
+                    the Arabic term <hi rend="italic">nuṭfah</hi> and the underlying philosophical
+                    concepts and integrated this into his synthesis of embryological ideas.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n2jackal.2">
+                <head>Barhebraeus’s conceptions of substantial change, embryology, and
+                    ensoulment</head>
+                <p xml:lang="en">I will first investigate four key passages that demonstrate how
+                    Barhebraeus uses <hi rend="italic">nuṭptā</hi> in his writings. Moving forward,
+                    it will become clear that the term <hi rend="italic">nuṭptā</hi> is directly
+                    linked to Barhebraeus’s conceptions of substantial change, embryology, and
+                    ensoulment. As a starting point, one can look at the shortest of Barhebraeus’s
+                    three philosophical compendia, the <hi rend="italic">Discourse of Wisdom</hi>.
+                    In this work, the term <hi rend="italic">nuṭptā </hi>for ‘sperm drop’ surfaces
+                    in the context of a discussion of ‘coming-to-be’ and ‘passing-away’, a central
+                    theme of natural philosophy following Aristotle:</p>
+
+                <cit>
+                    <quote xml:lang="en">[1] When we say that the drop (<hi rend="italic"
+                            >nuṭptā</hi>) becomes human, we do not mean that the drop remains what
+                        it is nor that it vanishes in its entirety. Rather, the nature (<hi
+                            rend="italic">kyānā</hi>) of the drop passes away from it and it clothes
+                        itself with human nature.<note place="foot" xml:id="ftn4" n="3"><p
+                                rend="footnote text"> Barhebraeus, <hi rend="italic">Discourse of
+                                    Wisdom</hi> 2.18 (text: Herman F. Janssens, ed., <hi
+                                    rend="italic">L’Entretien de la Sagesse: Introduction aux œuvres
+                                    philosophiques de Bar Hebraeus</hi> (Liège: Faculté de
+                                Philosophie et Lettres; Paris: Librairie E. Droz, 1937), 79.5–8;
+                                translation: ibid., 233). All translations are my own, if not stated
+                                otherwise. For the <hi rend="italic">Discourse of Wisdom</hi>, see
+                                the introduction of Janssens’s edition. The premodern Arabic
+                                translation of this difficult text should be taken into
+                                consideration as well, cf. Emilio Platti, “‘L’entretien de la
+                                sagesse’ de Barhebraeus: La traduction arabe” <hi rend="italic"
+                                    >MIDEO</hi> 18 (1988): 153–194; Iġnāṭiyūs Afrām I Barṣaum, ed.,
+                                    <hi rend="italic">L’Entretien de la sagesse par Mar Gregorius
+                                    Abulfarage Bar Hebraeus Maphrien (catholicos) syrien de
+                                    l’Orient</hi> (Homs, 1940). As Jean Fathi has recently argued,
+                                this Arabic translation might have been undertaken by Barhebraeus
+                                himself, cf. Jean Fathi, “Apologie et Mysticisme chez les chrétiens
+                                d’Orient: Recherches sur al-Kindī et Barhebraeus (vers 820 &amp;
+                                1280)” (PhD diss., Katholieke Universiteit Leuven, 2020), 257–259.
+                                This will need further research. For the metaphor of clothing in the
+                                earlier Syriac tradition, which might have inspired Barhebraeus
+                                here, see Sebastian P. Brock, “Clothing Metaphors as a Means of
+                                Theological Expression in Syriac Tradition,” in <hi rend="italic"
+                                    >Typus, Symbol, Allegorie bei den östlichen Vätern und ihren
+                                    Parallelen im Mittelalter: Internationales Kolloquium, Eichstätt
+                                    1981</hi>, ed. Margot Schmidt and Carl Friedrich Geyer
+                                (Regensburg: Pustet, 1982).</p></note></quote>
+                </cit>
+                <p xml:lang="en">Barhebraeus illustrates here the Aristotelian notion of matter and
+                    form: if a being ceases to be, another being originates from the same matter but
+                    with a different form.<note place="foot" xml:id="ftn5" n="4"><p
+                            rend="footnote text"> For the concept of hylomorphism behind
+                            coming-to-be and passing-away, see Thomas Ainsworth, “Form vs. Matter”,
+                            substantive revision: March 25, 2020, in <hi rend="italic">Stanford
+                                Encyclopedia of Philosophy</hi>, ed. Edward N. Zalta, accessed on
+                            October 20, 2022,
+                        https://plato.stanford.edu/entries/form-matter/.</p></note> According to the
+                    categories that Aristotle introduces (such as substance, quality, quantity, or
+                    place), the change involved in this process pertains to the category of
+                        substance.<note place="foot" xml:id="ftn6" n="5"><p rend="footnote text"
+                            > For the categories, see Paul Studtmann, “Aristotle’s Categories,” <hi
+                                rend="Emphasis">substantive revision: February 2, 2021,</hi> in<hi
+                                rend="italic"> Stanford Encyclopedia of Philosophy</hi>, ed.<hi
+                                rend="italic"> Edward N. Zalta, accessed on October 20, 2022,
+                                https://plato.stanford.edu/entries/form-matter/.</hi> For categories
+                            in Avicenna and post-Avicennan works see Alexander Kalbarczyk, <hi
+                                rend="italic">Predication and Ontology: Studies and Texts on
+                                Avicennian and Post-Avicennian Readings of Aristotle’s
+                                Categories</hi> (Berlin: De Gruyter, 2018), with further literature
+                            in n. 6 on p. 4.</p></note> As Barhebraeus puts it, the drop does not
+                    remain what it is. Change in other categories, on the other hand, as in quality
+                    or quantity, does not alter the substance or being itself. A human can become
+                    sick or healthy, bigger or smaller, while remaining human.</p>
+                <p xml:lang="en">There is a fundamental difference between substantial change and
+                    other kinds of change. A being can change continuously in quality or quantity.
+                    For example, a tree grows continuously, and a stone becomes hot or cold
+                        progressively.<note place="foot" xml:id="ftn7" n="6"><p rend="footnote text"
+                            > The term ‘gradually’ might imply a change by degrees, i.e.
+                            step-by-step, which would thus not be continuous. The sources themselves
+                            show some inconsistencies regarding this point (cf. text [3] below).
+                            This is pointed out by Jens Ole Schmitt, ed., <hi rend="italic"
+                                >Barhebraeus, Butyrum Sapientiae, Physics: Introduction, Edition,
+                                Translation, and Commentary</hi> (Leiden: Brill, forthcoming),
+                            section “I.4.8.5 Definitions and Categories of Motion”.</p></note>
+                    However, can a human being become more or less human? Can the sperm drop become
+                    a human being little by little? Barhebraeus addresses this topic in a section
+                    known as the <hi rend="italic">Book of Categories</hi> in his longer
+                    philosophical summa, the <hi rend="italic">Cream of Wisdom</hi>:</p>
+                <cit>
+                    <quote xml:lang="en">[2] Change in the category of substance does not come about
+                        through change which comes to be [or] passes away continuously (<hi
+                            rend="italic">b-[ʾ]idā b-[ʾ]idā</hi>) but suddenly (<hi rend="italic"
+                            >menšel[y]</hi>). Such is the change of the body in respect to
+                        reproduction: not a change of substance, but an alteration in the quality of
+                        the seed (<hi rend="italic">zarʿā</hi>) until the aptitude towards the
+                        reception [of the new form] is perfected. Then, the form of the animate
+                        being (<hi rend="italic">ṣurat ḥayyutā</hi>) is bestowed suddenly by the
+                        Giver of Forms.<note place="foot" xml:id="ftn8" n="7"><p
+                                rend="footnote text"> Barhebraeus, <hi rend="italic">Cream of
+                                    Wisdom, Book of Categories</hi> 3.3.6. The text is not edited.
+                                Translation based on ms. Florence, Biblioteca Medicea Laurenziana,
+                                Or. 69, (dated 1340), fol. 35v. The ms. forms a unit with Florence,
+                                Biblioteca Medicea Laurenziana, Or. 83. Both are freely accessible
+                                online. For these mss. see Hidemi Takahashi, ed., <hi rend="italic"
+                                    >Aristotelian Meteorology in Syriac. Barhebraeus, Butyrum
+                                    Sapientiae, Books of Mineralogy and Meteorology</hi> (Leiden:
+                                Brill, 2004), 15–16, 585–588, and 601–604. For the <hi rend="italic"
+                                    >Cream of Wisdom in general</hi><hi rend="italic">, </hi>see his
+                                introduction. The idea of the right aptitude to receive the form can
+                                also be found in Barhebraeus’s <hi rend="italic">Treatise of
+                                    treatises. </hi>This, his medium-length summa, is one of the
+                                least studied among his works; see Hidemi Takahashi, “Barhebraeus
+                                und seine islamischen Quellen. Têḡraṯ têḡrāṯā (Tractatus tractatuum)
+                                und Ġazālīs Maqāṣid al-falāsifa,” in <hi rend="italic">Syriaca. Zur
+                                    Geschichte, Theologie, Liturgie und Gegenwartslage der syrischen
+                                    Kirchen, </hi>ed. Martin Tamcke (Münster, Hamburg, and London:
+                                LIT 2002). In a passage on ensoulment, Barhebraeus compares the
+                                process to the lightening of a candle wick: if the wick has the
+                                right quality, it is lit by the flame and thus becomes a light or
+                                lamp. This text is not edited either; for the mentioned passage see
+                                ms. Mardin, Chaldean Cathedral, hmml project n° CCM 00382 (dated
+                                18th/19th century), fol. 89r–v (available online:
+                                https://www.vhmml.org/readingRoom/view/132501); cf. Florian
+                                    Jäckel,<hi rend="italic"> “Wenn wir sagen, dass der Tropfen
+                                    Mensch wird”: Vorstellungen ungeborenen Lebens bei Bar ʿEbrāyā
+                                    (1226 –1286 n. Chr.)</hi> (Ergon: Baden-Baden, 2022), <ref
+                                    target="https://doi.org/10.5771/9783956509278"><hi
+                                        style="font-family:Brill"
+                                        >https://doi.org/10.5771/9783956509278</hi></ref>, 268.
+                                However, the terms semen or drop do not appear in the <hi
+                                    rend="italic">Treatise.</hi></p></note></quote>
+                </cit>
+                <p xml:lang="en">Barhebraeus states that change or movement in the Aristotelian
+                    category of substance happens suddenly (<hi rend="italic">menšel[y]</hi>). Here,
+                    the less ambiguous term <hi rend="italic">zarʿā</hi> is used for human semen.
+                    The changes happening to the semen until it becomes an animate being are
+                    attributed to the category of ‘quality.’ In his <hi rend="italic">Book of the
+                        Pupils of the Eye</hi>, a writing on logic, there is a parallel passage:</p>
+                <cit>
+                    <quote xml:lang="en">[3] To say that coming-to-be and passing-away of substance
+                        are movements is not correct, in that movement occurs by degrees and
+                        continuously, while coming-to-be and passing-away are sudden. Therefore, the
+                        drop (<hi rend="italic">nuṭpṯā</hi>) changes in quality and quantity in the
+                        womb until all at once the form of humanity dawns upon it. For this reason,
+                        it is not said that this one [i.e. an unborn child] is more human due to the
+                        fact that he has changed more towards humanity, and that this [other] one
+                        [i.e. another unborn] is less [human] because he has changed less towards
+                            it.<note place="foot" xml:id="ftn9" n="8"><p rend="footnote text"
+                                > Barhebraeus, <hi rend="italic">Book of the Pupils of the Eye</hi>
+                                2.2 (“On Change”) (text: Herman F. Janssens, “Bar Hebraeus’ Book of
+                                the Pupils of the Eye,” <hi rend="italic">The American Journal of
+                                    Semitic Languages and Literatures</hi> 47, no. 1 (1930): 26–49,
+                                47, no. 2 (1931): 94–134, 48, no. 4 (1932): 209–263, 52, no. 1
+                                (1935): 1–21, here: 47, no. 1 (1930): 119.7–15; translation: ibid.,
+                                52, no. 1 (1935): 15). Cf. the edition Curt Steyer, ed., <hi
+                                    rend="italic">Buch der Pupillen von Gregor Bar Hebräus</hi>
+                                (Leipzig: August Pries, 1908), 8. For the <hi rend="italic">Book of
+                                    the Pupils of the Eye</hi>, see the introductions of the two
+                                editions. The question of various terms for ‘change,’ which
+                                Barhebraeus uses (and comments upon) in his different works needs
+                                further study. In this regard, there are two further passages in the
+                                    <hi rend="italic">Cream of Wisdom</hi>: <hi rend="italic">Book
+                                    on Coming-to-Be and Passing-Away</hi> 1.1.1 as well as <hi
+                                    rend="italic">Physics</hi><hi rend="italic"> </hi>3.4.1. These
+                                are discussed by Schmitt, <hi rend="italic">Butyrum Sapientiae,
+                                    Physics</hi>, section “I.4.8.5 Definitions and Categories of
+                                Motion”. In what follows in the <hi rend="italic">Book of
+                                    Categories</hi> of the <hi rend="italic">Cream</hi> after text
+                                [2] cited above, Barhebraeus states that substantial changes are
+                                metaphorically called ‘jumps’ or ‘jerks’ (<hi rend="italic"
+                                    >zuʿē</hi>) in the ‘old writings’. Originally, I had read ‘old
+                                writings’ as Barhebraeus’s attempt to mask the origin of this
+                                terminology of ‘jumps’ as Avicennan; cf., however, below, n.
+                            15.</p></note></quote>
+                </cit>
+                <p xml:lang="en">Here, as in text [1], the human seed is termed <hi rend="italic"
+                        >nuṭptā</hi>, and the changes it undergoes until it becomes a human being
+                    are attributed to the categories of both quality and quantity. The end of this
+                    passage clearly expresses the notion that the unborn can either be human or
+                    non-human – and nothing in between. Presumably, what Barhebraeus implies with
+                    ‘more human’ and ‘less human’ is the progress of embryological development.</p>
+                <p xml:lang="en">Ultimately, Barhebraeus’s notion of substantial change as taking
+                    place suddenly has implications for his position regarding ensoulment as
+                    presented in his theological writings. He wrote two theological compendia: the
+                    extensive <hi rend="italic">Candelabrum of the Sanctuary</hi> and a shorter
+                    reworking of the <hi rend="italic">Candelabrum</hi> known as the <hi
+                        rend="italic">Book of Rays</hi>.<note place="foot" xml:id="ftn10" n="9"><p
+                            rend="footnote text"> The exact dating of these two works is uncertain;
+                            cf. the chronology of Barhebraeus’s works in Takahashi, <hi
+                                rend="italic">A Bio-Bibliography</hi>, 90–94.</p></note> In the <hi
+                        rend="italic">Candelabrum</hi>, Barhebraeus opposes the view that the human
+                    body precedes its soul and rejects the idea that ensoulment occurs later during
+                        pregnancy.<note place="foot" xml:id="ftn11" n="10"><p rend="footnote text"
+                            > Barhebraeus, <hi rend="italic">Candelabrum of the Sanctuary</hi>
+                            8.3.1.2 (text: Ján Bakoš, ed., <hi rend="italic">Psychologie de Grégoire
+                                Aboulfaradj dit Barhebraeus d’après la huitième base de l’ouvrage
+                                “Le Candélabre des Sanctuaires”</hi> (Leiden: Brill, 1948), Syr.
+                            71–72; translation: ibid., 42). For the part of the <hi rend="italic"
+                                >Candelabrum</hi> treating the soul, see Giuseppe Furlani,
+                            “Barhebreo sull’ anima razionale (dal Libro del Candelabro del
+                            Santuario)” <hi rend="italic">Orientalia N. S.</hi> 1 (1932): 1–23,
+                            97–115, the introduction in Bakoš, <hi rend="italic">Psychologie de
+                                Grégoire Aboulfaradj</hi> as well as Jobst Reller, “Iwannis von
+                            Dara, Mose bar Kepha und Bar Hebräus über die Seele,
+                            traditionsgeschichtlich untersucht,” in <hi rend="italic">After
+                                Bardaisan: Studies on Continuity and Change in Syriac Christianity
+                                in Honour of Professor Han J.W. Drijvers</hi>, ed. G.J. Reinink and
+                            A.C. Klugkist (Leuven: Uitgeverij Peeters and Departement Oosterse
+                            Studies, 1999), 264–267. For Syriac works on the soul up until the 9th
+                            century, see Henri Hugonnard-Roche, “La question de l’âme dans la
+                            tradition philosophique syriaque (VIe–IXe siècle),” <hi rend="italic"
+                                >Studia graeco-arabica</hi> 4 (2014): 17–64. For the Greek context,
+                            especially with reference to the ensoulment of the unborn, see
+                            Marie-Hélène Congourdeau, <hi rend="italic">L’embryon et son âme dans
+                                les sources Grecques (viᵉ siècle av. J.-C.-vᵉ siècle apr. J.-C.)
+                            </hi>(Paris: Association des amis du Centre d'histoire et civilisation
+                            de Byzance, 2007) and, generally for late antiquity, id., “Debating the
+                            Soul in Late Antiquity,” in <hi rend="italic">Reproduction: Antiquity to
+                                the Present Day</hi>, ed. Nick Hopwood, Rebecca Flemming, and Lauren
+                            Kassell (Cambridge: Cambridge University Press, 2018). To my knowledge,
+                            there is no systematic study of ensoulment or the soul in later Syriac
+                            or Christian-Arabic works.</p></note> In the later <hi rend="italic"
+                        >Book of Rays</hi>, however, Barhebraeus writes:</p>
+                <cit>
+                    <quote xml:lang="en">[4] Regarding the simultaneity of the origination (<hi
+                            rend="italic">šāwyut šwiḥutā</hi>) of soul and body: It is rightly
+                        assumed for the time of the perfection of the body (<hi rend="italic">šumlāy
+                            pagrā</hi>), but not for the time of the establishment (<hi
+                            rend="italic">tarmitā</hi>) of the sperm drop (<hi rend="italic"
+                            >nuṭptā</hi>).<note place="foot" xml:id="ftn12" n="11"><p
+                                rend="footnote text"> Barhebraeus, <hi rend="italic">Book of
+                                    Rays</hi> 6.3.1. The <hi rend="italic">Book of Rays</hi> has not
+                                been critically edited. I translate according to ms. Berlin,
+                                Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Sachau 327
+                                (dated 17th cent.), fol. 80r–v, which is freely accessible online.
+                                The only edition available contains an error here (as well as in
+                                other places), cf. Yešūʿ b. Gabriel, ed., <hi rend="italic">Ktābā
+                                    d-Zalgē w-šurārā d-šetēssē ʿēdtānyātā – Book of Zelge by
+                                    Bar-Hebreaus </hi>[sic]<hi rend="italic">. Mor Gregorius
+                                    Abulfaraj the Great Syrian Philosopher and Author of Several
+                                    Christian Works 1226–1286</hi> (Istanbul, 1997), 149. That there
+                                is a difference between Barhebraeus’s position on ensoulment in the
+                                    <hi rend="italic">Candelabrum</hi> and in the <hi rend="italic"
+                                    >Book of Rays</hi> had been pointed out by Oskar Braun, ed., <hi
+                                    rend="italic">Moses Bar Kepha und sein Buch von der Seele</hi>
+                                (Freiburg i. Br.: Herdersche Verlagshandlung, 1891), 139–140,
+                                however without any further explanations. It is also important to
+                                note that Barhebraeus’s principial idea of ensoulment <hi
+                                    rend="italic">with</hi> the body has not changed. Rather, the
+                                notion of body as ‘completed body’ and the idea of substance have
+                                been specified. Also, it is noteworthy that my translation of <hi
+                                    rend="italic">tarmitā</hi> is rather literal. The word is used
+                                in conjunction with <hi rend="italic">zarʿā</hi>, i.e. seed, to mean
+                                sowing and in this respect also for ‘conception.’ However,
+                                Barhebraeus renders ‘conception’ mostly as <hi rend="italic"
+                                    >baṭnā</hi>.</p></note></quote>
+                </cit>
+                <p xml:lang="en">Comparing this passage with texts [1]–[3] above, the implicit idea
+                    is that the human seed cannot be substantially identical to the human being, and
+                    the substantial change from ‘drop’ to a human being cannot happen continuously.
+                    In Barhebraeus’s view, the reception of the human soul – understood as the human
+                    form – occurs when the body has been completed.<note place="foot" xml:id="ftn13"
+                        n="12"><p rend="footnote text"> The interpretation of the human soul as the
+                            substantial form of a human being is explicit in Barhebraeus, <hi
+                                rend="italic">Discourse of Wisdom</hi> 2.32 (text: Janssens, <hi
+                                rend="italic">L’Entretien de la Sagesse</hi>, 89.8–12; translation:
+                            ibid., 257). This identification of soul and form is philosophically
+                            problematic in the case of the human soul; cf., e.g., Davlat Dadikhuda,
+                            “Not that Simple: Avicenna, Rāzī, and Ṭūsī on the Incorruptibility of
+                            the Human Soul at Ishārāt VII.6,” in <hi rend="italic">Islamic
+                                Philosophy from the 12th to the 14th Century</hi>, ed. Abdelkader Al
+                            Ghouz (Göttingen: V&amp;R unipress and Bonn University Press, 2018).
+                            Barhebraeus thus qualifies the relationship of body and soul in the same
+                            context of the <hi rend="italic">Discourse of Wisdom</hi> 2.32 as “love
+                            and leadership” rather than “composition and mixture” (<hi rend="italic"
+                                >w-b-[ʾ]esārā d-šengtā w-malāḥutā w-lā hwā d-ḥabbikuta
+                                w-da-mmazgutā</hi>).</p></note></p>
+                <p xml:lang="en">In the <hi rend="italic">Book of Rays</hi>, following text [4],
+                    Barhebraeus interprets Leviticus 12:2–5 as a biblical proof-text for his
+                    position. In Leviticus, the number of days determined for a mother’s
+                    purification after birth is 40 for a boy and 80 for a girl.<note place="foot"
+                        xml:id="ftn14" n="13"><p rend="footnote text"> “If a woman conceives and
+                            bears a male child, she shall be ceremonially unclean for seven days; as
+                            at the time of her menstruation, she shall be unclean. On the eighth day
+                            the flesh of his foreskin shall be circumcised. Her time of blood
+                            purification shall be thirty-three days; she shall not touch any holy
+                            thing, or come into the sanctuary, until the days of her purification
+                            are completed. If she bears a female child, she shall be unclean for two
+                            weeks, as in her menstruation; her time of blood purification shall be
+                            sixty-six days” (quoted according to the <hi rend="italic">New Revised
+                                Standard Version</hi>).</p></note> He explains that this is equal to
+                    the number of days the mother has carried an inanimate, dead body. In the <hi
+                        rend="italic">Candelabrum</hi>, the same argument is attributed by
+                    Barhebraeus explicitly to Philoxenos of Mabbug (before 440–523) – and
+                        rejected.<note place="foot" xml:id="ftn15" n="14"><p rend="footnote text"
+                            > This explanation by Philoxenos is only attested indirectly as of yet.
+                            It is mentioned, among other places, in Moses bar Kepha’s (d. 903) <hi
+                                rend="italic">Mēmrā on the Soul</hi>, which is Barhebraeus’s <hi
+                                rend="italic">Vorlage</hi> for the <hi rend="italic"
+                                >Candelabrum</hi>. Tracing Barhebraeus’s entire reworking of these
+                            passages (first, of Moses’s <hi rend="italic">Mēmrā</hi> for the <hi
+                                rend="italic">Candelabrum</hi>, then the latter for the <hi
+                                rend="italic">Book of Rays</hi>) is beyond the scope of this
+                            article. At any rate, Moses and Barhebraeus mention other Greek and
+                            Syriac authors, who either put forth the simultaneity of body and soul
+                            or later ensoulment. For a detailed analysis of these points see chapter
+                            4 in Florian Jäckel,<hi rend="italic"> “Wenn wir sagen, dass der Tropfen
+                                Mensch wird”</hi>, 215–288.</p></note> We will return to these
+                    periods of embryological development later.</p>
+            </div>
+            <div xml:lang="en" xml:id="h26n2jackal.3">
+                <head>Avicenna’s notion of substantial change as Barhebraeus’s point of
+                    reference</head>
+                <p xml:lang="en">In the following, I will explore Avicenna as Barhebraeus’s point of
+                    reference for texts [1]–[4] discussed above. What links the textual passages by
+                    both authors is the illustration of the philosophical problem of substantial
+                    change with human procreation. At the same time, differences in their notion of
+                    embryological development will become apparent. We can identify Barhebraeus’s
+                    reception of Avicenna as creative appropriation rather than mere adoption.</p>
+                <p xml:lang="en">Avicenna’s understanding of substantial change was first discussed
+                    in 2004 in an article by Jon McGinnis.<note place="foot" xml:id="ftn16" n="15"
+                            ><p rend="footnote text"> Jon McGinnis, “On the Moment of Substantial
+                            Change: A Vexed Question in the History of Ideas,” in <hi rend="italic"
+                                >Interpreting Avicenna: Science and Philosophy in Medieval Islam:
+                                Proceedings of the Second Conference of the Avicenna Study
+                                Group</hi>, ed. Jon McGinnis (Leiden: Brill, 2004); see also id.,
+                                <hi rend="italic">Avicenna</hi>, 84–88. I would like to correct
+                            McGinnis’s suggestion (“Moment of Substantial Change,” 56) that Avicenna
+                            refers so substantial changes as ‘jumps’ or ‘jerks’ (Arabic <hi
+                                rend="italic">iḫtilāǧāt</hi>). The passage he scrutinizes is part of
+                            Avicenna’s treatment of the generation of twins. In this context, the
+                            male emission of semen is described as distinct ‘jerks’ resulting in
+                            distinct embryos, see Ursula Weisser, <hi rend="italic">Zeugung,
+                                Vererbung und pränatale Entwicklung in der Medizin des
+                                arabisch-islamischen Mittelalters</hi> (Erlangen, 1983), 163–164 and
+                            Johannes M. Thijssen, “Twins as Monsters: Albertus Magnus’s Theory of
+                            the Generation of Twins and its Philosophical Context,” <hi
+                                rend="italic">Bulletin of the History of Medicine</hi> 61, no. 2
+                            (1987): 237–246.</p></note> According to McGinnis, Avicenna offered a
+                    novel explanation of the problem of substantial change as taking place
+                        suddenly.<note place="foot" xml:id="ftn17" n="16"><p rend="footnote text"
+                            > McGinnis, “Moment of Substantial Change,” 42–48.</p></note> In the
+                    general treatment of physics in his <hi rend="italic">Book of the Healing</hi>,
+                    Avicenna illustrates the problem using human generation:</p>
+                <cit>
+                    <quote xml:lang="en">[5] Until the semen (<hi rend="italic">manīy</hi>) becomes
+                        an animate being (<hi rend="italic">ḥayawān</hi>), other acts of
+                        coming-to-be happen to it, which introduce changes in quality and quantity
+                        between the two [i.e. the semen and the animate being]. The semen, then,
+                        changes continuously little by little (<hi rend="italic">lā yazāl yastaḥīl
+                            yasīran yasīran</hi>) – while still being semen – until it comes to the
+                        brink of being stripped of its seminal form and becomes an <hi rend="italic"
+                            >ʿalaqah</hi>. And such is its state until it comes to be a <hi
+                            rend="italic">muḍġah</hi>.<note place="foot" xml:id="ftn18" n="17"><p
+                                rend="footnote text"><hi rend="italic"> ʿAlaqah</hi> is often
+                                translated as ‘bloodclot’ or ‘leech’ and <hi rend="italic"
+                                    >muḍġah</hi> as ‘piece of flesh’ or ‘embryo’. It is best, I
+                                believe, not to impose modern concepts of embryological developments
+                                on these kinds of texts. On the other hand, Avicenna (and other
+                                later authors) seem to treat them as technical terms for distinct
+                                embryological stages. This is why translations that convey the
+                                original meaning, such as ‘clinging thing’ for <hi rend="italic"
+                                    >ʿalaqah</hi>, do not resolve this problem either. For this
+                                reason, I have left these words untranslated.</p></note> After that
+                        bones, nerves/sinews, blood vessels and other things<hi
+                            rend="annotation_reference"> </hi>we do not grasp [come to be], and thus
+                        until it receives the form of the animate being.<note place="foot"
+                            xml:id="ftn19" n="18"><p rend="footnote text"> Avicenna, <hi
+                                    rend="italic">Book of the Healing: Physics</hi> 2.3
+                                (text + translation: Jon McGinnis, ed. and trans., <hi rend="italic"
+                                    >Avicenna. The Physics of The Healing. Books I &amp; II. A
+                                    parallel English-Arabic text</hi> (Provo, UT: Brigham Young
+                                University Press, 2005), Arabic 141, 141. For the <hi rend="italic"
+                                    >Book of the Healing</hi>, see Gutas, <hi rend="italic">Avicenna
+                                    and the Aristotelian Tradition</hi>, 103–115.</p></note></quote>
+                </cit>
+                <p xml:lang="en">We know that Barhebraeus extensively used Avicenna’s <hi
+                        rend="italic">Book of the Healing</hi> for the <hi rend="italic">Cream of
+                        Wisdom </hi>and his other works.<note place="foot" xml:id="ftn20" n="19"><p
+                            rend="footnote text"> For the<hi rend="italic"> </hi><hi rend="italic"
+                                >Book of the Healing</hi> as <hi rend="italic">Vorlage</hi> for
+                                Barhebraeus’s<hi rend="italic"> </hi><hi rend="italic">Cream of
+                                Wisdom,</hi><hi rend="italic"> </hi>see Takahashi, <hi rend="italic"
+                                >Aristotelian Meteorology in Syriac</hi>, 11–14 and 48–50. The
+                            present case is also an example of Barhebraeus’s rearrangement of
+                            material in his sources: Avicenna had come to the conclusion that the
+                            question of movement and change should not be dealt with within logic,
+                            i.e. the Categories; cf. Avicenna, <hi rend="italic">Kitāb aš-Šifāʾ,
+                                al-manṭiq</hi> 2, <hi rend="italic">al-Maqūlāt</hi>, ed. al-Ab
+                            Qanawātī [=George Anawati] et al. (Cairo: Dār al-kātib al-ʿarabī
+                            li-ṭ-ṭibāʿah wa-n-našr, 1959), 271.3–9. He only mentions that changes in
+                            substance are to be treated differently than in other categories; ibid.,
+                            271.11–12. Accordingly, Avicenna treats the question in the <hi
+                                rend="italic">Physics</hi> of the <hi rend="italic">Healing</hi>;
+                            cf. Paul Thom, “The division of the categories according to Avicenna,”
+                            in <hi rend="italic">Aristotle and the Arabic Tradition</hi>, ed. Ahmed
+                            Alwishah and Josh Hayes (Cambridge: Cambridge University Press, 2015),
+                            38. In the <hi rend="italic">Cream of Wisdom</hi><hi rend="italic"
+                            > </hi>(text [2] above), Barhebraeus reverts to treating the problem in
+                            the <hi rend="italic">Book of Categories</hi>, but he uses Avicenna’s
+                            correspondent text from the <hi rend="italic">Physics</hi> of the <hi
+                                rend="italic">Book of the Healing</hi> (text [5]).</p></note> In
+                    this case, too, there are several points in which the quotations from
+                    Barhebraeus’s works given above overlap with what Avicenna states in text [5].
+                    One general agreement between the texts cited is to use human generation as a
+                    prime example of the underlying issue of substantial change. Regarding
+                    terminology, in text [5], Avicenna uses the Arabic word <hi rend="italic"
+                        >manīy</hi>, ‘the ejaculate,’ which is often used in a more technical sense
+                    than the figurative term <hi rend="italic">nuṭfah, ‘</hi>(sperm) drop.’
+                    Barhebraeus accordingly uses the Syriac word <hi rend="italic">zarʿā</hi>,
+                    ‘seed’ in text [2].<note place="foot" xml:id="ftn21" n="20"><p
+                            rend="footnote text"> There seems to be no direct equivalent for Arabic
+                                <hi rend="italic">manīy</hi> in Syriac, apart from verbal
+                            expressions using the root <hi rend="italic">r-m-y</hi> with the general
+                            meaning of ‘to throw’ as well as ‘to set.’ To this effect, Barhebraeus’s
+                            use of the cognate <hi rend="italic">tarmitā</hi> in text [4] above is
+                            noteworthy. In general, the texts I looked at do not seem to provide a
+                            consistent terminology with regard to the semen. In specific passages,
+                            the male and female contributions to generation are meticulously
+                            distinguished, functionally and terminologically, and later referred to
+                            again as the ‘two seeds;’ cf. also Weisser, <hi rend="italic">Zeugung,
+                                Vererbung und pränatale Entwicklung</hi>, 117–140.</p></note> I will
+                    later point out other instances where Avicenna uses<hi rend="italic">
+                        nuṭfah</hi> that correspond to Barhebraeus’s usage of<hi rend="italic">
+                        nuṭptā. </hi>Moreover, the changes happening to the semen are described in
+                    the quotations by the two authors as both qualitative and quantitative. Only
+                    when matter undergoes these continuous changes in the categories of quality and
+                    quantity and is thus prepared or suitable does it receive a new form. Avicenna
+                    adds:</p>
+                <cit>
+                    <quote xml:lang="en">[6] However, the outer appearance of the situation suggests
+                        that this is a single process from one substantial form to another
+                        substantial form and makes one believe therefore that there is motion [i.e.
+                        change] (<hi rend="italic">ḥarakah</hi>) in the [category of] substance,
+                        when this is not the case. Rather, there are many motions and rests.<note
+                            place="foot" xml:id="ftn22" n="21"><p rend="footnote text"> Avicenna,
+                                    <hi rend="italic">Book of the Healing: Physics</hi> 2.3
+                                (text + translation: McGinnis, <hi rend="italic">The Physics of The
+                                    Healing</hi>, 141, Arabic 141).</p></note></quote>
+                </cit>
+                <p xml:lang="en">Although the term ‘sudden’ does not appear here, Avicenna’s
+                    underlying notion of substantial change becomes apparent. He conceives the
+                    motion or change (<hi rend="italic">ḥarakah</hi>) in the category of substance
+                    as sudden and there is no substantial change in between, i.e. the process of
+                    substantial change comes to a rest. This marks yet another point of intersection
+                    between Avicenna and Barhebraeus, and the final one explored here.</p>
+                <p xml:lang="en">However, there is also an essential difference between the two
+                    authors’ accounts. Avicenna mentions further embryological stages apart from the
+                    semen, namely <hi rend="italic">ʿalaqah</hi> and <hi rend="italic">muḍġah,</hi>
+                    as well as bones, nerves, and blood vessels. Most of these terms are found in
+                    the Quran and later Islamic religious texts such as Hadith.<note place="foot"
+                        xml:id="ftn23" n="22"><p rend="footnote text"> I specifically refer to <hi
+                                rend="italic">ʿalaqah</hi> and <hi rend="italic">muḍġah</hi>.
+                            Naturally, bones and nerves/sinews appear in medical texts as well, but
+                            figure in Hadith texts, too. In general, cf. Quran 23:12–14 as an
+                            example. A key text is one of the <hi rend="italic">Forty Ḥadiths</hi>
+                            by an-Nawawī (1233–1277): “Indeed, each one of you—his figure/creation
+                                (<hi rend="italic">ḫalq</hi>) is gathered in the belly of his mother
+                            for forty days as a drop (<hi rend="italic">nuṭfah</hi>), then it is
+                                (<hi rend="italic">yakūn</hi>) a <hi rend="italic">ʿalaqah</hi>
+                            likewise [i.e. forty days?], then it is a <hi rend="italic">muḍġah</hi>
+                            likewise [i.e. forty days?], then the angel is sent to him and he blows
+                            into him the spirit (<hi rend="italic">rūḥ</hi>) […];” translated
+                            according to Muḥammad b. Sālih al-ʿUṯaymīn, <hi rend="italic">Šarḥ
+                                al-arbaʿīn an-nawawīyah</hi> (Riyadh: Dār aṯ-ṯurayyā li-n-našr
+                            wa-tawzīʿ, 2004), 99. For an-Nawawī, see Fachrizal A. Halim, <hi
+                                rend="italic">Legal Authority in Premodern Islam. Yaḥyā b. Sharaf
+                                al-Nawawī in the Shāfiʿī School of Law</hi> (London: Routledge,
+                            2015), 14–34. For research on the unborn in Islamic religious texts see
+                            Thomas Eich, “Induced Miscarriage in Early Mālikī and Ḥanafī <hi
+                                rend="italic">Fiqh</hi>,” <hi rend="italic">Islamic Law and
+                                Society</hi> 16 (2009): 302–336; id., “Patterns in the History of
+                            the Commentation on the So-Called <hi rend="italic">ḥadīth Ibn
+                                Masʿūd,”</hi>
+                            <hi rend="italic">Journal of Arabic and Islamic Studies</hi> 18 (2018):
+                            137–162; id., “Zur Abtreibung in frühen islamischen Texten,” <hi
+                                rend="italic">Zeitschrift der Deutschen Morgenländischen
+                                Gesellschaft</hi> 170, no. 2 (2020): 345–360; and Marion Holmes
+                            Katz, “The Problem of Abortion in Classical Sunni <hi rend="italic"
+                                >fiqh,”</hi> in <hi rend="italic">Islamic Ethics of Life: Abortion,
+                                War, and Euthanasia</hi>, ed. Jonathan E. Brockopp (Columbia, SC:
+                            University of South Carolina Press, 2003).</p></note> Barhebraeus, on
+                    the other hand, only refers to a seed (<hi rend="italic">zarʿā</hi>) or a drop
+                        (<hi rend="italic">nuṭptā</hi>), which eventually becomes a human being (or
+                    an animate being more generally).</p>
+                <p xml:lang="en">This difference in embryological terminology between the passages
+                    cited is not an isolated case. For comparison, one can consider Barhebraeus’s
+                    description of procreation and embryological development in the zoological part
+                    of the <hi rend="italic">Cream of Wisdom</hi>. As is the case elsewhere, his
+                    primary point of reference is Avicenna’s <hi rend="italic">Book of the
+                        Healing</hi>, juxtaposed in many smaller or greater details with Aristotle’s
+                        <hi rend="italic">History of Animals</hi> (<hi rend="italic">Historia
+                        animalium</hi>).<note place="foot" xml:id="ftn24" n="23"><p
+                            rend="footnote text"> Apart from Avicenna’s <hi rend="italic">Book of
+                                the Healing</hi> and Aristotle’s <hi rend="italic">History of
+                                Animals</hi>, Faḫr ad-Dīn ar-Rāzī’s (1150–1210) <hi rend="italic"
+                                >Eastern Investigations</hi> (<hi rend="italic">al-Mabāḥiṯ
+                                al-mašriqiyyah</hi>) are another source for Barhebraeus treatment of
+                            procreation and embryology. For details, see Jäckel,<hi rend="italic">
+                                “Wenn wir sagen, dass der Tropfen Mensch wird”</hi>, 122–209. That
+                            Barhebraeus’s account actually corresponds with the compendium <hi
+                                rend="italic">On the Philosophy of Aristotle</hi> dubiously ascribed
+                            to Nicolaus of Damascus must be considered as well. However, the
+                            zoological parts of this work are only transmitted in small fragments
+                            and can thus not be used for comparison; cf. H.J. Drossaart Lulofs,
+                            “Aristotle, Bar Hebraeus, and Nicolaus Damascenus on Animals,” in <hi
+                                rend="italic">Aristotle on Nature and Living Things: Philosophical
+                                and Historical Studies Presented to David M. Balme on his Seventieth
+                                Birthday</hi>, ed. Allan Gotthelf (Pittsburgh, PY: Mathesis
+                            Publications; Bristol: Bristol Classical Press, 1985). For the wrong
+                            attribution of Nicolaus’s compendium see Silvia Fazzo and Mauro Zonta,
+                            “Aristotle’s Theory of Causes and the Holy Trinity: New Evidence about
+                            the Chronology and Religion of Nicolaus ‘of Damascus’,” <hi
+                                rend="italic">Laval théologique et philosophique</hi> 64, no. 3
+                            (2008): 681–690 and Silvia Fazzo, “Nicolas, l’auteur du sommaire de la
+                            philosophie d’Aristote: Doutes sur son identité, sa datation, son
+                            origine,” <hi rend="italic">Revue des Études Grecques</hi> 121, no. 1
+                            (2008): 99–126.</p></note> Barhebraeus often literally translates
+                    Avicenna’s <hi rend="italic">Book of the Healing </hi>into Syriac, and thus, the
+                    differences between the two works here stand out. In his account, Barhebraeus
+                    skips a rather long passage by Avicenna treating the embryological stages,
+                    including those with Islamic connotations.<note place="foot" xml:id="ftn25"
+                        n="24"><p rend="footnote text"> Cf. Avicenna, <hi rend="italic">Book of the
+                                Healing: Book of Animals</hi> 9.5 (“On the Distinction of
+                            Alterations of the Matter of the Embryo until it is Completed”) (text:
+                            Ibn Sīnā, <hi rend="italic">Kitāb aš-Šifāʾ</hi>, <hi rend="italic"
+                                >aṭ-ṭabīʿiyyāt</hi> 8, <hi rend="italic">al-ḥayawān,</hi> ed. ʿAbd
+                            al-Ḥalīm Muntaṣir et al. (Cairo: al-Hayʾah al-miṣriyyah al-ʿāmmah
+                            li-t-taʾlīf wa-n-našr, 1970), 172–178.</p></note> Barhebraeus only takes
+                    up a few aspects of Avicenna’s work in his section on the development of the
+                    “main organs from the two seeds.”<note place="foot" xml:id="ftn26" n="25"><p
+                            rend="footnote text"><hi rend="italic"> Cream of Wisdom: Book of
+                                Animals</hi> 5.2 (text: Jäckel, <hi rend="italic">“Wenn wir sagen,
+                                dass der Tropfen Mensch wird”</hi>, 341–343; translation: ibid.,
+                            356–358).</p></note> One major difference is that Barhebraeus does not
+                    provide a terminological or conceptual match for <hi rend="italic">muḍġah</hi>.
+                    Further, Barhebraeus only refers to the <hi rend="italic">similarity</hi> of the
+                    embryo’s body to an <hi rend="italic">ʿellaqtā</hi><note place="foot"
+                        xml:id="ftn27" n="26"><p rend="footnote text"> “The body of the embryo
+                            becomes similar to a leech/clinging thing,” <hi rend="italic">l-ʿellaqtā
+                                metdammē gšum ʿulā</hi>.</p></note> – Barhebraeus’s Syriac
+                    equivalent to Arabic <hi rend="italic">ʿalaqah</hi> – whereas Avicenna states
+                    that the drop <hi rend="italic">becomes</hi> an <hi rend="italic"
+                    >ʿalaqah</hi>.</p>
+                <p xml:lang="en">Differences between Barhebraeus’s and Avicenna’s accounts
+                    demonstrate the independence of Barhebraeus’s embryological synthesis. This
+                    indipendent thought includes his idea of later ensoulment in the <hi
+                        rend="italic">Book of Rays</hi> and of the duration of the embryo’s
+                    formation. Concerning the latter, Barhebraeus’s presentation of the duration of
+                    the embryo’s formation in the zoology of the <hi rend="italic">Cream of
+                        Wisdom</hi> is taken from the Aristotelian account in the<hi rend="italic">
+                        History of Animals</hi>, namely, 40 days for a male child and three months
+                    for a female child.<note place="foot" xml:id="ftn28" n="27"><p
+                            rend="footnote text"> Barhebraeus, <hi rend="italic">Cream of Wisdom:
+                                Book of Animals</hi> 5.1.2 (text: Jäckel, <hi rend="italic">“Wenn
+                                wir sagen, dass der Tropfen Mensch wird”</hi>, 338; translation:
+                            ibid., 354) and Aristotle, <hi rend="italic">History of Animals</hi>
+                            VII.3 (583b14–23 Bekker).</p></note> Avicenna, on the other hand, states
+                    that the formation of the embryo takes roughly 40 days. A girl might develop
+                    more slowly, but there is always some natural variation between
+                        individuals.<note place="foot" xml:id="ftn29" n="28"><p rend="footnote text"
+                            > Cf. <hi rend="italic">Book of the Healing: Book of Animals</hi> 9.5
+                            (text: Ibn Sīnā, ed. Muntasir et al., 172.4–173.19). In this same
+                            context, Avicenna treats the embryological stages <hi rend="italic"
+                                >ʿalaqah</hi> and <hi rend="italic">muḍġah</hi>.</p></note>
+                    Moreover, the periods provided by Barhebraeus also echo those for ensoulment in
+                    the <hi rend="italic">Book of Rays</hi> (cf. text [4] above). While we have seen
+                    in texts [2] and [3] that Avicenna’s concept of substantial change constitutes
+                    an essential aspect of Barhebraeus’s notion of the unborn, the differences
+                    identified here between their accounts show that Barhebraeus developed his own
+                    distinct notion of the unborn. It can be described as a synthesis of
+                    Aristotelian, Avicennan, and Syriac-Christian notions of the unborn.<note
+                        place="foot" xml:id="ftn30" n="29"><p rend="footnote text"> In the passages
+                            treated in this article, Barhebraeus’s engagement with the Syriac
+                            tradition is rather implicit (cf. fn. 14 above). For a more detailled
+                            analysis see Chapter 4 in Jäckel, <hi rend="italic">“Wenn wir sagen,
+                                dass der Tropfen Mensch wird”</hi>, especially
+                    269–285.</p></note></p>
+            </div>
+            <div xml:lang="en" xml:id="h26n2jackal.4">
+                <head><hi rend="italic">Nuṭptā</hi>/<hi rend="italic">nuṭfah </hi>in Syriac and
+                    Arabic texts before Barhebraeus</head>
+                <p xml:lang="en">In what remains, I will trace the term <hi rend="italic"
+                        >nuṭptā</hi>/<hi rend="italic">nuṭfah</hi> as ‘sperm drop’ more broadly,
+                    arguing that Barhebraeus adapts it from philosophical contexts in Avicenna’s
+                    (and possibly in other Arabic-Islamic) writings. To begin with, I have not found
+                    any instances where <hi rend="italic">nuṭptā</hi> is metaphorically used for
+                    semen in earlier Syriac literature.<note place="foot" xml:id="ftn31" n="30"><p
+                            rend="footnote text"> For a search as comprehensive as possible I have
+                            used the dictionaries by Brockelmann and Payne-Smith, which both refer
+                            to attestations in the sources, as well as the digital thesaurus <hi
+                                rend="italic">Simtho</hi> (see Beth Mardutho, ed., <hi rend="italic"
+                                >Simtho: The Syriac Thesaurus</hi>, accessed on October 20, 2022,
+                            http://bethmardutho.org/simtho/) and the <hi rend="italic">Digital
+                                Syriac Corpus</hi> (see James E. Walters, ed., “About the Digital
+                            Syriac Corpus,” accessed on October 20, 2022,
+                            https://syriaccorpus.org/index.html).</p></note> In the medieval
+                    Syriac-Arabic dictionary of Bar Bahlul (fl. ca. 1050), the meaning of ‘semen’ is
+                    only attested for <hi rend="italic">nuṭptā</hi> in a single manuscript from
+                    1796; it is most likely a later addition.<note place="foot" xml:id="ftn32"
+                        n="31"><p rend="footnote text"> Bar Bahlul, <hi rend="italic">Lexicon</hi>
+                            s.v. <hi rend="italic">nuṭptā</hi> (text: Rubens Duval, ed., <hi
+                                rend="italic">Lexicon Syriacum auctore Hassano Bar Bahlule</hi>, 3
+                            vols. (Paris: Reipublicae typographaeum, 1901), vol. 2, col.
+                        1225).</p></note> There is no attestation of <hi rend="italic">nuṭptā</hi>
+                    as semen in the <hi rend="italic">Book of the Translator</hi> by Eliya of
+                    Nisibis (975–1046).<note place="foot" xml:id="ftn33" n="32"><p
+                            rend="footnote text"> Eliya of Nisibis, <hi rend="italic">Book of the
+                                Translator</hi> 21 (text: Paul Lagarde, ed., <hi rend="italic"
+                                >Praetermissorum Libri Duo</hi> (Göttingen: Dieterich, 1879), 47). I
+                            am grateful to Nicolas Atas for pointing this out to me.</p></note>
+                    Searching in the digital thesaurus <hi rend="italic">Simtho</hi>, one can
+                    mention passages where Ephrem the Syrian (d. 373) or Babai the Great (ca.
+                    551–628) treat the biblical account of the creation of humankind from a grain of
+                    dust and drop (<hi rend="italic">nuṭptā</hi>) of water.<note place="foot"
+                        xml:id="ftn34" n="33"><p rend="footnote text"> Ephrem the Syrian, <hi
+                                rend="italic">Hymns against Heresies</hi> 49.4 (text: Edmund Beck,
+                            ed., <hi rend="italic">Des Heiligen Ephraem des Syrers Hymnen Contra
+                                Haereses</hi>, CSCO 169 (Louvain: Secrétariat du CorpusSCO, 1957),
+                            193.1–4; translation: id., ed. and trans., <hi rend="italic">Des
+                                Heiligen Ephraem des Syrers Hymnen Contra Haereses</hi>, CSCO 170
+                            (Louvain: Secrétariat du CorpusSCO, 1957, 170–171) and Babai the Great,
+                                <hi rend="italic">Book of Union</hi> 1.3 (text: Arthur Vaschalde,
+                            ed., <hi rend="italic">Babai Magni Liber de Unione</hi>, CSCO 79
+                            (Louvain: Imprimerie Orientaliste L. Durbecq, 1953), 20.15–17;
+                            translation: id., ed. and trans., <hi rend="italic">Babai Magni Liber de
+                                Unione</hi>, CSCO 80 (Louvain: Imprimerie Orientaliste L. Durbecq,
+                            1953), 16–17).</p></note> Another passage (not found via <hi
+                        rend="italic">Simtho</hi>) is in the <hi rend="italic">Cave of
+                        Treasures</hi>.<note place="foot" xml:id="ftn35" n="34"><p
+                            rend="footnote text"> Cf. Alexander Toepel, <hi rend="italic">Die Adam-
+                                und Seth-Legenden im syrischen Buch der Schatzhöhle: Eine
+                                quellenkritische Untersuchung</hi>, CSCO 618 (Louvain: Peeters,
+                            2006), 56.</p></note> Moreover, in the <hi rend="italic">Hexaemera</hi>
+                    of Jacob of Serugh (ca. 451–521) and Jacob of Edessa (ca. 630–708), human
+                    procreation is treated alongside and, in the case of Jacob of Serugh, as
+                    partially analogous to God’s creation of the first humans. However, the male
+                    semen is termed <hi rend="italic">zarʿā</hi> in these cases.<note place="foot"
+                        xml:id="ftn36" n="35"><p rend="footnote text"> Jacob of Serugh, <hi
+                                rend="italic">Hexaemeron</hi> Day 6 (text + translation: Takamitsu
+                            Muraoka, ed. and trans., <hi rend="italic">Jacob of Serugh’s</hi>
+                            Hexaemeron (Louvain: Peeters, 2018), 186–187, l. 505–510) and Jacob of
+                            Edessa, <hi rend="italic">Hexaemeron</hi> Day 7 (text: Jean Baptiste
+                            Chabot, ed., <hi rend="italic">Iacobi Edesseni Hexaemeron seu in opus
+                                creationis libri septem</hi>, CSCO 92 (Paris: Imprimerie
+                            Orientaliste L. Durbecq, 1928), 331.ii–333.ii; translation: Arthur
+                            Vaschalde, ed., <hi rend="italic">Iacobi Edesseni Hexaemeron seu in opus
+                                creationis libri septem</hi>, CSCO 97 (Leuven: Typographeum Marcelli
+                            Istas, 1932), 283.24–284.3).</p></note> In short, Barhebraeus does not
+                    seem to have inherited this term from earlier Syriac writings.<note place="foot"
+                        xml:id="ftn37" n="36"><p rend="footnote text"> A notable instance of <hi
+                                rend="italic">nuṭptā </hi>in a Syriac text is John of Dara’s (fl.
+                            ca. 800–860) <hi rend="italic">Mēmrā on the Resurrection of Human
+                                Bodies</hi> 1.4.4 (text: Aho Shemunkasho, ed. and trans., <hi
+                                rend="italic">John of Dara </hi>On the Resurrection of Human Bodies,
+                            Bibliotheca Nisibinensis 4 (Piscataway, NJ: Gorgias, 2020), 109;
+                            translation: ibid., 370)<hi rend="italic">.</hi> I am grateful to the
+                            editor for sharing the passages with me. I only give a brief analysis:
+                            John of Dara compares God’s power to raise the dead with his power in
+                            creating humankind. The latter is paralleled with human procreation –
+                            similar to the <hi rend="italic">Hexaemera</hi> of the two Jacobs (cf.
+                            n. 34 above). John uses <hi rend="italic">zarʿā</hi> in almost all
+                            cases, which mirrors, e.g., the terminology of his contemporary Moses
+                            bar Kepha. When John speaks of the ‘miracle’ of procreation, the human
+                            seed is figuratively called “a little drop” (<hi rend="italic">nuṭptā
+                                zʿortā)</hi>, which is “foul” (<hi rend="italic">ndid</hi>) and
+                            “dishonorable (<hi rend="italic">škir</hi>) to approach.” Strikingly,
+                            this resembles a <hi rend="italic">locus classicus </hi>of embryological
+                            motives in Rabbinic literature, i.e. <hi rend="italic">Pirkei Avot
+                            </hi>3.1. On the other hand, John portrays the development of the unborn
+                            after the mingling of the drop and menstrual blood with almost the same
+                            motives as contemporaneous Islamic discourse (cf. n. 22 above). Further,
+                            an instance of the term <hi rend="italic">nuṭptā d-zarʿā </hi>can be
+                            found in Išoʿdād of Merv (fl. ca. 850), where he refers to the Greek
+                            mythology of Chronos’s semen falling into the sea; cf. Išoʿdād of Merv,
+                                <hi rend="italic">Commentary on the Acts of the Apostles</hi>, ad.
+                            13 (text: M. D.  Gibson, <hi rend="italic">The commentaries of Ishoʿdad
+                                of Merv, bishop of Hadatha (c. 850 A.D.) in Syriac and English</hi>,
+                            5 vols. (Cambridge, Cambridge University Press: 1911–1916), vol. 4, 25;
+                            translation: ibid., Syriac 34. Regarding the references given for<hi
+                                rend="italic"> niṭupta </hi>in E.S. Drower and R. Macuch, <hi
+                                rend="italic">A Mandaic Dictionary </hi>(Oxford: Clarendon Press,
+                            1963), 298, the only one establishing a connection to sperm is W.
+                            Brandt, “Mandæans”, in <hi rend="italic">Encyclopedia of Religion and
+                                Ethics, </hi>vol. 8, p. 382; I would like to express my gratitude to
+                            one of the reviewers for pointing me into this direction. In general,
+                            this suggests a lively transcommunal discussion of the unborn in the
+                            context of creation and resurrection in early Islamic times, which will
+                            need further research. A possible echo of this interaction can be seen
+                            in Barhebraeus’s reference to the “foul drop” (<hi rend="italic">nuṭptā
+                                ndidtā</hi>) in his <hi rend="italic">Book of the Dove</hi>, I.4
+                            (text: Paul Bedjan, ed., <hi rend="italic">Ethicon, seu Moralia Gregorii
+                                Barhebraei</hi> (Paris: Otto Harrassowitz, 1898), 527; translation:
+                            A.J. Wensinck, ed. and trans., <hi rend="italic">Bar Hebraeus’s Book of
+                                the Dove: Together with some chapters from his Ethikon </hi>(Leyden:
+                            E.J. Brill, 1919), 9). Here, Barhebraeus likely draws on al-Ġazālī’s
+                            expression <hi rend="italic">nuṭfah qaḏirah </hi>in his<hi rend="italic"
+                                > Revival of the Religious Sciences</hi>, cf. ibid., 9, n.
+                        2.</p></note></p>
+                <p xml:lang="en">In the Quran, one finds the sequence <hi rend="italic">nuṭfah</hi>,
+                        <hi rend="italic">ʿalaqah</hi> and <hi rend="italic">muḍġah </hi>as well as
+                        <hi rend="italic">nuṭfah</hi> on its own.<note place="foot" xml:id="ftn38"
+                        n="37"><p rend="footnote text"> An analysis of this Quranic material by the
+                            ERC-Project <hi rend="italic">Contemporary Bioethics and the History of
+                                the Unborn in Islam</hi> (University of Hamburg) will be available
+                            in Thomas Eich and Doru C. Doroftei: <hi rend="italic">Adam und Embryo
+                            </hi>(Ergon: Baden-Baden, forthcoming). My research on Barhebraeus was
+                            part of this larger project.</p></note> This Quranic material and
+                    certain Hadith and early legal texts developed into an Islamic embryology, which
+                    was and is still widely received.<note place="foot" xml:id="ftn39" n="38"><p
+                            rend="footnote text"> This ‘Islamic’ embryology is distinct in that key
+                            terms and notions are employed throughout. However, it should not be
+                            conceived as totally self-contained and uniform. See the references in
+                            n. 22 above and also Nahyan Fancy, “Generation in Medieval Islamic
+                            Medicine,” in <hi rend="italic">Reproduction: Antiquity to the Present
+                                Day</hi>, 129–140.</p></note> In addition, the term <hi
+                        rend="italic">nuṭfah</hi> for semen is found in two relatively early texts:
+                    the Arabic translation of Aristotle’s <hi rend="italic">On the Generation of
+                        Animals</hi> (<hi rend="italic">De generatione animalium</hi>) as well as in
+                    the <hi rend="italic">Book of the Secret of Creation</hi> attributed to
+                    Apollonios of Tyana (ca. 40–120). These texts should be contextualized in
+                    reference to other works of natural philosophy or alchemy in the case of the <hi
+                        rend="italic">Secret of Creation</hi>. With their origins in the learned
+                    Greek tradition, their translation or redaction took place within a Christian
+                    milieu. However, no direct Syriac intermediary texts are known or extant.<note
+                        place="foot" xml:id="ftn40" n="39"><p rend="footnote text"> In case of the
+                                <hi rend="italic">On the Generation of Animals</hi>, there was a
+                            Syriac translation that is no longer extant, but it is not considered to
+                            be an intermediary for the Arabic translation; see Remke Kruk, ed., <hi
+                                rend="italic">The Arabic Version of Aristotle’s Parts of Animals.
+                                Book XI–XIV of the</hi> Kitāb al-Ḥayawān<hi rend="italic">: A
+                                Critical Edition with Introduction and Selected Glossary</hi>
+                            (Amsterdam: North-Holland Publishing Company, 1979), 24–31 and Lourus S.
+                            Filius, ed., <hi rend="italic">The Arabic Version of Aristotle’s
+                            </hi>Historia Animalium. <hi rend="italic">Book i–x of the </hi>Kitāb
+                            Al-Hayawān, in collaboration with Johannes den Heijer and John N.
+                            Mattock (Leiden: Brill, 2019), 4–6, 8–14. In the case of the <hi
+                                rend="italic">Book of the Secret of Creation</hi>, the exact <hi
+                                rend="italic">Vorlage</hi> is not known; see Ursula Weisser, <hi
+                                rend="italic">Das „Buch über das Geheimnis der Schöpfung“ von
+                                Pseudo-Apollonios von Tyana</hi> (Berlin: De Gruyter, 1980),
+                            48–54.</p></note> In the <hi rend="italic">Secret of Creation</hi>, <hi
+                        rend="italic">nuṭfah</hi> is used, among other things, for plant seeds and
+                    even offshoots.<note place="foot" xml:id="ftn41" n="40"><p rend="footnote text"
+                            > Pseudo-Apollonios of Tyana, <hi rend="italic">Book of the Secret of
+                                Creation</hi> IV.3.2 (text: Ursula Weisser, ed., <hi rend="italic"
+                                >Buch über das Geheimnis der Schöpfung und die Darstellung der Natur
+                                (Buch der Ursachen) </hi>(Aleppo: Institute for the History of
+                            Arabic Science, University of Aleppo, 1979), Arabic 318.11–319.2; German
+                            paraphrase: id., <hi rend="italic">Das „Buch über das Geheimnis der
+                                Schöpfung“</hi>, 117). Further accounts of <hi rend="italic"
+                                >nuṭfah</hi> can be found in the comprehensive index of the
+                            edition.</p></note> Most notably, the <hi rend="italic">Book of
+                        Secrets</hi> mentions <hi rend="italic">nuṭfah</hi> in cosmogony, along the
+                    lines of <hi rend="italic">logoi spermatikoi</hi>.<note place="foot"
+                        xml:id="ftn42" n="41"><p rend="footnote text"> Pseudo-Apollonios von
+                                Tyana,<hi rend="italic"> </hi><hi rend="italic">Book of the Secret
+                                of Creation</hi><hi rend="italic"> </hi>Prologue (text: Weisser,<hi
+                                rend="italic"> Darstellung der Natur</hi>, Arabic 3; German
+                            Paraphrase: id., <hi rend="italic">Das „Buch über das Geheimnis der
+                                Schöpfung“ </hi>, 74).</p></note><hi rend="Footnote_Reference1"
+                    > </hi> In the translation of Aristotle’s <hi rend="italic">On the Generation of
+                        Animals</hi>, <hi rend="italic">nuṭfah</hi> is used in a short passage for
+                    various Greek terms, even for the egg yolk.<note place="foot" xml:id="ftn43"
+                        n="42"><p rend="footnote text"> Aristotle, <hi rend="italic">On the
+                                Generation of Animals</hi> (premodern Arabic translation) IV.4
+                            (769b31–770a23 Bekker). In three more cases, <hi rend="italic"
+                                >nuṭfah</hi> is used to translate Greek <hi rend="italic"
+                                >sperma</hi> and <hi rend="italic">kuēma</hi> (772a10, 772a19 and
+                            772b18 Bekker, respectively). For the translation of Aristotle’s
+                            zoological works, see the introductions in J. Brugman and H. J.
+                            Drossaart Lulofs, eds., <hi rend="italic">Generation of Animals. The
+                                Arabic Translation commonly ascribed to Yaḥyâ ibn al-Biṭrîq</hi>
+                            (Leiden: Brill, 1971); Kruk, <hi rend="italic">The Arabic Version of
+                                Aristotle’s Parts of Animals,</hi> and Filius, <hi rend="italic">The
+                                Arabic Version of Aristotle’s</hi> Historia Animalium.</p></note><hi
+                        rend="Footnote_Reference1"> </hi>Accordingly, in both of these works, <hi
+                        rend="italic">nuṭfah</hi> renders different phenomena of procreation into
+                    Arabic. Recalling the probable Syriac-Christian background of the translators or
+                    redactors, it could be inferred that there had been no fixed terminology in
+                    Syriac for <hi rend="italic">nuṭptā</hi> as male semen or sperm drop.<note
+                        place="foot" xml:id="ftn44" n="43"><p rend="footnote text"> Weisser dates
+                            the <hi rend="italic">Book of the Secret of Creation to the 8th century;
+                                Weisser, Darstellung der Natur, 3. Comparing its more fluid usage of
+                                nuṭfah with the slightly later writings by </hi>John of Dara (cf. n.
+                            35 above) and the Arabic translation of the <hi rend="italic">On the
+                                Generation of Animals </hi>(dated at around 850), one is tempted to
+                            assume a gradual consolidation of the meaning of ‘drop’ meaning
+                            specifically ‘the human semen.’ This will need further
+                        research.</p></note></p>
+                <p xml:lang="en">In his writings in the 10th/11th century, Avicenna used these
+                    Islamic terms and notions of the unborn.<note place="foot" xml:id="ftn45" n="44"
+                            ><p rend="footnote text"> This is not to say that the <hi rend="italic"
+                                >content </hi>of Avicenna’s ideas of embryology can be conceived as
+                            ‘Islamic’ in a narrower, religious sense. However, his usage of terms
+                            such <hi rend="italic">qarār </hi>for the womb (cf. Quran 23:12–14),
+                            which he uses in the context of text [8] below, clearly betray his
+                            Islamic background.</p></note> In the following, I will highlight how he
+                    draws on semen and, more generally, on human procreation to illustrate
+                    philosophical problems. Only in the case of biological problems proper does
+                    Avicenna refer to <hi rend="italic">manīy, </hi>‘the ejaculate,’ whereas <hi
+                        rend="italic">nuṭfah</hi> is used in most other cases. For example, in the
+                        <hi rend="italic">Book on Demonstrative Proof </hi>within his<hi
+                        rend="italic"> Book of the Healing</hi>, he writes:</p>
+                <cit>
+                    <quote xml:lang="en">[7] We explain this in respect to something very obvious
+                            (<hi rend="italic">aẓhar</hi>), such as the human being: His effective,
+                        obvious cause is either the human being [itself], the drop (<hi
+                            rend="italic">nuṭfah</hi>) or the power [of formation] in the drop and
+                        the [potential] form therein.<note place="foot" xml:id="ftn46" n="45"><p
+                                rend="footnote text"> Avicenna, <hi rend="italic">Book of the
+                                    Healing: Book on Demonstrative Proof</hi><hi rend="italic"
+                                > </hi>2.9 (text: Ibn Sīnā, <hi rend="italic">Kitāb aš-Šifāʾ</hi>,
+                                    <hi rend="italic">al-manṭiq</hi> 5, <hi rend="italic"
+                                    >al-Burhān</hi>, ed. Abū al-ʿAlā ʿAfīfī and Ibrāhīm Maḏkūr
+                                (Cairo: Dār al-kātib al-ʿarabī li-ṭ-ṭibāʿah wa-n-našr, 1956),
+                                182.8–9).</p></note></quote>
+                </cit>
+                <p xml:lang="en">Here, Avicenna discusses causation theory and how this relates to
+                    proper logical proofs and natural processes.<note place="foot" xml:id="ftn47"
+                        n="46"><p rend="footnote text"> On this topic in Avicenna’s philosophy see
+                            McGinnis, <hi rend="italic">Avicenna</hi>, 27–52.</p></note> Leaving the
+                    philosophical details aside, I want to point out that this kind of illustration
+                    is widespread and is presented as very obvious (<hi rend="italic">aẓhar</hi>) by
+                    Avicenna. Against this background, further such instances in his writings can be
+                    examined. In a passage of the <hi rend="italic">Physics</hi> in the <hi
+                        rend="italic">Book of the Healing</hi>, Avicenna exemplifies how the active,
+                    formal, and final causes are one and the same in the case of human
+                    generation:</p>
+                <cit>
+                    <quote xml:lang="en">[8] Indeed, in the father there is the principle for the
+                        generation of the human form from the drop. But not all of this is from the
+                        father, rather the human form [alone]. And that which results in regard to
+                        the drop (<hi rend="italic">al-ḥāṣil fī n-nuṭfah</hi>) is nothing other than
+                        the human form. And the end to which the drop moves/changes (<hi
+                            rend="italic">tataḥarrak</hi>) is nothing other than the human
+                            form.<note place="foot" xml:id="ftn48" n="47"><p rend="footnote text"
+                                > Avicenna, <hi rend="italic">Book of the Healing: Physics</hi> 1.11
+                                (text + translation: McGinnis, <hi rend="italic">The Physics of The
+                                    Healing</hi>, Arabic 73, 73). McGinnis translates <hi
+                                    rend="italic">al-ḥāṣil fī n-nuṭfah</hi> as what “exists in the
+                                semen.” This is misleading, as the semen itself does not have human
+                                form. A more accurate translation would be “exists in the semen
+                                [potentially].”</p></note></quote>
+                </cit>
+                <p xml:lang="en">Certainly, passages where Avicenna treats causal theory in
+                    connection with human generation deserve more study.<note place="foot"
+                        xml:id="ftn49" n="48"><p rend="footnote text"> I add one last example from
+                            Avicenna’s <hi rend="italic">Book of the Salvation</hi>, where, again,
+                            the connection of demonstrative proofs and causal theories is discussed.
+                            Here, a carpenter and a father are presented as effective cause and
+                            principle of movement for the chair and the child (<hi rend="italic"
+                                >ṣabī</hi>), respectively. Accordingly, the material cause is the
+                            wood or the menstrual blood: Avicenna, <hi rend="italic">Book of the
+                                Salvation: Book of Demonstrative Proof</hi><hi rend="italic"> </hi>
+                            “On the Divisions of Causes and on the Proof of their Introduction into
+                            Definition and Demonstrative Proof” (text: <hi rend="italic">Ibn
+                                Sinā</hi>, <hi rend="italic">Kitāb an-Naǧāh fī l-ḥikmah
+                                al-mantiqiyyah wa‑ṭ‑ṭabiʿiyyah wa-l-ilāhiyya, ed. Māǧid Faḫrī
+                            (</hi>Beirut: Dār al-āfāq al-ǧadīdah, 1985), 119). In each case,
+                            examples from the technical field and from nature are provided. In what
+                            follows, Avicenna also uses <hi rend="italic">nuṭfat al-insān</hi> as an
+                            example of a specific case in natural causation. The semen is conceived
+                            by Avicenna as an effective cause (or, if the mixture of female and male
+                            contribution is implied, as material cause as well?) which can be used
+                            as a middle term in demonstrative proofs. This is because what is
+                            becoming already exists (<hi rend="italic">yūǧad al-kāʾin</hi>) with no
+                            division (<hi rend="italic">lā farqa bayna l-qismayn</hi>) between cause
+                            and effect (?). For the <hi rend="italic">Book of the</hi>
+                            <hi rend="italic">Salvation</hi>, see Gutas, <hi rend="italic">Avicenna
+                                and the Aristotelian Tradition</hi>, 115–117.</p></note> A clearer
+                    example can be found in the <hi rend="italic">Doctrines of the Philosophers</hi>
+                    of al-Ġazālī (1055–1111), a post-Avicennan author whose works Barhebraeus also
+                        adapted.<note place="foot" xml:id="ftn50" n="49"><p rend="footnote text"
+                            > See Hidemi Takahashi, “The Influence of al-Ghazālī on the Juridical,
+                            Theological and Philosophical Works of Barhebraeus,” in <hi
+                                rend="italic">Islam and Rationality</hi>, ed. Georges Tamer (Leiden:
+                            Brill, 2015). For the <hi rend="italic">Doctrines of the
+                                Philosophers</hi> see Ayman Shihadeh, “New Light on the Reception of
+                            al-Ghazālī’s <hi rend="italic">Doctrines of the Philosophers</hi> (<hi
+                                rend="italic">Maqāṣid al-Falāsifa</hi>),” in <hi rend="italic">In
+                                the Age of Averroes: Arabic Philosophy in the Sixth/Twelfth
+                                Century</hi>, ed. Peter Adamson (London: Warburg Institute,
+                            2011).</p></note> When treating the question of whether the soul
+                    precedes the body, al-Ġazālī describes the drop of semen as an instrument (<hi
+                        rend="italic">ālah</hi>) for the soul in the human coming-to-be.<note
+                        place="foot" xml:id="ftn51" n="50"><p rend="footnote text"> Al-Ġazālī, <hi
+                                rend="italic">Doctrines of the Philosophers</hi> “Teaching (<hi
+                                rend="italic">qawl</hi>) regarding the Human Soul” (text: al-Ġazālī,
+                                <hi rend="italic">Maqāṣid al-falāsifa</hi>, ed. Sulaymān Dunyā
+                            (Cairo: Dār al-maʿārif bi-Miṣr, 1961), 370).</p></note></p>
+                <p xml:lang="en">The preceding examples show how human procreation is used in
+                    Islamic philosophy, specifically by Avicenna, as a ready illustration when
+                    treating general philosophical problems. The Arabic term <hi rend="italic"
+                        >nuṭfah</hi> for ‘sperm drop’ is introduced in this philosophical discourse
+                    from the Quran and other Islamic religious writings. Pre-Islamic Syriac
+                    literature, conversely, does not seem to use the corresponding word <hi
+                        rend="italic">nuṭptā</hi> in this sense. This usage of <hi rend="italic"
+                        >nuṭptā</hi> probably entered the Christian discourse via philosophical and
+                    theological writings – rather than from literary genres connected to Quran or
+                        Hadith.<note place="foot" xml:id="ftn52" n="51"><p rend="footnote text"> An
+                            example from a Christian-Arabic author shows that there might be further
+                            instances, where <hi rend="italic">nuṭfah</hi>/<hi rend="italic"
+                                >nuṭptā</hi> is used for sperm drop in figurative speech in the
+                            writings of later Christian authors in an Islamic milieu: Paul of
+                            Antioch, in his <hi rend="italic">Response regarding the Miracles of
+                                Christ</hi>, attributes Jesus Christ to originate “neither from
+                            intercourse (<hi rend="italic">ǧamāʿ</hi>) nor from a drop (<hi
+                                rend="italic">nuṭfah</hi>):” Paul of Antioch, <hi rend="italic"
+                                >Response regarding the Miracles of Christ</hi> (text: Louis
+                            Cheikho, ed., <hi rend="italic">Vingt traités théologiques d’auteurs
+                                arabes chrétiens (IXe–XIIIe siècle)</hi> (Beirut: Imprimerie
+                            Catholique, 1920), 43; translation: Georg Graf,
+                            “Philosophisch-theologische Schriften des Paulus al-Râhib, Bischofs von
+                            Sidon: Aus dem Arabischen übersetzt,” <hi rend="italic">Jahrbuch für
+                                Philosophie und spekulative Theologie</hi> 20 (1906): 55–80,
+                            160–179, here 166). The translation by Max Horten is free and does not
+                            include an exact match for <hi rend="italic">nuṭfah</hi>, cf. his
+                            “Paulus, Bischof von Sidon (XIII. Jahrhundert). Einige seiner
+                            philosophischen Abhandlungen,” <hi rend="italic">Philosophisches
+                                Jahrbuch</hi> 19 (1906): 144–166, here 161.</p></note></p>
+                <p xml:lang="en">In summary, I have argued that Barhebraeus draws on the
+                    illustrations of philosophical problems related to human procreation, especially
+                    in Avicenna’s works. The latter conceives of substantial change as sudden and
+                    uses human generation as an illustration. The unborn cannot be more or less
+                    human, depending on its development. Instead, there must be a distinct point
+                    when the unborn stops to be semen and becomes a human being. This understanding
+                    of substantial change leaves a mark on Barhebraeus’s presentation of ensoulment
+                    as laid out in his later theological summa, the <hi rend="italic">Book of
+                        Rays</hi>. Here, he argues for ensoulment after the body has been completed
+                    rather than when the sperm drop is ‘sown.’ In his earlier <hi rend="italic"
+                        >Candelabrum of the Sanctuary</hi>, Barhebraeus rejects this. Thus, the
+                    Avicennan notion of substantial change is vital to Barhebraeus’s understanding
+                    of unborn life.</p>
+                <p xml:lang="en">However, in other instances, Barhebraeus deviates from Avicenna’s
+                    position. The latter refers to <hi rend="italic">ʿalaqah</hi> and <hi
+                        rend="italic">muḍġah</hi> as distinct embryological stages, following a
+                    widespread Islamic terminology in the context of the unborn. Barhebraeus avoids
+                    these terms. In his zoology, he posits periods for the embryo’s formation in
+                    line with Aristotle instead of Avicenna: 40 days in the case of a male and three
+                    months in the case of a female child. These periods mirror Barhebraeus’s
+                    reasoning on later ensoulment in the <hi rend="italic">Book of Rays</hi>: he
+                    explains the duration of the cleansing after birth prescribed in Leviticus
+                    12:2–5 (40 days for a boy, 80 for a girl) as a reflection of the time that a
+                    mother carries an inanimate body.</p>
+                <p xml:lang="en">Finally, it is Barhebraeus’s use of the term <hi rend="italic"
+                        >nuṭptā</hi> to refer to the sperm drop that forms a linchpin between his
+                    account of the unborn and that of Avicenna. Like Avicenna, he does not use this
+                    term in passages explicitly treating biological issues. Throughout the zoology
+                    of the <hi rend="italic">Cream of Wisdom</hi>, Barhebraeus renders semen as <hi
+                        rend="italic">zarʿā</hi>. Nevertheless, the term <hi rend="italic"
+                        >nuṭptā</hi> finds its way into his philosophical treatises. The respective
+                    passages reflect Barhebraeus’s reception of Avicenna.</p>
+                <p xml:lang="en">This article forms a case study on the complex paths of
+                    intellectual exchange that characterized the Syriac Renaissance. In this
+                    context, Islamic philosophical texts were one of Syriac-Christian authors’ most
+                    important conversation partners. Barhebraeus is an outstanding example of how
+                    Christians engaged with the new intellectual developments found in these texts,
+                    wrestled with them regarding their heritage, and ultimately developed a new
+                    synthesis, which could be seen as faithful to their own tradition but also
+                    reflected the debates of their time.</p>
+                <p xml:lang="en">As is known from many studies, Barhebraeus’s distinctiveness lies
+                    in his innovative approach of combining, modifying, and reinterpreting various
+                    sources. This bricolage technique, assembling and adapting existing materials
+                    into a cohesive whole, aligns with his normative provisions on the unborn that I
+                    have previously analyzed.<note place="foot" xml:id="ftn53" n="52"><p
+                            rend="footnote text"> Florian Jäckel, “Re-Negotiating Interconfessional
+                            Boundaries through Intertextuality: The Unborn in the <hi rend="italic"
+                                >Kṯābā ḏ-Huddāyē</hi> of Barhebraeus (d. 1286),” <hi rend="italic"
+                                >Medieval Encounters</hi> 26 (2020): 95–127, especially
+                        103–106.</p></note> Ultimately, his regulations on the burial of miscarried
+                    children and the sanctioning of abortions can be understood as a pastoral
+                    response to the concerns of a Christian community in an Islamic context.</p>
+                <p xml:lang="en">Barhebraeus’ embryological synthesis can be seen as a response to
+                    the inquiries of his time just as well. The enduring importance attributed to
+                    the unborn is evident not only in Barhebraeus’ writings but also in the works of
+                    other authors from various periods. Collectively, these sources highlight the
+                    unborn as a central theme in the theological and philosophical discourse of the
+                    late antique and medieval intellectual history. The perspectives of Syrian
+                    authors, particularly Barhebraeus, are not an exception within this broader
+                    panorama. Similar studies on this or other technical terms may reveal yet
+                    further instances of such a creative appropriation of Islamic ideas by Christian
+                    communities in the Middle Ages.</p>
+            </div>
+            <div xml:lang="en" type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                <bibl> Ainsworth, Thomas. “Form vs. Matter.” substantive revision:
+                    March 25, 2020. In <hi rend="italic">Stanford Encyclopedia of Philosophy</hi> ,
+                    ed. Edward N. Zalta. Accessed on October 20, 2022.
+                    https://plato.stanford.edu/entries/form-matter/. </bibl>
+                <bibl>
+                    <hi rend="italic"> Avicenna . Kitāb an-Naǧāh fī l-ḥikmah al-mantiqiyyah wa ‑ṭ
+                        ‑ṭabiʿiyyah wa-l-ilāhiyya , ed. Māǧid Faḫrī. B </hi> eirut: Dār al-āfāq
+                    al-ǧadīdah, 1985. </bibl>
+                <bibl> Avicenna. <hi rend="italic">Kitāb aš-Šifāʾ, al-manṭiq</hi>
+                    2, <hi rend="italic">al-Maqūlāt</hi> , ed. al-Ab Qanawātī [=George Anawati] et
+                    al. Cairo: Dār al-kātib al-ʿarabī li-ṭ-ṭibāʿah wa-n-našr, 1959. </bibl>
+                <bibl> Avicenna. <hi rend="italic">Kitāb aš-Šifāʾ</hi> , <hi
+                        rend="italic">al-manṭiq</hi> 5, <hi rend="italic">al-Burhān</hi> , ed. Abū
+                    al-ʿAlā ʿAfīfī and Ibrāhīm Maḏkūr. Cairo: Dār al-kātib al-ʿarabī li-ṭ-ṭibāʿah
+                    wa-n-našr, 1956. </bibl>
+                <bibl> Avicenna. <hi rend="italic"> Kitāb aš-Šifāʾ </hi> , <hi
+                        rend="italic"> aṭ-ṭabīʿiyyāt </hi> 8, <hi rend="italic"> al-ḥayawān , </hi>
+                    ed. ʿAbd al-Ḥalīm Muntaṣir et al. Cairo: al-Hayʾah al-miṣriyyah al-ʿāmmah
+                    li-t-taʾlīf wa-n-našr, 1970. </bibl>
+                <bibl> Bakoš, Ján, ed. <hi rend="italic">Psychologie de Grégoire
+                        Aboulfaradj dit Barhebraeus d’après la huitième base de l’ouvrage “Le
+                        Candélabre des Sanctuaires”</hi> . Leiden: Brill, 1948. </bibl>
+                <bibl> Barṣaum, Iġnāṭiyūs Afrām I, ed. <hi rend="italic"
+                        >L’Entretien de la sagesse par Mar Gregorius Abulfarage Bar Hebraeus
+                        Maphrien (catholicos) syrien de l’Orient</hi> . Homs, 1940. </bibl>
+                <bibl> Beck, Edmund, ed. <hi rend="italic">Des Heiligen Ephraem
+                        des Syrers Hymnen Contra Haereses</hi> . CSCO 169–170. Louvain: Secrétariat
+                    du CorpusSCO, 1957. </bibl>
+                <bibl> Bedjan, Paul, ed. <hi rend="italic">Ethicon, seu Moralia
+                        Gregorii Barhebraei</hi> . Paris: Otto Harrassowitz, 1898. </bibl>
+                <bibl> Brandt, Wilhelm. “Mandæans”. In <hi rend="italic"
+                        >Encyclopedia of Religion and Ethics. Volume VIII</hi> , Ed. James Hastings.
+                    New York &amp; Edinburg: Charles Scribner’s Sons &amp; T. &amp; T. Clark, p.
+                    380–393. </bibl>
+                <bibl> Brock, Sebastian P. “Clothing Metaphors as a Means of
+                    Theological Expression in Syriac Tradition.” in <hi rend="italic">Typus, Symbol,
+                        Allegorie bei den östlichen Vätern und ihren Parallelen im Mittelalter:
+                        Internationales Kolloquium, Eichstätt 1981</hi> , ed. Margot Schmidt and
+                    Carl Friedrich Geyer. Regensburg: Pustet, 1982. </bibl>
+                <bibl> Brugman, J. and H. J. Drossaart Lulofs, eds. <hi
+                        rend="italic">Generation of Animals. The Arabic Translation commonly
+                        ascribed to Yaḥyâ ibn al-Biṭrîq</hi> . Leiden: Brill, 1971. </bibl>
+                <bibl> Chabot, Jean Baptiste, ed. <hi rend="italic">Iacobi
+                        Edesseni Hexaemeron seu in opus creationis libri septem.</hi> CSCO 92.
+                    Paris: Imprimerie Orientaliste L. Durbecq, 1928. </bibl>
+                <bibl> Cheikho, Louis, ed. <hi rend="italic">Vingt traités
+                        théologiques d’auteurs arabes chrétiens (IXe–XIIIe siècle)</hi> . Beirut:
+                    Imprimerie Catholique, 1920. </bibl>
+                <bibl> Congourdeau, Marie-Hélène. “Debating the Soul in Late
+                    Antiquity.” in <hi rend="italic">Reproduction: Antiquity to the Present Day</hi>
+                    , ed. Nick Hopwood, Rebecca Flemming, and Lauren Kassell. Cambridge: Cambridge
+                    University Press, 2018. </bibl>
+                <bibl> Congourdeau, Marie-Hélène. <hi rend="italic">L’embryon et
+                        son âme dans les sources Grecques (viᵉ siècle av. J.-C.-vᵉ siècle apr.
+                        J.-C.)</hi> . Paris: Association des amis du Centre d'histoire et
+                    civilisation de Byzance, 2007. </bibl>
+                <bibl> Dadikhuda, Davlat. “Not that Simple: Avicenna, Rāzī, and
+                    Ṭūsī on the Incorruptibility of the Human Soul at Ishārāt VII.6.” in <hi
+                        rend="italic">Islamic Philosophy from the 12th to the 14th Century</hi> ,
+                    ed. Abdelkader Al Ghouz. Göttingen: V&amp;R unipress and Bonn University Press,
+                    2018. </bibl>
+                <bibl> Drossaart Lulofs, H.J. “Aristotle, Bar Hebraeus, and
+                    Nicolaus Damascenus on Animals.” in <hi rend="italic">Aristotle on Nature and
+                        Living Things: Philosophical and Historical Studies Presented to David M.
+                        Balme on his Seventieth Birthday</hi> , ed. Allan Gotthelf. Pittsburgh, PY:
+                    Mathesis Publications; Bristol: Bristol Classical Press, 1985. </bibl>
+                <bibl> Drower, Estel S. and Rudolf Macuch. <hi rend="italic">A
+                        Mandaic Dictionary. </hi> Oxford: Clarendon Press, 1963. </bibl>
+                <bibl> Eich, Thomas and Doru C. Doroftei: <hi rend="italic">Adam
+                        und Embryo</hi> . Ergon: Baden-Baden, forthcoming. </bibl>
+                <bibl> Eich, Thomas. “Induced Miscarriage in Early Mālikī and
+                    Ḥanafī <hi rend="italic">Fiqh</hi> .” <hi rend="italic">Islamic Law and
+                        Society</hi> 16 (2009): 302–336. </bibl>
+                <bibl> Eich, Thomas. “Patterns in the History of the Commentation
+                    on the So-Called <hi rend="italic"> ḥadīth Ibn Masʿūd .” J </hi>
+                    <hi rend="italic">ournal of Arabic and Islamic Studies</hi> 18 (2018): 137–162. </bibl>
+                <bibl> Eich, Thomas. “Zur Abtreibung in frühen islamischen
+                    Texten.” <hi rend="italic"> Zeitschrift der Deutschen Morgenländischen
+                        Gesellschaft</hi> 170, no. 2 (2020): 345–360. </bibl>
+                <bibl> Fancy, Nahyan. “Generation in Medieval Islamic Medicine.”
+                    in <hi rend="italic">Reproduction. Antiquity to the Present Day</hi> , ed. Nick
+                    Hopwood, Rebecca Flemming, and Lauren Kassell. Cambridge: Cambridge University
+                    Press, 2018. </bibl>
+                <bibl> Fathi, Jean. “Apologie et Mysticisme chez les chrétiens
+                    d’Orient: Recherches sur al-Kindī et Barhebraeus (vers 820 &amp; 1280)”. PhD
+                    diss., Katholieke Universiteit Leuven, 2020. </bibl>
+                <bibl> Fazzo, Silvia and Mauro Zonta. “Aristotle’s Theory of
+                    Causes and the Holy Trinity: New Evidence about the Chronology and Religion of
+                    Nicolaus ‘of Damascus’.” <hi rend="italic">Laval théologique et
+                        philosophique</hi> 64, no. 3 (2008): 681–690. </bibl>
+                <bibl> Fazzo, Silvia. “Nicolas, l’auteur du sommaire de la
+                    philosophie d’Aristote: Doutes sur son identité, sa datation, son origine.” <hi
+                        rend="italic">Revue des Études Grecques</hi> 121, no. 1 (2008): 99–126. </bibl>
+                <bibl> Filius, Lourus S. ed. <hi rend="italic">The Arabic Version
+                        of Aristotle’s </hi> Historia Animalium. <hi rend="italic">Book i–x of the
+                    </hi> Kitāb Al-Hayawān. In collaboration with Johannes den Heijer and John N.
+                    Mattock. Leiden: Brill, 2019. </bibl>
+                <bibl> Furlani, Giuseppe. “Barhebreo sull’ anima razionale (dal
+                    Libro del Candelabro del Santuario)” <hi rend="italic">Orientalia N. S.</hi> 1
+                    (1932): 1–23, 97–115. </bibl>
+                <bibl> al-Ġazālī. <hi rend="italic">Maqāṣid al-falāsifa</hi> , ed.
+                    Sulaymān Dunyā. Cairo: Dār al-maʿārif bi-Miṣr, 1961. </bibl>
+                <bibl> Gibson, M. D.  <hi rend="italic">The commentaries of
+                        Ishoʿdad of Merv, bishop of Hadatha (c. 850 A.D.) in Syriac and
+                        English.</hi> 5 vols. Cambridge, Cambridge University Press: 1911–1916. </bibl>
+                <bibl> Graf, Georg. “Philosophisch-theologische Schriften des
+                    Paulus al-Râhib, Bischofs von Sidon: Aus dem Arabischen übersetzt.” <hi
+                        rend="italic">Jahrbuch für Philosophie und spekulative Theologie</hi> 20
+                    (1906): 55–80, 160–179. </bibl>
+                <bibl> Gutas, Dimitri. <hi rend="italic">Avicenna and the
+                        Aristotelian Tradition: Introduction to Reading Avicenna’s Philosophical
+                        Works</hi> . <hi rend="italic">Second, Revised and Enlarged Edition,
+                        Including an Inventory of Avicenna’s Authentic Works</hi> . Leiden: Brill,
+                    2014. </bibl>
+                <bibl> Halim, Fachrizal A. <hi rend="italic">Legal Authority in
+                        Premodern Islam. Yaḥyā b. Sharaf al-Nawawī in the Shāfiʿī School of Law</hi>
+                    . London: Routledge, 2015. </bibl>
+                <bibl> Hugonnard-Roche, Henri. “La question de l’âme dans la
+                    tradition philosophique syriaque (VIe–IXe siècle) <hi rend="italic">.” Studia
+                        graeco-arabica</hi> 4 (2014): 17–64. </bibl>
+                <bibl> Holmes Katz, Marion. “The Problem of Abortion in Classical
+                    Sunni <hi rend="italic"> fiqh .” I </hi> n <hi rend="italic">Islamic Ethics of
+                        Life: Abortion, War, and Euthanasia</hi> , ed. Jonathan E. Brockopp.
+                    Columbia, SC: University of South Carolina Press, 2003. </bibl>
+                <bibl> Horten, Max. “Paulus, Bischof von Sidon (XIII.
+                    Jahrhundert). Einige seiner philosophischen Abhandlungen <hi rend="italic">.”
+                        Philosophisches Jahrbuch</hi> 19 (1906): 144–166. </bibl>
+                <bibl> Jäckel, Florian. <hi rend="italic"> “Wenn wir sagen, dass
+                        der Tropfen Mensch wird”: Vorstellungen ungeborenen Lebens bei Bar ʿEbrāyā
+                        (1226 –1286 n. Chr.)</hi> . Ergon: Baden-Baden, 2022. </bibl>
+                <bibl> Jäckel, Florian. Re-Negotiating Interconfessional
+                    Boundaries through Intertextuality: The Unborn in the <hi rend="italic"> Kṯābā
+                        ḏ- Huddāyē </hi> of Barhebraeus (d. 1286).” <hi rend="italic"> M</hi>
+                    <hi rend="italic"> edieval Encounters </hi> 26 (2020): 95–127. </bibl>
+                <bibl> Janssens, Herman F. “Bar Hebraeus’ Book of the Pupils of
+                    the Eye <hi rend="italic">.” The American Journal of Semitic Languages and
+                        Literatures</hi> 47, no. 1 (1930): 26–49, 47, no. 2 (1931): 94–134, 48, no.
+                    4 (1932): 209–263, 52, no. 1 (1935): 1–21. </bibl>
+                <bibl> Janssens, Herman F., ed. <hi rend="italic">L’Entretien de
+                        la Sagesse: Introduction aux œuvres philosophiques de Bar Hebraeus</hi> .
+                    Liège: Faculté de Philosophie et Lettres; Paris: Librairie E. Droz, 1937. </bibl>
+                <bibl> Kalbarczyk, Alexander. <hi rend="italic">Predication and
+                        Ontology: Studies and Texts on Avicennian and Post-Avicennian Readings of
+                        Aristotle’s Categories</hi> . Berlin: De Gruyter, 2018. </bibl>
+                <bibl> Kiraz, George A., ed. <hi rend="italic">Gorgias
+                        Encyclopedic Dictionary of the Syriac Heritage: Electronic Edition</hi> .
+                    Accessed October 20, 2022. https://gedsh.bethmardutho.org/index.html. </bibl>
+                <bibl> Kruk, Remke, ed. <hi rend="italic">The Arabic Version of
+                        Aristotle’s Parts of Animals. Book XI–XIV of the</hi> Kitāb al-Ḥayawān <hi
+                        rend="italic">: A Critical Edition with Introduction and Selected
+                        Glossary</hi> . Amsterdam: North-Holland Publishing Company, 1979. </bibl>
+                <bibl> Lagarde, Paul, ed. <hi rend="italic">Praetermissorum Libri
+                        Duo</hi> . Göttingen: Dieterich, 1879. </bibl>
+                <bibl> McGinnis, Jon. “On the Moment of Substantial Change: A
+                    Vexed Question in the History of Ideas.” In <hi rend="italic">Interpreting
+                        Avicenna: Science and Philosophy in Medieval Islam: Proceedings of the
+                        Second Conference of the Avicenna Study Group</hi> , ed. Jon McGinnis.
+                    Leiden: Brill, 2004. </bibl>
+                <bibl> McGinnis, Jon. <hi rend="italic">Avicenna</hi> . Great
+                    Medieval Thinkers. Oxford: Oxford University Press, 2010. </bibl>
+                <bibl> McGinnis, Jon, ed. and trans. <hi rend="italic">Avicenna.
+                        The Physics of The Healing. Books I &amp; II. A parallel English-Arabic
+                        text</hi> . Provo, UT: Brigham Young University Press, 2005. </bibl>
+                <bibl> Muraoka, Takamitsu, ed. and trans. <hi rend="italic">Jacob
+                        of Serugh’s</hi> Hexaemeron. Louvain: Peeters, 2018. </bibl>
+                <bibl> Platti, Emilio. “‘L’entretien de la sagesse’ de
+                    Barhebraeus: La traduction arabe,” <hi rend="italic">MIDEO</hi> 18 (1988):
+                    153–194. </bibl>
+                <bibl> Reller, Jobst. “Iwannis von Dara, Mose bar Kepha und Bar
+                    Hebräus über die Seele, traditionsgeschichtlich untersucht.” in <hi
+                        rend="italic">After Bardaisan: Studies on Continuity and Change in Syriac
+                        Christianity in Honour of Professor Han J.W. Drijvers</hi> , ed. G.J.
+                    Reinink and A.C. Klugkist. Leuven: Uitgeverij Peeters and Departement Oosterse
+                    Studies, 1999. </bibl>
+                <bibl> Rubens Duval, ed. <hi rend="italic">Lexicon Syriacum
+                        auctore Hassano Bar Bahlule</hi> , 3 vols. Paris: Reipublicae typographaeum,
+                    1901. </bibl>
+                <bibl> Schmitt, Jens Ole, ed. <hi rend="italic">Barhebraeus,
+                        Butyrum Sapientiae, Physics: Introduction, Edition, Translation, and
+                        Commentary</hi> . Leiden: Brill, forthcoming. </bibl>
+                <bibl> Shemunkasho, Aho, ed. and trans. <hi rend="italic">John of
+                        Dara </hi> On the Resurrection of Human Bodies, Bibliotheca Nisibinensis 4.
+                    Piscataway, NJ: Gorgias, 2020. </bibl>
+                <bibl> Shihadeh, Ayman. “New Light on the Reception of
+                    al-Ghazālī’s <hi rend="italic">Doctrines of the Philosophers</hi> ( <hi
+                        rend="italic">Maqāṣid al-Falāsifa</hi> ).” In <hi rend="italic">In the Age
+                        of Averroes: Arabic Philosophy in the Sixth/Twelfth Century</hi> , ed. Peter
+                    Adamson. London: Warburg Institute, 2011. </bibl>
+                <bibl> Steyer, Curt, ed. <hi rend="italic">Buch der Pupillen von
+                        Gregor Bar Hebräus</hi> . Leipzig: August Pries, 1908. </bibl>
+                <bibl> Studtmann, Paul. “Aristotle’s Categories.” S <hi
+                        rend="Emphasis"> ubstantive revision: February 2, 2021. In </hi>
+                    <hi rend="italic"> Stanford Encyclopedia of Philosophy</hi> , ed. Edward N.
+                    Zalta. Accessed on October 20, 2022.
+                    https://plato.stanford.edu/entries/aristotle-categories/. </bibl>
+                <bibl> Takahashi, Hidemi. “Reception of Islamic Theology among
+                    Syriac Christians in the Thirteenth Century: The Use of Fakhr al-Dīn al-Rāzī in
+                    Barhebraeus’ <hi rend="italic">Candelabrum of the Sanctuary</hi> .” <hi
+                        rend="italic"> Intellectual History of the Islamicate World</hi> 2 (2014):
+                    170–192. </bibl>
+                <bibl> Takahashi, Hidemi. “The Influence of al-Ghazālī on the
+                    Juridical, Theological and Philosophical Works of Barhebraeus.” in <hi
+                        rend="italic">Islam and Rationality</hi> , ed. Georges Tamer. Leiden: Brill,
+                    2015. </bibl>
+                <bibl> Takahashi, Hidemi. “The Reception of Ibn Sīnā in Syriac:
+                    The Case of Gregory Barhebraeus.” in <hi rend="italic">Before and After
+                        Avicenna: Proceedings of the First Conference of the Avicenna Study
+                        Group</hi> , ed. David C. Reisman, with the assistance of Ahmed H. Al‑Rahim.
+                    Leiden: Brill, 2003. </bibl>
+                <bibl> Takahashi, Hidemi. “Barhebraeus und seine islamischen
+                    Quellen. Têḡraṯ têḡrāṯā (Tractatus tractatuum) und Ġazālīs Maqāṣid al-falāsifa.”
+                    In <hi rend="italic">Syriaca. Zur Geschichte, Theologie, Liturgie und
+                        Gegenwartslage der syrischen Kirchen</hi> , ed. Martin Tamcke. Münster,
+                    Hamburg, and London: LIT, 2002. </bibl>
+                <bibl> Takahashi, Hidemi. <hi rend="italic">Barhebraeus: A
+                        Bio-Bibliography</hi> . Piscataway, NJ: Gorgias, 2013. </bibl>
+                <bibl> Takahashi, Hidemi, ed. <hi rend="italic">Aristotelian
+                        Meteorology in Syriac. Barhebraeus, Butyrum Sapientiae, Books of Mineralogy
+                        and Meteorology</hi> . Leiden: Brill, 2004. </bibl>
+                <bibl> Teule, Herman. “The Interaction of Syriac Christianity and
+                    the Muslim World in the Period of the Syriac Renaissance .” in <hi rend="italic"
+                        >Syriac Churches Encountering Islam: Past Experiences and Future
+                        Perspectives</hi> , ed. Dietmar W. Winkler. Piscataway, NJ: Gorgias, 2010. </bibl>
+                <bibl> Thijssen, Johannes M. “Twins as Monsters: Albertus Magnus’s
+                    Theory of the Generation of Twins and its Philosophical Context <hi
+                        rend="italic">.” Bulletin of the History of Medicine</hi> 61, no. 2 (1987):
+                    237–246. </bibl>
+                <bibl> Thom, Paul. “The division of the categories according to
+                    Avicenna.” In <hi rend="italic">Aristotle and the Arabic Tradition</hi> , ed.
+                    Ahmed Alwishah and Josh Hayes. Cambridge: Cambridge University Press, 2015. </bibl>
+                <bibl> Toepel, Alexander. <hi rend="italic">Die Adam- und
+                        Seth-Legenden im syrischen Buch der Schatzhöhle: Eine quellenkritische
+                        Untersuchung</hi> , CSCO 618. Louvain: Peeters, 2006. </bibl>
+                <bibl> al-ʿUṯaymīn, Muḥammad b. Sālih. <hi rend="italic">Šarḥ
+                        al-arbaʿīn an-nawawīyah</hi> . Riyadh: Dār aṯ-ṯurayyā li-n-našr wa-tawzīʿ,
+                    2004. </bibl>
+                <bibl> Vaschalde, Arthur, ed. <hi rend="italic">Babai Magni Liber
+                        de Unione</hi> . CSCO 79–80. Louvain: Imprimerie Orientaliste L. Durbecq,
+                    1953. </bibl>
+                <bibl> Vaschalde, Arthur, ed. <hi rend="italic">Iacobi Edesseni
+                        Hexaemeron seu in opus creationis libri septem.</hi> CSCO 97. Leuven:
+                    Typographeum Marcelli Istas, 1932. </bibl>
+                <bibl> Weisser, Ursula. <hi rend="italic">Das „Buch über das
+                        Geheimnis der Schöpfung“ von Pseudo-Apollonios von Tyana</hi> . Berlin: De
+                    Gruyter, 1980. </bibl>
+                <bibl> Weisser, Ursula, ed. <hi rend="italic">Buch über das
+                        Geheimnis der Schöpfung und die Darstellung der Natur (Buch der
+                        Ursachen)</hi> . Aleppo: Institute for the History of Arabic Science,
+                    University of Aleppo, 1979. </bibl>
+                <bibl> Weisser, Ursula. <hi rend="italic">Zeugung, Vererbung und
+                        pränatale Entwicklung in der Medizin des arabisch-islamischen
+                        Mittelalters</hi> . Erlangen, 1983. </bibl>
+                <bibl> Wensinck, A.J., ed. and trans. <hi rend="italic">Bar
+                        Hebraeus’s Book of the Dove: Together with some chapters from his
+                        Ethikon</hi> (Leyden: E.J. Brill, 1919). </bibl>
+                <bibl> Yešūʿ b. Gabriel, ed. <hi rend="italic">Ktābā d-Zalgē
+                        w-šurārā d-šetēssē ʿēdtānyātā – Book of Zelge by Bar-Hebreaus</hi> [sic] <hi
+                        rend="italic">. Mor Gregorius Abulfaraj the Great Syrian Philosopher and
+                        Author of Several Christian Works 1226–1286</hi> . Istanbul, 1997. </bibl>
+                <bibl> Zalta, Edward N., ed. <hi rend="italic">Stanford
+                        Encyclopedia of Philosophy</hi> . Accessed October 20, 2022. <ref
+                        target="https://plato.stanford.edu/index.html">
+                        \https://plato.stanford.edu/index.html </ref> . </bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
